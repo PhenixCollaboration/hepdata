@@ -1,0 +1,57 @@
+independent_variables:
+- header: {name: '$p_{T}[GeV/c]$'}
+  values:
+  - {low: 0.00, high: 1.00}
+  - {low: 1.00, high: 2.00}
+  - {low: 2.00, high: 3.00}
+  - {low: 3.00, high: 4.00}
+  - {low: 4.00, high: 5.00}
+dependent_variables:
+- header: {name: '$R_{AA}$, $|y| < 0.35$ (global err. 16%)'}
+  qualifiers:
+  - {name: '', value: '$\frac{dN^{AA}/dy}{\langle N_{part} \rangle dN^{pp}/dy}$, 0-20% Centrality'}
+  values:
+  - value: 0.5501
+    errors:
+    - {symerror: 0.0570, label: 'stat'}
+    - {symerror: 0.0820, label: 'sys'}
+  - value: 0.4876
+    errors:
+    - {symerror: 0.0480, label: 'stat'}
+    - {symerror: 0.0686, label: 'sys'}
+  - value: 0.4843
+    errors:
+    - {symerror: 0.0653, label: 'stat'}
+    - {symerror: 0.0670, label: 'sys'}
+  - value: 0.5835
+    errors:
+    - {symerror: 0.1351, label: 'stat'}
+    - {symerror: 0.0797, label: 'sys'}
+  - value: 0.8111
+    errors:
+    - {symerror: 0.3589, label: 'stat'}
+    - {symerror: 0.1094, label: 'sys'}
+- header: {name: '$R_{AA}$, $1.2 < |y| < 2.2$ (global err. 12%)'}
+  qualifiers:
+  - {name: '', value: '$\frac{dN^{AA}/dy}{\langle N_{part} \rangle dN^{pp}/dy}$, 0-20% Centrality'}
+  values:
+  - value: 0.4761
+    errors:
+    - {symerror: 0.0386, label: 'stat'}
+    - {symerror: 0.0454, label: 'sys'}
+  - value: 0.4742
+    errors:
+    - {symerror: 0.0341, label: 'stat'}
+    - {symerror: 0.0453, label: 'sys'}
+  - value: 0.6206
+    errors:
+    - {symerror: 0.0638, label: 'stat'}
+    - {symerror: 0.0594, label: 'sys'}
+  - value: 0.5364
+    errors:
+    - {symerror: 0.0769, label: 'stat'}
+    - {symerror: 0.0519, label: 'sys'}
+  - value: 0.5316
+    errors:
+    - {symerror: 0.1666, label: 'stat'}
+    - {symerror: 0.0542, label: 'sys'}

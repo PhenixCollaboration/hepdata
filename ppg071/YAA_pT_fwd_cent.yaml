@@ -1,0 +1,156 @@
+independent_variables:
+- header: {name: '$p_{T} [GeV]$'}
+  values:
+  - {value: 0.00-0.50}
+  - {value: 0.50-1.00}
+  - {value: 1.00-1.50}
+  - {value: 1.50-2.00}
+  - {value: 2.00-2.50}
+  - {value: 2.50-3.00}
+  - {value: 3.00-4.00}
+  - {value: 4.00-5.00}
+dependent_variables:
+- header: {name: '0-20% Centrality (global sys. err. 3.0%)'}
+  qualifiers:
+  - {name: '', value: '$\frac{1}{2 \pi p_T} \frac{B d^2N}{dy dp_T}$, $1.2 < |y| < 2.2$'}
+  values:
+  - value: 5.683e-06
+    errors:
+    - {asymerror: {plus: 8.006e-07, minus: 4.480e-07}, label: 'stat'}
+    - {symerror: 4.480e-07, label: 'y sys'}
+  - value: 4.191e-06
+    errors:
+    - {asymerror: {plus: 3.730e-07, minus: 3.341e-07}, label: 'stat'}
+    - {symerror: 3.341e-07, label: 'y sys'}
+  - value: 2.359e-06
+    errors:
+    - {asymerror: {plus: 2.520e-07, minus: 1.879e-07}, label: 'stat'}
+    - {symerror: 1.879e-07, label: 'y sys'}
+  - value: 1.866e-06
+    errors:
+    - {asymerror: {plus: 1.731e-07, minus: 1.500e-07}, label: 'stat'}
+    - {symerror: 1.500e-07, label: 'y sys'}
+  - value: 1.022e-06
+    errors:
+    - {asymerror: {plus: 1.172e-07, minus: 8.408e-08}, label: 'stat'}
+    - {symerror: 8.408e-08, label: 'y sys'}
+  - value: 4.702e-07
+    errors:
+    - {asymerror: {plus: 7.083e-08, minus: 3.823e-08}, label: 'stat'}
+    - {symerror: 3.823e-08, label: 'y sys'}
+  - value: 1.538e-07
+    errors:
+    - {asymerror: {plus: 2.124e-08, minus: 1.330e-08}, label: 'stat'}
+    - {symerror: 1.330e-08, label: 'y sys'}
+  - value: 3.535e-08
+    errors:
+    - {asymerror: {plus: 1.038e-08, minus: 3.307e-09}, label: 'stat'}
+    - {symerror: 3.307e-09, label: 'y sys'}
+- header: {name: '20-40% Centrality (global sys. err. 3.0%)'}
+  qualifiers:
+  - {name: '', value: '$\frac{1}{2 \pi p_T} \frac{B d^2N}{dy dp_T}$, $1.2 < |y| < 2.2$'}
+  values:
+  - value: 2.535e-06
+    errors:
+    - {asymerror: {plus: 3.705e-07, minus: 2.055e-07}, label: 'stat'}
+    - {symerror: 2.055e-07, label: 'y sys'}
+  - value: 1.791e-06
+    errors:
+    - {asymerror: {plus: 1.740e-07, minus: 1.420e-07}, label: 'stat'}
+    - {symerror: 1.420e-07, label: 'y sys'}
+  - value: 1.366e-06
+    errors:
+    - {asymerror: {plus: 1.227e-07, minus: 1.094e-07}, label: 'stat'}
+    - {symerror: 1.094e-07, label: 'y sys'}
+  - value: 9.019e-07
+    errors:
+    - {asymerror: {plus: 8.486e-08, minus: 7.264e-08}, label: 'stat'}
+    - {symerror: 7.264e-08, label: 'y sys'}
+  - value: 5.223e-07
+    errors:
+    - {asymerror: {plus: 5.736e-08, minus: 4.224e-08}, label: 'stat'}
+    - {symerror: 4.224e-08, label: 'y sys'}
+  - value: 2.648e-07
+    errors:
+    - {asymerror: {plus: 3.906e-08, minus: 2.171e-08}, label: 'stat'}
+    - {symerror: 2.171e-08, label: 'y sys'}
+  - value: 7.985e-08
+    errors:
+    - {asymerror: {plus: 1.088e-08, minus: 6.791e-09}, label: 'stat'}
+    - {symerror: 6.791e-09, label: 'y sys'}
+  - value: 1.370e-08
+    errors:
+    - {asymerror: {plus: 4.362e-09, minus: 1.179e-09}, label: 'stat'}
+    - {symerror: 1.179e-09, label: 'y sys'}
+- header: {name: '40-60% Centrality (global sys. err. 3.0%)'}
+  qualifiers:
+  - {name: '', value: '$\frac{1}{2 \pi p_T} \frac{B d^2N}{dy dp_T}$, $1.2 < |y| < 2.2$'}
+  values:
+  - value: 1.304e-06
+    errors:
+    - {asymerror: {plus: 1.981e-07, minus: 1.030e-07}, label: 'stat'}
+    - {symerror: 1.030e-07, label: 'y sys'}
+  - value: 8.970e-07
+    errors:
+    - {asymerror: {plus: 8.500e-08, minus: 7.096e-08}, label: 'stat'}
+    - {symerror: 7.096e-08, label: 'y sys'}
+  - value: 5.725e-07
+    errors:
+    - {asymerror: {plus: 6.481e-08, minus: 4.559e-08}, label: 'stat'}
+    - {symerror: 4.559e-08, label: 'y sys'}
+  - value: 3.697e-07
+    errors:
+    - {asymerror: {plus: 4.362e-08, minus: 2.968e-08}, label: 'stat'}
+    - {symerror: 2.968e-08, label: 'y sys'}
+  - value: 1.895e-07
+    errors:
+    - {asymerror: {plus: 2.543e-08, minus: 1.534e-08}, label: 'stat'}
+    - {symerror: 1.534e-08, label: 'y sys'}
+  - value: 9.971e-08
+    errors:
+    - {asymerror: {plus: 1.873e-08, minus: 8.199e-09}, label: 'stat'}
+    - {symerror: 8.199e-09, label: 'y sys'}
+  - value: 3.743e-08
+    errors:
+    - {asymerror: {plus: 5.592e-09, minus: 3.187e-09}, label: 'stat'}
+    - {symerror: 3.187e-09, label: 'y sys'}
+  - value: 7.913e-09
+    errors:
+    - {asymerror: {plus: 2.129e-09, minus: 6.820e-10}, label: 'stat'}
+    - {symerror: 6.820e-10, label: 'y sys'}
+- header: {name: '60-94% Centrality (global sys. err. 3.0%)'}
+  qualifiers:
+  - {name: '', value: '$\frac{1}{2 \pi p_T} \frac{B d^2N}{dy dp_T}$, $1.2 < |y| < 2.2$'}
+  values:
+  - value: 3.928e-07
+    errors:
+    - {asymerror: {plus: 5.775e-08, minus: 3.112e-08}, label: 'stat'}
+    - {symerror: 3.112e-08, label: 'y sys'}
+  - value: 2.512e-07
+    errors:
+    - {asymerror: {plus: 2.994e-08, minus: 1.991e-08}, label: 'stat'}
+    - {symerror: 1.991e-08, label: 'y sys'}
+  - value: 1.344e-07
+    errors:
+    - {asymerror: {plus: 1.917e-08, minus: 1.071e-08}, label: 'stat'}
+    - {symerror: 1.071e-08, label: 'y sys'}
+  - value: 9.246e-08
+    errors:
+    - {asymerror: {plus: 1.311e-08, minus: 7.433e-09}, label: 'stat'}
+    - {symerror: 7.433e-09, label: 'y sys'}
+  - value: 5.680e-08
+    errors:
+    - {asymerror: {plus: 9.681e-09, minus: 4.620e-09}, label: 'stat'}
+    - {symerror: 4.620e-09, label: 'y sys'}
+  - value: 1.908e-08
+    errors:
+    - {asymerror: {plus: 4.377e-09, minus: 1.556e-09}, label: 'stat'}
+    - {symerror: 1.556e-09, label: 'y sys'}
+  - value: 6.686e-09
+    errors:
+    - {asymerror: {plus: 1.754e-09, minus: 5.841e-10}, label: 'stat'}
+    - {symerror: 5.841e-10, label: 'y sys'}
+  - value: 3.354e-09
+    errors:
+    - {asymerror: {plus: 1.038e-09, minus: 2.989e-10}, label: 'stat'}
+    - {symerror: 2.989e-10, label: 'y sys'}
