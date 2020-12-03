@@ -1,0 +1,94 @@
+independent_variables:
+- header: {name: '$p_{T} [GeV]$'}
+  values:
+  - {low: 0, high: 1}
+  - {low: 1, high: 2}
+  - {low: 2, high: 3}
+  - {low: 3, high: 4}
+  - {low: 4, high: 5}
+  - {low: 5, high: 6}
+dependent_variables:
+- header: {name: '$R_{AA}$ 20-40% Centrality  (global sys. err. 10.0%)'}
+  qualifiers:
+  - {name: '', value: '$\frac{dN^{AA}/dy}{\langle N_{part} \rangle dN^{pp}/dy}$  $(1.2 < |y| < 2.2)$'}
+  values:
+  - value: 0.25
+    errors:
+    - {symerror: 0.03, label: 'stat'}
+    - {symerror: 0.04, label: 'y sys'}
+  - value: 0.29
+    errors:
+    - {symerror: 0.03, label: 'stat'}
+    - {symerror: 0.04, label: 'y sys'}
+  - value: 0.40
+    errors:
+    - {symerror: 0.04, label: 'stat'}
+    - {symerror: 0.05, label: 'y sys'}
+  - value: 0.41
+    errors:
+    - {symerror: 0.07, label: 'stat'}
+    - {symerror: 0.06, label: 'y sys'}
+  - value: 0.57
+    errors:
+    - {symerror: 0.15, label: 'stat'}
+    - {symerror: 0.12, label: 'y sys'}
+  - value: 0.56
+    errors:
+    - {symerror: 0.21, label: 'stat'}
+    - {symerror: 0.08, label: 'y sys'}
+- header: {name: '$R_{AA}$ 40-60% Centrality  (global sys. err. 13.0%)'}
+  qualifiers:
+  - {name: '', value: '$\frac{dN^{AA}/dy}{\langle N_{part} \rangle dN^{pp}/dy}$  $(1.2 < |y| < 2.2)$'}
+  values:
+  - value: 0.51
+    errors:
+    - {symerror: 0.04, label: 'stat'}
+    - {symerror: 0.07, label: 'y sys'}
+  - value: 0.49
+    errors:
+    - {symerror: 0.04, label: 'stat'}
+    - {symerror: 0.06, label: 'y sys'}
+  - value: 0.55
+    errors:
+    - {symerror: 0.06, label: 'stat'}
+    - {symerror: 0.07, label: 'y sys'}
+  - value: 0.61
+    errors:
+    - {symerror: 0.09, label: 'stat'}
+    - {symerror: 0.08, label: 'y sys'}
+  - value: 0.94
+    errors:
+    - {symerror: 0.20, label: 'stat'}
+    - {symerror: 0.14, label: 'y sys'}
+  - value: 0.50
+    errors:
+    - {symerror: 0.19, label: 'stat'}
+    - {symerror: 0.14, label: 'y sys'}
+- header: {name: '$R_{AA}$ 60-92% Centrality  (global sys. err. 19.0%)'}
+  qualifiers:
+  - {name: '', value: '$\frac{dN^{AA}/dy}{\langle N_{part} \rangle dN^{pp}/dy}$  $(1.2 < |y| < 2.2)$'}
+  values:
+  - value: 0.93
+    errors:
+    - {symerror: 0.08, label: 'stat'}
+    - {symerror: 0.12, label: 'y sys'}
+  - value: 0.73
+    errors:
+    - {symerror: 0.06, label: 'stat'}
+    - {symerror: 0.10, label: 'y sys'}
+  - value: 0.69
+    errors:
+    - {symerror: 0.08, label: 'stat'}
+    - {symerror: 0.09, label: 'y sys'}
+  - value: 0.69
+    errors:
+    - {symerror: 0.13, label: 'stat'}
+    - {symerror: 0.09, label: 'y sys'}
+  - value: 1.29
+    errors:
+    - {symerror: 0.32, label: 'stat'}
+    - {symerror: 0.17, label: 'y sys'}
+  - value: 0.99
+    errors:
+    - {symerror: 0.38, label: 'stat'}
+    - {symerror: 0.20, label: 'y sys'}

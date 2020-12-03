@@ -1,0 +1,94 @@
+independent_variables:
+- header: {name: '$p_{T} [GeV]$'}
+  values:
+  - {low: 0, high: 1}
+  - {low: 1, high: 2}
+  - {low: 2, high: 3}
+  - {low: 3, high: 4}
+  - {low: 4, high: 5}
+  - {low: 5, high: 6}
+dependent_variables:
+- header: {name: '20-40% Centrality (global sys. err. 10.0%)'}
+  qualifiers:
+  - {name: '', value: '$B_{\mu\mu}\frac{d^3N}{dp_T^2dy}$ $(1.2 < |y| < 2.2)$'}
+  values:
+  - value: 5.08e-06
+    errors:
+    - {symerror: 5.75e-07, label: 'stat'}
+    - {symerror: 6.65e-07, label: 'y sys'}
+  - value: 2.78e-06
+    errors:
+    - {symerror: 2.38e-07, label: 'stat'}
+    - {symerror: 2.64e-07, label: 'y sys'}
+  - value: 1.11e-06
+    errors:
+    - {symerror: 1.01e-07, label: 'stat'}
+    - {symerror: 8.98e-08, label: 'y sys'}
+  - value: 2.76e-07
+    errors:
+    - {symerror: 3.57e-08, label: 'stat'}
+    - {symerror: 2.55e-08, label: 'y sys'}
+  - value: 7.47e-08
+    errors:
+    - {symerror: 1.40e-08, label: 'stat'}
+    - {symerror: 1.35e-08, label: 'y sys'}
+  - value: 2.68e-08
+    errors:
+    - {symerror: 6.17e-09, label: 'stat'}
+    - {symerror: 3.08e-09, label: 'y sys'}
+- header: {name: '40-60% Centrality (global sys. err. 13.0%)'}
+  qualifiers:
+  - {name: '', value: '$B_{\mu\mu}\frac{d^3N}{dp_T^2dy}$ $(1.2 < |y| < 2.2)$'}
+  values:
+  - value: 3.19e-06
+    errors:
+    - {symerror: 2.21e-07, label: 'stat'}
+    - {symerror: 2.64e-07, label: 'y sys'}
+  - value: 1.49e-06
+    errors:
+    - {symerror: 9.27e-08, label: 'stat'}
+    - {symerror: 1.22e-07, label: 'y sys'}
+  - value: 4.80e-07
+    errors:
+    - {symerror: 3.92e-08, label: 'stat'}
+    - {symerror: 3.91e-08, label: 'y sys'}
+  - value: 1.27e-07
+    errors:
+    - {symerror: 1.32e-08, label: 'stat'}
+    - {symerror: 1.13e-08, label: 'y sys'}
+  - value: 3.86e-08
+    errors:
+    - {symerror: 4.92e-09, label: 'stat'}
+    - {symerror: 4.14e-09, label: 'y sys'}
+  - value: 7.51e-09
+    errors:
+    - {symerror: 1.69e-09, label: 'stat'}
+    - {symerror: 2.04e-09, label: 'y sys'}
+- header: {name: '60-94% Centrality (global sys. err. 19.0%)'}
+  qualifiers:
+  - {name: '', value: '$B_{\mu\mu}\frac{d^3N}{dp_T^2dy}$ $(1.2 < |y| < 2.2)$'}
+  values:
+  - value: 9.05e-07
+    errors:
+    - {symerror: 5.70e-08, label: 'stat'}
+    - {symerror: 7.30e-08, label: 'y sys'}
+  - value: 3.40e-07
+    errors:
+    - {symerror: 2.20e-08, label: 'stat'}
+    - {symerror: 2.74e-08, label: 'y sys'}
+  - value: 9.19e-08
+    errors:
+    - {symerror: 9.23e-09, label: 'stat'}
+    - {symerror: 7.55e-09, label: 'y sys'}
+  - value: 2.21e-08
+    errors:
+    - {symerror: 3.55e-09, label: 'stat'}
+    - {symerror: 1.98e-09, label: 'y sys'}
+  - value: 8.13e-09
+    errors:
+    - {symerror: 1.39e-09, label: 'stat'}
+    - {symerror: 7.01e-10, label: 'y sys'}
+  - value: 2.31e-09
+    errors:
+    - {symerror: 5.44e-10, label: 'stat'}
+    - {symerror: 4.01e-10, label: 'y sys'}

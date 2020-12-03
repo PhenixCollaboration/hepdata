@@ -1,0 +1,33 @@
+independent_variables:
+- header: {name: '$p_{T} [GeV]$'}
+  values:
+  - {low: 0, high: 1}
+  - {low: 1, high: 2}
+  - {low: 2, high: 3}
+  - {low: 3, high: 4}
+  - {low: 4, high: 5}
+dependent_variables:
+- header: {name: '0-20% Centrality (global sys. err. 10.0%)'}
+  qualifiers:
+  - {name: '', value: '$B_{\mu\mu}\frac{d^3N}{dp_T^2dy}$ $(1.2 < |y| < 2.2)$'}
+  values:
+  - value: 9.36e-06
+    errors:
+    - {symerror: 1.59e-06, label: 'stat'}
+    - {symerror: 1.01e-06, label: 'y sys'}
+  - value: 4.46e-06
+    errors:
+    - {symerror: 6.99e-07, label: 'stat'}
+    - {symerror: 3.98e-07, label: 'y sys'}
+  - value: 1.37e-06
+    errors:
+    - {symerror: 2.98e-07, label: 'stat'}
+    - {symerror: 1.71e-07, label: 'y sys'}
+  - value: 2.99e-07
+    errors:
+    - {symerror: 1.12e-07, label: 'stat'}
+    - {symerror: 2.75e-08, label: 'y sys'}
+  - value: 2.05e-07
+    errors:
+    - {symerror: 4.56e-08, label: 'stat'}
+    - {symerror: 1.82e-08, label: 'y sys'}

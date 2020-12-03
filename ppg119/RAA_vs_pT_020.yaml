@@ -1,0 +1,33 @@
+independent_variables:
+- header: {name: '$p_{T} [GeV]$'}
+  values:
+  - {low: 0, high: 1}
+  - {low: 1, high: 2}
+  - {low: 2, high: 3}
+  - {low: 3, high: 4}
+  - {low: 4, high: 5}
+dependent_variables:
+- header: {name: '$R_{AA}$ 0-20% Centrality (global sys. err. 10.0%)'}
+  qualifiers:
+  - {name: '', value: '$\frac{dN^{AA}/dy}{\langle N_{part} \rangle dN^{pp}/dy}$  $(1.2 < |y| < 2.2)$'}
+  values:
+  - value: 0.18
+    errors:
+    - {symerror: 0.03, label: 'stat'}
+    - {symerror: 0.03, label: 'y sys'}
+  - value: 0.18
+    errors:
+    - {symerror: 0.03, label: 'stat'}
+    - {symerror: 0.02, label: 'y sys'}
+  - value: 0.19
+    errors:
+    - {symerror: 0.04, label: 'stat'}
+    - {symerror: 0.03, label: 'y sys'}
+  - value: 0.17
+    errors:
+    - {symerror: 0.07, label: 'stat'}
+    - {symerror: 0.02, label: 'y sys'}
+  - value: 0.60
+    errors:
+    - {symerror: 0.17, label: 'stat'}
+    - {symerror: 0.08, label: 'y sys'}

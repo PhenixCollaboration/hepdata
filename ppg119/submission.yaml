@@ -1,0 +1,66 @@
+---
+additional_resources: # additional references (e.g. experiment TWiki page for analysis)
+  - {location: "https://journals.aps.org/prc/abstract/10.1103/PhysRevC.84.054912", description: "PRC publication, November 2011"}
+  - {location: "https://arxiv.org/abs/1910.14487", description: "arXiv link"}	
+comment: | ### PPG119 ### Jamie Nagle and Matt Wysocki (designated coordinators) ### InspireID: 894560 ###
+  BNL-RHIC.  Heavy quarkonia are observed to be suppressed in relativistic heavy ion collisions relative to their production in p$+$p collisions scaled by the number of binary collisions. In order to determine if this suppression is related to color screening of these states in the produced medium, one needs to account for other nuclear modifications including those in cold nuclear matter. In this paper, we present new measurements from the PHENIX 2007 data set of J/$\psi$ yields at forward rapidity ($1.2 < |y| < 2.2$) in Au$+$Au collisions at $\sqrt{s_{NN}} = 200$ GeV. The data confirm the earlier finding that the suppression of J/$\psi$ at forward rapidity is stronger than at midrapidity, while also extending the measurement to finer bins in collision centrality and higher transverse momentum ($p_{T}$). We compare the experimental data to the most recent theoretical calculations that incorporate a variety of physics mechanisms including gluon saturation, gluon shadowing, initial-state parton energy loss, cold nuclear matter breakup, color screening, and charm recombination. We find J/$\psi$ suppression beyond cold-nuclear-matter effects. However, the current level of disagreement between models and d$+$Au data precludes using these models to quantify the hot-nuclear-matter suppression.
+---
+name: "Table 1"
+location: Data from Tables I and II of $J/\psi$ suppression at forward rapidity in Au$+$Au collisions at $\sqrt{s_{_{NN}}} = 200$ GeV (PRC 84, 054192) 
+keywords: 
+  - {name: reactions, values: [J/PSI(1S) --> MU+MU-]}
+  - {name: observables, values: [INV. YIELD]}
+  - {name: cmenergies, values: [200.0]} # centre-of-mass energy in GeV
+  - {name: phrases, values: [J/psi, Inclusive, Muon Production, Centrality]}
+data_file: YAA_vs_Npart.yaml
+description: "J/psi invariant yield in Au+Au collisions as a function of N_part at forward rapidity (p_T integrated).  The statistical and systematic uncertainties vary point-to-point and are listed for each measured value.  An additional global systematic uncertainty is provided in each column heading, which applies to all data points per column."
+---
+name: "Table 2"
+location: Data from Fig. 2 of PRC 84, 054192	
+keywords: 
+  - {name: reactions, values: [J/PSI(1S) --> MU+MU-]}
+  - {name: observables, values: [RAA]}
+  - {name: cmenergies, values: [200.0]} # centre-of-mass energy in GeV
+  - {name: phrases, values: [J/psi, Inclusive, Muon Production, Centrality]}
+data_file: RAA_vs_Npart.yaml
+description: J/psi nuclear modification in Au+Au collisions as a function of N_part at forward rapidity (pT integrated).  The statistical and systematic uncertainties vary point-to-point and are listed for each measured value.  An additional global systematic uncertainty is provided in each column heading, which applies to all data points per column."
+---
+name: "Table 3"
+location: Data from Tables I and III of PRC 84, 054192	
+keywords: 
+  - {name: reactions, values: [J/PSI(1S) --> MU+MU-]}
+  - {name: observables, values: [INV. YIELD]}
+  - {name: cmenergies, values: [200.0]} # centre-of-mass energy in GeV
+  - {name: phrases, values: [J/psi, Inclusive, Muon Production, Transverse Momentum]}
+data_file: YAA_vs_pT_020.yaml
+description: "J/psi invariant yield in Au+Au collisions as a function of transverse momentum for the 0-20% centrality class at forward rapidity.  The statistical and systematic uncertainties vary point-to-point and are listed for each measured value.  An additional global systematic uncertainty is provided in each column heading, which applies to all data points per column."
+---
+name: "Table 4"
+location: Data from Tables I and III of PRC 84, 054192	
+keywords: 
+  - {name: reactions, values: [J/PSI(1S) --> MU+MU-]}
+  - {name: observables, values: [INV. YIELD]}
+  - {name: cmenergies, values: [200.0]} # centre-of-mass energy in GeV
+  - {name: phrases, values: [J/psi, Inclusive, Muon Production, Transverse Momentum]}
+data_file: YAA_vs_pT_cent.yaml
+description: "J/psi invariant yield in Au+Au collisions as a function of transverse momentum for the 20-40, 40-60 and 60-92% centrality classes at forward rapidity.  The statistical and systematic uncertainties vary point-to-point and are listed for each measured value.  An additional global systematic uncertainty is provided in each column heading, which applies to all data points per column."
+---
+name: "Table 5"
+location: Data from Fig. 3 of PRC 84, 054192	
+keywords: 
+  - {name: reactions, values: [J/PSI(1S) --> MU+MU-]}
+  - {name: observables, values: [RAA]}
+  - {name: cmenergies, values: [200.0]} # centre-of-mass energy in GeV
+  - {name: phrases, values: [J/psi, Inclusive, Muon Production, Transverse Momentum]}
+data_file: RAA_vs_pT_020.yaml
+description: J/psi nuclear modification in Au+Au collisions as a function of transverse momentum for the 0-20% centrality class at forward rapidity.  The statistical and systematic uncertainties vary point-to-point and are listed for each measured value.  An additional global systematic uncertainty is provided in each column heading, which applies to all data points per column."
+---
+name: "Table 6"
+location: Data from Fig. 3 of PRC 84, 054192	
+keywords: 
+  - {name: reactions, values: [J/PSI(1S) --> MU+MU-]}
+  - {name: observables, values: [RAA]}
+  - {name: cmenergies, values: [200.0]} # centre-of-mass energy in GeV
+  - {name: phrases, values: [J/psi, Inclusive, Muon Production, Transverse Momentum]}
+data_file: RAA_vs_pT_cent.yaml
+description: J/psi nuclear modification in Au+Au collisions as a function of transverse momentum for the 20-40, 40-60 and 60-92% centrality classes at forward rapidity.  The statistical and systematic uncertainties vary point-to-point and are listed for each measured value.  An additional global systematic uncertainty is provided in each column heading, which applies to all data points per column."
