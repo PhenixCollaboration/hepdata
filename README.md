@@ -1,13 +1,18 @@
 # HEPData
 
-## YAML Maker
-A lot of these HEPData files were made by the UTK group using YAML_Maker
-https://github.com/tkrobatsch/YAML_Maker
-You can find YAML_Maker here and a tutorial on YAML_Maker here
-https://www.youtube.com/watch?v=_hz6EVPeuW4&t=4s
+## This repository
+* This repository is used to manage materials prepared by the PHENIX Collaboration for publication on the
+HEPData Portal: https://www.hepdata.net/
+* Materials already uploaded: https://www.hepdata.net/search/?collaboration=PHENIX
 
-## Procedure
-To be uploaded to the HEPData database, the files in each directory need to be tarred or zipped and this compressed file is uploaded to HEPData.
+## Policies and Procedures
+Please this page for details: 
+https://phenixcollaboration.github.io/web/results/hepdata.html
+
+## The "YAML Maker"
+Many of these HEPData files were made by the UTK group using YAML_Maker: https://github.com/tkrobatsch/YAML_Maker
+
+You can find YAML_Maker here and a tutorial on YAML_Maker here: https://www.youtube.com/watch?v=_hz6EVPeuW4&t=4s
 
 ## Examples
 See the "examples" folder
