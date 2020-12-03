@@ -1,0 +1,250 @@
+independent_variables:
+- header: {name: '$p_{T}[GeV/c]$'}
+  values:
+  - {low: 0.00, high: 0.25}
+  - {low: 0.25, high: 0.50}
+  - {low: 0.50, high: 0.75}
+  - {low: 0.75, high: 1.00}
+  - {low: 1.00, high: 1.25}
+  - {low: 1.25, high: 1.50}
+  - {low: 1.50, high: 1.75}
+  - {low: 1.75, high: 2.00}
+  - {low: 2.00, high: 2.25}
+  - {low: 2.25, high: 2.50}
+  - {low: 2.50, high: 2.75}
+  - {low: 2.75, high: 3.00}
+  - {low: 3.00, high: 3.25}
+  - {low: 3.25, high: 3.50}
+  - {low: 3.50, high: 3.75}
+  - {low: 3.75, high: 4.00}
+  - {low: 4.00, high: 5.00}
+  - {low: 5.00, high: 7.00}
+dependent_variables:
+- header: {name: '$\frac{1}{2\pi p_{T} \Delta p_{T} \Delta y} \frac{c_\mathrm{BBC}}{\varepsilon_\mathrm{Ae} \varepsilon_\mathrm{trig}} \frac{N_{J/\psi}}{N_\mathrm{evt}}$  (global err. 13.6%)'}
+  qualifiers:
+  - {name: '', value: '$\frac{B_{ll}}{2\pi p_{T}} \frac{d^{2}N}{dydp_{T}}$,  p+Al$\sqrt{s_{NN}}$=200GeV, 0-20% Centrality, $-2.2 < y < -1.2$'}
+  values:
+  - value: 2.19e-7
+    errors:
+    - {symerror: 5.11e-8, label: 'stat'}
+    - {symerror: 4.50e-8, label: 'sys'}
+  - value: 2.55e-7
+    errors:
+    - {symerror: 2.41e-8, label: 'stat'}
+    - {symerror: 5.18e-8, label: 'sys'}
+  - value: 2.05e-7
+    errors:
+    - {symerror: 1.52e-8, label: 'stat'}
+    - {symerror: 4.13e-8, label: 'sys'}
+  - value: 1.73e-7
+    errors:
+    - {symerror: 1.09e-8, label: 'stat'}
+    - {symerror: 3.41e-8, label: 'sys'}
+  - value: 1.56e-7
+    errors:
+    - {symerror: 9.30e-9, label: 'stat'}
+    - {symerror: 3.02e-8, label: 'sys'}
+  - value: 1.34e-7
+    errors:
+    - {symerror: 7.63e-9, label: 'stat'}
+    - {symerror: 2.53e-8, label: 'sys'}
+  - value: 9.97e-8
+    errors:
+    - {symerror: 6.18e-9, label: 'stat'}
+    - {symerror: 1.83e-8, label: 'sys'}
+  - value: 6.26e-8
+    errors:
+    - {symerror: 4.36e-9, label: 'stat'}
+    - {symerror: 1.12e-8, label: 'sys'}
+  - value: 3.90e-8
+    errors:
+    - {symerror: 3.39e-9, label: 'stat'}
+    - {symerror: 6.83e-9, label: 'sys'}
+  - value: 3.16e-8
+    errors:
+    - {symerror: 3.18e-9, label: 'stat'}
+    - {symerror: 5.43e-9, label: 'sys'}
+  - value: 2.34e-8
+    errors:
+    - {symerror: 2.16e-9, label: 'stat'}
+    - {symerror: 3.97e-9, label: 'sys'}
+  - value: 1.73e-8
+    errors:
+    - {symerror: 1.92e-9, label: 'stat'}
+    - {symerror: 2.90e-9, label: 'sys'}
+  - value: 1.62e-8
+    errors:
+    - {symerror: 1.85e-9, label: 'stat'}
+    - {symerror: 2.69e-9, label: 'sys'}
+  - value: 9.10e-9
+    errors:
+    - {symerror: 1.18e-9, label: 'stat'}
+    - {symerror: 1.49e-9, label: 'sys'}
+  - value: 5.29e-9
+    errors:
+    - {symerror: 8.47e-10, label: 'stat'}
+    - {symerror: 8.50e-10, label: 'sys'}
+  - value: 3.42e-9
+    errors:
+    - {symerror: 6.65e-10, label: 'stat'}
+    - {symerror: 5.39e-10, label: 'sys'}
+  - value: 1.02e-9
+    errors:
+    - {symerror: 1.50e-10, label: 'stat'}
+    - {symerror: 1.56e-10, label: 'sys'}
+  - value: 1.15e-10
+    errors:
+    - {symerror: 2.59e-11, label: 'stat'}
+    - {symerror: 1.73e-11, label: 'sys'}
+- header: {name: '$\frac{1}{2\pi p_{T} \Delta p_{T} \Delta y} \frac{c_\mathrm{BBC}}{\varepsilon_\mathrm{Ae} \varepsilon_\mathrm{trig}} \frac{N_{J/\psi}}{N_\mathrm{evt}}$  (global err. 10.3%)'}
+  qualifiers:
+  - {name: '', value: '$\frac{B_{ll}}{2\pi p_{T}} \frac{d^{2}N}{dydp_{T}}$,  p+Al$\sqrt{s_{NN}}$=200GeV, 20-40% Centrality, $-2.2 < y < -1.2$'}
+  values:
+  - value: 2.35e-7
+    errors:
+    - {symerror: 3.41e-8, label: 'stat'}
+    - {symerror: 4.82e-8, label: 'sys'}
+  - value: 2.12e-7
+    errors:
+    - {symerror: 2.13e-8, label: 'stat'}
+    - {symerror: 4.32e-8, label: 'sys'}
+  - value: 1.93e-7
+    errors:
+    - {symerror: 1.72e-8, label: 'stat'}
+    - {symerror: 3.88e-8, label: 'sys'}
+  - value: 1.46e-7
+    errors:
+    - {symerror: 1.05e-8, label: 'stat'}
+    - {symerror: 2.89e-8, label: 'sys'}
+  - value: 1.07e-7
+    errors:
+    - {symerror: 7.72e-9, label: 'stat'}
+    - {symerror: 2.07e-8, label: 'sys'}
+  - value: 8.48e-8
+    errors:
+    - {symerror: 7.53e-9, label: 'stat'}
+    - {symerror: 1.60e-8, label: 'sys'}
+  - value: 6.97e-8
+    errors:
+    - {symerror: 7.04e-9, label: 'stat'}
+    - {symerror: 1.28e-8, label: 'sys'}
+  - value: 4.80e-8
+    errors:
+    - {symerror: 4.62e-9, label: 'stat'}
+    - {symerror: 8.59e-9, label: 'sys'}
+  - value: 4.14e-8
+    errors:
+    - {symerror: 3.53e-9, label: 'stat'}
+    - {symerror: 7.24e-9, label: 'sys'}
+  - value: 2.22e-8
+    errors:
+    - {symerror: 2.89e-9, label: 'stat'}
+    - {symerror: 3.82e-9, label: 'sys'}
+  - value: 1.59e-8
+    errors:
+    - {symerror: 1.96e-9, label: 'stat'}
+    - {symerror: 2.70e-9, label: 'sys'}
+  - value: 1.36e-8
+    errors:
+    - {symerror: 1.57e-9, label: 'stat'}
+    - {symerror: 2.28e-9, label: 'sys'}
+  - value: 8.24e-9
+    errors:
+    - {symerror: 1.40e-9, label: 'stat'}
+    - {symerror: 1.36e-9, label: 'sys'}
+  - value: 5.55e-9
+    errors:
+    - {symerror: 9.71e-10, label: 'stat'}
+    - {symerror: 9.06e-10, label: 'sys'}
+  - value: 2.97e-9
+    errors:
+    - {symerror: 6.20e-10, label: 'stat'}
+    - {symerror: 4.78e-10, label: 'sys'}
+  - value: 2.88e-9
+    errors:
+    - {symerror: 6.66e-10, label: 'stat'}
+    - {symerror: 4.54e-10, label: 'sys'}
+  - value: 1.12e-9
+    errors:
+    - {symerror: 1.57e-10, label: 'stat'}
+    - {symerror: 1.72e-10, label: 'sys'}
+  - value: 1.14e-10
+    errors:
+    - {symerror: 2.73e-11, label: 'stat'}
+    - {symerror: 1.71e-11, label: 'sys'}
+- header: {name: '$\frac{1}{2\pi p_{T} \Delta p_{T} \Delta y} \frac{c_\mathrm{BBC}}{\varepsilon_\mathrm{Ae} \varepsilon_\mathrm{trig}} \frac{N_{J/\psi}}{N_\mathrm{evt}}$  (global err. 10.9%)'}
+  qualifiers:
+  - {name: '', value: '$\frac{B_{ll}}{2\pi p_{T}} \frac{d^{2}N}{dydp_{T}}$,  p+Al$\sqrt{s_{NN}}$=200GeV, 40-72% Centrality, $-2.2 < y < -1.2$'}
+  values:
+  - value: 1.48e-7
+    errors:
+    - {symerror: 2.47e-8, label: 'stat'}
+    - {symerror: 3.04e-8, label: 'sys'}
+  - value: 1.48e-7
+    errors:
+    - {symerror: 1.45e-8, label: 'stat'}
+    - {symerror: 3.01e-8, label: 'sys'}
+  - value: 1.18e-7
+    errors:
+    - {symerror: 1.00e-8, label: 'stat'}
+    - {symerror: 2.38e-8, label: 'sys'}
+  - value: 1.11e-7
+    errors:
+    - {symerror: 8.58e-9, label: 'stat'}
+    - {symerror: 2.19e-8, label: 'sys'}
+  - value: 7.12e-8
+    errors:
+    - {symerror: 6.02e-9, label: 'stat'}
+    - {symerror: 1.38e-8, label: 'sys'}
+  - value: 7.23e-8
+    errors:
+    - {symerror: 5.54e-9, label: 'stat'}
+    - {symerror: 1.37e-8, label: 'sys'}
+  - value: 4.89e-8
+    errors:
+    - {symerror: 4.20e-9, label: 'stat'}
+    - {symerror: 8.99e-9, label: 'sys'}
+  - value: 3.12e-8
+    errors:
+    - {symerror: 2.78e-9, label: 'stat'}
+    - {symerror: 5.58e-9, label: 'sys'}
+  - value: 2.45e-8
+    errors:
+    - {symerror: 2.61e-9, label: 'stat'}
+    - {symerror: 4.28e-9, label: 'sys'}
+  - value: 1.61e-8
+    errors:
+    - {symerror: 1.65e-9, label: 'stat'}
+    - {symerror: 2.77e-9, label: 'sys'}
+  - value: 1.27e-8
+    errors:
+    - {symerror: 1.60e-9, label: 'stat'}
+    - {symerror: 2.15e-9, label: 'sys'}
+  - value: 8.29e-9
+    errors:
+    - {symerror: 1.17e-9, label: 'stat'}
+    - {symerror: 1.39e-9, label: 'sys'}
+  - value: 5.76e-9
+    errors:
+    - {symerror: 9.22e-10, label: 'stat'}
+    - {symerror: 9.54e-10, label: 'sys'}
+  - value: 5.03e-9
+    errors:
+    - {symerror: 8.22e-10, label: 'stat'}
+    - {symerror: 8.22e-10, label: 'sys'}
+  - value: 3.76e-9
+    errors:
+    - {symerror: 6.41e-10, label: 'stat'}
+    - {symerror: 6.03e-10, label: 'sys'}
+  - value: 2.78e-9
+    errors:
+    - {symerror: 4.90e-10, label: 'stat'}
+    - {symerror: 4.37e-10, label: 'sys'}
+  - value: 4.96e-10
+    errors:
+    - {symerror: 8.50e-11, label: 'stat'}
+    - {symerror: 7.64e-11, label: 'sys'}
+  - value: 7.94e-11
+    errors:
+    - {symerror: 1.83e-11, label: 'stat'}
+    - {symerror: 1.19e-11, label: 'sys'}

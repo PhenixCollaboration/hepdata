@@ -1,0 +1,173 @@
+independent_variables:
+- header: {name: '$p_T$'}
+  values:
+  - {low: 0.38, high: 0.955}
+  - {low: 0.955, high: 1.47}
+  - {low: 1.47, high: 1.975}
+  - {low: 1.975, high: 2.47}
+  - {low: 2.47, high: 2.97}
+  - {low: 2.97, high: 3.97}
+  - {low: 3.97, high: 5.97}
+  - {low: 5.97, high: 7.415}
+  - {low: 7.415, high: 8.625}
+dependent_variables:
+- header: {name: 'yield'}
+  qualifiers:
+  - {name: '$p_T$', value: '2.0<p_{T}^{A}<3.0'}
+  values:
+  - value: 2.62E-01
+    errors:
+    - {symerror: 1.63E-03, label: 'stat'}
+    - {symerror: 6.49E-02, label: 'sys'}
+  - value: 1.16E-01
+    errors:
+    - {symerror: 8.29E-04, label: 'stat'}
+    - {symerror: 2.81E-02, label: 'sys'}
+  - value: 5.31E-02
+    errors:
+    - {symerror: 4.39E-04, label: 'stat'}
+    - {symerror: 9.35E-03, label: 'sys'}
+  - value: 2.24E-02
+    errors:
+    - {symerror: 2.29E-04, label: 'stat'}
+    - {symerror: 2.83E-03, label: 'sys'}
+  - value: 8.91E-03
+    errors:
+    - {symerror: 1.27E-04, label: 'stat'}
+    - {symerror: 1.00E-03, label: 'sys'}
+  - value: 2.77E-03
+    errors:
+    - {symerror: 4.73E-05, label: 'stat'}
+    - {symerror: 2.30E-04, label: 'sys'}
+  - value: 6.79E-04
+    errors:
+    - {symerror: 1.92E-05, label: 'stat'}
+    - {symerror: 4.74E-05, label: 'sys'}
+  - value: 1.43E-04
+    errors:
+    - {symerror: 6.24E-06, label: 'stat'}
+    - {symerror: 1.26E-05, label: 'sys'}
+  - value: 8.74E-06
+    errors:
+    - {symerror: 1.04E-06, label: 'stat'}
+    - {symerror: 1.58E-06, label: 'sys'}
+- header: {name: 'yield'}
+  qualifiers:
+  - {name: '$p_T$', value: '3.0<p_{T}^{A}<4.0'}
+  values:
+  - value: 3.20E-01
+    errors:
+    - {symerror: 4.82E-03, label: 'stat'}
+    - {symerror: 6.42E-02, label: 'sys'}
+  - value: 1.51E-01
+    errors:
+    - {symerror: 2.46E-03, label: 'stat'}
+    - {symerror: 2.50E-02, label: 'sys'}
+  - value: 7.55E-02
+    errors:
+    - {symerror: 1.31E-03, label: 'stat'}
+    - {symerror: 9.67E-03, label: 'sys'}
+  - value: 3.06E-02
+    errors:
+    - {symerror: 6.87E-04, label: 'stat'}
+    - {symerror: 3.03E-03, label: 'sys'}
+  - value: 1.68E-02
+    errors:
+    - {symerror: 3.89E-04, label: 'stat'}
+    - {symerror: 1.23E-03, label: 'sys'}
+  - value: 6.41E-03
+    errors:
+    - {symerror: 1.48E-04, label: 'stat'}
+    - {symerror: 3.44E-04, label: 'sys'}
+  - value: 1.85E-03
+    errors:
+    - {symerror: 6.46E-05, label: 'stat'}
+    - {symerror: 1.05E-04, label: 'sys'}
+  - value: 4.47E-04
+    errors:
+    - {symerror: 2.18E-05, label: 'stat'}
+    - {symerror: 3.45E-05, label: 'sys'}
+  - value: 3.87E-05
+    errors:
+    - {symerror: 4.02E-06, label: 'stat'}
+    - {symerror: 3.77E-06, label: 'sys'}
+- header: {name: 'yield'}
+  qualifiers:
+  - {name: '$p_T$', value: '4.0<p_{T}^{A}<5.0'}
+  values:
+  - value: 3.43E-01
+    errors:
+    - {symerror: 1.24E-02, label: 'stat'}
+    - {symerror: 7.33E-02, label: 'sys'}
+  - value: 1.96E-01
+    errors:
+    - {symerror: 6.31E-03, label: 'stat'}
+    - {symerror: 2.72E-02, label: 'sys'}
+  - value: 1.04E-01
+    errors:
+    - {symerror: 3.38E-03, label: 'stat'}
+    - {symerror: 9.51E-03, label: 'sys'}
+  - value: 4.88E-02
+    errors:
+    - {symerror: 1.79E-03, label: 'stat'}
+    - {symerror: 4.18E-03, label: 'sys'}
+  - value: 2.94E-02
+    errors:
+    - {symerror: 1.03E-03, label: 'stat'}
+    - {symerror: 1.90E-03, label: 'sys'}
+  - value: 1.08E-02
+    errors:
+    - {symerror: 4.16E-04, label: 'stat'}
+    - {symerror: 6.82E-04, label: 'sys'}
+  - value: 3.31E-03
+    errors:
+    - {symerror: 1.81E-04, label: 'stat'}
+    - {symerror: 2.56E-04, label: 'sys'}
+  - value: 1.20E-03
+    errors:
+    - {symerror: 7.00E-05, label: 'stat'}
+    - {symerror: 6.85E-05, label: 'sys'}
+  - value: 6.57E-05
+    errors:
+    - {symerror: 1.43E-05, label: 'stat'}
+    - {symerror: 1.44E-05, label: 'sys'}
+- header: {name: 'yield'}
+  qualifiers:
+  - {name: '$p_T$', value: '5.0<p_{T}^{A}<10.0'}
+  values:
+  - value: 3.45E-01
+    errors:
+    - {symerror: 3.15E-02, label: 'stat'}
+    - {symerror: 7.44E-02, label: 'sys'}
+  - value: 2.30E-01
+    errors:
+    - {symerror: 1.61E-02, label: 'stat'}
+    - {symerror: 7.10E-02, label: 'sys'}
+  - value: 1.36E-01
+    errors:
+    - {symerror: 8.79E-03, label: 'stat'}
+    - {symerror: 1.83E-02, label: 'sys'}
+  - value: 7.22E-02
+    errors:
+    - {symerror: 4.70E-03, label: 'stat'}
+    - {symerror: 8.28E-03, label: 'sys'}
+  - value: 3.93E-02
+    errors:
+    - {symerror: 2.79E-03, label: 'stat'}
+    - {symerror: 4.47E-03, label: 'sys'}
+  - value: 2.18E-02
+    errors:
+    - {symerror: 1.20E-03, label: 'stat'}
+    - {symerror: 1.54E-03, label: 'sys'}
+  - value: 8.98E-03
+    errors:
+    - {symerror: 6.32E-04, label: 'stat'}
+    - {symerror: 5.76E-04, label: 'sys'}
+  - value: 3.31E-03
+    errors:
+    - {symerror: 4.57E-04, label: 'stat'}
+    - {symerror: 1.27E-04, label: 'sys'}
+  - value: 2.23E-04
+    errors:
+    - {symerror: 7.18E-05, label: 'stat'}
+    - {symerror: 2.55E-05, label: 'sys'}

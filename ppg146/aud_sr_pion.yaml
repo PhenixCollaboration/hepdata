@@ -1,0 +1,128 @@
+independent_variables:
+- header: {name: '$p_T$'}
+  values:
+  - {low: 0.5, high: 0.6}
+  - {low: 0.6, high: 0.7}
+  - {low: 0.7, high: 0.8}
+  - {low: 0.8, high: 0.9}
+  - {low: 0.9, high: 1.0}
+  - {low: 1.0, high: 1.1}
+  - {low: 1.1, high: 1.2}
+  - {low: 1.2, high: 1.3}
+  - {low: 1.3, high: 1.4}
+  - {low: 1.4, high: 1.5}
+  - {low: 1.5, high: 1.6}
+  - {low: 1.6, high: 1.7}
+  - {low: 1.7, high: 1.8}
+  - {low: 1.8, high: 1.9}
+  - {low: 1.9, high: 2.0}
+  - {low: 2.0, high: 2.2}
+  - {low: 2.2, high: 2.4}
+  - {low: 2.4, high: 2.6}
+  - {low: 2.6, high: 2.8}
+  - {low: 2.8, high: 3.0}
+  - {low: 3.0, high: 3.5}
+  - {low: 3.5, high: 4.0}
+  - {low: 4.0, high: 4.5}
+  - {low: 4.5, high: 5.0}
+dependent_variables:
+- header: {name: '$Ratio of Inv Yield$'}
+  qualifiers:
+  - {name: '$p_T$', value: '$\pi^- + \pi^+$'}
+  values:
+  - value: 1.21527
+    errors:
+    - {symerror: 0.0139122, label: 'Stat. err'}
+    - {symerror: 0.145832, label: 'Syst. err'}
+  - value: 1.15587
+    errors:
+    - {symerror: 0.0126247, label: 'Stat. err'}
+    - {symerror: 0.138704, label: 'Syst. err'}
+  - value: 1.05874
+    errors:
+    - {symerror: 0.011399, label: 'Stat. err'}
+    - {symerror: 0.127049, label: 'Syst. err'}
+  - value: 1.03097
+    errors:
+    - {symerror: 0.0111325, label: 'Stat. err'}
+    - {symerror: 0.123716, label: 'Syst. err'}
+  - value: 1.02967
+    errors:
+    - {symerror: 0.011269, label: 'Stat. err'}
+    - {symerror: 0.123561, label: 'Syst. err'}
+  - value: 0.960404
+    errors:
+    - {symerror: 0.00968356, label: 'Stat. err'}
+    - {symerror: 0.115248, label: 'Syst. err'}
+  - value: 0.916142
+    errors:
+    - {symerror: 0.00926038, label: 'Stat. err'}
+    - {symerror: 0.109937, label: 'Syst. err'}
+  - value: 0.884726
+    errors:
+    - {symerror: 0.00901864, label: 'Stat. err'}
+    - {symerror: 0.106167, label: 'Syst. err'}
+  - value: 0.874712
+    errors:
+    - {symerror: 0.00891796, label: 'Stat. err'}
+    - {symerror: 0.104965, label: 'Syst. err'}
+  - value: 0.850261
+    errors:
+    - {symerror: 0.00865738, label: 'Stat. err'}
+    - {symerror: 0.102031, label: 'Syst. err'}
+  - value: 0.817289
+    errors:
+    - {symerror: 0.00840583, label: 'Stat. err'}
+    - {symerror: 0.0980747, label: 'Syst. err'}
+  - value: 0.815904
+    errors:
+    - {symerror: 0.00846184, label: 'Stat. err'}
+    - {symerror: 0.0979085, label: 'Syst. err'}
+  - value: 0.785089
+    errors:
+    - {symerror: 0.00825303, label: 'Stat. err'}
+    - {symerror: 0.0942106, label: 'Syst. err'}
+  - value: 0.769205
+    errors:
+    - {symerror: 0.00815077, label: 'Stat. err'}
+    - {symerror: 0.0923046, label: 'Syst. err'}
+  - value: 0.742589
+    errors:
+    - {symerror: 0.00802085, label: 'Stat. err'}
+    - {symerror: 0.0891107, label: 'Syst. err'}
+  - value: 0.729241
+    errors:
+    - {symerror: 0.00582164, label: 'Stat. err'}
+    - {symerror: 0.087509, label: 'Syst. err'}
+  - value: 0.702323
+    errors:
+    - {symerror: 0.0059624, label: 'Stat. err'}
+    - {symerror: 0.0842788, label: 'Syst. err'}
+  - value: 0.675211
+    errors:
+    - {symerror: 0.00643472, label: 'Stat. err'}
+    - {symerror: 0.0810253, label: 'Syst. err'}
+  - value: 0.64598
+    errors:
+    - {symerror: 0.00721541, label: 'Stat. err'}
+    - {symerror: 0.0775176, label: 'Syst. err'}
+  - value: 0.640825
+    errors:
+    - {symerror: 0.00864997, label: 'Stat. err'}
+    - {symerror: 0.076899, label: 'Syst. err'}
+  - value: 0.649395
+    errors:
+    - {symerror: 0.00803464, label: 'Stat. err'}
+    - {symerror: 0.0844214, label: 'Syst. err'}
+  - value: 0.636471
+    errors:
+    - {symerror: 0.0144294, label: 'Stat. err'}
+    - {symerror: 0.0827412, label: 'Syst. err'}
+  - value: 0.713346
+    errors:
+    - {symerror: 0.028992, label: 'Stat. err'}
+    - {symerror: 0.092735, label: 'Syst. err'}
+  - value: 0.678954
+    errors:
+    - {symerror: 0.0461298, label: 'Stat. err'}
+    - {symerror: 0.088264, label: 'Syst. err'}

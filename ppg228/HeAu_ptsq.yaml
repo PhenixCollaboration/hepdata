@@ -1,0 +1,39 @@
+independent_variables:
+- header: {name: '$\langle N_{coll} \rangle $'}
+  values:
+  - {value: 5.48}
+  - {value: 14.8}
+  - {value: 22.3}
+dependent_variables:
+- header: {name: '$ \langle p_{T}^{2} \rangle$  (global sys. err. 10.1%)'}
+  qualifiers:
+  - {name: '', value: '$ \langle p_{T}^{2} \rangle$,  $^{3}$He+Au$\sqrt{s_{NN}}$=200GeV, $1.2 < y < 2.2$'}
+  values:
+  - value: 3.94
+    errors:
+    - {symerror: 0.28, label: 'stat'}
+    - {asymerror: {plus: 0.27, minus: -0.32}, label: 'sys'}
+  - value: 3.98
+    errors:
+    - {symerror: 0.28, label: 'stat'}
+    - {asymerror: {plus: 0.28, minus: -0.34}, label: 'sys'}
+  - value: 4.20
+    errors:
+    - {symerror: 0.25, label: 'stat'}
+    - {asymerror: {plus: 0.29, minus: -0.36}, label: 'sys'}
+- header: {name: '$ \langle p_{T}^{2} \rangle$  (global sys. err. 10.1%)'}
+  qualifiers:
+  - {name: '', value: '$ \langle p_{T}^{2} \rangle$,  $^{3}$He+Au$\sqrt{s_{NN}}$=200GeV, $-2.2 < y < -1.2$'}
+  values:
+  - value: 4.05
+    errors:
+    - {symerror: 0.28, label: 'stat'}
+    - {asymerror: {plus: 0.30, minus: -0.37}, label: 'sys'}
+  - value: 4.06
+    errors:
+    - {symerror: 0.28, label: 'stat'}
+    - {asymerror: {plus: 0.28, minus: -0.35}, label: 'sys'}
+  - value: 3.98
+    errors:
+    - {symerror: 0.21, label: 'stat'}
+    - {asymerror: {plus: 0.24, minus: -0.30}, label: 'sys'}

@@ -1,0 +1,122 @@
+independent_variables:
+- header: {name: '$N_{part}$'}
+  values:
+  - {low: 0, high: 10}
+  - {low: 10, high: 20}
+  - {low: 20, high: 30}
+  - {low: 30, high: 40}
+  - {low: 40, high: 50}
+  - {low: 50, high: 60}
+dependent_variables:
+- header: {name: '$R_{AA}(p_T,\Delta \phi)$'}
+  qualifiers:
+  - {name: '$N_{part}$', value: '$(6<p_T<10 GeV/c),(0<\Delta \phi<15)$'}
+  values:
+  - value: 0.2123
+    errors:
+    - {symerror: 0.002549, label: 'Stat'}
+    - {symerror: 0.0017, label: 'Syst'}
+  - value: 0.3063
+    errors:
+    - {symerror: 0.003552, label: 'Stat'}
+    - {symerror: 0.002, label: 'Syst'}
+  - value: 0.4113
+    errors:
+    - {symerror: 0.005015, label: 'Stat'}
+    - {symerror: 0.0031, label: 'Syst'}
+  - value: 0.5439
+    errors:
+    - {symerror: 0.007235, label: 'Stat'}
+    - {symerror: 0.0047, label: 'Syst'}
+  - value: 0.6809
+    errors:
+    - {symerror: 0.0109, label: 'Stat'}
+    - {symerror: 0.0092, label: 'Syst'}
+  - value: 0.8819
+    errors:
+    - {symerror: 0.01744, label: 'Stat'}
+    - {symerror: 0.016, label: 'Syst'}
+- header: {name: '$R_{AA}(p_T,\Delta \phi)$'}
+  qualifiers:
+  - {name: '$N_{part}$', value: '$(6<p_T<10 GeV/c),(75<\Delta \phi<90)$'}
+  values:
+  - value: 0.1766
+    errors:
+    - {symerror: 0.0022, label: 'Stat'}
+    - {symerror: 0.0018, label: 'Syst'}
+  - value: 0.2241
+    errors:
+    - {symerror: 0.0029, label: 'Stat'}
+    - {symerror: 0.0021, label: 'Syst'}
+  - value: 0.2821
+    errors:
+    - {symerror: 0.0039, label: 'Stat'}
+    - {symerror: 0.0031, label: 'Syst'}
+  - value: 0.3308
+    errors:
+    - {symerror: 0.0053, label: 'Stat'}
+    - {symerror: 0.0046, label: 'Syst'}
+  - value: 0.4168
+    errors:
+    - {symerror: 0.008, label: 'Stat'}
+    - {symerror: 0.0092, label: 'Syst'}
+  - value: 0.4605
+    errors:
+    - {symerror: 0.011, label: 'Stat'}
+    - {symerror: 0.017, label: 'Syst'}
+- header: {name: '$R_{AA}(p_T,\Delta \phi)$'}
+  qualifiers:
+  - {name: '$N_{part}$', value: '$(pT>10 GeV/c),(0<\Delta \phi<15)$'}
+  values:
+  - value: 0.2428
+    errors:
+    - {symerror: 0.011, label: 'Stat'}
+    - {symerror: 0.0048, label: 'Syst'}
+  - value: 0.3371
+    errors:
+    - {symerror: 0.016, label: 'Stat'}
+    - {symerror: 0.0038, label: 'Syst'}
+  - value: 0.4306
+    errors:
+    - {symerror: 0.022, label: 'Stat'}
+    - {symerror: 0.0046, label: 'Syst'}
+  - value: 0.5368
+    errors:
+    - {symerror: 0.032, label: 'Stat'}
+    - {symerror: 0.0078, label: 'Syst'}
+  - value: 0.6676
+    errors:
+    - {symerror: 0.046, label: 'Stat'}
+    - {symerror: 0.018, label: 'Syst'}
+  - value: 0.8886
+    errors:
+    - {symerror: 0.075, label: 'Stat'}
+    - {symerror: 0.04, label: 'Syst'}
+- header: {name: '$R_{AA}(p_T,\Delta \phi)$'}
+  qualifiers:
+  - {name: '$N_{part}$', value: '$(pT>10 GeV/c),(75<\Delta \phi<90)$'}
+  values:
+  - value: 0.22
+    errors:
+    - {symerror: 0.01019, label: 'Stat'}
+    - {symerror: 0.005, label: 'Syst'}
+  - value: 0.259
+    errors:
+    - {symerror: 0.01312, label: 'Stat'}
+    - {symerror: 0.0045, label: 'Syst'}
+  - value: 0.353
+    errors:
+    - {symerror: 0.01898, label: 'Stat'}
+    - {symerror: 0.0052, label: 'Syst'}
+  - value: 0.341
+    errors:
+    - {symerror: 0.0237, label: 'Stat'}
+    - {symerror: 0.0094, label: 'Syst'}
+  - value: 0.407
+    errors:
+    - {symerror: 0.0327, label: 'Stat'}
+    - {symerror: 0.02, label: 'Syst'}
+  - value: 0.447
+    errors:
+    - {symerror: 0.04523, label: 'Stat'}
+    - {symerror: 0, label: 'Syst'}

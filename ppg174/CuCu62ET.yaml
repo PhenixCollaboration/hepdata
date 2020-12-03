@@ -1,0 +1,152 @@
+independent_variables:
+- header: {name: 'centrality'}
+  values:
+  - {low: 0, high: 5}
+  - {low: 5, high: 10}
+  - {low: 10, high: 15}
+  - {low: 15, high: 20}
+  - {low: 20, high: 25}
+  - {low: 25, high: 30}
+  - {low: 30, high: 35}
+  - {low: 35, high: 40}
+dependent_variables:
+- header: {name: '$N_{part}$'}
+  qualifiers:
+  - {name: 'centrality', value: ''}
+  values:
+  - value: 100.5
+    errors:
+    - {symerror: 4.5, label: 'sys'}
+  - value: 88.3
+    errors:
+    - {symerror: 4.8, label: 'sys'}
+  - value: 78.2
+    errors:
+    - {symerror: 4.3, label: 'sys'}
+  - value: 67.4
+    errors:
+    - {symerror: 4.3, label: 'sys'}
+  - value: 56.6
+    errors:
+    - {symerror: 4.4, label: 'sys'}
+  - value: 48.7
+    errors:
+    - {symerror: 4.9, label: 'sys'}
+  - value: 40.4
+    errors:
+    - {symerror: 4.5, label: 'sys'}
+  - value: 32.3
+    errors:
+    - {symerror: 4.1, label: 'sys'}
+- header: {name: '$N_{q}$'}
+  qualifiers:
+  - {name: 'centrality', value: ''}
+  values:
+  - value: 229.3
+    errors:
+    - {symerror: 8.5, label: 'sys'}
+  - value: 197.8
+    errors:
+    - {symerror: 15.0, label: 'sys'}
+  - value: 171.7
+    errors:
+    - {symerror: 25.2, label: 'sys'}
+  - value: 144.8
+    errors:
+    - {symerror: 23.8, label: 'sys'}
+  - value: 118.7
+    errors:
+    - {symerror: 11.5, label: 'sys'}
+  - value: 100.0
+    errors:
+    - {symerror: 12.0, label: 'sys'}
+  - value: 81.1
+    errors:
+    - {symerror: 10.4, label: 'sys'}
+  - value: 63.3
+    errors:
+    - {symerror: 6.1, label: 'sys'}
+- header: {name: '$dE_{T}/d\eta$'}
+  qualifiers:
+  - {name: 'centrality', value: ''}
+  values:
+  - value: 107.6
+    errors:
+    - {symerror: 6.5, label: 'sys'}
+  - value: 93.6
+    errors:
+    - {symerror: 5.6, label: 'sys'}
+  - value: 79.3
+    errors:
+    - {symerror: 4.8, label: 'sys'}
+  - value: 66.5
+    errors:
+    - {symerror: 4.0, label: 'sys'}
+  - value: 55.6
+    errors:
+    - {symerror: 3.3, label: 'sys'}
+  - value: 46.4
+    errors:
+    - {symerror: 2.8, label: 'sys'}
+  - value: 38.6
+    errors:
+    - {symerror: 2.3, label: 'sys'}
+  - value: 32.0
+    errors:
+    - {symerror: 1.9, label: 'sys'}
+- header: {name: '$(dE_{T}/d\eta)/N_{part}$'}
+  qualifiers:
+  - {name: 'centrality', value: ''}
+  values:
+  - value: 2.14
+    errors:
+    - {symerror: 0.16, label: 'sys'}
+  - value: 2.12
+    errors:
+    - {symerror: 0.17, label: 'sys'}
+  - value: 2.03
+    errors:
+    - {symerror: 0.17, label: 'sys'}
+  - value: 1.97
+    errors:
+    - {symerror: 0.17, label: 'sys'}
+  - value: 1.96
+    errors:
+    - {symerror: 0.19, label: 'sys'}
+  - value: 1.91
+    errors:
+    - {symerror: 0.22, label: 'sys'}
+  - value: 1.91
+    errors:
+    - {symerror: 0.24, label: 'sys'}
+  - value: 1.98
+    errors:
+    - {symerror: 0.28, label: 'sys'}
+- header: {name: '$(dE_{T}/d\eta)/N_{q}$'}
+  qualifiers:
+  - {name: 'centrality', value: ''}
+  values:
+  - value: 0.94
+    errors:
+    - {symerror: 0.07, label: 'sys'}
+  - value: 0.95
+    errors:
+    - {symerror: 0.09, label: 'sys'}
+  - value: 0.92
+    errors:
+    - {symerror: 0.15, label: 'sys'}
+  - value: 0.92
+    errors:
+    - {symerror: 0.16, label: 'sys'}
+  - value: 0.94
+    errors:
+    - {symerror: 0.11, label: 'sys'}
+  - value: 0.93
+    errors:
+    - {symerror: 0.12, label: 'sys'}
+  - value: 0.95
+    errors:
+    - {symerror: 0.13, label: 'sys'}
+  - value: 1.01
+    errors:
+    - {symerror: 0.11, label: 'sys'}

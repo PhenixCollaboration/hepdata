@@ -1,0 +1,328 @@
+independent_variables:
+- header: {name: '$p_T$'}  
+  values:
+  - {low: 1.0, high: 1.5}
+  - {low: 1.5, high: 2.0}
+  - {low: 2.0, high: 2.5}
+  - {low: 2.5, high: 3.0}
+  - {low: 3.0, high: 3.5}
+  - {low: 3.5, high: 4.0}
+  - {low: 4.0, high: 5.0}
+  - {low: 5.0, high: 6.0}
+  - {low: 6.0, high: 7.0}
+  - {low: 7.0, high: 8.0}
+  - {low: 8.0, high: 9.0}
+  - {low: 9.0, high: 10.0}
+dependent_variables:
+- header: {name: '$R_{AA}$'}
+  qualifiers:
+  - {name: '$p_T$', value: '$0-10\%$ centrality'}
+  values:
+  - value: 0.364026
+    errors:
+    - {symerror: 0.005983, label: 'Error(abs)'}
+    - {symerror: 0.035723, label: 'Sys Error(abs)'}
+  - value: 0.412261
+    errors:
+    - {symerror: 0.005426, label: 'Error(abs)'}
+    - {symerror: 0.041969, label: 'Sys Error(abs)'}
+  - value: 0.395759
+    errors:
+    - {symerror: 0.005159, label: 'Error(abs)'}
+    - {symerror: 0.042874, label: 'Sys Error(abs)'}
+  - value: 0.315862
+    errors:
+    - {symerror: 0.004425, label: 'Error(abs)'}
+    - {symerror: 0.035576, label: 'Sys Error(abs)'}
+  - value: 0.255601
+    errors:
+    - {symerror: 0.004123, label: 'Error(abs)'}
+    - {symerror: 0.029518, label: 'Sys Error(abs)'}
+  - value: 0.227183
+    errors:
+    - {symerror: 0.004208, label: 'Error(abs)'}
+    - {symerror: 0.026412, label: 'Sys Error(abs)'}
+  - value: 0.207718
+    errors:
+    - {symerror: 0.005853, label: 'Error(abs)'}
+    - {symerror: 0.035571, label: 'Sys Error(abs)'}
+  - value: 0.185429
+    errors:
+    - {symerror: 0.007020, label: 'Error(abs)'}
+    - {symerror: 0.031625, label: 'Sys Error(abs)'}
+  - value: 0.199073
+    errors:
+    - {symerror: 0.008373, label: 'Error(abs)'}
+    - {symerror: 0.033826, label: 'Sys Error(abs)'}
+  - value: 0.191991
+    errors:
+    - {symerror: 0.009583, label: 'Error(abs)'}
+    - {symerror: 0.032572, label: 'Sys Error(abs)'}
+  - value: 0.187878
+    errors:
+    - {symerror: 0.012566, label: 'Error(abs)'}
+    - {symerror: 0.032099, label: 'Sys Error(abs)'}
+  - value: 0.210205
+    errors:
+    - {symerror: 0.019355, label: 'Error(abs)'}
+    - {symerror: 0.036611, label: 'Sys Error(abs)'}
+- header: {name: '$R_{AA}$'}
+  qualifiers:
+  - {name: '$p_T$', value: '$10-20\%$ centrality'}
+  values:
+  - value: 0.422074
+    errors:
+    - {symerror: 0.006757, label: 'Error(abs)'}
+    - {symerror: 0.042901, label: 'Sys Error(abs)'}
+  - value: 0.455122
+    errors:
+    - {symerror: 0.005178, label: 'Error(abs)'}
+    - {symerror: 0.046674, label: 'Sys Error(abs)'}
+  - value: 0.443498
+    errors:
+    - {symerror: 0.004882, label: 'Error(abs)'}
+    - {symerror: 0.048107, label: 'Sys Error(abs)'}
+  - value: 0.392487
+    errors:
+    - {symerror: 0.004566, label: 'Error(abs)'}
+    - {symerror: 0.044300, label: 'Sys Error(abs)'}
+  - value: 0.334455
+    errors:
+    - {symerror: 0.004516, label: 'Error(abs)'}
+    - {symerror: 0.038735, label: 'Sys Error(abs)'}
+  - value: 0.309533
+    errors:
+    - {symerror: 0.004817, label: 'Error(abs)'}
+    - {symerror: 0.036116, label: 'Sys Error(abs)'}
+  - value: 0.275822
+    errors:
+    - {symerror: 0.006602, label: 'Error(abs)'}
+    - {symerror: 0.047447, label: 'Sys Error(abs)'}
+  - value: 0.254232
+    errors:
+    - {symerror: 0.008558, label: 'Error(abs)'}
+    - {symerror: 0.043643, label: 'Sys Error(abs)'}
+  - value: 0.260632
+    errors:
+    - {symerror: 0.010320, label: 'Error(abs)'}
+    - {symerror: 0.044562, label: 'Sys Error(abs)'}
+  - value: 0.258089
+    errors:
+    - {symerror: 0.012346, label: 'Error(abs)'}
+    - {symerror: 0.044077, label: 'Sys Error(abs)'}
+  - value: 0.254592
+    errors:
+    - {symerror: 0.017049, label: 'Error(abs)'}
+    - {symerror: 0.043871, label: 'Sys Error(abs)'}
+  - value: 0.268847
+    errors:
+    - {symerror: 0.024449, label: 'Error(abs)'}
+    - {symerror: 0.047463, label: 'Sys Error(abs)'}
+- header: {name: '$R_{AA}$'}
+  qualifiers:
+  - {name: '$p_T$', value: '$20-30\%$ centrality'}
+  values:
+  - value: 0.452382
+    errors:
+    - {symerror: 0.006227, label: 'Error(abs)'}
+    - {symerror: 0.044574, label: 'Sys Error(abs)'}
+  - value: 0.514220
+    errors:
+    - {symerror: 0.005463, label: 'Error(abs)'}
+    - {symerror: 0.051784, label: 'Sys Error(abs)'}
+  - value: 0.502460
+    errors:
+    - {symerror: 0.005220, label: 'Error(abs)'}
+    - {symerror: 0.053952, label: 'Sys Error(abs)'}
+  - value: 0.453507
+    errors:
+    - {symerror: 0.005047, label: 'Error(abs)'}
+    - {symerror: 0.050822, label: 'Sys Error(abs)'}
+  - value: 0.399048
+    errors:
+    - {symerror: 0.005031, label: 'Error(abs)'}
+    - {symerror: 0.045957, label: 'Sys Error(abs)'}
+  - value: 0.380176
+    errors:
+    - {symerror: 0.005654, label: 'Error(abs)'}
+    - {symerror: 0.044126, label: 'Sys Error(abs)'}
+  - value: 0.355979
+    errors:
+    - {symerror: 0.007869, label: 'Error(abs)'}
+    - {symerror: 0.060945, label: 'Sys Error(abs)'}
+  - value: 0.325256
+    errors:
+    - {symerror: 0.010480, label: 'Error(abs)'}
+    - {symerror: 0.055526, label: 'Sys Error(abs)'}
+  - value: 0.330658
+    errors:
+    - {symerror: 0.012997, label: 'Error(abs)'}
+    - {symerror: 0.056235, label: 'Sys Error(abs)'}
+  - value: 0.305272
+    errors:
+    - {symerror: 0.015563, label: 'Error(abs)'}
+    - {symerror: 0.051967, label: 'Sys Error(abs)'}
+  - value: 0.344520
+    errors:
+    - {symerror: 0.023731, label: 'Error(abs)'}
+    - {symerror: 0.059294, label: 'Sys Error(abs)'}
+  - value: 0.347347
+    errors:
+    - {symerror: 0.036830, label: 'Error(abs)'}
+    - {symerror: 0.060910, label: 'Sys Error(abs)'}
+- header: {name: '$R_{AA}$'}
+  qualifiers:
+  - {name: '$p_T$', value: '$30-40\%$ centrality'}
+  values:
+  - value: 0.496019
+    errors:
+    - {symerror: 0.006366, label: 'Error(abs)'}
+    - {symerror: 0.048257, label: 'Sys Error(abs)'}
+  - value: 0.566318
+    errors:
+    - {symerror: 0.005802, label: 'Error(abs)'}
+    - {symerror: 0.056718, label: 'Sys Error(abs)'}
+  - value: 0.543642
+    errors:
+    - {symerror: 0.005487, label: 'Error(abs)'}
+    - {symerror: 0.058187, label: 'Sys Error(abs)'}
+  - value: 0.509786
+    errors:
+    - {symerror: 0.005459, label: 'Error(abs)'}
+    - {symerror: 0.057010, label: 'Sys Error(abs)'}
+  - value: 0.455424
+    errors:
+    - {symerror: 0.005580, label: 'Error(abs)'}
+    - {symerror: 0.052366, label: 'Sys Error(abs)'}
+  - value: 0.450610
+    errors:
+    - {symerror: 0.006384, label: 'Error(abs)'}
+    - {symerror: 0.052244, label: 'Sys Error(abs)'}
+  - value: 0.419108
+    errors:
+    - {symerror: 0.009157, label: 'Error(abs)'}
+    - {symerror: 0.071707, label: 'Sys Error(abs)'}
+  - value: 0.398642
+    errors:
+    - {symerror: 0.013330, label: 'Error(abs)'}
+    - {symerror: 0.068036, label: 'Sys Error(abs)'}
+  - value: 0.393132
+    errors:
+    - {symerror: 0.016534, label: 'Error(abs)'}
+    - {symerror: 0.066855, label: 'Sys Error(abs)'}
+  - value: 0.417155
+    errors:
+    - {symerror: 0.023721, label: 'Error(abs)'}
+    - {symerror: 0.070955, label: 'Sys Error(abs)'}
+  - value: 0.404799
+    errors:
+    - {symerror: 0.031748, label: 'Error(abs)'}
+    - {symerror: 0.069737, label: 'Sys Error(abs)'}
+  - value: 0.473646
+    errors:
+    - {symerror: 0.051208, label: 'Error(abs)'}
+    - {symerror: 0.085240, label: 'Sys Error(abs)'}
+- header: {name: '$R_{AA}$'}
+  qualifiers:
+  - {name: '$p_T$', value: '$40-50\%$ centrality'}
+  values:
+  - value: 0.549060
+    errors:
+    - {symerror: 0.006093, label: 'Error(abs)'}
+    - {symerror: 0.049809, label: 'Sys Error(abs)'}
+  - value: 0.628741
+    errors:
+    - {symerror: 0.006184, label: 'Error(abs)'}
+    - {symerror: 0.062367, label: 'Sys Error(abs)'}
+  - value: 0.623487
+    errors:
+    - {symerror: 0.006128, label: 'Error(abs)'}
+    - {symerror: 0.066551, label: 'Sys Error(abs)'}
+  - value: 0.600729
+    errors:
+    - {symerror: 0.006325, label: 'Error(abs)'}
+    - {symerror: 0.067111, label: 'Sys Error(abs)'}
+  - value: 0.572408
+    errors:
+    - {symerror: 0.006698, label: 'Error(abs)'}
+    - {symerror: 0.065758, label: 'Sys Error(abs)'}
+  - value: 0.541719
+    errors:
+    - {symerror: 0.007730, label: 'Error(abs)'}
+    - {symerror: 0.062798, label: 'Sys Error(abs)'}
+  - value: 0.533993
+    errors:
+    - {symerror: 0.011993, label: 'Error(abs)'}
+    - {symerror: 0.091398, label: 'Sys Error(abs)'}
+  - value: 0.535437
+    errors:
+    - {symerror: 0.018926, label: 'Error(abs)'}
+    - {symerror: 0.091461, label: 'Sys Error(abs)'}
+  - value: 0.518577
+    errors:
+    - {symerror: 0.024241, label: 'Error(abs)'}
+    - {symerror: 0.088268, label: 'Sys Error(abs)'}
+  - value: 0.484771
+    errors:
+    - {symerror: 0.031726, label: 'Error(abs)'}
+    - {symerror: 0.082871, label: 'Sys Error(abs)'}
+  - value: 0.536983
+    errors:
+    - {symerror: 0.047789, label: 'Error(abs)'}
+    - {symerror: 0.092686, label: 'Sys Error(abs)'}
+  - value: 0.529169
+    errors:
+    - {symerror: 0.069017, label: 'Error(abs)'}
+    - {symerror: 0.094071, label: 'Sys Error(abs)'}
+- header: {name: '$R_{AA}$'}
+  qualifiers:
+  - {name: '$p_T$', value: '$50-60\%$ centrality'}
+  values:
+  - value: 0.615876
+    errors:
+    - {symerror: 0.006694, label: 'Error(abs)'}
+    - {symerror: 0.055687, label: 'Sys Error(abs)'}
+  - value: 0.696801
+    errors:
+    - {symerror: 0.006859, label: 'Error(abs)'}
+    - {symerror: 0.068948, label: 'Sys Error(abs)'}
+  - value: 0.679240
+    errors:
+    - {symerror: 0.006502, label: 'Error(abs)'}
+    - {symerror: 0.072336, label: 'Sys Error(abs)'}
+  - value: 0.666460
+    errors:
+    - {symerror: 0.006850, label: 'Error(abs)'}
+    - {symerror: 0.074290, label: 'Sys Error(abs)'}
+  - value: 0.652403
+    errors:
+    - {symerror: 0.007724, label: 'Error(abs)'}
+    - {symerror: 0.074771, label: 'Sys Error(abs)'}
+  - value: 0.629314
+    errors:
+    - {symerror: 0.009208, label: 'Error(abs)'}
+    - {symerror: 0.072768, label: 'Sys Error(abs)'}
+  - value: 0.663028
+    errors:
+    - {symerror: 0.016370, label: 'Error(abs)'}
+    - {symerror: 0.113155, label: 'Sys Error(abs)'}
+  - value: 0.659058
+    errors:
+    - {symerror: 0.025861, label: 'Error(abs)'}
+    - {symerror: 0.112214, label: 'Sys Error(abs)'}
+  - value: 0.619376
+    errors:
+    - {symerror: 0.034724, label: 'Error(abs)'}
+    - {symerror: 0.105070, label: 'Sys Error(abs)'}
+  - value: 0.640560
+    errors:
+    - {symerror: 0.048039, label: 'Error(abs)'}
+    - {symerror: 0.110224, label: 'Sys Error(abs)'}
+  - value: 0.639437
+    errors:
+    - {symerror: 0.069493, label: 'Error(abs)'}
+    - {symerror: 0.110685, label: 'Sys Error(abs)'}
+  - value: 0.699158
+    errors:
+    - {symerror: 0.108536, label: 'Error(abs)'}
+    - {symerror: 0.127183, label: 'Sys Error(abs)'}

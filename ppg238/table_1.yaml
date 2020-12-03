@@ -1,0 +1,152 @@
+independent_variables:
+- header: {name: 'P_{T}'}
+  values:
+  - {value: 0.043}
+  - {value: 0.085}
+  - {value: 0.132}
+  - {value: 0.180}
+dependent_variables:
+- header: {name: 'A_{N}'}
+  qualifiers:
+  - {name: 'P_{T}', value: 'inclusive very forward neutron single spin asymmetries using a Power Law functional form and DPMJet MC for unfolding'}
+  values:
+  - value: -0.045
+    errors:
+    - {symerror: 0.003, label: 'Statistical'}
+    - {asymerror: {plus: 0.028, minus: 0.003}, label: 'Systematic'}
+    - {asymerror: {plus: 0.002, minus: 0.002}, label: 'Scaling uncertainty due to polarization'}
+  - value: -0.052
+    errors:
+    - {symerror: 0.002, label: 'Statistical'}
+    - {asymerror: {plus: 0.024, minus: 0.005}, label: 'Systematic'}
+    - {asymerror: {plus: 0.002, minus: 0.002}, label: 'Scaling uncertainty due to polarization'}
+  - value: -0.050
+    errors:
+    - {symerror: 0.001, label: 'Statistical'}
+    - {asymerror: {plus: 0.015, minus: 0.014}, label: 'Systematic'}
+    - {asymerror: {plus: 0.002, minus: 0.002}, label: 'Scaling uncertainty due to polarization'}
+  - value: -0.054
+    errors:
+    - {symerror: 0.001, label: 'Statistical'}
+    - {asymerror: {plus: 0.014, minus: 0.019}, label: 'Systematic'}
+    - {asymerror: {plus: 0.002, minus: 0.002}, label: 'Scaling uncertainty due to polarization'}
+- header: {name: 'A_{N}'}
+  qualifiers:
+  - {name: 'P_{T}', value: 'inclusive very forward neutron single spin asymmetries using a Power Law functional form and Pythia6 MC for unfolding'}
+  values:
+  - value: -0.045
+    errors:
+    - {symerror: 0.003, label: 'Statistical'}
+    - {asymerror: {plus: 0.028, minus: 0.002}, label: 'Systematic'}
+    - {asymerror: {plus: 0.002, minus: 0.002}, label: 'Scaling uncertainty due to polarization'}
+  - value: -0.052
+    errors:
+    - {symerror: 0.002, label: 'Statistical'}
+    - {asymerror: {plus: 0.025, minus: 0.005}, label: 'Systematic'}
+    - {asymerror: {plus: 0.002, minus: 0.002}, label: 'Scaling uncertainty due to polarization'}
+  - value: -0.050
+    errors:
+    - {symerror: 0.001, label: 'Statistical'}
+    - {asymerror: {plus: 0.015, minus: 0.014}, label: 'Systematic'}
+    - {asymerror: {plus: 0.002, minus: 0.002}, label: 'Scaling uncertainty due to polarization'}
+  - value: -0.054
+    errors:
+    - {symerror: 0.001, label: 'Statistical'}
+    - {asymerror: {plus: 0.013, minus: 0.019}, label: 'Systematic'}
+    - {asymerror: {plus: 0.002, minus: 0.002}, label: 'Scaling uncertainty due to polarization'}
+- header: {name: 'A_{N}'}
+  qualifiers:
+  - {name: 'P_{T}', value: 'inclusive very forward neutron single spin asymmetries using a Power Law functional form and Pythia8 MC for unfolding'}
+  values:
+  - value: -0.045
+    errors:
+    - {symerror: 0.003, label: 'Statistical'}
+    - {asymerror: {plus: 0.028, minus: 0.003}, label: 'Systematic'}
+    - {asymerror: {plus: 0.002, minus: 0.002}, label: 'Scaling uncertainty due to polarization'}
+  - value: -0.052
+    errors:
+    - {symerror: 0.002, label: 'Statistical'}
+    - {asymerror: {plus: 0.025, minus: 0.006}, label: 'Systematic'}
+    - {asymerror: {plus: 0.002, minus: 0.002}, label: 'Scaling uncertainty due to polarization'}
+  - value: -0.050
+    errors:
+    - {symerror: 0.001, label: 'Statistical'}
+    - {asymerror: {plus: 0.017, minus: 0.015}, label: 'Systematic'}
+    - {asymerror: {plus: 0.002, minus: 0.002}, label: 'Scaling uncertainty due to polarization'}
+  - value: -0.054
+    errors:
+    - {symerror: 0.001, label: 'Statistical'}
+    - {asymerror: {plus: 0.015, minus: 0.020}, label: 'Systematic'}
+    - {asymerror: {plus: 0.002, minus: 0.002}, label: 'Scaling uncertainty due to polarization'}
+- header: {name: 'A_{N}'}
+  qualifiers:
+  - {name: 'P_{T}', value: 'inclusive very forward neutron single spin asymmetries using a Power Law functional form and OPE MC for unfolding'}
+  values:
+  - value: -0.045
+    errors:
+    - {symerror: 0.003, label: 'Statistical'}
+    - {asymerror: {plus: 0.027, minus: 0.006}, label: 'Systematic'}
+    - {asymerror: {plus: 0.002, minus: 0.002}, label: 'Scaling uncertainty due to polarization'}
+  - value: -0.052
+    errors:
+    - {symerror: 0.002, label: 'Statistical'}
+    - {asymerror: {plus: 0.024, minus: 0.006}, label: 'Systematic'}
+    - {asymerror: {plus: 0.002, minus: 0.002}, label: 'Scaling uncertainty due to polarization'}
+  - value: -0.050
+    errors:
+    - {symerror: 0.001, label: 'Statistical'}
+    - {asymerror: {plus: 0.017, minus: 0.014}, label: 'Systematic'}
+    - {asymerror: {plus: 0.002, minus: 0.002}, label: 'Scaling uncertainty due to polarization'}
+  - value: -0.054
+    errors:
+    - {symerror: 0.001, label: 'Statistical'}
+    - {asymerror: {plus: 0.017, minus: 0.019}, label: 'Systematic'}
+    - {asymerror: {plus: 0.002, minus: 0.002}, label: 'Scaling uncertainty due to polarization'}
+- header: {name: 'A_{N}'}
+  qualifiers:
+  - {name: 'P_{T}', value: 'inclusive very forward neutron single spin asymmetries using a Power Law functional form and UPC MC for unfolding'}
+  values:
+  - value: -0.045
+    errors:
+    - {symerror: 0.003, label: 'Statistical'}
+    - {asymerror: {plus: 0.027, minus: 0.000}, label: 'Systematic'}
+    - {asymerror: {plus: 0.002, minus: 0.002}, label: 'Scaling uncertainty due to polarization'}
+  - value: -0.052
+    errors:
+    - {symerror: 0.002, label: 'Statistical'}
+    - {asymerror: {plus: 0.023, minus: 0.004}, label: 'Systematic'}
+    - {asymerror: {plus: 0.002, minus: 0.002}, label: 'Scaling uncertainty due to polarization'}
+  - value: -0.050
+    errors:
+    - {symerror: 0.001, label: 'Statistical'}
+    - {asymerror: {plus: 0.014, minus: 0.012}, label: 'Systematic'}
+    - {asymerror: {plus: 0.002, minus: 0.002}, label: 'Scaling uncertainty due to polarization'}
+  - value: -0.054
+    errors:
+    - {symerror: 0.001, label: 'Statistical'}
+    - {asymerror: {plus: 0.013, minus: 0.013}, label: 'Systematic'}
+    - {asymerror: {plus: 0.002, minus: 0.002}, label: 'Scaling uncertainty due to polarization'}
+- header: {name: 'A_{N}'}
+  qualifiers:
+  - {name: 'P_{T}', value: 'inclusive very forward neutron single spin asymmetries before unfolding'}
+  values:
+  - value: -0.039
+    errors:
+    - {symerror: 0.001, label: 'Statistical'}
+    - {asymerror: {plus: 0, minus: 0}, label: 'Systematic'}
+    - {asymerror: {plus: 0.001, minus: 0.001}, label: 'Scaling uncertainty due to polarization'}
+  - value: -0.045
+    errors:
+    - {symerror: 0.001, label: 'Statistical'}
+    - {asymerror: {plus: 0, minus: 0}, label: 'Systematic'}
+    - {asymerror: {plus: 0.002, minus: 0.002}, label: 'Scaling uncertainty due to polarization'}
+  - value: -0.053
+    errors:
+    - {symerror: 0.001, label: 'Statistical'}
+    - {asymerror: {plus: 0, minus: 0}, label: 'Systematic'}
+    - {asymerror: {plus: 0.002, minus: 0.002}, label: 'Scaling uncertainty due to polarization'}
+  - value: -0.051
+    errors:
+    - {symerror: 0.002, label: 'Statistical'}
+    - {asymerror: {plus: 0, minus: 0}, label: 'Systematic'}
+    - {asymerror: {plus: 0.002, minus: 0.002}, label: 'Scaling uncertainty due to polarization'}

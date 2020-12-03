@@ -1,0 +1,723 @@
+independent_variables:
+- header: {name: '$p_T$'}
+  values:
+  - {low: 5, high: 5.5}
+  - {low: 5.5, high: 6}
+  - {low: 6, high: 6.5}
+  - {low: 6.5, high: 7}
+  - {low: 7, high: 7.5}
+  - {low: 7.5, high: 8}
+  - {low: 8, high: 8.5}
+  - {low: 8.5, high: 9}
+  - {low: 9, high: 9.5}
+  - {low: 9.5, high: 10}
+  - {low: 10, high: 12}
+  - {low: 12, high: 14}
+  - {low: 14, high: 16}
+  - {low: 16, high: 18}
+  - {low: 18, high: 20}
+dependent_variables:
+- header: {name: 'Yields'}
+  qualifiers:
+  - {name: '$p_T$', value: '$0-10\%$ centrality'}
+  values:
+  - value: 8.9688E-05
+    errors:
+    - {symerror: 5.6337E-07, label: 'stat'}
+    - {symerror: 7.8829E-06, label: '$p_T$-Corr'}
+  - value: 4.3088E-05
+    errors:
+    - {symerror: 3.3974E-07, label: 'stat'}
+    - {symerror: 3.7871E-06, label: '$p_T$-Corr'}
+  - value: 2.1931E-05
+    errors:
+    - {symerror: 2.1602E-07, label: 'stat'}
+    - {symerror: 1.9275E-06, label: '$p_T$-Corr'}
+  - value: 1.1896E-05
+    errors:
+    - {symerror: 1.444E-07, label: 'stat'}
+    - {symerror: 1.0455E-06, label: '$p_T$-Corr'}
+  - value: 6.7377E-06
+    errors:
+    - {symerror: 1.0018E-07, label: 'stat'}
+    - {symerror: 5.9219E-07, label: '$p_T$-Corr'}
+  - value: 4.0628E-06
+    errors:
+    - {symerror: 7.247E-08, label: 'stat'}
+    - {symerror: 3.5708E-07, label: '$p_T$-Corr'}
+  - value: 2.4566E-06
+    errors:
+    - {symerror: 5.2884E-08, label: 'stat'}
+    - {symerror: 1.8424E-07, label: '$p_T$-Corr'}
+  - value: 1.551E-06
+    errors:
+    - {symerror: 3.9789E-08, label: 'stat'}
+    - {symerror: 1.1633E-07, label: '$p_T$-Corr'}
+  - value: 1.0846E-06
+    errors:
+    - {symerror: 3.1187E-08, label: 'stat'}
+    - {symerror: 8.2062E-08, label: '$p_T$-Corr'}
+  - value: 6.7983E-07
+    errors:
+    - {symerror: 2.3618E-08, label: 'stat'}
+    - {symerror: 5.4915E-08, label: '$p_T$-Corr'}
+  - value: 2.7668E-07
+    errors:
+    - {symerror: 6.6585E-09, label: 'stat'}
+    - {symerror: 3.034E-08, label: '$p_T$-Corr'}
+  - value: 7.6507E-08
+    errors:
+    - {symerror: 3.2876E-09, label: 'stat'}
+    - {symerror: 1.3519E-08, label: '$p_T$-Corr'}
+  - value: 2.6026E-08
+    errors:
+    - {symerror: 2.0432E-09, label: 'stat'}
+    - {symerror: 6.5442E-09, label: '$p_T$-Corr'}
+  - value: 1.0306E-08
+    errors:
+    - {symerror: 1.4291E-09, label: 'stat'}
+    - {symerror: 3.3871E-09, label: '$p_T$-Corr'}
+  - value: 3.1939E-09
+    errors:
+    - {symerror: 1.01E-09, label: 'stat'}
+    - {symerror: 1.2998E-09, label: '$p_T$-Corr'}
+- header: {name: 'Yields'}
+  qualifiers:
+  - {name: '$p_T$', value: '$10-20\%$ centrality'}
+  values:
+  - value: 8.0529E-05
+    errors:
+    - {symerror: 4.6079E-07, label: 'stat'}
+    - {symerror: 7.0779E-06, label: '$p_T$-Corr'}
+  - value: 3.8055E-05
+    errors:
+    - {symerror: 2.8164E-07, label: 'stat'}
+    - {symerror: 3.3448E-06, label: '$p_T$-Corr'}
+  - value: 1.8819E-05
+    errors:
+    - {symerror: 1.8054E-07, label: 'stat'}
+    - {symerror: 1.654E-06, label: '$p_T$-Corr'}
+  - value: 1.0311E-05
+    errors:
+    - {symerror: 1.2273E-07, label: 'stat'}
+    - {symerror: 9.0626E-07, label: '$p_T$-Corr'}
+  - value: 5.9243E-06
+    errors:
+    - {symerror: 8.6818E-08, label: 'stat'}
+    - {symerror: 5.207E-07, label: '$p_T$-Corr'}
+  - value: 3.4688E-06
+    errors:
+    - {symerror: 6.2494E-08, label: 'stat'}
+    - {symerror: 3.0488E-07, label: '$p_T$-Corr'}
+  - value: 2.1608E-06
+    errors:
+    - {symerror: 4.6738E-08, label: 'stat'}
+    - {symerror: 1.6206E-07, label: '$p_T$-Corr'}
+  - value: 1.3449E-06
+    errors:
+    - {symerror: 3.4631E-08, label: 'stat'}
+    - {symerror: 1.0087E-07, label: '$p_T$-Corr'}
+  - value: 8.8438E-07
+    errors:
+    - {symerror: 2.6976E-08, label: 'stat'}
+    - {symerror: 6.6916E-08, label: '$p_T$-Corr'}
+  - value: 5.8378E-07
+    errors:
+    - {symerror: 2.1145E-08, label: 'stat'}
+    - {symerror: 4.7157E-08, label: '$p_T$-Corr'}
+  - value: 2.2996E-07
+    errors:
+    - {symerror: 5.876E-09, label: 'stat'}
+    - {symerror: 2.5217E-08, label: '$p_T$-Corr'}
+  - value: 6.1407E-08
+    errors:
+    - {symerror: 2.9031E-09, label: 'stat'}
+    - {symerror: 1.0851E-08, label: '$p_T$-Corr'}
+  - value: 1.9708E-08
+    errors:
+    - {symerror: 1.7253E-09, label: 'stat'}
+    - {symerror: 4.9555E-09, label: '$p_T$-Corr'}
+  - value: 6.9531E-09
+    errors:
+    - {symerror: 1.2517E-09, label: 'stat'}
+    - {symerror: 2.2853E-09, label: '$p_T$-Corr'}
+  - value: 2.4896E-09
+    errors:
+    - {symerror: 8.802E-10, label: 'stat'}
+    - {symerror: 1.0132E-09, label: '$p_T$-Corr'}
+- header: {name: 'Yields'}
+  qualifiers:
+  - {name: '$p_T$', value: '$20-30\%$ centrality'}
+  values:
+  - value: 6.6929E-05
+    errors:
+    - {symerror: 3.8214E-07, label: 'stat'}
+    - {symerror: 5.8825E-06, label: '$p_T$-Corr'}
+  - value: 3.0844E-05
+    errors:
+    - {symerror: 2.3451E-07, label: 'stat'}
+    - {symerror: 2.711E-06, label: '$p_T$-Corr'}
+  - value: 1.5634E-05
+    errors:
+    - {symerror: 1.5293E-07, label: 'stat'}
+    - {symerror: 1.3741E-06, label: '$p_T$-Corr'}
+  - value: 8.2313E-06
+    errors:
+    - {symerror: 1.039E-07, label: 'stat'}
+    - {symerror: 7.2346E-07, label: '$p_T$-Corr'}
+  - value: 4.6495E-06
+    errors:
+    - {symerror: 7.2877E-08, label: 'stat'}
+    - {symerror: 4.0865E-07, label: '$p_T$-Corr'}
+  - value: 2.7973E-06
+    errors:
+    - {symerror: 5.3702E-08, label: 'stat'}
+    - {symerror: 2.4586E-07, label: '$p_T$-Corr'}
+  - value: 1.705E-06
+    errors:
+    - {symerror: 3.9806E-08, label: 'stat'}
+    - {symerror: 1.2787E-07, label: '$p_T$-Corr'}
+  - value: 1.0118E-06
+    errors:
+    - {symerror: 2.9551E-08, label: 'stat'}
+    - {symerror: 7.5886E-08, label: '$p_T$-Corr'}
+  - value: 6.5192E-07
+    errors:
+    - {symerror: 2.2768E-08, label: 'stat'}
+    - {symerror: 4.9327E-08, label: '$p_T$-Corr'}
+  - value: 4.7618E-07
+    errors:
+    - {symerror: 1.8355E-08, label: 'stat'}
+    - {symerror: 3.8464E-08, label: '$p_T$-Corr'}
+  - value: 1.8258E-07
+    errors:
+    - {symerror: 5.2041E-09, label: 'stat'}
+    - {symerror: 2.0022E-08, label: '$p_T$-Corr'}
+  - value: 5.116E-08
+    errors:
+    - {symerror: 2.6177E-09, label: 'stat'}
+    - {symerror: 9.0403E-09, label: '$p_T$-Corr'}
+  - value: 1.6461E-08
+    errors:
+    - {symerror: 1.558E-09, label: 'stat'}
+    - {symerror: 4.1391E-09, label: '$p_T$-Corr'}
+  - value: 3.999E-09
+    errors:
+    - {symerror: 8.7266E-10, label: 'stat'}
+    - {symerror: 1.3144E-09, label: '$p_T$-Corr'}
+  - value: 2.1662E-09
+    errors:
+    - {symerror: 8.1875E-10, label: 'stat'}
+    - {symerror: 8.8158E-10, label: '$p_T$-Corr'}
+- header: {name: 'Yields'}
+  qualifiers:
+  - {name: '$p_T$', value: '$30-40\%$ centrality'}
+  values:
+  - value: 4.9597E-05
+    errors:
+    - {symerror: 3.0165E-07, label: 'stat'}
+    - {symerror: 4.3591E-06, label: '$p_T$-Corr'}
+  - value: 2.2939E-05
+    errors:
+    - {symerror: 1.8939E-07, label: 'stat'}
+    - {symerror: 2.0162E-06, label: '$p_T$-Corr'}
+  - value: 1.1943E-05
+    errors:
+    - {symerror: 1.2623E-07, label: 'stat'}
+    - {symerror: 1.0497E-06, label: '$p_T$-Corr'}
+  - value: 6.2652E-06
+    errors:
+    - {symerror: 8.6569E-08, label: 'stat'}
+    - {symerror: 5.5066E-07, label: '$p_T$-Corr'}
+  - value: 3.4487E-06
+    errors:
+    - {symerror: 6.0807E-08, label: 'stat'}
+    - {symerror: 3.0311E-07, label: '$p_T$-Corr'}
+  - value: 2.1188E-06
+    errors:
+    - {symerror: 4.4973E-08, label: 'stat'}
+    - {symerror: 1.8623E-07, label: '$p_T$-Corr'}
+  - value: 1.2664E-06
+    errors:
+    - {symerror: 3.3365E-08, label: 'stat'}
+    - {symerror: 9.4977E-08, label: '$p_T$-Corr'}
+  - value: 7.9201E-07
+    errors:
+    - {symerror: 2.5431E-08, label: 'stat'}
+    - {symerror: 5.94E-08, label: '$p_T$-Corr'}
+  - value: 4.7334E-07
+    errors:
+    - {symerror: 1.9137E-08, label: 'stat'}
+    - {symerror: 3.5815E-08, label: '$p_T$-Corr'}
+  - value: 3.0244E-07
+    errors:
+    - {symerror: 1.4615E-08, label: 'stat'}
+    - {symerror: 2.4431E-08, label: '$p_T$-Corr'}
+  - value: 1.2965E-07
+    errors:
+    - {symerror: 4.3353E-09, label: 'stat'}
+    - {symerror: 1.4217E-08, label: '$p_T$-Corr'}
+  - value: 3.5372E-08
+    errors:
+    - {symerror: 2.1518E-09, label: 'stat'}
+    - {symerror: 6.2505E-09, label: '$p_T$-Corr'}
+  - value: 1.1171E-08
+    errors:
+    - {symerror: 1.4617E-09, label: 'stat'}
+    - {symerror: 2.8089E-09, label: '$p_T$-Corr'}
+  - value: 3.1951E-09
+    errors:
+    - {symerror: 7.7492E-10, label: 'stat'}
+    - {symerror: 1.0501E-09, label: '$p_T$-Corr'}
+  - value: 1.531E-09
+    errors:
+    - {symerror: 6.8466E-10, label: 'stat'}
+    - {symerror: 6.2305E-10, label: '$p_T$-Corr'}
+- header: {name: 'Yields'}
+  qualifiers:
+  - {name: '$p_T$', value: '$40-50\%$ centrality'}
+  values:
+  - value: 3.3954E-05
+    errors:
+    - {symerror: 2.3479E-07, label: 'stat'}
+    - {symerror: 2.9842E-06, label: '$p_T$-Corr'}
+  - value: 1.6121E-05
+    errors:
+    - {symerror: 1.5013E-07, label: 'stat'}
+    - {symerror: 1.4169E-06, label: '$p_T$-Corr'}
+  - value: 8.3694E-06
+    errors:
+    - {symerror: 1.0163E-07, label: 'stat'}
+    - {symerror: 7.356E-07, label: '$p_T$-Corr'}
+  - value: 4.4439E-06
+    errors:
+    - {symerror: 7.0292E-08, label: 'stat'}
+    - {symerror: 3.9058E-07, label: '$p_T$-Corr'}
+  - value: 2.3969E-06
+    errors:
+    - {symerror: 4.9765E-08, label: 'stat'}
+    - {symerror: 2.1067E-07, label: '$p_T$-Corr'}
+  - value: 1.4916E-06
+    errors:
+    - {symerror: 3.6835E-08, label: 'stat'}
+    - {symerror: 1.311E-07, label: '$p_T$-Corr'}
+  - value: 8.6635E-07
+    errors:
+    - {symerror: 2.7118E-08, label: 'stat'}
+    - {symerror: 6.4976E-08, label: '$p_T$-Corr'}
+  - value: 5.5778E-07
+    errors:
+    - {symerror: 2.0746E-08, label: 'stat'}
+    - {symerror: 4.1833E-08, label: '$p_T$-Corr'}
+  - value: 3.4341E-07
+    errors:
+    - {symerror: 1.5594E-08, label: 'stat'}
+    - {symerror: 2.5984E-08, label: '$p_T$-Corr'}
+  - value: 2.3774E-07
+    errors:
+    - {symerror: 1.2585E-08, label: 'stat'}
+    - {symerror: 1.9204E-08, label: '$p_T$-Corr'}
+  - value: 8.3412E-08
+    errors:
+    - {symerror: 3.4874E-09, label: 'stat'}
+    - {symerror: 9.1468E-09, label: '$p_T$-Corr'}
+  - value: 2.3523E-08
+    errors:
+    - {symerror: 1.8161E-09, label: 'stat'}
+    - {symerror: 4.1567E-09, label: '$p_T$-Corr'}
+  - value: 4.5444E-09
+    errors:
+    - {symerror: 2.5578E-09, label: 'stat'}
+    - {symerror: 1.1427E-09, label: '$p_T$-Corr'}
+  - value: 2.2328E-09
+    errors:
+    - {symerror: 6.4455E-10, label: 'stat'}
+    - {symerror: 7.3385E-10, label: '$p_T$-Corr'}
+  - value: 1.5173E-09
+    errors:
+    - {symerror: 6.7855E-10, label: 'stat'}
+    - {symerror: 6.1749E-10, label: '$p_T$-Corr'}
+- header: {name: 'Yields'}
+  qualifiers:
+  - {name: '$p_T$', value: '$50-60\%$ centrality'}
+  values:
+  - value: 2.1474E-05
+    errors:
+    - {symerror: 1.8003E-07, label: 'stat'}
+    - {symerror: 1.8874E-06, label: '$p_T$-Corr'}
+  - value: 1.007E-05
+    errors:
+    - {symerror: 1.1549E-07, label: 'stat'}
+    - {symerror: 8.8511E-07, label: '$p_T$-Corr'}
+  - value: 5.2528E-06
+    errors:
+    - {symerror: 7.8868E-08, label: 'stat'}
+    - {symerror: 4.6168E-07, label: '$p_T$-Corr'}
+  - value: 2.7852E-06
+    errors:
+    - {symerror: 5.4229E-08, label: 'stat'}
+    - {symerror: 2.448E-07, label: '$p_T$-Corr'}
+  - value: 1.5351E-06
+    errors:
+    - {symerror: 3.9046E-08, label: 'stat'}
+    - {symerror: 1.3493E-07, label: '$p_T$-Corr'}
+  - value: 9.0183E-07
+    errors:
+    - {symerror: 2.8486E-08, label: 'stat'}
+    - {symerror: 7.9264E-08, label: '$p_T$-Corr'}
+  - value: 5.6282E-07
+    errors:
+    - {symerror: 2.2159E-08, label: 'stat'}
+    - {symerror: 4.2212E-08, label: '$p_T$-Corr'}
+  - value: 3.3522E-07
+    errors:
+    - {symerror: 1.6446E-08, label: 'stat'}
+    - {symerror: 2.5141E-08, label: '$p_T$-Corr'}
+  - value: 2.041E-07
+    errors:
+    - {symerror: 1.2729E-08, label: 'stat'}
+    - {symerror: 1.5443E-08, label: '$p_T$-Corr'}
+  - value: 1.4587E-07
+    errors:
+    - {symerror: 9.988E-09, label: 'stat'}
+    - {symerror: 1.1783E-08, label: '$p_T$-Corr'}
+  - value: 5.2699E-08
+    errors:
+    - {symerror: 2.8136E-09, label: 'stat'}
+    - {symerror: 5.7789E-09, label: '$p_T$-Corr'}
+  - value: 1.5633E-08
+    errors:
+    - {symerror: 1.6567E-09, label: 'stat'}
+    - {symerror: 2.7624E-09, label: '$p_T$-Corr'}
+  - value: 4.387E-09
+    errors:
+    - {symerror: 7.7552E-10, label: 'stat'}
+    - {symerror: 1.1031E-09, label: '$p_T$-Corr'}
+  - value: 9.2881E-10
+    errors:
+    - {symerror: 4.1538E-10, label: 'stat'}
+    - {symerror: 3.0527E-10, label: '$p_T$-Corr'}
+  - value: 3.0298E-10
+    errors:
+    - {symerror: 3.0298E-10, label: 'stat'}
+    - {symerror: 1.233E-10, label: '$p_T$-Corr'}
+- header: {name: 'Yields'}
+  qualifiers:
+  - {name: '$p_T$', value: '$60-70\%$ centrality'}
+  values:
+  - value: 1.1547E-05
+    errors:
+    - {symerror: 1.2864E-07, label: 'stat'}
+    - {symerror: 1.0149E-06, label: '$p_T$-Corr'}
+  - value: 5.6498E-06
+    errors:
+    - {symerror: 8.4193E-08, label: 'stat'}
+    - {symerror: 4.9657E-07, label: '$p_T$-Corr'}
+  - value: 2.759E-06
+    errors:
+    - {symerror: 5.6591E-08, label: 'stat'}
+    - {symerror: 2.4249E-07, label: '$p_T$-Corr'}
+  - value: 1.5872E-06
+    errors:
+    - {symerror: 4.0483E-08, label: 'stat'}
+    - {symerror: 1.395E-07, label: '$p_T$-Corr'}
+  - value: 8.197E-07
+    errors:
+    - {symerror: 2.791E-08, label: 'stat'}
+    - {symerror: 7.2045E-08, label: '$p_T$-Corr'}
+  - value: 4.848E-07
+    errors:
+    - {symerror: 2.0771E-08, label: 'stat'}
+    - {symerror: 4.261E-08, label: '$p_T$-Corr'}
+  - value: 2.9636E-07
+    errors:
+    - {symerror: 1.5517E-08, label: 'stat'}
+    - {symerror: 2.2227E-08, label: '$p_T$-Corr'}
+  - value: 1.8626E-07
+    errors:
+    - {symerror: 1.2185E-08, label: 'stat'}
+    - {symerror: 1.397E-08, label: '$p_T$-Corr'}
+  - value: 1.0115E-07
+    errors:
+    - {symerror: 9.1428E-09, label: 'stat'}
+    - {symerror: 7.6531E-09, label: '$p_T$-Corr'}
+  - value: 8.9044E-08
+    errors:
+    - {symerror: 8.1172E-09, label: 'stat'}
+    - {symerror: 7.1927E-09, label: '$p_T$-Corr'}
+  - value: 2.7153E-08
+    errors:
+    - {symerror: 1.9937E-09, label: 'stat'}
+    - {symerror: 2.9775E-09, label: '$p_T$-Corr'}
+  - value: 9.2098E-09
+    errors:
+    - {symerror: 1.0564E-09, label: 'stat'}
+    - {symerror: 1.6274E-09, label: '$p_T$-Corr'}
+  - value: 3.1295E-09
+    errors:
+    - {symerror: 6.5254E-10, label: 'stat'}
+    - {symerror: 7.8689E-10, label: '$p_T$-Corr'}
+  - value: 2.0292E-09
+    errors:
+    - {symerror: 6.1184E-10, label: 'stat'}
+    - {symerror: 6.6696E-10, label: '$p_T$-Corr'}
+  - value: 3.0152E-10
+    errors:
+    - {symerror: 3.0152E-10, label: 'stat'}
+    - {symerror: 1.2271E-10, label: '$p_T$-Corr'}
+- header: {name: 'Yields'}
+  qualifiers:
+  - {name: '$p_T$', value: '$70-80\%$ centrality'}
+  values:
+  - value: 5.4859E-06
+    errors:
+    - {symerror: 8.7174E-08, label: 'stat'}
+    - {symerror: 4.8216E-07, label: '$p_T$-Corr'}
+  - value: 2.6506E-06
+    errors:
+    - {symerror: 5.7248E-08, label: 'stat'}
+    - {symerror: 2.3297E-07, label: '$p_T$-Corr'}
+  - value: 1.3305E-06
+    errors:
+    - {symerror: 3.8546E-08, label: 'stat'}
+    - {symerror: 1.1694E-07, label: '$p_T$-Corr'}
+  - value: 6.9625E-07
+    errors:
+    - {symerror: 2.6358E-08, label: 'stat'}
+    - {symerror: 6.1195E-08, label: '$p_T$-Corr'}
+  - value: 4.2925E-07
+    errors:
+    - {symerror: 2.0255E-08, label: 'stat'}
+    - {symerror: 3.7728E-08, label: '$p_T$-Corr'}
+  - value: 2.4038E-07
+    errors:
+    - {symerror: 1.5481E-08, label: 'stat'}
+    - {symerror: 2.1127E-08, label: '$p_T$-Corr'}
+  - value: 1.4239E-07
+    errors:
+    - {symerror: 1.0798E-08, label: 'stat'}
+    - {symerror: 1.068E-08, label: '$p_T$-Corr'}
+  - value: 9.7968E-08
+    errors:
+    - {symerror: 8.2504E-09, label: 'stat'}
+    - {symerror: 7.3476E-09, label: '$p_T$-Corr'}
+  - value: 5.6286E-08
+    errors:
+    - {symerror: 6.5798E-09, label: 'stat'}
+    - {symerror: 4.2588E-09, label: '$p_T$-Corr'}
+  - value: 4.0444E-08
+    errors:
+    - {symerror: 4.9783E-09, label: 'stat'}
+    - {symerror: 3.2669E-09, label: '$p_T$-Corr'}
+  - value: 1.2124E-08
+    errors:
+    - {symerror: 1.2374E-09, label: 'stat'}
+    - {symerror: 1.3295E-09, label: '$p_T$-Corr'}
+  - value: 4.4482E-09
+    errors:
+    - {symerror: 7.3128E-10, label: 'stat'}
+    - {symerror: 7.8603E-10, label: '$p_T$-Corr'}
+  - value: 6.7624E-10
+    errors:
+    - {symerror: 3.0243E-10, label: 'stat'}
+    - {symerror: 1.7004E-10, label: '$p_T$-Corr'}
+  - value: 3.6625E-10
+    errors:
+    - {symerror: 2.5898E-10, label: 'stat'}
+    - {symerror: 1.2038E-10, label: '$p_T$-Corr'}
+  - value: --
+    errors:
+    - {symerror: --, label: 'stat'}
+    - {symerror: --, label: '$p_T$-Corr'}
+- header: {name: 'Yields'}
+  qualifiers:
+  - {name: '$p_T$', value: '$80-93\%$ centrality'}
+  values:
+  - value: 1.7481E-06
+    errors:
+    - {symerror: 4.2854E-08, label: 'stat'}
+    - {symerror: 1.5365E-07, label: '$p_T$-Corr'}
+  - value: 8.5053E-07
+    errors:
+    - {symerror: 2.8207E-08, label: 'stat'}
+    - {symerror: 7.4755E-08, label: '$p_T$-Corr'}
+  - value: 4.3444E-07
+    errors:
+    - {symerror: 1.9596E-08, label: 'stat'}
+    - {symerror: 3.8184E-08, label: '$p_T$-Corr'}
+  - value: 2.4514E-07
+    errors:
+    - {symerror: 1.356E-08, label: 'stat'}
+    - {symerror: 2.1546E-08, label: '$p_T$-Corr'}
+  - value: 1.4599E-07
+    errors:
+    - {symerror: 1.0224E-08, label: 'stat'}
+    - {symerror: 1.2831E-08, label: '$p_T$-Corr'}
+  - value: 7.7269E-08
+    errors:
+    - {symerror: 7.2323E-09, label: 'stat'}
+    - {symerror: 6.7913E-09, label: '$p_T$-Corr'}
+  - value: 4.8739E-08
+    errors:
+    - {symerror: 5.6114E-09, label: 'stat'}
+    - {symerror: 3.6554E-09, label: '$p_T$-Corr'}
+  - value: 2.3739E-08
+    errors:
+    - {symerror: 4.4393E-09, label: 'stat'}
+    - {symerror: 1.7804E-09, label: '$p_T$-Corr'}
+  - value: 1.5991E-08
+    errors:
+    - {symerror: 2.8268E-09, label: 'stat'}
+    - {symerror: 1.2099E-09, label: '$p_T$-Corr'}
+  - value: 8.4724E-09
+    errors:
+    - {symerror: 1.997E-09, label: 'stat'}
+    - {symerror: 6.8438E-10, label: '$p_T$-Corr'}
+  - value: 5.0405E-09
+    errors:
+    - {symerror: 6.9899E-10, label: 'stat'}
+    - {symerror: 5.5273E-10, label: '$p_T$-Corr'}
+  - value: 9.2302E-10
+    errors:
+    - {symerror: 2.9188E-10, label: 'stat'}
+    - {symerror: 1.631E-10, label: '$p_T$-Corr'}
+  - value: 1.0384E-10
+    errors:
+    - {symerror: 1.0384E-10, label: 'stat'}
+    - {symerror: 2.6109E-11, label: '$p_T$-Corr'}
+  - value: 1.4071E-10
+    errors:
+    - {symerror: 1.4071E-10, label: 'stat'}
+    - {symerror: 4.6247E-11, label: '$p_T$-Corr'}
+  - value: --
+    errors:
+    - {symerror: --, label: 'stat'}
+    - {symerror: --, label: '$p_T$-Corr'}
+- header: {name: 'Yields'}
+  qualifiers:
+  - {name: '$p_T$', value: '$0-93\%$ centrality'}
+  values:
+  - value: 4.0376E-05
+    errors:
+    - {symerror: 1.0327E-07, label: 'stat'}
+    - {symerror: 3.5487E-06, label: '$p_T$-Corr'}
+  - value: 1.88E-05
+    errors:
+    - {symerror: 6.2823E-08, label: 'stat'}
+    - {symerror: 1.6524E-06, label: '$p_T$-Corr'}
+  - value: 9.4645E-06
+    errors:
+    - {symerror: 4.0517E-08, label: 'stat'}
+    - {symerror: 8.3185E-07, label: '$p_T$-Corr'}
+  - value: 5.0475E-06
+    errors:
+    - {symerror: 2.7377E-08, label: 'stat'}
+    - {symerror: 4.4363E-07, label: '$p_T$-Corr'}
+  - value: 2.821E-06
+    errors:
+    - {symerror: 1.9172E-08, label: 'stat'}
+    - {symerror: 2.4794E-07, label: '$p_T$-Corr'}
+  - value: 1.6876E-06
+    errors:
+    - {symerror: 1.397E-08, label: 'stat'}
+    - {symerror: 1.4833E-07, label: '$p_T$-Corr'}
+  - value: 1.022E-06
+    errors:
+    - {symerror: 1.0343E-08, label: 'stat'}
+    - {symerror: 7.6649E-08, label: '$p_T$-Corr'}
+  - value: 6.3105E-07
+    errors:
+    - {symerror: 7.7628E-09, label: 'stat'}
+    - {symerror: 4.7329E-08, label: '$p_T$-Corr'}
+  - value: 4.0748E-07
+    errors:
+    - {symerror: 5.9821E-09, label: 'stat'}
+    - {symerror: 3.0832E-08, label: '$p_T$-Corr'}
+  - value: 2.7441E-07
+    errors:
+    - {symerror: 4.6909E-09, label: 'stat'}
+    - {symerror: 2.2166E-08, label: '$p_T$-Corr'}
+  - value: 1.0729E-07
+    errors:
+    - {symerror: 1.3153E-09, label: 'stat'}
+    - {symerror: 1.1765E-08, label: '$p_T$-Corr'}
+  - value: 2.9684E-08
+    errors:
+    - {symerror: 6.5882E-10, label: 'stat'}
+    - {symerror: 5.2454E-09, label: '$p_T$-Corr'}
+  - value: 9.4537E-09
+    errors:
+    - {symerror: 3.9716E-10, label: 'stat'}
+    - {symerror: 2.3771E-09, label: '$p_T$-Corr'}
+  - value: 3.2078E-09
+    errors:
+    - {symerror: 2.5969E-10, label: 'stat'}
+    - {symerror: 1.0543E-09, label: '$p_T$-Corr'}
+  - value: 1.224E-09
+    errors:
+    - {symerror: 2.0122E-10, label: 'stat'}
+    - {symerror: 4.9812E-10, label: '$p_T$-Corr'}
+- header: {name: 'Yields'}
+  qualifiers:
+  - {name: '$p_T$', value: '$0-5\%$ centrality'}
+  values:
+  - value: 9.3942E-05
+    errors:
+    - {symerror: 8.6757E-07, label: 'stat'}
+    - {symerror: 8.2567E-06, label: '$p_T$-Corr'}
+  - value: 4.5241E-05
+    errors:
+    - {symerror: 5.1663E-07, label: 'stat'}
+    - {symerror: 3.9763E-06, label: '$p_T$-Corr'}
+  - value: 2.2734E-05
+    errors:
+    - {symerror: 3.2479E-07, label: 'stat'}
+    - {symerror: 1.9981E-06, label: '$p_T$-Corr'}
+  - value: 1.2533E-05
+    errors:
+    - {symerror: 2.1669E-07, label: 'stat'}
+    - {symerror: 1.1015E-06, label: '$p_T$-Corr'}
+  - value: 6.8618E-06
+    errors:
+    - {symerror: 1.4735E-07, label: 'stat'}
+    - {symerror: 6.031E-07, label: '$p_T$-Corr'}
+  - value: 4.1642E-06
+    errors:
+    - {symerror: 1.061E-07, label: 'stat'}
+    - {symerror: 3.66E-07, label: '$p_T$-Corr'}
+  - value: 2.5978E-06
+    errors:
+    - {symerror: 7.8155E-08, label: 'stat'}
+    - {symerror: 1.9483E-07, label: '$p_T$-Corr'}
+  - value: 1.5449E-06
+    errors:
+    - {symerror: 5.7515E-08, label: 'stat'}
+    - {symerror: 1.1587E-07, label: '$p_T$-Corr'}
+  - value: 1.1183E-06
+    errors:
+    - {symerror: 4.4668E-08, label: 'stat'}
+    - {symerror: 8.4616E-08, label: '$p_T$-Corr'}
+  - value: 7.6839E-07
+    errors:
+    - {symerror: 3.5421E-08, label: 'stat'}
+    - {symerror: 6.2069E-08, label: '$p_T$-Corr'}
+  - value: 2.8374E-07
+    errors:
+    - {symerror: 9.6036E-09, label: 'stat'}
+    - {symerror: 3.1114E-08, label: '$p_T$-Corr'}
+  - value: 8.6849E-08
+    errors:
+    - {symerror: 4.9366E-09, label: 'stat'}
+    - {symerror: 1.5347E-08, label: '$p_T$-Corr'}
+  - value: 2.6588E-08
+    errors:
+    - {symerror: 3.0437E-09, label: 'stat'}
+    - {symerror: 6.6854E-09, label: '$p_T$-Corr'}
+  - value: 9.5467E-09
+    errors:
+    - {symerror: 1.9487E-09, label: 'stat'}
+    - {symerror: 3.1377E-09, label: '$p_T$-Corr'}
+  - value: 4.4495E-09
+    errors:
+    - {symerror: 1.6818E-09, label: 'stat'}
+    - {symerror: 1.8108E-09, label: '$p_T$-Corr'}

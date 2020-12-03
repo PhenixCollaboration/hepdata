@@ -1,0 +1,211 @@
+independent_variables:
+- header: {name: '$p_{T}[GeV/c]$'}
+  values:
+  - {low: 0.00, high: 0.25}
+  - {low: 0.25, high: 0.50}
+  - {low: 0.50, high: 0.75}
+  - {low: 0.75, high: 1.00}
+  - {low: 1.00, high: 1.25}
+  - {low: 1.25, high: 1.50}
+  - {low: 1.50, high: 1.75}
+  - {low: 1.75, high: 2.00}
+  - {low: 2.00, high: 2.25}
+  - {low: 2.25, high: 2.50}
+  - {low: 2.50, high: 3.00}
+  - {low: 3.00, high: 3.50}
+  - {low: 3.50, high: 4.00}
+  - {low: 4.00, high: 5.00}
+  - {low: 5.00, high: 7.00}
+dependent_variables:
+- header: {name: '$\frac{d^{2}N^{AB}/dydp_{T}}{\langle N_{coll} \rangle d^{2}N^{pp}/dydp_{T}}$  (global err. 13.6%)'}
+  qualifiers:
+  - {name: '', value: '$R_{HeAu}$ 0-20% Centrality $(-2.2 < y < -1.2)$'}
+  values:
+  - value: 0.38
+    errors:
+    - {symerror: 0.08, label: 'stat'}
+    - {symerror: 0.04, label: 'sys'}
+  - value: 0.61
+    errors:
+    - {symerror: 0.08, label: 'stat'}
+    - {symerror: 0.06, label: 'sys'}
+  - value: 0.53
+    errors:
+    - {symerror: 0.06, label: 'stat'}
+    - {symerror: 0.05, label: 'sys'}
+  - value: 0.70
+    errors:
+    - {symerror: 0.07, label: 'stat'}
+    - {symerror: 0.06, label: 'sys'}
+  - value: 0.74
+    errors:
+    - {symerror: 0.07, label: 'stat'}
+    - {symerror: 0.07, label: 'sys'}
+  - value: 0.76
+    errors:
+    - {symerror: 0.07, label: 'stat'}
+    - {symerror: 0.07, label: 'sys'}
+  - value: 0.82
+    errors:
+    - {symerror: 0.07, label: 'stat'}
+    - {symerror: 0.08, label: 'sys'}
+  - value: 1.04
+    errors:
+    - {symerror: 0.09, label: 'stat'}
+    - {symerror: 0.10, label: 'sys'}
+  - value: 0.80
+    errors:
+    - {symerror: 0.10, label: 'stat'}
+    - {symerror: 0.07, label: 'sys'}
+  - value: 1.10
+    errors:
+    - {symerror: 0.12, label: 'stat'}
+    - {symerror: 0.10, label: 'sys'}
+  - value: 0.94
+    errors:
+    - {symerror: 0.09, label: 'stat'}
+    - {symerror: 0.09, label: 'sys'}
+  - value: 0.86
+    errors:
+    - {symerror: 0.11, label: 'stat'}
+    - {symerror: 0.08, label: 'sys'}
+  - value: 1.14
+    errors:
+    - {symerror: 0.18, label: 'stat'}
+    - {symerror: 0.10, label: 'sys'}
+  - value: 1.10
+    errors:
+    - {symerror: 0.18, label: 'stat'}
+    - {symerror: 0.11, label: 'sys'}
+  - value: 0.39
+    errors:
+    - {symerror: 0.11, label: 'stat'}
+    - {symerror: 0.04, label: 'sys'}
+- header: {name: '$\frac{d^{2}N^{AB}/dydp_{T}}{\langle N_{coll} \rangle d^{2}N^{pp}/dydp_{T}}$  (global err. 11.2%)'}
+  qualifiers:
+  - {name: '', value: '$R_{HeAu}$ 20-40% Centrality $(-2.2 < y < -1.2)$'}
+  values:
+  - value: 0.66
+    errors:
+    - {symerror: 0.18, label: 'stat'}
+    - {symerror: 0.06, label: 'sys'}
+  - value: 0.80
+    errors:
+    - {symerror: 0.11, label: 'stat'}
+    - {symerror: 0.07, label: 'sys'}
+  - value: 0.68
+    errors:
+    - {symerror: 0.09, label: 'stat'}
+    - {symerror: 0.06, label: 'sys'}
+  - value: 0.72
+    errors:
+    - {symerror: 0.09, label: 'stat'}
+    - {symerror: 0.07, label: 'sys'}
+  - value: 0.82
+    errors:
+    - {symerror: 0.08, label: 'stat'}
+    - {symerror: 0.07, label: 'sys'}
+  - value: 0.76
+    errors:
+    - {symerror: 0.09, label: 'stat'}
+    - {symerror: 0.07, label: 'sys'}
+  - value: 0.76
+    errors:
+    - {symerror: 0.10, label: 'stat'}
+    - {symerror: 0.07, label: 'sys'}
+  - value: 0.93
+    errors:
+    - {symerror: 0.12, label: 'stat'}
+    - {symerror: 0.08, label: 'sys'}
+  - value: 0.93
+    errors:
+    - {symerror: 0.12, label: 'stat'}
+    - {symerror: 0.08, label: 'sys'}
+  - value: 1.00
+    errors:
+    - {symerror: 0.15, label: 'stat'}
+    - {symerror: 0.09, label: 'sys'}
+  - value: 1.25
+    errors:
+    - {symerror: 0.13, label: 'stat'}
+    - {symerror: 0.11, label: 'sys'}
+  - value: 1.00
+    errors:
+    - {symerror: 0.14, label: 'stat'}
+    - {symerror: 0.09, label: 'sys'}
+  - value: 1.01
+    errors:
+    - {symerror: 0.21, label: 'stat'}
+    - {symerror: 0.09, label: 'sys'}
+  - value: 1.18
+    errors:
+    - {symerror: 0.21, label: 'stat'}
+    - {symerror: 0.12, label: 'sys'}
+  - value: 1.10
+    errors:
+    - {symerror: 0.28, label: 'stat'}
+    - {symerror: 0.11, label: 'sys'}
+- header: {name: '$\frac{d^{2}N^{AB}/dydp_{T}}{\langle N_{coll} \rangle d^{2}N^{pp}/dydp_{T}}$  (global err. 12.3%)'}
+  qualifiers:
+  - {name: '', value: '$R_{HeAu}$ 40-88% Centrality $(-2.2 < y < -1.2)$'}
+  values:
+  - value: 0.86
+    errors:
+    - {symerror: 0.19, label: 'stat'}
+    - {symerror: 0.08, label: 'sys'}
+  - value: 0.72
+    errors:
+    - {symerror: 0.12, label: 'stat'}
+    - {symerror: 0.07, label: 'sys'}
+  - value: 0.77
+    errors:
+    - {symerror: 0.11, label: 'stat'}
+    - {symerror: 0.07, label: 'sys'}
+  - value: 0.87
+    errors:
+    - {symerror: 0.10, label: 'stat'}
+    - {symerror: 0.08, label: 'sys'}
+  - value: 0.91
+    errors:
+    - {symerror: 0.09, label: 'stat'}
+    - {symerror: 0.08, label: 'sys'}
+  - value: 1.01
+    errors:
+    - {symerror: 0.11, label: 'stat'}
+    - {symerror: 0.09, label: 'sys'}
+  - value: 1.09
+    errors:
+    - {symerror: 0.12, label: 'stat'}
+    - {symerror: 0.10, label: 'sys'}
+  - value: 0.96
+    errors:
+    - {symerror: 0.13, label: 'stat'}
+    - {symerror: 0.09, label: 'sys'}
+  - value: 0.98
+    errors:
+    - {symerror: 0.17, label: 'stat'}
+    - {symerror: 0.09, label: 'sys'}
+  - value: 0.84
+    errors:
+    - {symerror: 0.14, label: 'stat'}
+    - {symerror: 0.08, label: 'sys'}
+  - value: 1.27
+    errors:
+    - {symerror: 0.14, label: 'stat'}
+    - {symerror: 0.12, label: 'sys'}
+  - value: 1.14
+    errors:
+    - {symerror: 0.17, label: 'stat'}
+    - {symerror: 0.11, label: 'sys'}
+  - value: 1.32
+    errors:
+    - {symerror: 0.25, label: 'stat'}
+    - {symerror: 0.12, label: 'sys'}
+  - value: 1.19
+    errors:
+    - {symerror: 0.28, label: 'stat'}
+    - {symerror: 0.11, label: 'sys'}
+  - value: 1.71
+    errors:
+    - {symerror: 0.43, label: 'stat'}
+    - {symerror: 0.16, label: 'sys'}

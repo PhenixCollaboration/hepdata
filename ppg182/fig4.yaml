@@ -1,0 +1,36 @@
+dependent_variables:
+- header: {name: '$(b\rightarrow e~R_{AA})/(c\rightarrow e~R_{AA})$'}
+  values:
+  - errors:
+    - asymerror: {minus: -1.08, plus: 1.88}
+      label: Systematic Uncertainty
+    value: 2.67
+  - errors:
+    - asymerror: {minus: -0.779, plus: 1.6}
+      label: Systematic Uncertainty
+    value: 1.93
+  - errors:
+    - asymerror: {minus: -0.587, plus: 1.46}
+      label: Systematic Uncertainty
+    value: 1.12
+  - errors:
+    - asymerror: {minus: -0.322, plus: 0.847}
+      label: Systematic Uncertainty
+    value: 0.614
+  - errors:
+    - asymerror: {minus: -0.479, plus: 1.35}
+      label: Systematic Uncertainty
+    value: 0.843
+  - errors:
+    - asymerror: {minus: -0.535, plus: 1.62}
+      label: Systematic Uncertainty
+    value: 0.832
+independent_variables:
+- header: {name: '${p_{T}}$ (GeV/c)'}
+  values:
+  - {high: 3, low: 3}
+  - {high: 4, low: 4}
+  - {high: 5, low: 5}
+  - {high: 6, low: 6}
+  - {high: 7, low: 7}
+  - {high: 8, low: 8}

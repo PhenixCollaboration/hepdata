@@ -1,0 +1,200 @@
+---
+comment: The transverse momentum ($p_T$) spectra and ratios of identified charged hadrons ($\pi^{\pm}$, $K^{\pm}$, $p$, $\bar{p}$) produced in $\sqrt{s_{NN}} = 200$ GeV Au+Au and d+Au collisions are reported in five different centrality classes for each collision species. The measurements of pions and protons are reported up to $p_T = 6$ GeV/c (5 GeV/c), and the measurements of kaons are reported up to $p_T = 4$ GeV/c (3.5 GeV/c) in Au+Au (d+Au) collisions. In the intermediate $p_T$ region, between 2–5 GeV/c, a significant enhancement of baryon to meson ratios compared to those measured in $p$+$p$ collisions is observed. This enhancement is present in both Au+Au and d+Au collisions, and increases as the collisions become more central. We compare a class of peripheral Au+Au collisions with a class central d+Au collisions which have a comparable number of participating nucleons and binary nucleon-nucleon collisions. The $p_T$ dependent particle ratios for these classes display a remarkable similarity, which is then  discussed.
+additional_resources:
+  - {location: "https://www.phenix.bnl.gov/phenix/WWW/info/data/ppg146_data.html", description: "web page with data points"}
+---
+name: "fig4: kaon AuAu"
+description: 'kaon AuAu Invariant yields versus $p_T$'
+keywords:
+  - {name: reactions, values: [AU AU --> CHARGED X]}
+  - {name: cmenergies, values: [200.0]}
+data_file: kaon_AuAu.yaml
+---
+name: "fig4: kaon dAu"
+description: 'kaon dAu Invariant yields versus $p_T$'
+keywords:
+  - {name: reactions, values: [AU AU --> CHARGED X]}
+  - {name: cmenergies, values: [200.0]}
+data_file: kaon_dAu.yaml
+---
+name: "fig4: pion AuAu"
+description: 'pion AuAu Invariant yields versus $p_T$'
+keywords:
+  - {name: reactions, values: [AU AU --> CHARGED X]}
+  - {name: cmenergies, values: [200.0]}
+data_file: pion_AuAu.yaml
+---
+name: "fig4: pion dAu"
+description: 'pion dAu Invariant yields versus $p_T$'
+keywords:
+  - {name: reactions, values: [d AU --> CHARGED X]}
+  - {name: cmenergies, values: [200.0]}
+data_file: pion_dAu.yaml
+---
+name: "fig4: proton AuAu"
+description: 'proton AuAu Invariant yields versus $p_T$'
+keywords:
+  - {name: reactions, values: [AU AU --> CHARGED X]}
+  - {name: cmenergies, values: [200.0]}
+data_file: prot_AuAu.yaml
+---
+name: "fig4: proton dAu"
+description: 'proton dAu Invariant yields versus $p_T$'
+keywords:
+  - {name: reactions, values: [d AU --> CHARGED X]}
+  - {name: cmenergies, values: [200.0]}
+data_file: prot_dAu.yaml
+---
+name: "fig5: ratio of kaon AuAu"
+description: 'AuAu Ratio kaon versus $p_T$'
+keywords:
+  - {name: reactions, values: [AU AU --> CHARGED X]}
+  - {name: cmenergies, values: [200.0]}
+data_file: ratioK_AuAu.yaml
+---
+name: "fig5: ratio of kaon dAu"
+description: 'dAu Ratio kaon versus $p_T$'
+keywords:
+  - {name: reactions, values: [d AU --> CHARGED X]}
+  - {name: cmenergies, values: [200.0]}
+data_file: ratioK_dAu.yaml
+---
+name: "fig5: ratio of pion AuAu"
+description: 'AuAu Ratio pion versus $p_T$'
+keywords:
+  - {name: reactions, values: [AU AU --> CHARGED X]}
+  - {name: cmenergies, values: [200.0]}
+data_file: ratiopi_AuAu.yaml
+---
+name: "fig5: ratio of pion dAu"
+description: 'dAu Ratio pion versus $p_T$'
+keywords:
+  - {name: reactions, values: [d AU --> CHARGED X]}
+  - {name: cmenergies, values: [200.0]}
+data_file: ratiopi_dAu.yaml
+---
+name: "fig5: ratio of proton AuAu"
+description: 'AuAu Ratio proton versus $p_T$'
+keywords:
+  - {name: reactions, values: [AU AU --> CHARGED X]}
+  - {name: cmenergies, values: [200.0]}
+data_file: ratiop_AuAu.yaml
+---
+name: "fig5: ratio of proton dAu"
+description: 'dAu Ratio proton versus $p_T$'
+keywords:
+  - {name: reactions, values: [d AU --> CHARGED X]}
+  - {name: cmenergies, values: [200.0]}
+data_file: ratiop_dAu.yaml
+---
+name: "fig6: ratio of kaon/pion AuAu"
+description: 'AuAu Ratio $kaon/\pi$ versus $p_T$'
+keywords:
+  - {name: reactions, values: [AU AU --> CHARGED X]}
+  - {name: cmenergies, values: [200.0]}
+data_file: ratioKpi_AuAu.yaml
+---
+name: "fig7: ratio of kaon/pion dAu"
+description: 'dAu Ratio $kaon/\pi$ versus $p_T$'
+keywords:
+  - {name: reactions, values: [d AU --> CHARGED X]}
+  - {name: cmenergies, values: [200.0]}
+data_file: ratioKpi_dAu.yaml
+---
+name: "fig8: ratio of proton/pion AuAu"
+description: 'AuAu Ratio $p/\pi$ versus $p_T$'
+keywords:
+  - {name: reactions, values: [AU AU --> CHARGED X]}
+  - {name: cmenergies, values: [200.0]}
+data_file: ratioppi_AuAu.yaml
+---
+name: "fig9: ratio of proton/pion dAu"
+description: 'dAu Ratio $p/\pi$ versus $p_T$'
+keywords:
+  - {name: reactions, values: [d AU --> CHARGED X]}
+  - {name: cmenergies, values: [200.0]}
+data_file: ratioppi_dAu.yaml
+---
+name: "fig10: rcp kaon"
+description: 'AuAu kaon $R_{CP}$ versus $p_T$'
+keywords:
+  - {name: reactions, values: [AU AU --> CHARGED X]}
+  - {name: cmenergies, values: [200.0]}
+data_file: rcp_kaon.yaml
+---
+name: "fig10: rcp pion"
+description: 'AuAu pion $R_{CP}$ versus $p_T$'
+keywords:
+  - {name: reactions, values: [AU AU --> CHARGED X]}
+  - {name: cmenergies, values: [200.0]}
+data_file: rcp_pion.yaml
+---
+name: "fig10: rcp proton"
+description: 'AuAu proton $R_{CP}$ versus $p_T$'
+keywords:
+  - {name: reactions, values: [AU AU --> CHARGED X]}
+  - {name: cmenergies, values: [200.0]}
+data_file: rcp_prot.yaml
+---
+name: "fig11: raa kaon"
+description: 'AuAu kaon $R_{AA}$ versus $p_T$ (Uncertainity type C is not included)'
+keywords:
+  - {name: reactions, values: [AU AU --> CHARGED X]}
+  - {name: cmenergies, values: [200.0]}
+data_file: raa_kaon.yaml
+---
+name: "fig11: raa pion"
+description: 'AuAu pion $R_{AA}$ versus $p_T$ (Uncertainity type C is not included)'
+keywords:
+  - {name: reactions, values: [AU AU --> CHARGED X]}
+  - {name: cmenergies, values: [200.0]}
+data_file: raa_pion.yaml
+---
+name: "fig11: raa proton"
+description: 'AuAu proton $R_{AA}$ versus $p_T$ (Uncertainity type C is not included)'
+keywords:
+  - {name: reactions, values: [AU AU --> CHARGED X]}
+  - {name: cmenergies, values: [200.0]}
+data_file: raa_prot.yaml
+---
+name: "fig12: rda kaon"
+description: 'dAu kaon $R_{dA}$ versus $p_T$ (Uncertainity type C is not included)'
+keywords:
+  - {name: reactions, values: [d AU --> CHARGED X]}
+  - {name: cmenergies, values: [200.0]}
+data_file: rda_kaon.yaml
+---
+name: "fig12: rda pion"
+description: 'dAu pion $R_{dA}$ versus $p_T$ (Uncertainity type C is not included)'
+keywords:
+  - {name: reactions, values: [d AU --> CHARGED X]}
+  - {name: cmenergies, values: [200.0]}
+data_file: rda_pion.yaml
+---
+name: "fig12: rda proton"
+description: 'dAu proton $R_{dA}$ versus $p_T$ (Uncertainity type C is not included)'
+keywords:
+  - {name: reactions, values: [d AU --> CHARGED X]}
+  - {name: cmenergies, values: [200.0]}
+data_file: rda_prot.yaml
+---
+name: "fig15: kaon AuAu"
+description: 'kaon AuAu Ratio of Invariant yields versus $p_T$'
+keywords:
+  - {name: reactions, values: [AU AU --> CHARGED X]}
+  - {name: cmenergies, values: [200.0]}
+data_file: aud_sr_kaon.yaml
+---
+name: "fig15: pion AuAu"
+description: 'pion AuAu Ratio of Invariant yields versus $p_T$'
+keywords:
+  - {name: reactions, values: [AU AU --> CHARGED X]}
+  - {name: cmenergies, values: [200.0]}
+data_file: aud_sr_pion.yaml
+---
+name: "fig15: proton AuAu"
+description: 'proton AuAu Ratio of Invariant yields versus $p_T$'
+keywords:
+  - {name: reactions, values: [AU AU --> CHARGED X]}
+  - {name: cmenergies, values: [200.0]}
+data_file: aud_sr_prot.yaml

@@ -1,0 +1,129 @@
+independent_variables:
+- header: {name: 'Centrality'}
+  values:
+  - {low: 0, high: 20}
+  - {low: 20, high: 40}
+  - {low: 40, high: 60}
+  - {low: 60, high: 70}
+  - {low: 70, high: 92}
+dependent_variables:
+- header: {name: '<pt>'}
+  qualifiers:
+  - {name: 'Centrality', value: '1<p_T^B<7GeV/c'}
+  values:
+  - value: 0.383
+    errors:
+    - {symerror: 0.02, label: 'stat'}
+    - {symerror: 0.028, label: 'sys'}
+  - value: 0.469
+    errors:
+    - {symerror: 0.017, label: 'stat'}
+    - {symerror: 0.012, label: 'sys'}
+  - value: 0.56
+    errors:
+    - {symerror: 0.018, label: 'stat'}
+    - {symerror: 0.0285, label: 'sys'}
+  - value: 0.643
+    errors:
+    - {symerror: 0.018, label: 'stat'}
+    - {symerror: 0.019, label: 'sys'}
+  - value: 0.732
+    errors:
+    - {symerror: 0.017, label: 'stat'}
+    - {symerror: 0.001, label: 'sys'}
+- header: {name: '<pt>'}
+  qualifiers:
+  - {name: 'Centrality', value: '1.5<p_T^B<7GeV/c'}
+  values:
+  - value: 0.398
+    errors:
+    - {symerror: 0.049, label: 'stat'}
+    - {symerror: 0.037, label: 'sys'}
+  - value: 0.525
+    errors:
+    - {symerror: 0.035, label: 'stat'}
+    - {symerror: 0.065, label: 'sys'}
+  - value: 0.643
+    errors:
+    - {symerror: 0.033, label: 'stat'}
+    - {symerror: 0.0485, label: 'sys'}
+  - value: 0.753
+    errors:
+    - {symerror: 0.032, label: 'stat'}
+    - {symerror: 0.0225, label: 'sys'}
+  - value: 0.827
+    errors:
+    - {symerror: 0.029, label: 'stat'}
+    - {symerror: 0.002, label: 'sys'}
+- header: {name: '<pt>'}
+  qualifiers:
+  - {name: 'Centrality', value: '2<p_T^B<7GeV/c'}
+  values:
+  - value: 0.57
+    errors:
+    - {symerror: 0.135, label: 'stat'}
+    - {symerror: 0.1, label: 'sys'}
+  - value: 0.722
+    errors:
+    - {symerror: 0.075, label: 'stat'}
+    - {symerror: 0.185, label: 'sys'}
+  - value: 0.747
+    errors:
+    - {symerror: 0.054, label: 'stat'}
+    - {symerror: 0.0475, label: 'sys'}
+  - value: 0.865
+    errors:
+    - {symerror: 0.051, label: 'stat'}
+    - {symerror: 0.0225, label: 'sys'}
+  - value: 0.869
+    errors:
+    - {symerror: 0.045, label: 'stat'}
+    - {symerror: 0.0035, label: 'sys'}
+- header: {name: '<pt>'}
+  qualifiers:
+  - {name: 'Centrality', value: '2.5<p_T^B<7GeV/c'}
+  values:
+  - value: 0.675
+    errors:
+    - {symerror: 0.231, label: 'stat'}
+    - {symerror: 0.0815, label: 'sys'}
+  - value: 0.822
+    errors:
+    - {symerror: 0.107, label: 'stat'}
+    - {symerror: 0.163, label: 'sys'}
+  - value: 0.785
+    errors:
+    - {symerror: 0.074, label: 'stat'}
+    - {symerror: 0.037, label: 'sys'}
+  - value: 0.939
+    errors:
+    - {symerror: 0.071, label: 'stat'}
+    - {symerror: 0.016, label: 'sys'}
+  - value: 0.936
+    errors:
+    - {symerror: 0.066, label: 'stat'}
+    - {symerror: 0.0055, label: 'sys'}
+- header: {name: '<pt>'}
+  qualifiers:
+  - {name: 'Centrality', value: '3<p_T^B<7GeV/c'}
+  values:
+  - value: 0.75
+    errors:
+    - {symerror: 0.305, label: 'stat'}
+    - {symerror: 0.0885, label: 'sys'}
+  - value: 0.857
+    errors:
+    - {symerror: 0.121, label: 'stat'}
+    - {symerror: 0.0845, label: 'sys'}
+  - value: 0.836
+    errors:
+    - {symerror: 0.092, label: 'stat'}
+    - {symerror: 0.0275, label: 'sys'}
+  - value: 0.932
+    errors:
+    - {symerror: 0.085, label: 'stat'}
+    - {symerror: 0.008, label: 'sys'}
+  - value: 0.906
+    errors:
+    - {symerror: 0.083, label: 'stat'}
+    - {symerror: 0.0035, label: 'sys'}

@@ -1,0 +1,33 @@
+independent_variables:
+- header: {name: '$p_T$'}
+  values:
+  - {low: 0.3, high: 0.9}
+  - {low: 0.9, high: 1.5}
+  - {low: 1.5, high: 2}
+  - {low: 2, high: 2.5}
+  - {low: 2.5, high: 3}
+dependent_variables:
+- header: {name: 'D'}
+  qualifiers:
+  - {name: '$p_T$', value: '4.0<p_{T}^{A}<5.0GeV/c'}
+  values:
+  - value: 0.885
+    errors:
+    - {symerror: 0.045, label: 'staterr'}
+    - {symerror: 0.0905, label: 'sys err'}
+  - value: 0.848
+    errors:
+    - {symerror: 0.06, label: 'staterr'}
+    - {symerror: 0.0765, label: 'sys err'}
+  - value: 1.13
+    errors:
+    - {symerror: 0.131, label: 'staterr'}
+    - {symerror: 0.0915, label: 'sys err'}
+  - value: 1.087
+    errors:
+    - {symerror: 0.16, label: 'staterr'}
+    - {symerror: 0.079, label: 'sys err'}
+  - value: 1.109
+    errors:
+    - {symerror: 0.201, label: 'staterr'}
+    - {symerror: 0.1055, label: 'sys err'}

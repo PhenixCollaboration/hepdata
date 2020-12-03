@@ -1,0 +1,53 @@
+independent_variables:
+- header: {name: '$p_T$'}
+  values:
+  - {low: 0.4, high: 0.6}
+  - {low: 0.6, high: 0.8}
+  - {low: 0.8, high: 1.0}
+  - {low: 1.0, high: 1.2}
+  - {low: 1.2, high: 1.4}
+  - {low: 1.4, high: 1.6}
+  - {low: 1.6, high: 1.8}
+  - {low: 1.8, high: 2.0}
+  - {low: 2.0, high: 3.0}
+dependent_variables:
+- header: {name: 'inv.yield'}
+  qualifiers:
+  - {name: '$p_T$', value: '$0-86\%$'}
+  values:
+  - value: 2.92163
+    errors:
+    - {symerror: 2.08184, label: '$p_T$-uncorrelated-error'}
+    - {symerror: 1.58925, label: '$p_T$-correlated-error'}
+  - value: 1.10691
+    errors:
+    - {symerror: 0.499952, label: '$p_T$-uncorrelated-error'}
+    - {symerror: 0.546521, label: '$p_T$-correlated-error'}
+  - value: 0.400722
+    errors:
+    - {symerror: 0.175866, label: '$p_T$-uncorrelated-error'}
+    - {symerror: 0.203937, label: '$p_T$-correlated-error'}
+  - value: 0.0764554
+    errors:
+    - {symerror: 0.0592452, label: '$p_T$-uncorrelated-error'}
+    - {symerror: 0.0770413, label: '$p_T$-correlated-error'}
+  - value: 0.0765651
+    errors:
+    - {symerror: 0.0380557, label: '$p_T$-uncorrelated-error'}
+    - {symerror: 0.03484, label: '$p_T$-correlated-error'}
+  - value: 0.00436177
+    errors:
+    - {symerror: 0.0112497, label: '$p_T$-uncorrelated-error'}
+    - {symerror: 0.0138846, label: '$p_T$-correlated-error'}
+  - value: <0.01226
+    errors:
+    - {symerror: --, label: '$p_T$-uncorrelated-error'}
+    - {symerror: --, label: '$p_T$-correlated-error'}
+  - value: 0.00323661
+    errors:
+    - {symerror: 0.00489344, label: '$p_T$-uncorrelated-error'}
+    - {symerror: 0.0030254, label: '$p_T$-correlated-error'}
+  - value: 6.33147e-5
+    errors:
+    - {symerror: 0.000274548, label: '$p_T$-uncorrelated-error'}
+    - {symerror: 0.00034286, label: '$p_T$-correlated-error'}

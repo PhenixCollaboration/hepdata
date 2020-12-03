@@ -1,0 +1,71 @@
+independent_variables:
+- header: {name: '$p_T$'}
+  values:
+  - {low: 5, high: 6}
+  - {low: 6, high: 7}
+  - {low: 7, high: 8}
+  - {low: 8, high: 11}
+  - {low: 11, high: 15}
+- header: {name: '$\langle p_T \rangle \pi^- $'}
+  values:
+  - value: 5.54991
+  - value: 6.46535
+  - value: 7.45667
+  - value: 9.14798
+  - value: 12.4834
+- header: {name: '$\langle p_T \rangle \pi^+$'}
+  values:
+  - value: 5.56588
+  - value: 6.47533
+  - value: 7.46176
+  - value: 9.17128
+  - value: 12.5124
+dependent_variables:
+- header: {name: '$A_{LL}$'}
+  qualifiers:
+  - {name: '$p_T$', value: '$\pi^-$'}
+  values:
+  - value: -0.00519049
+    errors:
+    - {symerror: 0.00437528, label: 'stat'}
+    - {symerror: 0.000102903, label: 'sys'}
+  - value: 0.000446376
+    errors:
+    - {symerror: 0.00451286, label: 'stat'}
+    - {symerror: 9.74006e-05, label: 'sys'}
+  - value: 0.00128568
+    errors:
+    - {symerror: 0.00597743, label: 'stat'}
+    - {symerror: 9.52505e-05, label: 'sys'}
+  - value: -0.00344002
+    errors:
+    - {symerror: 0.00571409, label: 'stat'}
+    - {symerror: 0.000443633, label: 'sys'}
+  - value: 0.0106002
+    errors:
+    - {symerror: 0.0115243, label: 'stat'}
+    - {symerror: 0.000296232, label: 'sys'}
+- header: {name: '$A_{LL}$'}
+  qualifiers:
+  - {name: '$p_T$', value: '$\pi^+$'}
+  values:
+  - value: -0.00526361
+    errors:
+    - {symerror: 0.00456848, label: 'stat'}
+    - {symerror: 8.35967e-05, label: 'sys'}
+  - value: 0.00196915
+    errors:
+    - {symerror: 0.00433892, label: 'stat'}
+    - {symerror: 8.78514e-05, label: 'sys'}
+  - value: -0.00530131
+    errors:
+    - {symerror: 0.0055089, label: 'stat'}
+    - {symerror: 7.55661e-05, label: 'sys'}
+  - value: 0.00558391
+    errors:
+    - {symerror: 0.00508355, label: 'stat'}
+    - {symerror: 0.00120241, label: 'sys'}
+  - value: 0.00252019
+    errors:
+    - {symerror: 0.00977944, label: 'stat'}
+    - {symerror: 0.000491768, label: 'sys'}

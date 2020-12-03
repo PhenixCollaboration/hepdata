@@ -1,0 +1,30 @@
+independent_variables:
+- header: {name: 'Centrality'}
+  values:
+  - {low: 0, high: 10}
+  - {low: 10, high: 20}
+  - {low: 20, high: 30}
+  - {low: 30, high: 40}
+  - {low: 40, high: 50}
+  - {low: 50, high: 60}
+dependent_variables:
+- header: {name: 'Npart'}
+  values:
+  - value: 325.2
+    errors:
+    - {symerror: 3.3, label: 'stat'}
+  - value: 234.6
+    errors:
+    - {symerror: 4.7, label: 'stat'}
+  - value: 166.6
+    errors:
+    - {symerror: 5.4, label: 'stat'}
+  - value: 114.2
+    errors:
+    - {symerror: 4.4, label: 'stat'}
+  - value: 74.4
+    errors:
+    - {symerror: 3.8, label: 'stat'}
+  - value: 45.5
+    errors:
+    - {symerror: 3.3, label: 'stat'}

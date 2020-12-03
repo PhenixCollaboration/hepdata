@@ -1,0 +1,39 @@
+dependent_variables:
+- header: {name: Ratio}
+  qualifiers:
+  - {name: $\xi$, value: 'Ratio of $|\Delta \phi - \pi | < \frac{\pi}{2}$ to $|\Delta
+      \phi - \pi | < \frac{\pi}{6}$ for 0-40% $\frac{Au+Au}{p+p}$'}
+  values:
+  - errors:
+    - {label: stat, symerror: 0.512}
+    - {label: sys, symerror: 0.393}
+    value: 0.356
+  - errors:
+    - {label: stat, symerror: 0.324}
+    - {label: sys, symerror: 0.0308}
+    value: 0.858
+  - errors:
+    - {label: stat, symerror: 0.475}
+    - {label: sys, symerror: 0.174}
+    value: 1.96
+  - errors:
+    - {label: stat, symerror: 0.309}
+    - {label: sys, symerror: 0.138}
+    value: 1.72
+  - errors:
+    - {label: stat, symerror: 0.206}
+    - {label: sys, symerror: 0.217}
+    value: 1.48
+  - errors:
+    - {label: stat, symerror: 1.09}
+    - {label: sys, symerror: 0.233}
+    value: 2.38
+independent_variables:
+- header: {name: $\xi$}
+  values:
+  - {high: 0.4, low: 0.0}
+  - {high: 0.8, low: 0.4}
+  - {high: 1.2, low: 0.8}
+  - {high: 1.6, low: 1.2}
+  - {high: 2.0, low: 1.6}
+  - {high: 2.4, low: 2.0}

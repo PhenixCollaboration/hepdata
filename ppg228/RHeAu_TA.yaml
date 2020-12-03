@@ -1,0 +1,45 @@
+independent_variables:
+- header: {name: '$\langle T_{A} \rangle [fm^{-2}]$'}
+  values:
+  - {value: 1.21}
+  - {value: 1.57}
+  - {value: 1.78}
+dependent_variables:
+- header: {name: '$\frac{dN^{AB}/dy}{\langle N_{coll} \rangle dN^{pp}/dy}$  (global sys. err. 10.1%)'}
+  qualifiers:
+  - {name: '', value: '$R_{HeAu}$,  $^{3}$He+Au$\sqrt{s_{NN}}$=200GeV, $1.2 < y < 2.2$'}
+  values:
+  - value: 0.97
+    errors:
+    - {symerror: 0.06, label: 'stat'}
+    - {symerror: 0.35, label: 'x sys'}
+    - {symerror: 0.08, label: 'y sys'}
+  - value: 0.85
+    errors:
+    - {symerror: 0.05, label: 'stat'}
+    - {symerror: 0.35, label: 'x sys'}
+    - {symerror: 0.07, label: 'y sys'}
+  - value: 0.68
+    errors:
+    - {symerror: 0.03, label: 'stat'}
+    - {symerror: 0.35, label: 'x sys'}
+    - {symerror: 0.06, label: 'y sys'}
+- header: {name: '$\frac{dN^{AB}/dy}{\langle N_{coll} \rangle dN^{pp}/dy}$  (global sys. err. 10.1%)'}
+  qualifiers:
+  - {name: '', value: '$R_{HeAu}$,  $^{3}$He+Au$\sqrt{s_{NN}}$=200GeV, $-2.2 < y < -1.2$'}
+  values:
+  - value: 1.01
+    errors:
+    - {symerror: 0.05, label: 'stat'}
+    - {symerror: 0.35, label: 'x sys'}
+    - {symerror: 0.10, label: 'y sys'}
+  - value: 0.81
+    errors:
+    - {symerror: 0.05, label: 'stat'}
+    - {symerror: 0.35, label: 'x sys'}
+    - {symerror: 0.08, label: 'y sys'}
+  - value: 0.76
+    errors:
+    - {symerror: 0.04, label: 'stat'}
+    - {symerror: 0.35, label: 'x sys'}
+    - {symerror: 0.07, label: 'y sys'}

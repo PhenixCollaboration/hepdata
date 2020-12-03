@@ -1,0 +1,224 @@
+independent_variables:
+- header: {name: '$p_T$'}
+  values:
+  - {low: 1, high: 1.5}
+  - {low: 1.5, high: 2}
+  - {low: 2, high: 2.5}
+  - {low: 2.5, high: 3}
+  - {low: 3, high: 3.5}
+  - {low: 3.5, high: 4}
+  - {low: 4, high: 5}
+  - {low: 5, high: 6}
+  - {low: 6, high: 7}
+  - {low: 7, high: 8}
+  - {low: 8, high: 9}
+  - {low: 9, high: 10}
+dependent_variables:
+- header: {name: '$v_2$'}
+  qualifiers:
+  - {name: '$p_T$', value: '$0-20\%$ centrality'}
+  values:
+  - value: 0.083
+    errors:
+    - {asymerror: {plus: +0.011, minus: -0.011}, label: 'Stat. Error'}
+    - {symerror: 0.011, label: 'Sys. Error'}
+  - value: 0.091
+    errors:
+    - {asymerror: {plus: +0.007, minus: -0.007}, label: 'Stat. Error'}
+    - {symerror: 0.012, label: 'Sys. Error'}
+  - value: 0.104
+    errors:
+    - {asymerror: {plus: +0.007, minus: -0.007}, label: 'Stat. Error'}
+    - {symerror: 0.014, label: 'Sys. Error'}
+  - value: 0.110
+    errors:
+    - {asymerror: {plus: +0.008, minus: -0.008}, label: 'Stat. Error'}
+    - {symerror: 0.015, label: 'Sys. Error'}
+  - value: 0.107
+    errors:
+    - {asymerror: {plus: +0.010, minus: -0.010}, label: 'Stat. Error'}
+    - {symerror: 0.015, label: 'Sys. Error'}
+  - value: 0.097
+    errors:
+    - {asymerror: {plus: +0.013, minus: -0.013}, label: 'Stat. Error'}
+    - {symerror: 0.013, label: 'Sys. Error'}
+  - value: 0.088
+    errors:
+    - {asymerror: {plus: +0.014, minus: -0.014}, label: 'Stat. Error'}
+    - {symerror: 0.012, label: 'Sys. Error'}
+  - value: 0.077
+    errors:
+    - {asymerror: {plus: +0.023, minus: -0.023}, label: 'Stat. Error'}
+    - {symerror: 0.010, label: 'Sys. Error'}
+  - value: 0.056
+    errors:
+    - {asymerror: {plus: +0.039, minus: -0.039}, label: 'Stat. Error'}
+    - {symerror: 0.007, label: 'Sys. Error'}
+  - value: 0.096
+    errors:
+    - {asymerror: {plus: +0.081, minus: -0.079}, label: 'Stat. Error'}
+    - {symerror: 0.013, label: 'Sys. Error'}
+  - value: 0.074
+    errors:
+    - {asymerror: {plus: +0.055, minus: -0.054}, label: 'Stat. Error'}
+    - {symerror: 0.010, label: 'Sys. Error'}
+  - value: 0.170
+    errors:
+    - {asymerror: {plus: +0.074, minus: -0.072}, label: 'Stat. Error'}
+    - {symerror: 0.023, label: 'Sys. Error'}
+- header: {name: '$v_2$'}
+  qualifiers:
+  - {name: '$p_T$', value: '$20-40\%$ centrality'}
+  values:
+  - value: 0.133
+    errors:
+    - {asymerror: {plus: +0.005, minus: -0.005}, label: 'Stat. Error'}
+    - {symerror: 0.008, label: 'Sys. Error'}
+  - value: 0.169
+    errors:
+    - {asymerror: {plus: +0.004, minus: -0.004}, label: 'Stat. Error'}
+    - {symerror: 0.010, label: 'Sys. Error'}
+  - value: 0.189
+    errors:
+    - {asymerror: {plus: +0.004, minus: -0.004}, label: 'Stat. Error'}
+    - {symerror: 0.011, label: 'Sys. Error'}
+  - value: 0.197
+    errors:
+    - {asymerror: {plus: +0.005, minus: -0.005}, label: 'Stat. Error'}
+    - {symerror: 0.012, label: 'Sys. Error'}
+  - value: 0.182
+    errors:
+    - {asymerror: {plus: +0.006, minus: -0.006}, label: 'Stat. Error'}
+    - {symerror: 0.011, label: 'Sys. Error'}
+  - value: 0.171
+    errors:
+    - {asymerror: {plus: +0.008, minus: -0.008}, label: 'Stat. Error'}
+    - {symerror: 0.010, label: 'Sys. Error'}
+  - value: 0.158
+    errors:
+    - {asymerror: {plus: +0.009, minus: -0.009}, label: 'Stat. Error'}
+    - {symerror: 0.009, label: 'Sys. Error'}
+  - value: 0.132
+    errors:
+    - {asymerror: {plus: +0.016, minus: -0.016}, label: 'Stat. Error'}
+    - {symerror: 0.008, label: 'Sys. Error'}
+  - value: 0.140
+    errors:
+    - {asymerror: {plus: +0.027, minus: -0.027}, label: 'Stat. Error'}
+    - {symerror: 0.008, label: 'Sys. Error'}
+  - value: 0.071
+    errors:
+    - {asymerror: {plus: +0.055, minus: -0.054}, label: 'Stat. Error'}
+    - {symerror: 0.004, label: 'Sys. Error'}
+  - value: 0.088
+    errors:
+    - {asymerror: {plus: +0.045, minus: -0.044}, label: 'Stat. Error'}
+    - {symerror: 0.005, label: 'Sys. Error'}
+  - value: 0.062
+    errors:
+    - {asymerror: {plus: +0.070, minus: -0.069}, label: 'Stat. Error'}
+    - {symerror: 0.004, label: 'Sys. Error'}
+- header: {name: '$v_2$'}
+  qualifiers:
+  - {name: '$p_T$', value: '$40-60\%$ centrality'}
+  values:
+  - value: 0.159
+    errors:
+    - {asymerror: {plus: +0.007, minus: -0.007}, label: 'Stat. Error'}
+    - {symerror: 0.009, label: 'Sys. Error'}
+  - value: 0.188
+    errors:
+    - {asymerror: {plus: +0.005, minus: -0.005}, label: 'Stat. Error'}
+    - {symerror: 0.010, label: 'Sys. Error'}
+  - value: 0.208
+    errors:
+    - {asymerror: {plus: +0.006, minus: -0.006}, label: 'Stat. Error'}
+    - {symerror: 0.012, label: 'Sys. Error'}
+  - value: 0.198
+    errors:
+    - {asymerror: {plus: +0.008, minus: -0.008}, label: 'Stat. Error'}
+    - {symerror: 0.011, label: 'Sys. Error'}
+  - value: 0.195
+    errors:
+    - {asymerror: {plus: +0.010, minus: -0.010}, label: 'Stat. Error'}
+    - {symerror: 0.011, label: 'Sys. Error'}
+  - value: 0.185
+    errors:
+    - {asymerror: {plus: +0.014, minus: -0.014}, label: 'Stat. Error'}
+    - {symerror: 0.010, label: 'Sys. Error'}
+  - value: 0.155
+    errors:
+    - {asymerror: {plus: +0.017, minus: -0.017}, label: 'Stat. Error'}
+    - {symerror: 0.009, label: 'Sys. Error'}
+  - value: 0.149
+    errors:
+    - {asymerror: {plus: +0.031, minus: -0.030}, label: 'Stat. Error'}
+    - {symerror: 0.008, label: 'Sys. Error'}
+  - value: 0.093
+    errors:
+    - {asymerror: {plus: +0.056, minus: -0.055}, label: 'Stat. Error'}
+    - {symerror: 0.005, label: 'Sys. Error'}
+  - value: 0.152
+    errors:
+    - {asymerror: {plus: +0.118, minus: -0.113}, label: 'Stat. Error'}
+    - {symerror: 0.008, label: 'Sys. Error'}
+  - value: 0.114
+    errors:
+    - {asymerror: {plus: +0.126, minus: -0.124}, label: 'Stat. Error'}
+    - {symerror: 0.006, label: 'Sys. Error'}
+  - value: 0.168
+    errors:
+    - {asymerror: {plus: +0.266, minus: -0.231}, label: 'Stat. Error'}
+    - {symerror: 0.009, label: 'Sys. Error'}
+- header: {name: '$v_2$'}
+  qualifiers:
+  - {name: '$p_T$', value: '$0-92\%$ centrality'}
+  values:
+  - value: 0.106
+    errors:
+    - {asymerror: {plus: +0.009, minus: -0.009}, label: 'Stat. Error'}
+    - {symerror: 0.013, label: 'Sys. Error'}
+  - value: 0.125
+    errors:
+    - {asymerror: {plus: +0.006, minus: -0.006}, label: 'Stat. Error'}
+    - {symerror: 0.015, label: 'Sys. Error'}
+  - value: 0.142
+    errors:
+    - {asymerror: {plus: +0.006, minus: -0.006}, label: 'Stat. Error'}
+    - {symerror: 0.017, label: 'Sys. Error'}
+  - value: 0.146
+    errors:
+    - {asymerror: {plus: +0.008, minus: -0.008}, label: 'Stat. Error'}
+    - {symerror: 0.018, label: 'Sys. Error'}
+  - value: 0.143
+    errors:
+    - {asymerror: {plus: +0.011, minus: -0.011}, label: 'Stat. Error'}
+    - {symerror: 0.017, label: 'Sys. Error'}
+  - value: 0.136
+    errors:
+    - {asymerror: {plus: +0.015, minus: -0.015}, label: 'Stat. Error'}
+    - {symerror: 0.016, label: 'Sys. Error'}
+  - value: 0.127
+    errors:
+    - {asymerror: {plus: +0.017, minus: -0.017}, label: 'Stat. Error'}
+    - {symerror: 0.015, label: 'Sys. Error'}
+  - value: 0.108
+    errors:
+    - {asymerror: {plus: +0.033, minus: -0.033}, label: 'Stat. Error'}
+    - {symerror: 0.013, label: 'Sys. Error'}
+  - value: 0.084
+    errors:
+    - {asymerror: {plus: +0.059, minus: -0.059}, label: 'Stat. Error'}
+    - {symerror: 0.010, label: 'Sys. Error'}
+  - value: 0.083
+    errors:
+    - {asymerror: {plus: +0.136, minus: -0.145}, label: 'Stat. Error'}
+    - {symerror: 0.009, label: 'Sys. Error'}
+  - value: 0.113
+    errors:
+    - {asymerror: {plus: +0.099, minus: -0.109}, label: 'Stat. Error'}
+    - {symerror: 0.011, label: 'Sys. Error'}
+  - value: 0.149
+    errors:
+    - {asymerror: {plus: +0.156, minus: -0.123}, label: 'Stat. Error'}
+    - {symerror: 0.012, label: 'Sys. Error'}

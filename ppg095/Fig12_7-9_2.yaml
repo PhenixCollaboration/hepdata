@@ -1,0 +1,56 @@
+independent_variables:
+- header: {name: '$p_{out}$'}
+  values:
+  - {low: 0.0, high: 0.5}
+  - {low: 0.5, high: 1.0}
+  - {low: 1.0, high: 1.5}
+  - {low: 1.5, high: 2.0}
+  - {low: 2.0, high: 3.0}
+  - {low: 3.0, high: 5.0}
+  - {low: 5.0, high: 7.0}
+  - {low: 7.0, high: 9.0}
+dependent_variables:
+- header: {name: '$dN/p_{out}$'}
+  qualifiers:
+  - {name: '$p_{out}$', value: '$\textrm{Isolated Direct Photon} \, - \, \textrm{Hadron} \, 7 \, < \, p_T, \,t \, < \, 9$'}
+  values:
+  - value: 0.0669093
+    errors:
+    - {symerror: 0.0104948, label: 'stat'}
+    - {symerror: 0.00448192, label: 'syserrlo'}
+    - {symerror: 0.00432009, label: 'syserrhi'}
+  - value: 0.0491522
+    errors:
+    - {symerror: 0.00910624, label: 'stat'}
+    - {symerror: 0.0036591, label: 'syserrlo'}
+    - {symerror: 0.0034897, label: 'syserrhi'}
+  - value: 0.0401119
+    errors:
+    - {symerror: 0.00733649, label: 'stat'}
+    - {symerror: 0.00175676, label: 'syserrlo'}
+    - {symerror: 0.00175635, label: 'syserrhi'}
+  - value: 0.028662
+    errors:
+    - {symerror: 0.00734438, label: 'stat'}
+    - {symerror: 0.00132828, label: 'syserrlo'}
+    - {symerror: 0.00132494, label: 'syserrhi'}
+  - value: 0.0129622
+    errors:
+    - {symerror: 0.00460451, label: 'stat'}
+    - {symerror: 0.000772392, label: 'syserrlo'}
+    - {symerror: 0.000776847, label: 'syserrhi'}
+  - value: 0.00294504
+    errors:
+    - {symerror: 0.00132287, label: 'stat'}
+    - {symerror: 0.000181733, label: 'syserrlo'}
+    - {symerror: 0.000193153, label: 'syserrhi'}
+  - value: 0.000501953
+    errors:
+    - {symerror: 0.000366427, label: 'stat'}
+    - {symerror: 2.97753e-05, label: 'syserrlo'}
+    - {symerror: 3.48214e-05, label: 'syserrhi'}
+  - value: -7.00359e-07
+    errors:
+    - {symerror: 7.00359e-07, label: 'stat'}
+    - {symerror: 9.1677e-08, label: 'syserrlo'}
+    - {symerror: 7.46035e-08, label: 'syserrhi'}

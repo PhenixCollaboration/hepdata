@@ -1,0 +1,58 @@
+additional_resources:
+- {description: web page with data points, location: 'https://www.phenix.bnl.gov/phenix/WWW/info/data/ppg113_data.html'}
+comment: "BNL-RHIC.  The jet fragmentation function is measured with direct photon-hadron
+  correlations inp+pandAu+Au collisions at\u221AsNN= 200 GeV. ThepTof the photon is
+  an excellent approximation to theinitialpTof the jet and the ratiozT=phT/p\u03B3Tis
+  used as a proxy for the jet fragmentation function.A statistical subtraction is
+  used to extract the direct photon-hadron yields in Au+Au collisionswhile a photon
+  isolation cut is applied inp+p.IAA, the ratio of jet fragment yield in Au+Au tothat
+  inp+p, indicates modification of the jet fragmentation function.Suppression, most
+  likely dueto energy loss in the medium, is seen at highzT. The fragment yield at
+  lowzTis enhanced at largeangles. Such a trend is expected from redistribution of
+  the lost energy into increased production oflow-momentum particles.\n"
+---
+data_file: Fig1_binned.yaml
+description: Direct photon-hadron pair per-trigger yields vs Delta-phi (Au+Au and
+  p+p)
+keywords:
+- name: reactions
+  values: [AU AU --> CHARGED X, DEUT AU --> CHARGED X, CU CU --> CHARGED X]
+- name: cmenergies
+  values: [62.4-200.0]
+name: Fig1
+---
+data_file: Fig2a_binned.yaml
+description: Integrated per-trigger yields and I_AA vs xi
+keywords:
+- name: reactions
+  values: [AU AU --> CHARGED X, DEUT AU --> CHARGED X, CU CU --> CHARGED X]
+- name: cmenergies
+  values: [62.4-200.0]
+name: Fig2a
+---
+data_file: Fig2b_binned.yaml
+description: Integrated per-trigger yields and I_AA vs xi
+keywords:
+- name: reactions
+  values: [AU AU --> CHARGED X, DEUT AU --> CHARGED X, CU CU --> CHARGED X]
+- name: cmenergies
+  values: [62.4-200.0]
+name: Fig2b
+---
+data_file: Fig3a_binned.yaml
+description: I_AA vs xi varying integration range
+keywords:
+- name: reactions
+  values: [AU AU --> CHARGED X, DEUT AU --> CHARGED X, CU CU --> CHARGED X]
+- name: cmenergies
+  values: [62.4-200.0]
+name: Fig3a
+---
+data_file: Fig3b_binned.yaml
+description: I_AA vs xi varying integration range
+keywords:
+- name: reactions
+  values: [AU AU --> CHARGED X, DEUT AU --> CHARGED X, CU CU --> CHARGED X]
+- name: cmenergies
+  values: [62.4-200.0]
+name: Fig3b

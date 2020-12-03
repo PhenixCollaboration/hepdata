@@ -1,0 +1,53 @@
+independent_variables:
+- header: {name: 'Centrality'}
+  values:
+  - {low: 0, high: 10}
+  - {low: 10, high: 20}
+  - {low: 20, high: 30}
+  - {low: 30, high: 40}
+  - {low: 40, high: 50}
+dependent_variables:
+- header: {name: 'v4 in pT=0.75-1 GeV/c'}
+  values:
+  - value: 0.00929623
+    errors:
+    - {symerror: 0.000809231, label: 'stat'}
+    - {symerror: 0.00130767, label: 'sys'}
+  - value: 0.0160356
+    errors:
+    - {symerror: 0.000990739, label: 'stat'}
+    - {symerror: 0.0036937, label: 'sys'}
+  - value: 0.0213686
+    errors:
+    - {symerror: 0.00135648, label: 'stat'}
+    - {symerror: 0.0041242, label: 'sys'}
+  - value: 0.0258145
+    errors:
+    - {symerror: 0.00202642, label: 'stat'}
+    - {symerror: 0.0071339, label: 'sys'}
+  - value: 0.0297691
+    errors:
+    - {symerror: 0.00533278, label: 'stat'}
+    - {symerror: 0.012883, label: 'sys'}
+- header: {name: 'v4 in pT=1.75-2 GeV/c'}
+  values:
+  - value: 0.0380971
+    errors:
+    - {symerror: 0.00277526, label: 'stat'}
+    - {symerror: 0.0025267, label: 'sys'}
+  - value: 0.0502157
+    errors:
+    - {symerror: 0.00331494, label: 'stat'}
+    - {symerror: 0.006869, label: 'sys'}
+  - value: 0.0540187
+    errors:
+    - {symerror: 0.00439877, label: 'stat'}
+    - {symerror: 0.0086406, label: 'sys'}
+  - value: 0.0705198
+    errors:
+    - {symerror: 0.00659385, label: 'stat'}
+    - {symerror: 0.0078773, label: 'sys'}
+  - value: 0.0961514
+    errors:
+    - {symerror: 0.0173932, label: 'stat'}
+    - {symerror: 0.0239146, label: 'sys'}

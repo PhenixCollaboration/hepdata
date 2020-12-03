@@ -1,0 +1,58 @@
+independent_variables:
+- header: {name: 'Centrality'}
+  values:
+  - {low: 0, high: 5}
+  - {low: 5, high: 10}
+  - {low: 10, high: 20}
+  - {low: 20, high: 30}
+  - {low: 30, high: 40}
+  - {low: 40, high: 50}
+  - {low: 50, high: 60}
+  - {low: 60, high: 70}
+  - {low: 70, high: 92}
+  - {low: 92, high: 100}
+dependent_variables:
+- header: {name: 'RHS'}
+  qualifiers:
+  - {name: 'Centrality', value: 'rhscentcentrality'}
+  values:
+  - value: 0.451
+    errors:
+    - {symerror: 0.0835, label: 'v2error'}
+    - {symerror: 0.0245, label: 'norm'}
+  - value: 0.402
+    errors:
+    - {symerror: 0.1665, label: 'v2error'}
+    - {symerror: 0.035, label: 'norm'}
+  - value: 0.526
+    errors:
+    - {symerror: 0.288, label: 'v2error'}
+    - {symerror: 0.0565, label: 'norm'}
+  - value: 0.614
+    errors:
+    - {symerror: 0.3765, label: 'v2error'}
+    - {symerror: 0.071, label: 'norm'}
+  - value: 0.821
+    errors:
+    - {symerror: 0.436, label: 'v2error'}
+    - {symerror: 0.0185, label: 'norm'}
+  - value: 1.126
+    errors:
+    - {symerror: 0.3635, label: 'v2error'}
+    - {symerror: 0.0135, label: 'norm'}
+  - value: 1.427
+    errors:
+    - {symerror: 0.195, label: 'v2error'}
+    - {symerror: 0.019, label: 'norm'}
+  - value: 2.13
+    errors:
+    - {symerror: 0.2315, label: 'v2error'}
+    - {symerror: 0.0955, label: 'norm'}
+  - value: 2.603
+    errors:
+    - {symerror: 0.1285, label: 'v2error'}
+    - {symerror: 0.1245, label: 'norm'}
+  - value: 2.848
+    errors:
+    - {symerror: 0, label: 'v2error'}
+    - {symerror: 0.058, label: 'norm'}

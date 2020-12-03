@@ -1,0 +1,410 @@
+---
+additional_resources: # additional references (e.g. experiment TWiki page for analysis)
+  - {location: "https://journals.aps.org/prc/abstract/10.1103/PhysRevC.102.014902", description: "PRC publication, July 2020"}
+  - {location: "https://arxiv.org/abs/1910.14487", description: "arXiv link"}	
+comment: | # preserve newlines
+  BNL-RHIC.  Charmonium is a valuable probe in heavy-ion collisions to study the properties of the quark gluon plasma, and is also an interesting probe in small collision systems to study cold nuclear matter effects, which are also present in large collision systems. With the recent observations of collective behavior of produced particles in small system collisions, measurements of the modification of charmonium in small systems have become increasingly relevant. We present the results of $J$$/$$\psi$ measurements at forward and backward rapidity in various small collision systems, $p$$+$$p$, $p$$+$Al, $p$$+$Au and $^3$He$+$Au, at $\sqrt{s_{NN}}$=200GeV. The results are presented in the form of the observable $R_{AB}$, the nuclear modification factor, a measure of the ratio of the $J/\psi$ invariant yield compared to the scaled yield in $p+p$ collisions. We examine the rapidity, transverse momentum, and collision centrality dependence of nuclear effects on $J/\psi$ production with different projectile sizes $p$ and $^3$He, and different target sizes Al and Au. The modification is found to be strongly dependent on the target size, but to be very similar for $p$$+$Au and $^{3}$He$+$Au. However, for 0%—20% central collisions at backward rapidity, the modification factor for $^{3}$He$+$Au is found to be smaller than that for $p$$+$Au, with a mean fit to the ratio of $0.89\pm0.03$(stat)${\pm}0.08$(syst), possibly indicating final state effects due to the larger projectile size.
+---
+# PPG228, reviewer: K.Smith
+
+# Start a new YAML document to indicate a new data table.
+
+####   Beginning of Data List
+
+name: "Table 1"
+location: Data from  Fig. 4 of Measurement of $J/\psi$ at forward and backward rapidity in $p$+$p$, $p$$+$Al, $p$$+$Au, and $^3$He+Au collisions at $\sqrt{s_{_{NN}}}=200~{\rm GeV}$ (PRC 102.014902)
+keywords: # used for searching, possibly multiple values for each keyword
+  - {name: reactions, values: [J/psi --> mu+mu-]}
+  - {name: observables, values: [Inv. Yield]}
+  - {name: cmenergies, values: [200.0]} # centre-of-mass energy in GeV
+  - {name: phrases, values: [Inclusive]}
+data_file: Ypp_inv_pT.yaml
+description: "J/psi invariant yields in p+p collisions as a function of pT at forward and backward rapidity.  The statistical and systematic uncertainties vary point-to-point and are listed for each measured value.  An additional global systematic uncertainty is provided in each column heading, which applies to all data points per column." # (optional)
+####
+---
+name: "Table 2"
+location: Data from  Fig. 5 of PRC 102.014902
+keywords: # used for searching, possibly multiple values for each keyword
+  - {name: reactions, values: [J/psi --> mu+mu-]}
+  - {name: observables, values: [R_AB]}
+  - {name: cmenergies, values: [200.0]} # centre-of-mass energy in GeV
+  - {name: phrases, values: [Inclusive]}
+data_file: RAB_MB_y.yaml
+description: "J/psi nuclear modification in p+Al, p+Au and 3He+Au collisions as a function of centrality and rapidity.  The statistical and systematic uncertainties vary point-to-point and are listed for each measured value.  An additional global systematic uncertainty is provided in each column heading, which applies to all data points per column." # (optional)
+####
+---
+name: "Table 3"
+location: Data from  Figs. 5 and 6 of PRC 102.014902
+keywords: # used for searching, possibly multiple values for each keyword
+  - {name: reactions, values: [J/psi --> mu+mu-]}
+  - {name: observables, values: [R_AB]}
+  - {name: cmenergies, values: [200.0]} # centre-of-mass energy in GeV
+  - {name: phrases, values: [Inclusive]}
+data_file: RpAl_y.yaml
+description: "J/psi nuclear modification in p+Al collisions as a function of centrality and rapidity.  The statistical and systematic uncertainties vary point-to-point and are listed for each measured value.  An additional global systematic uncertainty is provided in each column heading, which applies to all data points per column." # (optional)
+####
+---
+name: "Table 4"
+location: Data from  Figs. 5 and 7 of PRC 102.014902
+keywords: # used for searching, possibly multiple values for each keyword
+  - {name: reactions, values: [J/psi --> mu+mu-]}
+  - {name: observables, values: [R_AB]}
+  - {name: cmenergies, values: [200.0]} # centre-of-mass energy in GeV
+  - {name: phrases, values: [Inclusive]}
+data_file: RpAu_y.yaml
+description: "J/psi nuclear modification in p+Au collisions as a function of centrality and rapidity.  The statistical and systematic uncertainties vary point-to-point and are listed for each measured value.  An additional global systematic uncertainty is provided in each column heading, which applies to all data points per column." # (optional)
+####
+---
+name: "Table 5"
+location: Data from  Figs. 5 and 8 of PRC 102.014902
+keywords: # used for searching, possibly multiple values for each keyword
+  - {name: reactions, values: [J/psi --> mu+mu-]}
+  - {name: observables, values: [R_AB]}
+  - {name: cmenergies, values: [200.0]} # centre-of-mass energy in GeV
+  - {name: phrases, values: [Inclusive]}
+data_file: RHeAu_y.yaml
+description: "J/psi nuclear modification in 3He+Au collisions as a function of centrality and rapidity.  The statistical and systematic uncertainties vary point-to-point and are listed for each measured value.  An additional global systematic uncertainty is provided in each column heading, which applies to all data points per column." # (optional)
+####
+---
+name: "Table 6"
+location: Data from  Figs. 9 and 10 of PRC 102.014902
+keywords: # used for searching, possibly multiple values for each keyword
+  - {name: reactions, values: [J/psi --> mu+mu-]}
+  - {name: observables, values: [R_AB]}
+  - {name: cmenergies, values: [200.0]} # centre-of-mass energy in GeV
+  - {name: phrases, values: [Inclusive]}
+data_file: RpAl_MB_pT.yaml
+description: "J/psi nuclear modification in p+Al MinBias collisions as a function of pT.  The statistical and systematic uncertainties vary point-to-point and are listed for each measured value.  An additional global systematic uncertainty is provided in each column heading, which applies to all data points per column." # (optional)
+####
+---
+name: "Table 7"
+location: Data from  Figs. 9 and 10 of PRC 102.014902
+keywords: # used for searching, possibly multiple values for each keyword
+  - {name: reactions, values: [J/psi --> mu+mu-]}
+  - {name: observables, values: [R_AB]}
+  - {name: cmenergies, values: [200.0]} # centre-of-mass energy in GeV
+  - {name: phrases, values: [Inclusive]}
+data_file: RpAu_MB_pT.yaml
+description: "J/psi nuclear modification in p+Au MinBias collisions as a function of pT.  The statistical and systematic uncertainties vary point-to-point and are listed for each measured value.  An additional global systematic uncertainty is provided in each column heading, which applies to all data points per column." # (optional)
+####
+---
+name: "Table 8"
+location: Data from  Figs. 9 and 10 of PRC 102.014902
+keywords: # used for searching, possibly multiple values for each keyword
+  - {name: reactions, values: [J/psi --> mu+mu-]}
+  - {name: observables, values: [R_AB]}
+  - {name: cmenergies, values: [200.0]} # centre-of-mass energy in GeV
+  - {name: phrases, values: [Inclusive]}
+data_file: RHeAu_MB_pT.yaml
+description: "J/psi nuclear modification in 3He+Au MInBias collisions as a function of pT.  The statistical and systematic uncertainties vary point-to-point and are listed for each measured value.  An additional global systematic uncertainty is provided in each column heading, which applies to all data points per column." # (optional)
+####
+---
+name: "Table 9"
+location: Data from  Fig. 11 of PRC 102.014902
+keywords: # used for searching, possibly multiple values for each keyword
+  - {name: reactions, values: [J/psi --> mu+mu-]}
+  - {name: observables, values: [R_AB]}
+  - {name: cmenergies, values: [200.0]} # centre-of-mass energy in GeV
+  - {name: phrases, values: [Inclusive]}
+data_file: RpAl_cent_pT_S.yaml
+description: "J/psi nuclear modification in p+Al collisions as a function of pT and centrality at backward rapidity.  The statistical and systematic uncertainties vary point-to-point and are listed for each measured value.  An additional global systematic uncertainty is provided in each column heading, which applies to all data points per column." # (optional)
+####
+---
+name: "Table 10"
+location: Data from  Fig. 11 of PRC 102.014902
+keywords: # used for searching, possibly multiple values for each keyword
+  - {name: reactions, values: [J/psi --> mu+mu-]}
+  - {name: observables, values: [R_AB]}
+  - {name: cmenergies, values: [200.0]} # centre-of-mass energy in GeV
+  - {name: phrases, values: [Inclusive]}
+data_file: RpAl_cent_pT_N.yaml
+description: "J/psi nuclear modification in p+Al collisions as a function of pT and centrality at forward rapidity.  The statistical and systematic uncertainties vary point-to-point and are listed for each measured value.  An additional global systematic uncertainty is provided in each column heading, which applies to all data points per column." # (optional)
+####
+---
+name: "Table 11"
+location: Data from  Fig. 12 of PRC 102.014902
+keywords: # used for searching, possibly multiple values for each keyword
+  - {name: reactions, values: [J/psi --> mu+mu-]}
+  - {name: observables, values: [R_AB]}
+  - {name: cmenergies, values: [200.0]} # centre-of-mass energy in GeV
+  - {name: phrases, values: [Inclusive]}
+data_file: RpAu_cent_pT_S.yaml
+description: "J/psi nuclear modification in p+Au collisions as a function of pT and centrality at backward rapidity.  The statistical and systematic uncertainties vary point-to-point and are listed for each measured value.  An additional global systematic uncertainty is provided in each column heading, which applies to all data points per column." # (optional)
+####
+---
+name: "Table 12"
+location: Data from  Fig. 13 of PRC 102.014902
+keywords: # used for searching, possibly multiple values for each keyword
+  - {name: reactions, values: [J/psi --> mu+mu-]}
+  - {name: observables, values: [R_AB]}
+  - {name: cmenergies, values: [200.0]} # centre-of-mass energy in GeV
+  - {name: phrases, values: [Inclusive]}
+data_file: RpAu_cent_pT_N.yaml
+description: "J/psi nuclear modification in p+Au collisions as a function of pT and centrality at forward rapidity.  The statistical and systematic uncertainties vary point-to-point and are listed for each measured value.  An additional global systematic uncertainty is provided in each column heading, which applies to all data points per column." # (optional)
+####
+---
+name: "Table 13"
+location: Data from  Fig. 14 of PRC 102.014902
+keywords: # used for searching, possibly multiple values for each keyword
+  - {name: reactions, values: [J/psi --> mu+mu-]}
+  - {name: observables, values: [R_AB]}
+  - {name: cmenergies, values: [200.0]} # centre-of-mass energy in GeV
+  - {name: phrases, values: [Inclusive]}
+data_file: RHeAu_cent_pT_S.yaml
+description: "J/psi nuclear modification in 3He+Au collisions as a function of pT and centrality at backward rapidity.  The statistical and systematic uncertainties vary point-to-point and are listed for each measured value.  An additional global systematic uncertainty is provided in each column heading, which applies to all data points per column." # (optional)
+####
+---
+name: "Table 14"
+location: Data from  Fig. 14 of PRC 102.014902
+keywords: # used for searching, possibly multiple values for each keyword
+  - {name: reactions, values: [J/psi --> mu+mu-]}
+  - {name: observables, values: [R_AB]}
+  - {name: cmenergies, values: [200.0]} # centre-of-mass energy in GeV
+  - {name: phrases, values: [Inclusive]}
+data_file: RHeAu_cent_pT_N.yaml
+description: "J/psi nuclear modification in 3He+Au collisions as a function of pT and centrality at forward rapidity.  The statistical and systematic uncertainties vary point-to-point and are listed for each measured value.  An additional global systematic uncertainty is provided in each column heading, which applies to all data points per column." # (optional)
+####
+---
+name: "Table 15"
+location: Data from  Fig. 15 of PRC 102.014902
+keywords: # used for searching, possibly multiple values for each keyword
+  - {name: reactions, values: [J/psi --> mu+mu-]}
+  - {name: observables, values: [R_AB]}
+  - {name: cmenergies, values: [200.0]} # centre-of-mass energy in GeV
+  - {name: phrases, values: [Inclusive]}
+data_file: RpAl_RpAu_020_pT.yaml
+description: "J/psi nuclear modification in p+Al most central collisions as a function of pT is directly compared with p+Au collisions (Data listed in Table16) at forward and backward rapidity.  The statistical and systematic uncertainties vary point-to-point and are listed for each measured value.  An additional global systematic uncertainty is provided in each column heading, which applies to all data points per column." # (optional)
+####
+---
+name: "Table 16"
+location: Data from  Fig. 16 of PRC 102.014902
+keywords: # used for searching, possibly multiple values for each keyword
+  - {name: reactions, values: [J/psi --> mu+mu-]}
+  - {name: observables, values: [R_AB]}
+  - {name: cmenergies, values: [200.0]} # centre-of-mass energy in GeV
+  - {name: phrases, values: [Inclusive]}
+data_file: RdAu_RpAu_020_pT.yaml
+description: "J/psi nuclear modification in d+Au and p+Au most central collisions as a function of pT is directly compared at forward and backward rapidity.  The statistical and systematic uncertainties vary point-to-point and are listed for each measured value.  An additional global systematic uncertainty is provided in each column heading, which applies to all data points per column.  Please see PRC 87, 034904 for d+Au data points." # (optional)
+####
+---
+name: "Table 17"
+location: Data from  Fig. 17 of PRC 102.014902
+keywords: # used for searching, possibly multiple values for each keyword
+  - {name: reactions, values: [J/psi --> mu+mu-]}
+  - {name: observables, values: [R_AB]}
+  - {name: cmenergies, values: [200.0]} # centre-of-mass energy in GeV
+  - {name: phrases, values: [Inclusive]}
+data_file: RHeAu_RpAu_020_pT.yaml
+description: "J/psi nuclear modification in 3He+Au most central collisions as a function of pT is directly compared to p+Au collisions (Data listed in Table 16) at forward and backward rapidity.  The statistical and systematic uncertainties vary point-to-point and are listed for each measured value.  An additional global systematic uncertainty is provided in each column heading, which applies to all data points per column." # (optional)
+####
+---
+name: "Table 18"
+location: Data from  Fig. 18 of PRC 102.014902
+keywords: # used for searching, possibly multiple values for each keyword
+  - {name: reactions, values: [J/psi --> mu+mu-]}
+  - {name: observables, values: [R_AB]}
+  - {name: cmenergies, values: [200.0]} # centre-of-mass energy in GeV
+  - {name: phrases, values: [Inclusive]}
+data_file: RpAl_ncoll.yaml
+description: "J/psi nuclear modification in p+Al as a function of N_coll.  The statistical and systematic uncertainties vary point-to-point and are listed for each measured value.  An additional global systematic uncertainty is provided in each column heading, which applies to all data points per column." # (optional)
+####
+---
+name: "Table 19"
+location: Data from  Figs. 18 and 19 of PRC 102.014902
+keywords: # used for searching, possibly multiple values for each keyword
+  - {name: reactions, values: [J/psi --> mu+mu-]}
+  - {name: observables, values: [R_AB]}
+  - {name: cmenergies, values: [200.0]} # centre-of-mass energy in GeV
+  - {name: phrases, values: [Inclusive]}
+data_file: RpAu_ncoll.yaml
+description: "J/psi nuclear modification in p+Au collisions as a function of N_coll.  The statistical and systematic uncertainties vary point-to-point and are listed for each measured value.  An additional global systematic uncertainty is provided in each column heading, which applies to all data points per column." # (optional)
+####
+---
+name: "Table 20"
+location: Data from  Fig. 18 of PRC 102.014902
+keywords: # used for searching, possibly multiple values for each keyword
+  - {name: reactions, values: [J/psi --> mu+mu-]}
+  - {name: observables, values: [R_AB]}
+  - {name: cmenergies, values: [200.0]} # centre-of-mass energy in GeV
+  - {name: phrases, values: [Inclusive]}
+data_file: RHeAu_ncoll.yaml
+description: "J/psi nuclear modification in 3He+Au as a function of N_coll.  The statistical and systematic uncertainties vary point-to-point and are listed for each measured value.  An additional global systematic uncertainty is provided in each column heading, which applies to all data points per column." # (optional)
+####
+---
+name: "Table 21"
+location: Data from  Fig. 20 of PRC 102.014902
+keywords: # used for searching, possibly multiple values for each keyword
+  - {name: reactions, values: [J/psi --> mu+mu-]}
+  - {name: observables, values: [R_AB]}
+  - {name: cmenergies, values: [200.0]} # centre-of-mass energy in GeV
+  - {name: phrases, values: [Inclusive]}
+data_file: RpAl_TA.yaml
+description: "J/psi nuclear modification in p+Al collisions as a function of nuclear thickness (T_A).  The statistical and systematic uncertainties vary point-to-point and are listed for each measured value.  An additional global systematic uncertainty is provided in each column heading, which applies to all data points per column." # (optional)
+####
+---
+name: "Table 22"
+location: Data from  Fig. 20 of PRC 102.014902
+keywords: # used for searching, possibly multiple values for each keyword
+  - {name: reactions, values: [J/psi --> mu+mu-]}
+  - {name: observables, values: [R_AB]}
+  - {name: cmenergies, values: [200.0]} # centre-of-mass energy in GeV
+  - {name: phrases, values: [Inclusive]}
+data_file: RpAu_TA.yaml
+description: "J/psi nuclear modification in p+Au collisions as a function of nuclear thickness (T_A).  The statistical and systematic uncertainties vary point-to-point and are listed for each measured value.  An additional global systematic uncertainty is provided in each column heading, which applies to all data points per column." # (optional)
+####
+---
+name: "Table 23"
+location: Data from  Fig. 20 of PRC 102.014902
+keywords: # used for searching, possibly multiple values for each keyword
+  - {name: reactions, values: [J/psi --> mu+mu-]}
+  - {name: observables, values: [R_AB]}
+  - {name: cmenergies, values: [200.0]} # centre-of-mass energy in GeV
+  - {name: phrases, values: [Inclusive]}
+data_file: RHeAu_TA.yaml
+description: "J/psi nuclear modification in 3He+Au collisions as a function of nuclear thickness (T_A).  The statistical and systematic uncertainties vary point-to-point and are listed for each measured value.  An additional global systematic uncertainty is provided in each column heading, which applies to all data points per column." # (optional)
+####
+---
+name: "Table 24"
+location: Data from  Fig. 21 of PRC 102.014902
+keywords: # used for searching, possibly multiple values for each keyword
+  - {name: reactions, values: [J/psi --> mu+mu-]}
+  - {name: observables, values: [pT squared]}
+  - {name: cmenergies, values: [200.0]} # centre-of-mass energy in GeV
+  - {name: phrases, values: [Inclusive]}
+data_file: pAl_ptsq.yaml
+description: "J/psi mean pT squared in p+Al collisions as a function of N_coll.  The statistical and systematic uncertainties vary point-to-point and are listed for each measured value.  An additional global systematic uncertainty is provided in each column heading, which applies to all data points per column." # (optional)
+####
+---
+name: "Table 25"
+location: Data from  Fig. 21 of PRC 102.014902
+keywords: # used for searching, possibly multiple values for each keyword
+  - {name: reactions, values: [J/psi --> mu+mu-]}
+  - {name: observables, values: [pT squared]}
+  - {name: cmenergies, values: [200.0]} # centre-of-mass energy in GeV
+  - {name: phrases, values: [Inclusive]}
+data_file: pAu_ptsq.yaml
+description: "J/psi mean pT squared in p+Au collisions as a function of N_coll.  The statistical and systematic uncertainties vary point-to-point and are listed for each measured value.  An additional global systematic uncertainty is provided in each column heading, which applies to all data points per column." # (optional)
+####
+---
+name: "Table 26"
+location: Data from  Fig. 21 of PRC 102.014902
+keywords: # used for searching, possibly multiple values for each keyword
+  - {name: reactions, values: [J/psi --> mu+mu-]}
+  - {name: observables, values: [pT squared]}
+  - {name: cmenergies, values: [200.0]} # centre-of-mass energy in GeV
+  - {name: phrases, values: [Inclusive]}
+data_file: HeAu_ptsq.yaml
+description: "J/psi mean pT squared in 3He+Au collisions as a function of N_coll.  The statistical and systematic uncertainties vary point-to-point and are listed for each measured value.  An additional global systematic uncertainty is provided in each column heading, which applies to all data points per column." # (optional)
+####
+---
+name: "Table 27"
+location: Data from  Fig. 22 of PRC 102.014902
+keywords: # used for searching, possibly multiple values for each keyword
+  - {name: reactions, values: [J/psi --> mu+mu-]}
+  - {name: observables, values: [Inv. Yield]}
+  - {name: cmenergies, values: [200.0]} # centre-of-mass energy in GeV
+  - {name: phrases, values: [Inclusive]}
+data_file: inv_MB_y.yaml
+description: "J/psi invariant yields as a function of rapidity in small systems.  The statistical and systematic uncertainties vary point-to-point and are listed for each measured value.  An additional global systematic uncertainty is provided in each column heading, which applies to all data points per column." # (optional)
+####
+---
+name: "Table 28"
+location: Data from  Fig. 23 of PRC 102.014902
+keywords: # used for searching, possibly multiple values for each keyword
+  - {name: reactions, values: [J/psi --> mu+mu-]}
+  - {name: observables, values: [Inv. Yield]}
+  - {name: cmenergies, values: [200.0]} # centre-of-mass energy in GeV
+  - {name: phrases, values: [Inclusive]}
+data_file: pAl_inv_cent_y.yaml
+description: "J/psi invariant yields in p+Al collisions as a function of centrality and rapidity.  The statistical and systematic uncertainties vary point-to-point and are listed for each measured value.  An additional global systematic uncertainty is provided in each column heading, which applies to all data points per column." # (optional)
+####
+---
+name: "Table 29"
+location: Data from  Fig. 24 of PRC 102.014902
+keywords: # used for searching, possibly multiple values for each keyword
+  - {name: reactions, values: [J/psi --> mu+mu-]}
+  - {name: observables, values: [Inv. Yield]}
+  - {name: cmenergies, values: [200.0]} # centre-of-mass energy in GeV
+  - {name: phrases, values: [Inclusive]}
+data_file: pAu_inv_cent_y.yaml
+description: "J/psi invariant yields in p+Au collisions as a function of centrality and apidity.  The statistical and systematic uncertainties vary point-to-point and are listed for each measured value.  An additional global systematic uncertainty is provided in each column heading, which applies to all data points per column." # (optional)
+####
+---
+name: "Table 30"
+location: Data from  Fig. 25 of PRC 102.014902
+keywords: # used for searching, possibly multiple values for each keyword
+  - {name: reactions, values: [J/psi --> mu+mu-]}
+  - {name: observables, values: [Inv. Yield]}
+  - {name: cmenergies, values: [200.0]} # centre-of-mass energy in GeV
+  - {name: phrases, values: [Inclusive]}
+data_file: HeAu_inv_cent_y.yaml
+description: "J/psi invariant yields in 3He+Au collisions as a function of centrality and rapidity.  The statistical and systematic uncertainties vary point-to-point and are listed for each measured value.  An additional global systematic uncertainty is provided in each column heading, which applies to all data points per column." # (optional)
+####
+---
+name: "Table 31"
+location: Data from  Fig. 26 of PRC 102.014902
+keywords: # used for searching, possibly multiple values for each keyword
+  - {name: reactions, values: [J/psi --> mu+mu-]}
+  - {name: observables, values: [Inv. Yield]}
+  - {name: cmenergies, values: [200.0]} # centre-of-mass energy in GeV
+  - {name: phrases, values: [Inclusive]}
+data_file: pAl_inv_cent_pT_N.yaml
+description: "J/psi invariant yields in p+Al collisions as a function of pT and centrality at forward rapidity.  The statistical and systematic uncertainties vary point-to-point and are listed for each measured value.  An additional global systematic uncertainty is provided in each column heading, which applies to all data points per column." # (optional)
+####
+---
+name: "Table 32"
+location: Data from  Fig. 26 of PRC 102.014902
+keywords: # used for searching, possibly multiple values for each keyword
+  - {name: reactions, values: [J/psi --> mu+mu-]}
+  - {name: observables, values: [Inv. Yield]}
+  - {name: cmenergies, values: [200.0]} # centre-of-mass energy in GeV
+  - {name: phrases, values: [Inclusive]}
+data_file: pAl_inv_cent_pT_S.yaml
+description: "J/psi invariant yields in p+Al collisions as a function of pT and centrality at backward rapidity.  The statistical and systematic uncertainties vary point-to-point and are listed for each measured value.  An additional global systematic uncertainty is provided in each column heading, which applies to all data points per column." # (optional)
+####
+---
+name: "Table 33"
+location: Data from  Fig. 27 of PRC 102.014902
+keywords: # used for searching, possibly multiple values for each keyword
+  - {name: reactions, values: [J/psi --> mu+mu-]}
+  - {name: observables, values: [Inv. Yield]}
+  - {name: cmenergies, values: [200.0]} # centre-of-mass energy in GeV
+  - {name: phrases, values: [Inclusive]}
+data_file: pAu_inv_cent_pT_N.yaml
+description: "J/psi invariant yields in p+Au collisions as a function of pT and centrality at forward rapidity.  The statistical and systematic uncertainties vary point-to-point and are listed for each measured value.  An additional global systematic uncertainty is provided in each column heading, which applies to all data points per column." # (optional)
+####
+---
+name: "Table 34"
+location: Data from  Fig. 27 of PRC 102.014902
+keywords: # used for searching, possibly multiple values for each keyword
+  - {name: reactions, values: [J/psi --> mu+mu-]}
+  - {name: observables, values: [Inv. Yield]}
+  - {name: cmenergies, values: [200.0]} # centre-of-mass energy in GeV
+  - {name: phrases, values: [Inclusive]}
+data_file: pAu_inv_cent_pT_S.yaml
+description: "J/psi invariant yields in p+Au collisions as a function of pT and centrality at backward rapidity.  The statistical and systematic uncertainties vary point-to-point and are listed for each measured value.  An additional global systematic uncertainty is provided in each column heading, which applies to all data points per column." # (optional)
+####
+---
+name: "Table 35"
+location: Data from  Fig. 28 of PRC 102.014902
+keywords: # used for searching, possibly multiple values for each keyword
+  - {name: reactions, values: [J/psi --> mu+mu-]}
+  - {name: observables, values: [Inv. Yield]}
+  - {name: cmenergies, values: [200.0]} # centre-of-mass energy in GeV
+  - {name: phrases, values: [Inclusive]}
+data_file: HeAu_inv_cent_pT_N.yaml
+description: "J/psi invariant yields in 3He+Au collisions as a function of pT and centrality at forward rapidity.  The statistical and systematic uncertainties vary point-to-point and are listed for each measured value.  An additional global systematic uncertainty is provided in each column heading, which applies to all data points per column." # (optional)
+####
+---
+name: "Table 36"
+location: Data from  Fig. 28 of PRC 102.014902
+keywords: # used for searching, possibly multiple values for each keyword
+  - {name: reactions, values: [J/psi --> mu+mu-]}
+  - {name: observables, values: [Inv. Yield]}
+  - {name: cmenergies, values: [200.0]} # centre-of-mass energy in GeV
+  - {name: phrases, values: [Inclusive]}
+data_file: HeAu_inv_cent_pT_S.yaml
+description: "J/psi invariant yields in 3He+Au collisions as a function of pT and centrality at backward rapidity.  The statistical and systematic uncertainties vary point-to-point and are listed for each measured value.  An additional global systematic uncertainty is provided in each column heading, which applies to all data points per column." # (optional)
+####
+####
+# End of YAML file

@@ -1,0 +1,61 @@
+independent_variables:
+- header: {name: '$p_T$'}
+  values:
+  - {value: 0.5}
+  - {value: 1.0}
+  - {value: 1.5}
+  - {value: 2.0}
+  - {value: 2.5}
+  - {value: 3.0}
+  - {value: 3.5}
+dependent_variables:
+- header: {name: '$v_2$'}
+  qualifiers:
+  - {name: '$p_T$', value: '$p+Au$'}
+  values:
+  - value: 0.0159300174443
+    errors:
+    - {symerror: 0.000632837621783, label: 'stat'}
+  - value: 0.0521491567282
+    errors:
+    - {symerror: 0.0016277599176, label: 'stat'}
+  - value: 0.0873249478127
+    errors:
+    - {symerror: 0.00218383393464, label: 'stat'}
+  - value: 0.118855769286
+    errors:
+    - {symerror: 0.00250420817056, label: 'stat'}
+  - value: 0.138408381775
+    errors:
+    - {symerror: 0.00265998049939, label: 'stat'}
+  - value: 0.146797524438
+    errors:
+    - {symerror: 0.00284283942701, label: 'stat'}
+  - value: 0.146360872356
+    errors:
+    - {symerror: 0.00301452356702, label: 'stat'}
+- header: {name: '$v_3$'}
+  qualifiers:
+  - {name: '$p_T$', value: '$p+Au$'}
+  values:
+  - value: 0.00615211232355
+    errors:
+    - {symerror: 0.000264043292306, label: 'stat'}
+  - value: 0.0175191243231
+    errors:
+    - {symerror: 0.000555231671171, label: 'stat'}
+  - value: 0.0296303577576
+    errors:
+    - {symerror: 0.000891187084559, label: 'stat'}
+  - value: 0.0395439931169
+    errors:
+    - {symerror: 0.000978808933787, label: 'stat'}
+  - value: 0.048929777717
+    errors:
+    - {symerror: 0.00115469245309, label: 'stat'}
+  - value: 0.0561059611131
+    errors:
+    - {symerror: 0.00133603370041, label: 'stat'}
+  - value: 0.0614275257165
+    errors:
+    - {symerror: 0.00144529588203, label: 'stat'}

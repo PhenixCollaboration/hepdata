@@ -1,0 +1,586 @@
+independent_variables:
+- header: {name: '$\Delta\phi$'}
+  values:
+  - {low: 0.00, high: 0.20}
+  - {low: 0.20, high: 0.40}
+  - {low: 0.40, high: 0.60}
+  - {low: 0.60, high: 0.75}
+  - {low: 0.75, high: 0.90}
+  - {low: 0.90, high: 1.05}
+  - {low: 1.05, high: 1.20}
+  - {low: 1.20, high: 1.40}
+  - {low: 1.40, high: 1.60}
+  - {low: 1.60, high: 1.80}
+  - {low: 1.80, high: 1.95}
+  - {low: 1.95, high: 2.10}
+  - {low: 2.10, high: 2.30}
+  - {low: 2.30, high: 2.50}
+  - {low: 2.50, high: 2.65}
+  - {low: 2.65, high: 2.80}
+  - {low: 2.80, high: 2.95}
+  - {low: 2.95, high: 3.10}
+dependent_variables:
+- header: {name: '$PTY(\Delta\phi)$'}
+  qualifiers:
+  - {name: '$\Delta\phi$', value: '$\textrm{Per-Trigger Azimuthal Yields: cent 0-20\%}$, $\phi_{s} = 0-15^{\circ}$, $p^{a}_{T} = 3-4$ GeV/$c$'}
+  values:
+  - value: 0.072541
+    errors:
+    - {symerror: 0.003483, label: '$\sigma_{stat}$'}
+    - {asymerror: {plus: 0.072417, minus: 0.072965}, label: '$\sigma_{FC}$'}
+    - {asymerror: {plus: 0.072487, minus: 0.072596}, label: '$\sigma_{AC}$'}
+  - value: 0.016410
+    errors:
+    - {symerror: 0.002894, label: '$\sigma_{stat}$'}
+    - {asymerror: {plus: 0.016315, minus: 0.016723}, label: '$\sigma_{FC}$'}
+    - {asymerror: {plus: 0.016368, minus: 0.016452}, label: '$\sigma_{AC}$'}
+  - value: 0.002720
+    errors:
+    - {symerror: 0.002721, label: '$\sigma_{stat}$'}
+    - {asymerror: {plus: 0.002678, minus: 0.002854}, label: '$\sigma_{FC}$'}
+    - {asymerror: {plus: 0.002702, minus: 0.002739}, label: '$\sigma_{AC}$'}
+  - value: -0.001492
+    errors:
+    - {symerror: 0.002943, label: '$\sigma_{stat}$'}
+    - {asymerror: {plus: -0.001470, minus: -0.001537}, label: '$\sigma_{FC}$'}
+    - {asymerror: {plus: -0.001483, minus: -0.001501}, label: '$\sigma_{AC}$'}
+  - value: 0.002233
+    errors:
+    - {symerror: 0.003173, label: '$\sigma_{stat}$'}
+    - {asymerror: {plus: 0.002324, minus: 0.002073}, label: '$\sigma_{FC}$'}
+    - {asymerror: {plus: 0.002271, minus: 0.002196}, label: '$\sigma_{AC}$'}
+  - value: -0.005094
+    errors:
+    - {symerror: 0.003396, label: '$\sigma_{stat}$'}
+    - {asymerror: {plus: -0.004943, minus: -0.005277}, label: '$\sigma_{FC}$'}
+    - {asymerror: {plus: -0.005032, minus: -0.005154}, label: '$\sigma_{AC}$'}
+  - value: 0.004637
+    errors:
+    - {symerror: 0.004540, label: '$\sigma_{stat}$'}
+    - {asymerror: {plus: 0.004835, minus: 0.004510}, label: '$\sigma_{FC}$'}
+    - {asymerror: {plus: 0.004716, minus: 0.004559}, label: '$\sigma_{AC}$'}
+  - value: 0.003100
+    errors:
+    - {symerror: 0.005306, label: '$\sigma_{stat}$'}
+    - {asymerror: {plus: 0.003330, minus: 0.003061}, label: '$\sigma_{FC}$'}
+    - {asymerror: {plus: 0.003190, minus: 0.003011}, label: '$\sigma_{AC}$'}
+  - value: 0.002497
+    errors:
+    - {symerror: 0.007420, label: '$\sigma_{stat}$'}
+    - {asymerror: {plus: 0.002742, minus: 0.002521}, label: '$\sigma_{FC}$'}
+    - {asymerror: {plus: 0.002592, minus: 0.002402}, label: '$\sigma_{AC}$'}
+  - value: -0.000951
+    errors:
+    - {symerror: 0.007337, label: '$\sigma_{stat}$'}
+    - {asymerror: {plus: -0.000705, minus: -0.000926}, label: '$\sigma_{FC}$'}
+    - {asymerror: {plus: -0.000856, minus: -0.001045}, label: '$\sigma_{AC}$'}
+  - value: 0.007534
+    errors:
+    - {symerror: 0.005899, label: '$\sigma_{stat}$'}
+    - {asymerror: {plus: 0.007764, minus: 0.007496}, label: '$\sigma_{FC}$'}
+    - {asymerror: {plus: 0.007624, minus: 0.007445}, label: '$\sigma_{AC}$'}
+  - value: 0.013103
+    errors:
+    - {symerror: 0.005263, label: '$\sigma_{stat}$'}
+    - {asymerror: {plus: 0.013301, minus: 0.012977}, label: '$\sigma_{FC}$'}
+    - {asymerror: {plus: 0.013182, minus: 0.013025}, label: '$\sigma_{AC}$'}
+  - value: 0.002051
+    errors:
+    - {symerror: 0.003771, label: '$\sigma_{stat}$'}
+    - {asymerror: {plus: 0.002201, minus: 0.001867}, label: '$\sigma_{FC}$'}
+    - {asymerror: {plus: 0.002112, minus: 0.001990}, label: '$\sigma_{AC}$'}
+  - value: -0.001334
+    errors:
+    - {symerror: 0.003065, label: '$\sigma_{stat}$'}
+    - {asymerror: {plus: -0.001244, minus: -0.001494}, label: '$\sigma_{FC}$'}
+    - {asymerror: {plus: -0.001297, minus: -0.001371}, label: '$\sigma_{AC}$'}
+  - value: 0.002618
+    errors:
+    - {symerror: 0.002983, label: '$\sigma_{stat}$'}
+    - {asymerror: {plus: 0.002641, minus: 0.002574}, label: '$\sigma_{FC}$'}
+    - {asymerror: {plus: 0.002628, minus: 0.002609}, label: '$\sigma_{AC}$'}
+  - value: 0.002855
+    errors:
+    - {symerror: 0.002685, label: '$\sigma_{stat}$'}
+    - {asymerror: {plus: 0.002812, minus: 0.002989}, label: '$\sigma_{FC}$'}
+    - {asymerror: {plus: 0.002836, minus: 0.002874}, label: '$\sigma_{AC}$'}
+  - value: 0.004092
+    errors:
+    - {symerror: 0.002736, label: '$\sigma_{stat}$'}
+    - {asymerror: {plus: 0.003997, minus: 0.004405}, label: '$\sigma_{FC}$'}
+    - {asymerror: {plus: 0.004051, minus: 0.004134}, label: '$\sigma_{AC}$'}
+  - value: 0.008149
+    errors:
+    - {symerror: 0.002742, label: '$\sigma_{stat}$'}
+    - {asymerror: {plus: 0.008025, minus: 0.008573}, label: '$\sigma_{FC}$'}
+    - {asymerror: {plus: 0.008095, minus: 0.008204}, label: '$\sigma_{AC}$'}
+- header: {name: '$PTY(\Delta\phi)$'}
+  qualifiers:
+  - {name: '$\Delta\phi$', value: '$\textrm{Per-Trigger Azimuthal Yields: cent 0-20\%}$, $\phi_{s} = 15-30^{\circ}$, $p^{a}_{T} = 3-4$ GeV/$c$'}
+  values:
+  - value: 0.069089
+    errors:
+    - {symerror: 0.003466, label: '$\sigma_{stat}$'}
+    - {asymerror: {plus: 0.068671, minus: 0.069450}, label: '$\sigma_{FC}$'}
+    - {asymerror: {plus: 0.068937, minus: 0.069239}, label: '$\sigma_{AC}$'}
+  - value: 0.018428
+    errors:
+    - {symerror: 0.002972, label: '$\sigma_{stat}$'}
+    - {asymerror: {plus: 0.018040, minus: 0.018684}, label: '$\sigma_{FC}$'}
+    - {asymerror: {plus: 0.018287, minus: 0.018568}, label: '$\sigma_{AC}$'}
+  - value: 0.004333
+    errors:
+    - {symerror: 0.002781, label: '$\sigma_{stat}$'}
+    - {asymerror: {plus: 0.003999, minus: 0.004421}, label: '$\sigma_{FC}$'}
+    - {asymerror: {plus: 0.004212, minus: 0.004453}, label: '$\sigma_{AC}$'}
+  - value: 0.006218
+    errors:
+    - {symerror: 0.003154, label: '$\sigma_{stat}$'}
+    - {asymerror: {plus: 0.005954, minus: 0.006138}, label: '$\sigma_{FC}$'}
+    - {asymerror: {plus: 0.006122, minus: 0.006313}, label: '$\sigma_{AC}$'}
+  - value: -0.003106
+    errors:
+    - {symerror: 0.003074, label: '$\sigma_{stat}$'}
+    - {asymerror: {plus: -0.003296, minus: -0.003294}, label: '$\sigma_{FC}$'}
+    - {asymerror: {plus: -0.003175, minus: -0.003038}, label: '$\sigma_{AC}$'}
+  - value: -0.002895
+    errors:
+    - {symerror: 0.003537, label: '$\sigma_{stat}$'}
+    - {asymerror: {plus: -0.003015, minus: -0.003103}, label: '$\sigma_{FC}$'}
+    - {asymerror: {plus: -0.002938, minus: -0.002852}, label: '$\sigma_{AC}$'}
+  - value: 0.006492
+    errors:
+    - {symerror: 0.004864, label: '$\sigma_{stat}$'}
+    - {asymerror: {plus: 0.006429, minus: 0.006339}, label: '$\sigma_{FC}$'}
+    - {asymerror: {plus: 0.006469, minus: 0.006515}, label: '$\sigma_{AC}$'}
+  - value: 0.006215
+    errors:
+    - {symerror: 0.005904, label: '$\sigma_{stat}$'}
+    - {asymerror: {plus: 0.006192, minus: 0.006146}, label: '$\sigma_{FC}$'}
+    - {asymerror: {plus: 0.006206, minus: 0.006223}, label: '$\sigma_{AC}$'}
+  - value: 0.004720
+    errors:
+    - {symerror: 0.008180, label: '$\sigma_{stat}$'}
+    - {asymerror: {plus: 0.004717, minus: 0.004711}, label: '$\sigma_{FC}$'}
+    - {asymerror: {plus: 0.004719, minus: 0.004721}, label: '$\sigma_{AC}$'}
+  - value: 0.009177
+    errors:
+    - {symerror: 0.007966, label: '$\sigma_{stat}$'}
+    - {asymerror: {plus: 0.009175, minus: 0.009169}, label: '$\sigma_{FC}$'}
+    - {asymerror: {plus: 0.009176, minus: 0.009178}, label: '$\sigma_{AC}$'}
+  - value: 0.005419
+    errors:
+    - {symerror: 0.006030, label: '$\sigma_{stat}$'}
+    - {asymerror: {plus: 0.005396, minus: 0.005350}, label: '$\sigma_{FC}$'}
+    - {asymerror: {plus: 0.005411, minus: 0.005427}, label: '$\sigma_{AC}$'}
+  - value: -0.004870
+    errors:
+    - {symerror: 0.004489, label: '$\sigma_{stat}$'}
+    - {asymerror: {plus: -0.004933, minus: -0.005024}, label: '$\sigma_{FC}$'}
+    - {asymerror: {plus: -0.004893, minus: -0.004848}, label: '$\sigma_{AC}$'}
+  - value: -0.000767
+    errors:
+    - {symerror: 0.003795, label: '$\sigma_{stat}$'}
+    - {asymerror: {plus: -0.000887, minus: -0.000975}, label: '$\sigma_{FC}$'}
+    - {asymerror: {plus: -0.000810, minus: -0.000724}, label: '$\sigma_{AC}$'}
+  - value: 0.001959
+    errors:
+    - {symerror: 0.003201, label: '$\sigma_{stat}$'}
+    - {asymerror: {plus: 0.001769, minus: 0.001771}, label: '$\sigma_{FC}$'}
+    - {asymerror: {plus: 0.001891, minus: 0.002028}, label: '$\sigma_{AC}$'}
+  - value: 0.001747
+    errors:
+    - {symerror: 0.002981, label: '$\sigma_{stat}$'}
+    - {asymerror: {plus: 0.001483, minus: 0.001667}, label: '$\sigma_{FC}$'}
+    - {asymerror: {plus: 0.001651, minus: 0.001842}, label: '$\sigma_{AC}$'}
+  - value: -0.000554
+    errors:
+    - {symerror: 0.002641, label: '$\sigma_{stat}$'}
+    - {asymerror: {plus: -0.000888, minus: -0.000466}, label: '$\sigma_{FC}$'}
+    - {asymerror: {plus: -0.000675, minus: -0.000433}, label: '$\sigma_{AC}$'}
+  - value: 0.000552
+    errors:
+    - {symerror: 0.002690, label: '$\sigma_{stat}$'}
+    - {asymerror: {plus: 0.000164, minus: 0.000809}, label: '$\sigma_{FC}$'}
+    - {asymerror: {plus: 0.000412, minus: 0.000692}, label: '$\sigma_{AC}$'}
+  - value: 0.002121
+    errors:
+    - {symerror: 0.002654, label: '$\sigma_{stat}$'}
+    - {asymerror: {plus: 0.001704, minus: 0.002483}, label: '$\sigma_{FC}$'}
+    - {asymerror: {plus: 0.001970, minus: 0.002272}, label: '$\sigma_{AC}$'}
+- header: {name: '$PTY(\Delta\phi)$'}
+  qualifiers:
+  - {name: '$\Delta\phi$', value: '$\textrm{Per-Trigger Azimuthal Yields: cent 0-20\%}$, $\phi_{s} = 30-45^{\circ}$, $p^{a}_{T} = 3-4$ GeV/$c$'}
+  values:
+  - value: 0.069415
+    errors:
+    - {symerror: 0.003515, label: '$\sigma_{stat}$'}
+    - {asymerror: {plus: 0.069291, minus: 0.069878}, label: '$\sigma_{FC}$'}
+    - {asymerror: {plus: 0.069393, minus: 0.069437}, label: '$\sigma_{AC}$'}
+  - value: 0.015592
+    errors:
+    - {symerror: 0.002952, label: '$\sigma_{stat}$'}
+    - {asymerror: {plus: 0.015490, minus: 0.015953}, label: '$\sigma_{FC}$'}
+    - {asymerror: {plus: 0.015573, minus: 0.015610}, label: '$\sigma_{AC}$'}
+  - value: 0.002582
+    errors:
+    - {symerror: 0.002789, label: '$\sigma_{stat}$'}
+    - {asymerror: {plus: 0.002523, minus: 0.002780}, label: '$\sigma_{FC}$'}
+    - {asymerror: {plus: 0.002571, minus: 0.002594}, label: '$\sigma_{AC}$'}
+  - value: 0.000177
+    errors:
+    - {symerror: 0.003089, label: '$\sigma_{stat}$'}
+    - {asymerror: {plus: 0.000173, minus: 0.000211}, label: '$\sigma_{FC}$'}
+    - {asymerror: {plus: 0.000175, minus: 0.000178}, label: '$\sigma_{AC}$'}
+  - value: -0.001717
+    errors:
+    - {symerror: 0.003245, label: '$\sigma_{stat}$'}
+    - {asymerror: {plus: -0.001659, minus: -0.001789}, label: '$\sigma_{FC}$'}
+    - {asymerror: {plus: -0.001705, minus: -0.001729}, label: '$\sigma_{AC}$'}
+  - value: -0.001167
+    errors:
+    - {symerror: 0.003826, label: '$\sigma_{stat}$'}
+    - {asymerror: {plus: -0.001049, minus: -0.001261}, label: '$\sigma_{FC}$'}
+    - {asymerror: {plus: -0.001141, minus: -0.001194}, label: '$\sigma_{AC}$'}
+  - value: 0.002740
+    errors:
+    - {symerror: 0.004829, label: '$\sigma_{stat}$'}
+    - {asymerror: {plus: 0.002910, minus: 0.002697}, label: '$\sigma_{FC}$'}
+    - {asymerror: {plus: 0.002781, minus: 0.002699}, label: '$\sigma_{AC}$'}
+  - value: -0.003286
+    errors:
+    - {symerror: 0.005540, label: '$\sigma_{stat}$'}
+    - {asymerror: {plus: -0.003079, minus: -0.003249}, label: '$\sigma_{FC}$'}
+    - {asymerror: {plus: -0.003234, minus: -0.003338}, label: '$\sigma_{AC}$'}
+  - value: 0.007028
+    errors:
+    - {symerror: 0.009239, label: '$\sigma_{stat}$'}
+    - {asymerror: {plus: 0.007255, minus: 0.007123}, label: '$\sigma_{FC}$'}
+    - {asymerror: {plus: 0.007087, minus: 0.006970}, label: '$\sigma_{AC}$'}
+  - value: 0.005427
+    errors:
+    - {symerror: 0.008534, label: '$\sigma_{stat}$'}
+    - {asymerror: {plus: 0.005654, minus: 0.005521}, label: '$\sigma_{FC}$'}
+    - {asymerror: {plus: 0.005485, minus: 0.005369}, label: '$\sigma_{AC}$'}
+  - value: -0.005151
+    errors:
+    - {symerror: 0.005634, label: '$\sigma_{stat}$'}
+    - {asymerror: {plus: -0.004944, minus: -0.005114}, label: '$\sigma_{FC}$'}
+    - {asymerror: {plus: -0.005099, minus: -0.005203}, label: '$\sigma_{AC}$'}
+  - value: -0.000375
+    errors:
+    - {symerror: 0.004901, label: '$\sigma_{stat}$'}
+    - {asymerror: {plus: -0.000206, minus: -0.000418}, label: '$\sigma_{FC}$'}
+    - {asymerror: {plus: -0.000335, minus: -0.000416}, label: '$\sigma_{AC}$'}
+  - value: 0.000589
+    errors:
+    - {symerror: 0.003956, label: '$\sigma_{stat}$'}
+    - {asymerror: {plus: 0.000707, minus: 0.000496}, label: '$\sigma_{FC}$'}
+    - {asymerror: {plus: 0.000616, minus: 0.000563}, label: '$\sigma_{AC}$'}
+  - value: 0.000750
+    errors:
+    - {symerror: 0.003274, label: '$\sigma_{stat}$'}
+    - {asymerror: {plus: 0.000808, minus: 0.000679}, label: '$\sigma_{FC}$'}
+    - {asymerror: {plus: 0.000762, minus: 0.000739}, label: '$\sigma_{AC}$'}
+  - value: 0.005525
+    errors:
+    - {symerror: 0.003158, label: '$\sigma_{stat}$'}
+    - {asymerror: {plus: 0.005521, minus: 0.005559}, label: '$\sigma_{FC}$'}
+    - {asymerror: {plus: 0.005523, minus: 0.005526}, label: '$\sigma_{AC}$'}
+  - value: 0.002089
+    errors:
+    - {symerror: 0.002738, label: '$\sigma_{stat}$'}
+    - {asymerror: {plus: 0.002030, minus: 0.002287}, label: '$\sigma_{FC}$'}
+    - {asymerror: {plus: 0.002078, minus: 0.002101}, label: '$\sigma_{AC}$'}
+  - value: 0.001407
+    errors:
+    - {symerror: 0.002727, label: '$\sigma_{stat}$'}
+    - {asymerror: {plus: 0.001305, minus: 0.001768}, label: '$\sigma_{FC}$'}
+    - {asymerror: {plus: 0.001389, minus: 0.001426}, label: '$\sigma_{AC}$'}
+  - value: 0.002027
+    errors:
+    - {symerror: 0.002626, label: '$\sigma_{stat}$'}
+    - {asymerror: {plus: 0.001903, minus: 0.002490}, label: '$\sigma_{FC}$'}
+    - {asymerror: {plus: 0.002006, minus: 0.002049}, label: '$\sigma_{AC}$'}
+- header: {name: '$PTY(\Delta\phi)$'}
+  qualifiers:
+  - {name: '$\Delta\phi$', value: '$\textrm{Per-Trigger Azimuthal Yields: cent 0-20\%}$, $\phi_{s} = 45-60^{\circ}$, $p^{a}_{T} = 3-4$ GeV/$c$'}
+  values:
+  - value: 0.070494
+    errors:
+    - {symerror: 0.003629, label: '$\sigma_{stat}$'}
+    - {asymerror: {plus: 0.070361, minus: 0.071078}, label: '$\sigma_{FC}$'}
+    - {asymerror: {plus: 0.070505, minus: 0.070484}, label: '$\sigma_{AC}$'}
+  - value: 0.016879
+    errors:
+    - {symerror: 0.003050, label: '$\sigma_{stat}$'}
+    - {asymerror: {plus: 0.016771, minus: 0.017354}, label: '$\sigma_{FC}$'}
+    - {asymerror: {plus: 0.016887, minus: 0.016871}, label: '$\sigma_{AC}$'}
+  - value: 0.008241
+    errors:
+    - {symerror: 0.003006, label: '$\sigma_{stat}$'}
+    - {asymerror: {plus: 0.008177, minus: 0.008539}, label: '$\sigma_{FC}$'}
+    - {asymerror: {plus: 0.008245, minus: 0.008236}, label: '$\sigma_{AC}$'}
+  - value: 0.000615
+    errors:
+    - {symerror: 0.003271, label: '$\sigma_{stat}$'}
+    - {asymerror: {plus: 0.000612, minus: 0.000738}, label: '$\sigma_{FC}$'}
+    - {asymerror: {plus: 0.000615, minus: 0.000614}, label: '$\sigma_{AC}$'}
+  - value: -0.000525
+    errors:
+    - {symerror: 0.003477, label: '$\sigma_{stat}$'}
+    - {asymerror: {plus: -0.000458, minus: -0.000514}, label: '$\sigma_{FC}$'}
+    - {asymerror: {plus: -0.000526, minus: -0.000524}, label: '$\sigma_{AC}$'}
+  - value: -0.002629
+    errors:
+    - {symerror: 0.004075, label: '$\sigma_{stat}$'}
+    - {asymerror: {plus: -0.002494, minus: -0.002638}, label: '$\sigma_{FC}$'}
+    - {asymerror: {plus: -0.002628, minus: -0.002629}, label: '$\sigma_{AC}$'}
+  - value: -0.011197
+    errors:
+    - {symerror: 0.004729, label: '$\sigma_{stat}$'}
+    - {asymerror: {plus: -0.011003, minus: -0.011148}, label: '$\sigma_{FC}$'}
+    - {asymerror: {plus: -0.011193, minus: -0.011200}, label: '$\sigma_{AC}$'}
+  - value: 0.003426
+    errors:
+    - {symerror: 0.006518, label: '$\sigma_{stat}$'}
+    - {asymerror: {plus: 0.003664, minus: 0.003564}, label: '$\sigma_{FC}$'}
+    - {asymerror: {plus: 0.003433, minus: 0.003420}, label: '$\sigma_{AC}$'}
+  - value: -0.004656
+    errors:
+    - {symerror: 0.008759, label: '$\sigma_{stat}$'}
+    - {asymerror: {plus: -0.004395, minus: -0.004456}, label: '$\sigma_{FC}$'}
+    - {asymerror: {plus: -0.004647, minus: -0.004665}, label: '$\sigma_{AC}$'}
+  - value: 0.006831
+    errors:
+    - {symerror: 0.009773, label: '$\sigma_{stat}$'}
+    - {asymerror: {plus: 0.007092, minus: 0.007032}, label: '$\sigma_{FC}$'}
+    - {asymerror: {plus: 0.006840, minus: 0.006822}, label: '$\sigma_{AC}$'}
+  - value: 0.012865
+    errors:
+    - {symerror: 0.007161, label: '$\sigma_{stat}$'}
+    - {asymerror: {plus: 0.013103, minus: 0.013003}, label: '$\sigma_{FC}$'}
+    - {asymerror: {plus: 0.012872, minus: 0.012858}, label: '$\sigma_{AC}$'}
+  - value: -0.001426
+    errors:
+    - {symerror: 0.005417, label: '$\sigma_{stat}$'}
+    - {asymerror: {plus: -0.001233, minus: -0.001378}, label: '$\sigma_{FC}$'}
+    - {asymerror: {plus: -0.001423, minus: -0.001430}, label: '$\sigma_{AC}$'}
+  - value: 0.006476
+    errors:
+    - {symerror: 0.004434, label: '$\sigma_{stat}$'}
+    - {asymerror: {plus: 0.006610, minus: 0.006466}, label: '$\sigma_{FC}$'}
+    - {asymerror: {plus: 0.006476, minus: 0.006476}, label: '$\sigma_{AC}$'}
+  - value: 0.000342
+    errors:
+    - {symerror: 0.003443, label: '$\sigma_{stat}$'}
+    - {asymerror: {plus: 0.000409, minus: 0.000353}, label: '$\sigma_{FC}$'}
+    - {asymerror: {plus: 0.000341, minus: 0.000343}, label: '$\sigma_{AC}$'}
+  - value: -0.007581
+    errors:
+    - {symerror: 0.002933, label: '$\sigma_{stat}$'}
+    - {asymerror: {plus: -0.007583, minus: -0.007457}, label: '$\sigma_{FC}$'}
+    - {asymerror: {plus: -0.007580, minus: -0.007582}, label: '$\sigma_{AC}$'}
+  - value: 0.004692
+    errors:
+    - {symerror: 0.002841, label: '$\sigma_{stat}$'}
+    - {asymerror: {plus: 0.004628, minus: 0.004990}, label: '$\sigma_{FC}$'}
+    - {asymerror: {plus: 0.004696, minus: 0.004687}, label: '$\sigma_{AC}$'}
+  - value: -0.002719
+    errors:
+    - {symerror: 0.002695, label: '$\sigma_{stat}$'}
+    - {asymerror: {plus: -0.002828, minus: -0.002245}, label: '$\sigma_{FC}$'}
+    - {asymerror: {plus: -0.002711, minus: -0.002727}, label: '$\sigma_{AC}$'}
+  - value: 0.003868
+    errors:
+    - {symerror: 0.002702, label: '$\sigma_{stat}$'}
+    - {asymerror: {plus: 0.003735, minus: 0.004452}, label: '$\sigma_{FC}$'}
+    - {asymerror: {plus: 0.003878, minus: 0.003857}, label: '$\sigma_{AC}$'}
+- header: {name: '$PTY(\Delta\phi)$'}
+  qualifiers:
+  - {name: '$\Delta\phi$', value: '$\textrm{Per-Trigger Azimuthal Yields: cent 0-20\%}$, $\phi_{s} = 60-75^{\circ}$, $p^{a}_{T} = 3-4$ GeV/$c$'}
+  values:
+  - value: 0.077751
+    errors:
+    - {symerror: 0.003784, label: '$\sigma_{stat}$'}
+    - {asymerror: {plus: 0.077602, minus: 0.078290}, label: '$\sigma_{FC}$'}
+    - {asymerror: {plus: 0.077776, minus: 0.077726}, label: '$\sigma_{AC}$'}
+  - value: 0.025884
+    errors:
+    - {symerror: 0.003200, label: '$\sigma_{stat}$'}
+    - {asymerror: {plus: 0.025763, minus: 0.026304}, label: '$\sigma_{FC}$'}
+    - {asymerror: {plus: 0.025905, minus: 0.025864}, label: '$\sigma_{AC}$'}
+  - value: 0.001127
+    errors:
+    - {symerror: 0.002822, label: '$\sigma_{stat}$'}
+    - {asymerror: {plus: 0.001056, minus: 0.001356}, label: '$\sigma_{FC}$'}
+    - {asymerror: {plus: 0.001139, minus: 0.001114}, label: '$\sigma_{AC}$'}
+  - value: -0.000507
+    errors:
+    - {symerror: 0.003248, label: '$\sigma_{stat}$'}
+    - {asymerror: {plus: -0.000510, minus: -0.000467}, label: '$\sigma_{FC}$'}
+    - {asymerror: {plus: -0.000505, minus: -0.000508}, label: '$\sigma_{AC}$'}
+  - value: 0.000939
+    errors:
+    - {symerror: 0.003535, label: '$\sigma_{stat}$'}
+    - {asymerror: {plus: 0.001012, minus: 0.000858}, label: '$\sigma_{FC}$'}
+    - {asymerror: {plus: 0.000928, minus: 0.000951}, label: '$\sigma_{AC}$'}
+  - value: -0.004514
+    errors:
+    - {symerror: 0.004135, label: '$\sigma_{stat}$'}
+    - {asymerror: {plus: -0.004366, minus: -0.004615}, label: '$\sigma_{FC}$'}
+    - {asymerror: {plus: -0.004538, minus: -0.004490}, label: '$\sigma_{AC}$'}
+  - value: 0.009498
+    errors:
+    - {symerror: 0.005882, label: '$\sigma_{stat}$'}
+    - {asymerror: {plus: 0.009712, minus: 0.009464}, label: '$\sigma_{FC}$'}
+    - {asymerror: {plus: 0.009463, minus: 0.009533}, label: '$\sigma_{AC}$'}
+  - value: 0.004396
+    errors:
+    - {symerror: 0.006727, label: '$\sigma_{stat}$'}
+    - {asymerror: {plus: 0.004659, minus: 0.004461}, label: '$\sigma_{FC}$'}
+    - {asymerror: {plus: 0.004354, minus: 0.004439}, label: '$\sigma_{AC}$'}
+  - value: 0.007767
+    errors:
+    - {symerror: 0.009838, label: '$\sigma_{stat}$'}
+    - {asymerror: {plus: 0.008054, minus: 0.007902}, label: '$\sigma_{FC}$'}
+    - {asymerror: {plus: 0.007720, minus: 0.007814}, label: '$\sigma_{AC}$'}
+  - value: 0.006077
+    errors:
+    - {symerror: 0.009996, label: '$\sigma_{stat}$'}
+    - {asymerror: {plus: 0.006365, minus: 0.006213}, label: '$\sigma_{FC}$'}
+    - {asymerror: {plus: 0.006030, minus: 0.006125}, label: '$\sigma_{AC}$'}
+  - value: -0.004352
+    errors:
+    - {symerror: 0.006687, label: '$\sigma_{stat}$'}
+    - {asymerror: {plus: -0.004089, minus: -0.004287}, label: '$\sigma_{FC}$'}
+    - {asymerror: {plus: -0.004394, minus: -0.004309}, label: '$\sigma_{AC}$'}
+  - value: -0.001871
+    errors:
+    - {symerror: 0.005650, label: '$\sigma_{stat}$'}
+    - {asymerror: {plus: -0.001657, minus: -0.001905}, label: '$\sigma_{FC}$'}
+    - {asymerror: {plus: -0.001906, minus: -0.001836}, label: '$\sigma_{AC}$'}
+  - value: 0.004612
+    errors:
+    - {symerror: 0.004490, label: '$\sigma_{stat}$'}
+    - {asymerror: {plus: 0.004761, minus: 0.004512}, label: '$\sigma_{FC}$'}
+    - {asymerror: {plus: 0.004588, minus: 0.004636}, label: '$\sigma_{AC}$'}
+  - value: 0.001624
+    errors:
+    - {symerror: 0.003598, label: '$\sigma_{stat}$'}
+    - {asymerror: {plus: 0.001697, minus: 0.001543}, label: '$\sigma_{FC}$'}
+    - {asymerror: {plus: 0.001613, minus: 0.001635}, label: '$\sigma_{AC}$'}
+  - value: -0.001507
+    errors:
+    - {symerror: 0.003133, label: '$\sigma_{stat}$'}
+    - {asymerror: {plus: -0.001510, minus: -0.001467}, label: '$\sigma_{FC}$'}
+    - {asymerror: {plus: -0.001505, minus: -0.001508}, label: '$\sigma_{AC}$'}
+  - value: 0.000116
+    errors:
+    - {symerror: 0.002742, label: '$\sigma_{stat}$'}
+    - {asymerror: {plus: 0.000045, minus: 0.000345}, label: '$\sigma_{FC}$'}
+    - {asymerror: {plus: 0.000128, minus: 0.000104}, label: '$\sigma_{AC}$'}
+  - value: -0.000911
+    errors:
+    - {symerror: 0.002675, label: '$\sigma_{stat}$'}
+    - {asymerror: {plus: -0.001033, minus: -0.000491}, label: '$\sigma_{FC}$'}
+    - {asymerror: {plus: -0.000890, minus: -0.000932}, label: '$\sigma_{AC}$'}
+  - value: -0.000724
+    errors:
+    - {symerror: 0.002561, label: '$\sigma_{stat}$'}
+    - {asymerror: {plus: -0.000873, minus: -0.000185}, label: '$\sigma_{FC}$'}
+    - {asymerror: {plus: -0.000699, minus: -0.000749}, label: '$\sigma_{AC}$'}
+- header: {name: '$PTY(\Delta\phi)$'}
+  qualifiers:
+  - {name: '$\Delta\phi$', value: '$\textrm{Per-Trigger Azimuthal Yields: cent 0-20\%}$, $\phi_{s} = 75-90^{\circ}$, $p^{a}_{T} = 3-4$ GeV/$c$'}
+  values:
+  - value: 0.061885
+    errors:
+    - {symerror: 0.003608, label: '$\sigma_{stat}$'}
+    - {asymerror: {plus: 0.061748, minus: 0.062438}, label: '$\sigma_{FC}$'}
+    - {asymerror: {plus: 0.061907, minus: 0.061863}, label: '$\sigma_{AC}$'}
+  - value: 0.014544
+    errors:
+    - {symerror: 0.003056, label: '$\sigma_{stat}$'}
+    - {asymerror: {plus: 0.014439, minus: 0.014961}, label: '$\sigma_{FC}$'}
+    - {asymerror: {plus: 0.014562, minus: 0.014527}, label: '$\sigma_{AC}$'}
+  - value: 0.001752
+    errors:
+    - {symerror: 0.002916, label: '$\sigma_{stat}$'}
+    - {asymerror: {plus: 0.001705, minus: 0.001951}, label: '$\sigma_{FC}$'}
+    - {asymerror: {plus: 0.001761, minus: 0.001743}, label: '$\sigma_{AC}$'}
+  - value: 0.003698
+    errors:
+    - {symerror: 0.003470, label: '$\sigma_{stat}$'}
+    - {asymerror: {plus: 0.003730, minus: 0.003682}, label: '$\sigma_{FC}$'}
+    - {asymerror: {plus: 0.003693, minus: 0.003704}, label: '$\sigma_{AC}$'}
+  - value: -0.005408
+    errors:
+    - {symerror: 0.003511, label: '$\sigma_{stat}$'}
+    - {asymerror: {plus: -0.005287, minus: -0.005562}, label: '$\sigma_{FC}$'}
+    - {asymerror: {plus: -0.005432, minus: -0.005383}, label: '$\sigma_{AC}$'}
+  - value: 0.000299
+    errors:
+    - {symerror: 0.004470, label: '$\sigma_{stat}$'}
+    - {asymerror: {plus: 0.000508, minus: 0.000122}, label: '$\sigma_{FC}$'}
+    - {asymerror: {plus: 0.000253, minus: 0.000345}, label: '$\sigma_{AC}$'}
+  - value: -0.003754
+    errors:
+    - {symerror: 0.005498, label: '$\sigma_{stat}$'}
+    - {asymerror: {plus: -0.003468, minus: -0.003856}, label: '$\sigma_{FC}$'}
+    - {asymerror: {plus: -0.003822, minus: -0.003685}, label: '$\sigma_{AC}$'}
+  - value: -0.004804
+    errors:
+    - {symerror: 0.006669, label: '$\sigma_{stat}$'}
+    - {asymerror: {plus: -0.004462, minus: -0.004793}, label: '$\sigma_{FC}$'}
+    - {asymerror: {plus: -0.004890, minus: -0.004718}, label: '$\sigma_{AC}$'}
+  - value: -0.008675
+    errors:
+    - {symerror: 0.010302, label: '$\sigma_{stat}$'}
+    - {asymerror: {plus: -0.008304, minus: -0.008584}, label: '$\sigma_{FC}$'}
+    - {asymerror: {plus: -0.008771, minus: -0.008579}, label: '$\sigma_{AC}$'}
+  - value: 0.014205
+    errors:
+    - {symerror: 0.012454, label: '$\sigma_{stat}$'}
+    - {asymerror: {plus: 0.014577, minus: 0.014296}, label: '$\sigma_{FC}$'}
+    - {asymerror: {plus: 0.014109, minus: 0.014301}, label: '$\sigma_{AC}$'}
+  - value: -0.008243
+    errors:
+    - {symerror: 0.007023, label: '$\sigma_{stat}$'}
+    - {asymerror: {plus: -0.007901, minus: -0.008231}, label: '$\sigma_{FC}$'}
+    - {asymerror: {plus: -0.008329, minus: -0.008156}, label: '$\sigma_{AC}$'}
+  - value: 0.002285
+    errors:
+    - {symerror: 0.006219, label: '$\sigma_{stat}$'}
+    - {asymerror: {plus: 0.002571, minus: 0.002184}, label: '$\sigma_{FC}$'}
+    - {asymerror: {plus: 0.002217, minus: 0.002354}, label: '$\sigma_{AC}$'}
+  - value: 0.002800
+    errors:
+    - {symerror: 0.004658, label: '$\sigma_{stat}$'}
+    - {asymerror: {plus: 0.003009, minus: 0.002624}, label: '$\sigma_{FC}$'}
+    - {asymerror: {plus: 0.002754, minus: 0.002847}, label: '$\sigma_{AC}$'}
+  - value: -0.002698
+    errors:
+    - {symerror: 0.003609, label: '$\sigma_{stat}$'}
+    - {asymerror: {plus: -0.002577, minus: -0.002852}, label: '$\sigma_{FC}$'}
+    - {asymerror: {plus: -0.002722, minus: -0.002674}, label: '$\sigma_{AC}$'}
+  - value: 0.005149
+    errors:
+    - {symerror: 0.003418, label: '$\sigma_{stat}$'}
+    - {asymerror: {plus: 0.005181, minus: 0.005133}, label: '$\sigma_{FC}$'}
+    - {asymerror: {plus: 0.005144, minus: 0.005155}, label: '$\sigma_{AC}$'}
+  - value: 0.004019
+    errors:
+    - {symerror: 0.002929, label: '$\sigma_{stat}$'}
+    - {asymerror: {plus: 0.003973, minus: 0.004219}, label: '$\sigma_{FC}$'}
+    - {asymerror: {plus: 0.004028, minus: 0.004011}, label: '$\sigma_{AC}$'}
+  - value: -0.000619
+    errors:
+    - {symerror: 0.002800, label: '$\sigma_{stat}$'}
+    - {asymerror: {plus: -0.000725, minus: -0.000202}, label: '$\sigma_{FC}$'}
+    - {asymerror: {plus: -0.000602, minus: -0.000637}, label: '$\sigma_{AC}$'}
+  - value: 0.002184
+    errors:
+    - {symerror: 0.002718, label: '$\sigma_{stat}$'}
+    - {asymerror: {plus: 0.002047, minus: 0.002737}, label: '$\sigma_{FC}$'}
+    - {asymerror: {plus: 0.002206, minus: 0.002162}, label: '$\sigma_{AC}$'}

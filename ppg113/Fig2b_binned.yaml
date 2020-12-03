@@ -1,0 +1,38 @@
+dependent_variables:
+- header: {name: '$I_{AA}$'}
+  qualifiers:
+  - {name: $\xi$, value: '0-40% $\frac{Au+Au}{p+p}$'}
+  values:
+  - errors:
+    - {label: stat, symerror: 0.253}
+    - {label: sys, symerror: 0.267}
+    value: 0.173
+  - errors:
+    - {label: stat, symerror: 0.135}
+    - {label: sys, symerror: 0.141}
+    value: 0.336
+  - errors:
+    - {label: stat, symerror: 0.185}
+    - {label: sys, symerror: 0.215}
+    value: 1.04
+  - errors:
+    - {label: stat, symerror: 0.236}
+    - {label: sys, symerror: 0.381}
+    value: 1.61
+  - errors:
+    - {label: stat, symerror: 0.209}
+    - {label: sys, symerror: 0.167}
+    value: 1.79
+  - errors:
+    - {label: stat, symerror: 0.288}
+    - {label: sys, symerror: 0.275}
+    value: 1.17
+independent_variables:
+- header: {name: $\xi$}
+  values:
+  - {high: 0.4, low: 0.0}
+  - {high: 0.8, low: 0.4}
+  - {high: 1.2, low: 0.8}
+  - {high: 1.6, low: 1.2}
+  - {high: 2.0, low: 1.6}
+  - {high: 2.4, low: 2.0}

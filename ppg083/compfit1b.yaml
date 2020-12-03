@@ -1,0 +1,84 @@
+independent_variables:
+- header: {name: 'Centrality'}
+  values:
+  - {low: 0, high: 5}
+  - {low: 5, high: 10}
+  - {low: 10, high: 20}
+  - {low: 20, high: 30}
+  - {low: 30, high: 40}
+  - {low: 40, high: 50}
+  - {low: 50, high: 60}
+  - {low: 60, high: 70}
+dependent_variables:
+- header: {name: 'width'}
+  qualifiers:
+  - {name: 'Centrality', value: 'FIT1'}
+  values:
+  - value: 0.616
+    errors:
+    - {symerror: 0.018, label: 'staterr'}
+    - {symerror: 0.0015, label: 'sys err'}
+  - value: 0.625
+    errors:
+    - {symerror: 0.015, label: 'staterr'}
+    - {symerror: 0.0025, label: 'sys err'}
+  - value: 0.622
+    errors:
+    - {symerror: 0.01, label: 'staterr'}
+    - {symerror: 0.0125, label: 'sys err'}
+  - value: 0.613
+    errors:
+    - {symerror: 0.023, label: 'staterr'}
+    - {symerror: 0.0355, label: 'sys err'}
+  - value: 0.559
+    errors:
+    - {symerror: 0.023, label: 'staterr'}
+    - {symerror: 0.055, label: 'sys err'}
+  - value: 0.63
+    errors:
+    - {symerror: 0.04, label: 'staterr'}
+    - {symerror: 0.026, label: 'sys err'}
+  - value: 0.631
+    errors:
+    - {symerror: 0.038, label: 'staterr'}
+    - {symerror: 0.0275, label: 'sys err'}
+  - value: 0.757
+    errors:
+    - {symerror: 0.063, label: 'staterr'}
+    - {symerror: 0.059, label: 'sys err'}
+- header: {name: 'width'}
+  qualifiers:
+  - {name: 'Centrality', value: 'FIT2'}
+  values:
+  - value: 0.493
+    errors:
+    - {symerror: 0.025, label: 'staterr'}
+    - {symerror: 0.026, label: 'sys err'}
+  - value: 0.488
+    errors:
+    - {symerror: 0.02, label: 'staterr'}
+    - {symerror: 0.033, label: 'sys err'}
+  - value: 0.542
+    errors:
+    - {symerror: 0.021, label: 'staterr'}
+    - {symerror: 0.0625, label: 'sys err'}
+  - value: 0.6
+    errors:
+    - {symerror: 0.097, label: 'staterr'}
+    - {symerror: 0.07, label: 'sys err'}
+  - value: 0.508
+    errors:
+    - {symerror: 0.062, label: 'staterr'}
+    - {symerror: 0.053, label: 'sys err'}
+  - value: 0.558
+    errors:
+    - {symerror: 0.008, label: 'staterr'}
+    - {symerror: 0.0645, label: 'sys err'}
+  - value: 0.259
+    errors:
+    - {symerror: 0.032, label: 'staterr'}
+    - {symerror: 0.04, label: 'sys err'}
+  - value: 0.215
+    errors:
+    - {symerror: 0.05, label: 'staterr'}
+    - {symerror: 0.066, label: 'sys err'}

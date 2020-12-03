@@ -1,0 +1,122 @@
+independent_variables:
+- header: {name: '$p_T$'}
+  values:
+  - {low: 0.3, high: 0.9}
+  - {low: 0.9, high: 1.6}
+  - {low: 1.6, high: 2.7}
+  - {low: 2.7, high: 3.7}
+  - {low: 3.7, high: 4.7}
+  - {low: 4.7, high: 6.6}
+dependent_variables:
+- header: {name: 'width'}
+  qualifiers:
+  - {name: '$p_T$', value: '2<p_T^A<3'}
+  values:
+  - value: 0.472
+    errors:
+    - {symerror: 0.006, label: 'stat'}
+    - {symerror: 0.006, label: 'sys'}
+  - value: 0.364
+    errors:
+    - {symerror: 0.003, label: 'stat'}
+    - {symerror: 0.003, label: 'sys'}
+  - value: 0.281
+    errors:
+    - {symerror: 0.003, label: 'stat'}
+    - {symerror: 0.003, label: 'sys'}
+  - value: 0.244
+    errors:
+    - {symerror: 0.005, label: 'stat'}
+    - {symerror: 0.005, label: 'sys'}
+  - value: 0.225
+    errors:
+    - {symerror: 0.007, label: 'stat'}
+    - {symerror: 0.007, label: 'sys'}
+  - value: 0.208
+    errors:
+    - {symerror: 0.003, label: 'stat'}
+    - {symerror: 0.003, label: 'sys'}
+- header: {name: 'width'}
+  qualifiers:
+  - {name: '$p_T$', value: '3<p_T^A<4'}
+  values:
+  - value: 0.43
+    errors:
+    - {symerror: 0.012, label: 'stat'}
+    - {symerror: 0.012, label: 'sys'}
+  - value: 0.314
+    errors:
+    - {symerror: 0.005, label: 'stat'}
+    - {symerror: 0.005, label: 'sys'}
+  - value: 0.244
+    errors:
+    - {symerror: 0.005, label: 'stat'}
+    - {symerror: 0.005, label: 'sys'}
+  - value: 0.199
+    errors:
+    - {symerror: 0.007, label: 'stat'}
+    - {symerror: 0.007, label: 'sys'}
+  - value: 0.201
+    errors:
+    - {symerror: 0.01, label: 'stat'}
+    - {symerror: 0.01, label: 'sys'}
+  - value: 0.165
+    errors:
+    - {symerror: 0.003, label: 'stat'}
+    - {symerror: 0.003, label: 'sys'}
+- header: {name: 'width'}
+  qualifiers:
+  - {name: '$p_T$', value: '4<p_T^A<5'}
+  values:
+  - value: 0.402
+    errors:
+    - {symerror: 0.018, label: 'stat'}
+    - {symerror: 0.018, label: 'sys'}
+  - value: 0.299
+    errors:
+    - {symerror: 0.008, label: 'stat'}
+    - {symerror: 0.008, label: 'sys'}
+  - value: 0.225
+    errors:
+    - {symerror: 0.007, label: 'stat'}
+    - {symerror: 0.007, label: 'sys'}
+  - value: 0.201
+    errors:
+    - {symerror: 0.01, label: 'stat'}
+    - {symerror: 0.01, label: 'sys'}
+  - value: 0.148
+    errors:
+    - {symerror: 0.011, label: 'stat'}
+    - {symerror: 0.011, label: 'sys'}
+  - value: 0.155
+    errors:
+    - {symerror: 0.005, label: 'stat'}
+    - {symerror: 0.005, label: 'sys'}
+- header: {name: 'width'}
+  qualifiers:
+  - {name: '$p_T$', value: '5<p_T^A<10'}
+  values:
+  - value: 0.385
+    errors:
+    - {symerror: 0.008, label: 'stat'}
+    - {symerror: 0.008, label: 'sys'}
+  - value: 0.281
+    errors:
+    - {symerror: 0.003, label: 'stat'}
+    - {symerror: 0.003, label: 'sys'}
+  - value: 0.208
+    errors:
+    - {symerror: 0.003, label: 'stat'}
+    - {symerror: 0.003, label: 'sys'}
+  - value: 0.165
+    errors:
+    - {symerror: 0.003, label: 'stat'}
+    - {symerror: 0.003, label: 'sys'}
+  - value: 0.155
+    errors:
+    - {symerror: 0.005, label: 'stat'}
+    - {symerror: 0.005, label: 'sys'}
+  - value: 0.13
+    errors:
+    - {symerror: 0.004, label: 'stat'}
+    - {symerror: 0.004, label: 'sys'}

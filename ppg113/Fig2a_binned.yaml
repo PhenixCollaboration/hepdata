@@ -1,0 +1,66 @@
+dependent_variables:
+- header: {name: Per-trig.Yield}
+  qualifiers:
+  - {name: $\xi$, value: 0-40% Au+AU}
+  values:
+  - errors:
+    - {label: stat, symerror: 0.00411}
+    - {label: sys, symerror: 0.00437}
+    value: 0.00282
+  - errors:
+    - {label: stat, symerror: 0.00735}
+    - {label: sys, symerror: 0.00994}
+    value: 0.0239
+  - errors:
+    - {label: stat, symerror: 0.0209}
+    - {label: sys, symerror: 0.0334}
+    value: 0.149
+  - errors:
+    - {label: stat, symerror: 0.0452}
+    - {label: sys, symerror: 0.0781}
+    value: 0.287
+  - errors:
+    - {label: stat, symerror: 0.0736}
+    - {label: sys, symerror: 0.0799}
+    value: 0.593
+  - errors:
+    - {label: stat, symerror: 0.18}
+    - {label: sys, symerror: 0.194}
+    value: 0.757
+- header: {name: Per-trig.Yield}
+  qualifiers:
+  - {name: $\xi$, value: p+p}
+  values:
+  - errors:
+    - {label: stat, symerror: 0.00278}
+    - {label: sys, symerror: 0.0}
+    value: 0.0163
+  - errors:
+    - {label: stat, symerror: 0.00523}
+    - {label: sys, symerror: 0.00129}
+    value: 0.0687
+  - errors:
+    - {label: stat, symerror: 0.00879}
+    - {label: sys, symerror: 0.00399}
+    value: 0.141
+  - errors:
+    - {label: stat, symerror: 0.0137}
+    - {label: sys, symerror: 0.00792}
+    value: 0.181
+  - errors:
+    - {label: stat, symerror: 0.0208}
+    - {label: sys, symerror: 0.0142}
+    value: 0.336
+  - errors:
+    - {label: stat, symerror: 0.0553}
+    - {label: sys, symerror: 0.0183}
+    value: 0.645
+independent_variables:
+- header: {name: $\xi$}
+  values:
+  - {high: 0.4, low: 0.0}
+  - {high: 0.8, low: 0.4}
+  - {high: 1.2, low: 0.8}
+  - {high: 1.6, low: 1.2}
+  - {high: 2.0, low: 1.6}
+  - {high: 2.4, low: 2.0}

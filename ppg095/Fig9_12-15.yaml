@@ -1,0 +1,56 @@
+independent_variables:
+- header: {name: '$x_E$'}
+  values:
+  - {low: 0.1, high: 0.2}
+  - {low: 0.2, high: 0.3}
+  - {low: 0.3, high: 0.4}
+  - {low: 0.4, high: 0.55}
+dependent_variables:
+- header: {name: '$dN/x_E$'}
+  qualifiers:
+  - {name: '$x_E$', value: '$\pi_0 \, - \, \textrm{Hadron} \, 12 \, < \, p_T, \, trigger \, < \, 15 \, \textrm{GeV}/c$'}
+  values:
+  - value: 2.8793
+    errors:
+    - {symerror: 0.169663, label: 'stat'}
+    - {symerror: 0, label: 'syserrlo'}
+    - {symerror: 0, label: 'syserrhi'}
+  - value: 1.25141
+    errors:
+    - {symerror: 0.107926, label: 'stat'}
+    - {symerror: 0, label: 'syserrlo'}
+    - {symerror: 0, label: 'syserrhi'}
+  - value: 0.560542
+    errors:
+    - {symerror: 0.0709226, label: 'stat'}
+    - {symerror: 0, label: 'syserrlo'}
+    - {symerror: 0, label: 'syserrhi'}
+  - value: 0.173509
+    errors:
+    - {symerror: 0.0238939, label: 'stat'}
+    - {symerror: 0, label: 'syserrlo'}
+    - {symerror: 0, label: 'syserrhi'}
+- header: {name: '$dN/x_E$'}
+  qualifiers:
+  - {name: '$x_E$', value: '$\textrm{Isolated Direct Photon} \, - \, \textrm{Hadron} \, 12 \, < \, p_T, \,trigger \, < \, 15 \, \textrm{GeV}/c$'}
+  values:
+  - value: 1.40547
+    errors:
+    - {symerror: 0.325567, label: 'stat'}
+    - {symerror: 0.0805542, label: 'syserrlo'}
+    - {symerror: 0.0849322, label: 'syserrhi'}
+  - value: 0.672355
+    errors:
+    - {symerror: 0.201869, label: 'stat'}
+    - {symerror: 0.0241046, label: 'syserrlo'}
+    - {symerror: 0.0251226, label: 'syserrhi'}
+  - value: 0.119748
+    errors:
+    - {symerror: 0.105095, label: 'stat'}
+    - {symerror: 0.0147517, label: 'syserrlo'}
+    - {symerror: 0.0152499, label: 'syserrhi'}
+  - value: 0.0647787
+    errors:
+    - {symerror: 0.0330729, label: 'stat'}
+    - {symerror: 0.00266293, label: 'syserrlo'}
+    - {symerror: 0.00308724, label: 'syserrhi'}

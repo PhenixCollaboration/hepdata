@@ -1,0 +1,275 @@
+independent_variables:
+- header: {name: '$p_{T}[GeV/c]$'}
+  values:
+  - {low: 0.00, high: 0.25}
+  - {low: 0.25, high: 0.50}
+  - {low: 0.50, high: 0.75}
+  - {low: 0.75, high: 1.00}
+  - {low: 1.00, high: 1.25}
+  - {low: 1.25, high: 1.50}
+  - {low: 1.50, high: 1.75}
+  - {low: 1.75, high: 2.00}
+  - {low: 2.00, high: 2.25}
+  - {low: 2.25, high: 2.50}
+  - {low: 2.50, high: 3.00}
+  - {low: 3.00, high: 3.50}
+  - {low: 3.50, high: 4.00}
+  - {low: 4.00, high: 5.00}
+  - {low: 5.00, high: 7.00}
+dependent_variables:
+- header: {name: '$\frac{d^{2}N^{HeAu}/dydp_{T}}{\langle N_{coll} \rangle d^{2}N^{pp}/dydp_{T}}$'}
+  qualifiers:
+  - {name: '', value: '$R_{HeAu}$ 0-20% Centrality $(1.2 < y < 2.2)$'}
+  values:
+  - value: 0.50
+    errors:
+    - {symerror: 0.10, label: 'stat'}
+    - {symerror: 0.03, label: 'sys'}
+  - value: 0.47
+    errors:
+    - {symerror: 0.06, label: 'stat'}
+    - {symerror: 0.03, label: 'sys'}
+  - value: 0.53
+    errors:
+    - {symerror: 0.06, label: 'stat'}
+    - {symerror: 0.03, label: 'sys'}
+  - value: 0.47
+    errors:
+    - {symerror: 0.05, label: 'stat'}
+    - {symerror: 0.03, label: 'sys'}
+  - value: 0.54
+    errors:
+    - {symerror: 0.05, label: 'stat'}
+    - {symerror: 0.03, label: 'sys'}
+  - value: 0.57
+    errors:
+    - {symerror: 0.06, label: 'stat'}
+    - {symerror: 0.04, label: 'sys'}
+  - value: 0.71
+    errors:
+    - {symerror: 0.07, label: 'stat'}
+    - {symerror: 0.04, label: 'sys'}
+  - value: 0.58
+    errors:
+    - {symerror: 0.08, label: 'stat'}
+    - {symerror: 0.04, label: 'sys'}
+  - value: 0.63
+    errors:
+    - {symerror: 0.08, label: 'stat'}
+    - {symerror: 0.04, label: 'sys'}
+  - value: 0.60
+    errors:
+    - {symerror: 0.08, label: 'stat'}
+    - {symerror: 0.04, label: 'sys'}
+  - value: 0.71
+    errors:
+    - {symerror: 0.08, label: 'stat'}
+    - {symerror: 0.04, label: 'sys'}
+  - value: 0.85
+    errors:
+    - {symerror: 0.09, label: 'stat'}
+    - {symerror: 0.05, label: 'sys'}
+  - value: 0.89
+    errors:
+    - {symerror: 0.13, label: 'stat'}
+    - {symerror: 0.06, label: 'sys'}
+  - value: 1.13
+    errors:
+    - {symerror: 0.16, label: 'stat'}
+    - {symerror: 0.07, label: 'sys'}
+  - value: 0.82
+    errors:
+    - {symerror: 0.22, label: 'stat'}
+    - {symerror: 0.05, label: 'sys'}
+- header: {name: '$\frac{d^{2}N^{HeAu}/dydp_{T}}{\langle N_{coll} \rangle d^{2}N^{pp}/dydp_{T}}$'}
+  qualifiers:
+  - {name: '', value: '$R_{HeAu}$ 0-20% Centrality $(-2.2 < y < -1.2)$'}
+  values:
+  - value: 0.38
+    errors:
+    - {symerror: 0.08, label: 'stat'}
+    - {symerror: 0.04, label: 'sys'}
+  - value: 0.61
+    errors:
+    - {symerror: 0.08, label: 'stat'}
+    - {symerror: 0.06, label: 'sys'}
+  - value: 0.53
+    errors:
+    - {symerror: 0.06, label: 'stat'}
+    - {symerror: 0.05, label: 'sys'}
+  - value: 0.70
+    errors:
+    - {symerror: 0.07, label: 'stat'}
+    - {symerror: 0.06, label: 'sys'}
+  - value: 0.74
+    errors:
+    - {symerror: 0.07, label: 'stat'}
+    - {symerror: 0.07, label: 'sys'}
+  - value: 0.76
+    errors:
+    - {symerror: 0.07, label: 'stat'}
+    - {symerror: 0.07, label: 'sys'}
+  - value: 0.82
+    errors:
+    - {symerror: 0.07, label: 'stat'}
+    - {symerror: 0.08, label: 'sys'}
+  - value: 1.04
+    errors:
+    - {symerror: 0.09, label: 'stat'}
+    - {symerror: 0.10, label: 'sys'}
+  - value: 0.80
+    errors:
+    - {symerror: 0.10, label: 'stat'}
+    - {symerror: 0.07, label: 'sys'}
+  - value: 1.10
+    errors:
+    - {symerror: 0.12, label: 'stat'}
+    - {symerror: 0.10, label: 'sys'}
+  - value: 0.94
+    errors:
+    - {symerror: 0.09, label: 'stat'}
+    - {symerror: 0.09, label: 'sys'}
+  - value: 0.86
+    errors:
+    - {symerror: 0.11, label: 'stat'}
+    - {symerror: 0.08, label: 'sys'}
+  - value: 1.14
+    errors:
+    - {symerror: 0.18, label: 'stat'}
+    - {symerror: 0.10, label: 'sys'}
+  - value: 1.10
+    errors:
+    - {symerror: 0.18, label: 'stat'}
+    - {symerror: 0.11, label: 'sys'}
+  - value: 0.39
+    errors:
+    - {symerror: 0.11, label: 'stat'}
+    - {symerror: 0.04, label: 'sys'}
+- header: {name: '$Ratio$'}
+  qualifiers:
+  - {name: '', value: '$R_{HeAu}/R_{pAu}$ 0-20% Centrality $(1.2 < y < 2.2)$'}
+  values:
+  - value: 0.95
+    errors:
+    - {symerror: 0.19, label: 'stat'}
+    - {symerror: 0.05, label: 'sys'}
+  - value: 0.97
+    errors:
+    - {symerror: 0.12, label: 'stat'}
+    - {symerror: 0.05, label: 'sys'}
+  - value: 1.04
+    errors:
+    - {symerror: 0.11, label: 'stat'}
+    - {symerror: 0.05, label: 'sys'}
+  - value: 0.94
+    errors:
+    - {symerror: 0.09, label: 'stat'}
+    - {symerror: 0.04, label: 'sys'}
+  - value: 0.96
+    errors:
+    - {symerror: 0.09, label: 'stat'}
+    - {symerror: 0.05, label: 'sys'}
+  - value: 0.97
+    errors:
+    - {symerror: 0.09, label: 'stat'}
+    - {symerror: 0.05, label: 'sys'}
+  - value: 1.15
+    errors:
+    - {symerror: 0.12, label: 'stat'}
+    - {symerror: 0.05, label: 'sys'}
+  - value: 0.91
+    errors:
+    - {symerror: 0.12, label: 'stat'}
+    - {symerror: 0.04, label: 'sys'}
+  - value: 0.91
+    errors:
+    - {symerror: 0.12, label: 'stat'}
+    - {symerror: 0.04, label: 'sys'}
+  - value: 0.92
+    errors:
+    - {symerror: 0.12, label: 'stat'}
+    - {symerror: 0.04, label: 'sys'}
+  - value: 0.91
+    errors:
+    - {symerror: 0.10, label: 'stat'}
+    - {symerror: 0.04, label: 'sys'}
+  - value: 0.98
+    errors:
+    - {symerror: 0.10, label: 'stat'}
+    - {symerror: 0.04, label: 'sys'}
+  - value: 0.98
+    errors:
+    - {symerror: 0.13, label: 'stat'}
+    - {symerror: 0.04, label: 'sys'}
+  - value: 1.10
+    errors:
+    - {symerror: 0.15, label: 'stat'}
+    - {symerror: 0.05, label: 'sys'}
+  - value: 0.62
+    errors:
+    - {symerror: 0.16, label: 'stat'}
+    - {symerror: 0.03, label: 'sys'}
+- header: {name: '$Ratio$'}
+  qualifiers:
+  - {name: '', value: '$R_{HeAu}/R_{pAu}$ 0-20% Centrality $(-2.2 < y < -1.2)$'}
+  values:
+  - value: 0.62
+    errors:
+    - {symerror: 0.13, label: 'stat'}
+    - {symerror: 0.06, label: 'sys'}
+  - value: 0.84
+    errors:
+    - {symerror: 0.11, label: 'stat'}
+    - {symerror: 0.08, label: 'sys'}
+  - value: 0.81
+    errors:
+    - {symerror: 0.10, label: 'stat'}
+    - {symerror: 0.07, label: 'sys'}
+  - value: 0.98
+    errors:
+    - {symerror: 0.10, label: 'stat'}
+    - {symerror: 0.09, label: 'sys'}
+  - value: 0.87
+    errors:
+    - {symerror: 0.08, label: 'stat'}
+    - {symerror: 0.08, label: 'sys'}
+  - value: 1.02
+    errors:
+    - {symerror: 0.09, label: 'stat'}
+    - {symerror: 0.09, label: 'sys'}
+  - value: 0.91
+    errors:
+    - {symerror: 0.08, label: 'stat'}
+    - {symerror: 0.08, label: 'sys'}
+  - value: 1.13
+    errors:
+    - {symerror: 0.10, label: 'stat'}
+    - {symerror: 0.10, label: 'sys'}
+  - value: 0.75
+    errors:
+    - {symerror: 0.09, label: 'stat'}
+    - {symerror: 0.07, label: 'sys'}
+  - value: 1.07
+    errors:
+    - {symerror: 0.11, label: 'stat'}
+    - {symerror: 0.10, label: 'sys'}
+  - value: 0.88
+    errors:
+    - {symerror: 0.09, label: 'stat'}
+    - {symerror: 0.08, label: 'sys'}
+  - value: 0.79
+    errors:
+    - {symerror: 0.10, label: 'stat'}
+    - {symerror: 0.08, label: 'sys'}
+  - value: 0.95
+    errors:
+    - {symerror: 0.13, label: 'stat'}
+    - {symerror: 0.09, label: 'sys'}
+  - value: 0.98
+    errors:
+    - {symerror: 0.16, label: 'stat'}
+    - {symerror: 0.10, label: 'sys'}
+  - value: 0.46
+    errors:
+    - {symerror: 0.13, label: 'stat'}
+    - {symerror: 0.05, label: 'sys'}

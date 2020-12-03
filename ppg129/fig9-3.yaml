@@ -1,0 +1,63 @@
+independent_variables:
+- header: {name: '$p_T$'}  
+  values:
+  - {low: 1, high: 1.5}
+  - {low: 1.5, high: 2}
+  - {low: 2, high: 2.5}
+  - {low: 2.5, high: 3}
+  - {low: 3, high: 3.5}
+  - {low: 3.5, high: 4}
+  - {low: 4, high: 4.5}
+  - {low: 4.5, high: 5}
+  - {low: 5, high: 6}
+  - {low: 6, high: 7}
+  - {low: 7, high: 8}
+dependent_variables:
+- header: {name: '$v_4/v_2^2$'}
+  qualifiers:
+  - {name: '$p_T$', value: '$\pi^0$ meson $v_4/v_2^2, 40-60\%$ centrality'}
+  values:
+  - value: 0.6699
+    errors:
+    - {symerror: 0.0668, label: 'stat_err'}
+    - {symerror: 0.0402, label: 'sys_err'}
+  - value: 0.7757
+    errors:
+    - {symerror: 0.0359, label: 'stat_err'}
+    - {symerror: 0.0465, label: 'sys_err'}
+  - value: 0.7529
+    errors:
+    - {symerror: 0.0399, label: 'stat_err'}
+    - {symerror: 0.0452, label: 'sys_err'}
+  - value: 0.7117
+    errors:
+    - {symerror: 0.0556, label: 'stat_err'}
+    - {symerror: 0.0427, label: 'sys_err'}
+  - value: 0.8322
+    errors:
+    - {symerror: 0.1070, label: 'stat_err'}
+    - {symerror: 0.0499, label: 'sys_err'}
+  - value: 0.6287
+    errors:
+    - {symerror: 0.1778, label: 'stat_err'}
+    - {symerror: 0.0377, label: 'sys_err'}
+  - value: 0.7842
+    errors:
+    - {symerror: 0.2438, label: 'stat_err'}
+    - {symerror: 0.0471, label: 'sys_err'}
+  - value: 0.6632
+    errors:
+    - {symerror: 0.3495, label: 'stat_err'}
+    - {symerror: 0.0398, label: 'sys_err'}
+  - value: 0.8168
+    errors:
+    - {symerror: 0.5234, label: 'stat_err'}
+    - {symerror: 0.0490, label: 'sys_err'}
+  - value: 0.6214
+    errors:
+    - {symerror: 1.0424, label: 'stat_err'}
+    - {symerror: 0.0373, label: 'sys_err'}
+  - value: -0.6740
+    errors:
+    - {symerror: 2.3746, label: 'stat_err'}
+    - {symerror: 0.0404, label: 'sys_err'}

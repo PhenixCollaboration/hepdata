@@ -1,0 +1,78 @@
+independent_variables:
+- header: {name: '$p_T$ GeV/c'}
+  values:
+  - {low: 2, high: 3}
+  - {low: 3, high: 4}
+  - {low: 4, high: 5}
+  - {low: 5, high: 6}
+  - {low: 6, high: 7}
+  - {low: 7, high: 8}
+  - {low: 8, high: 9}
+  - {low: 9, high: 10}
+  - {low: 10, high: 12}
+  - {low: 12, high: 20}
+dependent_variables:
+- header: {name: '$A_{N}^{\pi^0}$'}
+  qualifiers:
+  - {name: '$p_T$ GeV/c', value: '$A_{N}^{\pi^0}$, $p^\uparrow$$+$$p$ $\sqrt{s} = 200$ GeV, $|\eta|<0.35$'}
+  values:
+  - value: 0.000143
+    errors:
+    - {symerror: 0.000281, label: '$\sigma_{stat}$'}
+    - {symerror: 0.0000571, label: '$\sigma_{syst}$ (rel. lumi. vs sqrt.)'}
+    - {symerror: 0.000000392, label: '$\sigma_{syst}$ (bg. fraction)'}
+    - {symerror: 0.000121, label: '$\sigma_{syst}$ (total)'}
+  - value: -0.000343
+    errors:
+    - {symerror: 0.000321, label: '$\sigma_{stat}$'}
+    - {symerror: 0.0000173, label: '$\sigma_{syst}$ (rel. lumi. vs sqrt.)'}
+    - {symerror: 0.00000392, label: '$\sigma_{syst}$ (bg. fraction)'}
+    - {symerror: 0.0000177, label: '$\sigma_{syst}$ (total)'}
+  - value: 0.000335
+    errors:
+    - {symerror: 0.000571, label: '$\sigma_{stat}$'}
+    - {symerror: 0.0000656, label: '$\sigma_{syst}$ (rel. lumi. vs sqrt.)'}
+    - {symerror: 0.00000191, label: '$\sigma_{syst}$ (bg. fraction)'}
+    - {symerror: 0.0000657, label: '$\sigma_{syst}$ (total)'}
+  - value: 0.002327
+    errors:
+    - {symerror: 00.00106, label: '$\sigma_{stat}$'}
+    - {symerror: 0.0000961, label: '$\sigma_{syst}$ (rel. lumi. vs sqrt.)'}
+    - {symerror: 0.000000668, label: '$\sigma_{syst}$ (bg. fraction)'}
+    - {symerror: 0.0000961, label: '$\sigma_{syst}$ (total)'}
+  - value: -0.000689
+    errors:
+    - {symerror: 0.00187, label: '$\sigma_{stat}$'}
+    - {symerror: 0.000112, label: '$\sigma_{syst}$ (rel. lumi. vs sqrt.)'}
+    - {symerror: 0.0000211, label: '$\sigma_{syst}$ (bg. fraction)'}
+    - {symerror: 0.000114, label: '$\sigma_{syst}$ (total)'}
+  - value: 0.00193
+    errors:
+    - {symerror: 0.00311, label: '$\sigma_{stat}$'}
+    - {symerror: 0.000341, label: '$\sigma_{syst}$ (rel. lumi. vs sqrt.)'}
+    - {symerror: 0.0000761, label: '$\sigma_{syst}$ (bg. fraction)'}
+    - {symerror: 0.000350, label: '$\sigma_{syst}$ (total)'}
+  - value: -0.00238
+    errors:
+    - {symerror: 0.00488, label: '$\sigma_{stat}$'}
+    - {symerror: 0.000245, label: '$\sigma_{syst}$ (rel. lumi. vs sqrt.)'}
+    - {symerror: 0.000399, label: '$\sigma_{syst}$ (bg. fraction)'}
+    - {symerror: 0.000469, label: '$\sigma_{syst}$ (total)'}
+  - value: 0.000404
+    errors:
+    - {symerror: 0.00703, label: '$\sigma_{stat}$'}
+    - {symerror: 0.000331, label: '$\sigma_{syst}$ (rel. lumi. vs sqrt.)'}
+    - {symerror: 0.000116, label: '$\sigma_{syst}$ (bg. fraction)'}
+    - {symerror: 0.000351, label: '$\sigma_{syst}$ (total)'}
+  - value: 0.00734
+    errors:
+    - {symerror: 0.00799, label: '$\sigma_{stat}$'}
+    - {symerror: 0.0000971, label: '$\sigma_{syst}$ (rel. lumi. vs sqrt.)'}
+    - {symerror: 0.000313, label: '$\sigma_{syst}$ (bg. fraction)'}
+    - {symerror: 0.000328, label: '$\sigma_{syst}$ (total)'}
+  - value: -00.0105
+    errors:
+    - {symerror: 0.0127, label: '$\sigma_{stat}$'}
+    - {symerror: 0.000686, label: '$\sigma_{syst}$ (rel. lumi. vs sqrt.)'}
+    - {symerror: 0.0000115, label: '$\sigma_{syst}$ (bg. fraction)'}
+    - {symerror: 0.000686, label: '$\sigma_{syst}$ (total)'}

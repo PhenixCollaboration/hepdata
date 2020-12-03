@@ -1,0 +1,570 @@
+independent_variables:
+- header: {name: '$p_T$'}
+  values:
+  - {low: 0.5, high: 0.6}
+  - {low: 0.6, high: 0.7}
+  - {low: 0.7, high: 0.8}
+  - {low: 0.8, high: 0.9}
+  - {low: 0.9, high: 1.0}
+  - {low: 1.0, high: 1.1}
+  - {low: 1.1, high: 1.2}
+  - {low: 1.2, high: 1.3}
+  - {low: 1.3, high: 1.4}
+  - {low: 1.4, high: 1.5}
+  - {low: 1.5, high: 1.6}
+  - {low: 1.6, high: 1.7}
+  - {low: 1.7, high: 1.8}
+  - {low: 1.8, high: 1.9}
+  - {low: 1.9, high: 2.0}
+  - {low: 2.0, high: 2.2}
+  - {low: 2.2, high: 2.4}
+  - {low: 2.4, high: 2.6}
+  - {low: 2.6, high: 2.8}
+  - {low: 2.8, high: 3.0}
+  - {low: 3.0, high: 3.5}
+  - {low: 3.5, high: 4.0}
+  - {low: 4.0, high: 4.5}
+  - {low: 4.5, high: 5.0}
+  - {low: 5.0, high: 5.5}
+  - {low: 5.5, high: 6.0}
+dependent_variables:
+- header: {name: 'Ratio of Yields'}
+  qualifiers:
+  - {name: '$p_T$', value: 'Au+Au $\pi^-/\pi^+$ $0-10\%$ centrality'}
+  values:
+  - value: 1.02162
+    errors:
+    - {symerror: 0.0180007, label: 'Stat error'}
+    - {symerror: 0.051081, label: 'Sys error'}
+  - value: 1.04052
+    errors:
+    - {symerror: 0.0175879, label: 'Stat error'}
+    - {symerror: 0.052026, label: 'Sys error'}
+  - value: 0.993558
+    errors:
+    - {symerror: 0.0163567, label: 'Stat error'}
+    - {symerror: 0.0496779, label: 'Sys error'}
+  - value: 0.999795
+    errors:
+    - {symerror: 0.0166752, label: 'Stat error'}
+    - {symerror: 0.04998975, label: 'Sys error'}
+  - value: 0.998336
+    errors:
+    - {symerror: 0.0167047, label: 'Stat error'}
+    - {symerror: 0.0499168, label: 'Sys error'}
+  - value: 1.0151
+    errors:
+    - {symerror: 0.0166542, label: 'Stat error'}
+    - {symerror: 0.050755, label: 'Sys error'}
+  - value: 1.01312
+    errors:
+    - {symerror: 0.0163831, label: 'Stat error'}
+    - {symerror: 0.050656, label: 'Sys error'}
+  - value: 0.997878
+    errors:
+    - {symerror: 0.0161138, label: 'Stat error'}
+    - {symerror: 0.0498939, label: 'Sys error'}
+  - value: 1.01162
+    errors:
+    - {symerror: 0.0162943, label: 'Stat error'}
+    - {symerror: 0.050581, label: 'Sys error'}
+  - value: 1.02703
+    errors:
+    - {symerror: 0.0163822, label: 'Stat error'}
+    - {symerror: 0.0513515, label: 'Sys error'}
+  - value: 1.00144
+    errors:
+    - {symerror: 0.0158948, label: 'Stat error'}
+    - {symerror: 0.050072, label: 'Sys error'}
+  - value: 0.997837
+    errors:
+    - {symerror: 0.0159105, label: 'Stat error'}
+    - {symerror: 0.04989185, label: 'Sys error'}
+  - value: 0.992581
+    errors:
+    - {symerror: 0.0157156, label: 'Stat error'}
+    - {symerror: 0.04962905, label: 'Sys error'}
+  - value: 0.997556
+    errors:
+    - {symerror: 0.0156575, label: 'Stat error'}
+    - {symerror: 0.0498778, label: 'Sys error'}
+  - value: 0.996646
+    errors:
+    - {symerror: 0.0156166, label: 'Stat error'}
+    - {symerror: 0.0498323, label: 'Sys error'}
+  - value: 0.980159
+    errors:
+    - {symerror: 0.01104, label: 'Stat error'}
+    - {symerror: 0.04900795, label: 'Sys error'}
+  - value: 0.993039
+    errors:
+    - {symerror: 0.0111785, label: 'Stat error'}
+    - {symerror: 0.04965195, label: 'Sys error'}
+  - value: 1.00436
+    errors:
+    - {symerror: 0.0115856, label: 'Stat error'}
+    - {symerror: 0.050218, label: 'Sys error'}
+  - value: 0.981382
+    errors:
+    - {symerror: 0.0120537, label: 'Stat error'}
+    - {symerror: 0.0490691, label: 'Sys error'}
+  - value: 0.996589
+    errors:
+    - {symerror: 0.0134353, label: 'Stat error'}
+    - {symerror: 0.04982945, label: 'Sys error'}
+  - value: 0.980379
+    errors:
+    - {symerror: 0.0103408, label: 'Stat error'}
+    - {symerror: 0.04901895, label: 'Sys error'}
+  - value: 1.01264
+    errors:
+    - {symerror: 0.0156283, label: 'Stat error'}
+    - {symerror: 0.050632, label: 'Sys error'}
+  - value: 1.05311
+    errors:
+    - {symerror: 0.025687, label: 'Stat error'}
+    - {symerror: 0.0526555, label: 'Sys error'}
+  - value: 0.896884
+    errors:
+    - {symerror: 0.0341139, label: 'Stat error'}
+    - {symerror: 0.0448442, label: 'Sys error'}
+  - value: 0.932289
+    errors:
+    - {symerror: 0.101047, label: 'Stat error'}
+    - {symerror: 0.04661445, label: 'Sys error'}
+  - value: 0.646106
+    errors:
+    - {symerror: 0.113276, label: 'Stat error'}
+    - {symerror: 0.0323053, label: 'Sys error'}
+- header: {name: 'Ratio of Yields'}
+  qualifiers:
+  - {name: '$p_T$', value: 'Au+Au $\pi^-/\pi^+$ $10-20\%$ centrality'}
+  values:
+  - value: 1.01946
+    errors:
+    - {symerror: 0.0180129, label: 'Stat error'}
+    - {symerror: 0.050973, label: 'Sys error'}
+  - value: 1.03702
+    errors:
+    - {symerror: 0.0175724, label: 'Stat error'}
+    - {symerror: 0.051851, label: 'Sys error'}
+  - value: 0.993322
+    errors:
+    - {symerror: 0.0164044, label: 'Stat error'}
+    - {symerror: 0.0496661, label: 'Sys error'}
+  - value: 0.993937
+    errors:
+    - {symerror: 0.016644, label: 'Stat error'}
+    - {symerror: 0.04969685, label: 'Sys error'}
+  - value: 1.00482
+    errors:
+    - {symerror: 0.0168843, label: 'Stat error'}
+    - {symerror: 0.050241, label: 'Sys error'}
+  - value: 1.01771
+    errors:
+    - {symerror: 0.0167052, label: 'Stat error'}
+    - {symerror: 0.0508855, label: 'Sys error'}
+  - value: 1.01454
+    errors:
+    - {symerror: 0.0164117, label: 'Stat error'}
+    - {symerror: 0.050727, label: 'Sys error'}
+  - value: 0.999068
+    errors:
+    - {symerror: 0.0161375, label: 'Stat error'}
+    - {symerror: 0.0499534, label: 'Sys error'}
+  - value: 1.0136
+    errors:
+    - {symerror: 0.016334, label: 'Stat error'}
+    - {symerror: 0.05068, label: 'Sys error'}
+  - value: 1.02674
+    errors:
+    - {symerror: 0.0163857, label: 'Stat error'}
+    - {symerror: 0.051337, label: 'Sys error'}
+  - value: 1.00398
+    errors:
+    - {symerror: 0.0159439, label: 'Stat error'}
+    - {symerror: 0.050199, label: 'Sys error'}
+  - value: 0.998367
+    errors:
+    - {symerror: 0.0159308, label: 'Stat error'}
+    - {symerror: 0.04991835, label: 'Sys error'}
+  - value: 0.994588
+    errors:
+    - {symerror: 0.0157583, label: 'Stat error'}
+    - {symerror: 0.0497294, label: 'Sys error'}
+  - value: 0.997308
+    errors:
+    - {symerror: 0.0156721, label: 'Stat error'}
+    - {symerror: 0.0498654, label: 'Sys error'}
+  - value: 0.999711
+    errors:
+    - {symerror: 0.0156839, label: 'Stat error'}
+    - {symerror: 0.04998555, label: 'Sys error'}
+  - value: 0.97919
+    errors:
+    - {symerror: 0.0110362, label: 'Stat error'}
+    - {symerror: 0.0489595, label: 'Sys error'}
+  - value: 0.991494
+    errors:
+    - {symerror: 0.0111728, label: 'Stat error'}
+    - {symerror: 0.0495747, label: 'Sys error'}
+  - value: 1.00494
+    errors:
+    - {symerror: 0.0116217, label: 'Stat error'}
+    - {symerror: 0.050247, label: 'Sys error'}
+  - value: 0.987626
+    errors:
+    - {symerror: 0.0121736, label: 'Stat error'}
+    - {symerror: 0.0493813, label: 'Sys error'}
+  - value: 0.987704
+    errors:
+    - {symerror: 0.0133865, label: 'Stat error'}
+    - {symerror: 0.0493852, label: 'Sys error'}
+  - value: 0.988172
+    errors:
+    - {symerror: 0.0104973, label: 'Stat error'}
+    - {symerror: 0.0494086, label: 'Sys error'}
+  - value: 1.01587
+    errors:
+    - {symerror: 0.015912, label: 'Stat error'}
+    - {symerror: 0.0507935, label: 'Sys error'}
+  - value: 1.03502
+    errors:
+    - {symerror: 0.025629, label: 'Stat error'}
+    - {symerror: 0.051751, label: 'Sys error'}
+  - value: 0.97398
+    errors:
+    - {symerror: 0.0383509, label: 'Stat error'}
+    - {symerror: 0.048699, label: 'Sys error'}
+  - value: 1.15229
+    errors:
+    - {symerror: 0.129773, label: 'Stat error'}
+    - {symerror: 0.0576145, label: 'Sys error'}
+  - value: 0.822251
+    errors:
+    - {symerror: 0.145667, label: 'Stat error'}
+    - {symerror: 0.04111255, label: 'Sys error'}
+- header: {name: 'Ratio of Yields'}
+  qualifiers:
+  - {name: '$p_T$', value: 'Au+Au $\pi^-/\pi^+$ $20-40\%$ centrality'}
+  values:
+  - value: 1.02387
+    errors:
+    - {symerror: 0.0131173, label: 'Stat error'}
+    - {symerror: 0.0511935, label: 'Sys error'}
+  - value: 1.03758
+    errors:
+    - {symerror: 0.012759, label: 'Stat error'}
+    - {symerror: 0.051879, label: 'Sys error'}
+  - value: 0.992884
+    errors:
+    - {symerror: 0.0119312, label: 'Stat error'}
+    - {symerror: 0.0496442, label: 'Sys error'}
+  - value: 1.00387
+    errors:
+    - {symerror: 0.0122502, label: 'Stat error'}
+    - {symerror: 0.0501935, label: 'Sys error'}
+  - value: 1.00626
+    errors:
+    - {symerror: 0.0123556, label: 'Stat error'}
+    - {symerror: 0.050313, label: 'Sys error'}
+  - value: 1.01826
+    errors:
+    - {symerror: 0.0120897, label: 'Stat error'}
+    - {symerror: 0.050913, label: 'Sys error'}
+  - value: 1.01495
+    errors:
+    - {symerror: 0.0118772, label: 'Stat error'}
+    - {symerror: 0.0507475, label: 'Sys error'}
+  - value: 0.999625
+    errors:
+    - {symerror: 0.0116816, label: 'Stat error'}
+    - {symerror: 0.04998125, label: 'Sys error'}
+  - value: 1.01437
+    errors:
+    - {symerror: 0.011827, label: 'Stat error'}
+    - {symerror: 0.0507185, label: 'Sys error'}
+  - value: 1.02767
+    errors:
+    - {symerror: 0.0118662, label: 'Stat error'}
+    - {symerror: 0.0513835, label: 'Sys error'}
+  - value: 1.0027
+    errors:
+    - {symerror: 0.011523, label: 'Stat error'}
+    - {symerror: 0.050135, label: 'Sys error'}
+  - value: 0.997787
+    errors:
+    - {symerror: 0.0115194, label: 'Stat error'}
+    - {symerror: 0.04988935, label: 'Sys error'}
+  - value: 0.995178
+    errors:
+    - {symerror: 0.0114122, label: 'Stat error'}
+    - {symerror: 0.0497589, label: 'Sys error'}
+  - value: 0.997831
+    errors:
+    - {symerror: 0.011354, label: 'Stat error'}
+    - {symerror: 0.04989155, label: 'Sys error'}
+  - value: 1.00133
+    errors:
+    - {symerror: 0.0113803, label: 'Stat error'}
+    - {symerror: 0.0500665, label: 'Sys error'}
+  - value: 0.980597
+    errors:
+    - {symerror: 0.00800497, label: 'Stat error'}
+    - {symerror: 0.04902985, label: 'Sys error'}
+  - value: 0.994639
+    errors:
+    - {symerror: 0.00813187, label: 'Stat error'}
+    - {symerror: 0.04973195, label: 'Sys error'}
+  - value: 1.00602
+    errors:
+    - {symerror: 0.00846417, label: 'Stat error'}
+    - {symerror: 0.050301, label: 'Sys error'}
+  - value: 0.992642
+    errors:
+    - {symerror: 0.00893678, label: 'Stat error'}
+    - {symerror: 0.0496321, label: 'Sys error'}
+  - value: 0.990781
+    errors:
+    - {symerror: 0.00986432, label: 'Stat error'}
+    - {symerror: 0.04953905, label: 'Sys error'}
+  - value: 0.989307
+    errors:
+    - {symerror: 0.00781844, label: 'Stat error'}
+    - {symerror: 0.04946535, label: 'Sys error'}
+  - value: 1.02651
+    errors:
+    - {symerror: 0.0122986, label: 'Stat error'}
+    - {symerror: 0.0513255, label: 'Sys error'}
+  - value: 1.03354
+    errors:
+    - {symerror: 0.0202051, label: 'Stat error'}
+    - {symerror: 0.051677, label: 'Sys error'}
+  - value: 0.911449
+    errors:
+    - {symerror: 0.0284888, label: 'Stat error'}
+    - {symerror: 0.04557245, label: 'Sys error'}
+  - value: 0.888953
+    errors:
+    - {symerror: 0.079454, label: 'Stat error'}
+    - {symerror: 0.04444765, label: 'Sys error'}
+  - value: 0.868802
+    errors:
+    - {symerror: 0.130075, label: 'Stat error'}
+    - {symerror: 0.0434401, label: 'Sys error'}
+- header: {name: 'Ratio of Yields'}
+  qualifiers:
+  - {name: '$p_T$', value: 'Au+Au $\pi^-/\pi^+$ $40-60\%$ centrality'}
+  values:
+  - value: 1.02384
+    errors:
+    - {symerror: 0.0134777, label: 'Stat error'}
+    - {symerror: 0.051192, label: 'Sys error'}
+  - value: 1.03607
+    errors:
+    - {symerror: 0.0131604, label: 'Stat error'}
+    - {symerror: 0.0518035, label: 'Sys error'}
+  - value: 0.994754
+    errors:
+    - {symerror: 0.0124276, label: 'Stat error'}
+    - {symerror: 0.0497377, label: 'Sys error'}
+  - value: 0.998438
+    errors:
+    - {symerror: 0.0127567, label: 'Stat error'}
+    - {symerror: 0.0499219, label: 'Sys error'}
+  - value: 1.00466
+    errors:
+    - {symerror: 0.0130598, label: 'Stat error'}
+    - {symerror: 0.050233, label: 'Sys error'}
+  - value: 1.02003
+    errors:
+    - {symerror: 0.0123402, label: 'Stat error'}
+    - {symerror: 0.0510015, label: 'Sys error'}
+  - value: 1.01546
+    errors:
+    - {symerror: 0.0121134, label: 'Stat error'}
+    - {symerror: 0.050773, label: 'Sys error'}
+  - value: 0.99943
+    errors:
+    - {symerror: 0.0119152, label: 'Stat error'}
+    - {symerror: 0.0499715, label: 'Sys error'}
+  - value: 1.01534
+    errors:
+    - {symerror: 0.0120887, label: 'Stat error'}
+    - {symerror: 0.050767, label: 'Sys error'}
+  - value: 1.03006
+    errors:
+    - {symerror: 0.0121558, label: 'Stat error'}
+    - {symerror: 0.051503, label: 'Sys error'}
+  - value: 1.00401
+    errors:
+    - {symerror: 0.0118037, label: 'Stat error'}
+    - {symerror: 0.0502005, label: 'Sys error'}
+  - value: 1.00149
+    errors:
+    - {symerror: 0.0118481, label: 'Stat error'}
+    - {symerror: 0.0500745, label: 'Sys error'}
+  - value: 0.995522
+    errors:
+    - {symerror: 0.0117232, label: 'Stat error'}
+    - {symerror: 0.0497761, label: 'Sys error'}
+  - value: 0.999039
+    errors:
+    - {symerror: 0.0116982, label: 'Stat error'}
+    - {symerror: 0.04995195, label: 'Sys error'}
+  - value: 0.999371
+    errors:
+    - {symerror: 0.0117139, label: 'Stat error'}
+    - {symerror: 0.04996855, label: 'Sys error'}
+  - value: 0.981878
+    errors:
+    - {symerror: 0.00829653, label: 'Stat error'}
+    - {symerror: 0.0490939, label: 'Sys error'}
+  - value: 0.992086
+    errors:
+    - {symerror: 0.00847426, label: 'Stat error'}
+    - {symerror: 0.0496043, label: 'Sys error'}
+  - value: 1.00535
+    errors:
+    - {symerror: 0.00895729, label: 'Stat error'}
+    - {symerror: 0.0502675, label: 'Sys error'}
+  - value: 0.995957
+    errors:
+    - {symerror: 0.00966284, label: 'Stat error'}
+    - {symerror: 0.04979785, label: 'Sys error'}
+  - value: 0.994168
+    errors:
+    - {symerror: 0.0108958, label: 'Stat error'}
+    - {symerror: 0.0497084, label: 'Sys error'}
+  - value: 0.988795
+    errors:
+    - {symerror: 0.00893631, label: 'Stat error'}
+    - {symerror: 0.04943975, label: 'Sys error'}
+  - value: 1.0264
+    errors:
+    - {symerror: 0.0151731, label: 'Stat error'}
+    - {symerror: 0.05132, label: 'Sys error'}
+  - value: 1.03281
+    errors:
+    - {symerror: 0.0262671, label: 'Stat error'}
+    - {symerror: 0.0516405, label: 'Sys error'}
+  - value: 0.992252
+    errors:
+    - {symerror: 0.0413529, label: 'Stat error'}
+    - {symerror: 0.0496126, label: 'Sys error'}
+  - value: 0.831996
+    errors:
+    - {symerror: 0.0988582, label: 'Stat error'}
+    - {symerror: 0.0415998, label: 'Sys error'}
+  - value: 1.14101
+    errors:
+    - {symerror: 0.24079, label: 'Stat error'}
+    - {symerror: 0.0570505, label: 'Sys error'}
+- header: {name: 'Ratio of Yields'}
+  qualifiers:
+  - {name: '$p_T$', value: 'Au+Au $\pi^-/\pi^+$ $60-92\%$ centrality'}
+  values:
+  - value: 1.01898
+    errors:
+    - {symerror: 0.0131876, label: 'Stat error'}
+    - {symerror: 0.050949, label: 'Sys error'}
+  - value: 1.04065
+    errors:
+    - {symerror: 0.0132425, label: 'Stat error'}
+    - {symerror: 0.0520325, label: 'Sys error'}
+  - value: 0.990423
+    errors:
+    - {symerror: 0.0127626, label: 'Stat error'}
+    - {symerror: 0.04952115, label: 'Sys error'}
+  - value: 1.00987
+    errors:
+    - {symerror: 0.0137125, label: 'Stat error'}
+    - {symerror: 0.0504935, label: 'Sys error'}
+  - value: 1.01065
+    errors:
+    - {symerror: 0.0144473, label: 'Stat error'}
+    - {symerror: 0.0505325, label: 'Sys error'}
+  - value: 1.02133
+    errors:
+    - {symerror: 0.0117587, label: 'Stat error'}
+    - {symerror: 0.0510665, label: 'Sys error'}
+  - value: 1.01952
+    errors:
+    - {symerror: 0.0116135, label: 'Stat error'}
+    - {symerror: 0.050976, label: 'Sys error'}
+  - value: 1.0033
+    errors:
+    - {symerror: 0.0114638, label: 'Stat error'}
+    - {symerror: 0.050165, label: 'Sys error'}
+  - value: 1.0198
+    errors:
+    - {symerror: 0.0116668, label: 'Stat error'}
+    - {symerror: 0.05099, label: 'Sys error'}
+  - value: 1.03282
+    errors:
+    - {symerror: 0.0117631, label: 'Stat error'}
+    - {symerror: 0.051641, label: 'Sys error'}
+  - value: 1.00333
+    errors:
+    - {symerror: 0.0114541, label: 'Stat error'}
+    - {symerror: 0.0501665, label: 'Sys error'}
+  - value: 1.00287
+    errors:
+    - {symerror: 0.0115773, label: 'Stat error'}
+    - {symerror: 0.0501435, label: 'Sys error'}
+  - value: 1.00017
+    errors:
+    - {symerror: 0.0115989, label: 'Stat error'}
+    - {symerror: 0.0500085, label: 'Sys error'}
+  - value: 1.00348
+    errors:
+    - {symerror: 0.0116819, label: 'Stat error'}
+    - {symerror: 0.050174, label: 'Sys error'}
+  - value: 1.00393
+    errors:
+    - {symerror: 0.0118128, label: 'Stat error'}
+    - {symerror: 0.0501965, label: 'Sys error'}
+  - value: 0.984965
+    errors:
+    - {symerror: 0.00851204, label: 'Stat error'}
+    - {symerror: 0.04924825, label: 'Sys error'}
+  - value: 0.999479
+    errors:
+    - {symerror: 0.00905517, label: 'Stat error'}
+    - {symerror: 0.04997395, label: 'Sys error'}
+  - value: 1.00408
+    errors:
+    - {symerror: 0.00996251, label: 'Stat error'}
+    - {symerror: 0.050204, label: 'Sys error'}
+  - value: 0.991383
+    errors:
+    - {symerror: 0.0113058, label: 'Stat error'}
+    - {symerror: 0.04956915, label: 'Sys error'}
+  - value: 1.00032
+    errors:
+    - {symerror: 0.0136465, label: 'Stat error'}
+    - {symerror: 0.050016, label: 'Sys error'}
+  - value: 1.00262
+    errors:
+    - {symerror: 0.0121776, label: 'Stat error'}
+    - {symerror: 0.050131, label: 'Sys error'}
+  - value: 1.02896
+    errors:
+    - {symerror: 0.0225543, label: 'Stat error'}
+    - {symerror: 0.051448, label: 'Sys error'}
+  - value: 1.05745
+    errors:
+    - {symerror: 0.04033, label: 'Stat error'}
+    - {symerror: 0.0528725, label: 'Sys error'}
+  - value: 0.902991
+    errors:
+    - {symerror: 0.059021, label: 'Stat error'}
+    - {symerror: 0.04514955, label: 'Sys error'}
+  - value: 0.956245
+    errors:
+    - {symerror: 0.178239, label: 'Stat error'}
+    - {symerror: 0.04781225, label: 'Sys error'}
+  - value: 1.24567
+    errors:
+    - {symerror: 0.36479, label: 'Stat error'}
+    - {symerror: 0.0622835, label: 'Sys error'}

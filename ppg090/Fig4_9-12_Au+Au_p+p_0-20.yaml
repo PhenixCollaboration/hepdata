@@ -1,0 +1,39 @@
+independent_variables:
+- header: {name: '$p^{h}_{T} \, \textrm{[GEV/c]}$'}
+  values:
+  - {low: 1, high: 2}
+  - {low: 2, high: 3}
+  - {low: 3, high: 5}
+dependent_variables:
+- header: {name: '$dN/p^{h}_{T} \, \textrm{[GEV/c]}^{-1}$'}
+  qualifiers:
+  - {name: '$p^{h}_{T} \, \textrm{[GEV/c]}$', value: '$\textrm{p+p Head Region Yields:} \, 9 \, < \, p^{\gamma}_{T} \, < 12 \, \textrm{GEV/c}$'}
+  values:
+  - value: 2.59e-01
+    errors:
+    - {symerror: 2.99e-02, label: 'Stat'}
+    - {asymerror: {plus: +2.49e-02, minus: -2.52e-02}, label: 'Sys'}
+  - value: 7.01e-02
+    errors:
+    - {symerror: 1.73e-02, label: 'Stat'}
+    - {asymerror: {plus: +9.86e-03, minus: -1.02e-02}, label: 'Sys'}
+  - value: 1.94e-02
+    errors:
+    - {symerror: 7.21e-03, label: 'Stat'}
+    - {asymerror: {plus: +3.67e-03, minus: -3.86e-03}, label: 'Sys'}
+- header: {name: '$dN/p^{h}_{T} \, \textrm{[GEV/c]}^{-1}$'}
+  qualifiers:
+  - {name: '$p^{h}_{T} \, \textrm{[GEV/c]}$', value: '$\textrm{Au+Au, Centrality 0-20%, Head Region Yields:} \, 9 \, < \, p^{\gamma}_{T} \, < 12 \, \textrm{GEV/c}$'}
+  values:
+  - value: 1.28e-01
+    errors:
+    - {symerror: 1.34e-01, label: 'Stat'}
+    - {asymerror: {plus: +6.87e-02, minus: -6.85e-02}, label: 'Sys'}
+  - value: 3.94e-02
+    errors:
+    - {symerror: 3.81e-02, label: 'Stat'}
+    - {asymerror: {plus: +1.12e-02, minus: -1.02e-02}, label: 'Sys'}
+  - value: -2.16e-03
+    errors:
+    - {symerror: 6.29e-03, label: 'Stat'}
+    - {asymerror: {plus: +1.86e-03, minus: -1.47e-03}, label: 'Sys'}

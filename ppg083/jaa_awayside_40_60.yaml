@@ -1,0 +1,156 @@
+independent_variables:
+- header: {name: '$p_T$'}
+  values:
+  - {low: 0.315, high: 0.915}
+  - {low: 0.915, high: 1.415}
+  - {low: 1.415, high: 1.915}
+  - {low: 1.915, high: 2.415}
+  - {low: 2.415, high: 3.055}
+  - {low: 3.055, high: 4.095}
+  - {low: 4.095, high: 5.465}
+  - {low: 5.465, high: 6.435}
+dependent_variables:
+- header: {name: 'jaa'}
+  qualifiers:
+  - {name: '$p_T$', value: '2.0<p_{T}^{A}<3.0'}
+  values:
+  - value: 1.4100
+    errors:
+    - {symerror: 0.0157, label: 'staterr'}
+    - {symerror: 0.3450, label: 'syserr'}
+  - value: 1.4600
+    errors:
+    - {symerror: 0.0208, label: 'staterr'}
+    - {symerror: 0.3580, label: 'syserr'}
+  - value: 1.4100
+    errors:
+    - {symerror: 0.0276, label: 'staterr'}
+    - {symerror: 0.2835, label: 'syserr'}
+  - value: 1.2000
+    errors:
+    - {symerror: 0.0309, label: 'staterr'}
+    - {symerror: 0.1785, label: 'syserr'}
+  - value: 0.9460
+    errors:
+    - {symerror: 0.0383, label: 'staterr'}
+    - {symerror: 0.1610, label: 'syserr'}
+  - value: 0.7220
+    errors:
+    - {symerror: 0.0342, label: 'staterr'}
+    - {symerror: 0.0996, label: 'syserr'}
+  - value: 0.6000
+    errors:
+    - {symerror: 0.0483, label: 'staterr'}
+    - {symerror: 0.0895, label: 'syserr'}
+  - value: 0.5110
+    errors:
+    - {symerror: 0.0612, label: 'staterr'}
+    - {symerror: 0.1035, label: 'syserr'}
+- header: {name: 'jaa'}
+  qualifiers:
+  - {name: '$p_T$', value: '3.0<p_{T}^{A}<4.0'}
+  values:
+  - value: 1.3600
+    errors:
+    - {symerror: 0.0301, label: 'staterr'}
+    - {symerror: 0.2165, label: 'syserr'}
+  - value: 1.1500
+    errors:
+    - {symerror: 0.0326, label: 'staterr'}
+    - {symerror: 0.1665, label: 'syserr'}
+  - value: 1.0100
+    errors:
+    - {symerror: 0.0429, label: 'staterr'}
+    - {symerror: 0.1660, label: 'syserr'}
+  - value: 0.6260
+    errors:
+    - {symerror: 0.0385, label: 'staterr'}
+    - {symerror: 0.1028, label: 'syserr'}
+  - value: 0.6670
+    errors:
+    - {symerror: 0.0496, label: 'staterr'}
+    - {symerror: 0.1050, label: 'syserr'}
+  - value: 0.4820
+    errors:
+    - {symerror: 0.0358, label: 'staterr'}
+    - {symerror: 0.0653, label: 'syserr'}
+  - value: 0.3360
+    errors:
+    - {symerror: 0.0478, label: 'staterr'}
+    - {symerror: 0.0744, label: 'syserr'}
+  - value: 0.3670
+    errors:
+    - {symerror: 0.0597, label: 'staterr'}
+    - {symerror: 0.0885, label: 'syserr'}
+- header: {name: 'jaa'}
+  qualifiers:
+  - {name: '$p_T$', value: '4.0<p_{T}^{A}<5.0'}
+  values:
+  - value: 1.0300
+    errors:
+    - {symerror: 0.0457, label: 'staterr'}
+    - {symerror: 0.1870, label: 'syserr'}
+  - value: 1.0500
+    errors:
+    - {symerror: 0.0575, label: 'staterr'}
+    - {symerror: 0.1430, label: 'syserr'}
+  - value: 0.7690
+    errors:
+    - {symerror: 0.0560, label: 'staterr'}
+    - {symerror: 0.1055, label: 'syserr'}
+  - value: 0.5330
+    errors:
+    - {symerror: 0.0519, label: 'staterr'}
+    - {symerror: 0.0923, label: 'syserr'}
+  - value: 0.6210
+    errors:
+    - {symerror: 0.0696, label: 'staterr'}
+    - {symerror: 0.1065, label: 'syserr'}
+  - value: 0.2640
+    errors:
+    - {symerror: 0.0470, label: 'staterr'}
+    - {symerror: 0.0783, label: 'syserr'}
+  - value: 0.3510
+    errors:
+    - {symerror: 0.0582, label: 'staterr'}
+    - {symerror: 0.0775, label: 'syserr'}
+  - value: 0.4400
+    errors:
+    - {symerror: 0.0855, label: 'staterr'}
+    - {symerror: 0.0720, label: 'syserr'}
+- header: {name: 'jaa'}
+  qualifiers:
+  - {name: '$p_T$', value: '5.0<p_{T}^{A}<10.0'}
+  values:
+  - value: 0.7880
+    errors:
+    - {symerror: 0.0637, label: 'staterr'}
+    - {symerror: 0.1270, label: 'syserr'}
+  - value: 0.7480
+    errors:
+    - {symerror: 0.0689, label: 'staterr'}
+    - {symerror: 0.2870, label: 'syserr'}
+  - value: 0.4220
+    errors:
+    - {symerror: 0.0695, label: 'staterr'}
+    - {symerror: 0.1320, label: 'syserr'}
+  - value: 0.5730
+    errors:
+    - {symerror: 0.0692, label: 'staterr'}
+    - {symerror: 0.1160, label: 'syserr'}
+  - value: 0.2210
+    errors:
+    - {symerror: 0.0611, label: 'staterr'}
+    - {symerror: 0.1060, label: 'syserr'}
+  - value: 0.3760
+    errors:
+    - {symerror: 0.0534, label: 'staterr'}
+    - {symerror: 0.0801, label: 'syserr'}
+  - value: 0.3560
+    errors:
+    - {symerror: 0.0558, label: 'staterr'}
+    - {symerror: 0.0696, label: 'syserr'}
+  - value: 0.3230
+    errors:
+    - {symerror: 0.0690, label: 'staterr'}
+    - {symerror: 0.0469, label: 'syserr'}

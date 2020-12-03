@@ -1,0 +1,58 @@
+independent_variables:
+- header: {name: '$p_T$'}
+  values:
+  - {low: 0.4, high: 0.6}
+  - {low: 0.6, high: 0.8}
+  - {low: 0.9, high: 1.0}
+  - {low: 1.0, high: 1.2}
+  - {low: 1.2, high: 1.4}
+  - {low: 1.4, high: 1.6}
+  - {low: 1.6, high: 1.8}
+  - {low: 1.8, high: 2.0}
+  - {low: 2.0, high: 2.5}
+  - {low: 2.5, high: 3.0}
+dependent_variables:
+- header: {name: '$v_2$ 0-5%'}
+  qualifiers:
+  - {name: '$p_T$', value: '$d+Au$'}
+  values:
+  - value: 0.0473
+    errors:
+    - {symerror: 0.0003, label: 'stat'}
+    - {asymerror: {plus: +0.0019, minus: -0.0030}, label: 'sys'}
+  - value: 0.0670
+    errors:
+    - {symerror: 0.0003, label: 'stat'}
+    - {asymerror: {plus: +0.0024, minus: -0.0043}, label: 'sys'}
+  - value: 0.0840
+    errors:
+    - {symerror: 0.0004, label: 'stat'}
+    - {asymerror: {plus: +0.0029, minus: -0.0057}, label: 'sys'}
+  - value: 0.0989
+    errors:
+    - {symerror: 0.0005, label: 'stat'}
+    - {asymerror: {plus: +0.0033, minus: -0.0072}, label: 'sys'}
+  - value: 0.1128
+    errors:
+    - {symerror: 0.0007, label: 'stat'}
+    - {asymerror: {plus: +0.0036, minus: -0.0089}, label: 'sys'}
+  - value: 0.1238
+    errors:
+    - {symerror: 0.0009, label: 'stat'}
+    - {asymerror: {plus: +0.0038, minus: -0.011}, label: 'sys'}
+  - value: 0.1315
+    errors:
+    - {symerror: 0.0011, label: 'stat'}
+    - {asymerror: {plus: +0.0041, minus: -0.012}, label: 'sys'}
+  - value: 0.1403
+    errors:
+    - {symerror: 0.0014, label: 'stat'}
+    - {asymerror: {plus: +0.0043, minus: -0.014}, label: 'sys'}
+  - value: 0.1491
+    errors:
+    - {symerror: 0.0012, label: 'stat'}
+    - {asymerror: {plus: +0.0045, minus: -0.017}, label: 'sys'}
+  - value: 0.1547
+    errors:
+    - {symerror: 0.0021, label: 'stat'}
+    - {asymerror: {plus: +0.0047, minus: -0.021}, label: 'sys'}

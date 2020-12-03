@@ -1,0 +1,122 @@
+independent_variables:
+- header: {name: '$x_E$'}
+  values:
+  - {low: 0.15, high: 0.20}
+  - {low: 0.20, high: 0.25}
+  - {low: 0.25, high: 0.30}
+  - {low: 0.30, high: 0.35}
+  - {low: 0.35, high: 0.40}
+  - {low: 0.40, high: 0.50}
+  - {low: 0.50, high: 0.60}
+  - {low: 0.60, high: 0.70}
+  - {low: 0.70, high: 0.85}
+  - {low: 0.85, high: 1.10}
+dependent_variables:
+- header: {name: '$dN/x_E$'}
+  qualifiers:
+  - {name: '$x_E$', value: '$\pi_0 \, - \, \textrm{Hadron} \, 7 \, < \, p_T, \, trigger \, < \, 9 \, \textrm{GeV}/c$'}
+  values:
+  - value: 2.27672
+    errors:
+    - {symerror: 0.0430144, label: 'stat'}
+    - {symerror: 0, label: 'syserrlo'}
+    - {symerror: 0, label: 'syserrhi'}
+  - value: 1.28545
+    errors:
+    - {symerror: 0.0311632, label: 'stat'}
+    - {symerror: 0, label: 'syserrlo'}
+    - {symerror: 0, label: 'syserrhi'}
+  - value: 0.81406
+    errors:
+    - {symerror: 0.0242409, label: 'stat'}
+    - {symerror: 0, label: 'syserrlo'}
+    - {symerror: 0, label: 'syserrhi'}
+  - value: 0.567279
+    errors:
+    - {symerror: 0.019955, label: 'stat'}
+    - {symerror: 0, label: 'syserrlo'}
+    - {symerror: 0, label: 'syserrhi'}
+  - value: 0.378969
+    errors:
+    - {symerror: 0.0162135, label: 'stat'}
+    - {symerror: 0, label: 'syserrlo'}
+    - {symerror: 0, label: 'syserrhi'}
+  - value: 0.251145
+    errors:
+    - {symerror: 0.00926303, label: 'stat'}
+    - {symerror: 0, label: 'syserrlo'}
+    - {symerror: 0, label: 'syserrhi'}
+  - value: 0.143086
+    errors:
+    - {symerror: 0.00691375, label: 'stat'}
+    - {symerror: 0, label: 'syserrlo'}
+    - {symerror: 0, label: 'syserrhi'}
+  - value: 0.0836868
+    errors:
+    - {symerror: 0.00526716, label: 'stat'}
+    - {symerror: 0, label: 'syserrlo'}
+    - {symerror: 0, label: 'syserrhi'}
+  - value: 0.041373
+    errors:
+    - {symerror: 0.00258503, label: 'stat'}
+    - {symerror: 0, label: 'syserrlo'}
+    - {symerror: 0, label: 'syserrhi'}
+  - value: 0.022317
+    errors:
+    - {symerror: 0.00189344, label: 'stat'}
+    - {symerror: 0, label: 'syserrlo'}
+    - {symerror: 0, label: 'syserrhi'}
+- header: {name: '$dN/x_E$'}
+  qualifiers:
+  - {name: '$x_E$', value: '$\textrm{Isolated Direct Photon} \, - \, \textrm{Hadron} \, 7 \, < \, p_T, \,trigger \, < \, 9 \, \textrm{GeV}/c$'}
+  values:
+  - value: 1.89028
+    errors:
+    - {symerror: 0.167616, label: 'stat'}
+    - {symerror: 0, label: 'syserrlo'}
+    - {symerror: 0, label: 'syserrhi'}
+  - value: 0.951962
+    errors:
+    - {symerror: 0.117612, label: 'stat'}
+    - {symerror: 0.0465235, label: 'syserrlo'}
+    - {symerror: 0.0471806, label: 'syserrhi'}
+  - value: 0.589434
+    errors:
+    - {symerror: 0.089307, label: 'stat'}
+    - {symerror: 0.0284811, label: 'syserrlo'}
+    - {symerror: 0.0288337, label: 'syserrhi'}
+  - value: 0.36111
+    errors:
+    - {symerror: 0.071845, label: 'stat'}
+    - {symerror: 0.0203091, label: 'syserrlo'}
+    - {symerror: 0.0205313, label: 'syserrhi'}
+  - value: 0.189893
+    errors:
+    - {symerror: 0.0564827, label: 'stat'}
+    - {symerror: 0.0148351, label: 'syserrlo'}
+    - {symerror: 0.0149796, label: 'syserrhi'}
+  - value: 0.111375
+    errors:
+    - {symerror: 0.0304156, label: 'stat'}
+    - {symerror: 0.00912803, label: 'syserrlo'}
+    - {symerror: 0.00943386, label: 'syserrhi'}
+  - value: 0.0767346
+    errors:
+    - {symerror: 0.0222848, label: 'stat'}
+    - {symerror: 0.00431268, label: 'syserrlo'}
+    - {symerror: 0.00443098, label: 'syserrhi'}
+  - value: 0.035451
+    errors:
+    - {symerror: 0.0157245, label: 'stat'}
+    - {symerror: 0.00247373, label: 'syserrlo'}
+    - {symerror: 0.00253033, label: 'syserrhi'}
+  - value: 0.00966321
+    errors:
+    - {symerror: 0.00681296, label: 'stat'}
+    - {symerror: 0.00130552, label: 'syserrlo'}
+    - {symerror: 0.00140139, label: 'syserrhi'}
+  - value: 0.00270023
+    errors:
+    - {symerror: 0.00428231, label: 'stat'}
+    - {symerror: 0.000640637, label: 'syserrlo'}
+    - {symerror: 0.000675793, label: 'syserrhi'}

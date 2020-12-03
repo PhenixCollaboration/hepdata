@@ -1,0 +1,26 @@
+independent_variables:
+- header: {name: '$p^{h}_{T} \, \textrm{[GEV/c]}$'}
+  values:
+  - {low: 0, high: 2}
+  - {low: 2, high: 3}
+  - {low: 3, high: 5}
+dependent_variables:
+- header: {name: '$I_{AA}$'}
+  qualifiers:
+  - {name: '$p^{h}_{T} \, \textrm{[GEV/c]}$', value: '$\textrm{Direct} \, \gamma - h^{T}: \, 12 \, < \, p^{\gamma}_{T} \, < 15 \, \textrm{GEV/c}$'}
+  values:
+  - value: 4.429
+    errors:
+    - {symerror: 2.838, label: 'stat'}
+    - {symerror: 2.919, label: 'syslo'}
+    - {symerror: 2.978, label: 'syshi'}
+  - value: -0.592
+    errors:
+    - {symerror: 0.675, label: 'stat'}
+    - {symerror: 0.192, label: 'syslo'}
+    - {symerror: 0.182, label: 'syshi'}
+  - value: 0.764
+    errors:
+    - {symerror: 0.475, label: 'stat'}
+    - {symerror: 0.203, label: 'syslo'}
+    - {symerror: 0.204, label: 'syshi'}

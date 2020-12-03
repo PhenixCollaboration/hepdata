@@ -1,0 +1,100 @@
+independent_variables:
+- header: {name: '$p_{out}$'}
+  values:
+  - {low: 0.0, high: 0.5}
+  - {low: 0.5, high: 1.0}
+  - {low: 1.0, high: 1.5}
+  - {low: 1.5, high: 2.0}
+  - {low: 2.0, high: 3.0}
+  - {low: 3.0, high: 5.0}
+  - {low: 5.0, high: 7.0}
+  - {low: 7.0, high: 9.0}
+dependent_variables:
+- header: {name: '$dN/p_{out}$'}
+  qualifiers:
+  - {name: '$p_{out}$', value: '$\pi_0 \, - \, \textrm{Hadron} \, 5 \, < \, p_T, \, t \, < \, 7$'}
+  values:
+  - value: 0.063805
+    errors:
+    - {symerror: 0.000790143, label: 'stat'}
+    - {symerror: 0, label: 'syserrlo'}
+    - {symerror: 0, label: 'syserrhi'}
+  - value: 0.048538
+    errors:
+    - {symerror: 0.000686886, label: 'stat'}
+    - {symerror: 0, label: 'syserrlo'}
+    - {symerror: 0, label: 'syserrhi'}
+  - value: 0.0327157
+    errors:
+    - {symerror: 0.000584401, label: 'stat'}
+    - {symerror: 0, label: 'syserrlo'}
+    - {symerror: 0, label: 'syserrhi'}
+  - value: 0.0239812
+    errors:
+    - {symerror: 0.000583564, label: 'stat'}
+    - {symerror: 0, label: 'syserrlo'}
+    - {symerror: 0, label: 'syserrhi'}
+  - value: 0.0104655
+    errors:
+    - {symerror: 0.000325509, label: 'stat'}
+    - {symerror: 0, label: 'syserrlo'}
+    - {symerror: 0, label: 'syserrhi'}
+  - value: 0.00128717
+    errors:
+    - {symerror: 7.92499e-05, label: 'stat'}
+    - {symerror: 0, label: 'syserrlo'}
+    - {symerror: 0, label: 'syserrhi'}
+  - value: 0.000128825
+    errors:
+    - {symerror: 2.66292e-05, label: 'stat'}
+    - {symerror: 0, label: 'syserrlo'}
+    - {symerror: 0, label: 'syserrhi'}
+  - value: 2.25711e-05
+    errors:
+    - {symerror: 1.05785e-05, label: 'stat'}
+    - {symerror: 0, label: 'syserrlo'}
+    - {symerror: 0, label: 'syserrhi'}
+- header: {name: '$dN/p_{out}$'}
+  qualifiers:
+  - {name: '$p_{out}$', value: '$\textrm{Isolated Direct Photon} \, - \, \textrm{Hadron} \, 5 \, < \, p_T, \,t \, < \, 7$'}
+  values:
+  - value: 0.0398067
+    errors:
+    - {symerror: 0.00392031, label: 'stat'}
+    - {symerror: 0.00319676, label: 'syserrlo'}
+    - {symerror: 0.00317221, label: 'syserrhi'}
+  - value: 0.0288267
+    errors:
+    - {symerror: 0.00357111, label: 'stat'}
+    - {symerror: 0.00304096, label: 'syserrlo'}
+    - {symerror: 0.00286524, label: 'syserrhi'}
+  - value: 0.024308
+    errors:
+    - {symerror: 0.00311695, label: 'stat'}
+    - {symerror: 0.00189771, label: 'syserrlo'}
+    - {symerror: 0.00188996, label: 'syserrhi'}
+  - value: 0.0187507
+    errors:
+    - {symerror: 0.00309441, label: 'stat'}
+    - {symerror: 0.00139066, label: 'syserrlo'}
+    - {symerror: 0.00139044, label: 'syserrhi'}
+  - value: 0.0106943
+    errors:
+    - {symerror: 0.00199424, label: 'stat'}
+    - {symerror: 0.000799534, label: 'syserrlo'}
+    - {symerror: 0.000913799, label: 'syserrhi'}
+  - value: 0.00115444
+    errors:
+    - {symerror: 0.000438274, label: 'stat'}
+    - {symerror: 0.000151834, label: 'syserrlo'}
+    - {symerror: 0.000157996, label: 'syserrhi'}
+  - value: -3.17814e-05
+    errors:
+    - {symerror: 0.000158955, label: 'stat'}
+    - {symerror: 3.5369e-05, label: 'syserrlo'}
+    - {symerror: 2.75015e-05, label: 'syserrhi'}
+  - value: 3.93591e-05
+    errors:
+    - {symerror: 3.86602e-05, label: 'stat'}
+    - {symerror: 6.02776e-06, label: 'syserrlo'}
+    - {symerror: 7.78004e-06, label: 'syserrhi'}

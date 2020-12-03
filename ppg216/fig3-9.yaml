@@ -1,0 +1,61 @@
+independent_variables:
+- header: {name: '$p_T$'}
+  values:
+  - {value: 0.5}
+  - {value: 1.0}
+  - {value: 1.5}
+  - {value: 2.0}
+  - {value: 2.5}
+  - {value: 3.0}
+  - {value: 3.5}
+dependent_variables:
+- header: {name: '$v_2$'}
+  qualifiers:
+  - {name: '$p_T$', value: '$^3He+Au$'}
+  values:
+  - value: 0.0607130080773
+    errors:
+    - {symerror: 0.00220083578243, label: 'stat'}
+  - value: 0.107193908837
+    errors:
+    - {symerror: 0.00254781890371, label: 'stat'}
+  - value: 0.119901425016
+    errors:
+    - {symerror: 0.0025967923773, label: 'stat'}
+  - value: 0.130709379304
+    errors:
+    - {symerror: 0.00365445428194, label: 'stat'}
+  - value: 0.136451326769
+    errors:
+    - {symerror: 0.00397314055748, label: 'stat'}
+  - value: 0.132966469858
+    errors:
+    - {symerror: 0.00361462210368, label: 'stat'}
+  - value: 0.126978124636
+    errors:
+    - {symerror: 0.00318938650812, label: 'stat'}
+- header: {name: '$v_3$'}
+  qualifiers:
+  - {name: '$p_T$', value: '$^3He+Au$'}
+  values:
+  - value: 0.0152766166507
+    errors:
+    - {symerror: 0.00034851561895, label: 'stat'}
+  - value: 0.0334230956635
+    errors:
+    - {symerror: 0.000593188686495, label: 'stat'}
+  - value: 0.0471178232239
+    errors:
+    - {symerror: 0.000826926011104, label: 'stat'}
+  - value: 0.0547578838142
+    errors:
+    - {symerror: 0.000972009247734, label: 'stat'}
+  - value: 0.0612220722826
+    errors:
+    - {symerror: 0.00105767173276, label: 'stat'}
+  - value: 0.0650906101961
+    errors:
+    - {symerror: 0.00111114896545, label: 'stat'}
+  - value: 0.0662826331379
+    errors:
+    - {symerror: 0.00118015067775, label: 'stat'}

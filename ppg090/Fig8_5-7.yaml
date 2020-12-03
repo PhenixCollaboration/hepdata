@@ -1,0 +1,26 @@
+independent_variables:
+- header: {name: '$z_{T}$'}
+  values:
+  - {low: 0.0, high: 0.3}
+  - {low: 0.3, high: 0.5}
+  - {low: 0.5, high: 1.0}
+dependent_variables:
+- header: {name: '$I_{AA}$'}
+  qualifiers:
+  - {name: '$z_{T}$', value: '$5 \, < \, p^{\gamma}_{T} \, < 7 \, \textrm{GEV/c}$'}
+  values:
+  - value: 0.436
+    errors:
+    - {symerror: 0.323, label: 'stat'}
+    - {symerror: 0.336, label: 'syslo'}
+    - {symerror: 0.337, label: 'syshi'}
+  - value: 0.635
+    errors:
+    - {symerror: 0.317, label: 'stat'}
+    - {symerror: 0.219, label: 'syslo'}
+    - {symerror: 0.231, label: 'syshi'}
+  - value: 0.310
+    errors:
+    - {symerror: 0.144, label: 'stat'}
+    - {symerror: 0.090, label: 'syslo'}
+    - {symerror: 0.090, label: 'syshi'}

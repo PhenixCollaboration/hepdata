@@ -1,0 +1,16 @@
+comment: |
+  BNL-RHIC.  The PHENIX experiment at the Relativistic Heavy Ion Collider has measured the longitudinal double spin asymmetries, $A_{LL}$, for charged pions at midrapidity ($|\eta|<$~0.35) in longitudinally polarized $p$$+$$p$ collisions at $\sqrt{s}=510$~GeV. These measurements are sensitive to the gluon spin contribution to the total spin of the proton in the parton momentum fraction $x$ range between 0.04 and 0.09. One can infer the sign of the gluon polarization from the ordering of pion asymmetries with charge alone. The asymmetries are found to be consistent with global quantum-chromodynamics fits of deep-inelastic scattering and data at $\sqrt{s}=200$~GeV, which show a nonzero positive contribution of gluon spin to the proton spin.
+additional_resources:
+  - {location: "https://phenix-intra.sdcc.bnl.gov/phenix/WWW/info/data/ppg227_data.html", description: "web page with data points"}
+  - {location: "https://link.aps.org/doi/10.1103/PhysRevD.102.032001", description: "paper"}
+  - {location: "http://arxiv.org/abs/2004.02681", description: "arxiv entry"}
+---
+name: "fig1"
+description: 'Double-spin asymmetries $A_{LL}$ as a function of transverse momentum for positive and negative pions.'
+additional_resources:
+  - {location: "run13_paper_pipm_all_pipm_vs_pi0.png", description: Image File}
+  - {location: "thumb_run13_paper_pipm_all_pipm_vs_pi0.png", description: Thumbnail Image File}
+keywords:
+  - {name: reactions, values: [P P --> NEUTRAL X]}
+  - {name: cmenergies, values: [510.0]}
+data_file: data.yaml

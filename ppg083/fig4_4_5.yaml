@@ -1,0 +1,146 @@
+independent_variables:
+- header: {name: 'Centrality'}
+  values:
+  - {low: 0, high: 5}
+  - {low: 5, high: 10}
+  - {low: 10, high: 20}
+  - {low: 20, high: 30}
+  - {low: 30, high: 40}
+  - {low: 40, high: 50}
+  - {low: 50, high: 60}
+  - {low: 60, high: 70}
+  - {low: 70, high: 92}
+  - {low: 92, high: 100}
+dependent_variables:
+- header: {name: 'trun<pt>'}
+  qualifiers:
+  - {name: 'Centrality', value: 'nearside'}
+  values:
+  - value: 7.58E-01
+    errors:
+    - {symerror: 6.03E-02, label: 'stat'}
+    - {symerror: 1.56E-02, label: 'sys'}
+  - value: 6.50E-01
+    errors:
+    - {symerror: 3.89E-02, label: 'stat'}
+    - {symerror: 1.87E-02, label: 'sys'}
+  - value: 6.98E-01
+    errors:
+    - {symerror: 2.76E-02, label: 'stat'}
+    - {symerror: 3.26E-02, label: 'sys'}
+  - value: 7.04E-01
+    errors:
+    - {symerror: 2.59E-02, label: 'stat'}
+    - {symerror: 3.94E-02, label: 'sys'}
+  - value: 7.02E-01
+    errors:
+    - {symerror: 2.57E-02, label: 'stat'}
+    - {symerror: 3.40E-02, label: 'sys'}
+  - value: 7.18E-01
+    errors:
+    - {symerror: 2.59E-02, label: 'stat'}
+    - {symerror: 3.21E-02, label: 'sys'}
+  - value: 7.19E-01
+    errors:
+    - {symerror: 2.77E-02, label: 'stat'}
+    - {symerror: 1.65E-02, label: 'sys'}
+  - value: 7.95E-01
+    errors:
+    - {symerror: 3.44E-02, label: 'stat'}
+    - {symerror: 1.82E-02, label: 'sys'}
+  - value: 8.28E-01
+    errors:
+    - {symerror: 3.64E-02, label: 'stat'}
+    - {symerror: 1.57E-02, label: 'sys'}
+  - value: 7.78E-01
+    errors:
+    - {symerror: 2.24E-02, label: 'stat'}
+    - {symerror: 1.32E-03, label: 'sys'}
+- header: {name: 'trun<pt>'}
+  qualifiers:
+  - {name: 'Centrality', value: 'awayshoulder'}
+  values:
+  - value: 5.34E-01
+    errors:
+    - {symerror: 1.40E-01, label: 'stat'}
+    - {symerror: 6.70E-02, label: 'sys'}
+  - value: 4.47E-01
+    errors:
+    - {symerror: 6.98E-02, label: 'stat'}
+    - {symerror: 4.68E-02, label: 'sys'}
+  - value: 4.34E-01
+    errors:
+    - {symerror: 5.78E-02, label: 'stat'}
+    - {symerror: 2.74E-02, label: 'sys'}
+  - value: 4.51E-01
+    errors:
+    - {symerror: 4.56E-02, label: 'stat'}
+    - {symerror: 1.80E-02, label: 'sys'}
+  - value: 5.02E-01
+    errors:
+    - {symerror: 5.76E-02, label: 'stat'}
+    - {symerror: 3.13E-02, label: 'sys'}
+  - value: 4.68E-01
+    errors:
+    - {symerror: 5.51E-02, label: 'stat'}
+    - {symerror: 3.67E-02, label: 'sys'}
+  - value: 4.85E-01
+    errors:
+    - {symerror: 7.25E-02, label: 'stat'}
+    - {symerror: 4.71E-02, label: 'sys'}
+  - value: 5.56E-01
+    errors:
+    - {symerror: 9.06E-02, label: 'stat'}
+    - {symerror: 3.19E-02, label: 'sys'}
+  - value: 6.29E-01
+    errors:
+    - {symerror: 1.09E-01, label: 'stat'}
+    - {symerror: 4.49E-02, label: 'sys'}
+  - value: 6.72E-01
+    errors:
+    - {symerror: 5.70E-02, label: 'stat'}
+    - {symerror: 5.83E-03, label: 'sys'}
+- header: {name: 'trun<pt>'}
+  qualifiers:
+  - {name: 'Centrality', value: 'awayhead'}
+  values:
+  - value: 4.98E-01
+    errors:
+    - {symerror: 1.56E-01, label: 'stat'}
+    - {symerror: 1.09E-01, label: 'sys'}
+  - value: 3.83E-01
+    errors:
+    - {symerror: 8.08E-02, label: 'stat'}
+    - {symerror: 7.30E-02, label: 'sys'}
+  - value: 4.41E-01
+    errors:
+    - {symerror: 6.23E-02, label: 'stat'}
+    - {symerror: 2.99E-02, label: 'sys'}
+  - value: 5.15E-01
+    errors:
+    - {symerror: 5.52E-02, label: 'stat'}
+    - {symerror: 2.33E-02, label: 'sys'}
+  - value: 6.10E-01
+    errors:
+    - {symerror: 4.79E-02, label: 'stat'}
+    - {symerror: 4.97E-02, label: 'sys'}
+  - value: 6.04E-01
+    errors:
+    - {symerror: 4.35E-02, label: 'stat'}
+    - {symerror: 3.91E-02, label: 'sys'}
+  - value: 5.98E-01
+    errors:
+    - {symerror: 4.24E-02, label: 'stat'}
+    - {symerror: 2.14E-02, label: 'sys'}
+  - value: 6.93E-01
+    errors:
+    - {symerror: 4.90E-02, label: 'stat'}
+    - {symerror: 1.69E-02, label: 'sys'}
+  - value: 7.01E-01
+    errors:
+    - {symerror: 4.33E-02, label: 'stat'}
+    - {symerror: 1.47E-02, label: 'sys'}
+  - value: 7.77E-01
+    errors:
+    - {symerror: 2.97E-02, label: 'stat'}
+    - {symerror: 1.07E-03, label: 'sys'}

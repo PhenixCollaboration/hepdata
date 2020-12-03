@@ -1,0 +1,213 @@
+independent_variables:
+- header: {name: 'Centrality'}
+  values:
+  - {low: 0, high: 5}
+  - {low: 5, high: 10}
+  - {low: 10, high: 20}
+  - {low: 20, high: 30}
+  - {low: 30, high: 40}
+  - {low: 40, high: 50}
+  - {low: 50, high: 60}
+  - {low: 60, high: 70}
+  - {low: 70, high: 92}
+dependent_variables:
+- header: {name: 'width'}
+  qualifiers:
+  - {name: 'Centrality', value: '2-3x0.4-1GeV/c'}
+  values:
+  - value: 0.367
+    errors:
+    - {symerror: 0.012, label: 'stat'}
+    - {symerror: 0.0375, label: 'sys'}
+  - value: 0.415
+    errors:
+    - {symerror: 0.007, label: 'stat'}
+    - {symerror: 0.0385, label: 'sys'}
+  - value: 0.424
+    errors:
+    - {symerror: 0.002, label: 'stat'}
+    - {symerror: 0.0255, label: 'sys'}
+  - value: 0.431
+    errors:
+    - {symerror: 0.002, label: 'stat'}
+    - {symerror: 0.0445, label: 'sys'}
+  - value: 0.438
+    errors:
+    - {symerror: 0.002, label: 'stat'}
+    - {symerror: 0.0445, label: 'sys'}
+  - value: 0.438
+    errors:
+    - {symerror: 0.003, label: 'stat'}
+    - {symerror: 0.05, label: 'sys'}
+  - value: 0.436
+    errors:
+    - {symerror: 0.004, label: 'stat'}
+    - {symerror: 0.0425, label: 'sys'}
+  - value: 0.435
+    errors:
+    - {symerror: 0.003, label: 'stat'}
+    - {symerror: 0.0405, label: 'sys'}
+  - value: 0.472
+    errors:
+    - {symerror: 0.006, label: 'stat'}
+    - {symerror: 0, label: 'sys'}
+- header: {name: 'width'}
+  qualifiers:
+  - {name: 'Centrality', value: '2-3x2-3GeV/c'}
+  values:
+  - value: 0.415
+    errors:
+    - {symerror: 0.005, label: 'stat'}
+    - {symerror: 0.0505, label: 'sys'}
+  - value: 0.409
+    errors:
+    - {symerror: 0.005, label: 'stat'}
+    - {symerror: 0.026, label: 'sys'}
+  - value: 0.41
+    errors:
+    - {symerror: 0.003, label: 'stat'}
+    - {symerror: 0.0305, label: 'sys'}
+  - value: 0.406
+    errors:
+    - {symerror: 0.008, label: 'stat'}
+    - {symerror: 0.017, label: 'sys'}
+  - value: 0.36
+    errors:
+    - {symerror: 0.008, label: 'stat'}
+    - {symerror: 0.018, label: 'sys'}
+  - value: 0.352
+    errors:
+    - {symerror: 0.008, label: 'stat'}
+    - {symerror: 0.0235, label: 'sys'}
+  - value: 0.307
+    errors:
+    - {symerror: 0.005, label: 'stat'}
+    - {symerror: 0.026, label: 'sys'}
+  - value: 0.289
+    errors:
+    - {symerror: 0.004, label: 'stat'}
+    - {symerror: 0.0075, label: 'sys'}
+  - value: 0.281
+    errors:
+    - {symerror: 0.003, label: 'stat'}
+    - {symerror: 0, label: 'sys'}
+- header: {name: 'width'}
+  qualifiers:
+  - {name: 'Centrality', value: '3-4x3-4GeV/c'}
+  values:
+  - value: 0.318
+    errors:
+    - {symerror: 0.019, label: 'stat'}
+    - {symerror: 0.0275, label: 'sys'}
+  - value: 0.287
+    errors:
+    - {symerror: 0.021, label: 'stat'}
+    - {symerror: 0.029, label: 'sys'}
+  - value: 0.271
+    errors:
+    - {symerror: 0.01, label: 'stat'}
+    - {symerror: 0.0105, label: 'sys'}
+  - value: 0.26
+    errors:
+    - {symerror: 0.01, label: 'stat'}
+    - {symerror: 0.012, label: 'sys'}
+  - value: 0.225
+    errors:
+    - {symerror: 0.008, label: 'stat'}
+    - {symerror: 0.0225, label: 'sys'}
+  - value: 0.228
+    errors:
+    - {symerror: 0.008, label: 'stat'}
+    - {symerror: 0.01, label: 'sys'}
+  - value: 0.201
+    errors:
+    - {symerror: 0.008, label: 'stat'}
+    - {symerror: 0.0155, label: 'sys'}
+  - value: 0.211
+    errors:
+    - {symerror: 0.006, label: 'stat'}
+    - {symerror: 0.009, label: 'sys'}
+  - value: 0.199
+    errors:
+    - {symerror: 0.007, label: 'stat'}
+    - {symerror: 0, label: 'sys'}
+- header: {name: 'width'}
+  qualifiers:
+  - {name: 'Centrality', value: '4-5x4-5GeV/c'}
+  values:
+  - value: 0.202
+    errors:
+    - {symerror: 0.02, label: 'stat'}
+    - {symerror: 0.0085, label: 'sys'}
+  - value: 0.191
+    errors:
+    - {symerror: 0.018, label: 'stat'}
+    - {symerror: 0.014, label: 'sys'}
+  - value: 0.168
+    errors:
+    - {symerror: 0.013, label: 'stat'}
+    - {symerror: 0.025, label: 'sys'}
+  - value: 0.167
+    errors:
+    - {symerror: 0.01, label: 'stat'}
+    - {symerror: 0.0135, label: 'sys'}
+  - value: 0.142
+    errors:
+    - {symerror: 0.008, label: 'stat'}
+    - {symerror: 0.0025, label: 'sys'}
+  - value: 0.143
+    errors:
+    - {symerror: 0.009, label: 'stat'}
+    - {symerror: 0.0075, label: 'sys'}
+  - value: 0.143
+    errors:
+    - {symerror: 0.011, label: 'stat'}
+    - {symerror: 0.0105, label: 'sys'}
+  - value: 0.161
+    errors:
+    - {symerror: 0.01, label: 'stat'}
+    - {symerror: 0.002, label: 'sys'}
+  - value: 0.148
+    errors:
+    - {symerror: 0.011, label: 'stat'}
+    - {symerror: 0, label: 'sys'}
+- header: {name: 'width'}
+  qualifiers:
+  - {name: 'Centrality', value: '5-10x5-10GeV/c'}
+  values:
+  - value: 0.162
+    errors:
+    - {symerror: 0.017, label: 'stat'}
+    - {symerror: 0.024, label: 'sys'}
+  - value: 0.135
+    errors:
+    - {symerror: 0.017, label: 'stat'}
+    - {symerror: 0.012, label: 'sys'}
+  - value: 0.133
+    errors:
+    - {symerror: 0.011, label: 'stat'}
+    - {symerror: 0.0195, label: 'sys'}
+  - value: 0.136
+    errors:
+    - {symerror: 0.009, label: 'stat'}
+    - {symerror: 0.008, label: 'sys'}
+  - value: 0.131
+    errors:
+    - {symerror: 0.008, label: 'stat'}
+    - {symerror: 0.0035, label: 'sys'}
+  - value: 0.113
+    errors:
+    - {symerror: 0.015, label: 'stat'}
+    - {symerror: 0.005, label: 'sys'}
+  - value: 0.146
+    errors:
+    - {symerror: 0.016, label: 'stat'}
+    - {symerror: 0.0025, label: 'sys'}
+  - value: 0.137
+    errors:
+    - {symerror: 0.015, label: 'stat'}
+    - {symerror: 0.0045, label: 'sys'}
+  - value: 0.13
+    errors:
+    - {symerror: 0.004, label: 'stat'}
+    - {symerror: 0, label: 'sys'}

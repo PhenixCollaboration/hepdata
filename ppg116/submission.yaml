@@ -1,0 +1,171 @@
+comment: |
+  BNL-RHIC.  Pair correlations between large transverse momentum neutral pion triggers (pT= 4–7 GeV/c) andcharged hadron partners (pT= 3–7 GeV/c) in central (0–20%) and midcentral (20–60%) Au+Aucollisions are presented as a function of trigger orientation with respect to the reaction plane. Theparticles are at larger momentum than where jet shape modifications have been observed, and thecorrelations are sensitive to the energy loss of partons traveling through hot dense matter. An out-of-plane trigger particle produces only 26±20% of the away-side pairs that are observed opposite ofan in-plane trigger particle. In contrast, near-side jet fragments are consistent with no suppressionor dependence on trigger orientation with respect to the reaction plane. These observations arequalitatively consistent with a picture of little near-side parton energy loss either due to surface biasor fluctuations and increased away-side parton energy loss due to a long path through the medium.The away-side suppression as a function of reaction-plane angle is shown to be sensitive to both theenergy loss mechanism in and the space-time evolution of heavy-ion collisions.
+  - {location: "https://www.phenix.bnl.gov/phenix/WWW/info/data/ppg116_data.html", description: "web page with data point"}
+---
+name: "cfs"
+description: Delta phi / Correlation Function 3-4 GeV/c partners
+keywords:
+  - {name: reactions, values: [AU AU --> CHARGED X, DEUT AU --> CHARGED X, CU CU --> CHARGED X]}
+  - {name: cmenergies, values: [62.4-200.0]}
+data_file: cfs.yaml
+---
+name: "cfs_ave"
+description: Delta phi / Correlation Function 3-4 GeV/c partners
+keywords:
+  - {name: reactions, values: [AU AU --> CHARGED X, DEUT AU --> CHARGED X, CU CU --> CHARGED X]}
+  - {name: cmenergies, values: [62.4-200.0]}
+data_file: cfs_ave.yaml
+---
+name: "cfsall_00-20 3-4"
+description: '$p^{a}_{T} = 3-4$ GeV/$c$'
+keywords:
+  - {name: reactions, values: [AU AU --> CHARGED X, DEUT AU --> CHARGED X, CU CU --> CHARGED X]}
+  - {name: cmenergies, values: [62.4-200.0]}
+data_file: cfsall_00-20-1.yaml
+---
+name: "cfsall_00-20 4-5"
+description: '$p^{a}_{T} = 4-5$ GeV/$c$'
+keywords:
+  - {name: reactions, values: [AU AU --> CHARGED X, DEUT AU --> CHARGED X, CU CU --> CHARGED X]}
+  - {name: cmenergies, values: [62.4-200.0]}
+data_file: cfsall_00-20-2.yaml
+---
+name: "cfsall_00-20 5-7"
+description: '$p^{a}_{T} = 5-7$ GeV/$c$'
+keywords:
+  - {name: reactions, values: [AU AU --> CHARGED X, DEUT AU --> CHARGED X, CU CU --> CHARGED X]}
+  - {name: cmenergies, values: [62.4-200.0]}
+data_file: cfsall_00-20-3.yaml
+---
+name: "cfsall_20-60 3-4"
+description: '$p^{a}_{T} = 3-4$ GeV/$c$'
+keywords:
+  - {name: reactions, values: [AU AU --> CHARGED X, DEUT AU --> CHARGED X, CU CU --> CHARGED X]}
+  - {name: cmenergies, values: [62.4-200.0]}
+data_file: cfsall_20-60-1.yaml
+---
+name: "cfsall_20-60 4-5"
+description: '$p^{a}_{T} = 4-5$ GeV/$c$'
+keywords:
+  - {name: reactions, values: [AU AU --> CHARGED X, DEUT AU --> CHARGED X, CU CU --> CHARGED X]}
+  - {name: cmenergies, values: [62.4-200.0]}
+data_file: cfsall_20-60-2.yaml
+---
+name: "cfsall_20-60 5-7"
+description: '$p^{a}_{T} = 5-7$ GeV/$c$'
+keywords:
+  - {name: reactions, values: [AU AU --> CHARGED X, DEUT AU --> CHARGED X, CU CU --> CHARGED X]}
+  - {name: cmenergies, values: [62.4-200.0]}
+data_file: cfsall_20-60-3.yaml
+---
+name: "iaaratios_00_20"
+description: '$I^{out}_{AA}/I^{in}_{AA}$ ratio, central collisions'
+keywords:
+  - {name: reactions, values: [AU AU --> CHARGED X, DEUT AU --> CHARGED X, CU CU --> CHARGED X]}
+  - {name: cmenergies, values: [62.4-200.0]}
+data_file: iaaratios_00_20.yaml
+---
+name: "iaaratios_00_20_ave"
+description: '$I^{out}_{AA}/I^{in}_{AA}$ ratio, central collisions'
+keywords:
+  - {name: reactions, values: [AU AU --> CHARGED X, DEUT AU --> CHARGED X, CU CU --> CHARGED X]}
+  - {name: cmenergies, values: [62.4-200.0]}
+data_file: iaaratios_00_20_ave.yaml
+---
+name: "iaaratios_20_60"
+description: '$I^{out}_{AA}/I^{in}_{AA}$ ratio, mid-central collisions'
+keywords:
+  - {name: reactions, values: [AU AU --> CHARGED X, DEUT AU --> CHARGED X, CU CU --> CHARGED X]}
+  - {name: cmenergies, values: [62.4-200.0]}
+data_file: iaaratios_20_60.yaml
+---
+name: "iaaratios_20_60_ave"
+description: '$I^{out}_{AA}/I^{in}_{AA}$ ratio, mid-central collisions'
+keywords:
+  - {name: reactions, values: [AU AU --> CHARGED X, DEUT AU --> CHARGED X, CU CU --> CHARGED X]}
+  - {name: cmenergies, values: [62.4-200.0]}
+data_file: iaaratios_20_60_ave.yaml
+---
+name: "jfs_00-20 4-7 x 3-4"
+description: 'Per-Trigger Azimuthal Yields, central collisions, 4-7 x 3-4 GeV/c'
+keywords:
+  - {name: reactions, values: [AU AU --> CHARGED X, DEUT AU --> CHARGED X, CU CU --> CHARGED X]}
+  - {name: cmenergies, values: [62.4-200.0]}
+data_file: jfs_00-20-1.yaml
+---
+name: "jfs_00-20 4-7 x 4-5"
+description: 'Per-Trigger Azimuthal Yields, central collisions, 4-7 x 4-5 GeV/c'
+keywords:
+  - {name: reactions, values: [AU AU --> CHARGED X, DEUT AU --> CHARGED X, CU CU --> CHARGED X]}
+  - {name: cmenergies, values: [62.4-200.0]}
+data_file: jfs_00-20-2.yaml
+---
+name: "jfs_00-20 4-7 x 5-7"
+description: 'Per-Trigger Azimuthal Yields, central collisions, 4-7 x 5-7 GeV/c'
+keywords:
+  - {name: reactions, values: [AU AU --> CHARGED X, DEUT AU --> CHARGED X, CU CU --> CHARGED X]}
+  - {name: cmenergies, values: [62.4-200.0]}
+data_file: jfs_00-20-3.yaml
+---
+name: "jfs_20-60 4-7 x 3-4"
+description: 'Per-Trigger Azimuthal Yields, mid-central collisions, 4-7 x 3-4 GeV/c'
+keywords:
+  - {name: reactions, values: [AU AU --> CHARGED X, DEUT AU --> CHARGED X, CU CU --> CHARGED X]}
+  - {name: cmenergies, values: [62.4-200.0]}
+data_file: jfs_20-60-1.yaml
+---
+name: "jfs_20-60 4-7 x 4-5"
+description: 'Per-Trigger Azimuthal Yields, mid-central collisions, 4-7 x 4-5 GeV/c'
+keywords:
+  - {name: reactions, values: [AU AU --> CHARGED X, DEUT AU --> CHARGED X, CU CU --> CHARGED X]}
+  - {name: cmenergies, values: [62.4-200.0]}
+data_file: jfs_20-60-2.yaml
+---
+name: "jfs_20-60 4-7 x 5-7"
+description: 'Per-Trigger Azimuthal Yields, mid-central collisions, 4-7 x 5-7 GeV/c'
+keywords:
+  - {name: reactions, values: [AU AU --> CHARGED X, DEUT AU --> CHARGED X, CU CU --> CHARGED X]}
+  - {name: cmenergies, values: [62.4-200.0]}
+data_file: jfs_20-60-3.yaml
+---
+name: "jfsall_00-20 4-7 x 3-4"
+description: 'Per-Trigger Azimuthal Yields, central collisions, 4-7 x 3-4 GeV/c'
+keywords:
+  - {name: reactions, values: [AU AU --> CHARGED X, DEUT AU --> CHARGED X, CU CU --> CHARGED X]}
+  - {name: cmenergies, values: [62.4-200.0]}
+data_file: jfsall_00-20-1.yaml
+---
+name: "jfs_00-20 4-7 x 4-5"
+description: 'Per-Trigger Azimuthal Yields, central collisions, 4-7 x 4-5 GeV/c'
+keywords:
+  - {name: reactions, values: [AU AU --> CHARGED X, DEUT AU --> CHARGED X, CU CU --> CHARGED X]}
+  - {name: cmenergies, values: [62.4-200.0]}
+data_file: jfsall_00-20-2.yaml
+---
+name: "jfs_00-20 4-7 x 5-7"
+description: 'Per-Trigger Azimuthal Yields, central collisions, 4-7 x 5-7 GeV/c'
+keywords:
+  - {name: reactions, values: [AU AU --> CHARGED X, DEUT AU --> CHARGED X, CU CU --> CHARGED X]}
+  - {name: cmenergies, values: [62.4-200.0]}
+data_file: jfsall_00-20-3.yaml
+---
+name: "jfsall_20-60 3-4"
+description: '$p^{a}_{T} = 3-4$ GeV/$c$'
+keywords:
+  - {name: reactions, values: [AU AU --> CHARGED X, DEUT AU --> CHARGED X, CU CU --> CHARGED X]}
+  - {name: cmenergies, values: [62.4-200.0]}
+data_file: jfsall_20-60-1.yaml
+---
+name: "jfsall_20-60 4-5"
+description: '$p^{a}_{T} = 4-5$ GeV/$c$'
+keywords:
+  - {name: reactions, values: [AU AU --> CHARGED X, DEUT AU --> CHARGED X, CU CU --> CHARGED X]}
+  - {name: cmenergies, values: [62.4-200.0]}
+data_file: jfsall_20-60-2.yaml
+---
+name: "jfsall_20-60 5-7"
+description: '$p^{a}_{T} = 5-7$ GeV/$c$'
+keywords:
+  - {name: reactions, values: [AU AU --> CHARGED X, DEUT AU --> CHARGED X, CU CU --> CHARGED X]}
+  - {name: cmenergies, values: [62.4-200.0]}
+data_file: jfsall_20-60-3.yaml

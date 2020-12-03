@@ -1,0 +1,53 @@
+independent_variables:
+- header: {name: '$p_T$'}  
+  values:
+  - {low: 3, high: 4}
+  - {low: 4, high: 5}
+  - {low: 5, high: 6}
+  - {low: 6, high: 7}
+  - {low: 7, high: 8}
+  - {low: 8, high: 9}
+  - {low: 9, high: 10}
+  - {low: 10, high: 12}
+  - {low: 12, high: 14}
+dependent_variables:
+- header: {name: '$v_2$'}
+  qualifiers:
+  - {name: '$p_T$', value: '$\eta$ meson $v_2, 20-60\%$ centrality'}
+  values:
+  - value: 0.1861
+    errors:
+    - {symerror: 0.0102, label: 'stat_err'}
+    - {symerror: 0.0079, label: 'sys_err'}
+  - value: 0.1510
+    errors:
+    - {symerror: 0.0120, label: 'stat_err'}
+    - {symerror: 0.0081, label: 'sys_err'}
+  - value: 0.1613
+    errors:
+    - {symerror: 0.0158, label: 'stat_err'}
+    - {symerror: 0.0108, label: 'sys_err'}
+  - value: 0.0986
+    errors:
+    - {symerror: 0.0219, label: 'stat_err'}
+    - {symerror: 0.0100, label: 'sys_err'}
+  - value: 0.1297
+    errors:
+    - {symerror: 0.0305, label: 'stat_err'}
+    - {symerror: 0.0120, label: 'sys_err'}
+  - value: 0.1040
+    errors:
+    - {symerror: 0.0451, label: 'stat_err'}
+    - {symerror: 0.0208, label: 'sys_err'}
+  - value: 0.0644
+    errors:
+    - {symerror: 0.0541, label: 'stat_err'}
+    - {symerror: 0.0171, label: 'sys_err'}
+  - value: 0.2066
+    errors:
+    - {symerror: 0.0663, label: 'stat_err'}
+    - {symerror: 0.0520, label: 'sys_err'}
+  - value: 0.0642
+    errors:
+    - {symerror: 0.1136, label: 'stat_err'}
+    - {symerror: 0.0320, label: 'sys_err'}

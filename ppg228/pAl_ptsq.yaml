@@ -1,0 +1,39 @@
+independent_variables:
+- header: {name: '$\langle N_{coll} \rangle $'}
+  values:
+  - {value: 1.70}
+  - {value: 2.30}
+  - {value: 3.35}
+dependent_variables:
+- header: {name: '$ \langle p_{T}^{2} \rangle$  (global sys. err. 10.1%)'}
+  qualifiers:
+  - {name: '', value: '$ \langle p_{T}^{2} \rangle$,  p+Al$\sqrt{s_{NN}}$=200GeV, $1.2 < y < 2.2$'}
+  values:
+  - value: 3.58
+    errors:
+    - {symerror: 0.15, label: 'stat'}
+    - {asymerror: {plus: 0.24, minus: -0.29}, label: 'sys'}
+  - value: 3.86
+    errors:
+    - {symerror: 0.16, label: 'stat'}
+    - {asymerror: {plus: 0.25, minus: -0.30}, label: 'sys'}
+  - value: 3.86
+    errors:
+    - {symerror: 0.13, label: 'stat'}
+    - {asymerror: {plus: 0.27, minus: -0.33}, label: 'sys'}
+- header: {name: '$ \langle p_{T}^{2} \rangle$  (global sys. err. 10.1%)'}
+  qualifiers:
+  - {name: '', value: '$ \langle p_{T}^{2} \rangle$,  p+Al$\sqrt{s_{NN}}$=200GeV, $-2.2 < y < -1.2$'}
+  values:
+  - value: 3.48
+    errors:
+    - {symerror: 0.19, label: 'stat'}
+    - {asymerror: {plus: 0.23, minus: -0.28}, label: 'sys'}
+  - value: 3.45
+    errors:
+    - {symerror: 0.19, label: 'stat'}
+    - {asymerror: {plus: 0.23, minus: -0.28}, label: 'sys'}
+  - value: 3.51
+    errors:
+    - {symerror: 0.17, label: 'stat'}
+    - {asymerror: {plus: 0.22, minus: -0.26}, label: 'sys'}

@@ -1,0 +1,30 @@
+# This is a more complex example of a HEPData submission,
+# featuring multi-column data table in Figure 2, ans also systematic and statistical errors.
+# Note the inclusion of a PNG image and its thumbnail.
+#
+additional_resources:
+- {description: Example 2, location: 'https://github.com/PhenixCollaboration/documentation/tree/master/assets/hepdata/examples/ex2/'}
+comment: "Example 2. Data is not real and only serves demonstration purposes. Data for two plots included. A PNG file and a thumbmail are added to demonstrate how image embedding works on on HEPData pages. We used the PHENIX logo for demonstration purposes, in real life you will want to include real plots corresponding to each table. Such imagres are optional but are used pretty frequently."
+---
+additional_resources:
+- {description: Image file, location: Figure_1.png}
+- {description: Thumbnail image file, location: thumb_Figure_1.png}
+data_file: Figure_1.yaml
+description: "Example 2, Figure 1."
+keywords:
+- name: cmenergies
+  values: [2000.0]
+- name: reactions
+  values: [p+p->GAMMA+GAMMA]
+name: Figure 1
+---
+data_file: Figure_2.yaml
+description: "Example 2, Figure 2."
+keywords:
+- name: cmenergies
+  values: [2000.0]
+- name: reactions
+  values: [p+p->GAMMA+X]
+- name: phrases
+  values: ['simoleons',]
+name: Figure 2
