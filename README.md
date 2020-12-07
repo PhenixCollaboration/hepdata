@@ -21,6 +21,7 @@ See the "examples" folder
 
 055, 079, 090, 092, 095, 113, 116, 129, 132, 133, 138, 146, 174, 182, 227, 228
 
-## In progress
+## In progress/recently finished
+* 182: A.khatiwada (prep, reviewer): khatiwada.ajeeta@gmail.com
 * 119: K.Smith (prep), Matt - matthew.g.wysocki@gmail.com (reviewer)
 * 071: K.Smith (prep), Tony - afrawley@fsu.edu(reviewer)
