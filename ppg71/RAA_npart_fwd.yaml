@@ -1,0 +1,48 @@
+independent_variables:
+- header: {name: '$\langle N_{part} \rangle $'}
+  values:
+  - {value: 4.7}
+  - {value: 10.4}
+  - {value: 16.7}
+  - {value: 25.4}
+  - {value: 37.3}
+  - {value: 53.0}
+  - {value: 73.6}
+  - {value: 98.2}
+dependent_variables:
+- header: {name: '$\frac{dN^{AA}/dy}{\langle N_{part} \rangle dN^{pp}/dy}$  (global sys. err. 8%)'}
+  qualifiers:
+  - {name: '', value: '$R_{AA}$,  $1.2 < |y| < 2.2$'}
+  values:
+  - value: 0.8506
+    errors:
+    - {symerror: 0.0707, label: 'stat'}
+    - {symerror: 0.1053, label: 'y sys'}
+  - value: 0.8496
+    errors:
+    - {symerror: 0.0790, label: 'stat'}
+    - {symerror: 0.1002, label: 'y sys'}
+  - value: 0.8709
+    errors:
+    - {symerror: 0.0608, label: 'stat'}
+    - {symerror: 0.1076, label: 'y sys'}
+  - value: 0.6616
+    errors:
+    - {symerror: 0.0463, label: 'stat'}
+    - {symerror: 0.0841, label: 'y sys'}
+  - value: 0.7190
+    errors:
+    - {symerror: 0.0428, label: 'stat'}
+    - {symerror: 0.0856, label: 'y sys'}
+  - value: 0.5930
+    errors:
+    - {symerror: 0.0370, label: 'stat'}
+    - {symerror: 0.0701, label: 'y sys'}
+  - value: 0.5224
+    errors:
+    - {symerror: 0.0333, label: 'stat'}
+    - {symerror: 0.0621, label: 'y sys'}
+  - value: 0.5323
+    errors:
+    - {symerror: 0.0305, label: 'stat'}
+    - {symerror: 0.0637, label: 'y sys'}

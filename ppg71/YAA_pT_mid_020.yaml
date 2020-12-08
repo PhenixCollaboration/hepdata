@@ -1,0 +1,58 @@
+independent_variables:
+- header: {name: '$p_{T}[GeV/c]$'}
+  values:
+  - {low: 0.00, high: 0.50}
+  - {low: 0.50, high: 1.00}
+  - {low: 1.00, high: 1.50}
+  - {low: 1.50, high: 2.00}
+  - {low: 2.00, high: 3.00}
+  - {low: 3.00, high: 4.00}
+  - {low: 4.00, high: 5.00}
+  - {low: 5.00, high: 6.00}
+  - {low: 6.00, high: 8.00}
+  - {low: 8.00, high: 10.00}
+dependent_variables:
+- header: {name: '0-20% Centrality (global err. 8.0%)'}
+  qualifiers:
+  - {name: '', value: '$\frac{B_{ll}}{2\pi p_{T}} \frac{d^{2}N}{dydp_{T}}$, $|y| < 0.35$'}
+  values:
+  - value: 7.669e-06
+    errors:
+    - {symerror: 1.333e-06, label: 'stat'}
+    - {symerror: 8.191e-07, label: 'sys'}
+  - value: 7.035e-06
+    errors:
+    - {symerror: 7.106e-07, label: 'stat'}
+    - {symerror: 6.422e-07, label: 'sys'}
+  - value: 4.453e-06
+    errors:
+    - {symerror: 4.707e-07, label: 'stat'}
+    - {symerror: 3.741e-07, label: 'sys'}
+  - value: 2.335e-06
+    errors:
+    - {symerror: 3.129e-07, label: 'stat'}
+    - {symerror: 1.855e-07, label: 'sys'}
+  - value: 1.183e-06
+    errors:
+    - {symerror: 1.334e-07, label: 'stat'}
+    - {symerror: 9.302e-08, label: 'sys'}
+  - value: 3.618e-07
+    errors:
+    - {symerror: 6.493e-08, label: 'stat'}
+    - {symerror: 2.732e-08, label: 'sys'}
+  - value: 1.035e-07
+    errors:
+    - {symerror: 3.239e-08, label: 'stat'}
+    - {symerror: 7.479e-09, label: 'sys'}
+  - value: 2.535e-08
+    errors:
+    - {symerror: 1.247e-08, label: 'stat'}
+    - {symerror: 1.757e-09, label: 'sys'}
+  - value: 2.737e-09
+    errors:
+    - {symerror: 3.066e-09, label: 'stat'}
+    - {symerror: 2.056e-10, label: 'sys'}
+  - value: 1.138e-09
+    errors:
+    - {symerror: 8.253e-10, label: 'stat'}
+    - {symerror: 8.005e-11, label: 'sys'}

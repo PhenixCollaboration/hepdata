@@ -1,0 +1,21 @@
+independent_variables:
+- header: {name: '$\langle N_{part} \rangle $'}
+  values:
+  - {value: 21.2}
+  - {value: 45.2}
+  - {value: 85.9}
+dependent_variables:
+- header: {name: '$ \langle p_{T}^{2} \rangle, |y| < 0.35$'}
+  values:
+  - value: 4.0357
+    errors:
+    - {asymerror: {plus: 0.3811, minus: 0.3807}, label: 'stat'}
+    - {symerror: 0.1628, label: 'sys'}
+  - value: 4.2642
+    errors:
+    - {asymerror: {plus: 0.2705, minus: 0.2706}, label: 'stat'}
+    - {symerror: 0.1318, label: 'sys'}
+  - value: 4.2387
+    errors:
+    - {asymerror: {plus: 0.2825, minus: 0.2826}, label: 'stat'}
+    - {symerror: 0.1377, label: 'sys'}

@@ -1,0 +1,53 @@
+independent_variables:
+- header: {name: '$y$'}
+  values:
+  - {low: -2.20, high: -1.95}
+  - {low: -1.95, high: -1.70}
+  - {low: -1.70, high: -1.45}
+  - {low: -1.45, high: -1.20}
+  - {low: -0.35, high: 0.35}
+  - {low: 1.20, high: 1.45}
+  - {low: 1.45, high: 1.70}
+  - {low: 1.70, high: 1.95}
+  - {low: 1.95, high: 2.20}
+dependent_variables:
+- header: {name: '$R_{AA}$, $1.2 < |y| < 2.2, |y| < 0.35$ (global err. 12%)'}
+  qualifiers:
+  - {name: '', value: '$\frac{dN^{AA}/dy}{\langle N_{part} \rangle dN^{pp}/dy}$, 0-20% Centrality'}
+  values:
+  - value: 0.5094
+    errors:
+    - {symerror: 0.1211, label: 'stat'}
+    - {symerror: 0.0671, label: 'sys'}
+  - value: 0.4794
+    errors:
+    - {symerror: 0.0509, label: 'stat'}
+    - {symerror: 0.0630, label: 'sys'}
+  - value: 0.4926
+    errors:
+    - {symerror: 0.0550, label: 'stat'}
+    - {symerror: 0.0648, label: 'sys'}
+  - value: 0.6017
+    errors:
+    - {symerror: 0.0837, label: 'stat'}
+    - {symerror: 0.0792, label: 'sys'}
+  - value: 0.5342
+    errors:
+    - {symerror: 0.0267, label: 'stat'}
+    - {symerror: 0.0716, label: 'sys'}
+  - value: 0.4807
+    errors:
+    - {symerror: 0.0701, label: 'stat'}
+    - {symerror: 0.0633, label: 'sys'}
+  - value: 0.5696
+    errors:
+    - {symerror: 0.0423, label: 'stat'}
+    - {symerror: 0.0750, label: 'sys'}
+  - value: 0.5458
+    errors:
+    - {symerror: 0.0746, label: 'stat'}
+    - {symerror: 0.0718, label: 'sys'}
+  - value: 0.4563
+    errors:
+    - {symerror: 0.1037, label: 'stat'}
+    - {symerror: 0.0601, label: 'sys'}
