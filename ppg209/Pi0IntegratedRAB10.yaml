@@ -1,0 +1,38 @@
+independent_variables:
+- header: {name: '$p_T$'}
+  values:
+  - {low: 60, high: 90}
+  - {low: 40, high: 60}
+  - {low: 20, high: 40}
+  - {low: 10, high: 20}
+  - {low: 0, high: 10}
+dependent_variables:
+- header: {name: '$p_T>10$ GeV/$c$'}
+  qualifiers:
+  - {name: '$p_T$', value: '$R_{AB}$'}
+  values:
+  - value: 1.175
+    errors:
+    - {symerror: 0.008, label: 'Stat.+Sys. A'}
+    - {symerror: 0.278, label: 'Sys. B'}
+    - {symerror: 0.1, label: 'Sys. C'}
+  - value: 0.837
+    errors:
+    - {symerror: 0.005, label: 'Stat.+Sys. A'}
+    - {symerror: 0.146, label: 'Sys. B'}
+    - {symerror: 0.071, label: 'Sys. C'}
+  - value: 0.566
+    errors:
+    - {symerror: 0.003, label: 'Stat.+Sys. A'}
+    - {symerror: 0.083, label: 'Sys. B'}
+    - {symerror: 0.048, label: 'Sys. C'}
+  - value: 0.423
+    errors:
+    - {symerror: 0.003, label: 'Stat.+Sys. A'}
+    - {symerror: 0.06, label: 'Sys. B'}
+    - {symerror: 0.036, label: 'Sys. C'}
+  - value: 0.356
+    errors:
+    - {symerror: 0.003, label: 'Stat.+Sys. A'}
+    - {symerror: 0.051, label: 'Sys. B'}
+    - {symerror: 0.03, label: 'Sys. C'}
