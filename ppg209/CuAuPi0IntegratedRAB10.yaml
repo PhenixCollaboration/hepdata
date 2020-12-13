@@ -1,0 +1,38 @@
+independent_variables:
+- header: {name: 'centrality'}
+  values:
+  - {low: 60.0000000000, high: 90.0000000000}
+  - {low: 40.0000000000, high: 60.0000000000}
+  - {low: 20.0000000000, high: 40.0000000000}
+  - {low: 10.0000000000, high: 20.0000000000}
+  - {low: 0.0000000000, high: 10.0000000000}
+dependent_variables:
+- header: {name: 'yaxis'}
+  qualifiers:
+  - {name: '$p_T$', value: 'ylabel'}
+  values:
+  - value: 1.0931270000
+    errors:
+    - {symerror: 0.0411652700, label: 'Stat.+Sys. A'}
+    - {symerror: 0.1997397000, label: 'Sys. B'}
+    - {symerror: 0.1997397000, label: 'Sys. C'}
+  - value: 0.8273446000
+    errors:
+    - {symerror: 0.0232206400, label: 'Stat.+Sys. A'}
+    - {symerror: 0.1511751000, label: 'Sys. B'}
+    - {symerror: 0.1511751000, label: 'Sys. C'}
+  - value: 0.6095629000
+    errors:
+    - {symerror: 0.0151255500, label: 'Stat.+Sys. A'}
+    - {symerror: 0.1113813000, label: 'Sys. B'}
+    - {symerror: 0.1113813000, label: 'Sys. C'}
+  - value: 0.4557356000
+    errors:
+    - {symerror: 0.0121960600, label: 'Stat.+Sys. A'}
+    - {symerror: 0.0832734700, label: 'Sys. B'}
+    - {symerror: 0.0832734700, label: 'Sys. C'}
+  - value: 0.3861600000
+    errors:
+    - {symerror: 0.0101074200, label: 'Stat.+Sys. A'}
+    - {symerror: 0.0705603900, label: 'Sys. B'}
+    - {symerror: 0.0705603900, label: 'Sys. C'}
