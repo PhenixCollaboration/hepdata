@@ -1,0 +1,44 @@
+independent_variables:
+- header: {name: 'Cent'}
+  values:
+  - {low: 0, high: 5}
+  - {low: 0, high: 10}
+  - {low: 10, high: 20}
+  - {low: 0, high: 20}
+  - {low: 20, high: 40}
+  - {low: 40, high: 60}
+  - {low: 20, high: 60}
+  - {low: 60, high: 92}
+  - {low: 0, high: 92}
+dependent_variables:
+- header: {name: 'Slope'}
+  qualifiers:
+  - {name: 'Cent', value: ''}
+  values:
+  - value: 0.008
+    errors:
+    - {asymerror: {plus: 0.008, minus: -0.008}, label: 'Slope'}
+  - value: 0.011
+    errors:
+    - {asymerror: {plus: 0.007, minus: -0.007}, label: 'Slope'}
+  - value: 0.01
+    errors:
+    - {asymerror: {plus: 0.009, minus: -0.008}, label: 'Slope'}
+  - value: 0.01
+    errors:
+    - {asymerror: {plus: 0.005, minus: -0.004}, label: 'Slope'}
+  - value: 0.004
+    errors:
+    - {asymerror: {plus: 0.01, minus: -0.01}, label: 'Slope'}
+  - value: 0.01
+    errors:
+    - {asymerror: {plus: 0.018, minus: -0.017}, label: 'Slope'}
+  - value: 0.005
+    errors:
+    - {asymerror: {plus: 0.011, minus: -0.011}, label: 'Slope'}
+  - value: 0.056
+    errors:
+    - {asymerror: {plus: 0.043, minus: -0.038}, label: 'Slope'}
+  - value: 0.006
+    errors:
+    - {asymerror: {plus: 0.007, minus: -0.007}, label: 'Slope'}
