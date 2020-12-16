@@ -1,0 +1,44 @@
+independent_variables:
+- header: {name: 'Cent'}
+  values:
+  - {low: 0, high: 5}
+  - {low: 0, high: 10}
+  - {low: 10, high: 20}
+  - {low: 0, high: 20}
+  - {low: 20, high: 40}
+  - {low: 40, high: 60}
+  - {low: 20, high: 60}
+  - {low: 60, high: 92}
+  - {low: 0, high: 92}
+dependent_variables:
+- header: {name: '${R_{AA}}$'}
+  qualifiers:
+  - {name: 'Cent', value: '(5GeV/c)'}
+  values:
+  - value: 0.202
+    errors:
+    - {asymerror: {plus: 0.038, minus: -0.035}, label: '${R_{AA} (20GeV/c)}$'}
+  - value: 0.178
+    errors:
+    - {asymerror: {plus: 0.032, minus: -0.03}, label: '${R_{AA} (20GeV/c)}$'}
+  - value: 0.256
+    errors:
+    - {asymerror: {plus: 0.043, minus: -0.041}, label: '${R_{AA} (20GeV/c)}$'}
+  - value: 0.206
+    errors:
+    - {asymerror: {plus: 0.034, minus: -0.033}, label: '${R_{AA} (20GeV/c)}$'}
+  - value: 0.387
+    errors:
+    - {asymerror: {plus: 0.063, minus: -0.061}, label: '${R_{AA} (20GeV/c)}$'}
+  - value: 0.629
+    errors:
+    - {asymerror: {plus: 0.117, minus: -0.114}, label: '${R_{AA} (20GeV/c)}$'}
+  - value: 0.44
+    errors:
+    - {asymerror: {plus: 0.072, minus: -0.071}, label: '${R_{AA} (20GeV/c)}$'}
+  - value: 0.961
+    errors:
+    - {asymerror: {plus: 0.268, minus: -0.257}, label: '${R_{AA} (20GeV/c)}$'}
+  - value: 0.278
+    errors:
+    - {asymerror: {plus: 0.044, minus: -0.043}, label: '${R_{AA} (20GeV/c)}$'}
