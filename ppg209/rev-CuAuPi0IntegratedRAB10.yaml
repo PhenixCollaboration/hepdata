@@ -1,0 +1,33 @@
+independent_variables:
+- header: {name: 'centrality'}
+  values:
+  - {low: 60, high: 90}
+  - {low: 40, high: 60}
+  - {low: 20, high: 40}
+  - {low: 10, high: 20}
+  - {low: 0, high: 10}
+dependent_variables:
+- header: {name: 'Integrated nuclear modification factor ($p_T > 10$ GeV/$c$)'}
+  qualifiers:
+  - {name: 'centrality', value: 'Int. $R_{AB}$'}
+  values:
+  - value: 1.093127
+    errors:
+    - {symerror: 0.04116527, label: 'Stat.+Sys.A'}
+    - {symerror: 0.1997397, label: 'Sys.B+C'}
+  - value: 0.8273446
+    errors:
+    - {symerror: 0.02322064, label: 'Stat.+Sys.A'}
+    - {symerror: 0.1511751, label: 'Sys.B+C'}
+  - value: 0.6095629
+    errors:
+    - {symerror: 0.01512555, label: 'Stat.+Sys.A'}
+    - {symerror: 0.1113813, label: 'Sys.B+C'}
+  - value: 0.4557356
+    errors:
+    - {symerror: 0.01219606, label: 'Stat.+Sys.A'}
+    - {symerror: 0.08327347, label: 'Sys.B+C'}
+  - value: 0.38616
+    errors:
+    - {symerror: 0.01010742, label: 'Stat.+Sys.A'}
+    - {symerror: 0.07056039, label: 'Sys.B+C'}
