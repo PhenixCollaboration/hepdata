@@ -19,9 +19,15 @@ See the "examples" folder
 
 ## List of completed uploads
 
-055, 079, 090, 092, 095, 113, 116, 129, 132, 133, 138, 146, 174, 182, 227, 228
+055, 079, 083, 090, 092, 095, 113, 116, 129, 132, 133, 138, 146, 174, 182, 227, 228
+
+Corrections:
+* 083 - under revision as of 01/04/2021
 
 ## In progress/recently finished
 * 182: A.Khatiwada (prep, reviewer): khatiwada.ajeeta@gmail.com - note: finalized
 * 119: K.Smith (prep), Matt - matthew.g.wysocki@gmail.com (reviewer) - note: pending the reviewer's decision
 * 071: K.Smith (prep), Tony - afrawley@fsu.edu(reviewer) - note: existing HEPData item being reviewed for completeness
+* 209: Zharko
+* 115: Dylan
+* 238: TBD

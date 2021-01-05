@@ -1,9 +1,15 @@
+# Scientific notation is included for testing.
+# Note that the numbers will be reflected in the data tables
+# on the HEPData pages identically to what's in this YAML.
+# For that reason, it's best to not mix different notations
+# i.e. if you have 0.001 and then 0.002 either keep it this way
+# or include 1e-3 and 2e-3, as opposed to 1e-3 and 0.002
 dependent_variables:
 - header: {name: '$d\sigma/dM_{\gamma\gamma}$', units: 'mb/MeV'}
   values:
   - errors:
     - {label: total, symerror: 0.005}
-    value: 0.15
+    value: 1.5e-1
   - errors:
     - {label: total, symerror: 0.005}
     value: 0.19
@@ -20,7 +26,7 @@ dependent_variables:
 independent_variables:
 - header: {name: 'Invariant Mass $M_{\gamma\gamma}$', units: 'GeV'}
   values:
-  - {value: 0.1, low: 0.08, high: 0.13}
+  - {value: 1.4e-1, low: 0.08, high: 1.7e-1}
   - {value: 0.2, low: 0.18,  high: 0.22}
   - {value: 0.3, low: 0.27,  high: 0.33}
   - {value: 0.4, low: 0.35,  high: 0.43}
