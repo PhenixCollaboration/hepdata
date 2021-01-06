@@ -1,16 +1,16 @@
 independent_variables:
 - header: {name: '$p_T$'}
   values:
-  - {low: 0.3, high: 0.9}
-  - {low: 0.9, high: 1.6}
-  - {low: 1.6, high: 2.7}
-  - {low: 2.7, high: 3.7}
-  - {low: 3.7, high: 4.7}
-  - {low: 4.7, high: 7.0}
+  - {low: 0.4, high: 1.0}
+  - {low: 1.0, high: 2.0}
+  - {low: 2.0, high: 3.0}
+  - {low: 3.0, high: 4.0}
+  - {low: 4.0, high: 5.0}
+  - {low: 5.0, high: 7.0}
 dependent_variables:
 - header: {name: 'width'}
   qualifiers:
-  - {name: '$p_T$', value: '2<p_T^A<3'}
+  - {name: '$p_T$', value: '2$<p_{T}^{A}<$3 GeV/c'}
   values:
   - value: 0.415
     errors:
@@ -38,7 +38,7 @@ dependent_variables:
     - {symerror: 0.0175, label: 'sys'}
 - header: {name: 'width'}
   qualifiers:
-  - {name: '$p_T$', value: '3<p_T^A<4'}
+  - {name: '$p_T$', value: '3$<p_{T}^{A}<$4 GeV/c'}
   values:
   - value: 0.383
     errors:
@@ -66,7 +66,7 @@ dependent_variables:
     - {symerror: 0.0155, label: 'sys'}
 - header: {name: 'width'}
   qualifiers:
-  - {name: '$p_T$', value: '4<p_T^A<5'}
+  - {name: '$p_T$', value: '4$<p_{T}^{A}<$5 GeV/c'}
   values:
   - value: 0.394
     errors:
@@ -94,7 +94,7 @@ dependent_variables:
     - {symerror: 0.0105, label: 'sys'}
 - header: {name: 'width'}
   qualifiers:
-  - {name: '$p_T$', value: '5<p_T^A<10'}
+  - {name: '$p_T$', value: '5$<p_{T}^{A}<$10 GeV/c'}
   values:
   - value: 0.308
     errors:

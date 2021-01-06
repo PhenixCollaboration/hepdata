@@ -1,43 +1,33 @@
-# InspireHEP: 778396
+# PHENIX paper PPG083, please contact Christine Nattrass if you have any questions about this HEPdata submission
+# InspireHEP ID: 778396
+# PPG liaison: ???
+# IRC reviewer:
 comment: |
-  BNL-RHIC.  Azimuthal angle ($\Delta\phi$) correlations are presented for a broad range of transverse momentum ($0.4 < p_T < 10$ GeV/$c$) and centrality (0-92%) selections for charged hadrons from di-jets in Au$+$Au collisions at $\sqrt{s}_{NN}$ = 200 GeV. With increasing $p_T$, the away-side $\Delta\phi$ distribution evolves from a broad and relatively flat shape to a concave shape, then to a convex shape. Comparisons to p$+$p data suggest that the away-side distribution can be divided into a partially suppressed $\Delta\phi$ region centered at $\pi$, and an enhanced $\Delta\phi$ region centered at $\pi \pm 1.1$. The $p_T$ spectrum for the associated hadrons in the head region softens toward central collisions. The spectral slope for the shoulder region is independent of centrality and trigger $p_T$. The properties of the near-side distributions are also modified relative to those in p$+$p collisions, reflected by the broadening of the jet shape in $\Delta\phi$ and $\Delta\eta$, and an enhancement of the per-trigger yield. However, these modifications seem to be limited to $p_T < 4$ GeV/$c$, above which both the hadron pair shape and per-trigger yield become similar to p+p collisions. These observations suggest that both the away- and near-side distributions contain a jet fragmentation component which dominates for $p_T > 5$ GeV and a medium-induced component which is important for $p_T < 4$ GeV/$c$. We also quantify the role of jets at intermediate and low $p_T$ through the yield of jet-induced pairs in comparison to binary scaled p+p pair yield. The yield of jet-induced pairs is suppressed at high pair proxy energy (sum of the $p_T$ magnitudes of the two hadrons) and is enhanced at low pair proxy energy. The former is consistent with jet quenching; the latter is consistent with the enhancement of soft hadron pairs due to transport of lost energy to lower $p_T$.
+  BNL-RHIC. Azimuthal angle ($\Delta\phi$) correlations are presented for a broad range of transverse momentum ($0.4 < p_{\rm T} < 10$~GeV/$c$) and centrality (0-92%) selections for charged hadrons from di-jets in Au+Au collisions at $\sqrt{s_{\rm{NN}}}$ = 200 GeV. With increasing $p_{\rm T}$, the away-side $\Delta\phi$ distribution evolves from a broad and relatively flat shape to a concave shape, then to a convex shape. Comparisons to $p+p$ data suggest that the away-side distribution can be divided into a partially suppressed "head" region centered at $\Delta\phi\sim\pi$, and an enhanced "shoulder" region centered at $\Delta\phi\sim \pi\pm 1.1$. The $p_{\rm T}$ spectrum for the associated hadrons in the head region softens toward central collisions. The spectral slope for the shoulder region is independent of centrality and trigger $p_{\rm T}$. The properties of the near-side distributions are also modified relative to those in $p+p$ collisions, reflected by the broadening of the jet shape in $\Delta\phi$ and $\Delta\eta$, and an enhancement of the per-trigger yield. However, these modifications seem to be limited to $p_{\rm T}\lesssim4$ GeV/$c$, above which both the hadron pair shape and per-trigger yield become similar to $p+p$ collisions. These observations suggest that both the away- and near-side distributions contain a jet fragmentation component which dominates for $p_{\rm T}\gtrsim5$ GeV and a medium-induced component which is important for $p_{\rm T}\lesssim4$ GeV/$c$. We also quantify the role of jets at intermediate and low $p_{\rm T}$ through the yield of jet-induced pairs in comparison to binary scaled $p+p$ pair yield. The yield of jet-induced pairs is suppressed at high pair proxy energy (sum of the $p_{\rm T}$ magnitudes of the two hadrons) and is enhanced at low pair proxy energy. The former is consistent with jet quenching; the latter is consistent with the enhancement of soft hadron pairs due to transport of lost energy to lower $p_{\rm T}$.
 additional_resources:
  - {location: "https://arxiv.org/abs/0801.4545", description: "paper"}
  - {location: "https://inspirehep.net/literature/778396", description: "paper"}
 ---
-name: "Figure 4, 2 - 3 GeV/$c$"
-description: 'The 0-20% Au+Au jet-induced hadron-pair yield $\Delta\phi$ distributions calculated from the per-trigger yield using low-$p_T$ hadrons as triggers and high-$p_T$ hadrons as triggers. Data for 2 - 3 GeV/$c$.'
-keywords:
-  - {name: reactions, values: [AU AU --> CHARGED X]}
-  - {name: cmenergies, values: [200.0]}
-data_file: fig4_2_3.yaml
----
-name: "Figure 4, 3 - 4 GeV/$c$"
-description: 'The 0-20% Au+Au jet-induced hadron-pair yield $\Delta\phi$ distributions calculated from the per-trigger yield using low-$p_T$ hadrons as triggers and high-$p_T$ hadrons as triggers. Data for 3 - 4 GeV/$c$.'
-keywords:
-  - {name: reactions, values: [AU AU --> CHARGED X]}
-  - {name: cmenergies, values: [200.0]}
-data_file: fig4_3_4.yaml
----
-name: "Figure 4, 4 - 5 GeV/$c$"
-description: 'The 0-20% Au+Au jet-induced hadron-pair yield $\Delta\phi$ distributions calculated from the per-trigger yield using low-$p_T$ hadrons as triggers and high-$p_T$ hadrons as triggers. Data for 4 - 5 GeV/$c$.'
-keywords:
-  - {name: reactions, values: [AU AU --> CHARGED X]}
-  - {name: cmenergies, values: [200.0]}
-data_file: fig4_4_5.yaml
----
 name: "Figure 6, pp, part 2/2"
 description: 'Per-trigger yield versus $\Delta\phi$ for various trigger and partner $p_T$ ($p^a_T \otimes p^b_T$), arranged by increasing pair proxy energy (sum of $p^a_T$ and $p^b_T$), in p + p collisions for 5-10 $\otimes$ 2-3, 4-5 $\otimes$ 4-5, 5-10 $\otimes$ 3-5, and 5-10 $\otimes$ 5-10 GeV/c.'
 keywords:
-  - {name: reactions, values: [AU AU --> CHARGED X]}
+  - {name: reactions, values: [P P --> CHARGED X]}
   - {name: cmenergies, values: [200.0]}
+  - {name: phrases, values: [ppg083, correlations]}
+additional_resources:
+  - {location: thumb_cyield.png, description: Thumbnail Image file}
+  - {location: cyield.png, description: Image file}
 data_file: cyield_pp_1.yaml
 ---
 name: "Figure 6, pp, part 1/2"
 description: 'Per-trigger yield versus $\Delta\phi$ for various trigger and partner $p_T$ ($p^a_T \otimes p^b_T$), arranged by increasing pair proxy energy (sum of $p^a_T$ and $p^b_T$), in p + p collisions for 3-4 $\otimes$ 0.4-1, 3-4 $\otimes$ 1-2, 3-4 $\otimes$ 2-3, and 3-4 $\otimes$ 3-4 GeV/c.'
 keywords:
-  - {name: reactions, values: [AU AU --> CHARGED X]}
+  - {name: reactions, values: [P P --> CHARGED X]}
   - {name: cmenergies, values: [200.0]}
+  - {name: phrases, values: [ppg083, correlations]}
+additional_resources:
+  - {location: thumb_cyield.png, description: Thumbnail Image file}
+  - {location: cyield.png, description: Image file}
 data_file: cyield_pp_2.yaml
 ---
 name: "Figure 6, AuAu, part 1/2"
@@ -45,6 +35,10 @@ description: 'Per-trigger yield versus $\Delta\phi$ for various trigger and part
 keywords:
   - {name: reactions, values: [AU AU --> CHARGED X]}
   - {name: cmenergies, values: [200.0]}
+  - {name: phrases, values: [ppg083, correlations]}
+additional_resources:
+  - {location: thumb_cyield.png, description: Thumbnail Image file}
+  - {location: cyield.png, description: Image file}
 data_file: cyield_auau_1.yaml
 ---
 name: "Figure 6, AuAu, part 2/2"
@@ -52,13 +46,21 @@ description: 'Per-trigger yield versus $\Delta\phi$ for various trigger and part
 keywords:
   - {name: reactions, values: [AU AU --> CHARGED X]}
   - {name: cmenergies, values: [200.0]}
+  - {name: phrases, values: [ppg083, correlations]}
+additional_resources:
+  - {location: thumb_cyield.png, description: Thumbnail Image file}
+  - {location: cyield.png, description: Image file}
 data_file: cyield_auau_2.yaml
 ---
 name: "Figure 7, p + p collisions"
 description: 'RHS versus $p^b_T$ for p + p collisions for four trigger selections. '
 keywords:
-  - {name: reactions, values: [AU AU --> CHARGED X]}
+  - {name: reactions, values: [P P --> CHARGED X]}
   - {name: cmenergies, values: [200.0]}
+  - {name: phrases, values: [ppg083, correlations]}
+additional_resources:
+  - {location: thumb_rhs1.png, description: Thumbnail Image file}
+  - {location: rhs1.png, description: Image file}
 data_file: rhs1_pp.yaml
 ---
 name: "Figure 7, Au + Au collisions"
@@ -87,6 +89,10 @@ description: 'RHS versus $N_{part}$ for 2-3 $\otimes$ 2-3 GeV/$c$. Shaded bars (
 keywords:
   - {name: reactions, values: [AU AU --> CHARGED X]}
   - {name: cmenergies, values: [200.0]}
+  - {name: phrases, values: [ppg083, correlations]}
+additional_resources:
+  - {location: thumb_rhscent.png, description: Thumbnail Image file}
+  - {location: rhscent.png, description: Image file}
 data_file: rhscent_.yaml
 ---
 name: "Figure 9"
@@ -94,20 +100,32 @@ description: 'Per-trigger yield $\Delta\phi$ distribution and corresponding fits
 keywords:
   - {name: reactions, values: [AU AU --> CHARGED X]}
   - {name: cmenergies, values: [200.0]}
+  - {name: phrases, values: [ppg083, correlations]}
+additional_resources:
+  - {location: thumb_compfit0.png, description: Thumbnail Image file}
+  - {location: compfit0.png, description: Image file}
 data_file: fig9_.yaml
 ---
 name: "Figure 10"
-description: 'a) D versus $N_{part}$ from FIT 1 and FIT2 for 2 - 3 GeV/$c$ bin. The error bars are the statistical errors; The shaded bars and brackets are the systematic errors due to $v_2$. b) The fraction of the shoulder Gaussian yield relative to the total away-side yield as function of $N_{part}$ determined from FIT2.'
+description: 'a) D versus centrality from FIT 1 and FIT2 for 2 - 3 GeV/$c$ bin. The error bars are the statistical errors; The shaded bars and brackets are the systematic errors due to $v_2$. b) The fraction of the shoulder Gaussian yield relative to the total away-side yield as function of centrality determined from FIT2.'
 keywords:
   - {name: reactions, values: [AU AU --> CHARGED X]}
   - {name: cmenergies, values: [200.0]}
-data_file: compfit1a_.yaml
+  - {name: phrases, values: [ppg083, correlations]}
+additional_resources:
+  - {location: thumb_compfit1a.png, description: Thumbnail Image file}
+  - {location: compfit1a.png, description: Image file}
+data_file: compfit1a.yaml
 ---
 name: "Figure 11, FIT1, 2-3"
 description: 'Values of D determined from FIT1 as function of partner $p_T$ for 2-3 GeV/c $p_T$ range in 0-20% Au+Au.'
 keywords:
   - {name: reactions, values: [AU AU --> CHARGED X]}
   - {name: cmenergies, values: [200.0]}
+  - {name: phrases, values: [ppg083, correlations]}
+additional_resources:
+  - {location: thumb_compfit4.png, description: Thumbnail Image file}
+  - {location: compfit4.png, description: Image file}
 data_file: compfit4_FIT1_2_3.yaml
 ---
 name: "Figure 11, FIT1, 3-4"
@@ -115,6 +133,10 @@ description: 'Values of D determined from FIT1 as function of partner $p_T$ for 
 keywords:
   - {name: reactions, values: [AU AU --> CHARGED X]}
   - {name: cmenergies, values: [200.0]}
+  - {name: phrases, values: [ppg083, correlations]}
+additional_resources:
+  - {location: thumb_compfit4.png, description: Thumbnail Image file}
+  - {location: compfit4.png, description: Image file}
 data_file: compfit4_FIT1_3_4.yaml
 ---
 name: "Figure 11, FIT1, 4-5"
@@ -122,6 +144,10 @@ description: 'Values of D determined from FIT1 as function of partner $p_T$ for 
 keywords:
   - {name: reactions, values: [AU AU --> CHARGED X]}
   - {name: cmenergies, values: [200.0]}
+  - {name: phrases, values: [ppg083, correlations]}
+additional_resources:
+  - {location: thumb_compfit4.png, description: Thumbnail Image file}
+  - {location: compfit4.png, description: Image file}
 data_file: compfit4_FIT1_4_5.yaml
 ---
 name: "Figure 11, FIT2, 2-3"
@@ -129,6 +155,10 @@ description: 'Values of D determined from FIT2 as function of partner $p_T$ for 
 keywords:
   - {name: reactions, values: [AU AU --> CHARGED X]}
   - {name: cmenergies, values: [200.0]}
+  - {name: phrases, values: [ppg083, correlations]}
+additional_resources:
+  - {location: thumb_compfit4.png, description: Thumbnail Image file}
+  - {location: compfit4.png, description: Image file}
 data_file: compfit4_FIT2_2_3.yaml
 ---
 name: "Figure 11, FIT2, 3-4"
@@ -136,6 +166,10 @@ description: 'Values of D determined from FIT2 as function of partner $p_T$ for 
 keywords:
   - {name: reactions, values: [AU AU --> CHARGED X]}
   - {name: cmenergies, values: [200.0]}
+  - {name: phrases, values: [ppg083, correlations]}
+additional_resources:
+  - {location: thumb_compfit4.png, description: Thumbnail Image file}
+  - {location: compfit4.png, description: Image file}
 data_file: compfit4_FIT2_3_4.yaml
 ---
 name: "Figure 11, FIT2, 4-5"
@@ -143,6 +177,10 @@ description: 'Values of D determined from FIT2 as function of partner $p_T$ for 
 keywords:
   - {name: reactions, values: [AU AU --> CHARGED X]}
   - {name: cmenergies, values: [200.0]}
+  - {name: phrases, values: [ppg083, correlations]}
+additional_resources:
+  - {location: thumb_compfit4.png, description: Thumbnail Image file}
+  - {location: compfit4.png, description: Image file}
 data_file: compfit4_FIT2_4_5.yaml
 ---
 name: "Figure 12, 0-20%, head"
@@ -151,6 +189,10 @@ GeV/c are shown.'
 keywords:
   - {name: reactions, values: [AU AU --> CHARGED X]}
   - {name: cmenergies, values: [200.0]}
+  - {name: phrases, values: [ppg083, correlations]}
+additional_resources:
+  - {location: thumb_spectraaway.png, description: Thumbnail Image file}
+  - {location: spectraaway.png, description: Image file}
 data_file: yield_head_0_20.yaml
 ---
 name: "Figure 12, 20-40%, head"
@@ -158,6 +200,10 @@ description: 'Per-trigger yield as function of partner $p_T$ for the HR region f
 keywords:
   - {name: reactions, values: [AU AU --> CHARGED X]}
   - {name: cmenergies, values: [200.0]}
+  - {name: phrases, values: [ppg083, correlations]}
+additional_resources:
+  - {location: thumb_spectraaway.png, description: Thumbnail Image file}
+  - {location: spectraaway.png, description: Image file}
 data_file: yield_head_20_40.yaml
 ---
 name: "Figure 12, 40-60%, head"
@@ -165,6 +211,10 @@ description: 'Per-trigger yield as function of partner $p_T$ for the HR region f
 keywords:
   - {name: reactions, values: [AU AU --> CHARGED X]}
   - {name: cmenergies, values: [200.0]}
+  - {name: phrases, values: [ppg083, correlations]}
+additional_resources:
+  - {location: thumb_spectraaway.png, description: Thumbnail Image file}
+  - {location: spectraaway.png, description: Image file}
 data_file: yield_head_40_60.yaml
 ---
 name: "Figure 12, 60-92%, head"
@@ -172,13 +222,21 @@ description: 'Per-trigger yield as function of partner $p_T$ for the HR region f
 keywords:
   - {name: reactions, values: [AU AU --> CHARGED X]}
   - {name: cmenergies, values: [200.0]}
+  - {name: phrases, values: [ppg083, correlations]}
+additional_resources:
+  - {location: thumb_spectraaway.png, description: Thumbnail Image file}
+  - {location: spectraaway.png, description: Image file}
 data_file: yield_head_60_92.yaml
 ---
 name: "Figure 12, p + p, head"
 description: 'Per-trigger yield as function of partner $p_T$ for the HR region for the p + p collisions. Results for four trigger pT in 2-3, 3-4, 4-5, 5-10 GeV/c are shown.'
 keywords:
-  - {name: reactions, values: [AU AU --> CHARGED X]}
+  - {name: reactions, values: [P P --> CHARGED X]}
   - {name: cmenergies, values: [200.0]}
+  - {name: phrases, values: [ppg083, correlations]}
+additional_resources:
+  - {location: thumb_spectraaway.png, description: Thumbnail Image file}
+  - {location: spectraaway.png, description: Image file}
 data_file: yield_head_pp.yaml
 ---
 name: "Figure 12, 0-20%, shoulder"
@@ -186,6 +244,10 @@ description: 'Per-trigger yield as function of partner $p_T$ for the SR region f
 keywords:
   - {name: reactions, values: [AU AU --> CHARGED X]}
   - {name: cmenergies, values: [200.0]}
+  - {name: phrases, values: [ppg083, correlations]}
+additional_resources:
+  - {location: thumb_spectraaway.png, description: Thumbnail Image file}
+  - {location: spectraaway.png, description: Image file}
 data_file: yield_shoulder_0_20.yaml
 ---
 name: "Figure 12, 20-40%, shoulder"
@@ -193,6 +255,10 @@ description: 'Per-trigger yield as function of partner $p_T$ for the SR region f
 keywords:
   - {name: reactions, values: [AU AU --> CHARGED X]}
   - {name: cmenergies, values: [200.0]}
+  - {name: phrases, values: [ppg083, correlations]}
+additional_resources:
+  - {location: thumb_spectraaway.png, description: Thumbnail Image file}
+  - {location: spectraaway.png, description: Image file}
 data_file: yield_shoulder_20_40.yaml
 ---
 name: "Figure 12, 40-60%, shoulder"
@@ -200,6 +266,10 @@ description: 'Per-trigger yield as function of partner $p_T$ for the SR region f
 keywords:
   - {name: reactions, values: [AU AU --> CHARGED X]}
   - {name: cmenergies, values: [200.0]}
+  - {name: phrases, values: [ppg083, correlations]}
+additional_resources:
+  - {location: thumb_spectraaway.png, description: Thumbnail Image file}
+  - {location: spectraaway.png, description: Image file}
 data_file: yield_shoulder_40_60.yaml
 ---
 name: "Figure 12, 60-92%, shoulder"
@@ -207,13 +277,21 @@ description: 'Per-trigger yield as function of partner $p_T$ for the SR region f
 keywords:
   - {name: reactions, values: [AU AU --> CHARGED X]}
   - {name: cmenergies, values: [200.0]}
+  - {name: phrases, values: [ppg083, correlations]}
+additional_resources:
+  - {location: thumb_spectraaway.png, description: Thumbnail Image file}
+  - {location: spectraaway.png, description: Image file}
 data_file: yield_shoulder_60_92.yaml
 ---
 name: "Figure 12, p + p, shoulder"
 description: 'Per-trigger yield as function of partner $p_T$ for the SR region for the p + p collisions. Results for four trigger pT in 2-3, 3-4, 4-5, 5-10 GeV/c are shown.'
 keywords:
-  - {name: reactions, values: [AU AU --> CHARGED X]}
+  - {name: reactions, values: [P P --> CHARGED X]}
   - {name: cmenergies, values: [200.0]}
+  - {name: phrases, values: [ppg083, correlations]}
+additional_resources:
+  - {location: thumb_spectraaway.png, description: Thumbnail Image file}
+  - {location: spectraaway.png, description: Image file}
 data_file: yield_shoulder_pp.yaml
 ---
 name: "Figure 16, Au + Au"
@@ -221,13 +299,21 @@ description: 'Near-side Gaussian widths versus partner $p_T$ for four trigger $p
 keywords:
   - {name: reactions, values: [AU AU --> CHARGED X]}
   - {name: cmenergies, values: [200.0]}
+  - {name: phrases, values: [ppg083, correlations]}
+additional_resources:
+  - {location: thumb_nearsidept.png, description: Thumbnail Image file}
+  - {location: nearsidept.png, description: Image file}
 data_file: nearsidept_auau.yaml
 ---
 name: "Figure 16, p + p"
 description: 'Near-side Gaussian widths versus partner $p_T$ for four trigger $p_T$ ranges for 0-20 % p + p.'
 keywords:
-  - {name: reactions, values: [AU AU --> CHARGED X]}
+  - {name: reactions, values: [P P --> CHARGED X]}
   - {name: cmenergies, values: [200.0]}
+  - {name: phrases, values: [ppg083, correlations]}
+additional_resources:
+  - {location: thumb_nearsidept.png, description: Thumbnail Image file}
+  - {location: nearsidept.png, description: Image file}
 data_file: nearsidept_pp.yaml
 ---
 name: "Figure 17"
@@ -235,13 +321,21 @@ description: 'Near-side Gaussian widths versus $N_{part}$ for five successively 
 keywords:
   - {name: reactions, values: [AU AU --> CHARGED X]}
   - {name: cmenergies, values: [200.0]}
+  - {name: phrases, values: [ppg083, correlations]}
+additional_resources:
+  - {location: thumb_compfit3b.png, description: Thumbnail Image file}
+  - {location: compfit3b.png, description: Image file}
 data_file: nearwidthcent_.yaml
 ---
 name: "Figure 18, p + p, near-side"
 description: 'Near-side yield in $\lvert \Delta\phi \rvert$ < $\pi$/3 versus partner $p_T$ for four trigger $p_T$ selections for 0-20% p + p.'
 keywords:
-  - {name: reactions, values: [AU AU --> CHARGED X]}
+  - {name: reactions, values: [P P --> CHARGED X]}
   - {name: cmenergies, values: [200.0]}
+  - {name: phrases, values: [ppg083, correlations]}
+additional_resources:
+  - {location: thumb_spectranear.png, description: Thumbnail Image file}
+  - {location: spectranear.png, description: Image file}
 data_file: yield_nearside_pp.yaml
 ---
 name: "Figure 18, 0-20%, near-side"
@@ -249,20 +343,65 @@ description: 'Near-side yield in $\lvert \Delta\phi \rvert$ < $\pi$/3 versus par
 keywords:
   - {name: reactions, values: [AU AU --> CHARGED X]}
   - {name: cmenergies, values: [200.0]}
+  - {name: phrases, values: [ppg083, correlations]}
+additional_resources:
+  - {location: thumb_spectranear.png, description: Thumbnail Image file}
+  - {location: spectranear.png, description: Image file}
 data_file: yield_nearside_0_20.yaml
+---
+name: "Figure 18 Supplemental, 20-40%, near-side"
+description: 'Near-side yield in $\lvert \Delta\phi \rvert$ < $\pi$/3 versus partner $p_T$ for four trigger $p_T$ selections for 0-20% Au + Au.'
+keywords:
+  - {name: reactions, values: [AU AU --> CHARGED X]}
+  - {name: cmenergies, values: [200.0]}
+  - {name: phrases, values: [ppg083, correlations]}
+additional_resources:
+  - {location: thumb_spectranear.png, description: Thumbnail Image file}
+  - {location: spectranear.png, description: Image file}
+data_file: yield_nearside_20_40.yaml
+---
+name: "Figure 18 Supplemental, 40-60%, near-side"
+description: 'Near-side yield in $\lvert \Delta\phi \rvert$ < $\pi$/3 versus partner $p_T$ for four trigger $p_T$ selections for 0-20% Au + Au.'
+keywords:
+  - {name: reactions, values: [AU AU --> CHARGED X]}
+  - {name: cmenergies, values: [200.0]}
+  - {name: phrases, values: [ppg083, correlations]}
+additional_resources:
+  - {location: thumb_spectranear.png, description: Thumbnail Image file}
+  - {location: spectranear.png, description: Image file}
+data_file: yield_nearside_40_60.yaml
+---
+name: "Figure 18 Supplemental, 60-92%, near-side"
+description: 'Near-side yield in $\lvert \Delta\phi \rvert$ < $\pi$/3 versus partner $p_T$ for four trigger $p_T$ selections for 0-20% Au + Au.'
+keywords:
+  - {name: reactions, values: [AU AU --> CHARGED X]}
+  - {name: cmenergies, values: [200.0]}
+  - {name: phrases, values: [ppg083, correlations]}
+additional_resources:
+  - {location: thumb_spectranear.png, description: Thumbnail Image file}
+  - {location: spectranear.png, description: Image file}
+data_file: yield_nearside_60_92.yaml
 ---
 name: "Figure 23, AuAu"
 description: 'Per-trigger yield versus $\Delta\eta$ for 0-20% central Au + Au collisions. Results are shown for four $p^a_T \otimes p^b_T$ selections as indicated.'
 keywords:
   - {name: reactions, values: [AU AU --> CHARGED X]}
   - {name: cmenergies, values: [200.0]}
+  - {name: phrases, values: [ppg083, correlations]}
+additional_resources:
+  - {location: thumb_etacomp.png, description: Thumbnail Image file}
+  - {location: etacomp.png, description: Image file}
 data_file: detaauaupp_auau_.yaml
 ---
 name: "Figure 23, pp"
 description: 'Per-trigger yield versus $\Delta\eta$ for 0-20% central p + p collisions. Results are shown for four $p^a_T \otimes p^b_T$ selections as indicated.'
 keywords:
-  - {name: reactions, values: [AU AU --> CHARGED X]}
+  - {name: reactions, values: [P P --> CHARGED X]}
   - {name: cmenergies, values: [200.0]}
+  - {name: phrases, values: [ppg083, correlations]}
+additional_resources:
+  - {location: thumb_etacomp.png, description: Thumbnail Image file}
+  - {location: etacomp.png, description: Image file}
 data_file: detaauaupp_pp_.yaml
 ---
 name: "Figure 24, eta"
@@ -270,6 +409,10 @@ description: 'The projection of 2-D per-trigger yield in $\lvert \Delta\eta \rve
 keywords:
   - {name: reactions, values: [AU AU --> CHARGED X]}
   - {name: cmenergies, values: [200.0]}
+  - {name: phrases, values: [ppg083, correlations]}  
+additional_resources:
+  - {location: thumb_phieta.png, description: Thumbnail Image file}
+  - {location: phieta.png, description: Image file}
 data_file: dphieta_eta.yaml
 ---
 name: "Figure 24, phi"
@@ -277,48 +420,131 @@ description: 'The projection of 2-D per-trigger yield in $\lvert \Delta\eta \rve
 keywords:
   - {name: reactions, values: [AU AU --> CHARGED X]}
   - {name: cmenergies, values: [200.0]}
+  - {name: phrases, values: [ppg083, correlations]}
+additional_resources:
+  - {location: thumb_phieta.png, description: Thumbnail Image file}
+  - {location: phieta.png, description: Image file} 
 data_file: dphieta_eta.yaml
 ---
-name: "Figure 25, head"
-description: 'Truncated mean $p_T$, $\langle p_T \rangle$, in 1 <pbT < 5 GeV/c versus $N_{part}$ for the head region for Au + Au and p + p for four trigger $p_T$ bins.'
+name: "Figure 25, head Au+Au"
+description: 'Truncated mean $p_T$, $\langle p_T \rangle$, in 1 <pbT < 5 GeV/c versus centrality for the head region for Au + Au for four trigger $p_T$ bins.'
 keywords:
   - {name: reactions, values: [AU AU --> CHARGED X]}
   - {name: cmenergies, values: [200.0]}
+  - {name: phrases, values: [ppg083, correlations]}
+additional_resources:
+  - {location: thumb_slope1.png, description: Thumbnail Image file}
+  - {location: slope1.png, description: Image file}
 data_file: slope1_awayhead.yaml
 ---
-name: "Figure 25, away-side shoulder"
-description: 'Truncated mean $p_T$, $\langle p_T \rangle$, in 1 <pbT < 5 GeV/c versus $N_{part}$ for the away-side shoulder region for Au + Au and p + p for four trigger $p_T$ bins.'
+name: "Figure 25, away-side shoulder Au+Au"
+description: 'Truncated mean $p_T$, $\langle p_T \rangle$, in 1 <pbT < 5 GeV/c versus centrality for the away-side shoulder region for Au + Au for four trigger $p_T$ bins.'
 keywords:
   - {name: reactions, values: [AU AU --> CHARGED X]}
   - {name: cmenergies, values: [200.0]}
+  - {name: phrases, values: [ppg083, correlations]}
+additional_resources:
+  - {location: thumb_slope1.png, description: Thumbnail Image file}
+  - {location: slope1.png, description: Image file}
 data_file: slope1_awayshoulder.yaml
 ---
-name: "Figure 25, near-side"
-description: 'Truncated mean $p_T$, $\langle p_T \rangle$, in 1 <pbT < 5 GeV/c versus $N_{part}$ for the near-side region for Au + Au and p + p for four trigger $p_T$ bins.'
+name: "Figure 25, near-side Au+Au"
+description: 'Truncated mean $p_T$, $\langle p_T \rangle$, in 1 <pbT < 5 GeV/c versus centrality for the near-side region for Au + Au for four trigger $p_T$ bins.'
 keywords:
   - {name: reactions, values: [AU AU --> CHARGED X]}
   - {name: cmenergies, values: [200.0]}
+  - {name: phrases, values: [ppg083, correlations]}  
+additional_resources:
+  - {location: thumb_slope1.png, description: Thumbnail Image file}
+  - {location: slope1.png, description: Image file}
 data_file: slope1_nearside.yaml
 ---
-name: "Figure 26, 3-4 GeV/c"
+name: "Figure 25, head p+p"
+description: 'Truncated mean $p_T$, $\langle p_T \rangle$, in 1 <pbT < 5 GeV/c versus centrality for the head region for p + p for four trigger $p_T$ bins.'
+keywords:
+  - {name: reactions, values: [P P --> CHARGED X]}
+  - {name: cmenergies, values: [200.0]}
+  - {name: phrases, values: [ppg083, correlations]}
+additional_resources:
+  - {location: thumb_slope1.png, description: Thumbnail Image file}
+  - {location: slope1.png, description: Image file}
+data_file: slope1_awayheadpp.yaml
+---
+name: "Figure 25, away-side shoulder p+p"
+description: 'Truncated mean $p_T$, $\langle p_T \rangle$, in 1 <pbT < 5 GeV/c versus centrality for the away-side shoulder region for p + p for four trigger $p_T$ bins.'
+keywords:
+  - {name: reactions, values: [P P --> CHARGED X]}
+  - {name: cmenergies, values: [200.0]}
+  - {name: phrases, values: [ppg083, correlations]}
+additional_resources:
+  - {location: thumb_slope1.png, description: Thumbnail Image file}
+  - {location: slope1.png, description: Image file}
+data_file: slope1_awayshoulderpp.yaml
+---
+name: "Figure 25, near-side p+p"
+description: 'Truncated mean $p_T$, $\langle p_T \rangle$, in 1 <pbT < 5 GeV/c versus centrality for the near-side region for p + p for four trigger $p_T$ bins.'
+keywords:
+  - {name: reactions, values: [P P --> CHARGED X]}
+  - {name: cmenergies, values: [200.0]}
+  - {name: phrases, values: [ppg083, correlations]}  
+additional_resources:
+  - {location: thumb_slope1.png, description: Thumbnail Image file}
+  - {location: slope1.png, description: Image file}
+data_file: slope1_nearsidepp.yaml
+---
+name: "Figure 26, 3-4 GeV/c Au+Au"
 description: 'Truncated mean $p_T$, $\langle p_T \rangle$, calculated for five partner pT ranges in the HR. Results for triggers in 3-4 GeV/c.'
 keywords:
   - {name: reactions, values: [AU AU --> CHARGED X]}
   - {name: cmenergies, values: [200.0]}
+  - {name: phrases, values: [ppg083, correlations]}
+additional_resources:
+  - {location: thumb_slope2.png, description: Thumbnail Image file}
+  - {location: slope2.png, description: Image file}
 data_file: slope2_3_4.yaml
 ---
-name: "Figure 26, 4-5 GeV/c"
+name: "Figure 26, 4-5 GeV/c Au+Au"
 description: 'Truncated mean $p_T$, $\langle p_T \rangle$, calculated for five partner pT ranges in the HR. Results for triggers in 4-5 GeV/c.'
 keywords:
   - {name: reactions, values: [AU AU --> CHARGED X]}
   - {name: cmenergies, values: [200.0]}
+  - {name: phrases, values: [ppg083, correlations]} 
+additional_resources:
+  - {location: thumb_slope2.png, description: Thumbnail Image file}
+  - {location: slope2.png, description: Image file} 
 data_file: slope2_4_5.yaml
 ---
-name: "Figure 28"
+name: "Figure 26, 3-4 GeV/c p+p"
+description: 'Truncated mean $p_T$, $\langle p_T \rangle$, calculated for five partner pT ranges in the HR. Results for triggers in 3-4 GeV/c.'
+keywords:
+  - {name: reactions, values: [P P --> CHARGED X]}
+  - {name: cmenergies, values: [200.0]}
+  - {name: phrases, values: [ppg083, correlations]}
+additional_resources:
+  - {location: thumb_slope2.png, description: Thumbnail Image file}
+  - {location: slope2.png, description: Image file}
+data_file: slope2_3_4pp.yaml
+---
+name: "Figure 26, 4-5 GeV/c p+p"
+description: 'Truncated mean $p_T$, $\langle p_T \rangle$, calculated for five partner pT ranges in the HR. Results for triggers in 4-5 GeV/c.'
+keywords:
+  - {name: reactions, values: [P P --> CHARGED X]}
+  - {name: cmenergies, values: [200.0]}
+  - {name: phrases, values: [ppg083, correlations]} 
+additional_resources:
+  - {location: thumb_slope2.png, description: Thumbnail Image file}
+  - {location: slope2.png, description: Image file} 
+data_file: slope2_4_5pp.yaml
+---
+name: "Figure 28 0-20% Au+Au"
 description: 'The near-side pair suppression factor $J_{AA}$ in 0-20% Au + Au collisions as function of $p^b_T$ for various ranges of $p^a_T$.'
 keywords:
   - {name: reactions, values: [AU AU --> CHARGED X]}
   - {name: cmenergies, values: [200.0]}
+  - {name: phrases, values: [ppg083, correlations]}
+additional_resources:
+  - {location: thumb_jaa020a.png, description: Thumbnail Image file}
+  - {location: jaa020a.png, description: Image file} 
 data_file: jaa_nearside_0_20.yaml
 ---
 name: "Figure 30, 20-40%"
@@ -326,6 +552,10 @@ description: 'The near-side $J_{AA}$ as function of $p^b_T$ and $p^{sum}_T$ for 
 keywords:
   - {name: reactions, values: [AU AU --> CHARGED X]}
   - {name: cmenergies, values: [200.0]}
+  - {name: phrases, values: [ppg083, correlations]}
+additional_resources:
+  - {location: thumb_jaacent.png, description: Thumbnail Image file}
+  - {location: jaacent.png, description: Image file} 
 data_file: jaa_nearside_20_40.yaml
 ---
 name: "Figure 30, 40-60%"
@@ -333,6 +563,10 @@ description: 'The near-side $J_{AA}$ as function of $p^b_T$ and $p^{sum}_T$ for 
 keywords:
   - {name: reactions, values: [AU AU --> CHARGED X]}
   - {name: cmenergies, values: [200.0]}
+  - {name: phrases, values: [ppg083, correlations]}
+additional_resources:
+  - {location: thumb_jaacent.png, description: Thumbnail Image file}
+  - {location: jaacent.png, description: Image file} 
 data_file: jaa_nearside_40_60.yaml
 ---
 name: "Figure 30, 60-92%"
@@ -340,6 +574,10 @@ description: 'The near-side $J_{AA}$ as function of $p^b_T$ and $p^{sum}_T$ for 
 keywords:
   - {name: reactions, values: [AU AU --> CHARGED X]}
   - {name: cmenergies, values: [200.0]}
+  - {name: phrases, values: [ppg083, correlations]}
+additional_resources:
+  - {location: thumb_jaacent.png, description: Thumbnail Image file}
+  - {location: jaacent.png, description: Image file} 
 data_file: jaa_nearside_60_92.yaml
 ---
 name: "Figure 31, 0-20%, away-side"
@@ -347,6 +585,10 @@ description: 'The pair suppression factor $J_{AA}$ for the away-side HR in 0-20%
 keywords:
   - {name: reactions, values: [AU AU --> CHARGED X]}
   - {name: cmenergies, values: [200.0]}
+  - {name: phrases, values: [ppg083, correlations]}
+additional_resources:
+  - {location: thumb_jaacenthr.png, description: Thumbnail Image file}
+  - {location: jaacenthr.png, description: Image file} 
 data_file: jaa_awayside_0_20.yaml
 ---
 name: "Figure 31, 20-40%, away-side"
@@ -354,6 +596,10 @@ description: 'The pair suppression factor $J_{AA}$ for the away-side HR in 20-40
 keywords:
   - {name: reactions, values: [AU AU --> CHARGED X]}
   - {name: cmenergies, values: [200.0]}
+  - {name: phrases, values: [ppg083, correlations]}
+additional_resources:
+  - {location: thumb_jaacenthr.png, description: Thumbnail Image file}
+  - {location: jaacenthr.png, description: Image file} 
 data_file: jaa_awayside_20_40.yaml
 ---
 name: "Figure 31, 40-60%, away-side"
@@ -361,6 +607,10 @@ description: 'The pair suppression factor $J_{AA}$ for the away-side HR in 40-60
 keywords:
   - {name: reactions, values: [AU AU --> CHARGED X]}
   - {name: cmenergies, values: [200.0]}
+  - {name: phrases, values: [ppg083, correlations]}
+additional_resources:
+  - {location: thumb_jaacenthr.png, description: Thumbnail Image file}
+  - {location: jaacenthr.png, description: Image file} 
 data_file: jaa_awayside_40_60.yaml
 ---
 name: "Figure 31, 60-92%, away-side"
@@ -368,6 +618,10 @@ description: 'The pair suppression factor $J_{AA}$ for the away-side HR in 60-92
 keywords:
   - {name: reactions, values: [AU AU --> CHARGED X]}
   - {name: cmenergies, values: [200.0]}
+  - {name: phrases, values: [ppg083, correlations]}
+additional_resources:
+  - {location: thumb_jaacenthr.png, description: Thumbnail Image file}
+  - {location: jaacenthr.png, description: Image file} 
 data_file: jaa_awayside_60_92.yaml
 ---
 name: "Figure 36, Au + Au"
@@ -375,6 +629,10 @@ description: 'Per-trigger yield versus $\Delta\phi$ for successively increasing 
 keywords:
   - {name: reactions, values: [AU AU --> CHARGED X]}
   - {name: cmenergies, values: [200.0]}
+  - {name: phrases, values: [ppg083, correlations]}
+additional_resources:
+  - {location: thumb_cyield_10.png, description: Thumbnail Image file}
+  - {location: cyield_10.png, description: Image file} 
 data_file: pertrigyield_0_20_.yaml
 ---
 name: "Figure 36, p + p"
@@ -389,26 +647,42 @@ description: 'Per-trigger yield versus $\Delta\phi$ for successively increasing 
 keywords:
   - {name: reactions, values: [AU AU --> CHARGED X]}
   - {name: cmenergies, values: [200.0]}
+  - {name: phrases, values: [ppg083, correlations]}
+additional_resources:
+  - {location: thumb_cyield_11.png, description: Thumbnail Image file}
+  - {location: cyield_11.png, description: Image file} 
 data_file: pertrigyield_20_40_.yaml
 ---
-name: "Figure 37, p + p"
-description: 'Per-trigger yield versus $\Delta\phi$ for successively increasing trigger and partner $p_T$ ($p^a_T \otimes p^b_T$) in p + p collisions.'
+name: "Supplemental, 40-60% Au + Au"
+description: 'Per-trigger yield versus $\Delta\phi$ for successively increasing trigger and partner $p_T$ ($p^a_T \otimes p^b_T$) in 40-60 % Au + Au collisions.'
 keywords:
   - {name: reactions, values: [AU AU --> CHARGED X]}
   - {name: cmenergies, values: [200.0]}
-data_file: pertrigyield_pp_.yaml
+  - {name: phrases, values: [ppg083, correlations]}
+additional_resources:
+  - {location: thumb_cyield_11.png, description: Thumbnail Image file}
+  - {location: cyield_11.png, description: Image file} 
+data_file: pertrigyield_40_60_.yaml
 ---
 name: "Figure 38, Au + Au"
 description: 'Per-trigger yield versus $\Delta\phi$ for successively increasing trigger and partner $p_T$ ($p^a_T \otimes p^b_T$) in 60-92 % Au + Au collisions.'
 keywords:
   - {name: reactions, values: [AU AU --> CHARGED X]}
   - {name: cmenergies, values: [200.0]}
+  - {name: phrases, values: [ppg083, correlations]}
+additional_resources:
+  - {location: thumb_cyield_6.png, description: Thumbnail Image file}
+  - {location: cyield_6.png, description: Image file} 
 data_file: pertrigyield_60_92_.yaml
 ---
-name: "Figure 38, p + p"
+name: "Figure 36-38, p + p"
 description: 'Per-trigger yield versus $\Delta\phi$ for successively increasing trigger and partner $p_T$ ($p^a_T \otimes p^b_T$) in p + p collisions.'
 keywords:
-  - {name: reactions, values: [AU AU --> CHARGED X]}
+  - {name: reactions, values: [P P --> CHARGED X]}
   - {name: cmenergies, values: [200.0]}
+  - {name: phrases, values: [ppg083, correlations]}
+additional_resources:
+  - {location: thumb_cyield_6.png, description: Thumbnail Image file}
+  - {location: cyield_6.png, description: Image file} 
 data_file: pertrigyield_pp_.yaml
 ---

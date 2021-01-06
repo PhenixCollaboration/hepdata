@@ -4,12 +4,11 @@ independent_variables:
   - {low: 0, high: 20}
   - {low: 20, high: 40}
   - {low: 40, high: 60}
-  - {low: 60, high: 70}
-  - {low: 70, high: 92}
+  - {low: 60, high: 92}
 dependent_variables:
 - header: {name: '<pt>'}
   qualifiers:
-  - {name: 'Centrality', value: '1<p_T^B<7GeV/c'}
+  - {name: 'Centrality', value: '1$<p_{T}^{B}<$7 GeV/c'}
   values:
   - value: 0.448
     errors:
@@ -27,13 +26,9 @@ dependent_variables:
     errors:
     - {symerror: 0.041, label: 'stat'}
     - {symerror: 0.027, label: 'sys'}
-  - value: 0.838
-    errors:
-    - {symerror: 0.032, label: 'stat'}
-    - {symerror: 0.002, label: 'sys'}
 - header: {name: '<pt>'}
   qualifiers:
-  - {name: 'Centrality', value: '1.5<p_T^B<7GeV/c'}
+  - {name: 'Centrality', value: '1.5$<p_{T}^{B}<$7 GeV/c'}
   values:
   - value: 0.559
     errors:
@@ -51,13 +46,9 @@ dependent_variables:
     errors:
     - {symerror: 0.065, label: 'stat'}
     - {symerror: 0.03, label: 'sys'}
-  - value: 0.903
-    errors:
-    - {symerror: 0.053, label: 'stat'}
-    - {symerror: 0.003, label: 'sys'}
 - header: {name: '<pt>'}
   qualifiers:
-  - {name: 'Centrality', value: '2<p_T^B<7GeV/c'}
+  - {name: 'Centrality', value: '2$<p_{T}^{B}<$7 GeV/c'}
   values:
   - value: 1.026
     errors:
@@ -75,13 +66,9 @@ dependent_variables:
     errors:
     - {symerror: 0.093, label: 'stat'}
     - {symerror: 0.025, label: 'sys'}
-  - value: 0.924
-    errors:
-    - {symerror: 0.079, label: 'stat'}
-    - {symerror: 0.004, label: 'sys'}
 - header: {name: '<pt>'}
   qualifiers:
-  - {name: 'Centrality', value: '2.5<p_T^B<7GeV/c'}
+  - {name: 'Centrality', value: '2.5$<p_{T}^{B}<$7 GeV/c'}
   values:
   - value: 1.188
     errors:
@@ -99,13 +86,9 @@ dependent_variables:
     errors:
     - {symerror: 0.124, label: 'stat'}
     - {symerror: 0.021, label: 'sys'}
-  - value: 0.972
-    errors:
-    - {symerror: 0.116, label: 'stat'}
-    - {symerror: 0.006, label: 'sys'}
 - header: {name: '<pt>'}
   qualifiers:
-  - {name: 'Centrality', value: '3<p_T^B<7GeV/c'}
+  - {name: 'Centrality', value: '3$<p_{T}^{B}<$7 GeV/c'}
   values:
   - value: 0.963
     errors:
@@ -123,7 +106,3 @@ dependent_variables:
     errors:
     - {symerror: 0.15, label: 'stat'}
     - {symerror: 0.0085, label: 'sys'}
-  - value: 0.993
-    errors:
-    - {symerror: 0.153, label: 'stat'}
-    - {symerror: 0.004, label: 'sys'}
