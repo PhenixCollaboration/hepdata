@@ -1,18 +1,18 @@
 independent_variables:
 - header: {name: '$p_T$'}
   values:
-  - {low: 0.38, high: 0.955}
-  - {low: 0.955, high: 1.47}
-  - {low: 1.47, high: 1.975}
-  - {low: 1.975, high: 2.47}
-  - {low: 2.47, high: 2.97}
-  - {low: 2.97, high: 3.97}
-  - {low: 3.97, high: 5.97}
-  - {low: 5.97, high: 7.415}
+  - {low: 0.4, high: 1.0}
+  - {low: 1.0, high: 1.5}
+  - {low: 1.5, high: 2.0}
+  - {low: 2.0, high: 2.5}
+  - {low: 2.5, high: 3}
+  - {low: 3.0, high: 4}
+  - {low: 4.0, high: 5}
+  - {low: 5, high: 10}
 dependent_variables:
 - header: {name: 'RHS'}
   qualifiers:
-  - {name: '$p_T$', value: '2.0<p_{T}^{A}<3.0GeV/c'}
+  - {name: '$p_T$', value: '2.0$<p_{T}^{A}<$<3.0 GeV/c'}
   values:
   - value: 2.428
     errors:
@@ -40,7 +40,7 @@ dependent_variables:
     - {symerror: 0.29595, label: 'error'}
 - header: {name: 'RHS'}
   qualifiers:
-  - {name: '$p_T$', value: '3.0<p_{T}^{A}<4.0GeV/c'}
+  - {name: '$p_T$', value: '3.0$<p_{T}^{A}<$<4.0 GeV/c'}
   values:
   - value: 2.553
     errors:
@@ -68,7 +68,7 @@ dependent_variables:
     - {symerror: 0.64965, label: 'error'}
 - header: {name: 'RHS'}
   qualifiers:
-  - {name: '$p_T$', value: '4.0<p_{T}^{A}<5.0GeV/c'}
+  - {name: '$p_T$', value: '4.0$<p_{T}^{A}<$<5.0 GeV/c'}
   values:
   - value: 2.495
     errors:
@@ -96,7 +96,7 @@ dependent_variables:
     - {symerror: 1.21955, label: 'error'}
 - header: {name: 'RHS'}
   qualifiers:
-  - {name: '$p_T$', value: '5.0<p_{T}^{A}<10.0GeV/c'}
+  - {name: '$p_T$', value: '5.0$<p_{T}^{A}<$<10.0 GeV/c'}
   values:
   - value: 3.073
     errors:
