@@ -6,17 +6,28 @@ comment: |
   BNL-RHIC.  Azimuthal angle ($\Delta\phi$) correlations are presented for a broad range of transverse momentum ($0.4 < p_T < 10$ GeV/$c$) and centrality (0-92\%) selections for charged hadrons from di-jets in Au+Au collisions at $\sqrt{s}_{NN}$ = 200 GeV. With increasing $p_T$, the away-side $\Delta\phi$ distribution evolves from a broad and relatively flat shape to a concave shape, then to a convex shape. Comparisons to p+p data suggest that the away-side distribution can be divided into a partially suppressed $\Delta\phi$ region centered at $\pi$, and an enhanced $\Delta\phi$ region centered at $\pi \pm 1.1$. The $p_T$ spectrum for the associated hadrons in the head region softens toward central collisions. The spectral slope for the shoulder region is independent of centrality and trigger $p_T$ . The properties of the near-side distributions are also modified relative to those in p+p collisions, reflected by the broadening of the jet shape in $\Delta\phi$ and $\Delta\eta$, and an enhancement of the per-trigger yield. However, these modifications seem to be limited to $p_T < 4$ GeV/$c$, above which both the hadron pair shape and per-trigger yield become similar to p+p collisions. These observations suggest that both the away- and near-side distributions contain a jet fragmentation component which dominates for $p_T > 5$ GeV and a medium-induced component which is important for $p_T < 4$ GeV/$c$. We also quantify the role of jets at intermediate and low $p_T$ through the yield of jet-induced pairs in comparison to binary scaled p+p pair yield. The yield of jet-induced pairs is suppressed at high pair proxy energy (sum of the $p_T$ magnitudes of the two hadrons) and is enhanced at low pair proxy energy. The former is consistent with jet quenching; the latter is consistent with the enhancement of soft hadron pairs due to transport of lost energy to lower $p_T$.
 additional_resources:
  - {location: "https://arxiv.org/abs/0801.4545", description: "paper"}
+ - {location: "https://inspirehep.net/literature/778396", description: "paper"}
 ---
-name: "Figure 6, pp, part 1/2"
-description: 'Per-trigger yield versus $\Delta\phi$ for various trigger and partner $p_T$ ($p^a_T \otimes p^b_T$), arranged by increasing pair proxy energy (sum of $p^a_T$ and $p^b_T$), in p + p collisions for 3-4 $\otimes$ 0.4-1, 3-4 $\otimes$ 1-2, 3-4 $\otimes$ 2-3, and 3-4 $\otimes$ 3-4 GeV/c.'
+name: "Figure 4, 2 - 3 GeV/$c$"
+description: 'The 0-20% Au+Au jet-induced hadron-pair yield $\Delta\phi$ distributions calculated from the per-trigger yield using low-$p_T$ hadrons as triggers and high-$p_T$ hadrons as triggers. Data for 2 - 3 GeV/$c$.'
 keywords:
-  - {name: reactions, values: [P P --> CHARGED X]}
+  - {name: reactions, values: [AU AU --> CHARGED X]}
   - {name: cmenergies, values: [200.0]}
-  - {name: phrases, values: [ppg083, correlations]}
-additional_resources:
-  - {location: thumb_cyield.png, description: Thumbnail Image file}
-  - {location: cyield.png, description: Image file}
-data_file: cyield_pp_2.yaml
+data_file: fig4_2_3.yaml
+---
+name: "Figure 4, 3 - 4 GeV/$c$"
+description: 'The 0-20% Au+Au jet-induced hadron-pair yield $\Delta\phi$ distributions calculated from the per-trigger yield using low-$p_T$ hadrons as triggers and high-$p_T$ hadrons as triggers. Data for 3 - 4 GeV/$c$.'
+keywords:
+  - {name: reactions, values: [AU AU --> CHARGED X]}
+  - {name: cmenergies, values: [200.0]}
+data_file: fig4_3_4.yaml
+---
+name: "Figure 4, 4 - 5 GeV/$c$"
+description: 'The 0-20% Au+Au jet-induced hadron-pair yield $\Delta\phi$ distributions calculated from the per-trigger yield using low-$p_T$ hadrons as triggers and high-$p_T$ hadrons as triggers. Data for 4 - 5 GeV/$c$.'
+keywords:
+  - {name: reactions, values: [AU AU --> CHARGED X]}
+  - {name: cmenergies, values: [200.0]}
+data_file: fig4_4_5.yaml
 ---
 name: "Figure 6, pp, part 2/2"
 description: 'Per-trigger yield versus $\Delta\phi$ for various trigger and partner $p_T$ ($p^a_T \otimes p^b_T$), arranged by increasing pair proxy energy (sum of $p^a_T$ and $p^b_T$), in p + p collisions for 5-10 $\otimes$ 2-3, 4-5 $\otimes$ 4-5, 5-10 $\otimes$ 3-5, and 5-10 $\otimes$ 5-10 GeV/c.'
@@ -78,10 +89,20 @@ description: 'RHS versus $p^b_T$ for Au + Au collisions for four trigger selecti
 keywords:
   - {name: reactions, values: [AU AU --> CHARGED X]}
   - {name: cmenergies, values: [200.0]}
-  - {name: phrases, values: [ppg083, correlations]}
-additional_resources:
-  - {location: thumb_rhs1.png, description: Thumbnail Image file}
-  - {location: rhs1.png, description: Image file}
+data_file: rhs1_auau.yaml
+---
+name: "Figure 7, p + p collisions"
+description: 'RHS versus $p^b_T$ for p + p collisions for four trigger selections. '
+keywords:
+  - {name: reactions, values: [AU AU --> CHARGED X]}
+  - {name: cmenergies, values: [200.0]}
+data_file: rhs1_pp.yaml
+---
+name: "Figure 7, Au + Au collisions"
+description: 'RHS versus $p^b_T$ for Au + Au collisions for four trigger selections. '
+keywords:
+  - {name: reactions, values: [AU AU --> CHARGED X]}
+  - {name: cmenergies, values: [200.0]}
 data_file: rhs1_auau.yaml
 ---
 name: "Figure 8"
@@ -634,6 +655,13 @@ additional_resources:
   - {location: thumb_cyield_10.png, description: Thumbnail Image file}
   - {location: cyield_10.png, description: Image file} 
 data_file: pertrigyield_0_20_.yaml
+---
+name: "Figure 36, p + p"
+description: 'Per-trigger yield versus $\Delta\phi$ for successively increasing trigger and partner $p_T$ ($p^a_T \otimes p^b_T$) in p + p collisions.'
+keywords:
+  - {name: reactions, values: [AU AU --> CHARGED X]}
+  - {name: cmenergies, values: [200.0]}
+data_file: pertrigyield_pp_.yaml
 ---
 name: "Figure 37, Au + Au"
 description: 'Per-trigger yield versus $\Delta\phi$ for successively increasing trigger and partner $p_T$ ($p^a_T \otimes p^b_T$) in 20-40 % Au + Au collisions.'
