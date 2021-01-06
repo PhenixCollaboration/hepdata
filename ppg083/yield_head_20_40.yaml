@@ -1,18 +1,18 @@
 independent_variables:
 - header: {name: '$p_T$'}
   values:
-  - {low: 0.345, high: 0.915}
-  - {low: 0.915, high: 1.415}
-  - {low: 1.415, high: 1.915}
-  - {low: 1.915, high: 2.415}
-  - {low: 2.415, high: 3.055}
-  - {low: 3.055, high: 4.095}
-  - {low: 4.095, high: 5.285}
-  - {low: 5.285, high: 5.88}
+  - {low: 0.4, high: 1.0}
+  - {low: 1.0, high: 1.5}
+  - {low: 1.5, high: 2.0}
+  - {low: 2.0, high: 2.5}
+  - {low: 2.5, high: 3.0}
+  - {low: 3.0, high: 4.0}
+  - {low: 4.0, high: 5.0}
+  - {low: 5.0, high: 7.0}
 dependent_variables:
 - header: {name: 'yield'}
   qualifiers:
-  - {name: '$p_T$', value: '2.0<p_{T}^{A}<3.0'}
+  - {name: '$p_T$', value: '2.0$<p_{T}^{A}<$3.0 GeV/c'}
   values:
   - value: 1.86E-01
     errors:
@@ -48,7 +48,7 @@ dependent_variables:
     - {symerror: 8.38E-06, label: 'sys'}
 - header: {name: 'yield'}
   qualifiers:
-  - {name: '$p_T$', value: '3.0<p_{T}^{A}<4.0'}
+  - {name: '$p_T$', value: '3.0$<p_{T}^{A}<$4.0 GeV/c'}
   values:
   - value: 2.63E-01
     errors:
@@ -84,7 +84,7 @@ dependent_variables:
     - {symerror: 1.69E-05, label: 'sys'}
 - header: {name: 'yield'}
   qualifiers:
-  - {name: '$p_T$', value: '4.0<p_{T}^{A}<5.0'}
+  - {name: '$p_T$', value: '4.0$<p_{T}^{A}<$5.0 GeV/c'}
   values:
   - value: 2.74E-01
     errors:
@@ -120,7 +120,7 @@ dependent_variables:
     - {symerror: 4.57E-05, label: 'sys'}
 - header: {name: 'yield'}
   qualifiers:
-  - {name: '$p_T$', value: '5.0<p_{T}^{A}<10.0'}
+  - {name: '$p_T$', value: '5.0$<p_{T}^{A}<$10.0 GeV/c'}
   values:
   - value: 3.58E-01
     errors:

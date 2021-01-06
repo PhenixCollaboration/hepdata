@@ -1,0 +1,37 @@
+independent_variables:
+- header: {name: 'Centrality'}
+  values:
+  - {low: 0, high: 100}
+dependent_variables:
+- header: {name: 'trun<pt>'}
+  qualifiers:
+  - {name: 'Centrality', value: '2.0$<p_{T}^{A}<$3.0 GeV/c'}
+  values:
+  - value: 6.03E-01
+    errors:
+    - {symerror: 7.51E-03, label: 'stat'}
+    - {symerror: 5.96E-03, label: 'sys'}
+- header: {name: 'trun<pt>'}
+  qualifiers:
+  - {name: 'Centrality', value: '3.0$<p_{T}^{A}<$4.0 GeV/c'}
+  values:
+  - value: 6.89E-01
+    errors:
+    - {symerror: 1.57E-02, label: 'stat'}
+    - {symerror: 6.26E-04, label: 'sys'}
+- header: {name: 'trun<pt>'}
+  qualifiers:
+  - {name: 'Centrality', value: '4.0$<p_{T}^{A}<$5.0 GeV/c'}
+  values:
+  - value: 7.77E-01
+    errors:
+    - {symerror: 2.97E-02, label: 'stat'}
+    - {symerror: 1.06E-03, label: 'sys'}
+- header: {name: 'trun<pt>'}
+  qualifiers:
+  - {name: 'Centrality', value: '5.0$<p_{T}^{A}<$10.0 GeV/c'}
+  values:
+  - value: 8.83E-01
+    errors:
+    - {symerror: 1.52E-02, label: 'stat'}
+    - {symerror: 7.31E-04, label: 'sys'}

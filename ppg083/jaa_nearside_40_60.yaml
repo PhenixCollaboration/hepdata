@@ -1,19 +1,19 @@
 independent_variables:
 - header: {name: '$p_T$'}
   values:
-  - {low: 0.315, high: 0.915}
-  - {low: 0.915, high: 1.415}
-  - {low: 1.415, high: 1.915}
-  - {low: 1.915, high: 2.415}
-  - {low: 2.415, high: 3.055}
-  - {low: 3.055, high: 4.095}
-  - {low: 4.095, high: 5.465}
-  - {low: 5.465, high: 7.895}
-  - {low: 7.895, high: 9.065}
+  - {low: 0.4, high: 1.0}
+  - {low: 1.0, high: 1.5}
+  - {low: 1.5, high: 2.0}
+  - {low: 2.0, high: 2.5}
+  - {low: 2.5, high: 3.0}
+  - {low: 3.0, high: 4.0}
+  - {low: 4.0, high: 5.0}
+  - {low: 5.0, high: 7.0}
+  - {low: 7.0, high: 10.0}
 dependent_variables:
 - header: {name: 'jaa'}
   qualifiers:
-  - {name: '$p_T$', value: '2.0<p_{T}^{A}<3.0'}
+  - {name: '$p_T$', value: '2.0$<p_{T}^{A}<$3.0'}
   values:
   - value: 1.3400
     errors:
@@ -53,7 +53,7 @@ dependent_variables:
     - {symerror: 0.1130, label: 'syserr'}
 - header: {name: 'jaa'}
   qualifiers:
-  - {name: '$p_T$', value: '3.0<p_{T}^{A}<4.0'}
+  - {name: '$p_T$', value: '3.0$<p_{T}^{A}<$4.0'}
   values:
   - value: 1.1800
     errors:
@@ -93,7 +93,7 @@ dependent_variables:
     - {symerror: 0.0795, label: 'syserr'}
 - header: {name: 'jaa'}
   qualifiers:
-  - {name: '$p_T$', value: '4.0<p_{T}^{A}<5.0'}
+  - {name: '$p_T$', value: '4.0$<p_{T}^{A}<$5.0'}
   values:
   - value: 0.8470
     errors:
@@ -133,7 +133,7 @@ dependent_variables:
     - {symerror: 0.1300, label: 'syserr'}
 - header: {name: 'jaa'}
   qualifiers:
-  - {name: '$p_T$', value: '5.0<p_{T}^{A}<10.0'}
+  - {name: '$p_T$', value: '5.0$<p_{T}^{A}<$10.0'}
   values:
   - value: 0.6190
     errors:

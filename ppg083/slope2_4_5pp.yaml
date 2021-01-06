@@ -1,0 +1,45 @@
+independent_variables:
+- header: {name: 'Centrality'}
+  values:
+  - {low: 0, high: 100}
+dependent_variables:
+- header: {name: '<pt>'}
+  qualifiers:
+  - {name: 'Centrality', value: '1$<p_{T}^{B}<$7 GeV/c'}
+  values:
+  - value: 0.838
+    errors:
+    - {symerror: 0.032, label: 'stat'}
+    - {symerror: 0.002, label: 'sys'}
+- header: {name: '<pt>'}
+  qualifiers:
+  - {name: 'Centrality', value: '1.5$<p_{T}^{B}<$7 GeV/c'}
+  values:
+  - value: 0.903
+    errors:
+    - {symerror: 0.053, label: 'stat'}
+    - {symerror: 0.003, label: 'sys'}
+- header: {name: '<pt>'}
+  qualifiers:
+  - {name: 'Centrality', value: '2$<p_{T}^{B}<$7 GeV/c'}
+  values:
+  - value: 0.924
+    errors:
+    - {symerror: 0.079, label: 'stat'}
+    - {symerror: 0.004, label: 'sys'}
+- header: {name: '<pt>'}
+  qualifiers:
+  - {name: 'Centrality', value: '2.5$<p_{T}^{B}<$7 GeV/c'}
+  values:
+  - value: 0.972
+    errors:
+    - {symerror: 0.116, label: 'stat'}
+    - {symerror: 0.006, label: 'sys'}
+- header: {name: '<pt>'}
+  qualifiers:
+  - {name: 'Centrality', value: '3$<p_{T}^{B}<$7 GeV/c'}
+  values:
+  - value: 0.993
+    errors:
+    - {symerror: 0.153, label: 'stat'}
+    - {symerror: 0.004, label: 'sys'}
