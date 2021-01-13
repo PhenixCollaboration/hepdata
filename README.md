@@ -31,3 +31,8 @@ Corrections:
 * 209: Zharko
 * 115: Dylan
 * 238: TBD
+
+
+01/06/2021
+
+Switching to the SSH mode of access to GitHub
