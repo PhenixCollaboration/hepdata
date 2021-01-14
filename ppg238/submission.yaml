@@ -1,7 +1,8 @@
 # HEPData submission package for PPG238
 #
-# PPG representative/uploader: 
-# IRC representative/reviewer:
+# InspireHEP ID: 1834002
+# PPG rpresentative/uploader: Ralf Seidl rseidl@riken.jp
+# IRC representative/reviewer: Sanghwa Park sanghwa.park@stonybrook.edu
 #
 additional_resources:
 - {description: Image file, location: fig1a.png}
@@ -10,7 +11,7 @@ additional_resources:
 - {description: Image file, location: fig2.png}
 - {description: Image file, location: fig3.png}
 - {description: web page with data points, location: 'https://phenix-intra.sdcc.bnl.gov/phenix/WWW/info/data/ppg238_data.html'}
-- {location: "https://arxiv.org/abs/2011.14187", description: "arXiv link"}
+- {description: arXiv link, location: 'https://arxiv.org/abs/2011.14187'}
 comment: |
   BNL-RHIC. In 2015, the PHENIX collaboration has measured very forward ($\eta > 6.8$) single spin asymmetries of inclusive neutrons in transversely polarized proton-proton and proton-nucleus collisions at a center of mass energy of 200 GeV. A previous publication from this data set concentrated on the nuclear dependence of such asymmetries. In this measurement the explicit transverse momentum dependence of inclusive neutron single spin asymmetries for proton-proton collisions is extracted using a bootstrapping unfolding technique on the transverse momenta. This explicit transverse momentum dependence will help improve the understanding of the mechanisms that create these asymmetries.
 ---
@@ -56,62 +57,6 @@ keywords:
 - name: cmenergies
   values: [200.0]
 name: Figure 1c
----
-additional_resources:
-- {description: Image file, location: fig2.png}
-- {description: Thumbnail Image file, location: thumb_fig2.png}
-data_file: table_3.yaml
-description: Unfolded forward neutron single spin asymmetry distribution in first PT bin
-keywords:
-- name: reactions
-  values: [P P --> N X]
-- name: observables
-  values: [ASYM]
-- name: cmenergies
-  values: [200.0]
-name: Figure 2a
----
-additional_resources:
-- {description: Image file, location: fig2.png}
-- {description: Thumbnail Image file, location: thumb_fig2.png}
-data_file: table_4.yaml
-description: Unfolded forward neutron single spin asymmetry distribution in second PT bin
-keywords:
-- name: reactions
-  values: [P P --> N X]
-- name: observables
-  values: [ASYM]
-- name: cmenergies
-  values: [200.0]
-name: Figure 2b
----
-additional_resources:
-- {description: Image file, location: fig2.png}
-- {description: Thumbnail Image file, location: thumb_fig2.png}
-data_file: table_5.yaml
-description: Unfolded forward neutron single spin asymmetry distribution in third PT bin
-keywords:
-- name: reactions
-  values: [P P --> N X]
-- name: observables
-  values: [ASYM]
-- name: cmenergies
-  values: [200.0]
-name: Figure 2c
----
-additional_resources:
-- {description: Image file, location: fig2.png}
-- {description: Thumbnail Image file, location: thumb_fig2.png}
-data_file: table_6.yaml
-description: Unfolded forward neutron single spin asymmetry distribution in fourth PT bin
-keywords:
-- name: reactions
-  values: [P P --> N X]
-- name: observables
-  values: [ASYM]
-- name: cmenergies
-  values: [200.0]
-name: Figure 2d
 ---
 additional_resources:
 - {description: Image file, location: fig3.png}
