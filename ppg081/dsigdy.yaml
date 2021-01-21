@@ -1,0 +1,13 @@
+independent_variables:
+- header: {name: '$y$'}
+  values:
+  - {value: 0}
+dependent_variables:
+- header: {name: '$\frac{d\sigma}{dy}$'}
+  qualifiers:
+  - {name: '$y$', value: '$\mu$b'}
+  values:
+  - value: 76
+    errors:
+    - {symerror: 33, label: '$stat$'}
+    - {symerror: 11, label: '$syst$'}

@@ -1,0 +1,38 @@
+# PHENIX paper PPG081
+#
+# Photoproduction of J/psi and of high mass e+e- in ultra-peripheral Au+Au collisions at sqrt(s_NN) = 200 GeV
+#
+# Phys.Lett.B 679:321-329, 2009
+# InspireHEP ID: 815217
+#
+# Please contact Reem Alreshidi if you have any questions about this submission
+# PPG liaison: TBA
+# Reviewer: TBA
+#
+comment: | 
+  BNL-RHIC. We present the first measurement of photoproduction of $J/\psi$ and of two-photon production of high-mass $e^+e^-$--pairs in electromagnetic (or ultra-peripheral) nucleus-nucleus interactions, using Au+Au data at $\sqrt{s_{NN}}$ = 200 GeV. The events are tagged with forward neutrons emitted following Coulomb excitation of one or both $Au^\star$ nuclei. The event sample consists of 28 events with $m_{e^+e^-}>$ 2 GeV/$c^2$ with zero like-sign background. The measured cross sections at midrapidity of $d \sigma/dy \, (J/\psi + Xn, y=0) =$ 76 $\pm$ 33 (stat) $\pm$ 11 (syst) $\mu$b and $d^2 \sigma/dm dy \, (e^+e^- + Xn, y=0) =$ 86 $\pm$ 23 (stat) $\pm$ 16 (syst) $\mu$b/(GeV/c$^2$) for $m_{e^+e^-} \in \mbox{[2.0,2.8]}$ GeV/c$^2$ are consistent with various theoretical predictions.
+additional_resources:
+  - {location: "https://phenix-intra.sdcc.bnl.gov/phenix/WWW/info/data/ppg081_data.html", description: "web page with data points"}
+  - {location: "https://arxiv.org/abs/0903.2041", description: arXiv}
+  - {location: "https://inspirehep.net/literature/815217", description: InspireHEP}
+
+---
+name: "Figure 4"
+description: 'Measured cross-section of $J/\psi + Xn$ at midrapidity in UPC Au+Au collisions at $\sqrt{s_{NN}}$ = 200 GeV.  Measured within $|y|<0.35$)'
+keywords:
+ - {name: reactions, values: [AU AU --> J/PSI AU AU]}
+ - {name: cmenergies, values: [200.0]}
+ - {name: phrases, values: [ppg081, UPC, mid-rapidity, quarkonia]}
+additional_resources:
+  - {location: thumb_upc_dNdeta_jpsi_predictions_rhic_c_in_joint.png, description: Thumbnail Image file}
+  - {location: upc_dNdeta_jpsi_predictions_rhic_c_in_joint.png, description: Image file}
+data_file: dsigdy.yaml 
+--- 
+name: "d2sigma/dmdy"
+description: 'Measured $J/\psi$ and of two-photon production of high-mass e+e- pairs in electromagnetic (or ultra-peripheral) nucleus-nucleus interactions, using Au+Au data at $\sqrt{s_{NN}}$ = 200 GeV.  Measured within $|y|<0.35$ and 2.0 $< M_{ee} < 2.8$ Gev/$c^2$)'
+keywords:
+ - {name: reactions, values: [AU AU --> J/PSI AU AU]}
+ - {name: cmenergies, values: [200.0]}
+ - {name: phrases, values: [ppg081, UPC, mid-rapidity, quarkonia]}
+data_file: d2sigdmdy.yaml 
+--- 
