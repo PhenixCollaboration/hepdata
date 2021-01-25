@@ -1,0 +1,55 @@
+comment: |
+  BNL-RHIC.  The PHENIX experiment at RHIC has measured charged hadron yields at mid-rapidity over awide range of transverse momentum (0.5$< p_T<$10 GeV/$c$) in Au+Au collisions at $\sqrt{s_{NN}}$= 200GeV. The data are compared to $\pi^0$ measurements from the same experiment. For both charged hadrons and neutral pions, the yields per nucleon-nucleon collision are significantly suppressed in central compared to peripheral and nucleon-nucleon collisions. The suppression sets in gradually and increases with increasing centrality of the collisions. Above 4-5 GeV/c in $p_T$, a constant and almost identical suppression of charged hadrons and $\pi^0$’s is observed. The $p_T$ spectra are compared to published spectra from Au+Au at $\sqrt{s_{NN}}$= 130 in terms of $x_T$ scaling. Central and peripheral $\pi^0$ as well as peripheral charged spectra exhibit the samexTscaling as observed in p+p data.
+additional_resources:
+  - {location: "https://phenix-intra.sdcc.bnl.gov/phenix/WWW/info/data/ppg023/DataInPaper.html", description: "web page with data points"}
+  - {location: "https://arxiv.org/pdf/nucl-ex/0308006.pdf", description: "paper"}
+---
+name: "Figure12"
+description: 'R_AA for (h++h-)/2 and p0 as function of p_T for minimum bias and 9 centrality classes.'
+keywords:
+  - {name: reactions, values: [AU AU --> NEUTRAL X]}
+  - {name: cmenergies, values: [200.0]}
+data_file: Raa.yaml
+---
+name: "Figure8"
+description:'Invariant yields for different centrality bins (h+ + h-)/2.'
+keywords:
+  - {name: reactions, values: [AU AU --> NEUTRAL X]}
+  - {name: cmenergies, values: [200.0]}
+data_file: PPG023_A.yaml
+---
+name: "Figure11"
+description: 'Central(0-10%)to peripheral(60-92%)ratio'
+keywords:
+  - {name: reactions, values: [AU AU --> NEUTRAL X]}
+  - {name: cmenergies, values: [200.0]}
+data_file: PPG023_B.yaml
+---
+name: "Figure10"
+description: 'data points for truncated mean pt calculation.for three pt ranges. The integral region is from 8GeV/c >pT >pT_{min}.so actually, for most peripheral bin, since the data stops around 6.5 GeV/c truncated mean pt is lower'
+keywords:
+  - {name: reactions, values: [AU AU --> NEUTRAL X]}
+  - {name: cmenergies, values: [200.0]}
+data_file: PPG023_C.yaml
+---
+name: "Figure13"
+description: 'h DIVIDING BY pi ratio(h/pi ratio).quadratic sum of statistical and point-to-point systematic error on charged hadron and neutral pion.(not in percentage).fractional normalization errors in percentage'
+keywords:
+  - {name: reactions, values: [AU AU --> NEUTRAL X]}
+  - {name: cmenergies, values: [200.0]}
+data_file: PPG023_F.yaml
+---
+name: "Figure17"
+description: 'data points for making the xT figures. Neutral pion data from 130 GeV.Lead-Scintillator pi0 central 0-10 AND Lead-Scintillator pi0  peripheral(60-80%)'
+keywords:
+  - {name: reactions, values: [AU AU --> NEUTRAL X]}
+  - {name: cmenergies, values: [200.0]}
+data_file: PPG023_H2.yaml
+---
+name: "Figure17"
+description: 'data points for making the xT figures. Neutral pion data from 200 GeV'
+keywords:
+  - {name: reactions, values: [AU AU --> NEUTRAL X]}
+  - {name: cmenergies, values: [200.0]}
+data_file: PPG023_H3.yaml
+---

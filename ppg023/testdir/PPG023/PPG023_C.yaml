@@ -1,0 +1,126 @@
+independent_variables:
+- header: {name: '$N_{part}[GeV/c]$'}
+  values:
+  - {low: 351.0, high: 351.4}
+  - {low: 299, high: 300}
+  - {low: 253.9, high: 254.0}
+  - {low: 215.0, high: 215.3}
+  - {low: 166.6, high: 167.0}
+  - {low: 114.0, high: 114.2}
+  - {low: 74.0, high: 74.4}
+  - {low: 45.5, high: 46.0}
+  - {low: 25.7, high: 26.0}
+  - {low: 13.0, high: 13.4}
+  - {low: 6.0, high: 6.3}
+dependent_variables:
+- header: {name: '$meanpt(pT>0.5)$'}
+  qualifiers:
+  - {name: '$N_{part}[GeV/c]$', value: '$> 0.5 GeV/c -Au+Au 200GeV\%$ centrality'}
+  values:
+  - value: 0.35
+    errors:
+    - {symerror: 0.01, label: '$stat(%)$'}
+  - value: 0.35
+    errors:
+    - {symerror: 0.02, label: '$stat(%)$'}
+  - value: 0.35
+    errors:
+    - {symerror: 0.02, label: '$stat(%)$'}
+  - value: 0.35
+    errors:
+    - {symerror: 0.02, label: '$stat(%)$'}
+  - value: 0.35
+    errors:
+    - {symerror: 0.01, label: '$stat(%)$'}
+  - value: 0.35
+    errors:
+    - {symerror: 0.02, label: '$stat(%)$'}
+  - value: 0.34
+    errors:
+    - {symerror: 0.02, label: '$stat(%)$'}
+  - value: 0.33
+    errors:
+    - {symerror: 0.03, label: '$stat(%)$'}
+  - value: 0.32
+    errors:
+    - {symerror: 0.04, label: '$stat(%)$'}
+  - value: 0.31
+    errors:
+    - {symerror: 0.05, label: '$stat(%)$'}
+  - value: 0.30
+    errors:
+    - {symerror: 0.07, label: '$stat(%)$'}
+- header: {name: '$meanpt(pT>2.0)$'}
+  qualifiers:
+  - {name: '$N_{part}[GeV/c]$', value: '$> 2 GeV/c -Au+Au 200GeV\%$ centrality'}
+  values:
+  - value: 0.37
+    errors:
+    - {symerror: 0.11, label: '$stat(%)$'}
+  - value: 0.38
+    errors:
+    - {symerror: 0.12, label: '$stat(%)$'}
+  - value: 0.38
+    errors:
+    - {symerror: 0.12, label: '$stat(%)$'}
+  - value: 0.39
+    errors:
+    - {symerror: 0.13, label: '$stat(%)$'}
+  - value: 0.39
+    errors:
+    - {symerror: 0.11, label: '$stat(%)$'}
+  - value: 0.41
+    errors:
+    - {symerror: 0.13, label: '$stat(%)$'}
+  - value: 0.41
+    errors:
+    - {symerror: 0.17, label: '$stat(%)$'}
+  - value: 0.42
+    errors:
+    - {symerror: 0.24, label: '$stat(%)$'}
+  - value: 0.43
+    errors:
+    - {symerror: 0.35, label: '$stat(%)$'}
+  - value: 0.43
+    errors:
+    - {symerror: 0.51, label: '$stat(%)$'}
+  - value: 0.44
+    errors:
+    - {symerror: 0.72, label: '$stat(%)$'}
+- header: {name: '$meanpt(pT>4.5)$'}
+  qualifiers:
+  - {name: '$N_{part}[GeV/c]$', value: '$> 4.5 GeV/c -Au+Au 200GeV\%$ centrality'}
+  values:
+  - value: 0.66
+    errors:
+    - {symerror: 3.45, label: '$stat(%)$'}
+  - value: 0.65
+    errors:
+    - {symerror: 3.25, label: '$stat(%)$'}
+  - value: 0.62
+    errors:
+    - {symerror: 3.32, label: '$stat(%)$'}
+  - value: 0.63
+    errors:
+    - {symerror: 3.03, label: '$stat(%)$'}
+  - value: 0.68
+    errors:
+    - {symerror: 2.36, label: '$stat(%)$'}
+  - value: 0.67
+    errors:
+    - {symerror: 2.68, label: '$stat(%)$'}
+  - value: 0.66
+    errors:
+    - {symerror: 3.29, label: '$stat(%)$'}
+  - value: 0.67
+    errors:
+    - {symerror: 3.91, label: '$stat(%)$'}
+  - value: 0.69
+    errors:
+    - {symerror: 5.38, label: '$stat(%)$'}
+  - value: 0.70
+    errors:
+    - {symerror: 7.31, label: '$stat(%)$'}
+  - value: 0.58
+    errors:
+    - {symerror: 7.59, label: '$stat(%)$'}

@@ -1,0 +1,613 @@
+independent_variables:
+- header: {name: '$p_{T}[GeV/c]$'}
+  values:
+  - {low: 1.2, high: 1.3}
+  - {low: 1.7, high: 1.8}
+  - {low: 2.2, high: 2.3}
+  - {low: 2.7, high: 2.8}
+  - {low: 3.2, high: 3.3}
+  - {low: 3.7, high: 3.8}
+  - {low: 4.2, high: 4.3}
+  - {low: 4.7, high: 4.8}
+  - {low: 5.2, high: 5.3}
+  - {low: 5.7, high: 5.8}
+  - {low: 6.2, high: 6.3}
+  - {low: 6.7, high: 6.8}
+  - {low: 7.2, high: 7.3}
+  - {low: 7.7, high: 7.8}
+  - {low: 8.2, high: 8.3}
+  - {low: 8.7, high: 8.8}
+  - {low: 9.2, high: 9.3}
+dependent_variables:
+- header: {name: '$h/\pi^0 ratio$'}
+  qualifiers:
+  - {name: '$p_{T}[GeV/c]$', value: '$0-92%\%$ centrality'}
+  values:
+  - value: 1.86
+    errors:
+    - {symerror: 0.18, label: '$quadratic sum of statistical[not in percentage]$'}
+    - {symerror: 9.7, label: '$fractional normalization errors$'}
+  - value: 1.99
+    errors:
+    - {symerror: 0.19, label: '$quadratic sum of statistical[not in percentage]$'}
+    - {symerror: 9.86, label: '$fractional normalization errors$'}
+  - value: 2.12
+    errors:
+    - {symerror: 0.2, label: '$quadratic sum of statistical[not in percentage]$'}
+    - {symerror: 9.99, label: '$fractional normalization errors$'}
+  - value: 2.18
+    errors:
+    - {symerror: 0.21, label: '$quadratic sum of statistical[not in percentage]$'}
+    - {symerror: 10.05, label: '$fractional normalization errors$'}
+  - value: 2.18
+    errors:
+    - {symerror: 0.22, label: '$quadratic sum of statistical[not in percentage]$'}
+    - {symerror: 10.37, label: '$fractional normalization errors$'}
+  - value: 2.01
+    errors:
+    - {symerror: 0.2, label: '$quadratic sum of statistical[not in percentage]$'}
+    - {symerror: 10.51, label: '$fractional normalization errors$'}
+  - value: 1.87
+    errors:
+    - {symerror: 0.19, label: '$quadratic sum of statistical[not in percentage]$'}
+    - {symerror: 10.67, label: '$fractional normalization errors$'}
+  - value: 1.69
+    errors:
+    - {symerror: 0.17, label: '$quadratic sum of statistical[not in percentage]$'}
+    - {symerror: 10.76, label: '$fractional normalization errors$'}
+  - value: 1.66
+    errors:
+    - {symerror: 0.18, label: '$quadratic sum of statistical[not in percentage]$'}
+    - {symerror: 10.82, label: '$fractional normalization errors$'}
+  - value: 1.65
+    errors:
+    - {symerror: 0.19, label: '$quadratic sum of statistical[not in percentage]$'}
+    - {symerror: 11.43, label: '$fractional normalization errors$'}
+  - value: 1.52
+    errors:
+    - {symerror: 0.2, label: '$quadratic sum of statistical[not in percentage]$'}
+    - {symerror: 12.89, label: '$fractional normalization errors$'}
+  - value: 1.6
+    errors:
+    - {symerror: 0.24, label: '$quadratic sum of statistical[not in percentage]$'}
+    - {symerror: 13.55, label: '$fractional normalization errors$'}
+  - value: 1.78
+    errors:
+    - {symerror: 0.3, label: '$quadratic sum of statistical[not in percentage]$'}
+    - {symerror: 14.06, label: '$fractional normalization errors$'}
+  - value: 1.69
+    errors:
+    - {symerror: 0.36, label: '$quadratic sum of statistical[not in percentage]$'}
+    - {symerror: 16.63, label: '$fractional normalization errors$'}
+  - value: 1.66
+    errors:
+    - {symerror: 0.5, label: '$quadratic sum of statistical[not in percentage]$'}
+    - {symerror: 20.91, label: '$fractional normalization errors$'}
+  - value: 1.56
+    errors:
+    - {symerror: 0.56, label: '$quadratic sum of statistical[not in percentage]$'}
+    - {symerror: 25.37, label: '$fractional normalization errors$'}
+  - value: 2.02
+    errors:
+    - {symerror: 0.84, label: '$quadratic sum of statistical[not in percentage]$'}
+    - {symerror: 30.01, label: '$fractional normalization errors$'}
+- header: {name: '$h/\pi^0 ratio$'}
+  qualifiers:
+  - {name: '$p_{T}[GeV/c]$', value: '$0-10\%$  centrality'}
+  values:
+  - value: 2.15
+    errors:
+    - {symerror: 0.21, label: '$quadratic sum of statistical[not in percentage]$'}
+    - {symerror: 9.7, label: '$fractional normalization errors$'}
+  - value: 2.28
+    errors:
+    - {symerror: 0.22, label: '$quadratic sum of statistical[not in percentage]$'}
+    - {symerror: 9.86, label: '$fractional normalization errors$'}
+  - value: 2.39
+    errors:
+    - {symerror: 0.23, label: '$quadratic sum of statistical[not in percentage]$'}
+    - {symerror: 9.99, label: '$fractional normalization errors$'}
+  - value: 2.46
+    errors:
+    - {symerror: 0.26, label: '$quadratic sum of statistical[not in percentage]$'}
+    - {symerror: 10.05, label: '$fractional normalization errors$'}
+  - value: 2.38
+    errors:
+    - {symerror: 0.27, label: '$quadratic sum of statistical[not in percentage]$'}
+    - {symerror: 10.37, label: '$fractional normalization errors$'}
+  - value: 2.09
+    errors:
+    - {symerror: 0.23, label: '$quadratic sum of statistical[not in percentage]$'}
+    - {symerror: 10.51, label: '$fractional normalization errors$'}
+  - value: 2.01
+    errors:
+    - {symerror: 0.22, label: '$quadratic sum of statistical[not in percentage]$'}
+    - {symerror: 10.67, label: '$fractional normalization errors$'}
+  - value: 1.6
+    errors:
+    - {symerror: 0.18, label: '$quadratic sum of statistical[not in percentage]$'}
+    - {symerror: 10.76, label: '$fractional normalization errors$'}
+  - value: 1.6
+    errors:
+    - {symerror: 0.21, label: '$quadratic sum of statistical[not in percentage]$'}
+    - {symerror: 10.82, label: '$fractional normalization errors$'}
+  - value: 1.65
+    errors:
+    - {symerror: 0.28, label: '$quadratic sum of statistical[not in percentage]$'}
+    - {symerror: 11.43, label: '$fractional normalization errors$'}
+  - value: 1.61
+    errors:
+    - {symerror: 0.33, label: '$quadratic sum of statistical[not in percentage]$'}
+    - {symerror: 12.89, label: '$fractional normalization errors$'}
+  - value: 2.22
+    errors:
+    - {symerror: 0.6, label: '$quadratic sum of statistical[not in percentage]$'}
+    - {symerror: 13.55, label: '$fractional normalization errors$'}
+  - value: 1.73
+    errors:
+    - {symerror: 0.57, label: '$quadratic sum of statistical[not in percentage]$'}
+    - {symerror: 14.06, label: '$fractional normalization errors$'}
+  - value: 1.49
+    errors:
+    - {symerror: 0.54, label: '$quadratic sum of statistical[not in percentage]$'}
+    - {symerror: 16.63, label: '$fractional normalization errors$'}
+  - value: 1.96
+    errors:
+    - {symerror: 0.8, label: '$quadratic sum of statistical[not in percentage]$'}
+    - {symerror: 20.91, label: '$fractional normalization errors$'}
+  - value: 3.31
+    errors:
+    - {symerror: 1.64, label: '$quadratic sum of statistical[not in percentage]$'}
+    - {symerror: 25.37, label: '$fractional normalization errors$'}
+  - value: 2.73
+    errors:
+    - {symerror: 1.61, label: '$quadratic sum of statistical[not in percentage]$'}
+    - {symerror: 30.01, label: '$fractional normalization errors$'}
+- header: {name: '$h/\pi^0 ratio$'}
+  qualifiers:
+  - {name: '$p_{T}[GeV/c]$', value: '$10-20\%$ centrality'}
+  values:
+  - value: 1.97
+    errors:
+    - {symerror: 0.19, label: '$quadratic sum of statistical[not in percentage]$'}
+    - {symerror: 9.7, label: '$fractional normalization errors$'}
+  - value: 2.2
+    errors:
+    - {symerror: 0.21, label: '$quadratic sum of statistical[not in percentage]$'}
+    - {symerror: 9.86, label: '$fractional normalization errors$'}
+  - value: 2.28
+    errors:
+    - {symerror: 0.22, label: '$quadratic sum of statistical[not in percentage]$'}
+    - {symerror: 9.99, label: '$fractional normalization errors$'}
+  - value: 2.3
+    errors:
+    - {symerror: 0.23, label: '$quadratic sum of statistical[not in percentage]$'}
+    - {symerror: 10.05, label: '$fractional normalization errors$'}
+  - value: 2.35
+    errors:
+    - {symerror: 0.25, label: '$quadratic sum of statistical[not in percentage]$'}
+    - {symerror: 10.37, label: '$fractional normalization errors$'}
+  - value: 2.05
+    errors:
+    - {symerror: 0.21, label: '$quadratic sum of statistical[not in percentage]$'}
+    - {symerror: 10.51, label: '$fractional normalization errors$'}
+  - value: 1.78
+    errors:
+    - {symerror: 0.19, label: '$quadratic sum of statistical[not in percentage]$'}
+    - {symerror: 10.67, label: '$fractional normalization errors$'}
+  - value: 1.78
+    errors:
+    - {symerror: 0.21, label: '$quadratic sum of statistical[not in percentage]$'}
+    - {symerror: 10.76, label: '$fractional normalization errors$'}
+  - value: 1.61
+    errors:
+    - {symerror: 0.21, label: '$quadratic sum of statistical[not in percentage]$'}
+    - {symerror: 10.82, label: '$fractional normalization errors$'}
+  - value: 1.63
+    errors:
+    - {symerror: 0.28, label: '$quadratic sum of statistical[not in percentage]$'}
+    - {symerror: 11.43, label: '$fractional normalization errors$'}
+  - value: 1.3
+    errors:
+    - {symerror: 0.28, label: '$quadratic sum of statistical[not in percentage]$'}
+    - {symerror: 12.89, label: '$fractional normalization errors$'}
+  - value: 1.29
+    errors:
+    - {symerror: 0.39, label: '$quadratic sum of statistical[not in percentage]$'}
+    - {symerror: 13.55, label: '$fractional normalization errors$'}
+  - value: 1.52
+    errors:
+    - {symerror: 0.45, label: '$quadratic sum of statistical[not in percentage]$'}
+    - {symerror: 14.06, label: '$fractional normalization errors$'}
+  - value: 1.65
+    errors:
+    - {symerror: 0.59, label: '$quadratic sum of statistical[not in percentage]$'}
+    - {symerror: 16.63, label: '$fractional normalization errors$'}
+  - value: 2.19
+    errors:
+    - {symerror: 1.03, label: '$quadratic sum of statistical[not in percentage]$'}
+    - {symerror: 20.91, label: '$fractional normalization errors$'}
+  - value: 1.58
+    errors:
+    - {symerror: 0.98, label: '$quadratic sum of statistical[not in percentage]$'}
+    - {symerror: 25.37, label: '$fractional normalization errors$'}
+  - value: 2.17
+    errors:
+    - {symerror: 1.88, label: '$quadratic sum of statistical[not in percentage]$'}
+    - {symerror: 30.01, label: '$fractional normalization errors$'}
+- header: {name: '$h/\pi^0 ratio$'}
+  qualifiers:
+  - {name: '$p_{T}[GeV/c]$', value: '$20-30\%$ centrality'}
+  values:
+  - value: 1.92
+    errors:
+    - {symerror: 0.19, label: '$quadratic sum of statistical[not in percentage]$'}
+    - {symerror: 9.7, label: '$fractional normalization errors$'}
+  - value: 1.99
+    errors:
+    - {symerror: 0.19, label: '$quadratic sum of statistical[not in percentage]$'}
+    - {symerror: 9.86, label: '$fractional normalization errors$'}
+  - value: 2.21
+    errors:
+    - {symerror: 0.22, label: '$quadratic sum of statistical[not in percentage]$'}
+    - {symerror: 9.99, label: '$fractional normalization errors$'}
+  - value: 2.21
+    errors:
+    - {symerror: 0.23, label: '$quadratic sum of statistical[not in percentage]$'}
+    - {symerror: 10.05, label: '$fractional normalization errors$'}
+  - value: 2.12
+    errors:
+    - {symerror: 0.23, label: '$quadratic sum of statistical[not in percentage]$'}
+    - {symerror: 10.37, label: '$fractional normalization errors$'}
+  - value: 2.07
+    errors:
+    - {symerror: 0.22, label: '$quadratic sum of statistical[not in percentage]$'}
+    - {symerror: 10.51, label: '$fractional normalization errors$'}
+  - value: 1.81
+    errors:
+    - {symerror: 0.2, label: '$quadratic sum of statistical[not in percentage]$'}
+    - {symerror: 10.67, label: '$fractional normalization errors$'}
+  - value: 1.63
+    errors:
+    - {symerror: 0.19, label: '$quadratic sum of statistical[not in percentage]$'}
+    - {symerror: 10.76, label: '$fractional normalization errors$'}
+  - value: 1.61
+    errors:
+    - {symerror: 0.21, label: '$quadratic sum of statistical[not in percentage]$'}
+    - {symerror: 10.82, label: '$fractional normalization errors$'}
+  - value: 1.56
+    errors:
+    - {symerror: 0.26, label: '$quadratic sum of statistical[not in percentage]$'}
+    - {symerror: 11.43, label: '$fractional normalization errors$'}
+  - value: 1.86
+    errors:
+    - {symerror: 0.4, label: '$quadratic sum of statistical[not in percentage]$'}
+    - {symerror: 12.89, label: '$fractional normalization errors$'}
+  - value: 1.95
+    errors:
+    - {symerror: 0.43, label: '$quadratic sum of statistical[not in percentage]$'}
+    - {symerror: 13.55, label: '$fractional normalization errors$'}
+  - value: 1.9
+    errors:
+    - {symerror: 0.56, label: '$quadratic sum of statistical[not in percentage]$'}
+    - {symerror: 14.06, label: '$fractional normalization errors$'}
+  - value: 1.52
+    errors:
+    - {symerror: 0.66, label: '$quadratic sum of statistical[not in percentage]$'}
+    - {symerror: 16.63, label: '$fractional normalization errors$'}
+  - value: 1.63
+    errors:
+    - {symerror: 1.09, label: '$quadratic sum of statistical[not in percentage]$'}
+    - {symerror: 20.91, label: '$fractional normalization errors$'}
+- header: {name: '$h/\pi^0 ratio$'}
+  qualifiers:
+  - {name: '$p_{T}[GeV/c]$', value: '$30-40\%$ centrality'}
+  values:
+  - value: 1.86
+    errors:
+    - {symerror: 0.18, label: '$quadratic sum of statistical[not in percentage]$'}
+    - {symerror: 9.7, label: '$fractional normalization errors$'}
+  - value: 1.99
+    errors:
+    - {symerror: 0.19, label: '$quadratic sum of statistical[not in percentage]$'}
+    - {symerror: 9.86, label: '$fractional normalization errors$'}
+  - value: 2.08
+    errors:
+    - {symerror: 0.2, label: '$quadratic sum of statistical[not in percentage]$'}
+    - {symerror: 9.99, label: '$fractional normalization errors$'}
+  - value: 2.07
+    errors:
+    - {symerror: 0.21, label: '$quadratic sum of statistical[not in percentage]$'}
+    - {symerror: 10.05, label: '$fractional normalization errors$'}
+  - value: 2.13
+    errors:
+    - {symerror: 0.22, label: '$quadratic sum of statistical[not in percentage]$'}
+    - {symerror: 10.37, label: '$fractional normalization errors$'}
+  - value: 2.18
+    errors:
+    - {symerror: 0.23, label: '$quadratic sum of statistical[not in percentage]$'}
+    - {symerror: 10.51, label: '$fractional normalization errors$'}
+  - value: 1.86
+    errors:
+    - {symerror: 0.2, label: '$quadratic sum of statistical[not in percentage]$'}
+    - {symerror: 10.67, label: '$fractional normalization errors$'}
+  - value: 1.69
+    errors:
+    - {symerror: 0.21, label: '$quadratic sum of statistical[not in percentage]$'}
+    - {symerror: 10.76, label: '$fractional normalization errors$'}
+  - value: 1.83
+    errors:
+    - {symerror: 0.26, label: '$quadratic sum of statistical[not in percentage]$'}
+    - {symerror: 10.82, label: '$fractional normalization errors$'}
+  - value: 2.01
+    errors:
+    - {symerror: 0.35, label: '$quadratic sum of statistical[not in percentage]$'}
+    - {symerror: 11.43, label: '$fractional normalization errors$'}
+  - value: 1.6
+    errors:
+    - {symerror: 0.32, label: '$quadratic sum of statistical[not in percentage]$'}
+    - {symerror: 12.89, label: '$fractional normalization errors$'}
+  - value: 1.3
+    errors:
+    - {symerror: 0.37, label: '$quadratic sum of statistical[not in percentage]$'}
+    - {symerror: 13.55, label: '$fractional normalization errors$'}
+  - value: 1.78
+    errors:
+    - {symerror: 0.59, label: '$quadratic sum of statistical[not in percentage]$'}
+    - {symerror: 14.06, label: '$fractional normalization errors$'}
+- header: {name: '$h/\pi^0 ratio$'}
+  qualifiers:
+  - {name: '$p_{T}[GeV/c]$', value: '$40-50\%$ centrality'}
+  values:
+  - value: 1.69
+    errors:
+    - {symerror: 0.16, label: '$quadratic sum of statistical[not in percentage]$'}
+    - {symerror: 9.7, label: '$fractional normalization errors$'}
+  - value: 1.81
+    errors:
+    - {symerror: 0.18, label: '$quadratic sum of statistical[not in percentage]$'}
+    - {symerror: 9.86, label: '$fractional normalization errors$'}
+  - value: 1.97
+    errors:
+    - {symerror: 0.19, label: '$quadratic sum of statistical[not in percentage]$'}
+    - {symerror: 9.99, label: '$fractional normalization errors$'}
+  - value: 1.95
+    errors:
+    - {symerror: 0.19, label: '$quadratic sum of statistical[not in percentage]$'}
+    - {symerror: 10.05, label: '$fractional normalization errors$'}
+  - value: 1.95
+    errors:
+    - {symerror: 0.2, label: '$quadratic sum of statistical[not in percentage]$'}
+    - {symerror: 10.37, label: '$fractional normalization errors$'}
+  - value: 1.8
+    errors:
+    - {symerror: 0.19, label: '$quadratic sum of statistical[not in percentage]$'}
+    - {symerror: 10.51, label: '$fractional normalization errors$'}
+  - value: 1.96
+    errors:
+    - {symerror: 0.22, label: '$quadratic sum of statistical[not in percentage]$'}
+    - {symerror: 10.67, label: '$fractional normalization errors$'}
+  - value: 1.54
+    errors:
+    - {symerror: 0.2, label: '$quadratic sum of statistical[not in percentage]$'}
+    - {symerror: 10.76, label: '$fractional normalization errors$'}
+  - value: 1.36
+    errors:
+    - {symerror: 0.22, label: '$quadratic sum of statistical[not in percentage]$'}
+    - {symerror: 10.82, label: '$fractional normalization errors$'}
+  - value: 1.51
+    errors:
+    - {symerror: 0.28, label: '$quadratic sum of statistical[not in percentage]$'}
+    - {symerror: 11.43, label: '$fractional normalization errors$'}
+  - value: 1.27
+    errors:
+    - {symerror: 0.29, label: '$quadratic sum of statistical[not in percentage]$'}
+    - {symerror: 12.89, label: '$fractional normalization errors$'}
+  - value: 1.3
+    errors:
+    - {symerror: 0.44, label: '$quadratic sum of statistical[not in percentage]$'}
+    - {symerror: 13.55, label: '$fractional normalization errors$'}
+  - value: 1.19
+    errors:
+    - {symerror: 0.45, label: '$quadratic sum of statistical[not in percentage]$'}
+    - {symerror: 14.06, label: '$fractional normalization errors$'}
+- header: {name: '$h/\pi^0 ratio$'}
+  qualifiers:
+  - {name: '$p_{T}[GeV/c]$', value: '$50-60\%$ centrality'}
+  values:
+  - value: 1.69
+    errors:
+    - {symerror: 0.16, label: '$quadratic sum of statistical[not in percentage]$'}
+    - {symerror: 9.7, label: '$fractional normalization errors$'}
+  - value: 1.83
+    errors:
+    - {symerror: 0.18, label: '$quadratic sum of statistical[not in percentage]$'}
+    - {symerror: 9.86, label: '$fractional normalization errors$'}
+  - value: 1.93
+    errors:
+    - {symerror: 0.19, label: '$quadratic sum of statistical[not in percentage]$'}
+    - {symerror: 9.99, label: '$fractional normalization errors$'}
+  - value: 1.98
+    errors:
+    - {symerror: 0.21, label: '$quadratic sum of statistical[not in percentage]$'}
+    - {symerror: 10.05, label: '$fractional normalization errors$'}
+  - value: 1.83
+    errors:
+    - {symerror: 0.19, label: '$quadratic sum of statistical[not in percentage]$'}
+    - {symerror: 10.37, label: '$fractional normalization errors$'}
+  - value: 1.71
+    errors:
+    - {symerror: 0.19, label: '$quadratic sum of statistical[not in percentage]$'}
+    - {symerror: 10.51, label: '$fractional normalization errors$'}
+  - value: 1.72
+    errors:
+    - {symerror: 0.21, label: '$quadratic sum of statistical[not in percentage]$'}
+    - {symerror: 10.67, label: '$fractional normalization errors$'}
+  - value: 1.67
+    errors:
+    - {symerror: 0.24, label: '$quadratic sum of statistical[not in percentage]$'}
+    - {symerror: 10.76, label: '$fractional normalization errors$'}
+  - value: 1.66
+    errors:
+    - {symerror: 0.3, label: '$quadratic sum of statistical[not in percentage]$'}
+    - {symerror: 10.82, label: '$fractional normalization errors$'}
+  - value: 1.36
+    errors:
+    - {symerror: 0.34, label: '$quadratic sum of statistical[not in percentage]$'}
+    - {symerror: 11.43, label: '$fractional normalization errors$'}
+  - value: 1.73
+    errors:
+    - {symerror: 0.54, label: '$quadratic sum of statistical[not in percentage]$'}
+    - {symerror: 12.89, label: '$fractional normalization errors$'}
+  - value: 1.33
+    errors:
+    - {symerror: 0.62, label: '$quadratic sum of statistical[not in percentage]$'}
+    - {symerror: 13.55, label: '$fractional normalization errors$'}
+  - value: 2.95
+    errors:
+    - {symerror: 1.6, label: '$quadratic sum of statistical[not in percentage]$'}
+    - {symerror: 14.06, label: '$fractional normalization errors$'}
+- header: {name: '$h/\pi^0 ratio$'}
+  qualifiers:
+  - {name: '$p_{T}[GeV/c]$', value: '$60-70\%$ centrality'}
+  values:
+  - value: 1.74
+    errors:
+    - {symerror: 0.17, label: '$quadratic sum of statistical[not in percentage]$'}
+    - {symerror: 9.7, label: '$fractional normalization errors$'}
+  - value: 1.74
+    errors:
+    - {symerror: 0.17, label: '$quadratic sum of statistical[not in percentage]$'}
+    - {symerror: 9.86, label: '$fractional normalization errors$'}
+  - value: 1.72
+    errors:
+    - {symerror: 0.17, label: '$quadratic sum of statistical[not in percentage]$'}
+    - {symerror: 9.99, label: '$fractional normalization errors$'}
+  - value: 1.9
+    errors:
+    - {symerror: 0.2, label: '$quadratic sum of statistical[not in percentage]$'}
+    - {symerror: 10.05, label: '$fractional normalization errors$'}
+  - value: 1.79
+    errors:
+    - {symerror: 0.2, label: '$quadratic sum of statistical[not in percentage]$'}
+    - {symerror: 10.37, label: '$fractional normalization errors$'}
+  - value: 1.78
+    errors:
+    - {symerror: 0.21, label: '$quadratic sum of statistical[not in percentage]$'}
+    - {symerror: 10.51, label: '$fractional normalization errors$'}
+  - value: 1.7
+    errors:
+    - {symerror: 0.23, label: '$quadratic sum of statistical[not in percentage]$'}
+    - {symerror: 10.67, label: '$fractional normalization errors$'}
+  - value: 1.68
+    errors:
+    - {symerror: 0.31, label: '$quadratic sum of statistical[not in percentage]$'}
+    - {symerror: 10.76, label: '$fractional normalization errors$'}
+  - value: 1.56
+    errors:
+    - {symerror: 0.36, label: '$quadratic sum of statistical[not in percentage]$'}
+    - {symerror: 10.82, label: '$fractional normalization errors$'}
+  - value: 1.24
+    errors:
+    - {symerror: 0.36, label: '$quadratic sum of statistical[not in percentage]$'}
+    - {symerror: 11.43, label: '$fractional normalization errors$'}
+  - value: 1.2
+    errors:
+    - {symerror: 0.51, label: '$quadratic sum of statistical[not in percentage]$'}
+    - {symerror: 12.89, label: '$fractional normalization errors$'}
+  - value: 0.99
+    errors:
+    - {symerror: 0.48, label: '$quadratic sum of statistical[not in percentage]$'}
+    - {symerror: 13.55, label: '$fractional normalization errors$'}
+- header: {name: '$h/\pi^0 ratio$'}
+  qualifiers:
+  - {name: '$p_{T}[GeV/c]$', value: '$70-80\%$ centrality'}
+  values:
+  - value: 1.75
+    errors:
+    - {symerror: 0.17, label: '$quadratic sum of statistical[not in percentage]$'}
+    - {symerror: 9.7, label: '$fractional normalization errors$'}
+  - value: 1.82
+    errors:
+    - {symerror: 0.18, label: '$quadratic sum of statistical[not in percentage]$'}
+    - {symerror: 9.86, label: '$fractional normalization errors$'}
+  - value: 1.85
+    errors:
+    - {symerror: 0.19, label: '$quadratic sum of statistical[not in percentage]$'}
+    - {symerror: 9.99, label: '$fractional normalization errors$'}
+  - value: 1.84
+    errors:
+    - {symerror: 0.2, label: '$quadratic sum of statistical[not in percentage]$'}
+    - {symerror: 10.05, label: '$fractional normalization errors$'}
+  - value: 1.68
+    errors:
+    - {symerror: 0.2, label: '$quadratic sum of statistical[not in percentage]$'}
+    - {symerror: 10.37, label: '$fractional normalization errors$'}
+  - value: 1.8
+    errors:
+    - {symerror: 0.26, label: '$quadratic sum of statistical[not in percentage]$'}
+    - {symerror: 10.51, label: '$fractional normalization errors$'}
+  - value: 1.79
+    errors:
+    - {symerror: 0.33, label: '$quadratic sum of statistical[not in percentage]$'}
+    - {symerror: 10.67, label: '$fractional normalization errors$'}
+  - value: 1.89
+    errors:
+    - {symerror: 0.46, label: '$quadratic sum of statistical[not in percentage]$'}
+    - {symerror: 10.76, label: '$fractional normalization errors$'}
+  - value: 0.97
+    errors:
+    - {symerror: 0.37, label: '$quadratic sum of statistical[not in percentage]$'}
+    - {symerror: 10.82, label: '$fractional normalization errors$'}
+  - value: 1.55
+    errors:
+    - {symerror: 0.75, label: '$quadratic sum of statistical[not in percentage]$'}
+    - {symerror: 11.43, label: '$fractional normalization errors$'}
+  - value: 1.43
+    errors:
+    - {symerror: 0.87, label: '$quadratic sum of statistical[not in percentage]$'}
+    - {symerror: 12.89, label: '$fractional normalization errors$'}
+- header: {name: '$h/\pi^0 ratio$'}
+  qualifiers:
+  - {name: '$p_{T}[GeV/c]$', value: '$80-92\%$ centrality'}
+  values:
+  - value: 1.43
+    errors:
+    - {symerror: 0.17, label: '$quadratic sum of statistical[not in percentage]$'}
+    - {symerror: 9.7, label: '$fractional normalization errors$'}
+  - value: 1.49
+    errors:
+    - {symerror: 0.18, label: '$quadratic sum of statistical[not in percentage]$'}
+    - {symerror: 9.86, label: '$fractional normalization errors$'}
+  - value: 1.47
+    errors:
+    - {symerror: 0.18, label: '$quadratic sum of statistical[not in percentage]$'}
+    - {symerror: 9.99, label: '$fractional normalization errors$'}
+  - value: 1.56
+    errors:
+    - {symerror: 0.21, label: '$quadratic sum of statistical[not in percentage]$'}
+    - {symerror: 10.05, label: '$fractional normalization errors$'}
+  - value: 1.68
+    errors:
+    - {symerror: 0.26, label: '$quadratic sum of statistical[not in percentage]$'}
+    - {symerror: 10.37, label: '$fractional normalization errors$'}
+  - value: 1.3
+    errors:
+    - {symerror: 0.25, label: '$quadratic sum of statistical[not in percentage]$'}
+    - {symerror: 10.51, label: '$fractional normalization errors$'}
+  - value: 1.7
+    errors:
+    - {symerror: 0.4, label: '$quadratic sum of statistical[not in percentage]$'}
+    - {symerror: 10.67, label: '$fractional normalization errors$'}
+  - value: 1.46
+    errors:
+    - {symerror: 0.43, label: '$quadratic sum of statistical[not in percentage]$'}
+    - {symerror: 10.76, label: '$fractional normalization errors$'}
+  - value: 0.87
+    errors:
+    - {symerror: 0.42, label: '$quadratic sum of statistical[not in percentage]$'}
+    - {symerror: 10.82, label: '$fractional normalization errors$'}
+  - value: 1.57
+    errors:
+    - {symerror: 0.98, label: '$quadratic sum of statistical[not in percentage]$'}
+    - {symerror: 11.43, label: '$fractional normalization errors$'}
