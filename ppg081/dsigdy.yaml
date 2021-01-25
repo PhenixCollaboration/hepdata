@@ -1,0 +1,15 @@
+independent_variables:
+- header: {name: '$y$'}
+  values:
+  - {value: 0}
+dependent_variables:
+- header: {name: 'Cross-section'}
+  qualifiers:
+  - {name: '$y$', value: '$\frac{d\sigma}{dy}$, $\mu$b'}
+  - {name: SQRT(S)/NUCLEON, units: GEV, value: '200.0'}
+  - {name: YRAP(RF=CM)(D), value: -0.35-0.35}
+  values:
+  - value: 76
+    errors:
+    - {symerror: 33, label: '$stat$'}
+    - {symerror: 11, label: '$syst$'}
