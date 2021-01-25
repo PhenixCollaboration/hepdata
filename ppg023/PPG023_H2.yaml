@@ -1,0 +1,84 @@
+independent_variables:
+- header: {name: '$p_{T}[GeV/c]$'}
+  values:
+  - {low: 1.0, high: 1.2}
+  - {low: 1.7, high: 2.0}
+  - {low: 2.0, high: 2.2}
+  - {low: 2.7, high: 3.0}
+  - {low: 3.0, high: 3.2}
+  - {low: 3.7, high: 4.0}
+dependent_variables:
+- header: {name: '$[1/2pi*1/pT]*[d^2N/dpTdy]((GeV/c)^-2)$'}
+  qualifiers:
+  - {name: '$p_{T}[GeV/c]$', value: '$0-10\%$  centrality'}
+  values:
+  - value: 2.115664
+    errors:
+    - {symerror: 0.142283, label: '$sigma_(stat)$'}
+    - {symerror: 0.344405, label: '$sigma_(sys,uncor)$'}
+    - {symerror: 0.423133, label: '$sigma_(sys,cor)$'}
+    - {symerror: 0.563827, label: '$sigma_(sys,tot)$'}
+  - value: 0.476251
+    errors:
+    - {symerror: 0.024253, label: '$sigma_(stat)$'}
+    - {symerror: 0.087946, label: '$sigma_(sys,uncor)$'}
+    - {symerror: 0.09525, label: '$sigma_(sys,cor)$'}
+    - {symerror: 0.131891, label: '$sigma_(sys,tot)$'}
+  - value: 0.069379
+    errors:
+    - {symerror: 0.006033, label: '$sigma_(stat)$'}
+    - {symerror: 0.011547, label: '$sigma_(sys,uncor)$'}
+    - {symerror: 0.013876, label: '$sigma_(sys,cor)$'}
+    - {symerror: 0.019033, label: '$sigma_(sys,tot)$'}
+  - value: 0.009381
+    errors:
+    - {symerror: 0.001277, label: '$sigma_(stat)$'}
+    - {symerror: 0.002119, label: '$sigma_(sys,uncor)$'}
+    - {symerror: 0.001876, label: '$sigma_(sys,cor)$'}
+    - {symerror: 0.003105, label: '$sigma_(sys,tot)$'}
+  - value: 0.003258
+    errors:
+    - {symerror: 0.000527, label: '$sigma_(stat)$'}
+    - {symerror: 0.00077, label: '$sigma_(sys,uncor)$'}
+    - {symerror: 0.000652, label: '$sigma_(sys,cor)$'}
+    - {symerror: 0.001138, label: '$sigma_(sys,tot)$'}
+  - value: 0.000962
+    errors:
+    - {symerror: 0.00021, label: '$sigma_(stat)$'}
+    - {symerror: 0.00028, label: '$sigma_(sys,uncor)$'}
+    - {symerror: 0.000192, label: '$sigma_(sys,cor)$'}
+    - {symerror: 0.0004, label: '$sigma_(sys,tot)$'}
+- header: {name: '$[1/2pi*1/pT]*[d^2N/dpTdy]((GeV/c)^-2)$'}
+  qualifiers:
+  - {name: '$p_{T}[GeV/c]$', value: '$60-80\%$ peripheral'}
+  values:
+  - value: 0.133947
+    errors:
+    - {symerror: 0.004502, label: '$sigma_(stat)$'}
+    - {symerror: 0.023162, label: '$sigma_(sys,uncor)$'}
+    - {symerror: 0.020092, label: '$sigma_(sys,cor)$'}
+    - {symerror: 0.030991, label: '$sigma_(sys,tot)$'}
+  - value: 0.01826
+    errors:
+    - {symerror: 0.000892, label: '$sigma_(stat)$'}
+    - {symerror: 0.002972, label: '$sigma_(sys,uncor)$'}
+    - {symerror: 0.002739, label: '$sigma_(sys,cor)$'}
+    - {symerror: 0.004139, label: '$sigma_(sys,tot)$'}
+  - value: 0.003488
+    errors:
+    - {symerror: 0.00026, label: '$sigma_(stat)$'}
+    - {symerror: 0.000872, label: '$sigma_(sys,uncor)$'}
+    - {symerror: 0.000523, label: '$sigma_(sys,cor)$'}
+    - {symerror: 0.00105, label: '$sigma_(sys,tot)$'}
+  - value: 0.00069
+    errors:
+    - {symerror: 0.00009, label: '$sigma_(stat)$'}
+    - {symerror: 0.000144, label: '$sigma_(sys,uncor)$'}
+    - {symerror: 0.000104, label: '$sigma_(sys,cor)$'}
+    - {symerror: 0.000199, label: '$sigma_(sys,tot)$'}
+  - value: 0.000251
+    errors:
+    - {symerror: 0.000046, label: '$sigma_(stat)$'}
+    - {symerror: 0.000058, label: '$sigma_(sys,uncor)$'}
+    - {symerror: 0.000038, label: '$sigma_(sys,cor)$'}
+    - {symerror: 0.000083, label: '$sigma_(sys,tot)$'}
