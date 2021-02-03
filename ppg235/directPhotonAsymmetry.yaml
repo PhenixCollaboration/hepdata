@@ -1,0 +1,28 @@
+independent_variables:
+- header: {name: '$p_T$'}
+  values:
+  - {low: 5, high: 6}
+  - {low: 6, high: 8}
+  - {low: 8, high: 10}
+  - {low: 10, high: 18}
+dependent_variables:
+- header: {name: '$A_N^{\gamma^{iso}}$'}
+  qualifiers:
+  - {name: '$p_T$', value: 'The transverse single-spin asymmetry of isolated direct photons for $|\eta|<0.35$ in $p^\uparrow$$+$$p$ collisions with $\sqrt{s} = 200$ GeV. An additional scale uncertainty of 3.4% due to the polarization uncertainty is not shown.'}
+  values:
+  - value: -0.000492
+    errors:
+    - {symerror: 0.00299, label: '$\sigma_{stat}$'}
+    - {symerror: 0.00341, label: '$\sigma_{syst}$'}
+  - value: 0.002473
+    errors:
+    - {symerror: 0.00404, label: '$\sigma_{stat}$'}
+    - {symerror: 0.00252, label: '$\sigma_{syst}$'}
+  - value: 00.00777
+    errors:
+    - {symerror: 0.00814, label: '$\sigma_{stat}$'}
+    - {symerror: 0.00159, label: '$\sigma_{syst}$'}
+  - value: 00.00278
+    errors:
+    - {symerror: 0.0105, label: '$\sigma_{stat}$'}
+    - {symerror: 0.00106, label: '$\sigma_{syst}$'}

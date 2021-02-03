@@ -1,0 +1,72 @@
+independent_variables:
+- header: {name: '$p_T$'}
+  values:
+  - {low: 5, high: 6}
+  - {low: 6, high: 8}
+  - {low: 8, high: 10}
+  - {low: 10, high: 18}
+dependent_variables:
+- header: {name: '$r_{\pi^0}$'}
+  qualifiers:
+  - {name: '$p_T$', value: 'PHENIX West Arm'}
+  values:
+  - value: 0.384
+    errors:
+    - {symerror: 0.003, label: '$\sigma_{stat}$'}
+  - value: 0.320
+    errors:
+    - {symerror: 0.004, label: '$\sigma_{stat}$'}
+  - value: 0.225
+    errors:
+    - {symerror: 0.009, label: '$\sigma_{stat}$'}
+  - value: 0.124
+    errors:
+    - {symerror: 0.010, label: '$\sigma_{stat}$'}
+- header: {name: '$r_{\pi^0}$'}
+  qualifiers:
+  - {name: '$p_T$', value: 'PHENIX East Arm'}
+  values:
+  - value: 0.408
+    errors:
+    - {symerror: 0.004, label: '$\sigma_{stat}$'}
+  - value: 0.343
+    errors:
+    - {symerror: 0.005, label: '$\sigma_{stat}$'}
+  - value: 0.257
+    errors:
+    - {symerror: 0.011, label: '$\sigma_{stat}$'}
+  - value: 0.137
+    errors:
+    - {symerror: 0.012, label: '$\sigma_{stat}$'}
+- header: {name: '$r_\eta$'}
+  qualifiers:
+  - {name: '$p_T$', value: 'PHENIX West Arm'}
+  values:
+  - value: 0.085
+    errors:
+    - {symerror: 0.001, label: '$\sigma_{stat}$'}
+  - value: 0.073
+    errors:
+    - {symerror: 0.002, label: '$\sigma_{stat}$'}
+  - value: 0.056
+    errors:
+    - {symerror: 0.004, label: '$\sigma_{stat}$'}
+  - value: 0.034
+    errors:
+    - {symerror: 0.005, label: '$\sigma_{stat}$'}
+- header: {name: '$r_\eta$'}
+  qualifiers:
+  - {name: '$p_T$', value: 'PHENIX East Arm'}
+  values:
+  - value: 0.088
+    errors:
+    - {symerror: 0.001, label: '$\sigma_{stat}$'}
+  - value: 0.078
+    errors:
+    - {symerror: 0.002, label: '$\sigma_{stat}$'}
+  - value: 0.063
+    errors:
+    - {symerror: 0.005, label: '$\sigma_{stat}$'}
+  - value: 0.045
+    errors:
+    - {symerror: 0.007, label: '$\sigma_{stat}$'}

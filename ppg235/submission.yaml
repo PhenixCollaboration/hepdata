@@ -1,0 +1,19 @@
+#PHENIX paper PPG235, please contact Xiaochun He (xhe@gsu.edu) if you have any questions about this HEPdata submission
+comment: | 
+  BNL-RHIC. Studying spin-momentum correlations in hadronic collisions offers a glimpse into a three-dimensional picture of proton structure.  The transverse single-spin asymmetry for midrapidity isolated direct photons in  $p^\uparrow + p$  collisions at $\sqrt{s} = $ 200 GeV is measured with the PHENIX detector at the Relativistic Heavy Ion Collider (RHIC). Since direct photons in particular are produced from the hard scattering and do not interact via the strong force, this measurment is a clean probe of initial-state spin-momentum correlations inside the proton and is in particular sensitive to gluon interference effects within the proton.  This is the first time direct photons have been used as a probe of spin-momentum correlations at RHIC.  The uncertainties on the results are a fifty-fold improvement with respect to those of the one prior measurement for the same observable, from the Fermilab E704 experiment.  These results constrain gluon spin-momentum correlations in transversely polarized protons.
+--- 
+name: "Table 1"
+description: 'The direct photon background fraction from Figure 1. This is the estimated fraction of photons in the isolated direct photon sample that came from either $\pi^0 \rightarrow \gamma \gamma$ or $\eta \rightarrow \gamma \gamma$ decays but the second decay photon not measured and so they were not eliminated by the tagging cut.  These background fractions are specifically estimated for the PHENIX EMCal during the 2015 $p$+$p$ data set with $\sqrt{s} = 200$ GeV. '
+keywords:
+  - {name: reactions, values: [P P --> GAMMA X]}
+  - {name: cmenergies, values: [200.0]}
+data_file: backgroundFraction.yaml
+---
+name: "Table 2"
+description: 'The transverse single-spin asymmetry of isolated direct photons for $|\eta|<0.35$ in $p^\uparrow$$+$$p$ collisions with $\sqrt{s} = 200$ GeV. This data appears in both Figure 2 and Table I. An additional scale uncertainty of 3.4% due to the polarization uncertainty is not included.'	
+keywords:
+  - {name: reactions, values: [P P --> GAMMA X]}
+  - {name: cmenergies, values: [200.0]}
+data_file: directPhotonAsymmetry.yaml
+---
+
