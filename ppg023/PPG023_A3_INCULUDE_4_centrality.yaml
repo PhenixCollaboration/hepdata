@@ -1,0 +1,692 @@
+independent_variables:
+- header: {name: '$p_{T}[GeV/c]$'}
+  values:
+  - {low: 0.5, high: 0.6}
+  - {low: 0.6, high: 0.7}
+  - {low: 0.7, high: 0.8}
+  - {low: 0.8, high: 0.9}
+  - {low: 0.9, high: 1.0}
+  - {low: 1.0, high: 1.1}
+  - {low: 1.1, high: 1.2}
+  - {low: 1.2, high: 1.3}
+  - {low: 1.3, high: 1.4}
+  - {low: 1.4, high: 1.5}
+  - {low: 1.5, high: 1.6}
+  - {low: 1.6, high: 1.7}
+  - {low: 1.7, high: 1.8}
+  - {low: 1.8, high: 1.9}
+  - {low: 1.9, high: 2.0}
+  - {low: 2.0, high: 2.2}
+  - {low: 2.2, high: 2.4}
+  - {low: 2.4, high: 2.6}
+  - {low: 2.6, high: 2.8}
+  - {low: 2.8, high: 3.0}
+  - {low: 3.0, high: 3.2}
+  - {low: 3.2, high: 3.4}
+  - {low: 3.4, high: 3.7}
+  - {low: 3.7, high: 3.9}
+  - {low: 3.9, high: 4.3}
+  - {low: 4.3, high: 4.7}
+  - {low: 4.6, high: 5.1}
+  - {low: 5.1, high: 5.5}
+  - {low: 5.5, high: 6.0}
+  - {low: 6.0, high: 6.5}
+  - {low: 6.5, high: 7.0}
+  - {low: 7.0, high: 8.0}
+dependent_variables:
+- header: {name: '$1/(2\pi p_T N_{evt}) d^2N/dp_T d\eta$'}
+  qualifiers:
+  - {name: '$p_{T}[GeV/c]$', value: '$30-40\%$ centrality'}
+  values:
+  - value: 22.2
+    errors:
+    - {symerror: 0.01998, label: '$stat_err$'}
+    - {symerror: 1.6428, label: '$sys_err$'}
+    - {symerror: 0.7992, label: '$occupancy_err$'}
+  - value: 14.6
+    errors:
+    - {symerror: 0.01460, label: '$stat_err$'}
+    - {symerror: 1.0804, label: '$sys_err$'}
+    - {symerror: 0.5256, label: '$occupancy_err$'}
+  - value: 9.7
+    errors:
+    - {symerror: 0.01064, label: '$stat_err$'}
+    - {symerror: 0.7156, label: '$sys_err$'}
+    - {symerror: 0.3481, label: '$occupancy_err$'}
+  - value: 6.6
+    errors:
+    - {symerror: 0.00854, label: '$stat_err$'}
+    - {symerror: 0.4862, label: '$sys_err$'}
+    - {symerror: 0.2365, label: '$occupancy_err$'}
+  - value: 4.5
+    errors:
+    - {symerror: 0.00675, label: '$stat_err$'}
+    - {symerror: 0.3330, label: '$sys_err$'}
+    - {symerror: 0.1620, label: '$occupancy_err$'}
+  - value: 3.2
+    errors:
+    - {symerror: 0.00504, label: '$stat_err$'}
+    - {symerror: 0.2331, label: '$sys_err$'}
+    - {symerror: 0.1134, label: '$occupancy_err$'}
+  - value: 2.2
+    errors:
+    - {symerror: 0.00424, label: '$stat_err$'}
+    - {symerror: 0.1650, label: '$sys_err$'}
+    - {symerror: 0.0803, label: '$occupancy_err$'}
+  - value: 1.6
+    errors:
+    - {symerror: 0.00338, label: '$stat_err$'}
+    - {symerror: 0.1191, label: '$sys_err$'}
+    - {symerror: 0.0580, label: '$occupancy_err$'}
+  - value: 1.2
+    errors:
+    - {symerror: 0.00276, label: '$stat_err$'}
+    - {symerror: 0.0851, label: '$sys_err$'}
+    - {symerror: 0.0414, label: '$occupancy_err$'}
+  - value: 0.8
+    errors:
+    - {symerror: 0.00226, label: '$stat_err$'}
+    - {symerror: 0.0619, label: '$sys_err$'}
+    - {symerror: 0.0301, label: '$occupancy_err$'}
+  - value: 0.6
+    errors:
+    - {symerror: 0.00183, label: '$stat_err$'}
+    - {symerror: 0.0451, label: '$sys_err$'}
+    - {symerror: 0.0220, label: '$occupancy_err$'}
+  - value: 0.4
+    errors:
+    - {symerror: 0.00150, label: '$stat_err$'}
+    - {symerror: 0.0327, label: '$sys_err$'}
+    - {symerror: 0.0159, label: '$occupancy_err$'}
+  - value: 0.3
+    errors:
+    - {symerror: 0.00125, label: '$stat_err$'}
+    - {symerror: 0.0243, label: '$sys_err$'}
+    - {symerror: 0.0118, label: '$occupancy_err$'}
+  - value: 0.2
+    errors:
+    - {symerror: 0.00104, label: '$stat_err$'}
+    - {symerror: 0.0179, label: '$sys_err$'}
+    - {symerror: 0.0087, label: '$occupancy_err$'}
+  - value: 0.2
+    errors:
+    - {symerror: 0.00087, label: '$stat_err$'}
+    - {symerror: 0.0131, label: '$sys_err$'}
+    - {symerror: 0.0064, label: '$occupancy_err$'}
+  - value: 0.114
+    errors:
+    - {symerror: 0.00047, label: '$stat_err$'}
+    - {symerror: 0.0084, label: '$sys_err$'}
+    - {symerror: 0.0041, label: '$occupancy_err$'}
+  - value: 0.064
+    errors:
+    - {symerror: 0.00034, label: '$stat_err$'}
+    - {symerror: 0.0047, label: '$sys_err$'}
+    - {symerror: 0.0023, label: '$occupancy_err$'}
+  - value: 0.036
+    errors:
+    - {symerror: 0.00024, label: '$stat_err$'}
+    - {symerror: 0.0027, label: '$sys_err$'}
+    - {symerror: 0.0013, label: '$occupancy_err$'}
+  - value: 0.021
+    errors:
+    - {symerror: 0.00018, label: '$stat_err$'}
+    - {symerror: 0.0015, label: '$sys_err$'}
+    - {symerror: 0.0008, label: '$occupancy_err$'}
+  - value: 0.012
+    errors:
+    - {symerror: 0.00013, label: '$stat_err$'}
+    - {symerror: 0.0009, label: '$sys_err$'}
+    - {symerror: 0.0004, label: '$occupancy_err$'}
+  - value: 0.007
+    errors:
+    - {symerror: 0.00008, label: '$stat_err$'}
+    - {symerror: 0.0005, label: '$sys_err$'}
+    - {symerror: 0.0002, label: '$occupancy_err$'}
+  - value: 0.004
+    errors:
+    - {symerror: 0.00006, label: '$stat_err$'}
+    - {symerror: 0.0003, label: '$sys_err$'}
+    - {symerror: 0.0001, label: '$occupancy_err$'}
+  - value: 0.002
+    errors:
+    - {symerror: 0.00004, label: '$stat_err$'}
+    - {symerror: 0.0002, label: '$sys_err$'}
+    - {symerror: 0.0001, label: '$occupancy_err$'}
+  - value: 0.0012
+    errors:
+    - {symerror: 0.00003, label: '$stat_err$'}
+    - {symerror: 0.0001, label: '$sys_err$'}
+    - {symerror: 0.000045, label: '$occupancy_err$'}
+  - value: 0.0006
+    errors:
+    - {symerror: 0.00002, label: '$stat_err$'}
+    - {symerror: 0.0000493, label: '$sys_err$'}
+    - {symerror: 0.000022, label: '$occupancy_err$'}
+  - value: 0.0003
+    errors:
+    - {symerror: 0.0000115, label: '$stat_err$'}
+    - {symerror: 0.0000222, label: '$sys_err$'}
+    - {symerror: 0.000010, label: '$occupancy_err$'}
+  - value: 0.00013
+    errors:
+    - {symerror: 0.0000076, label: '$stat_err$'}
+    - {symerror: 0.0000102, label: '$sys_err$'}
+    - {symerror: 0.000005, label: '$occupancy_err$'}
+  - value: 0.00007
+    errors:
+    - {symerror: 0.0000055, label: '$stat_err$'}
+    - {symerror: 0.0000057, label: '$sys_err$'}
+    - {symerror: 0.000003, label: '$occupancy_err$'}
+  - value: 0.00004
+    errors:
+    - {symerror: 0.0000042, label: '$stat_err$'}
+    - {symerror: 0.0000037, label: '$sys_err$'}
+    - {symerror: 0.0000015, label: '$occupancy_err$'}
+  - value: 0.00002
+    errors:
+    - {symerror: 0.0000026, label: '$stat_err$'}
+    - {symerror: 0.0000021, label: '$sys_err$'}
+    - {symerror: 0.0000007, label: '$occupancy_err$'}
+  - value: 0.00001
+    errors:
+    - {symerror: 0.0000023, label: '$stat_err$'}
+    - {symerror: 0.0000012, label: '$sys_err$'}
+    - {symerror: 0.0000004, label: '$occupancy_err$'}
+  - value: 0.000005
+    errors:
+    - {symerror: 0.0000013, label: '$stat_err$'}
+    - {symerror: 0.0000006, label: '$sys_err$'}
+    - {symerror: 0.0000002, label: '$occupancy_err$'}
+- header: {name: '$1/(2\pi p_T N_{evt}) d^2N/dp_T d\eta$'}
+  qualifiers:
+  - {name: '$p_{T}[GeV/c]$', value: '$40-50\%$ centrality'}
+  values:
+  - value: 14.0
+    errors:
+    - {symerror: 0.0154, label: '$stat_err$'}
+    - {symerror: 1.036, label: '$sys_err$'}
+    - {symerror: 0.504, label: '$occupancy_err$'}
+  - value: 9.1
+    errors:
+    - {symerror: 0.0118, label: '$stat_err$'}
+    - {symerror: 0.671, label: '$sys_err$'}
+    - {symerror: 0.327, label: '$occupancy_err$'}
+  - value: 6.0
+    errors:
+    - {symerror: 0.0084, label: '$stat_err$'}
+    - {symerror: 0.443, label: '$sys_err$'}
+    - {symerror: 0.215, label: '$occupancy_err$'}
+  - value: 4.0
+    errors:
+    - {symerror: 0.0064, label: '$stat_err$'}
+    - {symerror: 0.298, label: '$sys_err$'}
+    - {symerror: 0.145, label: '$occupancy_err$'}
+  - value: 2.7
+    errors:
+    - {symerror: 0.0049, label: '$stat_err$'}
+    - {symerror: 0.203, label: '$sys_err$'}
+    - {symerror: 0.099, label: '$occupancy_err$'}
+  - value: 1.9
+    errors:
+    - {symerror: 0.0040, label: '$stat_err$'}
+    - {symerror: 0.141, label: '$sys_err$'}
+    - {symerror: 0.068, label: '$occupancy_err$'}
+  - value: 1.3
+    errors:
+    - {symerror: 0.0031, label: '$stat_err$'}
+    - {symerror: 0.099, label: '$sys_err$'}
+    - {symerror: 0.048, label: '$occupancy_err$'}
+  - value: 1.0
+    errors:
+    - {symerror: 0.0025, label: '$stat_err$'}
+    - {symerror: 0.070, label: '$sys_err$'}
+    - {symerror: 0.034, label: '$occupancy_err$'}
+  - value: 0.7
+    errors:
+    - {symerror: 0.0021, label: '$stat_err$'}
+    - {symerror: 0.051, label: '$sys_err$'}
+    - {symerror: 0.025, label: '$occupancy_err$'}
+  - value: 0.5
+    errors:
+    - {symerror: 0.0017, label: '$stat_err$'}
+    - {symerror: 0.037, label: '$sys_err$'}
+    - {symerror: 0.018, label: '$occupancy_err$'}
+  - value: 0.4
+    errors:
+    - {symerror: 0.0014, label: '$stat_err$'}
+    - {symerror: 0.026, label: '$sys_err$'}
+    - {symerror: 0.013, label: '$occupancy_err$'}
+  - value: 0.3
+    errors:
+    - {symerror: 0.0011, label: '$stat_err$'}
+    - {symerror: 0.019, label: '$sys_err$'}
+    - {symerror: 0.009, label: '$occupancy_err$'}
+  - value: 0.2
+    errors:
+    - {symerror: 0.0009, label: '$stat_err$'}
+    - {symerror: 0.014, label: '$sys_err$'}
+    - {symerror: 0.007, label: '$occupancy_err$'}
+  - value: 0.140
+    errors:
+    - {symerror: 0.0008, label: '$stat_err$'}
+    - {symerror: 0.010, label: '$sys_err$'}
+    - {symerror: 0.005, label: '$occupancy_err$'}
+  - value: 0.104
+    errors:
+    - {symerror: 0.0006, label: '$stat_err$'}
+    - {symerror: 0.008, label: '$sys_err$'}
+    - {symerror: 0.004, label: '$occupancy_err$'}
+  - value: 0.067
+    errors:
+    - {symerror: 0.0004, label: '$stat_err$'}
+    - {symerror: 0.005, label: '$sys_err$'}
+    - {symerror: 0.002, label: '$occupancy_err$'}
+  - value: 0.038
+    errors:
+    - {symerror: 0.0003, label: '$stat_err$'}
+    - {symerror: 0.003, label: '$sys_err$'}
+    - {symerror: 0.001, label: '$occupancy_err$'}
+  - value: 0.022
+    errors:
+    - {symerror: 0.0002, label: '$stat_err$'}
+    - {symerror: 0.002, label: '$sys_err$'}
+    - {symerror: 0.001, label: '$occupancy_err$'}
+  - value: 0.012
+    errors:
+    - {symerror: 0.0001, label: '$stat_err$'}
+    - {symerror: 0.001, label: '$sys_err$'}
+    - {symerror: 0.00044, label: '$occupancy_err$'}
+  - value: 0.007
+    errors:
+    - {symerror: 0.0001, label: '$stat_err$'}
+    - {symerror: 0.001, label: '$sys_err$'}
+    - {symerror: 0.00026, label: '$occupancy_err$'}
+  - value: 0.004
+    errors:
+    - {symerror: 0.0001, label: '$stat_err$'}
+    - {symerror: 0.000339, label: '$sys_err$'}
+    - {symerror: 0.00015, label: '$occupancy_err$'}
+  - value: 0.002
+    errors:
+    - {symerror: 0.000046, label: '$stat_err$'}
+    - {symerror: 0.000185, label: '$sys_err$'}
+    - {symerror: 0.00008, label: '$occupancy_err$'}
+  - value: 0.0013
+    errors:
+    - {symerror: 0.000033, label: '$stat_err$'}
+    - {symerror: 0.000100, label: '$sys_err$'}
+    - {symerror: 0.00005, label: '$occupancy_err$'}
+  - value: 0.0007
+    errors:
+    - {symerror: 0.000024, label: '$stat_err$'}
+    - {symerror: 0.000057, label: '$sys_err$'}
+    - {symerror: 0.00003, label: '$occupancy_err$'}
+  - value: 0.0004
+    errors:
+    - {symerror: 0.000013, label: '$stat_err$'}
+    - {symerror: 0.000031, label: '$sys_err$'}
+    - {symerror: 0.00001, label: '$occupancy_err$'}
+  - value: 0.0002
+    errors:
+    - {symerror: 0.000009, label: '$stat_err$'}
+    - {symerror: 0.000015, label: '$sys_err$'}
+    - {symerror: 0.00001, label: '$occupancy_err$'}
+  - value: 0.0001
+    errors:
+    - {symerror: 0.000006, label: '$stat_err$'}
+    - {symerror: 0.000006, label: '$sys_err$'}
+    - {symerror: 0.00000289, label: '$occupancy_err$'}
+  - value: 0.000037
+    errors:
+    - {symerror: 0.000004, label: '$stat_err$'}
+    - {symerror: 0.000003, label: '$sys_err$'}
+    - {symerror: 0.00000134, label: '$occupancy_err$'}
+  - value: 0.000028
+    errors:
+    - {symerror: 0.000003, label: '$stat_err$'}
+    - {symerror: 0.000002, label: '$sys_err$'}
+    - {symerror: 0.00000099, label: '$occupancy_err$'}
+  - value: 0.000012
+    errors:
+    - {symerror: 0.000002, label: '$stat_err$'}
+    - {symerror: 0.0000013, label: '$sys_err$'}
+    - {symerror: 0.00000045, label: '$occupancy_err$'}
+  - value: 0.000006
+    errors:
+    - {symerror: 0.000002, label: '$stat_err$'}
+    - {symerror: 0.0000007, label: '$sys_err$'}
+    - {symerror: 0.00000021, label: '$occupancy_err$'}
+  - value: 0.000003
+    errors:
+    - {symerror: 0.000001, label: '$stat_err$'}
+    - {symerror: 0.0000004, label: '$sys_err$'}
+    - {symerror: 0.00000012, label: '$occupancy_err$'}
+- header: {name: '$1/(2\pi p_T N_{evt}) d^2N/dp_T d\eta$'}
+  qualifiers:
+  - {name: '$p_{T}[GeV/c]$', value: '$50-60\%$ centrality'}
+  values:
+  - value: 8.04
+    errors:
+    - {symerror: 0.01206, label: '$stat_err$'}
+    - {symerror: 0.59496, label: '$sys_err$'}
+    - {symerror: 0.28944, label: '$occupancy_err$'}
+  - value: 5.15
+    errors:
+    - {symerror: 0.00876, label: '$stat_err$'}
+    - {symerror: 0.38110, label: '$sys_err$'}
+    - {symerror: 0.18540, label: '$occupancy_err$'}
+  - value: 3.36
+    errors:
+    - {symerror: 0.00638, label: '$stat_err$'}
+    - {symerror: 0.24864, label: '$sys_err$'}
+    - {symerror: 0.12096, label: '$occupancy_err$'}
+  - value: 2.23
+    errors:
+    - {symerror: 0.00468, label: '$stat_err$'}
+    - {symerror: 0.16502, label: '$sys_err$'}
+    - {symerror: 0.08028, label: '$occupancy_err$'}
+  - value: 1.51
+    errors:
+    - {symerror: 0.00362, label: '$stat_err$'}
+    - {symerror: 0.11174, label: '$sys_err$'}
+    - {symerror: 0.05436, label: '$occupancy_err$'}
+  - value: 1.04
+    errors:
+    - {symerror: 0.00291, label: '$stat_err$'}
+    - {symerror: 0.07696, label: '$sys_err$'}
+    - {symerror: 0.03744, label: '$occupancy_err$'}
+  - value: 0.72
+    errors:
+    - {symerror: 0.00232, label: '$stat_err$'}
+    - {symerror: 0.05358, label: '$sys_err$'}
+    - {symerror: 0.02606, label: '$occupancy_err$'}
+  - value: 0.51
+    errors:
+    - {symerror: 0.00184, label: '$stat_err$'}
+    - {symerror: 0.03789, label: '$sys_err$'}
+    - {symerror: 0.01843, label: '$occupancy_err$'}
+  - value: 0.36
+    errors:
+    - {symerror: 0.00149, label: '$stat_err$'}
+    - {symerror: 0.02694, label: '$sys_err$'}
+    - {symerror: 0.01310, label: '$occupancy_err$'}
+  - value: 0.26
+    errors:
+    - {symerror: 0.00121, label: '$stat_err$'}
+    - {symerror: 0.01946, label: '$sys_err$'}
+    - {symerror: 0.00947, label: '$occupancy_err$'}
+  - value: 0.19
+    errors:
+    - {symerror: 0.00098, label: '$stat_err$'}
+    - {symerror: 0.01399, label: '$sys_err$'}
+    - {symerror: 0.00680, label: '$occupancy_err$'}
+  - value: 0.14
+    errors:
+    - {symerror: 0.00081, label: '$stat_err$'}
+    - {symerror: 0.01014, label: '$sys_err$'}
+    - {symerror: 0.00493, label: '$occupancy_err$'}
+  - value: 0.10
+    errors:
+    - {symerror: 0.00068, label: '$stat_err$'}
+    - {symerror: 0.00747, label: '$sys_err$'}
+    - {symerror: 0.00364, label: '$occupancy_err$'}
+  - value: 0.07
+    errors:
+    - {symerror: 0.00056, label: '$stat_err$'}
+    - {symerror: 0.00543, label: '$sys_err$'}
+    - {symerror: 0.00264, label: '$occupancy_err$'}
+  - value: 0.05
+    errors:
+    - {symerror: 0.00047, label: '$stat_err$'}
+    - {symerror: 0.00403, label: '$sys_err$'}
+    - {symerror: 0.00196, label: '$occupancy_err$'}
+  - value: 0.04
+    errors:
+    - {symerror: 0.00025, label: '$stat_err$'}
+    - {symerror: 0.00260, label: '$sys_err$'}
+    - {symerror: 0.00126, label: '$occupancy_err$'}
+  - value: 0.02
+    errors:
+    - {symerror: 0.00018, label: '$stat_err$'}
+    - {symerror: 0.00148, label: '$sys_err$'}
+    - {symerror: 0.00072, label: '$occupancy_err$'}
+  - value: 0.01
+    errors:
+    - {symerror: 0.00013, label: '$stat_err$'}
+    - {symerror: 0.00084, label: '$sys_err$'}
+    - {symerror: 0.00041, label: '$occupancy_err$'}
+  - value: 0.0068
+    errors:
+    - {symerror: 0.00010, label: '$stat_err$'}
+    - {symerror: 0.00050, label: '$sys_err$'}
+    - {symerror: 0.00024, label: '$occupancy_err$'}
+  - value: 0.0039
+    errors:
+    - {symerror: 0.00007, label: '$stat_err$'}
+    - {symerror: 0.00029, label: '$sys_err$'}
+    - {symerror: 0.00014, label: '$occupancy_err$'}
+  - value: 0.0023
+    errors:
+    - {symerror: 0.00005, label: '$stat_err$'}
+    - {symerror: 0.00018, label: '$sys_err$'}
+    - {symerror: 0.00008, label: '$occupancy_err$'}
+  - value: 0.0012
+    errors:
+    - {symerror: 0.00003, label: '$stat_err$'}
+    - {symerror: 0.00010, label: '$sys_err$'}
+    - {symerror: 0.00004, label: '$occupancy_err$'}
+  - value: 0.0007
+    errors:
+    - {symerror: 0.000024, label: '$stat_err$'}
+    - {symerror: 0.00006, label: '$sys_err$'}
+    - {symerror: 0.00003, label: '$occupancy_err$'}
+  - value: 0.0004
+    errors:
+    - {symerror: 0.000018, label: '$stat_err$'}
+    - {symerror: 0.00003, label: '$sys_err$'}
+    - {symerror: 0.00002, label: '$occupancy_err$'}
+  - value: 0.0002
+    errors:
+    - {symerror: 0.000010, label: '$stat_err$'}
+    - {symerror: 0.00002, label: '$sys_err$'}
+    - {symerror: 0.00001, label: '$occupancy_err$'}
+  - value: 0.0001
+    errors:
+    - {symerror: 0.000007, label: '$stat_err$'}
+    - {symerror: 0.00001, label: '$sys_err$'}
+    - {symerror: 0.00000392, label: '$occupancy_err$'}
+  - value: 0.000048
+    errors:
+    - {symerror: 0.000004, label: '$stat_err$'}
+    - {symerror: 0.0000038, label: '$sys_err$'}
+    - {symerror: 0.00000171, label: '$occupancy_err$'}
+  - value: 0.000026
+    errors:
+    - {symerror: 0.000003, label: '$stat_err$'}
+    - {symerror: 0.0000020, label: '$sys_err$'}
+    - {symerror: 0.00000092, label: '$occupancy_err$'}
+  - value: 0.000014
+    errors:
+    - {symerror: 0.000002, label: '$stat_err$'}
+    - {symerror: 0.0000012, label: '$sys_err$'}
+    - {symerror: 0.00000049, label: '$occupancy_err$'}
+  - value: 0.000007
+    errors:
+    - {symerror: 0.0000017, label: '$stat_err$'}
+    - {symerror: 0.0000008, label: '$sys_err$'}
+    - {symerror: 0.00000027, label: '$occupancy_err$'}
+  - value: 0.000004
+    errors:
+    - {symerror: 0.0000015, label: '$stat_err$'}
+    - {symerror: 0.0000005, label: '$sys_err$'}
+    - {symerror: 0.00000014, label: '$occupancy_err$'}
+  - value: 0.000002
+    errors:
+    - {symerror: 0.0000007, label: '$stat_err$'}
+    - {symerror: 0.0000003, label: '$sys_err$'}
+    - {symerror: 0.00000007, label: '$occupancy_err$'}
+- header: {name: '$1/(2\pi p_T N_{evt}) d^2N/dp_T d\eta$'}
+  qualifiers:
+  - {name: '$p_{T}[GeV/c]$', value: '$60-70\%$ centrality'}
+  values:
+  - value: 4.23
+    errors:
+    - {symerror: 0.00846, label: '$stat_err$'}
+    - {symerror: 0.31302, label: '$sys_err$'}
+    - {symerror: 0.09729, label: '$occupancy_err$'}
+  - value: 2.68
+    errors:
+    - {symerror: 0.00616, label: '$stat_err$'}
+    - {symerror: 0.19832, label: '$sys_err$'}
+    - {symerror: 0.06164, label: '$occupancy_err$'}
+  - value: 1.73
+    errors:
+    - {symerror: 0.00450, label: '$stat_err$'}
+    - {symerror: 0.12802, label: '$sys_err$'}
+    - {symerror: 0.03979, label: '$occupancy_err$'}
+  - value: 1.14
+    errors:
+    - {symerror: 0.00342, label: '$stat_err$'}
+    - {symerror: 0.08436, label: '$sys_err$'}
+    - {symerror: 0.02622, label: '$occupancy_err$'}
+  - value: 0.75
+    errors:
+    - {symerror: 0.00256, label: '$stat_err$'}
+    - {symerror: 0.05572, label: '$sys_err$'}
+    - {symerror: 0.01732, label: '$occupancy_err$'}
+  - value: 0.52
+    errors:
+    - {symerror: 0.00203, label: '$stat_err$'}
+    - {symerror: 0.03848, label: '$sys_err$'}
+    - {symerror: 0.01196, label: '$occupancy_err$'}
+  - value: 0.36
+    errors:
+    - {symerror: 0.00160, label: '$stat_err$'}
+    - {symerror: 0.02627, label: '$sys_err$'}
+    - {symerror: 0.00817, label: '$occupancy_err$'}
+  - value: 0.25
+    errors:
+    - {symerror: 0.00128, label: '$stat_err$'}
+    - {symerror: 0.01850, label: '$sys_err$'}
+    - {symerror: 0.00575, label: '$occupancy_err$'}
+  - value: 0.18
+    errors:
+    - {symerror: 0.00103, label: '$stat_err$'}
+    - {symerror: 0.01310, label: '$sys_err$'}
+    - {symerror: 0.00407, label: '$occupancy_err$'}
+  - value: 0.12
+    errors:
+    - {symerror: 0.00083, label: '$stat_err$'}
+    - {symerror: 0.00918, label: '$sys_err$'}
+    - {symerror: 0.00285, label: '$occupancy_err$'}
+  - value: 0.09
+    errors:
+    - {symerror: 0.00068, label: '$stat_err$'}
+    - {symerror: 0.00675, label: '$sys_err$'}
+    - {symerror: 0.00210, label: '$occupancy_err$'}
+  - value: 0.07
+    errors:
+    - {symerror: 0.00056, label: '$stat_err$'}
+    - {symerror: 0.00484, label: '$sys_err$'}
+    - {symerror: 0.00150, label: '$occupancy_err$'}
+  - value: 0.05
+    errors:
+    - {symerror: 0.00046, label: '$stat_err$'}
+    - {symerror: 0.00349, label: '$sys_err$'}
+    - {symerror: 0.00108, label: '$occupancy_err$'}
+  - value: 0.03
+    errors:
+    - {symerror: 0.00038, label: '$stat_err$'}
+    - {symerror: 0.00256, label: '$sys_err$'}
+    - {symerror: 0.00080, label: '$occupancy_err$'}
+  - value: 0.03
+    errors:
+    - {symerror: 0.00032, label: '$stat_err$'}
+    - {symerror: 0.00189, label: '$sys_err$'}
+    - {symerror: 0.00059, label: '$occupancy_err$'}
+  - value: 0.02
+    errors:
+    - {symerror: 0.00017, label: '$stat_err$'}
+    - {symerror: 0.00120, label: '$sys_err$'}
+    - {symerror: 0.00037, label: '$occupancy_err$'}
+  - value: 0.01
+    errors:
+    - {symerror: 0.00012, label: '$stat_err$'}
+    - {symerror: 0.00067, label: '$sys_err$'}
+    - {symerror: 0.00021, label: '$occupancy_err$'}
+  - value: 0.0054
+    errors:
+    - {symerror: 0.00009, label: '$stat_err$'}
+    - {symerror: 0.00040, label: '$sys_err$'}
+    - {symerror: 0.00012, label: '$occupancy_err$'}
+  - value: 0.0032
+    errors:
+    - {symerror: 0.00007, label: '$stat_err$'}
+    - {symerror: 0.00024, label: '$sys_err$'}
+    - {symerror: 0.00007, label: '$occupancy_err$'}
+  - value: 0.0019
+    errors:
+    - {symerror: 0.00005, label: '$stat_err$'}
+    - {symerror: 0.00014, label: '$sys_err$'}
+    - {symerror: 0.00004, label: '$occupancy_err$'}
+  - value: 0.0011
+    errors:
+    - {symerror: 0.00003, label: '$stat_err$'}
+    - {symerror: 0.00009, label: '$sys_err$'}
+    - {symerror: 0.00003, label: '$occupancy_err$'}
+  - value: 0.0006
+    errors:
+    - {symerror: 0.00002, label: '$stat_err$'}
+    - {symerror: 0.00005, label: '$sys_err$'}
+    - {symerror: 0.00001, label: '$occupancy_err$'}
+  - value: 0.0004
+    errors:
+    - {symerror: 0.000017, label: '$stat_err$'}
+    - {symerror: 0.00003, label: '$sys_err$'}
+    - {symerror: 0.0000082, label: '$occupancy_err$'}
+  - value: 0.0002
+    errors:
+    - {symerror: 0.000013, label: '$stat_err$'}
+    - {symerror: 0.00002, label: '$sys_err$'}
+    - {symerror: 0.0000052, label: '$occupancy_err$'}
+  - value: 0.0001
+    errors:
+    - {symerror: 0.000007, label: '$stat_err$'}
+    - {symerror: 0.00001, label: '$sys_err$'}
+    - {symerror: 0.0000028, label: '$occupancy_err$'}
+  - value: 0.00005
+    errors:
+    - {symerror: 0.000005, label: '$stat_err$'}
+    - {symerror: 0.0000040, label: '$sys_err$'}
+    - {symerror: 0.0000012, label: '$occupancy_err$'}
+  - value: 0.00003
+    errors:
+    - {symerror: 0.000003, label: '$stat_err$'}
+    - {symerror: 0.0000020, label: '$sys_err$'}
+    - {symerror: 0.0000006, label: '$occupancy_err$'}
+  - value: 0.00001
+    errors:
+    - {symerror: 0.000002, label: '$stat_err$'}
+    - {symerror: 0.0000010, label: '$sys_err$'}
+    - {symerror: 0.0000003, label: '$occupancy_err$'}
+  - value: 0.000008
+    errors:
+    - {symerror: 0.0000019, label: '$stat_err$'}
+    - {symerror: 0.0000007, label: '$sys_err$'}
+    - {symerror: 0.0000002, label: '$occupancy_err$'}
+  - value: 0.000004
+    errors:
+    - {symerror: 0.0000013, label: '$stat_err$'}
+    - {symerror: 0.0000004, label: '$sys_err$'}
+    - {symerror: 0.0000001, label: '$occupancy_err$'}
+  - value: 0.000002
+    errors:
+    - {symerror: 0.0000008, label: '$stat_err$'}
+    - {symerror: 0.0000002, label: '$sys_err$'}
+    - {symerror: 0.00000005, label: '$occupancy_err$'}
+  - value: 0.000001
+    errors:
+    - {symerror: 0.0000005, label: '$stat_err$'}
+    - {symerror: 0.0000001, label: '$sys_err$'}
+    - {symerror: 0.00000002, label: '$occupancy_err$'}
