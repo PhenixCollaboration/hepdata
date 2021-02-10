@@ -1,0 +1,66 @@
+independent_variables:
+- header: {name: '$\xi$'}
+  values:
+  - {low: 0, high: 0.4}
+  - {low: 0.4, high: 0.8}
+  - {low: 0.8, high: 1.2}
+  - {low: 1.2, high: 1.6}
+  - {low: 1.6, high: 2}
+  - {low: 2, high: 2.4}
+dependent_variables:
+- header: {name: '$\frac{1}{N_{\gamma}}\frac{dN^{_{\gamma-h}}}{d\xi}$'}
+  qualifiers:
+  - {name: '$\xi$', value: 'Au+Au'}
+  values:
+  - value: 0.0037
+    errors:
+    - {symerror: 0.0021, label: 'stat'}
+    - {symerror: 0.0033, label: 'sys'}
+  - value: 0.0277
+    errors:
+    - {symerror: 0.0057, label: 'stat'}
+    - {symerror: 0.0070, label: 'sys'}
+  - value: 0.139
+    errors:
+    - {symerror: 0.008, label: 'stat'}
+    - {symerror: 0.019, label: 'sys'}
+  - value: 0.247
+    errors:
+    - {symerror: 0.038, label: 'stat'}
+    - {symerror: 0.052, label: 'sys'}
+  - value: 0.567
+    errors:
+    - {symerror: 0.027, label: 'stat'}
+    - {symerror: 0.049, label: 'sys'}
+  - value: 0.52
+    errors:
+    - {symerror: 0.09, label: 'stat'}
+    - {symerror: 0.18, label: 'sys'}
+- header: {name: '$\frac{1}{N_{\gamma}}\frac{dN^{_{\gamma-h}}}{d\xi}$'}
+  qualifiers:
+  - {name: '$\xi$', value: 'd+Au'}
+  values:
+  - value: 0.0120
+    errors:
+    - {symerror: 0.0014, label: 'stat'}
+    - {symerror: 0.0014, label: 'sys'}
+  - value: 0.0662
+    errors:
+    - {symerror: 0.0052, label: 'stat'}
+    - {symerror: 0.0067, label: 'sys'}
+  - value: 0.135
+    errors:
+    - {symerror: 0.014, label: 'stat'}
+    - {symerror: 0.016, label: 'sys'}
+  - value: 0.245
+    errors:
+    - {symerror: 0.022, label: 'stat'}
+    - {symerror: 0.025, label: 'sys'}
+  - value: 0.335
+    errors:
+    - {symerror: 0.031, label: 'stat'}
+    - {symerror: 0.039, label: 'sys'}
+  - value: 0.39
+    errors:
+    - {symerror: 0.03, label: 'stat'}
+    - {symerror: 0.16, label: 'sys'}

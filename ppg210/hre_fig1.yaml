@@ -1,0 +1,278 @@
+independent_variables:
+- header: {name: '$\Delta\phi[rad]$'}
+  values:
+  - {low: 0, high: 0.314159265}
+  - {low: 0.314159265, high: 0.628318531}
+  - {low: 0.628318531, high: 0.942477796}
+  - {low: 0.942477796, high: 1.256637061}
+  - {low: 1.256637061, high: 1.570796327}
+  - {low: 1.570796327, high: 1.884955592}
+  - {low: 1.884955592, high: 2.199114858}
+  - {low: 2.199114858, high: 2.513274123}
+  - {low: 2.513274123, high: 2.827433388}
+  - {low: 2.827433388, high: 3.141592654}
+dependent_variables:
+- header: {name: '$\frac{1}{N_{\gamma}}\frac{dN}{d\Delta\phi}$'}
+  qualifiers:
+  - {name: '$\Delta\phi[rad]$', value: '2.0 < $\xi$ < 2.4'}
+  values:
+  - value: -0.015
+    errors:
+    - {symerror: 0.021, label: 'stat'}
+    - {symerror: 0.054, label: 'sys'}
+  - value: -0.044
+    errors:
+    - {symerror: 0.024, label: 'stat'}
+    - {symerror: 0.040, label: 'sys'}
+  - value: -0.053
+    errors:
+    - {symerror: 0.028, label: 'stat'}
+    - {symerror: 0.029, label: 'sys'}
+  - value: -0.058
+    errors:
+    - {symerror: 0.034, label: 'stat'}
+    - {symerror: 0.039, label: 'sys'}
+  - value: 0.005
+    errors:
+    - {symerror: 0.050, label: 'stat'}
+    - {symerror: 0.050, label: 'sys'}
+  - value: 0.004
+    errors:
+    - {symerror: 0.049, label: 'stat'}
+    - {symerror: 0.050, label: 'sys'}
+  - value: 0.137
+    errors:
+    - {symerror: 0.036, label: 'stat'}
+    - {symerror: 0.041, label: 'sys'}
+  - value: 0.073
+    errors:
+    - {symerror: 0.027, label: 'stat'}
+    - {symerror: 0.028, label: 'sys'}
+  - value: 0.065
+    errors:
+    - {symerror: 0.025, label: 'stat'}
+    - {symerror: 0.038, label: 'sys'}
+  - value: 0.018
+    errors:
+    - {symerror: 0.024, label: 'stat'}
+    - {symerror: 0.054, label: 'sys'}
+- header: {name: '$\frac{1}{N_{\gamma}}\frac{dN}{d\Delta\phi}$'}
+  qualifiers:
+  - {name: '$\Delta\phi[rad]$', value: '1.6 < $\xi$ < 2.0'}
+  values:
+  - value: 0.018
+    errors:
+    - {symerror: 0.013, label: 'stat'}
+    - {symerror: 0.046, label: 'sys'}
+  - value: 0.029
+    errors:
+    - {symerror: 0.015, label: 'stat'}
+    - {symerror: 0.024, label: 'sys'}
+  - value: 0.020
+    errors:
+    - {symerror: 0.016, label: 'stat'}
+    - {symerror: 0.013, label: 'sys'}
+  - value: 0.004
+    errors:
+    - {symerror: 0.023, label: 'stat'}
+    - {symerror: 0.020, label: 'sys'}
+  - value: 0.045
+    errors:
+    - {symerror: 0.032, label: 'stat'}
+    - {symerror: 0.033, label: 'sys'}
+  - value: 0.043
+    errors:
+    - {symerror: 0.030, label: 'stat'}
+    - {symerror: 0.031, label: 'sys'}
+  - value: 0.115
+    errors:
+    - {symerror: 0.022, label: 'stat'}
+    - {symerror: 0.027, label: 'sys'}
+  - value: 0.079
+    errors:
+    - {symerror: 0.017, label: 'stat'}
+    - {symerror: 0.019, label: 'sys'}
+  - value: 0.087
+    errors:
+    - {symerror: 0.015, label: 'stat'}
+    - {symerror: 0.026, label: 'sys'}
+  - value: 0.078
+    errors:
+    - {symerror: 0.014, label: 'stat'}
+    - {symerror: 0.037, label: 'sys'}
+- header: {name: '$\frac{1}{N_{\gamma}}\frac{dN}{d\Delta\phi}$'}
+  qualifiers:
+  - {name: '$\Delta\phi[rad]$', value: '1.2 < $\xi$ < 1.6'}
+  values:
+  - value: -0.015
+    errors:
+    - {symerror: 0.008, label: 'stat'}
+    - {symerror: 0.046, label: 'sys'}
+  - value: 0.028
+    errors:
+    - {symerror: 0.007, label: 'stat'}
+    - {symerror: 0.015, label: 'sys'}
+  - value: 0.027
+    errors:
+    - {symerror: 0.013, label: 'stat'}
+    - {symerror: 0.006, label: 'sys'}
+  - value: 0.031
+    errors:
+    - {symerror: 0.014, label: 'stat'}
+    - {symerror: 0.010, label: 'sys'}
+  - value: 0.052
+    errors:
+    - {symerror: 0.019, label: 'stat'}
+    - {symerror: 0.014, label: 'sys'}
+  - value: 0.042
+    errors:
+    - {symerror: 0.021, label: 'stat'}
+    - {symerror: 0.015, label: 'sys'}
+  - value: 0.024
+    errors:
+    - {symerror: 0.013, label: 'stat'}
+    - {symerror: 0.013, label: 'sys'}
+  - value: 0.032
+    errors:
+    - {symerror: 0.008, label: 'stat'}
+    - {symerror: 0.013, label: 'sys'}
+  - value: 0.039
+    errors:
+    - {symerror: 0.009, label: 'stat'}
+    - {symerror: 0.015, label: 'sys'}
+  - value: 0.052
+    errors:
+    - {symerror: 0.006, label: 'stat'}
+    - {symerror: 0.019, label: 'sys'}
+- header: {name: '$\frac{1}{N_{\gamma}}\frac{dN}{d\Delta\phi}$'}
+  qualifiers:
+  - {name: '$\Delta\phi[rad]$', value: '0.8 < $\xi$ < 1.2'}
+  values:
+  - value: 0.007
+    errors:
+    - {symerror: 0.005, label: 'stat'}
+    - {symerror: 0.034, label: 'sys'}
+  - value: 0.008
+    errors:
+    - {symerror: 0.005, label: 'stat'}
+    - {symerror: 0.008, label: 'sys'}
+  - value: 0.006
+    errors:
+    - {symerror: 0.006, label: 'stat'}
+    - {symerror: 0.002, label: 'sys'}
+  - value: -0.001
+    errors:
+    - {symerror: 0.007, label: 'stat'}
+    - {symerror: 0.001, label: 'sys'}
+  - value: 0.004
+    errors:
+    - {symerror: 0.012, label: 'stat'}
+    - {symerror: 0.005, label: 'sys'}
+  - value: 0.008
+    errors:
+    - {symerror: 0.012, label: 'stat'}
+    - {symerror: 0.006, label: 'sys'}
+  - value: 0.026
+    errors:
+    - {symerror: 0.008, label: 'stat'}
+    - {symerror: 0.005, label: 'sys'}
+  - value: 0.013
+    errors:
+    - {symerror: 0.006, label: 'stat'}
+    - {symerror: 0.003, label: 'sys'}
+  - value: 0.027
+    errors:
+    - {symerror: 0.005, label: 'stat'}
+    - {symerror: 0.007, label: 'sys'}
+  - value: 0.016
+    errors:
+    - {symerror: 0.006, label: 'stat'}
+    - {symerror: 0.009, label: 'sys'}
+- header: {name: '$\frac{1}{N_{\gamma}}\frac{dN}{d\Delta\phi}$'}
+  qualifiers:
+  - {name: '$\Delta\phi[rad]$', value: '0.4 < $\xi$ < 0.8'}
+  values:
+  - value: 0.005
+    errors:
+    - {symerror: 0.001, label: 'stat'}
+    - {symerror: 0.017, label: 'sys'}
+  - value: 0.003
+    errors:
+    - {symerror: 0.001, label: 'stat'}
+    - {symerror: 0.002, label: 'sys'}
+  - value: 0.001
+    errors:
+    - {symerror: 0.001, label: 'stat'}
+    - {symerror: 0.002, label: 'sys'}
+  - value: -0.001
+    errors:
+    - {symerror: 0.003, label: 'stat'}
+    - {symerror: 0.001, label: 'sys'}
+  - value: 0.002
+    errors:
+    - {symerror: 0.003, label: 'stat'}
+    - {symerror: 0.002, label: 'sys'}
+  - value: 0.000
+    errors:
+    - {symerror: 0.004, label: 'stat'}
+    - {symerror: 0.001, label: 'sys'}
+  - value: 0.004
+    errors:
+    - {symerror: 0.003, label: 'stat'}
+    - {symerror: 0.001, label: 'sys'}
+  - value: 0.004
+    errors:
+    - {symerror: 0.001, label: 'stat'}
+    - {symerror: 0.002, label: 'sys'}
+  - value: 0.004
+    errors:
+    - {symerror: 0.001, label: 'stat'}
+    - {symerror: 0.002, label: 'sys'}
+  - value: 0.007
+    errors:
+    - {symerror: 0.002, label: 'stat'}
+    - {symerror: 0.003, label: 'sys'}
+- header: {name: '$\frac{1}{N_{\gamma}}\frac{dN}{d\Delta\phi}$'}
+  qualifiers:
+  - {name: '$\Delta\phi[rad]$', value: '0.0 < $\xi$ < 0.4'}
+  values:
+  - value: 0.0035
+    errors:
+    - {symerror: 0.0011, label: 'stat'}
+    - {symerror: 0.0097, label: 'sys'}
+  - value: 0.0002
+    errors:
+    - {symerror: 0.0015, label: 'stat'}
+    - {symerror: 0.0013, label: 'sys'}
+  - value: 0.0005
+    errors:
+    - {symerror: 0.0011, label: 'stat'}
+    - {symerror: 0.0011, label: 'sys'}
+  - value: 0.0012
+    errors:
+    - {symerror: 0.0008, label: 'stat'}
+    - {symerror: 0.0013, label: 'sys'}
+  - value: 0.0004
+    errors:
+    - {symerror: 0.0017, label: 'stat'}
+    - {symerror: 0.0011, label: 'sys'}
+  - value: -0.0019
+    errors:
+    - {symerror: 0.0017, label: 'stat'}
+    - {symerror: 0.0011, label: 'sys'}
+  - value: 0.0002
+    errors:
+    - {symerror: 0.0015, label: 'stat'}
+    - {symerror: 0.0011, label: 'sys'}
+  - value: 0.0013
+    errors:
+    - {symerror: 0.0011, label: 'stat'}
+    - {symerror: 0.0011, label: 'sys'}
+  - value: 0.0016
+    errors:
+    - {symerror: 0.0011, label: 'stat'}
+    - {symerror: 0.0017, label: 'sys'}
+  - value: 0.0021
+    errors:
+    - {symerror: 0.0011, label: 'stat'}
+    - {symerror: 0.0019, label: 'sys'}

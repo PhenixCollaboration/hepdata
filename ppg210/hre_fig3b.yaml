@@ -1,0 +1,66 @@
+independent_variables:
+- header: {name: '$\xi$'}
+  values:
+  - {low: 0, high: 0.4}
+  - {low: 0.4, high: 0.8}
+  - {low: 0.8, high: 1.2}
+  - {low: 1.2, high: 1.6}
+  - {low: 1.6, high: 2}
+  - {low: 2, high: 2.4}
+dependent_variables:
+- header: {name: '$I_{AA}$'}
+  qualifiers:
+  - {name: '$\xi$', value: 'Au+Au'}
+  values:
+  - value: 0.22
+    errors:
+    - {symerror: 0.18, label: 'stat'}
+    - {symerror: 0.21, label: 'sys'}
+  - value: 0.394
+    errors:
+    - {symerror: 0.089, label: 'stat'}
+    - {symerror: 0.098, label: 'sys'}
+  - value: 0.97
+    errors:
+    - {symerror: 0.11, label: 'stat'}
+    - {symerror: 0.16, label: 'sys'}
+  - value: 1.38
+    errors:
+    - {symerror: 0.21, label: 'stat'}
+    - {symerror: 0.28, label: 'sys'}
+  - value: 1.69
+    errors:
+    - {symerror: 0.17, label: 'stat'}
+    - {symerror: 0.31, label: 'sys'}
+  - value: 0.80
+    errors:
+    - {symerror: 0.15, label: 'stat'}
+    - {symerror: 0.30, label: 'sys'}
+- header: {name: '$I_{dA}$'}
+  qualifiers:
+  - {name: '$\xi$', value: 'd+Au'}
+  values:
+  - value: 0.78
+    errors:
+    - {symerror: 0.20, label: 'stat'}
+    - {symerror: 0.20, label: 'sys'}
+  - value: 0.94
+    errors:
+    - {symerror: 0.11, label: 'stat'}
+    - {symerror: 0.14, label: 'sys'}
+  - value: 0.96
+    errors:
+    - {symerror: 0.10, label: 'stat'}
+    - {symerror: 0.12, label: 'sys'}
+  - value: 1.44
+    errors:
+    - {symerror: 0.20, label: 'stat'}
+    - {symerror: 0.23, label: 'sys'}
+  - value: 1.03
+    errors:
+    - {symerror: 0.14, label: 'stat'}
+    - {symerror: 0.15, label: 'sys'}
+  - value: 0.75
+    errors:
+    - {symerror: 0.10, label: 'stat'}
+    - {symerror: 0.31, label: 'sys'}

@@ -1,0 +1,300 @@
+independent_variables:
+- header: {name: '$X_{T}[GeV/c]$'}
+  values:
+  - {low: 0.5, high: 0.6}
+  - {low: 0.6, high: 0.7}
+  - {low: 0.7, high: 0.8}
+  - {low: 0.8, high: 0.9}
+  - {low: 0.9, high: 1.0}
+  - {low: 1.0, high: 1.1}
+  - {low: 1.1, high: 1.2}
+  - {low: 1.2, high: 1.3}
+  - {low: 1.3, high: 1.4}
+  - {low: 1.4, high: 1.5}
+  - {low: 1.5, high: 1.6}
+  - {low: 1.6, high: 1.7}
+  - {low: 1.7, high: 1.8}
+  - {low: 1.8, high: 1.9}
+  - {low: 1.9, high: 2.0}
+  - {low: 2.0, high: 2.1}
+  - {low: 2.1, high: 2.2}
+  - {low: 2.2, high: 2.3}
+  - {low: 2.3, high: 2.4}
+  - {low: 2.4, high: 2.5}
+  - {low: 2.5, high: 2.6}
+  - {low: 2.6, high: 2.7}
+  - {low: 2.7, high: 2.8}
+  - {low: 2.8, high: 2.9}
+  - {low: 2.9, high: 3.0}
+  - {low: 3.0, high: 3.1}
+  - {low: 3.1, high: 3.4}
+  - {low: 3.4, high: 3.6}
+  - {low: 3.6, high: 3.8}
+  - {low: 3.8, high: 4.0}
+  - {low: 4.0, high: 4.3}
+  - {low: 4.3, high: 4.8}
+dependent_variables:
+- header: {name: '$yield$'}
+  qualifiers:
+  - {name: '$X_{T}[GeV/c]$', value: '$0-10\%$  centrality'}
+  values:
+  - value: 54.4345
+    errors:
+    - {symerror: 0.192154, label: '$estat$'}
+    - {symerror: 8.11074, label: '$esys$'}
+  - value: 35.5034
+    errors:
+    - {symerror: 0.134913, label: '$estat$'}
+    - {symerror: 5.29001, label: '$esys$'}
+  - value: 23.2864
+    errors:
+    - {symerror: 0.0982688, label: '$estat$'}
+    - {symerror: 3.46968, label: '$esys$'}
+  - value: 15.4765
+    errors:
+    - {symerror: 0.0739777, label: '$estat$'}
+    - {symerror: 2.306, label: '$esys$'}
+  - value: 10.647
+    errors:
+    - {symerror: 0.057281, label: '$estat$'}
+    - {symerror: 1.58641, label: '$esys$'}
+  - value: 7.47718
+    errors:
+    - {symerror: 0.0453865, label: '$estat$'}
+    - {symerror: 1.1141, label: '$esys$'}
+  - value: 5.37729
+    errors:
+    - {symerror: 0.0367269, label: '$estat$'}
+    - {symerror: 0.795839, label: '$esys$'}
+  - value: 3.8369
+    errors:
+    - {symerror: 0.0295058, label: '$estat$'}
+    - {symerror: 0.564025, label: '$esys$'}
+  - value: 2.73416
+    errors:
+    - {symerror: 0.024006, label: '$estat$'}
+    - {symerror: 0.399188, label: '$esys$'}
+  - value: 1.95252
+    errors:
+    - {symerror: 0.0194666, label: '$estat$'}
+    - {symerror: 0.283115, label: '$esys$'}
+  - value: 1.40417
+    errors:
+    - {symerror: 0.0160075, label: '$estat$'}
+    - {symerror: 0.202201, label: '$esys$'}
+  - value: 1.03005
+    errors:
+    - {symerror: 0.0132876, label: '$estat$'}
+    - {symerror: 0.147297, label: '$esys$'}
+  - value: 0.734895
+    errors:
+    - {symerror: 0.010803, label: '$estat$'}
+    - {symerror: 0.104355, label: '$esys$'}
+  - value: 0.534899
+    errors:
+    - {symerror: 0.00898631, label: '$estat$'}
+    - {symerror: 0.0754208, label: '$esys$'}
+  - value: 0.373594
+    errors:
+    - {symerror: 0.00732244, label: '$estat$'}
+    - {symerror: 0.0523032, label: '$esys$'}
+  - value: 0.282285
+    errors:
+    - {symerror: 0.00615382, label: '$estat$'}
+    - {symerror: 0.0392377, label: '$esys$'}
+  - value: 0.206391
+    errors:
+    - {symerror: 0.00515978, label: '$estat$'}
+    - {symerror: 0.0286884, label: '$esys$'}
+  - value: 0.142047
+    errors:
+    - {symerror: 0.00417617, label: '$estat$'}
+    - {symerror: 0.0197445, label: '$esys$'}
+  - value: 0.107032
+    errors:
+    - {symerror: 0.00352137, label: '$estat$'}
+    - {symerror: 0.0148775, label: '$esys$'}
+  - value: 0.0789198
+    errors:
+    - {symerror: 0.00298317, label: '$estat$'}
+    - {symerror: 0.0109699, label: '$esys$'}
+  - value: 0.0589527
+    errors:
+    - {symerror: 0.00254676, label: '$estat$'}
+    - {symerror: 0.00819443, label: '$esys$'}
+  - value: 0.0471565
+    errors:
+    - {symerror: 0.00222107, label: '$estat$'}
+    - {symerror: 0.00655476, label: '$esys$'}
+  - value: 0.0312496
+    errors:
+    - {symerror: 0.0018156, label: '$estat$'}
+    - {symerror: 0.00434369, label: '$esys$'}
+  - value: 0.0239174
+    errors:
+    - {symerror: 0.00154506, label: '$estat$'}
+    - {symerror: 0.00332451, label: '$esys$'}
+  - value: 0.0186383
+    errors:
+    - {symerror: 0.00134196, label: '$estat$'}
+    - {symerror: 0.00259072, label: '$esys$'}
+  - value: 0.0119545
+    errors:
+    - {symerror: 0.000756722, label: '$estat$'}
+    - {symerror: 0.00173341, label: '$esys$'}
+  - value: 0.00716859
+    errors:
+    - {symerror: 0.000567752, label: '$estat$'}
+    - {symerror: 0.00109679, label: '$esys$'}
+  - value: 0.00446109
+    errors:
+    - {symerror: 0.000433618, label: '$estat$'}
+    - {symerror: 0.000718236, label: '$esys$'}
+  - value: 0.00307089
+    errors:
+    - {symerror: 0.000353152, label: '$estat$'}
+    - {symerror: 0.00051591, label: '$esys$'}
+  - value: 0.00172164
+    errors:
+    - {symerror: 0.000280627, label: '$estat$'}
+    - {symerror: 0.000303009, label: '$esys$'}
+  - value: 0.00086857
+    errors:
+    - {symerror: 0.000124206, label: '$estat$'}
+    - {symerror: 0.00017632, label: '$esys$'}
+  - value: 0.00022852
+    errors:
+    - {symerror: 0.0000747, label: '$estat$'}
+    - {symerror: 0.00006, label: '$esys$'}
+- header: {name: '$yield$'}
+  qualifiers:
+  - {name: '$X_{T}[GeV/c]$', value: '$60-80\%$ centrality'}
+  values:
+  - value: 2.04417
+    errors:
+    - {symerror: 0.0192152, label: '$estat$'}
+    - {symerror: 0.304581, label: '$esys$'}
+  - value: 1.27405
+    errors:
+    - {symerror: 0.0135049, label: '$estat$'}
+    - {symerror: 0.189833, label: '$esys$'}
+  - value: 0.793797
+    errors:
+    - {symerror: 0.0097637, label: '$estat$'}
+    - {symerror: 0.118276, label: '$esys$'}
+  - value: 0.514123
+    errors:
+    - {symerror: 0.00730055, label: '$estat$'}
+    - {symerror: 0.0766043, label: '$esys$'}
+  - value: 0.34331
+    errors:
+    - {symerror: 0.00563028, label: '$estat$'}
+    - {symerror: 0.0511532, label: '$esys$'}
+  - value: 0.228289
+    errors:
+    - {symerror: 0.00433749, label: '$estat$'}
+    - {symerror: 0.0340151, label: '$esys$'}
+  - value: 0.159568
+    errors:
+    - {symerror: 0.00346263, label: '$estat$'}
+    - {symerror: 0.0236161, label: '$esys$'}
+  - value: 0.113835
+    errors:
+    - {symerror: 0.00281172, label: '$estat$'}
+    - {symerror: 0.0167337, label: '$esys$'}
+  - value: 0.0734077
+    errors:
+    - {symerror: 0.00216553, label: '$estat$'}
+    - {symerror: 0.0107175, label: '$esys$'}
+  - value: 0.0544344
+    errors:
+    - {symerror: 0.00179634, label: '$estat$'}
+    - {symerror: 0.00789299, label: '$esys$'}
+  - value: 0.0345399
+    errors:
+    - {symerror: 0.00137814, label: '$estat$'}
+    - {symerror: 0.00497375, label: '$esys$'}
+  - value: 0.0254581
+    errors:
+    - {symerror: 0.00115325, label: '$estat$'}
+    - {symerror: 0.00364051, label: '$esys$'}
+  - value: 0.0191296
+    errors:
+    - {symerror: 0.000969871, label: '$estat$'}
+    - {symerror: 0.0027164, label: '$esys$'}
+  - value: 0.0141302
+    errors:
+    - {symerror: 0.000799769, label: '$estat$'}
+    - {symerror: 0.00199236, label: '$esys$'}
+  - value: 0.0125976
+    errors:
+    - {symerror: 0.000730661, label: '$estat$'}
+    - {symerror: 0.00176366, label: '$esys$'}
+  - value: 0.00691058
+    errors:
+    - {symerror: 0.000523822, label: '$estat$'}
+    - {symerror: 0.000960571, label: '$esys$'}
+  - value: 0.0058891
+    errors:
+    - {symerror: 0.000473484, label: '$estat$'}
+    - {symerror: 0.000818585, label: '$esys$'}
+  - value: 0.00398485
+    errors:
+    - {symerror: 0.000380155, label: '$estat$'}
+    - {symerror: 0.000553894, label: '$esys$'}
+  - value: 0.00322207
+    errors:
+    - {symerror: 0.000328651, label: '$estat$'}
+    - {symerror: 0.000447868, label: '$esys$'}
+  - value: 0.00252069
+    errors:
+    - {symerror: 0.000289879, label: '$estat$'}
+    - {symerror: 0.000350376, label: '$esys$'}
+  - value: 0.00202028
+    errors:
+    - {symerror: 0.000246474, label: '$estat$'}
+    - {symerror: 0.000280819, label: '$esys$'}
+  - value: 0.00148123
+    errors:
+    - {symerror: 0.000205891, label: '$estat$'}
+    - {symerror: 0.000205891, label: '$esys$'}
+  - value: 0.000710419
+    errors:
+    - {symerror: 0.000149898, label: '$estat$'}
+    - {symerror: 0.000099, label: '$esys$'}
+  - value: 0.000925278
+    errors:
+    - {symerror: 0.000154521, label: '$estat$'}
+    - {symerror: 0.000128614, label: '$esys$'}
+  - value: 0.000539406
+    errors:
+    - {symerror: 0.000120288, label: '$estat$'}
+    - {symerror: 0.000075, label: '$esys$'}
+  - value: 0.000554145
+    errors:
+    - {symerror: 0.000081, label: '$estat$'}
+    - {symerror: 0.000080, label: '$esys$'}
+  - value: 0.000225226
+    errors:
+    - {symerror: 0.0000502, label: '$estat$'}
+    - {symerror: 0.000034, label: '$esys$'}
+  - value: 0.000200561
+    errors:
+    - {symerror: 0.0000447, label: '$estat$'}
+    - {symerror: 0.000032, label: '$esys$'}
+  - value: 0.000100
+    errors:
+    - {symerror: 0.00002893, label: '$estat$'}
+    - {symerror: 0.000017, label: '$esys$'}
+  - value: 0.00008
+    errors:
+    - {symerror: 0.0000303, label: '$estat$'}
+    - {symerror: 0.0000134, label: '$esys$'}
+  - value: 0.000030
+    errors:
+    - {symerror: 0.0000100, label: '$estat$'}
+    - {symerror: 0.000006, label: '$esys$'}
+  - value: 0.0000164
+    errors:
+    - {symerror: 0.0000055, label: '$estat$'}
+    - {symerror: 0.000004, label: '$esys$'}

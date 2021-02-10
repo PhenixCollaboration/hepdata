@@ -1,19 +1,203 @@
-# PPG023
-# InspireHEP: 625472
-# Uploader:
-# Reviewer
+# PHENIX paper PPG023
+#
+# High-p_T Charged Hadron Suppression in Au+Au Collisions at sqrt(s_NN) = 200 GeV
+#
+# Phys.Rev.C 69 (2004) 034910
+# InspireHEP ID: 625472
+#
+# Please contact Abdullah Alsayegh  if you have any questions about this submission
+# PPG liaison: TBA
+# Reviewer: TBA
+#
 comment: |
-  BNL-RHIC.  The PHENIX experiment at RHIC has measured charged hadron yields at mid-rapidity over a wide range of transverse momentum (0.5$< p_T<$10 GeV/$c$) in Au+Au collisions at $\sqrt{s_{NN}}$= 200GeV. The data are compared to $\pi^0$ measurements from the same experiment. For both charged hadrons and neutral pions, the yields per nucleon-nucleon collision are significantly suppressed in central compared to peripheral and nucleon-nucleon collisions. The suppression sets in gradually and increases with increasing centrality of the collisions. Above 4-5 GeV/c in $p_T$, a constant and almost identical suppression of charged hadrons and $\pi^0$’s is observed. The $p_T$ spectra are compared to published spectra from Au+Au at $\sqrt{s_{NN}}$= 130 in terms of $x_T$ scaling. Central and peripheral $\pi^0$ as well as peripheral charged spectra exhibit the same $x_T$ scaling as observed in p+p data.
+  BNL-RHIC.  The PHENIX experiment at RHIC has measured charged hadron yields at mid-rapidity over a wide range of transverse momentum (0.5$< p_T<$10 GeV/$c$) in Au+Au collisions at $\sqrt{s_{NN}}$= 200GeV. The data are compared to $\pi^0$ measurements from the same experiment. For both charged hadrons and neutral pions, the yields per nucleon-nucleon collision are significantly suppressed in central compared to peripheral and nucleon-nucleon collisions. The suppression sets in gradually and increases with increasing centrality of the collisions. Above 4-5 GeV/c in $p_T$, a constant and almost identical suppression of charged hadrons and $\pi^0$ s is observed. The $p_T$ spectra are compared to published spectra from Au+Au at $\sqrt{s_{NN}}$= 130 in terms of $x_T$ scaling. Central and peripheral $\pi^0$ as well as peripheral charged spectra exhibit the same $x_T$ scaling as observed in p+p data.
 additional_resources:
   - {location: "https://phenix-intra.sdcc.bnl.gov/phenix/WWW/info/data/ppg023/DataInPaper.html", description: "web page with data points"}
   - {location: "https://arxiv.org/pdf/nucl-ex/0308006.pdf", description: "paper"}
   - {location: "https://inspirehep.net/literature/625472", description: "paper"}
 ---
-name: "Figure11"
-description: 'Central (0-10%) to peripheral (60-92%) ratio'
+name: "Figure 8 Part 1"
+description: 'Invariant yields for different centrality bins $(h^+ + h^-)/2$.'
 keywords:
-  - {name: reactions, values: [AU AU --> NEUTRAL X]}
+  - {name: reactions, values: [AU AU --> CHARGED X]}
   - {name: cmenergies, values: [200.0]}
-  - {name: phrases, values: [ppg023, π0, mid-rapidity, transverse momentum, suppression]}
-data_file: PPG023_B.yaml
+  - {name: phrases, values: [ppg023, mid-rapidity, transverse momentum, invariant yield]}
+additional_resources:
+  - {location: thumb_spec1half.png, description: Thumbnail Image file}
+  - {location: spec1half.png, description: Image file}
+data_file: PPG023_A1_INCLUDE_5_centrality.yaml
 ---
+name: "Figure 8 Part 2"
+description: 'Invariant yields for different centrality bins $(h^+ + h^-)/2$.'
+keywords:
+  - {name: reactions, values: [AU AU --> CHARGED X]}
+  - {name: cmenergies, values: [200.0]}
+  - {name: phrases, values: [ppg023, mid-rapidity, transverse momentum, invariant yield]}
+additional_resources:
+  - {location: thumb_spec1half.png, description: Thumbnail Image file}
+  - {location: spec1half.png, description: Image file}
+data_file: PPG023_A2_INCULUDE_3_centrality.yaml
+---
+name: "Figure 8 Part 3"
+description: 'Invariant yields for different centrality bins $(h^+ + h^-)/2$.'
+keywords:
+  - {name: reactions, values: [AU AU --> CHARGED X]}
+  - {name: cmenergies, values: [200.0]}
+  - {name: phrases, values: [ppg023, mid-rapidity, transverse momentum, invariant yield]}
+additional_resources:
+  - {location: thumb_spec1half.png, description: Thumbnail Image file}
+  - {location: spec1half.png, description: Image file}
+data_file: PPG023_A3_INCULUDE_4_centrality.yaml
+---
+name: "Figure 8 Part 4"
+description: 'Invariant yields for different centrality bins $(h^+ + h^-)/2$.'
+keywords:
+  - {name: reactions, values: [AU AU --> CHARGED X]}
+  - {name: cmenergies, values: [200.0]}
+  - {name: phrases, values: [ppg023, mid-rapidity, transverse momentum, invariant yield]}
+additional_resources:
+  - {location: thumb_spec1half.png, description: Thumbnail Image file}
+  - {location: spec1half.png, description: Image file}
+data_file: PPG023_A4_INCULUDE_2_centrality.yaml
+---
+name: "Figure 10"
+description: 'Truncated mean $p_T$ for three $p_T$ ranges. The integral region is from 8 GeV/$c >p_T >p_{T,min}$. For the most peripheral bin, since the data stop around 6.5 GeV/$c$, the truncated mean $p_T$ is lower.'
+keywords:
+  - {name: reactions, values: [AU AU --> CHARGED X]}
+  - {name: cmenergies, values: [200.0]}
+  - {name: phrases, values: [ppg023, mid-rapidity, transverse momentum]}
+additional_resources:
+  - {location: thumb_trunpt.png, description: Thumbnail Image file}
+  - {location: trunpt.png, description: Image file}
+data_file: PPG023_C.yaml
+---
+name: "Figure 11"
+description: 'Ratio of central (0-10%) to peripheral (60-92%)'
+keywords:
+  - {name: reactions, values: [AU AU --> CHARGED X]}
+  - {name: cmenergies, values: [200.0]}
+  - {name: phrases, values: [ppg023, mid-rapidity, transverse momentum, nuclear modification factor]}
+additional_resources:
+  - {location: thumb_cp.png, description: Thumbnail Image file}
+  - {location: cp.png, description: Image file}
+data_file: B.yaml
+---
+name: "Figure 12 $R_{AA}$_centrality Part 1"
+description: '$R_AA$ for $(h^++h^-)/2$ and $\pi^0$ as function of $p_T$ for minimum bias and 9 centrality classes.'
+keywords:
+  - {name: reactions, values: [AU AU --> CHARGED X]}
+  - {name: cmenergies, values: [200.0]}
+  - {name: phrases, values: [ppg023, mid-rapidity, transverse momentum, nuclear modification factor]}
+additional_resources:
+  - {location: thumb_Raahalf.png, description: Thumbnail Image file}
+  - {location: Raahalf.png, description: Image file}
+data_file: PPG023_Raa_8_centrality.yaml
+---
+name: "Figure 12 $R_{AA}$ centrality Part 2"
+description: '$R_AA$ for $(h^++h^-)/2$ and $\pi^0$ as function of $p_T$ for minimum bias and 9 centrality classes.'
+keywords:
+  - {name: reactions, values: [AU AU --> CHARGED X]}
+  - {name: cmenergies, values: [200.0]}
+  - {name: phrases, values: [ppg023, mid-rapidity, transverse momentum, nuclear modification factor]}
+additional_resources:
+  - {location: thumb_Raahalf.png, description: Thumbnail Image file}
+  - {location: Raahalf.png, description: Image file}
+data_file: PPG023_Raa_2_centrality.yaml
+---
+name: "Figure 13 Part 1"
+description: 'Ratio of chargd hadrons to neutral pions, $(h^+ + h^-)/2\pi^0$.'
+keywords:
+  - {name: reactions, values: [AU AU --> CHARGED X]}
+  - {name: cmenergies, values: [200.0]}
+  - {name: phrases, values: [ppg023, mid-rapidity, transverse momentum, nuclear modification factor]}
+additional_resources:
+  - {location: thumb_hpi.png, description: Thumbnail Image file}
+  - {location: hpi.png, description: Image file}
+data_file: PPG023_F1_INCULDE_3_centrality.yaml
+---
+name: "Figure 13 Part 2"
+description: 'Ratio of chargd hadrons to neutral pions, $(h^+ + h^-)/2\pi^0$.'
+keywords:
+  - {name: reactions, values: [AU AU --> CHARGED X]}
+  - {name: cmenergies, values: [200.0]}
+  - {name: phrases, values: [ppg023, mid-rapidity, transverse momentum, nuclear modification factor]}
+additional_resources:
+  - {location: thumb_hpi.png, description: Thumbnail Image file}
+  - {location: hpi.png, description: Image file}
+data_file: PPG023_F2_INCULDE_1_centrality.yaml
+---
+name: "Figure 13 Part 3"
+description: 'Ratio of chargd hadrons to neutral pions, $(h^+ + h^-)/2\pi^0$.'
+keywords:
+  - {name: reactions, values: [AU AU --> CHARGED X]}
+  - {name: cmenergies, values: [200.0]}
+  - {name: phrases, values: [ppg023, mid-rapidity, transverse momentum, nuclear modification factor]}
+additional_resources:
+  - {location: thumb_hpi.png, description: Thumbnail Image file}
+  - {location: hpi.png, description: Image file}
+data_file: PPG023_F3_INCULDE_3_centrality.yaml
+---
+name: "Figure 13 Part 4"
+description: 'Ratio of chargd hadrons to neutral pions, $(h^+ + h^-)/2\pi^0$.'
+keywords:
+  - {name: reactions, values: [AU AU --> CHARGED X]}
+  - {name: cmenergies, values: [200.0]}
+  - {name: phrases, values: [ppg023, mid-rapidity, transverse momentum, nuclear modification factor]}
+additional_resources:
+  - {location: thumb_hpi.png, description: Thumbnail Image file}
+  - {location: hpi.png, description: Image file}
+data_file: PPG023_F4_INCULDE_1_centrality.yaml
+---
+name: "Figure 13 Part 5"
+description: 'Ratio of chargd hadrons to neutral pions, $(h^+ + h^-)/2\pi^0$.'
+keywords:
+  - {name: reactions, values: [AU AU --> CHARGED X]}
+  - {name: cmenergies, values: [200.0]}
+  - {name: phrases, values: [ppg023, mid-rapidity, transverse momentum, nuclear modification factor]}
+additional_resources:
+  - {location: thumb_hpi.png, description: Thumbnail Image file}
+  - {location: hpi.png, description: Image file}
+data_file: PPG023_F5_INCULDE_1_centrality.yaml
+---
+name: "Figure 13 Part 6"
+description: 'Ratio of chargd hadrons to neutral pions, $(h^+ + h^-)/2\pi^0$.'
+keywords:
+  - {name: reactions, values: [AU AU --> CHARGED X]}
+  - {name: cmenergies, values: [200.0]}
+  - {name: phrases, values: [ppg023, mid-rapidity, transverse momentum, nuclear modification factor]}
+additional_resources:
+  - {location: thumb_hpi.png, description: Thumbnail Image file}
+  - {location: hpi.png, description: Image file}
+data_file: PPG023_F6_INCULDE_1_centrality.yaml
+---
+name: "Figure 17 "
+description: 'Data points for making the $x_T$ figures. Neutral pion data from 130 GeV.Lead-Scintillator $\pi^0$ central 0-10 AND Lead-Scintillator $\pi^0$  peripheral(60-80%)'
+keywords:
+  - {name: reactions, values: [AU AU --> CHARGED X]}
+  - {name: cmenergies, values: [200.0]}
+  - {name: phrases, values: [ppg023, mid-rapidity, transverse momentum, nuclear modification factor]}
+additional_resources:
+  - {location: thumb_xT.png, description: Thumbnail Image file}
+  - {location: xT.png, description: Image file}
+data_file: PPG023_H2_NeutralPionDataFrom130GeV.yaml
+---
+name: "Figure 18 Part 1"
+description: 'Data points for making the $x_T$ figures. Neutral pion data from 200 GeV'
+keywords:
+  - {name: reactions, values: [AU AU --> CHARGED X]}
+  - {name: cmenergies, values: [200.0]}
+data_file: PPG023_H3_TABLE1_NeutralPionDataFrom200GeVFrom.yaml
+---
+name: "Figure 18 Part2"
+description: 'Data points for making the $x_T$ figures. Neutral pion data from 200 GeV'
+keywords:
+  - {name: reactions, values: [AU AU --> CHARGED X]}
+  - {name: cmenergies, values: [200.0]}
+data_file: PPG023_H3_TABLE2_NeutralPionDataFrom200GeVFrom.yaml
+---
+name: "Figure 18 Part 3"
+description: 'Data points for making the $x_T$ figures. Charged hadron data from 130 GeV $(h^+ + h^-)/2$'
+keywords:
+  - {name: reactions, values: [AU AU --> CHARGED X]}
+  - {name: cmenergies, values: [200.0]}
+data_file: PPG023_H_ChargedHadronDataFrom13GeVh++h-DIVIDINGBY2.yaml

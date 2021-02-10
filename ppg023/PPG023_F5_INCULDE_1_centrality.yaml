@@ -1,0 +1,63 @@
+independent_variables:
+- header: {name: '$p_{T}[GeV/c]$'}
+  values:
+  - {low: 1.0, high: 1.50}
+  - {low: 1.50, high: 2.0}
+  - {low: 2.0, high: 2.50}
+  - {low: 2.50, high: 3.0}
+  - {low: 3.0, high: 3.50}
+  - {low: 3.50, high: 4.0}
+  - {low: 4.0, high: 4.50}
+  - {low: 4.50, high: 5.0}
+  - {low: 5.0, high: 5.50}
+  - {low: 5.50, high: 6.0}
+  - {low: 6.0, high: 6.50}
+dependent_variables:
+- header: {name: '$h/\pi^0 ratio$'}
+  qualifiers:
+  - {name: '$p_{T}[GeV/c]$', value: '$70-80%\%$ centrality'}
+  values:
+  - value: 1.75
+    errors:
+    - {symerror: 0.002975, label: '$quadratic sum of statistical$'}
+    - {symerror: 0.16975, label: '$fractional normalization errors$'}
+  - value: 1.82
+    errors:
+    - {symerror: 0.003276, label: '$quadratic sum of statistical$'}
+    - {symerror: 0.179452, label: '$fractional normalization errors$'}
+  - value: 1.85
+    errors:
+    - {symerror: 0.003515, label: '$quadratic sum of statistical$'}
+    - {symerror: 0.184815, label: '$fractional normalization errors$'}
+  - value: 1.84
+    errors:
+    - {symerror: 0.00368, label: '$quadratic sum of statistical$'}
+    - {symerror: 0.18492, label: '$fractional normalization errors$'}
+  - value: 1.68
+    errors:
+    - {symerror: 0.00336, label: '$quadratic sum of statistical$'}
+    - {symerror: 0.174216, label: '$fractional normalization errors$'}
+  - value: 1.8
+    errors:
+    - {symerror: 0.00468, label: '$quadratic sum of statistical$'}
+    - {symerror: 0.18918, label: '$fractional normalization errors$'}
+  - value: 1.79
+    errors:
+    - {symerror: 0.005907, label: '$quadratic sum of statistical$'}
+    - {symerror: 0.190993, label: '$fractional normalization errors$'}
+  - value: 1.89
+    errors:
+    - {symerror: 0.008694, label: '$quadratic sum of statistical$'}
+    - {symerror: 0.203364, label: '$fractional normalization errors$'}
+  - value: 0.97
+    errors:
+    - {symerror: 0.003589, label: '$quadratic sum of statistical$'}
+    - {symerror: 0.104954, label: '$fractional normalization errors$'}
+  - value: 1.55
+    errors:
+    - {symerror: 0.011625, label: '$quadratic sum of statistical$'}
+    - {symerror: 0.177165, label: '$fractional normalization errors$'}
+  - value: 1.43
+    errors:
+    - {symerror: 0.012441, label: '$quadratic sum of statistical$'}
+    - {symerror: 0.184327, label: '$fractional normalization errors$'}
