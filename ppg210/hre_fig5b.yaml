@@ -1,0 +1,94 @@
+independent_variables:
+- header: {name: '$\xi$'}
+  values:
+  - {low: 0, high: 0.3}
+  - {low: 0.3, high: 0.7}
+  - {low: 0.7, high: 1.1}
+  - {low: 1.1, high: 1.5}
+  - {low: 1.5, high: 1.9}
+  - {low: 1.9, high: 2.3}
+dependent_variables:
+- header: {name: '$I_{AA}$'}
+  qualifiers:
+  - {name: '$\xi$', value: '$\frac{\pi}{2}$'}
+  values:
+  - value: 0.29
+    errors:
+    - {symerror: 0.18, label: 'stat'}
+    - {symerror: 0.13, label: 'sys'}
+  - value: 0.11
+    errors:
+    - {symerror: 0.12, label: 'stat'}
+    - {symerror: 0.11, label: 'sys'}
+  - value: 0.72
+    errors:
+    - {symerror: 0.22, label: 'stat'}
+    - {symerror: 0.12, label: 'sys'}
+  - value: 0.74
+    errors:
+    - {symerror: 0.17, label: 'stat'}
+    - {symerror: 0.10, label: 'sys'}
+  - value: 1.13
+    errors:
+    - {symerror: 0.15, label: 'stat'}
+    - {symerror: 0.14, label: 'sys'}
+  - value: 0.81
+    errors:
+    - {symerror: 0.14, label: 'stat'}
+    - {symerror: 0.30, label: 'sys'}
+- header: {name: '$I_{AA}$'}
+  qualifiers:
+  - {name: '$\xi$', value: '$\frac{\pi}{3}$'}
+  values:
+  - value: 0.74
+    errors:
+    - {symerror: 0.52, label: 'stat'}
+    - {symerror: 0.28, label: 'sys'}
+  - value: 0.35
+    errors:
+    - {symerror: 0.10, label: 'stat'}
+    - {symerror: 0.13, label: 'sys'}
+  - value: 0.78
+    errors:
+    - {symerror: 0.14, label: 'stat'}
+    - {symerror: 0.12, label: 'sys'}
+  - value: 0.55
+    errors:
+    - {symerror: 0.08, label: 'stat'}
+    - {symerror: 0.11, label: 'sys'}
+  - value: 0.80
+    errors:
+    - {symerror: 0.11, label: 'stat'}
+    - {symerror: 0.13, label: 'sys'}
+  - value: 0.53
+    errors:
+    - {symerror: 0.12, label: 'stat'}
+    - {symerror: 0.30, label: 'sys'}
+- header: {name: '$I_{AA}$'}
+  qualifiers:
+  - {name: '$\xi$', value: '$\frac{\pi}{6}$'}
+  values:
+  - value: 0.61
+    errors:
+    - {symerror: 0.34, label: 'stat'}
+    - {symerror: 0.25, label: 'sys'}
+  - value: 0.40
+    errors:
+    - {symerror: 0.14, label: 'stat'}
+    - {symerror: 0.17, label: 'sys'}
+  - value: 0.47
+    errors:
+    - {symerror: 0.12, label: 'stat'}
+    - {symerror: 0.12, label: 'sys'}
+  - value: 0.56
+    errors:
+    - {symerror: 0.11, label: 'stat'}
+    - {symerror: 0.13, label: 'sys'}
+  - value: 0.65
+    errors:
+    - {symerror: 0.11, label: 'stat'}
+    - {symerror: 0.16, label: 'sys'}
+  - value: 0.33
+    errors:
+    - {symerror: 0.13, label: 'stat'}
+    - {symerror: 0.40, label: 'sys'}

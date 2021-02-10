@@ -1,0 +1,55 @@
+independent_variables:
+- header: {name: '$P_{T}^{\gamma} [GeV/c]$'}
+  values:
+  - {low: 5, high: 7}
+  - {low: 7, high: 9}
+  - {low: 9, high: 12}
+dependent_variables:
+- header: {name: '$\frac{I_{AA},\xi>1.2}{I_{AA},\xi<1.2}$'}
+  qualifiers:
+  - {name: '$P_{T}^{\gamma} [GeV/c]$', value: '$\frac{\pi}{2}$'}
+  values:
+  - value: 3.02
+    errors:
+    - {symerror: 0.50, label: 'stat'}
+    - {symerror: 0.77, label: 'sys'}
+  - value: 1.97
+    errors:
+    - {symerror: 0.49, label: 'stat'}
+    - {symerror: 0.49, label: 'sys'}
+  - value: 0.83
+    errors:
+    - {symerror: 0.41, label: 'stat'}
+    - {symerror: 0.10, label: 'sys'}
+- header: {name: '$\frac{I_{AA},\xi>1.2}{I_{AA},\xi<1.2}$'}
+  qualifiers:
+  - {name: '$P_{T}^{\gamma} [GeV/c]$', value: '$\frac{\pi}{3}$'}
+  values:
+  - value: 2.35
+    errors:
+    - {symerror: 0.31, label: 'stat'}
+    - {symerror: 0.65, label: 'sys'}
+  - value: 0.91
+    errors:
+    - {symerror: 0.44, label: 'stat'}
+    - {symerror: 0.34, label: 'sys'}
+  - value: 0.48
+    errors:
+    - {symerror: 0.35, label: 'stat'}
+    - {symerror: 0.12, label: 'sys'}
+- header: {name: '$\frac{I_{AA},\xi>1.2}{I_{AA},\xi<1.2}$'}
+  qualifiers:
+  - {name: '$P_{T}^{\gamma} [GeV/c]$', value: '$\frac{\pi}{6}$'}
+  values:
+  - value: 2.22
+    errors:
+    - {symerror: 0.31, label: 'stat'}
+    - {symerror: 0.78, label: 'sys'}
+  - value: 0.90
+    errors:
+    - {symerror: 0.34, label: 'stat'}
+    - {symerror: 0.44, label: 'sys'}
+  - value: 0.56
+    errors:
+    - {symerror: 0.42, label: 'stat'}
+    - {symerror: 0.15, label: 'sys'}
