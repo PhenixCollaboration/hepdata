@@ -1,5 +1,5 @@
 independent_variables:
-- header: {name: '$P_{T}^{\gamma} [GeV/c]$'}
+- header: {name: '$p_{T}^{\gamma} [GeV/c]$'}
   values:
   - {low: 5, high: 7}
   - {low: 7, high: 9}
@@ -7,7 +7,7 @@ independent_variables:
 dependent_variables:
 - header: {name: '$\frac{I_{AA},\xi>1.2}{I_{AA},\xi<1.2}$'}
   qualifiers:
-  - {name: '$P_{T}^{\gamma} [GeV/c]$', value: '$\frac{\pi}{2}$'}
+  - {name: '$|\Delta\phi-\pi|_{max}$', value: '$\frac{\pi}{2}$'}
   values:
   - value: 3.02
     errors:
@@ -23,7 +23,7 @@ dependent_variables:
     - {symerror: 0.10, label: 'sys'}
 - header: {name: '$\frac{I_{AA},\xi>1.2}{I_{AA},\xi<1.2}$'}
   qualifiers:
-  - {name: '$P_{T}^{\gamma} [GeV/c]$', value: '$\frac{\pi}{3}$'}
+  - {name: '$|\Delta\phi-\pi|_{max}$', value: '$\frac{\pi}{3}$'}
   values:
   - value: 2.35
     errors:
@@ -39,7 +39,7 @@ dependent_variables:
     - {symerror: 0.12, label: 'sys'}
 - header: {name: '$\frac{I_{AA},\xi>1.2}{I_{AA},\xi<1.2}$'}
   qualifiers:
-  - {name: '$P_{T}^{\gamma} [GeV/c]$', value: '$\frac{\pi}{6}$'}
+  - {name: '$|\Delta\phi-\pi|_{max}$', value: '$\frac{\pi}{6}$'}
   values:
   - value: 2.22
     errors:

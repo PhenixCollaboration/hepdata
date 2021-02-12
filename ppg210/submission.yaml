@@ -10,49 +10,43 @@
 # Reviewer: Anthony Hodges
 #
 additional_resources:
-- {description: Image file, location: Figure2_Final_Remake_2.png}
-- {description: Image file, location: Figure3_Final_Remake.png}
-- {description: Image file, location: Figure4_Final_Remake.png}
-- {description: Image file, location: Fig5_Remake.png}
-- {description: Image file, location: Fig6_IAARemake.png}
-- {description: Image file, location: iaa_ratios.png}
-- {description: Image file, location: Figure8_Final_Remake.png}
-#- {description: web page with data points, location: 'https://phenix-intra.sdcc.bnl.gov/phenix/WWW/info/data/ppg238_data.html'}
+- {description: web page with data points, location: 'https://phenix-intra.sdcc.bnl.gov/phenix/WWW/info/data/ppg210_data.html'}
 - {description: arXiv link, location: 'https://arxiv.org/abs/2005.14270'}
+- {location: "https://inspirehep.net/literature/1798493", description: InspireHEP}
 comment: |
-  BNL-RHIC. We present direct photon-hadron correlations in 200 GeV/A Au+Au, d+Au and p+p collisions, for direct photon pT from 5--12 GeV/c, collected by the PHENIX Collaboration in the years from 2006 to 2011. We observe no significant modification of jet fragmentation in d+Au collisions, indicating that cold nuclear matter effects are small or absent. Hadrons carrying a large fraction of the quark's momentum are suppressed in Au+Au compared to p+p and d+Au. As the momentum fraction decreases, the yield of hadrons in Au+Au increases to an excess over the yield in p+p collisions. The excess is at large angles and at low hadron pT and is most pronounced for hadrons associated with lower momentum direct photons. Comparison to theoretical calculations suggests that the hadron excess arises from medium response to energy deposited by jets.
+  BNL-RHIC. We present direct photon-hadron correlations in 200 GeV Au+Au, d+Au and p+p collisions, for direct photon $p_T$ from 5-12 GeV/$c$, collected by the PHENIX Collaboration in the years from 2006 to 2011. We observe no significant modification of jet fragmentation in d+Au collisions, indicating that cold nuclear matter effects are small or absent. Hadrons carrying a large fraction of the quark's momentum are suppressed in Au+Au compared to p+p and d+Au. As the momentum fraction decreases, the yield of hadrons in Au+Au increases to an excess over the yield in p+p collisions. The excess is at large angles and at low hadron $p_T$ and is most pronounced for hadrons associated with lower momentum direct photons. Comparison to theoretical calculations suggests that the hadron excess arises from medium response to energy deposited by jets.
 ---
 additional_resources:
 - {description: Image file, location: Figure2_Final_Remake_2.png}
 - {description: Thumbnail Image file, location: thumb_Figure2_Final_Remake_2.png}
 data_file: hre_fig1.yaml
-description:  Per-trigger yield of hadrons associated to direct photons in Au+Au collisions (closed [black] circles) for direct photon pT 5–9 GeV/c, compared with p+p baseline (open[blue] squares), in various ξ bins.
+description:  Per-trigger yield of hadrons associated to direct photons in Au+Au collisions for direct photon $p_T$ 5-9 GeV/$c$, compared with p+p baseline, in various $\xi$ bins.
 keywords:
 - name: reactions
   values: [AU AU]
 - name: cmenergies
   values: [200.0]
-- {name: phrases, values: [ppg210, mid-rapidity, transverse momentum, dihadron correlations]}
+- {name: phrases, values: [ppg210, mid-rapidity, transverse momentum, photon-hadron correlations]}
 name: Figure 2
 ---
 additional_resources:
 - {description: Image file, location: Figure3_Final_Remake.png}
 - {description: Thumbnail Image file, location: thumb_Figure3_Final_Remake.png}
 data_file: hre_fig2.yaml
-description: Per-trigger yield of hadrons associated to direct photons in d+Au collisions (closed [black] circles) for direct photon pT 7–9 GeV/c, compared with p+p baseline (open[blue] squares), in various ξ bins.
+description: Per-trigger yield of hadrons associated to direct photons in d+Au collisions for direct photon $p_T$ 7-9 GeV/$c$, compared with p+p baseline, in various $\xi$ bins.
 keywords:
 - name: reactions
   values: [d AU]
 - name: cmenergies
   values: [200.0]
-- {name: phrases, values: [ppg210, mid-rapidity, transverse momentum, dihadron correlations]}
+- {name: phrases, values: [ppg210, mid-rapidity, transverse momentum, photon-hadron correlations]}
 name: Figure 3
 ---
 additional_resources:
 - {description: Image file, location: Figure4_Final_Remake.png}
 - {description: Thumbnail Image file, location: thumb_Figure4_Final_Remake.png}
 data_file: hre_fig3a.yaml
-description: (a) Integrated away-side γdir-h per-trigger yields of Au+Au (closed [black] circles), d+Au ([purple] crosses) and p+p (open [blue] squares), as a function of ξ. The p+p and d+Au points have been shifted to the left for clear viewing, as indicated in the legend. (b) IAA (closed [black] circles) and IdA ([purple] crosses).
+description: Integrated away-side $\gamma_{dir}$-h per-trigger yields of Au+Au, d+Au and p+p, as a function of $\xi$. The p+p and d+Au points have been shifted to the left for clear viewing, as indicated in the legend. $I_{AA}$ and $I_{dA}$.
 keywords:
 - name: reactions
   values: [AU AU]
@@ -61,14 +55,14 @@ keywords:
   values: [d AU]
 - name: cmenergies
   values: [200.0]
-- {name: phrases, values: [ppg210, mid-rapidity, transverse momentum, dihadron correlations]}
+- {name: phrases, values: [ppg210, mid-rapidity, transverse momentum, photon-hadron correlations]}
 name: Figure 4a
 ---
 additional_resources:
 - {description: Image file, location: Figure4_Final_Remake.png}
 - {description: Thumbnail Image file, location: thumb_Figure4_Final_Remake.png}
 data_file: hre_fig3b.yaml
-description: (a) Integrated away-side γdir-h per-trigger yields of Au+Au (closed [black] circles), d+Au ([purple] crosses) and p+p (open [blue] squares), as a function of ξ. The p+p and d+Au points have been shifted to the left for clear viewing, as indicated in the legend. (b) IAA (closed [black] circles) and IdA ([purple] crosses).
+description:  Integrated away-side $\gamma_{dir}$-h per-trigger yields of Au+Au, d+Au and p+p, as a function of $\xi$. The p+p and d+Au points have been shifted to the left for clear viewing, as indicated in the legend. $I_{AA}$ and $I_{dA}$.
 keywords:
 - name: reactions
   values: [AU AU]
@@ -76,136 +70,136 @@ keywords:
   values: [d AU]
 - name: cmenergies
   values: [200.0]
-- {name: phrases, values: [ppg210, mid-rapidity, transverse momentum, dihadron correlations]}
+- {name: phrases, values: [ppg210, mid-rapidity, transverse momentum, photon-hadron correlations]}
 name: Figure 4b
 ---
 additional_resources:
 - {description: Image file, location: Fig5_Remake.png}
 - {description: Thumbnail Image file, location: thumb_Fig5_Remake.png}
 data_file: hre_fig7a.yaml
-description: IAA vs ξ for direct photon $P_{T}^{\gamma}$ of 5–7 GeV/c (closed [black] circles), 7–9 GeV/c (closed [red] squares), and 9–12 GeV/c (closed [green] triangles).
+description: $I_{AA}$ vs $\xi$ for direct photon $p_{T}^{\gamma}$ of 5-7 GeV/$c$, 7-9 GeV/$c$, and 9-12 GeV/$c$.
 keywords:
 - name: reactions
   values: [AU AU]
 - name: cmenergies
   values: [200.0]
-- {name: phrases, values: [ppg210, mid-rapidity, transverse momentum, dihadron correlations]}
+- {name: phrases, values: [ppg210, mid-rapidity, transverse momentum, photon-hadron correlations]}
 name: Figure 5a
 ---
 additional_resources:
 - {description: Image file, location: Fig5_Remake.png}
 - {description: Thumbnail Image file, location: thumb_Fig5_Remake.png}
 data_file: hre_fig7b.yaml
-description: IAA vs ξ for direct photon $P_{T}^{\gamma}$ of 5–7 GeV/c (closed [black] circles), 7–9 GeV/c (closed [red] squares), and 9–12 GeV/c (closed [green] triangles).
+description: $I_{AA}$ vs $\xi$ for direct photon $p_{T}^{\gamma}$ of 5-7 GeV/$c$, 7-9 GeV/$c$, and 9-12 GeV/$c$.
 keywords:
 - name: reactions
   values: [AU AU]
 - name: cmenergies
   values: [200.0]
-- {name: phrases, values: [ppg210, mid-rapidity, transverse momentum, dihadron correlations]}
+- {name: phrases, values: [ppg210, mid-rapidity, transverse momentum, photon-hadron correlations]}
 name: Figure 5b
 ---
 additional_resources:
 - {description: Image file, location: Fig5_Remake.png}
 - {description: Thumbnail Image file, location: thumb_Fig5_Remake.png}
 data_file: hre_fig7c.yaml
-description: IAA vs ξ for direct photon $P_{T}^{\gamma}$ of 5–7 GeV/c (closed [black] circles), 7–9 GeV/c (closed [red] squares), and 9–12 GeV/c (closed [green] triangles).
+description: $I_{AA}$ vs $\xi$ for direct photon $p_{T}^{\gamma}$ of 5-7 GeV/$c$, 7-9 GeV/$c$, and 9-12 GeV/$c$.
 keywords:
 - name: reactions
   values: [AU AU]
 - name: cmenergies
   values: [200.0]
-- {name: phrases, values: [ppg210, mid-rapidity, transverse momentum, dihadron correlations]}
+- {name: phrases, values: [ppg210, mid-rapidity, transverse momentum, photon-hadron correlations]}
 name: Figure 5c
 ---
 additional_resources:
 - {description: Image file, location: Fig6_IAARemake.png}
 - {description: Thumbnail Image file, location: thumb_Fig6_IAARemake.png}
 data_file: hre_fig5a.yaml
-description: IAA as a function of ξ for direct photon $P_{T}^{\gamma}$ of (a) 5–7, (b) 7–9, and (c) 9–12 GeV/c. Three away-side integration ranges are chosen to calculate the per-trigger yield and the corresponding IAA |∆φ − π| < π/2 (closed [black] circles), |∆φ − π| < π/3 (closed [blue] squares) and |∆φ − π| < π/6 (closed [red] triangles).
+description: $I_{AA}$ as a function of $\xi$ for direct photon $p_{T}^{\gamma}$ of 5-7, 7-9, and 9-12 GeV/$c$. Three away-side integration ranges are chosen to calculate the per-trigger yield and the corresponding $I_{AA}$, $|\Delta\phi-\pi|<\pi/2$, $|\Delta\phi-\pi|<\pi/3$ and $|\Delta\phi-\pi|<\pi/6$.
 keywords:
 - name: reactions
   values: [AU AU]
 - name: cmenergies
   values: [200.0]
-- {name: phrases, values: [ppg210, mid-rapidity, transverse momentum, dihadron correlations]}
+- {name: phrases, values: [ppg210, mid-rapidity, transverse momentum, photon-hadron correlations]}
 name: Figure 6a
 ---
 additional_resources:
 - {description: Image file, location: Fig6_IAARemake.png}
 - {description: Thumbnail Image file, location: thumb_Fig6_IAARemake.png}
 data_file: hre_fig5b.yaml
-description: IAA as a function of ξ for direct photon $P_{T}^{\gamma}$ of (a) 5–7, (b) 7–9, and (c) 9–12 GeV/c. Three away-side integration ranges are chosen to calculate the per-trigger yield and the corresponding IAA |∆φ − π| < π/2 (closed [black] circles), |∆φ − π| < π/3 (closed [blue] squares) and |∆φ − π| < π/6 (closed [red] triangles).
+description: $I_{AA}$ as a function of $\xi$ for direct photon $p_{T}^{\gamma}$ of 5-7, 7-9, and 9-12 GeV/$c$. Three away-side integration ranges are chosen to calculate the per-trigger yield and the corresponding $I_{AA}$, $|\Delta\phi-\pi|<\pi/2$, $|\Delta\phi-\pi|<\pi/3$ and $|\Delta\phi-\pi|<\pi/6$.
 keywords:
 - name: reactions
   values: [AU AU]
 - name: cmenergies
   values: [200.0]
-- {name: phrases, values: [ppg210, mid-rapidity, transverse momentum, dihadron correlations]}
+- {name: phrases, values: [ppg210, mid-rapidity, transverse momentum, photon-hadron correlations]}
 name: Figure 6b
 ---
 additional_resources:
 - {description: Image file, location: Fig6_IAARemake.png}
 - {description: Thumbnail Image file, location: thumb_Fig6_IAARemake.png}
 data_file: hre_fig5c.yaml
-description: IAA as a function of ξ for direct photon $P_{T}^{\gamma}$ of (a) 5–7, (b) 7–9, and (c) 9–12 GeV/c. Three away-side integration ranges are chosen to calculate the per-trigger yield and the corresponding IAA |∆φ − π| < π/2 (closed [black] circles), |∆φ − π| < π/3 (closed [blue] squares) and |∆φ − π| < π/6 (closed [red] triangles).
+description: $I_{AA}$ as a function of $\xi$ for direct photon $p_{T}^{\gamma}$ of 5-7, 7-9, and 9-12 GeV/$c$. Three away-side integration ranges are chosen to calculate the per-trigger yield and the corresponding, $|\Delta\phi-\pi|<\pi/2$, $|\Delta\phi-\pi|<\pi/3$ and $|\Delta\phi-\pi|<\pi/6$.
 keywords:
 - name: reactions
   values: [AU AU]
 - name: cmenergies
   values: [200.0]
-- {name: phrases, values: [ppg210, mid-rapidity, transverse momentum, dihadron correlations]}
+- {name: phrases, values: [ppg210, mid-rapidity, transverse momentum, photon-hadron correlations]}
 name: Figure 6c
 ---
 additional_resources:
 - {description: Image file, location: iaa_ratios.png}
 - {description: Thumbnail Image file, location: thumb_iaa_ratios.png}
 data_file: hre_fig6.yaml
-description: Ratios of IAA as a function of direct photon pT for three different away-side integration ranges.
+description: Ratios of $I_{AA}$ as a function of direct photon $p_T$ for three different away-side integration ranges.
 keywords:
 - name: reactions
   values: [AU AU]
 - name: cmenergies
   values: [200.0]
-- {name: phrases, values: [ppg210, mid-rapidity, transverse momentum, dihadron correlations]}
+- {name: phrases, values: [ppg210, mid-rapidity, transverse momentum, photon-hadron correlations]}
 name: Figure 7
 ---
 additional_resources:
 - {description: Image file, location: Figure8_Final_Remake.png}
 - {description: Thumbnail Image file, location: thumb_Figure8_Final_Remake.png}
 data_file: hre_fig7a.yaml
-description:  Measured IAA for direct photon pT of (a) 5–7, (b)7–9, and (c) 9–12 GeV/c, as a function of ξ, are compared with theoretical model calculations.
+description:  Measured $I_{AA}$ for direct photon $p_T$ of 5-7, 7-9, and 9-12 GeV/$c$, as a function of $\xi$, are compared with theoretical model calculations.
 keywords:
 - name: reactions
   values: [AU AU]
 - name: cmenergies
   values: [200.0]
-- {name: phrases, values: [ppg210, mid-rapidity, transverse momentum, dihadron correlations]}
+- {name: phrases, values: [ppg210, mid-rapidity, transverse momentum, photon-hadron correlations]}
 name: Figure 8a
 ---
 additional_resources:
 - {description: Image file, location: Figure8_Final_Remake.png}
 - {description: Thumbnail Image file, location: thumb_Figure8_Final_Remake.png}
 data_file: hre_fig7b.yaml
-description: Measured IAA for direct photon pT of (a) 5–7, (b)7–9, and (c) 9–12 GeV/c, as a function of ξ, are compared with theoretical model calculations.
+description: Measured $I_{AA}$ for direct photon $p_T$ of 5-7, 7-9, and 9-12 GeV/$c$, as a function of $\xi$, are compared with theoretical model calculations.
 keywords:
 - name: reactions
   values: [AU AU]
 - name: cmenergies
   values: [200.0]
-- {name: phrases, values: [ppg210, mid-rapidity, transverse momentum, dihadron correlations]}
+- {name: phrases, values: [ppg210, mid-rapidity, transverse momentum, photon-hadron correlations]}
 name: Figure 8b
 ---
 additional_resources:
 - {description: Image file, location: Figure8_Final_Remake.png}
 - {description: Thumbnail Image file, location: thumb_Figure8_Final_Remake.png}
 data_file: hre_fig7c.yaml
-description: Measured IAA for direct photon pT of (a) 5–7, (b)7–9, and (c) 9–12 GeV/c, as a function of ξ, are compared with theoretical model calculations.
+description: Measured $I_{AA}$ for direct photon $p_T$ of 5-7, 7-9, and  9-12 GeV/$c$, as a function of $\xi$, are compared with theoretical model calculations.
 keywords:
 - name: reactions
   values: [AU AU]
 - name: cmenergies
   values: [200.0]
-- {name: phrases, values: [ppg210, mid-rapidity, transverse momentum, dihadron correlations]}
+- {name: phrases, values: [ppg210, mid-rapidity, transverse momentum, photon-hadron correlations]}
 name: Figure 8c
 ---
