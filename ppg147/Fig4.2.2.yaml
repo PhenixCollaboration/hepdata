@@ -1,0 +1,26 @@
+independent_variables:
+- header: {name: 'Particpant Plane Eccentriciy  $\varepsilon_n\left\{\Psi_{pp}\right\}$'}
+  values:
+  - {value: 0.086}
+  - {value: 0.12}
+  - {value: 0.155}
+  - {value: 0.223}
+dependent_variables:
+- header: {name: '$\rho_n$ $v_3$ + spectra'}
+  values:
+  - value: 0.0129
+    errors:
+    - {symerror: 0.0009, label: 'stat'}
+    - {symerror: 0.009, label: 'sys'}
+  - value: 0.0163
+    errors:
+    - {symerror: 0.0013, label: 'stat'}
+    - {symerror: 0.010, label: 'sys'}
+  - value: 0.0218
+    errors:
+    - {symerror: 0.0020, label: 'stat'}
+    - {symerror: 0.008, label: 'sys'}
+  - value: 0.0238
+    errors:
+    - {symerror: 0.0034, label: 'stat'}
+    - {symerror: 0.007, label: 'sys'}
