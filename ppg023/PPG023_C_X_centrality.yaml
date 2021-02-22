@@ -1,21 +1,36 @@
 independent_variables:
-- header: {name: '$N_{part}$'}
+- header: {name: 'centrality %'}
   values:
-  - {low: 400, high: 350}
-  - {low: 350, high: 300}
-  - {low: 300, high: 250}
-  - {low: 250, high: 200}
-  - {low: 200, high: 150}
-  - {low: 150, high: 100}
-  - {low: 100, high: 60}
-  - {low: 60, high: 40}
-  - {low: 40, high: 20}
-  - {low: 20, high: 10}
-  - {low: 10, high: 5}
+  - {low: 0, high: 5}
+  - {low: 5, high: 10}
+  - {low: 10, high: 15}
+  - {low: 15, high: 20}
+  - {low: 20, high: 30}
+  - {low: 30, high: 40}
+  - {low: 40, high: 50}
+  - {low: 50, high: 60}
+  - {low: 60, high: 70}
+  - {low: 70, high: 80}
+  - {low: 80, high: 92}
 dependent_variables:
-- header: {name: '$mean p_{T}(p_{T}>0.5)$'}
+- header: {name: '$N_{Part}$'}
   qualifiers:
-  - {name: '$N_{part}$', value: '$0.5 GeV/c Au+Au 200GeV\%$ Region'}
+  - {name: '$p_{T,min}$', value: 'None'}
+  values:
+  - value: 351.4
+  - value: 299.0
+  - value: 253.9
+  - value: 215.3
+  - value: 166.6
+  - value: 114.2
+  - value: 74.4
+  - value: 45.5
+  - value: 25.7
+  - value: 13.4
+  - value: 6.3
+- header: {name: '$<p_{T}>$'}
+  qualifiers:
+  - {name: '$p_{T,min}$', value: '0.5 GeV/c'}
   values:
   - value: 0.35
     errors:
@@ -50,9 +65,9 @@ dependent_variables:
   - value: 0.3
     errors:
     - {symerror: 0.0002, label: '$stat$'}
-- header: {name: '$mean p_{T}(p_{T}>2.0)$'}
+- header: {name: '$<p_{T}>$'}
   qualifiers:
-  - {name: '$N_{part}$', value: '$2 GeV/c Au+Au 200GeV\%$ Region'}
+  - {name: '$p_{T,min}$', value: '2.0 GeV/c'}
   values:
   - value: 0.37
     errors:
@@ -87,9 +102,9 @@ dependent_variables:
   - value: 0.44
     errors:
     - {symerror: 0.003, label: '$stat$'}
-- header: {name: '$mean p_{T}(p_{T}>4.5)$'}
+- header: {name: '$<p_{T}>$'}
   qualifiers:
-  - {name: '$N_{part}$', value: '$4.5 GeV/c Au+Au 200GeV\%$ Region'}
+  - {name: '$p_{T,min}$', value: '4.5 GeV/c'}
   values:
   - value: 0.66
     errors:

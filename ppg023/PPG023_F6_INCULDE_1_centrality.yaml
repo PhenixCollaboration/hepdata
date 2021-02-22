@@ -12,47 +12,47 @@ independent_variables:
   - {low: 5.0, high: 5.50}
   - {low: 5.50, high: 6.0}
 dependent_variables:
-- header: {name: '$h/\pi^0 ratio$'}
+- header: {name: '$h^{\pm}/\pi^0$'}
   qualifiers:
-  - {name: '$p_{T}[GeV/c]$', value: '$80-92%\%$ centrality'}
+  - {name: 'centrality', value: '$80-92\%$'}
   values:
-  - value: 1.43
+  - value: 1.4
     errors:
-    - {symerror: 0.002431, label: '$quadratic sum of statistical$'}
-    - {symerror: 0.13871, label: '$fractional normalization errors$'}
-  - value: 1.49
+    - {symerror: 0.002, label: '$stat$'}
+    - {symerror: 0.1, label: '$FNE$'}
+  - value: 1.5
     errors:
-    - {symerror: 0.002682, label: '$quadratic sum of statistical$'}
-    - {symerror: 0.146914, label: '$fractional normalization errors$'}
-  - value: 1.47
+    - {symerror: 0.003, label: '$stat$'}
+    - {symerror: 0.1, label: '$FNE$'}
+  - value: 1.5
     errors:
-    - {symerror: 0.002646, label: '$quadratic sum of statistical$'}
-    - {symerror: 0.146853, label: '$fractional normalization errors$'}
-  - value: 1.56
+    - {symerror: 0.003, label: '$stat$'}
+    - {symerror: 0.1, label: '$FNE$'}
+  - value: 1.6
     errors:
-    - {symerror: 0.003276, label: '$quadratic sum of statistical$'}
-    - {symerror: 0.15678, label: '$fractional normalization errors$'}
-  - value: 1.68
-    errors:
-    - {symerror: 0.004368, label: '$quadratic sum of statistical$'}
-    - {symerror: 0.174216, label: '$fractional normalization errors$'}
-  - value: 1.3
-    errors:
-    - {symerror: 0.00325, label: '$quadratic sum of statistical$'}
-    - {symerror: 0.13663, label: '$fractional normalization errors$'}
+    - {symerror: 0.003, label: '$stat$'}
+    - {symerror: 0.2, label: '$FNE$'}
   - value: 1.7
     errors:
-    - {symerror: 0.0068, label: '$quadratic sum of statistical$'}
-    - {symerror: 0.18139, label: '$fractional normalization errors$'}
-  - value: 1.46
+    - {symerror: 0.004, label: '$stat$'}
+    - {symerror: 0.2, label: '$FNE$'}
+  - value: 1.3
     errors:
-    - {symerror: 0.006278, label: '$quadratic sum of statistical$'}
-    - {symerror: 0.157096, label: '$fractional normalization errors$'}
-  - value: 0.87
+    - {symerror: 0.003, label: '$stat$'}
+    - {symerror: 0.1, label: '$FNE$'}
+  - value: 1.7
     errors:
-    - {symerror: 0.003654, label: '$quadratic sum of statistical$'}
-    - {symerror: 0.094134, label: '$fractional normalization errors$'}
-  - value: 1.57
+    - {symerror: 0.01, label: '$stat$'}
+    - {symerror: 0.2, label: '$FNE$'}
+  - value: 1.5
     errors:
-    - {symerror: 0.015386, label: '$quadratic sum of statistical$'}
-    - {symerror: 0.179451, label: '$fractional normalization errors$'}
+    - {symerror: 0.01, label: '$stat$'}
+    - {symerror: 0.2, label: '$FNE$'}
+  - value: 0.9
+    errors:
+    - {symerror: 0.004, label: '$stat$'}
+    - {symerror: 0.1, label: '$FNE$'}
+  - value: 1.6
+    errors:
+    - {symerror: 0.02, label: '$stat$'}
+    - {symerror: 0.2, label: '$FNE$'}
