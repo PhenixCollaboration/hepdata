@@ -28,7 +28,6 @@ additional_resources:
 - {description: Image file, location: VnSysTotal.png}
 - {description: Thumbnail Image file, location: thumb_VnSysTotal.png}
 ---
-
 name: "Figure 12"
 description: 'Per-trigger yields $Y(\Delta\phi)$ of dihadrons pairs measured in Au$+$Au collisions at$\sqrt{s_{NN}}$ after subtracting the underlying event model with several $p_T$ selections and centralities. Systematic uncertainties are due to track matching and the $v_n$ and due to ZYAM.'
 keywords:
@@ -40,7 +39,6 @@ additional_resources:
 - {description: Image file, location: InclusiveTrig4-10.png}
 - {description: Thumbnail Image file, location: thumb_InclusiveTrig4-10.png}
 ---
-
 name: "Figure 15"
 description: 'Per-trigger yields $Y(\Delta\phi)$ of dihadron pairs measured in Au$+$Au collisions after subtracting the underlying event-model with several $p_T$ selections of the trigger and associated particles ($p_T^{t,a}$ and several centralities. Systematic uncertainties are due to track matching and the $v_n$ and due to ZYAM.'
 keywords:
@@ -51,37 +49,279 @@ additional_resources:
 - {description: Image file, location: InclusiveTrig1-4.png}
 - {description: Thumbnail Image file, location: thumb_InclusiveTrig1-4.png}
 data_file: HEPData_Fig15.yaml
-
 ---
-
 name: "Figure 18"
 description: 'Integrated per-trigger yields as a function of associated particle angle relative to Ψ2 event plane φ^a − Ψ2 integrated over the near side |∆φ| < π/4 (a–e) and over the away side |∆φ − π| < π/4 (f–j).'
 keywords:
-  - {name: reactions, values: [AU AU --> CHARGED X]}
+  - {name: reactions, values: [partile angle realtive to phi2]}
   - {name: cmenergies, values: [200.0]}
-  - {name: phrases, values: [ppg173, mid-rapidity, transverse momentum, dihadron correlations]}
+  - {name: phrases, values: [phi2, realive angle, near side]}
 data_file: HEPData_Fig18.yaml
-
 ---
-
 name: "Figure 20"
 description: 'Integrated per-trigger yields as a function of associated particle angle relative to Ψ3 event plane for ((a)-(e)) near-side |∆φ| < π/4 and for ((f)-(j)) away-side |∆φ − π| < π/4.'
 keywords:
-  - {name: reactions, values: [AU AU --> CHARGED X]}
+  - {name: reactions, values: [particle angle realtive to phi3]}
   - {name: cmenergies, values: [200.0]}
-  - {name: phrases, values: [ppg173, mid-rapidity, transverse momentum, dihadron correlations]}
+  - {name: phrases, values: [phi3, relative angle, near-side]}
 data_file: HEPData_Fig20.yaml
-
-
 ---
-
+name: "Figure 21"
+description: 'Correlations C(∆φ) of dihadrons pairs measured in Au+Au collisions at √sNN = 200 GeV before subtracting the underlying event model with several pT selections: (a)–(e) (4 < pt T < 10) ⊗ (4 < pa T < 10) GeV/c, (f)–(j) (4 < pt T < 10) ⊗ (2 < paT < 4) GeV/c, (k)–(o) (4 < ptT < 10) ⊗ (1 < paT < 2) GeV/c, and (p)–(t) (4 < ptT < 10) ⊗ (0.5 < paT < 1) GeV/c. The columns represent centrality bins 0%–10% (a,f,k,p), 10%–20% (b,g,l,q), 20%–30% (c,h,m,r), 30%–40% (d,i,n,s), 40%–50% (e,j,o,t). Systematic uncertainties due to track matching are shown by blue bands around the points.'
+keywords:
+  - {name: reactions, values: [Correlations of dihadron pairs]}
+  - {name: cmenergies, values: [200.0]}
+  - {name: phrases, values: [C(delta phi)]}
+data_file: HEPData_Fig21.yaml
+---
+name: "Figure 22"
+description: ' Correlations C(∆φ) of dihadron pairs measured in Au+Au collisions before subtracting the underlying event-model with several pT selections of the trigger and associated particles (p t,a T ): ((a)-(e)) (2 < pt T < 4) ⊗ (2 < pa T < 4) GeV/c, ((f)-(j)) (2 < pt T < 4) ⊗ (1 < pa T < 2) GeV/c, ((k)-(o)) (2 < pt T < 4) ⊗ (0.5 < pa T < 1) GeV/c, ((p)-(t)) (1 < p  T < 2) ⊗ (1 < pa T < 2) GeV/c, and ((u)-(y)) (1 < pt T < 2) ⊗ (0.5 < pa T < 1) GeV/c. The columns represent centrality bins 0%–10% (a,f,k,p,u), 10%–20% (b,g,l,q,v), 20%–30% (c,h,m,r,w), 30%–40% (d,i,n,s,x), 40%–50% (e,j,o,t,y). Systematic uncertainties due to track matching are shown by blue bands around the points.'
+keywords:
+  - {name: reactions, values: [Correlations of dihardon pairs]}
+  - {name: cmenergies, values: [200.0]}
+  - {name: phrases, values: [C(delta phi)]}
+data_file: HEPData_Fig22.yaml
+---
+name: "Figure 23"
+description: 'Psi_{2} dependent C(#Delta#phi), 2-4#otimes1-2 GeV/c.'
+keywords:
+  - {name: reactions, values: [trigger particle azmithal angle]}
+  - {name: cmenergies, values: [200.0]}
+  - {name: phrases, values: [phi2]}
+data_file: HEPData_Fig23.yaml
+---
+name: "Figure 24"
+description: 'Psi_{2} dependent C(#Delta#phi), 2-4#otimes1-2 GeV/c.'
+keywords:
+  - {name: reactions, values: [trigger particle azmithal angle]}
+  - {name: cmenergies, values: [200.0]}
+  - {name: phrases, values: [phi2]}
+data_file: HEPData_Fig24.yaml
+---
+name: "Figure 25"
+description: 'Psi_{2} dependent C(#Delta#phi), 2-4#otimes1-2 GeV/c.'
+keywords:
+  - {name: reactions, values: [trigger particle azmithal angle]}
+  - {name: cmenergies, values: [200.0]}
+  - {name: phrases, values: [phi2]}
+data_file: HEPData_Fig25.yaml
+---
+name: "Figure 26"
+description: 'Psi_{2} dependent C(#Delta#phi), 2-4#otimes1-2 GeV/c.'
+keywords:
+  - {name: reactions, values: [trigger particle azmithal angle]}
+  - {name: cmenergies, values: [200.0]}
+  - {name: phrases, values: [phi2]}
+data_file: HEPData_Fig26.yaml
+---
+name: "Figure 27"
+description: 'Psi_{2} dependent C(#Delta#phi), 2-4#otimes1-2 GeV/c.'
+keywords:
+  - {name: reactions, values: [trigger particle azmithal angle]}
+  - {name: cmenergies, values: [200.0]}
+  - {name: phrases, values: [phi2]}
+data_file: HEPData_Fig27.yaml
+---
+name: "Figure 28"
+description: 'Psi_{2} dependent C(#Delta#phi), 2-4#otimes1-2 GeV/c.'
+keywords:
+  - {name: reactions, values: [trigger particle azmithal angle]}
+  - {name: cmenergies, values: [200.0]}
+  - {name: phrases, values: [phi2]}
+data_file: HEPData_Fig28.yaml
+---
 name: "Figure 29"
 description: 'Psi_{2} dependent C(#Delta#phi), 2-4#otimes1-2 GeV/c.'
 keywords:
-  - {name: reactions, values: [AU AU --> CHARGED X]}
+  - {name: reactions, values: [trigger particle azmithal angle]}
   - {name: cmenergies, values: [200.0]}
-  - {name: phrases, values: [ppg173, mid-rapidity, transverse momentum, dihadron correlations]}
+  - {name: phrases, values: [phi2]}
 data_file: HEPData_Fig29.yaml
+---
+name: "Figure 30"
+description: 'Psi_{2} dependent C(#Delta#phi), 2-4#otimes2-4 GeV/c.'
+keywords:
+  - {name: reactions, values: [trigger particle azmithal angle]}
+  - {name: cmenergies, values: [200.0]}
+  - {name: phrases, values: [phi2]}
+data_file: HEPData_Fig30.yaml
+---
+name: "Figure 31"
+description: 'Psi_{2} dependent C(#Delta#phi), 4-10#otimes2-4 GeV/c.'
+keywords:
+  - {name: reactions, values: [Trigger particle azimuthal angle]}
+  - {name: cmenergies, values: [200.0]}
+  - {name: phrases, values: [phi2]}
+data_file: HEPData_Fig31.yaml
 
 
 ---
+
+name: "Figure 32"
+description: 'Ψ3-dependent per-trigger yields Y (∆φ, φs) for (2 < ptT < 4) ⊗ (1 < paT < 2) GeV/c. Trigger particle azimuthal angle relative to event-planes φs=φ, t − Ψ3 is selected out of plane (left) to in-plane (right). Centrality is 0%–10% (top) to 40%–50%
+(bottom).'
+keywords:
+  - {name: reactions, values: [Trigger particle yeilds Y]}
+  - {name: cmenergies, values: [200.0]}
+  - {name: phrases, values: [phi3]}
+data_file: HEPData_Fig32.yaml
+
+
+---
+
+name: "Figure 33"
+description: 'Ψ3-dependent per-trigger yields Y (∆φ, φs) for (2 < ptT < 4) ⊗ (2 < paT < 4) GeV/c. Trigger particle azimuthal angle relative to event-planes φs = φ t − Ψ3 is out of plane (left) to in plane (right). Centrality is 0%–10% (top) to 40%–50% (bottom).'
+keywords:
+  - {name: reactions, values: [Trigger particle yeilds Y]}
+  - {name: cmenergies, values: [200.0]}
+  - {name: phrases, values: [phi3]}
+data_file: HEPData_Fig33.yaml
+
+
+---
+
+name: "Figure 34"
+description: 'Ψ3-dependent per-trigger yields Y (∆φ, φs) for (4 < ptT < 10) ⊗ (2 < paT < 4) GeV/c. Trigger particle azimuthal angle relative to event-planes φs = φ, t − Ψ3 is selected out of plane (left) to in plane (right). Centrality is 0%–10% (left) to 40%–50% (right).'
+keywords:
+  - {name: reactions, values: [Trigger particle yeilds Y]}
+  - {name: cmenergies, values: [200.0]}
+  - {name: phrases, values: [phi3]}
+data_file: HEPData_Fig34.yaml
+
+---
+
+name: "HEPData_Psi2_Cor2-4x1-2GeV"
+description: ''
+keywords:
+  - {name: reactions, values: [Trigger particle yeilds Y]}
+  - {name: cmenergies, values: [200.0]}
+  - {name: phrases, values: [phi3]}
+data_file: HEPData_Psi2_Cor2-4x1-2GeV.yaml
+
+
+---
+
+name: "HEPData_Psi2_Cor2-4x2-4GeV"
+description: ''
+keywords:
+  - {name: reactions, values: [Trigger particle yeilds Y]}
+  - {name: cmenergies, values: [200.0]}
+  - {name: phrases, values: [phi3]}
+data_file: HEPData_Psi2_Cor2-4x2-4GeV.yaml
+
+
+---
+
+name: "HEPData_Cor2_PTY4-10x2-4GeV"
+description: ''
+keywords:
+  - {name: reactions, values: [Trigger particle yeilds Y]}
+  - {name: cmenergies, values: [200.0]}
+  - {name: phrases, values: [phi3]}
+data_file: HEPData_Psi2_Cor4-10x2-4GeV.yaml
+
+
+
+---
+
+name: "HEPData_Psi2_PTY2-4x1-2GeV"
+description: ''
+keywords:
+  - {name: reactions, values: [Trigger particle yeilds Y]}
+  - {name: cmenergies, values: [200.0]}
+  - {name: phrases, values: [phi3]}
+data_file: HEPData_Psi2_PTY2-4x1-2GeV.yaml
+
+
+---
+
+name: "HEPData_Psi2_PTY2-4x2-4Gev"
+description: ''
+keywords:
+  - {name: reactions, values: [Trigger particle yeilds Y]}
+  - {name: cmenergies, values: [200.0]}
+  - {name: phrases, values: [phi3]}
+data_file: HEPData_Psi2_PTY2-4x2-4GeV.yaml
+
+
+---
+
+name: "HEPData_Psi2_PTY4-10x2-4Gev"
+description: ''
+keywords:
+  - {name: reactions, values: [Trigger particle yeilds Y]}
+  - {name: cmenergies, values: [200.0]}
+  - {name: phrases, values: [phi3]}
+data_file: HEPData_Psi2_PTY4-10x2-4GeV.yaml
+
+
+---
+
+name: "HEPData_Psi3_Cor2-4x1-2GeV"
+description: ''
+keywords:
+  - {name: reactions, values: [Trigger particle yeilds Y]}
+  - {name: cmenergies, values: [200.0]}
+  - {name: phrases, values: [phi3]}
+data_file: HEPData_Psi3_Cor2-4x1-2GeV.yaml
+
+
+---
+
+name: "HEPData_Psi3_Cor2-4x2-4Gev"
+description: ''
+keywords:
+  - {name: reactions, values: [Trigger particle yeilds Y]}
+  - {name: cmenergies, values: [200.0]}
+  - {name: phrases, values: [phi3]}
+data_file: HEPData_Psi3_Cor2-4x2-4GeV.yaml
+
+
+---
+
+name: "HEPData_Psi3_Cor4-10x2-4GeV"
+description: ''
+keywords:
+  - {name: reactions, values: [Trigger particle yeilds Y]}
+  - {name: cmenergies, values: [200.0]}
+  - {name: phrases, values: [phi3]}
+data_file: HEPData_Psi3_Cor4-10x2-4GeV.yaml
+
+
+
+---
+
+name: "HEPData_Psi3_PTY2-4x1-2Gev"
+description: ''
+keywords:
+  - {name: reactions, values: [Trigger particle yeilds Y]}
+  - {name: cmenergies, values: [200.0]}
+  - {name: phrases, values: [phi3]}
+data_file: HEPData_Psi3_PTY2-4x1-2GeV.yaml
+
+
+---
+
+name: "HEPData_Psi3_PTY2-4x2-4Gev"
+description: ''
+keywords:
+  - {name: reactions, values: [Trigger particle yeilds Y]}
+  - {name: cmenergies, values: [200.0]}
+  - {name: phrases, values: [phi3]}
+data_file: HEPData_Psi3_PTY2-4x2-4GeV.yaml
+
+
+---
+
+name: "HEPData_Psi3_PTY4-10x2-4Gev"
+description: ''
+keywords:
+  - {name: reactions, values: [Trigger particle yeilds Y]}
+  - {name: cmenergies, values: [200.0]}
+  - {name: phrases, values: [phi3]}
+data_file: HEPData_Psi3_PTY4-10x2-4GeV.yaml
+
+
+---
+
+
