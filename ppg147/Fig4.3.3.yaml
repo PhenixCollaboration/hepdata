@@ -1,0 +1,26 @@
+independent_variables:
+- header: {name: 'Particpant Plane Eccentriciy  $\varepsilon_n\left\{\Psi_{pp}}\right}$'}
+  values:
+  - {value: 0.001}
+  - {value: 0.013}
+  - {value: 0.045}
+  - {value: 0.109}
+dependent_variables:
+- header: {name: '$s_n$ $v_4\{\Psi_2\}$ + spectra'}
+  values:
+  - value: -0.00310
+    errors:
+    - {symerror: 0.0012, label: 'stat'}
+    - {symerror: 0.006, label: 'sys'}
+  - value: -0.00380
+    errors:
+    - {symerror: 0.0011, label: 'stat'}
+    - {symerror: 0.010, label: 'sys'}
+  - value: -0.00160
+    errors:
+    - {symerror: 0.0014, label: 'stat'}
+    - {symerror: 0.007, label: 'sys'}
+  - value: 0.0013
+    errors:
+    - {symerror: 0.0020, label: 'stat'}
+    - {symerror: 0.007, label: 'sys'}
