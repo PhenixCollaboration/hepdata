@@ -1,0 +1,114 @@
+---
+additional_resources: # additional references (e.g. experiment TWiki page for analysis)
+  - {location: "https://journals.aps.org/prc/abstract/10.1103/PhysRevC.101.034910", description: "PRC publication, March 16 2020"}
+  - {location: "", description: "arXiv link"}	
+comment: | # preserve newlines
+  BNL-RHIC. The PHENIX experiment has studied nuclear effects in p+Al and p+Au collisions at $\sqrt{s_{_{NN}}}=200~{\rm GeV}$ on charged hadron production at forward rapidity ($1.4<\eta<2.4$, p-going direction) and backward rapidity ($-2.2<\eta<-1.4$, A-going direction). Such effects are quantified by measuring nuclear modification factors as a function of transverse momentum and pesudorapidity in various collision multiplicity selections. In central p+Al and p+Au collisions, a suppression (enhancement) is observed at forward (backward) rapidity compared to the binary scaled yields in p+p collisions. The magnitude of enhancement at backward rapidity is larger in p+Au collisions than in p+Al collisions, which have a smaller number of participating nucleons. However, the results at forward rapidity show a similar suppression within uncertainties. The results in the integrated centrality are compared with calculations using nuclear parton distribution functions, which show a reasonable agreement at the forward rapidity but fail to describe the backward rapidity enhancement.
+---
+# PPG201, reviewer: Sanghoon Lim 
+
+# Start a new YAML document to indicate a new data table.
+
+####   Beginning of Data List
+
+name: "Table 1"
+location: Data from  Fig. 7 of PRC 101 034910)
+keywords: # used for searching, possibly multiple values for each keyword
+  - {name: reactions, values: [p + Al -> h+/- + X]}
+  - {name: observables, values: [R_pA]}
+  - {name: cmenergies, values: [200.0]} # centre-of-mass energy in GeV
+data_file: Figure7.yaml
+description: "RpA of charged hadrons as a function of pT at forward and backward rapidity in p+Al 0%-100% centrality." # (optional)
+####
+---
+name: "Table 2"
+location: Data from  Fig. 8 of PRC 101 034910)
+keywords: # used for searching, possibly multiple values for each keyword
+  - {name: reactions, values: [p + Au -> h+/- + X]}
+  - {name: observables, values: [R_pA]}
+  - {name: cmenergies, values: [200.0]} # centre-of-mass energy in GeV
+data_file: Figure8.yaml
+description: "RpA of charged hadrons as a function of pT at forward and backward rapidity in p+Au 0%-100% centrality." # (optional)
+####
+---
+name: "Table 3"
+location: Data from  Fig. 9 of PRC 101 034910)
+keywords: # used for searching, possibly multiple values for each keyword
+  - {name: reactions, values: [p + Al/Au -> h+/- + X]}
+  - {name: observables, values: [R_pA]}
+  - {name: cmenergies, values: [200.0]} # centre-of-mass energy in GeV
+data_file: Figure9.yaml
+description: "RpA of charged hadrons as a function of eta at forward and backward rapidity in p+Al and p+Au 0%-100% centrality." # (optional)
+####
+---
+name: "Table 4"
+location: Data from  Fig. 10 of PRC 101 034910)
+keywords: # used for searching, possibly multiple values for each keyword
+  - {name: reactions, values: [p + Al -> h+/- + X]}
+  - {name: observables, values: [R_pA]}
+  - {name: cmenergies, values: [200.0]} # centre-of-mass energy in GeV
+data_file: Figure10fwd.yaml
+description: "RpA of charged hadrons as a function of pT at forward rapidity in p+Al various centrality bins." # (optional)
+####
+---
+name: "Table 5"
+location: Data from  Fig. 10 of PRC 101 034910)
+keywords: # used for searching, possibly multiple values for each keyword
+  - {name: reactions, values: [p + Al -> h+/- + X]}
+  - {name: observables, values: [R_pA]}
+  - {name: cmenergies, values: [200.0]} # centre-of-mass energy in GeV
+data_file: Figure10bwd.yaml
+description: "RpA of charged hadrons as a function of pT at backward rapidity in p+Al various centrality bins." # (optional)
+####
+---
+name: "Table 6"
+location: Data from  Fig. 11 of PRC 101 034910)
+keywords: # used for searching, possibly multiple values for each keyword
+  - {name: reactions, values: [p + Al -> h+/- + X]}
+  - {name: observables, values: [R_pA]}
+  - {name: cmenergies, values: [200.0]} # centre-of-mass energy in GeV
+data_file: Figure11.yaml
+description: "RpA of charged hadrons as a function of eta at forward and backward rapidity in p+Al various centrality bins." # (optional)
+####
+---
+name: "Table 7"
+location: Data from  Fig. 12 of PRC 101 034910)
+keywords: # used for searching, possibly multiple values for each keyword
+  - {name: reactions, values: [p + Au -> h+/- + X]}
+  - {name: observables, values: [R_pA]}
+  - {name: cmenergies, values: [200.0]} # centre-of-mass energy in GeV
+data_file: Figure12fwd.yaml
+description: "RpA of charged hadrons as a function of pT at forward rapidity in p+Au various centrality bins." # (optional)
+####
+---
+name: "Table 8"
+location: Data from  Fig. 12 of PRC 101 034910)
+keywords: # used for searching, possibly multiple values for each keyword
+  - {name: reactions, values: [p + Au -> h+/- + X]}
+  - {name: observables, values: [R_pA]}
+  - {name: cmenergies, values: [200.0]} # centre-of-mass energy in GeV
+data_file: Figure12bwd.yaml
+description: "RpA of charged hadrons as a function of pT at backward rapidity in p+Au various centrality bins." # (optional)
+####
+---
+name: "Table 9"
+location: Data from  Fig. 13 of PRC 101 034910)
+keywords: # used for searching, possibly multiple values for each keyword
+  - {name: reactions, values: [p + Au -> h+/- + X]}
+  - {name: observables, values: [R_pA]}
+  - {name: cmenergies, values: [200.0]} # centre-of-mass energy in GeV
+data_file: Figure13.yaml
+description: "RpA of charged hadrons as a function of eta at forward and backward rapidity in p+Au various centrality bins." # (optional)
+####
+---
+name: "Table 10"
+location: Data from  Fig. 14 of PRC 101 034910)
+keywords: # used for searching, possibly multiple values for each keyword
+  - {name: reactions, values: [p + Al/Au -> h+/- + X]}
+  - {name: observables, values: [R_pA]}
+  - {name: cmenergies, values: [200.0]} # centre-of-mass energy in GeV
+data_file: Figure14.yaml
+description: "RpA of charged hadrons as a function of Npart at forward and backward rapidity in p+Al and p+Au collisions." # (optional)
+####
+####
+# End of YAML file
