@@ -1,0 +1,1067 @@
+% Template for PHENIX Physics Paper submission to PRL or PRC
+%
+% Please ask Brant <brant@bnl.gov>, if you have any questions 
+% about the preparation of your draft.  If you follow the
+% instructions below, Brant can quickly estimate the length
+% of your paper.  This is extremely important for PRL or for
+% PRC, Rapid Communications.
+%
+%\documentstyle[prl,aps,eqsecnum,epsfig,preprint]{revtex}
+%\documentstyle[prl,aps,eqsecnum,epsfig]{revtex}
+%
+% To produce single column, double-spaced printout for review
+% and for length check, use the "preprint" style.  The text is  
+% assumed to average 90 characters per line.  The contribution
+% of text to the total length is calculated as 
+%  Text-lines = Number-of-90-character lines * (90/55).
+% [Note:  If one word spills over onto the next line, it
+%  contributes 1.64 lines to length estimate!]
+%
+\documentstyle[prl,aps,eqsecnum,epsfig,multicol]{revtex}
+%
+% To produce a two-column output similar to what will be 
+% published and appropriate for posting to preprint arXiv,
+% use "multicol" style (plus \begin{multicol}, \narrowtext
+% ... \end{multicol}
+% NOTE:  To change style, comment out the "preprint" line 
+% and activate the "multicol" line, plus other "%%%" lines 
+% below.
+
+\begin{document}
+\draft
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Title
+%
+
+\title{Suppression of Hadrons with Large Transverse Momentum 
+in Central Au+Au Collisions at $\sqrt{s_{_{NN}}}$~=~130~GeV }
+
+
+% NOTE:  Brant will add the author list later.  Its length
+% does not count toward the length estimate.  Instead, 24 
+% lines are counted toward the length to approximate a 
+% typical set of several authors and a few institutions.
+%
+% Use the following 5 lines exactly as written:
+
+%% Author and Institution List for PPG003
+\author{
+K.~Adcox,$^{40}$
+S.{\,}S.~Adler,$^{3}$
+N.{\,}N.~Ajitanand,$^{27}$
+Y.~Akiba,$^{14}$
+J.~Alexander,$^{27}$
+L.~Aphecetche,$^{34}$
+Y.~Arai,$^{14}$
+S.{\,}H.~Aronson,$^{3}$
+R.~Averbeck,$^{28}$
+T.{\,}C.~Awes,$^{29}$
+K.{\,}N.~Barish,$^{5}$
+P.{\,}D.~Barnes,$^{19}$
+J.~Barrette,$^{21}$
+B.~Bassalleck,$^{25}$
+S.~Bathe,$^{22}$
+V.~Baublis,$^{30}$
+A.~Bazilevsky,$^{12,32}$
+S.~Belikov,$^{12,13}$
+F.{\,}G.~Bellaiche,$^{29}$
+S.{\,}T.~Belyaev,$^{16}$
+M.{\,}J.~Bennett,$^{19}$
+Y.~Berdnikov,$^{35}$
+S.~Botelho,$^{33}$
+M.{\,}L.~Brooks,$^{19}$
+D.{\,}S.~Brown,$^{26}$
+N.~Bruner,$^{25}$
+D.~Bucher,$^{22}$
+H.~Buesching,$^{22}$
+V.~Bumazhnov,$^{12}$
+G.~Bunce,$^{3,32}$
+J.~Burward-Hoy,$^{28}$
+S.~Butsyk,$^{28,30}$
+T.{\,}A.~Carey,$^{19}$
+P.~Chand,$^{2}$
+J.~Chang,$^{5}$
+W.{\,}C.~Chang,$^{1}$
+L.{\,}L.~Chavez,$^{25}$
+S.~Chernichenko,$^{12}$
+C.{\,}Y.~Chi,$^{8}$
+J.~Chiba,$^{14}$
+M.~Chiu,$^{8}$
+R.{\,}K.~Choudhury,$^{2}$
+T.~Christ,$^{28}$
+T.~Chujo,$^{3,39}$
+M.{\,}S.~Chung,$^{15,19}$
+P.~Chung,$^{27}$
+V.~Cianciolo,$^{29}$
+B.{\,}A.~Cole,$^{8}$
+D.{\,}G.~D'Enterria,$^{34}$
+G.~David,$^{3}$
+H.~Delagrange,$^{34}$
+A.~Denisov,$^{12}$
+A.~Deshpande,$^{32}$
+E.{\,}J.~Desmond,$^{3}$
+O.~Dietzsch,$^{33}$
+B.{\,}V.~Dinesh,$^{2}$
+A.~Drees,$^{28}$
+A.~Durum,$^{12}$
+D.~Dutta,$^{2}$
+K.~Ebisu,$^{24}$
+Y.{\,}V.~Efremenko,$^{29}$
+K.~El~Chenawi,$^{40}$
+H.~En'yo,$^{17,31}$
+S.~Esumi,$^{39}$
+L.~Ewell,$^{3}$
+T.~Ferdousi,$^{5}$
+D.{\,}E.~Fields,$^{25}$
+S.{\,}L.~Fokin,$^{16}$
+Z.~Fraenkel,$^{42}$
+A.~Franz,$^{3}$
+A.{\,}D.~Frawley,$^{9}$
+S.{\,}-Y.~Fung,$^{5}$
+S.~Garpman,$^{20}$
+T.{\,}K.~Ghosh,$^{40}$
+A.~Glenn,$^{36}$
+A.{\,}L.~Godoi,$^{33}$
+Y.~Goto,$^{32}$
+S.{\,}V.~Greene,$^{40}$
+M.~Grosse~Perdekamp,$^{32}$
+S.{\,}K.~Gupta,$^{2}$
+W.~Guryn,$^{3}$
+H.{\,}-{\AA}.~Gustafsson,$^{20}$
+J.{\,}S.~Haggerty,$^{3}$
+H.~Hamagaki,$^{7}$
+A.{\,}G.~Hansen,$^{19}$
+H.~Hara,$^{24}$
+E.{\,}P.~Hartouni,$^{18}$
+R.~Hayano,$^{38}$
+N.~Hayashi,$^{31}$
+X.~He,$^{10}$
+T.{\,}K.~Hemmick,$^{28}$
+J.{\,}M.~Heuser,$^{28}$
+M.~Hibino,$^{41}$
+J.{\,}C.~Hill,$^{13}$
+D.{\,}S.~Ho,$^{43}$
+K.~Homma,$^{11}$
+B.~Hong,$^{15}$
+A.~Hoover,$^{26}$
+T.~Ichihara,$^{31,32}$
+K.~Imai,$^{17,31}$
+M.{\,}S.~Ippolitov,$^{16}$
+M.~Ishihara,$^{31,32}$
+B.{\,}V.~Jacak,$^{28,32}$
+W.{\,}Y.~Jang,$^{15}$
+J.~Jia,$^{28}$
+B.{\,}M.~Johnson,$^{3}$
+S.{\,}C.~Johnson,$^{18,28}$
+K.{\,}S.~Joo,$^{23}$
+S.~Kametani,$^{41}$
+J.{\,}H.~Kang,$^{43}$
+M.~Kann,$^{30}$
+S.{\,}S.~Kapoor,$^{2}$
+S.~Kelly,$^{8}$
+B.~Khachaturov,$^{42}$
+A.~Khanzadeev,$^{30}$
+J.~Kikuchi,$^{41}$
+D.{\,}J.~Kim,$^{43}$
+H.{\,}J.~Kim,$^{43}$
+S.{\,}Y.~Kim,$^{43}$
+Y.{\,}G.~Kim,$^{43}$
+W.{\,}W.~Kinnison,$^{19}$
+E.~Kistenev,$^{3}$
+A.~Kiyomichi,$^{39}$
+C.~Klein-Boesing,$^{22}$
+S.~Klinksiek,$^{25}$
+L.~Kochenda,$^{30}$
+V.~Kochetkov,$^{12}$
+D.~Koehler,$^{25}$
+T.~Kohama,$^{11}$
+D.~Kotchetkov,$^{5}$
+A.~Kozlov,$^{42}$
+P.{\,}J.~Kroon,$^{3}$
+K.~Kurita,$^{31,32}$
+M.{\,}J.~Kweon,$^{15}$
+Y.~Kwon,$^{43}$
+G.{\,}S.~Kyle,$^{26}$
+R.~Lacey,$^{27}$
+J.{\,}G.~Lajoie,$^{13}$
+J.~Lauret,$^{27}$
+A.~Lebedev,$^{13,16}$
+D.{\,}M.~Lee,$^{19}$
+M.{\,}J.~Leitch,$^{19}$
+X.{\,}H.~Li,$^{5}$
+Z.~Li,$^{6,31}$
+D.{\,}J.~Lim,$^{43}$
+M.{\,}X.~Liu,$^{19}$
+X.~Liu,$^{6}$
+Z.~Liu,$^{6}$
+C.{\,}F.~Maguire,$^{40}$
+J.~Mahon,$^{3}$
+Y.{\,}I.~Makdisi,$^{3}$
+V.{\,}I.~Manko,$^{16}$
+Y.~Mao,$^{6,31}$
+S.{\,}K.~Mark,$^{21}$
+S.~Markacs,$^{8}$
+G.~Martinez,$^{34}$
+M.{\,}D.~Marx,$^{28}$
+A.~Masaike,$^{17}$
+F.~Matathias,$^{28}$
+T.~Matsumoto,$^{7,41}$
+P.{\,}L.~McGaughey,$^{19}$
+E.~Melnikov,$^{12}$
+M.~Merschmeyer,$^{22}$
+F.~Messer,$^{28}$
+M.~Messer,$^{3}$
+Y.~Miake,$^{39}$
+T.{\,}E.~Miller,$^{40}$
+A.~Milov,$^{42}$
+S.~Mioduszewski,$^{3,36}$
+R.{\,}E.~Mischke,$^{19}$
+G.{\,}C.~Mishra,$^{10}$
+J.{\,}T.~Mitchell,$^{3}$
+A.{\,}K.~Mohanty,$^{2}$
+D.{\,}P.~Morrison,$^{3}$
+J.{\,}M.~Moss,$^{19}$
+F.~M{\"u}hlbacher,$^{28}$
+M.~Muniruzzaman,$^{5}$
+J.~Murata,$^{31}$
+S.~Nagamiya,$^{14}$
+Y.~Nagasaka,$^{24}$
+J.{\,}L.~Nagle,$^{8}$
+Y.~Nakada,$^{17}$
+B.{\,}K.~Nandi,$^{5}$
+J.~Newby,$^{36}$
+L.~Nikkinen,$^{21}$
+P.~Nilsson,$^{20}$
+S.~Nishimura,$^{7}$
+A.{\,}S.~Nyanin,$^{16}$
+J.~Nystrand,$^{20}$
+E.~O'Brien,$^{3}$
+C.{\,}A.~Ogilvie,$^{13}$
+H.~Ohnishi,$^{3,11}$
+I.{\,}D.~Ojha,$^{4,40}$
+M.~Ono,$^{39}$
+V.~Onuchin,$^{12}$
+A.~Oskarsson,$^{20}$
+L.~{\"O}sterman,$^{20}$
+I.~Otterlund,$^{20}$
+K.~Oyama,$^{7,38}$
+L.~Paffrath,$^{3,{\ast}}$
+A.{\,}P.{\,}T.~Palounek,$^{19}$
+V.{\,}S.~Pantuev,$^{28}$
+V.~Papavassiliou,$^{26}$
+S.{\,}F.~Pate,$^{26}$
+T.~Peitzmann,$^{22}$
+A.{\,}N.~Petridis,$^{13}$
+C.~Pinkenburg,$^{3,27}$
+R.{\,}P.~Pisani,$^{3}$
+P.~Pitukhin,$^{12}$
+F.~Plasil,$^{29}$
+M.~Pollack,$^{28,36}$
+K.~Pope,$^{36}$
+M.{\,}L.~Purschke,$^{3}$
+I.~Ravinovich,$^{42}$
+K.{\,}F.~Read,$^{29,36}$
+K.~Reygers,$^{22}$
+V.~Riabov,$^{30,35}$
+Y.~Riabov,$^{30}$
+M.~Rosati,$^{13}$
+A.{\,}A.~Rose,$^{40}$
+S.{\,}S.~Ryu,$^{43}$
+N.~Saito,$^{31,32}$
+A.~Sakaguchi,$^{11}$
+T.~Sakaguchi,$^{7,41}$
+H.~Sako,$^{39}$
+T.~Sakuma,$^{31,37}$
+V.~Samsonov,$^{30}$
+T.{\,}C.~Sangster,$^{18}$
+R.~Santo,$^{22}$
+H.{\,}D.~Sato,$^{17,31}$
+S.~Sato,$^{39}$
+S.~Sawada,$^{14}$
+B.{\,}R.~Schlei,$^{19}$
+Y.~Schutz,$^{34}$
+V.~Semenov,$^{12}$
+R.~Seto,$^{5}$
+T.{\,}K.~Shea,$^{3}$
+I.~Shein,$^{12}$
+T.{\,}-A.~Shibata,$^{31,37}$
+K.~Shigaki,$^{14}$
+T.~Shiina,$^{19}$
+Y.{\,}H.~Shin,$^{43}$
+I.{\,}G.~Sibiriak,$^{16}$
+D.~Silvermyr,$^{20}$
+K.{\,}S.~Sim,$^{15}$
+J.~Simon-Gillo,$^{19}$
+C.{\,}P.~Singh,$^{4}$
+V.~Singh,$^{4}$
+M.~Sivertz,$^{3}$
+A.~Soldatov,$^{12}$
+R.{\,}A.~Soltz,$^{18}$
+S.~Sorensen,$^{29,36}$
+P.{\,}W.~Stankus,$^{29}$
+N.~Starinsky,$^{21}$
+P.~Steinberg,$^{8}$
+E.~Stenlund,$^{20}$
+A.~Ster,$^{44}$
+S.{\,}P.~Stoll,$^{3}$
+M.~Sugioka,$^{31,37}$
+T.~Sugitate,$^{11}$
+J.{\,}P.~Sullivan,$^{19}$
+Y.~Sumi,$^{11}$
+Z.~Sun,$^{6}$
+M.~Suzuki,$^{39}$
+E.{\,}M.~Takagui,$^{33}$
+A.~Taketani,$^{31}$
+M.~Tamai,$^{41}$
+K.{\,}H.~Tanaka,$^{14}$
+Y.~Tanaka,$^{24}$
+E.~Taniguchi,$^{31,37}$
+M.{\,}J.~Tannenbaum,$^{3}$
+J.~Thomas,$^{28}$
+J.{\,}H.~Thomas,$^{18}$
+T.{\,}L.~Thomas,$^{25}$
+W.~Tian,$^{6,36}$
+J.~Tojo,$^{17,31}$
+H.~Torii,$^{17,31}$
+R.{\,}S.~Towell,$^{19}$
+I.~Tserruya,$^{42}$
+H.~Tsuruoka,$^{39}$
+A.{\,}A.~Tsvetkov,$^{16}$
+S.{\,}K.~Tuli,$^{4}$
+H.~Tydesj{\"o},$^{20}$
+N.~Tyurin,$^{12}$
+T.~Ushiroda,$^{24}$
+H.{\,}W.~van~Hecke,$^{19}$
+C.~Velissaris,$^{26}$
+J.~Velkovska,$^{28}$
+M.~Velkovsky,$^{28}$
+A.{\,}A.~Vinogradov,$^{16}$
+M.{\,}A.~Volkov,$^{16}$
+A.~Vorobyov,$^{30}$
+E.~Vznuzdaev,$^{30}$
+H.~Wang,$^{5}$
+Y.~Watanabe,$^{31,32}$
+S.{\,}N.~White,$^{3}$
+C.~Witzig,$^{3}$
+F.{\,}K.~Wohn,$^{13}$
+C.{\,}L.~Woody,$^{3}$
+W.~Xie,$^{5,42}$
+K.~Yagi,$^{39}$
+S.~Yokkaichi,$^{31}$
+G.{\,}R.~Young,$^{29}$
+I.{\,}E.~Yushmanov,$^{16}$
+W.{\,}A.~Zajc,$^{8}$
+Z.~Zhang,$^{28}$
+and S.~Zhou$^{6}$
+\\(PHENIX Collaboration)\\
+}
+\address{
+$^{1}$Institute of Physics, Academia Sinica, Taipei 11529, Taiwan\\
+$^{2}$Bhabha Atomic Research Centre, Bombay 400 085, India\\
+$^{3}$Brookhaven National Laboratory, Upton, NY 11973-5000, USA\\
+$^{4}$Department of Physics, Banaras Hindu University, Varanasi 221005, India\\
+$^{5}$University of California - Riverside, Riverside, CA 92521, USA\\
+$^{6}$China Institute of Atomic Energy (CIAE), Beijing, People's Republic of China\\
+$^{7}$Center for Nuclear Study, Graduate School of Science, University of Tokyo, 7-3-1 Hongo, Bunkyo, Tokyo 113-0033, Japan\\
+$^{8}$Columbia University, New York, NY 10027 and Nevis Laboratories, Irvington, NY 10533, USA\\
+$^{9}$Florida State University, Tallahassee, FL 32306, USA\\
+$^{10}$Georgia State University, Atlanta, GA 30303, USA\\
+$^{11}$Hiroshima University, Kagamiyama, Higashi-Hiroshima 739-8526, Japan\\
+$^{12}$Institute for High Energy Physics (IHEP), Protvino, Russia\\
+$^{13}$Iowa State University, Ames, IA 50011, USA\\
+$^{14}$KEK, High Energy Accelerator Research Organization, Tsukuba-shi, Ibaraki-ken 305-0801, Japan\\
+$^{15}$Korea University, Seoul, 136-701, Korea\\
+$^{16}$Russian Research Center "Kurchatov Institute", Moscow, Russia\\
+$^{17}$Kyoto University, Kyoto 606, Japan\\
+$^{18}$Lawrence Livermore National Laboratory, Livermore, CA 94550, USA\\
+$^{19}$Los Alamos National Laboratory, Los Alamos, NM 87545, USA\\
+$^{20}$Department of Physics, Lund University, Box 118, SE-221 00 Lund, Sweden\\
+$^{21}$McGill University, Montreal, Quebec H3A 2T8, Canada\\
+$^{22}$Institut f{\"u}r Kernphysik, University of M{\"u}nster, D-48149 M{\"u}nster, Germany\\
+$^{23}$Myongji University, Yongin, Kyonggido 449-728, Korea\\
+$^{24}$Nagasaki Institute of Applied Science, Nagasaki-shi, Nagasaki 851-0193, Japan\\
+$^{25}$University of New Mexico, Albuquerque, NM 87131, USA \\
+$^{26}$New Mexico State University, Las Cruces, NM 88003, USA\\
+$^{27}$Chemistry Department, State University of New York - Stony Brook, Stony Brook, NY 11794, USA\\
+$^{28}$Department of Physics and Astronomy, State University of New York - Stony Brook, Stony Brook, NY 11794, USA\\
+$^{29}$Oak Ridge National Laboratory, Oak Ridge, TN 37831, USA\\
+$^{30}$PNPI, Petersburg Nuclear Physics Institute, Gatchina, Russia\\
+$^{31}$RIKEN (The Institute of Physical and Chemical Research), Wako, Saitama 351-0198, JAPAN\\
+$^{32}$RIKEN BNL Research Center, Brookhaven National Laboratory, Upton, NY 11973-5000, USA\\
+$^{33}$Universidade de S{\~a}o Paulo, Instituto de F\'isica, Caixa Postal 66318, S{\~a}o Paulo CEP05315-970, Brazil\\
+$^{34}$SUBATECH (Ecole des Mines de Nantes, IN2P3/CNRS, Universite de Nantes) BP 20722 - 44307, Nantes-cedex 3, France\\
+$^{35}$St. Petersburg State Technical University, St. Petersburg, Russia\\
+$^{36}$University of Tennessee, Knoxville, TN 37996, USA\\
+$^{37}$Department of Physics, Tokyo Institute of Technology, Tokyo, 152-8551, Japan\\
+$^{38}$University of Tokyo, Tokyo, Japan\\
+$^{39}$Institute of Physics, University of Tsukuba, Tsukuba, Ibaraki 305, Japan\\
+$^{40}$Vanderbilt University, Nashville, TN 37235, USA\\
+$^{41}$Waseda University, Advanced Research Institute for Science and Engineering, 17  Kikui-cho, Shinjuku-ku, Tokyo 162-0044, Japan\\
+$^{42}$Weizmann Institute, Rehovot 76100, Israel\\
+$^{43}$Yonsei University, IPAP, Seoul 120-749, Korea\\
+$^{44}$KFKI Research Institute for Particle and Nuclear Physics (RMKI), Budapest, Hungary$^{\dagger}$
+}
+
+\date{\today}        
+\maketitle
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Abstract
+%
+
+\begin{abstract}
+Transverse momentum spectra for charged hadrons and for 
+neutral pions in the range 1~GeV/c~$< p_T <$~5~GeV/c have
+been measured by the PHENIX experiment at RHIC in Au+Au 
+collisions at $\sqrt{s_{_{NN}}}=130$~GeV. At high $p_T$
+the spectra from peripheral nuclear collisions are consistent 
+with scaling the spectra from p+p 
+collisions by the average number of binary nucleon-nucleon 
+collisions.  The spectra from central collisions 
+are significantly suppressed when compared to the binary-scaled 
+p+p expectation, and also when compared to similarly 
+binary-scaled peripheral collisions, indicating a novel nuclear 
+medium effect in central nuclear collisions at RHIC energies.
+\end{abstract}
+\pacs{PACS numbers: 25.75.Dw}
+
+\begin{multicols}{2}   % This is needed only for the "multicols" style
+\narrowtext            % This is needed only for the "multicols" style
+%NOTES: 
+%1.  For PRL do not use section headings.
+%
+%2.  Do not worry about indenting the first line of a paragraph.  Just
+%    insert a blank line between paragraphs.  Similarly, if you want 
+%    an equation to stay within a paragraph, do not put a blank line
+%    before or after the equation.
+%
+%3.  Do not imbed figures or tables; place them all at the end (see below).
+%
+%4.  Name all references and use "\cite{refname}" in the text to cite them.
+%    (The RevTeX macro will replace this with "[1]" in proper PR style.)
+%
+%5.  The list of references must be ordered in the same sequence as they
+%    occur in the text.
+%
+%6.  Use our standard aknowldegement below as the last paragraph of your
+%    text.  (Yes, it does count toward the length!).
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% general introduction
+%
+% \marginpar{{\small \em Intro}}
+%
+%\twocolumn
+
+Ultrarelativistic heavy ion collisions provide the opportunity
+to study strongly interacting matter at high temperature and density.  
+At Brookhaven National Laboratory's Relativistic Heavy Ion Collider (RHIC), 
+nuclei as heavy as gold (Au) are accelerated to energies of 
+$\sqrt{s_{_{NN}}}=200$~GeV per 
+nucleon-nucleon pair.  In the early stages of a central collision, 
+energy densities are expected to be sufficient to  
+dissolve normal nuclear matter into a phase of deconfined 
+quarks and gluons, the ``Quark Gluon Plasma'' (QGP).
+The PHENIX experiment is designed to investigate nuclear collisions with
+a wide variety of probes, focusing primarily on those produced in 
+the early stages of the collision. 
+
+Of particular interest are the products of parton scatterings with
+large momentum transfer (``hard scatterings''). 
+In p+p collisions hard-scattered partons fragment into jets 
+of hadrons; these fragments are the primary source of hadrons at 
+high transverse momentum ($p_T$), typically 
+above $\sim$2~GeV/c~\cite{textbook}. 
+In a high-energy nuclear collision 
+hard scattering will occur at the earliest time during the collision, 
+well before the QGP is expected to form, and thus the scattered partons 
+will subsequently experience the strongly interacting medium created in 
+the collision.
+These partons are expected to lose energy~\cite{quenching_theory} 
+in hot and dense nuclear matter through gluon 
+bremsstrahlung, effectively quenching jet production. This would have 
+many observable consequences, of which the most directly measurable 
+would be a depletion in the yield of high $p_T$ hadrons~\cite{quench_effect}. 
+It has been suggested that the energy loss is larger in a medium of deconfined 
+color charges than in hadronic matter~\cite{Baier}, making ``jet quenching'' a 
+potential signature for QGP formation.   
+
+To quantify such modifications we need a baseline expectation for spectra 
+from nuclear (A+A) collisions in the absence of nuclear medium effects. 
+Given that hard parton scatterings 
+%
+%are high-$Q^{2}$ interactions and 
+%
+have small cross sections, 
+one can regard the nuclei as an incoherent superposition of partons 
+(``point-like scaling''). We approximate this by modelling the A+A 
+collision as a sum of independent nucleon-nucleon (N+N) collisions 
+(``binary scaling'').  
+For a given class of A+A collisions, we can determine 
+$\langle N_{binary} \rangle$ the average number of inelastic 
+N+N collisions per event and then define the 
+{\em nuclear modification factor} as the ratio,
+
+\begin{equation}
+R_{AA}(p_T) 
+= \frac{(1/N_{evt}) \; d^{2}N^{A+A}/dp_T d\eta }
+{(\langle N_{binary} \rangle/\sigma^{N+N}_{inel}) \; d^{2}\sigma^{N+N}/dp_T d\eta}.
+\label{eq:RAA_defined}
+\end{equation}
+
+%R_{AA}(p_T) 
+%= \frac{\frac{1}{N_{evt}} \frac{1}{2 \pi p_{T}} \frac{d^{2}N^{A+A}}{dp_T d\eta }}
+%{\frac{\langle N_{binary} \rangle}{\sigma^{N+N}_{inel}} \frac{1}{2 \pi p_{T}} \frac{d^{2}\sigma^{N+N}}{dp_T d\eta}}.
+
+%= \frac{\rm Yield \; per \; A+A \; collision}
+%{\langle N_{binary} \rangle ({\rm Yield \; per \; N+N \; collision})}
+%= \frac{ 1/N_{events} \; 1/2 \pi p_{T} \; d^{2}N^{A+A}/dp_T d\eta }
+%{\langle N_{binary} \rangle  
+%( 1/2 \pi p_{T} \; d^{2}\sigma^{N+N}/dp_T d\eta ) / \sigma^{N+N}_{inel} }.
+%
+
+\noindent
+In the absence of nuclear modifications to hard scattering, 
+the ratio $R_{AA}$ will be unity; thus departures from $R_{AA}=1$ 
+indicate nuclear medium effects. 
+%
+%To interpret measurements at RHIC, previously observed deviations 
+%from binary scaling have to be appreciated and distinguished from new hot 
+%and dense medium effects. 
+%
+Previous measurements indicate that for $p_{T}$ below 2 GeV/c, $R_{AA}$ is  
+smaller than one since the bulk of particle production scales with the 
+number of nucleons participating in the reaction~\cite{mult,STAR}.  
+%
+%rather than with the number 
+%of binary collisions
+%
+For $p_{T}$ above 2 GeV/c particle production 
+in p+A collisions is enhanced compared to binary scaling, 
+commonly referred to as the ``Cronin effect''~\cite{cronin}.  
+Parton shadowing as measured in lepton+A collisions~\cite{EMC} is
+also expected to modify the hadron spectra in p+A and
+A+A compared to binary scaling.
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Charged reconstruction section
+%
+
+We examine high-$p_T$ spectra of charged hadrons and neutral pions 
+measured by the PHENIX experiment~\cite{daveQM97,billQM01}
+in a central and a peripheral class of Au+Au collisions at 
+$\sqrt{s_{_{NN}}}=130$~GeV.  
+These data are obtained with the central 
+spectrometer, which consists of two arms, ``east'' and ``west'', 
+each covering $\Delta \phi = 90^{o}$ and $| \eta | <0.35$. The arms 
+are positioned outside an axially-symmetric magnetic field 
+centered around the beam axis. 
+
+Charged particles are reconstructed using a drift chamber (DC) 
+and two layers of multi-wire proportional chambers with pad-readout 
+(PC1, PC3) in the east arm. The DC measures the particle 
+trajectories between 2.0 and 2.4~m radius in the plane 
+perpendicular to the beam axis. A matching hit in PC1 at $\sim2.5$~m,
+together with location of the collision vertex, 
+fixes the polar angle. 
+Particle momenta are determined with a resolution of
+$\delta p/p \simeq 0.6\%  \oplus 3.6\%\ p$~(GeV/c). 
+The absolute momentum scale is known to better than 2\%. 
+Trajectories are confirmed by requiring a matching 
+hit within a $\pm 2\sigma$ window (about 2.5~cm) in PC3 at a radius 
+of 5~m, which eliminates nearly all secondary tracks 
+from decays and interactions in material. The remaining background 
+is due primarily to accidental associations.
+The level of background to signal is negligible 
+below $p_T<2$~GeV/c, rises to 1/10 at 3.5~GeV/c, and reaches 
+1/1 at 6~GeV/c.  This background is measured statistically, by 
+swapping the z-coordinate of the PC3 hits, and subtracted from 
+the yield. 
+
+Corrections for acceptance, reconstruction efficiency, 
+decays in flight, momentum resolution, and dead areas are determined 
+using a full GEANT simulation.  Simulated single particles are 
+embedded in real events to model the effect of 
+detector occupancy.  In peripheral Au+Au collisions the track 
+reconstruction efficiency exceeds 98\%, while it 
+is reduced to $68 \pm 6\%$ for central collisions, independent of momentum.
+Corrections due to finite momentum resolution
+are negligible at low $p_T$ and rise to the level of 30\% at 5~GeV/c. 
+The systematic errors (Table~\ref{tab:syst}) are dominated by the 
+uncertainty in the Monte Carlo description of the
+detector, including the dead areas and the momentum resolution.
+
+%The overall systematic uncertainties in yield
+%are estimated to be $\sim$20\% for most of the $p_T$ range, depending 
+%slightly on centrality, and increase to $\sim$30\% 
+%at smaller and larger $p_T$ ($p_{T}<0.8$ and $p_{T}>3.5$~GeV/c).  
+%They are dominated by the uncertainty in the Monte Carlo description of the
+%detector, including the dead areas, and the momentum resolution.
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Pi-0 reconstruction section
+%
+%\marginpar{{\small \em Pi-zero technical}}
+%
+
+%Each PHENIX central arm is backed up by a highly-segmented
+%ElectroMagnetic Calorimeter (EMCal).  This analysis uses
+%5184 towers of lead-scintillator sampling calorimeter (PbSc) 
+%in half ($\Delta \phi = 45^{o}$) of the west arm aperture, and
+%4608 towers of lead-glass Cerenkov calorimeter (PbGl) in a quarter
+%($\Delta \phi = 22.5^{o}$) of the east arm aperture.
+%
+% The energy resolution is  $8.2\%/\sqrt{E(GeV)} \oplus 1.9\%$.
+%
+
+Neutral pions are measured via their 
+$\pi^0 \rightarrow \gamma \gamma$ decay. Two separate analyses 
+are performed, the first using a lead-scintillator (PbSc) sampling 
+calorimeter in half ($\Delta \phi = 45^{o}$) of the west arm 
+aperture and the second with a lead-glass Cerenkov (PbGl) calorimeter 
+in a quarter ($\Delta \phi = 22.5^{o}$) of the east arm aperture.
+The two analyses have very different systematics, and 
+Figure~\ref{fig:pt_spectra} shows the agreement of their 
+final $\pi^{0}$ spectra.
+
+In both analyses, pairs of calorimeter showers are  binned in 
+pair $p_T$ and invariant mass $m_{\gamma \gamma}$. 
+The energy scale is verified using both the $\pi^{0}$ mass and 
+$E/p$ ratio for identified electrons and is 
+known to $<1.5$\%~\cite{et}.  Hadron-induced showers are 
+suppressed with arrival time and shower shape cuts. 
+The combinatorial pair background is estimated by mixing showers 
+from different events with similar centrality.  
+The mixed $m_{\gamma \gamma}$ distribution is subtracted
+from the true distribution after being normalized in a region 
+outside the $\pi^0$ mass peak.  The $\pi^{0}$ yield in
+each $p_{T}$ bin is determined by integrating the 
+subtracted $m_{\gamma \gamma}$ distribution in a window
+determined by a Gaussian fit to the $\pi^{0}$ peak.
+
+The $\pi^0$ spectra are corrected for losses
+due to energy resolution, cluster overlaps, analysis cuts, 
+dead detector areas, and acceptance.  
+%
+%The effect of smearing due to energy resolution and cluster 
+%overlaps is determined for individual photons prior to $\pi^0$
+%reconstruction.
+%The resulting energy distributions are used to simulate the
+%$m_{\gamma \gamma}$ peak at each $p_T$,
+%which is verified by comparing to that observed in the data.
+%
+Smearing of the photon energy due to resolution and 
+cluster overlaps is used to simulate the $m_{\gamma \gamma}$
+peak at each $p_{T}$, which agrees with that seen in the data.
+To estimate the $\pi^0$ reconstruction efficiency,
+the same cuts are applied to the simulated 
+$m_{\gamma \gamma}$ distributions as applied to the real data.  
+
+Contributions to the yield from pions not originating from the 
+vertex are estimated by GEANT simulation to be 6-8\%.  
+The dominant sources of error are the uncertainty in the particle 
+identification, the effect of energy smearing, and the peak 
+extraction procedure.  Their relative contributions to the total 
+errors (see Table~\ref{tab:syst}) differ for the two analyses.  
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Trigger and event selection
+%
+%\marginpar{{\small \em Event selection}}
+
+Event classification is provided by the combination 
+of two beam-beam counters (BBC's) and two zero-degree calorimeters 
+(ZDC's).  We present data from two event samples,
+central and peripheral. The central sample covers the 0--10\% most 
+central fraction of the geometrical Au+Au cross-section, while
+the peripheral sample contains events in the 60--80\% selection.
+Using a Glauber model combined 
+with a simulation of the BBC and ZDC responses~\cite{mult}, we estimate 
+$\langle N_{binary} \rangle = 905 \pm 96$ for the central sample,
+$\langle N_{binary} \rangle = 20 \pm 6$ for the 
+peripheral sample, and $45 \pm 13$ for the ratio between them. 
+The errors include the uncertainties in the 
+parameters used in the Glauber model~\cite{foot1},
+as well as in the fraction of the total geometrical cross section
+($92\pm 4\%$) seen by the interaction trigger~\cite{foot2}.
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Results and discussion
+%
+%
+%\marginpar{{\small \em p+p reference}}
+%
+
+The $p_T$ distributions for charged hadrons and neutral pions 
+are shown for both centrality classes in Fig.~\ref{fig:pt_spectra}. 
+In this figure, those following, and Table~\ref{tab:syst}, 
+the systematic errors shown are the quadrature sums of conservatively 
+estimated limits on several independent errors and 
+represent upper bounds on standard deviations.
+%
+%the systematic errors shown are the quadrature sums of the maximum extents 
+%of several independent sources of uncertainty and represent upper
+%limits on standard deviations.
+%
+They are also substantially correlated between points.
+
+The data are compared to the binary-scaled yield from N+N
+collisions.  Since no N+N data exist at $\sqrt{s}=$130~GeV,
+we parameterize the cross section 
+$1/(2 \pi p_{T}) d^2\sigma/d\eta dp_{T}$ for $(h^{+}+h^{-})/2$ as
+$A/(1+ p_T/p_0)^n$.  We determine the parameters 
+$A$=330~mb/GeV$^2$/c$^2$, $p_{0}$=1.72~GeV/c, and n=12.4
+by interpolating between results from p+p collisions at 
+the ISR~\cite{alper} and $\overline{\rm p}$+p collisions 
+at the Sp$\overline{\rm p}$S~\cite{ua1} and the Tevatron~\cite{cdf}. 
+The systematic error in the N+N reference (Table~\ref{tab:syst})
+is due to the error in the absolute normalization of the data
+used and in the interpolation technique.
+For neutral pions we 
+scale the charged hadron cross section by the 
+charged pion to charged hadron ratio $\pi/h$ observed at the 
+ISR~\cite{alper}.  This was found to be $0.63\pm 0.06$ nearly 
+independent of $p_T$ above 1.5~GeV/c. 
+
+For $p_T>2$~GeV/c the binary-scaling prediction
+agrees with the data from peripheral collisions
+for both charged and neutrals, while for central collisions
+the data lie noticeably below the prediction.
+To examine this difference more 
+directly, we plot the ratio $R_{AA}$ for central collisions 
+in Fig.~\ref{fig:ratio_central_pp}.  
+For the charged spectrum $R_{AA}$ rises up to 2~GeV/c, as expected;
+but above 2~GeV/c $R_{AA}$ remains significantly below unity for 
+both spectra.  
+
+The depletion is quite striking, since the production of high-$p_T$ 
+hadrons in p+A collisions at fixed-target energies 
+is known to be enhanced compared to the binary-scaling expectation 
+for $p_T>2$~GeV/c, i.e., the Cronin effect~\cite{cronin}. 
+A similar enhancement has also been observed in heavy ion collisions 
+at lower energies~\cite{predict_nuclear_mod,ISR_alphaalpha}, 
+as shown in Fig.~\ref{fig:ratio_central_pp}.
+Phenomenological calculations~\cite{predict_nuclear_mod}  
+including shadowing and the Cronin effect predicted that
+for central Au+Au collisions at $\sqrt{s_{_{NN}}}$=130~GeV,
+$R_{AA} > 1$ for hadron spectra in the $p_T$ range 3--9~GeV/c 
+with a peak value of $R_{AA} \simeq 1.3$ at 4~GeV/c.
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Cronin prediction
+%
+%Nuclear modifications to hadron $p_T$ spectra in
+%p+A and A+A collisions have been
+%successfully interpreted \cite{wang_low_E_interp} as 
+%combinations of initial state parton scattering, effectively 
+%broadening the parton $k_{T}$, and modifications 
+%to initial parton distribution functions, ie nuclear shadowing.  
+%Extrapolating these ``known nuclear effects'' to
+
+Above 2 GeV/c $R_{AA}$ is lower for pions than for charged 
+hadrons, which implies that the $\pi/h$ ratio is smaller in central 
+RHIC Au+Au collisions than in ISR p+p collisions.  This is 
+consistent with identified charged hadron spectra measured 
+by PHENIX~\cite{juliaQM01} for which a large yield of protons 
+and antiprotons is observed at $p_T\sim 2$~GeV/c.  
+%the $\pi^{\pm}/h^{\pm}$ ratio in central Au+Au is found to be 
+%a factor of $\sim$1.5 smaller than in p+p~\cite{alper}. 
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Central to peripheral
+
+We can also examine the spectra from central collisions for 
+modifications at high $p_T$ by comparing
+them to the spectra from peripheral collisions after dividing
+each by the corresponding values of $\langle N_{binary} \rangle$.
+The central-to-peripheral ratio is a useful 
+complement to $R_{AA}$, since it should
+be unity in the limit of point-like scaling.
+Many of the experimental uncertainties
+are reduced in this ratio (see Table~\ref{tab:syst}). 
+%
+%This is particularly true for the charged hadron spectra
+%where the experimental uncertainties largely cancel.
+%
+Additionally, the uncertainty induced by the p+p interpolation
+is eliminated, albeit at the expense of incurring that in 
+$\langle N_{binary} \rangle$ for the peripheral class.
+%
+% which is the dominant systematic 
+%error in the central-to-peripheral comparison for charged hadrons.
+%
+We note that there may be effects from the centrality dependence of nuclear
+shadowing and/or the Cronin effect that would also be present in this
+comparison.
+%However, the comparison involves the centrality
+%dependence of the Cronin effect and/or nuclear shadowing, 
+%for which understanding is lacking at present.
+
+The central-to-peripheral ratios are plotted in 
+Fig.~\ref{fig:ratio_central_periph}.  Like $R_{AA}$ this ratio is
+below unity at all observed $p_T$ for both charged hadrons and neutral 
+pions, indicating a suppression of the yield per N+N
+collision in central collisions relative to peripheral.
+The difference between the two ratios 
+implies that the $\pi/h$ ratio is smaller in central collisions 
+than in peripheral.
+
+% The change in $\pi/h$ implied here is larger 
+%than, though within systematic errors not inconsistent with,
+%that seen at $p_T \sim 2$~GeV/c for charged pions~\cite{juliaQM01}.
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Conclusion
+%
+%\marginpar{{\small \em Concl}}
+
+We have presented spectra for charged hadrons and 
+neutral pions measured at 90$^o$ from central and 
+peripheral Au+Au 
+collisions in the PHENIX experiment at RHIC.  
+Above $p_T\sim 2$~GeV/c, 
+the spectra from peripheral collisions appear
+to be consistent (albeit within a substantial systematic
+error) with a simple, incoherent sum of underlying
+N+N collisions.  The spectra from central
+collisions, in contrast, are systematically below the
+scaled N+N expectation, both when compared
+to data from p+p collisions and to spectra from Au+Au 
+peripheral collisions. 
+The suppression in central collisions 
+is in qualitative agreement with the predictions of energy 
+loss by scattered partons traversing a dense medium.
+However, other nuclear medium effects should be understood
+before a quantitative conclusion can be drawn.  Measurements
+in p+A at RHIC can help in this direction.
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Acknowledgements
+%
+
+%\section{Acknowledgements}
+
+We thank the staff of the RHIC project, Collider-Accelerator, and Physics
+Departments at BNL and the staff of PHENIX participating institutions for
+their vital contributions.  We acknowledge support from the Department of
+Energy and NSF (U.S.A.), Monbu-sho and STA (Japan), RAS, RMAE, and RMS
+(Russia), BMBF, DAAD, and AvH (Germany), FRN, NFR, and the Wallenberg
+Foundation (Sweden), MIST and NSERC (Canada), CNPq and FAPESP (Brazil),
+IN2P3/CNRS (France), DAE and DST (India), LG-YF, KRF and KOSEF (Korea),
+and the US-Israel Binational Science Foundation.
+
+%REFERENCES:  Use \begin{references} and \end{references}.  Do not use
+%             \begin{thebibliography} and \end{thebibliography}.
+%             You may either 
+%		(a) enter all citations explicitly or 
+%               (b) use some "\def" shorthand notations.
+%             Our first paper used approach (a) and our second used (b).
+%             Here are the two reference lists as examples of how to proceed:
+
+\begin{references}
+
+\def\IJMPA{{Int. J. Mod. Phys.}~{\bf A}}
+\def\JPG{{J. Phys}~{\bf G}}
+\def\NCA{Nuovo Cimento}
+\def\NIM{Nucl. Instrum. Methods}
+\def\NIMA{{Nucl. Instrum. Methods}~{\bf A}}
+\def\NPA{{Nucl. Phys.}~{\bf A}}
+\def\NPB{{Nucl. Phys.}~{\bf B}}
+\def\PLB{{Phys. Lett.}~{\bf B}}
+\def\PLC{Phys. Repts.\ }
+\def\PRL{Phys. Rev. Lett.\ }
+\def\PRD{{Phys. Rev.}~{\bf D}}
+\def\PRC{{Phys. Rev.}~{\bf C}}
+\def\ZPC{{Z. Phys.}~{\bf C}}
+
+\bibitem[*]{Deceased}Deceased     % for Leo Paffrath
+
+\bibitem[\dagger]{non-par}Not a participating institution.
+
+\bibitem{textbook}         J.F.~Owens {\it et al.}, \PRD{\bf 18}, 1501 
+(1978).
+
+\bibitem{quenching_theory} M.~Gyulassy and M.~Pl\"umer, \PLB{\bf 243}, 432
+(1990); R.~Baier {\it et al.}, \PLB{\bf 345}, 277 (1995).
+
+\bibitem{quench_effect}    X.N.~Wang and M.~Gyulassy, \PRL{\bf 68}, 1480 
+(1992); X.N.~Wang, \PRC{\bf 58}, 2321 (1998).
+
+\bibitem{Baier} R.~Baier, D.~Schiff and B.G.~Zakharov, Annu. Rev. Nucl.
+Part. Sci. {\bf 50}, 37 (2000).
+
+\bibitem{mult}	           K.~Adcox  {\it et al.}, 
+		           \PRL{\bf 86}, 3500 (2001).  
+
+\bibitem{STAR} C.~Adler {\it et al.}, \PRL{\bf 87}, 112303 (2001).
+
+\bibitem{cronin} D.~Antreasyan {\it et al.}, \PRD{\bf 19}, 764 (1979).
+
+\bibitem{EMC} J.J.~Aubert {\it et al.}, \PLB{\bf 123}, 275 (1983);
+R.G.~Arnold {\it et al.}, \PRL{\bf 52}, 727 (1984).
+
+\bibitem{daveQM97} PHENIX Collaboration, D.~Morrison, {\it et al.},
+                           \NPA{\bf 638}, 565c (1998).
+
+\bibitem{billQM01} PHENIX Collaboration, W.~Zajc, {\it et al.},
+			   Quark Matter 2001, \NPA{} (to be published).   
+
+\bibitem{et}	           K.~Adcox  {\it et al.}, 
+		  	   \PRL{\bf 87}, 052301 (2001).
+
+\bibitem{foot1}We use the Woods-Saxon 
+parameters radius $=6.38^{+0.27}_{-0.13}$~fm, diffusivity $=0.53 \pm
+0.01$~fm [B.~Hahn, D.G.~Ravenhall and R.~Hofstadter, 
+{Phys. Rev.}~{\bf 101}, 1131 (1956)], and
+$\sigma^{inel}_{N+N}=40 \pm 3$~mb.
+
+\bibitem{foot2}The error due to model uncertainties is 2\%~\cite{mult}. 
+An additional 3.5\% error
+results from time dependencies in the centrality selection over the 
+large data sample.
+
+\bibitem{alper} B.~Alper {\it et al.}, \NPB{\bf 100}, 237 (1975).
+
+\bibitem{ua1}              C.~Albajar {\it et al.}, \NPB{\bf 335}, 261 
+(1990).
+
+\bibitem{cdf}              F.~Abe {\it et al.},  \PRL{\bf 61}, 1819 
+(1988). 
+
+
+\bibitem{predict_nuclear_mod} E.~Wang~\&~X.N.~Wang,
+                    \PRC{\bf 64}, 034901 (2001) and references therein.
+
+\bibitem{ISR_alphaalpha}   A.L.S.~Angelis {\it et al.}, \PLB{\bf 185}, 213 
+(1987).
+
+
+\bibitem{juliaQM01}  PHENIX Collaboration, J.~Velkovska {\it et al.},
+                     Quark Matter 2001, \NPA{}  (to be published).
+
+\end{references}
+
+%FIGURES:  Place all the figures here (after the references) in sequence.
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% Figure 1.
+\vspace{-1cm}
+\begin{figure}
+%\begin{center}
+\centerline{\epsfig{file=fig-1.eps,width=1.0\linewidth}}
+\caption[]{
+	The yields per event at mid-rapidity for 
+	charged hadrons ({\em left}) and neutral pions ({\em right}) 
+	are shown as a function of $p_T$ for 60--80\%~({\it lower}) 
+	and 0--10\%~({\it upper}) event samples.
+	The error bars indicate the statistical errors on
+	the yield; the surrounding brackets indicate the
+	systematic errors.  
+	Also shown are the N+N references
+	for charged hadrons and neutral pions,
+	each scaled up by $\langle N_{binary} \rangle$ for the 
+	class.  The bands indicate
+	the uncertainty in the N+N reference and in the 
+	$\langle N_{binary} \rangle$. }
+%\end{center}
+\label{fig:pt_spectra} 
+\end{figure} 
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% Figure 2.
+\begin{figure}
+\centerline{\epsfig{file=fig-2.eps,width=1.0\linewidth}}
+\caption[]{
+	The ratio $R_{AA}$ for charged hadrons
+	and neutral pions (weighted average of PbSc and PbGl
+	results) in central Au+Au collisions.
+	The error bars indicate the statistical errors on the
+	measurement.  The surrounding bands [shaded for
+	$\pi^{0}$'s, brackets for $(h^{+}+h^{-})/2$]
+	are the quadrature sums of (i) the systematic errors on 
+	the measurement, 
+	(ii) the uncertainty in the N+N reference,
+	and (iii) the uncertainty in $\langle N_{binary} \rangle$.
+	Also shown are the ratio of 
+	inclusive cross sections in $\alpha+\alpha$
+	compared to p+p at $\sqrt{s_{_{NN}}}=31$~GeV~\cite{ISR_alphaalpha}, 
+	and spectra from central Pb+Pb, Pb+Au compared to p+p
+	collisions at $\sqrt{s_{_{NN}}}=17$~GeV~\cite{predict_nuclear_mod}
+	shown as a band indicating the range of uncertainty.
+	}
+\label{fig:ratio_central_pp} 
+\end{figure} 
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% Figure 3.
+\begin{figure}
+\centerline{\epsfig{file=fig-3.eps,width=1.0\linewidth}}
+\caption[]{
+	Ratio of yield per event in central {\em vs} 
+	peripheral Au+Au collisions, with each divided 
+	by $\langle N_{binary} \rangle$ for that class.
+	For $\pi^{0}$ the weighted average
+	of PbSc and PbGl results is shown.
+	The error bars indicate the statistical 
+	errors on the spectra.  The surrounding bands 
+	[shaded for $\pi^{0}$'s, brackets for 
+	$(h^{+}+h^{-})/2$] are the 
+	quadrature sums of (i) the parts of the systematic errors on 
+	the spectra that do not cancel in the ratio,
+	and (ii) the uncertainty in $\langle N_{binary} \rangle$
+	(see Table~\ref{tab:syst}).
+	}
+\label{fig:ratio_central_periph}
+\end{figure} 
+
+%TABLES
+
+\begin{table}
+\caption[]{Relative systematic errors on hadron yields and 
+	central-to-peripheral ratios.
+	The errors are quoted for representative $p_{T}$ and 
+	vary between the values shown.
+	For the charged hadron ({\it h}) 
+	data the errors are highly correlated in $p_{T}$ for both 
+	yields and ratios.
+	For the $\pi^0$ data, approximately half of the error in 
+	the yield is perfectly correlated in $p_{T}$, and some 
+	correlation remains in the ratio. 
+	}
+\begin{tabular}[]{lccccc}
+Sys. error: & Yield & $p_{T}$ [GeV/c] & & Cent/Per  & $p_{T}$ [GeV/c] \\ 
+\hline
+{\it h} data & 27\% 	& 0.5 & 		& 8\% & all\\
+	     & 16-18\% 	& 0.8-3.5	& &	&\\
+	     & 30\%	& 4.7		& &	&\\ 
+\hline 
+$\pi^0$ data & 25\%	& 1.2	&	& 24\% & 1.2 \\
+(PbSc)		& 35\%	& 3.7	&	& 33\%	&  3.2 \\ 
+\hline
+$\pi^0$ data & 33\%	& 1.2	&	& 32\% & 1.2 \\
+(PbGl)		& 52\%	& 3.7	&	& 40\%	& 2.7 \\ 
+\hline
+$\pi^0$ data & 21\% & 1.2        &   & 20\% & 1.2 \\
+(combined)       & 30\% & 3.7     &      & 24\% & 2.7 \\ 
+\hline
+N+N ref.	& 20\%  & 1.0	&	& N/A &\\
+		& 35\%  & 5.0	&	&     &\\ 
+\hline
+$\langle N_{binary} \rangle$ & & & & 29\% & all\\
+central & 11\%	& all	& & & \\
+peripheral	& 30\%  & all    && 	& \\ 
+\end{tabular}
+\label{tab:syst}
+\end{table}
+
+\end{multicols}
+
+\end{document}     % This must be the last line in the file.
+ 
+ 
+ 

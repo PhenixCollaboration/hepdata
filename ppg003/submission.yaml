@@ -1,0 +1,28 @@
+# PHENIX paper PPG003
+#
+#Suppression of Hadrons with Large Transverse Momentum in Central Au+Au Collisions at $sqrt {s sub {sub {NN}}}$_ = 130 GeV
+#
+#   Phys.Rev.Lett.88:022301,2002
+# InspireHEP ID: 562409
+#
+# Please contact Christine Nattrass  if you have any questions about this submission
+# PPG liaison: TBA
+# Reviewer: TBA
+#
+additional_resources:
+- {description: web page with data points, location: 'https://phenix-intra.sdcc.bnl.gov/WWW/info/data/ppg003_data.html'}
+- {description: arXiv link, location: 'https://arxiv.org/abs/nucl-ex/0109003'}
+- {location: "https://inspirehep.net/literature/562409", description: InspireHEP}
+comment: |
+  BNL-RHIC. Transverse momentum spectra for charged hadrons and for neutral pions in the range 1~GeV/c~$< p_T <$~5~GeV/c have been measured by the PHENIX experiment at RHIC in Au+Au collisions at $\sqrt{s_{_{NN}}}=130$~GeV. At high $p_T$ the spectra from peripheral nuclear collisions are consistent with scaling the spectra from p+p collisions by the average number of binary nucleon-nucleon collisions.  The spectra from central collisions are significantly suppressed when compared to the binary-scaled p+p expectation, and also when compared to similarly binary-scaled peripheral collisions, indicating a novel nuclear medium effect in central nuclear collisions at RHIC energies.
+---
+data_file: PbSc6080.yaml
+description:  Per-trigger yield of hadrons associated to direct photons in Au+Au collisions for direct photon $p_T$ 5-9 GeV/$c$, compared with p+p baseline, in various $\xi$ bins.
+keywords:
+- name: reactions
+  values: [AU AU]
+- name: cmenergies
+  values: [200.0]
+- {name: phrases, values: [ppg210, mid-rapidity, transverse momentum, photon-hadron correlations]}
+name: Figure 1
+---
