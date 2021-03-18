@@ -15,11 +15,17 @@ in the folder containing the files.
 You should also format all headers so that there is NO WHITESPACE in individual header names:
 
 Prime offenders:
+
 y value -> y-value
+
 x low -> x-low
+
 x high -> x-high
+
 sys, uncor -> sys,uncor
+
 sys, cor -> sys,cor
+
 sys, stat -> sys,stat
 
 The sufficiently equipped user can try to do a replace all over many files, but do not be surprised if you find other cases of whitespace that are not here.
