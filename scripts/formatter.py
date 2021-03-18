@@ -33,12 +33,12 @@ def my_round(n, var,dig):
     output=str(part / (10 ** ndigits))
 
     #Here we make sure we don't get rid of trailing zeroes
-    if(dig>=2 and len(output)!=dig):
+    if(dig>=2 and len(output.replace('-', ""))!=dig):
         print('This should not occur. Something is wrong')
         print(f'Here is the output {output}')
         #sys.exit()
 
-    elif(dig<2 and len(output)!=var-dig+2):
+    elif(dig<2 and len(output.replace("-",""))!=var-dig+2):
         output+='0'
     return output
 
