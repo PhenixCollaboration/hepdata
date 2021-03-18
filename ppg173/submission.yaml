@@ -50,36 +50,70 @@ additional_resources:
 - {description: Thumbnail Image file, location: thumb_InclusiveTrig1-4.png}
 data_file: HEPData_Fig15.yaml
 ---
-name: "Figure 18"
-description: 'Integrated per-trigger yields as a function of associated particle angle relative to Ψ2 event plane φ^a − Ψ2 integrated over the near side |∆φ| < π/4 (a–e) and over the away side |∆φ − π| < π/4 (f–j).'
+name: "Figure 18 Near Side"
+description: 'Integrated per-trigger yields as a function of associated particle angle relative to $\psi_2$ event plane $\phi^a - \psi_2$ integrated over the near side $|\Delta\phi|<\pi/4$.'
 keywords:
   - {name: reactions, values: [partile angle realtive to phi2]}
   - {name: cmenergies, values: [200.0]}
   - {name: phrases, values: [phi2, realive angle, near side]}
+additional_resources:
+- {description: Image file, location: BayesPTYAngPsi2NoFitVert.png}
+- {description: Thumbnail Image file, location: thumb_BayesPTYAngPsi2NoFitVert.png}
 data_file: HEPData_Fig18.yaml
 ---
-name: "Figure 20"
-description: 'Integrated per-trigger yields as a function of associated particle angle relative to Ψ3 event plane for ((a)-(e)) near-side |∆φ| < π/4 and for ((f)-(j)) away-side |∆φ − π| < π/4.'
+name: "Figure 18 Away Side"
+description: 'Integrated per-trigger yields as a function of associated particle angle relative to $\psi_2$ event plane $\phi^a - \psi_2$ integrated over the away side $|\Delta\phi|<\pi/4$.'
+keywords:
+  - {name: reactions, values: [partile angle realtive to phi2]}
+  - {name: cmenergies, values: [200.0]}
+  - {name: phrases, values: [phi2, realive angle, near side]}
+additional_resources:
+- {description: Image file, location: BayesPTYAngPsi2NoFitVert.png}
+- {description: Thumbnail Image file, location: thumb_BayesPTYAngPsi2NoFitVert.png}
+data_file: HEPData_Fig18p2.yaml
+---
+name: "Figure 20 Near Side"
+description: 'Integrated per-trigger yields as a function of associated particle angle relative to $\psi_2$ event plane for  near-side $|\Delta\phi|<\pi/4$ and for away-side $|\Delta\phi|<\pi/4$.'
 keywords:
   - {name: reactions, values: [particle angle realtive to phi3]}
   - {name: cmenergies, values: [200.0]}
   - {name: phrases, values: [phi3, relative angle, near-side]}
+additional_resources:
+- {description: Image file, location: BayesPTYAngPsi3NoFitVert.png}
+- {description: Thumbnail Image file, location: thumb_BayesPTYAngPsi3NoFitVert.png}
 data_file: HEPData_Fig20.yaml
 ---
+name: "Figure 20 Away Side"
+description: 'Integrated per-trigger yields as a function of associated particle angle relative to $\psi_2$ event plane for  near-side $|\Delta\phi|<\pi/4$ and for away-side $|\Delta\phi|<\pi/4$.'
+keywords:
+  - {name: reactions, values: [particle angle realtive to phi3]}
+  - {name: cmenergies, values: [200.0]}
+  - {name: phrases, values: [phi3, relative angle, near-side]}
+additional_resources:
+- {description: Image file, location: BayesPTYAngPsi3NoFitVert.png}
+- {description: Thumbnail Image file, location: thumb_BayesPTYAngPsi3NoFitVert.png}
+data_file: HEPData_Fig20p2.yaml
+---
 name: "Figure 21"
-description: 'Correlations C(∆φ) of dihadrons pairs measured in Au+Au collisions at √sNN = 200 GeV before subtracting the underlying event model with several pT selections: (a)–(e) (4 < pt T < 10) ⊗ (4 < pa T < 10) GeV/c, (f)–(j) (4 < pt T < 10) ⊗ (2 < paT < 4) GeV/c, (k)–(o) (4 < ptT < 10) ⊗ (1 < paT < 2) GeV/c, and (p)–(t) (4 < ptT < 10) ⊗ (0.5 < paT < 1) GeV/c. The columns represent centrality bins 0%–10% (a,f,k,p), 10%–20% (b,g,l,q), 20%–30% (c,h,m,r), 30%–40% (d,i,n,s), 40%–50% (e,j,o,t). Systematic uncertainties due to track matching are shown by blue bands around the points.'
+description: 'Per-trigger yields $Y(\Delta\phi)$ of dihadrons pairs measured in Au$+$Au collisions at $\sqrt{s_{_{NN}}}=200~{\rm GeV}$ after subtracting the underlying event model with several $p_T$ selections. Systematic uncertainties due to track matching are given.'
 keywords:
   - {name: reactions, values: [Correlations of dihadron pairs]}
   - {name: cmenergies, values: [200.0]}
   - {name: phrases, values: [C(delta phi)]}
+additional_resources:
+- {description: Image file, location: HighPtInclusiveCorWOVnSubtraction.png}
+- {description: Thumbnail Image file, location: thumb_HighPtInclusiveCorWOVnSubtraction.png}
 data_file: HEPData_Fig21.yaml
 ---
 name: "Figure 22"
-description: ' Correlations C(∆φ) of dihadron pairs measured in Au+Au collisions before subtracting the underlying event-model with several pT selections of the trigger and associated particles (p t,a T ): ((a)-(e)) (2 < pt T < 4) ⊗ (2 < pa T < 4) GeV/c, ((f)-(j)) (2 < pt T < 4) ⊗ (1 < pa T < 2) GeV/c, ((k)-(o)) (2 < pt T < 4) ⊗ (0.5 < pa T < 1) GeV/c, ((p)-(t)) (1 < p  T < 2) ⊗ (1 < pa T < 2) GeV/c, and ((u)-(y)) (1 < pt T < 2) ⊗ (0.5 < pa T < 1) GeV/c. The columns represent centrality bins 0%–10% (a,f,k,p,u), 10%–20% (b,g,l,q,v), 20%–30% (c,h,m,r,w), 30%–40% (d,i,n,s,x), 40%–50% (e,j,o,t,y). Systematic uncertainties due to track matching are shown by blue bands around the points.'
+description: 'Per-trigger yields $Y(\Delta\phi)$ of dihadrons pairs measured in Au$+$Au collisions at $\sqrt{s_{_{NN}}}=200~{\rm GeV}$ after subtracting the underlying event model with several $p_T$ selections. Systematic uncertainties due to track matching are given.'
 keywords:
   - {name: reactions, values: [Correlations of dihardon pairs]}
   - {name: cmenergies, values: [200.0]}
   - {name: phrases, values: [C(delta phi)]}
+additional_resources:
+- {description: Image file, location: LowPtInclusiveCorWOVnSubtraction.png}
+- {description: Thumbnail Image file, location: thumb_LowPtInclusiveCorWOVnSubtraction.png}
 data_file: HEPData_Fig22.yaml
 ---
 name: "Figure 23"
