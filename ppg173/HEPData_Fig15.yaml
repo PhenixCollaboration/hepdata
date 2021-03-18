@@ -26,9 +26,11 @@ independent_variables:
   - {low: 4.18879, high: 4.45059}
   - {low: 4.45059, high: 4.71239}
 dependent_variables:
-- header: {name: '$Trig x Assoc pt = 1-2 x 0.5-1 GeV/c$'}
+- header: {name: '$Y$'}
   qualifiers:
-  - {name: '$p_T$', value: '0-10%'}
+  - {name: '$p_{T}^{trig}$', value: '1-2'}
+  - {name: '$p_{T}^{assoc}$', value: '0.5-1'}
+  - {name: 'centrality', value: '0-10%'}
   values:
   - value: 0.004
     errors:
@@ -150,9 +152,11 @@ dependent_variables:
     - {symerror: 0.0013, label: 'stat'}
     - {symerror: 0.0028, label: 'sys'}
     - {symerror: 0.0011, label: 'ZYAM'}
-- header: {name: '$Trig x Assoc pt = 1-2 x 1-2 GeV/c$'}
+- header: {name: '$Y$'}
   qualifiers:
-  - {name: '$p_T$', value: '0-10%'}
+  - {name: '$p_{T}^{trig}$', value: '1-2'}
+  - {name: '$p_{T}^{assoc}$', value: '1-2'}
+  - {name: 'centrality', value: '0-10%'}
   values:
   - value: 0.001
     errors:
@@ -274,9 +278,11 @@ dependent_variables:
     - {symerror: 0.0008, label: 'stat'}
     - {symerror: 0.0023, label: 'sys'}
     - {symerror: 0.0006, label: 'ZYAM'}
-- header: {name: '$Trig x Assoc pt = 2-4 x 0.5-1 GeV/c$'}
+- header: {name: '$Y$'}
   qualifiers:
-  - {name: '$p_T$', value: '0-10%'}
+  - {name: '$p_{T}^{trig}$', value: '2-4'}
+  - {name: '$p_{T}^{assoc}$', value: '0.5-1'}
+  - {name: 'centrality', value: '0-10%'}
   values:
   - value: 0.0018
     errors:
@@ -398,9 +404,11 @@ dependent_variables:
     - {symerror: 0.004, label: 'stat'}
     - {symerror: 0.009, label: 'sys'}
     - {symerror: 0.0028, label: 'ZYAM'}
-- header: {name: '$Trig x Assoc pt = 2.4 x 1-2 GeV/c$'}
+- header: {name: '$Y$'}
   qualifiers:
-  - {name: '$p_T$', value: '0-10%'}
+  - {name: '$p_{T}^{trig}$', value: '2-4'}
+  - {name: '$p_{T}^{assoc}$', value: '1-2'}
+  - {name: 'centrality', value: '0-10%'}
   values:
   - value: 0.004
     errors:
@@ -522,9 +530,11 @@ dependent_variables:
     - {symerror: 0.0027, label: 'stat'}
     - {symerror: 0.006, label: 'sys'}
     - {symerror: 0.0021, label: 'ZYAM'}
-- header: {name: '$Trig x Assoc pt = 2-4 x 2-4 GeV/c$'}
+- header: {name: '$Y$'}
   qualifiers:
-  - {name: '$p_T$', value: '0-10%'}
+  - {name: '$p_{T}^{trig}$', value: '2-4'}
+  - {name: '$p_{T}^{assoc}$', value: '2-4'}
+  - {name: 'centrality', value: '0-10%'}
   values:
   - value: 0.0018
     errors:
@@ -646,9 +656,11 @@ dependent_variables:
     - {symerror: 0.0008, label: 'stat'}
     - {symerror: 0.001, label: 'sys'}
     - {symerror: 0.00034, label: 'ZYAM'}
-- header: {name: '$Trig x Assoc pt = 1-2 x 0.5-1 GeV/c$'}
+- header: {name: '$Y$'}
   qualifiers:
-  - {name: '$p_T$', value: '10-20%'}
+  - {name: '$p_{T}^{trig}$', value: '1-2'}
+  - {name: '$p_{T}^{assoc}$', value: '0.5-1'}
+  - {name: 'centrality', value: '10-20%'}
   values:
   - value: -0.0008
     errors:
@@ -770,9 +782,11 @@ dependent_variables:
     - {symerror: 0.0011, label: 'stat'}
     - {symerror: 0.006, label: 'sys'}
     - {symerror: 0.0010, label: 'ZYAM'}
-- header: {name: '$Trig x Assoc pt = 1-2 x 1-2 GeV/c$'}
+- header: {name: '$Y$'}
   qualifiers:
-  - {name: '$p_T$', value: '10-20%'}
+  - {name: '$p_{T}^{trig}$', value: '1-2'}
+  - {name: '$p_{T}^{assoc}$', value: '1-2'}
+  - {name: 'centrality', value: '10-20%'}
   values:
   - value: -0.001
     errors:
@@ -894,9 +908,11 @@ dependent_variables:
     - {symerror: 0.0006, label: 'stat'}
     - {symerror: 0.004, label: 'sys'}
     - {symerror: 0.0006, label: 'ZYAM'}
-- header: {name: '$Trig x Assoc pt = 2-4 x 0.5-1 GeV/c$'}
+- header: {name: '$Y$'}
   qualifiers:
-  - {name: '$p_T$', value: '10-20%'}
+  - {name: '$p_{T}^{trig}$', value: '2-4'}
+  - {name: '$p_{T}^{assoc}$', value: '0.5-1'}
+  - {name: 'centrality', value: '10-20%'}
   values:
   - value: -0.003
     errors:
@@ -1018,9 +1034,11 @@ dependent_variables:
     - {symerror: 0.0035, label: 'stat'}
     - {symerror: 0.012, label: 'sys'}
     - {symerror: 0.0033, label: 'ZYAM'}
-- header: {name: '$Trig x Assoc pt = 2-4 x 1-2 GeV/c$'}
+- header: {name: '$Y$'}
   qualifiers:
-  - {name: '$p_T$', value: '10-20%'}
+  - {name: '$p_{T}^{trig}$', value: '2-4'}
+  - {name: '$p_{T}^{assoc}$', value: '1-2'}
+  - {name: 'centrality', value: '10-20%'}
   values:
   - value: -0.002
     errors:
@@ -1142,9 +1160,11 @@ dependent_variables:
     - {symerror: 0.0021, label: 'stat'}
     - {symerror: 0.009, label: 'sys'}
     - {symerror: 0.0019, label: 'ZYAM'}
-- header: {name: '$Trig x Assoc pt = 2-4 x 2-4 GeV/c$'}
+- header: {name: '$Y$'}
   qualifiers:
-  - {name: '$p_T$', value: '10-20%'}
+  - {name: '$p_{T}^{trig}$', value: '2-4'}
+  - {name: '$p_{T}^{assoc}$', value: '2-4'}
+  - {name: 'centrality', value: '10-20%'}
   values:
   - value: 0.0015
     errors:
@@ -1266,9 +1286,11 @@ dependent_variables:
     - {symerror: 0.0006, label: 'stat'}
     - {symerror: 0.0017, label: 'sys'}
     - {symerror: 0.00027, label: 'ZYAM'}
-- header: {name: '$Trig x Assoc pt = 1-2 x 0.5-1 GeV/c$'}
+- header: {name: '$Y$'}
   qualifiers:
-  - {name: '$p_T$', value: '20-30%'}
+  - {name: '$p_{T}^{trig}$', value: '1-2'}
+  - {name: '$p_{T}^{assoc}$', value: '0.5-1'}
+  - {name: 'centrality', value: '20-30%'}
   values:
   - value: 0.0009
     errors:
@@ -1390,9 +1412,11 @@ dependent_variables:
     - {symerror: 0.001, label: 'stat'}
     - {symerror: 0.007, label: 'sys'}
     - {symerror: 0.0009, label: 'ZYAM'}
-- header: {name: '$Trig x Assoc pt = 1-2 x 1-2 GeV/c$'}
+- header: {name: '$Y$'}
   qualifiers:
-  - {name: '$p_T$', value: '20-30%'}
+  - {name: '$p_{T}^{trig}$', value: '1-2'}
+  - {name: '$p_{T}^{assoc}$', value: '1-2'}
+  - {name: 'centrality', value: '20-30%'}
   values:
   - value: -0.0004
     errors:
@@ -1514,9 +1538,11 @@ dependent_variables:
     - {symerror: 0.0006, label: 'stat'}
     - {symerror: 0.004, label: 'sys'}
     - {symerror: 0.0005, label: 'ZYAM'}
-- header: {name: '$Trig x Assoc pt = 2-4 x 0.5-1 GeV/c$'}
+- header: {name: '$Y$'}
   qualifiers:
-  - {name: '$p_T$', value: '20-30%'}
+  - {name: '$p_{T}^{trig}$', value: '2-4'}
+  - {name: '$p_{T}^{assoc}$', value: '0.5-1'}
+  - {name: 'centrality', value: '20-30%'}
   values:
   - value: -0.009
     errors:
@@ -1638,9 +1664,11 @@ dependent_variables:
     - {symerror: 0.0031, label: 'stat'}
     - {symerror: 0.009, label: 'sys'}
     - {symerror: 0.0029, label: 'ZYAM'}
-- header: {name: '$Trig x Assoc pt = 2.4 x 1-2 GeV/c$'}
+- header: {name: '$Y$'}
   qualifiers:
-  - {name: '$p_T$', value: '20-30%'}
+  - {name: '$p_{T}^{trig}$', value: '2-4'}
+  - {name: '$p_{T}^{assoc}$', value: '1-2'}
+  - {name: 'centrality', value: '20-30%'}
   values:
   - value: -0.004
     errors:
@@ -1762,9 +1790,11 @@ dependent_variables:
     - {symerror: 0.0019, label: 'stat'}
     - {symerror: 0.008, label: 'sys'}
     - {symerror: 0.0017, label: 'ZYAM'}
-- header: {name: '$Trig x Assoc pt = 2-4 x 2-4 GeV/c$'}
+- header: {name: '$Y$'}
   qualifiers:
-  - {name: '$p_T$', value: '20-30%'}
+  - {name: '$p_{T}^{trig}$', value: '2-4'}
+  - {name: '$p_{T}^{assoc}$', value: '2-4'}
+  - {name: 'centrality', value: '20-30%'}
   values:
   - value: 0.0013
     errors:
@@ -1886,9 +1916,11 @@ dependent_variables:
     - {symerror: 0.0005, label: 'stat'}
     - {symerror: 0.0016, label: 'sys'}
     - {symerror: 0.00024, label: 'ZYAM'}
-- header: {name: '$Trig x Assoc pt = 1-2 x 0.5-1 GeV/c$'}
+- header: {name: '$Y$'}
   qualifiers:
-  - {name: '$p_T$', value: '30-40%'}
+  - {name: '$p_{T}^{trig}$', value: '1-2'}
+  - {name: '$p_{T}^{assoc}$', value: '0.5-1'}
+  - {name: 'centrality', value: '30-40%'}
   values:
   - value: 0.001
     errors:
@@ -2010,9 +2042,11 @@ dependent_variables:
     - {symerror: 0.0009, label: 'stat'}
     - {symerror: 0.007, label: 'sys'}
     - {symerror: 0.0009, label: 'ZYAM'}
-- header: {name: '$Trig x Assoc pt = 1-2 x 1-2 GeV/c$'}
+- header: {name: '$Y$'}
   qualifiers:
-  - {name: '$p_T$', value: '30-40%'}
+  - {name: '$p_{T}^{trig}$', value: '1-2'}
+  - {name: '$p_{T}^{assoc}$', value: '1-2'}
+  - {name: 'centrality', value: '30-40%'}
   values:
   - value: -0.0009
     errors:
@@ -2134,9 +2168,11 @@ dependent_variables:
     - {symerror: 0.0005, label: 'stat'}
     - {symerror: 0.004, label: 'sys'}
     - {symerror: 0.0005, label: 'ZYAM'}
-- header: {name: '$Trig x Assoc pt = 2-4 x 0.5-1 GeV/c$'}
+- header: {name: '$Y$'}
   qualifiers:
-  - {name: '$p_T$', value: '30-40%'}
+  - {name: '$p_{T}^{trig}$', value: '2-4'}
+  - {name: '$p_{T}^{assoc}$', value: '0.5-1'}
+  - {name: 'centrality', value: '30-40%'}
   values:
   - value: -0.003
     errors:
@@ -2258,9 +2294,11 @@ dependent_variables:
     - {symerror: 0.0029, label: 'stat'}
     - {symerror: 0.009, label: 'sys'}
     - {symerror: 0.0027, label: 'ZYAM'}
-- header: {name: '$Trig x Assoc pt = 2.4 x 1-2 GeV/c$'}
+- header: {name: '$Y$'}
   qualifiers:
-  - {name: '$p_T$', value: '30-40%'}
+  - {name: '$p_{T}^{trig}$', value: '2-4'}
+  - {name: '$p_{T}^{assoc}$', value: '1-2'}
+  - {name: 'centrality', value: '30-40%'}
   values:
   - value: -0.006
     errors:
@@ -2382,9 +2420,11 @@ dependent_variables:
     - {symerror: 0.0017, label: 'stat'}
     - {symerror: 0.006, label: 'sys'}
     - {symerror: 0.0015, label: 'ZYAM'}
-- header: {name: '$Trig x Assoc pt = 2-4 x 2-4 GeV/c$'}
+- header: {name: '$Y$'}
   qualifiers:
-  - {name: '$p_T$', value: '30-40%'}
+  - {name: '$p_{T}^{trig}$', value: '2-4'}
+  - {name: '$p_{T}^{assoc}$', value: '2-4'}
+  - {name: 'centrality', value: '30-40%'}
   values:
   - value: -0.0006
     errors:
@@ -2506,9 +2546,11 @@ dependent_variables:
     - {symerror: 0.0005, label: 'stat'}
     - {symerror: 0.0017, label: 'sys'}
     - {symerror: 0.00022, label: 'ZYAM'}
-- header: {name: '$Trig x Assoc pt = 1-2 x 0.5-1 GeV/c$'}
+- header: {name: '$Y$'}
   qualifiers:
-  - {name: '$p_T$', value: '40-50%'}
+  - {name: '$p_{T}^{trig}$', value: '1-2'}
+  - {name: '$p_{T}^{assoc}$', value: '0.5-1'}
+  - {name: 'centrality', value: '40-50%'}
   values:
   - value: 0.0018
     errors:
@@ -2630,9 +2672,11 @@ dependent_variables:
     - {symerror: 0.0009, label: 'stat'}
     - {symerror: 0.005, label: 'sys'}
     - {symerror: 0.0008, label: 'ZYAM'}
-- header: {name: '$Trig x Assoc pt = 1-2 x 1-2 GeV/c$'}
+- header: {name: '$Y$'}
   qualifiers:
-  - {name: '$p_T$', value: '40-50%'}
+  - {name: '$p_{T}^{trig}$', value: '1-2'}
+  - {name: '$p_{T}^{assoc}$', value: '1-2'}
+  - {name: 'centrality', value: '40-50%'}
   values:
   - value: -0.0006
     errors:
@@ -2754,9 +2798,11 @@ dependent_variables:
     - {symerror: 0.0005, label: 'stat'}
     - {symerror: 0.0027, label: 'sys'}
     - {symerror: 0.0005, label: 'ZYAM'}
-- header: {name: '$Trig x Assoc pt = 2-4 x 0.5-1 GeV/c$'}
+- header: {name: '$Y$'}
   qualifiers:
-  - {name: '$p_T$', value: '40-50%'}
+  - {name: '$p_{T}^{trig}$', value: '2-4'}
+  - {name: '$p_{T}^{assoc}$', value: '0.5-1'}
+  - {name: 'centrality', value: '40-50%'}
   values:
   - value: -0.0007
     errors:
@@ -2878,9 +2924,11 @@ dependent_variables:
     - {symerror: 0.0028, label: 'stat'}
     - {symerror: 0.008, label: 'sys'}
     - {symerror: 0.0023, label: 'ZYAM'}
-- header: {name: '$Trig x Assoc pt = 2.4 x 1-2 GeV/c$'}
+- header: {name: '$Y$'}
   qualifiers:
-  - {name: '$p_T$', value: '40-50%'}
+  - {name: '$p_{T}^{trig}$', value: '2-4'}
+  - {name: '$p_{T}^{assoc}$', value: '1-2'}
+  - {name: 'centrality', value: '40-50%'}
   values:
   - value: -0.002
     errors:
@@ -3002,9 +3050,11 @@ dependent_variables:
     - {symerror: 0.0016, label: 'stat'}
     - {symerror: 0.007, label: 'sys'}
     - {symerror: 0.0014, label: 'ZYAM'}
-- header: {name: '$Trig x Assoc pt = 2-4 x 2-4 GeV/c$'}
+- header: {name: '$Y$'}
   qualifiers:
-  - {name: '$p_T$', value: '40-50%'}
+  - {name: '$p_{T}^{trig}$', value: '2-4'}
+  - {name: '$p_{T}^{assoc}$', value: '2-4'}
+  - {name: 'centrality', value: '40-50%'}
   values:
   - value: -0.0006
     errors:

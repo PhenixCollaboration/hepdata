@@ -1,0 +1,38 @@
+independent_variables:
+- header: {name: '$p_T$'}
+  values:
+  - {low: 1.0, high: 1.5}
+  - {low: 1.5, high: 2.0}
+  - {low: 2.0, high: 2.5}
+  - {low: 2.5, high: 3.0}
+  - {low: 3.0, high: 3.5}
+dependent_variables:
+- header: {name: '$\frac{1}{N_{evt}2\pi p_T}\frac{d^2N}{dp_Td\eta}$'}
+  qualifiers:
+  - {name: '$p_T$', value: '60-80% centrality'}
+  values:
+  - value: 0.134
+    errors:
+    - {symerror: 0.005, label: 'stat'}
+    - {symerror: 0.023, label: 'sys uncorr'}
+    - {symerror: 0.020, label: 'sys corr'}
+  - value: 0.0183
+    errors:
+    - {symerror: 0.0009, label: 'stat'}
+    - {symerror: 0.0030, label: 'sys uncorr'}
+    - {symerror: 0.0027, label: 'sys corr'}
+  - value: 0.00349
+    errors:
+    - {symerror: 0.00026, label: 'stat'}
+    - {symerror: 0.0009, label: 'sys uncorr'}
+    - {symerror: 0.0005, label: 'sys corr'}
+  - value: 0.00069
+    errors:
+    - {symerror: 9e-050, label: 'stat'}
+    - {symerror: 0.00014, label: 'sys uncorr'}
+    - {symerror: 0.00010, label: 'sys corr'}
+  - value: 0.00025
+    errors:
+    - {symerror: 5e-050, label: 'stat'}
+    - {symerror: 6e-050, label: 'sys uncorr'}
+    - {symerror: 4e-050, label: 'sys corr'}
