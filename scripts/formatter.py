@@ -18,6 +18,8 @@ from decimal import *
 
 from numpy.testing._private.utils import KnownFailureTest
 
+from distutils.util import strtobool
+
 #A script to round correctly. Python default uses IEEE754 standard which rounds to even numbers.
 def my_round(n, var,dig):
     #This gives us our precision
@@ -193,7 +195,7 @@ if __name__=="__main__":
 
     else:
         N_errs = int(sys.argv[2])
-        X_bins = bool(sys.argv[1])
+        X_bins = strtobool(sys.argv[1])
         #Put the name of the Nch.txt file here
         file_name=sys.argv[3]
         #We load the file as strings to avoid float arithmetic and loss of 0's 
