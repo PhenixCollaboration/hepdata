@@ -18,6 +18,8 @@ from decimal import *
 
 from numpy.testing._private.utils import KnownFailureTest
 
+from distutils.util import strtobool
+
 #A script to round correctly. Python default uses IEEE754 standard which rounds to even numbers.
 def my_round(n, var,dig):
     #This gives us our precision
@@ -30,16 +32,31 @@ def my_round(n, var,dig):
     else:
         part = math.floor(part)
 
-    output=str(part / (10 ** ndigits))
+    #Here we avoid string uses an exponent
+    if(abs(float(n)) >= 1e-4):
+        output=str(part / 10 ** ndigits)
+    else:
+        output=str(Decimal(part) / Decimal(10 ** ndigits))
 
     #Here we make sure we don't get rid of trailing zeroes
-    if(dig>=2 and len(output.replace('-', ""))!=dig):
+    if(abs(float(n))<1e+1 and dig>=2 and len(output.replace('-', ""))!=dig):
         print('This should not occur. Something is wrong')
         print(f'Here is the output {output}')
         #sys.exit()
+    while(dig<2 and len(output.replace("-",""))<var-dig+2):
+            if('.' in output):
+                output+='0'
+            else:
+                output+='.0'
 
-    elif(dig<2 and len(output.replace("-",""))!=var-dig+2):
-        output+='0'
+    #Here we make sure to get rid of unecessary trailing zeroes
+    if(dig==1 and var==1):
+        output=output.replace('.0','')
+    if(dig>=2 and len(output.replace('-', ""))!=dig):
+        output=output.replace('.0','')
+        #print('This should not occur. Something is wrong')
+        #print(f'Here is the output {output}')
+        #sys.exit()
     return output
 
 #A little script to follow PDG guidelines on error
@@ -193,7 +210,7 @@ if __name__=="__main__":
 
     else:
         N_errs = int(sys.argv[2])
-        X_bins = bool(sys.argv[1])
+        X_bins = strtobool(sys.argv[1])
         #Put the name of the Nch.txt file here
         file_name=sys.argv[3]
         #We load the file as strings to avoid float arithmetic and loss of 0's 
