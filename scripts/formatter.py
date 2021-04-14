@@ -32,11 +32,12 @@ def my_round(n, var,dig):
     else:
         part = math.floor(part)
 
-    #Here we avoid string uses an exponent
+    #Here we avoid the scientific notation for now
     if(abs(float(n)) >= 1e-4):
         output=str(part / 10 ** ndigits)
     else:
-        output=str(Decimal(part) / Decimal(10 ** ndigits))
+        output=str('{:f}'.format(Decimal(part) / Decimal(10 ** ndigits)))
+
 
     #Here we make sure we don't get rid of trailing zeroes
     if(abs(float(n))<1e+1 and dig>=2 and len(output.replace('-', ""))!=dig):
