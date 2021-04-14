@@ -59,10 +59,18 @@ def my_round(n, var,dig):
         #print(f'Here is the output {output}')
         #sys.exit()
 
+    #Here now we consider the scientific notation
+    #First : zero value
     if(float(output) == 0.):
+        if ((dig-1) >= -3):
+            return output
+        if(var==1):
+            output = '0' + 'e' + str(dig-1)
+        elif(var==2):
+            output = '0.0' + 'e' + str(dig-1)
         return output
 
-    #Here now we consider the scientific notation
+    #Second : non-zero value
     if(dig<2 and abs(float(output)) < 1e-3):
         output='{:10e}'.format(float(output))
         output=output.replace('e-0', 'e-')
