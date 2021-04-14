@@ -58,6 +58,26 @@ def my_round(n, var,dig):
         #print('This should not occur. Something is wrong')
         #print(f'Here is the output {output}')
         #sys.exit()
+
+    if(float(output) == 0.):
+        return output
+
+    #Here now we consider the scientific notation
+    if(dig<2 and abs(float(output)) < 1e-3):
+        output='{:10e}'.format(float(output))
+        output=output.replace('e-0', 'e-')
+        factor=output.split('e')[0]
+        exp=output.split('e')[1]
+
+        while(dig<2 and (int(len(factor.replace('-','').replace('.','')))+abs(int(exp))) >= var-dig+2):
+            factor=factor[:-1]
+            if(factor[-1:]=='.'):
+                factor=factor[:-1]
+
+        output_exp = factor + 'e' + exp
+        return output_exp
+
+    output=output.replace('E', 'e')
     return output
 
 #A little script to follow PDG guidelines on error
