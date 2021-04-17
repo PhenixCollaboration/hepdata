@@ -8,7 +8,7 @@ independent_variables:
   - {low: 2.00, high: 3.00}
   - {low: 3.00, high: 4.00}
   - {low: 4.00, high: 5.00}
-  - {low: 5.00, high: 7.00}
+  - {low: 5.00, high: 6.00}
 dependent_variables:
 - header: {name: '40-60% Centrality (global err. 8.0%)'}
   qualifiers:
@@ -16,33 +16,33 @@ dependent_variables:
   values:
   - value: 2.155e-06
     errors:
-    - {symerror: 4.563e-07, label: 'stat'}
+    - {asymerror: {plus: 4.563e-07, minus: 4.563e-07}, label: 'stat'}
     - {symerror: 2.3e-07, label: 'sys'}
   - value: 1.622e-06
     errors:
-    - {symerror: 2.268e-07, label: 'stat'}
+    - {asymerror: {plus: 2.268e-07, minus: 2.268e-07}, label: 'stat'}
     - {symerror: 1.481e-07, label: 'sys'}
   - value: 1.093e-06
     errors:
-    - {symerror: 1.571e-07, label: 'stat'}
+    - {asymerror: {plus: 1.571e-07, minus: 1.571e-07}, label: 'stat'}
     - {symerror: 9.192e-08, label: 'sys'}
   - value: 5.37e-07
     errors:
-    - {symerror: 1.054e-07, label: 'stat'}
+    - {asymerror: {plus: 1.054e-07, minus: 1.082e-07}, label: 'stat'}
     - {symerror: 4.276e-08, label: 'sys'}
   - value: 3.229e-07
     errors:
-    - {symerror: 4.764e-08, label: 'stat'}
+    - {asymerror: {plus: 4.764e-08, minus: 4.764e-08}, label: 'stat'}
     - {symerror: 2.563e-08, label: 'sys'}
   - value: 4.411e-08
     errors:
-    - {symerror: 2.32e-08, label: 'stat'}
+    - {asymerror: {plus: 2.32e-08, minus: 2.1e-08}, label: 'stat'}
     - {symerror: 3.356e-09, label: 'sys'}
   - value: 3.115e-08
     errors:
-    - {symerror: 1.327e-08, label: 'stat'}
+    - {asymerror: {plus: 1.327e-08, minus: 1.249e-08}, label: 'stat'}
     - {symerror: 2.261e-09, label: 'sys'}
   - value: 2.258e-09
     errors:
-    - {symerror: 3.613e-09, label: 'stat'}
+    - {asymerror: {plus: 3.613e-09, minus: 1.356e-09}, label: 'stat'}
     - {symerror: 1.569e-10, label: 'sys'}
