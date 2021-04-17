@@ -44,7 +44,13 @@ def my_round(n, var,dig):
         print('This should not occur. Something is wrong')
         print(f'Here is the output {output}')
         #sys.exit()
-    while(dig<2 and len(output.replace("-",""))<var-dig+2):
+
+    #Count number of additional digits for output >= 10
+    adig = 0
+    if(abs(float(output)) >= 1e+1):
+        adig = int(np.log10(abs(float(output))))
+
+    while(dig<2 and len(output.replace("-",""))<var-dig+2+adig):
             if('.' in output):
                 output+='0'
             else:
