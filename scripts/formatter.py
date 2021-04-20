@@ -32,18 +32,25 @@ def my_round(n, var,dig):
     else:
         part = math.floor(part)
 
-    #Here we avoid string uses an exponent
+    #Here we avoid the scientific notation for now
     if(abs(float(n)) >= 1e-4):
         output=str(part / 10 ** ndigits)
     else:
-        output=str(Decimal(part) / Decimal(10 ** ndigits))
+        output=str('{:f}'.format(Decimal(part) / Decimal(10 ** ndigits)))
+
 
     #Here we make sure we don't get rid of trailing zeroes
     if(abs(float(n))<1e+1 and dig>=2 and len(output.replace('-', ""))!=dig):
         print('This should not occur. Something is wrong')
         print(f'Here is the output {output}')
         #sys.exit()
-    while(dig<2 and len(output.replace("-",""))<var-dig+2):
+
+    #Count number of additional digits for output >= 10
+    adig = 0
+    if(abs(float(output)) >= 1e+1):
+        adig = int(np.log10(abs(float(output))))
+
+    while(dig<2 and len(output.replace("-",""))<var-dig+2+adig):
             if('.' in output):
                 output+='0'
             else:
@@ -57,6 +64,34 @@ def my_round(n, var,dig):
         #print('This should not occur. Something is wrong')
         #print(f'Here is the output {output}')
         #sys.exit()
+
+    #Here now we consider the scientific notation
+    #First : zero value
+    if(float(output) == 0.):
+        if ((dig-1) >= -3):
+            return output
+        if(var==1):
+            output = '0' + 'e' + str(dig-1)
+        elif(var==2):
+            output = '0.0' + 'e' + str(dig-1)
+        return output
+
+    #Second : non-zero value
+    if(dig<2 and abs(float(output)) < 1e-3):
+        output='{:10e}'.format(float(output))
+        output=output.replace('e-0', 'e-')
+        factor=output.split('e')[0]
+        exp=output.split('e')[1]
+
+        while(dig<2 and (int(len(factor.replace('-','').replace('.','')))+abs(int(exp))) >= var-dig+2):
+            factor=factor[:-1]
+            if(factor[-1:]=='.'):
+                factor=factor[:-1]
+
+        output_exp = factor + 'e' + exp
+        return output_exp
+
+    output=output.replace('E', 'e')
     return output
 
 #A little script to follow PDG guidelines on error
