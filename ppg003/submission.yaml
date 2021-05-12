@@ -14,15 +14,57 @@ additional_resources:
 - {description: arXiv link, location: 'https://arxiv.org/abs/nucl-ex/0109003'}
 - {location: "https://inspirehep.net/literature/562409", description: InspireHEP}
 comment: |
-  BNL-RHIC. Transverse momentum spectra for charged hadrons and for neutral pions in the range 1~GeV/c~$< p_T <$~5~GeV/c have been measured by the PHENIX experiment at RHIC in Au+Au collisions at $\sqrt{s_{_{NN}}}=130$~GeV. At high $p_T$ the spectra from peripheral nuclear collisions are consistent with scaling the spectra from p+p collisions by the average number of binary nucleon-nucleon collisions.  The spectra from central collisions are significantly suppressed when compared to the binary-scaled p+p expectation, and also when compared to similarly binary-scaled peripheral collisions, indicating a novel nuclear medium effect in central nuclear collisions at RHIC energies.
+  BNL-RHIC. Transverse momentum spectra for charged hadrons and for neutral pions in the range 1~GeV/c $< p_T <$ 5 GeV/c have been measured by the PHENIX experiment at RHIC in Au+Au collisions at $\sqrt{s_{_{NN}}}=130$ GeV. At high $p_T$ the spectra from peripheral nuclear collisions are consistent with scaling the spectra from p+p collisions by the average number of binary nucleon-nucleon collisions.  The spectra from central collisions are significantly suppressed when compared to the binary-scaled p+p expectation, and also when compared to similarly binary-scaled peripheral collisions, indicating a novel nuclear medium effect in central nuclear collisions at RHIC energies.
 ---
-data_file: PbSc6080.yaml
-description:  Per-trigger yield of hadrons associated to direct photons in Au+Au collisions for direct photon $p_T$ 5-9 GeV/$c$, compared with p+p baseline, in various $\xi$ bins.
+data_file: PbSc010.yaml
+description: The yields per event at mid-rapidity for neutral pions as a function of $p_T$ for 0-80% from the PbSc detector. 
+additional_resources:
+- {description: Image file, location: fig-1.png}
+- {description: Thumbnail Image file, location: thumb_fig-1.png}
 keywords:
 - name: reactions
   values: [AU AU]
 - name: cmenergies
   values: [200.0]
 - {name: phrases, values: [ppg210, mid-rapidity, transverse momentum, photon-hadron correlations]}
-name: Figure 1
+name: Figure 1 PbSc 0-10%
+---
+data_file: PbSc6080.yaml
+description:  The yields per event at mid-rapidity for neutral pions as a function of $p_T$ for 60-80% from the PbSc detector.
+additional_resources:
+- {description: Image file, location: fig-1.png}
+- {description: Thumbnail Image file, location: thumb_fig-1.png}
+keywords:
+- name: reactions
+  values: [AU AU]
+- name: cmenergies
+  values: [200.0]
+- {name: phrases, values: [ppg210, mid-rapidity, transverse momentum, photon-hadron correlations]}
+name: Figure 1 PbSc 60-80%
+---
+data_file: PbGl010.yaml
+description:  The yields per event at mid-rapidity for neutral pions as a function of $p_T$ for 0-10% from the PbGl detector.
+additional_resources:
+- {description: Image file, location: fig-1.png}
+- {description: Thumbnail Image file, location: thumb_fig-1.png}
+keywords:
+- name: reactions
+  values: [AU AU]
+- name: cmenergies
+  values: [200.0]
+- {name: phrases, values: [ppg210, mid-rapidity, transverse momentum, photon-hadron correlations]}
+name: Figure 1 PbGl 0-10%
+---
+data_file: PbGl6080.yaml
+description:  The yields per event at mid-rapidity for neutral pions as a function of $p_T$ for 60-80% from the PbGl detector.
+additional_resources:
+- {description: Image file, location: fig-1.png}
+- {description: Thumbnail Image file, location: thumb_fig-1.png}
+keywords:
+- name: reactions
+  values: [AU AU]
+- name: cmenergies
+  values: [200.0]
+- {name: phrases, values: [ppg210, mid-rapidity, transverse momentum, photon-hadron correlations]}
+name: Figure 1 PbGl 60-80%
 ---
