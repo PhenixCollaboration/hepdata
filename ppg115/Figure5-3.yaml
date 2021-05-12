@@ -1,5 +1,5 @@
 independent_variables:
-- header: {name: 'Cent'}
+- header: {name: 'Centrality'}
   values:
   - {low: 0, high: 5}
   - {low: 0, high: 10}
@@ -12,8 +12,6 @@ independent_variables:
   - {low: 0, high: 92}
 dependent_variables:
 - header: {name: 'Slope'}
-  qualifiers:
-  - {name: 'Cent', value: ''}
   values:
   - value: 0.008
     errors:

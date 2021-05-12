@@ -1,5 +1,5 @@
 independent_variables:
-- header: {name: 'Cent'}
+- header: {name: 'Centrality'}
   values:
   - {low: 0, high: 5}
   - {low: 0, high: 10}
@@ -13,7 +13,7 @@ independent_variables:
 dependent_variables:
 - header: {name: '${R_{AA}}$'}
   qualifiers:
-  - {name: 'Cent', value: '(5GeV/c)'}
+  - {name: '$p_T$', value: '>5 GeV/c'}
   values:
   - value: 0.202
     errors:
