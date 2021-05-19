@@ -1,8 +1,8 @@
 independent_variables:
-- header: {name: '$p_T$'}
+- header: {name: '$\Delta\phi$'}
   values:
   - {low: -1.5708, high: -1.309}
-  - {low: -1.302, high: -1.0472}
+  - {low: -1.309, high: -1.0472}
   - {low: -1.0472, high: -0.785398}
   - {low: -0.785398, high: -0.523599}
   - {low: -0.523599, high: -0.261799}
@@ -26,2503 +26,3153 @@ independent_variables:
   - {low: 4.18879, high: 4.45059}
   - {low: 4.45059, high: 4.71239}
 dependent_variables:
-- header: {name: '$Trig x Assoc pT = 1-2 x 0.5-1 GeV/c$'}
+- header: {name: '$Y$'}
   qualifiers:
-  - {name: '$p_T$', value: '0-10%'}
+  - {name: '$p_{T}^{trig}$', value: '1-2'}
+  - {name: '$p_{T}^{assoc}$', value: '0.5-1'}
+  - {name: 'centrality', value: '0-10%'}
   values:
-  - value: 1.0
+  - value: 0.995212
     errors:
-    - {symerror: 9e-050, label: 'stat'}
+    - {symerror: 0.00009, label: 'corr'}
+    - {symerror: 0.00013, label: 'stat'}
     - {symerror: 0.00013, label: 'sys'}
-  - value: 1.0
+  - value: 0.99538
     errors:
-    - {symerror: 6e-050, label: 'stat'}
+    - {symerror: 0.00006, label: 'corr'}
+    - {symerror: 9e-050, label: 'stat'}
     - {symerror: 9e-050, label: 'sys'}
-  - value: 1.0
+  - value: 0.996473
     errors:
-    - {symerror: 5e-050, label: 'stat'}
+    - {symerror: 0.00005, label: 'corr'}
+    - {symerror: 8e-050, label: 'stat'}
     - {symerror: 8e-050, label: 'sys'}
-  - value: 1.0
+  - value: 0.99886
     errors:
-    - {symerror: 4e-050, label: 'stat'}
+    - {symerror: 0.000043, label: 'corr'}
+    - {symerror: 1.7e-050, label: 'stat'}
     - {symerror: 1.7e-050, label: 'sys'}
-  - value: 1.0
+  - value: 1.00331
     errors:
+    - {symerror: 0.00004, label: 'corr'}
     - {symerror: 4e-050, label: 'stat'}
     - {symerror: 4e-050, label: 'sys'}
-  - value: 1.0
+  - value: 1.00609
     errors:
-    - {symerror: 4e-050, label: 'stat'}
+    - {symerror: 0.000037, label: 'corr'}
+    - {symerror: 2.1e-050, label: 'stat'}
     - {symerror: 2.1e-050, label: 'sys'}
-  - value: 1.0
+  - value: 1.00603
     errors:
-    - {symerror: 4e-050, label: 'stat'}
+    - {symerror: 0.00004, label: 'corr'}
+    - {symerror: 7e-050, label: 'stat'}
     - {symerror: 7e-050, label: 'sys'}
-  - value: 1.0
+  - value: 1.00332
     errors:
-    - {symerror: 4e-050, label: 'stat'}
+    - {symerror: 0.00004, label: 'corr'}
+    - {symerror: 8e-050, label: 'stat'}
     - {symerror: 8e-050, label: 'sys'}
-  - value: 1.0
+  - value: 0.998919
     errors:
-    - {symerror: 4e-050, label: 'stat'}
+    - {symerror: 0.00004, label: 'corr'}
+    - {symerror: 0.00010, label: 'stat'}
     - {symerror: 0.00010, label: 'sys'}
-  - value: 1.0
+  - value: 0.99649
     errors:
-    - {symerror: 5e-050, label: 'stat'}
+    - {symerror: 0.00005, label: 'corr'}
+    - {symerror: 7e-050, label: 'stat'}
     - {symerror: 7e-050, label: 'sys'}
-  - value: 1.0
+  - value: 0.995214
     errors:
+    - {symerror: 0.00006, label: 'corr'}
     - {symerror: 6e-050, label: 'stat'}
     - {symerror: 6e-050, label: 'sys'}
-  - value: 1.0
+  - value: 0.995139
     errors:
-    - {symerror: 9e-050, label: 'stat'}
-    - {symerror: 0.00015, label: 'sys'}
-  - value: 1.0
-    errors:
-    - {symerror: 8e-050, label: 'stat'}
-    - {symerror: 0.00027, label: 'sys'}
-  - value: 1.0
-    errors:
-    - {symerror: 6e-050, label: 'stat'}
-    - {symerror: 4e-050, label: 'sys'}
-  - value: 1.0
-    errors:
-    - {symerror: 5e-050, label: 'stat'}
-    - {symerror: 4e-050, label: 'sys'}
-  - value: 1.0
-    errors:
-    - {symerror: 4e-050, label: 'stat'}
-    - {symerror: 3.3e-050, label: 'sys'}
-  - value: 1.0
-    errors:
-    - {symerror: 4e-050, label: 'stat'}
-    - {symerror: 4e-050, label: 'sys'}
-  - value: 1.0
-    errors:
-    - {symerror: 4e-050, label: 'stat'}
-    - {symerror: 8e-050, label: 'sys'}
-  - value: 1.0
-    errors:
-    - {symerror: 4e-050, label: 'stat'}
-    - {symerror: 5e-050, label: 'sys'}
-  - value: 1.0
-    errors:
-    - {symerror: 4e-050, label: 'stat'}
-    - {symerror: 9e-050, label: 'sys'}
-  - value: 1.0
-    errors:
-    - {symerror: 4e-050, label: 'stat'}
-    - {symerror: 5e-050, label: 'sys'}
-  - value: 1.0
-    errors:
-    - {symerror: 5e-050, label: 'stat'}
-    - {symerror: 8e-050, label: 'sys'}
-  - value: 1.0
-    errors:
-    - {symerror: 6e-050, label: 'stat'}
-    - {symerror: 4e-050, label: 'sys'}
-  - value: 1.0
-    errors:
-    - {symerror: 8e-050, label: 'stat'}
-    - {symerror: 0.00017, label: 'sys'}
-- header: {name: '$Trig x Assoc pT = 1-2 x 1-2 GeV/c$'}
-  qualifiers:
-  - {name: '$p_T$', value: '0-10%'}
-  values:
-  - value: 1.0
-    errors:
-    - {symerror: 0.00014, label: 'stat'}
-    - {symerror: 0.00023, label: 'sys'}
-  - value: 1.0
-    errors:
-    - {symerror: 0.00010, label: 'stat'}
-    - {symerror: 0.00014, label: 'sys'}
-  - value: 1.0
-    errors:
-    - {symerror: 8e-050, label: 'stat'}
-    - {symerror: 9e-050, label: 'sys'}
-  - value: 1.0
-    errors:
-    - {symerror: 7e-050, label: 'stat'}
-    - {symerror: 4e-050, label: 'sys'}
-  - value: 1.0
-    errors:
-    - {symerror: 6e-050, label: 'stat'}
-    - {symerror: 5e-050, label: 'sys'}
-  - value: 1.0
-    errors:
-    - {symerror: 6e-050, label: 'stat'}
-    - {symerror: 6e-050, label: 'sys'}
-  - value: 1.0
-    errors:
-    - {symerror: 6e-050, label: 'stat'}
-    - {symerror: 6e-050, label: 'sys'}
-  - value: 1.0
-    errors:
-    - {symerror: 6e-050, label: 'stat'}
-    - {symerror: 5e-050, label: 'sys'}
-  - value: 1.0
-    errors:
-    - {symerror: 7e-050, label: 'stat'}
-    - {symerror: 4e-050, label: 'sys'}
-  - value: 1.0
-    errors:
-    - {symerror: 8e-050, label: 'stat'}
-    - {symerror: 9e-050, label: 'sys'}
-  - value: 1.0
-    errors:
-    - {symerror: 0.00010, label: 'stat'}
-    - {symerror: 0.00014, label: 'sys'}
-  - value: 1.0
-    errors:
-    - {symerror: 0.00014, label: 'stat'}
-    - {symerror: 0.00023, label: 'sys'}
-  - value: 1.0
-    errors:
-    - {symerror: 0.00013, label: 'stat'}
-    - {symerror: 0.00016, label: 'sys'}
-  - value: 1.0
-    errors:
-    - {symerror: 0.00010, label: 'stat'}
-    - {symerror: 7e-050, label: 'sys'}
-  - value: 1.0
-    errors:
-    - {symerror: 8e-050, label: 'stat'}
-    - {symerror: 1.9e-050, label: 'sys'}
-  - value: 1.0
-    errors:
-    - {symerror: 7e-050, label: 'stat'}
-    - {symerror: 0.00010, label: 'sys'}
-  - value: 1.0
-    errors:
-    - {symerror: 6e-050, label: 'stat'}
-    - {symerror: 4e-050, label: 'sys'}
-  - value: 1.0
-    errors:
-    - {symerror: 6e-050, label: 'stat'}
-    - {symerror: 0.00019, label: 'sys'}
-  - value: 1.0
-    errors:
-    - {symerror: 6e-050, label: 'stat'}
-    - {symerror: 0.00019, label: 'sys'}
-  - value: 1.0
-    errors:
-    - {symerror: 6e-050, label: 'stat'}
-    - {symerror: 4e-050, label: 'sys'}
-  - value: 1.0
-    errors:
-    - {symerror: 7e-050, label: 'stat'}
-    - {symerror: 0.00010, label: 'sys'}
-  - value: 1.0
-    errors:
-    - {symerror: 8e-050, label: 'stat'}
-    - {symerror: 1.9e-050, label: 'sys'}
-  - value: 1.0
-    errors:
-    - {symerror: 0.00010, label: 'stat'}
-    - {symerror: 7e-050, label: 'sys'}
-  - value: 1.0
-    errors:
-    - {symerror: 0.00013, label: 'stat'}
-    - {symerror: 0.00016, label: 'sys'}
-- header: {name: '$Trig x Assoc pT = 2-4 x 0.5-1 GeV/c$'}
-  qualifiers:
-  - {name: '$p_T$', value: '0-10%'}
-  values:
-  - value: 1.0
-    errors:
-    - {symerror: 0.00029, label: 'stat'}
-    - {symerror: 0.0006, label: 'sys'}
-  - value: 1.0
-    errors:
-    - {symerror: 0.00021, label: 'stat'}
-    - {symerror: 0.00013, label: 'sys'}
-  - value: 1.0
-    errors:
-    - {symerror: 0.00016, label: 'stat'}
-    - {symerror: 0.00020, label: 'sys'}
-  - value: 1.0
-    errors:
-    - {symerror: 0.00014, label: 'stat'}
-    - {symerror: 0.00013, label: 'sys'}
-  - value: 1.0
-    errors:
-    - {symerror: 0.00013, label: 'stat'}
-    - {symerror: 4e-050, label: 'sys'}
-  - value: 1.0
-    errors:
-    - {symerror: 0.00012, label: 'stat'}
-    - {symerror: 0.00023, label: 'sys'}
-  - value: 1.0
-    errors:
-    - {symerror: 0.00012, label: 'stat'}
-    - {symerror: 0.00010, label: 'sys'}
-  - value: 1.0
-    errors:
-    - {symerror: 0.00012, label: 'stat'}
-    - {symerror: 0.00019, label: 'sys'}
-  - value: 1.0
-    errors:
-    - {symerror: 0.00014, label: 'stat'}
-    - {symerror: 0.00010, label: 'sys'}
-  - value: 1.0
-    errors:
-    - {symerror: 0.00016, label: 'stat'}
-    - {symerror: 0.00017, label: 'sys'}
-  - value: 1.0
-    errors:
-    - {symerror: 0.00021, label: 'stat'}
-    - {symerror: 0.0004, label: 'sys'}
-  - value: 1.0
-    errors:
-    - {symerror: 0.00030, label: 'stat'}
-    - {symerror: 0.00031, label: 'sys'}
-  - value: 1.0
-    errors:
-    - {symerror: 0.00028, label: 'stat'}
-    - {symerror: 0.0005, label: 'sys'}
-  - value: 1.0
-    errors:
-    - {symerror: 0.00021, label: 'stat'}
-    - {symerror: 0.00026, label: 'sys'}
-  - value: 1.0
-    errors:
-    - {symerror: 0.00017, label: 'stat'}
-    - {symerror: 0.00016, label: 'sys'}
-  - value: 1.0
-    errors:
+    - {symerror: 0.00009, label: 'corr'}
     - {symerror: 0.00015, label: 'stat'}
+    - {symerror: 0.00015, label: 'sys'}
+  - value: 0.995868
+    errors:
+    - {symerror: 0.00008, label: 'corr'}
+    - {symerror: 0.00027, label: 'stat'}
+    - {symerror: 0.00027, label: 'sys'}
+  - value: 0.996914
+    errors:
+    - {symerror: 0.00006, label: 'corr'}
+    - {symerror: 4e-050, label: 'stat'}
+    - {symerror: 4e-050, label: 'sys'}
+  - value: 0.998034
+    errors:
+    - {symerror: 0.00005, label: 'corr'}
+    - {symerror: 4e-050, label: 'stat'}
+    - {symerror: 4e-050, label: 'sys'}
+  - value: 0.998847
+    errors:
+    - {symerror: 0.000044, label: 'corr'}
+    - {symerror: 3.3e-050, label: 'stat'}
+    - {symerror: 3.3e-050, label: 'sys'}
+  - value: 0.999525
+    errors:
+    - {symerror: 0.00004, label: 'corr'}
+    - {symerror: 4e-050, label: 'stat'}
+    - {symerror: 4e-050, label: 'sys'}
+  - value: 0.999861
+    errors:
+    - {symerror: 0.00004, label: 'corr'}
+    - {symerror: 8e-050, label: 'stat'}
+    - {symerror: 8e-050, label: 'sys'}
+  - value: 0.999872
+    errors:
+    - {symerror: 0.00004, label: 'corr'}
+    - {symerror: 5e-050, label: 'stat'}
+    - {symerror: 5e-050, label: 'sys'}
+  - value: 0.99955
+    errors:
+    - {symerror: 0.00004, label: 'corr'}
+    - {symerror: 9e-050, label: 'stat'}
+    - {symerror: 9e-050, label: 'sys'}
+  - value: 0.998874
+    errors:
+    - {symerror: 0.00004, label: 'corr'}
+    - {symerror: 5e-050, label: 'stat'}
+    - {symerror: 5e-050, label: 'sys'}
+  - value: 0.997921
+    errors:
+    - {symerror: 0.00005, label: 'corr'}
+    - {symerror: 8e-050, label: 'stat'}
+    - {symerror: 8e-050, label: 'sys'}
+  - value: 0.996863
+    errors:
+    - {symerror: 0.00006, label: 'corr'}
+    - {symerror: 4e-050, label: 'stat'}
+    - {symerror: 4e-050, label: 'sys'}
+  - value: 0.995776
+    errors:
+    - {symerror: 0.00008, label: 'corr'}
+    - {symerror: 0.00017, label: 'stat'}
+    - {symerror: 0.00017, label: 'sys'}
+- header: {name: '$Y$'}
+  qualifiers:
+  - {name: '$p_{T}^{trig}$', value: '1-2'}
+  - {name: '$p_{T}^{assoc}$', value: '1-2'}
+  - {name: 'centrality', value: '0-10%'}
+  values:
+  - value: 0.991773
+    errors:
+    - {symerror: 0.00014, label: 'corr'}
+    - {symerror: 0.00023, label: 'stat'}
+    - {symerror: 0.00023, label: 'sys'}
+  - value: 0.99135
+    errors:
+    - {symerror: 0.00010, label: 'corr'}
+    - {symerror: 0.00014, label: 'stat'}
+    - {symerror: 0.00014, label: 'sys'}
+  - value: 0.992896
+    errors:
+    - {symerror: 0.00008, label: 'corr'}
+    - {symerror: 9e-050, label: 'stat'}
+    - {symerror: 9e-050, label: 'sys'}
+  - value: 0.997623
+    errors:
+    - {symerror: 0.00007, label: 'corr'}
+    - {symerror: 4e-050, label: 'stat'}
+    - {symerror: 4e-050, label: 'sys'}
+  - value: 1.00418
+    errors:
+    - {symerror: 0.00006, label: 'corr'}
+    - {symerror: 5e-050, label: 'stat'}
+    - {symerror: 5e-050, label: 'sys'}
+  - value: 1.01075
+    errors:
+    - {symerror: 0.00006, label: 'corr'}
+    - {symerror: 6e-050, label: 'stat'}
+    - {symerror: 6e-050, label: 'sys'}
+  - value: 1.01075
+    errors:
+    - {symerror: 0.00006, label: 'corr'}
+    - {symerror: 6e-050, label: 'stat'}
+    - {symerror: 6e-050, label: 'sys'}
+  - value: 1.00418
+    errors:
+    - {symerror: 0.00006, label: 'corr'}
+    - {symerror: 5e-050, label: 'stat'}
+    - {symerror: 5e-050, label: 'sys'}
+  - value: 0.997623
+    errors:
+    - {symerror: 0.00007, label: 'corr'}
+    - {symerror: 4e-050, label: 'stat'}
+    - {symerror: 4e-050, label: 'sys'}
+  - value: 0.992896
+    errors:
+    - {symerror: 0.00008, label: 'corr'}
+    - {symerror: 9e-050, label: 'stat'}
+    - {symerror: 9e-050, label: 'sys'}
+  - value: 0.99135
+    errors:
+    - {symerror: 0.00010, label: 'corr'}
+    - {symerror: 0.00014, label: 'stat'}
+    - {symerror: 0.00014, label: 'sys'}
+  - value: 0.991773
+    errors:
+    - {symerror: 0.00014, label: 'corr'}
+    - {symerror: 0.00023, label: 'stat'}
+    - {symerror: 0.00023, label: 'sys'}
+  - value: 0.99368
+    errors:
+    - {symerror: 0.00013, label: 'corr'}
+    - {symerror: 0.00016, label: 'stat'}
+    - {symerror: 0.00016, label: 'sys'}
+  - value: 0.995733
+    errors:
+    - {symerror: 0.00010, label: 'corr'}
+    - {symerror: 7e-050, label: 'stat'}
+    - {symerror: 7e-050, label: 'sys'}
+  - value: 0.997494
+    errors:
+    - {symerror: 0.000082, label: 'corr'}
+    - {symerror: 1.9e-050, label: 'stat'}
+    - {symerror: 1.9e-050, label: 'sys'}
+  - value: 0.998681
+    errors:
+    - {symerror: 0.00007, label: 'corr'}
+    - {symerror: 0.00010, label: 'stat'}
+    - {symerror: 0.00010, label: 'sys'}
+  - value: 0.999502
+    errors:
+    - {symerror: 0.00006, label: 'corr'}
+    - {symerror: 4e-050, label: 'stat'}
+    - {symerror: 4e-050, label: 'sys'}
+  - value: 1.00004
+    errors:
+    - {symerror: 0.00006, label: 'corr'}
+    - {symerror: 0.00019, label: 'stat'}
+    - {symerror: 0.00019, label: 'sys'}
+  - value: 1.00004
+    errors:
+    - {symerror: 0.00006, label: 'corr'}
+    - {symerror: 0.00019, label: 'stat'}
+    - {symerror: 0.00019, label: 'sys'}
+  - value: 0.999502
+    errors:
+    - {symerror: 0.00006, label: 'corr'}
+    - {symerror: 4e-050, label: 'stat'}
+    - {symerror: 4e-050, label: 'sys'}
+  - value: 0.998681
+    errors:
+    - {symerror: 0.00007, label: 'corr'}
+    - {symerror: 0.00010, label: 'stat'}
+    - {symerror: 0.00010, label: 'sys'}
+  - value: 0.997494
+    errors:
+    - {symerror: 0.000082, label: 'corr'}
+    - {symerror: 1.9e-050, label: 'stat'}
+    - {symerror: 1.9e-050, label: 'sys'}
+  - value: 0.995733
+    errors:
+    - {symerror: 0.00010, label: 'corr'}
+    - {symerror: 7e-050, label: 'stat'}
+    - {symerror: 7e-050, label: 'sys'}
+  - value: 0.99368
+    errors:
+    - {symerror: 0.00013, label: 'corr'}
+    - {symerror: 0.00016, label: 'stat'}
+    - {symerror: 0.00016, label: 'sys'}
+- header: {name: '$Y$'}
+  qualifiers:
+  - {name: '$p_{T}^{trig}$', value: '2-4'}
+  - {name: '$p_{T}^{assoc}$', value: '0.5-1'}
+  - {name: 'centrality', value: '0-10%'}
+  values:
+  - value: 0.992452
+    errors:
+    - {symerror: 0.0003, label: 'corr'}
+    - {symerror: 0.0006, label: 'stat'}
+    - {symerror: 0.0006, label: 'sys'}
+  - value: 0.992244
+    errors:
+    - {symerror: 0.00021, label: 'corr'}
+    - {symerror: 0.00013, label: 'stat'}
+    - {symerror: 0.00013, label: 'sys'}
+  - value: 0.993462
+    errors:
+    - {symerror: 0.00016, label: 'corr'}
+    - {symerror: 0.00020, label: 'stat'}
+    - {symerror: 0.00020, label: 'sys'}
+  - value: 0.997076
+    errors:
+    - {symerror: 0.00014, label: 'corr'}
+    - {symerror: 0.00013, label: 'stat'}
+    - {symerror: 0.00013, label: 'sys'}
+  - value: 1.00328
+    errors:
+    - {symerror: 0.00013, label: 'corr'}
+    - {symerror: 4e-050, label: 'stat'}
+    - {symerror: 4e-050, label: 'sys'}
+  - value: 1.0098
+    errors:
+    - {symerror: 0.00012, label: 'corr'}
+    - {symerror: 0.00023, label: 'stat'}
+    - {symerror: 0.00023, label: 'sys'}
+  - value: 1.00971
+    errors:
+    - {symerror: 0.00012, label: 'corr'}
+    - {symerror: 0.00010, label: 'stat'}
+    - {symerror: 0.00010, label: 'sys'}
+  - value: 1.00305
+    errors:
+    - {symerror: 0.00012, label: 'corr'}
+    - {symerror: 0.00019, label: 'stat'}
+    - {symerror: 0.00019, label: 'sys'}
+  - value: 0.99704
+    errors:
+    - {symerror: 0.00014, label: 'corr'}
+    - {symerror: 0.00010, label: 'stat'}
+    - {symerror: 0.00010, label: 'sys'}
+  - value: 0.993493
+    errors:
+    - {symerror: 0.00016, label: 'corr'}
+    - {symerror: 0.00017, label: 'stat'}
+    - {symerror: 0.00017, label: 'sys'}
+  - value: 0.992105
+    errors:
+    - {symerror: 0.0002, label: 'corr'}
+    - {symerror: 0.0004, label: 'stat'}
+    - {symerror: 0.0004, label: 'sys'}
+  - value: 0.992701
+    errors:
+    - {symerror: 0.00030, label: 'corr'}
+    - {symerror: 0.00031, label: 'stat'}
+    - {symerror: 0.00031, label: 'sys'}
+  - value: 0.994591
+    errors:
+    - {symerror: 0.0003, label: 'corr'}
+    - {symerror: 0.0005, label: 'stat'}
+    - {symerror: 0.0005, label: 'sys'}
+  - value: 0.99642
+    errors:
+    - {symerror: 0.00021, label: 'corr'}
+    - {symerror: 0.00026, label: 'stat'}
+    - {symerror: 0.00026, label: 'sys'}
+  - value: 0.997829
+    errors:
+    - {symerror: 0.00017, label: 'corr'}
+    - {symerror: 0.00016, label: 'stat'}
+    - {symerror: 0.00016, label: 'sys'}
+  - value: 0.999273
+    errors:
+    - {symerror: 0.000146, label: 'corr'}
+    - {symerror: 2.4e-050, label: 'stat'}
     - {symerror: 2.4e-050, label: 'sys'}
-  - value: 1.0
+  - value: 1.00001
     errors:
-    - {symerror: 0.00013, label: 'stat'}
+    - {symerror: 0.00013, label: 'corr'}
+    - {symerror: 0.00014, label: 'stat'}
     - {symerror: 0.00014, label: 'sys'}
-  - value: 1.0
+  - value: 1.00057
     errors:
-    - {symerror: 0.00013, label: 'stat'}
+    - {symerror: 0.00013, label: 'corr'}
+    - {symerror: 0.00023, label: 'stat'}
     - {symerror: 0.00023, label: 'sys'}
-  - value: 1.0
+  - value: 1.00039
     errors:
-    - {symerror: 0.00013, label: 'stat'}
+    - {symerror: 0.00013, label: 'corr'}
+    - {symerror: 7e-050, label: 'stat'}
     - {symerror: 7e-050, label: 'sys'}
-  - value: 1.0
+  - value: 1.00027
     errors:
-    - {symerror: 0.00013, label: 'stat'}
-    - {symerror: 0.00015, label: 'sys'}
-  - value: 1.0
-    errors:
+    - {symerror: 0.00013, label: 'corr'}
     - {symerror: 0.00015, label: 'stat'}
-    - {symerror: 0.00021, label: 'sys'}
-  - value: 1.0
+    - {symerror: 0.00015, label: 'sys'}
+  - value: 0.999166
     errors:
-    - {symerror: 0.00017, label: 'stat'}
-    - {symerror: 0.00011, label: 'sys'}
-  - value: 1.0
-    errors:
+    - {symerror: 0.00015, label: 'corr'}
     - {symerror: 0.00021, label: 'stat'}
-    - {symerror: 0.00020, label: 'sys'}
-  - value: 1.0
+    - {symerror: 0.00021, label: 'sys'}
+  - value: 0.997875
     errors:
-    - {symerror: 0.00027, label: 'stat'}
+    - {symerror: 0.00017, label: 'corr'}
+    - {symerror: 0.00011, label: 'stat'}
+    - {symerror: 0.00011, label: 'sys'}
+  - value: 0.996353
+    errors:
+    - {symerror: 0.00021, label: 'corr'}
+    - {symerror: 0.00020, label: 'stat'}
+    - {symerror: 0.00020, label: 'sys'}
+  - value: 0.994018
+    errors:
+    - {symerror: 0.000273, label: 'corr'}
+    - {symerror: 1.9e-050, label: 'stat'}
     - {symerror: 1.9e-050, label: 'sys'}
-- header: {name: '$Trig x Assoc pT = 2-4 x 1-2 GeV/c$'}
+- header: {name: '$Y$'}
   qualifiers:
-  - {name: '$p_T$', value: '0-10%'}
+  - {name: '$p_{T}^{trig}$', value: '2-4'}
+  - {name: '$p_{T}^{assoc}$', value: '1-2'}
+  - {name: 'centrality', value: '0-10%'}
   values:
-  - value: 1.0
+  - value: 0.987762
     errors:
-    - {symerror: 0.0005, label: 'stat'}
-    - {symerror: 0.00024, label: 'sys'}
-  - value: 1.0
-    errors:
-    - {symerror: 0.00033, label: 'stat'}
-    - {symerror: 0.0005, label: 'sys'}
-  - value: 1.0
-    errors:
-    - {symerror: 0.00026, label: 'stat'}
-    - {symerror: 0.0004, label: 'sys'}
-  - value: 1.0
-    errors:
-    - {symerror: 0.00022, label: 'stat'}
-    - {symerror: 0.00010, label: 'sys'}
-  - value: 1.0
-    errors:
-    - {symerror: 0.00020, label: 'stat'}
-    - {symerror: 0.00016, label: 'sys'}
-  - value: 1.0
-    errors:
-    - {symerror: 0.00019, label: 'stat'}
-    - {symerror: 0.00012, label: 'sys'}
-  - value: 1.0
-    errors:
-    - {symerror: 0.00019, label: 'stat'}
-    - {symerror: 0.00016, label: 'sys'}
-  - value: 1.0
-    errors:
-    - {symerror: 0.00020, label: 'stat'}
-    - {symerror: 0.00013, label: 'sys'}
-  - value: 1.0
-    errors:
-    - {symerror: 0.00022, label: 'stat'}
-    - {symerror: 5e-050, label: 'sys'}
-  - value: 1.0
-    errors:
-    - {symerror: 0.00025, label: 'stat'}
-    - {symerror: 0.00024, label: 'sys'}
-  - value: 1.0
-    errors:
-    - {symerror: 0.00033, label: 'stat'}
-    - {symerror: 0.0004, label: 'sys'}
-  - value: 1.0
-    errors:
-    - {symerror: 0.0005, label: 'stat'}
-    - {symerror: 0.0004, label: 'sys'}
-  - value: 1.0
-    errors:
-    - {symerror: 0.0004, label: 'stat'}
-    - {symerror: 0.0008, label: 'sys'}
-  - value: 1.0
-    errors:
-    - {symerror: 0.00033, label: 'stat'}
-    - {symerror: 0.0004, label: 'sys'}
-  - value: 1.0
-    errors:
-    - {symerror: 0.00027, label: 'stat'}
-    - {symerror: 0.00015, label: 'sys'}
-  - value: 1.0
-    errors:
-    - {symerror: 0.00023, label: 'stat'}
-    - {symerror: 0.0004, label: 'sys'}
-  - value: 1.0
-    errors:
-    - {symerror: 0.00021, label: 'stat'}
-    - {symerror: 0.00023, label: 'sys'}
-  - value: 1.0
-    errors:
-    - {symerror: 0.00020, label: 'stat'}
-    - {symerror: 0.00034, label: 'sys'}
-  - value: 1.0
-    errors:
-    - {symerror: 0.00020, label: 'stat'}
-    - {symerror: 0.00035, label: 'sys'}
-  - value: 1.0
-    errors:
-    - {symerror: 0.00021, label: 'stat'}
-    - {symerror: 0.0007, label: 'sys'}
-  - value: 1.0
-    errors:
-    - {symerror: 0.00023, label: 'stat'}
-    - {symerror: 0.00016, label: 'sys'}
-  - value: 1.0
-    errors:
-    - {symerror: 0.00027, label: 'stat'}
-    - {symerror: 0.00028, label: 'sys'}
-  - value: 1.0
-    errors:
-    - {symerror: 0.00033, label: 'stat'}
-    - {symerror: 0.0004, label: 'sys'}
-  - value: 1.0
-    errors:
-    - {symerror: 0.0004, label: 'stat'}
-    - {symerror: 0.00024, label: 'sys'}
-- header: {name: '$Trig x Assoc pT = 2-4 x 2-4 GeV/c$'}
-  qualifiers:
-  - {name: '$p_T$', value: '0-10%'}
-  values:
-  - value: 1.0
-    errors:
-    - {symerror: 0.0015, label: 'stat'}
-    - {symerror: 0.0005, label: 'sys'}
-  - value: 1.0
-    errors:
-    - {symerror: 0.0011, label: 'stat'}
-    - {symerror: 0.0015, label: 'sys'}
-  - value: 1.0
-    errors:
-    - {symerror: 0.0008, label: 'stat'}
-    - {symerror: 0.0006, label: 'sys'}
-  - value: 1.0
-    errors:
-    - {symerror: 0.0007, label: 'stat'}
-    - {symerror: 0.0006, label: 'sys'}
-  - value: 1.0
-    errors:
-    - {symerror: 0.0006, label: 'stat'}
-    - {symerror: 0.0007, label: 'sys'}
-  - value: 1.0
-    errors:
-    - {symerror: 0.0006, label: 'stat'}
-    - {symerror: 0.0005, label: 'sys'}
-  - value: 1.0
-    errors:
-    - {symerror: 0.0006, label: 'stat'}
-    - {symerror: 0.0005, label: 'sys'}
-  - value: 1.0
-    errors:
-    - {symerror: 0.0006, label: 'stat'}
-    - {symerror: 0.0007, label: 'sys'}
-  - value: 1.0
-    errors:
-    - {symerror: 0.0007, label: 'stat'}
-    - {symerror: 0.0006, label: 'sys'}
-  - value: 1.0
-    errors:
-    - {symerror: 0.0008, label: 'stat'}
-    - {symerror: 0.0006, label: 'sys'}
-  - value: 1.0
-    errors:
-    - {symerror: 0.0011, label: 'stat'}
-    - {symerror: 0.0015, label: 'sys'}
-  - value: 1.0
-    errors:
-    - {symerror: 0.0015, label: 'stat'}
-    - {symerror: 0.0005, label: 'sys'}
-  - value: 1.0
-    errors:
-    - {symerror: 0.0015, label: 'stat'}
-    - {symerror: 0.0008, label: 'sys'}
-  - value: 1.0
-    errors:
-    - {symerror: 0.0011, label: 'stat'}
-    - {symerror: 0.0013, label: 'sys'}
-  - value: 1.0
-    errors:
-    - {symerror: 0.0009, label: 'stat'}
-    - {symerror: 0.0006, label: 'sys'}
-  - value: 1.0
-    errors:
-    - {symerror: 0.0007, label: 'stat'}
-    - {symerror: 0.0007, label: 'sys'}
-  - value: 1.0
-    errors:
-    - {symerror: 0.0007, label: 'stat'}
-    - {symerror: 5e-050, label: 'sys'}
-  - value: 1.0
-    errors:
-    - {symerror: 0.0006, label: 'stat'}
-    - {symerror: 0.0004, label: 'sys'}
-  - value: 1.0
-    errors:
-    - {symerror: 0.0006, label: 'stat'}
-    - {symerror: 0.0004, label: 'sys'}
-  - value: 1.0
-    errors:
-    - {symerror: 0.0007, label: 'stat'}
-    - {symerror: 5e-050, label: 'sys'}
-  - value: 1.0
-    errors:
-    - {symerror: 0.0007, label: 'stat'}
-    - {symerror: 0.0007, label: 'sys'}
-  - value: 1.0
-    errors:
-    - {symerror: 0.0009, label: 'stat'}
-    - {symerror: 0.0006, label: 'sys'}
-  - value: 1.0
-    errors:
-    - {symerror: 0.0011, label: 'stat'}
-    - {symerror: 0.0013, label: 'sys'}
-  - value: 1.0
-    errors:
-    - {symerror: 0.0015, label: 'stat'}
-    - {symerror: 0.0008, label: 'sys'}
-- header: {name: '$Trig x Assoc pT = 1-2 x 0.5-1 GeV/c$'}
-  qualifiers:
-  - {name: '$p_T$', value: '10-20%'}
-  values:
-  - value: 1.0
-    errors:
-    - {symerror: 0.00010, label: 'stat'}
-    - {symerror: 0.00033, label: 'sys'}
-  - value: 1.0
-    errors:
-    - {symerror: 7e-050, label: 'stat'}
-    - {symerror: 0.00020, label: 'sys'}
-  - value: 1.0
-    errors:
-    - {symerror: 6e-050, label: 'stat'}
-    - {symerror: 0.00018, label: 'sys'}
-  - value: 1.0
-    errors:
-    - {symerror: 5e-050, label: 'stat'}
-    - {symerror: 8e-050, label: 'sys'}
-  - value: 1.0
-    errors:
-    - {symerror: 4e-050, label: 'stat'}
-    - {symerror: 0.00014, label: 'sys'}
-  - value: 1.0
-    errors:
-    - {symerror: 4e-050, label: 'stat'}
-    - {symerror: 0.00016, label: 'sys'}
-  - value: 1.0
-    errors:
-    - {symerror: 4e-050, label: 'stat'}
-    - {symerror: 0.00012, label: 'sys'}
-  - value: 1.0
-    errors:
-    - {symerror: 4e-050, label: 'stat'}
-    - {symerror: 0.00013, label: 'sys'}
-  - value: 1.0
-    errors:
-    - {symerror: 5e-050, label: 'stat'}
-    - {symerror: 2.9e-050, label: 'sys'}
-  - value: 1.0
-    errors:
-    - {symerror: 6e-050, label: 'stat'}
-    - {symerror: 0.00018, label: 'sys'}
-  - value: 1.0
-    errors:
-    - {symerror: 7e-050, label: 'stat'}
-    - {symerror: 0.00026, label: 'sys'}
-  - value: 1.0
-    errors:
-    - {symerror: 0.00010, label: 'stat'}
-    - {symerror: 0.00027, label: 'sys'}
-  - value: 1.0
-    errors:
-    - {symerror: 0.00010, label: 'stat'}
-    - {symerror: 0.00022, label: 'sys'}
-  - value: 1.0
-    errors:
-    - {symerror: 7e-050, label: 'stat'}
-    - {symerror: 0.00017, label: 'sys'}
-  - value: 1.0
-    errors:
-    - {symerror: 6e-050, label: 'stat'}
-    - {symerror: 8e-050, label: 'sys'}
-  - value: 1.0
-    errors:
-    - {symerror: 5e-050, label: 'stat'}
-    - {symerror: 7e-060, label: 'sys'}
-  - value: 1.0
-    errors:
-    - {symerror: 5e-050, label: 'stat'}
-    - {symerror: 0.00011, label: 'sys'}
-  - value: 1.0
-    errors:
-    - {symerror: 4e-050, label: 'stat'}
-    - {symerror: 0.00018, label: 'sys'}
-  - value: 1.0
-    errors:
-    - {symerror: 4e-050, label: 'stat'}
-    - {symerror: 0.00017, label: 'sys'}
-  - value: 1.0
-    errors:
-    - {symerror: 5e-050, label: 'stat'}
-    - {symerror: 0.00010, label: 'sys'}
-  - value: 1.0
-    errors:
-    - {symerror: 5e-050, label: 'stat'}
-    - {symerror: 1.8e-050, label: 'sys'}
-  - value: 1.0
-    errors:
-    - {symerror: 6e-050, label: 'stat'}
-    - {symerror: 9e-050, label: 'sys'}
-  - value: 1.0
-    errors:
-    - {symerror: 7e-050, label: 'stat'}
-    - {symerror: 0.00018, label: 'sys'}
-  - value: 1.0
-    errors:
-    - {symerror: 9e-050, label: 'stat'}
-    - {symerror: 0.00024, label: 'sys'}
-- header: {name: '$Trig x Assoc pT = 1-2 x 1-2 GeV/c$'}
-  qualifiers:
-  - {name: '$p_T$', value: '10-20%'}
-  values:
-  - value: 1.0
-    errors:
-    - {symerror: 0.00016, label: 'stat'}
-    - {symerror: 0.00031, label: 'sys'}
-  - value: 1.0
-    errors:
-    - {symerror: 0.00011, label: 'stat'}
-    - {symerror: 0.00030, label: 'sys'}
-  - value: 1.0
-    errors:
-    - {symerror: 9e-050, label: 'stat'}
-    - {symerror: 0.00017, label: 'sys'}
-  - value: 1.0
-    errors:
-    - {symerror: 8e-050, label: 'stat'}
-    - {symerror: 8e-050, label: 'sys'}
-  - value: 1.0
-    errors:
-    - {symerror: 7e-050, label: 'stat'}
-    - {symerror: 0.00013, label: 'sys'}
-  - value: 1.0
-    errors:
-    - {symerror: 7e-050, label: 'stat'}
-    - {symerror: 8e-050, label: 'sys'}
-  - value: 1.0
-    errors:
-    - {symerror: 7e-050, label: 'stat'}
-    - {symerror: 8e-050, label: 'sys'}
-  - value: 1.0
-    errors:
-    - {symerror: 7e-050, label: 'stat'}
-    - {symerror: 0.00013, label: 'sys'}
-  - value: 1.0
-    errors:
-    - {symerror: 8e-050, label: 'stat'}
-    - {symerror: 8e-050, label: 'sys'}
-  - value: 1.0
-    errors:
-    - {symerror: 9e-050, label: 'stat'}
-    - {symerror: 0.00017, label: 'sys'}
-  - value: 1.0
-    errors:
-    - {symerror: 0.00011, label: 'stat'}
-    - {symerror: 0.00030, label: 'sys'}
-  - value: 1.0
-    errors:
-    - {symerror: 0.00016, label: 'stat'}
-    - {symerror: 0.00031, label: 'sys'}
-  - value: 1.0
-    errors:
-    - {symerror: 0.00015, label: 'stat'}
-    - {symerror: 0.0005, label: 'sys'}
-  - value: 1.0
-    errors:
-    - {symerror: 0.00011, label: 'stat'}
-    - {symerror: 0.00019, label: 'sys'}
-  - value: 1.0
-    errors:
-    - {symerror: 9e-050, label: 'stat'}
-    - {symerror: 7e-050, label: 'sys'}
-  - value: 1.0
-    errors:
-    - {symerror: 8e-050, label: 'stat'}
-    - {symerror: 0.00010, label: 'sys'}
-  - value: 1.0
-    errors:
-    - {symerror: 7e-050, label: 'stat'}
-    - {symerror: 0.00019, label: 'sys'}
-  - value: 1.0
-    errors:
-    - {symerror: 7e-050, label: 'stat'}
-    - {symerror: 0.00026, label: 'sys'}
-  - value: 1.0
-    errors:
-    - {symerror: 7e-050, label: 'stat'}
-    - {symerror: 0.00026, label: 'sys'}
-  - value: 1.0
-    errors:
-    - {symerror: 7e-050, label: 'stat'}
-    - {symerror: 0.00019, label: 'sys'}
-  - value: 1.0
-    errors:
-    - {symerror: 8e-050, label: 'stat'}
-    - {symerror: 0.00010, label: 'sys'}
-  - value: 1.0
-    errors:
-    - {symerror: 9e-050, label: 'stat'}
-    - {symerror: 7e-050, label: 'sys'}
-  - value: 1.0
-    errors:
-    - {symerror: 0.00011, label: 'stat'}
-    - {symerror: 0.00019, label: 'sys'}
-  - value: 1.0
-    errors:
-    - {symerror: 0.00015, label: 'stat'}
-    - {symerror: 0.0005, label: 'sys'}
-- header: {name: '$Trig x Assoc pT = 2-4 x 0.5-1 GeV/c$'}
-  qualifiers:
-  - {name: '$p_T$', value: '10-20%'}
-  values:
-  - value: 1.0
-    errors:
-    - {symerror: 0.00032, label: 'stat'}
-    - {symerror: 0.0011, label: 'sys'}
-  - value: 1.0
-    errors:
+    - {symerror: 0.00047, label: 'corr'}
     - {symerror: 0.00024, label: 'stat'}
-    - {symerror: 0.00035, label: 'sys'}
-  - value: 1.0
+    - {symerror: 0.00024, label: 'sys'}
+  - value: 0.985497
     errors:
-    - {symerror: 0.00018, label: 'stat'}
-    - {symerror: 0.00013, label: 'sys'}
-  - value: 1.0
-    errors:
-    - {symerror: 0.00016, label: 'stat'}
-    - {symerror: 0.00017, label: 'sys'}
-  - value: 1.0
-    errors:
-    - {symerror: 0.00014, label: 'stat'}
-    - {symerror: 0.00021, label: 'sys'}
-  - value: 1.0
-    errors:
-    - {symerror: 0.00014, label: 'stat'}
+    - {symerror: 0.0003, label: 'corr'}
+    - {symerror: 0.0005, label: 'stat'}
     - {symerror: 0.0005, label: 'sys'}
-  - value: 1.0
+  - value: 0.987776
     errors:
-    - {symerror: 0.00014, label: 'stat'}
-    - {symerror: 0.00032, label: 'sys'}
-  - value: 1.0
-    errors:
-    - {symerror: 0.00014, label: 'stat'}
-    - {symerror: 7e-050, label: 'sys'}
-  - value: 1.0
-    errors:
-    - {symerror: 0.00016, label: 'stat'}
-    - {symerror: 4e-050, label: 'sys'}
-  - value: 1.0
-    errors:
-    - {symerror: 0.00018, label: 'stat'}
+    - {symerror: 0.0003, label: 'corr'}
+    - {symerror: 0.0004, label: 'stat'}
     - {symerror: 0.0004, label: 'sys'}
-  - value: 1.0
+  - value: 0.995687
     errors:
+    - {symerror: 0.00022, label: 'corr'}
+    - {symerror: 0.00010, label: 'stat'}
+    - {symerror: 0.00010, label: 'sys'}
+  - value: 1.00716
+    errors:
+    - {symerror: 0.00020, label: 'corr'}
+    - {symerror: 0.00016, label: 'stat'}
+    - {symerror: 0.00016, label: 'sys'}
+  - value: 1.01943
+    errors:
+    - {symerror: 0.00019, label: 'corr'}
+    - {symerror: 0.00012, label: 'stat'}
+    - {symerror: 0.00012, label: 'sys'}
+  - value: 1.01944
+    errors:
+    - {symerror: 0.00019, label: 'corr'}
+    - {symerror: 0.00016, label: 'stat'}
+    - {symerror: 0.00016, label: 'sys'}
+  - value: 1.00765
+    errors:
+    - {symerror: 0.00020, label: 'corr'}
+    - {symerror: 0.00013, label: 'stat'}
+    - {symerror: 0.00013, label: 'sys'}
+  - value: 0.995381
+    errors:
+    - {symerror: 0.00022, label: 'corr'}
+    - {symerror: 5e-050, label: 'stat'}
+    - {symerror: 5e-050, label: 'sys'}
+  - value: 0.987523
+    errors:
+    - {symerror: 0.00025, label: 'corr'}
+    - {symerror: 0.00024, label: 'stat'}
+    - {symerror: 0.00024, label: 'sys'}
+  - value: 0.985173
+    errors:
+    - {symerror: 0.0003, label: 'corr'}
+    - {symerror: 0.0004, label: 'stat'}
+    - {symerror: 0.0004, label: 'sys'}
+  - value: 0.987752
+    errors:
+    - {symerror: 0.0005, label: 'corr'}
+    - {symerror: 0.0004, label: 'stat'}
+    - {symerror: 0.0004, label: 'sys'}
+  - value: 0.991332
+    errors:
+    - {symerror: 0.0004, label: 'corr'}
+    - {symerror: 0.0008, label: 'stat'}
+    - {symerror: 0.0008, label: 'sys'}
+  - value: 0.993696
+    errors:
+    - {symerror: 0.0003, label: 'corr'}
+    - {symerror: 0.0004, label: 'stat'}
+    - {symerror: 0.0004, label: 'sys'}
+  - value: 0.99621
+    errors:
+    - {symerror: 0.00027, label: 'corr'}
+    - {symerror: 0.00015, label: 'stat'}
+    - {symerror: 0.00015, label: 'sys'}
+  - value: 0.997667
+    errors:
+    - {symerror: 0.0002, label: 'corr'}
+    - {symerror: 0.0004, label: 'stat'}
+    - {symerror: 0.0004, label: 'sys'}
+  - value: 0.998192
+    errors:
+    - {symerror: 0.00021, label: 'corr'}
     - {symerror: 0.00023, label: 'stat'}
-    - {symerror: 0.0005, label: 'sys'}
-  - value: 1.0
+    - {symerror: 0.00023, label: 'sys'}
+  - value: 0.998447
     errors:
+    - {symerror: 0.00020, label: 'corr'}
     - {symerror: 0.00034, label: 'stat'}
-    - {symerror: 0.00029, label: 'sys'}
-  - value: 1.0
+    - {symerror: 0.00034, label: 'sys'}
+  - value: 0.998738
     errors:
-    - {symerror: 0.00031, label: 'stat'}
-    - {symerror: 0.00031, label: 'sys'}
-  - value: 1.0
+    - {symerror: 0.00020, label: 'corr'}
+    - {symerror: 0.00035, label: 'stat'}
+    - {symerror: 0.00035, label: 'sys'}
+  - value: 0.998111
     errors:
-    - {symerror: 0.00024, label: 'stat'}
-    - {symerror: 0.0005, label: 'sys'}
-  - value: 1.0
+    - {symerror: 0.0002, label: 'corr'}
+    - {symerror: 0.0007, label: 'stat'}
+    - {symerror: 0.0007, label: 'sys'}
+  - value: 0.997326
     errors:
-    - {symerror: 0.00019, label: 'stat'}
-    - {symerror: 0.00032, label: 'sys'}
-  - value: 1.0
-    errors:
+    - {symerror: 0.00023, label: 'corr'}
     - {symerror: 0.00016, label: 'stat'}
-    - {symerror: 0.00026, label: 'sys'}
-  - value: 1.0
+    - {symerror: 0.00016, label: 'sys'}
+  - value: 0.99569
     errors:
-    - {symerror: 0.00015, label: 'stat'}
-    - {symerror: 0.0004, label: 'sys'}
-  - value: 1.0
-    errors:
-    - {symerror: 0.00014, label: 'stat'}
-    - {symerror: 0.00012, label: 'sys'}
-  - value: 1.0
-    errors:
-    - {symerror: 0.00014, label: 'stat'}
-    - {symerror: 0.00011, label: 'sys'}
-  - value: 1.0
-    errors:
-    - {symerror: 0.00015, label: 'stat'}
-    - {symerror: 0.00025, label: 'sys'}
-  - value: 1.0
-    errors:
-    - {symerror: 0.00016, label: 'stat'}
-    - {symerror: 4e-050, label: 'sys'}
-  - value: 1.0
-    errors:
-    - {symerror: 0.00019, label: 'stat'}
-    - {symerror: 0.00022, label: 'sys'}
-  - value: 1.0
-    errors:
-    - {symerror: 0.00023, label: 'stat'}
-    - {symerror: 0.00028, label: 'sys'}
-  - value: 1.0
-    errors:
-    - {symerror: 0.00030, label: 'stat'}
-    - {symerror: 0.00023, label: 'sys'}
-- header: {name: '$Trig x Assoc pT = 2-4 x 1-2 GeV/c$'}
-  qualifiers:
-  - {name: '$p_T$', value: '10-20%'}
-  values:
-  - value: 1.0
-    errors:
-    - {symerror: 0.0005, label: 'stat'}
-    - {symerror: 0.0009, label: 'sys'}
-  - value: 1.0
-    errors:
-    - {symerror: 0.0004, label: 'stat'}
-    - {symerror: 0.00032, label: 'sys'}
-  - value: 1.0
-    errors:
+    - {symerror: 0.00027, label: 'corr'}
     - {symerror: 0.00028, label: 'stat'}
-    - {symerror: 0.00026, label: 'sys'}
-  - value: 1.0
+    - {symerror: 0.00028, label: 'sys'}
+  - value: 0.994418
     errors:
-    - {symerror: 0.00025, label: 'stat'}
-    - {symerror: 2.6e-050, label: 'sys'}
-  - value: 1.0
-    errors:
-    - {symerror: 0.00022, label: 'stat'}
-    - {symerror: 0.00013, label: 'sys'}
-  - value: 1.0
-    errors:
-    - {symerror: 0.00021, label: 'stat'}
-    - {symerror: 0.00014, label: 'sys'}
-  - value: 1.0
-    errors:
-    - {symerror: 0.00021, label: 'stat'}
+    - {symerror: 0.0003, label: 'corr'}
+    - {symerror: 0.0004, label: 'stat'}
     - {symerror: 0.0004, label: 'sys'}
-  - value: 1.0
+  - value: 0.991056
     errors:
-    - {symerror: 0.00022, label: 'stat'}
+    - {symerror: 0.00044, label: 'corr'}
+    - {symerror: 0.00024, label: 'stat'}
     - {symerror: 0.00024, label: 'sys'}
-  - value: 1.0
-    errors:
-    - {symerror: 0.00025, label: 'stat'}
-    - {symerror: 0.00010, label: 'sys'}
-  - value: 1.0
-    errors:
-    - {symerror: 0.00028, label: 'stat'}
-    - {symerror: 5e-050, label: 'sys'}
-  - value: 1.0
-    errors:
-    - {symerror: 0.0004, label: 'stat'}
-    - {symerror: 0.00028, label: 'sys'}
-  - value: 1.0
-    errors:
-    - {symerror: 0.0005, label: 'stat'}
-    - {symerror: 6e-050, label: 'sys'}
-  - value: 1.0
-    errors:
-    - {symerror: 0.0005, label: 'stat'}
-    - {symerror: 0.0011, label: 'sys'}
-  - value: 1.0
-    errors:
-    - {symerror: 0.0004, label: 'stat'}
-    - {symerror: 0.00014, label: 'sys'}
-  - value: 1.0
-    errors:
-    - {symerror: 0.00030, label: 'stat'}
-    - {symerror: 0.00019, label: 'sys'}
-  - value: 1.0
-    errors:
-    - {symerror: 0.00025, label: 'stat'}
-    - {symerror: 0.00020, label: 'sys'}
-  - value: 1.0
-    errors:
-    - {symerror: 0.00023, label: 'stat'}
-    - {symerror: 0.00032, label: 'sys'}
-  - value: 1.0
-    errors:
-    - {symerror: 0.00022, label: 'stat'}
-    - {symerror: 0.00035, label: 'sys'}
-  - value: 1.0
-    errors:
-    - {symerror: 0.00022, label: 'stat'}
-    - {symerror: 0.0004, label: 'sys'}
-  - value: 1.0
-    errors:
-    - {symerror: 0.00023, label: 'stat'}
-    - {symerror: 0.00011, label: 'sys'}
-  - value: 1.0
-    errors:
-    - {symerror: 0.00025, label: 'stat'}
-    - {symerror: 0.00032, label: 'sys'}
-  - value: 1.0
-    errors:
-    - {symerror: 0.00030, label: 'stat'}
-    - {symerror: 0.00022, label: 'sys'}
-  - value: 1.0
-    errors:
-    - {symerror: 0.0004, label: 'stat'}
-    - {symerror: 0.0004, label: 'sys'}
-  - value: 1.0
-    errors:
-    - {symerror: 0.0005, label: 'stat'}
-    - {symerror: 0.00023, label: 'sys'}
-- header: {name: '$Trig x Assoc pT = 2-4 x 2-4 GeV/c$'}
+- header: {name: '$Y$'}
   qualifiers:
-  - {name: '$p_T$', value: '10-20%'}
+  - {name: '$p_{T}^{trig}$', value: '2-4'}
+  - {name: '$p_{T}^{assoc}$', value: '2-4'}
+  - {name: 'centrality', value: '0-10%'}
   values:
-  - value: 0.9
+  - value: 0.978838
     errors:
-    - {symerror: 0.0016, label: 'stat'}
-    - {symerror: 0.0010, label: 'sys'}
-  - value: 0.9
-    errors:
-    - {symerror: 0.0012, label: 'stat'}
-    - {symerror: 0.0009, label: 'sys'}
-  - value: 1.0
-    errors:
-    - {symerror: 0.0009, label: 'stat'}
-    - {symerror: 0.00016, label: 'sys'}
-  - value: 1.0
-    errors:
-    - {symerror: 0.0008, label: 'stat'}
-    - {symerror: 0.0007, label: 'sys'}
-  - value: 1.0
-    errors:
-    - {symerror: 0.0007, label: 'stat'}
-    - {symerror: 0.00017, label: 'sys'}
-  - value: 1.1
-    errors:
-    - {symerror: 0.0007, label: 'stat'}
-    - {symerror: 0.0005, label: 'sys'}
-  - value: 1.1
-    errors:
-    - {symerror: 0.0007, label: 'stat'}
-    - {symerror: 0.0005, label: 'sys'}
-  - value: 1.0
-    errors:
-    - {symerror: 0.0007, label: 'stat'}
-    - {symerror: 0.00017, label: 'sys'}
-  - value: 1.0
-    errors:
-    - {symerror: 0.0008, label: 'stat'}
-    - {symerror: 0.0007, label: 'sys'}
-  - value: 1.0
-    errors:
-    - {symerror: 0.0009, label: 'stat'}
-    - {symerror: 0.00016, label: 'sys'}
-  - value: 0.9
-    errors:
-    - {symerror: 0.0012, label: 'stat'}
-    - {symerror: 0.0009, label: 'sys'}
-  - value: 0.9
-    errors:
-    - {symerror: 0.0016, label: 'stat'}
-    - {symerror: 0.0010, label: 'sys'}
-  - value: 1.0
-    errors:
-    - {symerror: 0.0016, label: 'stat'}
-    - {symerror: 0.0012, label: 'sys'}
-  - value: 1.0
-    errors:
-    - {symerror: 0.0012, label: 'stat'}
-    - {symerror: 0.0007, label: 'sys'}
-  - value: 1.0
-    errors:
-    - {symerror: 0.0009, label: 'stat'}
-    - {symerror: 0.0013, label: 'sys'}
-  - value: 1.0
-    errors:
-    - {symerror: 0.0008, label: 'stat'}
-    - {symerror: 0.00019, label: 'sys'}
-  - value: 1.0
-    errors:
-    - {symerror: 0.0007, label: 'stat'}
-    - {symerror: 0.0004, label: 'sys'}
-  - value: 1.0
-    errors:
-    - {symerror: 0.0007, label: 'stat'}
-    - {symerror: 0.00028, label: 'sys'}
-  - value: 1.0
-    errors:
-    - {symerror: 0.0007, label: 'stat'}
-    - {symerror: 0.00028, label: 'sys'}
-  - value: 1.0
-    errors:
-    - {symerror: 0.0007, label: 'stat'}
-    - {symerror: 0.0004, label: 'sys'}
-  - value: 1.0
-    errors:
-    - {symerror: 0.0008, label: 'stat'}
-    - {symerror: 0.00019, label: 'sys'}
-  - value: 1.0
-    errors:
-    - {symerror: 0.0009, label: 'stat'}
-    - {symerror: 0.0013, label: 'sys'}
-  - value: 1.0
-    errors:
-    - {symerror: 0.0012, label: 'stat'}
-    - {symerror: 0.0007, label: 'sys'}
-  - value: 1.0
-    errors:
-    - {symerror: 0.0016, label: 'stat'}
-    - {symerror: 0.0012, label: 'sys'}
-- header: {name: '$Trig x Assoc pT = 1-2 x 0.5-1 GeV/c$'}
-  qualifiers:
-  - {name: '$p_T$', value: '20-30%'}
-  values:
-  - value: 1.0
-    errors:
-    - {symerror: 0.00013, label: 'stat'}
-    - {symerror: 0.0005, label: 'sys'}
-  - value: 1.0
-    errors:
-    - {symerror: 0.00010, label: 'stat'}
-    - {symerror: 0.0004, label: 'sys'}
-  - value: 1.0
-    errors:
-    - {symerror: 7e-050, label: 'stat'}
-    - {symerror: 0.00016, label: 'sys'}
-  - value: 1.0
-    errors:
-    - {symerror: 7e-050, label: 'stat'}
-    - {symerror: 6e-050, label: 'sys'}
-  - value: 1.0
-    errors:
-    - {symerror: 6e-050, label: 'stat'}
-    - {symerror: 0.00020, label: 'sys'}
-  - value: 1.0
-    errors:
-    - {symerror: 6e-050, label: 'stat'}
-    - {symerror: 0.00027, label: 'sys'}
-  - value: 1.0
-    errors:
-    - {symerror: 6e-050, label: 'stat'}
-    - {symerror: 0.00020, label: 'sys'}
-  - value: 1.0
-    errors:
-    - {symerror: 6e-050, label: 'stat'}
-    - {symerror: 0.00021, label: 'sys'}
-  - value: 1.0
-    errors:
-    - {symerror: 6e-050, label: 'stat'}
-    - {symerror: 6e-050, label: 'sys'}
-  - value: 1.0
-    errors:
-    - {symerror: 7e-050, label: 'stat'}
-    - {symerror: 0.00016, label: 'sys'}
-  - value: 1.0
-    errors:
-    - {symerror: 0.00010, label: 'stat'}
-    - {symerror: 0.0004, label: 'sys'}
-  - value: 1.0
-    errors:
-    - {symerror: 0.00014, label: 'stat'}
-    - {symerror: 0.0004, label: 'sys'}
-  - value: 1.0
-    errors:
-    - {symerror: 0.00012, label: 'stat'}
-    - {symerror: 0.00035, label: 'sys'}
-  - value: 1.0
-    errors:
-    - {symerror: 0.00010, label: 'stat'}
-    - {symerror: 0.00026, label: 'sys'}
-  - value: 1.0
-    errors:
-    - {symerror: 8e-050, label: 'stat'}
-    - {symerror: 0.00011, label: 'sys'}
-  - value: 1.0
-    errors:
-    - {symerror: 7e-050, label: 'stat'}
-    - {symerror: 1.5e-050, label: 'sys'}
-  - value: 1.0
-    errors:
-    - {symerror: 6e-050, label: 'stat'}
-    - {symerror: 8e-050, label: 'sys'}
-  - value: 1.0
-    errors:
-    - {symerror: 6e-050, label: 'stat'}
-    - {symerror: 0.00023, label: 'sys'}
-  - value: 1.0
-    errors:
-    - {symerror: 6e-050, label: 'stat'}
-    - {symerror: 0.00021, label: 'sys'}
-  - value: 1.0
-    errors:
-    - {symerror: 6e-050, label: 'stat'}
-    - {symerror: 5e-050, label: 'sys'}
-  - value: 1.0
-    errors:
-    - {symerror: 7e-050, label: 'stat'}
-    - {symerror: 3.4e-050, label: 'sys'}
-  - value: 1.0
-    errors:
-    - {symerror: 8e-050, label: 'stat'}
-    - {symerror: 0.00017, label: 'sys'}
-  - value: 1.0
-    errors:
-    - {symerror: 9e-050, label: 'stat'}
-    - {symerror: 0.00033, label: 'sys'}
-  - value: 1.0
-    errors:
-    - {symerror: 0.00012, label: 'stat'}
-    - {symerror: 0.00034, label: 'sys'}
-- header: {name: '$Trig x Assoc pT = 1-2 x 1-2 GeV/c$'}
-  qualifiers:
-  - {name: '$p_T$', value: '20-30%'}
-  values:
-  - value: 1.0
-    errors:
-    - {symerror: 0.00021, label: 'stat'}
-    - {symerror: 0.0009, label: 'sys'}
-  - value: 1.0
-    errors:
-    - {symerror: 0.00015, label: 'stat'}
-    - {symerror: 5e-050, label: 'sys'}
-  - value: 1.0
-    errors:
-    - {symerror: 0.00011, label: 'stat'}
-    - {symerror: 0.00014, label: 'sys'}
-  - value: 1.0
-    errors:
-    - {symerror: 0.00010, label: 'stat'}
-    - {symerror: 0.00013, label: 'sys'}
-  - value: 1.0
-    errors:
-    - {symerror: 9e-050, label: 'stat'}
-    - {symerror: 0.00012, label: 'sys'}
-  - value: 1.0
-    errors:
-    - {symerror: 9e-050, label: 'stat'}
-    - {symerror: 0.00021, label: 'sys'}
-  - value: 1.0
-    errors:
-    - {symerror: 9e-050, label: 'stat'}
-    - {symerror: 0.00021, label: 'sys'}
-  - value: 1.0
-    errors:
-    - {symerror: 9e-050, label: 'stat'}
-    - {symerror: 0.00012, label: 'sys'}
-  - value: 1.0
-    errors:
-    - {symerror: 0.00010, label: 'stat'}
-    - {symerror: 0.00013, label: 'sys'}
-  - value: 1.0
-    errors:
-    - {symerror: 0.00011, label: 'stat'}
-    - {symerror: 0.00014, label: 'sys'}
-  - value: 1.0
-    errors:
-    - {symerror: 0.00015, label: 'stat'}
-    - {symerror: 5e-050, label: 'sys'}
-  - value: 1.0
-    errors:
-    - {symerror: 0.00021, label: 'stat'}
-    - {symerror: 0.0009, label: 'sys'}
-  - value: 1.0
-    errors:
-    - {symerror: 0.00019, label: 'stat'}
-    - {symerror: 0.0006, label: 'sys'}
-  - value: 1.0
-    errors:
-    - {symerror: 0.00015, label: 'stat'}
-    - {symerror: 0.00021, label: 'sys'}
-  - value: 1.0
-    errors:
-    - {symerror: 0.00012, label: 'stat'}
-    - {symerror: 0.00014, label: 'sys'}
-  - value: 1.0
-    errors:
-    - {symerror: 0.00010, label: 'stat'}
-    - {symerror: 8e-050, label: 'sys'}
-  - value: 1.0
-    errors:
-    - {symerror: 0.00010, label: 'stat'}
-    - {symerror: 0.00026, label: 'sys'}
-  - value: 1.0
-    errors:
-    - {symerror: 9e-050, label: 'stat'}
-    - {symerror: 0.00030, label: 'sys'}
-  - value: 1.0
-    errors:
-    - {symerror: 9e-050, label: 'stat'}
-    - {symerror: 0.00030, label: 'sys'}
-  - value: 1.0
-    errors:
-    - {symerror: 0.00010, label: 'stat'}
-    - {symerror: 0.00026, label: 'sys'}
-  - value: 1.0
-    errors:
-    - {symerror: 0.00010, label: 'stat'}
-    - {symerror: 8e-050, label: 'sys'}
-  - value: 1.0
-    errors:
-    - {symerror: 0.00012, label: 'stat'}
-    - {symerror: 0.00014, label: 'sys'}
-  - value: 1.0
-    errors:
-    - {symerror: 0.00015, label: 'stat'}
-    - {symerror: 0.00021, label: 'sys'}
-  - value: 1.0
-    errors:
-    - {symerror: 0.00019, label: 'stat'}
-    - {symerror: 0.0006, label: 'sys'}
-- header: {name: '$Trig x Assoc pT = 2-4 x 0.5-1 GeV/c$'}
-  qualifiers:
-  - {name: '$p_T$', value: '20-30%'}
-  values:
-  - value: 1.0
-    errors:
-    - {symerror: 0.0004, label: 'stat'}
-    - {symerror: 0.00020, label: 'sys'}
-  - value: 1.0
-    errors:
-    - {symerror: 0.00031, label: 'stat'}
-    - {symerror: 0.0005, label: 'sys'}
-  - value: 1.0
-    errors:
-    - {symerror: 0.00024, label: 'stat'}
-    - {symerror: 8e-050, label: 'sys'}
-  - value: 1.0
-    errors:
-    - {symerror: 0.00021, label: 'stat'}
-    - {symerror: 0.00020, label: 'sys'}
-  - value: 1.0
-    errors:
-    - {symerror: 0.00018, label: 'stat'}
-    - {symerror: 0.00025, label: 'sys'}
-  - value: 1.0
-    errors:
-    - {symerror: 0.00018, label: 'stat'}
-    - {symerror: 0.0007, label: 'sys'}
-  - value: 1.0
-    errors:
-    - {symerror: 0.00018, label: 'stat'}
-    - {symerror: 0.0005, label: 'sys'}
-  - value: 1.0
-    errors:
-    - {symerror: 0.00018, label: 'stat'}
-    - {symerror: 0.00017, label: 'sys'}
-  - value: 1.0
-    errors:
-    - {symerror: 0.00020, label: 'stat'}
-    - {symerror: 0.0004, label: 'sys'}
-  - value: 1.0
-    errors:
-    - {symerror: 0.00023, label: 'stat'}
-    - {symerror: 0.00028, label: 'sys'}
-  - value: 1.0
-    errors:
-    - {symerror: 0.00030, label: 'stat'}
-    - {symerror: 0.0009, label: 'sys'}
-  - value: 1.0
-    errors:
-    - {symerror: 0.0004, label: 'stat'}
-    - {symerror: 0.0005, label: 'sys'}
-  - value: 1.0
-    errors:
-    - {symerror: 0.0004, label: 'stat'}
-    - {symerror: 0.0004, label: 'sys'}
-  - value: 1.0
-    errors:
-    - {symerror: 0.00031, label: 'stat'}
-    - {symerror: 0.00032, label: 'sys'}
-  - value: 1.0
-    errors:
-    - {symerror: 0.00025, label: 'stat'}
-    - {symerror: 0.00034, label: 'sys'}
-  - value: 1.0
-    errors:
-    - {symerror: 0.00021, label: 'stat'}
-    - {symerror: 0.00017, label: 'sys'}
-  - value: 1.0
-    errors:
-    - {symerror: 0.00020, label: 'stat'}
-    - {symerror: 0.00023, label: 'sys'}
-  - value: 1.0
-    errors:
-    - {symerror: 0.00019, label: 'stat'}
-    - {symerror: 0.00031, label: 'sys'}
-  - value: 1.0
-    errors:
-    - {symerror: 0.00019, label: 'stat'}
-    - {symerror: 0.00030, label: 'sys'}
-  - value: 1.0
-    errors:
-    - {symerror: 0.00019, label: 'stat'}
-    - {symerror: 0.0004, label: 'sys'}
-  - value: 1.0
-    errors:
-    - {symerror: 0.00021, label: 'stat'}
-    - {symerror: 5e-050, label: 'sys'}
-  - value: 1.0
-    errors:
-    - {symerror: 0.00025, label: 'stat'}
-    - {symerror: 0.00027, label: 'sys'}
-  - value: 1.0
-    errors:
-    - {symerror: 0.00030, label: 'stat'}
-    - {symerror: 0.00034, label: 'sys'}
-  - value: 1.0
-    errors:
-    - {symerror: 0.0004, label: 'stat'}
-    - {symerror: 0.0008, label: 'sys'}
-- header: {name: '$Trig x Assoc pT = 2-4 x 1-2 GeV/c$'}
-  qualifiers:
-  - {name: '$p_T$', value: '20-30%'}
-  values:
-  - value: 0.9
-    errors:
-    - {symerror: 0.0007, label: 'stat'}
-    - {symerror: 0.0010, label: 'sys'}
-  - value: 0.9
-    errors:
+    - {symerror: 0.0015, label: 'corr'}
     - {symerror: 0.0005, label: 'stat'}
-    - {symerror: 0.0004, label: 'sys'}
-  - value: 1.0
-    errors:
-    - {symerror: 0.0004, label: 'stat'}
-    - {symerror: 0.00017, label: 'sys'}
-  - value: 1.0
-    errors:
-    - {symerror: 0.00032, label: 'stat'}
-    - {symerror: 3.3e-050, label: 'sys'}
-  - value: 1.0
-    errors:
-    - {symerror: 0.00029, label: 'stat'}
-    - {symerror: 0.00016, label: 'sys'}
-  - value: 1.0
-    errors:
-    - {symerror: 0.00028, label: 'stat'}
-    - {symerror: 0.00015, label: 'sys'}
-  - value: 1.0
-    errors:
-    - {symerror: 0.00028, label: 'stat'}
-    - {symerror: 0.00027, label: 'sys'}
-  - value: 1.0
-    errors:
-    - {symerror: 0.00029, label: 'stat'}
     - {symerror: 0.0005, label: 'sys'}
-  - value: 1.0
+  - value: 0.975633
     errors:
-    - {symerror: 0.00032, label: 'stat'}
-    - {symerror: 0.0005, label: 'sys'}
-  - value: 1.0
+    - {symerror: 0.0011, label: 'corr'}
+    - {symerror: 0.0015, label: 'stat'}
+    - {symerror: 0.0015, label: 'sys'}
+  - value: 0.975976
     errors:
-    - {symerror: 0.0004, label: 'stat'}
-    - {symerror: 0.00019, label: 'sys'}
-  - value: 0.9
-    errors:
-    - {symerror: 0.0005, label: 'stat'}
-    - {symerror: 0.00034, label: 'sys'}
-  - value: 0.9
-    errors:
-    - {symerror: 0.0007, label: 'stat'}
-    - {symerror: 0.0012, label: 'sys'}
-  - value: 0.9
-    errors:
+    - {symerror: 0.0008, label: 'corr'}
     - {symerror: 0.0006, label: 'stat'}
     - {symerror: 0.0006, label: 'sys'}
-  - value: 1.0
+  - value: 0.991312
     errors:
-    - {symerror: 0.0005, label: 'stat'}
+    - {symerror: 0.0007, label: 'corr'}
+    - {symerror: 0.0006, label: 'stat'}
+    - {symerror: 0.0006, label: 'sys'}
+  - value: 1.01761
+    errors:
+    - {symerror: 0.0006, label: 'corr'}
+    - {symerror: 0.0007, label: 'stat'}
     - {symerror: 0.0007, label: 'sys'}
-  - value: 1.0
+  - value: 1.04772
     errors:
+    - {symerror: 0.0006, label: 'corr'}
+    - {symerror: 0.0005, label: 'stat'}
+    - {symerror: 0.0005, label: 'sys'}
+  - value: 1.04772
+    errors:
+    - {symerror: 0.0006, label: 'corr'}
+    - {symerror: 0.0005, label: 'stat'}
+    - {symerror: 0.0005, label: 'sys'}
+  - value: 1.01761
+    errors:
+    - {symerror: 0.0006, label: 'corr'}
+    - {symerror: 0.0007, label: 'stat'}
+    - {symerror: 0.0007, label: 'sys'}
+  - value: 0.991312
+    errors:
+    - {symerror: 0.0007, label: 'corr'}
+    - {symerror: 0.0006, label: 'stat'}
+    - {symerror: 0.0006, label: 'sys'}
+  - value: 0.975978
+    errors:
+    - {symerror: 0.0008, label: 'corr'}
+    - {symerror: 0.0006, label: 'stat'}
+    - {symerror: 0.0006, label: 'sys'}
+  - value: 0.975632
+    errors:
+    - {symerror: 0.0011, label: 'corr'}
+    - {symerror: 0.0015, label: 'stat'}
+    - {symerror: 0.0015, label: 'sys'}
+  - value: 0.978836
+    errors:
+    - {symerror: 0.0015, label: 'corr'}
+    - {symerror: 0.0005, label: 'stat'}
+    - {symerror: 0.0005, label: 'sys'}
+  - value: 0.986295
+    errors:
+    - {symerror: 0.0015, label: 'corr'}
+    - {symerror: 0.0008, label: 'stat'}
+    - {symerror: 0.0008, label: 'sys'}
+  - value: 0.987611
+    errors:
+    - {symerror: 0.0011, label: 'corr'}
+    - {symerror: 0.0013, label: 'stat'}
+    - {symerror: 0.0013, label: 'sys'}
+  - value: 0.988716
+    errors:
+    - {symerror: 0.0009, label: 'corr'}
+    - {symerror: 0.0006, label: 'stat'}
+    - {symerror: 0.0006, label: 'sys'}
+  - value: 0.989581
+    errors:
+    - {symerror: 0.0007, label: 'corr'}
+    - {symerror: 0.0007, label: 'stat'}
+    - {symerror: 0.0007, label: 'sys'}
+  - value: 0.990614
+    errors:
+    - {symerror: 0.00067, label: 'corr'}
+    - {symerror: 5e-050, label: 'stat'}
+    - {symerror: 5e-050, label: 'sys'}
+  - value: 0.991565
+    errors:
+    - {symerror: 0.0006, label: 'corr'}
     - {symerror: 0.0004, label: 'stat'}
-    - {symerror: 0.00016, label: 'sys'}
-  - value: 1.0
+    - {symerror: 0.0004, label: 'sys'}
+  - value: 0.991565
     errors:
+    - {symerror: 0.0006, label: 'corr'}
+    - {symerror: 0.0004, label: 'stat'}
+    - {symerror: 0.0004, label: 'sys'}
+  - value: 0.990614
+    errors:
+    - {symerror: 0.00067, label: 'corr'}
+    - {symerror: 5e-050, label: 'stat'}
+    - {symerror: 5e-050, label: 'sys'}
+  - value: 0.989581
+    errors:
+    - {symerror: 0.0007, label: 'corr'}
+    - {symerror: 0.0007, label: 'stat'}
+    - {symerror: 0.0007, label: 'sys'}
+  - value: 0.988716
+    errors:
+    - {symerror: 0.0009, label: 'corr'}
+    - {symerror: 0.0006, label: 'stat'}
+    - {symerror: 0.0006, label: 'sys'}
+  - value: 0.987612
+    errors:
+    - {symerror: 0.0011, label: 'corr'}
+    - {symerror: 0.0013, label: 'stat'}
+    - {symerror: 0.0013, label: 'sys'}
+  - value: 0.986294
+    errors:
+    - {symerror: 0.0015, label: 'corr'}
+    - {symerror: 0.0008, label: 'stat'}
+    - {symerror: 0.0008, label: 'sys'}
+- header: {name: '$Y$'}
+  qualifiers:
+  - {name: '$p_{T}^{trig}$', value: '1-2'}
+  - {name: '$p_{T}^{assoc}$', value: '0.5-1'}
+  - {name: 'centrality', value: '10-20%'}
+  values:
+  - value: 0.986336
+    errors:
+    - {symerror: 0.00010, label: 'corr'}
     - {symerror: 0.00033, label: 'stat'}
     - {symerror: 0.00033, label: 'sys'}
-  - value: 1.0
+  - value: 0.987847
     errors:
-    - {symerror: 0.00030, label: 'stat'}
-    - {symerror: 0.0005, label: 'sys'}
-  - value: 1.0
+    - {symerror: 0.00007, label: 'corr'}
+    - {symerror: 0.00020, label: 'stat'}
+    - {symerror: 0.00020, label: 'sys'}
+  - value: 0.991924
     errors:
-    - {symerror: 0.00029, label: 'stat'}
-    - {symerror: 0.0008, label: 'sys'}
-  - value: 1.0
-    errors:
-    - {symerror: 0.00029, label: 'stat'}
-    - {symerror: 0.0006, label: 'sys'}
-  - value: 1.0
-    errors:
-    - {symerror: 0.00030, label: 'stat'}
-    - {symerror: 0.00013, label: 'sys'}
-  - value: 1.0
-    errors:
-    - {symerror: 0.00033, label: 'stat'}
-    - {symerror: 0.00032, label: 'sys'}
-  - value: 1.0
-    errors:
-    - {symerror: 0.0004, label: 'stat'}
-    - {symerror: 0.00014, label: 'sys'}
-  - value: 1.0
-    errors:
-    - {symerror: 0.0005, label: 'stat'}
-    - {symerror: 0.00013, label: 'sys'}
-  - value: 0.9
-    errors:
-    - {symerror: 0.0006, label: 'stat'}
-    - {symerror: 0.0007, label: 'sys'}
-- header: {name: '$Trig x Assoc pT = 2-4 x 2-4 GeV/c$'}
-  qualifiers:
-  - {name: '$p_T$', value: '20-30%'}
-  values:
-  - value: 0.9
-    errors:
-    - {symerror: 0.0020, label: 'stat'}
-    - {symerror: 0.0024, label: 'sys'}
-  - value: 0.9
-    errors:
-    - {symerror: 0.0014, label: 'stat'}
-    - {symerror: 0.0021, label: 'sys'}
-  - value: 0.9
-    errors:
-    - {symerror: 0.0011, label: 'stat'}
-    - {symerror: 0.00031, label: 'sys'}
-  - value: 1.0
-    errors:
-    - {symerror: 0.0010, label: 'stat'}
-    - {symerror: 0.0015, label: 'sys'}
-  - value: 1.0
-    errors:
-    - {symerror: 0.0009, label: 'stat'}
-    - {symerror: 0.0005, label: 'sys'}
-  - value: 1.1
-    errors:
-    - {symerror: 0.0009, label: 'stat'}
-    - {symerror: 0.0017, label: 'sys'}
-  - value: 1.1
-    errors:
-    - {symerror: 0.0009, label: 'stat'}
-    - {symerror: 0.0017, label: 'sys'}
-  - value: 1.0
-    errors:
-    - {symerror: 0.0009, label: 'stat'}
-    - {symerror: 0.0005, label: 'sys'}
-  - value: 1.0
-    errors:
-    - {symerror: 0.0010, label: 'stat'}
-    - {symerror: 0.0015, label: 'sys'}
-  - value: 0.9
-    errors:
-    - {symerror: 0.0011, label: 'stat'}
-    - {symerror: 0.00031, label: 'sys'}
-  - value: 0.9
-    errors:
-    - {symerror: 0.0014, label: 'stat'}
-    - {symerror: 0.0021, label: 'sys'}
-  - value: 0.9
-    errors:
-    - {symerror: 0.0020, label: 'stat'}
-    - {symerror: 0.0024, label: 'sys'}
-  - value: 0.9
-    errors:
-    - {symerror: 0.0019, label: 'stat'}
-    - {symerror: 0.0018, label: 'sys'}
-  - value: 0.9
-    errors:
-    - {symerror: 0.0014, label: 'stat'}
-    - {symerror: 0.0016, label: 'sys'}
-  - value: 1.0
-    errors:
-    - {symerror: 0.0012, label: 'stat'}
-    - {symerror: 0.0007, label: 'sys'}
-  - value: 1.0
-    errors:
-    - {symerror: 0.0010, label: 'stat'}
-    - {symerror: 0.0013, label: 'sys'}
-  - value: 1.0
-    errors:
-    - {symerror: 0.0009, label: 'stat'}
-    - {symerror: 0.00019, label: 'sys'}
-  - value: 1.0
-    errors:
-    - {symerror: 0.0009, label: 'stat'}
-    - {symerror: 0.0021, label: 'sys'}
-  - value: 1.0
-    errors:
-    - {symerror: 0.0009, label: 'stat'}
-    - {symerror: 0.0021, label: 'sys'}
-  - value: 1.0
-    errors:
-    - {symerror: 0.0009, label: 'stat'}
-    - {symerror: 0.00019, label: 'sys'}
-  - value: 1.0
-    errors:
-    - {symerror: 0.0010, label: 'stat'}
-    - {symerror: 0.0013, label: 'sys'}
-  - value: 1.0
-    errors:
-    - {symerror: 0.0012, label: 'stat'}
-    - {symerror: 0.0007, label: 'sys'}
-  - value: 0.9
-    errors:
-    - {symerror: 0.0014, label: 'stat'}
-    - {symerror: 0.0016, label: 'sys'}
-  - value: 0.9
-    errors:
-    - {symerror: 0.0019, label: 'stat'}
-    - {symerror: 0.0018, label: 'sys'}
-- header: {name: '$Trig x Assoc pT = 1-2 x 0.5-1 GeV/c$'}
-  qualifiers:
-  - {name: '$p_T$', value: '30-40%'}
-  values:
-  - value: 1.0
-    errors:
+    - {symerror: 0.00006, label: 'corr'}
     - {symerror: 0.00018, label: 'stat'}
-    - {symerror: 0.0005, label: 'sys'}
-  - value: 1.0
-    errors:
-    - {symerror: 0.00014, label: 'stat'}
-    - {symerror: 0.00028, label: 'sys'}
-  - value: 1.0
-    errors:
-    - {symerror: 0.00011, label: 'stat'}
-    - {symerror: 0.00012, label: 'sys'}
-  - value: 1.0
-    errors:
-    - {symerror: 9e-050, label: 'stat'}
-    - {symerror: 2.8e-050, label: 'sys'}
-  - value: 1.0
-    errors:
-    - {symerror: 8e-050, label: 'stat'}
     - {symerror: 0.00018, label: 'sys'}
-  - value: 1.0
+  - value: 0.998366
     errors:
+    - {symerror: 0.00005, label: 'corr'}
     - {symerror: 8e-050, label: 'stat'}
-    - {symerror: 0.00021, label: 'sys'}
-  - value: 1.0
-    errors:
-    - {symerror: 8e-050, label: 'stat'}
-    - {symerror: 0.00024, label: 'sys'}
-  - value: 1.0
-    errors:
-    - {symerror: 8e-050, label: 'stat'}
-    - {symerror: 0.00015, label: 'sys'}
-  - value: 1.0
-    errors:
-    - {symerror: 9e-050, label: 'stat'}
     - {symerror: 8e-050, label: 'sys'}
-  - value: 1.0
+  - value: 1.00582
     errors:
-    - {symerror: 0.00010, label: 'stat'}
-    - {symerror: 0.00015, label: 'sys'}
-  - value: 1.0
-    errors:
-    - {symerror: 0.00013, label: 'stat'}
-    - {symerror: 0.00021, label: 'sys'}
-  - value: 1.0
-    errors:
-    - {symerror: 0.00019, label: 'stat'}
-    - {symerror: 0.0005, label: 'sys'}
-  - value: 1.0
-    errors:
-    - {symerror: 0.00017, label: 'stat'}
-    - {symerror: 0.0006, label: 'sys'}
-  - value: 1.0
-    errors:
-    - {symerror: 0.00013, label: 'stat'}
-    - {symerror: 0.0004, label: 'sys'}
-  - value: 1.0
-    errors:
-    - {symerror: 0.00011, label: 'stat'}
-    - {symerror: 0.00012, label: 'sys'}
-  - value: 1.0
-    errors:
-    - {symerror: 9e-050, label: 'stat'}
-    - {symerror: 2.2e-050, label: 'sys'}
-  - value: 1.0
-    errors:
-    - {symerror: 9e-050, label: 'stat'}
-    - {symerror: 0.00015, label: 'sys'}
-  - value: 1.0
-    errors:
-    - {symerror: 8e-050, label: 'stat'}
-    - {symerror: 0.00013, label: 'sys'}
-  - value: 1.0
-    errors:
-    - {symerror: 8e-050, label: 'stat'}
-    - {symerror: 0.00016, label: 'sys'}
-  - value: 1.0
-    errors:
-    - {symerror: 9e-050, label: 'stat'}
-    - {symerror: 0.00013, label: 'sys'}
-  - value: 1.0
-    errors:
-    - {symerror: 9e-050, label: 'stat'}
-    - {symerror: 0.00016, label: 'sys'}
-  - value: 1.0
-    errors:
-    - {symerror: 0.00011, label: 'stat'}
-    - {symerror: 0.00012, label: 'sys'}
-  - value: 1.0
-    errors:
-    - {symerror: 0.00013, label: 'stat'}
-    - {symerror: 0.00022, label: 'sys'}
-  - value: 1.0
-    errors:
-    - {symerror: 0.00017, label: 'stat'}
-    - {symerror: 0.00035, label: 'sys'}
-- header: {name: '$Trig x Assoc pT = 1-2 x 1-2 GeV/c$'}
-  qualifiers:
-  - {name: '$p_T$', value: '30-40%'}
-  values:
-  - value: 0.9
-    errors:
-    - {symerror: 0.00029, label: 'stat'}
-    - {symerror: 0.0007, label: 'sys'}
-  - value: 0.9
-    errors:
-    - {symerror: 0.00021, label: 'stat'}
-    - {symerror: 0.00017, label: 'sys'}
-  - value: 1.0
-    errors:
-    - {symerror: 0.00016, label: 'stat'}
-    - {symerror: 7e-050, label: 'sys'}
-  - value: 1.0
-    errors:
+    - {symerror: 0.00004, label: 'corr'}
     - {symerror: 0.00014, label: 'stat'}
-    - {symerror: 0.00010, label: 'sys'}
-  - value: 1.0
-    errors:
-    - {symerror: 0.00013, label: 'stat'}
-    - {symerror: 0.00015, label: 'sys'}
-  - value: 1.0
-    errors:
-    - {symerror: 0.00012, label: 'stat'}
-    - {symerror: 0.00030, label: 'sys'}
-  - value: 1.0
-    errors:
-    - {symerror: 0.00012, label: 'stat'}
-    - {symerror: 0.00030, label: 'sys'}
-  - value: 1.0
-    errors:
-    - {symerror: 0.00013, label: 'stat'}
-    - {symerror: 0.00015, label: 'sys'}
-  - value: 1.0
-    errors:
-    - {symerror: 0.00014, label: 'stat'}
-    - {symerror: 0.00010, label: 'sys'}
-  - value: 1.0
-    errors:
-    - {symerror: 0.00016, label: 'stat'}
-    - {symerror: 7e-050, label: 'sys'}
-  - value: 0.9
-    errors:
-    - {symerror: 0.00021, label: 'stat'}
-    - {symerror: 0.00017, label: 'sys'}
-  - value: 0.9
-    errors:
-    - {symerror: 0.00029, label: 'stat'}
-    - {symerror: 0.0007, label: 'sys'}
-  - value: 0.9
-    errors:
-    - {symerror: 0.00027, label: 'stat'}
-    - {symerror: 0.0004, label: 'sys'}
-  - value: 1.0
-    errors:
-    - {symerror: 0.00021, label: 'stat'}
-    - {symerror: 0.0005, label: 'sys'}
-  - value: 1.0
-    errors:
-    - {symerror: 0.00017, label: 'stat'}
-    - {symerror: 0.00021, label: 'sys'}
-  - value: 1.0
-    errors:
-    - {symerror: 0.00015, label: 'stat'}
-    - {symerror: 3.5e-050, label: 'sys'}
-  - value: 1.0
-    errors:
-    - {symerror: 0.00014, label: 'stat'}
-    - {symerror: 0.0004, label: 'sys'}
-  - value: 1.0
-    errors:
-    - {symerror: 0.00013, label: 'stat'}
-    - {symerror: 0.0004, label: 'sys'}
-  - value: 1.0
-    errors:
-    - {symerror: 0.00013, label: 'stat'}
-    - {symerror: 0.0004, label: 'sys'}
-  - value: 1.0
-    errors:
-    - {symerror: 0.00014, label: 'stat'}
-    - {symerror: 0.0004, label: 'sys'}
-  - value: 1.0
-    errors:
-    - {symerror: 0.00015, label: 'stat'}
-    - {symerror: 3.5e-050, label: 'sys'}
-  - value: 1.0
-    errors:
-    - {symerror: 0.00017, label: 'stat'}
-    - {symerror: 0.00021, label: 'sys'}
-  - value: 1.0
-    errors:
-    - {symerror: 0.00021, label: 'stat'}
-    - {symerror: 0.0005, label: 'sys'}
-  - value: 0.9
-    errors:
-    - {symerror: 0.00027, label: 'stat'}
-    - {symerror: 0.0004, label: 'sys'}
-- header: {name: '$Trig x Assoc pT = 2-4 x 0.5-1 GeV/c$'}
-  qualifiers:
-  - {name: '$p_T$', value: '30-40%'}
-  values:
-  - value: 0.9
-    errors:
-    - {symerror: 0.0006, label: 'stat'}
-    - {symerror: 0.0012, label: 'sys'}
-  - value: 1.0
-    errors:
-    - {symerror: 0.0004, label: 'stat'}
-    - {symerror: 0.00022, label: 'sys'}
-  - value: 1.0
-    errors:
-    - {symerror: 0.00033, label: 'stat'}
-    - {symerror: 0.0004, label: 'sys'}
-  - value: 1.0
-    errors:
-    - {symerror: 0.00029, label: 'stat'}
-    - {symerror: 0.00026, label: 'sys'}
-  - value: 1.0
-    errors:
-    - {symerror: 0.00026, label: 'stat'}
-    - {symerror: 0.00017, label: 'sys'}
-  - value: 1.0
-    errors:
-    - {symerror: 0.00025, label: 'stat'}
-    - {symerror: 0.0008, label: 'sys'}
-  - value: 1.0
-    errors:
-    - {symerror: 0.00025, label: 'stat'}
-    - {symerror: 0.0008, label: 'sys'}
-  - value: 1.0
-    errors:
-    - {symerror: 0.00026, label: 'stat'}
-    - {symerror: 7e-050, label: 'sys'}
-  - value: 1.0
-    errors:
-    - {symerror: 0.00029, label: 'stat'}
-    - {symerror: 0.0005, label: 'sys'}
-  - value: 1.0
-    errors:
-    - {symerror: 0.00033, label: 'stat'}
-    - {symerror: 0.00016, label: 'sys'}
-  - value: 1.0
-    errors:
-    - {symerror: 0.0004, label: 'stat'}
-    - {symerror: 0.00028, label: 'sys'}
-  - value: 0.9
-    errors:
-    - {symerror: 0.0006, label: 'stat'}
-    - {symerror: 0.0006, label: 'sys'}
-  - value: 1.0
-    errors:
-    - {symerror: 0.0005, label: 'stat'}
-    - {symerror: 0.0010, label: 'sys'}
-  - value: 1.0
-    errors:
-    - {symerror: 0.0004, label: 'stat'}
-    - {symerror: 0.0004, label: 'sys'}
-  - value: 1.0
-    errors:
-    - {symerror: 0.00035, label: 'stat'}
-    - {symerror: 0.0007, label: 'sys'}
-  - value: 1.0
-    errors:
-    - {symerror: 0.00030, label: 'stat'}
-    - {symerror: 0.00018, label: 'sys'}
-  - value: 1.0
-    errors:
-    - {symerror: 0.00028, label: 'stat'}
-    - {symerror: 0.00019, label: 'sys'}
-  - value: 1.0
-    errors:
-    - {symerror: 0.00026, label: 'stat'}
-    - {symerror: 0.00012, label: 'sys'}
-  - value: 1.0
-    errors:
-    - {symerror: 0.00026, label: 'stat'}
-    - {symerror: 0.00019, label: 'sys'}
-  - value: 1.0
-    errors:
-    - {symerror: 0.00027, label: 'stat'}
-    - {symerror: 0.00020, label: 'sys'}
-  - value: 1.0
-    errors:
-    - {symerror: 0.00030, label: 'stat'}
     - {symerror: 0.00014, label: 'sys'}
-  - value: 1.0
+  - value: 1.00987
     errors:
-    - {symerror: 0.00035, label: 'stat'}
-    - {symerror: 0.0004, label: 'sys'}
-  - value: 1.0
-    errors:
-    - {symerror: 0.0004, label: 'stat'}
-    - {symerror: 0.00021, label: 'sys'}
-  - value: 1.0
-    errors:
-    - {symerror: 0.0005, label: 'stat'}
-    - {symerror: 0.0005, label: 'sys'}
-- header: {name: '$Trig x Assoc pT = 2-4 x 1-2 GeV/c$'}
-  qualifiers:
-  - {name: '$p_T$', value: '30-40%'}
-  values:
-  - value: 0.9
-    errors:
-    - {symerror: 0.0009, label: 'stat'}
-    - {symerror: 0.0016, label: 'sys'}
-  - value: 0.9
-    errors:
-    - {symerror: 0.0006, label: 'stat'}
-    - {symerror: 0.0009, label: 'sys'}
-  - value: 0.9
-    errors:
-    - {symerror: 0.0005, label: 'stat'}
-    - {symerror: 0.00031, label: 'sys'}
-  - value: 1.0
-    errors:
-    - {symerror: 0.0005, label: 'stat'}
-    - {symerror: 0.0004, label: 'sys'}
-  - value: 1.0
-    errors:
-    - {symerror: 0.0004, label: 'stat'}
-    - {symerror: 0.00021, label: 'sys'}
-  - value: 1.1
-    errors:
-    - {symerror: 0.0004, label: 'stat'}
-    - {symerror: 0.0004, label: 'sys'}
-  - value: 1.1
-    errors:
-    - {symerror: 0.0004, label: 'stat'}
-    - {symerror: 0.00028, label: 'sys'}
-  - value: 1.0
-    errors:
-    - {symerror: 0.0004, label: 'stat'}
-    - {symerror: 0.0005, label: 'sys'}
-  - value: 1.0
-    errors:
-    - {symerror: 0.0004, label: 'stat'}
-    - {symerror: 0.0004, label: 'sys'}
-  - value: 0.9
-    errors:
-    - {symerror: 0.0005, label: 'stat'}
-    - {symerror: 0.0008, label: 'sys'}
-  - value: 0.9
-    errors:
-    - {symerror: 0.0006, label: 'stat'}
-    - {symerror: 0.0005, label: 'sys'}
-  - value: 0.9
-    errors:
-    - {symerror: 0.0009, label: 'stat'}
-    - {symerror: 0.0009, label: 'sys'}
-  - value: 0.9
-    errors:
-    - {symerror: 0.0009, label: 'stat'}
-    - {symerror: 0.0004, label: 'sys'}
-  - value: 0.9
-    errors:
-    - {symerror: 0.0006, label: 'stat'}
-    - {symerror: 0.0006, label: 'sys'}
-  - value: 1.0
-    errors:
-    - {symerror: 0.0005, label: 'stat'}
-    - {symerror: 0.00020, label: 'sys'}
-  - value: 1.0
-    errors:
-    - {symerror: 0.0005, label: 'stat'}
-    - {symerror: 0.00011, label: 'sys'}
-  - value: 1.0
-    errors:
-    - {symerror: 0.0004, label: 'stat'}
-    - {symerror: 0.00018, label: 'sys'}
-  - value: 1.0
-    errors:
-    - {symerror: 0.0004, label: 'stat'}
-    - {symerror: 0.0007, label: 'sys'}
-  - value: 1.0
-    errors:
-    - {symerror: 0.0004, label: 'stat'}
-    - {symerror: 0.0012, label: 'sys'}
-  - value: 1.0
-    errors:
-    - {symerror: 0.0004, label: 'stat'}
-    - {symerror: 0.0006, label: 'sys'}
-  - value: 1.0
-    errors:
-    - {symerror: 0.0005, label: 'stat'}
-    - {symerror: 0.00011, label: 'sys'}
-  - value: 1.0
-    errors:
-    - {symerror: 0.0005, label: 'stat'}
-    - {symerror: 0.00034, label: 'sys'}
-  - value: 0.9
-    errors:
-    - {symerror: 0.0006, label: 'stat'}
-    - {symerror: 0.0004, label: 'sys'}
-  - value: 0.9
-    errors:
-    - {symerror: 0.0008, label: 'stat'}
-    - {symerror: 0.0014, label: 'sys'}
-- header: {name: '$Trig x Assoc pT = 2-4 x 2-4 GeV/c$'}
-  qualifiers:
-  - {name: '$p_T$', value: '30-40%'}
-  values:
-  - value: 0.9
-    errors:
-    - {symerror: 0.0028, label: 'stat'}
-    - {symerror: 0.00026, label: 'sys'}
-  - value: 0.9
-    errors:
-    - {symerror: 0.0020, label: 'stat'}
-    - {symerror: 0.0011, label: 'sys'}
-  - value: 0.9
-    errors:
-    - {symerror: 0.0015, label: 'stat'}
-    - {symerror: 0.0014, label: 'sys'}
-  - value: 1.0
-    errors:
-    - {symerror: 0.0014, label: 'stat'}
-    - {symerror: 0.0011, label: 'sys'}
-  - value: 1.1
-    errors:
-    - {symerror: 0.0013, label: 'stat'}
-    - {symerror: 0.00028, label: 'sys'}
-  - value: 1.1
-    errors:
-    - {symerror: 0.0013, label: 'stat'}
-    - {symerror: 0.0010, label: 'sys'}
-  - value: 1.1
-    errors:
-    - {symerror: 0.0013, label: 'stat'}
-    - {symerror: 0.0010, label: 'sys'}
-  - value: 1.1
-    errors:
-    - {symerror: 0.0013, label: 'stat'}
-    - {symerror: 0.00028, label: 'sys'}
-  - value: 1.0
-    errors:
-    - {symerror: 0.0014, label: 'stat'}
-    - {symerror: 0.0011, label: 'sys'}
-  - value: 0.9
-    errors:
-    - {symerror: 0.0015, label: 'stat'}
-    - {symerror: 0.0014, label: 'sys'}
-  - value: 0.9
-    errors:
-    - {symerror: 0.0020, label: 'stat'}
-    - {symerror: 0.0011, label: 'sys'}
-  - value: 0.9
-    errors:
-    - {symerror: 0.0028, label: 'stat'}
-    - {symerror: 0.00026, label: 'sys'}
-  - value: 0.9
-    errors:
-    - {symerror: 0.0026, label: 'stat'}
-    - {symerror: 0.0012, label: 'sys'}
-  - value: 0.9
-    errors:
-    - {symerror: 0.0020, label: 'stat'}
-    - {symerror: 0.0012, label: 'sys'}
-  - value: 0.9
-    errors:
-    - {symerror: 0.0016, label: 'stat'}
-    - {symerror: 0.0021, label: 'sys'}
-  - value: 1.0
-    errors:
-    - {symerror: 0.0014, label: 'stat'}
-    - {symerror: 0.0010, label: 'sys'}
-  - value: 1.0
-    errors:
-    - {symerror: 0.0013, label: 'stat'}
-    - {symerror: 0.0008, label: 'sys'}
-  - value: 1.0
-    errors:
-    - {symerror: 0.0013, label: 'stat'}
-    - {symerror: 0.0014, label: 'sys'}
-  - value: 1.0
-    errors:
-    - {symerror: 0.0013, label: 'stat'}
-    - {symerror: 0.0014, label: 'sys'}
-  - value: 1.0
-    errors:
-    - {symerror: 0.0013, label: 'stat'}
-    - {symerror: 0.0008, label: 'sys'}
-  - value: 1.0
-    errors:
-    - {symerror: 0.0014, label: 'stat'}
-    - {symerror: 0.0010, label: 'sys'}
-  - value: 0.9
-    errors:
-    - {symerror: 0.0016, label: 'stat'}
-    - {symerror: 0.0021, label: 'sys'}
-  - value: 0.9
-    errors:
-    - {symerror: 0.0020, label: 'stat'}
-    - {symerror: 0.0012, label: 'sys'}
-  - value: 0.9
-    errors:
-    - {symerror: 0.0026, label: 'stat'}
-    - {symerror: 0.0012, label: 'sys'}
-- header: {name: '$Trig x Assoc pT = 1-2 x 0.5-1 GeV/c$'}
-  qualifiers:
-  - {name: '$p_T$', value: '40-50%'}
-  values:
-  - value: 1.0
-    errors:
-    - {symerror: 0.00028, label: 'stat'}
-    - {symerror: 0.00026, label: 'sys'}
-  - value: 1.0
-    errors:
-    - {symerror: 0.00021, label: 'stat'}
-    - {symerror: 0.0004, label: 'sys'}
-  - value: 1.0
-    errors:
+    - {symerror: 0.00004, label: 'corr'}
     - {symerror: 0.00016, label: 'stat'}
+    - {symerror: 0.00016, label: 'sys'}
+  - value: 1.00999
+    errors:
+    - {symerror: 0.00004, label: 'corr'}
+    - {symerror: 0.00012, label: 'stat'}
+    - {symerror: 0.00012, label: 'sys'}
+  - value: 1.00584
+    errors:
+    - {symerror: 0.00004, label: 'corr'}
+    - {symerror: 0.00013, label: 'stat'}
+    - {symerror: 0.00013, label: 'sys'}
+  - value: 0.998457
+    errors:
+    - {symerror: 0.000049, label: 'corr'}
+    - {symerror: 2.9e-050, label: 'stat'}
+    - {symerror: 2.9e-050, label: 'sys'}
+  - value: 0.992075
+    errors:
+    - {symerror: 0.00006, label: 'corr'}
+    - {symerror: 0.00018, label: 'stat'}
+    - {symerror: 0.00018, label: 'sys'}
+  - value: 0.987998
+    errors:
+    - {symerror: 0.00007, label: 'corr'}
+    - {symerror: 0.00026, label: 'stat'}
+    - {symerror: 0.00026, label: 'sys'}
+  - value: 0.986485
+    errors:
+    - {symerror: 0.00010, label: 'corr'}
+    - {symerror: 0.00027, label: 'stat'}
+    - {symerror: 0.00027, label: 'sys'}
+  - value: 0.987736
+    errors:
+    - {symerror: 0.00010, label: 'corr'}
+    - {symerror: 0.00022, label: 'stat'}
+    - {symerror: 0.00022, label: 'sys'}
+  - value: 0.990853
+    errors:
+    - {symerror: 0.00007, label: 'corr'}
+    - {symerror: 0.00017, label: 'stat'}
+    - {symerror: 0.00017, label: 'sys'}
+  - value: 0.99505
+    errors:
+    - {symerror: 0.00006, label: 'corr'}
+    - {symerror: 8e-050, label: 'stat'}
+    - {symerror: 8e-050, label: 'sys'}
+  - value: 0.998914
+    errors:
+    - {symerror: 0.000051, label: 'corr'}
+    - {symerror: 7e-060, label: 'stat'}
+    - {symerror: 7e-060, label: 'sys'}
+  - value: 1.00205
+    errors:
+    - {symerror: 0.00005, label: 'corr'}
+    - {symerror: 0.00011, label: 'stat'}
+    - {symerror: 0.00011, label: 'sys'}
+  - value: 1.00361
+    errors:
+    - {symerror: 0.00004, label: 'corr'}
+    - {symerror: 0.00018, label: 'stat'}
+    - {symerror: 0.00018, label: 'sys'}
+  - value: 1.00364
+    errors:
+    - {symerror: 0.00004, label: 'corr'}
+    - {symerror: 0.00017, label: 'stat'}
+    - {symerror: 0.00017, label: 'sys'}
+  - value: 1.00199
+    errors:
+    - {symerror: 0.00005, label: 'corr'}
+    - {symerror: 0.00010, label: 'stat'}
+    - {symerror: 0.00010, label: 'sys'}
+  - value: 0.998924
+    errors:
+    - {symerror: 0.000051, label: 'corr'}
+    - {symerror: 1.8e-050, label: 'stat'}
     - {symerror: 1.8e-050, label: 'sys'}
-  - value: 1.0
+  - value: 0.994921
     errors:
-    - {symerror: 0.00014, label: 'stat'}
-    - {symerror: 0.00014, label: 'sys'}
-  - value: 1.0
-    errors:
-    - {symerror: 0.00013, label: 'stat'}
-    - {symerror: 0.00018, label: 'sys'}
-  - value: 1.0
-    errors:
-    - {symerror: 0.00012, label: 'stat'}
-    - {symerror: 0.00032, label: 'sys'}
-  - value: 1.0
-    errors:
-    - {symerror: 0.00012, label: 'stat'}
-    - {symerror: 0.00017, label: 'sys'}
-  - value: 1.0
-    errors:
-    - {symerror: 0.00013, label: 'stat'}
-    - {symerror: 0.00028, label: 'sys'}
-  - value: 1.0
-    errors:
-    - {symerror: 0.00014, label: 'stat'}
-    - {symerror: 6e-050, label: 'sys'}
-  - value: 1.0
-    errors:
-    - {symerror: 0.00016, label: 'stat'}
-    - {symerror: 0.00016, label: 'sys'}
-  - value: 1.0
-    errors:
-    - {symerror: 0.00021, label: 'stat'}
-    - {symerror: 0.00025, label: 'sys'}
-  - value: 1.0
-    errors:
-    - {symerror: 0.00029, label: 'stat'}
-    - {symerror: 0.0005, label: 'sys'}
-  - value: 1.0
-    errors:
-    - {symerror: 0.00026, label: 'stat'}
-    - {symerror: 0.00028, label: 'sys'}
-  - value: 1.0
-    errors:
-    - {symerror: 0.00021, label: 'stat'}
-    - {symerror: 0.0004, label: 'sys'}
-  - value: 1.0
-    errors:
-    - {symerror: 0.00017, label: 'stat'}
-    - {symerror: 0.00032, label: 'sys'}
-  - value: 1.0
-    errors:
-    - {symerror: 0.00015, label: 'stat'}
-    - {symerror: 5e-050, label: 'sys'}
-  - value: 1.0
-    errors:
-    - {symerror: 0.00013, label: 'stat'}
-    - {symerror: 8e-050, label: 'sys'}
-  - value: 1.0
-    errors:
-    - {symerror: 0.00013, label: 'stat'}
-    - {symerror: 3.4e-050, label: 'sys'}
-  - value: 1.0
-    errors:
-    - {symerror: 0.00013, label: 'stat'}
-    - {symerror: 0.00015, label: 'sys'}
-  - value: 1.0
-    errors:
-    - {symerror: 0.00013, label: 'stat'}
-    - {symerror: 0.00011, label: 'sys'}
-  - value: 1.0
-    errors:
-    - {symerror: 0.00015, label: 'stat'}
-    - {symerror: 7e-050, label: 'sys'}
-  - value: 1.0
-    errors:
-    - {symerror: 0.00017, label: 'stat'}
-    - {symerror: 0.00018, label: 'sys'}
-  - value: 1.0
-    errors:
-    - {symerror: 0.00020, label: 'stat'}
-    - {symerror: 0.00014, label: 'sys'}
-  - value: 1.0
-    errors:
-    - {symerror: 0.00026, label: 'stat'}
-    - {symerror: 0.00034, label: 'sys'}
-- header: {name: '$Trig x Assoc pT = 1-2 x 1-2 GeV/c$'}
-  qualifiers:
-  - {name: '$p_T$', value: '40-50%'}
-  values:
-  - value: 0.9
-    errors:
-    - {symerror: 0.0005, label: 'stat'}
-    - {symerror: 0.00034, label: 'sys'}
-  - value: 0.9
-    errors:
-    - {symerror: 0.00032, label: 'stat'}
-    - {symerror: 0.00025, label: 'sys'}
-  - value: 1.0
-    errors:
-    - {symerror: 0.00025, label: 'stat'}
-    - {symerror: 0.00017, label: 'sys'}
-  - value: 1.0
-    errors:
-    - {symerror: 0.00022, label: 'stat'}
-    - {symerror: 0.00022, label: 'sys'}
-  - value: 1.0
-    errors:
-    - {symerror: 0.00020, label: 'stat'}
-    - {symerror: 0.0004, label: 'sys'}
-  - value: 1.0
-    errors:
-    - {symerror: 0.00019, label: 'stat'}
-    - {symerror: 0.00033, label: 'sys'}
-  - value: 1.0
-    errors:
-    - {symerror: 0.00019, label: 'stat'}
-    - {symerror: 0.00033, label: 'sys'}
-  - value: 1.0
-    errors:
-    - {symerror: 0.00020, label: 'stat'}
-    - {symerror: 0.0004, label: 'sys'}
-  - value: 1.0
-    errors:
-    - {symerror: 0.00022, label: 'stat'}
-    - {symerror: 0.00022, label: 'sys'}
-  - value: 1.0
-    errors:
-    - {symerror: 0.00025, label: 'stat'}
-    - {symerror: 0.00017, label: 'sys'}
-  - value: 0.9
-    errors:
-    - {symerror: 0.00032, label: 'stat'}
-    - {symerror: 0.00025, label: 'sys'}
-  - value: 0.9
-    errors:
-    - {symerror: 0.0005, label: 'stat'}
-    - {symerror: 0.00034, label: 'sys'}
-  - value: 0.9
-    errors:
-    - {symerror: 0.0004, label: 'stat'}
-    - {symerror: 0.00011, label: 'sys'}
-  - value: 0.9
-    errors:
-    - {symerror: 0.00032, label: 'stat'}
-    - {symerror: 0.0005, label: 'sys'}
-  - value: 1.0
-    errors:
-    - {symerror: 0.00026, label: 'stat'}
-    - {symerror: 6e-050, label: 'sys'}
-  - value: 1.0
-    errors:
-    - {symerror: 0.00023, label: 'stat'}
-    - {symerror: 4e-050, label: 'sys'}
-  - value: 1.0
-    errors:
-    - {symerror: 0.00021, label: 'stat'}
+    - {symerror: 0.00006, label: 'corr'}
+    - {symerror: 9e-050, label: 'stat'}
     - {symerror: 9e-050, label: 'sys'}
-  - value: 1.0
+  - value: 0.99081
     errors:
-    - {symerror: 0.00020, label: 'stat'}
-    - {symerror: 0.0004, label: 'sys'}
-  - value: 1.0
+    - {symerror: 0.00007, label: 'corr'}
+    - {symerror: 0.00018, label: 'stat'}
+    - {symerror: 0.00018, label: 'sys'}
+  - value: 0.987815
     errors:
-    - {symerror: 0.00020, label: 'stat'}
-    - {symerror: 0.0004, label: 'sys'}
-  - value: 1.0
-    errors:
-    - {symerror: 0.00021, label: 'stat'}
-    - {symerror: 9e-050, label: 'sys'}
-  - value: 1.0
-    errors:
-    - {symerror: 0.00023, label: 'stat'}
-    - {symerror: 4e-050, label: 'sys'}
-  - value: 1.0
-    errors:
-    - {symerror: 0.00026, label: 'stat'}
-    - {symerror: 6e-050, label: 'sys'}
-  - value: 0.9
-    errors:
-    - {symerror: 0.00032, label: 'stat'}
-    - {symerror: 0.0005, label: 'sys'}
-  - value: 0.9
-    errors:
-    - {symerror: 0.0004, label: 'stat'}
-    - {symerror: 0.00011, label: 'sys'}
-- header: {name: '$Trig x Assoc pT = 2-4 x 0.5-1 GeV/c$'}
+    - {symerror: 0.00009, label: 'corr'}
+    - {symerror: 0.00024, label: 'stat'}
+    - {symerror: 0.00024, label: 'sys'}
+- header: {name: '$Y$'}
   qualifiers:
-  - {name: '$p_T$', value: '40-50%'}
+  - {name: '$p_{T}^{trig}$', value: '1-2'}
+  - {name: '$p_{T}^{assoc}$', value: '1-2'}
+  - {name: 'centrality', value: '10-20%'}
   values:
-  - value: 0.9
+  - value: 0.97611
     errors:
-    - {symerror: 0.0009, label: 'stat'}
-    - {symerror: 0.0006, label: 'sys'}
-  - value: 0.9
+    - {symerror: 0.00016, label: 'corr'}
+    - {symerror: 0.00031, label: 'stat'}
+    - {symerror: 0.00031, label: 'sys'}
+  - value: 0.977656
     errors:
-    - {symerror: 0.0006, label: 'stat'}
-    - {symerror: 0.0004, label: 'sys'}
-  - value: 1.0
-    errors:
-    - {symerror: 0.0005, label: 'stat'}
-    - {symerror: 0.0008, label: 'sys'}
-  - value: 1.0
-    errors:
-    - {symerror: 0.0004, label: 'stat'}
-    - {symerror: 7e-050, label: 'sys'}
-  - value: 1.0
-    errors:
-    - {symerror: 0.0004, label: 'stat'}
-    - {symerror: 0.00034, label: 'sys'}
-  - value: 1.0
-    errors:
-    - {symerror: 0.0004, label: 'stat'}
-    - {symerror: 0.0007, label: 'sys'}
-  - value: 1.0
-    errors:
-    - {symerror: 0.0004, label: 'stat'}
-    - {symerror: 0.0009, label: 'sys'}
-  - value: 1.0
-    errors:
-    - {symerror: 0.0004, label: 'stat'}
-    - {symerror: 0.00016, label: 'sys'}
-  - value: 1.0
-    errors:
-    - {symerror: 0.0004, label: 'stat'}
+    - {symerror: 0.00011, label: 'corr'}
+    - {symerror: 0.00030, label: 'stat'}
     - {symerror: 0.00030, label: 'sys'}
-  - value: 1.0
+  - value: 0.984503
     errors:
-    - {symerror: 0.0005, label: 'stat'}
-    - {symerror: 0.0006, label: 'sys'}
-  - value: 0.9
+    - {symerror: 0.00009, label: 'corr'}
+    - {symerror: 0.00017, label: 'stat'}
+    - {symerror: 0.00017, label: 'sys'}
+  - value: 0.996106
     errors:
-    - {symerror: 0.0006, label: 'stat'}
-    - {symerror: 0.0006, label: 'sys'}
-  - value: 0.9
+    - {symerror: 0.00008, label: 'corr'}
+    - {symerror: 8e-050, label: 'stat'}
+    - {symerror: 8e-050, label: 'sys'}
+  - value: 1.00938
     errors:
-    - {symerror: 0.0009, label: 'stat'}
-    - {symerror: 0.0006, label: 'sys'}
-  - value: 0.9
+    - {symerror: 0.00007, label: 'corr'}
+    - {symerror: 0.00013, label: 'stat'}
+    - {symerror: 0.00013, label: 'sys'}
+  - value: 1.01861
     errors:
-    - {symerror: 0.0008, label: 'stat'}
-    - {symerror: 0.0017, label: 'sys'}
-  - value: 1.0
+    - {symerror: 0.00007, label: 'corr'}
+    - {symerror: 8e-050, label: 'stat'}
+    - {symerror: 8e-050, label: 'sys'}
+  - value: 1.01861
     errors:
-    - {symerror: 0.0006, label: 'stat'}
-    - {symerror: 0.00033, label: 'sys'}
-  - value: 1.0
+    - {symerror: 0.00007, label: 'corr'}
+    - {symerror: 8e-050, label: 'stat'}
+    - {symerror: 8e-050, label: 'sys'}
+  - value: 1.00938
     errors:
-    - {symerror: 0.0005, label: 'stat'}
-    - {symerror: 0.0006, label: 'sys'}
-  - value: 1.0
+    - {symerror: 0.00007, label: 'corr'}
+    - {symerror: 0.00013, label: 'stat'}
+    - {symerror: 0.00013, label: 'sys'}
+  - value: 0.996106
     errors:
+    - {symerror: 0.00008, label: 'corr'}
+    - {symerror: 8e-050, label: 'stat'}
+    - {symerror: 8e-050, label: 'sys'}
+  - value: 0.984503
+    errors:
+    - {symerror: 0.00009, label: 'corr'}
+    - {symerror: 0.00017, label: 'stat'}
+    - {symerror: 0.00017, label: 'sys'}
+  - value: 0.977656
+    errors:
+    - {symerror: 0.00011, label: 'corr'}
+    - {symerror: 0.00030, label: 'stat'}
+    - {symerror: 0.00030, label: 'sys'}
+  - value: 0.97611
+    errors:
+    - {symerror: 0.00016, label: 'corr'}
+    - {symerror: 0.00031, label: 'stat'}
+    - {symerror: 0.00031, label: 'sys'}
+  - value: 0.979542
+    errors:
+    - {symerror: 0.0002, label: 'corr'}
     - {symerror: 0.0005, label: 'stat'}
     - {symerror: 0.0005, label: 'sys'}
-  - value: 1.0
+  - value: 0.985247
     errors:
-    - {symerror: 0.0004, label: 'stat'}
+    - {symerror: 0.00011, label: 'corr'}
+    - {symerror: 0.00019, label: 'stat'}
+    - {symerror: 0.00019, label: 'sys'}
+  - value: 0.992164
+    errors:
+    - {symerror: 0.00009, label: 'corr'}
+    - {symerror: 7e-050, label: 'stat'}
+    - {symerror: 7e-050, label: 'sys'}
+  - value: 0.998399
+    errors:
+    - {symerror: 0.00008, label: 'corr'}
+    - {symerror: 0.00010, label: 'stat'}
+    - {symerror: 0.00010, label: 'sys'}
+  - value: 1.00335
+    errors:
+    - {symerror: 0.00007, label: 'corr'}
+    - {symerror: 0.00019, label: 'stat'}
+    - {symerror: 0.00019, label: 'sys'}
+  - value: 1.00603
+    errors:
+    - {symerror: 0.00007, label: 'corr'}
+    - {symerror: 0.00026, label: 'stat'}
     - {symerror: 0.00026, label: 'sys'}
-  - value: 1.0
+  - value: 1.00603
     errors:
-    - {symerror: 0.0004, label: 'stat'}
-    - {symerror: 0.0005, label: 'sys'}
-  - value: 1.0
+    - {symerror: 0.00007, label: 'corr'}
+    - {symerror: 0.00026, label: 'stat'}
+    - {symerror: 0.00026, label: 'sys'}
+  - value: 1.00335
     errors:
-    - {symerror: 0.0004, label: 'stat'}
-    - {symerror: 0.0005, label: 'sys'}
-  - value: 1.0
+    - {symerror: 0.00007, label: 'corr'}
+    - {symerror: 0.00019, label: 'stat'}
+    - {symerror: 0.00019, label: 'sys'}
+  - value: 0.998399
     errors:
-    - {symerror: 0.0004, label: 'stat'}
-    - {symerror: 0.0004, label: 'sys'}
-  - value: 1.0
+    - {symerror: 0.00008, label: 'corr'}
+    - {symerror: 0.00010, label: 'stat'}
+    - {symerror: 0.00010, label: 'sys'}
+  - value: 0.992164
     errors:
+    - {symerror: 0.00009, label: 'corr'}
+    - {symerror: 7e-050, label: 'stat'}
+    - {symerror: 7e-050, label: 'sys'}
+  - value: 0.985247
+    errors:
+    - {symerror: 0.00011, label: 'corr'}
+    - {symerror: 0.00019, label: 'stat'}
+    - {symerror: 0.00019, label: 'sys'}
+  - value: 0.979542
+    errors:
+    - {symerror: 0.0002, label: 'corr'}
     - {symerror: 0.0005, label: 'stat'}
-    - {symerror: 0.0004, label: 'sys'}
-  - value: 1.0
-    errors:
-    - {symerror: 0.0005, label: 'stat'}
-    - {symerror: 0.00035, label: 'sys'}
-  - value: 1.0
-    errors:
-    - {symerror: 0.0006, label: 'stat'}
-    - {symerror: 0.0006, label: 'sys'}
-  - value: 0.9
-    errors:
-    - {symerror: 0.0008, label: 'stat'}
     - {symerror: 0.0005, label: 'sys'}
-- header: {name: '$Trig x Assoc pT = 2-4 x 1-2 GeV/c$'}
+- header: {name: '$Y$'}
   qualifiers:
-  - {name: '$p_T$', value: '40-50%'}
+  - {name: '$p_{T}^{trig}$', value: '2-4'}
+  - {name: '$p_{T}^{assoc}$', value: '0.5-1'}
+  - {name: 'centrality', value: '10-20%'}
   values:
-  - value: 0.9
+  - value: 0.979884
     errors:
-    - {symerror: 0.0014, label: 'stat'}
-    - {symerror: 0.0023, label: 'sys'}
-  - value: 0.9
+    - {symerror: 0.0003, label: 'corr'}
+    - {symerror: 0.0011, label: 'stat'}
+    - {symerror: 0.0011, label: 'sys'}
+  - value: 0.980819
     errors:
+    - {symerror: 0.00024, label: 'corr'}
+    - {symerror: 0.00035, label: 'stat'}
+    - {symerror: 0.00035, label: 'sys'}
+  - value: 0.985984
+    errors:
+    - {symerror: 0.00018, label: 'corr'}
+    - {symerror: 0.00013, label: 'stat'}
+    - {symerror: 0.00013, label: 'sys'}
+  - value: 0.99536
+    errors:
+    - {symerror: 0.00016, label: 'corr'}
+    - {symerror: 0.00017, label: 'stat'}
+    - {symerror: 0.00017, label: 'sys'}
+  - value: 1.00691
+    errors:
+    - {symerror: 0.00014, label: 'corr'}
+    - {symerror: 0.00021, label: 'stat'}
+    - {symerror: 0.00021, label: 'sys'}
+  - value: 1.01614
+    errors:
+    - {symerror: 0.0001, label: 'corr'}
+    - {symerror: 0.0005, label: 'stat'}
+    - {symerror: 0.0005, label: 'sys'}
+  - value: 1.01637
+    errors:
+    - {symerror: 0.00014, label: 'corr'}
+    - {symerror: 0.00032, label: 'stat'}
+    - {symerror: 0.00032, label: 'sys'}
+  - value: 1.00724
+    errors:
+    - {symerror: 0.00014, label: 'corr'}
+    - {symerror: 7e-050, label: 'stat'}
+    - {symerror: 7e-050, label: 'sys'}
+  - value: 0.995548
+    errors:
+    - {symerror: 0.00016, label: 'corr'}
+    - {symerror: 4e-050, label: 'stat'}
+    - {symerror: 4e-050, label: 'sys'}
+  - value: 0.986464
+    errors:
+    - {symerror: 0.0002, label: 'corr'}
+    - {symerror: 0.0004, label: 'stat'}
+    - {symerror: 0.0004, label: 'sys'}
+  - value: 0.980728
+    errors:
+    - {symerror: 0.0002, label: 'corr'}
+    - {symerror: 0.0005, label: 'stat'}
+    - {symerror: 0.0005, label: 'sys'}
+  - value: 0.979368
+    errors:
+    - {symerror: 0.00034, label: 'corr'}
+    - {symerror: 0.00029, label: 'stat'}
+    - {symerror: 0.00029, label: 'sys'}
+  - value: 0.982226
+    errors:
+    - {symerror: 0.00031, label: 'corr'}
+    - {symerror: 0.00031, label: 'stat'}
+    - {symerror: 0.00031, label: 'sys'}
+  - value: 0.987789
+    errors:
+    - {symerror: 0.0002, label: 'corr'}
+    - {symerror: 0.0005, label: 'stat'}
+    - {symerror: 0.0005, label: 'sys'}
+  - value: 0.993339
+    errors:
+    - {symerror: 0.00019, label: 'corr'}
+    - {symerror: 0.00032, label: 'stat'}
+    - {symerror: 0.00032, label: 'sys'}
+  - value: 0.999034
+    errors:
+    - {symerror: 0.00016, label: 'corr'}
+    - {symerror: 0.00026, label: 'stat'}
+    - {symerror: 0.00026, label: 'sys'}
+  - value: 1.00383
+    errors:
+    - {symerror: 0.0002, label: 'corr'}
+    - {symerror: 0.0004, label: 'stat'}
+    - {symerror: 0.0004, label: 'sys'}
+  - value: 1.0059
+    errors:
+    - {symerror: 0.00014, label: 'corr'}
+    - {symerror: 0.00012, label: 'stat'}
+    - {symerror: 0.00012, label: 'sys'}
+  - value: 1.00618
+    errors:
+    - {symerror: 0.00014, label: 'corr'}
+    - {symerror: 0.00011, label: 'stat'}
+    - {symerror: 0.00011, label: 'sys'}
+  - value: 1.00368
+    errors:
+    - {symerror: 0.00015, label: 'corr'}
+    - {symerror: 0.00025, label: 'stat'}
+    - {symerror: 0.00025, label: 'sys'}
+  - value: 0.999368
+    errors:
+    - {symerror: 0.00016, label: 'corr'}
+    - {symerror: 4e-050, label: 'stat'}
+    - {symerror: 4e-050, label: 'sys'}
+  - value: 0.993934
+    errors:
+    - {symerror: 0.00019, label: 'corr'}
+    - {symerror: 0.00022, label: 'stat'}
+    - {symerror: 0.00022, label: 'sys'}
+  - value: 0.987501
+    errors:
+    - {symerror: 0.00023, label: 'corr'}
+    - {symerror: 0.00028, label: 'stat'}
+    - {symerror: 0.00028, label: 'sys'}
+  - value: 0.981691
+    errors:
+    - {symerror: 0.00030, label: 'corr'}
+    - {symerror: 0.00023, label: 'stat'}
+    - {symerror: 0.00023, label: 'sys'}
+- header: {name: '$Y$'}
+  qualifiers:
+  - {name: '$p_{T}^{trig}$', value: '2-4'}
+  - {name: '$p_{T}^{assoc}$', value: '1-2'}
+  - {name: 'centrality', value: '10-20%'}
+  values:
+  - value: 0.96431
+    errors:
+    - {symerror: 0.0005, label: 'corr'}
+    - {symerror: 0.0009, label: 'stat'}
+    - {symerror: 0.0009, label: 'sys'}
+  - value: 0.964716
+    errors:
+    - {symerror: 0.00037, label: 'corr'}
+    - {symerror: 0.00032, label: 'stat'}
+    - {symerror: 0.00032, label: 'sys'}
+  - value: 0.973705
+    errors:
+    - {symerror: 0.00028, label: 'corr'}
+    - {symerror: 0.00026, label: 'stat'}
+    - {symerror: 0.00026, label: 'sys'}
+  - value: 0.992225
+    errors:
+    - {symerror: 0.000249, label: 'corr'}
+    - {symerror: 2.6e-050, label: 'stat'}
+    - {symerror: 2.6e-050, label: 'sys'}
+  - value: 1.01534
+    errors:
+    - {symerror: 0.00022, label: 'corr'}
+    - {symerror: 0.00013, label: 'stat'}
+    - {symerror: 0.00013, label: 'sys'}
+  - value: 1.03256
+    errors:
+    - {symerror: 0.00021, label: 'corr'}
+    - {symerror: 0.00014, label: 'stat'}
+    - {symerror: 0.00014, label: 'sys'}
+  - value: 1.03306
+    errors:
+    - {symerror: 0.0002, label: 'corr'}
+    - {symerror: 0.0004, label: 'stat'}
+    - {symerror: 0.0004, label: 'sys'}
+  - value: 1.01552
+    errors:
+    - {symerror: 0.00022, label: 'corr'}
+    - {symerror: 0.00024, label: 'stat'}
+    - {symerror: 0.00024, label: 'sys'}
+  - value: 0.99207
+    errors:
+    - {symerror: 0.00025, label: 'corr'}
+    - {symerror: 0.00010, label: 'stat'}
+    - {symerror: 0.00010, label: 'sys'}
+  - value: 0.973653
+    errors:
+    - {symerror: 0.00028, label: 'corr'}
+    - {symerror: 5e-050, label: 'stat'}
+    - {symerror: 5e-050, label: 'sys'}
+  - value: 0.964828
+    errors:
+    - {symerror: 0.00036, label: 'corr'}
+    - {symerror: 0.00028, label: 'stat'}
+    - {symerror: 0.00028, label: 'sys'}
+  - value: 0.963501
+    errors:
+    - {symerror: 0.00052, label: 'corr'}
+    - {symerror: 6e-050, label: 'stat'}
+    - {symerror: 6e-050, label: 'sys'}
+  - value: 0.970585
+    errors:
+    - {symerror: 0.0005, label: 'corr'}
+    - {symerror: 0.0011, label: 'stat'}
+    - {symerror: 0.0011, label: 'sys'}
+  - value: 0.979128
+    errors:
+    - {symerror: 0.00037, label: 'corr'}
+    - {symerror: 0.00014, label: 'stat'}
+    - {symerror: 0.00014, label: 'sys'}
+  - value: 0.987886
+    errors:
+    - {symerror: 0.00030, label: 'corr'}
+    - {symerror: 0.00019, label: 'stat'}
+    - {symerror: 0.00019, label: 'sys'}
+  - value: 0.996555
+    errors:
+    - {symerror: 0.00025, label: 'corr'}
+    - {symerror: 0.00020, label: 'stat'}
+    - {symerror: 0.00020, label: 'sys'}
+  - value: 1.00349
+    errors:
+    - {symerror: 0.00023, label: 'corr'}
+    - {symerror: 0.00032, label: 'stat'}
+    - {symerror: 0.00032, label: 'sys'}
+  - value: 1.00696
+    errors:
+    - {symerror: 0.00022, label: 'corr'}
+    - {symerror: 0.00035, label: 'stat'}
+    - {symerror: 0.00035, label: 'sys'}
+  - value: 1.00699
+    errors:
+    - {symerror: 0.0002, label: 'corr'}
+    - {symerror: 0.0004, label: 'stat'}
+    - {symerror: 0.0004, label: 'sys'}
+  - value: 1.00385
+    errors:
+    - {symerror: 0.00023, label: 'corr'}
+    - {symerror: 0.00011, label: 'stat'}
+    - {symerror: 0.00011, label: 'sys'}
+  - value: 0.99677
+    errors:
+    - {symerror: 0.00025, label: 'corr'}
+    - {symerror: 0.00032, label: 'stat'}
+    - {symerror: 0.00032, label: 'sys'}
+  - value: 0.98852
+    errors:
+    - {symerror: 0.00030, label: 'corr'}
+    - {symerror: 0.00022, label: 'stat'}
+    - {symerror: 0.00022, label: 'sys'}
+  - value: 0.978601
+    errors:
+    - {symerror: 0.0004, label: 'corr'}
+    - {symerror: 0.0004, label: 'stat'}
+    - {symerror: 0.0004, label: 'sys'}
+  - value: 0.970418
+    errors:
+    - {symerror: 0.00048, label: 'corr'}
+    - {symerror: 0.00023, label: 'stat'}
+    - {symerror: 0.00023, label: 'sys'}
+- header: {name: '$Y$'}
+  qualifiers:
+  - {name: '$p_{T}^{trig}$', value: '2-4'}
+  - {name: '$p_{T}^{assoc}$', value: '2-4'}
+  - {name: 'centrality', value: '10-20%'}
+  values:
+  - value: 0.943085
+    errors:
+    - {symerror: 0.0016, label: 'corr'}
     - {symerror: 0.0010, label: 'stat'}
     - {symerror: 0.0010, label: 'sys'}
-  - value: 0.9
+  - value: 0.942976
     errors:
+    - {symerror: 0.0012, label: 'corr'}
+    - {symerror: 0.0009, label: 'stat'}
+    - {symerror: 0.0009, label: 'sys'}
+  - value: 0.957859
+    errors:
+    - {symerror: 0.00089, label: 'corr'}
+    - {symerror: 0.00016, label: 'stat'}
+    - {symerror: 0.00016, label: 'sys'}
+  - value: 0.985815
+    errors:
+    - {symerror: 0.0008, label: 'corr'}
+    - {symerror: 0.0007, label: 'stat'}
+    - {symerror: 0.0007, label: 'sys'}
+  - value: 1.03162
+    errors:
+    - {symerror: 0.00071, label: 'corr'}
+    - {symerror: 0.00017, label: 'stat'}
+    - {symerror: 0.00017, label: 'sys'}
+  - value: 1.07391
+    errors:
+    - {symerror: 0.0007, label: 'corr'}
+    - {symerror: 0.0005, label: 'stat'}
+    - {symerror: 0.0005, label: 'sys'}
+  - value: 1.07391
+    errors:
+    - {symerror: 0.0007, label: 'corr'}
+    - {symerror: 0.0005, label: 'stat'}
+    - {symerror: 0.0005, label: 'sys'}
+  - value: 1.03162
+    errors:
+    - {symerror: 0.00071, label: 'corr'}
+    - {symerror: 0.00017, label: 'stat'}
+    - {symerror: 0.00017, label: 'sys'}
+  - value: 0.985816
+    errors:
+    - {symerror: 0.0008, label: 'corr'}
+    - {symerror: 0.0007, label: 'stat'}
+    - {symerror: 0.0007, label: 'sys'}
+  - value: 0.957859
+    errors:
+    - {symerror: 0.00089, label: 'corr'}
+    - {symerror: 0.00016, label: 'stat'}
+    - {symerror: 0.00016, label: 'sys'}
+  - value: 0.942975
+    errors:
+    - {symerror: 0.0012, label: 'corr'}
+    - {symerror: 0.0009, label: 'stat'}
+    - {symerror: 0.0009, label: 'sys'}
+  - value: 0.943085
+    errors:
+    - {symerror: 0.0016, label: 'corr'}
+    - {symerror: 0.0010, label: 'stat'}
+    - {symerror: 0.0010, label: 'sys'}
+  - value: 0.951721
+    errors:
+    - {symerror: 0.0016, label: 'corr'}
+    - {symerror: 0.0012, label: 'stat'}
+    - {symerror: 0.0012, label: 'sys'}
+  - value: 0.964218
+    errors:
+    - {symerror: 0.0012, label: 'corr'}
+    - {symerror: 0.0007, label: 'stat'}
+    - {symerror: 0.0007, label: 'sys'}
+  - value: 0.97523
+    errors:
+    - {symerror: 0.0009, label: 'corr'}
+    - {symerror: 0.0013, label: 'stat'}
+    - {symerror: 0.0013, label: 'sys'}
+  - value: 0.98678
+    errors:
+    - {symerror: 0.00081, label: 'corr'}
+    - {symerror: 0.00019, label: 'stat'}
+    - {symerror: 0.00019, label: 'sys'}
+  - value: 0.995602
+    errors:
+    - {symerror: 0.0007, label: 'corr'}
+    - {symerror: 0.0004, label: 'stat'}
+    - {symerror: 0.0004, label: 'sys'}
+  - value: 0.999965
+    errors:
+    - {symerror: 0.00070, label: 'corr'}
+    - {symerror: 0.00028, label: 'stat'}
+    - {symerror: 0.00028, label: 'sys'}
+  - value: 0.999965
+    errors:
+    - {symerror: 0.00070, label: 'corr'}
+    - {symerror: 0.00028, label: 'stat'}
+    - {symerror: 0.00028, label: 'sys'}
+  - value: 0.995602
+    errors:
+    - {symerror: 0.0007, label: 'corr'}
+    - {symerror: 0.0004, label: 'stat'}
+    - {symerror: 0.0004, label: 'sys'}
+  - value: 0.98678
+    errors:
+    - {symerror: 0.00081, label: 'corr'}
+    - {symerror: 0.00019, label: 'stat'}
+    - {symerror: 0.00019, label: 'sys'}
+  - value: 0.97523
+    errors:
+    - {symerror: 0.0009, label: 'corr'}
+    - {symerror: 0.0013, label: 'stat'}
+    - {symerror: 0.0013, label: 'sys'}
+  - value: 0.964216
+    errors:
+    - {symerror: 0.0012, label: 'corr'}
+    - {symerror: 0.0007, label: 'stat'}
+    - {symerror: 0.0007, label: 'sys'}
+  - value: 0.951721
+    errors:
+    - {symerror: 0.0016, label: 'corr'}
+    - {symerror: 0.0012, label: 'stat'}
+    - {symerror: 0.0012, label: 'sys'}
+- header: {name: '$Y$'}
+  qualifiers:
+  - {name: '$p_{T}^{trig}$', value: '1-2'}
+  - {name: '$p_{T}^{assoc}$', value: '0.5-1'}
+  - {name: 'centrality', value: '20-30%'}
+  values:
+  - value: 0.974728
+    errors:
+    - {symerror: 0.0001, label: 'corr'}
+    - {symerror: 0.0005, label: 'stat'}
+    - {symerror: 0.0005, label: 'sys'}
+  - value: 0.977983
+    errors:
+    - {symerror: 0.0001, label: 'corr'}
+    - {symerror: 0.0004, label: 'stat'}
+    - {symerror: 0.0004, label: 'sys'}
+  - value: 0.986131
+    errors:
+    - {symerror: 0.00007, label: 'corr'}
+    - {symerror: 0.00016, label: 'stat'}
+    - {symerror: 0.00016, label: 'sys'}
+  - value: 0.997573
+    errors:
+    - {symerror: 0.00007, label: 'corr'}
+    - {symerror: 6e-050, label: 'stat'}
+    - {symerror: 6e-050, label: 'sys'}
+  - value: 1.00941
+    errors:
+    - {symerror: 0.00006, label: 'corr'}
+    - {symerror: 0.00020, label: 'stat'}
+    - {symerror: 0.00020, label: 'sys'}
+  - value: 1.01575
+    errors:
+    - {symerror: 0.00006, label: 'corr'}
+    - {symerror: 0.00027, label: 'stat'}
+    - {symerror: 0.00027, label: 'sys'}
+  - value: 1.01575
+    errors:
+    - {symerror: 0.00006, label: 'corr'}
+    - {symerror: 0.00020, label: 'stat'}
+    - {symerror: 0.00020, label: 'sys'}
+  - value: 1.00944
+    errors:
+    - {symerror: 0.00006, label: 'corr'}
+    - {symerror: 0.00021, label: 'stat'}
+    - {symerror: 0.00021, label: 'sys'}
+  - value: 0.997713
+    errors:
+    - {symerror: 0.00006, label: 'corr'}
+    - {symerror: 6e-050, label: 'stat'}
+    - {symerror: 6e-050, label: 'sys'}
+  - value: 0.986107
+    errors:
+    - {symerror: 0.00007, label: 'corr'}
+    - {symerror: 0.00016, label: 'stat'}
+    - {symerror: 0.00016, label: 'sys'}
+  - value: 0.978047
+    errors:
+    - {symerror: 0.0001, label: 'corr'}
+    - {symerror: 0.0004, label: 'stat'}
+    - {symerror: 0.0004, label: 'sys'}
+  - value: 0.974715
+    errors:
+    - {symerror: 0.0001, label: 'corr'}
+    - {symerror: 0.0004, label: 'stat'}
+    - {symerror: 0.0004, label: 'sys'}
+  - value: 0.976741
+    errors:
+    - {symerror: 0.00012, label: 'corr'}
+    - {symerror: 0.00035, label: 'stat'}
+    - {symerror: 0.00035, label: 'sys'}
+  - value: 0.982526
+    errors:
+    - {symerror: 0.00010, label: 'corr'}
+    - {symerror: 0.00026, label: 'stat'}
+    - {symerror: 0.00026, label: 'sys'}
+  - value: 0.99038
+    errors:
+    - {symerror: 0.00008, label: 'corr'}
+    - {symerror: 0.00011, label: 'stat'}
+    - {symerror: 0.00011, label: 'sys'}
+  - value: 0.998522
+    errors:
+    - {symerror: 0.000067, label: 'corr'}
+    - {symerror: 1.5e-050, label: 'stat'}
+    - {symerror: 1.5e-050, label: 'sys'}
+  - value: 1.00524
+    errors:
+    - {symerror: 0.00006, label: 'corr'}
+    - {symerror: 8e-050, label: 'stat'}
+    - {symerror: 8e-050, label: 'sys'}
+  - value: 1.00878
+    errors:
+    - {symerror: 0.00006, label: 'corr'}
+    - {symerror: 0.00023, label: 'stat'}
+    - {symerror: 0.00023, label: 'sys'}
+  - value: 1.0088
+    errors:
+    - {symerror: 0.00006, label: 'corr'}
+    - {symerror: 0.00021, label: 'stat'}
+    - {symerror: 0.00021, label: 'sys'}
+  - value: 1.00514
+    errors:
+    - {symerror: 0.00006, label: 'corr'}
+    - {symerror: 5e-050, label: 'stat'}
+    - {symerror: 5e-050, label: 'sys'}
+  - value: 0.998591
+    errors:
+    - {symerror: 0.000067, label: 'corr'}
+    - {symerror: 3.4e-050, label: 'stat'}
+    - {symerror: 3.4e-050, label: 'sys'}
+  - value: 0.990468
+    errors:
+    - {symerror: 0.00008, label: 'corr'}
+    - {symerror: 0.00017, label: 'stat'}
+    - {symerror: 0.00017, label: 'sys'}
+  - value: 0.982274
+    errors:
+    - {symerror: 0.00009, label: 'corr'}
+    - {symerror: 0.00033, label: 'stat'}
+    - {symerror: 0.00033, label: 'sys'}
+  - value: 0.976441
+    errors:
+    - {symerror: 0.00012, label: 'corr'}
+    - {symerror: 0.00034, label: 'stat'}
+    - {symerror: 0.00034, label: 'sys'}
+- header: {name: '$Y$'}
+  qualifiers:
+  - {name: '$p_{T}^{trig}$', value: '1-2'}
+  - {name: '$p_{T}^{assoc}$', value: '1-2'}
+  - {name: 'centrality', value: '20-30%'}
+  values:
+  - value: 0.956311
+    errors:
+    - {symerror: 0.0002, label: 'corr'}
+    - {symerror: 0.0009, label: 'stat'}
+    - {symerror: 0.0009, label: 'sys'}
+  - value: 0.960545
+    errors:
+    - {symerror: 0.00015, label: 'corr'}
+    - {symerror: 5e-050, label: 'stat'}
+    - {symerror: 5e-050, label: 'sys'}
+  - value: 0.974052
+    errors:
+    - {symerror: 0.00011, label: 'corr'}
+    - {symerror: 0.00014, label: 'stat'}
+    - {symerror: 0.00014, label: 'sys'}
+  - value: 0.994201
+    errors:
+    - {symerror: 0.00010, label: 'corr'}
+    - {symerror: 0.00013, label: 'stat'}
+    - {symerror: 0.00013, label: 'sys'}
+  - value: 1.01607
+    errors:
+    - {symerror: 0.00009, label: 'corr'}
+    - {symerror: 0.00012, label: 'stat'}
+    - {symerror: 0.00012, label: 'sys'}
+  - value: 1.02919
+    errors:
+    - {symerror: 0.00009, label: 'corr'}
+    - {symerror: 0.00021, label: 'stat'}
+    - {symerror: 0.00021, label: 'sys'}
+  - value: 1.02919
+    errors:
+    - {symerror: 0.00009, label: 'corr'}
+    - {symerror: 0.00021, label: 'stat'}
+    - {symerror: 0.00021, label: 'sys'}
+  - value: 1.01607
+    errors:
+    - {symerror: 0.00009, label: 'corr'}
+    - {symerror: 0.00012, label: 'stat'}
+    - {symerror: 0.00012, label: 'sys'}
+  - value: 0.994201
+    errors:
+    - {symerror: 0.00010, label: 'corr'}
+    - {symerror: 0.00013, label: 'stat'}
+    - {symerror: 0.00013, label: 'sys'}
+  - value: 0.974052
+    errors:
+    - {symerror: 0.00011, label: 'corr'}
+    - {symerror: 0.00014, label: 'stat'}
+    - {symerror: 0.00014, label: 'sys'}
+  - value: 0.960545
+    errors:
+    - {symerror: 0.00015, label: 'corr'}
+    - {symerror: 5e-050, label: 'stat'}
+    - {symerror: 5e-050, label: 'sys'}
+  - value: 0.956311
+    errors:
+    - {symerror: 0.0002, label: 'corr'}
+    - {symerror: 0.0009, label: 'stat'}
+    - {symerror: 0.0009, label: 'sys'}
+  - value: 0.960889
+    errors:
+    - {symerror: 0.0002, label: 'corr'}
+    - {symerror: 0.0006, label: 'stat'}
+    - {symerror: 0.0006, label: 'sys'}
+  - value: 0.971052
+    errors:
+    - {symerror: 0.00015, label: 'corr'}
+    - {symerror: 0.00021, label: 'stat'}
+    - {symerror: 0.00021, label: 'sys'}
+  - value: 0.984347
+    errors:
+    - {symerror: 0.00012, label: 'corr'}
+    - {symerror: 0.00014, label: 'stat'}
+    - {symerror: 0.00014, label: 'sys'}
+  - value: 0.997459
+    errors:
+    - {symerror: 0.00010, label: 'corr'}
+    - {symerror: 8e-050, label: 'stat'}
+    - {symerror: 8e-050, label: 'sys'}
+  - value: 1.00821
+    errors:
+    - {symerror: 0.00010, label: 'corr'}
+    - {symerror: 0.00026, label: 'stat'}
+    - {symerror: 0.00026, label: 'sys'}
+  - value: 1.01417
+    errors:
+    - {symerror: 0.00009, label: 'corr'}
+    - {symerror: 0.00030, label: 'stat'}
+    - {symerror: 0.00030, label: 'sys'}
+  - value: 1.01417
+    errors:
+    - {symerror: 0.00009, label: 'corr'}
+    - {symerror: 0.00030, label: 'stat'}
+    - {symerror: 0.00030, label: 'sys'}
+  - value: 1.00821
+    errors:
+    - {symerror: 0.00010, label: 'corr'}
+    - {symerror: 0.00026, label: 'stat'}
+    - {symerror: 0.00026, label: 'sys'}
+  - value: 0.997459
+    errors:
+    - {symerror: 0.00010, label: 'corr'}
+    - {symerror: 8e-050, label: 'stat'}
+    - {symerror: 8e-050, label: 'sys'}
+  - value: 0.984347
+    errors:
+    - {symerror: 0.00012, label: 'corr'}
+    - {symerror: 0.00014, label: 'stat'}
+    - {symerror: 0.00014, label: 'sys'}
+  - value: 0.971052
+    errors:
+    - {symerror: 0.00015, label: 'corr'}
+    - {symerror: 0.00021, label: 'stat'}
+    - {symerror: 0.00021, label: 'sys'}
+  - value: 0.960889
+    errors:
+    - {symerror: 0.0002, label: 'corr'}
+    - {symerror: 0.0006, label: 'stat'}
+    - {symerror: 0.0006, label: 'sys'}
+- header: {name: '$Y$'}
+  qualifiers:
+  - {name: '$p_{T}^{trig}$', value: '2-4'}
+  - {name: '$p_{T}^{assoc}$', value: '0.5-1'}
+  - {name: 'centrality', value: '20-30%'}
+  values:
+  - value: 0.962453
+    errors:
+    - {symerror: 0.00042, label: 'corr'}
+    - {symerror: 0.00020, label: 'stat'}
+    - {symerror: 0.00020, label: 'sys'}
+  - value: 0.966576
+    errors:
+    - {symerror: 0.0003, label: 'corr'}
+    - {symerror: 0.0005, label: 'stat'}
+    - {symerror: 0.0005, label: 'sys'}
+  - value: 0.976978
+    errors:
+    - {symerror: 0.00024, label: 'corr'}
+    - {symerror: 8e-050, label: 'stat'}
+    - {symerror: 8e-050, label: 'sys'}
+  - value: 0.99345
+    errors:
+    - {symerror: 0.00021, label: 'corr'}
+    - {symerror: 0.00020, label: 'stat'}
+    - {symerror: 0.00020, label: 'sys'}
+  - value: 1.01174
+    errors:
+    - {symerror: 0.00018, label: 'corr'}
+    - {symerror: 0.00025, label: 'stat'}
+    - {symerror: 0.00025, label: 'sys'}
+  - value: 1.02498
+    errors:
+    - {symerror: 0.0002, label: 'corr'}
+    - {symerror: 0.0007, label: 'stat'}
+    - {symerror: 0.0007, label: 'sys'}
+  - value: 1.02506
+    errors:
+    - {symerror: 0.0002, label: 'corr'}
+    - {symerror: 0.0005, label: 'stat'}
+    - {symerror: 0.0005, label: 'sys'}
+  - value: 1.01215
+    errors:
+    - {symerror: 0.00018, label: 'corr'}
+    - {symerror: 0.00017, label: 'stat'}
+    - {symerror: 0.00017, label: 'sys'}
+  - value: 0.993517
+    errors:
+    - {symerror: 0.0002, label: 'corr'}
+    - {symerror: 0.0004, label: 'stat'}
+    - {symerror: 0.0004, label: 'sys'}
+  - value: 0.977403
+    errors:
+    - {symerror: 0.00023, label: 'corr'}
+    - {symerror: 0.00028, label: 'stat'}
+    - {symerror: 0.00028, label: 'sys'}
+  - value: 0.966558
+    errors:
+    - {symerror: 0.0003, label: 'corr'}
+    - {symerror: 0.0009, label: 'stat'}
+    - {symerror: 0.0009, label: 'sys'}
+  - value: 0.962921
+    errors:
+    - {symerror: 0.0004, label: 'corr'}
+    - {symerror: 0.0005, label: 'stat'}
+    - {symerror: 0.0005, label: 'sys'}
+  - value: 0.96734
+    errors:
+    - {symerror: 0.0004, label: 'corr'}
+    - {symerror: 0.0004, label: 'stat'}
+    - {symerror: 0.0004, label: 'sys'}
+  - value: 0.97562
+    errors:
+    - {symerror: 0.00031, label: 'corr'}
+    - {symerror: 0.00032, label: 'stat'}
+    - {symerror: 0.00032, label: 'sys'}
+  - value: 0.98762
+    errors:
+    - {symerror: 0.00025, label: 'corr'}
+    - {symerror: 0.00034, label: 'stat'}
+    - {symerror: 0.00034, label: 'sys'}
+  - value: 0.998918
+    errors:
+    - {symerror: 0.00021, label: 'corr'}
+    - {symerror: 0.00017, label: 'stat'}
+    - {symerror: 0.00017, label: 'sys'}
+  - value: 1.00831
+    errors:
+    - {symerror: 0.00020, label: 'corr'}
+    - {symerror: 0.00023, label: 'stat'}
+    - {symerror: 0.00023, label: 'sys'}
+  - value: 1.01321
+    errors:
+    - {symerror: 0.00019, label: 'corr'}
+    - {symerror: 0.00031, label: 'stat'}
+    - {symerror: 0.00031, label: 'sys'}
+  - value: 1.01345
+    errors:
+    - {symerror: 0.00019, label: 'corr'}
+    - {symerror: 0.00030, label: 'stat'}
+    - {symerror: 0.00030, label: 'sys'}
+  - value: 1.00836
+    errors:
+    - {symerror: 0.0002, label: 'corr'}
+    - {symerror: 0.0004, label: 'stat'}
+    - {symerror: 0.0004, label: 'sys'}
+  - value: 0.998868
+    errors:
+    - {symerror: 0.00021, label: 'corr'}
+    - {symerror: 5e-050, label: 'stat'}
+    - {symerror: 5e-050, label: 'sys'}
+  - value: 0.987351
+    errors:
+    - {symerror: 0.00025, label: 'corr'}
+    - {symerror: 0.00027, label: 'stat'}
+    - {symerror: 0.00027, label: 'sys'}
+  - value: 0.976037
+    errors:
+    - {symerror: 0.00030, label: 'corr'}
+    - {symerror: 0.00034, label: 'stat'}
+    - {symerror: 0.00034, label: 'sys'}
+  - value: 0.966246
+    errors:
+    - {symerror: 0.0004, label: 'corr'}
     - {symerror: 0.0008, label: 'stat'}
     - {symerror: 0.0008, label: 'sys'}
-  - value: 1.0
-    errors:
-    - {symerror: 0.0007, label: 'stat'}
-    - {symerror: 0.0014, label: 'sys'}
-  - value: 1.0
-    errors:
-    - {symerror: 0.0006, label: 'stat'}
-    - {symerror: 0.0006, label: 'sys'}
-  - value: 1.1
-    errors:
-    - {symerror: 0.0006, label: 'stat'}
-    - {symerror: 0.00016, label: 'sys'}
-  - value: 1.1
-    errors:
-    - {symerror: 0.0006, label: 'stat'}
-    - {symerror: 0.0007, label: 'sys'}
-  - value: 1.0
-    errors:
-    - {symerror: 0.0006, label: 'stat'}
-    - {symerror: 0.00011, label: 'sys'}
-  - value: 1.0
-    errors:
-    - {symerror: 0.0007, label: 'stat'}
-    - {symerror: 0.0016, label: 'sys'}
-  - value: 0.9
-    errors:
-    - {symerror: 0.0008, label: 'stat'}
-    - {symerror: 0.0007, label: 'sys'}
-  - value: 0.9
-    errors:
-    - {symerror: 0.0010, label: 'stat'}
-    - {symerror: 0.0005, label: 'sys'}
-  - value: 0.9
-    errors:
-    - {symerror: 0.0014, label: 'stat'}
-    - {symerror: 0.00029, label: 'sys'}
-  - value: 0.9
-    errors:
-    - {symerror: 0.0013, label: 'stat'}
-    - {symerror: 0.0011, label: 'sys'}
-  - value: 0.9
-    errors:
-    - {symerror: 0.0010, label: 'stat'}
-    - {symerror: 0.0011, label: 'sys'}
-  - value: 1.0
-    errors:
-    - {symerror: 0.0008, label: 'stat'}
-    - {symerror: 0.0004, label: 'sys'}
-  - value: 1.0
-    errors:
-    - {symerror: 0.0007, label: 'stat'}
-    - {symerror: 0.0006, label: 'sys'}
-  - value: 1.0
-    errors:
-    - {symerror: 0.0007, label: 'stat'}
-    - {symerror: 0.00035, label: 'sys'}
-  - value: 1.0
-    errors:
-    - {symerror: 0.0006, label: 'stat'}
-    - {symerror: 0.0006, label: 'sys'}
-  - value: 1.0
-    errors:
-    - {symerror: 0.0006, label: 'stat'}
-    - {symerror: 0.00017, label: 'sys'}
-  - value: 1.0
-    errors:
-    - {symerror: 0.0007, label: 'stat'}
-    - {symerror: 0.00026, label: 'sys'}
-  - value: 1.0
-    errors:
-    - {symerror: 0.0007, label: 'stat'}
-    - {symerror: 0.0004, label: 'sys'}
-  - value: 1.0
-    errors:
-    - {symerror: 0.0008, label: 'stat'}
-    - {symerror: 0.0006, label: 'sys'}
-  - value: 0.9
-    errors:
-    - {symerror: 0.0010, label: 'stat'}
-    - {symerror: 0.0004, label: 'sys'}
-  - value: 0.9
-    errors:
-    - {symerror: 0.0013, label: 'stat'}
-    - {symerror: 0.0018, label: 'sys'}
-- header: {name: '$Trig x Assoc pT = 2-4 x 2-4 GeV/c$'}
+- header: {name: '$Y$'}
   qualifiers:
-  - {name: '$p_T$', value: '40-50%'}
+  - {name: '$p_{T}^{trig}$', value: '2-4'}
+  - {name: '$p_{T}^{assoc}$', value: '1-2'}
+  - {name: 'centrality', value: '20-30%'}
   values:
-  - value: 0.8
+  - value: 0.936011
     errors:
-    - {symerror: 0.004, label: 'stat'}
-    - {symerror: 0.0012, label: 'sys'}
-  - value: 0.9
+    - {symerror: 0.0007, label: 'corr'}
+    - {symerror: 0.0010, label: 'stat'}
+    - {symerror: 0.0010, label: 'sys'}
+  - value: 0.940748
     errors:
-    - {symerror: 0.0030, label: 'stat'}
-    - {symerror: 0.0023, label: 'sys'}
-  - value: 0.9
+    - {symerror: 0.0005, label: 'corr'}
+    - {symerror: 0.0004, label: 'stat'}
+    - {symerror: 0.0004, label: 'sys'}
+  - value: 0.958274
     errors:
-    - {symerror: 0.0023, label: 'stat'}
-    - {symerror: 0.0025, label: 'sys'}
-  - value: 1.0
+    - {symerror: 0.00036, label: 'corr'}
+    - {symerror: 0.00017, label: 'stat'}
+    - {symerror: 0.00017, label: 'sys'}
+  - value: 0.988776
     errors:
-    - {symerror: 0.0021, label: 'stat'}
-    - {symerror: 0.0025, label: 'sys'}
-  - value: 1.1
+    - {symerror: 0.000321, label: 'corr'}
+    - {symerror: 3.3e-050, label: 'stat'}
+    - {symerror: 3.3e-050, label: 'sys'}
+  - value: 1.02483
     errors:
-    - {symerror: 0.0020, label: 'stat'}
+    - {symerror: 0.00029, label: 'corr'}
+    - {symerror: 0.00016, label: 'stat'}
+    - {symerror: 0.00016, label: 'sys'}
+  - value: 1.04978
+    errors:
+    - {symerror: 0.00028, label: 'corr'}
+    - {symerror: 0.00015, label: 'stat'}
+    - {symerror: 0.00015, label: 'sys'}
+  - value: 1.04933
+    errors:
+    - {symerror: 0.00028, label: 'corr'}
+    - {symerror: 0.00027, label: 'stat'}
+    - {symerror: 0.00027, label: 'sys'}
+  - value: 1.02405
+    errors:
+    - {symerror: 0.0003, label: 'corr'}
+    - {symerror: 0.0005, label: 'stat'}
     - {symerror: 0.0005, label: 'sys'}
-  - value: 1.2
+  - value: 0.988461
     errors:
-    - {symerror: 0.0020, label: 'stat'}
-    - {symerror: 0.0032, label: 'sys'}
-  - value: 1.2
-    errors:
-    - {symerror: 0.0020, label: 'stat'}
-    - {symerror: 0.0032, label: 'sys'}
-  - value: 1.1
-    errors:
-    - {symerror: 0.0020, label: 'stat'}
+    - {symerror: 0.0003, label: 'corr'}
+    - {symerror: 0.0005, label: 'stat'}
     - {symerror: 0.0005, label: 'sys'}
-  - value: 1.0
+  - value: 0.958975
     errors:
-    - {symerror: 0.0021, label: 'stat'}
-    - {symerror: 0.0025, label: 'sys'}
-  - value: 0.9
+    - {symerror: 0.00036, label: 'corr'}
+    - {symerror: 0.00019, label: 'stat'}
+    - {symerror: 0.00019, label: 'sys'}
+  - value: 0.940005
     errors:
-    - {symerror: 0.0023, label: 'stat'}
-    - {symerror: 0.0025, label: 'sys'}
-  - value: 0.9
+    - {symerror: 0.00046, label: 'corr'}
+    - {symerror: 0.00034, label: 'stat'}
+    - {symerror: 0.00034, label: 'sys'}
+  - value: 0.936455
     errors:
-    - {symerror: 0.0030, label: 'stat'}
-    - {symerror: 0.0023, label: 'sys'}
-  - value: 0.8
-    errors:
-    - {symerror: 0.004, label: 'stat'}
+    - {symerror: 0.0007, label: 'corr'}
+    - {symerror: 0.0012, label: 'stat'}
     - {symerror: 0.0012, label: 'sys'}
-  - value: 0.9
+  - value: 0.945193
     errors:
-    - {symerror: 0.004, label: 'stat'}
+    - {symerror: 0.0006, label: 'corr'}
+    - {symerror: 0.0006, label: 'stat'}
+    - {symerror: 0.0006, label: 'sys'}
+  - value: 0.959067
+    errors:
+    - {symerror: 0.0005, label: 'corr'}
+    - {symerror: 0.0007, label: 'stat'}
+    - {symerror: 0.0007, label: 'sys'}
+  - value: 0.976937
+    errors:
+    - {symerror: 0.00038, label: 'corr'}
+    - {symerror: 0.00016, label: 'stat'}
+    - {symerror: 0.00016, label: 'sys'}
+  - value: 0.995159
+    errors:
+    - {symerror: 0.00033, label: 'corr'}
+    - {symerror: 0.00033, label: 'stat'}
+    - {symerror: 0.00033, label: 'sys'}
+  - value: 1.00997
+    errors:
+    - {symerror: 0.0003, label: 'corr'}
+    - {symerror: 0.0005, label: 'stat'}
+    - {symerror: 0.0005, label: 'sys'}
+  - value: 1.01765
+    errors:
+    - {symerror: 0.0003, label: 'corr'}
+    - {symerror: 0.0008, label: 'stat'}
+    - {symerror: 0.0008, label: 'sys'}
+  - value: 1.01792
+    errors:
+    - {symerror: 0.0003, label: 'corr'}
+    - {symerror: 0.0006, label: 'stat'}
+    - {symerror: 0.0006, label: 'sys'}
+  - value: 1.00974
+    errors:
+    - {symerror: 0.00030, label: 'corr'}
+    - {symerror: 0.00013, label: 'stat'}
+    - {symerror: 0.00013, label: 'sys'}
+  - value: 0.995004
+    errors:
+    - {symerror: 0.00033, label: 'corr'}
+    - {symerror: 0.00032, label: 'stat'}
+    - {symerror: 0.00032, label: 'sys'}
+  - value: 0.97749
+    errors:
+    - {symerror: 0.00038, label: 'corr'}
+    - {symerror: 0.00014, label: 'stat'}
+    - {symerror: 0.00014, label: 'sys'}
+  - value: 0.958868
+    errors:
+    - {symerror: 0.00046, label: 'corr'}
+    - {symerror: 0.00013, label: 'stat'}
+    - {symerror: 0.00013, label: 'sys'}
+  - value: 0.944727
+    errors:
+    - {symerror: 0.0006, label: 'corr'}
+    - {symerror: 0.0007, label: 'stat'}
+    - {symerror: 0.0007, label: 'sys'}
+- header: {name: '$Y$'}
+  qualifiers:
+  - {name: '$p_{T}^{trig}$', value: '2-4'}
+  - {name: '$p_{T}^{assoc}$', value: '2-4'}
+  - {name: 'centrality', value: '20-30%'}
+  values:
+  - value: 0.906165
+    errors:
+    - {symerror: 0.0020, label: 'corr'}
+    - {symerror: 0.0024, label: 'stat'}
+    - {symerror: 0.0024, label: 'sys'}
+  - value: 0.908346
+    errors:
+    - {symerror: 0.0014, label: 'corr'}
+    - {symerror: 0.0021, label: 'stat'}
+    - {symerror: 0.0021, label: 'sys'}
+  - value: 0.934063
+    errors:
+    - {symerror: 0.00111, label: 'corr'}
+    - {symerror: 0.00031, label: 'stat'}
+    - {symerror: 0.00031, label: 'sys'}
+  - value: 0.97916
+    errors:
+    - {symerror: 0.0010, label: 'corr'}
+    - {symerror: 0.0015, label: 'stat'}
+    - {symerror: 0.0015, label: 'sys'}
+  - value: 1.04412
+    errors:
+    - {symerror: 0.0009, label: 'corr'}
+    - {symerror: 0.0005, label: 'stat'}
+    - {symerror: 0.0005, label: 'sys'}
+  - value: 1.10695
+    errors:
+    - {symerror: 0.0009, label: 'corr'}
+    - {symerror: 0.0017, label: 'stat'}
+    - {symerror: 0.0017, label: 'sys'}
+  - value: 1.10695
+    errors:
+    - {symerror: 0.0009, label: 'corr'}
+    - {symerror: 0.0017, label: 'stat'}
+    - {symerror: 0.0017, label: 'sys'}
+  - value: 1.04412
+    errors:
+    - {symerror: 0.0009, label: 'corr'}
+    - {symerror: 0.0005, label: 'stat'}
+    - {symerror: 0.0005, label: 'sys'}
+  - value: 0.97916
+    errors:
+    - {symerror: 0.0010, label: 'corr'}
+    - {symerror: 0.0015, label: 'stat'}
+    - {symerror: 0.0015, label: 'sys'}
+  - value: 0.934063
+    errors:
+    - {symerror: 0.00111, label: 'corr'}
+    - {symerror: 0.00031, label: 'stat'}
+    - {symerror: 0.00031, label: 'sys'}
+  - value: 0.908346
+    errors:
+    - {symerror: 0.0014, label: 'corr'}
+    - {symerror: 0.0021, label: 'stat'}
+    - {symerror: 0.0021, label: 'sys'}
+  - value: 0.906165
+    errors:
+    - {symerror: 0.0020, label: 'corr'}
+    - {symerror: 0.0024, label: 'stat'}
+    - {symerror: 0.0024, label: 'sys'}
+  - value: 0.916105
+    errors:
+    - {symerror: 0.0019, label: 'corr'}
+    - {symerror: 0.0018, label: 'stat'}
+    - {symerror: 0.0018, label: 'sys'}
+  - value: 0.935114
+    errors:
+    - {symerror: 0.0014, label: 'corr'}
+    - {symerror: 0.0016, label: 'stat'}
+    - {symerror: 0.0016, label: 'sys'}
+  - value: 0.957459
+    errors:
+    - {symerror: 0.0012, label: 'corr'}
+    - {symerror: 0.0007, label: 'stat'}
+    - {symerror: 0.0007, label: 'sys'}
+  - value: 0.982171
+    errors:
+    - {symerror: 0.0010, label: 'corr'}
+    - {symerror: 0.0013, label: 'stat'}
+    - {symerror: 0.0013, label: 'sys'}
+  - value: 1.00133
+    errors:
+    - {symerror: 0.00094, label: 'corr'}
+    - {symerror: 0.00019, label: 'stat'}
+    - {symerror: 0.00019, label: 'sys'}
+  - value: 1.01276
+    errors:
+    - {symerror: 0.0009, label: 'corr'}
+    - {symerror: 0.0021, label: 'stat'}
+    - {symerror: 0.0021, label: 'sys'}
+  - value: 1.01276
+    errors:
+    - {symerror: 0.0009, label: 'corr'}
+    - {symerror: 0.0021, label: 'stat'}
+    - {symerror: 0.0021, label: 'sys'}
+  - value: 1.00133
+    errors:
+    - {symerror: 0.00094, label: 'corr'}
+    - {symerror: 0.00019, label: 'stat'}
+    - {symerror: 0.00019, label: 'sys'}
+  - value: 0.982171
+    errors:
+    - {symerror: 0.0010, label: 'corr'}
+    - {symerror: 0.0013, label: 'stat'}
+    - {symerror: 0.0013, label: 'sys'}
+  - value: 0.957459
+    errors:
+    - {symerror: 0.0012, label: 'corr'}
+    - {symerror: 0.0007, label: 'stat'}
+    - {symerror: 0.0007, label: 'sys'}
+  - value: 0.935114
+    errors:
+    - {symerror: 0.0014, label: 'corr'}
+    - {symerror: 0.0016, label: 'stat'}
+    - {symerror: 0.0016, label: 'sys'}
+  - value: 0.916105
+    errors:
+    - {symerror: 0.0019, label: 'corr'}
+    - {symerror: 0.0018, label: 'stat'}
+    - {symerror: 0.0018, label: 'sys'}
+- header: {name: '$Y$'}
+  qualifiers:
+  - {name: '$p_{T}^{trig}$', value: '1-2'}
+  - {name: '$p_{T}^{assoc}$', value: '0.5-1'}
+  - {name: 'centrality', value: '30-40%'}
+  values:
+  - value: 0.963807
+    errors:
+    - {symerror: 0.0002, label: 'corr'}
+    - {symerror: 0.0005, label: 'stat'}
+    - {symerror: 0.0005, label: 'sys'}
+  - value: 0.968932
+    errors:
+    - {symerror: 0.00014, label: 'corr'}
+    - {symerror: 0.00028, label: 'stat'}
+    - {symerror: 0.00028, label: 'sys'}
+  - value: 0.980744
+    errors:
+    - {symerror: 0.00011, label: 'corr'}
+    - {symerror: 0.00012, label: 'stat'}
+    - {symerror: 0.00012, label: 'sys'}
+  - value: 0.996834
+    errors:
+    - {symerror: 0.000092, label: 'corr'}
+    - {symerror: 2.8e-050, label: 'stat'}
+    - {symerror: 2.8e-050, label: 'sys'}
+  - value: 1.01313
+    errors:
+    - {symerror: 0.00008, label: 'corr'}
+    - {symerror: 0.00018, label: 'stat'}
+    - {symerror: 0.00018, label: 'sys'}
+  - value: 1.02187
+    errors:
+    - {symerror: 0.00008, label: 'corr'}
+    - {symerror: 0.00021, label: 'stat'}
+    - {symerror: 0.00021, label: 'sys'}
+  - value: 1.02175
+    errors:
+    - {symerror: 0.00008, label: 'corr'}
+    - {symerror: 0.00024, label: 'stat'}
+    - {symerror: 0.00024, label: 'sys'}
+  - value: 1.01308
+    errors:
+    - {symerror: 0.00008, label: 'corr'}
+    - {symerror: 0.00015, label: 'stat'}
+    - {symerror: 0.00015, label: 'sys'}
+  - value: 0.997218
+    errors:
+    - {symerror: 0.00009, label: 'corr'}
+    - {symerror: 8e-050, label: 'stat'}
+    - {symerror: 8e-050, label: 'sys'}
+  - value: 0.980854
+    errors:
+    - {symerror: 0.00010, label: 'corr'}
+    - {symerror: 0.00015, label: 'stat'}
+    - {symerror: 0.00015, label: 'sys'}
+  - value: 0.968882
+    errors:
+    - {symerror: 0.00013, label: 'corr'}
+    - {symerror: 0.00021, label: 'stat'}
+    - {symerror: 0.00021, label: 'sys'}
+  - value: 0.963754
+    errors:
+    - {symerror: 0.0002, label: 'corr'}
+    - {symerror: 0.0005, label: 'stat'}
+    - {symerror: 0.0005, label: 'sys'}
+  - value: 0.965867
+    errors:
+    - {symerror: 0.0002, label: 'corr'}
+    - {symerror: 0.0006, label: 'stat'}
+    - {symerror: 0.0006, label: 'sys'}
+  - value: 0.97451
+    errors:
+    - {symerror: 0.0001, label: 'corr'}
+    - {symerror: 0.0004, label: 'stat'}
+    - {symerror: 0.0004, label: 'sys'}
+  - value: 0.985884
+    errors:
+    - {symerror: 0.00011, label: 'corr'}
+    - {symerror: 0.00012, label: 'stat'}
+    - {symerror: 0.00012, label: 'sys'}
+  - value: 0.997853
+    errors:
+    - {symerror: 0.000095, label: 'corr'}
+    - {symerror: 2.2e-050, label: 'stat'}
+    - {symerror: 2.2e-050, label: 'sys'}
+  - value: 1.00762
+    errors:
+    - {symerror: 0.00009, label: 'corr'}
+    - {symerror: 0.00015, label: 'stat'}
+    - {symerror: 0.00015, label: 'sys'}
+  - value: 1.01329
+    errors:
+    - {symerror: 0.00008, label: 'corr'}
+    - {symerror: 0.00013, label: 'stat'}
+    - {symerror: 0.00013, label: 'sys'}
+  - value: 1.0131
+    errors:
+    - {symerror: 0.00008, label: 'corr'}
+    - {symerror: 0.00016, label: 'stat'}
+    - {symerror: 0.00016, label: 'sys'}
+  - value: 1.00781
+    errors:
+    - {symerror: 0.00009, label: 'corr'}
+    - {symerror: 0.00013, label: 'stat'}
+    - {symerror: 0.00013, label: 'sys'}
+  - value: 0.998019
+    errors:
+    - {symerror: 0.00009, label: 'corr'}
+    - {symerror: 0.00016, label: 'stat'}
+    - {symerror: 0.00016, label: 'sys'}
+  - value: 0.985904
+    errors:
+    - {symerror: 0.00011, label: 'corr'}
+    - {symerror: 0.00012, label: 'stat'}
+    - {symerror: 0.00012, label: 'sys'}
+  - value: 0.974507
+    errors:
+    - {symerror: 0.00013, label: 'corr'}
+    - {symerror: 0.00022, label: 'stat'}
+    - {symerror: 0.00022, label: 'sys'}
+  - value: 0.965938
+    errors:
+    - {symerror: 0.00017, label: 'corr'}
+    - {symerror: 0.00035, label: 'stat'}
+    - {symerror: 0.00035, label: 'sys'}
+- header: {name: '$Y$'}
+  qualifiers:
+  - {name: '$p_{T}^{trig}$', value: '1-2'}
+  - {name: '$p_{T}^{assoc}$', value: '1-2'}
+  - {name: 'centrality', value: '30-40%'}
+  values:
+  - value: 0.938063
+    errors:
+    - {symerror: 0.0003, label: 'corr'}
+    - {symerror: 0.0007, label: 'stat'}
+    - {symerror: 0.0007, label: 'sys'}
+  - value: 0.945479
+    errors:
+    - {symerror: 0.00021, label: 'corr'}
+    - {symerror: 0.00017, label: 'stat'}
+    - {symerror: 0.00017, label: 'sys'}
+  - value: 0.964363
+    errors:
+    - {symerror: 0.00016, label: 'corr'}
+    - {symerror: 7e-050, label: 'stat'}
+    - {symerror: 7e-050, label: 'sys'}
+  - value: 0.99196
+    errors:
+    - {symerror: 0.00014, label: 'corr'}
+    - {symerror: 0.00010, label: 'stat'}
+    - {symerror: 0.00010, label: 'sys'}
+  - value: 1.02244
+    errors:
+    - {symerror: 0.00013, label: 'corr'}
+    - {symerror: 0.00015, label: 'stat'}
+    - {symerror: 0.00015, label: 'sys'}
+  - value: 1.03965
+    errors:
+    - {symerror: 0.00012, label: 'corr'}
+    - {symerror: 0.00030, label: 'stat'}
+    - {symerror: 0.00030, label: 'sys'}
+  - value: 1.03965
+    errors:
+    - {symerror: 0.00012, label: 'corr'}
+    - {symerror: 0.00030, label: 'stat'}
+    - {symerror: 0.00030, label: 'sys'}
+  - value: 1.02244
+    errors:
+    - {symerror: 0.00013, label: 'corr'}
+    - {symerror: 0.00015, label: 'stat'}
+    - {symerror: 0.00015, label: 'sys'}
+  - value: 0.99196
+    errors:
+    - {symerror: 0.00014, label: 'corr'}
+    - {symerror: 0.00010, label: 'stat'}
+    - {symerror: 0.00010, label: 'sys'}
+  - value: 0.964363
+    errors:
+    - {symerror: 0.00016, label: 'corr'}
+    - {symerror: 7e-050, label: 'stat'}
+    - {symerror: 7e-050, label: 'sys'}
+  - value: 0.945479
+    errors:
+    - {symerror: 0.00021, label: 'corr'}
+    - {symerror: 0.00017, label: 'stat'}
+    - {symerror: 0.00017, label: 'sys'}
+  - value: 0.938063
+    errors:
+    - {symerror: 0.0003, label: 'corr'}
+    - {symerror: 0.0007, label: 'stat'}
+    - {symerror: 0.0007, label: 'sys'}
+  - value: 0.943823
+    errors:
+    - {symerror: 0.0003, label: 'corr'}
+    - {symerror: 0.0004, label: 'stat'}
+    - {symerror: 0.0004, label: 'sys'}
+  - value: 0.958144
+    errors:
+    - {symerror: 0.0002, label: 'corr'}
+    - {symerror: 0.0005, label: 'stat'}
+    - {symerror: 0.0005, label: 'sys'}
+  - value: 0.977502
+    errors:
+    - {symerror: 0.00017, label: 'corr'}
+    - {symerror: 0.00021, label: 'stat'}
+    - {symerror: 0.00021, label: 'sys'}
+  - value: 0.996426
+    errors:
+    - {symerror: 0.000148, label: 'corr'}
+    - {symerror: 3.5e-050, label: 'stat'}
+    - {symerror: 3.5e-050, label: 'sys'}
+  - value: 1.0123
+    errors:
+    - {symerror: 0.0001, label: 'corr'}
+    - {symerror: 0.0004, label: 'stat'}
+    - {symerror: 0.0004, label: 'sys'}
+  - value: 1.02107
+    errors:
+    - {symerror: 0.0001, label: 'corr'}
+    - {symerror: 0.0004, label: 'stat'}
+    - {symerror: 0.0004, label: 'sys'}
+  - value: 1.02107
+    errors:
+    - {symerror: 0.0001, label: 'corr'}
+    - {symerror: 0.0004, label: 'stat'}
+    - {symerror: 0.0004, label: 'sys'}
+  - value: 1.0123
+    errors:
+    - {symerror: 0.0001, label: 'corr'}
+    - {symerror: 0.0004, label: 'stat'}
+    - {symerror: 0.0004, label: 'sys'}
+  - value: 0.996426
+    errors:
+    - {symerror: 0.000148, label: 'corr'}
+    - {symerror: 3.5e-050, label: 'stat'}
+    - {symerror: 3.5e-050, label: 'sys'}
+  - value: 0.977502
+    errors:
+    - {symerror: 0.00017, label: 'corr'}
+    - {symerror: 0.00021, label: 'stat'}
+    - {symerror: 0.00021, label: 'sys'}
+  - value: 0.958143
+    errors:
+    - {symerror: 0.0002, label: 'corr'}
+    - {symerror: 0.0005, label: 'stat'}
+    - {symerror: 0.0005, label: 'sys'}
+  - value: 0.943823
+    errors:
+    - {symerror: 0.0003, label: 'corr'}
+    - {symerror: 0.0004, label: 'stat'}
+    - {symerror: 0.0004, label: 'sys'}
+- header: {name: '$Y$'}
+  qualifiers:
+  - {name: '$p_{T}^{trig}$', value: '2-4'}
+  - {name: '$p_{T}^{assoc}$', value: '0.5-1'}
+  - {name: 'centrality', value: '30-40%'}
+  values:
+  - value: 0.949039
+    errors:
+    - {symerror: 0.0006, label: 'corr'}
+    - {symerror: 0.0012, label: 'stat'}
+    - {symerror: 0.0012, label: 'sys'}
+  - value: 0.954211
+    errors:
+    - {symerror: 0.00043, label: 'corr'}
+    - {symerror: 0.00022, label: 'stat'}
+    - {symerror: 0.00022, label: 'sys'}
+  - value: 0.968962
+    errors:
+    - {symerror: 0.0003, label: 'corr'}
+    - {symerror: 0.0004, label: 'stat'}
+    - {symerror: 0.0004, label: 'sys'}
+  - value: 0.991247
+    errors:
+    - {symerror: 0.00029, label: 'corr'}
+    - {symerror: 0.00026, label: 'stat'}
+    - {symerror: 0.00026, label: 'sys'}
+  - value: 1.01627
+    errors:
+    - {symerror: 0.00026, label: 'corr'}
+    - {symerror: 0.00017, label: 'stat'}
+    - {symerror: 0.00017, label: 'sys'}
+  - value: 1.03283
+    errors:
+    - {symerror: 0.0003, label: 'corr'}
+    - {symerror: 0.0008, label: 'stat'}
+    - {symerror: 0.0008, label: 'sys'}
+  - value: 1.03348
+    errors:
+    - {symerror: 0.0003, label: 'corr'}
+    - {symerror: 0.0008, label: 'stat'}
+    - {symerror: 0.0008, label: 'sys'}
+  - value: 1.01685
+    errors:
+    - {symerror: 0.00026, label: 'corr'}
+    - {symerror: 7e-050, label: 'stat'}
+    - {symerror: 7e-050, label: 'sys'}
+  - value: 0.992206
+    errors:
+    - {symerror: 0.0003, label: 'corr'}
+    - {symerror: 0.0005, label: 'stat'}
+    - {symerror: 0.0005, label: 'sys'}
+  - value: 0.968811
+    errors:
+    - {symerror: 0.00033, label: 'corr'}
+    - {symerror: 0.00016, label: 'stat'}
+    - {symerror: 0.00016, label: 'sys'}
+  - value: 0.954165
+    errors:
+    - {symerror: 0.00042, label: 'corr'}
+    - {symerror: 0.00028, label: 'stat'}
+    - {symerror: 0.00028, label: 'sys'}
+  - value: 0.94931
+    errors:
+    - {symerror: 0.0006, label: 'corr'}
+    - {symerror: 0.0006, label: 'stat'}
+    - {symerror: 0.0006, label: 'sys'}
+  - value: 0.954186
+    errors:
+    - {symerror: 0.0005, label: 'corr'}
+    - {symerror: 0.0010, label: 'stat'}
+    - {symerror: 0.0010, label: 'sys'}
+  - value: 0.965701
+    errors:
+    - {symerror: 0.0004, label: 'corr'}
+    - {symerror: 0.0004, label: 'stat'}
+    - {symerror: 0.0004, label: 'sys'}
+  - value: 0.981882
+    errors:
+    - {symerror: 0.0003, label: 'corr'}
+    - {symerror: 0.0007, label: 'stat'}
+    - {symerror: 0.0007, label: 'sys'}
+  - value: 0.998664
+    errors:
+    - {symerror: 0.00030, label: 'corr'}
+    - {symerror: 0.00018, label: 'stat'}
+    - {symerror: 0.00018, label: 'sys'}
+  - value: 1.01199
+    errors:
+    - {symerror: 0.00028, label: 'corr'}
+    - {symerror: 0.00019, label: 'stat'}
+    - {symerror: 0.00019, label: 'sys'}
+  - value: 1.01902
+    errors:
+    - {symerror: 0.00026, label: 'corr'}
+    - {symerror: 0.00012, label: 'stat'}
+    - {symerror: 0.00012, label: 'sys'}
+  - value: 1.01976
+    errors:
+    - {symerror: 0.00026, label: 'corr'}
+    - {symerror: 0.00019, label: 'stat'}
+    - {symerror: 0.00019, label: 'sys'}
+  - value: 1.0118
+    errors:
+    - {symerror: 0.00027, label: 'corr'}
+    - {symerror: 0.00020, label: 'stat'}
+    - {symerror: 0.00020, label: 'sys'}
+  - value: 0.998535
+    errors:
+    - {symerror: 0.00030, label: 'corr'}
+    - {symerror: 0.00014, label: 'stat'}
+    - {symerror: 0.00014, label: 'sys'}
+  - value: 0.98172
+    errors:
+    - {symerror: 0.0003, label: 'corr'}
+    - {symerror: 0.0004, label: 'stat'}
+    - {symerror: 0.0004, label: 'sys'}
+  - value: 0.965572
+    errors:
+    - {symerror: 0.00041, label: 'corr'}
+    - {symerror: 0.00021, label: 'stat'}
+    - {symerror: 0.00021, label: 'sys'}
+  - value: 0.953482
+    errors:
+    - {symerror: 0.0005, label: 'corr'}
+    - {symerror: 0.0005, label: 'stat'}
+    - {symerror: 0.0005, label: 'sys'}
+- header: {name: '$Y$'}
+  qualifiers:
+  - {name: '$p_{T}^{trig}$', value: '2-4'}
+  - {name: '$p_{T}^{assoc}$', value: '1-2'}
+  - {name: 'centrality', value: '30-40%'}
+  values:
+  - value: 0.911113
+    errors:
+    - {symerror: 0.0009, label: 'corr'}
+    - {symerror: 0.0016, label: 'stat'}
+    - {symerror: 0.0016, label: 'sys'}
+  - value: 0.919469
+    errors:
+    - {symerror: 0.0006, label: 'corr'}
+    - {symerror: 0.0009, label: 'stat'}
+    - {symerror: 0.0009, label: 'sys'}
+  - value: 0.945697
+    errors:
+    - {symerror: 0.00050, label: 'corr'}
+    - {symerror: 0.00031, label: 'stat'}
+    - {symerror: 0.00031, label: 'sys'}
+  - value: 0.984667
+    errors:
+    - {symerror: 0.0005, label: 'corr'}
+    - {symerror: 0.0004, label: 'stat'}
+    - {symerror: 0.0004, label: 'sys'}
+  - value: 1.0327
+    errors:
+    - {symerror: 0.00041, label: 'corr'}
+    - {symerror: 0.00021, label: 'stat'}
+    - {symerror: 0.00021, label: 'sys'}
+  - value: 1.06603
+    errors:
+    - {symerror: 0.0004, label: 'corr'}
+    - {symerror: 0.0004, label: 'stat'}
+    - {symerror: 0.0004, label: 'sys'}
+  - value: 1.06613
+    errors:
+    - {symerror: 0.00040, label: 'corr'}
+    - {symerror: 0.00028, label: 'stat'}
+    - {symerror: 0.00028, label: 'sys'}
+  - value: 1.03185
+    errors:
+    - {symerror: 0.0004, label: 'corr'}
+    - {symerror: 0.0005, label: 'stat'}
+    - {symerror: 0.0005, label: 'sys'}
+  - value: 0.984869
+    errors:
+    - {symerror: 0.0004, label: 'corr'}
+    - {symerror: 0.0004, label: 'stat'}
+    - {symerror: 0.0004, label: 'sys'}
+  - value: 0.944526
+    errors:
+    - {symerror: 0.0005, label: 'corr'}
+    - {symerror: 0.0008, label: 'stat'}
+    - {symerror: 0.0008, label: 'sys'}
+  - value: 0.918774
+    errors:
+    - {symerror: 0.0006, label: 'corr'}
+    - {symerror: 0.0005, label: 'stat'}
+    - {symerror: 0.0005, label: 'sys'}
+  - value: 0.912993
+    errors:
+    - {symerror: 0.0009, label: 'corr'}
+    - {symerror: 0.0009, label: 'stat'}
+    - {symerror: 0.0009, label: 'sys'}
+  - value: 0.922499
+    errors:
+    - {symerror: 0.0009, label: 'corr'}
+    - {symerror: 0.0004, label: 'stat'}
+    - {symerror: 0.0004, label: 'sys'}
+  - value: 0.941191
+    errors:
+    - {symerror: 0.0006, label: 'corr'}
+    - {symerror: 0.0006, label: 'stat'}
+    - {symerror: 0.0006, label: 'sys'}
+  - value: 0.968085
+    errors:
+    - {symerror: 0.00053, label: 'corr'}
+    - {symerror: 0.00020, label: 'stat'}
+    - {symerror: 0.00020, label: 'sys'}
+  - value: 0.993734
+    errors:
+    - {symerror: 0.00046, label: 'corr'}
+    - {symerror: 0.00011, label: 'stat'}
+    - {symerror: 0.00011, label: 'sys'}
+  - value: 1.01475
+    errors:
+    - {symerror: 0.00042, label: 'corr'}
+    - {symerror: 0.00018, label: 'stat'}
+    - {symerror: 0.00018, label: 'sys'}
+  - value: 1.02685
+    errors:
+    - {symerror: 0.0004, label: 'corr'}
+    - {symerror: 0.0007, label: 'stat'}
+    - {symerror: 0.0007, label: 'sys'}
+  - value: 1.02633
+    errors:
+    - {symerror: 0.0004, label: 'corr'}
+    - {symerror: 0.0012, label: 'stat'}
+    - {symerror: 0.0012, label: 'sys'}
+  - value: 1.01451
+    errors:
+    - {symerror: 0.0004, label: 'corr'}
+    - {symerror: 0.0006, label: 'stat'}
+    - {symerror: 0.0006, label: 'sys'}
+  - value: 0.993492
+    errors:
+    - {symerror: 0.00046, label: 'corr'}
+    - {symerror: 0.00011, label: 'stat'}
+    - {symerror: 0.00011, label: 'sys'}
+  - value: 0.967716
+    errors:
+    - {symerror: 0.00053, label: 'corr'}
+    - {symerror: 0.00034, label: 'stat'}
+    - {symerror: 0.00034, label: 'sys'}
+  - value: 0.941395
+    errors:
+    - {symerror: 0.0006, label: 'corr'}
+    - {symerror: 0.0004, label: 'stat'}
+    - {symerror: 0.0004, label: 'sys'}
+  - value: 0.92322
+    errors:
+    - {symerror: 0.0008, label: 'corr'}
+    - {symerror: 0.0014, label: 'stat'}
+    - {symerror: 0.0014, label: 'sys'}
+- header: {name: '$Y$'}
+  qualifiers:
+  - {name: '$p_{T}^{trig}$', value: '2-4'}
+  - {name: '$p_{T}^{assoc}$', value: '2-4'}
+  - {name: 'centrality', value: '30-40%'}
+  values:
+  - value: 0.869855
+    errors:
+    - {symerror: 0.00276, label: 'corr'}
+    - {symerror: 0.00026, label: 'stat'}
+    - {symerror: 0.00026, label: 'sys'}
+  - value: 0.880548
+    errors:
+    - {symerror: 0.0020, label: 'corr'}
+    - {symerror: 0.0011, label: 'stat'}
+    - {symerror: 0.0011, label: 'sys'}
+  - value: 0.910946
+    errors:
+    - {symerror: 0.0015, label: 'corr'}
+    - {symerror: 0.0014, label: 'stat'}
+    - {symerror: 0.0014, label: 'sys'}
+  - value: 0.97073
+    errors:
+    - {symerror: 0.0014, label: 'corr'}
+    - {symerror: 0.0011, label: 'stat'}
+    - {symerror: 0.0011, label: 'sys'}
+  - value: 1.05243
+    errors:
+    - {symerror: 0.00128, label: 'corr'}
+    - {symerror: 0.00028, label: 'stat'}
+    - {symerror: 0.00028, label: 'sys'}
+  - value: 1.14217
+    errors:
+    - {symerror: 0.0013, label: 'corr'}
+    - {symerror: 0.0010, label: 'stat'}
+    - {symerror: 0.0010, label: 'sys'}
+  - value: 1.14217
+    errors:
+    - {symerror: 0.0013, label: 'corr'}
+    - {symerror: 0.0010, label: 'stat'}
+    - {symerror: 0.0010, label: 'sys'}
+  - value: 1.05243
+    errors:
+    - {symerror: 0.00128, label: 'corr'}
+    - {symerror: 0.00028, label: 'stat'}
+    - {symerror: 0.00028, label: 'sys'}
+  - value: 0.970729
+    errors:
+    - {symerror: 0.0014, label: 'corr'}
+    - {symerror: 0.0011, label: 'stat'}
+    - {symerror: 0.0011, label: 'sys'}
+  - value: 0.910944
+    errors:
+    - {symerror: 0.0015, label: 'corr'}
+    - {symerror: 0.0014, label: 'stat'}
+    - {symerror: 0.0014, label: 'sys'}
+  - value: 0.880551
+    errors:
+    - {symerror: 0.0020, label: 'corr'}
+    - {symerror: 0.0011, label: 'stat'}
+    - {symerror: 0.0011, label: 'sys'}
+  - value: 0.869855
+    errors:
+    - {symerror: 0.00276, label: 'corr'}
+    - {symerror: 0.00026, label: 'stat'}
+    - {symerror: 0.00026, label: 'sys'}
+  - value: 0.885806
+    errors:
+    - {symerror: 0.0026, label: 'corr'}
+    - {symerror: 0.0012, label: 'stat'}
+    - {symerror: 0.0012, label: 'sys'}
+  - value: 0.910075
+    errors:
+    - {symerror: 0.0020, label: 'corr'}
+    - {symerror: 0.0012, label: 'stat'}
+    - {symerror: 0.0012, label: 'sys'}
+  - value: 0.945707
+    errors:
+    - {symerror: 0.0016, label: 'corr'}
+    - {symerror: 0.0021, label: 'stat'}
+    - {symerror: 0.0021, label: 'sys'}
+  - value: 0.974505
+    errors:
+    - {symerror: 0.0014, label: 'corr'}
+    - {symerror: 0.0010, label: 'stat'}
+    - {symerror: 0.0010, label: 'sys'}
+  - value: 1.00711
+    errors:
+    - {symerror: 0.0013, label: 'corr'}
+    - {symerror: 0.0008, label: 'stat'}
+    - {symerror: 0.0008, label: 'sys'}
+  - value: 1.02217
+    errors:
+    - {symerror: 0.0013, label: 'corr'}
+    - {symerror: 0.0014, label: 'stat'}
+    - {symerror: 0.0014, label: 'sys'}
+  - value: 1.02217
+    errors:
+    - {symerror: 0.0013, label: 'corr'}
+    - {symerror: 0.0014, label: 'stat'}
+    - {symerror: 0.0014, label: 'sys'}
+  - value: 1.00711
+    errors:
+    - {symerror: 0.0013, label: 'corr'}
+    - {symerror: 0.0008, label: 'stat'}
+    - {symerror: 0.0008, label: 'sys'}
+  - value: 0.974505
+    errors:
+    - {symerror: 0.0014, label: 'corr'}
+    - {symerror: 0.0010, label: 'stat'}
+    - {symerror: 0.0010, label: 'sys'}
+  - value: 0.945707
+    errors:
+    - {symerror: 0.0016, label: 'corr'}
+    - {symerror: 0.0021, label: 'stat'}
+    - {symerror: 0.0021, label: 'sys'}
+  - value: 0.910075
+    errors:
+    - {symerror: 0.0020, label: 'corr'}
+    - {symerror: 0.0012, label: 'stat'}
+    - {symerror: 0.0012, label: 'sys'}
+  - value: 0.885806
+    errors:
+    - {symerror: 0.0026, label: 'corr'}
+    - {symerror: 0.0012, label: 'stat'}
+    - {symerror: 0.0012, label: 'sys'}
+- header: {name: '$Y$'}
+  qualifiers:
+  - {name: '$p_{T}^{trig}$', value: '1-2'}
+  - {name: '$p_{T}^{assoc}$', value: '0.5-1'}
+  - {name: 'centrality', value: '40-50%'}
+  values:
+  - value: 0.9561
+    errors:
+    - {symerror: 0.00028, label: 'corr'}
+    - {symerror: 0.00026, label: 'stat'}
+    - {symerror: 0.00026, label: 'sys'}
+  - value: 0.961806
+    errors:
+    - {symerror: 0.0002, label: 'corr'}
+    - {symerror: 0.0004, label: 'stat'}
+    - {symerror: 0.0004, label: 'sys'}
+  - value: 0.976207
+    errors:
+    - {symerror: 0.000161, label: 'corr'}
+    - {symerror: 1.8e-050, label: 'stat'}
+    - {symerror: 1.8e-050, label: 'sys'}
+  - value: 0.996908
+    errors:
+    - {symerror: 0.00014, label: 'corr'}
+    - {symerror: 0.00014, label: 'stat'}
+    - {symerror: 0.00014, label: 'sys'}
+  - value: 1.01642
+    errors:
+    - {symerror: 0.00013, label: 'corr'}
+    - {symerror: 0.00018, label: 'stat'}
+    - {symerror: 0.00018, label: 'sys'}
+  - value: 1.02669
+    errors:
+    - {symerror: 0.00012, label: 'corr'}
+    - {symerror: 0.00032, label: 'stat'}
+    - {symerror: 0.00032, label: 'sys'}
+  - value: 1.02691
+    errors:
+    - {symerror: 0.00012, label: 'corr'}
+    - {symerror: 0.00017, label: 'stat'}
+    - {symerror: 0.00017, label: 'sys'}
+  - value: 1.01644
+    errors:
+    - {symerror: 0.00013, label: 'corr'}
+    - {symerror: 0.00028, label: 'stat'}
+    - {symerror: 0.00028, label: 'sys'}
+  - value: 0.996936
+    errors:
+    - {symerror: 0.00014, label: 'corr'}
+    - {symerror: 6e-050, label: 'stat'}
+    - {symerror: 6e-050, label: 'sys'}
+  - value: 0.976407
+    errors:
+    - {symerror: 0.00016, label: 'corr'}
+    - {symerror: 0.00016, label: 'stat'}
+    - {symerror: 0.00016, label: 'sys'}
+  - value: 0.962329
+    errors:
+    - {symerror: 0.00021, label: 'corr'}
+    - {symerror: 0.00025, label: 'stat'}
+    - {symerror: 0.00025, label: 'sys'}
+  - value: 0.956345
+    errors:
+    - {symerror: 0.0003, label: 'corr'}
+    - {symerror: 0.0005, label: 'stat'}
+    - {symerror: 0.0005, label: 'sys'}
+  - value: 0.95909
+    errors:
+    - {symerror: 0.00026, label: 'corr'}
+    - {symerror: 0.00028, label: 'stat'}
+    - {symerror: 0.00028, label: 'sys'}
+  - value: 0.968847
+    errors:
+    - {symerror: 0.0002, label: 'corr'}
+    - {symerror: 0.0004, label: 'stat'}
+    - {symerror: 0.0004, label: 'sys'}
+  - value: 0.982731
+    errors:
+    - {symerror: 0.00017, label: 'corr'}
+    - {symerror: 0.00032, label: 'stat'}
+    - {symerror: 0.00032, label: 'sys'}
+  - value: 0.997017
+    errors:
+    - {symerror: 0.00015, label: 'corr'}
+    - {symerror: 5e-050, label: 'stat'}
+    - {symerror: 5e-050, label: 'sys'}
+  - value: 1.00936
+    errors:
+    - {symerror: 0.00013, label: 'corr'}
+    - {symerror: 8e-050, label: 'stat'}
+    - {symerror: 8e-050, label: 'sys'}
+  - value: 1.01572
+    errors:
+    - {symerror: 0.000128, label: 'corr'}
+    - {symerror: 3.4e-050, label: 'stat'}
+    - {symerror: 3.4e-050, label: 'sys'}
+  - value: 1.01564
+    errors:
+    - {symerror: 0.00013, label: 'corr'}
+    - {symerror: 0.00015, label: 'stat'}
+    - {symerror: 0.00015, label: 'sys'}
+  - value: 1.00942
+    errors:
+    - {symerror: 0.00013, label: 'corr'}
+    - {symerror: 0.00011, label: 'stat'}
+    - {symerror: 0.00011, label: 'sys'}
+  - value: 0.99683
+    errors:
+    - {symerror: 0.00015, label: 'corr'}
+    - {symerror: 7e-050, label: 'stat'}
+    - {symerror: 7e-050, label: 'sys'}
+  - value: 0.982625
+    errors:
+    - {symerror: 0.00017, label: 'corr'}
+    - {symerror: 0.00018, label: 'stat'}
+    - {symerror: 0.00018, label: 'sys'}
+  - value: 0.968429
+    errors:
+    - {symerror: 0.00020, label: 'corr'}
+    - {symerror: 0.00014, label: 'stat'}
+    - {symerror: 0.00014, label: 'sys'}
+  - value: 0.958068
+    errors:
+    - {symerror: 0.00026, label: 'corr'}
+    - {symerror: 0.00034, label: 'stat'}
+    - {symerror: 0.00034, label: 'sys'}
+- header: {name: '$Y$'}
+  qualifiers:
+  - {name: '$p_{T}^{trig}$', value: '1-2'}
+  - {name: '$p_{T}^{assoc}$', value: '1-2'}
+  - {name: 'centrality', value: '40-50%'}
+  values:
+  - value: 0.925649
+    errors:
+    - {symerror: 0.00045, label: 'corr'}
+    - {symerror: 0.00034, label: 'stat'}
+    - {symerror: 0.00034, label: 'sys'}
+  - value: 0.934644
+    errors:
+    - {symerror: 0.00032, label: 'corr'}
+    - {symerror: 0.00025, label: 'stat'}
+    - {symerror: 0.00025, label: 'sys'}
+  - value: 0.956219
+    errors:
+    - {symerror: 0.00025, label: 'corr'}
+    - {symerror: 0.00017, label: 'stat'}
+    - {symerror: 0.00017, label: 'sys'}
+  - value: 0.99024
+    errors:
+    - {symerror: 0.00022, label: 'corr'}
+    - {symerror: 0.00022, label: 'stat'}
+    - {symerror: 0.00022, label: 'sys'}
+  - value: 1.02743
+    errors:
+    - {symerror: 0.0002, label: 'corr'}
+    - {symerror: 0.0004, label: 'stat'}
+    - {symerror: 0.0004, label: 'sys'}
+  - value: 1.0492
+    errors:
+    - {symerror: 0.00019, label: 'corr'}
+    - {symerror: 0.00033, label: 'stat'}
+    - {symerror: 0.00033, label: 'sys'}
+  - value: 1.0492
+    errors:
+    - {symerror: 0.00019, label: 'corr'}
+    - {symerror: 0.00033, label: 'stat'}
+    - {symerror: 0.00033, label: 'sys'}
+  - value: 1.02743
+    errors:
+    - {symerror: 0.0002, label: 'corr'}
+    - {symerror: 0.0004, label: 'stat'}
+    - {symerror: 0.0004, label: 'sys'}
+  - value: 0.99024
+    errors:
+    - {symerror: 0.00022, label: 'corr'}
+    - {symerror: 0.00022, label: 'stat'}
+    - {symerror: 0.00022, label: 'sys'}
+  - value: 0.956219
+    errors:
+    - {symerror: 0.00025, label: 'corr'}
+    - {symerror: 0.00017, label: 'stat'}
+    - {symerror: 0.00017, label: 'sys'}
+  - value: 0.934643
+    errors:
+    - {symerror: 0.00032, label: 'corr'}
+    - {symerror: 0.00025, label: 'stat'}
+    - {symerror: 0.00025, label: 'sys'}
+  - value: 0.925649
+    errors:
+    - {symerror: 0.00045, label: 'corr'}
+    - {symerror: 0.00034, label: 'stat'}
+    - {symerror: 0.00034, label: 'sys'}
+  - value: 0.931744
+    errors:
+    - {symerror: 0.00042, label: 'corr'}
+    - {symerror: 0.00011, label: 'stat'}
+    - {symerror: 0.00011, label: 'sys'}
+  - value: 0.949511
+    errors:
+    - {symerror: 0.0003, label: 'corr'}
+    - {symerror: 0.0005, label: 'stat'}
+    - {symerror: 0.0005, label: 'sys'}
+  - value: 0.972056
+    errors:
+    - {symerror: 0.00026, label: 'corr'}
+    - {symerror: 6e-050, label: 'stat'}
+    - {symerror: 6e-050, label: 'sys'}
+  - value: 0.995001
+    errors:
+    - {symerror: 0.00023, label: 'corr'}
+    - {symerror: 4e-050, label: 'stat'}
+    - {symerror: 4e-050, label: 'sys'}
+  - value: 1.01441
+    errors:
+    - {symerror: 0.00021, label: 'corr'}
+    - {symerror: 9e-050, label: 'stat'}
+    - {symerror: 9e-050, label: 'sys'}
+  - value: 1.02532
+    errors:
+    - {symerror: 0.0002, label: 'corr'}
+    - {symerror: 0.0004, label: 'stat'}
+    - {symerror: 0.0004, label: 'sys'}
+  - value: 1.02532
+    errors:
+    - {symerror: 0.0002, label: 'corr'}
+    - {symerror: 0.0004, label: 'stat'}
+    - {symerror: 0.0004, label: 'sys'}
+  - value: 1.01441
+    errors:
+    - {symerror: 0.00021, label: 'corr'}
+    - {symerror: 9e-050, label: 'stat'}
+    - {symerror: 9e-050, label: 'sys'}
+  - value: 0.995001
+    errors:
+    - {symerror: 0.00023, label: 'corr'}
+    - {symerror: 4e-050, label: 'stat'}
+    - {symerror: 4e-050, label: 'sys'}
+  - value: 0.972057
+    errors:
+    - {symerror: 0.00026, label: 'corr'}
+    - {symerror: 6e-050, label: 'stat'}
+    - {symerror: 6e-050, label: 'sys'}
+  - value: 0.949511
+    errors:
+    - {symerror: 0.0003, label: 'corr'}
+    - {symerror: 0.0005, label: 'stat'}
+    - {symerror: 0.0005, label: 'sys'}
+  - value: 0.931744
+    errors:
+    - {symerror: 0.00042, label: 'corr'}
+    - {symerror: 0.00011, label: 'stat'}
+    - {symerror: 0.00011, label: 'sys'}
+- header: {name: '$Y$'}
+  qualifiers:
+  - {name: '$p_{T}^{trig}$', value: '2-4'}
+  - {name: '$p_{T}^{assoc}$', value: '0.5-1'}
+  - {name: 'centrality', value: '40-50%'}
+  values:
+  - value: 0.940176
+    errors:
+    - {symerror: 0.0009, label: 'corr'}
+    - {symerror: 0.0006, label: 'stat'}
+    - {symerror: 0.0006, label: 'sys'}
+  - value: 0.945369
+    errors:
+    - {symerror: 0.0006, label: 'corr'}
+    - {symerror: 0.0004, label: 'stat'}
+    - {symerror: 0.0004, label: 'sys'}
+  - value: 0.963134
+    errors:
+    - {symerror: 0.0005, label: 'corr'}
+    - {symerror: 0.0008, label: 'stat'}
+    - {symerror: 0.0008, label: 'sys'}
+  - value: 0.989317
+    errors:
+    - {symerror: 0.00044, label: 'corr'}
+    - {symerror: 7e-050, label: 'stat'}
+    - {symerror: 7e-050, label: 'sys'}
+  - value: 1.01992
+    errors:
+    - {symerror: 0.00040, label: 'corr'}
+    - {symerror: 0.00034, label: 'stat'}
+    - {symerror: 0.00034, label: 'sys'}
+  - value: 1.04083
+    errors:
+    - {symerror: 0.0004, label: 'corr'}
+    - {symerror: 0.0007, label: 'stat'}
+    - {symerror: 0.0007, label: 'sys'}
+  - value: 1.04015
+    errors:
+    - {symerror: 0.0004, label: 'corr'}
+    - {symerror: 0.0009, label: 'stat'}
+    - {symerror: 0.0009, label: 'sys'}
+  - value: 1.02015
+    errors:
+    - {symerror: 0.00039, label: 'corr'}
+    - {symerror: 0.00016, label: 'stat'}
+    - {symerror: 0.00016, label: 'sys'}
+  - value: 0.988866
+    errors:
+    - {symerror: 0.00044, label: 'corr'}
+    - {symerror: 0.00030, label: 'stat'}
+    - {symerror: 0.00030, label: 'sys'}
+  - value: 0.963118
+    errors:
+    - {symerror: 0.0005, label: 'corr'}
+    - {symerror: 0.0006, label: 'stat'}
+    - {symerror: 0.0006, label: 'sys'}
+  - value: 0.945134
+    errors:
+    - {symerror: 0.0006, label: 'corr'}
+    - {symerror: 0.0006, label: 'stat'}
+    - {symerror: 0.0006, label: 'sys'}
+  - value: 0.938863
+    errors:
+    - {symerror: 0.0009, label: 'corr'}
+    - {symerror: 0.0006, label: 'stat'}
+    - {symerror: 0.0006, label: 'sys'}
+  - value: 0.946104
+    errors:
+    - {symerror: 0.0008, label: 'corr'}
+    - {symerror: 0.0017, label: 'stat'}
+    - {symerror: 0.0017, label: 'sys'}
+  - value: 0.958489
+    errors:
+    - {symerror: 0.00065, label: 'corr'}
+    - {symerror: 0.00033, label: 'stat'}
+    - {symerror: 0.00033, label: 'sys'}
+  - value: 0.977862
+    errors:
+    - {symerror: 0.0005, label: 'corr'}
+    - {symerror: 0.0006, label: 'stat'}
+    - {symerror: 0.0006, label: 'sys'}
+  - value: 0.997899
+    errors:
+    - {symerror: 0.0005, label: 'corr'}
+    - {symerror: 0.0005, label: 'stat'}
+    - {symerror: 0.0005, label: 'sys'}
+  - value: 1.01395
+    errors:
+    - {symerror: 0.00042, label: 'corr'}
+    - {symerror: 0.00026, label: 'stat'}
+    - {symerror: 0.00026, label: 'sys'}
+  - value: 1.02279
+    errors:
+    - {symerror: 0.0004, label: 'corr'}
+    - {symerror: 0.0005, label: 'stat'}
+    - {symerror: 0.0005, label: 'sys'}
+  - value: 1.02385
+    errors:
+    - {symerror: 0.0004, label: 'corr'}
+    - {symerror: 0.0005, label: 'stat'}
+    - {symerror: 0.0005, label: 'sys'}
+  - value: 1.01418
+    errors:
+    - {symerror: 0.0004, label: 'corr'}
+    - {symerror: 0.0004, label: 'stat'}
+    - {symerror: 0.0004, label: 'sys'}
+  - value: 0.997492
+    errors:
+    - {symerror: 0.0005, label: 'corr'}
+    - {symerror: 0.0004, label: 'stat'}
+    - {symerror: 0.0004, label: 'sys'}
+  - value: 0.977815
+    errors:
+    - {symerror: 0.00053, label: 'corr'}
+    - {symerror: 0.00035, label: 'stat'}
+    - {symerror: 0.00035, label: 'sys'}
+  - value: 0.958785
+    errors:
+    - {symerror: 0.0006, label: 'corr'}
+    - {symerror: 0.0006, label: 'stat'}
+    - {symerror: 0.0006, label: 'sys'}
+  - value: 0.945585
+    errors:
+    - {symerror: 0.0008, label: 'corr'}
+    - {symerror: 0.0005, label: 'stat'}
+    - {symerror: 0.0005, label: 'sys'}
+- header: {name: '$Y$'}
+  qualifiers:
+  - {name: '$p_{T}^{trig}$', value: '2-4'}
+  - {name: '$p_{T}^{assoc}$', value: '1-2'}
+  - {name: 'centrality', value: '40-50%'}
+  values:
+  - value: 0.897825
+    errors:
+    - {symerror: 0.0014, label: 'corr'}
+    - {symerror: 0.0023, label: 'stat'}
+    - {symerror: 0.0023, label: 'sys'}
+  - value: 0.903313
+    errors:
+    - {symerror: 0.0010, label: 'corr'}
+    - {symerror: 0.0010, label: 'stat'}
+    - {symerror: 0.0010, label: 'sys'}
+  - value: 0.933743
+    errors:
+    - {symerror: 0.0008, label: 'corr'}
+    - {symerror: 0.0008, label: 'stat'}
+    - {symerror: 0.0008, label: 'sys'}
+  - value: 0.979924
+    errors:
+    - {symerror: 0.0007, label: 'corr'}
+    - {symerror: 0.0014, label: 'stat'}
+    - {symerror: 0.0014, label: 'sys'}
+  - value: 1.03836
+    errors:
+    - {symerror: 0.0006, label: 'corr'}
+    - {symerror: 0.0006, label: 'stat'}
+    - {symerror: 0.0006, label: 'sys'}
+  - value: 1.08165
+    errors:
+    - {symerror: 0.00062, label: 'corr'}
+    - {symerror: 0.00016, label: 'stat'}
+    - {symerror: 0.00016, label: 'sys'}
+  - value: 1.08276
+    errors:
+    - {symerror: 0.0006, label: 'corr'}
+    - {symerror: 0.0007, label: 'stat'}
+    - {symerror: 0.0007, label: 'sys'}
+  - value: 1.03886
+    errors:
+    - {symerror: 0.00063, label: 'corr'}
+    - {symerror: 0.00011, label: 'stat'}
+    - {symerror: 0.00011, label: 'sys'}
+  - value: 0.978651
+    errors:
+    - {symerror: 0.0007, label: 'corr'}
+    - {symerror: 0.0016, label: 'stat'}
+    - {symerror: 0.0016, label: 'sys'}
+  - value: 0.933234
+    errors:
+    - {symerror: 0.0008, label: 'corr'}
+    - {symerror: 0.0007, label: 'stat'}
+    - {symerror: 0.0007, label: 'sys'}
+  - value: 0.905681
+    errors:
+    - {symerror: 0.0010, label: 'corr'}
+    - {symerror: 0.0005, label: 'stat'}
+    - {symerror: 0.0005, label: 'sys'}
+  - value: 0.897171
+    errors:
+    - {symerror: 0.00140, label: 'corr'}
+    - {symerror: 0.00029, label: 'stat'}
+    - {symerror: 0.00029, label: 'sys'}
+  - value: 0.908566
+    errors:
+    - {symerror: 0.0013, label: 'corr'}
+    - {symerror: 0.0011, label: 'stat'}
+    - {symerror: 0.0011, label: 'sys'}
+  - value: 0.933837
+    errors:
+    - {symerror: 0.0010, label: 'corr'}
+    - {symerror: 0.0011, label: 'stat'}
+    - {symerror: 0.0011, label: 'sys'}
+  - value: 0.959955
+    errors:
+    - {symerror: 0.0008, label: 'corr'}
+    - {symerror: 0.0004, label: 'stat'}
+    - {symerror: 0.0004, label: 'sys'}
+  - value: 0.991563
+    errors:
+    - {symerror: 0.0007, label: 'corr'}
+    - {symerror: 0.0006, label: 'stat'}
+    - {symerror: 0.0006, label: 'sys'}
+  - value: 1.01763
+    errors:
+    - {symerror: 0.00066, label: 'corr'}
+    - {symerror: 0.00035, label: 'stat'}
+    - {symerror: 0.00035, label: 'sys'}
+  - value: 1.03174
+    errors:
+    - {symerror: 0.0006, label: 'corr'}
+    - {symerror: 0.0006, label: 'stat'}
+    - {symerror: 0.0006, label: 'sys'}
+  - value: 1.03189
+    errors:
+    - {symerror: 0.00063, label: 'corr'}
+    - {symerror: 0.00017, label: 'stat'}
+    - {symerror: 0.00017, label: 'sys'}
+  - value: 1.01647
+    errors:
+    - {symerror: 0.00065, label: 'corr'}
+    - {symerror: 0.00026, label: 'stat'}
+    - {symerror: 0.00026, label: 'sys'}
+  - value: 0.990623
+    errors:
+    - {symerror: 0.0007, label: 'corr'}
+    - {symerror: 0.0004, label: 'stat'}
+    - {symerror: 0.0004, label: 'sys'}
+  - value: 0.959256
+    errors:
+    - {symerror: 0.0008, label: 'corr'}
+    - {symerror: 0.0006, label: 'stat'}
+    - {symerror: 0.0006, label: 'sys'}
+  - value: 0.92954
+    errors:
+    - {symerror: 0.0010, label: 'corr'}
+    - {symerror: 0.0004, label: 'stat'}
+    - {symerror: 0.0004, label: 'sys'}
+  - value: 0.904935
+    errors:
+    - {symerror: 0.0013, label: 'corr'}
+    - {symerror: 0.0018, label: 'stat'}
+    - {symerror: 0.0018, label: 'sys'}
+- header: {name: '$Y$'}
+  qualifiers:
+  - {name: '$p_{T}^{trig}$', value: '2-4'}
+  - {name: '$p_{T}^{assoc}$', value: '2-4'}
+  - {name: 'centrality', value: '40-50%'}
+  values:
+  - value: 0.848215
+    errors:
+    - {symerror: 0.0042, label: 'corr'}
+    - {symerror: 0.0012, label: 'stat'}
+    - {symerror: 0.0012, label: 'sys'}
+  - value: 0.859948
+    errors:
+    - {symerror: 0.0030, label: 'corr'}
+    - {symerror: 0.0023, label: 'stat'}
+    - {symerror: 0.0023, label: 'sys'}
+  - value: 0.890027
+    errors:
+    - {symerror: 0.0023, label: 'corr'}
+    - {symerror: 0.0025, label: 'stat'}
+    - {symerror: 0.0025, label: 'sys'}
+  - value: 0.957742
+    errors:
+    - {symerror: 0.0021, label: 'corr'}
+    - {symerror: 0.0025, label: 'stat'}
+    - {symerror: 0.0025, label: 'sys'}
+  - value: 1.06466
+    errors:
+    - {symerror: 0.0020, label: 'corr'}
+    - {symerror: 0.0005, label: 'stat'}
+    - {symerror: 0.0005, label: 'sys'}
+  - value: 1.1836
+    errors:
+    - {symerror: 0.0020, label: 'corr'}
+    - {symerror: 0.0032, label: 'stat'}
+    - {symerror: 0.0032, label: 'sys'}
+  - value: 1.1836
+    errors:
+    - {symerror: 0.0020, label: 'corr'}
+    - {symerror: 0.0032, label: 'stat'}
+    - {symerror: 0.0032, label: 'sys'}
+  - value: 1.06466
+    errors:
+    - {symerror: 0.0020, label: 'corr'}
+    - {symerror: 0.0005, label: 'stat'}
+    - {symerror: 0.0005, label: 'sys'}
+  - value: 0.957741
+    errors:
+    - {symerror: 0.0021, label: 'corr'}
+    - {symerror: 0.0025, label: 'stat'}
+    - {symerror: 0.0025, label: 'sys'}
+  - value: 0.890027
+    errors:
+    - {symerror: 0.0023, label: 'corr'}
+    - {symerror: 0.0025, label: 'stat'}
+    - {symerror: 0.0025, label: 'sys'}
+  - value: 0.859948
+    errors:
+    - {symerror: 0.0030, label: 'corr'}
+    - {symerror: 0.0023, label: 'stat'}
+    - {symerror: 0.0023, label: 'sys'}
+  - value: 0.848215
+    errors:
+    - {symerror: 0.0042, label: 'corr'}
+    - {symerror: 0.0012, label: 'stat'}
+    - {symerror: 0.0012, label: 'sys'}
+  - value: 0.864446
+    errors:
+    - {symerror: 0.0040, label: 'corr'}
+    - {symerror: 0.0027, label: 'stat'}
     - {symerror: 0.0027, label: 'sys'}
-  - value: 0.9
+  - value: 0.89189
     errors:
-    - {symerror: 0.0030, label: 'stat'}
+    - {symerror: 0.0030, label: 'corr'}
+    - {symerror: 0.0017, label: 'stat'}
     - {symerror: 0.0017, label: 'sys'}
-  - value: 0.9
+  - value: 0.928094
     errors:
-    - {symerror: 0.0025, label: 'stat'}
+    - {symerror: 0.0025, label: 'corr'}
+    - {symerror: 0.0012, label: 'stat'}
     - {symerror: 0.0012, label: 'sys'}
-  - value: 1.0
+  - value: 0.968992
     errors:
-    - {symerror: 0.0022, label: 'stat'}
+    - {symerror: 0.0022, label: 'corr'}
+    - {symerror: 0.0007, label: 'stat'}
     - {symerror: 0.0007, label: 'sys'}
-  - value: 1.0
+  - value: 1.00575
     errors:
-    - {symerror: 0.0020, label: 'stat'}
+    - {symerror: 0.0020, label: 'corr'}
+    - {symerror: 0.0017, label: 'stat'}
     - {symerror: 0.0017, label: 'sys'}
-  - value: 1.0
+  - value: 1.02196
     errors:
-    - {symerror: 0.0019, label: 'stat'}
+    - {symerror: 0.002, label: 'corr'}
+    - {symerror: 0.005, label: 'stat'}
     - {symerror: 0.005, label: 'sys'}
-  - value: 1.0
+  - value: 1.02196
     errors:
-    - {symerror: 0.0019, label: 'stat'}
+    - {symerror: 0.002, label: 'corr'}
+    - {symerror: 0.005, label: 'stat'}
     - {symerror: 0.005, label: 'sys'}
-  - value: 1.0
+  - value: 1.00575
     errors:
-    - {symerror: 0.0020, label: 'stat'}
+    - {symerror: 0.0020, label: 'corr'}
+    - {symerror: 0.0017, label: 'stat'}
     - {symerror: 0.0017, label: 'sys'}
-  - value: 1.0
+  - value: 0.968992
     errors:
-    - {symerror: 0.0022, label: 'stat'}
+    - {symerror: 0.0022, label: 'corr'}
+    - {symerror: 0.0007, label: 'stat'}
     - {symerror: 0.0007, label: 'sys'}
-  - value: 0.9
+  - value: 0.928094
     errors:
-    - {symerror: 0.0025, label: 'stat'}
+    - {symerror: 0.0025, label: 'corr'}
+    - {symerror: 0.0012, label: 'stat'}
     - {symerror: 0.0012, label: 'sys'}
-  - value: 0.9
+  - value: 0.89189
     errors:
-    - {symerror: 0.0030, label: 'stat'}
+    - {symerror: 0.0030, label: 'corr'}
+    - {symerror: 0.0017, label: 'stat'}
     - {symerror: 0.0017, label: 'sys'}
-  - value: 0.9
+  - value: 0.864446
     errors:
-    - {symerror: 0.004, label: 'stat'}
+    - {symerror: 0.0040, label: 'corr'}
+    - {symerror: 0.0027, label: 'stat'}
     - {symerror: 0.0027, label: 'sys'}

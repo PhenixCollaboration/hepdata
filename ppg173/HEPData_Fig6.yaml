@@ -1,5 +1,5 @@
 independent_variables:
-- header: {name: '$p_T$'}
+- header: {name: 'centrality'}
   values:
   - {low: 0.25, high: 0.50}
   - {low: 0.50, high: 0.75}
@@ -18,7 +18,7 @@ independent_variables:
 dependent_variables:
 - header: {name: '$v_2$'}
   qualifiers:
-  - {name: '$p_T$', value: '0-10%'}
+  - {name: 'centrality', value: '0-10%'}
   values:
   - value: 0.012
     errors:
@@ -78,7 +78,7 @@ dependent_variables:
     - {symerror: 0.005, label: 'sys'}
 - header: {name: '$v_2$'}
   qualifiers:
-  - {name: '$p_T$', value: '10-20%'}
+  - {name: 'centrality', value: '10-20%'}
   values:
   - value: 0.025
     errors:
@@ -138,7 +138,7 @@ dependent_variables:
     - {symerror: 0.0035, label: 'sys'}
 - header: {name: '$v_2$'}
   qualifiers:
-  - {name: '$p_T$', value: '20-30%'}
+  - {name: 'centrality', value: '20-30%'}
   values:
   - value: 0.04
     errors:
@@ -198,7 +198,7 @@ dependent_variables:
     - {symerror: 0.004, label: 'sys'}
 - header: {name: '$v_2$'}
   qualifiers:
-  - {name: '$p_T$', value: '30-40%'}
+  - {name: 'centrality', value: '30-40%'}
   values:
   - value: 0.04
     errors:
@@ -258,7 +258,7 @@ dependent_variables:
     - {symerror: 0.004, label: 'sys'}
 - header: {name: '$v_2$'}
   qualifiers:
-  - {name: '$p_T$', value: '40-50%'}
+  - {name: 'centrality', value: '40-50%'}
   values:
   - value: 0.05
     errors:
@@ -318,7 +318,7 @@ dependent_variables:
     - {symerror: 0.006, label: 'sys'}
 - header: {name: '$v_3$'}
   qualifiers:
-  - {name: '$p_T$', value: '0-10%'}
+  - {name: 'centrality', value: '0-10%'}
   values:
   - value: 0.004
     errors:
@@ -378,7 +378,7 @@ dependent_variables:
     - {symerror: 0.008, label: 'sys'}
 - header: {name: '$v_3$'}
   qualifiers:
-  - {name: '$p_T$', value: '10-20%'}
+  - {name: 'centrality', value: '10-20%'}
   values:
   - value: 0.006
     errors:
@@ -438,7 +438,7 @@ dependent_variables:
     - {symerror: 0.008, label: 'sys'}
 - header: {name: '$v_3$'}
   qualifiers:
-  - {name: '$p_T$', value: '20-30%'}
+  - {name: 'centrality', value: '20-30%'}
   values:
   - value: 0.008
     errors:
@@ -498,7 +498,7 @@ dependent_variables:
     - {symerror: 0.010, label: 'sys'}
 - header: {name: '$v_3$'}
   qualifiers:
-  - {name: '$p_T$', value: '30-40%'}
+  - {name: 'centrality', value: '30-40%'}
   values:
   - value: 0.009
     errors:
@@ -558,7 +558,7 @@ dependent_variables:
     - {symerror: 0.014, label: 'sys'}
 - header: {name: '$v_3$'}
   qualifiers:
-  - {name: '$p_T$', value: '40-50%'}
+  - {name: 'centrality', value: '40-50%'}
   values:
   - value: 0.009
     errors:
@@ -618,7 +618,7 @@ dependent_variables:
     - {symerror: 0.021, label: 'sys'}
 - header: {name: '$v_4$'}
   qualifiers:
-  - {name: '$p_T$', value: '0-10%'}
+  - {name: 'centrality', value: '0-10%'}
   values:
   - value: 0.0014
     errors:
@@ -678,7 +678,7 @@ dependent_variables:
     - {symerror: 0.019, label: 'sys'}
 - header: {name: '$v_4$'}
   qualifiers:
-  - {name: '$p_T$', value: '10-20%'}
+  - {name: 'centrality', value: '10-20%'}
   values:
   - value: 0.0031
     errors:
@@ -738,7 +738,7 @@ dependent_variables:
     - {symerror: 0.021, label: 'sys'}
 - header: {name: '$v_4$'}
   qualifiers:
-  - {name: '$p_T$', value: '20-30%'}
+  - {name: 'centrality', value: '20-30%'}
   values:
   - value: 0.005
     errors:
@@ -798,7 +798,7 @@ dependent_variables:
     - {symerror: 0.026, label: 'sys'}
 - header: {name: '$v_4$'}
   qualifiers:
-  - {name: '$p_T$', value: '30-40%'}
+  - {name: 'centrality', value: '30-40%'}
   values:
   - value: 0.006
     errors:
@@ -858,7 +858,7 @@ dependent_variables:
     - {symerror: 0.04, label: 'sys'}
 - header: {name: '$v_4$'}
   qualifiers:
-  - {name: '$p_T$', value: '40-50%'}
+  - {name: 'centrality', value: '40-50%'}
   values:
   - value: 0.008
     errors:
@@ -918,7 +918,7 @@ dependent_variables:
     - {symerror: 0.08, label: 'sys'}
 - header: {name: '$v_4_{\psi_2}$'}
   qualifiers:
-  - {name: '$p_T$', value: '0-10%'}
+  - {name: 'centrality', value: '0-10%'}
   values:
   - value: 0.00010
     errors:
@@ -978,7 +978,7 @@ dependent_variables:
     - {symerror: 0.009, label: 'sys'}
 - header: {name: '$v_4_{\psi_2}$'}
   qualifiers:
-  - {name: '$p_T$', value: '10-20%'}
+  - {name: 'centrality', value: '10-20%'}
   values:
   - value: 0.0005
     errors:
@@ -1038,7 +1038,7 @@ dependent_variables:
     - {symerror: 0.006, label: 'sys'}
 - header: {name: '$v_4_{\psi_2}$'}
   qualifiers:
-  - {name: '$p_T$', value: '20-30%'}
+  - {name: 'centrality', value: '20-30%'}
   values:
   - value: 0.0012
     errors:
@@ -1098,7 +1098,7 @@ dependent_variables:
     - {symerror: 0.006, label: 'sys'}
 - header: {name: '$v_4_{\psi_2}$'}
   qualifiers:
-  - {name: '$p_T$', value: '30-40%'}
+  - {name: 'centrality', value: '30-40%'}
   values:
   - value: 0.0018
     errors:
@@ -1158,7 +1158,7 @@ dependent_variables:
     - {symerror: 0.007, label: 'sys'}
 - header: {name: '$v_4_{\psi_2}$'}
   qualifiers:
-  - {name: '$p_T$', value: '40-50%'}
+  - {name: 'centrality', value: '40-50%'}
   values:
   - value: 0.0022
     errors:

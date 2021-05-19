@@ -117,7 +117,7 @@ additional_resources:
 data_file: HEPData_Fig22.yaml
 ---
 name: "Figure 23"
-description: 'Psi_{2} dependent C(#Delta#phi), 2-4#otimes1-2 GeV/c.'
+description: '$\Psi_{2}$-dependent $C(\Delta\phi)$ for $2<p_{T}^{trig}<4$ GeV/c and $1<p_{T}^{assoc}<2$ GeV/c.'
 keywords:
   - {name: reactions, values: [trigger particle azmithal angle]}
   - {name: cmenergies, values: [200.0]}
@@ -125,7 +125,7 @@ keywords:
 data_file: HEPData_Fig23.yaml
 ---
 name: "Figure 24"
-description: 'Psi_{2} dependent C(#Delta#phi), 2-4#otimes1-2 GeV/c.'
+description: '$\Psi_{2}$-dependent $C(\Delta\phi)$ for $2<p_{T}^{trig}<4$ GeV/c and $2<p_{T}^{assoc}<4$ GeV/c.'
 keywords:
   - {name: reactions, values: [trigger particle azmithal angle]}
   - {name: cmenergies, values: [200.0]}
@@ -133,7 +133,7 @@ keywords:
 data_file: HEPData_Fig24.yaml
 ---
 name: "Figure 25"
-description: 'Psi_{2} dependent C(#Delta#phi), 2-4#otimes1-2 GeV/c.'
+description: '$\Psi_{2}$-dependent $C(\Delta\phi)$ for $4<p_{T}^{trig}<10$ GeV/c and $2<p_{T}^{assoc}<4$ GeV/c.'
 keywords:
   - {name: reactions, values: [trigger particle azmithal angle]}
   - {name: cmenergies, values: [200.0]}
@@ -141,7 +141,7 @@ keywords:
 data_file: HEPData_Fig25.yaml
 ---
 name: "Figure 26"
-description: 'Psi_{2} dependent C(#Delta#phi), 2-4#otimes1-2 GeV/c.'
+description: '$\Psi_{3}$-dependent $C(\Delta\phi)$ for $2<p_{T}^{trig}<4$ GeV/c and $1<p_{T}^{assoc}<2$ GeV/c.'
 keywords:
   - {name: reactions, values: [trigger particle azmithal angle]}
   - {name: cmenergies, values: [200.0]}
@@ -149,7 +149,7 @@ keywords:
 data_file: HEPData_Fig26.yaml
 ---
 name: "Figure 27"
-description: 'Psi_{2} dependent C(#Delta#phi), 2-4#otimes1-2 GeV/c.'
+description: '$\Psi_{3}$-dependent $C(\Delta\phi)$ for $2<p_{T}^{trig}<4$ GeV/c and $2<p_{T}^{assoc}<4$ GeV/c.'
 keywords:
   - {name: reactions, values: [trigger particle azmithal angle]}
   - {name: cmenergies, values: [200.0]}
@@ -157,7 +157,7 @@ keywords:
 data_file: HEPData_Fig27.yaml
 ---
 name: "Figure 28"
-description: 'Psi_{2} dependent C(#Delta#phi), 2-4#otimes1-2 GeV/c.'
+description: '$\Psi_{3}$-dependent $C(\Delta\phi)$ for $4<p_{T}^{trig}<10$ GeV/c and $1<p_{T}^{assoc}<2$ GeV/c.'
 keywords:
   - {name: reactions, values: [trigger particle azmithal angle]}
   - {name: cmenergies, values: [200.0]}
@@ -165,195 +165,193 @@ keywords:
 data_file: HEPData_Fig28.yaml
 ---
 name: "Figure 29"
-description: 'Psi_{2} dependent C(#Delta#phi), 2-4#otimes1-2 GeV/c.'
+description: '$\Psi_{2}$-dependent $Y(\Delta\phi)$ for $2<p_{T}^{trig}<4$ GeV/c and $1<p_{T}^{assoc}<2$ GeV/c.'
 keywords:
   - {name: reactions, values: [trigger particle azmithal angle]}
   - {name: cmenergies, values: [200.0]}
   - {name: phrases, values: [phi2]}
-data_file: HEPData_Fig29.yaml
+data_file: Fig29.yaml
 ---
 name: "Figure 30"
-description: 'Psi_{2} dependent C(#Delta#phi), 2-4#otimes2-4 GeV/c.'
+description: '$\Psi_{2}$-dependent $C(\Delta\phi)$ for $2<p_{T}^{trig}<4$ GeV/c and $2<p_{T}^{assoc}<4$ GeV/c.'
 keywords:
   - {name: reactions, values: [trigger particle azmithal angle]}
   - {name: cmenergies, values: [200.0]}
   - {name: phrases, values: [phi2]}
-data_file: HEPData_Fig30.yaml
+data_file: Fig30.yaml
 ---
 name: "Figure 31"
-description: 'Psi_{2} dependent C(#Delta#phi), 4-10#otimes2-4 GeV/c.'
+description: '$\Psi_{2}$-dependent $C(\Delta\phi)$ for $4<p_{T}^{trig}<10$ GeV/c and $2<p_{T}^{assoc}<4$ GeV/c.'
 keywords:
   - {name: reactions, values: [Trigger particle azimuthal angle]}
   - {name: cmenergies, values: [200.0]}
   - {name: phrases, values: [phi2]}
-data_file: HEPData_Fig31.yaml
+data_file: Fig31.yaml
 
 
 ---
 
 name: "Figure 32"
-description: 'Ψ3-dependent per-trigger yields Y (∆φ, φs) for (2 < ptT < 4) ⊗ (1 < paT < 2) GeV/c. Trigger particle azimuthal angle relative to event-planes φs=φ, t − Ψ3 is selected out of plane (left) to in-plane (right). Centrality is 0%–10% (top) to 40%–50%
-(bottom).'
+description: '$\Psi_{3}$-dependent $C(\Delta\phi)$ for $2<p_{T}^{trig}<4$ GeV/c and $1<p_{T}^{assoc}<2$ GeV/c.'
 keywords:
   - {name: reactions, values: [Trigger particle yeilds Y]}
   - {name: cmenergies, values: [200.0]}
   - {name: phrases, values: [phi3]}
-data_file: HEPData_Fig32.yaml
+data_file: Fig32.yaml
 
 
 ---
 
 name: "Figure 33"
-description: 'Ψ3-dependent per-trigger yields Y (∆φ, φs) for (2 < ptT < 4) ⊗ (2 < paT < 4) GeV/c. Trigger particle azimuthal angle relative to event-planes φs = φ t − Ψ3 is out of plane (left) to in plane (right). Centrality is 0%–10% (top) to 40%–50% (bottom).'
+description: '$\Psi_{3}$-dependent $C(\Delta\phi)$ for $2<p_{T}^{trig}<4$ GeV/c and $2<p_{T}^{assoc}<4$ GeV/c.'
 keywords:
   - {name: reactions, values: [Trigger particle yeilds Y]}
   - {name: cmenergies, values: [200.0]}
   - {name: phrases, values: [phi3]}
-data_file: HEPData_Fig33.yaml
+data_file: Fig33.yaml
 
 
 ---
 
 name: "Figure 34"
-description: 'Ψ3-dependent per-trigger yields Y (∆φ, φs) for (4 < ptT < 10) ⊗ (2 < paT < 4) GeV/c. Trigger particle azimuthal angle relative to event-planes φs = φ, t − Ψ3 is selected out of plane (left) to in plane (right). Centrality is 0%–10% (left) to 40%–50% (right).'
+description: '$\Psi_{3}$-dependent $C(\Delta\phi)$ for $4<p_{T}^{trig}<10$ GeV/c and $2<p_{T}^{assoc}<4$ GeV/c.'
 keywords:
   - {name: reactions, values: [Trigger particle yeilds Y]}
   - {name: cmenergies, values: [200.0]}
   - {name: phrases, values: [phi3]}
-data_file: HEPData_Fig34.yaml
+data_file: Fig34.yaml
 
 ---
-
-name: "HEPData_Psi2_Cor2-4x1-2GeV"
-description: ''
+name: "Supplemental: C Psi2 Trig2-4 Assoc 1-2"
+description: '$\Psi_2$-dependent C for 2 $< p_T^t <$ 4 and 1 $< p_T^a <$ 2 GeV/c.'
 keywords:
   - {name: reactions, values: [Trigger particle yeilds Y]}
   - {name: cmenergies, values: [200.0]}
-  - {name: phrases, values: [phi3]}
-data_file: HEPData_Psi2_Cor2-4x1-2GeV.yaml
-
-
----
-
-name: "HEPData_Psi2_Cor2-4x2-4GeV"
-description: ''
-keywords:
-  - {name: reactions, values: [Trigger particle yeilds Y]}
-  - {name: cmenergies, values: [200.0]}
-  - {name: phrases, values: [phi3]}
-data_file: HEPData_Psi2_Cor2-4x2-4GeV.yaml
+  - {name: phrases, values: [phi2]}
+data_file: CPsi2Trig2To4Assoc1To2.yaml
 
 
 ---
 
-name: "HEPData_Cor2_PTY4-10x2-4GeV"
-description: ''
+name: "Supplemental: C Psi2 Trig2-4 Assoc 2-4"
+description: '$\Psi_2$-dependent C for 2 $< p_T^t <$ 4 and 2 $< p_T^a <$ 4 GeV/c.'
 keywords:
   - {name: reactions, values: [Trigger particle yeilds Y]}
   - {name: cmenergies, values: [200.0]}
   - {name: phrases, values: [phi3]}
-data_file: HEPData_Psi2_Cor4-10x2-4GeV.yaml
-
+data_file: CPsi2Trig2To4Assoc2To4.yaml
 
 
 ---
-
-name: "HEPData_Psi2_PTY2-4x1-2GeV"
-description: ''
+name: "Supplemental: C Psi2 Trig4-10 Assoc 2-4"
+description: '$\Psi_2$-dependent C for 4 $< p_T^t <$ 10 and 2 $< p_T^a <$ 4 GeV/c.'
 keywords:
   - {name: reactions, values: [Trigger particle yeilds Y]}
   - {name: cmenergies, values: [200.0]}
   - {name: phrases, values: [phi3]}
-data_file: HEPData_Psi2_PTY2-4x1-2GeV.yaml
-
-
----
-
-name: "HEPData_Psi2_PTY2-4x2-4Gev"
-description: ''
-keywords:
-  - {name: reactions, values: [Trigger particle yeilds Y]}
-  - {name: cmenergies, values: [200.0]}
-  - {name: phrases, values: [phi3]}
-data_file: HEPData_Psi2_PTY2-4x2-4GeV.yaml
-
-
----
-
-name: "HEPData_Psi2_PTY4-10x2-4Gev"
-description: ''
-keywords:
-  - {name: reactions, values: [Trigger particle yeilds Y]}
-  - {name: cmenergies, values: [200.0]}
-  - {name: phrases, values: [phi3]}
-data_file: HEPData_Psi2_PTY4-10x2-4GeV.yaml
-
-
----
-
-name: "HEPData_Psi3_Cor2-4x1-2GeV"
-description: ''
-keywords:
-  - {name: reactions, values: [Trigger particle yeilds Y]}
-  - {name: cmenergies, values: [200.0]}
-  - {name: phrases, values: [phi3]}
-data_file: HEPData_Psi3_Cor2-4x1-2GeV.yaml
-
-
----
-
-name: "HEPData_Psi3_Cor2-4x2-4Gev"
-description: ''
-keywords:
-  - {name: reactions, values: [Trigger particle yeilds Y]}
-  - {name: cmenergies, values: [200.0]}
-  - {name: phrases, values: [phi3]}
-data_file: HEPData_Psi3_Cor2-4x2-4GeV.yaml
-
-
----
-
-name: "HEPData_Psi3_Cor4-10x2-4GeV"
-description: ''
-keywords:
-  - {name: reactions, values: [Trigger particle yeilds Y]}
-  - {name: cmenergies, values: [200.0]}
-  - {name: phrases, values: [phi3]}
-data_file: HEPData_Psi3_Cor4-10x2-4GeV.yaml
+data_file: CPsi2Trig4To10Assoc2To4.yaml
 
 
 
 ---
 
-name: "HEPData_Psi3_PTY2-4x1-2Gev"
-description: ''
+name: "Supplemental: Y Psi2 Trig2-4 Assoc 1-2"
+description: '$\Psi_2$-dependent Y for 2 $< p_T^t <$ 4 and 1 $< p_T^a <$ 2 GeV/c.'
 keywords:
   - {name: reactions, values: [Trigger particle yeilds Y]}
   - {name: cmenergies, values: [200.0]}
   - {name: phrases, values: [phi3]}
-data_file: HEPData_Psi3_PTY2-4x1-2GeV.yaml
+data_file: YPsi2Trig2To4Assoc1To2.yaml
 
 
 ---
 
-name: "HEPData_Psi3_PTY2-4x2-4Gev"
-description: ''
+name: "Supplemental: Y Psi2 Trig2-4 Assoc 2-4"
+description: '$\Psi_2$-dependent Y for 2 $< p_T^t <$ 4 and 2 $< p_T^a <$ 4 GeV/c.'
 keywords:
   - {name: reactions, values: [Trigger particle yeilds Y]}
   - {name: cmenergies, values: [200.0]}
   - {name: phrases, values: [phi3]}
-data_file: HEPData_Psi3_PTY2-4x2-4GeV.yaml
+data_file: YPsi2Trig2To4Assoc2To4.yaml
 
 
 ---
 
-name: "HEPData_Psi3_PTY4-10x2-4Gev"
-description: ''
+name: "Supplemental: Y Psi2 Trig4-10 Assoc 2-4"
+description: '$\Psi_2$-dependent Y for 4 $< p_T^t <$ 10 and 2 $< p_T^a <$ 4 GeV/c.'
+
 keywords:
   - {name: reactions, values: [Trigger particle yeilds Y]}
   - {name: cmenergies, values: [200.0]}
   - {name: phrases, values: [phi3]}
-data_file: HEPData_Psi3_PTY4-10x2-4GeV.yaml
+data_file: YPsi2Trig4To10Assoc2To4.yaml
+
+
+---
+
+name: "Supplemental: C Psi3 Trig2-4 Assoc 1-2"
+description: '$\Psi_3$-dependent C for 2 $< p_T^t <$ 4 and 1 $< p_T^a <$ 2 GeV/c.'
+keywords:
+  - {name: reactions, values: [Trigger particle yeilds Y]}
+  - {name: cmenergies, values: [200.0]}
+  - {name: phrases, values: [phi3]}
+data_file: CPsi3Trig2To4Assoc1To2.yaml
+
+
+---
+
+name: "Supplemental: C Psi3 Trig2-4 Assoc 2-4"
+description: '$\Psi_3$-dependent C for 2 $< p_T^t <$ 4 and 2 $< p_T^a <$ 4 GeV/c.'
+keywords:
+  - {name: reactions, values: [Trigger particle yeilds Y]}
+  - {name: cmenergies, values: [200.0]}
+  - {name: phrases, values: [phi3]}
+data_file: CPsi3Trig2To4Assoc2To4.yaml
+
+
+---
+
+name: "Supplemental: C Psi3 Trig4-10 Assoc 2-4"
+description: '$\Psi_3$-dependent C for 4 $< p_T^t <$ 10 and 2 $< p_T^a <$ 4 GeV/c.'
+keywords:
+  - {name: reactions, values: [Trigger particle yeilds Y]}
+  - {name: cmenergies, values: [200.0]}
+  - {name: phrases, values: [phi3]}
+data_file: CPsi3Trig4To10Assoc2To4.yaml
+
+
+
+---
+
+name: "Supplemental: Y Psi3 Trig2-4 Assoc 1-2"
+description: '$\Psi_3$-dependent Y for 2 $< p_T^t <$ 4 and 1 $< p_T^a <$ 2 GeV/c.'
+keywords:
+  - {name: reactions, values: [Trigger particle yeilds Y]}
+  - {name: cmenergies, values: [200.0]}
+  - {name: phrases, values: [phi3]}
+data_file: YPsi3Trig2To4Assoc1To2.yaml
+
+
+---
+
+name: "Supplemental: Y Psi3 Trig2-4 Assoc 2-4"
+description: '$\Psi_3$-dependent Y for 2 $< p_T^t <$ 4 and 2 $< p_T^a <$ 4 GeV/c.'
+keywords:
+  - {name: reactions, values: [Trigger particle yeilds Y]}
+  - {name: cmenergies, values: [200.0]}
+  - {name: phrases, values: [phi3]}
+data_file: YPsi3Trig2To4Assoc2To4.yaml
+
+
+---
+
+name: "Supplemental: Y Psi3 Trig4-10 Assoc 2-4"
+description: '$\Psi_3$-dependent Y for 4 $< p_T^t <$ 10 and 2 $< p_T^a <$ 4 GeV/c.'
+keywords:
+  - {name: reactions, values: [Trigger particle yeilds Y]}
+  - {name: cmenergies, values: [200.0]}
+  - {name: phrases, values: [phi3]}
+data_file: YPsi3Trig4To10Assoc2To4.yaml
 
 
 ---
