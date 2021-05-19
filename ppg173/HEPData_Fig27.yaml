@@ -1,2028 +1,2088 @@
 independent_variables:
-- header: {name: '$p_T$'}
+- header: {name: '$\Delta\phi$'}
   values:
-  - {low: -1.5708, high: 0.261799}
-  - {low: -1.309, high: 0.261799}
-  - {low: -1.0472, high: 0.261799}
-  - {low: -0.785398, high: 0.261799}
-  - {low: -0.523599, high: 0.261799}
-  - {low: -0.261799, high: 0.261799}
+  - {low: -1.5708, high: -1.309}
+  - {low: -1.309, high: -1.0472}
+  - {low: -1.0472, high: -0.785398}
+  - {low: -0.785398, high: -0.523599}
+  - {low: -0.523599, high: -0.261799}
+  - {low: -0.261799, high: 0}
   - {low: 0, high: 0.261799}
-  - {low: 0.261799, high: 0.261799}
-  - {low: 0.523599, high: 0.261799}
-  - {low: 0.785398, high: 0.261799}
-  - {low: 1.0472, high: 0.261799}
-  - {low: 1.309, high: 0.261799}
-  - {low: 1.5708, high: 0.261799}
-  - {low: 1.8326, high: 0.261799}
-  - {low: 2.0944, high: 0.261799}
-  - {low: 2.35619, high: 0.261799}
-  - {low: 2.61799, high: 0.261799}
-  - {low: 2.87979, high: 0.261799}
-  - {low: 3.14159, high: 0.261799}
-  - {low: 3.40339, high: 0.261799}
-  - {low: 3.66519, high: 0.261799}
-  - {low: 3.92699, high: 0.261799}
-  - {low: 4.18879, high: 0.261799}
-  - {low: 4.45059, high: 0.261799}
+  - {low: 0.261799, high: 0.523599}
+  - {low: 0.523599, high: 0.785398}
+  - {low: 0.785398, high: 1.0472}
+  - {low: 1.0472, high: 1.309}
+  - {low: 1.309, high: 1.5708}
+  - {low: 1.5708, high: 1.8326}
+  - {low: 1.8326, high: 2.0944}
+  - {low: 2.0944, high: 2.35619}
+  - {low: 2.35619, high: 2.61799}
+  - {low: 2.61799, high: 2.87979}
+  - {low: 2.87979, high: 3.14159}
+  - {low: 3.14159, high: 3.40339}
+  - {low: 3.40339, high: 3.66519}
+  - {low: 3.66519, high: 3.92699}
+  - {low: 3.92699, high: 4.18879}
+  - {low: 4.18879, high: 4.45059}
+  - {low: 4.45059, high: 4.71239}
 dependent_variables:
-- header: {name: '$-4#pi/12<#phi_{t}-#Psi_{3}<-3#pi/12$'}
+- header: {name: '$C$'}
   qualifiers:
-  - {name: '$p_T$', value: '0-10%'}
+  - {name: '$p_{T}^{trig}$', value: '2-4'}
+  - {name: '$p_{T}^{assoc}$', value: '2-4'}
+  - {name: 'centrality', value: '0-10%'}
+  - {name: '$\phi_{t}-\Psi_{3}$', value: '$-4\pi/12 - -3\pi/12$'}
   values:
-  - value: 1.0
+  - value: 1.007
     errors:
     - {symerror: 0.005, label: 'corr'}
     - {symerror: 0.005, label: 'stat'}
-  - value: 1.0
+  - value: 1.0192
     errors:
     - {symerror: 0.0032, label: 'corr'}
     - {symerror: 0.0032, label: 'stat'}
-  - value: 1.0
+  - value: 1.0062
     errors:
     - {symerror: 0.0024, label: 'corr'}
     - {symerror: 0.0024, label: 'stat'}
-  - value: 1.0
+  - value: 0.9889
     errors:
     - {symerror: 0.0021, label: 'corr'}
     - {symerror: 0.0021, label: 'stat'}
-  - value: 1.0
+  - value: 0.9867
     errors:
     - {symerror: 0.0018, label: 'corr'}
     - {symerror: 0.0018, label: 'stat'}
-  - value: 1.0
+  - value: 1.0026
     errors:
     - {symerror: 0.0018, label: 'corr'}
     - {symerror: 0.0018, label: 'stat'}
-  - value: 1.0
+  - value: 1.0173
     errors:
     - {symerror: 0.0018, label: 'corr'}
     - {symerror: 0.0018, label: 'stat'}
-  - value: 1.0
+  - value: 1.0165
     errors:
     - {symerror: 0.0018, label: 'corr'}
     - {symerror: 0.0018, label: 'stat'}
-  - value: 1.0
+  - value: 1.0216
     errors:
     - {symerror: 0.0021, label: 'corr'}
     - {symerror: 0.0021, label: 'stat'}
-  - value: 1.0
+  - value: 1.0187
     errors:
     - {symerror: 0.0024, label: 'corr'}
     - {symerror: 0.0024, label: 'stat'}
-  - value: 1.0
+  - value: 1.0048
     errors:
     - {symerror: 0.0032, label: 'corr'}
     - {symerror: 0.0032, label: 'stat'}
-  - value: 1.0
+  - value: 0.980
     errors:
     - {symerror: 0.004, label: 'corr'}
     - {symerror: 0.004, label: 'stat'}
-  - value: 1.0
+  - value: 0.954
     errors:
     - {symerror: 0.004, label: 'corr'}
     - {symerror: 0.004, label: 'stat'}
-  - value: 0.9
+  - value: 0.9446
     errors:
     - {symerror: 0.0030, label: 'corr'}
     - {symerror: 0.0030, label: 'stat'}
-  - value: 1.0
+  - value: 0.9615
     errors:
     - {symerror: 0.0024, label: 'corr'}
     - {symerror: 0.0024, label: 'stat'}
-  - value: 1.0
+  - value: 0.9910
     errors:
     - {symerror: 0.0021, label: 'corr'}
     - {symerror: 0.0021, label: 'stat'}
-  - value: 1.0
+  - value: 1.0218
     errors:
     - {symerror: 0.0020, label: 'corr'}
     - {symerror: 0.0020, label: 'stat'}
-  - value: 1.0
+  - value: 1.0336
     errors:
     - {symerror: 0.0019, label: 'corr'}
     - {symerror: 0.0019, label: 'stat'}
-  - value: 1.0
+  - value: 1.0226
     errors:
     - {symerror: 0.0019, label: 'corr'}
     - {symerror: 0.0019, label: 'stat'}
-  - value: 1.0
+  - value: 0.9903
     errors:
     - {symerror: 0.0019, label: 'corr'}
     - {symerror: 0.0019, label: 'stat'}
-  - value: 1.0
+  - value: 0.9622
     errors:
     - {symerror: 0.0021, label: 'corr'}
     - {symerror: 0.0021, label: 'stat'}
-  - value: 0.9
+  - value: 0.9456
     errors:
     - {symerror: 0.0024, label: 'corr'}
     - {symerror: 0.0024, label: 'stat'}
-  - value: 1.0
+  - value: 0.9580
     errors:
     - {symerror: 0.0031, label: 'corr'}
     - {symerror: 0.0031, label: 'stat'}
-  - value: 1.0
+  - value: 0.979
     errors:
     - {symerror: 0.004, label: 'corr'}
     - {symerror: 0.004, label: 'stat'}
-- header: {name: '$-3#pi/12<#phi_{t}-#Psi_{3}<-2#pi/12$'}
+- header: {name: '$C$'}
   qualifiers:
-  - {name: '$p_T$', value: '0-10%'}
+  - {name: '$p_{T}^{trig}$', value: '2-4'}
+  - {name: '$p_{T}^{assoc}$', value: '2-4'}
+  - {name: 'centrality', value: '0-10%'}
+  - {name: '$\phi_{t}-\Psi_{3}$', value: '$-3\pi/12 - -2\pi/12$'}
   values:
-  - value: 1.0
+  - value: 1.019
     errors:
     - {symerror: 0.004, label: 'corr'}
     - {symerror: 0.004, label: 'stat'}
-  - value: 1.0
+  - value: 1.0041
     errors:
     - {symerror: 0.0031, label: 'corr'}
     - {symerror: 0.0031, label: 'stat'}
-  - value: 1.0
+  - value: 0.9763
     errors:
     - {symerror: 0.0023, label: 'corr'}
     - {symerror: 0.0023, label: 'stat'}
-  - value: 1.0
+  - value: 0.9629
     errors:
     - {symerror: 0.0020, label: 'corr'}
     - {symerror: 0.0020, label: 'stat'}
-  - value: 1.0
+  - value: 0.9747
     errors:
     - {symerror: 0.0018, label: 'corr'}
     - {symerror: 0.0018, label: 'stat'}
-  - value: 1.0
+  - value: 1.0157
     errors:
     - {symerror: 0.0018, label: 'corr'}
     - {symerror: 0.0018, label: 'stat'}
-  - value: 1.0
+  - value: 1.0468
     errors:
     - {symerror: 0.0018, label: 'corr'}
     - {symerror: 0.0018, label: 'stat'}
-  - value: 1.0
+  - value: 1.0486
     errors:
     - {symerror: 0.0019, label: 'corr'}
     - {symerror: 0.0019, label: 'stat'}
-  - value: 1.0
+  - value: 1.0345
     errors:
     - {symerror: 0.0021, label: 'corr'}
     - {symerror: 0.0021, label: 'stat'}
-  - value: 1.0
+  - value: 1.0069
     errors:
     - {symerror: 0.0024, label: 'corr'}
     - {symerror: 0.0024, label: 'stat'}
-  - value: 1.0
+  - value: 0.9803
     errors:
     - {symerror: 0.0031, label: 'corr'}
     - {symerror: 0.0031, label: 'stat'}
-  - value: 1.0
+  - value: 0.959
     errors:
     - {symerror: 0.004, label: 'corr'}
     - {symerror: 0.004, label: 'stat'}
-  - value: 0.9
+  - value: 0.945
     errors:
     - {symerror: 0.004, label: 'corr'}
     - {symerror: 0.004, label: 'stat'}
-  - value: 1.0
+  - value: 0.9620
     errors:
     - {symerror: 0.0030, label: 'corr'}
     - {symerror: 0.0030, label: 'stat'}
-  - value: 1.0
+  - value: 0.9915
     errors:
     - {symerror: 0.0025, label: 'corr'}
     - {symerror: 0.0025, label: 'stat'}
-  - value: 1.0
+  - value: 1.0187
     errors:
     - {symerror: 0.0021, label: 'corr'}
     - {symerror: 0.0021, label: 'stat'}
-  - value: 1.0
+  - value: 1.0352
     errors:
     - {symerror: 0.0020, label: 'corr'}
     - {symerror: 0.0020, label: 'stat'}
-  - value: 1.0
+  - value: 1.0220
     errors:
     - {symerror: 0.0018, label: 'corr'}
     - {symerror: 0.0018, label: 'stat'}
-  - value: 1.0
+  - value: 0.9927
     errors:
     - {symerror: 0.0018, label: 'corr'}
     - {symerror: 0.0018, label: 'stat'}
-  - value: 1.0
+  - value: 0.9634
     errors:
     - {symerror: 0.0019, label: 'corr'}
     - {symerror: 0.0019, label: 'stat'}
-  - value: 0.9
+  - value: 0.9465
     errors:
     - {symerror: 0.0020, label: 'corr'}
     - {symerror: 0.0020, label: 'stat'}
-  - value: 1.0
+  - value: 0.9607
     errors:
     - {symerror: 0.0024, label: 'corr'}
     - {symerror: 0.0024, label: 'stat'}
-  - value: 1.0
+  - value: 0.9832
     errors:
     - {symerror: 0.0031, label: 'corr'}
     - {symerror: 0.0031, label: 'stat'}
-  - value: 1.0
+  - value: 1.014
     errors:
     - {symerror: 0.004, label: 'corr'}
     - {symerror: 0.004, label: 'stat'}
-- header: {name: '$-2#pi/12<#phi_{t}-#Psi_{3}<-#pi/12$'}
+- header: {name: '$C$'}
   qualifiers:
-  - {name: '$p_T$', value: '0-10%'}
+  - {name: '$p_{T}^{trig}$', value: '2-4'}
+  - {name: '$p_{T}^{assoc}$', value: '2-4'}
+  - {name: 'centrality', value: '0-10%'}
+  - {name: '$\phi_{t}-\Psi_{3}$', value: '$-2\pi/12 - -\pi/12$'}
   values:
-  - value: 1.0
+  - value: 1.004
     errors:
     - {symerror: 0.004, label: 'corr'}
     - {symerror: 0.004, label: 'stat'}
-  - value: 1.0
+  - value: 0.9760
     errors:
     - {symerror: 0.0030, label: 'corr'}
     - {symerror: 0.0030, label: 'stat'}
-  - value: 0.9
+  - value: 0.9470
     errors:
     - {symerror: 0.0022, label: 'corr'}
     - {symerror: 0.0022, label: 'stat'}
-  - value: 1.0
+  - value: 0.9507
     errors:
     - {symerror: 0.0020, label: 'corr'}
     - {symerror: 0.0020, label: 'stat'}
-  - value: 1.0
+  - value: 0.9878
     errors:
     - {symerror: 0.0018, label: 'corr'}
     - {symerror: 0.0018, label: 'stat'}
-  - value: 1.0
+  - value: 1.0442
     errors:
     - {symerror: 0.0018, label: 'corr'}
     - {symerror: 0.0018, label: 'stat'}
-  - value: 1.1
+  - value: 1.0791
     errors:
     - {symerror: 0.0018, label: 'corr'}
     - {symerror: 0.0018, label: 'stat'}
-  - value: 1.1
+  - value: 1.0602
     errors:
     - {symerror: 0.0018, label: 'corr'}
     - {symerror: 0.0018, label: 'stat'}
-  - value: 1.0
+  - value: 1.0217
     errors:
     - {symerror: 0.0021, label: 'corr'}
     - {symerror: 0.0021, label: 'stat'}
-  - value: 1.0
+  - value: 0.9736
     errors:
     - {symerror: 0.0023, label: 'corr'}
     - {symerror: 0.0023, label: 'stat'}
-  - value: 0.9
+  - value: 0.9480
     errors:
     - {symerror: 0.0030, label: 'corr'}
     - {symerror: 0.0030, label: 'stat'}
-  - value: 0.9
+  - value: 0.935
     errors:
     - {symerror: 0.004, label: 'corr'}
     - {symerror: 0.004, label: 'stat'}
-  - value: 1.0
+  - value: 0.963
     errors:
     - {symerror: 0.004, label: 'corr'}
     - {symerror: 0.004, label: 'stat'}
-  - value: 1.0
+  - value: 0.9891
     errors:
     - {symerror: 0.0030, label: 'corr'}
     - {symerror: 0.0030, label: 'stat'}
-  - value: 1.0
+  - value: 1.0182
     errors:
     - {symerror: 0.0025, label: 'corr'}
     - {symerror: 0.0025, label: 'stat'}
-  - value: 1.0
+  - value: 1.0311
     errors:
     - {symerror: 0.0021, label: 'corr'}
     - {symerror: 0.0021, label: 'stat'}
-  - value: 1.0
+  - value: 1.0201
     errors:
     - {symerror: 0.0019, label: 'corr'}
     - {symerror: 0.0019, label: 'stat'}
-  - value: 1.0
+  - value: 0.9907
     errors:
     - {symerror: 0.0018, label: 'corr'}
     - {symerror: 0.0018, label: 'stat'}
-  - value: 1.0
+  - value: 0.9637
     errors:
     - {symerror: 0.0017, label: 'corr'}
     - {symerror: 0.0017, label: 'stat'}
-  - value: 0.9
+  - value: 0.9499
     errors:
     - {symerror: 0.0018, label: 'corr'}
     - {symerror: 0.0018, label: 'stat'}
-  - value: 1.0
+  - value: 0.9579
     errors:
     - {symerror: 0.0020, label: 'corr'}
     - {symerror: 0.0020, label: 'stat'}
-  - value: 1.0
+  - value: 0.9851
     errors:
     - {symerror: 0.0024, label: 'corr'}
     - {symerror: 0.0024, label: 'stat'}
-  - value: 1.0
+  - value: 1.0139
     errors:
     - {symerror: 0.0031, label: 'corr'}
     - {symerror: 0.0031, label: 'stat'}
-  - value: 1.0
+  - value: 1.023
     errors:
     - {symerror: 0.004, label: 'corr'}
     - {symerror: 0.004, label: 'stat'}
-- header: {name: '$-#pi/12<#phi_{t}-#Psi_{3}<0$'}
+- header: {name: '$C$'}
   qualifiers:
-  - {name: '$p_T$', value: '0-10%'}
+  - {name: '$p_{T}^{trig}$', value: '2-4'}
+  - {name: '$p_{T}^{assoc}$', value: '2-4'}
+  - {name: 'centrality', value: '0-10%'}
+  - {name: '$\phi_{t}-\Psi_{3}$', value: '$-\pi/12 - 0$'}
   values:
-  - value: 1.0
+  - value: 0.978
     errors:
     - {symerror: 0.004, label: 'corr'}
     - {symerror: 0.004, label: 'stat'}
-  - value: 0.9
+  - value: 0.9439
     errors:
     - {symerror: 0.0029, label: 'corr'}
     - {symerror: 0.0029, label: 'stat'}
-  - value: 0.9
+  - value: 0.9364
     errors:
     - {symerror: 0.0022, label: 'corr'}
     - {symerror: 0.0022, label: 'stat'}
-  - value: 1.0
+  - value: 0.9624
     errors:
     - {symerror: 0.0020, label: 'corr'}
     - {symerror: 0.0020, label: 'stat'}
-  - value: 1.0
+  - value: 1.0185
     errors:
     - {symerror: 0.0018, label: 'corr'}
     - {symerror: 0.0018, label: 'stat'}
-  - value: 1.1
+  - value: 1.0771
     errors:
     - {symerror: 0.0018, label: 'corr'}
     - {symerror: 0.0018, label: 'stat'}
-  - value: 1.1
+  - value: 1.0890
     errors:
     - {symerror: 0.0018, label: 'corr'}
     - {symerror: 0.0018, label: 'stat'}
-  - value: 1.0
+  - value: 1.0480
     errors:
     - {symerror: 0.0018, label: 'corr'}
     - {symerror: 0.0018, label: 'stat'}
-  - value: 1.0
+  - value: 0.9913
     errors:
     - {symerror: 0.0020, label: 'corr'}
     - {symerror: 0.0020, label: 'stat'}
-  - value: 1.0
+  - value: 0.9503
     errors:
     - {symerror: 0.0022, label: 'corr'}
     - {symerror: 0.0022, label: 'stat'}
-  - value: 0.9
+  - value: 0.9384
     errors:
     - {symerror: 0.0029, label: 'corr'}
     - {symerror: 0.0029, label: 'stat'}
-  - value: 0.9
+  - value: 0.944
     errors:
     - {symerror: 0.004, label: 'corr'}
     - {symerror: 0.004, label: 'stat'}
-  - value: 1.0
+  - value: 0.989
     errors:
     - {symerror: 0.004, label: 'corr'}
     - {symerror: 0.004, label: 'stat'}
-  - value: 1.0
+  - value: 1.0165
     errors:
     - {symerror: 0.0031, label: 'corr'}
     - {symerror: 0.0031, label: 'stat'}
-  - value: 1.0
+  - value: 1.0283
     errors:
     - {symerror: 0.0025, label: 'corr'}
     - {symerror: 0.0025, label: 'stat'}
-  - value: 1.0
+  - value: 1.0170
     errors:
     - {symerror: 0.0021, label: 'corr'}
     - {symerror: 0.0021, label: 'stat'}
-  - value: 1.0
+  - value: 0.9892
     errors:
     - {symerror: 0.0018, label: 'corr'}
     - {symerror: 0.0018, label: 'stat'}
-  - value: 1.0
+  - value: 0.9640
     errors:
     - {symerror: 0.0017, label: 'corr'}
     - {symerror: 0.0017, label: 'stat'}
-  - value: 0.9
+  - value: 0.9495
     errors:
     - {symerror: 0.0017, label: 'corr'}
     - {symerror: 0.0017, label: 'stat'}
-  - value: 1.0
+  - value: 0.9620
     errors:
     - {symerror: 0.0018, label: 'corr'}
     - {symerror: 0.0018, label: 'stat'}
-  - value: 1.0
+  - value: 0.9890
     errors:
     - {symerror: 0.0020, label: 'corr'}
     - {symerror: 0.0020, label: 'stat'}
-  - value: 1.0
+  - value: 1.0130
     errors:
     - {symerror: 0.0024, label: 'corr'}
     - {symerror: 0.0024, label: 'stat'}
-  - value: 1.0
+  - value: 1.0237
     errors:
     - {symerror: 0.0031, label: 'corr'}
     - {symerror: 0.0031, label: 'stat'}
-  - value: 1.0
+  - value: 1.013
     errors:
     - {symerror: 0.004, label: 'corr'}
     - {symerror: 0.004, label: 'stat'}
-- header: {name: '$-4#pi/12<#phi_{t}-#Psi_{3}<-3#pi/12$'}
+- header: {name: '$C$'}
   qualifiers:
-  - {name: '$p_T$', value: '10-20%'}
+  - {name: '$p_{T}^{trig}$', value: '2-4'}
+  - {name: '$p_{T}^{assoc}$', value: '2-4'}
+  - {name: 'centrality', value: '10-20%'}
+  - {name: '$\phi_{t}-\Psi_{3}$', value: '$-4\pi/12 - -3\pi/12$'}
   values:
-  - value: 1.0
+  - value: 0.977
     errors:
     - {symerror: 0.005, label: 'corr'}
     - {symerror: 0.005, label: 'stat'}
-  - value: 1.0
+  - value: 0.9908
     errors:
     - {symerror: 0.0035, label: 'corr'}
     - {symerror: 0.0035, label: 'stat'}
-  - value: 1.0
+  - value: 0.9926
     errors:
     - {symerror: 0.0026, label: 'corr'}
     - {symerror: 0.0026, label: 'stat'}
-  - value: 1.0
+  - value: 0.9880
     errors:
     - {symerror: 0.0023, label: 'corr'}
     - {symerror: 0.0023, label: 'stat'}
-  - value: 1.0
+  - value: 0.9964
     errors:
     - {symerror: 0.0020, label: 'corr'}
     - {symerror: 0.0020, label: 'stat'}
-  - value: 1.0
+  - value: 1.0242
     errors:
     - {symerror: 0.0020, label: 'corr'}
     - {symerror: 0.0020, label: 'stat'}
-  - value: 1.0
+  - value: 1.0365
     errors:
     - {symerror: 0.0020, label: 'corr'}
     - {symerror: 0.0020, label: 'stat'}
-  - value: 1.0
+  - value: 1.0305
     errors:
     - {symerror: 0.0020, label: 'corr'}
     - {symerror: 0.0020, label: 'stat'}
-  - value: 1.0
+  - value: 1.0214
     errors:
     - {symerror: 0.0023, label: 'corr'}
     - {symerror: 0.0023, label: 'stat'}
-  - value: 1.0
+  - value: 1.0030
     errors:
     - {symerror: 0.0026, label: 'corr'}
     - {symerror: 0.0026, label: 'stat'}
-  - value: 1.0
+  - value: 0.9734
     errors:
     - {symerror: 0.0034, label: 'corr'}
     - {symerror: 0.0034, label: 'stat'}
-  - value: 0.9
+  - value: 0.947
     errors:
     - {symerror: 0.005, label: 'corr'}
     - {symerror: 0.005, label: 'stat'}
-  - value: 0.9
+  - value: 0.913
     errors:
     - {symerror: 0.004, label: 'corr'}
     - {symerror: 0.004, label: 'stat'}
-  - value: 0.9
+  - value: 0.9169
     errors:
     - {symerror: 0.0032, label: 'corr'}
     - {symerror: 0.0032, label: 'stat'}
-  - value: 0.9
+  - value: 0.9432
     errors:
     - {symerror: 0.0026, label: 'corr'}
     - {symerror: 0.0026, label: 'stat'}
-  - value: 1.0
+  - value: 0.9892
     errors:
     - {symerror: 0.0023, label: 'corr'}
     - {symerror: 0.0023, label: 'stat'}
-  - value: 1.0
+  - value: 1.0305
     errors:
     - {symerror: 0.0022, label: 'corr'}
     - {symerror: 0.0022, label: 'stat'}
-  - value: 1.1
+  - value: 1.0531
     errors:
     - {symerror: 0.0021, label: 'corr'}
     - {symerror: 0.0021, label: 'stat'}
-  - value: 1.0
+  - value: 1.0363
     errors:
     - {symerror: 0.0021, label: 'corr'}
     - {symerror: 0.0021, label: 'stat'}
-  - value: 1.0
+  - value: 0.9968
     errors:
     - {symerror: 0.0021, label: 'corr'}
     - {symerror: 0.0021, label: 'stat'}
-  - value: 1.0
+  - value: 0.9517
     errors:
     - {symerror: 0.0023, label: 'corr'}
     - {symerror: 0.0023, label: 'stat'}
-  - value: 0.9
+  - value: 0.9301
     errors:
     - {symerror: 0.0026, label: 'corr'}
     - {symerror: 0.0026, label: 'stat'}
-  - value: 0.9
+  - value: 0.9268
     errors:
     - {symerror: 0.0032, label: 'corr'}
     - {symerror: 0.0032, label: 'stat'}
-  - value: 0.9
+  - value: 0.946
     errors:
     - {symerror: 0.004, label: 'corr'}
     - {symerror: 0.004, label: 'stat'}
-- header: {name: '$-3#pi/12<#phi_{t}-#Psi_{3}<-2#pi/12$'}
+- header: {name: '$C$'}
   qualifiers:
-  - {name: '$p_T$', value: '10-20%'}
+  - {name: '$p_{T}^{trig}$', value: '2-4'}
+  - {name: '$p_{T}^{assoc}$', value: '2-4'}
+  - {name: 'centrality', value: '10-20%'}
+  - {name: '$\phi_{t}-\Psi_{3}$', value: '$-3\pi/12 - -2\pi/12$'}
   values:
-  - value: 1.0
+  - value: 0.989
     errors:
     - {symerror: 0.005, label: 'corr'}
     - {symerror: 0.005, label: 'stat'}
-  - value: 1.0
+  - value: 0.9786
     errors:
     - {symerror: 0.0034, label: 'corr'}
     - {symerror: 0.0034, label: 'stat'}
-  - value: 1.0
+  - value: 0.9572
     errors:
     - {symerror: 0.0025, label: 'corr'}
     - {symerror: 0.0025, label: 'stat'}
-  - value: 1.0
+  - value: 0.9537
     errors:
     - {symerror: 0.0022, label: 'corr'}
     - {symerror: 0.0022, label: 'stat'}
-  - value: 1.0
+  - value: 0.9836
     errors:
     - {symerror: 0.0020, label: 'corr'}
     - {symerror: 0.0020, label: 'stat'}
-  - value: 1.0
+  - value: 1.0350
     errors:
     - {symerror: 0.0019, label: 'corr'}
     - {symerror: 0.0019, label: 'stat'}
-  - value: 1.1
+  - value: 1.0733
     errors:
     - {symerror: 0.0020, label: 'corr'}
     - {symerror: 0.0020, label: 'stat'}
-  - value: 1.1
+  - value: 1.0666
     errors:
     - {symerror: 0.0021, label: 'corr'}
     - {symerror: 0.0021, label: 'stat'}
-  - value: 1.0
+  - value: 1.0328
     errors:
     - {symerror: 0.0023, label: 'corr'}
     - {symerror: 0.0023, label: 'stat'}
-  - value: 1.0
+  - value: 0.9932
     errors:
     - {symerror: 0.0026, label: 'corr'}
     - {symerror: 0.0026, label: 'stat'}
-  - value: 0.9
+  - value: 0.9419
     errors:
     - {symerror: 0.0033, label: 'corr'}
     - {symerror: 0.0033, label: 'stat'}
-  - value: 0.9
+  - value: 0.905
     errors:
     - {symerror: 0.005, label: 'corr'}
     - {symerror: 0.005, label: 'stat'}
-  - value: 0.9
+  - value: 0.910
     errors:
     - {symerror: 0.004, label: 'corr'}
     - {symerror: 0.004, label: 'stat'}
-  - value: 0.9
+  - value: 0.9277
     errors:
     - {symerror: 0.0032, label: 'corr'}
     - {symerror: 0.0032, label: 'stat'}
-  - value: 1.0
+  - value: 0.9737
     errors:
     - {symerror: 0.0027, label: 'corr'}
     - {symerror: 0.0027, label: 'stat'}
-  - value: 1.0
+  - value: 1.0235
     errors:
     - {symerror: 0.0024, label: 'corr'}
     - {symerror: 0.0024, label: 'stat'}
-  - value: 1.0
+  - value: 1.0475
     errors:
     - {symerror: 0.0022, label: 'corr'}
     - {symerror: 0.0022, label: 'stat'}
-  - value: 1.0
+  - value: 1.0348
     errors:
     - {symerror: 0.0020, label: 'corr'}
     - {symerror: 0.0020, label: 'stat'}
-  - value: 1.0
+  - value: 1.0013
     errors:
     - {symerror: 0.0020, label: 'corr'}
     - {symerror: 0.0020, label: 'stat'}
-  - value: 1.0
+  - value: 0.9615
     errors:
     - {symerror: 0.0020, label: 'corr'}
     - {symerror: 0.0020, label: 'stat'}
-  - value: 0.9
+  - value: 0.9388
     errors:
     - {symerror: 0.0022, label: 'corr'}
     - {symerror: 0.0022, label: 'stat'}
-  - value: 0.9
+  - value: 0.9376
     errors:
     - {symerror: 0.0026, label: 'corr'}
     - {symerror: 0.0026, label: 'stat'}
-  - value: 1.0
+  - value: 0.9570
     errors:
     - {symerror: 0.0033, label: 'corr'}
     - {symerror: 0.0033, label: 'stat'}
-  - value: 1.0
+  - value: 0.978
     errors:
     - {symerror: 0.005, label: 'corr'}
     - {symerror: 0.005, label: 'stat'}
-- header: {name: '$-2#pi/12<#phi_{t}-#Psi_{3}<-#pi/12$'}
+- header: {name: '$C$'}
   qualifiers:
-  - {name: '$p_T$', value: '10-20%'}
+  - {name: '$p_{T}^{trig}$', value: '2-4'}
+  - {name: '$p_{T}^{assoc}$', value: '2-4'}
+  - {name: 'centrality', value: '10-20%'}
+  - {name: '$\phi_{t}-\Psi_{3}$', value: '$-2\pi/12 - -\pi/12$'}
   values:
-  - value: 1.0
+  - value: 0.978
     errors:
     - {symerror: 0.005, label: 'corr'}
     - {symerror: 0.005, label: 'stat'}
-  - value: 0.9
+  - value: 0.9425
     errors:
     - {symerror: 0.0032, label: 'corr'}
     - {symerror: 0.0032, label: 'stat'}
-  - value: 0.9
+  - value: 0.9260
     errors:
     - {symerror: 0.0024, label: 'corr'}
     - {symerror: 0.0024, label: 'stat'}
-  - value: 0.9
+  - value: 0.9391
     errors:
     - {symerror: 0.0021, label: 'corr'}
     - {symerror: 0.0021, label: 'stat'}
-  - value: 1.0
+  - value: 0.9963
     errors:
     - {symerror: 0.0019, label: 'corr'}
     - {symerror: 0.0019, label: 'stat'}
-  - value: 1.1
+  - value: 1.0705
     errors:
     - {symerror: 0.0020, label: 'corr'}
     - {symerror: 0.0020, label: 'stat'}
-  - value: 1.1
+  - value: 1.1084
     errors:
     - {symerror: 0.0020, label: 'corr'}
     - {symerror: 0.0020, label: 'stat'}
-  - value: 1.1
+  - value: 1.0815
     errors:
     - {symerror: 0.0020, label: 'corr'}
     - {symerror: 0.0020, label: 'stat'}
-  - value: 1.0
+  - value: 1.0220
     errors:
     - {symerror: 0.0023, label: 'corr'}
     - {symerror: 0.0023, label: 'stat'}
-  - value: 1.0
+  - value: 0.9584
     errors:
     - {symerror: 0.0025, label: 'corr'}
     - {symerror: 0.0025, label: 'stat'}
-  - value: 0.9
+  - value: 0.9132
     errors:
     - {symerror: 0.0032, label: 'corr'}
     - {symerror: 0.0032, label: 'stat'}
-  - value: 0.9
+  - value: 0.899
     errors:
     - {symerror: 0.004, label: 'corr'}
     - {symerror: 0.004, label: 'stat'}
-  - value: 0.9
+  - value: 0.923
     errors:
     - {symerror: 0.004, label: 'corr'}
     - {symerror: 0.004, label: 'stat'}
-  - value: 1.0
+  - value: 0.9687
     errors:
     - {symerror: 0.0033, label: 'corr'}
     - {symerror: 0.0033, label: 'stat'}
-  - value: 1.0
+  - value: 1.0102
     errors:
     - {symerror: 0.0027, label: 'corr'}
     - {symerror: 0.0027, label: 'stat'}
-  - value: 1.0
+  - value: 1.0370
     errors:
     - {symerror: 0.0023, label: 'corr'}
     - {symerror: 0.0023, label: 'stat'}
-  - value: 1.0
+  - value: 1.0305
     errors:
     - {symerror: 0.0021, label: 'corr'}
     - {symerror: 0.0021, label: 'stat'}
-  - value: 1.0
+  - value: 0.9974
     errors:
     - {symerror: 0.0019, label: 'corr'}
     - {symerror: 0.0019, label: 'stat'}
-  - value: 1.0
+  - value: 0.9663
     errors:
     - {symerror: 0.0019, label: 'corr'}
     - {symerror: 0.0019, label: 'stat'}
-  - value: 0.9
+  - value: 0.9459
     errors:
     - {symerror: 0.0020, label: 'corr'}
     - {symerror: 0.0020, label: 'stat'}
-  - value: 1.0
+  - value: 0.9512
     errors:
     - {symerror: 0.0022, label: 'corr'}
     - {symerror: 0.0022, label: 'stat'}
-  - value: 1.0
+  - value: 0.9673
     errors:
     - {symerror: 0.0026, label: 'corr'}
     - {symerror: 0.0026, label: 'stat'}
-  - value: 1.0
+  - value: 0.9924
     errors:
     - {symerror: 0.0033, label: 'corr'}
     - {symerror: 0.0033, label: 'stat'}
-  - value: 1.0
+  - value: 0.995
     errors:
     - {symerror: 0.004, label: 'corr'}
     - {symerror: 0.004, label: 'stat'}
-- header: {name: '$-#pi/12<#phi_{t}-#Psi_{3}<0$'}
+- header: {name: '$C$'}
   qualifiers:
-  - {name: '$p_T$', value: '10-20%'}
+  - {name: '$p_{T}^{trig}$', value: '2-4'}
+  - {name: '$p_{T}^{assoc}$', value: '2-4'}
+  - {name: 'centrality', value: '10-20%'}
+  - {name: '$\phi_{t}-\Psi_{3}$', value: '$-\pi/12 - 0$'}
   values:
-  - value: 0.9
+  - value: 0.940
     errors:
     - {symerror: 0.004, label: 'corr'}
     - {symerror: 0.004, label: 'stat'}
-  - value: 0.9
+  - value: 0.9154
     errors:
     - {symerror: 0.0031, label: 'corr'}
     - {symerror: 0.0031, label: 'stat'}
-  - value: 0.9
+  - value: 0.9128
     errors:
     - {symerror: 0.0024, label: 'corr'}
     - {symerror: 0.0024, label: 'stat'}
-  - value: 0.9
+  - value: 0.9498
     errors:
     - {symerror: 0.0021, label: 'corr'}
     - {symerror: 0.0021, label: 'stat'}
-  - value: 1.0
+  - value: 1.0289
     errors:
     - {symerror: 0.0019, label: 'corr'}
     - {symerror: 0.0019, label: 'stat'}
-  - value: 1.1
+  - value: 1.1044
     errors:
     - {symerror: 0.0020, label: 'corr'}
     - {symerror: 0.0020, label: 'stat'}
-  - value: 1.1
+  - value: 1.1237
     errors:
     - {symerror: 0.0020, label: 'corr'}
     - {symerror: 0.0020, label: 'stat'}
-  - value: 1.1
+  - value: 1.0648
     errors:
     - {symerror: 0.0020, label: 'corr'}
     - {symerror: 0.0020, label: 'stat'}
-  - value: 1.0
+  - value: 0.9845
     errors:
     - {symerror: 0.0022, label: 'corr'}
     - {symerror: 0.0022, label: 'stat'}
-  - value: 0.9
+  - value: 0.9243
     errors:
     - {symerror: 0.0024, label: 'corr'}
     - {symerror: 0.0024, label: 'stat'}
-  - value: 0.9
+  - value: 0.8962
     errors:
     - {symerror: 0.0031, label: 'corr'}
     - {symerror: 0.0031, label: 'stat'}
-  - value: 0.9
+  - value: 0.910
     errors:
     - {symerror: 0.004, label: 'corr'}
     - {symerror: 0.004, label: 'stat'}
-  - value: 1.0
+  - value: 0.957
     errors:
     - {symerror: 0.004, label: 'corr'}
     - {symerror: 0.004, label: 'stat'}
-  - value: 1.0
+  - value: 0.9987
     errors:
     - {symerror: 0.0033, label: 'corr'}
     - {symerror: 0.0033, label: 'stat'}
-  - value: 1.0
+  - value: 1.0255
     errors:
     - {symerror: 0.0027, label: 'corr'}
     - {symerror: 0.0027, label: 'stat'}
-  - value: 1.0
+  - value: 1.0217
     errors:
     - {symerror: 0.0023, label: 'corr'}
     - {symerror: 0.0023, label: 'stat'}
-  - value: 1.0
+  - value: 0.9978
     errors:
     - {symerror: 0.0020, label: 'corr'}
     - {symerror: 0.0020, label: 'stat'}
-  - value: 1.0
+  - value: 0.9670
     errors:
     - {symerror: 0.0019, label: 'corr'}
     - {symerror: 0.0019, label: 'stat'}
-  - value: 1.0
+  - value: 0.9540
     errors:
     - {symerror: 0.0019, label: 'corr'}
     - {symerror: 0.0019, label: 'stat'}
-  - value: 1.0
+  - value: 0.9613
     errors:
     - {symerror: 0.0020, label: 'corr'}
     - {symerror: 0.0020, label: 'stat'}
-  - value: 1.0
+  - value: 0.9840
     errors:
     - {symerror: 0.0022, label: 'corr'}
     - {symerror: 0.0022, label: 'stat'}
-  - value: 1.0
+  - value: 1.0083
     errors:
     - {symerror: 0.0026, label: 'corr'}
     - {symerror: 0.0026, label: 'stat'}
-  - value: 1.0
+  - value: 1.0158
     errors:
     - {symerror: 0.0033, label: 'corr'}
     - {symerror: 0.0033, label: 'stat'}
-  - value: 1.0
+  - value: 0.990
     errors:
     - {symerror: 0.004, label: 'corr'}
     - {symerror: 0.004, label: 'stat'}
-- header: {name: '$-4#pi/12<#phi_{t}-#Psi_{3}<-3#pi/12$'}
+- header: {name: '$C$'}
   qualifiers:
-  - {name: '$p_T$', value: '20-30%'}
+  - {name: '$p_{T}^{trig}$', value: '2-4'}
+  - {name: '$p_{T}^{assoc}$', value: '2-4'}
+  - {name: 'centrality', value: '20-30%'}
+  - {name: '$\phi_{t}-\Psi_{3}$', value: '$-4\pi/12 - -3\pi/12$'}
   values:
-  - value: 0.9
+  - value: 0.938
     errors:
     - {symerror: 0.006, label: 'corr'}
     - {symerror: 0.006, label: 'stat'}
-  - value: 1.0
+  - value: 0.953
     errors:
     - {symerror: 0.004, label: 'corr'}
     - {symerror: 0.004, label: 'stat'}
-  - value: 1.0
+  - value: 0.9682
     errors:
     - {symerror: 0.0033, label: 'corr'}
     - {symerror: 0.0033, label: 'stat'}
-  - value: 1.0
+  - value: 0.9820
     errors:
     - {symerror: 0.0029, label: 'corr'}
     - {symerror: 0.0029, label: 'stat'}
-  - value: 1.0
+  - value: 1.0124
     errors:
     - {symerror: 0.0026, label: 'corr'}
     - {symerror: 0.0026, label: 'stat'}
-  - value: 1.1
+  - value: 1.0580
     errors:
     - {symerror: 0.0026, label: 'corr'}
     - {symerror: 0.0026, label: 'stat'}
-  - value: 1.1
+  - value: 1.0737
     errors:
     - {symerror: 0.0026, label: 'corr'}
     - {symerror: 0.0026, label: 'stat'}
-  - value: 1.0
+  - value: 1.0467
     errors:
     - {symerror: 0.0026, label: 'corr'}
     - {symerror: 0.0026, label: 'stat'}
-  - value: 1.0
+  - value: 1.0120
     errors:
     - {symerror: 0.0030, label: 'corr'}
     - {symerror: 0.0030, label: 'stat'}
-  - value: 1.0
+  - value: 0.9782
     errors:
     - {symerror: 0.0033, label: 'corr'}
     - {symerror: 0.0033, label: 'stat'}
-  - value: 0.9
+  - value: 0.938
     errors:
     - {symerror: 0.004, label: 'corr'}
     - {symerror: 0.004, label: 'stat'}
-  - value: 0.9
+  - value: 0.906
     errors:
     - {symerror: 0.006, label: 'corr'}
     - {symerror: 0.006, label: 'stat'}
-  - value: 0.9
+  - value: 0.881
     errors:
     - {symerror: 0.005, label: 'corr'}
     - {symerror: 0.005, label: 'stat'}
-  - value: 0.9
+  - value: 0.895
     errors:
     - {symerror: 0.004, label: 'corr'}
     - {symerror: 0.004, label: 'stat'}
-  - value: 0.9
+  - value: 0.9299
     errors:
     - {symerror: 0.0033, label: 'corr'}
     - {symerror: 0.0033, label: 'stat'}
-  - value: 1.0
+  - value: 0.9857
     errors:
     - {symerror: 0.0030, label: 'corr'}
     - {symerror: 0.0030, label: 'stat'}
-  - value: 1.0
+  - value: 1.0387
     errors:
     - {symerror: 0.0028, label: 'corr'}
     - {symerror: 0.0028, label: 'stat'}
-  - value: 1.1
+  - value: 1.0603
     errors:
     - {symerror: 0.0027, label: 'corr'}
     - {symerror: 0.0027, label: 'stat'}
-  - value: 1.1
+  - value: 1.0503
     errors:
     - {symerror: 0.0027, label: 'corr'}
     - {symerror: 0.0027, label: 'stat'}
-  - value: 1.0
+  - value: 1.0010
     errors:
     - {symerror: 0.0027, label: 'corr'}
     - {symerror: 0.0027, label: 'stat'}
-  - value: 0.9
+  - value: 0.9485
     errors:
     - {symerror: 0.0029, label: 'corr'}
     - {symerror: 0.0029, label: 'stat'}
-  - value: 0.9
+  - value: 0.9085
     errors:
     - {symerror: 0.0033, label: 'corr'}
     - {symerror: 0.0033, label: 'stat'}
-  - value: 0.9
+  - value: 0.898
     errors:
     - {symerror: 0.004, label: 'corr'}
     - {symerror: 0.004, label: 'stat'}
-  - value: 0.9
+  - value: 0.907
     errors:
     - {symerror: 0.006, label: 'corr'}
     - {symerror: 0.006, label: 'stat'}
-- header: {name: '$-3#pi/12<#phi_{t}-#Psi_{3}<-2#pi/12$'}
+- header: {name: '$C$'}
   qualifiers:
-  - {name: '$p_T$', value: '20-30%'}
+  - {name: '$p_{T}^{trig}$', value: '2-4'}
+  - {name: '$p_{T}^{assoc}$', value: '2-4'}
+  - {name: 'centrality', value: '20-30%'}
+  - {name: '$\phi_{t}-\Psi_{3}$', value: '$-3\pi/12 - -2\pi/12$'}
   values:
-  - value: 0.9
+  - value: 0.948
     errors:
     - {symerror: 0.006, label: 'corr'}
     - {symerror: 0.006, label: 'stat'}
-  - value: 0.9
+  - value: 0.938
     errors:
     - {symerror: 0.004, label: 'corr'}
     - {symerror: 0.004, label: 'stat'}
-  - value: 0.9
+  - value: 0.9369
     errors:
     - {symerror: 0.0032, label: 'corr'}
     - {symerror: 0.0032, label: 'stat'}
-  - value: 1.0
+  - value: 0.9520
     errors:
     - {symerror: 0.0028, label: 'corr'}
     - {symerror: 0.0028, label: 'stat'}
-  - value: 1.0
+  - value: 0.9986
     errors:
     - {symerror: 0.0025, label: 'corr'}
     - {symerror: 0.0025, label: 'stat'}
-  - value: 1.1
+  - value: 1.0718
     errors:
     - {symerror: 0.0025, label: 'corr'}
     - {symerror: 0.0025, label: 'stat'}
-  - value: 1.1
+  - value: 1.1083
     errors:
     - {symerror: 0.0026, label: 'corr'}
     - {symerror: 0.0026, label: 'stat'}
-  - value: 1.1
+  - value: 1.0787
     errors:
     - {symerror: 0.0027, label: 'corr'}
     - {symerror: 0.0027, label: 'stat'}
-  - value: 1.0
+  - value: 1.0276
     errors:
     - {symerror: 0.0029, label: 'corr'}
     - {symerror: 0.0029, label: 'stat'}
-  - value: 1.0
+  - value: 0.9618
     errors:
     - {symerror: 0.0032, label: 'corr'}
     - {symerror: 0.0032, label: 'stat'}
-  - value: 0.9
+  - value: 0.899
     errors:
     - {symerror: 0.004, label: 'corr'}
     - {symerror: 0.004, label: 'stat'}
-  - value: 0.9
+  - value: 0.877
     errors:
     - {symerror: 0.006, label: 'corr'}
     - {symerror: 0.006, label: 'stat'}
-  - value: 0.9
+  - value: 0.870
     errors:
     - {symerror: 0.005, label: 'corr'}
     - {symerror: 0.005, label: 'stat'}
-  - value: 0.9
+  - value: 0.903
     errors:
     - {symerror: 0.004, label: 'corr'}
     - {symerror: 0.004, label: 'stat'}
-  - value: 1.0
+  - value: 0.9570
     errors:
     - {symerror: 0.0034, label: 'corr'}
     - {symerror: 0.0034, label: 'stat'}
-  - value: 1.0
+  - value: 1.0146
     errors:
     - {symerror: 0.0030, label: 'corr'}
     - {symerror: 0.0030, label: 'stat'}
-  - value: 1.0
+  - value: 1.0489
     errors:
     - {symerror: 0.0027, label: 'corr'}
     - {symerror: 0.0027, label: 'stat'}
-  - value: 1.0
+  - value: 1.0465
     errors:
     - {symerror: 0.0026, label: 'corr'}
     - {symerror: 0.0026, label: 'stat'}
-  - value: 1.0
+  - value: 1.0118
     errors:
     - {symerror: 0.0026, label: 'corr'}
     - {symerror: 0.0026, label: 'stat'}
-  - value: 1.0
+  - value: 0.9656
     errors:
     - {symerror: 0.0026, label: 'corr'}
     - {symerror: 0.0026, label: 'stat'}
-  - value: 0.9
+  - value: 0.9360
     errors:
     - {symerror: 0.0028, label: 'corr'}
     - {symerror: 0.0028, label: 'stat'}
-  - value: 0.9
+  - value: 0.9210
     errors:
     - {symerror: 0.0033, label: 'corr'}
     - {symerror: 0.0033, label: 'stat'}
-  - value: 0.9
+  - value: 0.928
     errors:
     - {symerror: 0.004, label: 'corr'}
     - {symerror: 0.004, label: 'stat'}
-  - value: 0.9
+  - value: 0.942
     errors:
     - {symerror: 0.006, label: 'corr'}
     - {symerror: 0.006, label: 'stat'}
-- header: {name: '$-2#pi/12<#phi_{t}-#Psi_{3}<-#pi/12$'}
+- header: {name: '$C$'}
   qualifiers:
-  - {name: '$p_T$', value: '20-30%'}
+  - {name: '$p_{T}^{trig}$', value: '2-4'}
+  - {name: '$p_{T}^{assoc}$', value: '2-4'}
+  - {name: 'centrality', value: '20-30%'}
+  - {name: '$\phi_{t}-\Psi_{3}$', value: '$-2\pi/12 - -\pi/12$'}
   values:
-  - value: 0.9
+  - value: 0.933
     errors:
     - {symerror: 0.006, label: 'corr'}
     - {symerror: 0.006, label: 'stat'}
-  - value: 0.9
+  - value: 0.911
     errors:
     - {symerror: 0.004, label: 'corr'}
     - {symerror: 0.004, label: 'stat'}
-  - value: 0.9
+  - value: 0.9093
     errors:
     - {symerror: 0.0030, label: 'corr'}
     - {symerror: 0.0030, label: 'stat'}
-  - value: 0.9
+  - value: 0.9355
     errors:
     - {symerror: 0.0027, label: 'corr'}
     - {symerror: 0.0027, label: 'stat'}
-  - value: 1.0
+  - value: 1.0122
     errors:
     - {symerror: 0.0025, label: 'corr'}
     - {symerror: 0.0025, label: 'stat'}
-  - value: 1.1
+  - value: 1.1010
     errors:
     - {symerror: 0.0025, label: 'corr'}
     - {symerror: 0.0025, label: 'stat'}
-  - value: 1.1
+  - value: 1.1406
     errors:
     - {symerror: 0.0026, label: 'corr'}
     - {symerror: 0.0026, label: 'stat'}
-  - value: 1.1
+  - value: 1.0907
     errors:
     - {symerror: 0.0026, label: 'corr'}
     - {symerror: 0.0026, label: 'stat'}
-  - value: 1.0
+  - value: 1.0052
     errors:
     - {symerror: 0.0028, label: 'corr'}
     - {symerror: 0.0028, label: 'stat'}
-  - value: 0.9
+  - value: 0.9323
     errors:
     - {symerror: 0.0031, label: 'corr'}
     - {symerror: 0.0031, label: 'stat'}
-  - value: 0.9
+  - value: 0.879
     errors:
     - {symerror: 0.004, label: 'corr'}
     - {symerror: 0.004, label: 'stat'}
-  - value: 0.9
+  - value: 0.864
     errors:
     - {symerror: 0.006, label: 'corr'}
     - {symerror: 0.006, label: 'stat'}
-  - value: 0.9
+  - value: 0.895
     errors:
     - {symerror: 0.005, label: 'corr'}
     - {symerror: 0.005, label: 'stat'}
-  - value: 0.9
+  - value: 0.941
     errors:
     - {symerror: 0.004, label: 'corr'}
     - {symerror: 0.004, label: 'stat'}
-  - value: 1.0
+  - value: 0.9921
     errors:
     - {symerror: 0.0034, label: 'corr'}
     - {symerror: 0.0034, label: 'stat'}
-  - value: 1.0
+  - value: 1.0294
     errors:
     - {symerror: 0.0030, label: 'corr'}
     - {symerror: 0.0030, label: 'stat'}
-  - value: 1.0
+  - value: 1.0381
     errors:
     - {symerror: 0.0027, label: 'corr'}
     - {symerror: 0.0027, label: 'stat'}
-  - value: 1.0
+  - value: 1.0143
     errors:
     - {symerror: 0.0025, label: 'corr'}
     - {symerror: 0.0025, label: 'stat'}
-  - value: 1.0
+  - value: 0.9819
     errors:
     - {symerror: 0.0025, label: 'corr'}
     - {symerror: 0.0025, label: 'stat'}
-  - value: 1.0
+  - value: 0.9555
     errors:
     - {symerror: 0.0025, label: 'corr'}
     - {symerror: 0.0025, label: 'stat'}
-  - value: 0.9
+  - value: 0.9469
     errors:
     - {symerror: 0.0028, label: 'corr'}
     - {symerror: 0.0028, label: 'stat'}
-  - value: 0.9
+  - value: 0.9482
     errors:
     - {symerror: 0.0033, label: 'corr'}
     - {symerror: 0.0033, label: 'stat'}
-  - value: 1.0
+  - value: 0.963
     errors:
     - {symerror: 0.004, label: 'corr'}
     - {symerror: 0.004, label: 'stat'}
-  - value: 1.0
+  - value: 0.957
     errors:
     - {symerror: 0.006, label: 'corr'}
     - {symerror: 0.006, label: 'stat'}
-- header: {name: '$-#pi/12<#phi_{t}-#Psi_{3}<0$'}
+- header: {name: '$C$'}
   qualifiers:
-  - {name: '$p_T$', value: '20-30%'}
+  - {name: '$p_{T}^{trig}$', value: '2-4'}
+  - {name: '$p_{T}^{assoc}$', value: '2-4'}
+  - {name: 'centrality', value: '20-30%'}
+  - {name: '$\phi_{t}-\Psi_{3}$', value: '$-\pi/12 - 0$'}
   values:
-  - value: 0.9
+  - value: 0.902
     errors:
     - {symerror: 0.006, label: 'corr'}
     - {symerror: 0.006, label: 'stat'}
-  - value: 0.9
+  - value: 0.879
     errors:
     - {symerror: 0.004, label: 'corr'}
     - {symerror: 0.004, label: 'stat'}
-  - value: 0.9
+  - value: 0.8929
     errors:
     - {symerror: 0.0030, label: 'corr'}
     - {symerror: 0.0030, label: 'stat'}
-  - value: 0.9
+  - value: 0.9470
     errors:
     - {symerror: 0.0027, label: 'corr'}
     - {symerror: 0.0027, label: 'stat'}
-  - value: 1.0
+  - value: 1.0440
     errors:
     - {symerror: 0.0025, label: 'corr'}
     - {symerror: 0.0025, label: 'stat'}
-  - value: 1.1
+  - value: 1.1412
     errors:
     - {symerror: 0.0026, label: 'corr'}
     - {symerror: 0.0026, label: 'stat'}
-  - value: 1.2
+  - value: 1.1519
     errors:
     - {symerror: 0.0026, label: 'corr'}
     - {symerror: 0.0026, label: 'stat'}
-  - value: 1.1
+  - value: 1.0746
     errors:
     - {symerror: 0.0026, label: 'corr'}
     - {symerror: 0.0026, label: 'stat'}
-  - value: 1.0
+  - value: 0.9782
     errors:
     - {symerror: 0.0028, label: 'corr'}
     - {symerror: 0.0028, label: 'stat'}
-  - value: 0.9
+  - value: 0.8993
     errors:
     - {symerror: 0.0030, label: 'corr'}
     - {symerror: 0.0030, label: 'stat'}
-  - value: 0.9
+  - value: 0.870
     errors:
     - {symerror: 0.004, label: 'corr'}
     - {symerror: 0.004, label: 'stat'}
-  - value: 0.9
+  - value: 0.878
     errors:
     - {symerror: 0.006, label: 'corr'}
     - {symerror: 0.006, label: 'stat'}
-  - value: 0.9
+  - value: 0.919
     errors:
     - {symerror: 0.005, label: 'corr'}
     - {symerror: 0.005, label: 'stat'}
-  - value: 1.0
+  - value: 0.967
     errors:
     - {symerror: 0.004, label: 'corr'}
     - {symerror: 0.004, label: 'stat'}
-  - value: 1.0
+  - value: 1.0066
     errors:
     - {symerror: 0.0034, label: 'corr'}
     - {symerror: 0.0034, label: 'stat'}
-  - value: 1.0
+  - value: 1.0149
     errors:
     - {symerror: 0.0029, label: 'corr'}
     - {symerror: 0.0029, label: 'stat'}
-  - value: 1.0
+  - value: 1.0015
     errors:
     - {symerror: 0.0026, label: 'corr'}
     - {symerror: 0.0026, label: 'stat'}
-  - value: 1.0
+  - value: 0.9766
     errors:
     - {symerror: 0.0024, label: 'corr'}
     - {symerror: 0.0024, label: 'stat'}
-  - value: 1.0
+  - value: 0.9658
     errors:
     - {symerror: 0.0024, label: 'corr'}
     - {symerror: 0.0024, label: 'stat'}
-  - value: 1.0
+  - value: 0.9654
     errors:
     - {symerror: 0.0025, label: 'corr'}
     - {symerror: 0.0025, label: 'stat'}
-  - value: 1.0
+  - value: 0.9812
     errors:
     - {symerror: 0.0028, label: 'corr'}
     - {symerror: 0.0028, label: 'stat'}
-  - value: 1.0
+  - value: 0.9871
     errors:
     - {symerror: 0.0033, label: 'corr'}
     - {symerror: 0.0033, label: 'stat'}
-  - value: 1.0
+  - value: 0.976
     errors:
     - {symerror: 0.004, label: 'corr'}
     - {symerror: 0.004, label: 'stat'}
-  - value: 0.9
+  - value: 0.950
     errors:
     - {symerror: 0.005, label: 'corr'}
     - {symerror: 0.005, label: 'stat'}
-- header: {name: '$-4#pi/12<#phi_{t}-#Psi_{3}<-3#pi/12$'}
+- header: {name: '$C$'}
   qualifiers:
-  - {name: '$p_T$', value: '30-40%'}
+  - {name: '$p_{T}^{trig}$', value: '2-4'}
+  - {name: '$p_{T}^{assoc}$', value: '2-4'}
+  - {name: 'centrality', value: '30-40%'}
+  - {name: '$\phi_{t}-\Psi_{3}$', value: '$-4\pi/12 - -3\pi/12$'}
   values:
-  - value: 0.9
+  - value: 0.890
     errors:
     - {symerror: 0.008, label: 'corr'}
     - {symerror: 0.008, label: 'stat'}
-  - value: 0.9
+  - value: 0.915
     errors:
     - {symerror: 0.006, label: 'corr'}
     - {symerror: 0.006, label: 'stat'}
-  - value: 0.9
+  - value: 0.941
     errors:
     - {symerror: 0.004, label: 'corr'}
     - {symerror: 0.004, label: 'stat'}
-  - value: 1.0
+  - value: 0.976
     errors:
     - {symerror: 0.004, label: 'corr'}
     - {symerror: 0.004, label: 'stat'}
-  - value: 1.0
+  - value: 1.031
     errors:
     - {symerror: 0.004, label: 'corr'}
     - {symerror: 0.004, label: 'stat'}
-  - value: 1.1
+  - value: 1.10
     errors:
     - {symerror: 0.004, label: 'corr'}
     - {symerror: 0.004, label: 'stat'}
-  - value: 1.1
+  - value: 1.113
     errors:
     - {symerror: 0.004, label: 'corr'}
     - {symerror: 0.004, label: 'stat'}
-  - value: 1.1
+  - value: 1.055
     errors:
     - {symerror: 0.004, label: 'corr'}
     - {symerror: 0.004, label: 'stat'}
-  - value: 1.0
+  - value: 10
     errors:
     - {symerror: 0.004, label: 'corr'}
     - {symerror: 0.004, label: 'stat'}
-  - value: 0.9
+  - value: 0.947
     errors:
     - {symerror: 0.004, label: 'corr'}
     - {symerror: 0.004, label: 'stat'}
-  - value: 0.9
+  - value: 0.906
     errors:
     - {symerror: 0.006, label: 'corr'}
     - {symerror: 0.006, label: 'stat'}
-  - value: 0.9
+  - value: 0.869
     errors:
     - {symerror: 0.008, label: 'corr'}
     - {symerror: 0.008, label: 'stat'}
-  - value: 0.8
+  - value: 0.844
     errors:
     - {symerror: 0.007, label: 'corr'}
     - {symerror: 0.007, label: 'stat'}
-  - value: 0.9
+  - value: 0.877
     errors:
     - {symerror: 0.006, label: 'corr'}
     - {symerror: 0.006, label: 'stat'}
-  - value: 0.9
+  - value: 0.920
     errors:
     - {symerror: 0.005, label: 'corr'}
     - {symerror: 0.005, label: 'stat'}
-  - value: 1.0
+  - value: 0.973
     errors:
     - {symerror: 0.004, label: 'corr'}
     - {symerror: 0.004, label: 'stat'}
-  - value: 1.0
+  - value: 1.035
     errors:
     - {symerror: 0.004, label: 'corr'}
     - {symerror: 0.004, label: 'stat'}
-  - value: 1.1
+  - value: 1.064
     errors:
     - {symerror: 0.004, label: 'corr'}
     - {symerror: 0.004, label: 'stat'}
-  - value: 1.1
+  - value: 1.053
     errors:
     - {symerror: 0.004, label: 'corr'}
     - {symerror: 0.004, label: 'stat'}
-  - value: 1.0
+  - value: 1.005
     errors:
     - {symerror: 0.004, label: 'corr'}
     - {symerror: 0.004, label: 'stat'}
-  - value: 0.9
+  - value: 0.945
     errors:
     - {symerror: 0.004, label: 'corr'}
     - {symerror: 0.004, label: 'stat'}
-  - value: 0.9
+  - value: 0.904
     errors:
     - {symerror: 0.005, label: 'corr'}
     - {symerror: 0.005, label: 'stat'}
-  - value: 0.9
+  - value: 0.882
     errors:
     - {symerror: 0.006, label: 'corr'}
     - {symerror: 0.006, label: 'stat'}
-  - value: 0.9
+  - value: 0.878
     errors:
     - {symerror: 0.008, label: 'corr'}
     - {symerror: 0.008, label: 'stat'}
-- header: {name: '$-3#pi/12<#phi_{t}-#Psi_{3}<-2#pi/12$'}
+- header: {name: '$C$'}
   qualifiers:
-  - {name: '$p_T$', value: '30-40%'}
+  - {name: '$p_{T}^{trig}$', value: '2-4'}
+  - {name: '$p_{T}^{assoc}$', value: '2-4'}
+  - {name: 'centrality', value: '30-40%'}
+  - {name: '$\phi_{t}-\Psi_{3}$', value: '$-3\pi/12 - -2\pi/12$'}
   values:
-  - value: 0.9
+  - value: 0.905
     errors:
     - {symerror: 0.008, label: 'corr'}
     - {symerror: 0.008, label: 'stat'}
-  - value: 0.9
+  - value: 0.907
     errors:
     - {symerror: 0.006, label: 'corr'}
     - {symerror: 0.006, label: 'stat'}
-  - value: 0.9
+  - value: 0.913
     errors:
     - {symerror: 0.004, label: 'corr'}
     - {symerror: 0.004, label: 'stat'}
-  - value: 0.9
+  - value: 0.944
     errors:
     - {symerror: 0.004, label: 'corr'}
     - {symerror: 0.004, label: 'stat'}
-  - value: 1.0
+  - value: 1.016
     errors:
     - {symerror: 0.004, label: 'corr'}
     - {symerror: 0.004, label: 'stat'}
-  - value: 1.1
+  - value: 1.111
     errors:
     - {symerror: 0.004, label: 'corr'}
     - {symerror: 0.004, label: 'stat'}
-  - value: 1.1
+  - value: 1.149
     errors:
     - {symerror: 0.004, label: 'corr'}
     - {symerror: 0.004, label: 'stat'}
-  - value: 1.1
+  - value: 1.080
     errors:
     - {symerror: 0.004, label: 'corr'}
     - {symerror: 0.004, label: 'stat'}
-  - value: 1.0
+  - value: 1.010
     errors:
     - {symerror: 0.004, label: 'corr'}
     - {symerror: 0.004, label: 'stat'}
-  - value: 0.9
+  - value: 0.933
     errors:
     - {symerror: 0.004, label: 'corr'}
     - {symerror: 0.004, label: 'stat'}
-  - value: 0.9
+  - value: 0.876
     errors:
     - {symerror: 0.006, label: 'corr'}
     - {symerror: 0.006, label: 'stat'}
-  - value: 0.8
+  - value: 0.841
     errors:
     - {symerror: 0.008, label: 'corr'}
     - {symerror: 0.008, label: 'stat'}
-  - value: 0.9
+  - value: 0.852
     errors:
     - {symerror: 0.007, label: 'corr'}
     - {symerror: 0.007, label: 'stat'}
-  - value: 0.9
+  - value: 0.882
     errors:
     - {symerror: 0.005, label: 'corr'}
     - {symerror: 0.005, label: 'stat'}
-  - value: 0.9
+  - value: 0.946
     errors:
     - {symerror: 0.005, label: 'corr'}
     - {symerror: 0.005, label: 'stat'}
-  - value: 1.0
+  - value: 1.003
     errors:
     - {symerror: 0.004, label: 'corr'}
     - {symerror: 0.004, label: 'stat'}
-  - value: 1.0
+  - value: 1.046
     errors:
     - {symerror: 0.004, label: 'corr'}
     - {symerror: 0.004, label: 'stat'}
-  - value: 1.1
+  - value: 1.052
     errors:
     - {symerror: 0.004, label: 'corr'}
     - {symerror: 0.004, label: 'stat'}
-  - value: 1.0
+  - value: 1.019
     errors:
     - {symerror: 0.004, label: 'corr'}
     - {symerror: 0.004, label: 'stat'}
-  - value: 1.0
+  - value: 0.978
     errors:
     - {symerror: 0.004, label: 'corr'}
     - {symerror: 0.004, label: 'stat'}
-  - value: 0.9
+  - value: 0.932
     errors:
     - {symerror: 0.004, label: 'corr'}
     - {symerror: 0.004, label: 'stat'}
-  - value: 0.9
+  - value: 0.916
     errors:
     - {symerror: 0.005, label: 'corr'}
     - {symerror: 0.005, label: 'stat'}
-  - value: 0.9
+  - value: 0.909
     errors:
     - {symerror: 0.006, label: 'corr'}
     - {symerror: 0.006, label: 'stat'}
-  - value: 0.9
+  - value: 0.914
     errors:
     - {symerror: 0.008, label: 'corr'}
     - {symerror: 0.008, label: 'stat'}
-- header: {name: '$-2#pi/12<#phi_{t}-#Psi_{3}<-#pi/12$'}
+- header: {name: '$C$'}
   qualifiers:
-  - {name: '$p_T$', value: '30-40%'}
+  - {name: '$p_{T}^{trig}$', value: '2-4'}
+  - {name: '$p_{T}^{assoc}$', value: '2-4'}
+  - {name: 'centrality', value: '30-40%'}
+  - {name: '$\phi_{t}-\Psi_{3}$', value: '$-2\pi/12 - -\pi/12$'}
   values:
-  - value: 0.9
+  - value: 0.892
     errors:
     - {symerror: 0.008, label: 'corr'}
     - {symerror: 0.008, label: 'stat'}
-  - value: 0.9
+  - value: 0.880
     errors:
     - {symerror: 0.006, label: 'corr'}
     - {symerror: 0.006, label: 'stat'}
-  - value: 0.9
+  - value: 0.887
     errors:
     - {symerror: 0.004, label: 'corr'}
     - {symerror: 0.004, label: 'stat'}
-  - value: 0.9
+  - value: 0.937
     errors:
     - {symerror: 0.004, label: 'corr'}
     - {symerror: 0.004, label: 'stat'}
-  - value: 1.0
+  - value: 1.0266
     errors:
     - {symerror: 0.0035, label: 'corr'}
     - {symerror: 0.0035, label: 'stat'}
-  - value: 1.1
+  - value: 1.144
     errors:
     - {symerror: 0.004, label: 'corr'}
     - {symerror: 0.004, label: 'stat'}
-  - value: 1.2
+  - value: 1.171
     errors:
     - {symerror: 0.004, label: 'corr'}
     - {symerror: 0.004, label: 'stat'}
-  - value: 1.1
+  - value: 1.090
     errors:
     - {symerror: 0.004, label: 'corr'}
     - {symerror: 0.004, label: 'stat'}
-  - value: 1.0
+  - value: 0.994
     errors:
     - {symerror: 0.004, label: 'corr'}
     - {symerror: 0.004, label: 'stat'}
-  - value: 0.9
+  - value: 0.903
     errors:
     - {symerror: 0.004, label: 'corr'}
     - {symerror: 0.004, label: 'stat'}
-  - value: 0.9
+  - value: 0.858
     errors:
     - {symerror: 0.005, label: 'corr'}
     - {symerror: 0.005, label: 'stat'}
-  - value: 0.8
+  - value: 0.832
     errors:
     - {symerror: 0.008, label: 'corr'}
     - {symerror: 0.008, label: 'stat'}
-  - value: 0.9
+  - value: 0.866
     errors:
     - {symerror: 0.007, label: 'corr'}
     - {symerror: 0.007, label: 'stat'}
-  - value: 0.9
+  - value: 0.915
     errors:
     - {symerror: 0.006, label: 'corr'}
     - {symerror: 0.006, label: 'stat'}
-  - value: 1.0
+  - value: 0.977
     errors:
     - {symerror: 0.005, label: 'corr'}
     - {symerror: 0.005, label: 'stat'}
-  - value: 1.0
+  - value: 1.017
     errors:
     - {symerror: 0.004, label: 'corr'}
     - {symerror: 0.004, label: 'stat'}
-  - value: 1.0
+  - value: 1.034
     errors:
     - {symerror: 0.004, label: 'corr'}
     - {symerror: 0.004, label: 'stat'}
-  - value: 1.0
+  - value: 1.027
     errors:
     - {symerror: 0.004, label: 'corr'}
     - {symerror: 0.004, label: 'stat'}
-  - value: 1.0
+  - value: 0.9969
     errors:
     - {symerror: 0.0035, label: 'corr'}
     - {symerror: 0.0035, label: 'stat'}
-  - value: 1.0
+  - value: 0.962
     errors:
     - {symerror: 0.004, label: 'corr'}
     - {symerror: 0.004, label: 'stat'}
-  - value: 0.9
+  - value: 0.944
     errors:
     - {symerror: 0.004, label: 'corr'}
     - {symerror: 0.004, label: 'stat'}
-  - value: 0.9
+  - value: 0.938
     errors:
     - {symerror: 0.005, label: 'corr'}
     - {symerror: 0.005, label: 'stat'}
-  - value: 0.9
+  - value: 0.931
     errors:
     - {symerror: 0.006, label: 'corr'}
     - {symerror: 0.006, label: 'stat'}
-  - value: 0.9
+  - value: 0.926
     errors:
     - {symerror: 0.008, label: 'corr'}
     - {symerror: 0.008, label: 'stat'}
-- header: {name: '$-#pi/12<#phi_{t}-#Psi_{3}<0$'}
+- header: {name: '$C$'}
   qualifiers:
-  - {name: '$p_T$', value: '30-40%'}
+  - {name: '$p_{T}^{trig}$', value: '2-4'}
+  - {name: '$p_{T}^{assoc}$', value: '2-4'}
+  - {name: 'centrality', value: '30-40%'}
+  - {name: '$\phi_{t}-\Psi_{3}$', value: '$-\pi/12 - 0$'}
   values:
-  - value: 0.9
+  - value: 0.882
     errors:
     - {symerror: 0.008, label: 'corr'}
     - {symerror: 0.008, label: 'stat'}
-  - value: 0.9
+  - value: 0.854
     errors:
     - {symerror: 0.005, label: 'corr'}
     - {symerror: 0.005, label: 'stat'}
-  - value: 0.9
+  - value: 0.876
     errors:
     - {symerror: 0.004, label: 'corr'}
     - {symerror: 0.004, label: 'stat'}
-  - value: 0.9
+  - value: 0.941
     errors:
     - {symerror: 0.004, label: 'corr'}
     - {symerror: 0.004, label: 'stat'}
-  - value: 1.0
+  - value: 1.0474
     errors:
     - {symerror: 0.0035, label: 'corr'}
     - {symerror: 0.0035, label: 'stat'}
-  - value: 1.2
+  - value: 1.171
     errors:
     - {symerror: 0.004, label: 'corr'}
     - {symerror: 0.004, label: 'stat'}
-  - value: 1.2
+  - value: 1.-1.0
     errors:
     - {symerror: 0.004, label: 'corr'}
     - {symerror: 0.004, label: 'stat'}
-  - value: 1.1
+  - value: 1.074
     errors:
     - {symerror: 0.004, label: 'corr'}
     - {symerror: 0.004, label: 'stat'}
-  - value: 1.0
+  - value: 0.971
     errors:
     - {symerror: 0.004, label: 'corr'}
     - {symerror: 0.004, label: 'stat'}
-  - value: 0.9
+  - value: 0.887
     errors:
     - {symerror: 0.004, label: 'corr'}
     - {symerror: 0.004, label: 'stat'}
-  - value: 0.8
+  - value: 0.847
     errors:
     - {symerror: 0.005, label: 'corr'}
     - {symerror: 0.005, label: 'stat'}
-  - value: 0.9
+  - value: 0.852
     errors:
     - {symerror: 0.008, label: 'corr'}
     - {symerror: 0.008, label: 'stat'}
-  - value: 0.9
+  - value: 0.893
     errors:
     - {symerror: 0.007, label: 'corr'}
     - {symerror: 0.007, label: 'stat'}
-  - value: 0.9
+  - value: 0.942
     errors:
     - {symerror: 0.006, label: 'corr'}
     - {symerror: 0.006, label: 'stat'}
-  - value: 1.0
+  - value: 0.984
     errors:
     - {symerror: 0.005, label: 'corr'}
     - {symerror: 0.005, label: 'stat'}
-  - value: 1.0
+  - value: 1.004
     errors:
     - {symerror: 0.004, label: 'corr'}
     - {symerror: 0.004, label: 'stat'}
-  - value: 1.0
+  - value: 1.006
     errors:
     - {symerror: 0.004, label: 'corr'}
     - {symerror: 0.004, label: 'stat'}
-  - value: 1.0
+  - value: 0.9940
     errors:
     - {symerror: 0.0034, label: 'corr'}
     - {symerror: 0.0034, label: 'stat'}
-  - value: 1.0
+  - value: 0.9780
     errors:
     - {symerror: 0.0034, label: 'corr'}
     - {symerror: 0.0034, label: 'stat'}
-  - value: 1.0
+  - value: 0.979
     errors:
     - {symerror: 0.004, label: 'corr'}
     - {symerror: 0.004, label: 'stat'}
-  - value: 1.0
+  - value: 0.977
     errors:
     - {symerror: 0.004, label: 'corr'}
     - {symerror: 0.004, label: 'stat'}
-  - value: 1.0
+  - value: 0.978
     errors:
     - {symerror: 0.005, label: 'corr'}
     - {symerror: 0.005, label: 'stat'}
-  - value: 0.9
+  - value: 0.945
     errors:
     - {symerror: 0.006, label: 'corr'}
     - {symerror: 0.006, label: 'stat'}
-  - value: 0.9
+  - value: 0.923
     errors:
     - {symerror: 0.008, label: 'corr'}
     - {symerror: 0.008, label: 'stat'}
-- header: {name: '$-4#pi/12<#phi_{t}-#Psi_{3}<-3#pi/12$'}
+- header: {name: '$C$'}
   qualifiers:
-  - {name: '$p_T$', value: '40-50%'}
+  - {name: '$p_{T}^{trig}$', value: '2-4'}
+  - {name: '$p_{T}^{assoc}$', value: '2-4'}
+  - {name: 'centrality', value: '40-50%'}
+  - {name: '$\phi_{t}-\Psi_{3}$', value: '$-4\pi/12 - -3\pi/12$'}
   values:
-  - value: 0.9
+  - value: 0.876
     errors:
     - {symerror: 0.012, label: 'corr'}
     - {symerror: 0.012, label: 'stat'}
-  - value: 0.9
+  - value: 0.885
     errors:
     - {symerror: 0.009, label: 'corr'}
     - {symerror: 0.009, label: 'stat'}
-  - value: 0.9
+  - value: 0.904
     errors:
     - {symerror: 0.007, label: 'corr'}
     - {symerror: 0.007, label: 'stat'}
-  - value: 1.0
+  - value: 0.968
     errors:
     - {symerror: 0.006, label: 'corr'}
     - {symerror: 0.006, label: 'stat'}
-  - value: 1.0
+  - value: 1.046
     errors:
     - {symerror: 0.006, label: 'corr'}
     - {symerror: 0.006, label: 'stat'}
-  - value: 1.2
+  - value: 1.159
     errors:
     - {symerror: 0.006, label: 'corr'}
     - {symerror: 0.006, label: 'stat'}
-  - value: 1.2
+  - value: 1.169
     errors:
     - {symerror: 0.006, label: 'corr'}
     - {symerror: 0.006, label: 'stat'}
-  - value: 1.1
+  - value: 1.070
     errors:
     - {symerror: 0.006, label: 'corr'}
     - {symerror: 0.006, label: 'stat'}
-  - value: 1.0
+  - value: 0.977
     errors:
     - {symerror: 0.006, label: 'corr'}
     - {symerror: 0.006, label: 'stat'}
-  - value: 0.9
+  - value: 0.919
     errors:
     - {symerror: 0.007, label: 'corr'}
     - {symerror: 0.007, label: 'stat'}
-  - value: 0.9
+  - value: 0.873
     errors:
     - {symerror: 0.009, label: 'corr'}
     - {symerror: 0.009, label: 'stat'}
-  - value: 0.8
+  - value: 0.836
     errors:
     - {symerror: 0.012, label: 'corr'}
     - {symerror: 0.012, label: 'stat'}
-  - value: 0.8
+  - value: 0.846
     errors:
     - {symerror: 0.011, label: 'corr'}
     - {symerror: 0.011, label: 'stat'}
-  - value: 0.9
+  - value: 0.859
     errors:
     - {symerror: 0.008, label: 'corr'}
     - {symerror: 0.008, label: 'stat'}
-  - value: 0.9
+  - value: 0.901
     errors:
     - {symerror: 0.007, label: 'corr'}
     - {symerror: 0.007, label: 'stat'}
-  - value: 1.0
+  - value: 0.972
     errors:
     - {symerror: 0.006, label: 'corr'}
     - {symerror: 0.006, label: 'stat'}
-  - value: 1.0
+  - value: 1.028
     errors:
     - {symerror: 0.006, label: 'corr'}
     - {symerror: 0.006, label: 'stat'}
-  - value: 1.1
+  - value: 1.057
     errors:
     - {symerror: 0.006, label: 'corr'}
     - {symerror: 0.006, label: 'stat'}
-  - value: 1.0
+  - value: 1.043
     errors:
     - {symerror: 0.006, label: 'corr'}
     - {symerror: 0.006, label: 'stat'}
-  - value: 1.0
+  - value: 1.008
     errors:
     - {symerror: 0.006, label: 'corr'}
     - {symerror: 0.006, label: 'stat'}
-  - value: 1.0
+  - value: 0.959
     errors:
     - {symerror: 0.006, label: 'corr'}
     - {symerror: 0.006, label: 'stat'}
-  - value: 0.9
+  - value: 0.892
     errors:
     - {symerror: 0.007, label: 'corr'}
     - {symerror: 0.007, label: 'stat'}
-  - value: 0.9
+  - value: 0.866
     errors:
     - {symerror: 0.008, label: 'corr'}
     - {symerror: 0.008, label: 'stat'}
-  - value: 0.9
+  - value: 0.854
     errors:
     - {symerror: 0.011, label: 'corr'}
     - {symerror: 0.011, label: 'stat'}
-- header: {name: '$-3#pi/12<#phi_{t}-#Psi_{3}<-2#pi/12$'}
+- header: {name: '$C$'}
   qualifiers:
-  - {name: '$p_T$', value: '40-50%'}
+  - {name: '$p_{T}^{trig}$', value: '2-4'}
+  - {name: '$p_{T}^{assoc}$', value: '2-4'}
+  - {name: 'centrality', value: '40-50%'}
+  - {name: '$\phi_{t}-\Psi_{3}$', value: '$-3\pi/12 - -2\pi/12$'}
   values:
-  - value: 0.9
+  - value: 0.880
     errors:
     - {symerror: 0.012, label: 'corr'}
     - {symerror: 0.012, label: 'stat'}
-  - value: 0.9
+  - value: 0.883
     errors:
     - {symerror: 0.009, label: 'corr'}
     - {symerror: 0.009, label: 'stat'}
-  - value: 0.9
+  - value: 0.899
     errors:
     - {symerror: 0.007, label: 'corr'}
     - {symerror: 0.007, label: 'stat'}
-  - value: 0.9
+  - value: 0.944
     errors:
     - {symerror: 0.006, label: 'corr'}
     - {symerror: 0.006, label: 'stat'}
-  - value: 1.0
+  - value: 1.043
     errors:
     - {symerror: 0.006, label: 'corr'}
     - {symerror: 0.006, label: 'stat'}
-  - value: 1.2
+  - value: 1.165
     errors:
     - {symerror: 0.006, label: 'corr'}
     - {symerror: 0.006, label: 'stat'}
-  - value: 1.2
+  - value: 1.183
     errors:
     - {symerror: 0.006, label: 'corr'}
     - {symerror: 0.006, label: 'stat'}
-  - value: 1.1
+  - value: 1.088
     errors:
     - {symerror: 0.006, label: 'corr'}
     - {symerror: 0.006, label: 'stat'}
-  - value: 1.0
+  - value: 0.981
     errors:
     - {symerror: 0.006, label: 'corr'}
     - {symerror: 0.006, label: 'stat'}
-  - value: 0.9
+  - value: 0.909
     errors:
     - {symerror: 0.007, label: 'corr'}
     - {symerror: 0.007, label: 'stat'}
-  - value: 0.9
+  - value: 0.861
     errors:
     - {symerror: 0.008, label: 'corr'}
     - {symerror: 0.008, label: 'stat'}
-  - value: 0.8
+  - value: 0.831
     errors:
     - {symerror: 0.012, label: 'corr'}
     - {symerror: 0.012, label: 'stat'}
-  - value: 0.8
+  - value: 0.838
     errors:
     - {symerror: 0.011, label: 'corr'}
     - {symerror: 0.011, label: 'stat'}
-  - value: 0.9
+  - value: 0.870
     errors:
     - {symerror: 0.008, label: 'corr'}
     - {symerror: 0.008, label: 'stat'}
-  - value: 0.9
+  - value: 0.939
     errors:
     - {symerror: 0.007, label: 'corr'}
     - {symerror: 0.007, label: 'stat'}
-  - value: 1.0
+  - value: 0.992
     errors:
     - {symerror: 0.006, label: 'corr'}
     - {symerror: 0.006, label: 'stat'}
-  - value: 1.0
+  - value: 1.032
     errors:
     - {symerror: 0.006, label: 'corr'}
     - {symerror: 0.006, label: 'stat'}
-  - value: 1.0
+  - value: 1.047
     errors:
     - {symerror: 0.006, label: 'corr'}
     - {symerror: 0.006, label: 'stat'}
-  - value: 1.0
+  - value: 1.027
     errors:
     - {symerror: 0.006, label: 'corr'}
     - {symerror: 0.006, label: 'stat'}
-  - value: 1.0
+  - value: 0.981
     errors:
     - {symerror: 0.006, label: 'corr'}
     - {symerror: 0.006, label: 'stat'}
-  - value: 0.9
+  - value: 0.940
     errors:
     - {symerror: 0.006, label: 'corr'}
     - {symerror: 0.006, label: 'stat'}
-  - value: 0.9
+  - value: 0.905
     errors:
     - {symerror: 0.007, label: 'corr'}
     - {symerror: 0.007, label: 'stat'}
-  - value: 0.9
+  - value: 0.890
     errors:
     - {symerror: 0.008, label: 'corr'}
     - {symerror: 0.008, label: 'stat'}
-  - value: 0.9
+  - value: 0.890
     errors:
     - {symerror: 0.012, label: 'corr'}
     - {symerror: 0.012, label: 'stat'}
-- header: {name: '$-2#pi/12<#phi_{t}-#Psi_{3}<-#pi/12$'}
+- header: {name: '$C$'}
   qualifiers:
-  - {name: '$p_T$', value: '40-50%'}
+  - {name: '$p_{T}^{trig}$', value: '2-4'}
+  - {name: '$p_{T}^{assoc}$', value: '2-4'}
+  - {name: 'centrality', value: '40-50%'}
+  - {name: '$\phi_{t}-\Psi_{3}$', value: '$-2\pi/12 - -\pi/12$'}
   values:
-  - value: 0.9
+  - value: 0.863
     errors:
     - {symerror: 0.012, label: 'corr'}
     - {symerror: 0.012, label: 'stat'}
-  - value: 0.9
+  - value: 0.868
     errors:
     - {symerror: 0.008, label: 'corr'}
     - {symerror: 0.008, label: 'stat'}
-  - value: 0.9
+  - value: 0.872
     errors:
     - {symerror: 0.006, label: 'corr'}
     - {symerror: 0.006, label: 'stat'}
-  - value: 0.9
+  - value: 0.931
     errors:
     - {symerror: 0.006, label: 'corr'}
     - {symerror: 0.006, label: 'stat'}
-  - value: 1.0
+  - value: 1.042
     errors:
     - {symerror: 0.005, label: 'corr'}
     - {symerror: 0.005, label: 'stat'}
-  - value: 1.2
+  - value: 1.185
     errors:
     - {symerror: 0.006, label: 'corr'}
     - {symerror: 0.006, label: 'stat'}
-  - value: 1.2
+  - value: 1.205
     errors:
     - {symerror: 0.006, label: 'corr'}
     - {symerror: 0.006, label: 'stat'}
-  - value: 1.1
+  - value: 1.089
     errors:
     - {symerror: 0.006, label: 'corr'}
     - {symerror: 0.006, label: 'stat'}
-  - value: 1.0
+  - value: 0.973
     errors:
     - {symerror: 0.006, label: 'corr'}
     - {symerror: 0.006, label: 'stat'}
-  - value: 0.9
+  - value: 0.889
     errors:
     - {symerror: 0.006, label: 'corr'}
     - {symerror: 0.006, label: 'stat'}
-  - value: 0.8
+  - value: 0.840
     errors:
     - {symerror: 0.008, label: 'corr'}
     - {symerror: 0.008, label: 'stat'}
-  - value: 0.8
+  - value: 0.820
     errors:
     - {symerror: 0.011, label: 'corr'}
     - {symerror: 0.011, label: 'stat'}
-  - value: 0.9
+  - value: 0.850
     errors:
     - {symerror: 0.011, label: 'corr'}
     - {symerror: 0.011, label: 'stat'}
-  - value: 0.9
+  - value: 0.901
     errors:
     - {symerror: 0.008, label: 'corr'}
     - {symerror: 0.008, label: 'stat'}
-  - value: 1.0
+  - value: 0.955
     errors:
     - {symerror: 0.007, label: 'corr'}
     - {symerror: 0.007, label: 'stat'}
-  - value: 1.0
+  - value: 1.001
     errors:
     - {symerror: 0.006, label: 'corr'}
     - {symerror: 0.006, label: 'stat'}
-  - value: 1.0
+  - value: 1.025
     errors:
     - {symerror: 0.006, label: 'corr'}
     - {symerror: 0.006, label: 'stat'}
-  - value: 1.0
+  - value: 1.022
     errors:
     - {symerror: 0.005, label: 'corr'}
     - {symerror: 0.005, label: 'stat'}
-  - value: 1.0
+  - value: 10
     errors:
     - {symerror: 0.005, label: 'corr'}
     - {symerror: 0.005, label: 'stat'}
-  - value: 1.0
+  - value: 0.972
     errors:
     - {symerror: 0.006, label: 'corr'}
     - {symerror: 0.006, label: 'stat'}
-  - value: 0.9
+  - value: 0.946
     errors:
     - {symerror: 0.006, label: 'corr'}
     - {symerror: 0.006, label: 'stat'}
-  - value: 0.9
+  - value: 0.934
     errors:
     - {symerror: 0.007, label: 'corr'}
     - {symerror: 0.007, label: 'stat'}
-  - value: 0.9
+  - value: 0.913
     errors:
     - {symerror: 0.008, label: 'corr'}
     - {symerror: 0.008, label: 'stat'}
-  - value: 0.9
+  - value: 0.894
     errors:
     - {symerror: 0.011, label: 'corr'}
     - {symerror: 0.011, label: 'stat'}
-- header: {name: '$-#pi/12<#phi_{t}-#Psi_{3}<0$'}
+- header: {name: '$C$'}
   qualifiers:
-  - {name: '$p_T$', value: '40-50%'}
+  - {name: '$p_{T}^{trig}$', value: '2-4'}
+  - {name: '$p_{T}^{assoc}$', value: '2-4'}
+  - {name: 'centrality', value: '40-50%'}
+  - {name: '$\phi_{t}-\Psi_{3}$', value: '$-\pi/12 - 0$'}
   values:
-  - value: 0.8
+  - value: 0.839
     errors:
     - {symerror: 0.012, label: 'corr'}
     - {symerror: 0.012, label: 'stat'}
-  - value: 0.8
+  - value: 0.848
     errors:
     - {symerror: 0.008, label: 'corr'}
     - {symerror: 0.008, label: 'stat'}
-  - value: 0.9
+  - value: 0.859
     errors:
     - {symerror: 0.006, label: 'corr'}
     - {symerror: 0.006, label: 'stat'}
-  - value: 0.9
+  - value: 0.934
     errors:
     - {symerror: 0.006, label: 'corr'}
     - {symerror: 0.006, label: 'stat'}
-  - value: 1.1
+  - value: 1.064
     errors:
     - {symerror: 0.006, label: 'corr'}
     - {symerror: 0.006, label: 'stat'}
-  - value: 1.2
+  - value: 1.198
     errors:
     - {symerror: 0.006, label: 'corr'}
     - {symerror: 0.006, label: 'stat'}
-  - value: 1.2
+  - value: 1.206
     errors:
     - {symerror: 0.006, label: 'corr'}
     - {symerror: 0.006, label: 'stat'}
-  - value: 1.1
+  - value: 1.073
     errors:
     - {symerror: 0.006, label: 'corr'}
     - {symerror: 0.006, label: 'stat'}
-  - value: 1.0
+  - value: 0.950
     errors:
     - {symerror: 0.006, label: 'corr'}
     - {symerror: 0.006, label: 'stat'}
-  - value: 0.9
+  - value: 0.871
     errors:
     - {symerror: 0.006, label: 'corr'}
     - {symerror: 0.006, label: 'stat'}
-  - value: 0.8
+  - value: 0.831
     errors:
     - {symerror: 0.008, label: 'corr'}
     - {symerror: 0.008, label: 'stat'}
-  - value: 0.8
+  - value: 0.820
     errors:
     - {symerror: 0.011, label: 'corr'}
     - {symerror: 0.011, label: 'stat'}
-  - value: 0.9
+  - value: 0.867
     errors:
     - {symerror: 0.011, label: 'corr'}
     - {symerror: 0.011, label: 'stat'}
-  - value: 0.9
+  - value: 0.917
     errors:
     - {symerror: 0.008, label: 'corr'}
     - {symerror: 0.008, label: 'stat'}
-  - value: 1.0
+  - value: 0.963
     errors:
     - {symerror: 0.007, label: 'corr'}
     - {symerror: 0.007, label: 'stat'}
-  - value: 1.0
+  - value: 0.982
     errors:
     - {symerror: 0.006, label: 'corr'}
     - {symerror: 0.006, label: 'stat'}
-  - value: 1.0
+  - value: 1.006
     errors:
     - {symerror: 0.006, label: 'corr'}
     - {symerror: 0.006, label: 'stat'}
-  - value: 1.0
+  - value: 0.998
     errors:
     - {symerror: 0.005, label: 'corr'}
     - {symerror: 0.005, label: 'stat'}
-  - value: 1.0
+  - value: 0.992
     errors:
     - {symerror: 0.005, label: 'corr'}
     - {symerror: 0.005, label: 'stat'}
-  - value: 1.0
+  - value: 0.986
     errors:
     - {symerror: 0.006, label: 'corr'}
     - {symerror: 0.006, label: 'stat'}
-  - value: 1.0
+  - value: 0.966
     errors:
     - {symerror: 0.006, label: 'corr'}
     - {symerror: 0.006, label: 'stat'}
-  - value: 0.9
+  - value: 0.940
     errors:
     - {symerror: 0.007, label: 'corr'}
     - {symerror: 0.007, label: 'stat'}
-  - value: 0.9
+  - value: 0.917
     errors:
     - {symerror: 0.008, label: 'corr'}
     - {symerror: 0.008, label: 'stat'}
-  - value: 0.9
+  - value: 0.889
     errors:
     - {symerror: 0.011, label: 'corr'}
     - {symerror: 0.011, label: 'stat'}

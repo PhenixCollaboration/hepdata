@@ -1,2508 +1,2568 @@
 independent_variables:
-- header: {name: '$p_T$'}
+- header: {name: '$\Delta\phi$'}
   values:
-  - {low: -1.5708, high: 0.261799}
-  - {low: -1.309, high: 0.261799}
-  - {low: -1.0472, high: 0.261799}
-  - {low: -0.785398, high: 0.261799}
-  - {low: -0.523599, high: 0.261799}
-  - {low: -0.261799, high: 0.261799}
+  - {low: -1.5708, high: -1.309}
+  - {low: -1.309, high: -1.0472}
+  - {low: -1.0472, high: -0.785398}
+  - {low: -0.785398, high: -0.523599}
+  - {low: -0.523599, high: -0.261799}
+  - {low: -0.261799, high: 0}
   - {low: 0, high: 0.261799}
-  - {low: 0.261799, high: 0.261799}
-  - {low: 0.523599, high: 0.261799}
-  - {low: 0.785398, high: 0.261799}
-  - {low: 1.0472, high: 0.261799}
-  - {low: 1.309, high: 0.261799}
-  - {low: 1.5708, high: 0.261799}
-  - {low: 1.8326, high: 0.261799}
-  - {low: 2.0944, high: 0.261799}
-  - {low: 2.35619, high: 0.261799}
-  - {low: 2.61799, high: 0.261799}
-  - {low: 2.87979, high: 0.261799}
-  - {low: 3.14159, high: 0.261799}
-  - {low: 3.40339, high: 0.261799}
-  - {low: 3.66519, high: 0.261799}
-  - {low: 3.92699, high: 0.261799}
-  - {low: 4.18879, high: 0.261799}
-  - {low: 4.45059, high: 0.261799}
+  - {low: 0.261799, high: 0.523599}
+  - {low: 0.523599, high: 0.785398}
+  - {low: 0.785398, high: 1.0472}
+  - {low: 1.0472, high: 1.309}
+  - {low: 1.309, high: 1.5708}
+  - {low: 1.5708, high: 1.8326}
+  - {low: 1.8326, high: 2.0944}
+  - {low: 2.0944, high: 2.35619}
+  - {low: 2.35619, high: 2.61799}
+  - {low: 2.61799, high: 2.87979}
+  - {low: 2.87979, high: 3.14159}
+  - {low: 3.14159, high: 3.40339}
+  - {low: 3.40339, high: 3.66519}
+  - {low: 3.66519, high: 3.92699}
+  - {low: 3.92699, high: 4.18879}
+  - {low: 4.18879, high: 4.45059}
+  - {low: 4.45059, high: 4.71239}
 dependent_variables:
-- header: {name: '$3#pi/12<|#phi_{t}-#Psi_{3}|<4#pi/12$'}
+- header: {name: '$Y$'}
   qualifiers:
-  - {name: '$p_T$', value: '0-10%'}
+  - {name: '$p_{T}^{trig}$', value: '2-4'}
+  - {name: '$p_{T}^{assoc}$', value: '1-2'}
+  - {name: '$\phi_{t}-\Psi_{2}$', value: '$3\pi/8-4\pi/8$'}
+  - {name: 'centrality', value: '0-10%'}
   values:
-  - value: -0.040
+  - value: -0.0410088
     errors:
-    - {symerror: 0.013, label: 'stat'}
+    - {symerror: 0.0126, label: 'stat'}
     - {symerror: 0.014, label: 'sys'}
     - {symerror: 0.0013, label: 'ZYAM'}
-  - value: -0.020
+  - value: -0.0151261
     errors:
-    - {symerror: 0.010, label: 'stat'}
+    - {symerror: 0.0099, label: 'stat'}
     - {symerror: 0.012, label: 'sys'}
     - {symerror: 0.0012, label: 'ZYAM'}
-  - value: 0.018
+  - value: 0.0181288
     errors:
-    - {symerror: 0.008, label: 'stat'}
+    - {symerror: 0.0082, label: 'stat'}
     - {symerror: 0.018, label: 'sys'}
     - {symerror: 0.0012, label: 'ZYAM'}
-  - value: 0.030
+  - value: 0.0303187
     errors:
-    - {symerror: 0.007, label: 'stat'}
+    - {symerror: 0.0074, label: 'stat'}
     - {symerror: 0.012, label: 'sys'}
     - {symerror: 0.0011, label: 'ZYAM'}
-  - value: 0.07
+  - value: 0.0692637
     errors:
-    - {symerror: 0.007, label: 'stat'}
+    - {symerror: 0.0068, label: 'stat'}
     - {symerror: 0.023, label: 'sys'}
     - {symerror: 0.0011, label: 'ZYAM'}
-  - value: 0.12
+  - value: 0.120863
     errors:
-    - {symerror: 0.007, label: 'stat'}
+    - {symerror: 0.0066, label: 'stat'}
     - {symerror: 0.019, label: 'sys'}
     - {symerror: 0.0011, label: 'ZYAM'}
-  - value: 0.12
+  - value: 0.11794
     errors:
-    - {symerror: 0.007, label: 'stat'}
+    - {symerror: 0.0066, label: 'stat'}
     - {symerror: 0.018, label: 'sys'}
     - {symerror: 0.0011, label: 'ZYAM'}
-  - value: 0.06
+  - value: 0.0645383
     errors:
-    - {symerror: 0.007, label: 'stat'}
+    - {symerror: 0.0067, label: 'stat'}
     - {symerror: 0.025, label: 'sys'}
     - {symerror: 0.0012, label: 'ZYAM'}
-  - value: 0.05
+  - value: 0.0480197
     errors:
-    - {symerror: 0.007, label: 'stat'}
+    - {symerror: 0.0074, label: 'stat'}
     - {symerror: 0.008, label: 'sys'}
     - {symerror: 0.0012, label: 'ZYAM'}
-  - value: 0.005
+  - value: 0.00529441
     errors:
-    - {symerror: 0.008, label: 'stat'}
+    - {symerror: 0.0081, label: 'stat'}
     - {symerror: 0.014, label: 'sys'}
     - {symerror: 0.0013, label: 'ZYAM'}
-  - value: -0.030
+  - value: -0.0277529
     errors:
-    - {symerror: 0.010, label: 'stat'}
+    - {symerror: 0.0098, label: 'stat'}
     - {symerror: 0.018, label: 'sys'}
     - {symerror: 0.0013, label: 'ZYAM'}
-  - value: -0.020
+  - value: -0.0195632
     errors:
-    - {symerror: 0.013, label: 'stat'}
+    - {symerror: 0.0128, label: 'stat'}
     - {symerror: 0.015, label: 'sys'}
     - {symerror: 0.0013, label: 'ZYAM'}
-  - value: -0.030
+  - value: -0.0349887
     errors:
-    - {symerror: 0.012, label: 'stat'}
+    - {symerror: 0.0122, label: 'stat'}
     - {symerror: 0.014, label: 'sys'}
     - {symerror: 0.0013, label: 'ZYAM'}
-  - value: -0.040
+  - value: -0.0392015
     errors:
-    - {symerror: 0.010, label: 'stat'}
+    - {symerror: 0.0099, label: 'stat'}
     - {symerror: 0.011, label: 'sys'}
     - {symerror: 0.0012, label: 'ZYAM'}
-  - value: -0.010
+  - value: -0.0108267
     errors:
-    - {symerror: 0.008, label: 'stat'}
+    - {symerror: 0.0084, label: 'stat'}
     - {symerror: 0.012, label: 'sys'}
     - {symerror: 0.0012, label: 'ZYAM'}
-  - value: 0.019
+  - value: 0.0187979
     errors:
-    - {symerror: 0.007, label: 'stat'}
+    - {symerror: 0.0075, label: 'stat'}
     - {symerror: 0.016, label: 'sys'}
     - {symerror: 0.0011, label: 'ZYAM'}
-  - value: 0.04
+  - value: 0.0403052
     errors:
-    - {symerror: 0.007, label: 'stat'}
+    - {symerror: 0.0069, label: 'stat'}
     - {symerror: 0.025, label: 'sys'}
     - {symerror: 0.0011, label: 'ZYAM'}
-  - value: 0.04
+  - value: 0.0447826
     errors:
-    - {symerror: 0.007, label: 'stat'}
+    - {symerror: 0.0067, label: 'stat'}
     - {symerror: 0.018, label: 'sys'}
     - {symerror: 0.0011, label: 'ZYAM'}
-  - value: 0.06
+  - value: 0.0599145
     errors:
-    - {symerror: 0.007, label: 'stat'}
+    - {symerror: 0.0067, label: 'stat'}
     - {symerror: 0.020, label: 'sys'}
     - {symerror: 0.0011, label: 'ZYAM'}
-  - value: 0.04
+  - value: 0.0380063
     errors:
-    - {symerror: 0.007, label: 'stat'}
+    - {symerror: 0.0069, label: 'stat'}
     - {symerror: 0.022, label: 'sys'}
     - {symerror: 0.0012, label: 'ZYAM'}
-  - value: 0.024
+  - value: 0.0240774
     errors:
-    - {symerror: 0.007, label: 'stat'}
+    - {symerror: 0.0075, label: 'stat'}
     - {symerror: 0.016, label: 'sys'}
     - {symerror: 0.0012, label: 'ZYAM'}
-  - value: -0.020
+  - value: -0.0179587
     errors:
-    - {symerror: 0.008, label: 'stat'}
+    - {symerror: 0.0084, label: 'stat'}
     - {symerror: 0.012, label: 'sys'}
     - {symerror: 0.0013, label: 'ZYAM'}
-  - value: -0.020
+  - value: -0.0188178
     errors:
-    - {symerror: 0.010, label: 'stat'}
+    - {symerror: 0.0098, label: 'stat'}
     - {symerror: 0.026, label: 'sys'}
     - {symerror: 0.0013, label: 'ZYAM'}
-  - value: -0.030
+  - value: -0.0344352
     errors:
-    - {symerror: 0.012, label: 'stat'}
-    - {symerror: -1.00, label: 'sys'}
-    - {symerror: -1.00, label: 'ZYAM'}
-- header: {name: '$2#pi/12<|#phi_{t}-#Psi_{3}|<3#pi/12$'}
+    - {symerror: 00, label: 'stat'}
+    - {symerror: -1.0, label: 'sys'}
+    - {symerror: -1.0, label: 'ZYAM'}
+- header: {name: '$Y$'}
   qualifiers:
-  - {name: '$p_T$', value: '0-10%'}
+  - {name: '$p_{T}^{trig}$', value: '2-4'}
+  - {name: '$p_{T}^{assoc}$', value: '1-2'}
+  - {name: '$\phi_{t}-\Psi_{2}$', value: '$2\pi/8-3\pi/8$'}
+  - {name: 'centrality', value: '0-10%'}
   values:
-  - value: 0.009
+  - value: 0.00855339
     errors:
-    - {symerror: 0.012, label: 'stat'}
+    - {symerror: 0.0120, label: 'stat'}
     - {symerror: 0.016, label: 'sys'}
     - {symerror: 0.0012, label: 'ZYAM'}
-  - value: 0.008
+  - value: 0.00766202
     errors:
-    - {symerror: 0.009, label: 'stat'}
+    - {symerror: 0.0095, label: 'stat'}
     - {symerror: 0.021, label: 'sys'}
     - {symerror: 0.0012, label: 'ZYAM'}
-  - value: 0.011
+  - value: 0.0109275
     errors:
-    - {symerror: 0.008, label: 'stat'}
+    - {symerror: 0.0080, label: 'stat'}
     - {symerror: 0.023, label: 'sys'}
     - {symerror: 0.0012, label: 'ZYAM'}
-  - value: 0.034
+  - value: 0.0343857
     errors:
-    - {symerror: 0.007, label: 'stat'}
+    - {symerror: 0.0073, label: 'stat'}
     - {symerror: 0.023, label: 'sys'}
     - {symerror: 0.0012, label: 'ZYAM'}
-  - value: 0.04
+  - value: 0.0411478
     errors:
-    - {symerror: 0.007, label: 'stat'}
+    - {symerror: 0.0068, label: 'stat'}
     - {symerror: 0.014, label: 'sys'}
     - {symerror: 0.0012, label: 'ZYAM'}
-  - value: 0.06
+  - value: 0.0606214
     errors:
-    - {symerror: 0.007, label: 'stat'}
+    - {symerror: 0.0066, label: 'stat'}
     - {symerror: 0.014, label: 'sys'}
     - {symerror: 0.0012, label: 'ZYAM'}
-  - value: 0.06
+  - value: 0.0608028
     errors:
-    - {symerror: 0.007, label: 'stat'}
+    - {symerror: 0.0067, label: 'stat'}
     - {symerror: 0.019, label: 'sys'}
     - {symerror: 0.0012, label: 'ZYAM'}
-  - value: 0.05
+  - value: 0.0516278
     errors:
-    - {symerror: 0.007, label: 'stat'}
+    - {symerror: 0.0068, label: 'stat'}
     - {symerror: 0.019, label: 'sys'}
     - {symerror: 0.0012, label: 'ZYAM'}
-  - value: 0.030
+  - value: 0.0297917
     errors:
-    - {symerror: 0.007, label: 'stat'}
+    - {symerror: 0.0073, label: 'stat'}
     - {symerror: 0.020, label: 'sys'}
     - {symerror: 0.0012, label: 'ZYAM'}
-  - value: 0.020
+  - value: 0.0195446
     errors:
-    - {symerror: 0.008, label: 'stat'}
+    - {symerror: 0.0079, label: 'stat'}
     - {symerror: 0.030, label: 'sys'}
     - {symerror: 0.0012, label: 'ZYAM'}
-  - value: -0.0010
+  - value: -0.00120886
     errors:
-    - {symerror: 0.009, label: 'stat'}
+    - {symerror: 0.0094, label: 'stat'}
     - {symerror: 0.021, label: 'sys'}
     - {symerror: 0.0013, label: 'ZYAM'}
-  - value: -0.0090
+  - value: -0.00924054
     errors:
-    - {symerror: 0.012, label: 'stat'}
+    - {symerror: 0.0121, label: 'stat'}
     - {symerror: 0.025, label: 'sys'}
     - {symerror: 0.0013, label: 'ZYAM'}
-  - value: 0.019
+  - value: 0.0194224
     errors:
-    - {symerror: 0.012, label: 'stat'}
+    - {symerror: 0.0116, label: 'stat'}
     - {symerror: 0.021, label: 'sys'}
     - {symerror: 0.0013, label: 'ZYAM'}
-  - value: -0.00090
+  - value: -0.000866464
     errors:
-    - {symerror: 0.009, label: 'stat'}
+    - {symerror: 0.0095, label: 'stat'}
     - {symerror: 0.022, label: 'sys'}
     - {symerror: 0.0012, label: 'ZYAM'}
-  - value: 0.0026
+  - value: 0.00264536
     errors:
-    - {symerror: 0.008, label: 'stat'}
+    - {symerror: 0.0082, label: 'stat'}
     - {symerror: 0.022, label: 'sys'}
     - {symerror: 0.0012, label: 'ZYAM'}
-  - value: 0.013
+  - value: 0.0131415
     errors:
-    - {symerror: 0.007, label: 'stat'}
+    - {symerror: 0.0074, label: 'stat'}
     - {symerror: 0.018, label: 'sys'}
     - {symerror: 0.0012, label: 'ZYAM'}
-  - value: 0.008
+  - value: 0.00809283
     errors:
-    - {symerror: 0.007, label: 'stat'}
+    - {symerror: 0.0070, label: 'stat'}
     - {symerror: 0.016, label: 'sys'}
     - {symerror: 0.0012, label: 'ZYAM'}
-  - value: -0.0090
+  - value: -0.0094626
     errors:
-    - {symerror: 0.007, label: 'stat'}
+    - {symerror: 0.0067, label: 'stat'}
     - {symerror: 0.013, label: 'sys'}
     - {symerror: 0.0012, label: 'ZYAM'}
-  - value: -0.0010
+  - value: -0.00101833
     errors:
-    - {symerror: 0.007, label: 'stat'}
+    - {symerror: 0.0067, label: 'stat'}
     - {symerror: 0.018, label: 'sys'}
     - {symerror: 0.0012, label: 'ZYAM'}
-  - value: 0.013
+  - value: 0.0125731
     errors:
-    - {symerror: 0.007, label: 'stat'}
+    - {symerror: 0.0069, label: 'stat'}
     - {symerror: 0.021, label: 'sys'}
     - {symerror: 0.0012, label: 'ZYAM'}
-  - value: 0.010
+  - value: 0.0102763
     errors:
-    - {symerror: 0.007, label: 'stat'}
+    - {symerror: 0.0074, label: 'stat'}
     - {symerror: 0.025, label: 'sys'}
     - {symerror: 0.0012, label: 'ZYAM'}
-  - value: 0.007
+  - value: 0.00683514
     errors:
-    - {symerror: 0.008, label: 'stat'}
+    - {symerror: 0.0082, label: 'stat'}
     - {symerror: 0.022, label: 'sys'}
     - {symerror: 0.0013, label: 'ZYAM'}
-  - value: 0.0035
+  - value: 0.00347554
     errors:
-    - {symerror: 0.009, label: 'stat'}
+    - {symerror: 0.0094, label: 'stat'}
     - {symerror: 0.019, label: 'sys'}
     - {symerror: 0.0013, label: 'ZYAM'}
-  - value: 0.010
+  - value: 0.0100564
     errors:
-    - {symerror: 0.012, label: 'stat'}
-    - {symerror: -1.00, label: 'sys'}
-    - {symerror: -1.00, label: 'ZYAM'}
-- header: {name: '$#pi/12<|#phi_{t}-#Psi_{3}|<2#pi/12$'}
+    - {symerror: 00, label: 'stat'}
+    - {symerror: -1.0, label: 'sys'}
+    - {symerror: -1.0, label: 'ZYAM'}
+- header: {name: '$Y$'}
   qualifiers:
-  - {name: '$p_T$', value: '0-10%'}
+  - {name: '$p_{T}^{trig}$', value: '2-4'}
+  - {name: '$p_{T}^{assoc}$', value: '1-2'}
+  - {name: '$\phi_{t}-\Psi_{2}$', value: '$\pi/8-2\pi/8$'}
+  - {name: 'centrality', value: '0-10%'}
   values:
-  - value: 0.035
+  - value: 0.0352114
     errors:
-    - {symerror: 0.011, label: 'stat'}
+    - {symerror: 0.0111, label: 'stat'}
     - {symerror: 0.018, label: 'sys'}
     - {symerror: 0.0012, label: 'ZYAM'}
-  - value: 0.017
+  - value: 0.0173142
     errors:
-    - {symerror: 0.009, label: 'stat'}
+    - {symerror: 0.0089, label: 'stat'}
     - {symerror: 0.020, label: 'sys'}
     - {symerror: 0.0012, label: 'ZYAM'}
-  - value: 0.0021
+  - value: 0.00205558
     errors:
-    - {symerror: 0.008, label: 'stat'}
+    - {symerror: 0.0076, label: 'stat'}
     - {symerror: 0.027, label: 'sys'}
     - {symerror: 0.0013, label: 'ZYAM'}
-  - value: 0.024
+  - value: 0.0244354
     errors:
-    - {symerror: 0.007, label: 'stat'}
+    - {symerror: 0.0072, label: 'stat'}
     - {symerror: 0.019, label: 'sys'}
     - {symerror: 0.0013, label: 'ZYAM'}
-  - value: 0.019
+  - value: 0.0192406
     errors:
-    - {symerror: 0.007, label: 'stat'}
+    - {symerror: 0.0068, label: 'stat'}
     - {symerror: 0.018, label: 'sys'}
     - {symerror: 0.0013, label: 'ZYAM'}
-  - value: 0.04
+  - value: 0.0397697
     errors:
-    - {symerror: 0.007, label: 'stat'}
+    - {symerror: 0.0067, label: 'stat'}
     - {symerror: 0.021, label: 'sys'}
     - {symerror: 0.0013, label: 'ZYAM'}
-  - value: 0.05
+  - value: 0.0493444
     errors:
-    - {symerror: 0.007, label: 'stat'}
+    - {symerror: 0.0067, label: 'stat'}
     - {symerror: 0.018, label: 'sys'}
     - {symerror: 0.0013, label: 'ZYAM'}
-  - value: 0.020
+  - value: 0.0198281
     errors:
-    - {symerror: 0.007, label: 'stat'}
+    - {symerror: 0.0068, label: 'stat'}
     - {symerror: 0.023, label: 'sys'}
     - {symerror: 0.0013, label: 'ZYAM'}
-  - value: 0.018
+  - value: 0.0178398
     errors:
-    - {symerror: 0.007, label: 'stat'}
+    - {symerror: 0.0072, label: 'stat'}
     - {symerror: 0.031, label: 'sys'}
     - {symerror: 0.0012, label: 'ZYAM'}
-  - value: 0.0024
+  - value: 0.00237288
     errors:
-    - {symerror: 0.008, label: 'stat'}
+    - {symerror: 0.0076, label: 'stat'}
     - {symerror: 0.019, label: 'sys'}
     - {symerror: 0.0012, label: 'ZYAM'}
-  - value: 0.024
+  - value: 0.0239385
     errors:
-    - {symerror: 0.009, label: 'stat'}
+    - {symerror: 0.0088, label: 'stat'}
     - {symerror: 0.022, label: 'sys'}
     - {symerror: 0.0012, label: 'ZYAM'}
-  - value: 0.022
+  - value: 0.0217768
     errors:
-    - {symerror: 0.011, label: 'stat'}
+    - {symerror: 0.0112, label: 'stat'}
     - {symerror: 0.021, label: 'sys'}
     - {symerror: 0.0012, label: 'ZYAM'}
-  - value: 0.019
+  - value: 0.0185529
     errors:
-    - {symerror: 0.011, label: 'stat'}
+    - {symerror: 0.0107, label: 'stat'}
     - {symerror: 0.021, label: 'sys'}
     - {symerror: 0.0012, label: 'ZYAM'}
-  - value: 0.027
+  - value: 0.0274844
     errors:
-    - {symerror: 0.009, label: 'stat'}
+    - {symerror: 0.0089, label: 'stat'}
     - {symerror: 0.019, label: 'sys'}
     - {symerror: 0.0012, label: 'ZYAM'}
-  - value: 0.027
+  - value: 0.0272467
     errors:
-    - {symerror: 0.008, label: 'stat'}
+    - {symerror: 0.0079, label: 'stat'}
     - {symerror: 0.024, label: 'sys'}
     - {symerror: 0.0013, label: 'ZYAM'}
-  - value: -0.0030
+  - value: -0.00297681
     errors:
-    - {symerror: 0.007, label: 'stat'}
+    - {symerror: 0.0073, label: 'stat'}
     - {symerror: 0.022, label: 'sys'}
     - {symerror: 0.0013, label: 'ZYAM'}
-  - value: -0.020
+  - value: -0.0157353
     errors:
-    - {symerror: 0.007, label: 'stat'}
+    - {symerror: 0.0070, label: 'stat'}
     - {symerror: 0.017, label: 'sys'}
     - {symerror: 0.0013, label: 'ZYAM'}
-  - value: -0.030
+  - value: -0.0274992
     errors:
-    - {symerror: 0.007, label: 'stat'}
+    - {symerror: 0.0068, label: 'stat'}
     - {symerror: 0.026, label: 'sys'}
     - {symerror: 0.0013, label: 'ZYAM'}
-  - value: -0.030
+  - value: -0.0313009
     errors:
-    - {symerror: 0.007, label: 'stat'}
+    - {symerror: 0.0068, label: 'stat'}
     - {symerror: 0.015, label: 'sys'}
     - {symerror: 0.0013, label: 'ZYAM'}
-  - value: -0.020
+  - value: -0.0158111
     errors:
-    - {symerror: 0.007, label: 'stat'}
+    - {symerror: 0.0070, label: 'stat'}
     - {symerror: 0.025, label: 'sys'}
     - {symerror: 0.0013, label: 'ZYAM'}
-  - value: 0.0014
+  - value: 0.00143984
     errors:
-    - {symerror: 0.007, label: 'stat'}
+    - {symerror: 0.0073, label: 'stat'}
     - {symerror: 0.025, label: 'sys'}
     - {symerror: 0.0012, label: 'ZYAM'}
-  - value: 0.030
+  - value: 0.0302601
     errors:
-    - {symerror: 0.008, label: 'stat'}
+    - {symerror: 0.0079, label: 'stat'}
     - {symerror: 0.020, label: 'sys'}
     - {symerror: 0.0012, label: 'ZYAM'}
-  - value: 0.023
+  - value: 0.0234627
     errors:
-    - {symerror: 0.009, label: 'stat'}
+    - {symerror: 0.0088, label: 'stat'}
     - {symerror: 0.014, label: 'sys'}
     - {symerror: 0.0012, label: 'ZYAM'}
-  - value: 0.012
+  - value: 0.0123953
     errors:
-    - {symerror: 0.011, label: 'stat'}
-    - {symerror: -1.00, label: 'sys'}
-    - {symerror: -1.00, label: 'ZYAM'}
-- header: {name: '$0<|#phi_{t}-#Psi_{3}|<#pi/12$'}
+    - {symerror: 00, label: 'stat'}
+    - {symerror: -1.0, label: 'sys'}
+    - {symerror: -1.0, label: 'ZYAM'}
+- header: {name: '$Y$'}
   qualifiers:
-  - {name: '$p_T$', value: '0-10%'}
+  - {name: '$p_{T}^{trig}$', value: '2-4'}
+  - {name: '$p_{T}^{assoc}$', value: '1-2'}
+  - {name: '$\phi_{t}-\Psi_{2}$', value: '$0-\pi/8$'}
+  - {name: 'centrality', value: '0-10%'}
   values:
-  - value: 0.020
+  - value: 0.0200044
     errors:
-    - {symerror: 0.011, label: 'stat'}
+    - {symerror: 0.0105, label: 'stat'}
     - {symerror: 0.022, label: 'sys'}
     - {symerror: 0.0012, label: 'ZYAM'}
-  - value: 0.011
+  - value: 0.0111416
     errors:
-    - {symerror: 0.008, label: 'stat'}
+    - {symerror: 0.0084, label: 'stat'}
     - {symerror: 0.009, label: 'sys'}
     - {symerror: 0.0012, label: 'ZYAM'}
-  - value: 0.015
+  - value: 0.0151974
     errors:
-    - {symerror: 0.007, label: 'stat'}
+    - {symerror: 0.0074, label: 'stat'}
     - {symerror: 0.018, label: 'sys'}
     - {symerror: 0.0013, label: 'ZYAM'}
-  - value: 0.0008
+  - value: 0.000756744
     errors:
-    - {symerror: 0.007, label: 'stat'}
+    - {symerror: 0.0071, label: 'stat'}
     - {symerror: 0.017, label: 'sys'}
     - {symerror: 0.0014, label: 'ZYAM'}
-  - value: 0.027
+  - value: 0.026716
     errors:
-    - {symerror: 0.007, label: 'stat'}
+    - {symerror: 0.0068, label: 'stat'}
     - {symerror: 0.025, label: 'sys'}
     - {symerror: 0.0014, label: 'ZYAM'}
-  - value: 0.06
+  - value: 0.064343
     errors:
-    - {symerror: 0.007, label: 'stat'}
+    - {symerror: 0.0068, label: 'stat'}
     - {symerror: 0.030, label: 'sys'}
     - {symerror: 0.0014, label: 'ZYAM'}
-  - value: 0.06
+  - value: 0.059477
     errors:
-    - {symerror: 0.007, label: 'stat'}
+    - {symerror: 0.0068, label: 'stat'}
     - {symerror: 0.016, label: 'sys'}
     - {symerror: 0.0014, label: 'ZYAM'}
-  - value: 0.025
+  - value: 0.0248475
     errors:
-    - {symerror: 0.007, label: 'stat'}
+    - {symerror: 0.0068, label: 'stat'}
     - {symerror: 0.015, label: 'sys'}
     - {symerror: 0.0013, label: 'ZYAM'}
-  - value: 0.0023
+  - value: 0.00233819
     errors:
-    - {symerror: 0.007, label: 'stat'}
+    - {symerror: 0.0070, label: 'stat'}
     - {symerror: 0.011, label: 'sys'}
     - {symerror: 0.0012, label: 'ZYAM'}
-  - value: 0.006
+  - value: 0.00624838
     errors:
-    - {symerror: 0.007, label: 'stat'}
+    - {symerror: 0.0073, label: 'stat'}
     - {symerror: 0.008, label: 'sys'}
     - {symerror: 0.0012, label: 'ZYAM'}
-  - value: 0.017
+  - value: 0.0165197
     errors:
-    - {symerror: 0.008, label: 'stat'}
+    - {symerror: 0.0084, label: 'stat'}
     - {symerror: 0.027, label: 'sys'}
     - {symerror: 0.0012, label: 'ZYAM'}
-  - value: 0.006
+  - value: 0.00635866
     errors:
-    - {symerror: 0.011, label: 'stat'}
+    - {symerror: 0.0106, label: 'stat'}
     - {symerror: 0.021, label: 'sys'}
     - {symerror: 0.0012, label: 'ZYAM'}
-  - value: 0.012
+  - value: 0.0122055
     errors:
-    - {symerror: 0.010, label: 'stat'}
+    - {symerror: 0.0101, label: 'stat'}
     - {symerror: 0.026, label: 'sys'}
     - {symerror: 0.0012, label: 'ZYAM'}
-  - value: 0.020
+  - value: 0.0196519
     errors:
-    - {symerror: 0.008, label: 'stat'}
+    - {symerror: 0.0085, label: 'stat'}
     - {symerror: 0.016, label: 'sys'}
     - {symerror: 0.0012, label: 'ZYAM'}
-  - value: 0.016
+  - value: 0.0163644
     errors:
-    - {symerror: 0.008, label: 'stat'}
+    - {symerror: 0.0076, label: 'stat'}
     - {symerror: 0.018, label: 'sys'}
     - {symerror: 0.0013, label: 'ZYAM'}
-  - value: 0.015
+  - value: 0.0151868
     errors:
-    - {symerror: 0.007, label: 'stat'}
+    - {symerror: 0.0071, label: 'stat'}
     - {symerror: 0.017, label: 'sys'}
     - {symerror: 0.0013, label: 'ZYAM'}
-  - value: -0.0020
+  - value: -0.0024241
     errors:
-    - {symerror: 0.007, label: 'stat'}
+    - {symerror: 0.0070, label: 'stat'}
     - {symerror: 0.026, label: 'sys'}
     - {symerror: 0.0014, label: 'ZYAM'}
-  - value: -0.0050
+  - value: -0.00517105
     errors:
-    - {symerror: 0.007, label: 'stat'}
+    - {symerror: 0.0069, label: 'stat'}
     - {symerror: 0.025, label: 'sys'}
     - {symerror: 0.0014, label: 'ZYAM'}
-  - value: -0.020
+  - value: -0.0154136
     errors:
-    - {symerror: 0.007, label: 'stat'}
+    - {symerror: 0.0069, label: 'stat'}
     - {symerror: 0.018, label: 'sys'}
     - {symerror: 0.0013, label: 'ZYAM'}
-  - value: -0.0090
+  - value: -0.00929772
     errors:
-    - {symerror: 0.007, label: 'stat'}
+    - {symerror: 0.0069, label: 'stat'}
     - {symerror: 0.021, label: 'sys'}
     - {symerror: 0.0013, label: 'ZYAM'}
-  - value: -4e-050
+  - value: -3.65916e-05
     errors:
-    - {symerror: 0.007, label: 'stat'}
+    - {symerror: 0.0071, label: 'stat'}
     - {symerror: 0.023, label: 'sys'}
     - {symerror: 0.0012, label: 'ZYAM'}
-  - value: -0.0020
+  - value: -0.00167489
     errors:
-    - {symerror: 0.008, label: 'stat'}
+    - {symerror: 0.0076, label: 'stat'}
     - {symerror: 0.020, label: 'sys'}
     - {symerror: 0.0012, label: 'ZYAM'}
-  - value: 0.013
+  - value: 0.0127206
     errors:
-    - {symerror: 0.008, label: 'stat'}
+    - {symerror: 0.0084, label: 'stat'}
     - {symerror: 0.034, label: 'sys'}
     - {symerror: 0.0012, label: 'ZYAM'}
-  - value: 0.008
+  - value: 0.00800331
     errors:
-    - {symerror: 0.010, label: 'stat'}
-    - {symerror: -1.00, label: 'sys'}
-    - {symerror: -1.00, label: 'ZYAM'}
-- header: {name: '$3#pi/12<|#phi_{t}-#Psi_{3}|<4#pi/12$'}
+    - {symerror: 00, label: 'stat'}
+    - {symerror: -1.0, label: 'sys'}
+    - {symerror: -1.0, label: 'ZYAM'}
+- header: {name: '$Y$'}
   qualifiers:
-  - {name: '$p_T$', value: '10-20%'}
+  - {name: '$p_{T}^{trig}$', value: '2-4'}
+  - {name: '$p_{T}^{assoc}$', value: '1-2'}
+  - {name: '$\phi_{t}-\Psi_{2}$', value: '$3\pi/8-4\pi/8$'}
+  - {name: 'centrality', value: '10-20%'}
   values:
-  - value: -0.050
+  - value: -0.0460807
     errors:
-    - {symerror: 0.010, label: 'stat'}
+    - {symerror: 0.0103, label: 'stat'}
     - {symerror: 0.017, label: 'sys'}
     - {symerror: 0.0021, label: 'ZYAM'}
-  - value: -0.040
+  - value: -0.039778
     errors:
-    - {symerror: 0.008, label: 'stat'}
+    - {symerror: 0.0078, label: 'stat'}
     - {symerror: 0.018, label: 'sys'}
     - {symerror: 0.0019, label: 'ZYAM'}
-  - value: 0.0026
+  - value: 0.00255005
     errors:
-    - {symerror: 0.006, label: 'stat'}
+    - {symerror: 0.0063, label: 'stat'}
     - {symerror: 0.020, label: 'sys'}
     - {symerror: 0.0018, label: 'ZYAM'}
-  - value: 0.04
+  - value: 0.043204
     errors:
-    - {symerror: 0.006, label: 'stat'}
+    - {symerror: 0.0056, label: 'stat'}
     - {symerror: 0.021, label: 'sys'}
     - {symerror: 0.0017, label: 'ZYAM'}
-  - value: 0.07
+  - value: 0.0707296
     errors:
-    - {symerror: 0.005, label: 'stat'}
+    - {symerror: 0.0050, label: 'stat'}
     - {symerror: 0.016, label: 'sys'}
     - {symerror: 0.0016, label: 'ZYAM'}
-  - value: 0.09
+  - value: 0.0939322
     errors:
-    - {symerror: 0.005, label: 'stat'}
+    - {symerror: 0.0048, label: 'stat'}
     - {symerror: 0.016, label: 'sys'}
     - {symerror: 0.0016, label: 'ZYAM'}
-  - value: 0.10
+  - value: 0.103063
     errors:
-    - {symerror: 0.005, label: 'stat'}
+    - {symerror: 0.0048, label: 'stat'}
     - {symerror: 0.013, label: 'sys'}
     - {symerror: 0.0017, label: 'ZYAM'}
-  - value: 0.08
+  - value: 0.0795444
     errors:
-    - {symerror: 0.005, label: 'stat'}
+    - {symerror: 0.0050, label: 'stat'}
     - {symerror: 0.021, label: 'sys'}
     - {symerror: 0.0018, label: 'ZYAM'}
-  - value: 0.04
+  - value: 0.0447101
     errors:
-    - {symerror: 0.006, label: 'stat'}
+    - {symerror: 0.0055, label: 'stat'}
     - {symerror: 0.021, label: 'sys'}
     - {symerror: 0.0019, label: 'ZYAM'}
-  - value: 0.0006
+  - value: 0.000624888
     errors:
-    - {symerror: 0.006, label: 'stat'}
+    - {symerror: 0.0063, label: 'stat'}
     - {symerror: 0.021, label: 'sys'}
     - {symerror: 0.0021, label: 'ZYAM'}
-  - value: -0.040
+  - value: -0.0380611
     errors:
-    - {symerror: 0.008, label: 'stat'}
+    - {symerror: 0.0078, label: 'stat'}
     - {symerror: 0.020, label: 'sys'}
     - {symerror: 0.0022, label: 'ZYAM'}
-  - value: -0.040
+  - value: -0.0424111
     errors:
-    - {symerror: 0.010, label: 'stat'}
+    - {symerror: 0.0104, label: 'stat'}
     - {symerror: 0.025, label: 'sys'}
     - {symerror: 0.0022, label: 'ZYAM'}
-  - value: -0.060
+  - value: -0.0570114
     errors:
-    - {symerror: 0.010, label: 'stat'}
+    - {symerror: 0.0099, label: 'stat'}
     - {symerror: 0.015, label: 'sys'}
     - {symerror: 0.0021, label: 'ZYAM'}
-  - value: -0.040
+  - value: -0.0355628
     errors:
-    - {symerror: 0.008, label: 'stat'}
+    - {symerror: 0.0079, label: 'stat'}
     - {symerror: 0.021, label: 'sys'}
     - {symerror: 0.0020, label: 'ZYAM'}
-  - value: -0.030
+  - value: -0.0286177
     errors:
-    - {symerror: 0.007, label: 'stat'}
+    - {symerror: 0.0065, label: 'stat'}
     - {symerror: 0.017, label: 'sys'}
     - {symerror: 0.0018, label: 'ZYAM'}
-  - value: 0.019
+  - value: 0.0188364
     errors:
-    - {symerror: 0.006, label: 'stat'}
+    - {symerror: 0.0056, label: 'stat'}
     - {symerror: 0.012, label: 'sys'}
     - {symerror: 0.0017, label: 'ZYAM'}
-  - value: 0.04
+  - value: 0.0393103
     errors:
-    - {symerror: 0.005, label: 'stat'}
+    - {symerror: 0.0051, label: 'stat'}
     - {symerror: 0.017, label: 'sys'}
     - {symerror: 0.0016, label: 'ZYAM'}
-  - value: 0.06
+  - value: 0.0583417
     errors:
-    - {symerror: 0.005, label: 'stat'}
+    - {symerror: 0.0048, label: 'stat'}
     - {symerror: 0.015, label: 'sys'}
     - {symerror: 0.0016, label: 'ZYAM'}
-  - value: 0.06
+  - value: 0.063538
     errors:
-    - {symerror: 0.005, label: 'stat'}
+    - {symerror: 0.0048, label: 'stat'}
     - {symerror: 0.013, label: 'sys'}
     - {symerror: 0.0017, label: 'ZYAM'}
-  - value: 0.05
+  - value: 0.0506826
     errors:
-    - {symerror: 0.005, label: 'stat'}
+    - {symerror: 0.0051, label: 'stat'}
     - {symerror: 0.017, label: 'sys'}
     - {symerror: 0.0018, label: 'ZYAM'}
-  - value: 0.024
+  - value: 0.0242126
     errors:
-    - {symerror: 0.006, label: 'stat'}
+    - {symerror: 0.0056, label: 'stat'}
     - {symerror: 0.024, label: 'sys'}
     - {symerror: 0.0020, label: 'ZYAM'}
-  - value: -0.020
+  - value: -0.0238377
     errors:
-    - {symerror: 0.007, label: 'stat'}
+    - {symerror: 0.0065, label: 'stat'}
     - {symerror: 0.017, label: 'sys'}
     - {symerror: 0.0021, label: 'ZYAM'}
-  - value: -0.050
+  - value: -0.0492777
     errors:
-    - {symerror: 0.008, label: 'stat'}
+    - {symerror: 0.0078, label: 'stat'}
     - {symerror: 0.030, label: 'sys'}
     - {symerror: 0.0022, label: 'ZYAM'}
-  - value: -0.060
+  - value: -0.0605748
     errors:
-    - {symerror: 0.010, label: 'stat'}
-    - {symerror: -1.00, label: 'sys'}
-    - {symerror: -1.00, label: 'ZYAM'}
-- header: {name: '$2#pi/12<|#phi_{t}-#Psi_{3}|<3#pi/12$'}
+    - {symerror: 00, label: 'stat'}
+    - {symerror: -1.0, label: 'sys'}
+    - {symerror: -1.0, label: 'ZYAM'}
+- header: {name: '$Y$'}
   qualifiers:
-  - {name: '$p_T$', value: '10-20%'}
+  - {name: '$p_{T}^{trig}$', value: '2-4'}
+  - {name: '$p_{T}^{assoc}$', value: '1-2'}
+  - {name: '$\phi_{t}-\Psi_{2}$', value: '$2\pi/8-3\pi/8$'}
+  - {name: 'centrality', value: '10-20%'}
   values:
-  - value: 0.011
+  - value: 0.0109871
     errors:
-    - {symerror: 0.009, label: 'stat'}
+    - {symerror: 0.0093, label: 'stat'}
     - {symerror: 0.019, label: 'sys'}
     - {symerror: 0.0020, label: 'ZYAM'}
-  - value: 0.011
+  - value: 0.0110344
     errors:
-    - {symerror: 0.007, label: 'stat'}
+    - {symerror: 0.0073, label: 'stat'}
     - {symerror: 0.023, label: 'sys'}
     - {symerror: 0.0020, label: 'ZYAM'}
-  - value: 0.014
+  - value: 0.0137387
     errors:
-    - {symerror: 0.006, label: 'stat'}
+    - {symerror: 0.0061, label: 'stat'}
     - {symerror: 0.015, label: 'sys'}
     - {symerror: 0.0019, label: 'ZYAM'}
-  - value: 0.024
+  - value: 0.0235103
     errors:
-    - {symerror: 0.006, label: 'stat'}
+    - {symerror: 0.0055, label: 'stat'}
     - {symerror: 0.017, label: 'sys'}
     - {symerror: 0.0019, label: 'ZYAM'}
-  - value: 0.04
+  - value: 0.0372554
     errors:
-    - {symerror: 0.005, label: 'stat'}
+    - {symerror: 0.0051, label: 'stat'}
     - {symerror: 0.014, label: 'sys'}
     - {symerror: 0.0019, label: 'ZYAM'}
-  - value: 0.05
+  - value: 0.052052
     errors:
-    - {symerror: 0.005, label: 'stat'}
+    - {symerror: 0.0049, label: 'stat'}
     - {symerror: 0.011, label: 'sys'}
     - {symerror: 0.0019, label: 'ZYAM'}
-  - value: 0.04
+  - value: 0.041965
     errors:
-    - {symerror: 0.005, label: 'stat'}
+    - {symerror: 0.0049, label: 'stat'}
     - {symerror: 0.018, label: 'sys'}
     - {symerror: 0.0019, label: 'ZYAM'}
-  - value: 0.026
+  - value: 0.026376
     errors:
-    - {symerror: 0.005, label: 'stat'}
+    - {symerror: 0.0051, label: 'stat'}
     - {symerror: 0.025, label: 'sys'}
     - {symerror: 0.0019, label: 'ZYAM'}
-  - value: 0.019
+  - value: 0.0190082
     errors:
-    - {symerror: 0.006, label: 'stat'}
+    - {symerror: 0.0055, label: 'stat'}
     - {symerror: 0.025, label: 'sys'}
     - {symerror: 0.0020, label: 'ZYAM'}
-  - value: 0.010
+  - value: 0.0104801
     errors:
-    - {symerror: 0.006, label: 'stat'}
+    - {symerror: 0.0060, label: 'stat'}
     - {symerror: 0.016, label: 'sys'}
     - {symerror: 0.0020, label: 'ZYAM'}
-  - value: 0.011
+  - value: 0.0109225
     errors:
-    - {symerror: 0.007, label: 'stat'}
+    - {symerror: 0.0073, label: 'stat'}
     - {symerror: 0.009, label: 'sys'}
     - {symerror: 0.0020, label: 'ZYAM'}
-  - value: -0.00090
+  - value: -0.000932939
     errors:
-    - {symerror: 0.009, label: 'stat'}
+    - {symerror: 0.0094, label: 'stat'}
     - {symerror: 0.016, label: 'sys'}
     - {symerror: 0.0020, label: 'ZYAM'}
-  - value: 0.011
+  - value: 0.0114377
     errors:
-    - {symerror: 0.009, label: 'stat'}
+    - {symerror: 0.0090, label: 'stat'}
     - {symerror: 0.023, label: 'sys'}
     - {symerror: 0.0020, label: 'ZYAM'}
-  - value: 0.0033
+  - value: 0.00329998
     errors:
-    - {symerror: 0.007, label: 'stat'}
+    - {symerror: 0.0073, label: 'stat'}
     - {symerror: 0.021, label: 'sys'}
     - {symerror: 0.0020, label: 'ZYAM'}
-  - value: 0.005
+  - value: 0.00497549
     errors:
-    - {symerror: 0.006, label: 'stat'}
+    - {symerror: 0.0063, label: 'stat'}
     - {symerror: 0.023, label: 'sys'}
     - {symerror: 0.0019, label: 'ZYAM'}
-  - value: 0.012
+  - value: 0.0124775
     errors:
-    - {symerror: 0.006, label: 'stat'}
+    - {symerror: 0.0056, label: 'stat'}
     - {symerror: 0.016, label: 'sys'}
     - {symerror: 0.0019, label: 'ZYAM'}
-  - value: 0.009
+  - value: 0.00868914
     errors:
-    - {symerror: 0.005, label: 'stat'}
+    - {symerror: 0.0052, label: 'stat'}
     - {symerror: 0.005, label: 'sys'}
     - {symerror: 0.0018, label: 'ZYAM'}
-  - value: 0.0027
+  - value: 0.00273845
     errors:
-    - {symerror: 0.005, label: 'stat'}
+    - {symerror: 0.0050, label: 'stat'}
     - {symerror: 0.017, label: 'sys'}
     - {symerror: 0.0018, label: 'ZYAM'}
-  - value: -0.010
+  - value: -0.0116588
     errors:
-    - {symerror: 0.005, label: 'stat'}
+    - {symerror: 0.0050, label: 'stat'}
     - {symerror: 0.017, label: 'sys'}
     - {symerror: 0.0019, label: 'ZYAM'}
-  - value: -0.00050
+  - value: -0.000465406
     errors:
-    - {symerror: 0.005, label: 'stat'}
+    - {symerror: 0.0052, label: 'stat'}
     - {symerror: 0.027, label: 'sys'}
     - {symerror: 0.0019, label: 'ZYAM'}
-  - value: -0.001
+  - value: -0.000969121
     errors:
-    - {symerror: 0.006, label: 'stat'}
+    - {symerror: 0.0056, label: 'stat'}
     - {symerror: 0.019, label: 'sys'}
     - {symerror: 0.0020, label: 'ZYAM'}
-  - value: 0.021
+  - value: 0.021089
     errors:
-    - {symerror: 0.006, label: 'stat'}
+    - {symerror: 0.0063, label: 'stat'}
     - {symerror: 0.018, label: 'sys'}
     - {symerror: 0.0020, label: 'ZYAM'}
-  - value: 0.006
+  - value: 0.00604757
     errors:
-    - {symerror: 0.007, label: 'stat'}
+    - {symerror: 0.0072, label: 'stat'}
     - {symerror: 0.014, label: 'sys'}
     - {symerror: 0.0020, label: 'ZYAM'}
-  - value: 0.018
+  - value: 0.0177413
     errors:
-    - {symerror: 0.009, label: 'stat'}
-    - {symerror: -1.00, label: 'sys'}
-    - {symerror: -1.00, label: 'ZYAM'}
-- header: {name: '$#pi/12<|#phi_{t}-#Psi_{3}|<2#pi/12$'}
+    - {symerror: 00, label: 'stat'}
+    - {symerror: -1.0, label: 'sys'}
+    - {symerror: -1.0, label: 'ZYAM'}
+- header: {name: '$Y$'}
   qualifiers:
-  - {name: '$p_T$', value: '10-20%'}
+  - {name: '$p_{T}^{trig}$', value: '2-4'}
+  - {name: '$p_{T}^{assoc}$', value: '1-2'}
+  - {name: '$\phi_{t}-\Psi_{2}$', value: '$\pi/8-2\pi/8$'}
+  - {name: 'centrality', value: '10-20%'}
   values:
-  - value: 0.027
+  - value: 0.0265684
     errors:
-    - {symerror: 0.008, label: 'stat'}
+    - {symerror: 0.0081, label: 'stat'}
     - {symerror: 0.021, label: 'sys'}
     - {symerror: 0.0019, label: 'ZYAM'}
-  - value: 0.029
+  - value: 0.0289695
     errors:
-    - {symerror: 0.006, label: 'stat'}
+    - {symerror: 0.0065, label: 'stat'}
     - {symerror: 0.016, label: 'sys'}
     - {symerror: 0.0020, label: 'ZYAM'}
-  - value: 0.026
+  - value: 0.0256706
     errors:
-    - {symerror: 0.006, label: 'stat'}
+    - {symerror: 0.0056, label: 'stat'}
     - {symerror: 0.023, label: 'sys'}
     - {symerror: 0.0021, label: 'ZYAM'}
-  - value: 0.009
+  - value: 0.00853548
     errors:
-    - {symerror: 0.005, label: 'stat'}
+    - {symerror: 0.0053, label: 'stat'}
     - {symerror: 0.016, label: 'sys'}
     - {symerror: 0.0022, label: 'ZYAM'}
-  - value: 0.024
+  - value: 0.0238733
     errors:
-    - {symerror: 0.005, label: 'stat'}
+    - {symerror: 0.0051, label: 'stat'}
     - {symerror: 0.014, label: 'sys'}
     - {symerror: 0.0022, label: 'ZYAM'}
-  - value: 0.034
+  - value: 0.0335769
     errors:
-    - {symerror: 0.005, label: 'stat'}
+    - {symerror: 0.0051, label: 'stat'}
     - {symerror: 0.015, label: 'sys'}
     - {symerror: 0.0022, label: 'ZYAM'}
-  - value: 0.027
+  - value: 0.0269899
     errors:
-    - {symerror: 0.005, label: 'stat'}
+    - {symerror: 0.0051, label: 'stat'}
     - {symerror: 0.018, label: 'sys'}
     - {symerror: 0.0022, label: 'ZYAM'}
-  - value: 0.022
+  - value: 0.0224471
     errors:
-    - {symerror: 0.005, label: 'stat'}
+    - {symerror: 0.0051, label: 'stat'}
     - {symerror: 0.022, label: 'sys'}
     - {symerror: 0.0021, label: 'ZYAM'}
-  - value: -0.00090
+  - value: -0.000924353
     errors:
-    - {symerror: 0.005, label: 'stat'}
+    - {symerror: 0.0053, label: 'stat'}
     - {symerror: 0.017, label: 'sys'}
     - {symerror: 0.0020, label: 'ZYAM'}
-  - value: 0.025
+  - value: 0.0252355
     errors:
-    - {symerror: 0.006, label: 'stat'}
+    - {symerror: 0.0056, label: 'stat'}
     - {symerror: 0.018, label: 'sys'}
     - {symerror: 0.0019, label: 'ZYAM'}
-  - value: 0.027
+  - value: 0.0273375
     errors:
-    - {symerror: 0.006, label: 'stat'}
+    - {symerror: 0.0064, label: 'stat'}
     - {symerror: 0.019, label: 'sys'}
     - {symerror: 0.0019, label: 'ZYAM'}
-  - value: 0.024
+  - value: 0.023986
     errors:
-    - {symerror: 0.008, label: 'stat'}
+    - {symerror: 0.0081, label: 'stat'}
     - {symerror: 0.014, label: 'sys'}
     - {symerror: 0.0019, label: 'ZYAM'}
-  - value: 0.025
+  - value: 0.0250258
     errors:
-    - {symerror: 0.008, label: 'stat'}
+    - {symerror: 0.0078, label: 'stat'}
     - {symerror: 0.019, label: 'sys'}
     - {symerror: 0.0019, label: 'ZYAM'}
-  - value: 0.033
+  - value: 0.0332926
     errors:
-    - {symerror: 0.006, label: 'stat'}
+    - {symerror: 0.0065, label: 'stat'}
     - {symerror: 0.021, label: 'sys'}
     - {symerror: 0.0020, label: 'ZYAM'}
-  - value: 0.030
+  - value: 0.0299931
     errors:
-    - {symerror: 0.006, label: 'stat'}
+    - {symerror: 0.0058, label: 'stat'}
     - {symerror: 0.027, label: 'sys'}
     - {symerror: 0.0021, label: 'ZYAM'}
-  - value: 0.0022
+  - value: 0.00219034
     errors:
-    - {symerror: 0.005, label: 'stat'}
+    - {symerror: 0.0054, label: 'stat'}
     - {symerror: 0.015, label: 'sys'}
     - {symerror: 0.0022, label: 'ZYAM'}
-  - value: -0.0050
+  - value: -0.00512153
     errors:
-    - {symerror: 0.005, label: 'stat'}
+    - {symerror: 0.0052, label: 'stat'}
     - {symerror: 0.019, label: 'sys'}
     - {symerror: 0.0022, label: 'ZYAM'}
-  - value: -0.040
+  - value: -0.0394328
     errors:
-    - {symerror: 0.005, label: 'stat'}
+    - {symerror: 0.0051, label: 'stat'}
     - {symerror: 0.013, label: 'sys'}
     - {symerror: 0.0022, label: 'ZYAM'}
-  - value: -0.040
+  - value: -0.036262
     errors:
-    - {symerror: 0.005, label: 'stat'}
+    - {symerror: 0.0051, label: 'stat'}
     - {symerror: 0.021, label: 'sys'}
     - {symerror: 0.0022, label: 'ZYAM'}
-  - value: -0.0090
+  - value: -0.00946419
     errors:
-    - {symerror: 0.005, label: 'stat'}
+    - {symerror: 0.0052, label: 'stat'}
     - {symerror: 0.017, label: 'sys'}
     - {symerror: 0.0021, label: 'ZYAM'}
-  - value: 0.017
+  - value: 0.0170942
     errors:
-    - {symerror: 0.005, label: 'stat'}
+    - {symerror: 0.0054, label: 'stat'}
     - {symerror: 0.021, label: 'sys'}
     - {symerror: 0.0020, label: 'ZYAM'}
-  - value: 0.033
+  - value: 0.0329062
     errors:
-    - {symerror: 0.006, label: 'stat'}
+    - {symerror: 0.0058, label: 'stat'}
     - {symerror: 0.022, label: 'sys'}
     - {symerror: 0.0019, label: 'ZYAM'}
-  - value: 0.05
+  - value: 0.048913
     errors:
-    - {symerror: 0.006, label: 'stat'}
+    - {symerror: 0.0064, label: 'stat'}
     - {symerror: 0.019, label: 'sys'}
     - {symerror: 0.0019, label: 'ZYAM'}
-  - value: 0.04
+  - value: 0.0386468
     errors:
-    - {symerror: 0.008, label: 'stat'}
-    - {symerror: -1.00, label: 'sys'}
-    - {symerror: -1.00, label: 'ZYAM'}
-- header: {name: '$0<|#phi_{t}-#Psi_{3}|<#pi/12$'}
+    - {symerror: 00, label: 'stat'}
+    - {symerror: -1.0, label: 'sys'}
+    - {symerror: -1.0, label: 'ZYAM'}
+- header: {name: '$Y$'}
   qualifiers:
-  - {name: '$p_T$', value: '10-20%'}
+  - {name: '$p_{T}^{trig}$', value: '2-4'}
+  - {name: '$p_{T}^{assoc}$', value: '1-2'}
+  - {name: '$\phi_{t}-\Psi_{2}$', value: '$0-\pi/8$'}
+  - {name: 'centrality', value: '10-20%'}
   values:
-  - value: -0.0090
+  - value: -0.00885248
     errors:
-    - {symerror: 0.007, label: 'stat'}
+    - {symerror: 0.0073, label: 'stat'}
     - {symerror: 0.018, label: 'sys'}
     - {symerror: 0.0018, label: 'ZYAM'}
-  - value: 0.004
+  - value: 0.00369745
     errors:
-    - {symerror: 0.006, label: 'stat'}
+    - {symerror: 0.0059, label: 'stat'}
     - {symerror: 0.020, label: 'sys'}
     - {symerror: 0.0020, label: 'ZYAM'}
-  - value: -0.0020
+  - value: -0.00165236
     errors:
-    - {symerror: 0.005, label: 'stat'}
+    - {symerror: 0.0052, label: 'stat'}
     - {symerror: 0.023, label: 'sys'}
     - {symerror: 0.0022, label: 'ZYAM'}
-  - value: 0.006
+  - value: 0.00568714
     errors:
-    - {symerror: 0.005, label: 'stat'}
+    - {symerror: 0.0051, label: 'stat'}
     - {symerror: 0.021, label: 'sys'}
     - {symerror: 0.0024, label: 'ZYAM'}
-  - value: 0.026
+  - value: 0.026259
     errors:
-    - {symerror: 0.005, label: 'stat'}
+    - {symerror: 0.0050, label: 'stat'}
     - {symerror: 0.027, label: 'sys'}
     - {symerror: 0.0025, label: 'ZYAM'}
-  - value: 0.05
+  - value: 0.0537198
     errors:
-    - {symerror: 0.005, label: 'stat'}
+    - {symerror: 0.0051, label: 'stat'}
     - {symerror: 0.024, label: 'sys'}
     - {symerror: 0.0025, label: 'ZYAM'}
-  - value: 0.07
+  - value: 0.0673817
     errors:
-    - {symerror: 0.005, label: 'stat'}
+    - {symerror: 0.0051, label: 'stat'}
     - {symerror: 0.021, label: 'sys'}
     - {symerror: 0.0024, label: 'ZYAM'}
-  - value: 0.04
+  - value: 0.0355787
     errors:
-    - {symerror: 0.005, label: 'stat'}
+    - {symerror: 0.0050, label: 'stat'}
     - {symerror: 0.017, label: 'sys'}
     - {symerror: 0.0022, label: 'ZYAM'}
-  - value: 0.016
+  - value: 0.0158348
     errors:
-    - {symerror: 0.005, label: 'stat'}
+    - {symerror: 0.0051, label: 'stat'}
     - {symerror: 0.021, label: 'sys'}
     - {symerror: 0.0020, label: 'ZYAM'}
-  - value: 0.0004
+  - value: 0.0003907
     errors:
-    - {symerror: 0.005, label: 'stat'}
+    - {symerror: 0.0052, label: 'stat'}
     - {symerror: 0.016, label: 'sys'}
     - {symerror: 0.0018, label: 'ZYAM'}
-  - value: 0.005
+  - value: 0.00458041
     errors:
-    - {symerror: 0.006, label: 'stat'}
+    - {symerror: 0.0059, label: 'stat'}
     - {symerror: 0.021, label: 'sys'}
     - {symerror: 0.0018, label: 'ZYAM'}
-  - value: -0.0080
+  - value: -0.00839272
     errors:
-    - {symerror: 0.007, label: 'stat'}
+    - {symerror: 0.0074, label: 'stat'}
     - {symerror: 0.023, label: 'sys'}
     - {symerror: 0.0018, label: 'ZYAM'}
-  - value: 0.010
+  - value: 0.0103748
     errors:
-    - {symerror: 0.007, label: 'stat'}
+    - {symerror: 0.0070, label: 'stat'}
     - {symerror: 0.016, label: 'sys'}
     - {symerror: 0.0019, label: 'ZYAM'}
-  - value: 0.014
+  - value: 0.0143429
     errors:
-    - {symerror: 0.006, label: 'stat'}
+    - {symerror: 0.0059, label: 'stat'}
     - {symerror: 0.015, label: 'sys'}
     - {symerror: 0.0020, label: 'ZYAM'}
-  - value: 0.04
+  - value: 0.0382689
     errors:
-    - {symerror: 0.005, label: 'stat'}
+    - {symerror: 0.0054, label: 'stat'}
     - {symerror: 0.021, label: 'sys'}
     - {symerror: 0.0022, label: 'ZYAM'}
-  - value: 0.027
+  - value: 0.0272594
     errors:
-    - {symerror: 0.005, label: 'stat'}
+    - {symerror: 0.0052, label: 'stat'}
     - {symerror: 0.023, label: 'sys'}
     - {symerror: 0.0023, label: 'ZYAM'}
-  - value: 0.010
+  - value: 0.00963814
     errors:
-    - {symerror: 0.005, label: 'stat'}
+    - {symerror: 0.0052, label: 'stat'}
     - {symerror: 0.027, label: 'sys'}
     - {symerror: 0.0025, label: 'ZYAM'}
-  - value: 0.0010
+  - value: 0.00101548
     errors:
-    - {symerror: 0.005, label: 'stat'}
+    - {symerror: 0.0052, label: 'stat'}
     - {symerror: 0.024, label: 'sys'}
     - {symerror: 0.0024, label: 'ZYAM'}
-  - value: 0.009
+  - value: 0.00898792
     errors:
-    - {symerror: 0.005, label: 'stat'}
+    - {symerror: 0.0052, label: 'stat'}
     - {symerror: 0.018, label: 'sys'}
     - {symerror: 0.0023, label: 'ZYAM'}
-  - value: 0.010
+  - value: 0.0103628
     errors:
-    - {symerror: 0.005, label: 'stat'}
+    - {symerror: 0.0052, label: 'stat'}
     - {symerror: 0.018, label: 'sys'}
     - {symerror: 0.0022, label: 'ZYAM'}
-  - value: 0.022
+  - value: 0.0216665
     errors:
-    - {symerror: 0.005, label: 'stat'}
+    - {symerror: 0.0052, label: 'stat'}
     - {symerror: 0.023, label: 'sys'}
     - {symerror: 0.0020, label: 'ZYAM'}
-  - value: 0.026
+  - value: 0.0263813
     errors:
-    - {symerror: 0.005, label: 'stat'}
+    - {symerror: 0.0054, label: 'stat'}
     - {symerror: 0.018, label: 'sys'}
     - {symerror: 0.0019, label: 'ZYAM'}
-  - value: 0.008
+  - value: 0.00757551
     errors:
-    - {symerror: 0.006, label: 'stat'}
+    - {symerror: 0.0059, label: 'stat'}
     - {symerror: 0.024, label: 'sys'}
     - {symerror: 0.0018, label: 'ZYAM'}
-  - value: -0.0010
+  - value: -0.0013693
     errors:
-    - {symerror: 0.007, label: 'stat'}
-    - {symerror: -1.00, label: 'sys'}
-    - {symerror: -1.00, label: 'ZYAM'}
-- header: {name: '$3#pi/12<|#phi_{t}-#Psi_{3}|<4#pi/12$'}
+    - {symerror: 00, label: 'stat'}
+    - {symerror: -1.0, label: 'sys'}
+    - {symerror: -1.0, label: 'ZYAM'}
+- header: {name: '$Y$'}
   qualifiers:
-  - {name: '$p_T$', value: '20-30%'}
+  - {name: '$p_{T}^{trig}$', value: '2-4'}
+  - {name: '$p_{T}^{assoc}$', value: '1-2'}
+  - {name: '$\phi_{t}-\Psi_{2}$', value: '$3\pi/8-4\pi/8$'}
+  - {name: 'centrality', value: '20-30%'}
   values:
-  - value: -0.060
+  - value: -0.061871
     errors:
-    - {symerror: 0.009, label: 'stat'}
+    - {symerror: 0.0090, label: 'stat'}
     - {symerror: 0.016, label: 'sys'}
     - {symerror: 0.0018, label: 'ZYAM'}
-  - value: -0.050
+  - value: -0.0451655
     errors:
-    - {symerror: 0.007, label: 'stat'}
+    - {symerror: 0.0067, label: 'stat'}
     - {symerror: 0.024, label: 'sys'}
     - {symerror: 0.0017, label: 'ZYAM'}
-  - value: 0.0023
+  - value: 0.002309
     errors:
-    - {symerror: 0.005, label: 'stat'}
+    - {symerror: 0.0052, label: 'stat'}
     - {symerror: 0.027, label: 'sys'}
     - {symerror: 0.0015, label: 'ZYAM'}
-  - value: 0.05
+  - value: 0.047983
     errors:
-    - {symerror: 0.004, label: 'stat'}
+    - {symerror: 0.0045, label: 'stat'}
     - {symerror: 0.014, label: 'sys'}
     - {symerror: 0.0014, label: 'ZYAM'}
-  - value: 0.07
+  - value: 0.069136
     errors:
-    - {symerror: 0.004, label: 'stat'}
+    - {symerror: 0.0039, label: 'stat'}
     - {symerror: 0.012, label: 'sys'}
     - {symerror: 0.0013, label: 'ZYAM'}
-  - value: 0.09
+  - value: 0.0867706
     errors:
-    - {symerror: 0.004, label: 'stat'}
+    - {symerror: 0.0037, label: 'stat'}
     - {symerror: 0.013, label: 'sys'}
     - {symerror: 0.0013, label: 'ZYAM'}
-  - value: 0.09
+  - value: 0.0854035
     errors:
-    - {symerror: 0.004, label: 'stat'}
+    - {symerror: 0.0037, label: 'stat'}
     - {symerror: 0.015, label: 'sys'}
     - {symerror: 0.0014, label: 'ZYAM'}
-  - value: 0.06
+  - value: 0.0639472
     errors:
-    - {symerror: 0.004, label: 'stat'}
+    - {symerror: 0.0039, label: 'stat'}
     - {symerror: 0.026, label: 'sys'}
     - {symerror: 0.0015, label: 'ZYAM'}
-  - value: 0.04
+  - value: 0.04491
     errors:
-    - {symerror: 0.004, label: 'stat'}
+    - {symerror: 0.0045, label: 'stat'}
     - {symerror: 0.022, label: 'sys'}
     - {symerror: 0.0017, label: 'ZYAM'}
-  - value: 2.6e-050
+  - value: 2.60222e-05
     errors:
-    - {symerror: 0.005, label: 'stat'}
+    - {symerror: 0.0052, label: 'stat'}
     - {symerror: 0.025, label: 'sys'}
     - {symerror: 0.0018, label: 'ZYAM'}
-  - value: -0.050
+  - value: -0.0454946
     errors:
-    - {symerror: 0.007, label: 'stat'}
+    - {symerror: 0.0067, label: 'stat'}
     - {symerror: 0.024, label: 'sys'}
     - {symerror: 0.0020, label: 'ZYAM'}
-  - value: -0.060
+  - value: -0.063826
     errors:
-    - {symerror: 0.009, label: 'stat'}
+    - {symerror: 0.0091, label: 'stat'}
     - {symerror: 0.020, label: 'sys'}
     - {symerror: 0.0020, label: 'ZYAM'}
-  - value: -0.060
+  - value: -0.0560941
     errors:
-    - {symerror: 0.009, label: 'stat'}
+    - {symerror: 0.0086, label: 'stat'}
     - {symerror: 0.021, label: 'sys'}
     - {symerror: 0.0019, label: 'ZYAM'}
-  - value: -0.060
+  - value: -0.0646234
     errors:
-    - {symerror: 0.007, label: 'stat'}
+    - {symerror: 0.0067, label: 'stat'}
     - {symerror: 0.020, label: 'sys'}
     - {symerror: 0.0017, label: 'ZYAM'}
-  - value: -0.020
+  - value: -0.0218656
     errors:
-    - {symerror: 0.005, label: 'stat'}
+    - {symerror: 0.0054, label: 'stat'}
     - {symerror: 0.027, label: 'sys'}
     - {symerror: 0.0015, label: 'ZYAM'}
-  - value: 0.010
+  - value: 0.00960326
     errors:
-    - {symerror: 0.005, label: 'stat'}
+    - {symerror: 0.0045, label: 'stat'}
     - {symerror: 0.012, label: 'sys'}
     - {symerror: 0.0014, label: 'ZYAM'}
-  - value: 0.04
+  - value: 0.038015
     errors:
-    - {symerror: 0.004, label: 'stat'}
+    - {symerror: 0.0040, label: 'stat'}
     - {symerror: 0.014, label: 'sys'}
     - {symerror: 0.0013, label: 'ZYAM'}
-  - value: 0.05
+  - value: 0.0475151
     errors:
-    - {symerror: 0.004, label: 'stat'}
+    - {symerror: 0.0038, label: 'stat'}
     - {symerror: 0.014, label: 'sys'}
     - {symerror: 0.0013, label: 'ZYAM'}
-  - value: 0.05
+  - value: 0.04953
     errors:
-    - {symerror: 0.004, label: 'stat'}
+    - {symerror: 0.0038, label: 'stat'}
     - {symerror: 0.017, label: 'sys'}
     - {symerror: 0.0014, label: 'ZYAM'}
-  - value: 0.04
+  - value: 0.0412825
     errors:
-    - {symerror: 0.004, label: 'stat'}
+    - {symerror: 0.0040, label: 'stat'}
     - {symerror: 0.022, label: 'sys'}
     - {symerror: 0.0015, label: 'ZYAM'}
-  - value: 0.013
+  - value: 0.0134207
     errors:
-    - {symerror: 0.005, label: 'stat'}
+    - {symerror: 0.0045, label: 'stat'}
     - {symerror: 0.029, label: 'sys'}
     - {symerror: 0.0017, label: 'ZYAM'}
-  - value: -0.020
+  - value: -0.0247942
     errors:
-    - {symerror: 0.005, label: 'stat'}
+    - {symerror: 0.0054, label: 'stat'}
     - {symerror: 0.019, label: 'sys'}
     - {symerror: 0.0019, label: 'ZYAM'}
-  - value: -0.050
+  - value: -0.0534604
     errors:
-    - {symerror: 0.007, label: 'stat'}
+    - {symerror: 0.0066, label: 'stat'}
     - {symerror: 0.026, label: 'sys'}
     - {symerror: 0.0020, label: 'ZYAM'}
-  - value: -0.050
+  - value: -0.0511413
     errors:
-    - {symerror: 0.009, label: 'stat'}
-    - {symerror: -1.00, label: 'sys'}
-    - {symerror: -1.00, label: 'ZYAM'}
-- header: {name: '$2#pi/12<|#phi_{t}-#Psi_{3}|<3#pi/12$'}
+    - {symerror: 00, label: 'stat'}
+    - {symerror: -1.0, label: 'sys'}
+    - {symerror: -1.0, label: 'ZYAM'}
+- header: {name: '$Y$'}
   qualifiers:
-  - {name: '$p_T$', value: '20-30%'}
+  - {name: '$p_{T}^{trig}$', value: '2-4'}
+  - {name: '$p_{T}^{assoc}$', value: '1-2'}
+  - {name: '$\phi_{t}-\Psi_{2}$', value: '$2\pi/8-3\pi/8$'}
+  - {name: 'centrality', value: '20-30%'}
   values:
-  - value: 0.014
+  - value: 0.01404
     errors:
-    - {symerror: 0.008, label: 'stat'}
+    - {symerror: 0.0079, label: 'stat'}
     - {symerror: 0.014, label: 'sys'}
     - {symerror: 0.0018, label: 'ZYAM'}
-  - value: 0.014
+  - value: 0.0144684
     errors:
-    - {symerror: 0.006, label: 'stat'}
+    - {symerror: 0.0061, label: 'stat'}
     - {symerror: 0.020, label: 'sys'}
     - {symerror: 0.0017, label: 'ZYAM'}
-  - value: 0.019
+  - value: 0.0190738
     errors:
-    - {symerror: 0.005, label: 'stat'}
+    - {symerror: 0.0050, label: 'stat'}
     - {symerror: 0.018, label: 'sys'}
     - {symerror: 0.0017, label: 'ZYAM'}
-  - value: 0.013
+  - value: 0.0127036
     errors:
-    - {symerror: 0.004, label: 'stat'}
+    - {symerror: 0.0045, label: 'stat'}
     - {symerror: 0.014, label: 'sys'}
     - {symerror: 0.0016, label: 'ZYAM'}
-  - value: 0.025
+  - value: 0.0252088
     errors:
-    - {symerror: 0.004, label: 'stat'}
+    - {symerror: 0.0041, label: 'stat'}
     - {symerror: 0.009, label: 'sys'}
     - {symerror: 0.0016, label: 'ZYAM'}
-  - value: 0.04
+  - value: 0.0365834
     errors:
-    - {symerror: 0.004, label: 'stat'}
+    - {symerror: 0.0039, label: 'stat'}
     - {symerror: 0.007, label: 'sys'}
     - {symerror: 0.0016, label: 'ZYAM'}
-  - value: 0.04
+  - value: 0.0374629
     errors:
-    - {symerror: 0.004, label: 'stat'}
+    - {symerror: 0.0039, label: 'stat'}
     - {symerror: 0.015, label: 'sys'}
     - {symerror: 0.0016, label: 'ZYAM'}
-  - value: 0.023
+  - value: 0.0230062
     errors:
-    - {symerror: 0.004, label: 'stat'}
+    - {symerror: 0.0040, label: 'stat'}
     - {symerror: 0.022, label: 'sys'}
     - {symerror: 0.0017, label: 'ZYAM'}
-  - value: 0.007
+  - value: 0.00655958
     errors:
-    - {symerror: 0.004, label: 'stat'}
+    - {symerror: 0.0044, label: 'stat'}
     - {symerror: 0.020, label: 'sys'}
     - {symerror: 0.0017, label: 'ZYAM'}
-  - value: 0.017
+  - value: 0.0168082
     errors:
-    - {symerror: 0.005, label: 'stat'}
+    - {symerror: 0.0049, label: 'stat'}
     - {symerror: 0.011, label: 'sys'}
     - {symerror: 0.0018, label: 'ZYAM'}
-  - value: 0.010
+  - value: 0.0100049
     errors:
-    - {symerror: 0.006, label: 'stat'}
+    - {symerror: 0.0060, label: 'stat'}
     - {symerror: 0.009, label: 'sys'}
     - {symerror: 0.0018, label: 'ZYAM'}
-  - value: 0.016
+  - value: 0.0155577
     errors:
-    - {symerror: 0.008, label: 'stat'}
+    - {symerror: 0.0080, label: 'stat'}
     - {symerror: 0.009, label: 'sys'}
     - {symerror: 0.0018, label: 'ZYAM'}
-  - value: -0.0060
+  - value: -0.00558577
     errors:
-    - {symerror: 0.008, label: 'stat'}
+    - {symerror: 0.0075, label: 'stat'}
     - {symerror: 0.017, label: 'sys'}
     - {symerror: 0.0018, label: 'ZYAM'}
-  - value: 0.027
+  - value: 0.027284
     errors:
-    - {symerror: 0.006, label: 'stat'}
+    - {symerror: 0.0061, label: 'stat'}
     - {symerror: 0.016, label: 'sys'}
     - {symerror: 0.0018, label: 'ZYAM'}
-  - value: 0.020
+  - value: 0.0196152
     errors:
-    - {symerror: 0.005, label: 'stat'}
+    - {symerror: 0.0052, label: 'stat'}
     - {symerror: 0.018, label: 'sys'}
     - {symerror: 0.0017, label: 'ZYAM'}
-  - value: -0.001
+  - value: -0.000982959
     errors:
-    - {symerror: 0.005, label: 'stat'}
+    - {symerror: 0.0045, label: 'stat'}
     - {symerror: 0.021, label: 'sys'}
     - {symerror: 0.0016, label: 'ZYAM'}
-  - value: -0.0060
+  - value: -0.00622964
     errors:
-    - {symerror: 0.004, label: 'stat'}
+    - {symerror: 0.0042, label: 'stat'}
     - {symerror: 0.008, label: 'sys'}
     - {symerror: 0.0015, label: 'ZYAM'}
-  - value: -0.010
+  - value: -0.0121085
     errors:
-    - {symerror: 0.004, label: 'stat'}
+    - {symerror: 0.0040, label: 'stat'}
     - {symerror: 0.012, label: 'sys'}
     - {symerror: 0.0015, label: 'ZYAM'}
-  - value: -0.010
+  - value: -0.0119104
     errors:
-    - {symerror: 0.004, label: 'stat'}
+    - {symerror: 0.0040, label: 'stat'}
     - {symerror: 0.018, label: 'sys'}
     - {symerror: 0.0016, label: 'ZYAM'}
-  - value: -0.0020
+  - value: -0.00213822
     errors:
-    - {symerror: 0.004, label: 'stat'}
+    - {symerror: 0.0041, label: 'stat'}
     - {symerror: 0.020, label: 'sys'}
     - {symerror: 0.0017, label: 'ZYAM'}
-  - value: 0.0029
+  - value: 0.00286396
     errors:
-    - {symerror: 0.005, label: 'stat'}
+    - {symerror: 0.0046, label: 'stat'}
     - {symerror: 0.015, label: 'sys'}
     - {symerror: 0.0018, label: 'ZYAM'}
-  - value: 0.014
+  - value: 0.0143821
     errors:
-    - {symerror: 0.005, label: 'stat'}
+    - {symerror: 0.0052, label: 'stat'}
     - {symerror: 0.017, label: 'sys'}
     - {symerror: 0.0018, label: 'ZYAM'}
-  - value: 0.026
+  - value: 0.0256539
     errors:
-    - {symerror: 0.006, label: 'stat'}
+    - {symerror: 0.0060, label: 'stat'}
     - {symerror: 0.018, label: 'sys'}
     - {symerror: 0.0018, label: 'ZYAM'}
-  - value: 0.019
+  - value: 0.0194294
     errors:
-    - {symerror: 0.008, label: 'stat'}
-    - {symerror: -1.00, label: 'sys'}
-    - {symerror: -1.00, label: 'ZYAM'}
-- header: {name: '$#pi/12<|#phi_{t}-#Psi_{3}|<2#pi/12$'}
+    - {symerror: 00, label: 'stat'}
+    - {symerror: -1.0, label: 'sys'}
+    - {symerror: -1.0, label: 'ZYAM'}
+- header: {name: '$Y$'}
   qualifiers:
-  - {name: '$p_T$', value: '20-30%'}
+  - {name: '$p_{T}^{trig}$', value: '2-4'}
+  - {name: '$p_{T}^{assoc}$', value: '1-2'}
+  - {name: '$\phi_{t}-\Psi_{2}$', value: '$\pi/8-2\pi/8$'}
+  - {name: 'centrality', value: '20-30%'}
   values:
-  - value: 0.018
+  - value: 0.0177327
     errors:
-    - {symerror: 0.006, label: 'stat'}
+    - {symerror: 0.0065, label: 'stat'}
     - {symerror: 0.023, label: 'sys'}
     - {symerror: 0.0016, label: 'ZYAM'}
-  - value: 0.026
+  - value: 0.025718
     errors:
-    - {symerror: 0.005, label: 'stat'}
+    - {symerror: 0.0052, label: 'stat'}
     - {symerror: 0.022, label: 'sys'}
     - {symerror: 0.0018, label: 'ZYAM'}
-  - value: 0.016
+  - value: 0.0159068
     errors:
-    - {symerror: 0.004, label: 'stat'}
+    - {symerror: 0.0045, label: 'stat'}
     - {symerror: 0.016, label: 'sys'}
     - {symerror: 0.0019, label: 'ZYAM'}
-  - value: 0.015
+  - value: 0.0150976
     errors:
-    - {symerror: 0.004, label: 'stat'}
+    - {symerror: 0.0043, label: 'stat'}
     - {symerror: 0.017, label: 'sys'}
     - {symerror: 0.0020, label: 'ZYAM'}
-  - value: 0.019
+  - value: 0.018836
     errors:
-    - {symerror: 0.004, label: 'stat'}
+    - {symerror: 0.0041, label: 'stat'}
     - {symerror: 0.017, label: 'sys'}
     - {symerror: 0.0020, label: 'ZYAM'}
-  - value: 0.022
+  - value: 0.0215463
     errors:
-    - {symerror: 0.004, label: 'stat'}
+    - {symerror: 0.0041, label: 'stat'}
     - {symerror: 0.019, label: 'sys'}
     - {symerror: 0.0020, label: 'ZYAM'}
-  - value: 0.019
+  - value: 0.0193876
     errors:
-    - {symerror: 0.004, label: 'stat'}
+    - {symerror: 0.0041, label: 'stat'}
     - {symerror: 0.021, label: 'sys'}
     - {symerror: 0.0020, label: 'ZYAM'}
-  - value: 0.017
+  - value: 0.0168112
     errors:
-    - {symerror: 0.004, label: 'stat'}
+    - {symerror: 0.0041, label: 'stat'}
     - {symerror: 0.019, label: 'sys'}
     - {symerror: 0.0019, label: 'ZYAM'}
-  - value: 0.015
+  - value: 0.0152045
     errors:
-    - {symerror: 0.004, label: 'stat'}
+    - {symerror: 0.0043, label: 'stat'}
     - {symerror: 0.018, label: 'sys'}
     - {symerror: 0.0018, label: 'ZYAM'}
-  - value: 0.032
+  - value: 0.0319369
     errors:
-    - {symerror: 0.004, label: 'stat'}
+    - {symerror: 0.0045, label: 'stat'}
     - {symerror: 0.020, label: 'sys'}
     - {symerror: 0.0016, label: 'ZYAM'}
-  - value: 0.022
+  - value: 0.0217049
     errors:
-    - {symerror: 0.005, label: 'stat'}
+    - {symerror: 0.0051, label: 'stat'}
     - {symerror: 0.016, label: 'sys'}
     - {symerror: 0.0016, label: 'ZYAM'}
-  - value: 0.030
+  - value: 0.0296737
     errors:
-    - {symerror: 0.007, label: 'stat'}
+    - {symerror: 0.0066, label: 'stat'}
     - {symerror: 0.026, label: 'sys'}
     - {symerror: 0.0016, label: 'ZYAM'}
-  - value: 0.05
+  - value: 0.048756
     errors:
-    - {symerror: 0.006, label: 'stat'}
+    - {symerror: 0.0062, label: 'stat'}
     - {symerror: 0.022, label: 'sys'}
     - {symerror: 0.0017, label: 'ZYAM'}
-  - value: 0.04
+  - value: 0.037819
     errors:
-    - {symerror: 0.005, label: 'stat'}
+    - {symerror: 0.0052, label: 'stat'}
     - {symerror: 0.023, label: 'sys'}
     - {symerror: 0.0018, label: 'ZYAM'}
-  - value: 0.04
+  - value: 0.0386063
     errors:
-    - {symerror: 0.005, label: 'stat'}
+    - {symerror: 0.0047, label: 'stat'}
     - {symerror: 0.014, label: 'sys'}
     - {symerror: 0.0019, label: 'ZYAM'}
-  - value: 0.028
+  - value: 0.0283886
     errors:
-    - {symerror: 0.004, label: 'stat'}
+    - {symerror: 0.0044, label: 'stat'}
     - {symerror: 0.020, label: 'sys'}
     - {symerror: 0.0020, label: 'ZYAM'}
-  - value: 0.0026
+  - value: 0.00255196
     errors:
-    - {symerror: 0.004, label: 'stat'}
+    - {symerror: 0.0042, label: 'stat'}
     - {symerror: 0.020, label: 'sys'}
     - {symerror: 0.0020, label: 'ZYAM'}
-  - value: -0.030
+  - value: -0.0344177
     errors:
-    - {symerror: 0.004, label: 'stat'}
+    - {symerror: 0.0041, label: 'stat'}
     - {symerror: 0.015, label: 'sys'}
     - {symerror: 0.0020, label: 'ZYAM'}
-  - value: -0.030
+  - value: -0.0268444
     errors:
-    - {symerror: 0.004, label: 'stat'}
+    - {symerror: 0.0042, label: 'stat'}
     - {symerror: 0.020, label: 'sys'}
     - {symerror: 0.0020, label: 'ZYAM'}
-  - value: -0.0060
+  - value: -0.00556159
     errors:
-    - {symerror: 0.004, label: 'stat'}
+    - {symerror: 0.0042, label: 'stat'}
     - {symerror: 0.015, label: 'sys'}
     - {symerror: 0.0019, label: 'ZYAM'}
-  - value: 0.026
+  - value: 0.0261173
     errors:
-    - {symerror: 0.004, label: 'stat'}
+    - {symerror: 0.0044, label: 'stat'}
     - {symerror: 0.024, label: 'sys'}
     - {symerror: 0.0018, label: 'ZYAM'}
-  - value: 0.05
+  - value: 0.0476159
     errors:
-    - {symerror: 0.005, label: 'stat'}
+    - {symerror: 0.0047, label: 'stat'}
     - {symerror: 0.023, label: 'sys'}
     - {symerror: 0.0017, label: 'ZYAM'}
-  - value: 0.028
+  - value: 0.0279052
     errors:
-    - {symerror: 0.005, label: 'stat'}
+    - {symerror: 0.0051, label: 'stat'}
     - {symerror: 0.017, label: 'sys'}
     - {symerror: 0.0016, label: 'ZYAM'}
-  - value: 0.023
+  - value: 0.0230921
     errors:
-    - {symerror: 0.006, label: 'stat'}
-    - {symerror: -1.00, label: 'sys'}
-    - {symerror: -1.00, label: 'ZYAM'}
-- header: {name: '$0<|#phi_{t}-#Psi_{3}|<#pi/12$'}
+    - {symerror: 00, label: 'stat'}
+    - {symerror: -1.0, label: 'sys'}
+    - {symerror: -1.0, label: 'ZYAM'}
+- header: {name: '$Y$'}
   qualifiers:
-  - {name: '$p_T$', value: '20-30%'}
+  - {name: '$p_{T}^{trig}$', value: '2-4'}
+  - {name: '$p_{T}^{assoc}$', value: '1-2'}
+  - {name: '$\phi_{t}-\Psi_{2}$', value: '$0-\pi/8$'}
+  - {name: 'centrality', value: '20-30%'}
   values:
-  - value: -0.0030
+  - value: -0.0034468
     errors:
-    - {symerror: 0.006, label: 'stat'}
+    - {symerror: 0.0057, label: 'stat'}
     - {symerror: 0.014, label: 'sys'}
     - {symerror: 0.0016, label: 'ZYAM'}
-  - value: 0.010
+  - value: 0.00979487
     errors:
-    - {symerror: 0.005, label: 'stat'}
+    - {symerror: 0.0046, label: 'stat'}
     - {symerror: 0.023, label: 'sys'}
     - {symerror: 0.0017, label: 'ZYAM'}
-  - value: 0.011
+  - value: 0.0112425
     errors:
-    - {symerror: 0.004, label: 'stat'}
+    - {symerror: 0.0041, label: 'stat'}
     - {symerror: 0.025, label: 'sys'}
     - {symerror: 0.0020, label: 'ZYAM'}
-  - value: 0.019
+  - value: 0.0191599
     errors:
-    - {symerror: 0.004, label: 'stat'}
+    - {symerror: 0.0041, label: 'stat'}
     - {symerror: 0.022, label: 'sys'}
     - {symerror: 0.0022, label: 'ZYAM'}
-  - value: 0.05
+  - value: 0.054592
     errors:
-    - {symerror: 0.004, label: 'stat'}
+    - {symerror: 0.0041, label: 'stat'}
     - {symerror: 0.025, label: 'sys'}
     - {symerror: 0.0023, label: 'ZYAM'}
-  - value: 0.08
+  - value: 0.0816006
     errors:
-    - {symerror: 0.004, label: 'stat'}
+    - {symerror: 0.0042, label: 'stat'}
     - {symerror: 0.027, label: 'sys'}
     - {symerror: 0.0023, label: 'ZYAM'}
-  - value: 0.08
+  - value: 0.0765579
     errors:
-    - {symerror: 0.004, label: 'stat'}
+    - {symerror: 0.0042, label: 'stat'}
     - {symerror: 0.026, label: 'sys'}
     - {symerror: 0.0022, label: 'ZYAM'}
-  - value: 0.05
+  - value: 0.0526624
     errors:
-    - {symerror: 0.004, label: 'stat'}
+    - {symerror: 0.0041, label: 'stat'}
     - {symerror: 0.025, label: 'sys'}
     - {symerror: 0.0020, label: 'ZYAM'}
-  - value: 0.024
+  - value: 0.0242449
     errors:
-    - {symerror: 0.004, label: 'stat'}
+    - {symerror: 0.0040, label: 'stat'}
     - {symerror: 0.024, label: 'sys'}
     - {symerror: 0.0017, label: 'ZYAM'}
-  - value: 0.008
+  - value: 0.00829898
     errors:
-    - {symerror: 0.004, label: 'stat'}
+    - {symerror: 0.0040, label: 'stat'}
     - {symerror: 0.015, label: 'sys'}
     - {symerror: 0.0016, label: 'ZYAM'}
-  - value: 0.007
+  - value: 0.00650212
     errors:
-    - {symerror: 0.005, label: 'stat'}
+    - {symerror: 0.0046, label: 'stat'}
     - {symerror: 0.019, label: 'sys'}
     - {symerror: 0.0015, label: 'ZYAM'}
-  - value: -0.0050
+  - value: -0.00541165
     errors:
-    - {symerror: 0.006, label: 'stat'}
+    - {symerror: 0.0058, label: 'stat'}
     - {symerror: 0.022, label: 'sys'}
     - {symerror: 0.0015, label: 'ZYAM'}
-  - value: 0.008
+  - value: 0.00823302
     errors:
-    - {symerror: 0.005, label: 'stat'}
+    - {symerror: 0.0055, label: 'stat'}
     - {symerror: 0.018, label: 'sys'}
     - {symerror: 0.0016, label: 'ZYAM'}
-  - value: 0.022
+  - value: 0.0220831
     errors:
-    - {symerror: 0.005, label: 'stat'}
+    - {symerror: 0.0046, label: 'stat'}
     - {symerror: 0.025, label: 'sys'}
     - {symerror: 0.0017, label: 'ZYAM'}
-  - value: 0.035
+  - value: 0.0352859
     errors:
-    - {symerror: 0.004, label: 'stat'}
+    - {symerror: 0.0042, label: 'stat'}
     - {symerror: 0.029, label: 'sys'}
     - {symerror: 0.0020, label: 'ZYAM'}
-  - value: 0.05
+  - value: 0.0459082
     errors:
-    - {symerror: 0.004, label: 'stat'}
+    - {symerror: 0.0041, label: 'stat'}
     - {symerror: 0.020, label: 'sys'}
     - {symerror: 0.0022, label: 'ZYAM'}
-  - value: 0.032
+  - value: 0.0320704
     errors:
-    - {symerror: 0.004, label: 'stat'}
+    - {symerror: 0.0042, label: 'stat'}
     - {symerror: 0.028, label: 'sys'}
     - {symerror: 0.0023, label: 'ZYAM'}
-  - value: 0.034
+  - value: 0.0342946
     errors:
-    - {symerror: 0.004, label: 'stat'}
+    - {symerror: 0.0042, label: 'stat'}
     - {symerror: 0.026, label: 'sys'}
     - {symerror: 0.0023, label: 'ZYAM'}
-  - value: 0.029
+  - value: 0.0289644
     errors:
-    - {symerror: 0.004, label: 'stat'}
+    - {symerror: 0.0042, label: 'stat'}
     - {symerror: 0.019, label: 'sys'}
     - {symerror: 0.0022, label: 'ZYAM'}
-  - value: 0.033
+  - value: 0.0327535
     errors:
-    - {symerror: 0.004, label: 'stat'}
+    - {symerror: 0.0042, label: 'stat'}
     - {symerror: 0.026, label: 'sys'}
     - {symerror: 0.0020, label: 'ZYAM'}
-  - value: 0.04
+  - value: 0.0396574
     errors:
-    - {symerror: 0.004, label: 'stat'}
+    - {symerror: 0.0041, label: 'stat'}
     - {symerror: 0.022, label: 'sys'}
     - {symerror: 0.0017, label: 'ZYAM'}
-  - value: 0.032
+  - value: 0.0315029
     errors:
-    - {symerror: 0.004, label: 'stat'}
+    - {symerror: 0.0042, label: 'stat'}
     - {symerror: 0.016, label: 'sys'}
     - {symerror: 0.0016, label: 'ZYAM'}
-  - value: 0.021
+  - value: 0.0211834
     errors:
-    - {symerror: 0.005, label: 'stat'}
+    - {symerror: 0.0046, label: 'stat'}
     - {symerror: 0.019, label: 'sys'}
     - {symerror: 0.0015, label: 'ZYAM'}
-  - value: 0.004
+  - value: 0.00436343
     errors:
-    - {symerror: 0.005, label: 'stat'}
-    - {symerror: -1.00, label: 'sys'}
-    - {symerror: -1.00, label: 'ZYAM'}
-- header: {name: '$3#pi/12<|#phi_{t}-#Psi_{3}|<4#pi/12$'}
+    - {symerror: 00, label: 'stat'}
+    - {symerror: -1.0, label: 'sys'}
+    - {symerror: -1.0, label: 'ZYAM'}
+- header: {name: '$Y$'}
   qualifiers:
-  - {name: '$p_T$', value: '30-40%'}
+  - {name: '$p_{T}^{trig}$', value: '2-4'}
+  - {name: '$p_{T}^{assoc}$', value: '1-2'}
+  - {name: '$\phi_{t}-\Psi_{2}$', value: '$3\pi/8-4\pi/8$'}
+  - {name: 'centrality', value: '30-40%'}
   values:
-  - value: -0.060
+  - value: -0.0610769
     errors:
-    - {symerror: 0.008, label: 'stat'}
+    - {symerror: 0.0079, label: 'stat'}
     - {symerror: 0.010, label: 'sys'}
     - {symerror: 0.0017, label: 'ZYAM'}
-  - value: -0.030
+  - value: -0.0312391
     errors:
-    - {symerror: 0.006, label: 'stat'}
+    - {symerror: 0.0058, label: 'stat'}
     - {symerror: 0.020, label: 'sys'}
     - {symerror: 0.0015, label: 'ZYAM'}
-  - value: 0.0006
+  - value: 0.000579428
     errors:
-    - {symerror: 0.004, label: 'stat'}
+    - {symerror: 0.0044, label: 'stat'}
     - {symerror: 0.022, label: 'sys'}
     - {symerror: 0.0013, label: 'ZYAM'}
-  - value: 0.029
+  - value: 0.029472
     errors:
-    - {symerror: 0.004, label: 'stat'}
+    - {symerror: 0.0037, label: 'stat'}
     - {symerror: 0.013, label: 'sys'}
     - {symerror: 0.0012, label: 'ZYAM'}
-  - value: 0.05
+  - value: 0.0518248
     errors:
     - {symerror: 0.0032, label: 'stat'}
     - {symerror: 0.010, label: 'sys'}
     - {symerror: 0.0011, label: 'ZYAM'}
-  - value: 0.06
+  - value: 0.0632872
     errors:
     - {symerror: 0.0030, label: 'stat'}
     - {symerror: 0.010, label: 'sys'}
     - {symerror: 0.0011, label: 'ZYAM'}
-  - value: 0.06
+  - value: 0.0626324
     errors:
     - {symerror: 0.0030, label: 'stat'}
     - {symerror: 0.012, label: 'sys'}
     - {symerror: 0.0012, label: 'ZYAM'}
-  - value: 0.05
+  - value: 0.0450071
     errors:
     - {symerror: 0.0032, label: 'stat'}
     - {symerror: 0.024, label: 'sys'}
     - {symerror: 0.0013, label: 'ZYAM'}
-  - value: 0.023
+  - value: 0.0229577
     errors:
-    - {symerror: 0.004, label: 'stat'}
+    - {symerror: 0.0036, label: 'stat'}
     - {symerror: 0.020, label: 'sys'}
     - {symerror: 0.0015, label: 'ZYAM'}
-  - value: -0.0080
+  - value: -0.00802405
     errors:
-    - {symerror: 0.004, label: 'stat'}
+    - {symerror: 0.0043, label: 'stat'}
     - {symerror: 0.012, label: 'sys'}
     - {symerror: 0.0017, label: 'ZYAM'}
-  - value: -0.040
+  - value: -0.0382101
     errors:
-    - {symerror: 0.006, label: 'stat'}
+    - {symerror: 0.0057, label: 'stat'}
     - {symerror: 0.018, label: 'sys'}
     - {symerror: 0.0018, label: 'ZYAM'}
-  - value: -0.050
+  - value: -0.052853
     errors:
-    - {symerror: 0.008, label: 'stat'}
+    - {symerror: 0.0081, label: 'stat'}
     - {symerror: 0.017, label: 'sys'}
     - {symerror: 0.0018, label: 'ZYAM'}
-  - value: -0.040
+  - value: -0.035718
     errors:
-    - {symerror: 0.008, label: 'stat'}
+    - {symerror: 0.0076, label: 'stat'}
     - {symerror: 0.019, label: 'sys'}
     - {symerror: 0.0017, label: 'ZYAM'}
-  - value: -0.030
+  - value: -0.0322819
     errors:
-    - {symerror: 0.006, label: 'stat'}
+    - {symerror: 0.0058, label: 'stat'}
     - {symerror: 0.024, label: 'sys'}
     - {symerror: 0.0015, label: 'ZYAM'}
-  - value: -0.020
+  - value: -0.0174767
     errors:
-    - {symerror: 0.005, label: 'stat'}
+    - {symerror: 0.0046, label: 'stat'}
     - {symerror: 0.021, label: 'sys'}
     - {symerror: 0.0013, label: 'ZYAM'}
-  - value: 0.007
+  - value: 0.00698679
     errors:
-    - {symerror: 0.004, label: 'stat'}
+    - {symerror: 0.0037, label: 'stat'}
     - {symerror: 0.013, label: 'sys'}
     - {symerror: 0.0012, label: 'ZYAM'}
-  - value: 0.023
+  - value: 0.0232832
     errors:
     - {symerror: 0.0032, label: 'stat'}
     - {symerror: 0.009, label: 'sys'}
     - {symerror: 0.0011, label: 'ZYAM'}
-  - value: 0.023
+  - value: 0.0227599
     errors:
     - {symerror: 0.0030, label: 'stat'}
     - {symerror: 0.009, label: 'sys'}
     - {symerror: 0.0011, label: 'ZYAM'}
-  - value: 0.027
+  - value: 0.0274945
     errors:
     - {symerror: 0.0030, label: 'stat'}
     - {symerror: 0.012, label: 'sys'}
     - {symerror: 0.0012, label: 'ZYAM'}
-  - value: 0.024
+  - value: 0.0236657
     errors:
     - {symerror: 0.0032, label: 'stat'}
     - {symerror: 0.027, label: 'sys'}
     - {symerror: 0.0013, label: 'ZYAM'}
-  - value: -0.0030
+  - value: -0.00253358
     errors:
-    - {symerror: 0.004, label: 'stat'}
+    - {symerror: 0.0037, label: 'stat'}
     - {symerror: 0.026, label: 'sys'}
     - {symerror: 0.0015, label: 'ZYAM'}
-  - value: -0.020
+  - value: -0.0197749
     errors:
-    - {symerror: 0.005, label: 'stat'}
+    - {symerror: 0.0046, label: 'stat'}
     - {symerror: 0.015, label: 'sys'}
     - {symerror: 0.0017, label: 'ZYAM'}
-  - value: -0.030
+  - value: -0.0287355
     errors:
-    - {symerror: 0.006, label: 'stat'}
+    - {symerror: 0.0057, label: 'stat'}
     - {symerror: 0.022, label: 'sys'}
     - {symerror: 0.0018, label: 'ZYAM'}
-  - value: -0.040
+  - value: -0.0431094
     errors:
-    - {symerror: 0.008, label: 'stat'}
-    - {symerror: -1.00, label: 'sys'}
-    - {symerror: -1.00, label: 'ZYAM'}
-- header: {name: '$2#pi/12<|#phi_{t}-#Psi_{3}|<3#pi/12$'}
+    - {symerror: 00, label: 'stat'}
+    - {symerror: -1.0, label: 'sys'}
+    - {symerror: -1.0, label: 'ZYAM'}
+- header: {name: '$Y$'}
   qualifiers:
-  - {name: '$p_T$', value: '30-40%'}
+  - {name: '$p_{T}^{trig}$', value: '2-4'}
+  - {name: '$p_{T}^{assoc}$', value: '1-2'}
+  - {name: '$\phi_{t}-\Psi_{2}$', value: '$2\pi/8-3\pi/8$'}
+  - {name: 'centrality', value: '30-40%'}
   values:
-  - value: 0.011
+  - value: 0.0112338
     errors:
-    - {symerror: 0.007, label: 'stat'}
+    - {symerror: 0.0069, label: 'stat'}
     - {symerror: 0.013, label: 'sys'}
     - {symerror: 0.0016, label: 'ZYAM'}
-  - value: 0.006
+  - value: 0.00638435
     errors:
-    - {symerror: 0.005, label: 'stat'}
+    - {symerror: 0.0052, label: 'stat'}
     - {symerror: 0.014, label: 'sys'}
     - {symerror: 0.0016, label: 'ZYAM'}
-  - value: 0.016
+  - value: 0.0157938
     errors:
-    - {symerror: 0.004, label: 'stat'}
+    - {symerror: 0.0041, label: 'stat'}
     - {symerror: 0.014, label: 'sys'}
     - {symerror: 0.0015, label: 'ZYAM'}
-  - value: 0.010
+  - value: 0.0096448
     errors:
-    - {symerror: 0.004, label: 'stat'}
+    - {symerror: 0.0037, label: 'stat'}
     - {symerror: 0.016, label: 'sys'}
     - {symerror: 0.0015, label: 'ZYAM'}
-  - value: 0.012
+  - value: 0.0120745
     errors:
     - {symerror: 0.0033, label: 'stat'}
     - {symerror: 0.012, label: 'sys'}
     - {symerror: 0.0014, label: 'ZYAM'}
-  - value: 0.025
+  - value: 0.0246718
     errors:
     - {symerror: 0.0032, label: 'stat'}
     - {symerror: 0.009, label: 'sys'}
     - {symerror: 0.0014, label: 'ZYAM'}
-  - value: 0.022
+  - value: 0.0220307
     errors:
     - {symerror: 0.0032, label: 'stat'}
     - {symerror: 0.014, label: 'sys'}
     - {symerror: 0.0015, label: 'ZYAM'}
-  - value: 0.018
+  - value: 0.0182868
     errors:
     - {symerror: 0.0033, label: 'stat'}
     - {symerror: 0.015, label: 'sys'}
     - {symerror: 0.0015, label: 'ZYAM'}
-  - value: 0.008
+  - value: 0.00803554
     errors:
-    - {symerror: 0.004, label: 'stat'}
+    - {symerror: 0.0037, label: 'stat'}
     - {symerror: 0.018, label: 'sys'}
     - {symerror: 0.0016, label: 'ZYAM'}
-  - value: 0.009
+  - value: 0.00895942
     errors:
-    - {symerror: 0.004, label: 'stat'}
+    - {symerror: 0.0041, label: 'stat'}
     - {symerror: 0.010, label: 'sys'}
     - {symerror: 0.0016, label: 'ZYAM'}
-  - value: 0.0029
+  - value: 0.00292982
     errors:
-    - {symerror: 0.005, label: 'stat'}
+    - {symerror: 0.0051, label: 'stat'}
     - {symerror: 0.008, label: 'sys'}
     - {symerror: 0.0016, label: 'ZYAM'}
-  - value: 0.0024
+  - value: 0.00240727
     errors:
-    - {symerror: 0.007, label: 'stat'}
+    - {symerror: 0.0069, label: 'stat'}
     - {symerror: 0.006, label: 'sys'}
     - {symerror: 0.0016, label: 'ZYAM'}
-  - value: -0.0030
+  - value: -0.00343522
     errors:
-    - {symerror: 0.006, label: 'stat'}
+    - {symerror: 0.0065, label: 'stat'}
     - {symerror: 0.008, label: 'sys'}
     - {symerror: 0.0016, label: 'ZYAM'}
-  - value: 0.015
+  - value: 0.0149812
     errors:
-    - {symerror: 0.005, label: 'stat'}
+    - {symerror: 0.0052, label: 'stat'}
     - {symerror: 0.016, label: 'sys'}
     - {symerror: 0.0016, label: 'ZYAM'}
-  - value: 0.016
+  - value: 0.0160333
     errors:
-    - {symerror: 0.004, label: 'stat'}
+    - {symerror: 0.0043, label: 'stat'}
     - {symerror: 0.017, label: 'sys'}
     - {symerror: 0.0015, label: 'ZYAM'}
-  - value: 0.0023
+  - value: 0.00227964
     errors:
-    - {symerror: 0.004, label: 'stat'}
+    - {symerror: 0.0038, label: 'stat'}
     - {symerror: 0.015, label: 'sys'}
     - {symerror: 0.0014, label: 'ZYAM'}
-  - value: -0.010
+  - value: -0.011894
     errors:
     - {symerror: 0.0034, label: 'stat'}
     - {symerror: 0.009, label: 'sys'}
     - {symerror: 0.0014, label: 'ZYAM'}
-  - value: -0.020
+  - value: -0.0194017
     errors:
     - {symerror: 0.0032, label: 'stat'}
     - {symerror: 0.010, label: 'sys'}
     - {symerror: 0.0014, label: 'ZYAM'}
-  - value: -0.020
+  - value: -0.0232818
     errors:
     - {symerror: 0.0032, label: 'stat'}
     - {symerror: 0.015, label: 'sys'}
     - {symerror: 0.0014, label: 'ZYAM'}
-  - value: -0.0090
+  - value: -0.00911834
     errors:
     - {symerror: 0.0034, label: 'stat'}
     - {symerror: 0.015, label: 'sys'}
     - {symerror: 0.0015, label: 'ZYAM'}
-  - value: 0.012
+  - value: 0.0122499
     errors:
-    - {symerror: 0.004, label: 'stat'}
+    - {symerror: 0.0038, label: 'stat'}
     - {symerror: 0.015, label: 'sys'}
     - {symerror: 0.0016, label: 'ZYAM'}
-  - value: 0.023
+  - value: 0.0225189
     errors:
-    - {symerror: 0.004, label: 'stat'}
+    - {symerror: 0.0044, label: 'stat'}
     - {symerror: 0.013, label: 'sys'}
     - {symerror: 0.0016, label: 'ZYAM'}
-  - value: 0.007
+  - value: 0.0067701
     errors:
-    - {symerror: 0.005, label: 'stat'}
+    - {symerror: 0.0051, label: 'stat'}
     - {symerror: 0.012, label: 'sys'}
     - {symerror: 0.0016, label: 'ZYAM'}
-  - value: 0.013
+  - value: 0.0133277
     errors:
-    - {symerror: 0.006, label: 'stat'}
-    - {symerror: -1.00, label: 'sys'}
-    - {symerror: -1.00, label: 'ZYAM'}
-- header: {name: '$#pi/12<|#phi_{t}-#Psi_{3}|<2#pi/12$'}
+    - {symerror: 00, label: 'stat'}
+    - {symerror: -1.0, label: 'sys'}
+    - {symerror: -1.0, label: 'ZYAM'}
+- header: {name: '$Y$'}
   qualifiers:
-  - {name: '$p_T$', value: '30-40%'}
+  - {name: '$p_{T}^{trig}$', value: '2-4'}
+  - {name: '$p_{T}^{assoc}$', value: '1-2'}
+  - {name: '$\phi_{t}-\Psi_{2}$', value: '$\pi/8-2\pi/8$'}
+  - {name: 'centrality', value: '30-40%'}
   values:
-  - value: 0.031
+  - value: 0.0309621
     errors:
-    - {symerror: 0.005, label: 'stat'}
+    - {symerror: 0.0055, label: 'stat'}
     - {symerror: 0.018, label: 'sys'}
     - {symerror: 0.0015, label: 'ZYAM'}
-  - value: 0.029
+  - value: 0.0286433
     errors:
-    - {symerror: 0.004, label: 'stat'}
+    - {symerror: 0.0043, label: 'stat'}
     - {symerror: 0.016, label: 'sys'}
     - {symerror: 0.0016, label: 'ZYAM'}
-  - value: 0.023
+  - value: 0.022871
     errors:
-    - {symerror: 0.004, label: 'stat'}
+    - {symerror: 0.0037, label: 'stat'}
     - {symerror: 0.013, label: 'sys'}
     - {symerror: 0.0017, label: 'ZYAM'}
-  - value: 0.016
+  - value: 0.0157322
     errors:
-    - {symerror: 0.004, label: 'stat'}
+    - {symerror: 0.0036, label: 'stat'}
     - {symerror: 0.017, label: 'sys'}
     - {symerror: 0.0018, label: 'ZYAM'}
-  - value: 0.025
+  - value: 0.024916
     errors:
     - {symerror: 0.0034, label: 'stat'}
     - {symerror: 0.016, label: 'sys'}
     - {symerror: 0.0019, label: 'ZYAM'}
-  - value: 0.026
+  - value: 0.0262627
     errors:
     - {symerror: 0.0034, label: 'stat'}
     - {symerror: 0.015, label: 'sys'}
     - {symerror: 0.0019, label: 'ZYAM'}
-  - value: 0.029
+  - value: 0.02931
     errors:
     - {symerror: 0.0034, label: 'stat'}
     - {symerror: 0.015, label: 'sys'}
     - {symerror: 0.0018, label: 'ZYAM'}
-  - value: 0.027
+  - value: 0.0271995
     errors:
     - {symerror: 0.0034, label: 'stat'}
     - {symerror: 0.012, label: 'sys'}
     - {symerror: 0.0017, label: 'ZYAM'}
-  - value: 0.027
+  - value: 0.0269687
     errors:
-    - {symerror: 0.004, label: 'stat'}
+    - {symerror: 0.0036, label: 'stat'}
     - {symerror: 0.014, label: 'sys'}
     - {symerror: 0.0016, label: 'ZYAM'}
-  - value: 0.022
+  - value: 0.0222083
     errors:
-    - {symerror: 0.004, label: 'stat'}
+    - {symerror: 0.0037, label: 'stat'}
     - {symerror: 0.018, label: 'sys'}
     - {symerror: 0.0015, label: 'ZYAM'}
-  - value: 0.026
+  - value: 0.0263837
     errors:
-    - {symerror: 0.004, label: 'stat'}
+    - {symerror: 0.0043, label: 'stat'}
     - {symerror: 0.018, label: 'sys'}
     - {symerror: 0.0014, label: 'ZYAM'}
-  - value: 0.028
+  - value: 0.0279685
     errors:
-    - {symerror: 0.006, label: 'stat'}
+    - {symerror: 0.0056, label: 'stat'}
     - {symerror: 0.016, label: 'sys'}
     - {symerror: 0.0014, label: 'ZYAM'}
-  - value: 0.029
+  - value: 0.0294397
     errors:
-    - {symerror: 0.005, label: 'stat'}
+    - {symerror: 0.0052, label: 'stat'}
     - {symerror: 0.022, label: 'sys'}
     - {symerror: 0.0015, label: 'ZYAM'}
-  - value: 0.04
+  - value: 0.0376212
     errors:
-    - {symerror: 0.004, label: 'stat'}
+    - {symerror: 0.0043, label: 'stat'}
     - {symerror: 0.017, label: 'sys'}
     - {symerror: 0.0016, label: 'ZYAM'}
-  - value: 0.05
+  - value: 0.0462593
     errors:
-    - {symerror: 0.004, label: 'stat'}
+    - {symerror: 0.0039, label: 'stat'}
     - {symerror: 0.014, label: 'sys'}
     - {symerror: 0.0017, label: 'ZYAM'}
-  - value: 0.032
+  - value: 0.0323061
     errors:
-    - {symerror: 0.004, label: 'stat'}
+    - {symerror: 0.0036, label: 'stat'}
     - {symerror: 0.016, label: 'sys'}
     - {symerror: 0.0018, label: 'ZYAM'}
-  - value: 0.00015
+  - value: 0.000149945
     errors:
     - {symerror: 0.0035, label: 'stat'}
     - {symerror: 0.014, label: 'sys'}
     - {symerror: 0.0019, label: 'ZYAM'}
-  - value: -0.020
+  - value: -0.0168508
     errors:
     - {symerror: 0.0034, label: 'stat'}
     - {symerror: 0.015, label: 'sys'}
     - {symerror: 0.0019, label: 'ZYAM'}
-  - value: -0.020
+  - value: -0.0224517
     errors:
     - {symerror: 0.0034, label: 'stat'}
     - {symerror: 0.015, label: 'sys'}
     - {symerror: 0.0018, label: 'ZYAM'}
-  - value: 0.005
+  - value: 0.00457378
     errors:
     - {symerror: 0.0035, label: 'stat'}
     - {symerror: 0.014, label: 'sys'}
     - {symerror: 0.0017, label: 'ZYAM'}
-  - value: 0.027
+  - value: 0.0265113
     errors:
-    - {symerror: 0.004, label: 'stat'}
+    - {symerror: 0.0036, label: 'stat'}
     - {symerror: 0.018, label: 'sys'}
     - {symerror: 0.0016, label: 'ZYAM'}
-  - value: 0.04
+  - value: 0.0395778
     errors:
-    - {symerror: 0.004, label: 'stat'}
+    - {symerror: 0.0039, label: 'stat'}
     - {symerror: 0.021, label: 'sys'}
     - {symerror: 0.0015, label: 'ZYAM'}
-  - value: 0.029
+  - value: 0.0287297
     errors:
-    - {symerror: 0.004, label: 'stat'}
+    - {symerror: 0.0042, label: 'stat'}
     - {symerror: 0.015, label: 'sys'}
     - {symerror: 0.0014, label: 'ZYAM'}
-  - value: 0.030
+  - value: 0.0295169
     errors:
-    - {symerror: 0.005, label: 'stat'}
-    - {symerror: -1.00, label: 'sys'}
-    - {symerror: -1.00, label: 'ZYAM'}
-- header: {name: '$0<|#phi_{t}-#Psi_{3}|<#pi/12$'}
+    - {symerror: 00, label: 'stat'}
+    - {symerror: -1.0, label: 'sys'}
+    - {symerror: -1.0, label: 'ZYAM'}
+- header: {name: '$Y$'}
   qualifiers:
-  - {name: '$p_T$', value: '30-40%'}
+  - {name: '$p_{T}^{trig}$', value: '2-4'}
+  - {name: '$p_{T}^{assoc}$', value: '1-2'}
+  - {name: '$\phi_{t}-\Psi_{2}$', value: '$0-\pi/8$'}
+  - {name: 'centrality', value: '30-40%'}
   values:
-  - value: -0.010
+  - value: -0.0115121
     errors:
-    - {symerror: 0.005, label: 'stat'}
+    - {symerror: 0.0047, label: 'stat'}
     - {symerror: 0.013, label: 'sys'}
     - {symerror: 0.0014, label: 'ZYAM'}
-  - value: -0.0020
+  - value: -0.00198195
     errors:
-    - {symerror: 0.004, label: 'stat'}
+    - {symerror: 0.0037, label: 'stat'}
     - {symerror: 0.023, label: 'sys'}
     - {symerror: 0.0016, label: 'ZYAM'}
-  - value: 0.010
+  - value: 0.0104604
     errors:
     - {symerror: 0.0033, label: 'stat'}
     - {symerror: 0.027, label: 'sys'}
     - {symerror: 0.0018, label: 'ZYAM'}
-  - value: 0.024
+  - value: 0.0244822
     errors:
     - {symerror: 0.0033, label: 'stat'}
     - {symerror: 0.018, label: 'sys'}
     - {symerror: 0.0021, label: 'ZYAM'}
-  - value: 0.07
+  - value: 0.0658861
     errors:
     - {symerror: 0.0034, label: 'stat'}
     - {symerror: 0.023, label: 'sys'}
     - {symerror: 0.0023, label: 'ZYAM'}
-  - value: 0.10
+  - value: 0.0966511
     errors:
     - {symerror: 0.0035, label: 'stat'}
     - {symerror: 0.023, label: 'sys'}
     - {symerror: 0.0023, label: 'ZYAM'}
-  - value: 0.09
+  - value: 0.0946611
     errors:
     - {symerror: 0.0035, label: 'stat'}
     - {symerror: 0.018, label: 'sys'}
     - {symerror: 0.0021, label: 'ZYAM'}
-  - value: 0.06
+  - value: 0.0575288
     errors:
     - {symerror: 0.0034, label: 'stat'}
     - {symerror: 0.025, label: 'sys'}
     - {symerror: 0.0018, label: 'ZYAM'}
-  - value: 0.024
+  - value: 0.0236795
     errors:
     - {symerror: 0.0033, label: 'stat'}
     - {symerror: 0.021, label: 'sys'}
     - {symerror: 0.0016, label: 'ZYAM'}
-  - value: 0.014
+  - value: 0.0143076
     errors:
     - {symerror: 0.0033, label: 'stat'}
     - {symerror: 0.014, label: 'sys'}
     - {symerror: 0.0014, label: 'ZYAM'}
-  - value: 0.007
+  - value: 0.00688071
     errors:
-    - {symerror: 0.004, label: 'stat'}
+    - {symerror: 0.0037, label: 'stat'}
     - {symerror: 0.013, label: 'sys'}
     - {symerror: 0.0013, label: 'ZYAM'}
-  - value: -0.0050
+  - value: -0.00471197
     errors:
-    - {symerror: 0.005, label: 'stat'}
+    - {symerror: 0.0048, label: 'stat'}
     - {symerror: 0.014, label: 'sys'}
     - {symerror: 0.0013, label: 'ZYAM'}
-  - value: 0.004
+  - value: 0.00376074
     errors:
-    - {symerror: 0.005, label: 'stat'}
+    - {symerror: 0.0045, label: 'stat'}
     - {symerror: 0.018, label: 'sys'}
     - {symerror: 0.0014, label: 'ZYAM'}
-  - value: 0.011
+  - value: 0.0108481
     errors:
-    - {symerror: 0.004, label: 'stat'}
+    - {symerror: 0.0037, label: 'stat'}
     - {symerror: 0.026, label: 'sys'}
     - {symerror: 0.0016, label: 'ZYAM'}
-  - value: 0.04
+  - value: 0.0371228
     errors:
     - {symerror: 0.0035, label: 'stat'}
     - {symerror: 0.027, label: 'sys'}
     - {symerror: 0.0018, label: 'ZYAM'}
-  - value: 0.05
+  - value: 0.047747
     errors:
     - {symerror: 0.0034, label: 'stat'}
     - {symerror: 0.020, label: 'sys'}
     - {symerror: 0.0021, label: 'ZYAM'}
-  - value: 0.06
+  - value: 0.0552609
     errors:
     - {symerror: 0.0035, label: 'stat'}
     - {symerror: 0.024, label: 'sys'}
     - {symerror: 0.0022, label: 'ZYAM'}
-  - value: 0.05
+  - value: 0.051327
     errors:
-    - {symerror: 0.004, label: 'stat'}
+    - {symerror: 0.0036, label: 'stat'}
     - {symerror: 0.023, label: 'sys'}
     - {symerror: 0.0022, label: 'ZYAM'}
-  - value: 0.05
+  - value: 0.052848
     errors:
-    - {symerror: 0.004, label: 'stat'}
+    - {symerror: 0.0036, label: 'stat'}
     - {symerror: 0.019, label: 'sys'}
     - {symerror: 0.0021, label: 'ZYAM'}
-  - value: 0.04
+  - value: 0.0446822
     errors:
     - {symerror: 0.0035, label: 'stat'}
     - {symerror: 0.024, label: 'sys'}
     - {symerror: 0.0018, label: 'ZYAM'}
-  - value: 0.05
+  - value: 0.0455389
     errors:
     - {symerror: 0.0034, label: 'stat'}
     - {symerror: 0.023, label: 'sys'}
     - {symerror: 0.0016, label: 'ZYAM'}
-  - value: 0.04
+  - value: 0.0355063
     errors:
     - {symerror: 0.0035, label: 'stat'}
     - {symerror: 0.013, label: 'sys'}
     - {symerror: 0.0014, label: 'ZYAM'}
-  - value: 0.021
+  - value: 0.0214242
     errors:
-    - {symerror: 0.004, label: 'stat'}
+    - {symerror: 0.0037, label: 'stat'}
     - {symerror: 0.016, label: 'sys'}
     - {symerror: 0.0013, label: 'ZYAM'}
-  - value: 0.005
+  - value: 0.00519711
     errors:
-    - {symerror: 0.004, label: 'stat'}
-    - {symerror: -1.00, label: 'sys'}
-    - {symerror: -1.00, label: 'ZYAM'}
-- header: {name: '$3#pi/12<|#phi_{t}-#Psi_{3}|<4#pi/12$'}
+    - {symerror: 00, label: 'stat'}
+    - {symerror: -1.0, label: 'sys'}
+    - {symerror: -1.0, label: 'ZYAM'}
+- header: {name: '$Y$'}
   qualifiers:
-  - {name: '$p_T$', value: '40-50%'}
+  - {name: '$p_{T}^{trig}$', value: '2-4'}
+  - {name: '$p_{T}^{assoc}$', value: '1-2'}
+  - {name: '$\phi_{t}-\Psi_{2}$', value: '$3\pi/8-4\pi/8$'}
+  - {name: 'centrality', value: '40-50%'}
   values:
-  - value: -0.030
+  - value: -0.0260294
     errors:
-    - {symerror: 0.007, label: 'stat'}
+    - {symerror: 0.0071, label: 'stat'}
     - {symerror: 0.009, label: 'sys'}
     - {symerror: 0.0016, label: 'ZYAM'}
-  - value: -0.020
+  - value: -0.0206759
     errors:
-    - {symerror: 0.005, label: 'stat'}
+    - {symerror: 0.0050, label: 'stat'}
     - {symerror: 0.016, label: 'sys'}
     - {symerror: 0.0014, label: 'ZYAM'}
-  - value: -0.010
+  - value: -0.0111713
     errors:
-    - {symerror: 0.004, label: 'stat'}
+    - {symerror: 0.0037, label: 'stat'}
     - {symerror: 0.019, label: 'sys'}
     - {symerror: 0.0012, label: 'ZYAM'}
-  - value: 0.013
+  - value: 0.0125153
     errors:
     - {symerror: 0.0031, label: 'stat'}
     - {symerror: 0.011, label: 'sys'}
     - {symerror: 0.0011, label: 'ZYAM'}
-  - value: 0.025
+  - value: 0.0247053
     errors:
     - {symerror: 0.0026, label: 'stat'}
     - {symerror: 0.008, label: 'sys'}
     - {symerror: 0.0010, label: 'ZYAM'}
-  - value: 0.04
+  - value: 0.0444012
     errors:
     - {symerror: 0.0025, label: 'stat'}
     - {symerror: 0.009, label: 'sys'}
     - {symerror: 0.0010, label: 'ZYAM'}
-  - value: 0.04
+  - value: 0.042647
     errors:
     - {symerror: 0.0025, label: 'stat'}
     - {symerror: 0.012, label: 'sys'}
     - {symerror: 0.0011, label: 'ZYAM'}
-  - value: 0.030
+  - value: 0.0299579
     errors:
     - {symerror: 0.0026, label: 'stat'}
     - {symerror: 0.020, label: 'sys'}
     - {symerror: 0.0012, label: 'ZYAM'}
-  - value: 0.015
+  - value: 0.0147535
     errors:
     - {symerror: 0.0031, label: 'stat'}
     - {symerror: 0.018, label: 'sys'}
     - {symerror: 0.0014, label: 'ZYAM'}
-  - value: -0.0080
+  - value: -0.00814278
     errors:
-    - {symerror: 0.004, label: 'stat'}
+    - {symerror: 0.0037, label: 'stat'}
     - {symerror: 0.013, label: 'sys'}
     - {symerror: 0.0016, label: 'ZYAM'}
-  - value: -0.030
+  - value: -0.0309927
     errors:
-    - {symerror: 0.005, label: 'stat'}
+    - {symerror: 0.0050, label: 'stat'}
     - {symerror: 0.021, label: 'sys'}
     - {symerror: 0.0017, label: 'ZYAM'}
-  - value: -0.030
+  - value: -0.0307137
     errors:
-    - {symerror: 0.007, label: 'stat'}
+    - {symerror: 0.0072, label: 'stat'}
     - {symerror: 0.020, label: 'sys'}
     - {symerror: 0.0017, label: 'ZYAM'}
-  - value: -0.030
+  - value: -0.0259198
     errors:
-    - {symerror: 0.007, label: 'stat'}
+    - {symerror: 0.0068, label: 'stat'}
     - {symerror: 0.010, label: 'sys'}
     - {symerror: 0.0016, label: 'ZYAM'}
-  - value: -0.020
+  - value: -0.0157735
     errors:
-    - {symerror: 0.005, label: 'stat'}
+    - {symerror: 0.0050, label: 'stat'}
     - {symerror: 0.021, label: 'sys'}
     - {symerror: 0.0014, label: 'ZYAM'}
-  - value: -0.020
+  - value: -0.0176886
     errors:
-    - {symerror: 0.004, label: 'stat'}
+    - {symerror: 0.0039, label: 'stat'}
     - {symerror: 0.019, label: 'sys'}
     - {symerror: 0.0012, label: 'ZYAM'}
-  - value: 0.00018
+  - value: 0.00018072
     errors:
     - {symerror: 0.0031, label: 'stat'}
     - {symerror: 0.012, label: 'sys'}
     - {symerror: 0.0011, label: 'ZYAM'}
-  - value: 0.004
+  - value: 0.00372726
     errors:
     - {symerror: 0.0027, label: 'stat'}
     - {symerror: 0.008, label: 'sys'}
     - {symerror: 0.0010, label: 'ZYAM'}
-  - value: 0.0023
+  - value: 0.00225933
     errors:
     - {symerror: 0.0025, label: 'stat'}
     - {symerror: 0.009, label: 'sys'}
     - {symerror: 0.0010, label: 'ZYAM'}
-  - value: 0.006
+  - value: 0.00608571
     errors:
     - {symerror: 0.0025, label: 'stat'}
     - {symerror: 0.013, label: 'sys'}
     - {symerror: 0.0011, label: 'ZYAM'}
-  - value: 0.008
+  - value: 0.00813131
     errors:
     - {symerror: 0.0027, label: 'stat'}
     - {symerror: 0.021, label: 'sys'}
     - {symerror: 0.0012, label: 'ZYAM'}
-  - value: 0.005
+  - value: 0.00480724
     errors:
     - {symerror: 0.0032, label: 'stat'}
     - {symerror: 0.020, label: 'sys'}
     - {symerror: 0.0014, label: 'ZYAM'}
-  - value: -0.0090
+  - value: -0.00913744
     errors:
-    - {symerror: 0.004, label: 'stat'}
+    - {symerror: 0.0039, label: 'stat'}
     - {symerror: 0.011, label: 'sys'}
     - {symerror: 0.0016, label: 'ZYAM'}
-  - value: -0.010
+  - value: -0.0134507
     errors:
-    - {symerror: 0.005, label: 'stat'}
+    - {symerror: 0.0050, label: 'stat'}
     - {symerror: 0.019, label: 'sys'}
     - {symerror: 0.0017, label: 'ZYAM'}
-  - value: -0.030
+  - value: -0.0299891
     errors:
-    - {symerror: 0.007, label: 'stat'}
-    - {symerror: -1.00, label: 'sys'}
-    - {symerror: -1.00, label: 'ZYAM'}
-- header: {name: '$2#pi/12<|#phi_{t}-#Psi_{3}|<3#pi/12$'}
+    - {symerror: 00, label: 'stat'}
+    - {symerror: -1.0, label: 'sys'}
+    - {symerror: -1.0, label: 'ZYAM'}
+- header: {name: '$Y$'}
   qualifiers:
-  - {name: '$p_T$', value: '40-50%'}
+  - {name: '$p_{T}^{trig}$', value: '2-4'}
+  - {name: '$p_{T}^{assoc}$', value: '1-2'}
+  - {name: '$\phi_{t}-\Psi_{2}$', value: '$2\pi/8-3\pi/8$'}
+  - {name: 'centrality', value: '40-50%'}
   values:
-  - value: 0.008
+  - value: 0.00846577
     errors:
-    - {symerror: 0.006, label: 'stat'}
+    - {symerror: 0.0061, label: 'stat'}
     - {symerror: 0.011, label: 'sys'}
     - {symerror: 0.0015, label: 'ZYAM'}
-  - value: -0.0040
+  - value: -0.00432405
     errors:
-    - {symerror: 0.004, label: 'stat'}
+    - {symerror: 0.0045, label: 'stat'}
     - {symerror: 0.013, label: 'sys'}
     - {symerror: 0.0014, label: 'ZYAM'}
-  - value: 0.009
+  - value: 0.00947477
     errors:
     - {symerror: 0.0035, label: 'stat'}
     - {symerror: 0.014, label: 'sys'}
     - {symerror: 0.0014, label: 'ZYAM'}
-  - value: 0.009
+  - value: 0.00873031
     errors:
     - {symerror: 0.0031, label: 'stat'}
     - {symerror: 0.013, label: 'sys'}
     - {symerror: 0.0014, label: 'ZYAM'}
-  - value: 0.014
+  - value: 0.0138529
     errors:
     - {symerror: 0.0028, label: 'stat'}
     - {symerror: 0.010, label: 'sys'}
     - {symerror: 0.0013, label: 'ZYAM'}
-  - value: 0.018
+  - value: 0.0181285
     errors:
     - {symerror: 0.0027, label: 'stat'}
     - {symerror: 0.009, label: 'sys'}
     - {symerror: 0.0013, label: 'ZYAM'}
-  - value: 0.020
+  - value: 0.0200826
     errors:
     - {symerror: 0.0027, label: 'stat'}
     - {symerror: 0.013, label: 'sys'}
     - {symerror: 0.0014, label: 'ZYAM'}
-  - value: 0.014
+  - value: 0.0140283
     errors:
     - {symerror: 0.0028, label: 'stat'}
     - {symerror: 0.013, label: 'sys'}
     - {symerror: 0.0014, label: 'ZYAM'}
-  - value: 0.006
+  - value: 0.00633219
     errors:
     - {symerror: 0.0031, label: 'stat'}
     - {symerror: 0.014, label: 'sys'}
     - {symerror: 0.0014, label: 'ZYAM'}
-  - value: 0.005
+  - value: 0.00467396
     errors:
     - {symerror: 0.0035, label: 'stat'}
     - {symerror: 0.009, label: 'sys'}
     - {symerror: 0.0015, label: 'ZYAM'}
-  - value: 0.007
+  - value: 0.00682441
     errors:
-    - {symerror: 0.004, label: 'stat'}
+    - {symerror: 0.0045, label: 'stat'}
     - {symerror: 0.007, label: 'sys'}
     - {symerror: 0.0015, label: 'ZYAM'}
-  - value: -0.00010
+  - value: -0.000102624
     errors:
-    - {symerror: 0.006, label: 'stat'}
+    - {symerror: 0.0062, label: 'stat'}
     - {symerror: 0.006, label: 'sys'}
     - {symerror: 0.0015, label: 'ZYAM'}
-  - value: 0.010
+  - value: 0.0095162
     errors:
-    - {symerror: 0.006, label: 'stat'}
+    - {symerror: 0.0058, label: 'stat'}
     - {symerror: 0.010, label: 'sys'}
     - {symerror: 0.0015, label: 'ZYAM'}
-  - value: 0.021
+  - value: 0.0211784
     errors:
-    - {symerror: 0.005, label: 'stat'}
+    - {symerror: 0.0045, label: 'stat'}
     - {symerror: 0.017, label: 'sys'}
     - {symerror: 0.0015, label: 'ZYAM'}
-  - value: 0.014
+  - value: 0.0143987
     errors:
-    - {symerror: 0.004, label: 'stat'}
+    - {symerror: 0.0037, label: 'stat'}
     - {symerror: 0.014, label: 'sys'}
     - {symerror: 0.0014, label: 'ZYAM'}
-  - value: 0.004
+  - value: 0.00377721
     errors:
     - {symerror: 0.0032, label: 'stat'}
     - {symerror: 0.012, label: 'sys'}
     - {symerror: 0.0013, label: 'ZYAM'}
-  - value: -0.010
+  - value: -0.0123816
     errors:
     - {symerror: 0.0029, label: 'stat'}
     - {symerror: 0.011, label: 'sys'}
     - {symerror: 0.0013, label: 'ZYAM'}
-  - value: -0.020
+  - value: -0.0243485
     errors:
     - {symerror: 0.0027, label: 'stat'}
     - {symerror: 0.010, label: 'sys'}
     - {symerror: 0.0013, label: 'ZYAM'}
-  - value: -0.030
+  - value: -0.0277248
     errors:
     - {symerror: 0.0027, label: 'stat'}
     - {symerror: 0.012, label: 'sys'}
     - {symerror: 0.0013, label: 'ZYAM'}
-  - value: -0.01
+  - value: -0.00975836
     errors:
     - {symerror: 0.0028, label: 'stat'}
     - {symerror: 0.013, label: 'sys'}
     - {symerror: 0.0014, label: 'ZYAM'}
-  - value: 0.0007
+  - value: 0.000697227
     errors:
     - {symerror: 0.0032, label: 'stat'}
     - {symerror: 0.014, label: 'sys'}
     - {symerror: 0.0015, label: 'ZYAM'}
-  - value: 0.016
+  - value: 0.0163069
     errors:
-    - {symerror: 0.004, label: 'stat'}
+    - {symerror: 0.0037, label: 'stat'}
     - {symerror: 0.012, label: 'sys'}
     - {symerror: 0.0015, label: 'ZYAM'}
-  - value: 0.010
+  - value: 0.00987715
     errors:
-    - {symerror: 0.004, label: 'stat'}
+    - {symerror: 0.0044, label: 'stat'}
     - {symerror: 0.008, label: 'sys'}
     - {symerror: 0.0015, label: 'ZYAM'}
-  - value: 0.005
+  - value: 0.00468666
     errors:
-    - {symerror: 0.006, label: 'stat'}
-    - {symerror: -1.00, label: 'sys'}
-    - {symerror: -1.00, label: 'ZYAM'}
-- header: {name: '$#pi/12<|#phi_{t}-#Psi_{3}|<2#pi/12$'}
+    - {symerror: 00, label: 'stat'}
+    - {symerror: -1.0, label: 'sys'}
+    - {symerror: -1.0, label: 'ZYAM'}
+- header: {name: '$Y$'}
   qualifiers:
-  - {name: '$p_T$', value: '40-50%'}
+  - {name: '$p_{T}^{trig}$', value: '2-4'}
+  - {name: '$p_{T}^{assoc}$', value: '1-2'}
+  - {name: '$\phi_{t}-\Psi_{2}$', value: '$\pi/8-2\pi/8$'}
+  - {name: 'centrality', value: '40-50%'}
   values:
-  - value: 0.009
+  - value: 0.0093952
     errors:
-    - {symerror: 0.005, label: 'stat'}
+    - {symerror: 0.0048, label: 'stat'}
     - {symerror: 0.013, label: 'sys'}
     - {symerror: 0.0014, label: 'ZYAM'}
-  - value: 0.012
+  - value: 0.0119625
     errors:
-    - {symerror: 0.004, label: 'stat'}
+    - {symerror: 0.0037, label: 'stat'}
     - {symerror: 0.015, label: 'sys'}
     - {symerror: 0.0015, label: 'ZYAM'}
-  - value: 0.015
+  - value: 0.0153927
     errors:
     - {symerror: 0.0032, label: 'stat'}
     - {symerror: 0.012, label: 'sys'}
     - {symerror: 0.0016, label: 'ZYAM'}
-  - value: 0.020
+  - value: 0.0199696
     errors:
     - {symerror: 0.0030, label: 'stat'}
     - {symerror: 0.013, label: 'sys'}
     - {symerror: 0.0017, label: 'ZYAM'}
-  - value: 0.027
+  - value: 0.0272699
     errors:
     - {symerror: 0.0029, label: 'stat'}
     - {symerror: 0.015, label: 'sys'}
     - {symerror: 0.0018, label: 'ZYAM'}
-  - value: 0.035
+  - value: 0.0353971
     errors:
     - {symerror: 0.0029, label: 'stat'}
     - {symerror: 0.014, label: 'sys'}
     - {symerror: 0.0018, label: 'ZYAM'}
-  - value: 0.04
+  - value: 0.036254
     errors:
     - {symerror: 0.0029, label: 'stat'}
     - {symerror: 0.015, label: 'sys'}
     - {symerror: 0.0017, label: 'ZYAM'}
-  - value: 0.027
+  - value: 0.026629
     errors:
     - {symerror: 0.0029, label: 'stat'}
     - {symerror: 0.016, label: 'sys'}
     - {symerror: 0.0016, label: 'ZYAM'}
-  - value: 0.011
+  - value: 0.0110032
     errors:
     - {symerror: 0.0030, label: 'stat'}
     - {symerror: 0.014, label: 'sys'}
     - {symerror: 0.0015, label: 'ZYAM'}
-  - value: 0.019
+  - value: 0.0191825
     errors:
     - {symerror: 0.0032, label: 'stat'}
     - {symerror: 0.015, label: 'sys'}
     - {symerror: 0.0014, label: 'ZYAM'}
-  - value: 0.023
+  - value: 0.0230067
     errors:
-    - {symerror: 0.004, label: 'stat'}
+    - {symerror: 0.0037, label: 'stat'}
     - {symerror: 0.009, label: 'sys'}
     - {symerror: 0.0013, label: 'ZYAM'}
-  - value: 0.016
+  - value: 0.0161204
     errors:
-    - {symerror: 0.005, label: 'stat'}
+    - {symerror: 0.0049, label: 'stat'}
     - {symerror: 0.009, label: 'sys'}
     - {symerror: 0.0013, label: 'ZYAM'}
-  - value: 0.019
+  - value: 0.0187493
     errors:
-    - {symerror: 0.005, label: 'stat'}
+    - {symerror: 0.0046, label: 'stat'}
     - {symerror: 0.017, label: 'sys'}
     - {symerror: 0.0014, label: 'ZYAM'}
-  - value: 0.028
+  - value: 0.028237
     errors:
-    - {symerror: 0.004, label: 'stat'}
+    - {symerror: 0.0037, label: 'stat'}
     - {symerror: 0.016, label: 'sys'}
     - {symerror: 0.0015, label: 'ZYAM'}
-  - value: 0.035
+  - value: 0.0350999
     errors:
     - {symerror: 0.0033, label: 'stat'}
     - {symerror: 0.014, label: 'sys'}
     - {symerror: 0.0016, label: 'ZYAM'}
-  - value: 0.031
+  - value: 0.0309881
     errors:
     - {symerror: 0.0031, label: 'stat'}
     - {symerror: 0.015, label: 'sys'}
     - {symerror: 0.0017, label: 'ZYAM'}
-  - value: 0.009
+  - value: 0.00898618
     errors:
     - {symerror: 0.0030, label: 'stat'}
     - {symerror: 0.014, label: 'sys'}
     - {symerror: 0.0018, label: 'ZYAM'}
-  - value: -0.0080
+  - value: -0.00790096
     errors:
     - {symerror: 0.0029, label: 'stat'}
     - {symerror: 0.015, label: 'sys'}
     - {symerror: 0.0018, label: 'ZYAM'}
-  - value: -0.0070
+  - value: -0.00717492
     errors:
     - {symerror: 0.0029, label: 'stat'}
     - {symerror: 0.018, label: 'sys'}
     - {symerror: 0.0017, label: 'ZYAM'}
-  - value: 0.006
+  - value: 0.00580599
     errors:
     - {symerror: 0.0030, label: 'stat'}
     - {symerror: 0.016, label: 'sys'}
     - {symerror: 0.0016, label: 'ZYAM'}
-  - value: 0.027
+  - value: 0.0268944
     errors:
     - {symerror: 0.0031, label: 'stat'}
     - {symerror: 0.018, label: 'sys'}
     - {symerror: 0.0015, label: 'ZYAM'}
-  - value: 0.04
+  - value: 0.0356632
     errors:
     - {symerror: 0.0034, label: 'stat'}
     - {symerror: 0.015, label: 'sys'}
     - {symerror: 0.0014, label: 'ZYAM'}
-  - value: 0.024
+  - value: 0.0236891
     errors:
-    - {symerror: 0.004, label: 'stat'}
+    - {symerror: 0.0037, label: 'stat'}
     - {symerror: 0.007, label: 'sys'}
     - {symerror: 0.0013, label: 'ZYAM'}
-  - value: 0.016
+  - value: 0.0155706
     errors:
-    - {symerror: 0.005, label: 'stat'}
-    - {symerror: -1.00, label: 'sys'}
-    - {symerror: -1.00, label: 'ZYAM'}
-- header: {name: '$0<|#phi_{t}-#Psi_{3}|<#pi/12$'}
+    - {symerror: 00, label: 'stat'}
+    - {symerror: -1.0, label: 'sys'}
+    - {symerror: -1.0, label: 'ZYAM'}
+- header: {name: '$Y$'}
   qualifiers:
-  - {name: '$p_T$', value: '40-50%'}
+  - {name: '$p_{T}^{trig}$', value: '2-4'}
+  - {name: '$p_{T}^{assoc}$', value: '1-2'}
+  - {name: '$\phi_{t}-\Psi_{2}$', value: '$0-\pi/8$'}
+  - {name: 'centrality', value: '40-50%'}
   values:
-  - value: -0.0070
+  - value: -0.00667824
     errors:
-    - {symerror: 0.004, label: 'stat'}
+    - {symerror: 0.0041, label: 'stat'}
     - {symerror: 0.010, label: 'sys'}
     - {symerror: 0.0013, label: 'ZYAM'}
-  - value: 0.0022
+  - value: 0.00224469
     errors:
     - {symerror: 0.0032, label: 'stat'}
     - {symerror: 0.019, label: 'sys'}
     - {symerror: 0.0015, label: 'ZYAM'}
-  - value: 0.013
+  - value: 0.0133303
     errors:
     - {symerror: 0.0028, label: 'stat'}
     - {symerror: 0.021, label: 'sys'}
     - {symerror: 0.0017, label: 'ZYAM'}
-  - value: 0.020
+  - value: 0.0203038
     errors:
     - {symerror: 0.0029, label: 'stat'}
     - {symerror: 0.018, label: 'sys'}
     - {symerror: 0.0020, label: 'ZYAM'}
-  - value: 0.06
+  - value: 0.061867
     errors:
     - {symerror: 0.0029, label: 'stat'}
     - {symerror: 0.023, label: 'sys'}
     - {symerror: 0.0022, label: 'ZYAM'}
-  - value: 0.09
+  - value: 0.0936121
     errors:
     - {symerror: 0.0030, label: 'stat'}
     - {symerror: 0.023, label: 'sys'}
     - {symerror: 0.0022, label: 'ZYAM'}
-  - value: 0.10
+  - value: 0.0962506
     errors:
     - {symerror: 0.0030, label: 'stat'}
     - {symerror: 0.016, label: 'sys'}
     - {symerror: 0.0020, label: 'ZYAM'}
-  - value: 0.06
+  - value: 0.0593922
     errors:
     - {symerror: 0.0029, label: 'stat'}
     - {symerror: 0.022, label: 'sys'}
     - {symerror: 0.0017, label: 'ZYAM'}
-  - value: 0.023
+  - value: 0.0231328
     errors:
     - {symerror: 0.0029, label: 'stat'}
     - {symerror: 0.019, label: 'sys'}
     - {symerror: 0.0015, label: 'ZYAM'}
-  - value: 0.010
+  - value: 0.010284
     errors:
     - {symerror: 0.0028, label: 'stat'}
     - {symerror: 0.010, label: 'sys'}
     - {symerror: 0.0013, label: 'ZYAM'}
-  - value: 0.0021
+  - value: 0.00208987
     errors:
     - {symerror: 0.0032, label: 'stat'}
     - {symerror: 0.012, label: 'sys'}
     - {symerror: 0.0012, label: 'ZYAM'}
-  - value: -0.0090
+  - value: -0.00893806
     errors:
-    - {symerror: 0.004, label: 'stat'}
+    - {symerror: 0.0042, label: 'stat'}
     - {symerror: 0.011, label: 'sys'}
     - {symerror: 0.0012, label: 'ZYAM'}
-  - value: 0.0019
+  - value: 0.00185083
     errors:
-    - {symerror: 0.004, label: 'stat'}
+    - {symerror: 0.0039, label: 'stat'}
     - {symerror: 0.012, label: 'sys'}
     - {symerror: 0.0013, label: 'ZYAM'}
-  - value: 0.015
+  - value: 0.0154681
     errors:
     - {symerror: 0.0032, label: 'stat'}
     - {symerror: 0.022, label: 'sys'}
     - {symerror: 0.0015, label: 'ZYAM'}
-  - value: 0.04
+  - value: 0.0355628
     errors:
     - {symerror: 0.0030, label: 'stat'}
     - {symerror: 0.021, label: 'sys'}
     - {symerror: 0.0017, label: 'ZYAM'}
-  - value: 0.05
+  - value: 0.0466055
     errors:
     - {symerror: 0.0029, label: 'stat'}
     - {symerror: 0.017, label: 'sys'}
     - {symerror: 0.0020, label: 'ZYAM'}
-  - value: 0.05
+  - value: 0.0539239
     errors:
     - {symerror: 0.0030, label: 'stat'}
     - {symerror: 0.022, label: 'sys'}
     - {symerror: 0.0022, label: 'ZYAM'}
-  - value: 0.06
+  - value: 0.0583489
     errors:
     - {symerror: 0.0031, label: 'stat'}
     - {symerror: 0.023, label: 'sys'}
     - {symerror: 0.0022, label: 'ZYAM'}
-  - value: 0.06
+  - value: 0.0584075
     errors:
     - {symerror: 0.0031, label: 'stat'}
     - {symerror: 0.017, label: 'sys'}
     - {symerror: 0.0020, label: 'ZYAM'}
-  - value: 0.05
+  - value: 0.0472867
     errors:
     - {symerror: 0.0030, label: 'stat'}
     - {symerror: 0.020, label: 'sys'}
     - {symerror: 0.0017, label: 'ZYAM'}
-  - value: 0.04
+  - value: 0.0422153
     errors:
     - {symerror: 0.0029, label: 'stat'}
     - {symerror: 0.021, label: 'sys'}
     - {symerror: 0.0015, label: 'ZYAM'}
-  - value: 0.023
+  - value: 0.0228105
     errors:
     - {symerror: 0.0030, label: 'stat'}
     - {symerror: 0.010, label: 'sys'}
     - {symerror: 0.0013, label: 'ZYAM'}
-  - value: 0.012
+  - value: 0.0123394
     errors:
     - {symerror: 0.0032, label: 'stat'}
     - {symerror: 0.014, label: 'sys'}
     - {symerror: 0.0012, label: 'ZYAM'}
-  - value: -0.0060
+  - value: -0.00566536
     errors:
-    - {symerror: 0.004, label: 'stat'}
-    - {symerror: -1.00, label: 'sys'}
-    - {symerror: -1.00, label: 'ZYAM'}
+    - {symerror: 00, label: 'stat'}
+    - {symerror: -1.0, label: 'sys'}
+    - {symerror: -1.0, label: 'ZYAM'}
