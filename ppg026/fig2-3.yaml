@@ -1,0 +1,36 @@
+independent_variables:
+- header: {name: 'fit parameter u_t'}
+  values:
+  - {value: 1}
+  - {value: 2}
+dependent_variables:
+- header: {name: 'parameter u_t using Eq.(9)'}
+  qualifiers:
+  - {name: 'centrality', value: '0-5%'}
+  values:
+  - value: 0.48
+    errors:
+    - {symerror: 0.07, label: 'stat_err'}
+  - value: 0.49
+    errors:
+    - {symerror: 0.07, label: 'stat_err'}
+- header: {name: 'parameter u_t using Eq.(9)'}
+  qualifiers:
+  - {name: 'centrality', value: '40-50%'}
+  values:
+  - value: 0.4
+    errors:
+    - {symerror: 0.07, label: 'stat_err'}
+  - value: 0.41
+    errors:
+    - {symerror: 0.07, label: 'stat_err'}
+- header: {name: 'parameter u_t using Eq.(9)'}
+  qualifiers:
+  - {name: 'centrality', value: '60-92%'}
+  values:
+  - value: 0.32
+    errors:
+    - {symerror: 0.07, label: 'stat_err'}
+  - value: 0.33
+    errors:
+    - {symerror: 0.07, label: 'stat_err'}

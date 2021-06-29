@@ -1,0 +1,253 @@
+# PHENIX paper PPG026
+#
+# Identified charged particle spectra and yields in Au+Au collisions at $\sqrt{s_{NN}}$ = 200 GeV
+#
+# Phys. Rev. C 69, 034909 (2004)
+# InspireHEP ID: 1658594
+#
+# Prepared by Adam C. Tilley
+# Please contact Christine Nattrass if you have any questions about this submission
+# PPG liaison: --
+# Reviewer:  --
+#
+comment: |
+  BNL-RHIC.  The centrality dependence of transverse momentum distributions and yields for $\pi^{\pm}$, $K^{\pm}$, p and $\bar p$ in Au+Au collisions at $\sqrt{s_{NN}}$ = 200 GeV at mid-rapidity are measured by the PHENIX experiment at RHIC. We observe a clear particle mass dependence of the shapes of transverse momentum spectra in central collisions below ~ 2 GeV/c in $p_{T}$. Both mean transverse momenta and particle yields per participant pair increase from peripheral to mid-central and saturate at the most central collisions for all particle species. We also measure particle ratios of $\pi^{-}$/$\pi^{+}$, $K^{-}$/$K^{+}$, $\bar p$/p, K/$\pi$, p/$\pi$ and $\bar p$/$\pi$ as a function of $p_{T}$ and collision centrality. The ratios of equal mass particle yields are independent of $p_{T}$ and centrality within the experimental uncertainties. In central collisions at intermediate transverse momenta 1.5-4.5 GeV/c, proton and anti-proton yields constitute a significant fraction of the charged hadron production and show a scaling behavior different from that of pions.
+additional_resources:
+    - {location: "https://phenix-intra.sdcc.bnl.gov/phenix/WWW/info/data/ppg026_data.html", description: "web page with data points"}
+    - {location: "https://arxiv.org/abs/nucl-ex/0307022", description: arXiv}
+    - {location: "https://inspirehep.net/literature/624474", description: InspireHEP}
+--- 
+name: "Figure 6 Pi+"
+description: 'Centrality dependence of the $p_{T}$ distribution for $\pi^{+}$ in Au+Au collisions at $\sqrt{s_{NN}}$ = 200 GeV. Errors are statistical only.'
+keywords:
+  - {name: reactions, values: [AU AU --> CHARGED X]}
+  - {name: cmenergies, values: [200.0]}
+additional_resources:
+- {description: Image file, location: Fig06.png}
+- {description: Thumbnail Image file, location: thumb_Fig06.png}
+data_file: fig1-1.yaml
+---
+name: "Figure 6 Pi-"
+description: 'Centrality dependence of the $p_{T}$ distribution for $\pi^{-}$ in Au+Au collisions at $\sqrt{s_{NN}}$ = 200 GeV. Errors are statistical only.'
+keywords:
+  - {name: reactions, values: [AU AU --> CHARGED X]}
+  - {name: cmenergies, values: [200.0]}
+additional_resources:
+- {description: Image file, location: Fig06.png}
+- {description: Thumbnail Image file, location: thumb_Fig06.png}
+data_file: fig1-2.yaml
+---
+name: "Figure 7 K+"
+description: 'Centrality dependence of the $p_{T}$ distribution for $K^{+}$ in Au+Au collisions at $\sqrt{s_{NN}}$ = 200 GeV. Errors are statistical only.'
+keywords:
+  - {name: reactions, values: [AU AU --> CHARGED X]}
+  - {name: cmenergies, values: [200.0]}
+additional_resources:
+- {description: Image file, location: Fig07.png}
+- {description: Thumbnail Image file, location: thumb_Fig07.png}
+data_file: fig1-3.yaml
+---
+name: "Figure 7 K-"
+description: 'Centrality dependence of the $p_{T}$ distribution for $K^{-}$ in Au+Au collisions at $\sqrt{s_{NN}}$ = 200 GeV. Errors are statistical only.'
+keywords:
+  - {name: reactions, values: [AU AU --> CHARGED X]}
+  - {name: cmenergies, values: [200.0]}
+additional_resources:
+- {description: Image file, location: Fig07.png}
+- {description: Thumbnail Image file, location: thumb_Fig07.png}
+data_file: fig1-4.yaml
+---
+name: "Figure 8 Protons"
+description: 'Centrality dependence of the $p_{T}$ distribution for protons in Au+Au collisions at $\sqrt{s_{NN}}$ = 200 GeV. Errors are statistical only.'
+keywords:
+  - {name: reactions, values: [AU AU --> CHARGED X]}
+  - {name: cmenergies, values: [200.0]}
+additional_resources:
+- {description: Image file, location: Fig08.png}
+- {description: Thumbnail Image file, location: thumb_Fig08.png}
+data_file: fig1-5.yaml
+---
+name: "Figure 8 Antiprotons (Part 1)"
+description: 'Centrality dependence of the $p_{T}$ distribution for antiprotons in Au+Au collisions at $\sqrt{s_{NN}}$ = 200 GeV. Errors are statistical only.'
+keywords:
+  - {name: reactions, values: [AU AU --> CHARGED X]}
+  - {name: cmenergies, values: [200.0]}
+additional_resources:
+- {description: Image file, location: Fig08.png}
+- {description: Thumbnail Image file, location: thumb_Fig08.png}
+data_file: fig1-6-1.yaml
+---
+name: "Figure 8 Antiprotons (Part 2)"
+description: 'Centrality dependence of the $p_{T}$ distribution for antiprotons in Au+Au collisions at $\sqrt{s_{NN}}$ = 200 GeV. Errors are statistical only.'
+keywords:
+  - {name: reactions, values: [AU AU --> CHARGED X]}
+  - {name: cmenergies, values: [200.0]}
+additional_resources:
+- {description: Image file, location: Fig08.png}
+- {description: Thumbnail Image file, location: thumb_Fig08.png}
+data_file: fig1-6-2.yaml
+---
+name: "Figure 10 Inverse Slope"
+description: 'Inverse slope parameters for $\pi^{+}$, $\pi^{-}$, $K^{+}$, $K^{-}$, proton, and antiproton for the 0-5%, 40-50%, and 60-92% centrality bins. Errors are statistical only.'
+keywords:
+  - {name: reactions, values: [AU AU --> CHARGED X]}
+  - {name: cmenergies, values: [200.0]}
+additional_resources:
+- {description: Image file, location: Fig10.png}
+- {description: Thumbnail Image file, location: thumb_Fig10.png}
+data_file: fig2-1.yaml
+---
+name: "Figure 10 T0"
+description: 'Fit paramaters $T_{0}^{+}$ and $T_{0}^{-}$. Errors are statistical only.'
+keywords:
+  - {name: reactions, values: [AU AU --> CHARGED X]}
+  - {name: cmenergies, values: [200.0]}
+data_file: fig2-2.yaml
+---
+name: "Figure 10 u"
+description: 'Fit paramaters $u_{t}^{+}$ and $u_{t}^{-}$. Errors are statistical only.'
+keywords:
+  - {name: reactions, values: [AU AU --> CHARGED X]}
+  - {name: cmenergies, values: [200.0]}
+data_file: fig2-3.yaml
+---
+name: "Figure 11 Mean pT"
+description: 'Mean transverse momentum as a function of centrality for pions, kaons, protons,and antiprotons in Au+Au collisions at $\sqrt{s_{NN}}$ = 200 GeV. Errors are systematic only.'
+keywords:
+  - {name: reactions, values: [AU AU --> CHARGED X]}
+  - {name: cmenergies, values: [200.0]}
+additional_resources:
+- {description: Image file, location: Fig11.png}
+- {description: Thumbnail Image file, location: thumb_Fig11.png}
+data_file: fig3-1.yaml
+---
+name: "Figure 13 dN/dy"
+description: 'dN/dy as a function of centrality for pions, kaons, protons,and antiprotons in Au+Au collisions at $\sqrt{s_{NN}}$ = 200 GeV. Errors are systematic only.'
+keywords:
+  - {name: reactions, values: [AU AU --> CHARGED X]}
+  - {name: cmenergies, values: [200.0]}
+additional_resources:
+- {description: Image file, location: Fig13.png}
+- {description: Thumbnail Image file, location: thumb_Fig13.png}
+data_file: fig4-1.yaml
+---
+name: "Figure 14 pi-/pi+"
+description: 'Particle ratios of $\pi^{-}$/$\pi^{+}$ for centrality 0-5% and 60-92%. Errors are statistical and systematic.'
+keywords:
+  - {name: reactions, values: [AU AU --> CHARGED X]}
+  - {name: cmenergies, values: [200.0]}
+additional_resources:
+- {description: Image file, location: Fig14.png}
+- {description: Thumbnail Image file, location: thumb_Fig14.png}
+data_file: fig5-1.yaml
+---
+name: "Figure 14 K-/K+"
+description: 'Particle ratios of $K^{-}$/$K^{+}$ for centrality 0-5% and 60-92%. Errors are statistical and systematic.'
+keywords:
+  - {name: reactions, values: [AU AU --> CHARGED X]}
+  - {name: cmenergies, values: [200.0]}
+additional_resources:
+- {description: Image file, location: Fig14.png}
+- {description: Thumbnail Image file, location: thumb_Fig14.png}
+data_file: fig5-2.yaml
+---
+name: "Figure 15 antiproton/proton"
+description: 'Particle ratios of antiprotons/protons for centrality 0-5%, 60-92%, and minimum bias. Errors are statistical and systematic.'
+keywords:
+  - {name: reactions, values: [AU AU --> CHARGED X]}
+  - {name: cmenergies, values: [200.0]}
+additional_resources:
+- {description: Image file, location: Fig15.png}
+- {description: Thumbnail Image file, location: thumb_Fig15.png}
+data_file: fig5-3.yaml
+---
+name: "Figure 17 Kaons/pions"
+description: 'Particle ratios of kaons/pions for centrality 0-5% and 60-92%. Errors are statistical and systematic.'
+keywords:
+  - {name: reactions, values: [AU AU --> CHARGED X]}
+  - {name: cmenergies, values: [200.0]}
+additional_resources:
+- {description: Image file, location: Fig17.png}
+- {description: Thumbnail Image file, location: thumb_Fig17.png}
+data_file: fig5-4.yaml
+---
+name: "Figure 18 (Anti)protons/charged pions"
+description: 'Particle ratios of proton/$\pi^{+}$ and antiproton/$\pi^{-}$ for centrality 0-10%, 20-30%, and 60-92%. Errors are statistical and systematic.'
+keywords:
+  - {name: reactions, values: [AU AU --> CHARGED X]}
+  - {name: cmenergies, values: [200.0]}
+additional_resources:
+- {description: Image file, location: Fig18.png}
+- {description: Thumbnail Image file, location: thumb_Fig18.png}
+data_file: fig5-5.yaml
+---
+name: "Figure 18 Protons/pi0"
+description: 'Particle ratios of proton/$\pi^{0}$ and antiproton/$\pi^{0}$ for centrality 0-10%, 20-30%, and 60-92%. Errors are statistical and systematic.'
+keywords:
+  - {name: reactions, values: [AU AU --> CHARGED X]}
+  - {name: cmenergies, values: [200.0]}
+additional_resources:
+- {description: Image file, location: Fig18.png}
+- {description: Thumbnail Image file, location: thumb_Fig18.png}
+data_file: fig5-6.yaml
+---
+name: "Figure 19 Ratios vs centrality"
+description: 'Centrality dependence of particle ratios for $\pi^{-}$/$\pi^{+}$, $K^{-}$/$K^{+}$, and antiprotons/protons. Errors are statistical and systematic.'
+keywords:
+  - {name: reactions, values: [AU AU --> CHARGED X]}
+  - {name: cmenergies, values: [200.0]}
+additional_resources:
+- {description: Image file, location: Fig19.png}
+- {description: Thumbnail Image file, location: thumb_Fig19.png}
+data_file: fig6-1.yaml
+---
+name: "Figure 23 Rcp pions"
+description: 'Rcp as a function of centrality 0-10% and 60-92% for ($\pi^{+}$ + $\pi^{-}$)/2. Errors are statistical only.'
+keywords:
+  - {name: reactions, values: [AU AU --> CHARGED X]}
+  - {name: cmenergies, values: [200.0]}
+additional_resources:
+- {description: Image file, location: Fig23.png}
+- {description: Thumbnail Image file, location: thumb_Fig23.png}
+data_file: fig7-1.yaml
+---
+name: "Figure 23 Rcp kaons"
+description: 'Rcp as a function of centrality 0-10% and 60-92% for ($K^{+}$ + $K^{-}$)/2. Errors are statistical only.'
+keywords:
+  - {name: reactions, values: [AU AU --> CHARGED X]}
+  - {name: cmenergies, values: [200.0]}
+additional_resources:
+- {description: Image file, location: Fig23.png}
+- {description: Thumbnail Image file, location: thumb_Fig23.png}
+data_file: fig7-2.yaml
+---
+name: "Figure 23 Rcp protons"
+description: 'Rcp as a function of centrality 0-10% and 60-92% for charged (p+pbar)/2. Errors are statistical only.'
+keywords:
+  - {name: reactions, values: [AU AU --> CHARGED X]}
+  - {name: cmenergies, values: [200.0]}
+additional_resources:
+- {description: Image file, location: Fig23.png}
+- {description: Thumbnail Image file, location: thumb_Fig23.png}
+data_file: fig7-3.yaml
+---
+name: "Figure 23 Rcp pi0"
+description: 'Rcp as a function of centrality 0-10% and 60-92% for neutral pions. Errors are statistical only.'
+keywords:
+  - {name: reactions, values: [AU AU --> CHARGED X]}
+  - {name: cmenergies, values: [200.0]}
+additional_resources:
+- {description: Image file, location: Fig23.png}
+- {description: Thumbnail Image file, location: thumb_Fig23.png}
+data_file: fig7-4.yaml
+---
+name: "Figure 24 Rcp above 1.5 GeV/c"
+description: 'Integrated Rcp above $p_{T}$ = 1.5 GeV/c as a function of centrality 60-92% for pions, kaons, and (p+pbar)/2. Errors are statistical only.'
+keywords:
+  - {name: reactions, values: [AU AU --> CHARGED X]}
+  - {name: cmenergies, values: [200.0]}
+additional_resources:
+- {description: Image file, location: Fig24.png}
+- {description: Thumbnail Image file, location: thumb_Fig24.png}
+data_file: fig7-1.yaml
+---

@@ -1,0 +1,389 @@
+independent_variables:
+- header: {name: 'pT(GeV/c)'}
+  values:
+  - {low: 0.6, high: 0.7}
+  - {low: 0.7, high: 0.8}
+  - {low: 0.8, high: 0.9}
+  - {low: 0.9, high: 1}
+  - {low: 1, high: 1.1}
+  - {low: 1.1, high: 1.2}
+  - {low: 1.2, high: 1.3}
+  - {low: 1.3, high: 1.4}
+  - {low: 1.4, high: 1.5}
+  - {low: 1.5, high: 1.6}
+  - {low: 1.6, high: 1.7}
+  - {low: 1.7, high: 1.8}
+  - {low: 1.8, high: 1.9}
+  - {low: 1.9, high: 2}
+  - {low: 2, high: 2.2}
+  - {low: 2.2, high: 2.4}
+  - {low: 2.4, high: 2.6}
+  - {low: 2.6, high: 2.8}
+  - {low: 2.8, high: 3}
+dependent_variables:
+- header: {name: 'p/p+'}
+  qualifiers:
+  - {name: 'centrality', value: '0-10%'}
+  values:
+  - value: 0.064956
+    errors:
+    - {symerror: 0.0015606, label: 'sys+stat_error'}
+  - value: 0.091108
+    errors:
+    - {symerror: 0.0022191, label: 'sys+stat_error'}
+  - value: 0.125389
+    errors:
+    - {symerror: 0.0030772, label: 'sys+stat_error'}
+  - value: 0.164705
+    errors:
+    - {symerror: 0.0041658, label: 'sys+stat_error'}
+  - value: 0.214368
+    errors:
+    - {symerror: 0.005597, label: 'sys+stat_error'}
+  - value: 0.273933
+    errors:
+    - {symerror: 0.0074246, label: 'sys+stat_error'}
+  - value: 0.322275
+    errors:
+    - {symerror: 0.009147, label: 'sys+stat_error'}
+  - value: 0.376559
+    errors:
+    - {symerror: 0.0113118, label: 'sys+stat_error'}
+  - value: 0.42633
+    errors:
+    - {symerror: 0.0133814, label: 'sys+stat_error'}
+  - value: 0.540109
+    errors:
+    - {symerror: 0.0181249, label: 'sys+stat_error'}
+  - value: 0.564712
+    errors:
+    - {symerror: 0.0201181, label: 'sys+stat_error'}
+  - value: 0.594717
+    errors:
+    - {symerror: 0.0229941, label: 'sys+stat_error'}
+  - value: 0.676009
+    errors:
+    - {symerror: 0.0282217, label: 'sys+stat_error'}
+  - value: 0.678705
+    errors:
+    - {symerror: 0.0312888, label: 'sys+stat_error'}
+  - value: 0.770198
+    errors:
+    - {symerror: 0.0263913, label: 'sys+stat_error'}
+  - value: 0.948023
+    errors:
+    - {symerror: 0.0463585, label: 'sys+stat_error'}
+  - value: 0.940372
+    errors:
+    - {symerror: 0.0637619, label: 'sys+stat_error'}
+  - value: 0.982622
+    errors:
+    - {symerror: 0.0917496, label: 'sys+stat_error'}
+  - value: 1.17971
+    errors:
+    - {symerror: 0.164763, label: 'sys+stat_error'}
+- header: {name: 'p/p+'}
+  qualifiers:
+  - {name: 'centrality', value: '20-30%'}
+  values:
+  - value: 0.070035
+    errors:
+    - {symerror: 0.002337, label: 'sys+stat_error'}
+  - value: 0.097283
+    errors:
+    - {symerror: 0.0032971, label: 'sys+stat_error'}
+  - value: 0.128919
+    errors:
+    - {symerror: 0.0044169, label: 'sys+stat_error'}
+  - value: 0.167679
+    errors:
+    - {symerror: 0.0059183, label: 'sys+stat_error'}
+  - value: 0.212401
+    errors:
+    - {symerror: 0.0077619, label: 'sys+stat_error'}
+  - value: 0.268258
+    errors:
+    - {symerror: 0.0101938, label: 'sys+stat_error'}
+  - value: 0.309277
+    errors:
+    - {symerror: 0.0123259, label: 'sys+stat_error'}
+  - value: 0.350083
+    errors:
+    - {symerror: 0.0148223, label: 'sys+stat_error'}
+  - value: 0.38319
+    errors:
+    - {symerror: 0.017052, label: 'sys+stat_error'}
+  - value: 0.477593
+    errors:
+    - {symerror: 0.0226597, label: 'sys+stat_error'}
+  - value: 0.490119
+    errors:
+    - {symerror: 0.0246973, label: 'sys+stat_error'}
+  - value: 0.509651
+    errors:
+    - {symerror: 0.0277903, label: 'sys+stat_error'}
+  - value: 0.56397
+    errors:
+    - {symerror: 0.0334524, label: 'sys+stat_error'}
+  - value: 0.579569
+    errors:
+    - {symerror: 0.0374235, label: 'sys+stat_error'}
+  - value: 0.653459
+    errors:
+    - {symerror: 0.031032, label: 'sys+stat_error'}
+  - value: 0.692811
+    errors:
+    - {symerror: 0.0449118, label: 'sys+stat_error'}
+  - value: 0.637004
+    errors:
+    - {symerror: 0.0556321, label: 'sys+stat_error'}
+  - value: 0.637589
+    errors:
+    - {symerror: 0.0741223, label: 'sys+stat_error'}
+  - value: 0.617222
+    errors:
+    - {symerror: 0.0977263, label: 'sys+stat_error'}
+- header: {name: 'p/p+'}
+  qualifiers:
+  - {name: 'centrality', value: '60-92%'}
+  values:
+  - value: 0.094089
+    errors:
+    - {symerror: 0.0039716, label: 'sys+stat_error'}
+  - value: 0.121414
+    errors:
+    - {symerror: 0.0053626, label: 'sys+stat_error'}
+  - value: 0.151096
+    errors:
+    - {symerror: 0.0070164, label: 'sys+stat_error'}
+  - value: 0.187395
+    errors:
+    - {symerror: 0.00932, label: 'sys+stat_error'}
+  - value: 0.214704
+    errors:
+    - {symerror: 0.0115865, label: 'sys+stat_error'}
+  - value: 0.245723
+    errors:
+    - {symerror: 0.0145912, label: 'sys+stat_error'}
+  - value: 0.264227
+    errors:
+    - {symerror: 0.017631, label: 'sys+stat_error'}
+  - value: 0.296344
+    errors:
+    - {symerror: 0.0216266, label: 'sys+stat_error'}
+  - value: 0.315437
+    errors:
+    - {symerror: 0.0259637, label: 'sys+stat_error'}
+  - value: 0.345492
+    errors:
+    - {symerror: 0.0330717, label: 'sys+stat_error'}
+  - value: 0.326856
+    errors:
+    - {symerror: 0.0351717, label: 'sys+stat_error'}
+  - value: 0.352425
+    errors:
+    - {symerror: 0.0418389, label: 'sys+stat_error'}
+  - value: 0.335835
+    errors:
+    - {symerror: 0.0470085, label: 'sys+stat_error'}
+  - value: 0.363426
+    errors:
+    - {symerror: 0.0564291, label: 'sys+stat_error'}
+  - value: 0.375297
+    errors:
+    - {symerror: 0.0442886, label: 'sys+stat_error'}
+  - value: 0.397396
+    errors:
+    - {symerror: 0.0645473, label: 'sys+stat_error'}
+  - value: 0.314878
+    errors:
+    - {symerror: 0.0688952, label: 'sys+stat_error'}
+  - value: 0.28967
+    errors:
+    - {symerror: 0.0861946, label: 'sys+stat_error'}
+  - value: 0.315278
+    errors:
+    - {symerror: 0.128173, label: 'sys+stat_error'}
+- header: {name: 'pbar/p-'}
+  qualifiers:
+  - {name: 'centrality', value: '0-10%'}
+  values:
+  - value: 0.044504
+    errors:
+    - {symerror: 0.0011178, label: 'sys+stat_error'}
+  - value: 0.066621
+    errors:
+    - {symerror: 0.00164, label: 'sys+stat_error'}
+  - value: 0.090101
+    errors:
+    - {symerror: 0.0022187, label: 'sys+stat_error'}
+  - value: 0.121208
+    errors:
+    - {symerror: 0.0030404, label: 'sys+stat_error'}
+  - value: 0.152335
+    errors:
+    - {symerror: 0.0039358, label: 'sys+stat_error'}
+  - value: 0.199137
+    errors:
+    - {symerror: 0.0054216, label: 'sys+stat_error'}
+  - value: 0.252908
+    errors:
+    - {symerror: 0.0072379, label: 'sys+stat_error'}
+  - value: 0.281269
+    errors:
+    - {symerror: 0.0084717, label: 'sys+stat_error'}
+  - value: 0.348976
+    errors:
+    - {symerror: 0.0111728, label: 'sys+stat_error'}
+  - value: 0.365223
+    errors:
+    - {symerror: 0.0123669, label: 'sys+stat_error'}
+  - value: 0.43206
+    errors:
+    - {symerror: 0.0156902, label: 'sys+stat_error'}
+  - value: 0.461749
+    errors:
+    - {symerror: 0.0183292, label: 'sys+stat_error'}
+  - value: 0.49757
+    errors:
+    - {symerror: 0.0215426, label: 'sys+stat_error'}
+  - value: 0.507223
+    errors:
+    - {symerror: 0.0250204, label: 'sys+stat_error'}
+  - value: 0.593987
+    errors:
+    - {symerror: 0.0230751, label: 'sys+stat_error'}
+  - value: 0.69082
+    errors:
+    - {symerror: 0.0375286, label: 'sys+stat_error'}
+  - value: 0.738939
+    errors:
+    - {symerror: 0.0568908, label: 'sys+stat_error'}
+  - value: 0.757878
+    errors:
+    - {symerror: 0.0812604, label: 'sys+stat_error'}
+  - value: 0.715122
+    errors:
+    - {symerror: 0.107345, label: 'sys+stat_error'}
+- header: {name: 'pbar/p-'}
+  qualifiers:
+  - {name: 'centrality', value: '20-30%'}
+  values:
+  - value: 0.049562
+    errors:
+    - {symerror: 0.0017179, label: 'sys+stat_error'}
+  - value: 0.073463
+    errors:
+    - {symerror: 0.0025036, label: 'sys+stat_error'}
+  - value: 0.09836
+    errors:
+    - {symerror: 0.0033552, label: 'sys+stat_error'}
+  - value: 0.124516
+    errors:
+    - {symerror: 0.0043498, label: 'sys+stat_error'}
+  - value: 0.152348
+    errors:
+    - {symerror: 0.0055129, label: 'sys+stat_error'}
+  - value: 0.196403
+    errors:
+    - {symerror: 0.0075116, label: 'sys+stat_error'}
+  - value: 0.235077
+    errors:
+    - {symerror: 0.009476, label: 'sys+stat_error'}
+  - value: 0.26056
+    errors:
+    - {symerror: 0.0111209, label: 'sys+stat_error'}
+  - value: 0.319814
+    errors:
+    - {symerror: 0.0144911, label: 'sys+stat_error'}
+  - value: 0.328038
+    errors:
+    - {symerror: 0.0156883, label: 'sys+stat_error'}
+  - value: 0.385548
+    errors:
+    - {symerror: 0.0197203, label: 'sys+stat_error'}
+  - value: 0.397312
+    errors:
+    - {symerror: 0.02251, label: 'sys+stat_error'}
+  - value: 0.412114
+    errors:
+    - {symerror: 0.0252887, label: 'sys+stat_error'}
+  - value: 0.429371
+    errors:
+    - {symerror: 0.030012, label: 'sys+stat_error'}
+  - value: 0.475361
+    errors:
+    - {symerror: 0.0255514, label: 'sys+stat_error'}
+  - value: 0.503956
+    errors:
+    - {symerror: 0.0373179, label: 'sys+stat_error'}
+  - value: 0.470136
+    errors:
+    - {symerror: 0.047032, label: 'sys+stat_error'}
+  - value: 0.440759
+    errors:
+    - {symerror: 0.0596763, label: 'sys+stat_error'}
+  - value: 0.463589
+    errors:
+    - {symerror: 0.0840254, label: 'sys+stat_error'}
+- header: {name: 'pbar/p-'}
+  qualifiers:
+  - {name: 'centrality', value: '60-92%'}
+  values:
+  - value: 0.0711
+    errors:
+    - {symerror: 0.0032222, label: 'sys+stat_error'}
+  - value: 0.095703
+    errors:
+    - {symerror: 0.0043919, label: 'sys+stat_error'}
+  - value: 0.115449
+    errors:
+    - {symerror: 0.0055639, label: 'sys+stat_error'}
+  - value: 0.138172
+    errors:
+    - {symerror: 0.0071153, label: 'sys+stat_error'}
+  - value: 0.153909
+    errors:
+    - {symerror: 0.008697, label: 'sys+stat_error'}
+  - value: 0.180976
+    errors:
+    - {symerror: 0.0113154, label: 'sys+stat_error'}
+  - value: 0.20913
+    errors:
+    - {symerror: 0.0145976, label: 'sys+stat_error'}
+  - value: 0.223318
+    errors:
+    - {symerror: 0.0173994, label: 'sys+stat_error'}
+  - value: 0.259398
+    errors:
+    - {symerror: 0.0225333, label: 'sys+stat_error'}
+  - value: 0.231749
+    errors:
+    - {symerror: 0.0233536, label: 'sys+stat_error'}
+  - value: 0.230575
+    errors:
+    - {symerror: 0.0267238, label: 'sys+stat_error'}
+  - value: 0.262094
+    errors:
+    - {symerror: 0.0340199, label: 'sys+stat_error'}
+  - value: 0.251047
+    errors:
+    - {symerror: 0.0381667, label: 'sys+stat_error'}
+  - value: 0.284765
+    errors:
+    - {symerror: 0.0490566, label: 'sys+stat_error'}
+  - value: 0.282436
+    errors:
+    - {symerror: 0.040113, label: 'sys+stat_error'}
+  - value: 0.291325
+    errors:
+    - {symerror: 0.0562308, label: 'sys+stat_error'}
+  - value: 0.250231
+    errors:
+    - {symerror: 0.065069, label: 'sys+stat_error'}
+  - value: 0.227282
+    errors:
+    - {symerror: 0.0829577, label: 'sys+stat_error'}
+  - value: 0.220642
+    errors:
+    - {symerror: 0.096984, label: 'sys+stat_error'}

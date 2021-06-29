@@ -1,0 +1,36 @@
+independent_variables:
+- header: {name: 'fit parameter T0'}
+  values:
+  - {value: 1}
+  - {value: 2}
+dependent_variables:
+- header: {name: 'parameter T0 (MeV/$c^2$)'}
+  qualifiers:
+  - {name: 'centrality', value: '0-5%'}
+  values:
+  - value: 177
+    errors:
+    - {symerror: 1.2, label: 'stat_err'}
+  - value: 177.3
+    errors:
+    - {symerror: 1.2, label: 'stat_err'}
+- header: {name: 'parameter T0 (MeV/$c^2$)'}
+  qualifiers:
+  - {name: 'centrality', value: '40-50%'}
+  values:
+  - value: 179.5
+    errors:
+    - {symerror: 1.2, label: 'stat_err'}
+  - value: 179.6
+    errors:
+    - {symerror: 1.2, label: 'stat_err'}
+- header: {name: 'parameter T0 (MeV/$c^2$)'}
+  qualifiers:
+  - {name: 'centrality', value: '60-92%'}
+  values:
+  - value: 173.1
+    errors:
+    - {symerror: 1.2, label: 'stat_err'}
+  - value: 173.7
+    errors:
+    - {symerror: 1.1, label: 'stat_err'}
