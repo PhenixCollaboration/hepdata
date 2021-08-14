@@ -1,0 +1,1555 @@
+independent_variables:
+- header: {name: '$p_{T}$(GeV/c)'}
+  values:
+  - {low: 0.5, high: 0.6}
+  - {low: 0.6, high: 0.7}
+  - {low: 0.7, high: 0.8}
+  - {low: 0.8, high: 0.9}
+  - {low: 0.9, high: 1}
+  - {low: 1, high: 1.1}
+  - {low: 1.1, high: 1.2}
+  - {low: 1.2, high: 1.3}
+  - {low: 1.3, high: 1.4}
+  - {low: 1.4, high: 1.5}
+  - {low: 1.5, high: 1.6}
+  - {low: 1.6, high: 1.7}
+  - {low: 1.7, high: 1.8}
+  - {low: 1.8, high: 1.9}
+  - {low: 1.9, high: 2}
+  - {low: 2, high: 2.2}
+  - {low: 2.2, high: 2.4}
+  - {low: 2.4, high: 2.6}
+  - {low: 2.6, high: 2.8}
+  - {low: 2.8, high: 3}
+  - {low: 3, high: 3.25}
+  - {low: 3.25, high: 3.5}
+  - {low: 3.5, high: 3.75}
+  - {low: 3.75, high: 4}
+  - {low: 4, high: 4.4}
+  - {low: 4.4, high: 4.8}
+  - {low: 4.8, high: 5.2}
+  - {low: 5.2, high: 5.6}
+  - {low: 5.6, high: 6}
+  - {low: 6, high: 7}
+  - {low: 7, high: 8}
+dependent_variables:
+- header: {name: 'Raa'}
+  qualifiers:
+  - {name: '$p_{T}$(GeV/c)', value: 'h minimum bias'}
+  values:
+  - value: 0.3041
+    errors:
+    - {symerror: 0.00009, label: 'statAuAu'}
+    - {asymerror: {plus: 0.05380, minus: -0.03677}, label: 'bounds'}
+    - {symerror: 0.03163, label: 'pp'}
+    - {symerror: 0.03011, label: 'ncoll'}
+  - value: 0.3319
+    errors:
+    - {symerror: 0.00010, label: 'statAuAu'}
+    - {asymerror: {plus: 0.05875, minus: -0.03996}, label: 'bounds'}
+    - {symerror: 0.03452, label: 'pp'}
+    - {symerror: 0.03286, label: 'ncoll'}
+  - value: 0.3593
+    errors:
+    - {symerror: 0.00014, label: 'statAuAu'}
+    - {asymerror: {plus: 0.06334, minus: -0.04308}, label: 'bounds'}
+    - {symerror: 0.03737, label: 'pp'}
+    - {symerror: 0.03557, label: 'ncoll'}
+  - value: 0.3884
+    errors:
+    - {symerror: 0.00016, label: 'statAuAu'}
+    - {asymerror: {plus: 0.06789, minus: -0.04637}, label: 'bounds'}
+    - {symerror: 0.04039, label: 'pp'}
+    - {symerror: 0.03845, label: 'ncoll'}
+  - value: 0.4175
+    errors:
+    - {symerror: 0.00021, label: 'statAuAu'}
+    - {asymerror: {plus: 0.07210, minus: -0.04964}, label: 'bounds'}
+    - {symerror: 0.04342, label: 'pp'}
+    - {symerror: 0.04133, label: 'ncoll'}
+  - value: 0.45
+    errors:
+    - {symerror: 0.00027, label: 'statAuAu'}
+    - {asymerror: {plus: 0.07646, minus: -0.05324}, label: 'bounds'}
+    - {symerror: 0.04680, label: 'pp'}
+    - {symerror: 0.04455, label: 'ncoll'}
+  - value: 0.4843
+    errors:
+    - {symerror: 0.00029, label: 'statAuAu'}
+    - {asymerror: {plus: 0.08059, minus: -0.05705}, label: 'bounds'}
+    - {symerror: 0.05037, label: 'pp'}
+    - {symerror: 0.04795, label: 'ncoll'}
+  - value: 0.5196
+    errors:
+    - {symerror: 0.00036, label: 'statAuAu'}
+    - {asymerror: {plus: 0.08438, minus: -0.06090}, label: 'bounds'}
+    - {symerror: 0.05404, label: 'pp'}
+    - {symerror: 0.05144, label: 'ncoll'}
+  - value: 0.5529
+    errors:
+    - {symerror: 0.00044, label: 'statAuAu'}
+    - {asymerror: {plus: 0.08719, minus: -0.06447}, label: 'bounds'}
+    - {symerror: 0.05750, label: 'pp'}
+    - {symerror: 0.05474, label: 'ncoll'}
+  - value: 0.5852
+    errors:
+    - {symerror: 0.00053, label: 'statAuAu'}
+    - {asymerror: {plus: 0.08924, minus: -0.06794}, label: 'bounds'}
+    - {symerror: 0.06086, label: 'pp'}
+    - {symerror: 0.05793, label: 'ncoll'}
+  - value: 0.6113
+    errors:
+    - {symerror: 0.00061, label: 'statAuAu'}
+    - {asymerror: {plus: 0.08968, minus: -0.07061}, label: 'bounds'}
+    - {symerror: 0.06358, label: 'pp'}
+    - {symerror: 0.06052, label: 'ncoll'}
+  - value: 0.6357
+    errors:
+    - {symerror: 0.00076, label: 'statAuAu'}
+    - {asymerror: {plus: 0.08938, minus: -0.07304}, label: 'bounds'}
+    - {symerror: 0.06611, label: 'pp'}
+    - {symerror: 0.06293, label: 'ncoll'}
+  - value: 0.6588
+    errors:
+    - {symerror: 0.00086, label: 'statAuAu'}
+    - {asymerror: {plus: 0.08907, minus: -0.07537}, label: 'bounds'}
+    - {symerror: 0.06852, label: 'pp'}
+    - {symerror: 0.06522, label: 'ncoll'}
+  - value: 0.6745
+    errors:
+    - {symerror: 0.00101, label: 'statAuAu'}
+    - {asymerror: {plus: 0.08802, minus: -0.07676}, label: 'bounds'}
+    - {symerror: 0.07015, label: 'pp'}
+    - {symerror: 0.06678, label: 'ncoll'}
+  - value: 0.6843
+    errors:
+    - {symerror: 0.00116, label: 'statAuAu'}
+    - {asymerror: {plus: 0.08656, minus: -0.07746}, label: 'bounds'}
+    - {symerror: 0.07117, label: 'pp'}
+    - {symerror: 0.06775, label: 'ncoll'}
+  - value: 0.6866
+    errors:
+    - {symerror: 0.00096, label: 'statAuAu'}
+    - {asymerror: {plus: 0.08356, minus: -0.07717}, label: 'bounds'}
+    - {symerror: 0.07141, label: 'pp'}
+    - {symerror: 0.06797, label: 'ncoll'}
+  - value: 0.6853
+    errors:
+    - {symerror: 0.00123, label: 'statAuAu'}
+    - {asymerror: {plus: 0.08032, minus: -0.07627}, label: 'bounds'}
+    - {symerror: 0.07127, label: 'pp'}
+    - {symerror: 0.06784, label: 'ncoll'}
+  - value: 0.6713
+    errors:
+    - {symerror: 0.00154, label: 'statAuAu'}
+    - {asymerror: {plus: 0.07700, minus: -0.07404}, label: 'bounds'}
+    - {symerror: 0.06982, label: 'pp'}
+    - {symerror: 0.06646, label: 'ncoll'}
+  - value: 0.6433
+    errors:
+    - {symerror: 0.00193, label: 'statAuAu'}
+    - {asymerror: {plus: 0.07314, minus: -0.07038}, label: 'bounds'}
+    - {symerror: 0.06690, label: 'pp'}
+    - {symerror: 0.06369, label: 'ncoll'}
+  - value: 0.6114
+    errors:
+    - {symerror: 0.00232, label: 'statAuAu'}
+    - {asymerror: {plus: 0.07135, minus: -0.06640}, label: 'bounds'}
+    - {symerror: 0.06359, label: 'pp'}
+    - {symerror: 0.06053, label: 'ncoll'}
+  - value: 0.5779
+    errors:
+    - {symerror: 0.00254, label: 'statAuAu'}
+    - {asymerror: {plus: 0.06987, minus: -0.06368}, label: 'bounds'}
+    - {symerror: 0.06010, label: 'pp'}
+    - {symerror: 0.05721, label: 'ncoll'}
+  - value: 0.5399
+    errors:
+    - {symerror: 0.00313, label: 'statAuAu'}
+    - {asymerror: {plus: 0.06592, minus: -0.05912}, label: 'bounds'}
+    - {symerror: 0.05615, label: 'pp'}
+    - {symerror: 0.05345, label: 'ncoll'}
+  - value: 0.5053
+    errors:
+    - {symerror: 0.00384, label: 'statAuAu'}
+    - {asymerror: {plus: 0.06230, minus: -0.05513}, label: 'bounds'}
+    - {symerror: 0.05255, label: 'pp'}
+    - {symerror: 0.05002, label: 'ncoll'}
+  - value: 0.4743
+    errors:
+    - {symerror: 0.00465, label: 'statAuAu'}
+    - {asymerror: {plus: 0.05915, minus: -0.05165}, label: 'bounds'}
+    - {symerror: 0.04933, label: 'pp'}
+    - {symerror: 0.04696, label: 'ncoll'}
+  - value: 0.4334
+    errors:
+    - {symerror: 0.00459, label: 'statAuAu'}
+    - {asymerror: {plus: 0.05491, minus: -0.04724}, label: 'bounds'}
+    - {symerror: 0.04507, label: 'pp'}
+    - {symerror: 0.04291, label: 'ncoll'}
+  - value: 0.3913
+    errors:
+    - {symerror: 0.00614, label: 'statAuAu'}
+    - {asymerror: {plus: 0.05063, minus: -0.04304}, label: 'bounds'}
+    - {symerror: 0.04070, label: 'pp'}
+    - {symerror: 0.03874, label: 'ncoll'}
+  - value: 0.3522
+    errors:
+    - {symerror: 0.00799, label: 'statAuAu'}
+    - {asymerror: {plus: 0.04670, minus: -0.03941}, label: 'bounds'}
+    - {symerror: 0.03663, label: 'pp'}
+    - {symerror: 0.03487, label: 'ncoll'}
+  - value: 0.3567
+    errors:
+    - {symerror: 0.01120, label: 'statAuAu'}
+    - {asymerror: {plus: 0.04862, minus: -0.04098}, label: 'bounds'}
+    - {symerror: 0.03710, label: 'pp'}
+    - {symerror: 0.03531, label: 'ncoll'}
+  - value: 0.3229
+    errors:
+    - {symerror: 0.01501, label: 'statAuAu'}
+    - {asymerror: {plus: 0.04721, minus: -0.03991}, label: 'bounds'}
+    - {symerror: 0.03358, label: 'pp'}
+    - {symerror: 0.03197, label: 'ncoll'}
+  - value: 0.3326
+    errors:
+    - {symerror: 0.01746, label: 'statAuAu'}
+    - {asymerror: {plus: 0.05608, minus: -0.04776}, label: 'bounds'}
+    - {symerror: 0.03459, label: 'pp'}
+    - {symerror: 0.03293, label: 'ncoll'}
+  - value: 0.3732
+    errors:
+    - {symerror: 0.04090, label: 'statAuAu'}
+    - {asymerror: {plus: 0.07259, minus: -0.06329}, label: 'bounds'}
+    - {symerror: 0.03881, label: 'pp'}
+    - {symerror: 0.03695, label: 'ncoll'}
+- header: {name: 'Raa'}
+  qualifiers:
+  - {name: '$p_{T}$(GeV/c)', value: 'h 0-10%'}
+  values:
+  - value: 0.2508
+    errors:
+    - {symerror: 0.00015, label: 'statAuAu'}
+    - {asymerror: {plus: 0.04519, minus: -0.03115}, label: 'bounds'}
+    - {symerror: 0.02608, label: 'pp'}
+    - {symerror: 0.02458, label: 'ncoll'}
+  - value: 0.2755
+    errors:
+    - {symerror: 0.00017, label: 'statAuAu'}
+    - {asymerror: {plus: 0.04970, minus: -0.03408}, label: 'bounds'}
+    - {symerror: 0.02865, label: 'pp'}
+    - {symerror: 0.02700, label: 'ncoll'}
+  - value: 0.3001
+    errors:
+    - {symerror: 0.00021, label: 'statAuAu'}
+    - {asymerror: {plus: 0.05393, minus: -0.03700}, label: 'bounds'}
+    - {symerror: 0.03121, label: 'pp'}
+    - {symerror: 0.02941, label: 'ncoll'}
+  - value: 0.3263
+    errors:
+    - {symerror: 0.00026, label: 'statAuAu'}
+    - {asymerror: {plus: 0.05815, minus: -0.04007}, label: 'bounds'}
+    - {symerror: 0.03394, label: 'pp'}
+    - {symerror: 0.03198, label: 'ncoll'}
+  - value: 0.3525
+    errors:
+    - {symerror: 0.00032, label: 'statAuAu'}
+    - {asymerror: {plus: 0.06208, minus: -0.04311}, label: 'bounds'}
+    - {symerror: 0.03666, label: 'pp'}
+    - {symerror: 0.03455, label: 'ncoll'}
+  - value: 0.3824
+    errors:
+    - {symerror: 0.00038, label: 'statAuAu'}
+    - {asymerror: {plus: 0.06631, minus: -0.04654}, label: 'bounds'}
+    - {symerror: 0.03977, label: 'pp'}
+    - {symerror: 0.03748, label: 'ncoll'}
+  - value: 0.4133
+    errors:
+    - {symerror: 0.00045, label: 'statAuAu'}
+    - {asymerror: {plus: 0.07026, minus: -0.05009}, label: 'bounds'}
+    - {symerror: 0.04298, label: 'pp'}
+    - {symerror: 0.04050, label: 'ncoll'}
+  - value: 0.4466
+    errors:
+    - {symerror: 0.00058, label: 'statAuAu'}
+    - {asymerror: {plus: 0.07414, minus: -0.05390}, label: 'bounds'}
+    - {symerror: 0.04645, label: 'pp'}
+    - {symerror: 0.04377, label: 'ncoll'}
+  - value: 0.4765
+    errors:
+    - {symerror: 0.00067, label: 'statAuAu'}
+    - {asymerror: {plus: 0.07695, minus: -0.05723}, label: 'bounds'}
+    - {symerror: 0.04956, label: 'pp'}
+    - {symerror: 0.04670, label: 'ncoll'}
+  - value: 0.506
+    errors:
+    - {symerror: 0.00081, label: 'statAuAu'}
+    - {asymerror: {plus: 0.07914, minus: -0.06052}, label: 'bounds'}
+    - {symerror: 0.05262, label: 'pp'}
+    - {symerror: 0.04959, label: 'ncoll'}
+  - value: 0.5287
+    errors:
+    - {symerror: 0.00095, label: 'statAuAu'}
+    - {asymerror: {plus: 0.07968, minus: -0.06292}, label: 'bounds'}
+    - {symerror: 0.05498, label: 'pp'}
+    - {symerror: 0.05181, label: 'ncoll'}
+  - value: 0.5484
+    errors:
+    - {symerror: 0.00115, label: 'statAuAu'}
+    - {asymerror: {plus: 0.07946, minus: -0.06499}, label: 'bounds'}
+    - {symerror: 0.05703, label: 'pp'}
+    - {symerror: 0.05374, label: 'ncoll'}
+  - value: 0.5693
+    errors:
+    - {symerror: 0.00137, label: 'statAuAu'}
+    - {asymerror: {plus: 0.07947, minus: -0.06712}, label: 'bounds'}
+    - {symerror: 0.05921, label: 'pp'}
+    - {symerror: 0.05579, label: 'ncoll'}
+  - value: 0.5841
+    errors:
+    - {symerror: 0.00158, label: 'statAuAu'}
+    - {asymerror: {plus: 0.07891, minus: -0.06857}, label: 'bounds'}
+    - {symerror: 0.06075, label: 'pp'}
+    - {symerror: 0.05724, label: 'ncoll'}
+  - value: 0.5858
+    errors:
+    - {symerror: 0.00182, label: 'statAuAu'}
+    - {asymerror: {plus: 0.07686, minus: -0.06848}, label: 'bounds'}
+    - {symerror: 0.06092, label: 'pp'}
+    - {symerror: 0.05741, label: 'ncoll'}
+  - value: 0.5853
+    errors:
+    - {symerror: 0.00152, label: 'statAuAu'}
+    - {asymerror: {plus: 0.07404, minus: -0.06795}, label: 'bounds'}
+    - {symerror: 0.06087, label: 'pp'}
+    - {symerror: 0.05736, label: 'ncoll'}
+  - value: 0.574
+    errors:
+    - {symerror: 0.00195, label: 'statAuAu'}
+    - {asymerror: {plus: 0.07014, minus: -0.06607}, label: 'bounds'}
+    - {symerror: 0.05970, label: 'pp'}
+    - {symerror: 0.05625, label: 'ncoll'}
+  - value: 0.5538
+    errors:
+    - {symerror: 0.00238, label: 'statAuAu'}
+    - {asymerror: {plus: 0.06635, minus: -0.06319}, label: 'bounds'}
+    - {symerror: 0.05760, label: 'pp'}
+    - {symerror: 0.05427, label: 'ncoll'}
+  - value: 0.5236
+    errors:
+    - {symerror: 0.00288, label: 'statAuAu'}
+    - {asymerror: {plus: 0.06226, minus: -0.05927}, label: 'bounds'}
+    - {symerror: 0.05445, label: 'pp'}
+    - {symerror: 0.05131, label: 'ncoll'}
+  - value: 0.4909
+    errors:
+    - {symerror: 0.00349, label: 'statAuAu'}
+    - {asymerror: {plus: 0.05974, minus: -0.05518}, label: 'bounds'}
+    - {symerror: 0.05105, label: 'pp'}
+    - {symerror: 0.04811, label: 'ncoll'}
+  - value: 0.4465
+    errors:
+    - {symerror: 0.00375, label: 'statAuAu'}
+    - {asymerror: {plus: 0.05617, minus: -0.05090}, label: 'bounds'}
+    - {symerror: 0.04644, label: 'pp'}
+    - {symerror: 0.04376, label: 'ncoll'}
+  - value: 0.4077
+    errors:
+    - {symerror: 0.00457, label: 'statAuAu'}
+    - {asymerror: {plus: 0.05174, minus: -0.04619}, label: 'bounds'}
+    - {symerror: 0.04240, label: 'pp'}
+    - {symerror: 0.03995, label: 'ncoll'}
+  - value: 0.3715
+    errors:
+    - {symerror: 0.00554, label: 'statAuAu'}
+    - {asymerror: {plus: 0.04759, minus: -0.04194}, label: 'bounds'}
+    - {symerror: 0.03864, label: 'pp'}
+    - {symerror: 0.03641, label: 'ncoll'}
+  - value: 0.3402
+    errors:
+    - {symerror: 0.00667, label: 'statAuAu'}
+    - {asymerror: {plus: 0.04402, minus: -0.03834}, label: 'bounds'}
+    - {symerror: 0.03538, label: 'pp'}
+    - {symerror: 0.03334, label: 'ncoll'}
+  - value: 0.3119
+    errors:
+    - {symerror: 0.00661, label: 'statAuAu'}
+    - {asymerror: {plus: 0.04095, minus: -0.03518}, label: 'bounds'}
+    - {symerror: 0.03244, label: 'pp'}
+    - {symerror: 0.03057, label: 'ncoll'}
+  - value: 0.2623
+    errors:
+    - {symerror: 0.00873, label: 'statAuAu'}
+    - {asymerror: {plus: 0.03515, minus: -0.02985}, label: 'bounds'}
+    - {symerror: 0.02728, label: 'pp'}
+    - {symerror: 0.02571, label: 'ncoll'}
+  - value: 0.2417
+    errors:
+    - {symerror: 0.01167, label: 'statAuAu'}
+    - {asymerror: {plus: 0.03314, minus: -0.02794}, label: 'bounds'}
+    - {symerror: 0.02514, label: 'pp'}
+    - {symerror: 0.02369, label: 'ncoll'}
+  - value: 0.2452
+    errors:
+    - {symerror: 0.01662, label: 'statAuAu'}
+    - {asymerror: {plus: 0.03450, minus: -0.02906}, label: 'bounds'}
+    - {symerror: 0.02550, label: 'pp'}
+    - {symerror: 0.02403, label: 'ncoll'}
+  - value: 0.1978
+    errors:
+    - {symerror: 0.02196, label: 'statAuAu'}
+    - {asymerror: {plus: 0.02971, minus: -0.02508}, label: 'bounds'}
+    - {symerror: 0.02057, label: 'pp'}
+    - {symerror: 0.01938, label: 'ncoll'}
+  - value: 0.2316
+    errors:
+    - {symerror: 0.02816, label: 'statAuAu'}
+    - {asymerror: {plus: 0.03988, minus: -0.03386}, label: 'bounds'}
+    - {symerror: 0.02409, label: 'pp'}
+    - {symerror: 0.02270, label: 'ncoll'}
+  - value: 0.2214
+    errors:
+    - {symerror: 0.06292, label: 'statAuAu'}
+    - {asymerror: {plus: 0.04375, minus: -0.03799}, label: 'bounds'}
+    - {symerror: 0.02303, label: 'pp'}
+    - {symerror: 0.02170, label: 'ncoll'}
+- header: {name: 'Raa'}
+  qualifiers:
+  - {name: '$p_{T}$(GeV/c)', value: 'h 10-20%'}
+  values:
+  - value: 0.2808
+    errors:
+    - {symerror: 0.00017, label: 'statAuAu'}
+    - {asymerror: {plus: 0.05060, minus: -0.03488}, label: 'bounds'}
+    - {symerror: 0.02920, label: 'pp'}
+    - {symerror: 0.02752, label: 'ncoll'}
+  - value: 0.3077
+    errors:
+    - {symerror: 0.00022, label: 'statAuAu'}
+    - {asymerror: {plus: 0.05551, minus: -0.03806}, label: 'bounds'}
+    - {symerror: 0.03200, label: 'pp'}
+    - {symerror: 0.03015, label: 'ncoll'}
+  - value: 0.3346
+    errors:
+    - {symerror: 0.00027, label: 'statAuAu'}
+    - {asymerror: {plus: 0.06013, minus: -0.04126}, label: 'bounds'}
+    - {symerror: 0.03480, label: 'pp'}
+    - {symerror: 0.03279, label: 'ncoll'}
+  - value: 0.3628
+    errors:
+    - {symerror: 0.00033, label: 'statAuAu'}
+    - {asymerror: {plus: 0.06465, minus: -0.04455}, label: 'bounds'}
+    - {symerror: 0.03773, label: 'pp'}
+    - {symerror: 0.03555, label: 'ncoll'}
+  - value: 0.3914
+    errors:
+    - {symerror: 0.00039, label: 'statAuAu'}
+    - {asymerror: {plus: 0.06893, minus: -0.04787}, label: 'bounds'}
+    - {symerror: 0.04071, label: 'pp'}
+    - {symerror: 0.03836, label: 'ncoll'}
+  - value: 0.4242
+    errors:
+    - {symerror: 0.00051, label: 'statAuAu'}
+    - {asymerror: {plus: 0.07356, minus: -0.05163}, label: 'bounds'}
+    - {symerror: 0.04412, label: 'pp'}
+    - {symerror: 0.04157, label: 'ncoll'}
+  - value: 0.458
+    errors:
+    - {symerror: 0.00060, label: 'statAuAu'}
+    - {asymerror: {plus: 0.07786, minus: -0.05551}, label: 'bounds'}
+    - {symerror: 0.04763, label: 'pp'}
+    - {symerror: 0.04488, label: 'ncoll'}
+  - value: 0.4931
+    errors:
+    - {symerror: 0.00074, label: 'statAuAu'}
+    - {asymerror: {plus: 0.08185, minus: -0.05952}, label: 'bounds'}
+    - {symerror: 0.05128, label: 'pp'}
+    - {symerror: 0.04832, label: 'ncoll'}
+  - value: 0.5269
+    errors:
+    - {symerror: 0.00084, label: 'statAuAu'}
+    - {asymerror: {plus: 0.08509, minus: -0.06328}, label: 'bounds'}
+    - {symerror: 0.05480, label: 'pp'}
+    - {symerror: 0.05164, label: 'ncoll'}
+  - value: 0.5598
+    errors:
+    - {symerror: 0.00101, label: 'statAuAu'}
+    - {asymerror: {plus: 0.08755, minus: -0.06695}, label: 'bounds'}
+    - {symerror: 0.05822, label: 'pp'}
+    - {symerror: 0.05486, label: 'ncoll'}
+  - value: 0.5838
+    errors:
+    - {symerror: 0.00123, label: 'statAuAu'}
+    - {asymerror: {plus: 0.08798, minus: -0.06947}, label: 'bounds'}
+    - {symerror: 0.06072, label: 'pp'}
+    - {symerror: 0.05721, label: 'ncoll'}
+  - value: 0.6106
+    errors:
+    - {symerror: 0.00147, label: 'statAuAu'}
+    - {asymerror: {plus: 0.08848, minus: -0.07236}, label: 'bounds'}
+    - {symerror: 0.06350, label: 'pp'}
+    - {symerror: 0.05984, label: 'ncoll'}
+  - value: 0.6314
+    errors:
+    - {symerror: 0.00170, label: 'statAuAu'}
+    - {asymerror: {plus: 0.08814, minus: -0.07444}, label: 'bounds'}
+    - {symerror: 0.06567, label: 'pp'}
+    - {symerror: 0.06188, label: 'ncoll'}
+  - value: 0.6462
+    errors:
+    - {symerror: 0.00194, label: 'statAuAu'}
+    - {asymerror: {plus: 0.08730, minus: -0.07586}, label: 'bounds'}
+    - {symerror: 0.06720, label: 'pp'}
+    - {symerror: 0.06333, label: 'ncoll'}
+  - value: 0.6592
+    errors:
+    - {symerror: 0.00224, label: 'statAuAu'}
+    - {asymerror: {plus: 0.08649, minus: -0.07706}, label: 'bounds'}
+    - {symerror: 0.06856, label: 'pp'}
+    - {symerror: 0.06460, label: 'ncoll'}
+  - value: 0.6557
+    errors:
+    - {symerror: 0.00190, label: 'statAuAu'}
+    - {asymerror: {plus: 0.08295, minus: -0.07613}, label: 'bounds'}
+    - {symerror: 0.06819, label: 'pp'}
+    - {symerror: 0.06426, label: 'ncoll'}
+  - value: 0.6596
+    errors:
+    - {symerror: 0.00244, label: 'statAuAu'}
+    - {asymerror: {plus: 0.08060, minus: -0.07592}, label: 'bounds'}
+    - {symerror: 0.06860, label: 'pp'}
+    - {symerror: 0.06464, label: 'ncoll'}
+  - value: 0.6391
+    errors:
+    - {symerror: 0.00307, label: 'statAuAu'}
+    - {asymerror: {plus: 0.07656, minus: -0.07292}, label: 'bounds'}
+    - {symerror: 0.06647, label: 'pp'}
+    - {symerror: 0.06263, label: 'ncoll'}
+  - value: 0.6107
+    errors:
+    - {symerror: 0.00373, label: 'statAuAu'}
+    - {asymerror: {plus: 0.07261, minus: -0.06913}, label: 'bounds'}
+    - {symerror: 0.06351, label: 'pp'}
+    - {symerror: 0.05985, label: 'ncoll'}
+  - value: 0.5814
+    errors:
+    - {symerror: 0.00448, label: 'statAuAu'}
+    - {asymerror: {plus: 0.07076, minus: -0.06535}, label: 'bounds'}
+    - {symerror: 0.06047, label: 'pp'}
+    - {symerror: 0.05698, label: 'ncoll'}
+  - value: 0.544
+    errors:
+    - {symerror: 0.00484, label: 'statAuAu'}
+    - {asymerror: {plus: 0.06844, minus: -0.06202}, label: 'bounds'}
+    - {symerror: 0.05658, label: 'pp'}
+    - {symerror: 0.05331, label: 'ncoll'}
+  - value: 0.5124
+    errors:
+    - {symerror: 0.00600, label: 'statAuAu'}
+    - {asymerror: {plus: 0.06502, minus: -0.05805}, label: 'bounds'}
+    - {symerror: 0.05329, label: 'pp'}
+    - {symerror: 0.05022, label: 'ncoll'}
+  - value: 0.4689
+    errors:
+    - {symerror: 0.00727, label: 'statAuAu'}
+    - {asymerror: {plus: 0.06007, minus: -0.05294}, label: 'bounds'}
+    - {symerror: 0.04877, label: 'pp'}
+    - {symerror: 0.04595, label: 'ncoll'}
+  - value: 0.4368
+    errors:
+    - {symerror: 0.00887, label: 'statAuAu'}
+    - {asymerror: {plus: 0.05652, minus: -0.04923}, label: 'bounds'}
+    - {symerror: 0.04543, label: 'pp'}
+    - {symerror: 0.04281, label: 'ncoll'}
+  - value: 0.3732
+    errors:
+    - {symerror: 0.00847, label: 'statAuAu'}
+    - {asymerror: {plus: 0.04900, minus: -0.04210}, label: 'bounds'}
+    - {symerror: 0.03881, label: 'pp'}
+    - {symerror: 0.03657, label: 'ncoll'}
+  - value: 0.3404
+    errors:
+    - {symerror: 0.01134, label: 'statAuAu'}
+    - {asymerror: {plus: 0.04561, minus: -0.03874}, label: 'bounds'}
+    - {symerror: 0.03540, label: 'pp'}
+    - {symerror: 0.03336, label: 'ncoll'}
+  - value: 0.3151
+    errors:
+    - {symerror: 0.01522, label: 'statAuAu'}
+    - {asymerror: {plus: 0.04320, minus: -0.03643}, label: 'bounds'}
+    - {symerror: 0.03277, label: 'pp'}
+    - {symerror: 0.03088, label: 'ncoll'}
+  - value: 0.3175
+    errors:
+    - {symerror: 0.02121, label: 'statAuAu'}
+    - {asymerror: {plus: 0.04467, minus: -0.03762}, label: 'bounds'}
+    - {symerror: 0.03302, label: 'pp'}
+    - {symerror: 0.03112, label: 'ncoll'}
+  - value: 0.2434
+    errors:
+    - {symerror: 0.02641, label: 'statAuAu'}
+    - {asymerror: {plus: 0.03656, minus: -0.03086}, label: 'bounds'}
+    - {symerror: 0.02531, label: 'pp'}
+    - {symerror: 0.02385, label: 'ncoll'}
+  - value: 0.2336
+    errors:
+    - {symerror: 0.03186, label: 'statAuAu'}
+    - {asymerror: {plus: 0.04023, minus: -0.03415}, label: 'bounds'}
+    - {symerror: 0.02429, label: 'pp'}
+    - {symerror: 0.02289, label: 'ncoll'}
+  - value: 0.338
+    errors:
+    - {symerror: 0.07710, label: 'statAuAu'}
+    - {asymerror: {plus: 0.06679, minus: -0.05800}, label: 'bounds'}
+    - {symerror: 0.03515, label: 'pp'}
+    - {symerror: 0.03312, label: 'ncoll'}
+- header: {name: 'Raa'}
+  qualifiers:
+  - {name: '$p_{T}$(GeV/c)', value: 'h 20-30%'}
+  values:
+  - value: 0.3159
+    errors:
+    - {symerror: 0.00025, label: 'statAuAu'}
+    - {asymerror: {plus: 0.05588, minus: -0.03819}, label: 'bounds'}
+    - {symerror: 0.03285, label: 'pp'}
+    - {symerror: 0.03349, label: 'ncoll'}
+  - value: 0.3446
+    errors:
+    - {symerror: 0.00028, label: 'statAuAu'}
+    - {asymerror: {plus: 0.06099, minus: -0.04149}, label: 'bounds'}
+    - {symerror: 0.03584, label: 'pp'}
+    - {symerror: 0.03653, label: 'ncoll'}
+  - value: 0.3735
+    errors:
+    - {symerror: 0.00034, label: 'statAuAu'}
+    - {asymerror: {plus: 0.06585, minus: -0.04478}, label: 'bounds'}
+    - {symerror: 0.03884, label: 'pp'}
+    - {symerror: 0.03959, label: 'ncoll'}
+  - value: 0.4035
+    errors:
+    - {symerror: 0.00044, label: 'statAuAu'}
+    - {asymerror: {plus: 0.07053, minus: -0.04818}, label: 'bounds'}
+    - {symerror: 0.04196, label: 'pp'}
+    - {symerror: 0.04277, label: 'ncoll'}
+  - value: 0.4348
+    errors:
+    - {symerror: 0.00052, label: 'statAuAu'}
+    - {asymerror: {plus: 0.07509, minus: -0.05170}, label: 'bounds'}
+    - {symerror: 0.04522, label: 'pp'}
+    - {symerror: 0.04609, label: 'ncoll'}
+  - value: 0.4675
+    errors:
+    - {symerror: 0.00061, label: 'statAuAu'}
+    - {asymerror: {plus: 0.07943, minus: -0.05531}, label: 'bounds'}
+    - {symerror: 0.04862, label: 'pp'}
+    - {symerror: 0.04956, label: 'ncoll'}
+  - value: 0.5049
+    errors:
+    - {symerror: 0.00076, label: 'statAuAu'}
+    - {asymerror: {plus: 0.08402, minus: -0.05948}, label: 'bounds'}
+    - {symerror: 0.05251, label: 'pp'}
+    - {symerror: 0.05352, label: 'ncoll'}
+  - value: 0.5408
+    errors:
+    - {symerror: 0.00092, label: 'statAuAu'}
+    - {asymerror: {plus: 0.08783, minus: -0.06338}, label: 'bounds'}
+    - {symerror: 0.05624, label: 'pp'}
+    - {symerror: 0.05732, label: 'ncoll'}
+  - value: 0.5765
+    errors:
+    - {symerror: 0.00110, label: 'statAuAu'}
+    - {asymerror: {plus: 0.09091, minus: -0.06722}, label: 'bounds'}
+    - {symerror: 0.05996, label: 'pp'}
+    - {symerror: 0.06111, label: 'ncoll'}
+  - value: 0.6104
+    errors:
+    - {symerror: 0.00134, label: 'statAuAu'}
+    - {asymerror: {plus: 0.09309, minus: -0.07087}, label: 'bounds'}
+    - {symerror: 0.06348, label: 'pp'}
+    - {symerror: 0.06470, label: 'ncoll'}
+  - value: 0.6365
+    errors:
+    - {symerror: 0.00159, label: 'statAuAu'}
+    - {asymerror: {plus: 0.09337, minus: -0.07352}, label: 'bounds'}
+    - {symerror: 0.06620, label: 'pp'}
+    - {symerror: 0.06747, label: 'ncoll'}
+  - value: 0.6676
+    errors:
+    - {symerror: 0.00187, label: 'statAuAu'}
+    - {asymerror: {plus: 0.09386, minus: -0.07671}, label: 'bounds'}
+    - {symerror: 0.06943, label: 'pp'}
+    - {symerror: 0.07077, label: 'ncoll'}
+  - value: 0.6896
+    errors:
+    - {symerror: 0.00214, label: 'statAuAu'}
+    - {asymerror: {plus: 0.09323, minus: -0.07889}, label: 'bounds'}
+    - {symerror: 0.07172, label: 'pp'}
+    - {symerror: 0.07310, label: 'ncoll'}
+  - value: 0.7046
+    errors:
+    - {symerror: 0.00247, label: 'statAuAu'}
+    - {asymerror: {plus: 0.09195, minus: -0.08018}, label: 'bounds'}
+    - {symerror: 0.07328, label: 'pp'}
+    - {symerror: 0.07469, label: 'ncoll'}
+  - value: 0.7218
+    errors:
+    - {symerror: 0.00289, label: 'statAuAu'}
+    - {asymerror: {plus: 0.09131, minus: -0.08171}, label: 'bounds'}
+    - {symerror: 0.07507, label: 'pp'}
+    - {symerror: 0.07651, label: 'ncoll'}
+  - value: 0.7243
+    errors:
+    - {symerror: 0.00246, label: 'statAuAu'}
+    - {asymerror: {plus: 0.08815, minus: -0.08141}, label: 'bounds'}
+    - {symerror: 0.07533, label: 'pp'}
+    - {symerror: 0.07678, label: 'ncoll'}
+  - value: 0.7236
+    errors:
+    - {symerror: 0.00311, label: 'statAuAu'}
+    - {asymerror: {plus: 0.08481, minus: -0.08054}, label: 'bounds'}
+    - {symerror: 0.07525, label: 'pp'}
+    - {symerror: 0.07670, label: 'ncoll'}
+  - value: 0.7176
+    errors:
+    - {symerror: 0.00395, label: 'statAuAu'}
+    - {asymerror: {plus: 0.08231, minus: -0.07915}, label: 'bounds'}
+    - {symerror: 0.07463, label: 'pp'}
+    - {symerror: 0.07607, label: 'ncoll'}
+  - value: 0.6859
+    errors:
+    - {symerror: 0.00480, label: 'statAuAu'}
+    - {asymerror: {plus: 0.07799, minus: -0.07504}, label: 'bounds'}
+    - {symerror: 0.07133, label: 'pp'}
+    - {symerror: 0.07271, label: 'ncoll'}
+  - value: 0.6502
+    errors:
+    - {symerror: 0.00579, label: 'statAuAu'}
+    - {asymerror: {plus: 0.07588, minus: -0.07061}, label: 'bounds'}
+    - {symerror: 0.06762, label: 'pp'}
+    - {symerror: 0.06892, label: 'ncoll'}
+  - value: 0.6193
+    errors:
+    - {symerror: 0.00632, label: 'statAuAu'}
+    - {asymerror: {plus: 0.07487, minus: -0.06825}, label: 'bounds'}
+    - {symerror: 0.06441, label: 'pp'}
+    - {symerror: 0.06565, label: 'ncoll'}
+  - value: 0.5784
+    errors:
+    - {symerror: 0.00775, label: 'statAuAu'}
+    - {asymerror: {plus: 0.07062, minus: -0.06333}, label: 'bounds'}
+    - {symerror: 0.06015, label: 'pp'}
+    - {symerror: 0.06131, label: 'ncoll'}
+  - value: 0.5544
+    errors:
+    - {symerror: 0.00965, label: 'statAuAu'}
+    - {asymerror: {plus: 0.06836, minus: -0.06049}, label: 'bounds'}
+    - {symerror: 0.05766, label: 'pp'}
+    - {symerror: 0.05877, label: 'ncoll'}
+  - value: 0.523
+    errors:
+    - {symerror: 0.01161, label: 'statAuAu'}
+    - {asymerror: {plus: 0.06522, minus: -0.05695}, label: 'bounds'}
+    - {symerror: 0.05439, label: 'pp'}
+    - {symerror: 0.05544, label: 'ncoll'}
+  - value: 0.4701
+    errors:
+    - {symerror: 0.01138, label: 'statAuAu'}
+    - {asymerror: {plus: 0.05956, minus: -0.05124}, label: 'bounds'}
+    - {symerror: 0.04889, label: 'pp'}
+    - {symerror: 0.04983, label: 'ncoll'}
+  - value: 0.4218
+    errors:
+    - {symerror: 0.01518, label: 'statAuAu'}
+    - {asymerror: {plus: 0.05458, minus: -0.04640}, label: 'bounds'}
+    - {symerror: 0.04387, label: 'pp'}
+    - {symerror: 0.04471, label: 'ncoll'}
+  - value: 0.3744
+    errors:
+    - {symerror: 0.01947, label: 'statAuAu'}
+    - {asymerror: {plus: 0.04965, minus: -0.04190}, label: 'bounds'}
+    - {symerror: 0.03894, label: 'pp'}
+    - {symerror: 0.03969, label: 'ncoll'}
+  - value: 0.4214
+    errors:
+    - {symerror: 0.02849, label: 'statAuAu'}
+    - {asymerror: {plus: 0.05744, minus: -0.04842}, label: 'bounds'}
+    - {symerror: 0.04383, label: 'pp'}
+    - {symerror: 0.04467, label: 'ncoll'}
+  - value: 0.3521
+    errors:
+    - {symerror: 0.03852, label: 'statAuAu'}
+    - {asymerror: {plus: 0.05148, minus: -0.04352}, label: 'bounds'}
+    - {symerror: 0.03662, label: 'pp'}
+    - {symerror: 0.03732, label: 'ncoll'}
+  - value: 0.4218
+    errors:
+    - {symerror: 0.04205, label: 'statAuAu'}
+    - {asymerror: {plus: 0.07112, minus: -0.06057}, label: 'bounds'}
+    - {symerror: 0.04387, label: 'pp'}
+    - {symerror: 0.04471, label: 'ncoll'}
+  - value: 0.3833
+    errors:
+    - {symerror: 0.09759, label: 'statAuAu'}
+    - {asymerror: {plus: 0.07455, minus: -0.06501}, label: 'bounds'}
+    - {symerror: 0.03986, label: 'pp'}
+    - {symerror: 0.04063, label: 'ncoll'}
+- header: {name: 'Raa'}
+  qualifiers:
+  - {name: '$p_{T}$(GeV/c)', value: 'h 30-40%'}
+  values:
+  - value: 0.3563
+    errors:
+    - {symerror: 0.00032, label: 'statAuAu'}
+    - {asymerror: {plus: 0.06303, minus: -0.04308}, label: 'bounds'}
+    - {symerror: 0.03706, label: 'pp'}
+    - {symerror: 0.03670, label: 'ncoll'}
+  - value: 0.3879
+    errors:
+    - {symerror: 0.00039, label: 'statAuAu'}
+    - {asymerror: {plus: 0.06866, minus: -0.04670}, label: 'bounds'}
+    - {symerror: 0.04034, label: 'pp'}
+    - {symerror: 0.03995, label: 'ncoll'}
+  - value: 0.418
+    errors:
+    - {symerror: 0.00046, label: 'statAuAu'}
+    - {asymerror: {plus: 0.07369, minus: -0.05012}, label: 'bounds'}
+    - {symerror: 0.04347, label: 'pp'}
+    - {symerror: 0.04305, label: 'ncoll'}
+  - value: 0.451
+    errors:
+    - {symerror: 0.00059, label: 'statAuAu'}
+    - {asymerror: {plus: 0.07883, minus: -0.05385}, label: 'bounds'}
+    - {symerror: 0.04690, label: 'pp'}
+    - {symerror: 0.04645, label: 'ncoll'}
+  - value: 0.4824
+    errors:
+    - {symerror: 0.00072, label: 'statAuAu'}
+    - {asymerror: {plus: 0.08331, minus: -0.05736}, label: 'bounds'}
+    - {symerror: 0.05017, label: 'pp'}
+    - {symerror: 0.04969, label: 'ncoll'}
+  - value: 0.5181
+    errors:
+    - {symerror: 0.00083, label: 'statAuAu'}
+    - {asymerror: {plus: 0.08803, minus: -0.06129}, label: 'bounds'}
+    - {symerror: 0.05388, label: 'pp'}
+    - {symerror: 0.05336, label: 'ncoll'}
+  - value: 0.5553
+    errors:
+    - {symerror: 0.00106, label: 'statAuAu'}
+    - {asymerror: {plus: 0.09240, minus: -0.06541}, label: 'bounds'}
+    - {symerror: 0.05775, label: 'pp'}
+    - {symerror: 0.05720, label: 'ncoll'}
+  - value: 0.5945
+    errors:
+    - {symerror: 0.00125, label: 'statAuAu'}
+    - {asymerror: {plus: 0.09655, minus: -0.06968}, label: 'bounds'}
+    - {symerror: 0.06183, label: 'pp'}
+    - {symerror: 0.06123, label: 'ncoll'}
+  - value: 0.6294
+    errors:
+    - {symerror: 0.00151, label: 'statAuAu'}
+    - {asymerror: {plus: 0.09926, minus: -0.07339}, label: 'bounds'}
+    - {symerror: 0.06546, label: 'pp'}
+    - {symerror: 0.06483, label: 'ncoll'}
+  - value: 0.6627
+    errors:
+    - {symerror: 0.00179, label: 'statAuAu'}
+    - {asymerror: {plus: 0.10106, minus: -0.07694}, label: 'bounds'}
+    - {symerror: 0.06892, label: 'pp'}
+    - {symerror: 0.06826, label: 'ncoll'}
+  - value: 0.6963
+    errors:
+    - {symerror: 0.00209, label: 'statAuAu'}
+    - {asymerror: {plus: 0.10215, minus: -0.08042}, label: 'bounds'}
+    - {symerror: 0.07242, label: 'pp'}
+    - {symerror: 0.07172, label: 'ncoll'}
+  - value: 0.7195
+    errors:
+    - {symerror: 0.00245, label: 'statAuAu'}
+    - {asymerror: {plus: 0.10116, minus: -0.08267}, label: 'bounds'}
+    - {symerror: 0.07483, label: 'pp'}
+    - {symerror: 0.07411, label: 'ncoll'}
+  - value: 0.751
+    errors:
+    - {symerror: 0.00285, label: 'statAuAu'}
+    - {asymerror: {plus: 0.10154, minus: -0.08591}, label: 'bounds'}
+    - {symerror: 0.07810, label: 'pp'}
+    - {symerror: 0.07735, label: 'ncoll'}
+  - value: 0.7712
+    errors:
+    - {symerror: 0.00332, label: 'statAuAu'}
+    - {asymerror: {plus: 0.10064, minus: -0.08776}, label: 'bounds'}
+    - {symerror: 0.08020, label: 'pp'}
+    - {symerror: 0.07943, label: 'ncoll'}
+  - value: 0.778
+    errors:
+    - {symerror: 0.00381, label: 'statAuAu'}
+    - {asymerror: {plus: 0.09842, minus: -0.08807}, label: 'bounds'}
+    - {symerror: 0.08091, label: 'pp'}
+    - {symerror: 0.08013, label: 'ncoll'}
+  - value: 0.7932
+    errors:
+    - {symerror: 0.00325, label: 'statAuAu'}
+    - {asymerror: {plus: 0.09653, minus: -0.08916}, label: 'bounds'}
+    - {symerror: 0.08249, label: 'pp'}
+    - {symerror: 0.08170, label: 'ncoll'}
+  - value: 0.7942
+    errors:
+    - {symerror: 0.00421, label: 'statAuAu'}
+    - {asymerror: {plus: 0.09308, minus: -0.08839}, label: 'bounds'}
+    - {symerror: 0.08260, label: 'pp'}
+    - {symerror: 0.08180, label: 'ncoll'}
+  - value: 0.788
+    errors:
+    - {symerror: 0.00528, label: 'statAuAu'}
+    - {asymerror: {plus: 0.09038, minus: -0.08692}, label: 'bounds'}
+    - {symerror: 0.08195, label: 'pp'}
+    - {symerror: 0.08116, label: 'ncoll'}
+  - value: 0.7653
+    errors:
+    - {symerror: 0.00651, label: 'statAuAu'}
+    - {asymerror: {plus: 0.08701, minus: -0.08372}, label: 'bounds'}
+    - {symerror: 0.07959, label: 'pp'}
+    - {symerror: 0.07883, label: 'ncoll'}
+  - value: 0.7409
+    errors:
+    - {symerror: 0.00793, label: 'statAuAu'}
+    - {asymerror: {plus: 0.08646, minus: -0.08046}, label: 'bounds'}
+    - {symerror: 0.07705, label: 'pp'}
+    - {symerror: 0.07631, label: 'ncoll'}
+  - value: 0.7052
+    errors:
+    - {symerror: 0.00860, label: 'statAuAu'}
+    - {asymerror: {plus: 0.08526, minus: -0.07771}, label: 'bounds'}
+    - {symerror: 0.07334, label: 'pp'}
+    - {symerror: 0.07264, label: 'ncoll'}
+  - value: 0.6754
+    errors:
+    - {symerror: 0.01074, label: 'statAuAu'}
+    - {asymerror: {plus: 0.08247, minus: -0.07396}, label: 'bounds'}
+    - {symerror: 0.07024, label: 'pp'}
+    - {symerror: 0.06957, label: 'ncoll'}
+  - value: 0.6548
+    errors:
+    - {symerror: 0.01329, label: 'statAuAu'}
+    - {asymerror: {plus: 0.08074, minus: -0.07144}, label: 'bounds'}
+    - {symerror: 0.06810, label: 'pp'}
+    - {symerror: 0.06744, label: 'ncoll'}
+  - value: 0.6255
+    errors:
+    - {symerror: 0.01620, label: 'statAuAu'}
+    - {asymerror: {plus: 0.07800, minus: -0.06812}, label: 'bounds'}
+    - {symerror: 0.06505, label: 'pp'}
+    - {symerror: 0.06443, label: 'ncoll'}
+  - value: 0.5829
+    errors:
+    - {symerror: 0.01626, label: 'statAuAu'}
+    - {asymerror: {plus: 0.07385, minus: -0.06354}, label: 'bounds'}
+    - {symerror: 0.06062, label: 'pp'}
+    - {symerror: 0.06004, label: 'ncoll'}
+  - value: 0.5344
+    errors:
+    - {symerror: 0.02180, label: 'statAuAu'}
+    - {asymerror: {plus: 0.06915, minus: -0.05878}, label: 'bounds'}
+    - {symerror: 0.05558, label: 'pp'}
+    - {symerror: 0.05504, label: 'ncoll'}
+  - value: 0.4754
+    errors:
+    - {symerror: 0.02795, label: 'statAuAu'}
+    - {asymerror: {plus: 0.06304, minus: -0.05320}, label: 'bounds'}
+    - {symerror: 0.04944, label: 'pp'}
+    - {symerror: 0.04897, label: 'ncoll'}
+  - value: 0.4936
+    errors:
+    - {symerror: 0.03806, label: 'statAuAu'}
+    - {asymerror: {plus: 0.06728, minus: -0.05671}, label: 'bounds'}
+    - {symerror: 0.05133, label: 'pp'}
+    - {symerror: 0.05084, label: 'ncoll'}
+  - value: 0.5149
+    errors:
+    - {symerror: 0.05170, label: 'statAuAu'}
+    - {asymerror: {plus: 0.07528, minus: -0.06364}, label: 'bounds'}
+    - {symerror: 0.05355, label: 'pp'}
+    - {symerror: 0.05303, label: 'ncoll'}
+  - value: 0.483
+    errors:
+    - {symerror: 0.05497, label: 'statAuAu'}
+    - {asymerror: {plus: 0.08143, minus: -0.06936}, label: 'bounds'}
+    - {symerror: 0.05023, label: 'pp'}
+    - {symerror: 0.04975, label: 'ncoll'}
+  - value: 0.5413
+    errors:
+    - {symerror: 0.13825, label: 'statAuAu'}
+    - {asymerror: {plus: 0.10528, minus: -0.09180}, label: 'bounds'}
+    - {symerror: 0.05630, label: 'pp'}
+    - {symerror: 0.05575, label: 'ncoll'}
+- header: {name: 'Raa'}
+  qualifiers:
+  - {name: '$p_{T}$(GeV/c)', value: 'h 40-50%'}
+  values:
+  - value: 0.4093
+    errors:
+    - {symerror: 0.00045, label: 'statAuAu'}
+    - {asymerror: {plus: 0.07241, minus: -0.04948}, label: 'bounds'}
+    - {symerror: 0.04257, label: 'pp'}
+    - {symerror: 0.04666, label: 'ncoll'}
+  - value: 0.4409
+    errors:
+    - {symerror: 0.00057, label: 'statAuAu'}
+    - {asymerror: {plus: 0.07804, minus: -0.05308}, label: 'bounds'}
+    - {symerror: 0.04585, label: 'pp'}
+    - {symerror: 0.05026, label: 'ncoll'}
+  - value: 0.472
+    errors:
+    - {symerror: 0.00066, label: 'statAuAu'}
+    - {asymerror: {plus: 0.08321, minus: -0.05659}, label: 'bounds'}
+    - {symerror: 0.04909, label: 'pp'}
+    - {symerror: 0.05381, label: 'ncoll'}
+  - value: 0.5051
+    errors:
+    - {symerror: 0.00081, label: 'statAuAu'}
+    - {asymerror: {plus: 0.08829, minus: -0.06031}, label: 'bounds'}
+    - {symerror: 0.05253, label: 'pp'}
+    - {symerror: 0.05758, label: 'ncoll'}
+  - value: 0.5356
+    errors:
+    - {symerror: 0.00096, label: 'statAuAu'}
+    - {asymerror: {plus: 0.09250, minus: -0.06368}, label: 'bounds'}
+    - {symerror: 0.05570, label: 'pp'}
+    - {symerror: 0.06106, label: 'ncoll'}
+  - value: 0.571
+    errors:
+    - {symerror: 0.00120, label: 'statAuAu'}
+    - {asymerror: {plus: 0.09701, minus: -0.06755}, label: 'bounds'}
+    - {symerror: 0.05938, label: 'pp'}
+    - {symerror: 0.06509, label: 'ncoll'}
+  - value: 0.6088
+    errors:
+    - {symerror: 0.00140, label: 'statAuAu'}
+    - {asymerror: {plus: 0.10130, minus: -0.07172}, label: 'bounds'}
+    - {symerror: 0.06332, label: 'pp'}
+    - {symerror: 0.06940, label: 'ncoll'}
+  - value: 0.644
+    errors:
+    - {symerror: 0.00167, label: 'statAuAu'}
+    - {asymerror: {plus: 0.10459, minus: -0.07548}, label: 'bounds'}
+    - {symerror: 0.06698, label: 'pp'}
+    - {symerror: 0.07342, label: 'ncoll'}
+  - value: 0.6809
+    errors:
+    - {symerror: 0.00204, label: 'statAuAu'}
+    - {asymerror: {plus: 0.10738, minus: -0.07939}, label: 'bounds'}
+    - {symerror: 0.07081, label: 'pp'}
+    - {symerror: 0.07762, label: 'ncoll'}
+  - value: 0.7162
+    errors:
+    - {symerror: 0.00244, label: 'statAuAu'}
+    - {asymerror: {plus: 0.10922, minus: -0.08315}, label: 'bounds'}
+    - {symerror: 0.07448, label: 'pp'}
+    - {symerror: 0.08165, label: 'ncoll'}
+  - value: 0.7466
+    errors:
+    - {symerror: 0.00284, label: 'statAuAu'}
+    - {asymerror: {plus: 0.10953, minus: -0.08623}, label: 'bounds'}
+    - {symerror: 0.07765, label: 'pp'}
+    - {symerror: 0.08511, label: 'ncoll'}
+  - value: 0.774
+    errors:
+    - {symerror: 0.00333, label: 'statAuAu'}
+    - {asymerror: {plus: 0.10882, minus: -0.08893}, label: 'bounds'}
+    - {symerror: 0.08050, label: 'pp'}
+    - {symerror: 0.08824, label: 'ncoll'}
+  - value: 0.7992
+    errors:
+    - {symerror: 0.00392, label: 'statAuAu'}
+    - {asymerror: {plus: 0.10805, minus: -0.09143}, label: 'bounds'}
+    - {symerror: 0.08312, label: 'pp'}
+    - {symerror: 0.09111, label: 'ncoll'}
+  - value: 0.8136
+    errors:
+    - {symerror: 0.00447, label: 'statAuAu'}
+    - {asymerror: {plus: 0.10617, minus: -0.09259}, label: 'bounds'}
+    - {symerror: 0.08461, label: 'pp'}
+    - {symerror: 0.09275, label: 'ncoll'}
+  - value: 0.8373
+    errors:
+    - {symerror: 0.00519, label: 'statAuAu'}
+    - {asymerror: {plus: 0.10592, minus: -0.09478}, label: 'bounds'}
+    - {symerror: 0.08708, label: 'pp'}
+    - {symerror: 0.09545, label: 'ncoll'}
+  - value: 0.8486
+    errors:
+    - {symerror: 0.00450, label: 'statAuAu'}
+    - {asymerror: {plus: 0.10327, minus: -0.09538}, label: 'bounds'}
+    - {symerror: 0.08825, label: 'pp'}
+    - {symerror: 0.09674, label: 'ncoll'}
+  - value: 0.8606
+    errors:
+    - {symerror: 0.00577, label: 'statAuAu'}
+    - {asymerror: {plus: 0.10086, minus: -0.09578}, label: 'bounds'}
+    - {symerror: 0.08950, label: 'pp'}
+    - {symerror: 0.09811, label: 'ncoll'}
+  - value: 0.8533
+    errors:
+    - {symerror: 0.00717, label: 'statAuAu'}
+    - {asymerror: {plus: 0.09787, minus: -0.09412}, label: 'bounds'}
+    - {symerror: 0.08874, label: 'pp'}
+    - {symerror: 0.09728, label: 'ncoll'}
+  - value: 0.8257
+    errors:
+    - {symerror: 0.00883, label: 'statAuAu'}
+    - {asymerror: {plus: 0.09388, minus: -0.09033}, label: 'bounds'}
+    - {symerror: 0.08587, label: 'pp'}
+    - {symerror: 0.09413, label: 'ncoll'}
+  - value: 0.7982
+    errors:
+    - {symerror: 0.01070, label: 'statAuAu'}
+    - {asymerror: {plus: 0.09315, minus: -0.08668}, label: 'bounds'}
+    - {symerror: 0.08301, label: 'pp'}
+    - {symerror: 0.09099, label: 'ncoll'}
+  - value: 0.8043
+    errors:
+    - {symerror: 0.01206, label: 'statAuAu'}
+    - {asymerror: {plus: 0.09724, minus: -0.08863}, label: 'bounds'}
+    - {symerror: 0.08365, label: 'pp'}
+    - {symerror: 0.09169, label: 'ncoll'}
+  - value: 0.7659
+    errors:
+    - {symerror: 0.01509, label: 'statAuAu'}
+    - {asymerror: {plus: 0.09352, minus: -0.08387}, label: 'bounds'}
+    - {symerror: 0.07965, label: 'pp'}
+    - {symerror: 0.08731, label: 'ncoll'}
+  - value: 0.707
+    errors:
+    - {symerror: 0.01810, label: 'statAuAu'}
+    - {asymerror: {plus: 0.08717, minus: -0.07713}, label: 'bounds'}
+    - {symerror: 0.07353, label: 'pp'}
+    - {symerror: 0.08060, label: 'ncoll'}
+  - value: 0.667
+    errors:
+    - {symerror: 0.02208, label: 'statAuAu'}
+    - {asymerror: {plus: 0.08317, minus: -0.07264}, label: 'bounds'}
+    - {symerror: 0.06937, label: 'pp'}
+    - {symerror: 0.07604, label: 'ncoll'}
+  - value: 0.6741
+    errors:
+    - {symerror: 0.02265, label: 'statAuAu'}
+    - {asymerror: {plus: 0.08541, minus: -0.07348}, label: 'bounds'}
+    - {symerror: 0.07011, label: 'pp'}
+    - {symerror: 0.07685, label: 'ncoll'}
+  - value: 0.6423
+    errors:
+    - {symerror: 0.03019, label: 'statAuAu'}
+    - {asymerror: {plus: 0.08311, minus: -0.07065}, label: 'bounds'}
+    - {symerror: 0.06680, label: 'pp'}
+    - {symerror: 0.07322, label: 'ncoll'}
+  - value: 0.5426
+    errors:
+    - {symerror: 0.03896, label: 'statAuAu'}
+    - {asymerror: {plus: 0.07195, minus: -0.06072}, label: 'bounds'}
+    - {symerror: 0.05643, label: 'pp'}
+    - {symerror: 0.06186, label: 'ncoll'}
+  - value: 0.4673
+    errors:
+    - {symerror: 0.04888, label: 'statAuAu'}
+    - {asymerror: {plus: 0.06369, minus: -0.05369}, label: 'bounds'}
+    - {symerror: 0.04860, label: 'pp'}
+    - {symerror: 0.05327, label: 'ncoll'}
+  - value: 0.6243
+    errors:
+    - {symerror: 0.07785, label: 'statAuAu'}
+    - {asymerror: {plus: 0.09127, minus: -0.07716}, label: 'bounds'}
+    - {symerror: 0.06493, label: 'pp'}
+    - {symerror: 0.07117, label: 'ncoll'}
+  - value: 0.5225
+    errors:
+    - {symerror: 0.07184, label: 'statAuAu'}
+    - {asymerror: {plus: 0.08809, minus: -0.07503}, label: 'bounds'}
+    - {symerror: 0.05434, label: 'pp'}
+    - {symerror: 0.05957, label: 'ncoll'}
+  - value: 0.6501
+    errors:
+    - {symerror: 0.19718, label: 'statAuAu'}
+    - {asymerror: {plus: 0.12644, minus: -0.11026}, label: 'bounds'}
+    - {symerror: 0.06761, label: 'pp'}
+    - {symerror: 0.07411, label: 'ncoll'}
+- header: {name: 'Raa'}
+  qualifiers:
+  - {name: '$p_{T}$(GeV/c)', value: 'h 50-60%'}
+  values:
+  - value: 0.4646
+    errors:
+    - {symerror: 0.00070, label: 'statAuAu'}
+    - {asymerror: {plus: 0.08219, minus: -0.05617}, label: 'bounds'}
+    - {symerror: 0.04832, label: 'pp'}
+    - {symerror: 0.07527, label: 'ncoll'}
+  - value: 0.4939
+    errors:
+    - {symerror: 0.00084, label: 'statAuAu'}
+    - {asymerror: {plus: 0.08742, minus: -0.05947}, label: 'bounds'}
+    - {symerror: 0.05137, label: 'pp'}
+    - {symerror: 0.08001, label: 'ncoll'}
+  - value: 0.5224
+    errors:
+    - {symerror: 0.00099, label: 'statAuAu'}
+    - {asymerror: {plus: 0.09210, minus: -0.06264}, label: 'bounds'}
+    - {symerror: 0.05433, label: 'pp'}
+    - {symerror: 0.08463, label: 'ncoll'}
+  - value: 0.553
+    errors:
+    - {symerror: 0.00116, label: 'statAuAu'}
+    - {asymerror: {plus: 0.09666, minus: -0.06603}, label: 'bounds'}
+    - {symerror: 0.05751, label: 'pp'}
+    - {symerror: 0.08959, label: 'ncoll'}
+  - value: 0.5847
+    errors:
+    - {symerror: 0.00140, label: 'statAuAu'}
+    - {asymerror: {plus: 0.10098, minus: -0.06952}, label: 'bounds'}
+    - {symerror: 0.06081, label: 'pp'}
+    - {symerror: 0.09472, label: 'ncoll'}
+  - value: 0.614
+    errors:
+    - {symerror: 0.00172, label: 'statAuAu'}
+    - {asymerror: {plus: 0.10432, minus: -0.07264}, label: 'bounds'}
+    - {symerror: 0.06386, label: 'pp'}
+    - {symerror: 0.09947, label: 'ncoll'}
+  - value: 0.6486
+    errors:
+    - {symerror: 0.00208, label: 'statAuAu'}
+    - {asymerror: {plus: 0.10793, minus: -0.07641}, label: 'bounds'}
+    - {symerror: 0.06745, label: 'pp'}
+    - {symerror: 0.10507, label: 'ncoll'}
+  - value: 0.6832
+    errors:
+    - {symerror: 0.00246, label: 'statAuAu'}
+    - {asymerror: {plus: 0.11095, minus: -0.08007}, label: 'bounds'}
+    - {symerror: 0.07105, label: 'pp'}
+    - {symerror: 0.11068, label: 'ncoll'}
+  - value: 0.714
+    errors:
+    - {symerror: 0.00293, label: 'statAuAu'}
+    - {asymerror: {plus: 0.11260, minus: -0.08325}, label: 'bounds'}
+    - {symerror: 0.07426, label: 'pp'}
+    - {symerror: 0.11567, label: 'ncoll'}
+  - value: 0.7507
+    errors:
+    - {symerror: 0.00345, label: 'statAuAu'}
+    - {asymerror: {plus: 0.11448, minus: -0.08716}, label: 'bounds'}
+    - {symerror: 0.07807, label: 'pp'}
+    - {symerror: 0.12161, label: 'ncoll'}
+  - value: 0.7767
+    errors:
+    - {symerror: 0.00404, label: 'statAuAu'}
+    - {asymerror: {plus: 0.11394, minus: -0.08971}, label: 'bounds'}
+    - {symerror: 0.08078, label: 'pp'}
+    - {symerror: 0.12583, label: 'ncoll'}
+  - value: 0.8018
+    errors:
+    - {symerror: 0.00473, label: 'statAuAu'}
+    - {asymerror: {plus: 0.11273, minus: -0.09213}, label: 'bounds'}
+    - {symerror: 0.08339, label: 'pp'}
+    - {symerror: 0.12989, label: 'ncoll'}
+  - value: 0.8345
+    errors:
+    - {symerror: 0.00559, label: 'statAuAu'}
+    - {asymerror: {plus: 0.11282, minus: -0.09547}, label: 'bounds'}
+    - {symerror: 0.08679, label: 'pp'}
+    - {symerror: 0.13519, label: 'ncoll'}
+  - value: 0.8438
+    errors:
+    - {symerror: 0.00641, label: 'statAuAu'}
+    - {asymerror: {plus: 0.11012, minus: -0.09602}, label: 'bounds'}
+    - {symerror: 0.08776, label: 'pp'}
+    - {symerror: 0.13670, label: 'ncoll'}
+  - value: 0.8616
+    errors:
+    - {symerror: 0.00741, label: 'statAuAu'}
+    - {asymerror: {plus: 0.10899, minus: -0.09753}, label: 'bounds'}
+    - {symerror: 0.08961, label: 'pp'}
+    - {symerror: 0.13958, label: 'ncoll'}
+  - value: 0.8815
+    errors:
+    - {symerror: 0.00635, label: 'statAuAu'}
+    - {asymerror: {plus: 0.10728, minus: -0.09908}, label: 'bounds'}
+    - {symerror: 0.09168, label: 'pp'}
+    - {symerror: 0.14280, label: 'ncoll'}
+  - value: 0.901
+    errors:
+    - {symerror: 0.00820, label: 'statAuAu'}
+    - {asymerror: {plus: 0.10560, minus: -0.10028}, label: 'bounds'}
+    - {symerror: 0.09370, label: 'pp'}
+    - {symerror: 0.14596, label: 'ncoll'}
+  - value: 0.8945
+    errors:
+    - {symerror: 0.01029, label: 'statAuAu'}
+    - {asymerror: {plus: 0.10260, minus: -0.09866}, label: 'bounds'}
+    - {symerror: 0.09303, label: 'pp'}
+    - {symerror: 0.14491, label: 'ncoll'}
+  - value: 0.8921
+    errors:
+    - {symerror: 0.01285, label: 'statAuAu'}
+    - {asymerror: {plus: 0.10143, minus: -0.09760}, label: 'bounds'}
+    - {symerror: 0.09278, label: 'pp'}
+    - {symerror: 0.14452, label: 'ncoll'}
+  - value: 0.8461
+    errors:
+    - {symerror: 0.01540, label: 'statAuAu'}
+    - {asymerror: {plus: 0.09874, minus: -0.09189}, label: 'bounds'}
+    - {symerror: 0.08799, label: 'pp'}
+    - {symerror: 0.13707, label: 'ncoll'}
+  - value: 0.855
+    errors:
+    - {symerror: 0.01736, label: 'statAuAu'}
+    - {asymerror: {plus: 0.10337, minus: -0.09422}, label: 'bounds'}
+    - {symerror: 0.08892, label: 'pp'}
+    - {symerror: 0.13851, label: 'ncoll'}
+  - value: 0.7879
+    errors:
+    - {symerror: 0.02127, label: 'statAuAu'}
+    - {asymerror: {plus: 0.09620, minus: -0.08628}, label: 'bounds'}
+    - {symerror: 0.08194, label: 'pp'}
+    - {symerror: 0.12764, label: 'ncoll'}
+  - value: 0.7717
+    errors:
+    - {symerror: 0.02678, label: 'statAuAu'}
+    - {asymerror: {plus: 0.09515, minus: -0.08419}, label: 'bounds'}
+    - {symerror: 0.08026, label: 'pp'}
+    - {symerror: 0.12502, label: 'ncoll'}
+  - value: 0.7669
+    errors:
+    - {symerror: 0.03328, label: 'statAuAu'}
+    - {asymerror: {plus: 0.09563, minus: -0.08352}, label: 'bounds'}
+    - {symerror: 0.07976, label: 'pp'}
+    - {symerror: 0.12424, label: 'ncoll'}
+  - value: 0.716
+    errors:
+    - {symerror: 0.03258, label: 'statAuAu'}
+    - {asymerror: {plus: 0.09072, minus: -0.07804}, label: 'bounds'}
+    - {symerror: 0.07446, label: 'pp'}
+    - {symerror: 0.11599, label: 'ncoll'}
+  - value: 0.7473
+    errors:
+    - {symerror: 0.04723, label: 'statAuAu'}
+    - {asymerror: {plus: 0.09670, minus: -0.08220}, label: 'bounds'}
+    - {symerror: 0.07772, label: 'pp'}
+    - {symerror: 0.12106, label: 'ncoll'}
+  - value: 0.6324
+    errors:
+    - {symerror: 0.05654, label: 'statAuAu'}
+    - {asymerror: {plus: 0.08386, minus: -0.07077}, label: 'bounds'}
+    - {symerror: 0.06577, label: 'pp'}
+    - {symerror: 0.10245, label: 'ncoll'}
+  - value: 0.6354
+    errors:
+    - {symerror: 0.07834, label: 'statAuAu'}
+    - {asymerror: {plus: 0.08661, minus: -0.07301}, label: 'bounds'}
+    - {symerror: 0.06608, label: 'pp'}
+    - {symerror: 0.10293, label: 'ncoll'}
+  - value: 0.611
+    errors:
+    - {symerror: 0.10424, label: 'statAuAu'}
+    - {asymerror: {plus: 0.08933, minus: -0.07552}, label: 'bounds'}
+    - {symerror: 0.06354, label: 'pp'}
+    - {symerror: 0.09898, label: 'ncoll'}
+  - value: 0.6478
+    errors:
+    - {symerror: 0.13047, label: 'statAuAu'}
+    - {asymerror: {plus: 0.10922, minus: -0.09302}, label: 'bounds'}
+    - {symerror: 0.06737, label: 'pp'}
+    - {symerror: 0.10494, label: 'ncoll'}
+  - value: 0.7969
+    errors:
+    - {symerror: 0.27134, label: 'statAuAu'}
+    - {asymerror: {plus: 0.15500, minus: -0.13515}, label: 'bounds'}
+    - {symerror: 0.08288, label: 'pp'}
+    - {symerror: 0.12910, label: 'ncoll'}
+- header: {name: 'Raa'}
+  qualifiers:
+  - {name: '$p_{T}$(GeV/c)', value: 'h 60-70%'}
+  values:
+  - value: 0.5231
+    errors:
+    - {symerror: 0.00105, label: 'statAuAu'}
+    - {asymerror: {plus: 0.09139, minus: -0.06209}, label: 'bounds'}
+    - {symerror: 0.05440, label: 'pp'}
+    - {symerror: 0.13967, label: 'ncoll'}
+  - value: 0.5511
+    errors:
+    - {symerror: 0.00127, label: 'statAuAu'}
+    - {asymerror: {plus: 0.09633, minus: -0.06514}, label: 'bounds'}
+    - {symerror: 0.05731, label: 'pp'}
+    - {symerror: 0.14714, label: 'ncoll'}
+  - value: 0.5758
+    errors:
+    - {symerror: 0.00150, label: 'statAuAu'}
+    - {asymerror: {plus: 0.10025, minus: -0.06777}, label: 'bounds'}
+    - {symerror: 0.05988, label: 'pp'}
+    - {symerror: 0.15374, label: 'ncoll'}
+  - value: 0.6043
+    errors:
+    - {symerror: 0.00181, label: 'statAuAu'}
+    - {asymerror: {plus: 0.10430, minus: -0.07082}, label: 'bounds'}
+    - {symerror: 0.06285, label: 'pp'}
+    - {symerror: 0.16135, label: 'ncoll'}
+  - value: 0.6221
+    errors:
+    - {symerror: 0.00212, label: 'statAuAu'}
+    - {asymerror: {plus: 0.10601, minus: -0.07254}, label: 'bounds'}
+    - {symerror: 0.06470, label: 'pp'}
+    - {symerror: 0.16610, label: 'ncoll'}
+  - value: 0.6599
+    errors:
+    - {symerror: 0.00257, label: 'statAuAu'}
+    - {asymerror: {plus: 0.11060, minus: -0.07661}, label: 'bounds'}
+    - {symerror: 0.06863, label: 'pp'}
+    - {symerror: 0.17619, label: 'ncoll'}
+  - value: 0.6805
+    errors:
+    - {symerror: 0.00306, label: 'statAuAu'}
+    - {asymerror: {plus: 0.11167, minus: -0.07860}, label: 'bounds'}
+    - {symerror: 0.07077, label: 'pp'}
+    - {symerror: 0.18169, label: 'ncoll'}
+  - value: 0.7149
+    errors:
+    - {symerror: 0.00365, label: 'statAuAu'}
+    - {asymerror: {plus: 0.11438, minus: -0.08214}, label: 'bounds'}
+    - {symerror: 0.07435, label: 'pp'}
+    - {symerror: 0.19088, label: 'ncoll'}
+  - value: 0.7425
+    errors:
+    - {symerror: 0.00431, label: 'statAuAu'}
+    - {asymerror: {plus: 0.11531, minus: -0.08487}, label: 'bounds'}
+    - {symerror: 0.07722, label: 'pp'}
+    - {symerror: 0.19825, label: 'ncoll'}
+  - value: 0.7581
+    errors:
+    - {symerror: 0.00508, label: 'statAuAu'}
+    - {asymerror: {plus: 0.11364, minus: -0.08627}, label: 'bounds'}
+    - {symerror: 0.07884, label: 'pp'}
+    - {symerror: 0.20241, label: 'ncoll'}
+  - value: 0.803
+    errors:
+    - {symerror: 0.00602, label: 'statAuAu'}
+    - {asymerror: {plus: 0.11571, minus: -0.09090}, label: 'bounds'}
+    - {symerror: 0.08351, label: 'pp'}
+    - {symerror: 0.21440, label: 'ncoll'}
+  - value: 0.8208
+    errors:
+    - {symerror: 0.00698, label: 'statAuAu'}
+    - {asymerror: {plus: 0.11319, minus: -0.09242}, label: 'bounds'}
+    - {symerror: 0.08536, label: 'pp'}
+    - {symerror: 0.21915, label: 'ncoll'}
+  - value: 0.832
+    errors:
+    - {symerror: 0.00807, label: 'statAuAu'}
+    - {asymerror: {plus: 0.11016, minus: -0.09318}, label: 'bounds'}
+    - {symerror: 0.08653, label: 'pp'}
+    - {symerror: 0.22214, label: 'ncoll'}
+  - value: 0.8517
+    errors:
+    - {symerror: 0.00937, label: 'statAuAu'}
+    - {asymerror: {plus: 0.10868, minus: -0.09488}, label: 'bounds'}
+    - {symerror: 0.08858, label: 'pp'}
+    - {symerror: 0.22740, label: 'ncoll'}
+  - value: 0.8673
+    errors:
+    - {symerror: 0.01075, label: 'statAuAu'}
+    - {asymerror: {plus: 0.10711, minus: -0.09610}, label: 'bounds'}
+    - {symerror: 0.09020, label: 'pp'}
+    - {symerror: 0.23157, label: 'ncoll'}
+  - value: 0.8703
+    errors:
+    - {symerror: 0.00923, label: 'statAuAu'}
+    - {asymerror: {plus: 0.10313, minus: -0.09573}, label: 'bounds'}
+    - {symerror: 0.09051, label: 'pp'}
+    - {symerror: 0.23237, label: 'ncoll'}
+  - value: 0.8747
+    errors:
+    - {symerror: 0.01172, label: 'statAuAu'}
+    - {asymerror: {plus: 0.09963, minus: -0.09525}, label: 'bounds'}
+    - {symerror: 0.09097, label: 'pp'}
+    - {symerror: 0.23354, label: 'ncoll'}
+  - value: 0.9038
+    errors:
+    - {symerror: 0.01509, label: 'statAuAu'}
+    - {asymerror: {plus: 0.10059, minus: -0.09743}, label: 'bounds'}
+    - {symerror: 0.09400, label: 'pp'}
+    - {symerror: 0.24131, label: 'ncoll'}
+  - value: 0.9107
+    errors:
+    - {symerror: 0.01885, label: 'statAuAu'}
+    - {asymerror: {plus: 0.10045, minus: -0.09735}, label: 'bounds'}
+    - {symerror: 0.09471, label: 'pp'}
+    - {symerror: 0.24316, label: 'ncoll'}
+  - value: 0.868
+    errors:
+    - {symerror: 0.02283, label: 'statAuAu'}
+    - {asymerror: {plus: 0.09843, minus: -0.09201}, label: 'bounds'}
+    - {symerror: 0.09027, label: 'pp'}
+    - {symerror: 0.23176, label: 'ncoll'}
+  - value: 0.8797
+    errors:
+    - {symerror: 0.02551, label: 'statAuAu'}
+    - {asymerror: {plus: 0.10354, minus: -0.09474}, label: 'bounds'}
+    - {symerror: 0.09149, label: 'pp'}
+    - {symerror: 0.23488, label: 'ncoll'}
+  - value: 0.8442
+    errors:
+    - {symerror: 0.03200, label: 'statAuAu'}
+    - {asymerror: {plus: 0.10038, minus: -0.09033}, label: 'bounds'}
+    - {symerror: 0.08780, label: 'pp'}
+    - {symerror: 0.22540, label: 'ncoll'}
+  - value: 0.8364
+    errors:
+    - {symerror: 0.04006, label: 'statAuAu'}
+    - {asymerror: {plus: 0.10054, minus: -0.08908}, label: 'bounds'}
+    - {symerror: 0.08699, label: 'pp'}
+    - {symerror: 0.22332, label: 'ncoll'}
+  - value: 0.8696
+    errors:
+    - {symerror: 0.05131, label: 'statAuAu'}
+    - {asymerror: {plus: 0.10574, minus: -0.09244}, label: 'bounds'}
+    - {symerror: 0.09044, label: 'pp'}
+    - {symerror: 0.23218, label: 'ncoll'}
+  - value: 0.8807
+    errors:
+    - {symerror: 0.05170, label: 'statAuAu'}
+    - {asymerror: {plus: 0.10885, minus: -0.09379}, label: 'bounds'}
+    - {symerror: 0.09159, label: 'pp'}
+    - {symerror: 0.23515, label: 'ncoll'}
+  - value: 0.7358
+    errors:
+    - {symerror: 0.06652, label: 'statAuAu'}
+    - {asymerror: {plus: 0.09301, minus: -0.07910}, label: 'bounds'}
+    - {symerror: 0.07652, label: 'pp'}
+    - {symerror: 0.19646, label: 'ncoll'}
+  - value: 0.7135
+    errors:
+    - {symerror: 0.08526, label: 'statAuAu'}
+    - {asymerror: {plus: 0.09254, minus: -0.07813}, label: 'bounds'}
+    - {symerror: 0.07420, label: 'pp'}
+    - {symerror: 0.19050, label: 'ncoll'}
+  - value: 0.6893
+    errors:
+    - {symerror: 0.12407, label: 'statAuAu'}
+    - {asymerror: {plus: 0.09202, minus: -0.07762}, label: 'bounds'}
+    - {symerror: 0.07169, label: 'pp'}
+    - {symerror: 0.18404, label: 'ncoll'}
+  - value: 0.7619
+    errors:
+    - {symerror: 0.17806, label: 'statAuAu'}
+    - {asymerror: {plus: 0.10933, minus: -0.09249}, label: 'bounds'}
+    - {symerror: 0.07924, label: 'pp'}
+    - {symerror: 0.20343, label: 'ncoll'}
+  - value: 0.69
+    errors:
+    - {symerror: 0.18395, label: 'statAuAu'}
+    - {asymerror: {plus: 0.11475, minus: -0.09791}, label: 'bounds'}
+    - {symerror: 0.07176, label: 'pp'}
+    - {symerror: 0.18423, label: 'ncoll'}
+  - value: 0.6192
+    errors:
+    - {symerror: 0.45740, label: 'statAuAu'}
+    - {asymerror: {plus: 0.11920, minus: -0.10421}, label: 'bounds'}
+    - {symerror: 0.06440, label: 'pp'}
+    - {symerror: 0.16533, label: 'ncoll'}
