@@ -1,0 +1,138 @@
+independent_variables:
+- header: {name: '$p_T$'}
+  values:
+  - {low: 0.2, high: 0.4}
+  - {low: 0.4, high: 0.6}
+  - {low: 0.6, high: 0.8}
+  - {low: 0.8, high: 1}
+  - {low: 1, high: 1.2}
+  - {low: 1.2, high: 1.4}
+  - {low: 1.4, high: 1.6}
+  - {low: 1.6, high: 1.8}
+  - {low: 1.8, high: 2}
+  - {low: 2, high: 2.2}
+  - {low: 2.2, high: 2.4}
+  - {low: 2.4, high: 2.6}
+  - {low: 2.6, high: 2.8}
+  - {low: 2.8, high: 3}
+dependent_variables:
+- header: {name: '$v_2$'}
+  qualifiers:
+  - {name: '$p_T$', value: 'p+Au at 200 GeV, FVTXS-CNT-FVTXN'}
+  values:
+  - value: 0.0312868
+    errors:
+    - {symerror: 0.000511217, label: 'stat'}
+    - {asymerror: {plus: 0.000864299, minus: -0.000828914}, label: 'sys'}
+  - value: 0.0476782
+    errors:
+    - {symerror: 0.0006538, label: 'stat'}
+    - {asymerror: {plus: 0.00131711, minus: -0.00126319}, label: 'sys'}
+  - value: 0.0646871
+    errors:
+    - {symerror: 0.000847185, label: 'stat'}
+    - {asymerror: {plus: 0.00178698, minus: -0.00171382}, label: 'sys'}
+  - value: 0.0852247
+    errors:
+    - {symerror: 0.00108185, label: 'stat'}
+    - {asymerror: {plus: 0.00235434, minus: -0.00225795}, label: 'sys'}
+  - value: 0.105377
+    errors:
+    - {symerror: 0.00138027, label: 'stat'}
+    - {asymerror: {plus: 0.00291104, minus: -0.00279186}, label: 'sys'}
+  - value: 0.122668
+    errors:
+    - {symerror: 0.00177655, label: 'stat'}
+    - {asymerror: {plus: 0.0033887, minus: -0.00324996}, label: 'sys'}
+  - value: 0.141066
+    errors:
+    - {symerror: 0.00223902, label: 'stat'}
+    - {asymerror: {plus: 0.00389696, minus: -0.00373742}, label: 'sys'}
+  - value: 0.157288
+    errors:
+    - {symerror: 0.00276471, label: 'stat'}
+    - {asymerror: {plus: 0.00434508, minus: -0.00416719}, label: 'sys'}
+  - value: 0.176507
+    errors:
+    - {symerror: 0.00347034, label: 'stat'}
+    - {asymerror: {plus: 0.00487601, minus: -0.00467638}, label: 'sys'}
+  - value: 0.187128
+    errors:
+    - {symerror: 0.00436003, label: 'stat'}
+    - {asymerror: {plus: 0.00516941, minus: -0.00495778}, label: 'sys'}
+  - value: 0.20532
+    errors:
+    - {symerror: 0.00533635, label: 'stat'}
+    - {asymerror: {plus: 0.00567198, minus: -0.00543977}, label: 'sys'}
+  - value: 0.227665
+    errors:
+    - {symerror: 0.00632203, label: 'stat'}
+    - {asymerror: {plus: 0.00628926, minus: -0.00603178}, label: 'sys'}
+  - value: 0.230508
+    errors:
+    - {symerror: 0.00792761, label: 'stat'}
+    - {asymerror: {plus: 0.0063678, minus: -0.0061071}, label: 'sys'}
+  - value: 0.254998
+    errors:
+    - {symerror: 0.0096678, label: 'stat'}
+    - {asymerror: {plus: 0.00704434, minus: -0.00675595}, label: 'sys'}
+- header: {name: '$v_2$'}
+  qualifiers:
+  - {name: '$p_T$', value: 'p+Au at 200 GeV, BBCS-FVTXS-CNT'}
+  values:
+  - value: 0.0201984
+    errors:
+    - {symerror: 0.000278493, label: 'stat'}
+    - {asymerror: {plus: 0.00104802, minus: -0.00145321}, label: 'sys'}
+  - value: 0.0335658
+    errors:
+    - {symerror: 0.000342754, label: 'stat'}
+    - {asymerror: {plus: 0.00174161, minus: -0.00241495}, label: 'sys'}
+  - value: 0.0473004
+    errors:
+    - {symerror: 0.000435416, label: 'stat'}
+    - {asymerror: {plus: 0.00245425, minus: -0.00340311}, label: 'sys'}
+  - value: 0.0597412
+    errors:
+    - {symerror: 0.000568032, label: 'stat'}
+    - {asymerror: {plus: 0.00309976, minus: -0.00429818}, label: 'sys'}
+  - value: 0.0729661
+    errors:
+    - {symerror: 0.000730988, label: 'stat'}
+    - {asymerror: {plus: 0.00378596, minus: -0.00524967}, label: 'sys'}
+  - value: 0.0856915
+    errors:
+    - {symerror: 0.000932938, label: 'stat'}
+    - {asymerror: {plus: 0.00444623, minus: -0.00616522}, label: 'sys'}
+  - value: 0.0983333
+    errors:
+    - {symerror: 0.00117975, label: 'stat'}
+    - {asymerror: {plus: 0.00510217, minus: -0.00707476}, label: 'sys'}
+  - value: 0.105792
+    errors:
+    - {symerror: 0.00148597, label: 'stat'}
+    - {asymerror: {plus: 0.0054892, minus: -0.00761142}, label: 'sys'}
+  - value: 0.115026
+    errors:
+    - {symerror: 0.00188394, label: 'stat'}
+    - {asymerror: {plus: 0.0059683, minus: -0.00827574}, label: 'sys'}
+  - value: 0.117382
+    errors:
+    - {symerror: 0.00239559, label: 'stat'}
+    - {asymerror: {plus: 0.00609055, minus: -0.00844525}, label: 'sys'}
+  - value: 0.128918
+    errors:
+    - {symerror: 0.00294269, label: 'stat'}
+    - {asymerror: {plus: 0.00668912, minus: -0.00927525}, label: 'sys'}
+  - value: 0.132361
+    errors:
+    - {symerror: 0.00361287, label: 'stat'}
+    - {asymerror: {plus: 0.00686773, minus: -0.00952291}, label: 'sys'}
+  - value: 0.138631
+    errors:
+    - {symerror: 0.00445623, label: 'stat'}
+    - {asymerror: {plus: 0.00719307, minus: -0.00997403}, label: 'sys'}
+  - value: 0.142355
+    errors:
+    - {symerror: 0.00563041, label: 'stat'}
+    - {asymerror: {plus: 0.00738629, minus: -0.0102419}, label: 'sys'}
