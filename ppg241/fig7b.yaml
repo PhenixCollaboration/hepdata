@@ -1,5 +1,5 @@
 independent_variables:
-- header: {name: '$p_T$'}
+- header: {name: '$p_T$ (GeV/$c$)'}
   values:
   - {low: 0.2, high: 0.4}
   - {low: 0.4, high: 0.6}
@@ -18,7 +18,7 @@ independent_variables:
 dependent_variables:
 - header: {name: '$v_3$'}
   qualifiers:
-  - {name: '$p_T$', value: 'd+Au at 200 GeV, FVTXS-CNT-FVTXN'}
+  - {name: '', value: 'd+Au at 200 GeV, 0-5% central, FVTXS-CNT-FVTXN'}
   values:
   - value: 0.0151005
     errors:
@@ -78,7 +78,7 @@ dependent_variables:
     - {asymerror: {plus: 0.0260174, minus: -0.0279878}, label: 'sys'}
 - header: {name: '$v_3$'}
   qualifiers:
-  - {name: '$p_T$', value: 'd+Au at 200 GeV, BBCS-FVTXS-CNT'}
+  - {name: '', value: 'd+Au at 200 GeV, 0-5% central, BBCS-FVTXS-CNT'}
   values:
   - value: 0.00188893
     errors:
