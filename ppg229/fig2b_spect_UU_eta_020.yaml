@@ -1,0 +1,86 @@
+independent_variables:
+- header: {name: '$p_T$'}
+  values:
+  - {low: 2, high: 2.5}
+  - {low: 2.5, high: 3}
+  - {low: 3, high: 3.5}
+  - {low: 3.5, high: 4}
+  - {low: 4, high: 4.5}
+  - {low: 4.5, high: 5}
+  - {low: 5, high: 6}
+  - {low: 6, high: 7}
+  - {low: 7, high: 8}
+  - {low: 8, high: 9}
+  - {low: 9, high: 10}
+  - {low: 10, high: 12}
+  - {low: 12, high: 14}
+dependent_variables:
+- header: {name: 'Invariant yield'}
+  qualifiers:
+  - {name: '$p_T$ (GeV/$c$)', value: '$\frac{1}{N_{event}}\frac{d^2N}{2pi p_T dp_T dy}$ ((GeV/$c$)^{-2})'}
+  values:
+  - value: 0.03648059
+    errors:
+    - {symerror: 0.003380209, label: 'Stat.+Sys. A'}
+    - {symerror: 0.003453299, label: 'Sys. B'}
+    - {symerror: 0.001896991, label: 'Sys. C'}
+  - value: 0.00906802
+    errors:
+    - {symerror: 0.000743501, label: 'Stat.+Sys. A'}
+    - {symerror: 0.0008327849, label: 'Sys. B'}
+    - {symerror: 0.0004715371, label: 'Sys. C'}
+  - value: 0.002349272
+    errors:
+    - {symerror: 0.0002272613, label: 'Stat.+Sys. A'}
+    - {symerror: 0.0002159138, label: 'Sys. B'}
+    - {symerror: 0.0001221621, label: 'Sys. C'}
+  - value: 0.00062888
+    errors:
+    - {symerror: 0.00008535381, label: 'Stat.+Sys. A'}
+    - {symerror: 0.00005984127, label: 'Sys. B'}
+    - {symerror: 0.00003270176, label: 'Sys. C'}
+  - value: 0.000200655
+    errors:
+    - {symerror: 0.00003401926, label: 'Stat.+Sys. A'}
+    - {symerror: 0.00001891486, label: 'Sys. B'}
+    - {symerror: 0.00001043406, label: 'Sys. C'}
+  - value: 0.0001057982
+    errors:
+    - {symerror: 0.00001504349, label: 'Stat.+Sys. A'}
+    - {symerror: 0.00000929471, label: 'Sys. B'}
+    - {symerror: 0.000005501504, label: 'Sys. C'}
+  - value: 0.0000307516
+    errors:
+    - {symerror: 0.000003867935, label: 'Stat.+Sys. A'}
+    - {symerror: 0.00000275257, label: 'Sys. B'}
+    - {symerror: 0.000001599083, label: 'Sys. C'}
+  - value: 0.000007578081
+    errors:
+    - {symerror: 0.000001215431, label: 'Stat.+Sys. A'}
+    - {symerror: 0.0000006613389, label: 'Sys. B'}
+    - {symerror: 0.0000003940602, label: 'Sys. C'}
+  - value: 0.00000235548
+    errors:
+    - {symerror: 0.000000419466, label: 'Stat.+Sys. A'}
+    - {symerror: 0.0000001922234, label: 'Sys. B'}
+    - {symerror: 0.000000122485, label: 'Sys. C'}
+  - value: 0.0000007843106
+    errors:
+    - {symerror: 0.0000002009259, label: 'Stat.+Sys. A'}
+    - {symerror: 0.00000007110484, label: 'Sys. B'}
+    - {symerror: 0.00000004078415, label: 'Sys. C'}
+  - value: 0.000000447979
+    errors:
+    - {symerror: 0.0000000980683, label: 'Stat.+Sys. A'}
+    - {symerror: 0.00000003848519, label: 'Sys. B'}
+    - {symerror: 0.00000002329491, label: 'Sys. C'}
+  - value: 0.0000001556452
+    errors:
+    - {symerror: 0.00000002663191, label: 'Stat.+Sys. A'}
+    - {symerror: 0.00000001169239, label: 'Sys. B'}
+    - {symerror: 0.000000008093551, label: 'Sys. C'}
+  - value: 0.00000005169073
+    errors:
+    - {symerror: 0.000000010925, label: 'Stat.+Sys. A'}
+    - {symerror: 0.000000004469705, label: 'Sys. B'}
+    - {symerror: 0.000000002687918, label: 'Sys. C'}
