@@ -1,0 +1,58 @@
+independent_variables:
+- header: {name: 'centrality'}
+  values:
+  - {low: 0, high: 10}
+  - {low: 10, high: 20}
+  - {low: 20, high: 30}
+  - {low: 30, high: 40}
+  - {low: 40, high: 50}
+  - {low: 50, high: 60}
+  - {low: 60, high: 70}
+  - {low: 70, high: 80}
+  - {low: 80, high: 92}
+  - {low: 0, high: 5}
+dependent_variables:
+- header: {name: 'Intergrated nuclear modification factor ($p_T>5$ GeV/$c$)'}
+  qualifiers:
+  - {name: 'centrality', value: '$\langle R_{AA}\rangle$'}
+  values:
+  - value: 0.193
+    errors:
+    - {symerror: 0.00207, label: 'Stat.+Sys. A'}
+    - {symerror: 0.0327617, label: 'Sys. B + C'}
+  - value: 0.259
+    errors:
+    - {symerror: 0.0026, label: 'Stat.+Sys. A'}
+    - {symerror: 0.0442938, label: 'Sys. B + C'}
+  - value: 0.325
+    errors:
+    - {symerror: 0.00329, label: 'Stat.+Sys. A'}
+    - {symerror: 0.0570375, label: 'Sys. B + C'}
+  - value: 0.404
+    errors:
+    - {symerror: 0.00433, label: 'Stat.+Sys. A'}
+    - {symerror: 0.0714206, label: 'Sys. B + C'}
+  - value: 0.52
+    errors:
+    - {symerror: 0.00614, label: 'Stat.+Sys. A'}
+    - {symerror: 0.0956837, label: 'Sys. B + C'}
+  - value: 0.646
+    errors:
+    - {symerror: 0.00878, label: 'Stat.+Sys. A'}
+    - {symerror: 0.143608, label: 'Sys. B + C'}
+  - value: 0.743
+    errors:
+    - {symerror: 0.0128, label: 'Stat.+Sys. A'}
+    - {symerror: 0.228567, label: 'Sys. B + C'}
+  - value: 0.801
+    errors:
+    - {symerror: 0.0205, label: 'Stat.+Sys. A'}
+    - {symerror: 0.294398, label: 'Sys. B + C'}
+  - value: 0.778
+    errors:
+    - {symerror: 0.0278, label: 'Stat.+Sys. A'}
+    - {symerror: 0.229156, label: 'Sys. B + C'}
+  - value: 0.18
+    errors:
+    - {symerror: 0.00259, label: 'Stat.+Sys. A'}
+    - {symerror: 0.0309119, label: 'Sys. B + C'}
