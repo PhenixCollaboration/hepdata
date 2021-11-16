@@ -1,0 +1,85 @@
+independent_variables:
+- header: {name: '$centrality$'}
+  values:
+  - {low: 0, high: 20}
+  - {low: 20, high: 40}
+  - {low: 40, high: 60}
+  - {low: 60, high: 88}
+  - {low: 0, high: 5}
+dependent_variables:
+- header: {name: '$N_{coll}$ in $^3He+Au$'}
+  qualifiers:
+  - {name: '$centrality$', value: '$p_{t} >8 GeV/c$'}
+  values:
+  - value: 2.230e+01
+    errors:
+    - {symerror: 5.200e-01, label: 'anti-co.'}
+  - value: 1.480e+01
+    errors:
+    - {symerror: 3.700e-01, label: 'anti-co.'}
+  - value: 8.400e+00
+    errors:
+    - {symerror: 2.500e-01, label: 'anti-co.'}
+  - value: 3.400e+00
+    errors:
+    - {symerror: 1.200e-01, label: 'anti-co.'}
+  - value: 2.680e+01
+    errors:
+    - {symerror: 6.400e-01, label: 'anti-co.'}
+- header: {name: '$N_{coll}$ in $d+Au$'}
+  qualifiers:
+  - {name: '$centrality$', value: '$p_{t} >8 GeV/c$'}
+  values:
+  - value: 1.510e+01
+    errors:
+    - {symerror: 5.000e-01, label: 'anti-co.'}
+  - value: 1.020e+01
+    errors:
+    - {symerror: 3.900e-01, label: 'anti-co.'}
+  - value: 6.600e+00
+    errors:
+    - {symerror: 2.800e-01, label: 'anti-co.'}
+  - value: 3.200e+00
+    errors:
+    - {symerror: 1.500e-01, label: 'anti-co.'}
+  - value: --
+    errors:
+    - {symerror: --, label: 'anti-co.'}
+- header: {name: '$N_{coll}$ in $p+Au$'}
+  qualifiers:
+  - {name: '$centrality$', value: '$p_{t} >8 GeV/c$'}
+  values:
+  - value: 8.200e+00
+    errors:
+    - {symerror: 5.000e-01, label: 'anti-co.'}
+  - value: 6.100e+00
+    errors:
+    - {symerror: 4.000e-01, label: 'anti-co.'}
+  - value: 4.400e+00
+    errors:
+    - {symerror: 3.000e-01, label: 'anti-co.'}
+  - value: 2.600e+00
+    errors:
+    - {symerror: 2.000e-01, label: 'anti-co.'}
+  - value: 9.700e+00
+    errors:
+    - {symerror: 6.000e-01, label: 'anti-co.'}
+- header: {name: '$N_{coll}$ in $p+Al$'}
+  qualifiers:
+  - {name: '$centrality$', value: '$p_{t} >8 GeV/c$'}
+  values:
+  - value: 3.400e+00
+    errors:
+    - {symerror: 3.000e-01, label: 'anti-co.'}
+  - value: 2.300e+00
+    errors:
+    - {symerror: 1.000e-01, label: 'anti-co.'}
+  - value: 1.800e+00
+    errors:
+    - {symerror: 1.000e-01, label: 'anti-co.'}
+  - value: 1.300e+00
+    errors:
+    - {symerror: 1.000e-01, label: 'anti-co.'}
+  - value: 4.100e+00
+    errors:
+    - {symerror: 3.000e-01, label: 'anti-co.'}

@@ -1,0 +1,150 @@
+independent_variables:
+- header: {name: 'centrality'}
+  values:
+  - {low: 0, high: 20}
+  - {low: 20, high: 40}
+  - {low: 40, high: 60}
+  - {low: 60, high: 88}
+  - {low: 0, high: 100}
+  - {low: 0, high: 5}
+dependent_variables:
+- header: {name: '$dN_{ch}/d\eta$ in $^3He+Au$'}
+  qualifiers:
+  - {name: 'centrality', value: '$1 < p_{t} <2 GeV/c$'}
+  values:
+  - value: 2.127e+01
+    errors:
+    - {symerror: 2.325e+00, label: 'stat.'}
+    - {symerror: 6.115e-01, label: 'sys.'}
+  - value: 1.610e+01
+    errors:
+    - {symerror: 1.800e+00, label: 'stat.'}
+    - {symerror: 5.558e-01, label: 'sys.'}
+  - value: 1.030e+01
+    errors:
+    - {symerror: 1.100e+00, label: 'stat.'}
+    - {symerror: 4.664e-01, label: 'sys.'}
+  - value: 4.400e+00
+    errors:
+    - {symerror: 5.000e-01, label: 'stat.'}
+    - {symerror: 2.963e-01, label: 'sys.'}
+  - value: --
+    errors:
+    - {symerror: --, label: 'stat.'}
+    - {symerror: --, label: 'sys.'}
+  - value: 2.360e+01
+    errors:
+    - {symerror: 2.600e+00, label: 'stat.'}
+    - {symerror: 6.322e-01, label: 'sys.'}
+- header: {name: '$dN_{ch}/d\eta$ in $d+Au$'}
+  qualifiers:
+  - {name: 'centrality', value: '$1 < p_{t} <2 GeV/c$'}
+  values:
+  - value: 1.638e+01
+    errors:
+    - {symerror: 1.200e+00, label: 'stat.'}
+    - {symerror: 5.592e-01, label: 'sys.'}
+  - value: 1.220e+01
+    errors:
+    - {symerror: 9.000e-01, label: 'stat.'}
+    - {symerror: 5.003e-01, label: 'sys.'}
+  - value: 8.700e+00
+    errors:
+    - {symerror: 6.000e-01, label: 'stat.'}
+    - {symerror: 4.327e-01, label: 'sys.'}
+  - value: 4.100e+00
+    errors:
+    - {symerror: 3.000e-01, label: 'stat.'}
+    - {symerror: 2.822e-01, label: 'sys.'}
+  - value: --
+    errors:
+    - {symerror: --, label: 'stat.'}
+    - {symerror: --, label: 'sys.'}
+  - value: --
+    errors:
+    - {symerror: --, label: 'stat.'}
+    - {symerror: --, label: 'sys.'}
+- header: {name: '$dN_{ch}/d\eta$ in $p+Au$'}
+  qualifiers:
+  - {name: 'centrality', value: '$1 < p_{t} <2 GeV/c$'}
+  values:
+  - value: 1.038e+01
+    errors:
+    - {symerror: 1.450e+00, label: 'stat.'}
+    - {symerror: 4.679e-01, label: 'sys.'}
+  - value: 7.700e+00
+    errors:
+    - {symerror: 1.100e+00, label: 'stat.'}
+    - {symerror: 4.082e-01, label: 'sys.'}
+  - value: 5.700e+00
+    errors:
+    - {symerror: 8.000e-01, label: 'stat.'}
+    - {symerror: 3.481e-01, label: 'sys.'}
+  - value: 3.500e+00
+    errors:
+    - {symerror: 5.000e-01, label: 'stat.'}
+    - {symerror: 2.506e-01, label: 'sys.'}
+  - value: --
+    errors:
+    - {symerror: --, label: 'stat.'}
+    - {symerror: --, label: 'sys.'}
+  - value: 1.230e+01
+    errors:
+    - {symerror: 1.700e+00, label: 'stat.'}
+    - {symerror: 5.019e-01, label: 'sys.'}
+- header: {name: '$dN_{ch}/d\eta$ in $p+Al$'}
+  qualifiers:
+  - {name: 'centrality', value: '$1 < p_{t} <2 GeV/c$'}
+  values:
+  - value: 5.125e+00
+    errors:
+    - {symerror: 7.250e-01, label: 'stat.'}
+    - {symerror: 3.268e-01, label: 'sys.'}
+  - value: 4.000e+00
+    errors:
+    - {symerror: 6.000e-01, label: 'stat.'}
+    - {symerror: 2.773e-01, label: 'sys.'}
+  - value: 3.320e+00
+    errors:
+    - {symerror: 3.000e-01, label: 'stat.'}
+    - {symerror: 2.400e-01, label: 'sys.'}
+  - value: 2.700e+00
+    errors:
+    - {symerror: 1.000e-01, label: 'stat.'}
+    - {symerror: 1.987e-01, label: 'sys.'}
+  - value: --
+    errors:
+    - {symerror: --, label: 'stat.'}
+    - {symerror: --, label: 'sys.'}
+  - value: 5.500e+00
+    errors:
+    - {symerror: 8.000e-01, label: 'stat.'}
+    - {symerror: 3.409e-01, label: 'sys.'}
+- header: {name: '$dN_{ch}/d\eta$ in $p+p$'}
+  qualifiers:
+  - {name: 'centrality', value: '$1 < p_{t} <2 GeV/c$'}
+  values:
+  - value: --
+    errors:
+    - {symerror: --, label: 'stat.'}
+    - {symerror: --, label: 'sys.'}
+  - value: --
+    errors:
+    - {symerror: --, label: 'stat.'}
+    - {symerror: --, label: 'sys.'}
+  - value: --
+    errors:
+    - {symerror: --, label: 'stat.'}
+    - {symerror: --, label: 'sys.'}
+  - value: --
+    errors:
+    - {symerror: --, label: 'stat.'}
+    - {symerror: --, label: 'sys.'}
+  - value: 2.380e+00
+    errors:
+    - {symerror: 9.000e-02, label: 'stat.'}
+    - {symerror: 2.601e-01, label: 'sys.'}
+  - value: --
+    errors:
+    - {symerror: --, label: 'stat.'}
+    - {symerror: --, label: 'sys.'}
