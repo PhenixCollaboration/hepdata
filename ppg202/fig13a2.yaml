@@ -1,0 +1,150 @@
+independent_variables:
+- header: {name: 'centrality'}
+  values:
+  - {low: 0, high: 20}
+  - {low: 20, high: 40}
+  - {low: 40, high: 60}
+  - {low: 60, high: 88}
+  - {low: 0, high: 100}
+  - {low: 0, high: 5}
+dependent_variables:
+- header: {name: 'Intergrated yield  in $^3He+Au$'}
+  qualifiers:
+  - {name: 'centrality', value: '$1 < p_{t} <2 GeV/c$'}
+  values:
+  - value: 6.521e-01
+    errors:
+    - {symerror: 5.001e-04, label: 'stat.'}
+    - {symerror: 4.996e-02, label: 'sys.'}
+  - value: 5.223e-01
+    errors:
+    - {symerror: 4.274e-04, label: 'stat.'}
+    - {symerror: 4.001e-02, label: 'sys.'}
+  - value: 3.038e-01
+    errors:
+    - {symerror: 2.859e-04, label: 'stat.'}
+    - {symerror: 2.327e-02, label: 'sys.'}
+  - value: 1.266e-01
+    errors:
+    - {symerror: 1.394e-04, label: 'stat.'}
+    - {symerror: 9.695e-03, label: 'sys.'}
+  - value: --
+    errors:
+    - {symerror: --, label: 'stat.'}
+    - {symerror: --, label: 'sys.'}
+  - value: 7.378e-01
+    errors:
+    - {symerror: 5.393e-04, label: 'stat.'}
+    - {symerror: 5.107e-02, label: 'sys.'}
+- header: {name: 'Intergrated yield  in $d+Au$'}
+  qualifiers:
+  - {name: 'centrality', value: '$1 < p_{t} <2 GeV/c$'}
+  values:
+  - value: 5.195e-01
+    errors:
+    - {symerror: 1.182e-04, label: 'stat.'}
+    - {symerror: 3.766e-02, label: 'sys.'}
+  - value: 3.839e-01
+    errors:
+    - {symerror: 1.060e-04, label: 'stat.'}
+    - {symerror: 2.784e-02, label: 'sys.'}
+  - value: 2.677e-01
+    errors:
+    - {symerror: 9.125e-05, label: 'stat.'}
+    - {symerror: 1.941e-02, label: 'sys.'}
+  - value: 1.274e-01
+    errors:
+    - {symerror: 5.254e-05, label: 'stat.'}
+    - {symerror: 9.239e-03, label: 'sys.'}
+  - value: --
+    errors:
+    - {symerror: --, label: 'stat.'}
+    - {symerror: --, label: 'sys.'}
+  - value: --
+    errors:
+    - {symerror: --, label: 'stat.'}
+    - {symerror: --, label: 'sys.'}
+- header: {name: 'Intergrated yield  in $p+Au$'}
+  qualifiers:
+  - {name: 'centrality', value: '$1 < p_{t} <2 GeV/c$'}
+  values:
+  - value: 2.960e-01
+    errors:
+    - {symerror: 3.016e-04, label: 'stat.'}
+    - {symerror: 2.276e-02, label: 'sys.'}
+  - value: 2.167e-01
+    errors:
+    - {symerror: 2.514e-04, label: 'stat.'}
+    - {symerror: 1.666e-02, label: 'sys.'}
+  - value: 1.698e-01
+    errors:
+    - {symerror: 2.278e-04, label: 'stat.'}
+    - {symerror: 1.305e-02, label: 'sys.'}
+  - value: 9.416e-02
+    errors:
+    - {symerror: 1.477e-04, label: 'stat.'}
+    - {symerror: 7.235e-03, label: 'sys.'}
+  - value: --
+    errors:
+    - {symerror: --, label: 'stat.'}
+    - {symerror: --, label: 'sys.'}
+  - value: 3.866e-01
+    errors:
+    - {symerror: 1.455e-04, label: 'stat.'}
+    - {symerror: 2.971e-02, label: 'sys.'}
+- header: {name: 'Intergrated yield  in $p+Al$'}
+  qualifiers:
+  - {name: 'centrality', value: '$1 < p_{t} <2 GeV/c$'}
+  values:
+  - value: 1.205e-01
+    errors:
+    - {symerror: 2.153e-04, label: 'stat.'}
+    - {symerror: 9.218e-03, label: 'sys.'}
+  - value: 8.664e-02
+    errors:
+    - {symerror: 1.865e-04, label: 'stat.'}
+    - {symerror: 6.626e-03, label: 'sys.'}
+  - value: 6.646e-02
+    errors:
+    - {symerror: 1.689e-04, label: 'stat.'}
+    - {symerror: 5.084e-03, label: 'sys.'}
+  - value: 5.478e-02
+    errors:
+    - {symerror: 2.132e-04, label: 'stat.'}
+    - {symerror: 4.189e-03, label: 'sys.'}
+  - value: --
+    errors:
+    - {symerror: --, label: 'stat.'}
+    - {symerror: --, label: 'sys.'}
+  - value: 1.554e-01
+    errors:
+    - {symerror: 9.097e-05, label: 'stat.'}
+    - {symerror: 1.195e-02, label: 'sys.'}
+- header: {name: 'Intergrated yield  in $p+p$'}
+  qualifiers:
+  - {name: 'centrality', value: '$1 < p_{t} <2 GeV/c$'}
+  values:
+  - value: --
+    errors:
+    - {symerror: --, label: 'stat.'}
+    - {symerror: --, label: 'sys.'}
+  - value: --
+    errors:
+    - {symerror: --, label: 'stat.'}
+    - {symerror: --, label: 'sys.'}
+  - value: --
+    errors:
+    - {symerror: --, label: 'stat.'}
+    - {symerror: --, label: 'sys.'}
+  - value: --
+    errors:
+    - {symerror: --, label: 'stat.'}
+    - {symerror: --, label: 'sys.'}
+  - value: 4.484e-02
+    errors:
+    - {symerror: 1.740e-05, label: 'stat.'}
+    - {symerror: 2.465e-03, label: 'sys.'}
+  - value: --
+    errors:
+    - {symerror: --, label: 'stat.'}
+    - {symerror: --, label: 'sys.'}
