@@ -1,5 +1,5 @@
 independent_variables:
-- header: {name: '$p_T$'}
+- header: {name: '$p_T$ (GeV/$c$)'}
   values:
   - {low: 0.2, high: 0.4}
   - {low: 0.4, high: 0.6}
@@ -18,7 +18,7 @@ independent_variables:
 dependent_variables:
 - header: {name: '$v_2$'}
   qualifiers:
-  - {name: '$p_T$', value: 'd+Au at 200 GeV, BBCS-FVTXS-CNT'}
+  - {name: '', value: 'd+Au at 200 GeV, 0-5% central, BBCS-FVTXS-CNT'}
   values:
   - value: 0.0287282
     errors:
