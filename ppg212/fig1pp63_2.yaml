@@ -1,0 +1,28 @@
+independent_variables:
+- header: {name: '$p_T$'}
+  values:
+  - {value: 5.250e+00}
+  - {value: 5.730e+00}
+  - {value: 6.230e+00}
+  - {value: 6.740e+00}
+  - {value: 7.230e+00}
+dependent_variables:
+- header: {name: 'Direct photon spectra normalized by $(dN_{ch}/d\eta)^{1.25}$'}
+  qualifiers:
+  - {name: '$p_T$', value: 'pp 63GeV'}
+  values:
+  - value: 6.545e-08
+    errors:
+    - {symerror: 1.448e-08, label: 'stat.+sys.'}
+  - value: 3.197e-08
+    errors:
+    - {symerror: 6.545e-09, label: 'stat.+sys.'}
+  - value: 1.717e-08
+    errors:
+    - {symerror: 3.380e-09, label: 'stat.+sys.'}
+  - value: 1.003e-08
+    errors:
+    - {symerror: 1.878e-09, label: 'stat.+sys.'}
+  - value: 4.882e-09
+    errors:
+    - {symerror: 9.657e-10, label: 'stat.+sys.'}
