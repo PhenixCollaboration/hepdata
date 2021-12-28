@@ -1,20 +1,21 @@
 independent_variables:
-- header: {name: '$Centrality$'}
+- header: {name: '$dN_{ch}/d\eta |_{\eta\approx0}$'}
   values:
-  - {low: 0, high: 5}
-  - {low: 5, high: 10}
-  - {low: 10, high: 15}
-  - {low: 15, high: 20}
-  - {low: 20, high: 30}
-  - {low: 30, high: 40}
-  - {low: 40, high: 50}
-  - {low: 50, high: 60}
-  - {low: 60, high: 92}
-  - {low: 0, high: 100}
+  - {value: 687.40}
+  - {value: 560.4}
+  - {value: 456.8}
+  - {value: 371.5}
+  - {value: 274.05}
+  - {value: 176.80}
+  - {value: 109.4}
+  - {value: 61.55}
+  - {value: 16.362}
+  - {value: 2.38}
+  - {value: 1.864}
 dependent_variables:
 - header: {name: '$dN_{\gamma}/dy(5.0<p_T<14.0GeV/c)$'}
   qualifiers:
-  - {name: '$Centrality$', value: '$Au+Au 200GeV$'}
+  - {name: '$dN_{ch}/d\eta |_{\eta\approx0}$', value: '$Au+Au 200GeV$'}
   values:
   - value: 1.432e-03
     errors:
@@ -53,9 +54,10 @@ dependent_variables:
     - {symerror: 6.219e-07, label: '$stat.$'}
     - {symerror: 3.318e-06, label: '$sys.$'}
   - value: --
+  - value: --
 - header: {name: '$dN_{\gamma}/dy(5.0<p_T<14.0GeV/c)$'}
   qualifiers:
-  - {name: '$Centrality$', value: '$p+p 200GeV$'}
+  - {name: '$dN_{ch}/d\eta |_{\eta\approx0}$', value: '$p+p 200GeV$'}
   values:
   - value: --
   - value: --
@@ -70,10 +72,12 @@ dependent_variables:
     errors:
     - {symerror: 1.755e-08, label: '$stat.$'}
     - {symerror: 2.244e-07, label: '$sys.$'}
+  - value: --
 - header: {name: '$dN_{\gamma}/dy(5.0<p_T<14.0GeV/c)$'}
   qualifiers:
-  - {name: '$Centrality$', value: '$p+p 62.4GeV$'}
+  - {name: '$dN_{ch}/d\eta |_{\eta\approx0}$', value: '$p+p 62.4GeV$'}
   values:
+  - value: --
   - value: --
   - value: --
   - value: --

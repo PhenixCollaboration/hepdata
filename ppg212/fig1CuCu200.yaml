@@ -1,0 +1,48 @@
+independent_variables:
+- header: {name: '$p_T$'}
+  values:
+  - {value: 1.188e+00}
+  - {value: 1.701e+00}
+  - {value: 2.290e+00}
+  - {value: 3.445e+00}
+dependent_variables:
+- header: {name: 'Direct photon spectra normalized by $(dN_{ch}/d\eta)^{1.25}$'}
+  qualifiers:
+  - {name: '$p_T$', value: 'Cu+Cu 200GeV $0-40\%$'}
+  values:
+  - value: 1.138e-04
+    errors:
+    - {symerror: 5.039e-05, label: 'stat.'}
+    - {symerror: 4.597e-05, label: 'sys.'}
+  - value: 2.393e-05
+    errors:
+    - {symerror: 6.536e-06, label: 'stat.'}
+    - {symerror: 5.395e-06, label: 'sys.'}
+  - value: 3.669e-06
+    errors:
+    - {symerror: 1.384e-06, label: 'stat.'}
+    - {symerror: 7.473e-07, label: 'sys.'}
+  - value: 3.009e-07
+    errors:
+    - {symerror: 1.489e-07, label: 'stat.'}
+    - {symerror: 4.218e-08, label: 'sys.'}
+- header: {name: 'Direct photon spectra normalized by $(dN_{ch}/d\eta)^{1.25}$'}
+  qualifiers:
+  - {name: '$p_T$', value: 'Cu+Cu 200GeV $0-94\%$'}
+  values:
+  - value: 1.176e-04
+    errors:
+    - {symerror: 4.549e-05, label: 'stat.'}
+    - {symerror: 4.867e-05, label: 'sys.'}
+  - value: 2.289e-05
+    errors:
+    - {symerror: 5.864e-06, label: 'stat.'}
+    - {symerror: 4.831e-06, label: 'sys.'}
+  - value: 2.847e-06
+    errors:
+    - {symerror: 1.183e-06, label: 'stat.'}
+    - {symerror: 6.499e-08, label: 'sys.'}
+  - value: 2.466e-07
+    errors:
+    - {symerror: 1.228e-07, label: 'stat.'}
+    - {symerror: 3.047e-08, label: 'sys.'}
