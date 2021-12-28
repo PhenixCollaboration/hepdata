@@ -1,48 +1,145 @@
-# PHENIX paper PPG212
-#
-# Beam-energy and centrality dependence of direct-photon emission from ultra-relativistic heavy-ion collisions
-#
-# Phys. Rev. Lett. 123, 022301 (2019)
-# InspireHEP ID: 1672476
-#
-# Please contact Zhandong Sun  if you have any questions about this submission
-# PPG liaison: TBA
-# Reviewer: Zhandong Sun
-#
 comment: |
-  BNL-RHIC. The PHENIX collaboration presents first measurements of low-momentum (0.4< $p_T$ <3 GeV/c)direct-photon yields from Au+Au collisions at $\sqrt{s_{NN}}$=39 and 62.4 GeV. For both beam energies thedirect-photon yields are substantially enhanced with respect to expectations from prompt processes,similar to the yields observed in $Au+Au$ collisions at $\sqrt{s_{NN}}$=200.  Analyzing the photon yield as afunction of the experimental observabledNch/d?reveals that the low-momentum (>1 GeV/c) direct-photon yielddNdir?/d?is a smooth function of $dN_{ch}/d\eta$ and can be well described as proportionalto $(dN_{ch}/d\eta)^\alpha$ with $\alpha\approx1.25$. This scaling behavior holds for a wide range of beam energies at the Relativistic Heavy Ion Collider and the Large Hadron Collider, for centrality selected samples, as well  as  for  different, $A+A$ collision systems. At a given beam energy the scaling also holds for high $p_T$(>5 GeV/c) but when results from different collision energies are compared, an additional $\sqrt{s_{NN}}$-dependent multiplicative factor is needed to describe the integrated-direct-photon yield.
+  BNL-RHIC. The PHENIX collaboration presents first measurements of low-momentum (0.4< $p_T$ <3 GeV/$c$) direct-photon yields from Au+Au collisions at $\sqrt{s_{NN}}$=39 and 62.4 GeV. For both beam energies the direct-photon yields are substantially enhanced with respect to expectations from prompt processes, similar to the yields observed in Au+Au collisions at $\sqrt{s_{NN}}$=200. Analyzing the photon yield as a function of the experimental observable $dN_{ch}/d\eta$ reveals that the low-momentum (>1 GeV/$c$) direct-photon yield $dN^{dir}_{\gamma}/d\eta$ is a smooth function of $dN_{ch}/d\eta$ and can be well described as proportional to $(dN_{ch}/d\eta)^\alpha$ with $\alpha\approx1.25$. This scaling behavior holds for a wide range of beam energies at the Relativistic Heavy Ion Collider and the Large Hadron Collider, for centrality selected samples, as well as for different, A+A collision systems. At a given beam energy the scaling also holds for high $p_T$(>5 GeV/$c$) but when results from different collision energies are compared, an additional $\sqrt{s_{NN}}$-dependent multiplicative factor is needed to describe the integrated-direct-photon yield.
 additional_resources:
     - {location: "https://phenix-intra.sdcc.bnl.gov/phenix/WWW/info/data/ppg212_data.html", description: "web page with data points "}
-    - {location: "https://arxiv.org/abs/1805.04084", description: arXiv}
-    - {location: "https://inspirehep.net/literature/1672476/", description: InspireHEP}
 ---
 additional_resources:
     - {location: thumb_fig1.png, description: Thumbnail Image file }
     - {location: fig1.png, description: Image file }
-name: "Figure 1-1"
-description: 'Direct photon spectra for all centrality selections in $Au+Au$.'
+name: "Figure1pp200"
+description: 'Direct photon spectra(Physical Review C87, 054907 (2013)) normalized by $(dN_{ch}/d\eta)^{1.25}$ for in p+p at $\sqrt{s_{NN}}$= 200 GeV. '
 keywords:
-    - {name: reactions, values: [AU AU --> GAMMA X ]}
-    - {name: cmenergies, values: [62.4] }
-data_file: fig1-1.yaml
+    - {name: reactions, values: [p p --> GAMMA X ]}
+    - {name: cmenergies, values: [200] }
+data_file: fig1pp200.yaml
 ---
 additional_resources:
     - {location: thumb_fig1.png, description: Thumbnail Image file }
     - {location: fig1.png, description: Image file }
-name: "Figure 1-2"
-description: 'Direct photon spectra for all centrality selections in $Au+Au$.'
+name: "Figure1pp624"
+description: 'Direct photon spectra(Physics Letters B94, 106 (1980)) normalized by $(dN_{ch}/d\eta)^{1.25}$ for in p+p at $\sqrt{s_{NN}}$= 62.4 GeV.'
+keywords:
+    - {name: reactions, values: [p p --> GAMMA X ]}
+    - {name: cmenergies, values: [62.4] }
+data_file: fig1pp624.yaml
+---
+additional_resources:
+    - {location: thumb_fig1.png, description: Thumbnail Image file }
+    - {location: fig1.png, description: Image file }
+name: "Figure1pp63"
+description: 'Direct photon spectra(Nucl. Part. Phys. 23, A1 (1997) and Sov. J. Nucl. Phys. 51, 836 (1990)) normalized by $(dN_{ch}/d\eta)^{1.25}$ for in p+p at $\sqrt{s_{NN}}$= 63 GeV.'
+keywords:
+    - {name: reactions, values: [p p --> GAMMA X ]}
+    - {name: cmenergies, values: [63] }
+data_file: fig1pp63.yaml
+---
+additional_resources:
+    - {location: thumb_fig1.png, description: Thumbnail Image file }
+    - {location: fig1.png, description: Image file }
+name: "Figure1pp63_1"
+description: 'Direct photon spectra(Nucl. Part. Phys. 23, A1 (1997)) normalized by $(dN_{ch}/d\eta)^{1.25}$ for in p+p at $\sqrt{s_{NN}}$= 63 GeV.'
+keywords:
+    - {name: reactions, values: [p p --> GAMMA X ]}
+    - {name: cmenergies, values: [63] }
+data_file: fig1pp63_1.yaml
+---
+additional_resources:
+    - {location: thumb_fig1.png, description: Thumbnail Image file }
+    - {location: fig1.png, description: Image file }
+name: "Figure1pp63_2"
+description: 'Direct photon spectra(Sov. J. Nucl. Phys. 51, 836 (1990)) normalized by $(dN_{ch}/d\eta)^{1.25}$ for in p+p at $\sqrt{s_{NN}}$= 63 GeV.'
+keywords:
+    - {name: reactions, values: [p p --> GAMMA X ]}
+    - {name: cmenergies, values: [63] }
+data_file: fig1pp63_2.yaml
+---
+additional_resources:
+    - {location: thumb_fig1.png, description: Thumbnail Image file }
+    - {location: fig1.png, description: Image file }
+name: "Figure1AuAu624"
+description: 'Direct photon spectra normalized by $(dN_{ch}/d\eta)^{1.25}$ for in Au+Au at  $\sqrt{s_{NN}}$= 62.4 GeV.'
+keywords:
+    - {name: reactions, values: [Au Au --> GAMMA X ]}
+    - {name: cmenergies, values: [62.4] }
+data_file: fig1AuAu624.yaml
+---
+additional_resources:
+    - {location: thumb_fig1.png, description: Thumbnail Image file }
+    - {location: fig1.png, description: Image file }
+name: "Figure1AuAu39"
+description: 'Direct photon spectra normalized by $(dN_{ch}/d\eta)^{1.25}$ for in Au+Au at  $\sqrt{s_{NN}}$= 39.0 GeV.'
 keywords:
     - {name: reactions, values: [Au Au --> GAMMA X ]}
     - {name: cmenergies, values: [39.0] }
-data_file: fig1-2.yaml
+data_file: fig1AuAu39.yaml
+---
+additional_resources:
+    - {location: thumb_fig1.png, description: Thumbnail Image file }
+    - {location: fig1.png, description: Image file }
+name: "Figure1AuAu200LowpT1"
+description: 'Direct photon spectra(Physical Review C91, 064904 (2015)) normalized by $(dN_{ch}/d\eta)^{1.25}$ for in Au+Au at $\sqrt{s_{NN}}$= 200 GeV.'
+keywords:
+    - {name: reactions, values: [Au Au --> GAMMA X ]}
+    - {name: cmenergies, values: [200] }
+data_file: fig1AuAu200LowpT1.yaml
+---
+additional_resources:
+    - {location: thumb_fig1.png, description: Thumbnail Image file }
+    - {location: fig1.png, description: Image file }
+name: "Figure1AuAu200LowpT2"
+description: 'Direct photon spectra(Physical Review Letters 104, 132301 (2010)) normalized by $(dN_{ch}/d\eta)^{1.25}$ for in Au+Au at $\sqrt{s_{NN}}$= 200 GeV.'
+keywords:
+    - {name: reactions, values: [Au Au --> GAMMA X ]}
+    - {name: cmenergies, values: [200] }
+data_file: fig1AuAu200LowpT2.yaml
+---
+additional_resources:
+    - {location: thumb_fig1.png, description: Thumbnail Image file }
+    - {location: fig1.png, description: Image file }
+name: "Figure1AuAu200HighpT"
+description: 'Direct photon spectra(Physical Review Letters 109, 152302 (2012)) normalized by $(dN_{ch}/d\eta)^{1.25}$ for in Au+Au at $\sqrt{s_{NN}}$= 200 GeV.'
+keywords:
+    - {name: reactions, values: [Au Au --> GAMMA X ]}
+    - {name: cmenergies, values: [200] }
+data_file: fig1AuAu200HighpT.yaml
+---
+additional_resources:
+    - {location: thumb_fig1.png, description: Thumbnail Image file }
+    - {location: fig1.png, description: Image file }
+name: "Figure1CuCu200"
+description: 'Direct photon spectra(Physical Review C98, 054902 (2018)) normalized by $(dN_{ch}/d\eta)^{1.25}$ for in Cu+Cu at $\sqrt{s_{NN}}$= 200 GeV.'
+keywords:
+    - {name: reactions, values: [Cu Cu --> GAMMA X ]}
+    - {name: cmenergies, values: [200] }
+data_file: fig1CuCu200.yaml
+---
+additional_resources:
+    - {location: thumb_fig1.png, description: Thumbnail Image file }
+    - {location: fig1.png, description: Image file }
+name: "Figure1PbPb2760"
+description: 'Direct photon spectra(Physics Letters B754 235 (2016)) normalized by $(dN_{ch}/d\eta)^{1.25}$ for in Pb+Pb at $\sqrt{s_{NN}}$= 2760 GeV.'
+keywords:
+    - {name: reactions, values: [Pb Pb --> GAMMA X ]}
+    - {name: cmenergies, values: [2760] }
+data_file: fig1PbPb2760.yaml
+---
+additional_resources:
+    - {location: thumb_fig2.png, description: Thumbnail Image file }
+    - {location: fig2.png, description: Image file }
+name: "Figure 2"
+description: 'Number of binary collisions N_{coll} vs. Charged particle multiplicity in Au+Au at various cm energies.'
+keywords:
+    - {name: reactions, values: [Au Au --> GAMMA X ]}
+    - {name: cmenergies, values: [39.0, 62.4, 200.0] }
+data_file: fig2.yaml
 ---
 additional_resources:
     - {location: thumb_fig2.png, description: Thumbnail Image file }
     - {location: fig2.png, description: Image file }
 name: "Figure 2-1"
-description: 'Charged particle multiplicity vs. centrality in $Au+Au$ at various cmenergies.'
+description: 'Charged particle multiplicity vs. centrality in Au+Au at various cm energies.'
 keywords:
-    - {name: reactions, values: [AU AU --> GAMMA X ]}
+    - {name: reactions, values: [Au Au --> GAMMA X ]}
     - {name: cmenergies, values: [39.0, 62.4, 200.0] }
 data_file: fig2-1.yaml
 ---
@@ -50,19 +147,29 @@ additional_resources:
     - {location: thumb_fig2.png, description: Thumbnail Image file }
     - {location: fig2.png, description: Image file }
 name: "Figure 2-2"
-description: 'Number of binary collisions N_{coll} vs. centrality in $Au+Au$ at various cmenergies.'
+description: 'Number of binary collisions N_{coll} vs. centrality in Au+Au at various cm energies.'
 keywords:
-    - {name: reactions, values: [AU AU --> GAMMA X ]}
+    - {name: reactions, values: [Au Au --> GAMMA X ]}
     - {name: cmenergies, values: [39.0, 62.4, 200.0] }
 data_file: fig2-2.yaml
 ---
 additional_resources:
     - {location: thumb_fig3.png, description: Thumbnail Image file }
     - {location: fig3.png, description: Image file }
-name: "Figure 3-1"
-description: 'Charged particle multiplicity vs. centrality in various systems at various cmenergies.'
+name: "Figure 3"
+description: 'Integrated direct photon yield vs. Charged particle multiplicity in various systems at various cm energies.'
 keywords:
-    - {name: reactions, values: [AU AU --> GAMMA X, CU CU --> GAMMA X, p p --> GAMMA X ]}
+    - {name: reactions, values: [Au Au --> GAMMA X, CU CU --> GAMMA X, p p --> GAMMA X ]}
+    - {name: cmenergies, values: [39.0, 62.4, 200.0] }
+data_file: fig3.yaml
+---
+additional_resources:
+    - {location: thumb_fig3.png, description: Thumbnail Image file }
+    - {location: fig3.png, description: Image file }
+name: "Figure 3-1"
+description: 'Charged particle multiplicity vs. centrality in various systems at various cm energies.'
+keywords:
+    - {name: reactions, values: [Au Au --> GAMMA X, CU CU --> GAMMA X, p p --> GAMMA X ]}
     - {name: cmenergies, values: [39.0, 62.4, 200.0] }
 data_file: fig3-1.yaml
 ---
@@ -70,19 +177,29 @@ additional_resources:
     - {location: thumb_fig3.png, description: Thumbnail Image file }
     - {location: fig3.png, description: Image file }
 name: "Figure 3-2"
-description: 'Integrated direct photon yield vs. centrality in various systems at various cmenergies.'
+description: 'Integrated direct photon yield vs. centrality in various systems at various cm energies.'
 keywords:
-    - {name: reactions, values: [AU AU --> GAMMA X, CU CU --> GAMMA X, p p --> GAMMA X ]}
+    - {name: reactions, values: [Au Au --> GAMMA X, CU CU --> GAMMA X, p p --> GAMMA X ]}
     - {name: cmenergies, values: [39.0, 62.4, 200.0] }
 data_file: fig3-2.yaml
 ---
 additional_resources:
     - {location: thumb_fig4.png, description: Thumbnail Image file }
     - {location: fig4.png, description: Image file }
-name: "Figure 4-1"
-description: 'Charged particle multiplicity vs. centrality in various systems at various cmenergies.'
+name: "Figure 4"
+description: 'Integrated direct photon yield vs. Charged particle multiplicity in various systems at various cm energies.'
 keywords:
-    - {name: reactions, values: [AU AU --> GAMMA X, p p --> GAMMA X ]}
+    - {name: reactions, values: [Au Au --> GAMMA X, p p --> GAMMA X ]}
+    - {name: cmenergies, values: [62.4, 200.0] }
+data_file: fig4.yaml
+---
+additional_resources:
+    - {location: thumb_fig4.png, description: Thumbnail Image file }
+    - {location: fig4.png, description: Image file }
+name: "Figure 4-1"
+description: 'Charged particle multiplicity vs. centrality in various systems at various cm energies.'
+keywords:
+    - {name: reactions, values: [Au Au --> GAMMA X, p p --> GAMMA X ]}
     - {name: cmenergies, values: [62.4, 200.0] }
 data_file: fig4-1.yaml
 ---
@@ -90,11 +207,9 @@ additional_resources:
     - {location: thumb_fig4.png, description: Thumbnail Image file }
     - {location: fig4.png, description: Image file }
 name: "Figure 4-2"
-description: 'Integrated direct photon yield vs. centrality in various systems at various cmenergies.'
+description: 'Integrated direct photon yield vs. centrality in various systems at various cm energies.'
 keywords:
-    - {name: reactions, values: [AU AU --> GAMMA X, p p --> GAMMA X ]}
+    - {name: reactions, values: [Au Au --> GAMMA X, p p --> GAMMA X ]}
     - {name: cmenergies, values: [62.4, 200.0] }
 data_file: fig4-2.yaml
 ---
-
-
