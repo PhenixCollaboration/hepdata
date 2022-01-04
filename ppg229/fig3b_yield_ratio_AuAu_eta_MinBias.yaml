@@ -1,8 +1,51 @@
 independent_variables:
 - header: {name: '$p_T$'}
-  values: []
+  values:
+  - {low: 5, high: 6}
+  - {low: 6, high: 7}
+  - {low: 7, high: 8}
+  - {low: 8, high: 9}
+  - {low: 9, high: 10}
+  - {low: 10, high: 12}
+  - {low: 12, high: 14}
+  - {low: 14, high: 16}
+  - {low: 16, high: 18}
 dependent_variables:
 - header: {name: '$\eta$/$\pi^{0}$ inv. yield ratio'}
-  qualifiers:
-  - {name: '$p_T$ (GeV/$c$)', value: '$\eta$/$\pi^{0}$ inv. yield ratio'}
-  values: []
+  values:
+  - value: 0.451
+    errors:
+    - {symerror: 0.018, label: 'Stat.+Sys. A'}
+    - {symerror: 0.047, label: 'Sys. B'}
+  - value: 0.442
+    errors:
+    - {symerror: 0.019, label: 'Stat.+Sys. A'}
+    - {symerror: 0.046, label: 'Sys. B'}
+  - value: 0.451
+    errors:
+    - {symerror: 0.022, label: 'Stat.+Sys. A'}
+    - {symerror: 0.047, label: 'Sys. B'}
+  - value: 0.47
+    errors:
+    - {symerror: 0.03, label: 'Stat.+Sys. A'}
+    - {symerror: 0.04, label: 'Sys. B'}
+  - value: 0.43
+    errors:
+    - {symerror: 0.03, label: 'Stat.+Sys. A'}
+    - {symerror: 0.04, label: 'Sys. B'}
+  - value: 0.46
+    errors:
+    - {symerror: 0.03, label: 'Stat.+Sys. A'}
+    - {symerror: 0.04, label: 'Sys. B'}
+  - value: 0.47
+    errors:
+    - {symerror: 0.04, label: 'Stat.+Sys. A'}
+    - {symerror: 0.04, label: 'Sys. B'}
+  - value: 0.32
+    errors:
+    - {symerror: 0.05, label: 'Stat.+Sys. A'}
+    - {symerror: 0.03, label: 'Sys. B'}
+  - value: 0.45
+    errors:
+    - {symerror: 0.09, label: 'Stat.+Sys. A'}
+    - {symerror: 0.04, label: 'Sys. B'}
