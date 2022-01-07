@@ -411,7 +411,7 @@ additional_resources:
 data_file: fig6a_intraa_UU_eta_Glauber1.yaml
 ---
 name: "Table 37: figure 6a"
-description: '$\eta$ integrated $R_{AA}$ for $p_T>5$ GeV/$c$ in Au+Au collisions as a function of centrality from figure 6a. Type A uncertainties are uncorrelated point-to-point.  Type B uncertainties are correlated point-to-point.  Type C uncertainties affect the scale of the data.'	
+description: '$\pi^0$ integrated $R_{AA}$ for $p_T>5$ GeV/$c$ in Au+Au collisions as a function of centrality from figure 6a. Type A uncertainties are uncorrelated point-to-point.  Type B uncertainties are correlated point-to-point.  Type C uncertainties affect the scale of the data.'	
 keywords:
   - {name: reactions, values: [AU AU --> NEUTRAL X]}
   - {name: cmenergies, values: [200]}
@@ -432,3 +432,35 @@ additional_resources:
   - {location: Fig6_IntRAA.png, description: Image file}
 data_file: fig6b_intraa_UU_pi0_Glauber2.yaml
 ---
+name: "Table 39: figure 6"
+description: 'Number of participant nucleons of  in dep U$+$U collisions'
+keywords:
+  - {name: reactions, values: [U U --> NEUTRAL X]}
+  - {name: cmenergies, values: [192]}
+  - {name: phrases, values: [ppg229, mid-rapidity, centrality]}
+additional_resources:
+  - {location: thumb_Fig6_IntRAA.png, description: Thumbnail Image file}
+  - {location: Fig6_IntRAA.png, description: Image file}
+data_file: fig6_npart_UU__Glauber1.yaml
+---
+name: "Table 40: figure 6"
+description: 'Number of participant nucleons of  in dep U$+$U collisions'
+keywords:
+  - {name: reactions, values: [U U --> NEUTRAL X]}
+  - {name: cmenergies, values: [192]}
+  - {name: phrases, values: [ppg229, mid-rapidity, centrality]}
+additional_resources:
+  - {location: thumb_Fig6_IntRAA.png, description: Thumbnail Image file}
+  - {location: Fig6_IntRAA.png, description: Image file}
+data_file: fig6_npart_UU__Glauber2.yaml
+---
+name: "Table 41: figure 6"
+description: 'Number of participant nucleons of  in dep Au$+$Au collisions'
+keywords:
+  - {name: reactions, values: [AU AU --> NEUTRAL X]}
+  - {name: cmenergies, values: [200]}
+  - {name: phrases, values: [ppg229, mid-rapidity, centrality]}
+additional_resources:
+  - {location: thumb_Fig6_IntRAA.png, description: Thumbnail Image file}
+  - {location: Fig6_IntRAA.png, description: Image file}
+data_file: fig6_npart_AuAu_.yaml
