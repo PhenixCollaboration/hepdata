@@ -1,0 +1,174 @@
+independent_variables:
+- header: {name: '$p_T$ (GeV/c)'}
+  values:
+  - {low: 6.0, high: 6.5}
+  - {low: 6.5, high: 7.0}
+  - {low: 7.0, high: 7.5}
+  - {low: 7.5, high: 8.0}
+  - {low: 8.0, high: 8.5}
+  - {low: 8.5, high: 9.0}
+  - {low: 9.0, high: 9.5}
+  - {low: 9.5, high: 10.0}
+  - {low: 10.0, high: 12.0}
+  - {low: 12.0, high: 14.0}
+  - {low: 14.0, high: 16.0}
+  - {low: 16.0, high: 18.0}
+  - {low: 18.0, high: 20.0}
+  - {low: 20.0, high: 22.0}
+  - {low: 22.0, high: 24.0}
+  - {low: 24.0, high: 26.0}
+  - {low: 26.0, high: 28.0}
+  - {low: 28.0, high: 30.0}
+dependent_variables:
+- header: {name: '$Ed^{3}\sigma^{inc}/dp^{3}$ (pb GeV$^{-2}$ c$^{3}$)'}
+  qualifiers:
+  - {name: '$p_T$ (GeV/c)', value: '$Ed^{3}\sigma^{inc}/dp^{3}$, $p+p\rightarrow\gamma^{inc}+X$, $\sqrt{s} = 510$ GeV, $|\eta|<0.25$'}
+  values:
+  - value: 2.322e+03
+    errors:
+    - {symerror: 3.6e+01, label: 'stat'}
+    - {symerror: 6.2e+02, label: 'sys'}
+  - value: 1.301e+03
+    errors:
+    - {symerror: 2.6e+01, label: 'stat'}
+    - {symerror: 3.6e+02, label: 'sys'}
+  - value: 8.097e+02
+    errors:
+    - {symerror: 1.9e+01, label: 'stat'}
+    - {symerror: 2.1e+02, label: 'sys'}
+  - value: 5.644e+02
+    errors:
+    - {symerror: 1.4e+01, label: 'stat'}
+    - {symerror: 1.3e+02, label: 'sys'}
+  - value: 3.648e+02
+    errors:
+    - {symerror: 1.1e+01, label: 'stat'}
+    - {symerror: 8.4e+01, label: 'sys'}
+  - value: 2.508e+02
+    errors:
+    - {symerror: 8.3e+00, label: 'stat'}
+    - {symerror: 5.5e+01, label: 'sys'}
+  - value: 1.666e+02
+    errors:
+    - {symerror: 6.6e+00, label: 'stat'}
+    - {symerror: 3.7e+01, label: 'sys'}
+  - value: 1.060e+02
+    errors:
+    - {symerror: 5.3e+00, label: 'stat'}
+    - {symerror: 2.5e+01, label: 'sys'}
+  - value: 6.108e+01
+    errors:
+    - {symerror: 1.8e+00, label: 'stat'}
+    - {symerror: 1.5e+01, label: 'sys'}
+  - value: 1.776e+01
+    errors:
+    - {symerror: 8.8e-01, label: 'stat'}
+    - {symerror: 4.3e+00, label: 'sys'}
+  - value: 7.969e+00
+    errors:
+    - {symerror: 2.7e-01, label: 'stat'}
+    - {symerror: 1.5e+00, label: 'sys'}
+  - value: 2.705e+00
+    errors:
+    - {symerror: 1.4e-01, label: 'stat'}
+    - {symerror: 6.3e-01, label: 'sys'}
+  - value: 1.311e+00
+    errors:
+    - {symerror: 8.4e-02, label: 'stat'}
+    - {symerror: 2.8e-01, label: 'sys'}
+  - value: 8.033e-01
+    errors:
+    - {symerror: 1.2e-01, label: 'stat'}
+    - {symerror: 1.9e-01, label: 'sys'}
+  - value: 4.969e-01
+    errors:
+    - {symerror: 7.7e-02, label: 'stat'}
+    - {symerror: 9.6e-02, label: 'sys'}
+  - value: 2.487e-01
+    errors:
+    - {symerror: 5.4e-02, label: 'stat'}
+    - {symerror: 5.3e-02, label: 'sys'}
+  - value: 1.736e-01
+    errors:
+    - {symerror: 4.1e-02, label: 'stat'}
+    - {symerror: 3.3e-02, label: 'sys'}
+  - value: 8.643e-02
+    errors:
+    - {symerror: 3.2e-02, label: 'stat'}
+    - {symerror: 2.1e-02, label: 'sys'}
+- header: {name: '$Ed^{3}\sigma^{iso}/dp^{3}$ (pb GeV$^{-2}$ c$^{3}$)'}
+  qualifiers:
+  - {name: '$p_T$ (GeV/c)', value: '$Ed^{3}\sigma^{iso}/dp^{3}$, $p+p\rightarrow\gamma^{iso}+X$, $\sqrt{s} = 510$ GeV, $|\eta|<0.25$'}
+  values:
+  - value: 1.088e+03
+    errors:
+    - {symerror: 1.1e+01, label: 'stat'}
+    - {symerror: 1.1e+02, label: 'sys'}
+  - value: 6.403e+02
+    errors:
+    - {symerror: 8.1e+00, label: 'stat'}
+    - {symerror: 6.5e+01, label: 'sys'}
+  - value: 4.047e+02
+    errors:
+    - {symerror: 5.9e+00, label: 'stat'}
+    - {symerror: 3.9e+01, label: 'sys'}
+  - value: 2.795e+02
+    errors:
+    - {symerror: 4.4e+00, label: 'stat'}
+    - {symerror: 2.5e+01, label: 'sys'}
+  - value: 1.855e+02
+    errors:
+    - {symerror: 3.4e+00, label: 'stat'}
+    - {symerror: 1.8e+01, label: 'sys'}
+  - value: 1.331e+02
+    errors:
+    - {symerror: 2.6e+00, label: 'stat'}
+    - {symerror: 1.2e+01, label: 'sys'}
+  - value: 9.766e+01
+    errors:
+    - {symerror: 2.2e+00, label: 'stat'}
+    - {symerror: 9.0e+00, label: 'sys'}
+  - value: 6.492e+01
+    errors:
+    - {symerror: 1.8e+00, label: 'stat'}
+    - {symerror: 6.2e+00, label: 'sys'}
+  - value: 3.589e+01
+    errors:
+    - {symerror: 5.7e-01, label: 'stat'}
+    - {symerror: 3.6e+00, label: 'sys'}
+  - value: 1.330e+01
+    errors:
+    - {symerror: 3.0e-01, label: 'stat'}
+    - {symerror: 1.3e+00, label: 'sys'}
+  - value: 5.856e+00
+    errors:
+    - {symerror: 9.8e-02, label: 'stat'}
+    - {symerror: 6.1e-01, label: 'sys'}
+  - value: 2.837e+00
+    errors:
+    - {symerror: 6.1e-02, label: 'stat'}
+    - {symerror: 3.0e-01, label: 'sys'}
+  - value: 1.374e+00
+    errors:
+    - {symerror: 4.0e-02, label: 'stat'}
+    - {symerror: 1.5e-01, label: 'sys'}
+  - value: 7.910e-01
+    errors:
+    - {symerror: 2.8e-02, label: 'stat'}
+    - {symerror: 8.8e-02, label: 'sys'}
+  - value: 4.473e-01
+    errors:
+    - {symerror: 2.0e-02, label: 'stat'}
+    - {symerror: 5.5e-02, label: 'sys'}
+  - value: 2.639e-01
+    errors:
+    - {symerror: 1.5e-02, label: 'stat'}
+    - {symerror: 3.6e-02, label: 'sys'}
+  - value: 1.517e-01
+    errors:
+    - {symerror: 1.1e-02, label: 'stat'}
+    - {symerror: 1.8e-02, label: 'sys'}
+  - value: 9.666e-02
+    errors:
+    - {symerror: 9.6e-03, label: 'stat'}
+    - {symerror: 1.3e-02, label: 'sys'}

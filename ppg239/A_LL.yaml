@@ -1,0 +1,43 @@
+independent_variables:
+- header: {name: '$p_T$ (GeV/c)'}
+  values:
+  - {low: 6.0, high: 7.0}
+  - {low: 7.0, high: 8.0}
+  - {low: 8.0, high: 9.0}
+  - {low: 9.0, high: 10.0}
+  - {low: 10.0, high: 12.0}
+  - {low: 12.0, high: 15.0}
+  - {low: 15.0, high: 20.0}
+dependent_variables:
+- header: {name: '$A_{LL}$'}
+  qualifiers:
+  - {name: '$p_T$ (GeV/c)', value: '$A_{LL}$, $\vec{p}+\vec{p}\rightarrow\gamma^{iso}+X$, $\sqrt{s} = 510$ GeV, $|\eta|<0.25$'}
+  values:
+  - value: -2.265e-03
+    errors:
+    - {symerror: 3.1e-03, label: 'stat'}
+    - {symerror: 3.3e-05, label: 'sys'}
+  - value: 2.301e-03
+    errors:
+    - {symerror: 4.8e-03, label: 'stat'}
+    - {symerror: 3.3e-05, label: 'sys'}
+  - value: 4.449e-03
+    errors:
+    - {symerror: 6.9e-03, label: 'stat'}
+    - {symerror: 3.1e-05, label: 'sys'}
+  - value: 3.846e-03
+    errors:
+    - {symerror: 9.5e-03, label: 'stat'}
+    - {symerror: 3.2e-05, label: 'sys'}
+  - value: 1.479e-02
+    errors:
+    - {symerror: 9.9e-03, label: 'stat'}
+    - {symerror: 1.3e-04, label: 'sys'}
+  - value: 1.111e-02
+    errors:
+    - {symerror: 1.4e-02, label: 'stat'}
+    - {symerror: 1.4e-04, label: 'sys'}
+  - value: -2.071e-02
+    errors:
+    - {symerror: 2.2e-02, label: 'stat'}
+    - {symerror: 4.0e-04, label: 'sys'}
