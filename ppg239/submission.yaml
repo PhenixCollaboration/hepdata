@@ -1,11 +1,14 @@
 # PPG239
+# InspireHEP: 2033856
+# arXiv: https://arxiv.org/abs/2202.08158
 comment: |
   BNL-RHIC. We present the measurement of the cross section and double helicity asymmetry $A_{LL}$ of direct photon production in $\vec{p}+\vec{p}$ collisions at $\sqrt{s}$ = 510 GeV. The measurement has been performed at midrapidity ($|\eta| <$ 0.25) with the PHENIX detector at the Relativistic Heavy Ion Collider. Direct photons are dominantly produced by the quark-gluon scattering at relativistic energies. Since direct photons are produced from the initial partonic hard scattering and do not interact via the strong force, this measurement provides a clean and direct access to the gluons in the polarized proton in the gluon momentum fraction range 0.02 $< x <$ 0.08.
-#hepdata_doi:
+
 ---
 additional_resources:
   - {location: CrossSection-photon-werner.png, description: Inclusive direct photon cross section}
   - {location: CrossSection-isophoton-werner.png, description: Isolated direct photon cross section}
+  - {location: 'https://arxiv.org/abs/2202.08158', description: arXiv link}
 data_file: xsec.yaml
 description: Cross sections for inclusive and isolated direct photons as a function of $p_T$. Not shown are 10% absolute luminosity uncertainties.
 keywords:
@@ -14,7 +17,7 @@ keywords:
 - name: cmenergies
   values: [510.0]
 name: Figure 1
-#table_doi:
+
 ---
 additional_resources:
   - {location: IsoPhotonALL-beam2.png, description: Isolated direct photon double-helicity asymmetry}
@@ -26,4 +29,4 @@ keywords:
 - name: cmenergies
   values: [510.0]
 name: Figure 2
-#table_doi:
+
