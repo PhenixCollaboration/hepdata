@@ -1,0 +1,67 @@
+independent_variables:
+- header: {name: 'P_{T}'}
+  values:
+  - {low: 5, high: 6}
+  - {low: 6, high: 7}
+  - {low: 7, high: 8}
+  - {low: 8, high: 11}
+  - {low: 11, high: 15}
+dependent_variables:
+- header: {name: 'A_{N}'}
+  qualifiers:
+  - {name: 'P_{T}', value: 'p+p $\pi^-$'}
+  values:
+  - value: 0.00630
+    errors:
+    - {symerror: 0.00467, label: 'Statistical'}
+    - {symerror: 0.00003, label: 'Systematic'}
+    - {asymerror: {plus: 0.00021, minus: -0.00022}, label: 'Scaling uncertainty due to polarization'}
+  - value: 0.00998
+    errors:
+    - {symerror: 0.00473, label: 'Statistical'}
+    - {symerror: 0.00095, label: 'Systematic'}
+    - {asymerror: {plus: 0.00034, minus: -0.00035}, label: 'Scaling uncertainty due to polarization'}
+  - value: 0.00371
+    errors:
+    - {symerror: 0.00660, label: 'Statistical'}
+    - {symerror: 0.00055, label: 'Systematic'}
+    - {asymerror: {plus: 0.00013, minus: -0.00013}, label: 'Scaling uncertainty due to polarization'}
+  - value: 0.00044
+    errors:
+    - {symerror: 0.00685, label: 'Statistical'}
+    - {symerror: 0.00010, label: 'Systematic'}
+    - {asymerror: {plus: 0.00002, minus: -0.00002}, label: 'Scaling uncertainty due to polarization'}
+  - value: -0.00927
+    errors:
+    - {symerror: 0.01176, label: 'Statistical'}
+    - {symerror: 0.00560, label: 'Systematic'}
+    - {asymerror: {plus: 0.00032, minus: -0.00033}, label: 'Scaling uncertainty due to polarization'}
+- header: {name: 'A_{N}'}
+  qualifiers:
+  - {name: 'P_{T}', value: 'p+p $\pi^+$'}
+  values:
+  - value: -0.00560
+    errors:
+    - {symerror: 0.00433, label: 'Statistical'}
+    - {symerror: 0.00155, label: 'Systematic'}
+    - {asymerror: {plus: 0.00019, minus: -0.00020}, label: 'Scaling uncertainty due to polarization'}
+  - value: -0.00044
+    errors:
+    - {symerror: 0.00449, label: 'Statistical'}
+    - {symerror: 0.00010, label: 'Systematic'}
+    - {asymerror: {plus: 0.00002, minus: -0.00002}, label: 'Scaling uncertainty due to polarization'}
+  - value: -0.00681
+    errors:
+    - {symerror: 0.00612, label: 'Statistical'}
+    - {symerror: 0.00023, label: 'Systematic'}
+    - {asymerror: {plus: 0.00023, minus: -0.00024}, label: 'Scaling uncertainty due to polarization'}
+  - value: 0.00399
+    errors:
+    - {symerror: 0.00591, label: 'Statistical'}
+    - {symerror: 0.00270, label: 'Systematic'}
+    - {asymerror: {plus: 0.00014, minus: -0.00014}, label: 'Scaling uncertainty due to polarization'}
+  - value: 0.01543
+    errors:
+    - {symerror: 0.01183, label: 'Statistical'}
+    - {symerror: 0.00633, label: 'Systematic'}
+    - {asymerror: {plus: 0.00052, minus: -0.00054}, label: 'Scaling uncertainty due to polarization'}
