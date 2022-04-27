@@ -1,0 +1,521 @@
+independent_variables:
+- header: {name: '$p_{T} [GeV/c]$'}
+  values:
+  - {low: 0.8, high: 1.0}
+  - {low: 1.0, high: 1.2}
+  - {low: 1.2, high: 1.4}
+  - {low: 1.4, high: 1.6}
+  - {low: 1.6, high: 1.8}
+  - {low: 1.8, high: 2.0}
+  - {low: 2.0, high: 2.5}
+  - {low: 2.5, high: 3.0}
+  - {low: 3.0, high: 3.5}
+  - {low: 3.5, high: 4.0}
+  - {low: 4.0, high: 5.0}
+  - {low: 5.0, high: 7.0}
+  - {low: 7.0, high: 10.0}
+dependent_variables:
+- header: {name: '$R_{\gamma}$'}
+  qualifiers:
+  - {name: '$p_{T} [GeV/c]$', value: '$0-10%$ centrality'}
+  values:
+  - value: 1.149
+    errors:
+    - {symerror: 0.037, label: 'stat.'}
+    - {symerror: 0.058, label: 'sys.'}
+  - value: 1.096
+    errors:
+    - {symerror: 0.028, label: 'stat.'}
+    - {symerror: 0.055, label: 'sys.'}
+  - value: 1.137
+    errors:
+    - {symerror: 0.029, label: 'stat.'}
+    - {symerror: 0.057, label: 'sys.'}
+  - value: 1.155
+    errors:
+    - {symerror: 0.030, label: 'stat.'}
+    - {symerror: 0.058, label: 'sys.'}
+  - value: 1.253
+    errors:
+    - {symerror: 0.036, label: 'stat.'}
+    - {symerror: 0.062, label: 'sys.'}
+  - value: 1.185
+    errors:
+    - {symerror: 0.035, label: 'stat.'}
+    - {symerror: 0.059, label: 'sys.'}
+  - value: 1.211
+    errors:
+    - {symerror: 0.032, label: 'stat.'}
+    - {symerror: 0.058, label: 'sys.'}
+  - value: 1.437
+    errors:
+    - {symerror: 0.053, label: 'stat.'}
+    - {symerror: 0.067, label: 'sys.'}
+  - value: 1.504
+    errors:
+    - {symerror: 0.075, label: 'stat.'}
+    - {symerror: 0.069, label: 'sys.'}
+  - value: 1.856
+    errors:
+    - {symerror: 0.141, label: 'stat.'}
+    - {symerror: 0.083, label: 'sys.'}
+  - value: 1.896
+    errors:
+    - {symerror: 0.145, label: 'stat.'}
+    - {symerror: 0.082, label: 'sys.'}
+  - value: 2.047
+    errors:
+    - {symerror: 0.205, label: 'stat.'}
+    - {symerror: 0.085, label: 'sys.'}
+  - value: 1.731
+    errors:
+    - {symerror: 0.247, label: 'stat.'}
+    - {symerror: 0.071, label: 'sys.'}
+- header: {name: '$R_{\gamma}$'}
+  qualifiers:
+  - {name: '$p_{T} [GeV/c]$', value: '$10-20%$ centrality'}
+  values:
+  - value: 1.098
+    errors:
+    - {symerror: 0.025, label: 'stat.'}
+    - {symerror: 0.051, label: 'sys.'}
+  - value: 1.131
+    errors:
+    - {symerror: 0.021, label: 'stat.'}
+    - {symerror: 0.053, label: 'sys.'}
+  - value: 1.128
+    errors:
+    - {symerror: 0.020, label: 'stat.'}
+    - {symerror: 0.052, label: 'sys.'}
+  - value: 1.136
+    errors:
+    - {symerror: 0.021, label: 'stat.'}
+    - {symerror: 0.053, label: 'sys.'}
+  - value: 1.211
+    errors:
+    - {symerror: 0.024, label: 'stat.'}
+    - {symerror: 0.056, label: 'sys.'}
+  - value: 1.246
+    errors:
+    - {symerror: 0.027, label: 'stat.'}
+    - {symerror: 0.057, label: 'sys.'}
+  - value: 1.252
+    errors:
+    - {symerror: 0.025, label: 'stat.'}
+    - {symerror: 0.056, label: 'sys.'}
+  - value: 1.268
+    errors:
+    - {symerror: 0.033, label: 'stat.'}
+    - {symerror: 0.056, label: 'sys.'}
+  - value: 1.374
+    errors:
+    - {symerror: 0.049, label: 'stat.'}
+    - {symerror: 0.059, label: 'sys.'}
+  - value: 1.430
+    errors:
+    - {symerror: 0.074, label: 'stat.'}
+    - {symerror: 0.061, label: 'sys.'}
+  - value: 1.547
+    errors:
+    - {symerror: 0.077, label: 'stat.'}
+    - {symerror: 0.064, label: 'sys.'}
+  - value: 2.052
+    errors:
+    - {symerror: 0.166, label: 'stat.'}
+    - {symerror: 0.083, label: 'sys.'}
+  - value: 2.505
+    errors:
+    - {symerror: 0.408, label: 'stat.'}
+    - {symerror: 0.101, label: 'sys.'}
+- header: {name: '$R_{\gamma}$'}
+  qualifiers:
+  - {name: '$p_{T} [GeV/c]$', value: '$20-30%$ centrality'}
+  values:
+  - value: 1.134
+    errors:
+    - {symerror: 0.018, label: 'stat.'}
+    - {symerror: 0.051, label: 'sys.'}
+  - value: 1.141
+    errors:
+    - {symerror: 0.014, label: 'stat.'}
+    - {symerror: 0.051, label: 'sys.'}
+  - value: 1.148
+    errors:
+    - {symerror: 0.014, label: 'stat.'}
+    - {symerror: 0.052, label: 'sys.'}
+  - value: 1.146
+    errors:
+    - {symerror: 0.014, label: 'stat.'}
+    - {symerror: 0.052, label: 'sys.'}
+  - value: 1.187
+    errors:
+    - {symerror: 0.017, label: 'stat.'}
+    - {symerror: 0.053, label: 'sys.'}
+  - value: 1.205
+    errors:
+    - {symerror: 0.019, label: 'stat.'}
+    - {symerror: 0.054, label: 'sys.'}
+  - value: 1.236
+    errors:
+    - {symerror: 0.016, label: 'stat.'}
+    - {symerror: 0.055, label: 'sys.'}
+  - value: 1.243
+    errors:
+    - {symerror: 0.024, label: 'stat.'}
+    - {symerror: 0.054, label: 'sys.'}
+  - value: 1.320
+    errors:
+    - {symerror: 0.038, label: 'stat.'}
+    - {symerror: 0.057, label: 'sys.'}
+  - value: 1.350
+    errors:
+    - {symerror: 0.056, label: 'stat.'}
+    - {symerror: 0.057, label: 'sys.'}
+  - value: 1.340
+    errors:
+    - {symerror: 0.051, label: 'stat.'}
+    - {symerror: 0.055, label: 'sys.'}
+  - value: 1.813
+    errors:
+    - {symerror: 0.118, label: 'stat.'}
+    - {symerror: 0.073, label: 'sys.'}
+  - value: 1.697
+    errors:
+    - {symerror: 0.195, label: 'stat.'}
+    - {symerror: 0.068, label: 'sys.'}
+- header: {name: '$R_{\gamma}$'}
+  qualifiers:
+  - {name: '$p_{T} [GeV/c]$', value: '$30-40%$ centrality'}
+  values:
+  - value: 1.132
+    errors:
+    - {symerror: 0.018, label: 'stat.'}
+    - {symerror: 0.052, label: 'sys.'}
+  - value: 1.140
+    errors:
+    - {symerror: 0.014, label: 'stat.'}
+    - {symerror: 0.052, label: 'sys.'}
+  - value: 1.145
+    errors:
+    - {symerror: 0.014, label: 'stat.'}
+    - {symerror: 0.053, label: 'sys.'}
+  - value: 1.151
+    errors:
+    - {symerror: 0.015, label: 'stat.'}
+    - {symerror: 0.053, label: 'sys.'}
+  - value: 1.151
+    errors:
+    - {symerror: 0.016, label: 'stat.'}
+    - {symerror: 0.052, label: 'sys.'}
+  - value: 1.195
+    errors:
+    - {symerror: 0.019, label: 'stat.'}
+    - {symerror: 0.054, label: 'sys.'}
+  - value: 1.218
+    errors:
+    - {symerror: 0.016, label: 'stat.'}
+    - {symerror: 0.055, label: 'sys.'}
+  - value: 1.217
+    errors:
+    - {symerror: 0.023, label: 'stat.'}
+    - {symerror: 0.054, label: 'sys.'}
+  - value: 1.250
+    errors:
+    - {symerror: 0.035, label: 'stat.'}
+    - {symerror: 0.055, label: 'sys.'}
+  - value: 1.286
+    errors:
+    - {symerror: 0.052, label: 'stat.'}
+    - {symerror: 0.055, label: 'sys.'}
+  - value: 1.346
+    errors:
+    - {symerror: 0.052, label: 'stat.'}
+    - {symerror: 0.056, label: 'sys.'}
+  - value: 1.436
+    errors:
+    - {symerror: 0.082, label: 'stat.'}
+    - {symerror: 0.058, label: 'sys.'}
+  - value: 1.832
+    errors:
+    - {symerror: 0.247, label: 'stat.'}
+    - {symerror: 0.074, label: 'sys.'}
+- header: {name: '$R_{\gamma}$'}
+  qualifiers:
+  - {name: '$p_{T} [GeV/c]$', value: '$40-50%$ centrality'}
+  values:
+  - value: 1.111
+    errors:
+    - {symerror: 0.017, label: 'stat.'}
+    - {symerror: 0.052, label: 'sys.'}
+  - value: 1.138
+    errors:
+    - {symerror: 0.013, label: 'stat.'}
+    - {symerror: 0.053, label: 'sys.'}
+  - value: 1.147
+    errors:
+    - {symerror: 0.013, label: 'stat.'}
+    - {symerror: 0.054, label: 'sys.'}
+  - value: 1.154
+    errors:
+    - {symerror: 0.014, label: 'stat.'}
+    - {symerror: 0.054, label: 'sys.'}
+  - value: 1.132
+    errors:
+    - {symerror: 0.015, label: 'stat.'}
+    - {symerror: 0.053, label: 'sys.'}
+  - value: 1.142
+    errors:
+    - {symerror: 0.017, label: 'stat.'}
+    - {symerror: 0.053, label: 'sys.'}
+  - value: 1.171
+    errors:
+    - {symerror: 0.015, label: 'stat.'}
+    - {symerror: 0.054, label: 'sys.'}
+  - value: 1.223
+    errors:
+    - {symerror: 0.023, label: 'stat.'}
+    - {symerror: 0.055, label: 'sys.'}
+  - value: 1.214
+    errors:
+    - {symerror: 0.033, label: 'stat.'}
+    - {symerror: 0.054, label: 'sys.'}
+  - value: 1.310
+    errors:
+    - {symerror: 0.054, label: 'stat.'}
+    - {symerror: 0.057, label: 'sys.'}
+  - value: 1.303
+    errors:
+    - {symerror: 0.052, label: 'stat.'}
+    - {symerror: 0.055, label: 'sys.'}
+  - value: 1.398
+    errors:
+    - {symerror: 0.080, label: 'stat.'}
+    - {symerror: 0.057, label: 'sys.'}
+  - value: 1.499
+    errors:
+    - {symerror: 0.185, label: 'stat.'}
+    - {symerror: 0.061, label: 'sys.'}
+- header: {name: '$R_{\gamma}$'}
+  qualifiers:
+  - {name: '$p_{T} [GeV/c]$', value: '$50-60%$ centrality'}
+  values:
+  - value: 1.117
+    errors:
+    - {symerror: 0.016, label: 'stat.'}
+    - {symerror: 0.054, label: 'sys.'}
+  - value: 1.145
+    errors:
+    - {symerror: 0.013, label: 'stat.'}
+    - {symerror: 0.055, label: 'sys.'}
+  - value: 1.114
+    errors:
+    - {symerror: 0.012, label: 'stat.'}
+    - {symerror: 0.053, label: 'sys.'}
+  - value: 1.144
+    errors:
+    - {symerror: 0.013, label: 'stat.'}
+    - {symerror: 0.055, label: 'sys.'}
+  - value: 1.149
+    errors:
+    - {symerror: 0.015, label: 'stat.'}
+    - {symerror: 0.055, label: 'sys.'}
+  - value: 1.138
+    errors:
+    - {symerror: 0.017, label: 'stat.'}
+    - {symerror: 0.054, label: 'sys.'}
+  - value: 1.164
+    errors:
+    - {symerror: 0.014, label: 'stat.'}
+    - {symerror: 0.054, label: 'sys.'}
+  - value: 1.159
+    errors:
+    - {symerror: 0.022, label: 'stat.'}
+    - {symerror: 0.053, label: 'sys.'}
+  - value: 1.203
+    errors:
+    - {symerror: 0.033, label: 'stat.'}
+    - {symerror: 0.054, label: 'sys.'}
+  - value: 1.182
+    errors:
+    - {symerror: 0.047, label: 'stat.'}
+    - {symerror: 0.052, label: 'sys.'}
+  - value: 1.276
+    errors:
+    - {symerror: 0.051, label: 'stat.'}
+    - {symerror: 0.055, label: 'sys.'}
+  - value: 1.202
+    errors:
+    - {symerror: 0.072, label: 'stat.'}
+    - {symerror: 0.050, label: 'sys.'}
+  - value: 1.816
+    errors:
+    - {symerror: 0.297, label: 'stat.'}
+    - {symerror: 0.074, label: 'sys.'}
+- header: {name: '$R_{\gamma}$'}
+  qualifiers:
+  - {name: '$p_{T} [GeV/c]$', value: '$60-70%$ centrality'}
+  values:
+  - value: 1.094
+    errors:
+    - {symerror: 0.017, label: 'stat.'}
+    - {symerror: 0.053, label: 'sys.'}
+  - value: 1.117
+    errors:
+    - {symerror: 0.014, label: 'stat.'}
+    - {symerror: 0.055, label: 'sys.'}
+  - value: 1.133
+    errors:
+    - {symerror: 0.014, label: 'stat.'}
+    - {symerror: 0.055, label: 'sys.'}
+  - value: 1.095
+    errors:
+    - {symerror: 0.014, label: 'stat.'}
+    - {symerror: 0.053, label: 'sys.'}
+  - value: 1.123
+    errors:
+    - {symerror: 0.017, label: 'stat.'}
+    - {symerror: 0.054, label: 'sys.'}
+  - value: 1.178
+    errors:
+    - {symerror: 0.020, label: 'stat.'}
+    - {symerror: 0.056, label: 'sys.'}
+  - value: 1.181
+    errors:
+    - {symerror: 0.017, label: 'stat.'}
+    - {symerror: 0.056, label: 'sys.'}
+  - value: 1.110
+    errors:
+    - {symerror: 0.023, label: 'stat.'}
+    - {symerror: 0.051, label: 'sys.'}
+  - value: 1.209
+    errors:
+    - {symerror: 0.041, label: 'stat.'}
+    - {symerror: 0.055, label: 'sys.'}
+  - value: 1.263
+    errors:
+    - {symerror: 0.063, label: 'stat.'}
+    - {symerror: 0.056, label: 'sys.'}
+  - value: 1.273
+    errors:
+    - {symerror: 0.064, label: 'stat.'}
+    - {symerror: 0.055, label: 'sys.'}
+  - value: 1.196
+    errors:
+    - {symerror: 0.090, label: 'stat.'}
+    - {symerror: 0.050, label: 'sys.'}
+  - value: 1.503
+    errors:
+    - {symerror: 0.296, label: 'stat.'}
+    - {symerror: 0.061, label: 'sys.'}
+- header: {name: '$R_{\gamma}$'}
+  qualifiers:
+  - {name: '$p_{T} [GeV/c]$', value: '$70-80%$ centrality'}
+  values:
+  - value: 1.116
+    errors:
+    - {symerror: 0.020, label: 'stat.'}
+    - {symerror: 0.055, label: 'sys.'}
+  - value: 1.130
+    errors:
+    - {symerror: 0.017, label: 'stat.'}
+    - {symerror: 0.056, label: 'sys.'}
+  - value: 1.147
+    errors:
+    - {symerror: 0.017, label: 'stat.'}
+    - {symerror: 0.056, label: 'sys.'}
+  - value: 1.109
+    errors:
+    - {symerror: 0.018, label: 'stat.'}
+    - {symerror: 0.054, label: 'sys.'}
+  - value: 1.174
+    errors:
+    - {symerror: 0.022, label: 'stat.'}
+    - {symerror: 0.057, label: 'sys.'}
+  - value: 1.170
+    errors:
+    - {symerror: 0.025, label: 'stat.'}
+    - {symerror: 0.056, label: 'sys.'}
+  - value: 1.181
+    errors:
+    - {symerror: 0.021, label: 'stat.'}
+    - {symerror: 0.056, label: 'sys.'}
+  - value: 1.149
+    errors:
+    - {symerror: 0.031, label: 'stat.'}
+    - {symerror: 0.054, label: 'sys.'}
+  - value: 1.203
+    errors:
+    - {symerror: 0.052, label: 'stat.'}
+    - {symerror: 0.055, label: 'sys.'}
+  - value: 1.134
+    errors:
+    - {symerror: 0.071, label: 'stat.'}
+    - {symerror: 0.051, label: 'sys.'}
+  - value: 1.247
+    errors:
+    - {symerror: 0.091, label: 'stat.'}
+    - {symerror: 0.054, label: 'sys.'}
+  - value: 1.350
+    errors:
+    - {symerror: 0.154, label: 'stat.'}
+    - {symerror: 0.056, label: 'sys.'}
+  - value: 1.506
+    errors:
+    - {symerror: 0.611, label: 'stat.'}
+    - {symerror: 0.061, label: 'sys.'}
+- header: {name: '$R_{\gamma}$'}
+  qualifiers:
+  - {name: '$p_{T} [GeV/c]$', value: '$80-93%$ centrality'}
+  values:
+  - value: 1.172
+    errors:
+    - {symerror: 0.034, label: 'stat.'}
+    - {symerror: 0.058, label: 'sys.'}
+  - value: 1.117
+    errors:
+    - {symerror: 0.027, label: 'stat.'}
+    - {symerror: 0.055, label: 'sys.'}
+  - value: 1.018
+    errors:
+    - {symerror: 0.025, label: 'stat.'}
+    - {symerror: 0.050, label: 'sys.'}
+  - value: 1.073
+    errors:
+    - {symerror: 0.030, label: 'stat.'}
+    - {symerror: 0.053, label: 'sys.'}
+  - value: 1.021
+    errors:
+    - {symerror: 0.032, label: 'stat.'}
+    - {symerror: 0.050, label: 'sys.'}
+  - value: 1.093
+    errors:
+    - {symerror: 0.040, label: 'stat.'}
+    - {symerror: 0.053, label: 'sys.'}
+  - value: 1.030
+    errors:
+    - {symerror: 0.032, label: 'stat.'}
+    - {symerror: 0.049, label: 'sys.'}
+  - value: 0.998
+    errors:
+    - {symerror: 0.047, label: 'stat.'}
+    - {symerror: 0.047, label: 'sys.'}
+  - value: 1.073
+    errors:
+    - {symerror: 0.076, label: 'stat.'}
+    - {symerror: 0.049, label: 'sys.'}
+  - value: 1.002
+    errors:
+    - {symerror: 0.103, label: 'stat.'}
+    - {symerror: 0.045, label: 'sys.'}
+  - value: 1.156
+    errors:
+    - {symerror: 0.131, label: 'stat.'}
+    - {symerror: 0.050, label: 'sys.'}
+  - value: 1.073
+    errors:
+    - {symerror: 0.193, label: 'stat.'}
+    - {symerror: 0.045, label: 'sys.'}
+  - value: 1.370
+    errors:
+    - {symerror: 1.148, label: 'stat.'}
+    - {symerror: 0.056, label: 'sys.'}
