@@ -1,0 +1,289 @@
+# PHENIX paper PPG245
+#
+# Measurement of psi(2S) nuclear modification at backward and forward rapidity in p+p, p+Al, and p+Au collisions at 200 GeV
+#
+# e-Print:  2202.03863 [nucl-ex] (2022)
+# InspireHEP ID: 2029951
+#
+# Please contact Krista Smith (kls15k@fsu.edu) if you have any questions about this submission
+# PPG liaison: Krista Smith
+
+additional_resources:
+- {description: arXiv link, location: 'https://arxiv.org/abs/2202.03863'}
+comment: |
+  BNL-RHIC.  Suppression of the J/$\psi$ nuclear modification factor has been seen as a trademark signature of final state effects in large collision systems for decades. In small systems, the nuclear modification was attributed to cold nuclear matter effects until the observation of strong differential suppression of the $\psi$(2S) state in $p/d$+A collisions suggested the presence of final state effects. Results of J/$\psi$ and $\psi$(2S) measurements in the dimuon decay channel are presented here for $p$+$p$, $p$+Al, and $p$+Au collision systems at $\sqrt{s_NN} = 200$~GeV. The results are predominantly shown in the form of the nuclear modification factor, $R_{AB}$, the ratio of the  $\psi$(2S) invariant yield per nucleon-nucleon collision in collisions of proton on target nucleus to that in $p$+$p$ collisions. Measurements of the J/$\psi$ and $\psi$(2S) nuclear modification factor are compared with shadowing and transport model predictions, as well as to complementary measurements at Large-Hadron-Collider energies.
+---
+
+#### Table 1 ####
+data_file: Y_rap_psi2S.yaml
+description: PSI(2S)-->MU+MU- invariant yields in p+p, p+Al, and p+Au collisions as a function of rapidity. The statistical and systematic uncertainties
+  vary point-to-point and are listed for each measured value.  An additional global
+  systematic uncertainty is provided in each column heading, which applies to all
+  data points per column.
+keywords:
+- name: reactions
+  values: [PSI(2S) --> MU+MU-]
+- name: observables
+  values: [INV. YIELD]
+- name: cmenergies
+  values: [200.0]
+- name: phrases
+  values: [psi(2S), Inclusive, Muon Production, Rapidity]
+location: Data from Figures 3-9 of ''Measurement of $\psi$(2S) at forward and backward rapiidty in $p$+$p$, $p$+Al, and $p$+Au collisions at $\sqrt{s_{_{NN}}} =
+  200$ GeV ''
+name: Figures 3-9, PSI(2S)
+---
+
+
+#### Table 2 ####
+data_file: Y_rap_Jpsi.yaml
+description: J/PSI(1S)-->MU+MU- invariant yields in p+p, p+Al, and p+Au collisions as a function of rapidity. The statistical and systematic uncertainties
+  vary point-to-point and are listed for each measured value.  An additional global
+  systematic uncertainty is provided in each column heading, which applies to all
+  data points per column.
+keywords:
+- name: reactions
+  values: [J/PSI(1S) --> MU+MU-]
+- name: observables
+  values: [INV. YIELD]
+- name: cmenergies
+  values: [200.0]
+- name: phrases
+  values: [J/psi, Inclusive, Muon Production, Rapidity]
+location: Data from Figures 3-9 of ''Measurement of $\psi$(2S) at forward and backward rapiidty in $p$+$p$, $p$+Al, and $p$+Au collisions at $\sqrt{s_{_{NN}}} =
+  200$ GeV''
+name: Figures 3-9, J/PSI(1S)
+---
+
+#### Table 3 ####
+data_file: RAB_rap_psi2S_pAl.yaml
+description: PSI(2S)-->MU+MU- nuclear modification in p+Al collisions as a function of rapidity. The statistical and systematic uncertainties
+  vary point-to-point and are listed for each measured value.  An additional global
+  systematic uncertainty is provided in each column heading, which applies to all
+  data points per column.
+keywords:
+- name: reactions
+  values: [PSI(2S) --> MU+MU-]
+- name: observables
+  values: [RAB]
+- name: cmenergies
+  values: [200.0]
+- name: phrases
+  values: [psi(2S), Inclusive, Muon Production, Rapidity]
+location: Data from Figure 3 of ''Measurement of $\psi$(2S) at forward and backward rapiidty in $p$+$p$, $p$+Al, and $p$+Au collisions at $\sqrt{s_{_{NN}}} =
+  200$ GeV''
+name: Figure 3, PSI(2S)
+additional_resources:
+ - {location: fig3.png, description: ' psi(2S)-->mu+mu- nuclear modification in p+Al collisions as a function of rapidity
+ for the 0-100\% centrality range'}
+---
+
+#### Table 4 ####
+data_file: RAB_rap_Jpsi_pAl.yaml
+description: J/PSI(1S)-->MU+MU- nuclear modification in p+Al collisions as a function of rapidity. The statistical and systematic uncertainties
+  vary point-to-point and are listed for each measured value.  An additional global
+  systematic uncertainty is provided in each column heading, which applies to all
+  data points per column.
+keywords:
+- name: reactions
+  values: [J/PSI(1S) --> MU+MU-]
+- name: observables
+  values: [RAB]
+- name: cmenergies
+  values: [200.0]
+- name: phrases
+  values: [J/psi, Inclusive, Muon Production, Rapidity]
+location: Data from Figure 3 of ''Measurement of $\psi$(2S) at forward and backward rapiidty in $p$+$p$, $p$+Al, and $p$+Au collisions at $\sqrt{s_{_{NN}}} =
+  200$ GeV''
+name: Figure 3, J/PSI(1S)
+additional_resources:
+ - {location: fig3.png, description: ' J/psi-->mu+mu- nuclear modification in p+Al collisions as a function of rapidity
+ for the 0-100\% centrality range'}
+---
+
+#### Table 5 ####
+data_file: RAB_rap_psi2S_pAu.yaml
+description: PSI(2S)-->MU+MU- nuclear modification in p+Au collisions as a function of rapidity. The statistical and systematic uncertainties
+  vary point-to-point and are listed for each measured value.  An additional global
+  systematic uncertainty is provided in each column heading, which applies to all
+  data points per column.
+keywords:
+- name: reactions
+  values: [PSI(2S) --> MU+MU-]
+- name: observables
+  values: [RAB]
+- name: cmenergies
+  values: [200.0]
+- name: phrases
+  values: [psi(2S), Inclusive, Muon Production, Rapidity]
+location: Data from Figures 4 and 9 of ''Measurement of $\psi$(2S) at forward and backward rapiidty in $p$+$p$, $p$+Al, and $p$+Au collisions at $\sqrt{s_{_{NN}}} =
+  200$ GeV''
+name: Figures 4 and 9, PSI(2S)
+additional_resources:
+ - {location: fig4.png, description: ' psi(2S)-->mu+mu- nuclear modification in p+Au collisions as a function of rapidity
+ for the 0-100\% centrality range'}
+---
+
+#### Table 6 ####
+data_file: RAB_rap_Jpsi_pAu.yaml
+description: J/PSI(1S)-->MU+MU- nuclear modification in p+Au collisions as a function of rapidity. The statistical and systematic uncertainties
+  vary point-to-point and are listed for each measured value.  An additional global
+  systematic uncertainty is provided in each column heading, which applies to all
+  data points per column.
+keywords:
+- name: reactions
+  values: [J/PSI(1S) --> MU+MU-]
+- name: observables
+  values: [RAB]
+- name: cmenergies
+  values: [200.0]
+- name: phrases
+  values: [J/psi, Inclusive, Muon Production, Rapidity]
+location: Data from Figures 4 and 9 of ''Measurement of $\psi$(2S) at forward and backward rapiidty in $p$+$p$, $p$+Al, and $p$+Au collisions at $\sqrt{s_{_{NN}}} =
+  200$ GeV''
+name: Figures 4 and 9, J/PSI(1S)
+additional_resources:
+ - {location: fig4.png, description: ' J/psi-->mu+mu- nuclear modification in p+Au collisions as a function of rapidity
+ for the 0-100\% centrality range'}
+---
+
+
+#### Table 7 ####
+data_file: RAB_ncoll_psi2S_pAu_fwd.yaml
+description: PSI(2S)-->MU+MU- nuclear modification in p+Au collisions as a function of centrality at forward rapidity. The statistical and systematic uncertainties
+  vary point-to-point and are listed for each measured value.  An additional global
+  systematic uncertainty is provided in each column heading, which applies to all
+  data points per column.
+keywords:
+- name: reactions
+  values: [PSI(2S) --> MU+MU-]
+- name: observables
+  values: [RAB]
+- name: cmenergies
+  values: [200.0]
+- name: phrases
+  values: [psi(2S), Inclusive, Muon Production]
+location: Data from Figures 5, 6, and 7 of ''Measurement of $\psi$(2S) at forward and backward rapiidty in $p$+$p$, $p$+Al, and $p$+Au collisions at $\sqrt{s_{_{NN}}} =
+  200$ GeV''
+name: Figures 5, 6, and 7, FWD PSI(2S)
+additional_resources:
+ - {location: fig5.png, description: ' psi(2S)-->mu+mu- nuclear modification in p+Au collisions as a function of centrality at backward (left) and forward rapidity'}
+---
+
+
+#### Table 8 ####
+data_file: RAB_ncoll_psi2S_pAu_bkwd.yaml
+description: PSI(2S)-->MU+MU- nuclear modification in p+Au collisions as a function of centrality at backward rapidity. The statistical and systematic uncertainties
+  vary point-to-point and are listed for each measured value.  An additional global
+  systematic uncertainty is provided in each column heading, which applies to all
+  data points per column.
+keywords:
+- name: reactions
+  values: [PSI(2S) --> MU+MU-]
+- name: observables
+  values: [RAB]
+- name: cmenergies
+  values: [200.0]
+- name: phrases
+  values: [psi(2S), Inclusive, Muon Production]
+location: Data from Figures 5, 6, and79 of ''Measurement of $\psi$(2S) at forward and backward rapiidty in $p$+$p$, $p$+Al, and $p$+Au collisions at $\sqrt{s_{_{NN}}} =
+  200$ GeV''
+name: Figures 5, 6, and 7, BKWD PSI(2S)
+additional_resources:
+ - {location: fig5.png, description: ' psi(2S)-->mu+mu- nuclear modification in p+Au collisions as a function of centrality at backward (left) and forward rapidity'}
+---
+
+
+#### Table 9 ####
+data_file: RAB_ncoll_Jpsi_pAu.yaml
+description: J/PSI(1S)-->MU+MU- nuclear modification in p+Au collisions as a function of centrality. The statistical and systematic uncertainties
+  vary point-to-point and are listed for each measured value.  An additional global
+  systematic uncertainty is provided in each column heading, which applies to all
+  data points per column.
+keywords:
+- name: reactions
+  values: [J/PSI(1S) --> MU+MU-]
+- name: observables
+  values: [RAB]
+- name: cmenergies
+  values: [200.0]
+- name: phrases
+  values: [J/psi, Inclusive, Muon Production]
+location: Data from Figures 5, 6, and 7 of ''Measurement of $\psi$(2S) at forward and backward rapiidty in $p$+$p$, $p$+Al, and $p$+Au collisions at $\sqrt{s_{_{NN}}} =
+  200$ GeV''
+name: Figures 5, 6, and 7, J/PSI(1S)
+additional_resources:
+ - {location: fig5.png, description: ' J/psi-->mu+mu- nuclear modification in p+Au collisions as a function of centrality at backward (left) and forward rapidity'}
+---
+
+
+
+
+#### Table 10 ####
+data_file: Ratio_psi2S_pp.yaml
+description: Invariant yield ratio of PSI(2S)-->MU+MU- with respect to J/PSI(1S)-->MU+MU- in p+p collisions at rapidity 1.2 < |y| < 2.2. The statistical and systematic uncertainties
+  vary point-to-point and are listed for each measured value.  The global
+  systematic uncertainty cancels when taking the ratio.
+keywords:
+- name: reactions
+  values: [PSI(2S) --> MU+MU-]
+- name: observables
+  values: [INV. YIELD]
+- name: cmenergies
+  values: [200.0]
+- name: phrases
+  values: [psi(2S), Inclusive, Muon Production]
+location: Data from Figure 8 of ''Measurement of $\psi$(2S) at forward and backward rapiidty in $p$+$p$, $p$+Al, and $p$+Au collisions at $\sqrt{s_{_{NN}}} =
+  200$ GeV''
+name: Figure 8
+additional_resources:
+ - {location: fig8.png, description: ' Invariant yield ratio of psi(2S)-->mu+mu- to J/psi-->mu+mu- in p+p collisions at rapidity 1.2 < |y| < 2.2'}
+---
+
+
+#### Table 11 ####
+data_file: Ratio_psi2S_pAu_fwd.yaml
+description: Invariant yield ratio of PSI(2S)-->MU+MU- with respect to J/PSI(1S)-->MU+MU- in p+Au collisions as a function of centrality at forward rapidity. The statistical and systematic uncertainties
+  vary point-to-point and are listed for each measured value.  The global
+  systematic uncertainty cancels when taking the ratio.
+keywords:
+- name: reactions
+  values: [PSI(2S) --> MU+MU-]
+- name: observables
+  values: [INV. YIELD]
+- name: cmenergies
+  values: [200.0]
+- name: phrases
+  values: [psi(2S), Inclusive, Muon Production]
+location: Data from Figure 8 of ''Measurement of $\psi$(2S) at forward and backward rapiidty in $p$+$p$, $p$+Al, and $p$+Au collisions at $\sqrt{s_{_{NN}}} =
+  200$ GeV''
+name: Figure 8, FWD
+additional_resources:
+ - {location: fig8.png, description: ' psi(2S)-->mu+mu- nuclear modification in p+Au collisions as a function of centrality at backward (left) and forward rapidity'}
+---
+
+
+#### Table 12 ####
+data_file: Ratio_psi2S_pAu_bkwd.yaml
+description: Invariant yield ratio of PSI(2S)-->MU+MU- with respect to J/PSI(1S)-->MU+MU- in p+Au collisions as a function of centrality at backward rapidity. The statistical and systematic uncertainties
+  vary point-to-point and are listed for each measured value.  The global
+  systematic uncertainty cancels when taking the ratio.
+keywords:
+- name: reactions
+  values: [PSI(2S) --> MU+MU-]
+- name: observables
+  values: [INV. YIELD]
+- name: cmenergies
+  values: [200.0]
+- name: phrases
+  values: [psi(2S), Inclusive, Muon Production]
+location: Data from Figure 8 of ''Measurement of $\psi$(2S) at forward and backward rapiidty in $p$+$p$, $p$+Al, and $p$+Au collisions at $\sqrt{s_{_{NN}}} =
+  200$ GeV''
+name: Figure 8, BKWD
+additional_resources:
+ - {location: fig8.png, description: ' Invariant yield ratio of psi(2S)-->mu+mu- to J/psi-->mu+mu- in p+Au collisions as a function of centrality at backward (left) and forward rapidity'}
+---
+
+
+
+
