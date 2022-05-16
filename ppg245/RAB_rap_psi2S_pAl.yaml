@@ -1,0 +1,18 @@
+independent_variables:
+- header: {name: '$y$'}
+  values:
+  - {low: 1.2, high: 2.2}
+  - {low: -2.2, high: -1.2}
+dependent_variables:
+- header: {name: '$\frac{dN^{Al}/dy}{\langle N_{coll} \rangle dN^{pp}/dy}$ (global err. 11.5%)'}
+  qualifiers:
+  - {name: '', value: '$R_{pAl}$,  p+Al $\sqrt{s_{NN}}$=200GeV  '}
+  values:
+  - value: 1.02
+    errors:
+    - {symerror: 0.18, label: 'stat'}
+    - {symerror: 0.14, label: 'y sys'}
+  - value: 0.59
+    errors:
+    - {symerror: 0.21, label: 'stat'}
+    - {symerror: 0.08, label: 'y sys'}

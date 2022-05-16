@@ -1,0 +1,18 @@
+independent_variables:
+- header: {name: '$y$'}
+  values:
+  - {low: 1.2, high: 2.2}
+  - {low: -2.2, high: -1.2}
+dependent_variables:
+- header: {name: '$\frac{dN^{Au}/dy}{\langle N_{coll} \rangle dN^{pp}/dy}$ (global err. 12.1%)'}
+  qualifiers:
+  - {name: '', value: '$R_{pAu}$,  p+Au $\sqrt{s_{NN}}$=200GeV'}
+  values:
+  - value: 0.66
+    errors:
+    - {symerror: 0.09, label: 'stat'}
+    - {symerror: 0.10, label: 'y sys'}
+  - value: 0.51
+    errors:
+    - {symerror: 0.12, label: 'stat'}
+    - {symerror: 0.08, label: 'y sys'}
