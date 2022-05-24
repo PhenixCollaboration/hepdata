@@ -1,0 +1,66 @@
+independent_variables:
+- header: {name: '$p_{T}$ GeV/c'}
+  values:
+  - {low: 1.0, high: 1.3}
+  - {low: 1.3, high: 1.5}
+  - {low: 1.5, high: 1.8}
+  - {low: 1.8, high: 2.1}
+  - {low: 2.1, high: 2.7}
+  - {low: 2.7, high: 5.0}
+dependent_variables:
+- header: {name: '$A_{N}^{OHF \rightarrow e^{+}}$'}
+  qualifiers:
+  - {name: '$p_{T}$ GeV/c', value: '$A_{N}^{OHF \rightarrow e^{+}}$, $p^{\uparrow}$$+$$p$ $\sqrt{s} = 200$ GeV, $|\eta|<0.35$'}
+  values:
+  - value: -0.00256
+    errors:
+    - {symerror: 0.0212, label: 'Statistical'}
+    - {asymerror: {plus: 0.00330, minus: -0.00281 }, label: 'Systematic'}
+  - value: 0.0105
+    errors:
+    - {symerror: 0.0178, label: 'Statistical'}
+    - {asymerror: {plus: 0.00211, minus: -0.00189 }, label: 'Systematic'}
+  - value: 0.00571
+    errors:
+    - {symerror: 0.0159, label: 'Statistical'}
+    - {asymerror: {plus: 0.00134, minus: -0.00132 }, label: 'Systematic'}
+  - value: 0.0126
+    errors:
+    - {symerror: 0.0192, label: 'Statistical'}
+    - {asymerror: {plus: 0.00710, minus: -0.00708 }, label: 'Systematic'}
+  - value: 0.00208
+    errors:
+    - {symerror: 0.0210, label: 'Statistical'}
+    - {asymerror: {plus: 0.00473, minus: -0.00465 }, label: 'Systematic'}
+  - value: 0.0357
+    errors:
+    - {symerror: 0.0287, label: 'Statistical'}
+    - {asymerror: {plus: 0.00688, minus: -0.00501 }, label: 'Systematic'}
+- header: {name: '$A_{N}^{OHF \rightarrow e^{-}}$'}
+  qualifiers:
+  - {name: '$p_{T}$ GeV/c', value: '$A_{N}^{OHF \rightarrow e^{-}}$, $p^{\uparrow}$$+$$p$ $\sqrt{s} = 200$ GeV, $|\eta|<0.35$'}
+  values:
+  - value: -0.0113
+    errors:
+    - {symerror: 0.0186, label: 'Statistical'}
+    - {asymerror: {plus: 0.00474, minus: -0.00343 }, label: 'Systematic'}
+  - value: -0.0297
+    errors:
+    - {symerror: 0.0181, label: 'Statistical'}
+    - {asymerror: {plus: 0.00502, minus: -0.00384 }, label: 'Systematic'}
+  - value: 0.0139
+    errors:
+    - {symerror: 0.0167, label: 'Statistical'}
+    - {asymerror: {plus: 0.00209, minus: -0.00191 }, label: 'Systematic'}
+  - value: 0.0105
+    errors:
+    - {symerror: 0.0207, label: 'Statistical'}
+    - {asymerror: {plus: 0.00176, minus: -0.00149 }, label: 'Systematic'}
+  - value: -0.0267
+    errors:
+    - {symerror: 0.0227, label: 'Statistical'}
+    - {asymerror: {plus: 0.00269, minus: -0.00269 }, label: 'Systematic'}
+  - value: 0.0237
+    errors:
+    - {symerror: 0.0305, label: 'Statistical'}
+    - {asymerror: {plus: 0.00541, minus: -0.00363 }, label: 'Systematic'}
