@@ -1,0 +1,44 @@
+independent_variables:
+- header: {name: 'pT'}
+  values:
+  - {low: 1.0, high: 1.5}
+  - {low: 1.5, high: 2.0}
+  - {low: 2.0, high: 2.5}
+  - {low: 2.5, high: 3.0}
+  - {low: 3.0, high: 3.5}
+  - {low: 3.5, high: 4.0}
+dependent_variables:
+- header: {name: 'R_AA'}
+  qualifiers:
+  - {name: 'pT', value: 'central 10%'}
+  values:
+  - value: 0.341
+    errors:
+    - {symerror: 0.023, label: 'stat'}
+    - {symerror: 0.09, label: 'sys,tot'}
+    - {asymerror: {plus: 0.11, minus: 0.07}, label: 'systematic uncertainty from the upper(lower) estimate of the pp reference'}
+  - value: 0.543
+    errors:
+    - {symerror: 0.028, label: 'stat'}
+    - {symerror: 0.15, label: 'sys,tot'}
+    - {asymerror: {plus: 0.18, minus: 0.12}, label: 'systematic uncertainty from the upper(lower) estimate of the pp reference'}
+  - value: 0.43
+    errors:
+    - {symerror: 0.04, label: 'stat'}
+    - {symerror: 0.11, label: 'sys,tot'}
+    - {asymerror: {plus: 0.15, minus: 0.11}, label: 'systematic uncertainty from the upper(lower) estimate of the pp reference'}
+  - value: 0.257
+    errors:
+    - {symerror: 0.035, label: 'stat'}
+    - {symerror: 0.08, label: 'sys,tot'}
+    - {asymerror: {plus: 0.10, minus: 0.07}, label: 'systematic uncertainty from the upper(lower) estimate of the pp reference'}
+  - value: 0.34
+    errors:
+    - {symerror: 0.06, label: 'stat'}
+    - {symerror: 0.11, label: 'sys,tot'}
+    - {asymerror: {plus: 0.15, minus: 0.09}, label: 'systematic uncertainty from the upper(lower) estimate of the pp reference'}
+  - value: 0.34
+    errors:
+    - {symerror: 0.07, label: 'stat'}
+    - {symerror: 0.12, label: 'sys,tot'}
+    - {asymerror: {plus: 0.17, minus: 0.10}, label: 'systematic uncertainty from the upper(lower) estimate of the pp reference'}

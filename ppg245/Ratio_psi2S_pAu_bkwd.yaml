@@ -1,0 +1,18 @@
+independent_variables:
+- header: {name: '$\langle N_{coll} \rangle $'}
+  values:
+  - {value: 8.2}
+  - {value: 4.3}
+dependent_variables:
+- header: {name: '$B_{ll} \frac{dN_{\psi(2S)}}{dy}$ / $B_{ll} \frac{dN_{J\psi}}{dy}$'}
+  qualifiers:
+  - {name: '', value: 'Invariant Yield Ratio, p+Au $\sqrt{s_{NN}}$=200GeV'}
+  values:
+  - value: 0.0092
+    errors:
+    - {symerror: 0.0048, label: 'stat'}
+    - {symerror: 0.0011, label: 'y sys'}
+  - value: 0.0131
+    errors:
+    - {symerror: 0.0016, label: 'stat'}
+    - {symerror: 0.0016, label: 'y sys'}

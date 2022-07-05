@@ -1,0 +1,105 @@
+independent_variables:
+- header: {name: '$centrality$'}
+  values:
+  - {low: 0, high: 20}
+  - {low: 20, high: 40}
+  - {low: 40, high: 60}
+  - {low: 60, high: 88}
+  - {low: 0, high: 5}
+dependent_variables:
+- header: {name: 'Average $R_{xA}$ in $^3He+Au$'}
+  qualifiers:
+  - {name: '$centrality$', value: '$p_{t} >8 GeV/c$'}
+  values:
+  - value: 9.743e-01
+    errors:
+    - {symerror: 4.718e-03, label: 'sta.'}
+    - {symerror: 7.466e-02, label: 'sys.'}
+  - value: 1.080e+00
+    errors:
+    - {symerror: 6.186e-03, label: 'sta.'}
+    - {symerror: 8.276e-02, label: 'sys.'}
+  - value: 1.109e+00
+    errors:
+    - {symerror: 8.318e-03, label: 'sta.'}
+    - {symerror: 8.500e-02, label: 'sys.'}
+  - value: 1.045e+00
+    errors:
+    - {symerror: 1.101e-02, label: 'sta.'}
+    - {symerror: 8.008e-02, label: 'sys.'}
+  - value: 9.053e-01
+    errors:
+    - {symerror: 3.736e-03, label: 'sta.'}
+    - {symerror: 5.459e-02, label: 'sys.'}
+- header: {name: 'Average $R_{xA}$ in $d+Au$'}
+  qualifiers:
+  - {name: '$centrality$', value: '$p_{t} >8 GeV/c$'}
+  values:
+  - value: 1.060e+00
+    errors:
+    - {symerror: 3.113e-03, label: 'sta.'}
+    - {symerror: 6.541e-02, label: 'sys.'}
+  - value: 1.111e+00
+    errors:
+    - {symerror: 3.898e-03, label: 'sta.'}
+    - {symerror: 6.852e-02, label: 'sys.'}
+  - value: 1.150e+00
+    errors:
+    - {symerror: 5.058e-03, label: 'sta.'}
+    - {symerror: 7.089e-02, label: 'sys.'}
+  - value: 1.062e+00
+    errors:
+    - {symerror: 5.856e-03, label: 'sta.'}
+    - {symerror: 6.545e-02, label: 'sys.'}
+  - value: --
+    errors:
+    - {symerror: --, label: 'sta.'}
+    - {symerror: --, label: 'sys.'}
+- header: {name: 'Average $R_{xA}$ in $p+Au$'}
+  qualifiers:
+  - {name: '$centrality$', value: '$p_{t} >8 GeV/c$'}
+  values:
+  - value: 1.168e+00
+    errors:
+    - {symerror: 9.245e-03, label: 'sta.'}
+    - {symerror: 7.657e-02, label: 'sys.'}
+  - value: 1.159e+00
+    errors:
+    - {symerror: 1.127e-02, label: 'sta.'}
+    - {symerror: 7.598e-02, label: 'sys.'}
+  - value: 1.199e+00
+    errors:
+    - {symerror: 1.444e-02, label: 'sta.'}
+    - {symerror: 7.859e-02, label: 'sys.'}
+  - value: 1.030e+00
+    errors:
+    - {symerror: 1.571e-02, label: 'sta.'}
+    - {symerror: 6.751e-02, label: 'sys.'}
+  - value: 1.183e+00
+    errors:
+    - {symerror: 3.292e-03, label: 'sta.'}
+    - {symerror: 7.757e-02, label: 'sys.'}
+- header: {name: 'Average $R_{xA}$ in $p+Al$'}
+  qualifiers:
+  - {name: '$centrality$', value: '$p_{t} >8 GeV/c$'}
+  values:
+  - value: 9.500e-01
+    errors:
+    - {symerror: 1.659e-02, label: 'sta.'}
+    - {symerror: 6.083e-02, label: 'sys.'}
+  - value: 9.955e-01
+    errors:
+    - {symerror: 2.244e-02, label: 'sta.'}
+    - {symerror: 6.372e-02, label: 'sys.'}
+  - value: 9.726e-01
+    errors:
+    - {symerror: 2.770e-02, label: 'sta.'}
+    - {symerror: 6.227e-02, label: 'sys.'}
+  - value: 1.016e+00
+    errors:
+    - {symerror: 4.874e-02, label: 'sta.'}
+    - {symerror: 6.504e-02, label: 'sys.'}
+  - value: 1.003e+00
+    errors:
+    - {symerror: 5.718e-03, label: 'sta.'}
+    - {symerror: 6.582e-02, label: 'sys.'}

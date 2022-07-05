@@ -1,0 +1,13 @@
+independent_variables:
+- header: {name: '$y$'}
+  values:
+  - {low: 1.2, high: 2.2}
+dependent_variables:
+- header: {name: '$B_{ll} \frac{dN_{\psi(2S)}}{dy}$ / $B_{ll} \frac{dN_{J\psi}}{dy}$'}
+  qualifiers:
+  - {name: '', value: 'Invariant Yield Ratio, p+p $\sqrt{s_{NN}}$=200GeV'}
+  values:
+  - value: 0.0212
+    errors:
+    - {symerror: 0.0011, label: 'stat'}
+    - {symerror: 0.0021, label: 'y sys'}

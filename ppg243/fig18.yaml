@@ -1,0 +1,84 @@
+independent_variables:
+- header: {name: '$dN_{ch}/d\eta |_{\eta\approx 0}$'}
+  values:
+  - {value: 623.9}
+  - {value: 414.2}
+  - {value: 274.0}
+  - {value: 176.8}
+  - {value: 109.4}
+  - {value: 61.6}
+  - {value: 32.0}
+  - {value: 15.5}
+dependent_variables:
+- header: {name: '$T_{eff} [GeV/c]$'}
+  qualifiers:
+  - {name: '$dN_{ch}/d\eta |_{\eta\approx 0}$', value: '$T_{eff}  \ $ extraction range: 0.8-1.9GeV/c'}
+  values:
+  - value: 0.268
+    errors:
+    - {symerror: 0.024, label: 'stat.'}
+    - {asymerror: {plus: 0.026, minus: -0.012}, label: 'sys.'}
+  - value: 0.303
+    errors:
+    - {symerror: 0.024, label: 'stat.'}
+    - {asymerror: {plus: 0.062, minus: -0.021}, label: 'sys.'}
+  - value: 0.263
+    errors:
+    - {symerror: 0.011, label: 'stat.'}
+    - {asymerror: {plus: 0.014, minus: -0.007}, label: 'sys.'}
+  - value: 0.256
+    errors:
+    - {symerror: 0.011, label: 'stat.'}
+    - {asymerror: {plus: 0.009, minus: -0.005}, label: 'sys.'}
+  - value: 0.244
+    errors:
+    - {symerror: 0.009, label: 'stat.'}
+    - {asymerror: {plus: 0.003, minus: -0.005}, label: 'sys.'}
+  - value: 0.246
+    errors:
+    - {symerror: 0.010, label: 'stat.'}
+    - {asymerror: {plus: 0.005, minus: -0.005}, label: 'sys.'}
+  - value: 0.261
+    errors:
+    - {symerror: 0.015, label: 'stat.'}
+    - {asymerror: {plus: 0.021, minus: -0.008}, label: 'sys.'}
+  - value: 0.263
+    errors:
+    - {symerror: 0.016, label: 'stat.'}
+    - {asymerror: {plus: 0.016, minus: -0.007}, label: 'sys.'}
+- header: {name: '$T_{eff} [GeV/c]$'}
+  qualifiers:
+  - {name: '$dN_{ch}/d\eta |_{\eta\approx 0}$', value: '$T_{eff} \ $ extraction range: 2.0-4.0GeV/c'}
+  values:
+  - value: 0.514
+    errors:
+    - {symerror: 0.061, label: 'stat.'}
+    - {asymerror: {plus: 0.066, minus: -0.039}, label: 'sys.'}
+  - value: 0.358
+    errors:
+    - {symerror: 0.033, label: 'stat.'}
+    - {asymerror: {plus: 0.024, minus: -0.035}, label: 'sys.'}
+  - value: 0.351
+    errors:
+    - {symerror: 0.024, label: 'stat.'}
+    - {asymerror: {plus: 0.020, minus: -0.030}, label: 'sys.'}
+  - value: 0.333
+    errors:
+    - {symerror: 0.024, label: 'stat.'}
+    - {asymerror: {plus: 0.020, minus: -0.032}, label: 'sys.'}
+  - value: 0.389
+    errors:
+    - {symerror: 0.029, label: 'stat.'}
+    - {asymerror: {plus: 0.020, minus: -0.021}, label: 'sys.'}
+  - value: 0.345
+    errors:
+    - {symerror: 0.031, label: 'stat.'}
+    - {asymerror: {plus: 0.019, minus: -0.032}, label: 'sys.'}
+  - value: 0.319
+    errors:
+    - {symerror: 0.049, label: 'stat.'}
+    - {asymerror: {plus: 0.037, minus: -0.042}, label: 'sys.'}
+  - value: 0.335
+    errors:
+    - {symerror: 0.044, label: 'stat.'}
+    - {asymerror: {plus: 0.020, minus: -0.035}, label: 'sys.'}

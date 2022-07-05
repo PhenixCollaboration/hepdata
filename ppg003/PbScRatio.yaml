@@ -1,0 +1,33 @@
+independent_variables:
+- header: {name: 'pT'}
+  values:
+  - {low: 1.000, high: 1.500}
+  - {low: 1.500, high: 2.000}
+  - {low: 2.000, high: 2.500}
+  - {low: 2.500, high: 3.000}
+  - {low: 3.000, high: 3.500}
+dependent_variables:
+- header: {name: 'Ratio of central/peripheral'}
+  qualifiers:
+  - {name: 'pT', value: 'Ratio of yield per event in central vs peripheral'}
+  values:
+  - value: 0.349
+    errors:
+    - {symerror: 0.026, label: 'stat'}
+    - {symerror: 0.17, label: 'sys'}
+  - value: 0.58
+    errors:
+    - {symerror: 0.04, label: 'stat'}
+    - {symerror: 0.28, label: 'sys'}
+  - value: 0.44
+    errors:
+    - {symerror: 0.05, label: 'stat'}
+    - {symerror: 0.23, label: 'sys'}
+  - value: 0.30
+    errors:
+    - {symerror: 0.06, label: 'stat'}
+    - {symerror: 0.16, label: 'sys'}
+  - value: 0.29
+    errors:
+    - {symerror: 0.07, label: 'stat'}
+    - {symerror: 0.15, label: 'sys'}

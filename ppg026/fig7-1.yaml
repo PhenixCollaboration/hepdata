@@ -1,5 +1,5 @@
 independent_variables:
-- header: {name: 'pT(GeV/c)'}
+- header: {name: '$p_T$ (GeV/c)'}
   values:
   - {low: 0.2, high: 0.3}
   - {low: 0.3, high: 0.4}
@@ -31,88 +31,90 @@ independent_variables:
   - {low: 2.9, high: 3}
 dependent_variables:
 - header: {name: 'Rcp'}
+  qualifiers:
+  - {name: 'pT(GeV/c)', value: '$(\pi^+_+\pi^-)/2$'}
   values:
-  - value: 0.25
+  - value: 0.362202
     errors:
-    - {symerror: 0.362202, label: 'stat_error'}
-  - value: 0.35
+    - {symerror: 0.0025485, label: 'stat_error'}
+  - value: 0.418424
     errors:
-    - {symerror: 0.418424, label: 'stat_error'}
-  - value: 0.45
+    - {symerror: 0.0030071, label: 'stat_error'}
+  - value: 0.454474
     errors:
-    - {symerror: 0.454474, label: 'stat_error'}
-  - value: 0.55
+    - {symerror: 0.0034571, label: 'stat_error'}
+  - value: 0.490438
     errors:
-    - {symerror: 0.490438, label: 'stat_error'}
-  - value: 0.65
+    - {symerror: 0.0040229, label: 'stat_error'}
+  - value: 0.513588
     errors:
-    - {symerror: 0.513588, label: 'stat_error'}
-  - value: 0.75
+    - {symerror: 0.0046367, label: 'stat_error'}
+  - value: 0.539685
     errors:
-    - {symerror: 0.539685, label: 'stat_error'}
-  - value: 0.85
+    - {symerror: 0.0054389, label: 'stat_error'}
+  - value: 0.555961
     errors:
-    - {symerror: 0.555961, label: 'stat_error'}
-  - value: 0.95
+    - {symerror: 0.0062266, label: 'stat_error'}
+  - value: 0.575832
     errors:
-    - {symerror: 0.575832, label: 'stat_error'}
-  - value: 1.05
+    - {symerror: 0.0072855, label: 'stat_error'}
+  - value: 0.584072
     errors:
-    - {symerror: 0.584072, label: 'stat_error'}
-  - value: 1.15
+    - {symerror: 0.0082649, label: 'stat_error'}
+  - value: 0.597516
     errors:
-    - {symerror: 0.597516, label: 'stat_error'}
-  - value: 1.25
+    - {symerror: 0.0095573, label: 'stat_error'}
+  - value: 0.606816
     errors:
-    - {symerror: 0.606816, label: 'stat_error'}
-  - value: 1.35
+    - {symerror: 0.0110029, label: 'stat_error'}
+  - value: 0.613395
     errors:
-    - {symerror: 0.613395, label: 'stat_error'}
-  - value: 1.45
+    - {symerror: 0.0128194, label: 'stat_error'}
+  - value: 0.614034
     errors:
-    - {symerror: 0.614034, label: 'stat_error'}
-  - value: 1.55
+    - {symerror: 0.0146977, label: 'stat_error'}
+  - value: 0.605189
     errors:
-    - {symerror: 0.605189, label: 'stat_error'}
-  - value: 1.65
+    - {symerror: 0.0166458, label: 'stat_error'}
+  - value: 0.559249
     errors:
-    - {symerror: 0.559249, label: 'stat_error'}
-  - value: 1.75
+    - {symerror: 0.0173472, label: 'stat_error'}
+  - value: 0.562135
     errors:
-    - {symerror: 0.562135, label: 'stat_error'}
-  - value: 1.85
+    - {symerror: 0.020346, label: 'stat_error'}
+  - value: 0.546237
     errors:
-    - {symerror: 0.546237, label: 'stat_error'}
-  - value: 1.95
+    - {symerror: 0.0226024, label: 'stat_error'}
+  - value: 0.536282
     errors:
-    - {symerror: 0.536282, label: 'stat_error'}
-  - value: 2.05
+    - {symerror: 0.0263244, label: 'stat_error'}
+  - value: 0.525483
     errors:
-    - {symerror: 0.525483, label: 'stat_error'}
-  - value: 2.15
+    - {symerror: 0.0253455, label: 'stat_error'}
+  - value: 0.510946
     errors:
-    - {symerror: 0.510946, label: 'stat_error'}
-  - value: 2.25
+    - {symerror: 0.0293557, label: 'stat_error'}
+  - value: 0.474883
     errors:
-    - {symerror: 0.474883, label: 'stat_error'}
-  - value: 2.35
+    - {symerror: 0.0323578, label: 'stat_error'}
+  - value: 0.417656
     errors:
-    - {symerror: 0.417656, label: 'stat_error'}
-  - value: 2.45
+    - {symerror: 0.0325737, label: 'stat_error'}
+  - value: 0.438568
     errors:
-    - {symerror: 0.438568, label: 'stat_error'}
-  - value: 2.55
+    - {symerror: 0.0421535, label: 'stat_error'}
+  - value: 0.325864
     errors:
-    - {symerror: 0.325864, label: 'stat_error'}
-  - value: 2.65
+    - {symerror: 0.0344278, label: 'stat_error'}
+  - value: 0.315087
     errors:
-    - {symerror: 0.315087, label: 'stat_error'}
-  - value: 2.75
+    - {symerror: 0.0400222, label: 'stat_error'}
+  - value: 0.342872
     errors:
-    - {symerror: 0.342872, label: 'stat_error'}
-  - value: 2.85
+    - {symerror: 0.0543191, label: 'stat_error'}
+  - value: 0.307623
     errors:
-    - {symerror: 0.307623, label: 'stat_error'}
-  - value: 2.95
+    - {symerror: 0.0587572, label: 'stat_error'}
+  - value: 0.25658
     errors:
-    - {symerror: 0.25658, label: 'stat_error'}
+    - {symerror: 0.0551469, label: 'stat_error'}

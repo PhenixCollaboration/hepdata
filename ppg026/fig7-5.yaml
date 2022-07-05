@@ -11,7 +11,9 @@ independent_variables:
   - {low: 50, high: 60}
   - {low: 60, high: 92.2}
 dependent_variables:
-- header: {name: 'Integrated_Rcp_for_60-92%'}
+- header: {name: '$R_{CP}$'}
+  qualifiers:
+  - {name: 'Particle type', value: '$(\pi^++\pi^-)/2$'}
   values:
   - value: 0.480636
     errors:
@@ -49,9 +51,9 @@ dependent_variables:
     errors:
     - {symerror: 0.0155987, label: 'stat_error'}
     - {symerror: 0.287111, label: 'sys_error'}
-- header: {name: 'Integrated_Rcp_for_60-92%'}
+- header: {name: '$R_{CP}$'}
   qualifiers:
-  - {name: 'centrality', value: 'charged_kaon'}
+  - {name: 'Particle type', value: '$(K^++K^-)/2$'}
   values:
   - value: 0.687895
     errors:
@@ -89,9 +91,9 @@ dependent_variables:
     errors:
     - {symerror: 0.0333149, label: 'stat_error'}
     - {symerror: 0.288847, label: 'sys_error'}
-- header: {name: 'Integrated_Rcp_for_60-92%'}
+- header: {name: '$R_{CP}$'}
   qualifiers:
-  - {name: 'centrality', value: '(p+pbar)/2'}
+  - {name: 'Particle type', value: '$(p+\bar{p})/2$'}
   values:
   - value: 0.894316
     errors:

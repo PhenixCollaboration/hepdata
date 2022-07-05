@@ -1,0 +1,85 @@
+independent_variables:
+- header: {name: '$centrality$'}
+  values:
+  - {low: 0, high: 20}
+  - {low: 20, high: 40}
+  - {low: 40, high: 60}
+  - {low: 60, high: 88}
+  - {low: 0, high: 5}
+dependent_variables:
+- header: {name: '$N_{coll}/N_{proj}$ in $^3He+Au$'}
+  qualifiers:
+  - {name: '$centrality$', value: '$p_{t} >8 GeV/c$'}
+  values:
+  - value: 7.300e+00
+    errors:
+    - {symerror: 2.000e-01, label: 'sys.'}
+  - value: 5.410e+00
+    errors:
+    - {symerror: 2.000e-01, label: 'sys.'}
+  - value: 3.850e+00
+    errors:
+    - {symerror: 2.000e-01, label: 'sys.'}
+  - value: 2.050e+00
+    errors:
+    - {symerror: 2.000e-01, label: 'sys.'}
+  - value: 8.720e+00
+    errors:
+    - {symerror: 2.000e-01, label: 'sys.'}
+- header: {name: '$N_{coll}/N_{proj}$ in $d+Au$'}
+  qualifiers:
+  - {name: '$centrality$', value: '$p_{t} >8 GeV/c$'}
+  values:
+  - value: 7.460e+00
+    errors:
+    - {symerror: 2.000e-01, label: 'sys.'}
+  - value: 5.710e+00
+    errors:
+    - {symerror: 2.000e-01, label: 'sys.'}
+  - value: 4.160e+00
+    errors:
+    - {symerror: 2.000e-01, label: 'sys.'}
+  - value: 2.270e+00
+    errors:
+    - {symerror: 2.000e-01, label: 'sys.'}
+  - value: --
+    errors:
+    - {symerror: --, label: 'sys.'}
+- header: {name: '$N_{coll}/N_{proj}$ in $p+Au$'}
+  qualifiers:
+  - {name: '$centrality$', value: '$p_{t} >8 GeV/c$'}
+  values:
+  - value: 8.200e+00
+    errors:
+    - {symerror: 2.000e-01, label: 'sys.'}
+  - value: 6.100e+00
+    errors:
+    - {symerror: 2.000e-01, label: 'sys.'}
+  - value: 4.400e+00
+    errors:
+    - {symerror: 2.000e-01, label: 'sys.'}
+  - value: 2.600e+00
+    errors:
+    - {symerror: 2.000e-01, label: 'sys.'}
+  - value: 9.700e+00
+    errors:
+    - {symerror: 2.000e-01, label: 'sys.'}
+- header: {name: '$N_{coll}/N_{proj}$ in $p+Al$'}
+  qualifiers:
+  - {name: '$centrality$', value: '$p_{t} >8 GeV/c$'}
+  values:
+  - value: 3.400e+00
+    errors:
+    - {symerror: 2.000e-01, label: 'sys.'}
+  - value: 2.300e+00
+    errors:
+    - {symerror: 2.000e-01, label: 'sys.'}
+  - value: 1.800e+00
+    errors:
+    - {symerror: 2.000e-01, label: 'sys.'}
+  - value: 1.300e+00
+    errors:
+    - {symerror: 2.000e-01, label: 'sys.'}
+  - value: 4.100e+00
+    errors:
+    - {symerror: 2.000e-01, label: 'sys.'}

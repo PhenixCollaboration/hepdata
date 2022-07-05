@@ -1,0 +1,42 @@
+independent_variables:
+- header: {name: '$y$'}
+  values:
+  - {low: 1.2, high: 2.2}
+  - {low: -2.2, high: -1.2}
+dependent_variables:
+- header: {name: '$\frac{1}{ \Delta y} \frac{c_\mathrm{BBC}}{\varepsilon_\mathrm{Ae} \varepsilon_\mathrm{trig}} \frac{N_{J/\psi}}{N_\mathrm{evt}}$  (global err. 10.0%)'}
+  qualifiers:
+  - {name: '', value: '$B_{ll} \frac{dN}{dy}$,  p+p $\sqrt{s_{NN}}$=200GeV'}
+  values:
+  - value: 6.31e-07
+    errors:
+    - {symerror: 4.50e-09, label: 'stat'}
+    - {symerror: 3.26e-08, label: 'sys'}
+  - value: 6.33e-07
+    errors:
+    - {symerror: 4.31e-09, label: 'stat'}
+    - {symerror: 3.69e-08, label: 'sys'}
+- header: {name: '$\frac{1}{ \Delta y} \frac{c_\mathrm{BBC}}{\varepsilon_\mathrm{Ae} \varepsilon_\mathrm{trig}} \frac{N_{J/\psi}}{N_\mathrm{evt}}$  (global err. 10.4%)'}
+  qualifiers:
+  - {name: '', value: '$B_{ll} \frac{dN}{dy}$,  p+Al $\sqrt{s_{NN}}$=200GeV'}
+  values:
+  - value: 1.36e-06
+    errors:
+    - {symerror: 1.61e-08, label: 'stat'}
+    - {symerror: 5.07e-08, label: 'sys'}
+  - value: 1.47e-06
+    errors:
+    - {symerror: 2.27e-08, label: 'stat'}
+    - {symerror: 7.42e-08, label: 'sys'}
+- header: {name: '$\frac{1}{ \Delta y} \frac{c_\mathrm{BBC}}{\varepsilon_\mathrm{Ae} \varepsilon_\mathrm{trig}} \frac{N_{J/\psi}}{N_\mathrm{evt}}$  (global err. 10.2%)'}
+  qualifiers:
+  - {name: '', value: '$B_{ll} \frac{dN}{dy}$,  p+Au $\sqrt{s_{NN}}$=200GeV'}
+  values:
+  - value: 2.19e-06
+    errors:
+    - {symerror: 2.09e-08, label: 'stat'}
+    - {symerror: 1.16e-07, label: 'sys'}
+  - value: 2.69e-06
+    errors:
+    - {symerror: 3.51e-08, label: 'stat'}
+    - {symerror: 1.25e-07, label: 'sys'}

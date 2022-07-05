@@ -1,0 +1,521 @@
+independent_variables:
+- header: {name: '$p_{T} [GeV/c]$'}
+  values:
+  - {low: 0.8, high: 1.0}
+  - {low: 1.0, high: 1.2}
+  - {low: 1.2, high: 1.4}
+  - {low: 1.4, high: 1.6}
+  - {low: 1.6, high: 1.8}
+  - {low: 1.8, high: 2.0}
+  - {low: 2.0, high: 2.5}
+  - {low: 2.5, high: 3.0}
+  - {low: 3.0, high: 3.5}
+  - {low: 3.5, high: 4.0}
+  - {low: 4.0, high: 5.0}
+  - {low: 5.0, high: 7.0}
+  - {low: 7.0, high: 10.0}
+dependent_variables:
+- header: {name: '$\frac{1}{2\pi p_{T}}\frac{d^{2}N}{dp_{T}dy} [(GeV/c)^{-2}]$'}
+  qualifiers:
+  - {name: '$p_{T} [GeV/c]$', value: '$0-10%$ centrality'}
+  values:
+  - value: 1.347e+00
+    errors:
+    - {asymerror: {plus: 3.332e-01, minus: -3.332e-01}, label: 'stat.'}
+    - {asymerror: {plus: 5.138e-01, minus: -5.138e-01}, label: 'sys.'}
+  - value: 3.244e-01
+    errors:
+    - {asymerror: {plus: 9.627e-02, minus: -9.627e-02}, label: 'stat.'}
+    - {asymerror: {plus: 1.808e-01, minus: -1.808e-01}, label: 'sys.'}
+  - value: 1.853e-01
+    errors:
+    - {asymerror: {plus: 3.902e-02, minus: -3.902e-02}, label: 'stat.'}
+    - {asymerror: {plus: 7.531e-02, minus: -7.531e-02}, label: 'sys.'}
+  - value: 8.947e-02
+    errors:
+    - {asymerror: {plus: 1.754e-02, minus: -1.754e-02}, label: 'stat.'}
+    - {asymerror: {plus: 3.257e-02, minus: -3.257e-02}, label: 'sys.'}
+  - value: 6.450e-02
+    errors:
+    - {asymerror: {plus: 9.099e-03, minus: -9.099e-03}, label: 'stat.'}
+    - {asymerror: {plus: 1.602e-02, minus: -1.602e-02}, label: 'sys.'}
+  - value: 2.209e-02
+    errors:
+    - {asymerror: {plus: 4.243e-03, minus: -4.243e-03}, label: 'stat.'}
+    - {asymerror: {plus: 6.901e-03, minus: -6.901e-03}, label: 'sys.'}
+  - value: 7.256e-03
+    errors:
+    - {asymerror: {plus: 1.113e-03, minus: -1.113e-03}, label: 'stat.'}
+    - {asymerror: {plus: 2.031e-03, minus: -2.031e-03}, label: 'sys.'}
+  - value: 3.211e-03
+    errors:
+    - {asymerror: {plus: 3.916e-04, minus: -3.916e-04}, label: 'stat.'}
+    - {asymerror: {plus: 6.231e-04, minus: -6.231e-04}, label: 'sys.'}
+  - value: 9.591e-04
+    errors:
+    - {asymerror: {plus: 1.433e-04, minus: -1.433e-04}, label: 'stat.'}
+    - {asymerror: {plus: 1.854e-04, minus: -1.854e-04}, label: 'sys.'}
+  - value: 4.967e-04
+    errors:
+    - {asymerror: {plus: 8.241e-05, minus: -8.241e-05}, label: 'stat.'}
+    - {asymerror: {plus: 8.986e-05, minus: -8.986e-05}, label: 'sys.'}
+  - value: 1.150e-04
+    errors:
+    - {asymerror: {plus: 1.871e-05, minus: -1.871e-05}, label: 'stat.'}
+    - {asymerror: {plus: 2.151e-05, minus: -2.151e-05}, label: 'sys.'}
+  - value: 1.222e-05
+    errors:
+    - {asymerror: {plus: 2.405e-06, minus: -2.405e-06}, label: 'stat.'}
+    - {asymerror: {plus: 2.443e-06, minus: -2.443e-06}, label: 'sys.'}
+  - value: 4.529e-07
+    errors:
+    - {asymerror: {plus: 1.548e-07, minus: -1.548e-07}, label: 'stat.'}
+    - {asymerror: {plus: 1.052e-07, minus: -1.052e-07}, label: 'sys.'}
+- header: {name: '$\frac{1}{2\pi p_{T}}\frac{d^{2}N}{dp_{T}dy} [(GeV/c)^{-2}]$'}
+  qualifiers:
+  - {name: '$p_{T} [GeV/c]$', value: '$10-20%$ centrality'}
+  values:
+  - value: 6.194e-01
+    errors:
+    - {asymerror: {plus: 1.572e-01, minus: -1.572e-01}, label: 'stat.'}
+    - {asymerror: {plus: 3.091e-01, minus: -3.091e-01}, label: 'sys.'}
+  - value: 3.154e-01
+    errors:
+    - {asymerror: {plus: 5.143e-02, minus: -5.143e-02}, label: 'stat.'}
+    - {asymerror: {plus: 1.221e-01, minus: -1.221e-01}, label: 'sys.'}
+  - value: 1.260e-01
+    errors:
+    - {asymerror: {plus: 2.022e-02, minus: -2.022e-02}, label: 'stat.'}
+    - {asymerror: {plus: 4.998e-02, minus: -4.998e-02}, label: 'sys.'}
+  - value: 5.796e-02
+    errors:
+    - {asymerror: {plus: 8.990e-03, minus: -8.990e-03}, label: 'stat.'}
+    - {asymerror: {plus: 2.170e-02, minus: -2.170e-02}, label: 'sys.'}
+  - value: 4.075e-02
+    errors:
+    - {asymerror: {plus: 4.707e-03, minus: -4.707e-03}, label: 'stat.'}
+    - {asymerror: {plus: 1.068e-02, minus: -1.068e-02}, label: 'sys.'}
+  - value: 2.246e-02
+    errors:
+    - {asymerror: {plus: 2.509e-03, minus: -2.509e-03}, label: 'stat.'}
+    - {asymerror: {plus: 5.246e-03, minus: -5.246e-03}, label: 'sys.'}
+  - value: 6.975e-03
+    errors:
+    - {asymerror: {plus: 6.799e-04, minus: -6.799e-04}, label: 'stat.'}
+    - {asymerror: {plus: 1.606e-03, minus: -1.606e-03}, label: 'sys.'}
+  - value: 1.582e-03
+    errors:
+    - {asymerror: {plus: 1.930e-04, minus: -1.930e-04}, label: 'stat.'}
+    - {asymerror: {plus: 3.578e-04, minus: -3.578e-04}, label: 'sys.'}
+  - value: 5.886e-04
+    errors:
+    - {asymerror: {plus: 7.779e-05, minus: -7.779e-05}, label: 'stat.'}
+    - {asymerror: {plus: 1.182e-04, minus: -1.182e-04}, label: 'sys.'}
+  - value: 2.128e-04
+    errors:
+    - {asymerror: {plus: 3.657e-05, minus: -3.657e-05}, label: 'stat.'}
+    - {asymerror: {plus: 4.187e-05, minus: -4.187e-05}, label: 'sys.'}
+  - value: 5.881e-05
+    errors:
+    - {asymerror: {plus: 8.340e-06, minus: -8.340e-06}, label: 'stat.'}
+    - {asymerror: {plus: 1.143e-05, minus: -1.143e-05}, label: 'sys.'}
+  - value: 1.040e-05
+    errors:
+    - {asymerror: {plus: 1.647e-06, minus: -1.647e-06}, label: 'stat.'}
+    - {asymerror: {plus: 2.056e-06, minus: -2.056e-06}, label: 'sys.'}
+  - value: 7.890e-07
+    errors:
+    - {asymerror: {plus: 2.149e-07, minus: -2.149e-07}, label: 'stat.'}
+    - {asymerror: {plus: 1.761e-07, minus: -1.761e-07}, label: 'sys.'}
+- header: {name: '$\frac{1}{2\pi p_{T}}\frac{d^{2}N}{dp_{T}dy} [(GeV/c)^{-2}]$'}
+  qualifiers:
+  - {name: '$p_{T} [GeV/c]$', value: '$20-30%$ centrality'}
+  values:
+  - value: 5.714e-01
+    errors:
+    - {asymerror: {plus: 7.687e-02, minus: -7.687e-02}, label: 'stat.'}
+    - {asymerror: {plus: 2.098e-01, minus: -2.098e-01}, label: 'sys.'}
+  - value: 2.285e-01
+    errors:
+    - {asymerror: {plus: 2.243e-02, minus: -2.243e-02}, label: 'stat.'}
+    - {asymerror: {plus: 8.075e-02, minus: -8.075e-02}, label: 'sys.'}
+  - value: 9.975e-02
+    errors:
+    - {asymerror: {plus: 9.196e-03, minus: -9.196e-03}, label: 'stat.'}
+    - {asymerror: {plus: 3.377e-02, minus: -3.377e-02}, label: 'sys.'}
+  - value: 4.347e-02
+    errors:
+    - {asymerror: {plus: 4.256e-03, minus: -4.256e-03}, label: 'stat.'}
+    - {asymerror: {plus: 1.480e-02, minus: -1.480e-02}, label: 'sys.'}
+  - value: 2.570e-02
+    errors:
+    - {asymerror: {plus: 2.306e-03, minus: -2.306e-03}, label: 'stat.'}
+    - {asymerror: {plus: 7.174e-03, minus: -7.174e-03}, label: 'sys.'}
+  - value: 1.351e-02
+    errors:
+    - {asymerror: {plus: 1.241e-03, minus: -1.241e-03}, label: 'stat.'}
+    - {asymerror: {plus: 3.501e-03, minus: -3.501e-03}, label: 'sys.'}
+  - value: 4.794e-03
+    errors:
+    - {asymerror: {plus: 3.359e-04, minus: -3.359e-04}, label: 'stat.'}
+    - {asymerror: {plus: 1.148e-03, minus: -1.148e-03}, label: 'sys.'}
+  - value: 1.095e-03
+    errors:
+    - {asymerror: {plus: 1.081e-04, minus: -1.081e-04}, label: 'stat.'}
+    - {asymerror: {plus: 2.636e-04, minus: -2.636e-04}, label: 'sys.'}
+  - value: 3.901e-04
+    errors:
+    - {asymerror: {plus: 4.684e-05, minus: -4.684e-05}, label: 'stat.'}
+    - {asymerror: {plus: 8.359e-05, minus: -8.359e-05}, label: 'sys.'}
+  - value: 1.339e-04
+    errors:
+    - {asymerror: {plus: 2.150e-05, minus: -2.150e-05}, label: 'stat.'}
+    - {asymerror: {plus: 2.799e-05, minus: -2.799e-05}, label: 'sys.'}
+  - value: 2.913e-05
+    errors:
+    - {asymerror: {plus: 4.401e-06, minus: -4.401e-06}, label: 'stat.'}
+    - {asymerror: {plus: 6.264e-06, minus: -6.264e-06}, label: 'sys.'}
+  - value: 6.445e-06
+    errors:
+    - {asymerror: {plus: 9.398e-07, minus: -9.398e-07}, label: 'stat.'}
+    - {asymerror: {plus: 1.301e-06, minus: -1.301e-06}, label: 'sys.'}
+  - value: 3.011e-07
+    errors:
+    - {asymerror: {plus: 8.458e-08, minus: -8.458e-08}, label: 'stat.'}
+    - {asymerror: {plus: 6.956e-08, minus: -6.956e-08}, label: 'sys.'}
+- header: {name: '$\frac{1}{2\pi p_{T}}\frac{d^{2}N}{dp_{T}dy} [(GeV/c)^{-2}]$'}
+  qualifiers:
+  - {name: '$p_{T} [GeV/c]$', value: '$30-40%$ centrality'}
+  values:
+  - value: 3.573e-01
+    errors:
+    - {asymerror: {plus: 4.882e-02, minus: -4.882e-02}, label: 'stat.'}
+    - {asymerror: {plus: 1.361e-01, minus: -1.361e-01}, label: 'sys.'}
+  - value: 1.457e-01
+    errors:
+    - {asymerror: {plus: 1.485e-02, minus: -1.485e-02}, label: 'stat.'}
+    - {asymerror: {plus: 5.284e-02, minus: -5.284e-02}, label: 'sys.'}
+  - value: 6.346e-02
+    errors:
+    - {asymerror: {plus: 6.090e-03, minus: -6.090e-03}, label: 'stat.'}
+    - {asymerror: {plus: 2.226e-02, minus: -2.226e-02}, label: 'sys.'}
+  - value: 2.928e-02
+    errors:
+    - {asymerror: {plus: 2.845e-03, minus: -2.845e-03}, label: 'stat.'}
+    - {asymerror: {plus: 9.913e-03, minus: -9.913e-03}, label: 'sys.'}
+  - value: 1.363e-02
+    errors:
+    - {asymerror: {plus: 1.414e-03, minus: -1.414e-03}, label: 'stat.'}
+    - {asymerror: {plus: 4.582e-03, minus: -4.582e-03}, label: 'sys.'}
+  - value: 8.574e-03
+    errors:
+    - {asymerror: {plus: 8.174e-04, minus: -8.174e-04}, label: 'stat.'}
+    - {asymerror: {plus: 2.347e-03, minus: -2.347e-03}, label: 'sys.'}
+  - value: 3.011e-03
+    errors:
+    - {asymerror: {plus: 2.282e-04, minus: -2.282e-04}, label: 'stat.'}
+    - {asymerror: {plus: 7.732e-04, minus: -7.732e-04}, label: 'sys.'}
+  - value: 6.748e-04
+    errors:
+    - {asymerror: {plus: 7.173e-05, minus: -7.173e-05}, label: 'stat.'}
+    - {asymerror: {plus: 1.769e-04, minus: -1.769e-04}, label: 'sys.'}
+  - value: 2.120e-04
+    errors:
+    - {asymerror: {plus: 2.983e-05, minus: -2.983e-05}, label: 'stat.'}
+    - {asymerror: {plus: 5.119e-05, minus: -5.119e-05}, label: 'sys.'}
+  - value: 7.667e-05
+    errors:
+    - {asymerror: {plus: 1.386e-05, minus: -1.386e-05}, label: 'stat.'}
+    - {asymerror: {plus: 1.737e-05, minus: -1.737e-05}, label: 'sys.'}
+  - value: 2.077e-05
+    errors:
+    - {asymerror: {plus: 3.162e-06, minus: -3.162e-06}, label: 'stat.'}
+    - {asymerror: {plus: 4.492e-06, minus: -4.492e-06}, label: 'sys.'}
+  - value: 2.396e-06
+    errors:
+    - {asymerror: {plus: 4.530e-07, minus: -4.530e-07}, label: 'stat.'}
+    - {asymerror: {plus: 5.210e-07, minus: -5.210e-07}, label: 'sys.'}
+  - value: 2.447e-07
+    errors:
+    - {asymerror: {plus: 7.317e-08, minus: -7.317e-08}, label: 'stat.'}
+    - {asymerror: {plus: 5.609e-08, minus: -5.609e-08}, label: 'sys.'}
+- header: {name: '$\frac{1}{2\pi p_{T}}\frac{d^{2}N}{dp_{T}dy} [(GeV/c)^{-2}]$'}
+  qualifiers:
+  - {name: '$p_{T} [GeV/c]$', value: '$40-50%$ centrality'}
+  values:
+  - value: 1.785e-01
+    errors:
+    - {asymerror: {plus: 2.674e-02, minus: -2.674e-02}, label: 'stat.'}
+    - {asymerror: {plus: 8.115e-02, minus: -8.115e-02}, label: 'sys.'}
+  - value: 8.562e-02
+    errors:
+    - {asymerror: {plus: 8.298e-03, minus: -8.298e-03}, label: 'stat.'}
+    - {asymerror: {plus: 3.212e-02, minus: -3.212e-02}, label: 'sys.'}
+  - value: 3.786e-02
+    errors:
+    - {asymerror: {plus: 3.393e-03, minus: -3.393e-03}, label: 'stat.'}
+    - {asymerror: {plus: 1.345e-02, minus: -1.345e-02}, label: 'sys.'}
+  - value: 1.798e-02
+    errors:
+    - {asymerror: {plus: 1.642e-03, minus: -1.642e-03}, label: 'stat.'}
+    - {asymerror: {plus: 6.122e-03, minus: -6.122e-03}, label: 'sys.'}
+  - value: 7.225e-03
+    errors:
+    - {asymerror: {plus: 8.086e-04, minus: -8.086e-04}, label: 'stat.'}
+    - {asymerror: {plus: 2.781e-03, minus: -2.781e-03}, label: 'sys.'}
+  - value: 3.809e-03
+    errors:
+    - {asymerror: {plus: 4.485e-04, minus: -4.485e-04}, label: 'stat.'}
+    - {asymerror: {plus: 1.369e-03, minus: -1.369e-03}, label: 'sys.'}
+  - value: 1.445e-03
+    errors:
+    - {asymerror: {plus: 1.263e-04, minus: -1.263e-04}, label: 'stat.'}
+    - {asymerror: {plus: 4.507e-04, minus: -4.507e-04}, label: 'sys.'}
+  - value: 4.402e-04
+    errors:
+    - {asymerror: {plus: 4.555e-05, minus: -4.555e-05}, label: 'stat.'}
+    - {asymerror: {plus: 1.142e-04, minus: -1.142e-04}, label: 'sys.'}
+  - value: 1.170e-04
+    errors:
+    - {asymerror: {plus: 1.830e-05, minus: -1.830e-05}, label: 'stat.'}
+    - {asymerror: {plus: 3.097e-05, minus: -3.097e-05}, label: 'sys.'}
+  - value: 5.412e-05
+    errors:
+    - {asymerror: {plus: 9.488e-06, minus: -9.488e-06}, label: 'stat.'}
+    - {asymerror: {plus: 1.191e-05, minus: -1.191e-05}, label: 'sys.'}
+  - value: 1.214e-05
+    errors:
+    - {asymerror: {plus: 2.098e-06, minus: -2.098e-06}, label: 'stat.'}
+    - {asymerror: {plus: 2.718e-06, minus: -2.718e-06}, label: 'sys.'}
+  - value: 1.503e-06
+    errors:
+    - {asymerror: {plus: 3.014e-07, minus: -3.014e-07}, label: 'stat.'}
+    - {asymerror: {plus: 3.318e-07, minus: -3.318e-07}, label: 'sys.'}
+  - value: 1.037e-07
+    errors:
+    - {asymerror: {plus: 3.870e-08, minus: -3.870e-08}, label: 'stat.'}
+    - {asymerror: {plus: 2.463e-08, minus: -2.463e-08}, label: 'sys.'}
+- header: {name: '$\frac{1}{2\pi p_{T}}\frac{d^{2}N}{dp_{T}dy} [(GeV/c)^{-2}]$'}
+  qualifiers:
+  - {name: '$p_{T} [GeV/c]$', value: '$50-60%$ centrality'}
+  values:
+  - value: 1.018e-01
+    errors:
+    - {asymerror: {plus: 1.374e-02, minus: -1.374e-02}, label: 'stat.'}
+    - {asymerror: {plus: 4.537e-02, minus: -4.537e-02}, label: 'sys.'}
+  - value: 4.846e-02
+    errors:
+    - {asymerror: {plus: 4.226e-03, minus: -4.226e-03}, label: 'stat.'}
+    - {asymerror: {plus: 1.797e-02, minus: -1.797e-02}, label: 'sys.'}
+  - value: 1.587e-02
+    errors:
+    - {asymerror: {plus: 1.670e-03, minus: -1.670e-03}, label: 'stat.'}
+    - {asymerror: {plus: 7.193e-03, minus: -7.193e-03}, label: 'sys.'}
+  - value: 8.990e-03
+    errors:
+    - {asymerror: {plus: 8.377e-04, minus: -8.377e-04}, label: 'stat.'}
+    - {asymerror: {plus: 3.320e-03, minus: -3.320e-03}, label: 'sys.'}
+  - value: 4.373e-03
+    errors:
+    - {asymerror: {plus: 4.327e-04, minus: -4.327e-04}, label: 'stat.'}
+    - {asymerror: {plus: 1.559e-03, minus: -1.559e-03}, label: 'sys.'}
+  - value: 2.006e-03
+    errors:
+    - {asymerror: {plus: 2.404e-04, minus: -2.404e-04}, label: 'stat.'}
+    - {asymerror: {plus: 7.563e-04, minus: -7.563e-04}, label: 'sys.'}
+  - value: 7.695e-04
+    errors:
+    - {asymerror: {plus: 6.805e-05, minus: -6.805e-05}, label: 'stat.'}
+    - {asymerror: {plus: 2.533e-04, minus: -2.533e-04}, label: 'sys.'}
+  - value: 1.762e-04
+    errors:
+    - {asymerror: {plus: 2.401e-05, minus: -2.401e-05}, label: 'stat.'}
+    - {asymerror: {plus: 5.942e-05, minus: -5.942e-05}, label: 'sys.'}
+  - value: 6.373e-05
+    errors:
+    - {asymerror: {plus: 1.049e-05, minus: -1.049e-05}, label: 'stat.'}
+    - {asymerror: {plus: 1.800e-05, minus: -1.800e-05}, label: 'sys.'}
+  - value: 1.842e-05
+    errors:
+    - {asymerror: {plus: 4.826e-06, minus: -4.826e-06}, label: 'stat.'}
+    - {asymerror: {plus: 5.526e-06, minus: -5.526e-06}, label: 'sys.'}
+  - value: 6.523e-06
+    errors:
+    - {asymerror: {plus: 1.212e-06, minus: -1.212e-06}, label: 'stat.'}
+    - {asymerror: {plus: 1.550e-06, minus: -1.550e-06}, label: 'sys.'}
+  - value: 4.538e-07
+    errors:
+    - {asymerror: {plus: 1.613e-07, minus: -1.613e-07}, label: 'stat.'}
+    - {asymerror: {plus: 1.261e-07, minus: -1.261e-07}, label: 'sys.'}
+  - value: 1.034e-07
+    errors:
+    - {asymerror: {plus: 3.786e-08, minus: -3.786e-08}, label: 'stat.'}
+    - {asymerror: {plus: 2.368e-08, minus: -2.368e-08}, label: 'sys.'}
+- header: {name: '$\frac{1}{2\pi p_{T}}\frac{d^{2}N}{dp_{T}dy} [(GeV/c)^{-2}]$'}
+  qualifiers:
+  - {name: '$p_{T} [GeV/c]$', value: '$60-70%$ centrality'}
+  values:
+  - value: 3.896e-02
+    errors:
+    - {asymerror: {plus: 6.980e-03, minus: -6.980e-03}, label: 'stat.'}
+    - {asymerror: {plus: 2.139e-02, minus: -2.139e-02}, label: 'sys.'}
+  - value: 1.846e-02
+    errors:
+    - {asymerror: {plus: 2.171e-03, minus: -2.171e-03}, label: 'stat.'}
+    - {asymerror: {plus: 8.340e-03, minus: -8.340e-03}, label: 'sys.'}
+  - value: 8.773e-03
+    errors:
+    - {asymerror: {plus: 9.329e-04, minus: -9.329e-04}, label: 'stat.'}
+    - {asymerror: {plus: 3.533e-03, minus: -3.533e-03}, label: 'sys.'}
+  - value: 2.778e-03
+    errors:
+    - {asymerror: {plus: 4.234e-04, minus: -4.234e-04}, label: 'stat.'}
+    - {asymerror: {plus: 1.489e-03, minus: -1.489e-03}, label: 'sys.'}
+  - value: 1.708e-03
+    errors:
+    - {asymerror: {plus: 2.336e-04, minus: -2.336e-04}, label: 'stat.'}
+    - {asymerror: {plus: 7.274e-04, minus: -7.274e-04}, label: 'sys.'}
+  - value: 1.233e-03
+    errors:
+    - {asymerror: {plus: 1.424e-04, minus: -1.424e-04}, label: 'stat.'}
+    - {asymerror: {plus: 3.817e-04, minus: -3.817e-04}, label: 'sys.'}
+  - value: 4.123e-04
+    errors:
+    - {asymerror: {plus: 3.904e-05, minus: -3.904e-05}, label: 'stat.'}
+    - {asymerror: {plus: 1.268e-04, minus: -1.268e-04}, label: 'sys.'}
+  - value: 6.116e-05
+    errors:
+    - {asymerror: {plus: 1.302e-05, minus: -1.302e-05}, label: 'stat.'}
+    - {asymerror: {plus: 2.809e-05, minus: -2.809e-05}, label: 'sys.'}
+  - value: 3.415e-05
+    errors:
+    - {asymerror: {plus: 6.729e-06, minus: -6.729e-06}, label: 'stat.'}
+    - {asymerror: {plus: 9.488e-06, minus: -9.488e-06}, label: 'sys.'}
+  - value: 1.432e-05
+    errors:
+    - {asymerror: {plus: 3.462e-06, minus: -3.462e-06}, label: 'stat.'}
+    - {asymerror: {plus: 3.476e-06, minus: -3.476e-06}, label: 'sys.'}
+  - value: 3.547e-06
+    errors:
+    - {asymerror: {plus: 8.327e-07, minus: -8.327e-07}, label: 'stat.'}
+    - {asymerror: {plus: 8.547e-07, minus: -8.547e-07}, label: 'sys.'}
+  - value: 2.496e-07
+    errors:
+    - {asymerror: {plus: 1.153e-07, minus: -1.153e-07}, label: 'stat.'}
+    - {asymerror: {plus: 7.032e-08, minus: -7.032e-08}, label: 'sys.'}
+  - value: 3.671e-08
+    errors:
+    - {asymerror: {plus: 2.165e-08, minus: -2.165e-08}, label: 'stat.'}
+    - {asymerror: {plus: 8.728e-09, minus: -8.728e-09}, label: 'sys.'}
+- header: {name: '$\frac{1}{2\pi p_{T}}\frac{d^{2}N}{dp_{T}dy} [(GeV/c)^{-2}]$'}
+  qualifiers:
+  - {name: '$p_{T} [GeV/c]$', value: '$70-80%$ centrality'}
+  values:
+  - value: 2.032e-02
+    errors:
+    - {asymerror: {plus: 3.557e-03, minus: -3.557e-03}, label: 'stat.'}
+    - {asymerror: {plus: 9.313e-03, minus: -9.313e-03}, label: 'sys.'}
+  - value: 8.565e-03
+    errors:
+    - {asymerror: {plus: 1.091e-03, minus: -1.091e-03}, label: 'stat.'}
+    - {asymerror: {plus: 3.564e-03, minus: -3.564e-03}, label: 'sys.'}
+  - value: 3.982e-03
+    errors:
+    - {asymerror: {plus: 4.686e-04, minus: -4.686e-04}, label: 'stat.'}
+    - {asymerror: {plus: 1.492e-03, minus: -1.492e-03}, label: 'sys.'}
+  - value: 1.342e-03
+    errors:
+    - {asymerror: {plus: 2.205e-04, minus: -2.205e-04}, label: 'stat.'}
+    - {asymerror: {plus: 6.459e-04, minus: -6.459e-04}, label: 'sys.'}
+  - value: 1.032e-03
+    errors:
+    - {asymerror: {plus: 1.301e-04, minus: -1.301e-04}, label: 'stat.'}
+    - {asymerror: {plus: 3.320e-04, minus: -3.320e-04}, label: 'sys.'}
+  - value: 5.139e-04
+    errors:
+    - {asymerror: {plus: 7.605e-05, minus: -7.605e-05}, label: 'stat.'}
+    - {asymerror: {plus: 1.675e-04, minus: -1.675e-04}, label: 'sys.'}
+  - value: 1.851e-04
+    errors:
+    - {asymerror: {plus: 2.174e-05, minus: -2.174e-05}, label: 'stat.'}
+    - {asymerror: {plus: 5.776e-05, minus: -5.776e-05}, label: 'sys.'}
+  - value: 3.836e-05
+    errors:
+    - {asymerror: {plus: 8.147e-06, minus: -8.147e-06}, label: 'stat.'}
+    - {asymerror: {plus: 1.391e-05, minus: -1.391e-05}, label: 'sys.'}
+  - value: 1.564e-05
+    errors:
+    - {asymerror: {plus: 4.057e-06, minus: -4.057e-06}, label: 'stat.'}
+    - {asymerror: {plus: 4.474e-06, minus: -4.474e-06}, label: 'sys.'}
+  - value: 3.498e-06
+    errors:
+    - {asymerror: {plus: 1.862e-06, minus: -1.862e-06}, label: 'stat.'}
+    - {asymerror: {plus: 1.329e-06, minus: -1.329e-06}, label: 'sys.'}
+  - value: 1.562e-06
+    errors:
+    - {asymerror: {plus: 5.746e-07, minus: -5.746e-07}, label: 'stat.'}
+    - {asymerror: {plus: 3.931e-07, minus: -3.931e-07}, label: 'sys.'}
+  - value: 2.081e-07
+    errors:
+    - {asymerror: {plus: 9.192e-08, minus: -9.192e-08}, label: 'stat.'}
+    - {asymerror: {plus: 4.782e-08, minus: -4.782e-08}, label: 'sys.'}
+  - value: 1.562e-08
+    errors:
+    - {asymerror: {plus: 2.486e-08, minus: -1.564e-08}, label: 'stat.'}
+    - {asymerror: {plus: 3.721e-09, minus: -3.721e-09}, label: 'sys.'}
+- header: {name: '$\frac{1}{2\pi p_{T}}\frac{d^{2}N}{dp_{T}dy} [(GeV/c)^{-2}]$'}
+  qualifiers:
+  - {name: '$p_{T} [GeV/c]$', value: '$80-93%$ centrality'}
+  values:
+  - value: 1.343e-02
+    errors:
+    - {asymerror: {plus: 2.638e-03, minus: -2.638e-03}, label: 'stat.'}
+    - {asymerror: {plus: 4.421e-03, minus: -4.421e-03}, label: 'sys.'}
+  - value: 3.389e-03
+    errors:
+    - {asymerror: {plus: 7.919e-04, minus: -7.919e-04}, label: 'stat.'}
+    - {asymerror: {plus: 1.547e-03, minus: -1.547e-03}, label: 'sys.'}
+  - value: 2.092e-04
+    errors:
+    - {asymerror: {plus: 4.198e-04, minus: -2.114e-04}, label: 'stat.'}
+    - {asymerror: {plus: 8.215e-04, minus: -2.092e-04}, label: 'sys.'}
+  - value: 3.908e-04
+    errors:
+    - {asymerror: {plus: 1.606e-04, minus: -1.606e-04}, label: 'stat.'}
+    - {asymerror: {plus: 2.697e-04, minus: -2.697e-04}, label: 'sys.'}
+  - value: 5.389e-05
+    errors:
+    - {asymerror: {plus: 1.121e-04, minus: -5.542e-05}, label: 'stat.'}
+    - {asymerror: {plus: 1.738e-04, minus: -5.389e-05}, label: 'sys.'}
+  - value: 1.210e-04
+    errors:
+    - {asymerror: {plus: 5.233e-05, minus: -5.233e-05}, label: 'stat.'}
+    - {asymerror: {plus: 6.615e-05, minus: -6.615e-05}, label: 'sys.'}
+  - value: 1.306e-05
+    errors:
+    - {asymerror: {plus: 1.785e-05, minus: -1.326e-05}, label: 'stat.'}
+    - {asymerror: {plus: 2.784e-05, minus: -1.306e-05}, label: 'sys.'}
+  - value: -2.887e-07
+    errors:
+    - {asymerror: {plus: 8.389e-06, minus: -0.000e+00}, label: 'stat.'}
+    - {asymerror: {plus: 7.850e-06, minus: -0.000e+00}, label: 'sys.'}
+  - value: 2.382e-06
+    errors:
+    - {asymerror: {plus: 3.215e-06, minus: -2.415e-06}, label: 'stat.'}
+    - {asymerror: {plus: 1.553e-06, minus: -1.553e-06}, label: 'sys.'}
+  - value: 1.705e-08
+    errors:
+    - {asymerror: {plus: 1.776e-06, minus: -1.804e-08}, label: 'stat.'}
+    - {asymerror: {plus: 7.354e-07, minus: -1.705e-08}, label: 'sys.'}
+  - value: 4.031e-07
+    errors:
+    - {asymerror: {plus: 3.411e-07, minus: -3.411e-07}, label: 'stat.'}
+    - {asymerror: {plus: 1.346e-07, minus: -1.346e-07}, label: 'sys.'}
+  - value: 1.762e-08
+    errors:
+    - {asymerror: {plus: 6.721e-08, minus: -1.776e-08}, label: 'stat.'}
+    - {asymerror: {plus: 1.050e-08, minus: -1.050e-08}, label: 'sys.'}
+  - value: 4.721e-09
+    errors:
+    - {asymerror: {plus: 7.084e-08, minus: -4.604e-09}, label: 'stat.'}
+    - {asymerror: {plus: 1.170e-09, minus: -1.170e-09}, label: 'sys.'}

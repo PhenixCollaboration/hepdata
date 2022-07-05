@@ -3,96 +3,131 @@ independent_variables:
   values:
   - {low: 0, high: 20}
   - {low: 20, high: 40}
+  - {low: 40, high: 60}
+  - {low: 60, high: 92}
+  - {low: 0, high: 92}
   - {low: 0, high: 86}
   - {low: 0, high: 40}
   - {low: 0, high: 94}
   - {low: 0, high: 100}
 dependent_variables:
-- header: {name: '$dN_{\gamma}/dy(1.0<p_T<5.0GeV/c)$'}
+- header: {name: '$dN_{\gamma}/dy(p_T>1.0GeV/c)$'}
   qualifiers:
   - {name: '$Centrality$', value: '$Au+Au 64.2GeV$'}
   values:
-  - value: 1.28873
+  - value: 1.289e+00
     errors:
-    - {symerror: 0.271747, label: '$Uncertainty of integrated direct photon yield$'}
-  - value: 0.415701
+    - {symerror: 2.717e-01, label: '$stat.$'}
+    - {symerror: 4.525e-01, label: '$sys.$'}
+  - value: 4.157e-01
     errors:
-    - {symerror: 0.115494, label: '$Uncertainty of integrated direct photon yield$'}
-  - value: 0.336163
-    errors:
-    - {symerror: 0.0652705, label: '$Uncertainty of integrated direct photon yield$'}
+    - {symerror: 1.155e-01, label: '$stat.$'}
+    - {symerror: 2.101e-01, label: '$sys.$'}
   - value: --
-    errors:
-    - {symerror: --, label: '$Uncertainty of integrated direct photon yield$'}
   - value: --
-    errors:
-    - {symerror: --, label: '$Uncertainty of integrated direct photon yield$'}
   - value: --
+  - value: 3.362e-01
     errors:
-    - {symerror: --, label: '$Uncertainty of integrated direct photon yield$'}
-- header: {name: '$dN_{\gamma}/dy(1.0<p_T<5.0GeV/c)$'}
+    - {symerror: 6.527e-02, label: '$stat.$'}
+    - {symerror: 1.724e-01, label: '$sys.$'}
+  - value: --
+  - value: --
+  - value: --
+- header: {name: '$dN_{\gamma}/dy(p_T>1.0GeV/c)$'}
   qualifiers:
   - {name: '$Centrality$', value: '$Au+Au 39GeV$'}
   values:
   - value: --
-    errors:
-    - {symerror: --, label: '$Uncertainty of integrated direct photon yield$'}
   - value: --
-    errors:
-    - {symerror: --, label: '$Uncertainty of integrated direct photon yield$'}
-  - value: 0.259703
-    errors:
-    - {symerror: 0.110752, label: '$Uncertainty of integrated direct photon yield$'}
   - value: --
-    errors:
-    - {symerror: --, label: '$Uncertainty of integrated direct photon yield$'}
   - value: --
-    errors:
-    - {symerror: --, label: '$Uncertainty of integrated direct photon yield$'}
   - value: --
+  - value: 2.597e-01
     errors:
-    - {symerror: --, label: '$Uncertainty of integrated direct photon yield$'}
-- header: {name: '$dN_{\gamma}/dy(1.0<p_T<5.0GeV/c)$'}
+    - {symerror: 1.108e-01, label: '$stat.$'}
+    - {symerror: 2.141e-01, label: '$sys.$'}
+  - value: --
+  - value: --
+  - value: --
+- header: {name: '$dN_{\gamma}/dy(p_T>1.0GeV/c)$'}
+  qualifiers:
+  - {name: '$Centrality$', value: '$Au+Au 200GeV$'}
+  values:
+  - value: 1.661e+00
+    errors:
+    - {symerror: 2.025e-01, label: '$stat.$'}
+    - {symerror: 5.339e-01, label: '$sys.$'}
+  - value: 7.077e-01
+    errors:
+    - {symerror: 8.633e-02, label: '$stat.$'}
+    - {symerror: 2.478e-01, label: '$sys.$'}
+  - value: 2.171e-01
+    errors:
+    - {symerror: 3.292e-02, label: '$stat.$'}
+    - {symerror: 9.364e-02, label: '$sys.$'}
+  - value: 2.295e-02
+    errors:
+    - {symerror: 6.201e-03, label: '$stat.$'}
+    - {symerror: 1.547e-02, label: '$sys.$'}
+  - value: --
+  - value: --
+  - value: --
+  - value: --
+  - value: --
+- header: {name: '$dN_{\gamma}/dy(p_T>1.0GeV/c)$'}
+  qualifiers:
+  - {name: '$Centrality$', value: '$Au+Au 200GeV$'}
+  values:
+  - value: 1.686e+00
+    errors:
+    - {symerror: 2.312e-01, label: '$stat.$'}
+    - {symerror: 3.775e-01, label: '$sys.$'}
+  - value: 6.981e-01
+    errors:
+    - {symerror: 8.545e-02, label: '$stat.$'}
+    - {symerror: 1.494e-01, label: '$sys.$'}
+  - value: --
+  - value: --
+  - value: 5.550e-01
+    errors:
+    - {symerror: 5.043e-02, label: '$stat.$'}
+    - {symerror: 1.177e-01, label: '$sys.$'}
+  - value: --
+  - value: --
+  - value: --
+  - value: --
+- header: {name: '$dN_{\gamma}/dy(p_T>1.0GeV/c)$'}
   qualifiers:
   - {name: '$Centrality$', value: '$Cu+Cu 200GeV$'}
   values:
   - value: --
-    errors:
-    - {symerror: --, label: '$Uncertainty of integrated direct photon yield$'}
   - value: --
-    errors:
-    - {symerror: --, label: '$Uncertainty of integrated direct photon yield$'}
   - value: --
-    errors:
-    - {symerror: --, label: '$Uncertainty of integrated direct photon yield$'}
-  - value: 0.152438
-    errors:
-    - {symerror: 0.0597752, label: '$Uncertainty of integrated direct photon yield$'}
-  - value: 0.0608154
-    errors:
-    - {symerror: 0.0212248, label: '$Uncertainty of integrated direct photon yield$'}
   - value: --
+  - value: --
+  - value: --
+  - value: 1.524e-01
     errors:
-    - {symerror: --, label: '$Uncertainty of integrated direct photon yield$'}
-- header: {name: '$dN_{\gamma}/dy(1.0<p_T<5.0GeV/c)$'}
+    - {symerror: 5.978e-02, label: '$stat.$'}
+    - {symerror: 6.917e-02, label: '$sys.$'}
+  - value: 6.082e-02
+    errors:
+    - {symerror: 2.122e-02, label: '$stat.$'}
+    - {symerror: 2.522e-02, label: '$sys.$'}
+  - value: --
+- header: {name: '$dN_{\gamma}/dy(p_T>1.0GeV/c)$'}
   qualifiers:
   - {name: '$Centrality$', value: '$p+p 200GeV$'}
   values:
   - value: --
-    errors:
-    - {symerror: --, label: '$Uncertainty of integrated direct photon yield$'}
   - value: --
-    errors:
-    - {symerror: --, label: '$Uncertainty of integrated direct photon yield$'}
   - value: --
-    errors:
-    - {symerror: --, label: '$Uncertainty of integrated direct photon yield$'}
   - value: --
-    errors:
-    - {symerror: --, label: '$Uncertainty of integrated direct photon yield$'}
   - value: --
+  - value: --
+  - value: --
+  - value: --
+  - value: 1.679e-04
     errors:
-    - {symerror: --, label: '$Uncertainty of integrated direct photon yield$'}
-  - value: 1.67915e-04
-    errors:
-    - {symerror: 6.5655e-05, label: '$Uncertainty of integrated direct photon yield$'}
+    - {symerror: 6.565e-05, label: '$stat.$'}
+    - {asymerror: {plus: 7.837e-05, minus: 6.733e-05}, label: '$sys.$'}
