@@ -1,0 +1,28 @@
+# HEPData submission package for PPG247
+#
+# InspireHEP ID: 1988071
+# PPG rpresentative/uploader: Ralf Seidl rseidl@riken.jp
+# IRC representative/reviewer: Sanghwa Park sanghwapark@gmail.com
+#
+additional_resources:
+- {description: Image file, location: fig3.png}
+- {description: web page with data points, location: 'https://phenix-intra.sdcc.bnl.gov/phenix/WWW/info/data/ppg247/data.html'}
+- {description: arXiv link, location: 'https://arxiv.org/abs/2112.05680'}
+comment: |
+  BNL-RHIC. In 2015, the PHENIX collaboration has measured single-spin asymmetries for charged pions in transversely polarized proton-proton collisions at the center of mass energy of $\sqrt{s}$=200 GeV. The pions were detected at central rapidities of |$\eta$|<0.35. The single-spin asymmetries are consistent with zero for each charge individually, as well as consistent with the previously published neutral-pion asymmetries in the same rapidity range. However, they show a slight indication of charge-dependent differences which may suggest a flavor dependence in the underlying mechanisms that create these asymmetries.
+---
+additional_resources:
+- {description: Image file, location: fig3.png}
+- {description: Thumbnail Image file, location: thumb_fig3.png}
+data_file: table247_0.yaml
+description: Measured charged pion single spin asymmetries in p+p collisions as a function of pT
+keywords:
+- name: reactions
+  values: [P P --> Pi X]
+- name: observables
+  values: [ASYM]
+- name: cmenergies
+  values: [200.0]
+name: Figure 3
+---
+

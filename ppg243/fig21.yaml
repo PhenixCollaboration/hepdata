@@ -1,0 +1,75 @@
+independent_variables:
+- header: {name: '$p_{T} [GeV/c]$'}
+  values:
+  - {low: 0.8, high: 1.2}
+  - {low: 1.2, high: 1.6}
+  - {low: 1.6, high: 2.0}
+  - {low: 2.0, high: 3.0}
+  - {low: 3.0, high: 4.0}
+  - {low: 4.0, high: 5.0}
+  - {low: 5.0, high: 10.0}
+dependent_variables:
+- header: {name: '$\alpha$'}
+  qualifiers:
+  - {name: '$p_{T} [GeV/c]$', value: 'Direct photon'}
+  values:
+  - value: 1.124
+    errors:
+    - {symerror: 0.036, label: 'stat.'}
+    - {asymerror: {plus: 0.121, minus: -0.089}, label: 'sys.'}
+  - value: 1.118
+    errors:
+    - {symerror: 0.027, label: 'stat.'}
+    - {asymerror: {plus: 0.097, minus: -0.073}, label: 'sys.'}
+  - value: 1.152
+    errors:
+    - {symerror: 0.029, label: 'stat.'}
+    - {asymerror: {plus: 0.113, minus: -0.077}, label: 'sys.'}
+  - value: 1.120
+    errors:
+    - {symerror: 0.025, label: 'stat.'}
+    - {asymerror: {plus: 0.095, minus: -0.065}, label: 'sys.'}
+  - value: 1.171
+    errors:
+    - {symerror: 0.048, label: 'stat.'}
+    - {asymerror: {plus: 0.114, minus: -0.076}, label: 'sys.'}
+  - value: 1.137
+    errors:
+    - {symerror: 0.077, label: 'stat.'}
+    - {asymerror: {plus: 0.108, minus: -0.082}, label: 'sys.'}
+  - value: 1.296
+    errors:
+    - {symerror: 0.078, label: 'stat.'}
+    - {asymerror: {plus: 0.129, minus: -0.091}, label: 'sys.'}
+- header: {name: '$\alpha$'}
+  qualifiers:
+  - {name: '$p_{T} [GeV/c]$', value: 'Nonprompt photon'}
+  values:
+  - value: 1.119
+    errors:
+    - {symerror: 0.038, label: 'stat.'}
+    - {asymerror: {plus: 0.116, minus: -0.094}, label: 'sys.'}
+  - value: 1.107
+    errors:
+    - {symerror: 0.029, label: 'stat.'}
+    - {asymerror: {plus: 0.108, minus: -0.082}, label: 'sys.'}
+  - value: 1.136
+    errors:
+    - {symerror: 0.034, label: 'stat.'}
+    - {asymerror: {plus: 0.129, minus: -0.091}, label: 'sys.'}
+  - value: 1.087
+    errors:
+    - {symerror: 0.032, label: 'stat.'}
+    - {asymerror: {plus: 0.108, minus: -0.092}, label: 'sys.'}
+  - value: 1.119
+    errors:
+    - {symerror: 0.078, label: 'stat.'}
+    - {asymerror: {plus: 0.206, minus: -0.134}, label: 'sys.'}
+  - value: 0.950
+    errors:
+    - {symerror: 0.176, label: 'stat.'}
+    - {asymerror: {plus: 0.315, minus: -0.205}, label: 'sys.'}
+  - value: --
+#    errors:
+#    - {symerror: --, label: 'stat.'}
+#    - {symerror: --, label: 'sys.'}

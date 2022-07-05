@@ -1,0 +1,22 @@
+independent_variables:
+- header: {name: 'centrality'}
+  values:
+  - {low: 60, high: 80}
+  - {low: 40, high: 60}
+  - {low: 20, high: 40}
+  - {low: 0, high: 20}
+dependent_variables:
+- header: {name: 'Number of participant nucleons'}
+  values:
+  - value: 18.2
+    errors:
+    - {symerror: 3.2, label: 'Sys.'}
+  - value: 65.8
+    errors:
+    - {symerror: 5.8, label: 'Sys.'}
+  - value: 161
+    errors:
+    - {symerror: 7, label: 'Sys.'}
+  - value: 330
+    errors:
+    - {symerror: 6, label: 'Sys.'}

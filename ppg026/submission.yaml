@@ -3,7 +3,7 @@
 # Identified charged particle spectra and yields in Au+Au collisions at $\sqrt{s_{NN}}$ = 200 GeV
 #
 # Phys. Rev. C 69, 034909 (2004)
-# InspireHEP ID: 1658594
+# InspireHEP ID: 624474
 #
 # Prepared by Adam C. Tilley
 # Please contact Christine Nattrass if you have any questions about this submission
@@ -110,6 +110,13 @@ keywords:
   - {name: reactions, values: [AU AU --> CHARGED X]}
   - {name: cmenergies, values: [200.0]}
 data_file: fig2-3.yaml
+---
+name: "Npart"
+description: 'Relationship between $N_{part}$ and centrality.'
+keywords:
+  - {name: reactions, values: [AU AU --> CHARGED X]}
+  - {name: cmenergies, values: [200.0]}
+data_file: Npart.yaml
 ---
 name: "Figure 11 Mean pT"
 description: 'Mean transverse momentum as a function of centrality for pions, kaons, protons,and antiprotons in Au+Au collisions at $\sqrt{s_{NN}}$ = 200 GeV. Errors are systematic only.'
@@ -249,5 +256,5 @@ keywords:
 additional_resources:
 - {description: Image file, location: Fig24.png}
 - {description: Thumbnail Image file, location: thumb_Fig24.png}
-data_file: fig7-1.yaml
+data_file: fig7-5.yaml
 ---

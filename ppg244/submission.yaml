@@ -1,0 +1,132 @@
+# HEPData submission package for PPG244
+#
+# InspireHEP ID: 1944868
+# PPG rpresentative/uploader: Ralf Seidl rseidl@riken.jp
+# IRC representative/reviewer: Sanghwa Park sanghwapark@gmail.com
+#
+additional_resources:
+- {description: Image file, location: fig1.png}
+- {description: Image file, location: fig2.png}
+- {description: Image file, location: fig3.png}
+- {description: Image file, location: fig4.png}
+- {description: Image file, location: fig5.png}
+- {description: Image file, location: fig6.png}
+- {description: Image file, location: fig7.png}
+- {description: Image file, location: fig8.png}
+- {description: web page with data points, location: 'https://phenix-intra.sdcc.bnl.gov/phenix/WWW/info/data/ppg244/data.html'}
+- {description: arXiv link, location: 'https://arxiv.org/abs/2110.07504'}
+comment: |
+  BNL-RHIC. In 2015, the PHENIX collaboration has taken p+p, p+Al and p+Au collision data at center of mass energies of $\sqrt{s_{NN}}=200$ GeV with the proton beam(s) transversely polarized. At very forward rapidities $\eta>6.8$ relative to the polarized proton beam, neutrons were detected either inclusively or in (anti)correlation with detector activity related to hard collisions. The resulting single spin asymmetries, that were already previously reported, have now been extracted as a function of the transverse momentum of the neutron as well as its longitudinal momentum fraction $x_F$.  The explicit kinematic dependence, combined with the correlation information allows for a closer look at the interplay of different mechanisms suggested to describe these asymmetries, such as hadronic interactions or electromagnetic interactions in ultra-peripheral collisions, UPC.
+---
+additional_resources:
+- {description: Image file, location: fig1.png}
+- {description: Thumbnail Image file, location: thumb_fig1.png}
+data_file: table244_1.yaml
+description: Measured forward neutron single spin asymmetries in p+p collisions as a function of pT in bins of xF
+keywords:
+- name: reactions
+  values: [P P --> N X]
+- name: observables
+  values: [ASYM]
+- name: cmenergies
+  values: [200.0]
+name: Figure 1
+---
+additional_resources:
+- {description: Image file, location: fig2.png}
+- {description: Thumbnail Image file, location: thumb_fig2.png}
+data_file: table244_2.yaml
+description: Measured forward neutron single spin asymmetries in p+Al collisions as a function of pT in bins of xF
+keywords:
+- name: reactions
+  values: [P Al --> N X]
+- name: observables
+  values: [ASYM]
+- name: cmenergies
+  values: [200.0]
+name: Figure 2
+---
+additional_resources:
+- {description: Image file, location: fig3.png}
+- {description: Thumbnail Image file, location: thumb_fig3.png}
+data_file: table244_3.yaml
+description: Measured forward neutron single spin asymmetries in p+Au collisions as a function of pT in bins of xF
+keywords:
+- name: reactions
+  values: [P Au --> N X]
+- name: observables
+  values: [ASYM]
+- name: cmenergies
+  values: [200.0]
+name: Figure 3
+---
+additional_resources:
+- {description: Image file, location: fig4.png}
+- {description: Thumbnail Image file, location: thumb_fig4.png}
+data_file: table244_4.yaml
+description: Forward neutron single spin asymmetries in p+p, p+Al and p+Au collisions as a function of pT in bins of xF correlated with hard collision activity
+keywords:
+- name: reactions
+  values: [P P --> N X]
+- name: observables
+  values: [ASYM]
+- name: cmenergies
+  values: [200.0]
+name: Figure 4
+---
+additional_resources:
+- {description: Image file, location: fig5.png}
+- {description: Thumbnail Image file, location: thumb_fig5.png}
+data_file: table244_5.yaml
+description: Forward neutron single spin asymmetries in p+p, p+Al and p+Au collisions as a function of pT in bins of xF without hard collision activity
+keywords:
+- name: reactions
+  values: [P P --> N X]
+- name: observables
+  values: [ASYM]
+- name: cmenergies
+  values: [200.0]
+name: Figure 5
+---
+additional_resources:
+- {description: Image file, location: fig6.png}
+- {description: Thumbnail Image file, location: thumb_fig6.png}
+data_file: table244_6.yaml
+description: Forward neutron single spin asymmetries in p+p collisions as a function of xF in bins of pT (anti-)correlated with hard collision activity
+keywords:
+- name: reactions
+  values: [P P --> N X]
+- name: observables
+  values: [ASYM]
+- name: cmenergies
+  values: [200.0]
+name: Figure 6
+---
+additional_resources:
+- {description: Image file, location: fig7.png}
+- {description: Thumbnail Image file, location: thumb_fig7.png}
+data_file: table244_7.yaml
+description: Forward neutron single spin asymmetries in p+Al collisions as a function of xF in bins of pT (anti-)correlated with hard collision activity
+keywords:
+- name: reactions
+  values: [P Al --> N X]
+- name: observables
+  values: [ASYM]
+- name: cmenergies
+  values: [200.0]
+name: Figure 7
+---
+additional_resources:
+- {description: Image file, location: fig8.png}
+- {description: Thumbnail Image file, location: thumb_fig8.png}
+data_file: table244_8.yaml
+description: Forward neutron single spin asymmetries in p+Au collisions as a function of xF in bins of pT (anti-)correlated with hard collision activity
+keywords:
+- name: reactions
+  values: [P Au --> N X]
+- name: observables
+  values: [ASYM]
+- name: cmenergies
+  values: [200.0]
+name: Figure 8
+

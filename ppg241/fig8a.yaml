@@ -1,0 +1,32 @@
+independent_variables:
+- header: {name: '$\eta$'}
+  values:
+  - {low: -3.5, high: -1.7}
+  - {low: -3.5, high: 1.7}
+  - {low: -3.5, high: 0}
+  - {low: -1.7, high: 0}
+  - {low: -1.7, high: 1.7}
+  - {low: 0, high: 1.7}
+dependent_variables:
+- header: {name: '$c_2$'}
+  qualifiers:
+  - {name: '', value: 'p+Au at 200 GeV, 0-5% central'}
+  values:
+  - value: 0.00051
+    errors:
+    - {symerror: 1.05e-06, label: 'stat'}
+  - value: 0.000189
+    errors:
+    - {symerror: 1.68e-06, label: 'stat'}
+  - value: 0.00046
+    errors:
+    - {symerror: 2.96e-06, label: 'stat'}
+  - value: 0.00195
+    errors:
+    - {symerror: 9.55e-06, label: 'stat'}
+  - value: 0.00087
+    errors:
+    - {symerror: 5.42e-06, label: 'stat'}
+  - value: 0.00164
+    errors:
+    - {symerror: 1.55e-05, label: 'stat'}
