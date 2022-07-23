@@ -1,0 +1,23 @@
+independent_variables:
+- header: {name: '$KE_T$'}
+  values:
+  - {low: 0.68, high: 0.68}
+  - {low: 1.53, high: 1.53}
+  - {low: 2.62, high: 2.62}
+dependent_variables:
+- header: {name: 'The $\phi$-meson elliptic flow $v_2$ measured as a function of $KE_T$'}
+  qualifiers:
+  - {name: '$KE_T$', value: '$v_2$ $0\%-50\% U+U$'}
+  values:
+  - value: 0.1058
+    errors:
+    - {symerror: 0.048, label: 'stat.'}
+    - {symerror: 0.018, label: 'sys.'}
+  - value: 0.1784
+    errors:
+    - {symerror: 0.0338, label: 'stat.'}
+    - {symerror: 0.0231, label: 'sys.'}
+  - value: 0.182
+    errors:
+    - {symerror: 0.061, label: 'stat.'}
+    - {symerror: 0.0229, label: 'sys.'}

@@ -1,0 +1,23 @@
+independent_variables:
+- header: {name: '$p_T$'}
+  values:
+  - {low: 1.36, high: 1.36}
+  - {low: 2.34, high: 2.34}
+  - {low: 3.49, high: 3.49}
+dependent_variables:
+- header: {name: 'The $\phi$-meson elliptic flow $v_2$ measured as a function of $p_T$'}
+  qualifiers:
+  - {name: '$p_T$', value: '$v_2$ $0\%-50\% U+U$'}
+  values:
+  - value: 0.1058
+    errors:
+    - {symerror: 0.048, label: 'stat.'}
+    - {symerror: 0.018, label: 'sys.'}
+  - value: 0.1784
+    errors:
+    - {symerror: 0.0338, label: 'stat.'}
+    - {symerror: 0.0231, label: 'sys.'}
+  - value: 0.182
+    errors:
+    - {symerror: 0.061, label: 'stat.'}
+    - {symerror: 0.0229, label: 'sys.'}
