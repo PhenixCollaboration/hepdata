@@ -1,0 +1,53 @@
+independent_variables:
+- header: {name: '$p_T$ (GeV/c)'}
+  values:
+  - {value: 0.500}
+  - {value: 0.700}
+  - {value: 0.900}
+  - {value: 1.100}
+  - {value: 1.300}
+  - {value: 1.500}
+  - {value: 1.700}
+  - {value: 1.900}
+  - {value: 2.500}
+dependent_variables:
+- header: {name: '$\gamma_{inclusive}/\gamma_{decay}$'}
+  qualifiers:
+  - {name: '$p_T$ (GeV/c)', value: '(b) Au+Au 39GeV MB'}
+  values:
+  - value: 1.204
+    errors:
+    - {symerror: 0.146, label: 'stat.'}
+    - {symerror: 9.932e-02, label: 'sys.'}
+  - value: 1.253
+    errors:
+    - {symerror: 0.114, label: 'stat.'}
+    - {symerror: 0.103, label: 'sys.'}
+  - value: 1.272
+    errors:
+    - {symerror: 0.119, label: 'stat.'}
+    - {symerror: 0.105, label: 'sys.'}
+  - value: 1.144
+    errors:
+    - {symerror: 0.111, label: 'stat.'}
+    - {symerror: 9.431e-02, label: 'sys.'}
+  - value: 1.380
+    errors:
+    - {symerror: 0.189, label: 'stat.'}
+    - {symerror: 0.114, label: 'sys.'}
+  - value: 1.054
+    errors:
+    - {symerror: 0.140, label: 'stat.'}
+    - {symerror: 8.695e-02, label: 'sys.'}
+  - value: 0.994
+    errors:
+    - {symerror: 0.342, label: 'stat.'}
+    - {symerror: 0.172, label: 'sys.'}
+  - value: 1.230
+    errors:
+    - {symerror: 0.348, label: 'stat.'}
+    - {symerror: 0.101, label: 'sys.'}
+  - value: 1.048
+    errors:
+    - {symerror: 0.209, label: 'stat.'}
+    - {symerror: 8.643e-02, label: 'sys.'}
