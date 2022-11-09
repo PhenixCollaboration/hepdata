@@ -1,0 +1,56 @@
+independent_variables:
+- header: {name: '$p_T$ (GeV/$c$)'}
+  values:
+  - {low: 0.3470, high: 0.4690}
+  - {low: 0.4690, high: 0.6400}
+  - {low: 0.6400, high: 0.8410}
+  - {low: 0.8410, high: 1.0620}
+  - {low: 1.0620, high: 1.3500}
+  - {low: 1.3500, high: 1.7400}
+  - {low: 1.7400, high: 2.2150}
+  - {low: 2.2150, high: 2.9140}
+  - {low: 2.9140, high: 3.7400}
+  - {low: 3.7400, high: 4.0000}
+dependent_variables:
+- header: {name: '[A] 30 < Centrality (%) < 60'}
+  values:
+  - value: 0.0443
+    errors:
+    - {symerror: 1.9723e-3, label: 'Statistical Err.'}
+    - {symerror: 2.2150e-3, label: '5% Systematic Err.'}
+  - value: 0.0668
+    errors:
+    - {symerror: 1.8275e-3, label: 'Statistical Err.'}
+    - {symerror: 3.3400e-3, label: '5% Systematic Err.'}
+  - value: 0.0868
+    errors:
+    - {symerror: 5.6985e-3, label: 'Statistical Err.'}
+    - {symerror: 4.3400e-3, label: '5% Systematic Err.'}
+  - value: 0.1072
+    errors:
+    - {symerror: 3.9891e-3, label: 'Statistical Err.'}
+    - {symerror: 5.3600e-3, label: '5% Systematic Err.'}
+  - value: 0.1218
+    errors:
+    - {symerror: 5.6295e-3, label: 'Statistical Err.'}
+    - {symerror: 6.0900e-3, label: '5% Systematic Err.'}
+  - value: 0.1449
+    errors:
+    - {symerror: 5.4176e-3, label: 'Statistical Err.'}
+    - {symerror: 7.2450e-3, label: '5% Systematic Err.'}
+  - value: 0.1700
+    errors:
+    - {symerror: 7.6371e-3, label: 'Statistical Err.'}
+    - {symerror: 8.5000e-3, label: '5% Systematic Err.'}
+  - value: 0.2180
+    errors:
+    - {symerror: 2.2500e-2, label: 'Statistical Err.'}
+    - {symerror: 1.0900e-2, label: '5% Systematic Err.'}
+  - value: 0.2845
+    errors:
+    - {symerror: 3.2000e-2, label: 'Statistical Err.'}
+    - {symerror: 1.4225e-2, label: '5% Systematic Err.'}
+  - value: 0.3956
+    errors:
+    - {symerror: 7.5900e-2, label: 'Statistical Err.'}
+    - {symerror: 1.9780e-2, label: '5% Systematic Err.'}
