@@ -1,0 +1,117 @@
+#PHENIX paper PPG004
+#
+#Flow Measurements via Two-particle Azimuthal Correlations in Au+Au Collisions $\ sqrt{s_{NN}}$= 130GeV
+#
+#Phys.Rev.Lett. 89, 212301 (2002)
+#InspireHEP ID: 585347
+#
+#Prepared by Nikolas Nelson
+#Please contact Christine Nattrass if you have any questions about this submission
+#PPG liaison:
+#Reviewer:
+#
+comment: | # Information that applies to all data tables.
+    Two particle azimuthal correlation functions are presented for charged hadrons produced in Au + Au collisions at RHIC $\sqrt{s_{NN}}$ = 130 GeV. The measurements permit determination of elliptic flow without event-by-event estimation of the reaction plane. The extracted elliptic flow values $v_2$ show significant sensitivity to both the collision centrality and the transverse momenta of emitted hadrons, suggesting rapid thermalization and relatively strong velocity fields. When scaled by the eccentricity of the collision zone, epsilon, the scaled elliptic flow shows little or no dependence on centrality for charged hadrons with relatively low $p_T$. A breakdown of this epsilon scaling is observed for charged hadrons with $p_T > 1.0$ GeV/$c$ for the most central collisions.
+additional_resources:
+- {location: "https://phenix-intra.sdcc.bnl.gov/WWW/info/data/ppg004_data.html", description: "web page with data points"}
+- {location: "https://arxiv.org/abs/nucl-ex/0204005", description: arXiv}
+- {location: "https://inspirehep.net/literature/585347", description: InspireHEP}
+---
+# This is Figure 1.
+name: "Figure 1"
+location: Data From Fig. 1 of PRL 89 (212301) 2002
+description: 'Azimuthal correlation functions for charged hadrons as a function of centrality and $p_T$ selection. The solid curves represent Fourier fits following Eq. (2). Error bars are statistical only.'
+keywords: # used for searching, possibly mutliple values for each keywords
+- {name: reactions, values: [Au Au --> CHARGED X]}
+- {name: cmenergies, values: [130.0]}
+- {name: phrases, values: [ppg004, transverse momentum, azimuthal correlation, elliptic flow]}
+data_file: PPG004F1.yaml 
+additional_resources:
+- {description: Original EPS Image file, location: fig1f.eps}
+- {description: PNG Image file, location: fig1f.png}
+- {description: Thumbnail Image file, location: thumb_fig1f.png}
+---
+# This is Figure 2a.
+name: "Figure 2a"
+location: Data From Fig. 2 of PRL 89 (212301) 2002
+description: '$v_2$ vs. centrality for several $p_T$ selections. [F] and [A] indicate results obtained with the fixed-$p_T$ and assorted-$p_T$ methods respectively. Systematic errors are estimated to be $\sim 5$%; they are dominated by the normalization of the correction function for real tracks. For the centrality range 0-5%, the data points are statistically uncertain and the points are omitted.'
+keywords: # used for searching, possibly mutliple values for each keywords
+- {name: reactions, values: [Au Au --> CHARGED X]}
+- {name: cmenergies, values: [130.0]}
+- {name: phrases, values: [ppg004, transverse momentum, azimuthal correlation, elliptic flow]}
+data_file: PPG004F2a.yaml 
+additional_resources:
+- {description: Original EPS Image file, location: fig2fb.eps}
+- {description: PNG Image file, location: fig2fb.png}
+- {description: Thumbnail Image file, location: thumb_fig2fb.png}
+---
+# This is Figure 2b.
+name: "Figure 2b"
+location: Data From Fig. 2 of PRL 89 (212301) 2002
+description: '$v_2$ vs. centrality for several $p_T$ selections. [F] and [A] indicate results obtained with the fixed-$p_T$ and assorted-$p_T$ methods respectively. Systematic errors are estimated to be $\sim 5$%; they are dominated by the normalization of the correction function for real tracks. For the centrality range 0-5%, the data points are statistically uncertain and the points are omitted.'
+keywords: # used for searching, possibly multiple values for each keyword
+- {name: reactions, values: [Au Au --> CHARGED X]}
+- {name: cmenergies, values: [130.0]}
+- {name: phrases, values: [ppg004, transverse momentum, azimuthal correlation, elliptic flow]}
+data_file: PPG004F2b.yaml
+additional_resources:
+- {description: Original EPS Image file, location: fig2fb.eps}
+- {description: PNG Image file, location: fig2fb.png}
+- {description: Thumbnail Image file, location: thumb_fig2fb.png}
+---
+# This is Figure 3a.
+name: "Figure 3a"
+location: Data From Fig. 3 of PRL 89 (212301) 2002
+description: '$v_2$ vs Fixed $p_T$ for several centrality selections. [F] and [A] follow the notation Fig. 2. Systematic errors are estimated to be $\sim 5$%.'
+keywords: # used for searching, possibly mutliple values for each keywords
+- {name: reactions, values: [Au Au --> CHARGED X]}
+- {name: cmenergies, values: [130.0]}
+- {name: phrases, values: [ppg004, transverse momentum, azimuthal correlation, elliptic flow]}
+data_file: PPG004F3a.yaml 
+additional_resources:
+- {description: Original EPS Image file, location: fig3fb.eps}
+- {description: PNG Image file, location: fig3fb.png}
+- {description: Thumbnail Image file, location: thumb_fig3fb.png}
+---
+# This is Figure 3b.
+name: "Figure 3b"
+location: Data From Fig. 3 of PRL 89 (212301) 2002
+description: '$v_2$ vs Assorted $p_T$ for several centrality selections. [F] and [A] follow the notation Fig. 2. Systematic errors are estimated to be $\sim 5$%.'
+keywords: # used for searching, possibly mutliple values for each keywords
+- {name: reactions, values: [Au Au --> CHARGED X]}
+- {name: cmenergies, values: [130.0]}
+- {name: phrases, values: [ppg004, transverse momentum, azimuthal correlation, elliptic flow]}
+data_file: PPG004F3b.yaml 
+additional_resources:
+- {description: Original EPS Image file, location: fig3fb.eps}
+- {description: PNG Image file, location: fig3fb.png}
+- {description: Thumbnail Image file, location: thumb_fig3fb.png}
+---
+# This is Figure 4a.
+name: "Figure 4a"
+location: Data From Fig. 4 of PRL 89 (212301) 2002
+description: 'The centrality dependence of $A_2$ for two different $p_T$ selections. [F] and [A] follow the notation in Fig. 2. Systematic errors are estimated to be $\sim 10$%, dominated by the normalization of the correction function and the model determination of$ \varepsilon$.'
+keywords: # used for searching, possibly mutliple values for each keywords
+- {name: reactions, values: [Au Au --> CHARGED X]}
+- {name: cmenergies, values: [130.0]}
+- {name: phrases, values: [ppg004, transverse momentum, azimuthal correlation, elliptic flow]}
+data_file: PPG004F4a.yaml 
+additional_resources:
+- {description: Original EPS Image file, location: fig4fc.eps}
+- {description: PNG Image file, location: fig4fc.png}
+- {description: Thumbnail Image file, location: thumb_fig4fc.png}
+---
+# This is Figure 4b.
+name: "Figure 4b"
+location: Data From Fig. 4 of PRL 89 (212301) 2002
+description: 'The centrality dependence of $A_2$ for two different $p_T$ selections. [F] and [A] follow the notation in Fig. 2. Systematic errors are estimated to be $\sim 10$%, dominated by the normalization of the correction function and the model determination of$ \varepsilon$.'
+keywords: # used for searching, possibly mutliple values for each keywords
+- {name: reactions, values: [Au Au --> CHARGED X]}
+- {name: cmenergies, values: [130.0]}
+- {name: phrases, values: [ppg004, transverse momentum, azimuthal correlation, elliptic flow]}
+data_file: PPG004F4b.yaml 
+additional_resources:
+- {description: Original EPS Image file, location: fig4fc.eps}
+- {description: PNG Image file, location: fig4fc.png}
+- {description: Thumbnail Image file, location: thumb_fig4fc.png}
+---
