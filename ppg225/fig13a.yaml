@@ -1,0 +1,42 @@
+independent_variables:
+- header: {name: '$dN_{ch}/d\eta$'}
+  values:
+  - {value: 104.264}
+  - {value: 519.025}
+  - {value: 225.425}
+  - {value: 85.475}
+  - {value: 16.362}
+dependent_variables:
+- header: {name: 'Int. yield (0.4GeV < $p_T$ < 5GeV)'}
+  qualifiers:
+  - {name: '$dN_{ch}/d\eta$', value: 'Au+Au 39GeV'}
+  values:
+  - value: 3.67503
+    errors:
+    - {symerror: 1.46373, label: 'stat.'}
+    - {symerror: 2.00382, label: 'sys.'}
+  - value: --
+  - value: --
+  - value: --
+  - value: --
+- header: {name: 'Int. yield (0.4GeV < $p_T$ < 5GeV)'}
+  qualifiers:
+  - {name: '$dN_{ch}/d\eta$', value: 'Au+Au 200GeV (external conversions)'}
+  values:
+  - value: --
+  - value: 18.8428
+    errors:
+    - {symerror: 2.84717, label: 'stat.'}
+    - {symerror: 5.60754, label: 'sys.'}
+  - value: 5.82085
+    errors:
+    - {symerror: 1.0852, label: 'stat.'}
+    - {symerror: 2.38477, label: 'sys.'}
+  - value: 2.23559
+    errors:
+    - {symerror: 4.247e-01, label: 'stat.'}
+    - {symerror: 9.140e-01, label: 'sys.'}
+  - value: 2.539e-01
+    errors:
+    - {symerror: 8.574e-02, label: 'stat.'}
+    - {symerror: 1.628e-01, label: 'sys.'}
