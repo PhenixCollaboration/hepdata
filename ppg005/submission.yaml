@@ -1,0 +1,274 @@
+#PHENIX paper PPG005
+#
+#Event-by event fluctuations in Mean $p_T$ and mean $E_T$ in $\sqrt{s_{NN}}$ = 130GeV Au+Au Collisions
+#
+#Phys.Rev.Lett. change this
+#InspireHEP ID: change this
+#
+#Prepared by Joesph Beller
+#Please contact Christine Nattrass if you have any questions about this submission
+#PPG liaison:
+#Reviewer:
+---
+additional_resources:
+- location: "https://arxiv.org/abs/nucl-ex/0203015"
+  description: "arXiv article"
+- location: "thumb_datamixn.png"
+  description: "Image File"
+- location: "thumb_etResiduals.png"
+  description: "Image File"
+- location: "thumb_pt0Gamma.png"
+  description: "Image File"
+- location: "thumb_ptMethodChi.png"
+  description: "Image File"
+- location: "thumb_ptMixed.png"
+  description: "Image File"
+- location: "thumb_ptResiduals.png"
+  description: "Image File"
+- location: "thumb_etMixed.png"
+  description: "Image File"
+  
+comment: | # Information that applies to all data tables.
+  Event-by event fluctuations in Mean $p_T$ and mean $E_T$ in $\sqrt{s_{NN}}$ = 130GeV Au+Au Collisions
+  Distributions of event-by-event fluctuations of the mean transverse momentum and mean transverse energy near mid-rapidity have been measured in Au+Au collisions at $\sqrt{s_{NN}}$ = 130 GeV at RHIC. By comparing the distributions to what is expected for statistically independent particle emission, the magnitude of non-statistical fluctuations in mean transverse momentum is determined to be consistent with zero. Also, no significant non-random fluctuations in mean transverse energy are observed. By constructing a fluctuation model with two event classes that preserve the mean and variance of the semi-inclusive $p_T$ or $e_T$ spectra, we exclude a region of fluctuations in $\sqrt{s_{NN}}$ = 130 GeV Au+Au collisions.
+---
+# This is Figure 1.
+name: "Figure 1"
+location: Data from Fig. 1 of PRC 66 (024901) 2002
+description: The $N_{tracks}$ distribution for the $0-10\%$ centrality class (data points) compared to the $N_{mix}$ distribution from the mixed event sample (curve).
+keywords: # used for searching, possibly multiple values for each keyword
+- {name: reactions, values: [AU + AU --> CHARGED X0]}
+- {name: cmenergies, values: [130.0]}
+- {name: phrases, values: [PPG005, PHENIX, Non-Random Fluctuations, RHIC, Polyakov, QCD, Quantum Chromodynamics, Phase Transition, Hanbury-Brown-Twiss Correlations]}
+data_file: ppg005f1.yaml
+additional_resources:
+- location: "thumb_datamixn.png"
+  description: "Image File"
+---
+# This is Figure 3a.
+name: "Figure 3a Data"
+location: Data from Fig. 3 of PRC 66 (024901) 2002
+description: The $M_{p_T}$ distributions for $0-5\%$ centrality class. The curves are the random baseline mixed event distributions.
+keywords: # used for searching, possibly multiple values for each keyword
+- {name: reactions, values: [AU + AU --> CHARGED X0]}
+- {name: cmenergies, values: [130.0]}
+- {name: phrases, values: [PPG005, PHENIX, Mean Transverse Momentum, Non-Random Fluctuations, RHIC, Polyakov, QCD, Quantum Chromodynamics, Phase Transition, Hanbury-Brown-Twiss Correlations]}
+data_file: ppg005f3adata.yaml
+additional_resources:
+- location: "thumb_etMixed.png"
+  description: "Image File"
+---
+name: "Figure 3a Mixed"
+location: Data from Fig. 3 of PRC 66 (024901) 2002
+description: The $M_{p_T}$ distributions for $0-5\%$ centrality class. The curves are the random baseline mixed event distributions.
+keywords: # used for searching, possibly multiple values for each keyword
+- {name: reactions, values: [AU + AU --> CHARGED X0]}
+- {name: cmenergies, values: [130.0]}
+- {name: phrases, values: [PPG005, PHENIX, Mean Transverse Momentum, Non-Random Fluctuations, RHIC, Polyakov, QCD, Quantum Chromodynamics, Phase Transition, Hanbury-Brown-Twiss Correlations]}
+data_file: ppg005f3amixed.yaml
+additional_resources:
+- location: "thumb_etMixed.png"
+  description: "Image File"
+---
+# This is Figure 3b.
+name: "Figure 3b Data"
+location: Data from Fig. 3 of PRC 66 (024901) 2002
+description: The $M_{p_T}$ distributions for $0-10\%$ centrality class. The curves are the random baseline mixed event distributions.
+keywords: # used for searching, possibly multiple values for each keyword
+- {name: reactions, values: [AU + AU --> CHARGED X0]}
+- {name: cmenergies, values: [130.0]}
+- {name: phrases, values: [PPG005, PHENIX, Mean Transverse Momentum, Non-Random Fluctuations, RHIC, Polyakov, QCD, Quantum Chromodynamics, Phase Transition, Hanbury-Brown-Twiss Correlations]}
+data_file: ppg005f3bdata.yaml
+additional_resources:
+- location: "thumb_etMixed.png"
+  description: "Image File"
+---
+name: "Figure 3b Mixed"
+location: Data from Fig. 3 of PRC 66 (024901) 2002
+description: The $M_{p_T}$ distributions for $0-10\%$ centrality class. The curves are the random baseline mixed event distributions.
+keywords: # used for searching, possibly multiple values for each keyword
+- {name: reactions, values: [AU + AU --> CHARGED X0]}
+- {name: cmenergies, values: [130.0]}
+- {name: phrases, values: [PPG005, PHENIX, Mean Transverse Momentum, Non-Random Fluctuations, RHIC, Polyakov, QCD, Quantum Chromodynamics, Phase Transition, Hanbury-Brown-Twiss Correlations]}
+data_file: ppg005f3bmixed.yaml
+additional_resources:
+- location: "thumb_etMixed.png"
+  description: "Image File"
+---
+# This is Figure 3c.
+name: "Figure 3c Data"
+location: Data from Fig. 3 of PRC 66 (024901) 2002
+description: The $M_{p_T}$ distributions for $10-20\%$ centrality class. The curves are the random baseline mixed event distributions.
+keywords: # used for searching, possibly multiple values for each keyword
+- {name: reactions, values: [AU + AU --> CHARGED X0]}
+- {name: cmenergies, values: [130.0]}
+- {name: phrases, values: [PPG005, PHENIX, Mean Transverse Momentum, Non-Random Fluctuations, RHIC, Polyakov, QCD, Quantum Chromodynamics, Phase Transition, Hanbury-Brown-Twiss Correlations]}
+data_file: ppg005f3cdata.yaml
+additional_resources:
+- location: "thumb_etMixed.png"
+  description: "Image File"
+---
+name: "Figure 3c Mixed"
+location: Data from Fig. 3 of PRC 66 (024901) 2002
+description: The $M_{p_T}$ distributions for $10-20\%$ centrality class. The curves are the random baseline mixed event distributions.
+keywords: # used for searching, possibly multiple values for each keyword
+- {name: reactions, values: [AU + AU --> CHARGED X0]}
+- {name: cmenergies, values: [130.0]}
+- {name: phrases, values: [PPG005, PHENIX, Mean Transverse Momentum, Non-Random Fluctuations, RHIC, Polyakov, QCD, Quantum Chromodynamics, Phase Transition, Hanbury-Brown-Twiss Correlations]}
+data_file: ppg005f3cmixed.yaml
+additional_resources:
+- location: "thumb_etMixed.png"
+  description: "Image File"
+---
+# This is Figure 3d.
+name: "Figure 3d Data"
+location: Data from Fig. 3 of PRC 66 (024901) 2002
+description: The $M_{p_T}$ distributions for $20-30\%$ centrality class. The curves are the random baseline mixed event distributions.
+keywords: # used for searching, possibly multiple values for each keyword
+- {name: reactions, values: [AU + AU --> CHARGED X0]}
+- {name: cmenergies, values: [130.0]}
+- {name: phrases, values: [PPG005, PHENIX, Mean Transverse Momentum, Non-Random Fluctuations, RHIC, Polyakov, QCD, Quantum Chromodynamics, Phase Transition, Hanbury-Brown-Twiss Correlations]}
+data_file: ppg005f3ddata.yaml
+additional_resources:
+- location: "thumb_etMixed.png"
+  description: "Image File"
+---
+# This is Figure 3d.
+name: "Figure 3d Mixed"
+location: Data from Fig. 3 of PRC 66 (024901) 2002
+description: The $M_{p_T}$ distributions for $20-30\%$ centrality class. The curves are the random baseline mixed event distributions.
+keywords: # used for searching, possibly multiple values for each keyword
+- {name: reactions, values: [AU + AU --> CHARGED X0]}
+- {name: cmenergies, values: [130.0]}
+- {name: phrases, values: [PPG005, PHENIX, Mean Transverse Momentum, Non-Random Fluctuations, RHIC, Polyakov, QCD, Quantum Chromodynamics, Phase Transition, Hanbury-Brown-Twiss Correlations]}
+data_file: ppg005f3dmixed.yaml
+additional_resources:
+- location: "thumb_ptMixed.png"
+  description: "Image File"
+---
+# This is Figure 4.
+name: "Figure 4"
+location: Data from Fig. 4 of PRC 66 (024901) 2002
+description: The residual distribution between the data and mixed event $M_{p_T}$ in units of standard deviations for all centrality classes. The total ${\chi}^2$ and the number of degrees of freedom for the $0-5\%$, $0-10\%$, $10-20\%$, $20-30\%$ centrality classes are 89.0/39, 155.7/40,163.3/47, and 218.4/61, respectively.
+keywords: # used for searching, possibly multiple values for each keyword
+- {name: reactions, values: [AU + AU --> CHARGED X0]}
+- {name: cmenergies, values: [130.0]}
+- {name: phrases, values: [PPG005, PHENIX, Mean Transverse Momentum, Non-Random Fluctuations, RHIC, Polyakov, QCD, Quantum Chromodynamics, Phase Transition, Hanbury-Brown-Twiss Correlations, Residual Distribution]}
+data_file: ppg005f4.yaml
+additional_resources:
+- location: "thumb_ptResiduals.png"
+  description: "Image File"
+---
+# This is Figure 5a.
+name: "Figure 5a Data"
+location: Data from Fig. 5 of PRC 66 (024901) 2002
+description: The $M_{e_T}$ distributions for $0-5\%$ centrality class. The curves are the random baseline mixed event distributions. The source of differences in the data and mixed event distributions are addressed in the text.
+keywords: # used for searching, possibly multiple values for each keyword
+- {name: reactions, values: [AU + AU --> CHARGED X0]}
+- {name: cmenergies, values: [130.0]}
+- {name: phrases, values: [PPG005, PHENIX, Mean Transverse Energy, Non-Random Fluctuations, RHIC, Polyakov, QCD, Quantum Chromodynamics, Phase Transition, Hanbury-Brown-Twiss Correlations, Centrality]}
+data_file: ppg005f5adata.yaml
+additional_resources:
+- location: "thumb_ptMixed.png"
+  description: "Image File"
+---
+name: "Figure 5a Mixed"
+location: Data from Fig. 5 of PRC 66 (024901) 2002
+description: The $M_{e_T}$ distributions for $0-5\%$ centrality class. The curves are the random baseline mixed event distributions. The source of differences in the data and mixed event distributions are addressed in the text.
+keywords: # used for searching, possibly multiple values for each keyword
+- {name: reactions, values: [AU + AU --> CHARGED X0]}
+- {name: cmenergies, values: [130.0]}
+- {name: phrases, values: [PPG005, PHENIX, Mean Transverse Energy, Non-Random Fluctuations, RHIC, Polyakov, QCD, Quantum Chromodynamics, Phase Transition, Hanbury-Brown-Twiss Correlations, Centrality]}
+data_file: ppg005f5amixed.yaml
+additional_resources:
+- location: "thumb_ptMixed.png"
+  description: "Image File"
+---
+# This is Figure 5b.
+name: "Figure 5b Data"
+location: Data from Fig. 5 of PRC 66 (024901) 2002
+description: The $M_{e_T}$ distributions for $0-10\%$ centrality class. The curves are the random baseline mixed event distributions. The source of differences in the data and mixed event distributions are addressed in the text.
+keywords: # used for searching, possibly multiple values for each keyword
+- {name: reactions, values: [AU + AU --> CHARGED X0]}
+- {name: cmenergies, values: [130.0]}
+- {name: phrases, values: [PPG005, PHENIX, Mean Transverse Energy, Non-Random Fluctuations, RHIC, Polyakov, QCD, Quantum Chromodynamics, Phase Transition, Hanbury-Brown-Twiss Correlations, Centrality]}
+data_file: ppg005f5bdata.yaml
+additional_resources:
+- location: "thumb_ptMixed.png"
+  description: "Image File"
+---
+name: "Figure 5b Mixed"
+location: Data from Fig. 5 of PRC 66 (024901) 2002
+description: The $M_{e_T}$ distributions for $0-10\%$ centrality class. The curves are the random baseline mixed event distributions. The source of differences in the data and mixed event distributions are addressed in the text.
+keywords: # used for searching, possibly multiple values for each keyword
+- {name: reactions, values: [AU + AU --> CHARGED X0]}
+- {name: cmenergies, values: [130.0]}
+- {name: phrases, values: [PPG005, PHENIX, Mean Transverse Energy, Non-Random Fluctuations, RHIC, Polyakov, QCD, Quantum Chromodynamics, Phase Transition, Hanbury-Brown-Twiss Correlations, Centrality]}
+data_file: ppg005f5bmixed.yaml
+additional_resources:
+- location: "thumb_ptMixed.png"
+  description: "Image File"
+---
+# This is Figure 5c.
+name: "Figure 5c Data"
+location: Data from Fig. 5 of PRC 66 (024901) 2002
+description: The $M_{e_T}$ distributions for $10-20\%$ centrality class. The curves are the random baseline mixed event distributions. The source of differences in the data and mixed event distributions are addressed in the text.
+keywords: # used for searching, possibly multiple values for each keyword
+- {name: reactions, values: [AU + AU --> CHARGED X0]}
+- {name: cmenergies, values: [130.0]}
+- {name: phrases, values: [PPG005, PHENIX, Mean Transverse Energy, Non-Random Fluctuations, RHIC, Polyakov, QCD, Quantum Chromodynamics, Phase Transition, Hanbury-Brown-Twiss Correlations, Centrality]}
+data_file: ppg005f5cdata.yaml
+additional_resources:
+- location: "thumb_ptMixed.png"
+  description: "Image File"
+---
+name: "Figure 5c Mixed"
+location: Data from Fig. 5 of PRC 66 (024901) 2002
+description: The $M_{e_T}$ distributions for $10-20\%$ centrality class. The curves are the random baseline mixed event distributions. The source of differences in the data and mixed event distributions are addressed in the text.
+keywords: # used for searching, possibly multiple values for each keyword
+- {name: reactions, values: [AU + AU --> CHARGED X0]}
+- {name: cmenergies, values: [130.0]}
+- {name: phrases, values: [PPG005, PHENIX, Mean Transverse Energy, Non-Random Fluctuations, RHIC, Polyakov, QCD, Quantum Chromodynamics, Phase Transition, Hanbury-Brown-Twiss Correlations, Centrality]}
+data_file: ppg005f5cmixed.yaml
+additional_resources:
+- location: "thumb_ptMixed.png"
+  description: "Image File"
+---
+# This is Figure 5d.
+name: "Figure 5d Data"
+location: Data from Fig. 5 of PRC 66 (024901) 2002
+description: The $M_{e_T}$ distributions for $20-30\%$ centrality class. The curves are the random baseline mixed event distributions. The source of differences in the data and mixed event distributions are addressed in the text.
+keywords: # used for searching, possibly multiple values for each keyword
+- {name: reactions, values: [AU + AU --> CHARGED X0]}
+- {name: cmenergies, values: [130.0]}
+- {name: phrases, values: [PPG005, PHENIX, Mean Transverse Energy, Non-Random Fluctuations, RHIC, Polyakov, QCD, Quantum Chromodynamics, Phase Transition, Hanbury-Brown-Twiss Correlations, Centrality]}
+data_file: ppg005f5ddata.yaml
+additional_resources:
+- location: "thumb_ptMixed.png"
+  description: "Image File"
+---
+# This is Figure 5d.
+name: "Figure 5d Mixed"
+location: Data from Fig. 5 of PRC 66 (024901) 2002
+description: The $M_{e_T}$ distributions for $20-30\%$ centrality class. The curves are the random baseline mixed event distributions. The source of differences in the data and mixed event distributions are addressed in the text.
+keywords: # used for searching, possibly multiple values for each keyword
+- {name: reactions, values: [AU + AU --> CHARGED X0]}
+- {name: cmenergies, values: [130.0]}
+- {name: phrases, values: [PPG005, PHENIX, Mean Transverse Energy, Non-Random Fluctuations, RHIC, Polyakov, QCD, Quantum Chromodynamics, Phase Transition, Hanbury-Brown-Twiss Correlations, Centrality]}
+data_file: ppg005f5dmixed.yaml
+additional_resources:
+- location: "thumb_ptMixed.png"
+  description: "Image File"
+---
+# This is Figure 6.
+name: "Figure 6"
+location: Data from Fig. 6 of PRC 66 (024901) 2002
+description: The residual distribution between the data and mixed event $M_{e_T}$ spectra as a function of $M_{e_T}$ in units of standard deviation. The total ${\chi}^2$ and the number of degrees of freedom for the $0-5\%$, $0-10\%$, $10-20\%$, $20-30\%$ centrality classes are 310.0/32, 896.4/36, 678.7/47, and 553.9/53, respectively. A large fraction of the residual contributions are due to the effects of cluster merging.
+keywords: # used for searching, possibly multiple values for each keyword
+- {name: reactions, values: [AU + AU --> CHARGED X0]}
+- {name: cmenergies, values: [130.0]}
+- {name: phrases, values: [PPG005, PHENIX, Mean Transverse Energy, Non-Random Fluctuations, RHIC, Polyakov, QCD, Quantum Chromodynamics, Phase Transition, Hanbury-Brown-Twiss Correlations, Residual Distribution]}
+data_file: ppg005f6.yaml
+additional_resources:
+- location: "thumb_etResiduals.png"
+  description: "Image File"

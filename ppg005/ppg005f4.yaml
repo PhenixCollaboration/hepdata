@@ -1,0 +1,1320 @@
+independent_variables:
+- header: {name: 'Mean $p_T$'}
+  values:
+  - {low: 0.005, high: 0.015}
+  - {low: 0.015, high: 0.025}
+  - {low: 0.025, high: 0.035}
+  - {low: 0.035, high: 0.045}
+  - {low: 0.045, high: 0.055}
+  - {low: 0.055, high: 0.065}
+  - {low: 0.065, high: 0.075}
+  - {low: 0.075, high: 0.085}
+  - {low: 0.085, high: 0.095}
+  - {low: 0.095, high: 0.105}
+  - {low: 0.105, high: 0.115}
+  - {low: 0.115, high: 0.125}
+  - {low: 0.125, high: 0.135}
+  - {low: 0.135, high: 0.145}
+  - {low: 0.145, high: 0.155}
+  - {low: 0.155, high: 0.165}
+  - {low: 0.165, high: 0.175}
+  - {low: 0.175, high: 0.185}
+  - {low: 0.185, high: 0.195}
+  - {low: 0.195, high: 0.205}
+  - {low: 0.205, high: 0.215}
+  - {low: 0.215, high: 0.225}
+  - {low: 0.225, high: 0.235}
+  - {low: 0.235, high: 0.245}
+  - {low: 0.245, high: 0.255}
+  - {low: 0.255, high: 0.265}
+  - {low: 0.265, high: 0.275}
+  - {low: 0.275, high: 0.285}
+  - {low: 0.285, high: 0.295}
+  - {low: 0.295, high: 0.305}
+  - {low: 0.305, high: 0.315}
+  - {low: 0.315, high: 0.325}
+  - {low: 0.325, high: 0.335}
+  - {low: 0.335, high: 0.345}
+  - {low: 0.345, high: 0.355}
+  - {low: 0.355, high: 0.365}
+  - {low: 0.365, high: 0.375}
+  - {low: 0.375, high: 0.385}
+  - {low: 0.385, high: 0.395}
+  - {low: 0.395, high: 0.405}
+  - {low: 0.405, high: 0.415}
+  - {low: 0.415, high: 0.425}
+  - {low: 0.425, high: 0.435}
+  - {low: 0.435, high: 0.445}
+  - {low: 0.445, high: 0.455}
+  - {low: 0.455, high: 0.465}
+  - {low: 0.465, high: 0.475}
+  - {low: 0.475, high: 0.485}
+  - {low: 0.485, high: 0.495}
+  - {low: 0.495, high: 0.505}
+  - {low: 0.505, high: 0.515}
+  - {low: 0.515, high: 0.525}
+  - {low: 0.525, high: 0.535}
+  - {low: 0.535, high: 0.545}
+  - {low: 0.545, high: 0.555}
+  - {low: 0.555, high: 0.565}
+  - {low: 0.565, high: 0.575}
+  - {low: 0.575, high: 0.585}
+  - {low: 0.585, high: 0.595}
+  - {low: 0.595, high: 0.605}
+  - {low: 0.605, high: 0.615}
+  - {low: 0.615, high: 0.625}
+  - {low: 0.625, high: 0.635}
+  - {low: 0.635, high: 0.645}
+  - {low: 0.645, high: 0.655}
+  - {low: 0.655, high: 0.665}
+  - {low: 0.665, high: 0.675}
+  - {low: 0.675, high: 0.685}
+  - {low: 0.685, high: 0.695}
+  - {low: 0.695, high: 0.705}
+  - {low: 0.705, high: 0.715}
+  - {low: 0.715, high: 0.725}
+  - {low: 0.725, high: 0.735}
+  - {low: 0.735, high: 0.745}
+  - {low: 0.745, high: 0.755}
+  - {low: 0.755, high: 0.765}
+  - {low: 0.765, high: 0.775}
+  - {low: 0.775, high: 0.785}
+  - {low: 0.785, high: 0.795}
+  - {low: 0.795, high: 0.805}
+  - {low: 0.805, high: 0.815}
+  - {low: 0.815, high: 0.825}
+  - {low: 0.825, high: 0.835}
+  - {low: 0.835, high: 0.845}
+  - {low: 0.845, high: 0.855}
+  - {low: 0.855, high: 0.865}
+  - {low: 0.865, high: 0.875}
+  - {low: 0.875, high: 0.885}
+  - {low: 0.885, high: 0.895}
+  - {low: 0.895, high: 0.905}
+  - {low: 0.905, high: 0.915}
+  - {low: 0.915, high: 0.925}
+  - {low: 0.925, high: 0.935}
+  - {low: 0.935, high: 0.945}
+  - {low: 0.945, high: 0.955}
+  - {low: 0.955, high: 0.965}
+  - {low: 0.965, high: 0.975}
+  - {low: 0.975, high: 0.985}
+  - {low: 0.985, high: 0.995}
+  - {low: 0.995, high: 1.005}
+dependent_variables:
+- header: {name: 'Residual'}
+  qualifiers:
+  - {name: 'Mean $p_T$', value: '$0-5\%$ centrality'}
+  values:
+  - value: 0.0
+    errors:
+    - {symerror: 1.0, label: 'Stat'}
+  - value: 0.0
+    errors:
+    - {symerror: 1.0, label: 'Stat'}
+  - value: 0.0
+    errors:
+    - {symerror: 1.0, label: 'Stat'}
+  - value: 0.0
+    errors:
+    - {symerror: 1.0, label: 'Stat'}
+  - value: 0.0
+    errors:
+    - {symerror: 1.0, label: 'Stat'}
+  - value: 0.0
+    errors:
+    - {symerror: 1.0, label: 'Stat'}
+  - value: 0.0
+    errors:
+    - {symerror: 1.0, label: 'Stat'}
+  - value: 0.0
+    errors:
+    - {symerror: 1.0, label: 'Stat'}
+  - value: 0.0
+    errors:
+    - {symerror: 1.0, label: 'Stat'}
+  - value: 0.0
+    errors:
+    - {symerror: 1.0, label: 'Stat'}
+  - value: 0.0
+    errors:
+    - {symerror: 1.0, label: 'Stat'}
+  - value: 0.0
+    errors:
+    - {symerror: 1.0, label: 'Stat'}
+  - value: 0.0
+    errors:
+    - {symerror: 1.0, label: 'Stat'}
+  - value: 0.0
+    errors:
+    - {symerror: 1.0, label: 'Stat'}
+  - value: 0.0
+    errors:
+    - {symerror: 1.0, label: 'Stat'}
+  - value: 0.0
+    errors:
+    - {symerror: 1.0, label: 'Stat'}
+  - value: 0.0
+    errors:
+    - {symerror: 1.0, label: 'Stat'}
+  - value: 0.0
+    errors:
+    - {symerror: 1.0, label: 'Stat'}
+  - value: 0.0
+    errors:
+    - {symerror: 1.0, label: 'Stat'}
+  - value: 0.0
+    errors:
+    - {symerror: 1.0, label: 'Stat'}
+  - value: 0.0
+    errors:
+    - {symerror: 1.0, label: 'Stat'}
+  - value: 0.0
+    errors:
+    - {symerror: 1.0, label: 'Stat'}
+  - value: 0.0
+    errors:
+    - {symerror: 1.0, label: 'Stat'}
+  - value: 0.0
+    errors:
+    - {symerror: 1.0, label: 'Stat'}
+  - value: 0.0
+    errors:
+    - {symerror: 1.0, label: 'Stat'}
+  - value: 0.0
+    errors:
+    - {symerror: 1.0, label: 'Stat'}
+  - value: 0.0
+    errors:
+    - {symerror: 1.0, label: 'Stat'}
+  - value: 0.0
+    errors:
+    - {symerror: 1.0, label: 'Stat'}
+  - value: 0.0
+    errors:
+    - {symerror: 1.0, label: 'Stat'}
+  - value: 0.0
+    errors:
+    - {symerror: 1.0, label: 'Stat'}
+  - value: 0.0
+    errors:
+    - {symerror: 1.0, label: 'Stat'}
+  - value: 0.0
+    errors:
+    - {symerror: 1.0, label: 'Stat'}
+  - value: 0.0
+    errors:
+    - {symerror: 1.0, label: 'Stat'}
+  - value: 0.0
+    errors:
+    - {symerror: 1.0, label: 'Stat'}
+  - value: 0.0
+    errors:
+    - {symerror: 1.0, label: 'Stat'}
+  - value: -0.4
+    errors:
+    - {symerror: 1.0, label: 'Stat'}
+  - value: 0.8
+    errors:
+    - {symerror: 1.0, label: 'Stat'}
+  - value: 0.9
+    errors:
+    - {symerror: 1.0, label: 'Stat'}
+  - value: 1.3
+    errors:
+    - {symerror: 1.0, label: 'Stat'}
+  - value: 1.6
+    errors:
+    - {symerror: 1.0, label: 'Stat'}
+  - value: -0.5
+    errors:
+    - {symerror: 1.0, label: 'Stat'}
+  - value: 1.5
+    errors:
+    - {symerror: 1.0, label: 'Stat'}
+  - value: 0.7
+    errors:
+    - {symerror: 1.0, label: 'Stat'}
+  - value: 0.3
+    errors:
+    - {symerror: 1.0, label: 'Stat'}
+  - value: 1.3
+    errors:
+    - {symerror: 1.0, label: 'Stat'}
+  - value: 2.1
+    errors:
+    - {symerror: 1.0, label: 'Stat'}
+  - value: -0.4
+    errors:
+    - {symerror: 1.0, label: 'Stat'}
+  - value: 2.4
+    errors:
+    - {symerror: 1.0, label: 'Stat'}
+  - value: 0.1
+    errors:
+    - {symerror: 1.0, label: 'Stat'}
+  - value: -0.2
+    errors:
+    - {symerror: 1.0, label: 'Stat'}
+  - value: -1.7
+    errors:
+    - {symerror: 1.0, label: 'Stat'}
+  - value: -0.4
+    errors:
+    - {symerror: 1.0, label: 'Stat'}
+  - value: -1.6
+    errors:
+    - {symerror: 1.0, label: 'Stat'}
+  - value: -1.9
+    errors:
+    - {symerror: 1.0, label: 'Stat'}
+  - value: -0.2
+    errors:
+    - {symerror: 1.0, label: 'Stat'}
+  - value: 0.3
+    errors:
+    - {symerror: 1.0, label: 'Stat'}
+  - value: 1.6
+    errors:
+    - {symerror: 1.0, label: 'Stat'}
+  - value: 0.6
+    errors:
+    - {symerror: 1.0, label: 'Stat'}
+  - value: -0.7
+    errors:
+    - {symerror: 1.0, label: 'Stat'}
+  - value: 0.0
+    errors:
+    - {symerror: 1.0, label: 'Stat'}
+  - value: 1.2
+    errors:
+    - {symerror: 1.0, label: 'Stat'}
+  - value: 1.9
+    errors:
+    - {symerror: 1.0, label: 'Stat'}
+  - value: 1.8
+    errors:
+    - {symerror: 1.0, label: 'Stat'}
+  - value: 0.9
+    errors:
+    - {symerror: 1.0, label: 'Stat'}
+  - value: 1.2
+    errors:
+    - {symerror: 1.0, label: 'Stat'}
+  - value: -0.3
+    errors:
+    - {symerror: 1.0, label: 'Stat'}
+  - value: 0.8
+    errors:
+    - {symerror: 1.0, label: 'Stat'}
+  - value: 1.2
+    errors:
+    - {symerror: 1.0, label: 'Stat'}
+  - value: 1.4
+    errors:
+    - {symerror: 1.0, label: 'Stat'}
+  - value: 1.2
+    errors:
+    - {symerror: 1.0, label: 'Stat'}
+  - value: 0.8
+    errors:
+    - {symerror: 1.0, label: 'Stat'}
+  - value: 0.8
+    errors:
+    - {symerror: 1.0, label: 'Stat'}
+  - value: 0.7
+    errors:
+    - {symerror: 1.0, label: 'Stat'}
+  - value: 0.0
+    errors:
+    - {symerror: 1.0, label: 'Stat'}
+  - value: -0.4
+    errors:
+    - {symerror: 1.0, label: 'Stat'}
+  - value: 0.0
+    errors:
+    - {symerror: 1.0, label: 'Stat'}
+  - value: 0.0
+    errors:
+    - {symerror: 1.0, label: 'Stat'}
+  - value: 0.0
+    errors:
+    - {symerror: 1.0, label: 'Stat'}
+  - value: 0.0
+    errors:
+    - {symerror: 1.0, label: 'Stat'}
+  - value: 0.0
+    errors:
+    - {symerror: 1.0, label: 'Stat'}
+  - value: 0.0
+    errors:
+    - {symerror: 1.0, label: 'Stat'}
+  - value: 0.0
+    errors:
+    - {symerror: 1.0, label: 'Stat'}
+  - value: 0.0
+    errors:
+    - {symerror: 1.0, label: 'Stat'}
+  - value: 0.0
+    errors:
+    - {symerror: 1.0, label: 'Stat'}
+  - value: 0.0
+    errors:
+    - {symerror: 1.0, label: 'Stat'}
+  - value: 0.0
+    errors:
+    - {symerror: 1.0, label: 'Stat'}
+  - value: 0.0
+    errors:
+    - {symerror: 1.0, label: 'Stat'}
+  - value: 0.0
+    errors:
+    - {symerror: 1.0, label: 'Stat'}
+  - value: 0.0
+    errors:
+    - {symerror: 1.0, label: 'Stat'}
+  - value: 0.0
+    errors:
+    - {symerror: 1.0, label: 'Stat'}
+  - value: 0.0
+    errors:
+    - {symerror: 1.0, label: 'Stat'}
+  - value: 0.0
+    errors:
+    - {symerror: 1.0, label: 'Stat'}
+  - value: 0.0
+    errors:
+    - {symerror: 1.0, label: 'Stat'}
+  - value: 0.0
+    errors:
+    - {symerror: 1.0, label: 'Stat'}
+  - value: 0.0
+    errors:
+    - {symerror: 1.0, label: 'Stat'}
+  - value: 0.0
+    errors:
+    - {symerror: 1.0, label: 'Stat'}
+  - value: 0.0
+    errors:
+    - {symerror: 1.0, label: 'Stat'}
+  - value: 0.0
+    errors:
+    - {symerror: 1.0, label: 'Stat'}
+  - value: 0.0
+    errors:
+    - {symerror: 1.0, label: 'Stat'}
+  - value: 0.0
+    errors:
+    - {symerror: 1.0, label: 'Stat'}
+- header: {name: 'Residual'}
+  qualifiers:
+  - {name: 'Mean $p_T$', value: '$0-10\%$ centrality'}
+  values:
+  - value: 0.0
+    errors:
+    - {symerror: 1.0, label: 'Stat'}
+  - value: 0.0
+    errors:
+    - {symerror: 1.0, label: 'Stat'}
+  - value: 0.0
+    errors:
+    - {symerror: 1.0, label: 'Stat'}
+  - value: 0.0
+    errors:
+    - {symerror: 1.0, label: 'Stat'}
+  - value: 0.0
+    errors:
+    - {symerror: 1.0, label: 'Stat'}
+  - value: 0.0
+    errors:
+    - {symerror: 1.0, label: 'Stat'}
+  - value: 0.0
+    errors:
+    - {symerror: 1.0, label: 'Stat'}
+  - value: 0.0
+    errors:
+    - {symerror: 1.0, label: 'Stat'}
+  - value: 0.0
+    errors:
+    - {symerror: 1.0, label: 'Stat'}
+  - value: 0.0
+    errors:
+    - {symerror: 1.0, label: 'Stat'}
+  - value: 0.0
+    errors:
+    - {symerror: 1.0, label: 'Stat'}
+  - value: 0.0
+    errors:
+    - {symerror: 1.0, label: 'Stat'}
+  - value: 0.0
+    errors:
+    - {symerror: 1.0, label: 'Stat'}
+  - value: 0.0
+    errors:
+    - {symerror: 1.0, label: 'Stat'}
+  - value: 0.0
+    errors:
+    - {symerror: 1.0, label: 'Stat'}
+  - value: 0.0
+    errors:
+    - {symerror: 1.0, label: 'Stat'}
+  - value: 0.0
+    errors:
+    - {symerror: 1.0, label: 'Stat'}
+  - value: 0.0
+    errors:
+    - {symerror: 1.0, label: 'Stat'}
+  - value: 0.0
+    errors:
+    - {symerror: 1.0, label: 'Stat'}
+  - value: 0.0
+    errors:
+    - {symerror: 1.0, label: 'Stat'}
+  - value: 0.0
+    errors:
+    - {symerror: 1.0, label: 'Stat'}
+  - value: 0.0
+    errors:
+    - {symerror: 1.0, label: 'Stat'}
+  - value: 0.0
+    errors:
+    - {symerror: 1.0, label: 'Stat'}
+  - value: 0.0
+    errors:
+    - {symerror: 1.0, label: 'Stat'}
+  - value: 0.0
+    errors:
+    - {symerror: 1.0, label: 'Stat'}
+  - value: 0.0
+    errors:
+    - {symerror: 1.0, label: 'Stat'}
+  - value: 0.0
+    errors:
+    - {symerror: 1.0, label: 'Stat'}
+  - value: 0.0
+    errors:
+    - {symerror: 1.0, label: 'Stat'}
+  - value: 0.0
+    errors:
+    - {symerror: 1.0, label: 'Stat'}
+  - value: 0.0
+    errors:
+    - {symerror: 1.0, label: 'Stat'}
+  - value: 0.0
+    errors:
+    - {symerror: 1.0, label: 'Stat'}
+  - value: 0.0
+    errors:
+    - {symerror: 1.0, label: 'Stat'}
+  - value: 0.0
+    errors:
+    - {symerror: 1.0, label: 'Stat'}
+  - value: -0.2
+    errors:
+    - {symerror: 1.0, label: 'Stat'}
+  - value: -0.6
+    errors:
+    - {symerror: 1.0, label: 'Stat'}
+  - value: 0.9
+    errors:
+    - {symerror: 1.0, label: 'Stat'}
+  - value: 0.7
+    errors:
+    - {symerror: 1.0, label: 'Stat'}
+  - value: 1.3
+    errors:
+    - {symerror: 1.0, label: 'Stat'}
+  - value: 1.2
+    errors:
+    - {symerror: 1.0, label: 'Stat'}
+  - value: 1.4
+    errors:
+    - {symerror: 1.0, label: 'Stat'}
+  - value: 0.6
+    errors:
+    - {symerror: 1.0, label: 'Stat'}
+  - value: 1.2
+    errors:
+    - {symerror: 1.0, label: 'Stat'}
+  - value: 2.7
+    errors:
+    - {symerror: 1.0, label: 'Stat'}
+  - value: 1.5
+    errors:
+    - {symerror: 1.0, label: 'Stat'}
+  - value: 2.0
+    errors:
+    - {symerror: 1.0, label: 'Stat'}
+  - value: 2.7
+    errors:
+    - {symerror: 1.0, label: 'Stat'}
+  - value: 0.1
+    errors:
+    - {symerror: 1.0, label: 'Stat'}
+  - value: 1.4
+    errors:
+    - {symerror: 1.0, label: 'Stat'}
+  - value: 0.7
+    errors:
+    - {symerror: 1.0, label: 'Stat'}
+  - value: 0.3
+    errors:
+    - {symerror: 1.0, label: 'Stat'}
+  - value: -2.5
+    errors:
+    - {symerror: 1.0, label: 'Stat'}
+  - value: -0.8
+    errors:
+    - {symerror: 1.0, label: 'Stat'}
+  - value: -3.2
+    errors:
+    - {symerror: 1.0, label: 'Stat'}
+  - value: -3.0
+    errors:
+    - {symerror: 1.0, label: 'Stat'}
+  - value: -0.6
+    errors:
+    - {symerror: 1.0, label: 'Stat'}
+  - value: 1.0
+    errors:
+    - {symerror: 1.0, label: 'Stat'}
+  - value: 1.7
+    errors:
+    - {symerror: 1.0, label: 'Stat'}
+  - value: 0.4
+    errors:
+    - {symerror: 1.0, label: 'Stat'}
+  - value: 0.5
+    errors:
+    - {symerror: 1.0, label: 'Stat'}
+  - value: 1.1
+    errors:
+    - {symerror: 1.0, label: 'Stat'}
+  - value: 0.5
+    errors:
+    - {symerror: 1.0, label: 'Stat'}
+  - value: 2.4
+    errors:
+    - {symerror: 1.0, label: 'Stat'}
+  - value: 1.6
+    errors:
+    - {symerror: 1.0, label: 'Stat'}
+  - value: 2.2
+    errors:
+    - {symerror: 1.0, label: 'Stat'}
+  - value: 0.9
+    errors:
+    - {symerror: 1.0, label: 'Stat'}
+  - value: 0.3
+    errors:
+    - {symerror: 1.0, label: 'Stat'}
+  - value: 0.9
+    errors:
+    - {symerror: 1.0, label: 'Stat'}
+  - value: 1.7
+    errors:
+    - {symerror: 1.0, label: 'Stat'}
+  - value: 1.8
+    errors:
+    - {symerror: 1.0, label: 'Stat'}
+  - value: 0.1
+    errors:
+    - {symerror: 1.0, label: 'Stat'}
+  - value: -0.7
+    errors:
+    - {symerror: 1.0, label: 'Stat'}
+  - value: 0.0
+    errors:
+    - {symerror: 1.0, label: 'Stat'}
+  - value: 0.3
+    errors:
+    - {symerror: 1.0, label: 'Stat'}
+  - value: 0.3
+    errors:
+    - {symerror: 1.0, label: 'Stat'}
+  - value: -0.6
+    errors:
+    - {symerror: 1.0, label: 'Stat'}
+  - value: 0.8
+    errors:
+    - {symerror: 1.0, label: 'Stat'}
+  - value: -0.3
+    errors:
+    - {symerror: 1.0, label: 'Stat'}
+  - value: -0.2
+    errors:
+    - {symerror: 1.0, label: 'Stat'}
+  - value: -0.2
+    errors:
+    - {symerror: 1.0, label: 'Stat'}
+  - value: 0.0
+    errors:
+    - {symerror: 1.0, label: 'Stat'}
+  - value: 0.0
+    errors:
+    - {symerror: 1.0, label: 'Stat'}
+  - value: 0.0
+    errors:
+    - {symerror: 1.0, label: 'Stat'}
+  - value: 0.0
+    errors:
+    - {symerror: 1.0, label: 'Stat'}
+  - value: 0.0
+    errors:
+    - {symerror: 1.0, label: 'Stat'}
+  - value: 0.0
+    errors:
+    - {symerror: 1.0, label: 'Stat'}
+  - value: 0.0
+    errors:
+    - {symerror: 1.0, label: 'Stat'}
+  - value: 0.0
+    errors:
+    - {symerror: 1.0, label: 'Stat'}
+  - value: 0.0
+    errors:
+    - {symerror: 1.0, label: 'Stat'}
+  - value: 0.0
+    errors:
+    - {symerror: 1.0, label: 'Stat'}
+  - value: 0.0
+    errors:
+    - {symerror: 1.0, label: 'Stat'}
+  - value: 0.0
+    errors:
+    - {symerror: 1.0, label: 'Stat'}
+  - value: 0.0
+    errors:
+    - {symerror: 1.0, label: 'Stat'}
+  - value: 0.0
+    errors:
+    - {symerror: 1.0, label: 'Stat'}
+  - value: 0.0
+    errors:
+    - {symerror: 1.0, label: 'Stat'}
+  - value: 0.0
+    errors:
+    - {symerror: 1.0, label: 'Stat'}
+  - value: 0.0
+    errors:
+    - {symerror: 1.0, label: 'Stat'}
+  - value: 0.0
+    errors:
+    - {symerror: 1.0, label: 'Stat'}
+  - value: 0.0
+    errors:
+    - {symerror: 1.0, label: 'Stat'}
+  - value: 0.0
+    errors:
+    - {symerror: 1.0, label: 'Stat'}
+  - value: 0.0
+    errors:
+    - {symerror: 1.0, label: 'Stat'}
+- header: {name: 'Residual'}
+  qualifiers:
+  - {name: 'Mean $p_T$', value: '$10-20\%$ centrality'}
+  values:
+  - value: 0.0
+    errors:
+    - {symerror: 1.0, label: 'Stat'}
+  - value: 0.0
+    errors:
+    - {symerror: 1.0, label: 'Stat'}
+  - value: 0.0
+    errors:
+    - {symerror: 1.0, label: 'Stat'}
+  - value: 0.0
+    errors:
+    - {symerror: 1.0, label: 'Stat'}
+  - value: 0.0
+    errors:
+    - {symerror: 1.0, label: 'Stat'}
+  - value: 0.0
+    errors:
+    - {symerror: 1.0, label: 'Stat'}
+  - value: 0.0
+    errors:
+    - {symerror: 1.0, label: 'Stat'}
+  - value: 0.0
+    errors:
+    - {symerror: 1.0, label: 'Stat'}
+  - value: 0.0
+    errors:
+    - {symerror: 1.0, label: 'Stat'}
+  - value: 0.0
+    errors:
+    - {symerror: 1.0, label: 'Stat'}
+  - value: 0.0
+    errors:
+    - {symerror: 1.0, label: 'Stat'}
+  - value: 0.0
+    errors:
+    - {symerror: 1.0, label: 'Stat'}
+  - value: 0.0
+    errors:
+    - {symerror: 1.0, label: 'Stat'}
+  - value: 0.0
+    errors:
+    - {symerror: 1.0, label: 'Stat'}
+  - value: 0.0
+    errors:
+    - {symerror: 1.0, label: 'Stat'}
+  - value: 0.0
+    errors:
+    - {symerror: 1.0, label: 'Stat'}
+  - value: 0.0
+    errors:
+    - {symerror: 1.0, label: 'Stat'}
+  - value: 0.0
+    errors:
+    - {symerror: 1.0, label: 'Stat'}
+  - value: 0.0
+    errors:
+    - {symerror: 1.0, label: 'Stat'}
+  - value: 0.0
+    errors:
+    - {symerror: 1.0, label: 'Stat'}
+  - value: 0.0
+    errors:
+    - {symerror: 1.0, label: 'Stat'}
+  - value: 0.0
+    errors:
+    - {symerror: 1.0, label: 'Stat'}
+  - value: 0.0
+    errors:
+    - {symerror: 1.0, label: 'Stat'}
+  - value: 0.0
+    errors:
+    - {symerror: 1.0, label: 'Stat'}
+  - value: 0.0
+    errors:
+    - {symerror: 1.0, label: 'Stat'}
+  - value: 0.0
+    errors:
+    - {symerror: 1.0, label: 'Stat'}
+  - value: 0.0
+    errors:
+    - {symerror: 1.0, label: 'Stat'}
+  - value: 0.0
+    errors:
+    - {symerror: 1.0, label: 'Stat'}
+  - value: 0.0
+    errors:
+    - {symerror: 1.0, label: 'Stat'}
+  - value: 0.0
+    errors:
+    - {symerror: 1.0, label: 'Stat'}
+  - value: 0.0
+    errors:
+    - {symerror: 1.0, label: 'Stat'}
+  - value: -0.3
+    errors:
+    - {symerror: 1.0, label: 'Stat'}
+  - value: 0.0
+    errors:
+    - {symerror: 1.0, label: 'Stat'}
+  - value: 1.7
+    errors:
+    - {symerror: 1.0, label: 'Stat'}
+  - value: -0.2
+    errors:
+    - {symerror: 1.0, label: 'Stat'}
+  - value: -0.6
+    errors:
+    - {symerror: 1.0, label: 'Stat'}
+  - value: 1.1
+    errors:
+    - {symerror: 1.0, label: 'Stat'}
+  - value: 1.8
+    errors:
+    - {symerror: 1.0, label: 'Stat'}
+  - value: 1.3
+    errors:
+    - {symerror: 1.0, label: 'Stat'}
+  - value: 3.3
+    errors:
+    - {symerror: 1.0, label: 'Stat'}
+  - value: 0.8
+    errors:
+    - {symerror: 1.0, label: 'Stat'}
+  - value: 2.5
+    errors:
+    - {symerror: 1.0, label: 'Stat'}
+  - value: 2.8
+    errors:
+    - {symerror: 1.0, label: 'Stat'}
+  - value: 2.1
+    errors:
+    - {symerror: 1.0, label: 'Stat'}
+  - value: 1.0
+    errors:
+    - {symerror: 1.0, label: 'Stat'}
+  - value: 0.6
+    errors:
+    - {symerror: 1.0, label: 'Stat'}
+  - value: 2.0
+    errors:
+    - {symerror: 1.0, label: 'Stat'}
+  - value: -0.3
+    errors:
+    - {symerror: 1.0, label: 'Stat'}
+  - value: -0.8
+    errors:
+    - {symerror: 1.0, label: 'Stat'}
+  - value: -1.9
+    errors:
+    - {symerror: 1.0, label: 'Stat'}
+  - value: -1.3
+    errors:
+    - {symerror: 1.0, label: 'Stat'}
+  - value: -2.1
+    errors:
+    - {symerror: 1.0, label: 'Stat'}
+  - value: -1.1
+    errors:
+    - {symerror: 1.0, label: 'Stat'}
+  - value: -2.2
+    errors:
+    - {symerror: 1.0, label: 'Stat'}
+  - value: -0.3
+    errors:
+    - {symerror: 1.0, label: 'Stat'}
+  - value: -0.4
+    errors:
+    - {symerror: 1.0, label: 'Stat'}
+  - value: 0.8
+    errors:
+    - {symerror: 1.0, label: 'Stat'}
+  - value: 0.5
+    errors:
+    - {symerror: 1.0, label: 'Stat'}
+  - value: 0.2
+    errors:
+    - {symerror: 1.0, label: 'Stat'}
+  - value: 0.6
+    errors:
+    - {symerror: 1.0, label: 'Stat'}
+  - value: 2.2
+    errors:
+    - {symerror: 1.0, label: 'Stat'}
+  - value: 0.4
+    errors:
+    - {symerror: 1.0, label: 'Stat'}
+  - value: 1.4
+    errors:
+    - {symerror: 1.0, label: 'Stat'}
+  - value: 3.1
+    errors:
+    - {symerror: 1.0, label: 'Stat'}
+  - value: 1.0
+    errors:
+    - {symerror: 1.0, label: 'Stat'}
+  - value: 0.7
+    errors:
+    - {symerror: 1.0, label: 'Stat'}
+  - value: 0.9
+    errors:
+    - {symerror: 1.0, label: 'Stat'}
+  - value: 1.2
+    errors:
+    - {symerror: 1.0, label: 'Stat'}
+  - value: -0.1
+    errors:
+    - {symerror: 1.0, label: 'Stat'}
+  - value: 1.1
+    errors:
+    - {symerror: 1.0, label: 'Stat'}
+  - value: 1.6
+    errors:
+    - {symerror: 1.0, label: 'Stat'}
+  - value: 0.7
+    errors:
+    - {symerror: 1.0, label: 'Stat'}
+  - value: 0.3
+    errors:
+    - {symerror: 1.0, label: 'Stat'}
+  - value: 0.1
+    errors:
+    - {symerror: 1.0, label: 'Stat'}
+  - value: 0.2
+    errors:
+    - {symerror: 1.0, label: 'Stat'}
+  - value: -1.1
+    errors:
+    - {symerror: 1.0, label: 'Stat'}
+  - value: 0.4
+    errors:
+    - {symerror: 1.0, label: 'Stat'}
+  - value: 0.4
+    errors:
+    - {symerror: 1.0, label: 'Stat'}
+  - value: 0.1
+    errors:
+    - {symerror: 1.0, label: 'Stat'}
+  - value: -0.6
+    errors:
+    - {symerror: 1.0, label: 'Stat'}
+  - value: -0.4
+    errors:
+    - {symerror: 1.0, label: 'Stat'}
+  - value: -0.3
+    errors:
+    - {symerror: 1.0, label: 'Stat'}
+  - value: 0.0
+    errors:
+    - {symerror: 1.0, label: 'Stat'}
+  - value: 0.0
+    errors:
+    - {symerror: 1.0, label: 'Stat'}
+  - value: 0.0
+    errors:
+    - {symerror: 1.0, label: 'Stat'}
+  - value: -0.2
+    errors:
+    - {symerror: 1.0, label: 'Stat'}
+  - value: -0.2
+    errors:
+    - {symerror: 1.0, label: 'Stat'}
+  - value: 0.0
+    errors:
+    - {symerror: 1.0, label: 'Stat'}
+  - value: 0.0
+    errors:
+    - {symerror: 1.0, label: 'Stat'}
+  - value: 0.0
+    errors:
+    - {symerror: 1.0, label: 'Stat'}
+  - value: -0.2
+    errors:
+    - {symerror: 1.0, label: 'Stat'}
+  - value: 0.0
+    errors:
+    - {symerror: 1.0, label: 'Stat'}
+  - value: 0.0
+    errors:
+    - {symerror: 1.0, label: 'Stat'}
+  - value: 0.0
+    errors:
+    - {symerror: 1.0, label: 'Stat'}
+  - value: 0.0
+    errors:
+    - {symerror: 1.0, label: 'Stat'}
+  - value: 0.0
+    errors:
+    - {symerror: 1.0, label: 'Stat'}
+  - value: 0.0
+    errors:
+    - {symerror: 1.0, label: 'Stat'}
+  - value: 0.0
+    errors:
+    - {symerror: 1.0, label: 'Stat'}
+  - value: 0.0
+    errors:
+    - {symerror: 1.0, label: 'Stat'}
+  - value: 0.0
+    errors:
+    - {symerror: 1.0, label: 'Stat'}
+- header: {name: 'Residual'}
+  qualifiers:
+  - {name: 'Mean $p_T$', value: '$20-30\%$ centrality'}
+  values:
+  - value: 0.0
+    errors:
+    - {symerror: 1.0, label: 'Stat'}
+  - value: 0.0
+    errors:
+    - {symerror: 1.0, label: 'Stat'}
+  - value: 0.0
+    errors:
+    - {symerror: 1.0, label: 'Stat'}
+  - value: 0.0
+    errors:
+    - {symerror: 1.0, label: 'Stat'}
+  - value: 0.0
+    errors:
+    - {symerror: 1.0, label: 'Stat'}
+  - value: 0.0
+    errors:
+    - {symerror: 1.0, label: 'Stat'}
+  - value: 0.0
+    errors:
+    - {symerror: 1.0, label: 'Stat'}
+  - value: 0.0
+    errors:
+    - {symerror: 1.0, label: 'Stat'}
+  - value: 0.0
+    errors:
+    - {symerror: 1.0, label: 'Stat'}
+  - value: 0.0
+    errors:
+    - {symerror: 1.0, label: 'Stat'}
+  - value: 0.0
+    errors:
+    - {symerror: 1.0, label: 'Stat'}
+  - value: 0.0
+    errors:
+    - {symerror: 1.0, label: 'Stat'}
+  - value: 0.0
+    errors:
+    - {symerror: 1.0, label: 'Stat'}
+  - value: 0.0
+    errors:
+    - {symerror: 1.0, label: 'Stat'}
+  - value: 0.0
+    errors:
+    - {symerror: 1.0, label: 'Stat'}
+  - value: 0.0
+    errors:
+    - {symerror: 1.0, label: 'Stat'}
+  - value: 0.0
+    errors:
+    - {symerror: 1.0, label: 'Stat'}
+  - value: 0.0
+    errors:
+    - {symerror: 1.0, label: 'Stat'}
+  - value: 0.0
+    errors:
+    - {symerror: 1.0, label: 'Stat'}
+  - value: 0.0
+    errors:
+    - {symerror: 1.0, label: 'Stat'}
+  - value: 0.0
+    errors:
+    - {symerror: 1.0, label: 'Stat'}
+  - value: 0.0
+    errors:
+    - {symerror: 1.0, label: 'Stat'}
+  - value: 0.0
+    errors:
+    - {symerror: 1.0, label: 'Stat'}
+  - value: 0.0
+    errors:
+    - {symerror: 1.0, label: 'Stat'}
+  - value: 0.0
+    errors:
+    - {symerror: 1.0, label: 'Stat'}
+  - value: -0.2
+    errors:
+    - {symerror: 1.0, label: 'Stat'}
+  - value: -0.2
+    errors:
+    - {symerror: 1.0, label: 'Stat'}
+  - value: -0.6
+    errors:
+    - {symerror: 1.0, label: 'Stat'}
+  - value: 0.9
+    errors:
+    - {symerror: 1.0, label: 'Stat'}
+  - value: -1.0
+    errors:
+    - {symerror: 1.0, label: 'Stat'}
+  - value: 0.5
+    errors:
+    - {symerror: 1.0, label: 'Stat'}
+  - value: -0.4
+    errors:
+    - {symerror: 1.0, label: 'Stat'}
+  - value: 0.2
+    errors:
+    - {symerror: 1.0, label: 'Stat'}
+  - value: 0.8
+    errors:
+    - {symerror: 1.0, label: 'Stat'}
+  - value: -0.8
+    errors:
+    - {symerror: 1.0, label: 'Stat'}
+  - value: 1.8
+    errors:
+    - {symerror: 1.0, label: 'Stat'}
+  - value: 2.0
+    errors:
+    - {symerror: 1.0, label: 'Stat'}
+  - value: 1.3
+    errors:
+    - {symerror: 1.0, label: 'Stat'}
+  - value: 1.3
+    errors:
+    - {symerror: 1.0, label: 'Stat'}
+  - value: 3.3
+    errors:
+    - {symerror: 1.0, label: 'Stat'}
+  - value: 2.5
+    errors:
+    - {symerror: 1.0, label: 'Stat'}
+  - value: 3.1
+    errors:
+    - {symerror: 1.0, label: 'Stat'}
+  - value: 0.1
+    errors:
+    - {symerror: 1.0, label: 'Stat'}
+  - value: 3.8
+    errors:
+    - {symerror: 1.0, label: 'Stat'}
+  - value: 1.3
+    errors:
+    - {symerror: 1.0, label: 'Stat'}
+  - value: 0.7
+    errors:
+    - {symerror: 1.0, label: 'Stat'}
+  - value: -1.8
+    errors:
+    - {symerror: 1.0, label: 'Stat'}
+  - value: -3.1
+    errors:
+    - {symerror: 1.0, label: 'Stat'}
+  - value: -0.6
+    errors:
+    - {symerror: 1.0, label: 'Stat'}
+  - value: -1.9
+    errors:
+    - {symerror: 1.0, label: 'Stat'}
+  - value: -1.4
+    errors:
+    - {symerror: 1.0, label: 'Stat'}
+  - value: -1.0
+    errors:
+    - {symerror: 1.0, label: 'Stat'}
+  - value: -2.0
+    errors:
+    - {symerror: 1.0, label: 'Stat'}
+  - value: -0.9
+    errors:
+    - {symerror: 1.0, label: 'Stat'}
+  - value: -0.7
+    errors:
+    - {symerror: 1.0, label: 'Stat'}
+  - value: -0.4
+    errors:
+    - {symerror: 1.0, label: 'Stat'}
+  - value: -0.2
+    errors:
+    - {symerror: 1.0, label: 'Stat'}
+  - value: 1.4
+    errors:
+    - {symerror: 1.0, label: 'Stat'}
+  - value: -0.2
+    errors:
+    - {symerror: 1.0, label: 'Stat'}
+  - value: 1.5
+    errors:
+    - {symerror: 1.0, label: 'Stat'}
+  - value: 2.3
+    errors:
+    - {symerror: 1.0, label: 'Stat'}
+  - value: 0.8
+    errors:
+    - {symerror: 1.0, label: 'Stat'}
+  - value: 0.6
+    errors:
+    - {symerror: 1.0, label: 'Stat'}
+  - value: 1.5
+    errors:
+    - {symerror: 1.0, label: 'Stat'}
+  - value: 1.0
+    errors:
+    - {symerror: 1.0, label: 'Stat'}
+  - value: 2.2
+    errors:
+    - {symerror: 1.0, label: 'Stat'}
+  - value: 1.6
+    errors:
+    - {symerror: 1.0, label: 'Stat'}
+  - value: 1.4
+    errors:
+    - {symerror: 1.0, label: 'Stat'}
+  - value: 0.4
+    errors:
+    - {symerror: 1.0, label: 'Stat'}
+  - value: 0.0
+    errors:
+    - {symerror: 1.0, label: 'Stat'}
+  - value: -0.2
+    errors:
+    - {symerror: 1.0, label: 'Stat'}
+  - value: -0.8
+    errors:
+    - {symerror: 1.0, label: 'Stat'}
+  - value: 0.7
+    errors:
+    - {symerror: 1.0, label: 'Stat'}
+  - value: -0.5
+    errors:
+    - {symerror: 1.0, label: 'Stat'}
+  - value: 0.1
+    errors:
+    - {symerror: 1.0, label: 'Stat'}
+  - value: -0.7
+    errors:
+    - {symerror: 1.0, label: 'Stat'}
+  - value: -1.0
+    errors:
+    - {symerror: 1.0, label: 'Stat'}
+  - value: -0.3
+    errors:
+    - {symerror: 1.0, label: 'Stat'}
+  - value: -0.2
+    errors:
+    - {symerror: 1.0, label: 'Stat'}
+  - value: -0.2
+    errors:
+    - {symerror: 1.0, label: 'Stat'}
+  - value: -0.9
+    errors:
+    - {symerror: 1.0, label: 'Stat'}
+  - value: 0.2
+    errors:
+    - {symerror: 1.0, label: 'Stat'}
+  - value: 1.5
+    errors:
+    - {symerror: 1.0, label: 'Stat'}
+  - value: -0.2
+    errors:
+    - {symerror: 1.0, label: 'Stat'}
+  - value: 0.4
+    errors:
+    - {symerror: 1.0, label: 'Stat'}
+  - value: -0.1
+    errors:
+    - {symerror: 1.0, label: 'Stat'}
+  - value: -0.8
+    errors:
+    - {symerror: 1.0, label: 'Stat'}
+  - value: 0.5
+    errors:
+    - {symerror: 1.0, label: 'Stat'}
+  - value: 1.2
+    errors:
+    - {symerror: 1.0, label: 'Stat'}
+  - value: -0.5
+    errors:
+    - {symerror: 1.0, label: 'Stat'}
+  - value: -0.4
+    errors:
+    - {symerror: 1.0, label: 'Stat'}
+  - value: -0.3
+    errors:
+    - {symerror: 1.0, label: 'Stat'}
+  - value: -0.2
+    errors:
+    - {symerror: 1.0, label: 'Stat'}
+  - value: -0.4
+    errors:
+    - {symerror: 1.0, label: 'Stat'}
+  - value: -0.2
+    errors:
+    - {symerror: 1.0, label: 'Stat'}
+  - value: 1.0
+    errors:
+    - {symerror: 1.0, label: 'Stat'}
+  - value: -0.2
+    errors:
+    - {symerror: 1.0, label: 'Stat'}
+  - value: 0.0
+    errors:
+    - {symerror: 1.0, label: 'Stat'}
+  - value: 0.0
+    errors:
+    - {symerror: 1.0, label: 'Stat'}
+  - value: 0.0
+    errors:
+    - {symerror: 1.0, label: 'Stat'}
