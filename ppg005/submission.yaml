@@ -14,18 +14,24 @@ additional_resources:
 - location: "https://arxiv.org/abs/nucl-ex/0203015"
   description: "arXiv article"
 - location: "thumb_datamixn.png"
-  description: "Image File"
+  description: "Thumbnail Image File"
 - location: "thumb_etResiduals.png"
-  description: "Image File"
-- location: "thumb_pt0Gamma.png"
-  description: "Image File"
-- location: "thumb_ptMethodChi.png"
-  description: "Image File"
+  description: "Thumbnail Image File"
 - location: "thumb_ptMixed.png"
-  description: "Image File"
+  description: "Thumbnail Image File"
 - location: "thumb_ptResiduals.png"
-  description: "Image File"
+  description: "Thumbnail Image File"
 - location: "thumb_etMixed.png"
+  description: "Thumbnail Image File"
+- location: "datamixn.png"
+  description: "Image File"
+- location: "etResiduals.png"
+  description: "Image File"
+- location: "ptMixed.png"
+  description: "Image File"
+- location: "ptResiduals.png"
+  description: "Image File"
+- location: "etMixed.png"
   description: "Image File"
   
 comment: | # Information that applies to all data tables.
@@ -39,10 +45,12 @@ description: The $N_{tracks}$ distribution for the $0-10\%$ centrality class (da
 keywords: # used for searching, possibly multiple values for each keyword
 - {name: reactions, values: [AU + AU --> CHARGED X0]}
 - {name: cmenergies, values: [130.0]}
-- {name: phrases, values: [PPG005, PHENIX, Non-Random Fluctuations, RHIC, Polyakov, QCD, Quantum Chromodynamics, Phase Transition, Hanbury-Brown-Twiss Correlations]}
+- {name: phrases, values: [ppg005, mid-rapidity, multiplicity]}
 data_file: ppg005f1.yaml
 additional_resources:
 - location: "thumb_datamixn.png"
+  description: "Thumbnail Image File"
+- location: "datamixn.png"
   description: "Image File"
 ---
 # This is Figure 3a.
@@ -52,10 +60,12 @@ description: The $M_{p_T}$ distributions for $0-5\%$ centrality class. The curve
 keywords: # used for searching, possibly multiple values for each keyword
 - {name: reactions, values: [AU + AU --> CHARGED X0]}
 - {name: cmenergies, values: [130.0]}
-- {name: phrases, values: [PPG005, PHENIX, Mean Transverse Momentum, Non-Random Fluctuations, RHIC, Polyakov, QCD, Quantum Chromodynamics, Phase Transition, Hanbury-Brown-Twiss Correlations]}
+- {name: phrases, values: [ppg005, mid-rapidity, transverse energy]}
 data_file: ppg005f3adata.yaml
 additional_resources:
 - location: "thumb_etMixed.png"
+  description: "Thumbnail Image File"
+- location: "etMixed.png"
   description: "Image File"
 ---
 name: "Figure 3a Mixed"
@@ -64,10 +74,12 @@ description: The $M_{p_T}$ distributions for $0-5\%$ centrality class. The curve
 keywords: # used for searching, possibly multiple values for each keyword
 - {name: reactions, values: [AU + AU --> CHARGED X0]}
 - {name: cmenergies, values: [130.0]}
-- {name: phrases, values: [PPG005, PHENIX, Mean Transverse Momentum, Non-Random Fluctuations, RHIC, Polyakov, QCD, Quantum Chromodynamics, Phase Transition, Hanbury-Brown-Twiss Correlations]}
+- {name: phrases, values: [ppg005, mid-rapidity, transverse energy]}
 data_file: ppg005f3amixed.yaml
 additional_resources:
 - location: "thumb_etMixed.png"
+  description: "Thumbnail Image File"
+- location: "etMixed.png"
   description: "Image File"
 ---
 # This is Figure 3b.
@@ -77,10 +89,12 @@ description: The $M_{p_T}$ distributions for $0-10\%$ centrality class. The curv
 keywords: # used for searching, possibly multiple values for each keyword
 - {name: reactions, values: [AU + AU --> CHARGED X0]}
 - {name: cmenergies, values: [130.0]}
-- {name: phrases, values: [PPG005, PHENIX, Mean Transverse Momentum, Non-Random Fluctuations, RHIC, Polyakov, QCD, Quantum Chromodynamics, Phase Transition, Hanbury-Brown-Twiss Correlations]}
+- {name: phrases, values: [ppg005, mid-rapidity, transverse energy]}
 data_file: ppg005f3bdata.yaml
 additional_resources:
 - location: "thumb_etMixed.png"
+  description: "Thumbnail Image File"
+- location: "etMixed.png"
   description: "Image File"
 ---
 name: "Figure 3b Mixed"
@@ -89,10 +103,12 @@ description: The $M_{p_T}$ distributions for $0-10\%$ centrality class. The curv
 keywords: # used for searching, possibly multiple values for each keyword
 - {name: reactions, values: [AU + AU --> CHARGED X0]}
 - {name: cmenergies, values: [130.0]}
-- {name: phrases, values: [PPG005, PHENIX, Mean Transverse Momentum, Non-Random Fluctuations, RHIC, Polyakov, QCD, Quantum Chromodynamics, Phase Transition, Hanbury-Brown-Twiss Correlations]}
+- {name: phrases, values: [ppg005, mid-rapidity, transverse energy]}
 data_file: ppg005f3bmixed.yaml
 additional_resources:
 - location: "thumb_etMixed.png"
+  description: "Thumbnail Image File"
+- location: "etMixed.png"
   description: "Image File"
 ---
 # This is Figure 3c.
@@ -102,10 +118,12 @@ description: The $M_{p_T}$ distributions for $10-20\%$ centrality class. The cur
 keywords: # used for searching, possibly multiple values for each keyword
 - {name: reactions, values: [AU + AU --> CHARGED X0]}
 - {name: cmenergies, values: [130.0]}
-- {name: phrases, values: [PPG005, PHENIX, Mean Transverse Momentum, Non-Random Fluctuations, RHIC, Polyakov, QCD, Quantum Chromodynamics, Phase Transition, Hanbury-Brown-Twiss Correlations]}
+- {name: phrases, values: [ppg005, mid-rapidity, transverse energy]}
 data_file: ppg005f3cdata.yaml
 additional_resources:
 - location: "thumb_etMixed.png"
+  description: "Thumbnail Image File"
+- location: "etMixed.png"
   description: "Image File"
 ---
 name: "Figure 3c Mixed"
@@ -114,10 +132,12 @@ description: The $M_{p_T}$ distributions for $10-20\%$ centrality class. The cur
 keywords: # used for searching, possibly multiple values for each keyword
 - {name: reactions, values: [AU + AU --> CHARGED X0]}
 - {name: cmenergies, values: [130.0]}
-- {name: phrases, values: [PPG005, PHENIX, Mean Transverse Momentum, Non-Random Fluctuations, RHIC, Polyakov, QCD, Quantum Chromodynamics, Phase Transition, Hanbury-Brown-Twiss Correlations]}
+- {name: phrases, values: [ppg005, mid-rapidity, transverse energy]}
 data_file: ppg005f3cmixed.yaml
 additional_resources:
 - location: "thumb_etMixed.png"
+  description: "Thumbnail Image File"
+- location: "etMixed.png"
   description: "Image File"
 ---
 # This is Figure 3d.
@@ -127,10 +147,12 @@ description: The $M_{p_T}$ distributions for $20-30\%$ centrality class. The cur
 keywords: # used for searching, possibly multiple values for each keyword
 - {name: reactions, values: [AU + AU --> CHARGED X0]}
 - {name: cmenergies, values: [130.0]}
-- {name: phrases, values: [PPG005, PHENIX, Mean Transverse Momentum, Non-Random Fluctuations, RHIC, Polyakov, QCD, Quantum Chromodynamics, Phase Transition, Hanbury-Brown-Twiss Correlations]}
+- {name: phrases, values: [ppg005, mid-rapidity, transverse energy]}
 data_file: ppg005f3ddata.yaml
 additional_resources:
 - location: "thumb_etMixed.png"
+  description: "Thumbnail Image File"
+- location: "etMixed.png"
   description: "Image File"
 ---
 # This is Figure 3d.
@@ -140,10 +162,12 @@ description: The $M_{p_T}$ distributions for $20-30\%$ centrality class. The cur
 keywords: # used for searching, possibly multiple values for each keyword
 - {name: reactions, values: [AU + AU --> CHARGED X0]}
 - {name: cmenergies, values: [130.0]}
-- {name: phrases, values: [PPG005, PHENIX, Mean Transverse Momentum, Non-Random Fluctuations, RHIC, Polyakov, QCD, Quantum Chromodynamics, Phase Transition, Hanbury-Brown-Twiss Correlations]}
+- {name: phrases, values: [ppg005, mid-rapidity, transverse energy]}
 data_file: ppg005f3dmixed.yaml
 additional_resources:
 - location: "thumb_ptMixed.png"
+  description: "Thumbnail Image File"
+- location: "ptMixed.png"
   description: "Image File"
 ---
 # This is Figure 4.
@@ -153,10 +177,12 @@ description: The residual distribution between the data and mixed event $M_{p_T}
 keywords: # used for searching, possibly multiple values for each keyword
 - {name: reactions, values: [AU + AU --> CHARGED X0]}
 - {name: cmenergies, values: [130.0]}
-- {name: phrases, values: [PPG005, PHENIX, Mean Transverse Momentum, Non-Random Fluctuations, RHIC, Polyakov, QCD, Quantum Chromodynamics, Phase Transition, Hanbury-Brown-Twiss Correlations, Residual Distribution]}
+- {name: phrases, values: [ppg005, mid-rapidity, transverse energy]}
 data_file: ppg005f4.yaml
 additional_resources:
 - location: "thumb_ptResiduals.png"
+  description: "Thumbnail Image File"
+- location: "ptResiduals.png"
   description: "Image File"
 ---
 # This is Figure 5a.
@@ -166,10 +192,12 @@ description: The $M_{e_T}$ distributions for $0-5\%$ centrality class. The curve
 keywords: # used for searching, possibly multiple values for each keyword
 - {name: reactions, values: [AU + AU --> CHARGED X0]}
 - {name: cmenergies, values: [130.0]}
-- {name: phrases, values: [PPG005, PHENIX, Mean Transverse Energy, Non-Random Fluctuations, RHIC, Polyakov, QCD, Quantum Chromodynamics, Phase Transition, Hanbury-Brown-Twiss Correlations, Centrality]}
+- {name: phrases, values: [ppg005, mid-rapidity, transverse energy]}
 data_file: ppg005f5adata.yaml
 additional_resources:
 - location: "thumb_ptMixed.png"
+  description: "Thumbnail Image File"
+- location: "ptMixed.png"
   description: "Image File"
 ---
 name: "Figure 5a Mixed"
@@ -178,10 +206,12 @@ description: The $M_{e_T}$ distributions for $0-5\%$ centrality class. The curve
 keywords: # used for searching, possibly multiple values for each keyword
 - {name: reactions, values: [AU + AU --> CHARGED X0]}
 - {name: cmenergies, values: [130.0]}
-- {name: phrases, values: [PPG005, PHENIX, Mean Transverse Energy, Non-Random Fluctuations, RHIC, Polyakov, QCD, Quantum Chromodynamics, Phase Transition, Hanbury-Brown-Twiss Correlations, Centrality]}
+- {name: phrases, values: [ppg005, mid-rapidity, transverse energy]}
 data_file: ppg005f5amixed.yaml
 additional_resources:
 - location: "thumb_ptMixed.png"
+  description: "Thumbnail Image File"
+- location: "ptMixed.png"
   description: "Image File"
 ---
 # This is Figure 5b.
@@ -191,10 +221,12 @@ description: The $M_{e_T}$ distributions for $0-10\%$ centrality class. The curv
 keywords: # used for searching, possibly multiple values for each keyword
 - {name: reactions, values: [AU + AU --> CHARGED X0]}
 - {name: cmenergies, values: [130.0]}
-- {name: phrases, values: [PPG005, PHENIX, Mean Transverse Energy, Non-Random Fluctuations, RHIC, Polyakov, QCD, Quantum Chromodynamics, Phase Transition, Hanbury-Brown-Twiss Correlations, Centrality]}
+- {name: phrases, values: [ppg005, mid-rapidity, transverse energy]}
 data_file: ppg005f5bdata.yaml
 additional_resources:
 - location: "thumb_ptMixed.png"
+  description: "Thumbnail Image File"
+- location: "ptMixed.png"
   description: "Image File"
 ---
 name: "Figure 5b Mixed"
@@ -203,10 +235,12 @@ description: The $M_{e_T}$ distributions for $0-10\%$ centrality class. The curv
 keywords: # used for searching, possibly multiple values for each keyword
 - {name: reactions, values: [AU + AU --> CHARGED X0]}
 - {name: cmenergies, values: [130.0]}
-- {name: phrases, values: [PPG005, PHENIX, Mean Transverse Energy, Non-Random Fluctuations, RHIC, Polyakov, QCD, Quantum Chromodynamics, Phase Transition, Hanbury-Brown-Twiss Correlations, Centrality]}
+- {name: phrases, values: [ppg005, mid-rapidity, transverse energy]}
 data_file: ppg005f5bmixed.yaml
 additional_resources:
 - location: "thumb_ptMixed.png"
+  description: "Thumbnail Image File"
+- location: "ptMixed.png"
   description: "Image File"
 ---
 # This is Figure 5c.
@@ -216,10 +250,12 @@ description: The $M_{e_T}$ distributions for $10-20\%$ centrality class. The cur
 keywords: # used for searching, possibly multiple values for each keyword
 - {name: reactions, values: [AU + AU --> CHARGED X0]}
 - {name: cmenergies, values: [130.0]}
-- {name: phrases, values: [PPG005, PHENIX, Mean Transverse Energy, Non-Random Fluctuations, RHIC, Polyakov, QCD, Quantum Chromodynamics, Phase Transition, Hanbury-Brown-Twiss Correlations, Centrality]}
+- {name: phrases, values: [ppg005, mid-rapidity, transverse energy]}
 data_file: ppg005f5cdata.yaml
 additional_resources:
 - location: "thumb_ptMixed.png"
+  description: "Thumbnail Image File"
+- location: "ptMixed.png"
   description: "Image File"
 ---
 name: "Figure 5c Mixed"
@@ -228,10 +264,12 @@ description: The $M_{e_T}$ distributions for $10-20\%$ centrality class. The cur
 keywords: # used for searching, possibly multiple values for each keyword
 - {name: reactions, values: [AU + AU --> CHARGED X0]}
 - {name: cmenergies, values: [130.0]}
-- {name: phrases, values: [PPG005, PHENIX, Mean Transverse Energy, Non-Random Fluctuations, RHIC, Polyakov, QCD, Quantum Chromodynamics, Phase Transition, Hanbury-Brown-Twiss Correlations, Centrality]}
+- {name: phrases, values: [ppg005, mid-rapidity, transverse energy]}
 data_file: ppg005f5cmixed.yaml
 additional_resources:
 - location: "thumb_ptMixed.png"
+  description: "Thumbnail Image File"
+- location: "ptMixed.png"
   description: "Image File"
 ---
 # This is Figure 5d.
@@ -241,10 +279,12 @@ description: The $M_{e_T}$ distributions for $20-30\%$ centrality class. The cur
 keywords: # used for searching, possibly multiple values for each keyword
 - {name: reactions, values: [AU + AU --> CHARGED X0]}
 - {name: cmenergies, values: [130.0]}
-- {name: phrases, values: [PPG005, PHENIX, Mean Transverse Energy, Non-Random Fluctuations, RHIC, Polyakov, QCD, Quantum Chromodynamics, Phase Transition, Hanbury-Brown-Twiss Correlations, Centrality]}
+- {name: phrases, values: [ppg005, mid-rapidity, transverse energy]}
 data_file: ppg005f5ddata.yaml
 additional_resources:
 - location: "thumb_ptMixed.png"
+  description: "Thumbnail Image File"
+- location: "ptMixed.png"
   description: "Image File"
 ---
 # This is Figure 5d.
@@ -254,10 +294,12 @@ description: The $M_{e_T}$ distributions for $20-30\%$ centrality class. The cur
 keywords: # used for searching, possibly multiple values for each keyword
 - {name: reactions, values: [AU + AU --> CHARGED X0]}
 - {name: cmenergies, values: [130.0]}
-- {name: phrases, values: [PPG005, PHENIX, Mean Transverse Energy, Non-Random Fluctuations, RHIC, Polyakov, QCD, Quantum Chromodynamics, Phase Transition, Hanbury-Brown-Twiss Correlations, Centrality]}
+- {name: phrases, values: [ppg005, mid-rapidity, transverse energy]}
 data_file: ppg005f5dmixed.yaml
 additional_resources:
 - location: "thumb_ptMixed.png"
+  description: "Thumbnail Image File"
+- location: "ptMixed.png"
   description: "Image File"
 ---
 # This is Figure 6.
@@ -267,8 +309,10 @@ description: The residual distribution between the data and mixed event $M_{e_T}
 keywords: # used for searching, possibly multiple values for each keyword
 - {name: reactions, values: [AU + AU --> CHARGED X0]}
 - {name: cmenergies, values: [130.0]}
-- {name: phrases, values: [PPG005, PHENIX, Mean Transverse Energy, Non-Random Fluctuations, RHIC, Polyakov, QCD, Quantum Chromodynamics, Phase Transition, Hanbury-Brown-Twiss Correlations, Residual Distribution]}
+- {name: phrases, values: [ppg005, mid-rapidity, transverse energy]}
 data_file: ppg005f6.yaml
 additional_resources:
 - location: "thumb_etResiduals.png"
+  description: "Thumbnail Image File"
+- location: "etResiduals.png"
   description: "Image File"
