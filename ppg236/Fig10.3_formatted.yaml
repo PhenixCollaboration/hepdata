@@ -1,0 +1,17 @@
+independent_variables:
+- header: {name: '$dN_{ch}/d\eta$'}
+  values:
+  - {low: 2, high: 2.5}
+dependent_variables:
+- header: {name: '$R$ in $0<p_T<1$ GeV/$c$'}
+  values:
+  - value: 2.64
+    errors:
+    - {symerror: 0.11, label: 'stat'}
+    - {symerror: 0.12, label: 'syst'}
+- header: {name: '$R$ in $2<p_T<2.5$ GeV/$c$'}
+  values:
+  - value: 2.35
+    errors:
+    - {symerror: 0.16, label: 'stat'}
+    - {symerror: 0.11, label: 'syst'}

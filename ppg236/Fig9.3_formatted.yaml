@@ -1,0 +1,29 @@
+independent_variables:
+- header: {name: '$dN_{ch}/d\eta$'}
+  values:
+  - {low: 2, high: 2.5}
+dependent_variables:
+- header: {name: '$v_2\{BB\}$ in $0<p_T<1$ GeV/$c$'}
+  values:
+  - value: 0.0417
+    errors:
+    - {symerror: 0.0018, label: 'stat'}
+    - {symerror: 0.0024, label: 'syst'}
+- header: {name: '$v_2\{BF\}$ in $0<p_T<1$ GeV/$c$'}
+  values:
+  - value: 0.1107
+    errors:
+    - {symerror: 0.0015, label: 'stat'}
+    - {symerror: 0.0023, label: 'syst'}
+- header: {name: '$v_2\{BB\}$ in $2<p_T<2.5$ GeV/$c$'}
+  values:
+  - value: 0.198
+    errors:
+    - {symerror: 0.013, label: 'stat'}
+    - {symerror: 0.012, label: 'syst'}
+- header: {name: '$v_2\{BF\}$ in $2<p_T<2.5$ GeV/$c$'}
+  values:
+  - value: 0.466
+    errors:
+    - {symerror: 0.011, label: 'stat'}
+    - {symerror: 0.010, label: 'syst'}
