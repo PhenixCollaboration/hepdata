@@ -1,0 +1,62 @@
+independent_variables:
+- header: {name: '$dN_{ch}/d\eta$'}
+  values:
+  - {low: 3, high: 4}
+  - {low: 4.9, high: 6.5}
+  - {low: 6.6, high: 8.8}
+  - {low: 8.1, high: 10.7}
+  - {low: 8.9, high: 11.9}
+  - {low: 10.6, high: 14}
+dependent_variables:
+- header: {name: '$R$ in $0<p_T<1$ GeV/$c$'}
+  values:
+  - value: 1.32
+    errors:
+    - {symerror: 0.09, label: 'stat'}
+    - {symerror: 0.23, label: 'syst'}
+  - value: 1.46
+    errors:
+    - {symerror: 0.09, label: 'stat'}
+    - {symerror: 0.18, label: 'syst'}
+  - value: 1.61
+    errors:
+    - {symerror: 0.09, label: 'stat'}
+    - {symerror: 0.30, label: 'syst'}
+  - value: 1.88
+    errors:
+    - {symerror: 0.16, label: 'stat'}
+    - {symerror: 0.4, label: 'syst'}
+  - value: 1.46
+    errors:
+    - {symerror: 0.11, label: 'stat'}
+    - {symerror: 0.16, label: 'syst'}
+  - value: 1.524
+    errors:
+    - {symerror: 0.022, label: 'stat'}
+    - {symerror: 0.08, label: 'syst'}
+- header: {name: '$R$ in $2<p_T<2.5$ GeV/$c$'}
+  values:
+  - value: 2.5
+    errors:
+    - {symerror: 0.9, label: 'stat'}
+    - {symerror: 0.4, label: 'syst'}
+  - value: 2.04
+    errors:
+    - {symerror: 0.27, label: 'stat'}
+    - {symerror: 0.25, label: 'syst'}
+  - value: 1.81
+    errors:
+    - {symerror: 0.19, label: 'stat'}
+    - {symerror: 0.34, label: 'syst'}
+  - value: 2.9
+    errors:
+    - {symerror: 0.8, label: 'stat'}
+    - {symerror: 0.6, label: 'syst'}
+  - value: 2.42
+    errors:
+    - {symerror: 0.7, label: 'stat'}
+    - {symerror: 0.26, label: 'syst'}
+  - value: 1.71
+    errors:
+    - {symerror: 0.05, label: 'stat'}
+    - {symerror: 0.08, label: 'syst'}
