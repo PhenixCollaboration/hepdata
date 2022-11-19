@@ -1,0 +1,78 @@
+#PHENIX paper PPG007
+#
+#"Net Charge Fluctuations in Au+Au Interactions at sqrt(s_NN) = 130 GeV."
+#
+#Phys. Rev. Lett. 89, 082301 (2002)
+#InspireHEP ID: 584417
+#preprint nucl-ex/0203014
+#
+#Prepared by Micah Hillman
+#Please contact Christine Nattrass if you have any questions about this submission
+#PPG liaison:
+#Reviewer:
+#
+## TODO:
+## Centrality binning for fig. 2a needs to be fixed
+## Add back in missing data points from fig 1
+## Remember to ask about centrality binning  and extra data points in Fig. 1b, uncertainty in Fig. 1a with weird point
+---
+additional_resources: # additional references (e.g. experiment TWiki page for analysis)
+  - {location: "https://phenix-intra.sdcc.bnl.gov/WWW/info/data/ppg007_data.html", description: "web page with data points"}
+  - {location: "https://arxiv.org/abs/nucl-ex/0203014", description: arXiv}
+  - {location: "https://inspirehep.net/literature/584417", description: InspireHEP}
+
+comment: | # preserve newlines
+  Data from Au $+$ Au interactions at $\sqrt{s_{NN}} = 130\ GeV$, obtained with the PHENIX detector at RHIC, are used to investigate local net charge fluctuations among particles produced near mid-rapidity. According to recent suggestions, such fluctuations may carry information from the Quark Gluon Plasma. This analysis shows that the fluctuations are dominated by a stochastic distribution of particles, but are also sensitive to other effects, like global charge conservation and resonance decays.
+
+---
+name: "Figure 1a Part 1"
+location: Data from Fig. 1a of PRL 89 (082301) 2002.
+description: The normalized variance $v(Q)$as a function of $n_{ch}$.
+keywords:
+  - {name: reactions, values: [placeholder]}
+data_file: fig1a.yaml
+additional_resources:
+- {description: PNG Image file, location: fig1.png}
+- {description: Thumbnail Image file, location: thumb_fig1.png}
+---
+name: "Figure 1a Part 2"
+location: Data from Fig. 1a of PRL 89 (082301) 2002.
+description: The normalized variance  $v(R)$ as a function of $n_{ch}$.
+keywords:
+  - {name: reactions, values: [placeholder]}
+data_file: fig1ap2.yaml
+additional_resources:
+- {description: PNG Image file, location: fig1.png}
+- {description: Thumbnail Image file, location: thumb_fig1.png}
+---
+name: "Figure 1b"
+location: Data from Fig. 1a of PRL 89 (082301) 2002.
+description: The normalized variance $v(Q)$ for different centrality classes.
+keywords:
+  - {name: reactions, values: [placeholder]}
+data_file: fig1b.yaml
+additional_resources:
+- {description: PNG Image file, location: fig1.png}
+- {description: Thumbnail Image file, location: thumb_fig1.png}
+---
+name: "Figure 2a"
+location: Data from Fig. 2a of PRL 89 (082301) 2002.
+description: $v(Q)$, for central events, as a function of the azimuthal coverage of the detector for data. (Angles in degrees.)
+keywords:
+  - {name: reactions, values: [placeholder tag]}
+  - {name: observables, values: [placeholder tag]}
+data_file: fig2.yaml
+additional_resources:
+- {description: PNG Image file, location: fig2.png}
+- {description: Thumbnail Image file, location: thumb_fig2.png}
+---
+name: "Figure 2b"
+location: Data from Fig. 2b of PRL 89 (082301) 2002.
+description: The effect on $v(Q)$ of varying the acceptance in $\varphi_r$. The solid curve shows the expectation from global charge conservation. The 10% most central events are used for data and RQMD. (Angles in degrees.)
+keywords:
+  - {name: reactions, values: [placeholder tag]}
+  - {name: observables, values: [placeholder tag]}
+data_file: fig3.yaml
+additional_resources:
+- {description: PNG Image file, location: fig2.png}
+- {description: Thumbnail Image file, location: thumb_fig2.png}

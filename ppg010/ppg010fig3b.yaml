@@ -1,0 +1,34 @@
+independent_variables:
+- header: {name: '$k_T$ (GeV/$c$)'}
+  values:
+  - {low: 200, high: 300}
+  - {low: 400, high: 550}
+  - {low: 550, high: 1000}
+dependent_variables:
+- header: {name: 'Mean $k_T$'}
+  values:
+  - value: 333
+  - value: 472
+  - value: 633
+- header: {name: '$R_(side)$ (fm)'}
+  values:
+  - value: 4.67
+    errors:
+    - {symerror: 0.38, label: 'stat'}
+  - value: 4.13
+    errors:
+    - {symerror: 0.45, label: 'stat'}
+  - value: 3.22
+    errors:
+    - {symerror: 0.35, label: 'stat'}
+- header: {name: '$R_{out}$/$R_{side}$'}
+  values:
+  - value: 1.004
+    errors:
+    - {symerror: 1.53, label: 'stat'}
+  - value: 0.906
+    errors:
+    - {symerror: 0.89, label: 'stat'}
+  - value: 0.873
+    errors:
+    - {symerror: 0.97, label: 'stat'}
