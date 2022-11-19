@@ -23,7 +23,7 @@ additional_resources:
 # This is Figure 2a
 name: "Figure 2a"
 location: Data From Fig. 2 of PRL 88 (192302) 2002
-description: 'HBT radii for pion pairs as a function of $k_T$ measured at mid-rapidity for various energies for Au+Au collisions at $\sqrt{s_{NN}}$ = 130 GeV).'
+description: 'HBT radii for pion pairs as a function of $k_T$ measured at mid-rapidity for various energies for Au+Au collisions at $\sqrt{s_{NN}}$ = 130 GeV. Values used are from the Longitudinal Co-Moving System (LCMS) frame.'
 keywords: # used for searching, possibly mutliple values for each keywords
 - {name: reactions, values: [Au Au --> 2$pi^-$ + X]}
 - {name: cmenergies, values: [130.0]}
@@ -37,7 +37,7 @@ additional_resources:
 # This is Figure 2b
 name: "Figure 2b"
 location: Data From Fig. 2 of PRL 88 (192302) 2002
-description: 'HBT radii for pion pairs as a function of $k_T$ measured at mid-rapidity for various energies from E895 ($\sqrt{s_{NN}}$ = 4.1~GeV), E866 ($\sqrt{s_{NN}}$ = 4.9 GeV), NA44, WA98 ($\sqrt{s_{NN}}$ = 17.3 GeV), STAR, and PHENIX ($\sqrt{s_{NN}}$ = 130 GeV). The bottom plot includes fits to $A/\sqrt{m_T}$ for each energy region. The data are for $\pi^-$ results except for the NA44 results, which are for $\pi^+$.$R_{side}$ in PCMS.'
+description: 'HBT radii for pion pairs as a function of $k_T$ measured at mid-rapidity for various energies for Au+Au collisions at $\sqrt{s_{NN}}$ = 130 GeV. Values used are from the Pair Center-of-Mass System (PCMS) frame.'
 keywords: # used for searching, possibly mutliple values for each keywords
 - {name: reactions, values: [Au Au --> 2$pi^-$ + X]}
 - {name: cmenergies, values: [130.0]}
@@ -48,66 +48,10 @@ additional_resources:
 - {description: PNG Image file, location: rvsroots.png}
 - {description: Thumbnail Image file, location: thumb_rvsroots.png}
 ---
-# This is Figure 2c
-name: "Figure 2c"
-location: Data From Fig. 2 of PRL 88 (192302) 2002
-description: 'HBT radii for pion pairs as a function of $k_T$ measured at mid-rapidity for various energies from E895 ($\sqrt{s_{NN}}$ = 4.1~GeV), E866 ($\sqrt{s_{NN}}$ = 4.9 GeV), NA44, WA98 ($\sqrt{s_{NN}}$ = 17.3 GeV), STAR, and PHENIX ($\sqrt{s_{NN}}$ = 130 GeV). The bottom plot includes fits to $A/\sqrt{m_T}$ for each energy region. The data are for $\pi^-$ results except for the NA44 results, which are for $\pi^+$. $R_{out}$ in LCMS.'
-keywords: # used for searching, possibly mutliple values for each keywords
-- {name: reactions, values: [Au Au --> 2$pi^-$ + X]}
-- {name: cmenergies, values: [130.0]}
-- {name: phrases, values: [ppg010, transverse momentum, mid-rapidity]}
-data_file: ppg010fig2c.yaml
-additional_resources:
-- {description: Original EPS Image file, location: rvsroots.eps}
-- {description: PNG Image file, location: rvsroots.png}
-- {description: Thumbnail Image file, location: thumb_rvsroots.png}
----
-# This is Figure 2d
-name: "Figure 2d"
-location: Data From Fig. 2 of PRL 88 (192302) 2002
-description: 'HBT radii for pion pairs as a function of $k_T$ measured at mid-rapidity for various energies from E895 ($\sqrt{s_{NN}}$ = 4.1~GeV), E866 ($\sqrt{s_{NN}}$ = 4.9 GeV), NA44, WA98 ($\sqrt{s_{NN}}$ = 17.3 GeV), STAR, and PHENIX ($\sqrt{s_{NN}}$ = 130 GeV). The bottom plot includes fits to $A/\sqrt{m_T}$ for each energy region. The data are for $\pi^-$ results except for the NA44 results, which are for $\pi^+$. $R_{out}$ in PCMS.'
-keywords: # used for searching, possibly mutliple values for each keywords
-- {name: reactions, values: [Au Au --> 2$pi^-$ + X]}
-- {name: cmenergies, values: [130.0]}
-- {name: phrases, values: [ppg010, transverse momentum, mid-rapidity]}
-data_file: ppg010fig2d.yaml
-additional_resources:
-- {description: Original EPS Image file, location: rvsroots.eps}
-- {description: PNG Image file, location: rvsroots.png}
-- {description: Thumbnail Image file, location: thumb_rvsroots.png}
----
-# This is Figure 2e
-name: "Figure 2e"
-location: Data From Fig. 2 of PRL 88 (192302) 2002
-description: 'HBT radii for pion pairs as a function of $k_T$ measured at mid-rapidity for various energies from E895 ($\sqrt{s_{NN}}$ = 4.1~GeV), E866 ($\sqrt{s_{NN}}$ = 4.9 GeV), NA44, WA98 ($\sqrt{s_{NN}}$ = 17.3 GeV), STAR, and PHENIX ($\sqrt{s_{NN}}$ = 130 GeV). The bottom plot includes fits to $A/\sqrt{m_T}$ for each energy region. The data are for $\pi^-$ results except for the NA44 results, which are for $\pi^+$. $R_{long}$ in LCMS.'
-keywords: # used for searching, possibly mutliple values for each keywords
-- {name: reactions, values: [Au Au --> 2$pi^-$ + X]}
-- {name: cmenergies, values: [130.0]}
-- {name: phrases, values: [ppg010, transverse momentum, mid-rapidity]}
-data_file: ppg010fig2e.yaml
-additional_resources:
-- {description: Original EPS Image file, location: rvsroots.eps}
-- {description: PNG Image file, location: rvsroots.png}
-- {description: Thumbnail Image file, location: thumb_rvsroots.png}
----
-# This is Figure 2f
-name: "Figure 2f"
-location: Data From Fig. 2 of PRL 88 (192302) 2002
-description: 'HBT radii for pion pairs as a function of $k_T$ measured at mid-rapidity for various energies from E895 ($\sqrt{s_{NN}}$ = 4.1~GeV), E866 ($\sqrt{s_{NN}}$ = 4.9 GeV), NA44, WA98 ($\sqrt{s_{NN}}$ = 17.3 GeV), STAR, and PHENIX ($\sqrt{s_{NN}}$ = 130 GeV). The bottom plot includes fits to $A/\sqrt{m_T}$ for each energy region. The data are for $\pi^-$ results except for the NA44 results, which are for $\pi^+$. $R_{long}$ in PCMS.'
-keywords: # used for searching, possibly mutliple values for each keywords
-- {name: reactions, values: [Au Au --> 2$pi^-$ + X]}
-- {name: cmenergies, values: [130.0]}
-- {name: phrases, values: [ppg010, transverse momentum, mid-rapidity]}
-data_file: ppg010fig2f.yaml
-additional_resources:
-- {description: Original EPS Image file, location: rvsroots.eps}
-- {description: PNG Image file, location: rvsroots.png}
-- {description: Thumbnail Image file, location: thumb_rvsroots.png}
----
 # This is Figure 3a.
 name: "Figure 3a"
 location: Data From Fig. 3 of PRL 89 (212301) 2002
-description: 'The top panel shows the measured $R_s$ from identical pions for STAR and PHENIX. The line solid line is a fit of Eq.~\ref{eq:rswied} to the PHENIX data, and the dashed line is the same fit for Eq.~\ref{eq:rschap}. The dot-dashed line is a fit of Eq.~\ref{eq:rswied} to the STAR data. The bottom panel shows the ratio $R_{out}/R_{side}$ as a function of $k_T$ overlayed with theoretical predictions for a phase transition for two critical temperatures. LCMS frame for $\pi^+$'
+description: 'The top panel shows the measured $R_{side}$ from identical pions for STAR and PHENIX. The bottom panel shows the ratio $R_{out}/R_{side}$ as a function of $k_T$. Longitudinal Co-Moving System (LCMS) frame for $\pi^+$'
 keywords: # used for searching, possibly mutliple values for each keywords
 - {name: reactions, values: [Au Au --> 2$pi^+$ + X]}
 - {name: cmenergies, values: [130.0]}
@@ -121,7 +65,7 @@ additional_resources:
 # This is Figure 3b.
 name: "Figure 3b"
 location: Data From Fig. 3 of PRL 89 (212301) 2002
-description: 'The top panel shows the measured $R_s$ from identical pions for STAR and PHENIX. The line solid line is a fit of Eq.~\ref{eq:rswied} to the PHENIX data, and the dashed line is the same fit for Eq.~\ref{eq:rschap}. The dot-dashed line is a fit of Eq.~\ref{eq:rswied} to the STAR data. The bottom panel shows the ratio $R_{out}/R_{side}$ as a function of $k_T$ overlayed with theoretical predictions for a phase transition for two critical temperatures. LCMS frame for $\pi^-$'
+description: 'The top panel shows the measured $R_{side}$ from identical pions for STAR and PHENIX. The bottom panel shows the ratio $R_{out}/R_{side}$ as a function of $k_T$. Longitudinal Co-Moving System (LCMS) frame for $\pi^-$'
 keywords: # used for searching, possibly mutliple values for each keywords
 - {name: reactions, values: [Au Au --> 2$pi^-$ + X]}
 - {name: cmenergies, values: [130.0]}
@@ -135,7 +79,7 @@ additional_resources:
 # This is Figure 3c.
 name: "Figure 3c"
 location: Data From Fig. 3 of PRL 89 (212301) 2002
-description: 'The top panel shows the measured $R_s$ from identical pions for STAR and PHENIX. The line solid line is a fit of Eq.~\ref{eq:rswied} to the PHENIX data, and the dashed line is the same fit for Eq.~\ref{eq:rschap}. The dot-dashed line is a fit of Eq.~\ref{eq:rswied} to the STAR data. The bottom panel shows the ratio $R_{out}/R_{side}$ as a function of $k_T$ overlayed with theoretical predictions for a phase transition for two critical temperatures. PCMS frame for $\pi^+$'
+description: 'The top panel shows the measured $R_{side}$ from identical pions for STAR and PHENIX. The bottom panel shows the ratio $R_{out}/R_{side}$ as a function of $k_T$. Pair Center-of-Mass System (PCMS) frame for $\pi^+$'
 keywords: # used for searching, possibly mutliple values for each keywords
 - {name: reactions, values: [Au Au --> 2$pi^+$ + X]}
 - {name: cmenergies, values: [130.0]}
@@ -149,7 +93,7 @@ additional_resources:
 # This is Figure 3d.
 name: "Figure 3d"
 location: Data From Fig. 3 of PRL 89 (212301) 2002
-description: 'The top panel shows the measured $R_s$ from identical pions for STAR and PHENIX. The line solid line is a fit of Eq.~\ref{eq:rswied} to the PHENIX data, and the dashed line is the same fit for Eq.~\ref{eq:rschap}. The dot-dashed line is a fit of Eq.~\ref{eq:rswied} to the STAR data. The bottom panel shows the ratio $R_{out}/R_{side}$ as a function of $k_T$ overlayed with theoretical predictions for a phase transition for two critical temperatures. PCMS frame for $\pi^-$'
+description: 'The top panel shows the measured $R_{side}$ from identical pions for STAR and PHENIX. The bottom panel shows the ratio $R_{out}/R_{side}$ as a function of $k_T$. Pair Center-of-Mass System (PCMS) frame for $\pi^-$'
 keywords: # used for searching, possibly mutliple values for each keywords
 - {name: reactions, values: [Au Au --> 2$pi^-$ + X]}
 - {name: cmenergies, values: [130.0]}

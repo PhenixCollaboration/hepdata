@@ -10,14 +10,47 @@ dependent_variables:
   - value: 333
   - value: 472
   - value: 633
+- header: {name: '$\lambda$'}
+  values:
+  - value: 0.442
+    errors:
+    - {symerror: 0.035, label: 'Statistical Err.'}
+  - value: 0.386
+    errors:
+    - {symerror: 0.048, label: 'Statistical Err.'}
+  - value: 0.328
+    errors:
+    - {symerror: 0.056, label: 'Statistical Err.'}
 - header: {name: '$R_(side)$ (fm)'}
   values:
   - value: 4.61
     errors:
-    - {symerror: 0.27, label: 'stat'}
+    - {symerror: 0.27, label: 'Statistical Err.'}
   - value: 3.95
     errors:
-    - {symerror: 0.38, label: 'stat'}
+    - {symerror: 0.38, label: 'Statistical Err.'}
   - value: 3.10
     errors:
-    - {symerror: 0.42, label: 'stat'}
+    - {symerror: 0.42, label: 'Statistical Err.'}
+- header: {name: '$R_(out)$ (fm)'}
+  values:
+  - value: 11.27
+    errors:
+    - {symerror: 0.72, label: 'Statistical Err.'}
+  - value: 12.42
+    errors:
+    - {symerror: 1.18, label: 'Statistical Err.'}
+  - value: 11.89
+    errors:
+    - {symerror: 1.73, label: 'Statistical Err.'}
+- header: {name: '$R_(long)$ (fm)'}
+  values:
+  - value: 5.72
+    errors:
+    - {symerror: 0.38, label: 'Statistical Err.'}
+  - value: 4.81
+    errors:
+    - {symerror: 0.43, label: 'Statistical Err.'}
+  - value: 3.78
+    errors:
+    - {symerror: 0.49, label: 'Statistical Err.'}
