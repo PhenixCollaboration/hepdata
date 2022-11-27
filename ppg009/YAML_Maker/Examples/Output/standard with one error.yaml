@@ -1,0 +1,20 @@
+independent_variables:
+- header: {name: '$Deltaphi$'}
+  values:
+  - {value: 0.000}
+  - {value: 0.233}
+  - {value: 0.465}
+dependent_variables:
+- header: {name: '$1/Njet_dN/dDeltaphi$'}
+  qualifiers:
+  - {name: '$Deltaphi$', value: '$Jet-hadron correlations after background subtraction. Shown with Gaussian fits to jet peaks and systematic uncertantt bands. p+p(0.5-1)$'}
+  values:
+  - value: 0.667
+    errors:
+    - {symerror: 0.016, label: '$stat$'}
+  - value: 0.449
+    errors:
+    - {symerror: 0.014, label: '$stat$'}
+  - value: 0.221
+    errors:
+    - {symerror: 0.012, label: '$stat$'}

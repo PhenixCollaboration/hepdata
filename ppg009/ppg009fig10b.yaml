@@ -1,0 +1,75 @@
+independent_variables:
+- header: {name: '$p_T$ (GeV/$c$)'}
+  values:
+  - {low: 0.25, high: 0.35}
+  - {low: 0.35, high: 0.45}
+  - {low: 0.45, high: 0.55}
+  - {low: 0.55, high: 0.70}
+  - {low: 0.70, high: 0.90}
+  - {low: 0.90, high: 1.20}
+  - {low: 1.20, high: 1.40}
+  - {low: 1.40, high: 1.60}
+  - {low: 1.60, high: 2.00}
+dependent_variables:
+- header: {name: '$\pi^{+}$'}
+  qualifiers:
+  - {name: 'Centrality (%)', value: '60-92'}
+  values:
+  - value: 13.20
+    errors:
+    - {symerror: 0.50, label: 'stat.'}
+  - value: 5.30
+    errors:
+    - {symerror: 0.20, label: 'stat.'}
+  - value: 2.70
+    errors:
+    - {symerror: 0.10, label: 'stat.'}
+  - value: 1.32
+    errors:
+    - {symerror: 0.09, label: 'stat.'}
+  - value: 0.62
+    errors:
+    - {symerror: 0.04, label: 'stat.'}
+  - value: 0.19
+    errors:
+    - {symerror: 0.02, label: 'stat.'}
+  - value: 0.064
+    errors:
+    - {symerror: 0.006, label: 'stat.'}
+  - value: 0.015
+    errors:
+    - {symerror: 0.003, label: 'stat.'}
+  - value: 0.005
+    errors:
+    - {symerror: 0.001, label: 'stat.'}
+- header: {name: '$\pi^{-}$'}
+  qualifiers:
+  - {name: 'Centrality (%)', value: '60-92'}
+  values:
+  - value: 12.10
+    errors:
+    - {symerror: 0.50, label: 'stat.'}
+  - value: 5.00
+    errors:
+    - {symerror: 0.20, label: 'stat.'}
+  - value: 2.10
+    errors:
+    - {symerror: 0.10, label: 'stat.'}
+  - value: 1.18
+    errors:
+    - {symerror: 0.09, label: 'stat.'}
+  - value: 0.57
+    errors:
+    - {symerror: 0.04, label: 'stat.'}
+  - value: 0.24
+    errors:
+    - {symerror: 0.02, label: 'stat.'}
+  - value: 0.061
+    errors:
+    - {symerror: 0.007, label: 'stat.'}
+  - value: 0.014
+    errors:
+    - {symerror: 0.003, label: 'stat.'}
+  - value: 10000
+    errors:
+    - {symerror: 10000, label: 'stat.'}

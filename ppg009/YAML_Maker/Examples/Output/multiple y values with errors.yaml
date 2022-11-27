@@ -1,0 +1,33 @@
+independent_variables:
+- header: {name: '$\Delta\phi$'}
+  values:
+  - {value: 0.087266}
+  - {value: 0.261799}
+  - {value: 0.436332}
+dependent_variables:
+- header: {name: '$C(\Delta\phi)$'}
+  qualifiers:
+  - {name: '$\Delta\phi$', value: 'Correlation function: cent 0-20\%, $\phi_{s} = 0-15^{\circ}$, $p^{a}_{T} = 3-4$ GeV/$c$'}
+  values:
+  - value: 1.794795
+    errors:
+    - {symerror: 0.040905, label: 'stat'}
+  - value: 1.118588
+    errors:
+    - {symerror: 0.033984, label: 'stat'}
+  - value: 0.927128
+    errors:
+    - {symerror: 0.031951, label: 'stat'}
+- header: {name: '$C(\Delta\phi)$'}
+  qualifiers:
+  - {name: '$\Delta\phi$', value: 'Correlation function: cent 0-20\%, $\phi_{s} = 15-30^{\circ}$, $p^{a}_{T} = 3-4$ GeV/$c$'}
+  values:
+  - value: 1.772208
+    errors:
+    - {symerror: 0.041941, label: 'stat'}
+  - value: 1.147411
+    errors:
+    - {symerror: 0.035961, label: 'stat'}
+  - value: 0.955028
+    errors:
+    - {symerror: 0.033653, label: 'stat'}

@@ -1,0 +1,50 @@
+independent_variables:
+- header: {name: '$p_T$ (Ge/$c$)'}
+  values:
+  - {low: 0.45, high: 0.55}
+  - {low: 0.55, high: 0.70}
+  - {low: 0.70, high: 0.90}
+  - {low: 0.90, high: 1.20}
+  - {low: 1.20, high: 1.60}
+  - {low: 1.60, high: 2.00}
+dependent_variables:
+- header: {name: '$K^{+}$'}
+  values:
+  - value: 6.100
+    errors:
+    - {symerror: 0.400, label: 'stat.'}
+  - value: 4.000
+    errors:
+    - {symerror: 0.300, label: 'stat.'}
+  - value: 2.180
+    errors:
+    - {symerror: 0.090, label: 'stat.'}
+  - value: 1.070
+    errors:
+    - {symerror: 0.050, label: 'stat.'}
+  - value: 0.380
+    errors:
+    - {symerror: 0.020, label: 'stat.'}
+  - value: 0.104
+    errors:
+    - {symerror: 0.006, label: 'stat.'}
+- header: {name: '$K^{-}$'}
+  values:
+  - value: 4.600
+    errors:
+    - {symerror: 0.400, label: 'stat.'}
+  - value: 3.200
+    errors:
+    - {symerror: 0.200, label: 'stat.'}
+  - value: 1.900
+    errors:
+    - {symerror: 0.100, label: 'stat.'}
+  - value: 0.910
+    errors:
+    - {symerror: 0.050, label: 'stat.'}
+  - value: 0.320
+    errors:
+    - {symerror: 0.020, label: 'stat.'}
+  - value: 0.093
+    errors:
+    - {symerror: 0.006, label: 'stat.'}
