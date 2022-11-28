@@ -136,6 +136,7 @@ independent_variables:
   - {low: 134, high: 135}
   - {low: 135, high: 136}
   - {low: 136, high: 137}
+  - {low: 137, high: 138}   # added
   - {low: 138, high: 139}
 dependent_variables:
 - header: {name: '$v(r)$'}
@@ -545,6 +546,9 @@ dependent_variables:
   - value: 3.4
     errors:
     - {symerror: 1.6, label: 'stat'}
+  - value: 10.03                        # added
+    errors:                             # added
+    - {symerror: 0.07, label: 'stat'}   # added
   - value: 6
     errors:
     - {symerror: 4, label: 'stat'}
