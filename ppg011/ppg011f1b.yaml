@@ -1,0 +1,64 @@
+independent_variables:
+- header: {name: '$p_T$ (GeV/$c$)'}
+  values:
+  - {low: 0.35, high: 0.45}
+  - {low: 0.45, high: 0.55}
+  - {low: 0.55, high: 0.65}
+  - {low: 0.65, high: 0.75}
+  - {low: 0.75, high: 0.85}
+  - {low: 0.85, high: 0.95}
+  - {low: 0.95, high: 1.05}
+  - {low: 1.05, high: 1.15}
+  - {low: 1.15, high: 1.3}
+  - {low: 1.3, high: 1.5}
+  - {low: 1.5, high: 1.7}
+  - {low: 1.7, high: 1.9}
+  - {low: 1.9, high: 2.222}
+  - {low: 2.22, high: 2.722}
+dependent_variables:
+- header: {name: '$\frac{1}{2\pi p_T} \frac{d^2N}{dp_T d\eta}$'}
+  qualifiers:
+  - {name: 'Centrality', value: '$0-92\%'}
+  values:
+  - value: 0.219
+    errors:
+    - {symerror: 0.004, label: 'Stat'}
+  - value: 0.1049
+    errors:
+    - {symerror: 0.0024, label: 'Stat'}
+  - value: 0.0569
+    errors:
+    - {symerror: 0.0016, label: 'Stat'}
+  - value: 0.0286
+    errors:
+    - {symerror: 0.0010, label: 'Stat'}
+  - value: 0.0158
+    errors:
+    - {symerror: 7e-4, label: 'Stat'}
+  - value: 0.0090
+    errors:
+    - {symerror: 5e-4, label: 'Stat'}
+  - value: 0.00523
+    errors:
+    - {symerror: 3.4e-4, label: 'Stat'}
+  - value: 0.00419
+    errors:
+    - {symerror: 2.8e-4, label: 'Stat'}
+  - value: 0.00185
+    errors:
+    - {symerror: 1.3e-4, label: 'Stat'}
+  - value: 6.4e-4
+    errors:
+    - {symerror: 7e-5, label: 'Stat'}
+  - value: 3.8e-4
+    errors:
+    - {symerror: 5e-5, label: 'Stat'}
+  - value: 1.45e-4
+    errors:
+    - {symerror: 2.8e-5, label: 'Stat'}
+  - value: 5.0e-5
+    errors:
+    - {symerror: 1.0e-5, label: 'Stat'}
+  - value: 1.6e-5
+    errors:
+    - {symerror: 5e-6, label: 'Stat'}

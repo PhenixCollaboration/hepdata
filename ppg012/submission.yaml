@@ -1,0 +1,95 @@
+#PHENIX paper PPG012
+#
+#Measurement of the Lambda and anti-Lambda particles in Au+Au collisions at $\sqrt{s_{NN}}$ = 130 GeV.
+#
+#Phys.Rev.Lett. 89, 092302 (2002)
+#InspireHEP ID: 585561
+#ArXiv: [nucl-ex] 0204007
+#
+#Prepared by Joesph Beller
+#Please contact Christine Nattrass if you have any questions about this submission
+#PPG liaison:
+#Reviewer:
+---
+additional_resources:
+- location: "https://arxiv.org/abs/nucl-ex/0204007"
+  description: "arXiv article"
+- location: "thumb_figure_1.png"
+  description: "Image File"
+- location: "thumb_figure_2.png"
+  description: "Image File"
+- location: "thumb_figure_3.png"
+  description: "Image File"
+- location: "thumb_figure_4.png"
+  description: "Image File"
+  
+comment: | # Information that applies to all data tables.
+  Measurement of the $\Lambda$ and $\bar{\Lambda}$ particles in Au+Au collisions at $\sqrt{s_{NN}}$ = 130 GeV.
+  We present results on the measurement of $\Lambda$ and $\bar{\Lambda}$ production in Au+Au collisions at $\sqrt{s_{NN}}$ = 130 GeV with the PHENIX detector at RHIC. The transverse momentum spectra were measured for minimum bias and for the $5\%$ most central events. The $\bar{\Lambda}$/$\Lambda$ ratios are constant as a function of $p_T$ and the number of participants. The measured net lambda density is significantly larger than predicted by models based on hadronic strings (e.g. HIJING) but in approximate agreement with models which include the gluon junction mechanism.
+
+---
+# This is Figure 1a.
+name: "Figure 2"
+location: Data from Fig. 2 of PRL 89, 092302 (2002)
+description: Transverse momemntum spectra of $\Lambda$ and $\bar{\Lambda}$ for minimum-bias and for the $5\%$ most central events. For clarity of presentation, the data points for minimum-bias are scaled down by a factor of ten.
+keywords: # used for searching, possibly multiple values for each keyword
+- {name: reactions, values: [AU + AU --> CHARGED X0]}
+- {name: cmenergies, values: [130.0]} # centre-of-mass energy in GeV
+- {name: phrases, values: [ppg012]}
+data_file: ppg012f2.yaml
+additional_resources:
+- location: "thumb_figure_2.png"
+  description: "Image File"
+---
+# This is Figure 3a.
+name: "Figure 3a"
+location: Data from Fig. 3 of PRL 89, 092302 (2002)
+description: The ratio of $\bar{\Lambda}$/$\Lambda$ as a function of $p_T$.
+keywords: # used for searching, possibly multiple values for each keyword
+- {name: reactions, values: [AU + AU --> CHARGED X0]}
+- {name: cmenergies, values: [130.0]} # centre-of-mass energy in GeV
+- {name: phrases, values: [ppg012]}
+data_file: ppg012f3a.yaml
+additional_resources:
+- location: "thumb_figure_3.png"
+  description: "Image File"
+---
+# This is Figure 3b.
+name: "Figure 3b"
+location: Data from Fig. 3 of PRL 89, 092302 (2002)
+description: The ratio of $\bar{\Lambda}$/$\Lambda$ as a function of the number of participants.
+keywords: # used for searching, possibly multiple values for each keyword
+- {name: reactions, values: [AU + AU --> CHARGED X0]}
+- {name: cmenergies, values: [130.0]} # centre-of-mass energy in GeV
+- {name: phrases, values: [ppg012]}
+data_file: ppg012f3b.yaml
+additional_resources:
+- location: "thumb_figure_3.png"
+  description: "Image File"
+---
+# This is Figure 4.
+name: "Figure 4a"
+location: Data from Fig. 4 of PRL 89, 092302 (2002)
+description: Spectra of inclusive $\Lambda$ ($\bar{\Lambda}$) for minimum-bias events. The data points for $\bar{\Lambda}$ are scaled down by a factor of two.
+keywords: # used for searching, possibly multiple values for each keyword
+- {name: reactions, values: [AU + AU --> CHARGED X0]}
+- {name: cmenergies, values: [130.0]} # centre-of-mass energy in GeV
+- {name: phrases, values: [ppg012]}
+data_file: ppg012f4a.yaml
+additional_resources:
+- location: "thumb_figure_4.png"
+  description: "Image File"
+---
+# This is Figure 4.
+name: "Figure 4b"
+location: Data from Fig. 4 of PRL 89, 092302 (2002)
+description: Spectra of inclusive feed-down corrected protons (antiprotons) for minimum-bias events. The data points for antiprotons are scaled down by a factor of two.
+keywords: # used for searching, possibly multiple values for each keyword
+- {name: reactions, values: [AU + AU --> CHARGED X0]}
+- {name: cmenergies, values: [130.0]} # centre-of-mass energy in GeV
+- {name: phrases, values: [ppg012]}
+data_file: ppg012f4b.yaml
+additional_resources:
+- location: "thumb_figure_4.png"
+  description: "Image File"
+

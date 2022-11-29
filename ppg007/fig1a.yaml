@@ -1,6 +1,8 @@
 independent_variables:
 - header: {name: '$n_{ch}$'}
   values:
+  - {low: 0, high: 1}
+  - {low: 1, high: 2}
   - {low: 2, high: 3}
   - {low: 3, high: 4}
   - {low: 4, high: 5}
@@ -136,10 +138,17 @@ independent_variables:
   - {low: 134, high: 135}
   - {low: 135, high: 136}
   - {low: 136, high: 137}
+  - {low: 137, high: 138}   # added
   - {low: 138, high: 139}
 dependent_variables:
 - header: {name: '$4\ v(Q)$'}
   values:
+  - value: 3.968                        # added
+    errors:                             # added
+    - {symerror: 0.004, label: 'stat'}  # added
+  - value: 3.96                         # added
+    errors:                             # added
+    - {symerror: 0.03, label: 'stat'}   # added
   - value: 3.799
     errors:
     - {symerror: 0.032, label: 'stat'}
@@ -545,6 +554,9 @@ dependent_variables:
   - value: 3.0
     errors:
     - {symerror: 1.3, label: 'stat'}
+  - value: 8.4                            # added
+    errors:                               # added
+    - {symerror: 100000, label: 'stat'}   # added
   - value: 5.6
     errors:
     - {symerror: 3.2, label: 'stat'}
