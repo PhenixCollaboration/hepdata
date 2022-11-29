@@ -130,14 +130,24 @@ keywords: # used for searching, possibly mutliple values for each keywords
 data_file: ppg009fig9c.yaml
 ---
 # This is Figure 10a.
-name: "Figure 10a"
+name: "Figure 10a-1"
 location: Data From Table 10 of PRC 69 (024904) 2004
-description: 'Pion invariant yields in each event centrality and $p_T$ bin measured at midrapidity, normalized to one rapidity unit.'
+description: '$\pi^{+}$ invariant yields in each event centrality and $p_T$ bin measured at midrapidity, normalized to one rapidity unit.'
 keywords: # used for searching, possibly mutliple values for each keywords
 - {name: reactions, values: [Au Au --> CHARGED X]}
 - {name: cmenergies, values: [130.0]}
 - {name: phrases, values: [ppg009]}
 data_file: ppg009fig10a.yaml
+---
+# This is Figure 10a.
+name: "Figure 10a-2"
+location: Data From Table 10 of PRC 69 (024904) 2004
+description: '$\pi^{-}$ invariant yields in each event centrality and $p_T$ bin measured at midrapidity, normalized to one rapidity unit.'
+keywords: # used for searching, possibly mutliple values for each keywords
+- {name: reactions, values: [Au Au --> CHARGED X]}
+- {name: cmenergies, values: [130.0]}
+- {name: phrases, values: [ppg009]}
+data_file: ppg009fig10a2.yaml
 ---
 # This is Figure 10b.
 name: "Figure 10b"
