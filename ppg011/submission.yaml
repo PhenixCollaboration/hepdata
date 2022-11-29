@@ -38,8 +38,10 @@ keywords: # used for searching, possibly multiple values for each keyword
 - {name: phrases, values: [ppg011]}
 data_file: ppg011f1a.yaml
 additional_resources:
-- location: "thumb_fig1.png"
+- location: "fig1.png"
   description: "Image File"
+- location: "thumb_fig1.png"
+  description: "Thumbnail Image File"
 ---
 # This is Figure 1b.
 name: "Figure 1b"
@@ -51,8 +53,10 @@ keywords: # used for searching, possibly multiple values for each keyword
 - {name: phrases, values: [ppg011]}
 data_file: ppg011f1b.yaml
 additional_resources:
-- location: "thumb_fig1.png"
+- location: "fig1.png"
   description: "Image File"
+- location: "thumb_fig1.png"
+  description: "Thumbnail Image File"
 ---
 # This is Figure 1c.
 name: "Figure 1c"
@@ -64,8 +68,10 @@ keywords: # used for searching, possibly multiple values for each keyword
 - {name: phrases, values: [ppg011]}
 data_file: ppg011f1c.yaml
 additional_resources:
-- location: "thumb_fig1.png"
+- location: "fig1.png"
   description: "Image File"
+- location: "thumb_fig1.png"
+  description: "Thumbnail Image File"
 ---
 # This is Figure 2.
 name: "Figure 2"
@@ -77,57 +83,67 @@ keywords: # used for searching, possibly multiple values for each keyword
 - {name: phrases, values: [ppg011]}
 data_file: ppg011f2.yaml
 additional_resources:
-- location: "thumb_fig2.png"
+- location: "fig2.png"
   description: "Image File"
+- location: "thumb_fig2.png"
+  description: "Thumbnail Image File"
 ---
 # This is Figure 3a.
 name: "Figure 3a"
 location: Data from Fig. 3 of PRL 88, (192303) 2002
-description: The background-subtracted electron spectra for minimum bias (0-92%) collisions compared with the expected contributions from open charm decays. Also shown, for central collisions only, are the expected contribution from bottom decays (dashed) and the conversion electron spectrum from a direct phonon prediction (dotted).
+description: The background-subtracted electron spectra for minimum bias (0-92%) collisions.
 keywords: # used for searching, possibly multiple values for each keyword
 - {name: reactions, values: [AU + AU --> CHARGED X0]}
 - {name: cmenergies, values: [130.0]} # centre-of-mass energy in GeV
 - {name: phrases, values: [ppg011]}
 data_file: ppg011f3a.yaml
 additional_resources:
-- location: "thumb_fig3.png"
+- location: "fig3.png"
   description: "Image File"
+- location: "thumb_fig3.png"
+  description: "Thumbnail Image File"
 ---
 # This is Figure 3b.
 name: "Figure 3b"
 location: Data from Fig. 3 of PRL 88, (192303) 2002
-description: The background-subtracted electron spectra for central (0-10%) collisions compared with the expected contributions from open charm decays. Also shown, for central collisions only, are the expected contribution from bottom decays (dashed) and the conversion electron spectrum from a direct phonon prediction (dotted).
+description: The background-subtracted electron spectra for central (0-10%) collisions.
 keywords: # used for searching, possibly multiple values for each keyword
 - {name: reactions, values: [AU + AU --> CHARGED X0]}
 - {name: cmenergies, values: [130.0]} # centre-of-mass energy in GeV
 - {name: phrases, values: [ppg011]}
 data_file: ppg011f3b.yaml
 additional_resources:
-- location: "thumb_fig3.png"
+- location: "fig3.png"
   description: "Image File"
+- location: "thumb_fig3.png"
+  description: "Thumbnail Image File"
 ---
 # This is Figure 4.
 name: "Figure 4a"
 location: Data from Fig. 4 of PRL 88, (192303) 2002
-description: Single electron cross sections $\frac{d\sigma_e}{dy}|_{y=0}$ of this measurement and ISR experiments [9,11,31] are displayed (bottom of figure, right-hand scale) with charm decay contributions calculated with PYTHIA. Open and filled symbols for 1.0 < $p_T$ < 1.4 GeV/$c$ and $p_T$ > 1.4 GeV/$c$, respectively. The derived charm cross section of this measurement is compared with charm cross sections from SPS/FNAL experiments (top of figure, left-hand scale). The thick curve and the shaded band represent the charm cross section in the PYTHIA model and in a NLO pQCD calculation [30], respectively.
+description: Single electron cross sections $\frac{d\sigma_e}{dy}|_{y=0}$ from this measurement.
 keywords: # used for searching, possibly multiple values for each keyword
 - {name: reactions, values: [AU + AU --> CHARGED X0]}
 - {name: cmenergies, values: [130.0]} # centre-of-mass energy in GeV
 - {name: phrases, values: [ppg011]}
 data_file: ppg011f4a.yaml
 additional_resources:
-- location: "thumb_fig4.png"
+- location: "fig4.png"
   description: "Image File"
+- location: "thumb_fig4.png"
+  description: "Thumbnail Image File"
 ---
 # This is Figure 4.
 name: "Figure 4b"
 location: Data from Fig. 4 of PRL 88, (192303) 2002
-description: Single electron cross sections $\frac{d\sigma_e}{dy}|_{y=0}$ of this measurement and ISR experiments [9,11,31] are displayed (bottom of figure, right-hand scale) with charm decay contributions calculated with PYTHIA. Open and filled symbols for 1.0 < $p_T$ < 1.4 GeV/$c$ and $p_T$ > 1.4 GeV/$c$, respectively. The derived charm cross section of this measurement is compared with charm cross sections from SPS/FNAL experiments (top of figure, left-hand scale). The thick curve and the shaded band represent the charm cross section in the PYTHIA model and in a NLO pQCD calculation [30], respectively.
+description: The derived charm cross section from this measurement.
 keywords: # used for searching, possibly multiple values for each keyword
 - {name: reactions, values: [AU + AU --> CHARGED X0]}
 - {name: cmenergies, values: [130.0]} # centre-of-mass energy in GeV
 - {name: phrases, values: [ppg011]}
 data_file: ppg011f4b.yaml
 additional_resources:
-- location: "thumb_fig4.png"
+- location: "fig4.png"
   description: "Image File"
+- location: "thumb_fig4.png"
+  description: "Thumbnail Image File"
