@@ -1,30 +1,36 @@
 independent_variables:
-- header: {name: '$N_{participants}$'}
+- header: {name: '$p_T$ (GeV/$c$)'}
   values:
-  - {low: 29.5, high: 29.6}
-  - {low: 123.6, high: 123.7}
-  - {low: 193.4, high: 193.5}
-  - {low: 248.6, high: 248.7}
-  - {low: 292.7, high: 292.8}
-  - {low: 346.6, high: 346.7}
+  - {low: 29.5, high: 29.7}
+  - {low: 123.6, high: 123.8}
+  - {low: 193.4, high: 193.6}
+  - {low: 248.6, high: 248.8}
+  - {low: 292.7, high: 292.9}
+  - {low: 346.6, high: 346.8}
 dependent_variables:
-- header: {name: '$\bar{\Lambda}$/$\Lambda$'}
+- header: {name: '$N_{participants}$'}
   values:
   - value: 0.73
     errors:
     - {symerror: 0.18, label: 'Stat'}
+    - {symerror: 16%, label: 'Systematic'}
   - value: 0.74
     errors:
-    - {symerror: 0.10, label: 'Stat'}
+    - {symerror: 0.1, label: 'Stat'}
+    - {symerror: 16%, label: 'Systematic'}
   - value: 0.81
     errors:
     - {symerror: 0.08, label: 'Stat'}
+    - {symerror: 16%, label: 'Systematic'}
   - value: 0.78
     errors:
     - {symerror: 0.08, label: 'Stat'}
-  - value: 0.80
+    - {symerror: 16%, label: 'Systematic'}
+  - value: 0.8
     errors:
     - {symerror: 0.08, label: 'Stat'}
+    - {symerror: 16%, label: 'Systematic'}
   - value: 0.75
     errors:
     - {symerror: 0.06, label: 'Stat'}
+    - {symerror: 16%, label: 'Systematic'}
