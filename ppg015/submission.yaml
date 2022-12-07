@@ -1,4 +1,4 @@
-#PHENIX paper PPG012
+#PHENIX paper PPG015
 #
 #Scaling properties of proton and anti-proton production in $\sqrt{s_{NN}}$ = 200 GeV Au + Au collisions.
 #
@@ -14,28 +14,41 @@
 additional_resources:
 - location: "https://arxiv.org/abs/nucl-ex/0305036"
   description: "arXiv article"
-- location: "thumb_figure_1.png"
+- location: "thumb_Fig1.png"
   description: "Image File"
-- location: "thumb_figure_2.png"
+- location: "thumb_Fig2.png"
   description: "Image File"
-- location: "thumb_figure_3.png"
+- location: "thumb_Fig3.png"
   description: "Image File"
-- location: "thumb_figure_4.png"
+- location: "thumb_Fig4.png"
   description: "Image File"
   
 comment: | # Information that applies to all data tables.
   Scaling properties of proton and anti-proton production in $\sqrt{s_{NN}}$ = 200 GeV Au + Au collisions.
-  We report on the yield of protons and anti-protons, as a function of centrality and transverse momentum, in Au+Au collisions at $\sqrt{s_{NN}}$ = 200 GeV measured at mid-rapidity by the PHENIX experiment at RHIC. In central collisions at intermediate transverse momenta (1.5 < $p_T$ < 4.5 GeV/$c$) a significant fraction of all produced particles are protons and anti-protons. They show a centrality-scaling behavior different from that of pions. The $\bar{p}/$\pi$ and $p$/$\pi$ ratios are enhanced compared to peripheral Au+Au, $p$+$p$, and $e^+$$e^-$ collisions. This enhancement is limited to p_T < 5 GeV/c as deduced from the ratio of charged hadrons to pi^0 measured in the range 1.5 < p_T < 9 GeV/c.
+  We report on the yield of protons and anti-protons, as a function of centrality and transverse momentum, in Au+Au collisions at $\sqrt{s_{NN}}$ = 200 GeV measured at mid-rapidity by the PHENIX experiment at RHIC. In central collisions at intermediate transverse momenta (1.5 < $p_T$ < 4.5 GeV/$c$) a significant fraction of all produced particles are protons and anti-protons. They show a centrality-scaling behavior different from that of pions. The $\bar{p}$/$\pi$ and $p$/$\pi$ ratios are enhanced compared to peripheral Au+Au, $p$+$p$, and $e^+$$e^-$ collisions. This enhancement is limited to $p_T$ < 5 GeV/$c$ as deduced from the ratio of charged hadrons to $\pi^0$ measured in the range 1.5 < $p_T$ < 9 GeV/c.
 ---
 # This is Figure 1.
-name: "Figure 1"
-location: Data from Fig. 2 of PRL 89, 092302 (2002)
-description: N/A
+name: "Figure 1a"
+location: Data from Fig. 1 of PRL 91, 172301 (2003)
+description: $p$/$\pi^+$ and $p$/$\pi^-$ ratios for central (0-10%) mid-central (20-30%) and peripheral (60-92%) Au+Au collisions at $\sqrt{s_{NN}}$ = 200 GeV.
 keywords: # used for searching, possibly multiple values for each keyword
 - {name: reactions, values: [AU + AU --> CHARGED X0]}
-- {name: cmenergies, values: [130.0]} # centre-of-mass energy in GeV
-- {name: phrases, values: [ppg012]}
-data_file: ppg012f2.yaml
+- {name: cmenergies, values: [200.0]} # centre-of-mass energy in GeV
+- {name: phrases, values: [ppg015]}
+data_file: ppg015f1a.yaml
 additional_resources:
-- location: "thumb_figure_2.png"
+- location: "thumb_Fig1.png"
+  description: "Image File"
+---
+# This is Figure 1.
+name: "Figure 1b"
+location: Data from Fig. 1 of PRL 91, 172301 (2003)
+description: $p$/$\pi^-$ and $p$/$\pi^0$ ratios for central (0-10%) mid-central (20-30%) and peripheral (60-92%) Au+Au collisions at $\sqrt{s_{NN}}$ = 200 GeV.
+keywords: # used for searching, possibly multiple values for each keyword
+- {name: reactions, values: [AU + AU --> CHARGED X0]}
+- {name: cmenergies, values: [200.0]} # centre-of-mass energy in GeV
+- {name: phrases, values: [ppg015]}
+data_file: ppg015f1b.yaml
+additional_resources:
+- location: "thumb_Fig1.png"
   description: "Image File"
