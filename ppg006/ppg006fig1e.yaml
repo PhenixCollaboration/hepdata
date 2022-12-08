@@ -1,0 +1,129 @@
+independent_variables:
+- header: {name: '$p_T$ (GeV/$c$)'}
+  values:
+  - {low: 0.45, high: 0.55}
+  - {low: 0.55, high: 0.65}
+  - {low: 0.65, high: 0.75}
+  - {low: 0.75, high: 0.85}
+  - {low: 0.85, high: 0.95}
+  - {low: 0.95, high: 1.05}
+  - {low: 1.05, high: 1.15}
+  - {low: 1.15, high: 1.25}
+  - {low: 1.25, high: 1.35}
+  - {low: 1.35, high: 1.45}
+  - {low: 1.45, high: 1.55}
+  - {low: 1.55, high: 1.65}
+  - {low: 1.65, high: 1.75}
+dependent_variables:
+- header: {name: '$K^+$'}
+  qualifiers:
+  - {name: 'Centrality', value: '15-30%'}
+  values:
+  - value: 10.022
+    errors:
+    - {symerror: 1.096, label: 'stat.'}
+    - {symerror: 1.102, label: 'sys.'}
+  - value: 6.579
+    errors:
+    - {symerror: 0.671, label: 'stat.'}
+    - {symerror: 0.724, label: 'sys.'}
+  - value: 4.743
+    errors:
+    - {symerror: 0.446, label: 'stat.'}
+    - {symerror: 0.522, label: 'sys.'}
+  - value: 3.125
+    errors:
+    - {symerror: 0.298, label: 'stat.'}
+    - {symerror: 0.344, label: 'sys.'}
+  - value: 2.135
+    errors:
+    - {symerror: 0.225, label: 'stat.'}
+    - {symerror: 0.235, label: 'sys.'}
+  - value: 1.537
+    errors:
+    - {symerror: 0.173, label: 'stat.'}
+    - {symerror: 0.169, label: 'sys.'}
+  - value: 1.151
+    errors:
+    - {symerror: 0.133, label: 'stat.'}
+    - {symerror: 0.127, label: 'sys.'}
+  - value: 0.615
+    errors:
+    - {symerror: 0.089, label: 'stat.'}
+    - {symerror: 0.068, label: 'sys.'}
+  - value: 0.656
+    errors:
+    - {symerror: 0.086, label: 'stat.'}
+    - {symerror: 0.072, label: 'sys.'}
+  - value: 0.349
+    errors:
+    - {symerror: 0.055, label: 'stat.'}
+    - {symerror: 0.038, label: 'sys.'}
+  - value: 0.323
+    errors:
+    - {symerror: 0.054, label: 'stat.'}
+    - {symerror: 0.036, label: 'sys.'}
+  - value: 0.142
+    errors:
+    - {symerror: 0.033, label: 'stat.'}
+    - {symerror: 0.016, label: 'sys.'}
+  - value: 0.100
+    errors:
+    - {symerror: 0.026, label: 'stat.'}
+    - {symerror: 0.011, label: 'sys.'}
+- header: {name: '$K^-$'}
+  qualifiers:
+  - {name: 'Centrality', value: '15-30%'}
+  values:
+  - value: 6.549
+    errors:
+    - {symerror: 0.972, label: 'stat.'}
+    - {symerror: 0.720, label: 'sys.'}
+  - value: 4.762
+    errors:
+    - {symerror: 0.616, label: 'stat.'}
+    - {symerror: 0.524, label: 'sys.'}
+  - value: 3.125
+    errors:
+    - {symerror: 0.401, label: 'stat.'}
+    - {symerror: 0.344, label: 'sys.'}
+  - value: 2.507
+    errors:
+    - {symerror: 0.302, label: 'stat.'}
+    - {symerror: 0.276, label: 'sys.'}
+  - value: 1.951
+    errors:
+    - {symerror: 0.242, label: 'stat.'}
+    - {symerror: 0.215, label: 'sys.'}
+  - value: 1.018
+    errors:
+    - {symerror: 0.151, label: 'stat.'}
+    - {symerror: 0.112, label: 'sys.'}
+  - value: 0.764
+    errors:
+    - {symerror: 0.122, label: 'stat.'}
+    - {symerror: 0.084, label: 'sys.'}
+  - value: 0.698
+    errors:
+    - {symerror: 0.109, label: 'stat.'}
+    - {symerror: 0.077, label: 'sys.'}
+  - value: 0.407
+    errors:
+    - {symerror: 0.078, label: 'stat.'}
+    - {symerror: 0.045, label: 'sys.'}
+  - value: 0.220
+    errors:
+    - {symerror: 0.052, label: 'stat.'}
+    - {symerror: 0.024, label: 'sys.'}
+  - value: 0.257
+    errors:
+    - {symerror: 0.052, label: 'stat.'}
+    - {symerror: 0.028, label: 'sys.'}
+  - value: 0.208
+    errors:
+    - {symerror: 0.045, label: 'stat.'}
+    - {symerror: 0.023, label: 'sys.'}
+  - value: 0.117
+    errors:
+    - {symerror: 0.032, label: 'stat.'}
+    - {symerror: 0.013, label: 'sys.'}
