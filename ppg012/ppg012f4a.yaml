@@ -9,69 +9,67 @@ independent_variables:
   - {low: 1.4, high: 1.6}
   - {low: 1.6, high: 1.8}
 dependent_variables:
-- header: {name: '$\frac{1}{2\pi p_T} \frac{1}{N_{evt}} \frac{d^2N}{dp_Tdy}$'}
+- header: {name: '$\frac{1}{2\pi p_T} \frac{1/N_{evt} \frac{d^2N}{dp_T dy}$'}
   qualifiers:
-  - {name: 'Centrality', value: 'minimum-bias'}
-  - {name: 'Particle', value: '$\Lambda$'}
+  - {name: '$p_T$ (GeV/$c$)', value: '$\Lambda$ (minimum bias)'}
   values:
   - value: 0.98
     errors:
-    - {symerror: 0.24, label: 'Stat'}
-    - {symerror: 16%, label: 'Systematic'}
+    - {symerror: 0.24, label: 'stat.'}
+    - {symerror: 0.16, label: 'sys.'}
   - value: 0.81
     errors:
-    - {symerror: 0.1, label: 'Stat'}
-    - {symerror: 16%, label: 'Systematic'}
+    - {symerror: 0.1, label: 'stat.'}
+    - {symerror: 0.13, label: 'sys.'}
   - value: 0.62
     errors:
-    - {symerror: 0.04, label: 'Stat'}
-    - {symerror: 16%, label: 'Systematic'}
+    - {symerror: 0.04, label: 'stat.'}
+    - {symerror: 0.10, label: 'sys.'}
   - value: 0.406
     errors:
-    - {symerror: 0.028, label: 'Stat'}
-    - {symerror: 16%, label: 'Systematic'}
+    - {symerror: 0.028, label: 'stat.'}
+    - {symerror: 0.06, label: 'sys.'}
   - value: 0.254
     errors:
-    - {symerror: 0.02, label: 'Stat'}
-    - {symerror: 16%, label: 'Systematic'}
+    - {symerror: 0.02, label: 'stat.'}
+    - {symerror: 0.04, label: 'sys.'}
   - value: 0.19
     errors:
-    - {symerror: 0.012, label: 'Stat'}
-    - {symerror: 16%, label: 'Systematic'}
+    - {symerror: 0.012, label: 'stat.'}
+    - {symerror: 0.03, label: 'sys.'}
   - value: 0.119
     errors:
-    - {symerror: 0.014, label: 'Stat'}
-    - {symerror: 16%, label: 'Systematic'}
-- header: {name: '$\frac{1}{2\pi p_T} \frac{1}{N_{evt}} \frac{d^2N}{dp_Tdy}$'}
+    - {symerror: 0.014, label: 'stat.'}
+    - {symerror: 0.02, label: 'sys.'}
+- header: {name: '$\frac{1}{2\pi p_T} \frac{1/N_{evt} \frac{d^2N}{dp_T dy}$'}
   qualifiers:
-  - {name: 'Centrality', value: 'minimum-bias'}
-  - {name: 'Particle', value: '$\bar{\Lambda}$'}
+  - {name: '$p_T$ (GeV/$c$)', value: '$\bar{\Lambda}$ (minimum bias)'}
   values:
   - value: 0.68
     errors:
-    - {symerror: 0.23, label: 'Stat'}
-    - {symerror: 16%, label: 'Systematic'}
+    - {symerror: 0.23, label: 'stat.'}
+    - {symerror: 0.11, label: 'sys.'}
   - value: 0.58
     errors:
-    - {symerror: 0.09, label: 'Stat'}
-    - {symerror: 16%, label: 'Systematic'}
+    - {symerror: 0.09, label: 'stat.'}
+    - {symerror: 0.09, label: 'sys.'}
   - value: 0.44
     errors:
-    - {symerror: 0.04, label: 'Stat'}
-    - {symerror: 16%, label: 'Systematic'}
+    - {symerror: 0.04, label: 'stat.'}
+    - {symerror: 0.07, label: 'sys.'}
   - value: 0.302
     errors:
-    - {symerror: 0.022, label: 'Stat'}
-    - {symerror: 16%, label: 'Systematic'}
+    - {symerror: 0.022, label: 'stat.'}
+    - {symerror: 0.05, label: 'sys.'}
   - value: 0.194
     errors:
-    - {symerror: 0.015, label: 'Stat'}
-    - {symerror: 16%, label: 'Systematic'}
+    - {symerror: 0.015, label: 'stat.'}
+    - {symerror: 0.03, label: 'sys.'}
   - value: 0.153
     errors:
-    - {symerror: 0.012, label: 'Stat'}
-    - {symerror: 16%, label: 'Systematic'}
+    - {symerror: 0.012, label: 'stat.'}
+    - {symerror: 0.02, label: 'sys.'}
   - value: 0.085
     errors:
-    - {symerror: 0.011, label: 'Stat'}
-    - {symerror: 16%, label: 'Systematic'}
+    - {symerror: 0.011, label: 'stat.'}
+    - {symerror: 0.01, label: 'sys.'}

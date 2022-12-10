@@ -10,32 +10,34 @@ independent_variables:
   - {low: 1.6, high: 1.8}
 dependent_variables:
 - header: {name: '$\bar{\Lambda}$/$\Lambda$'}
+  qualifiers:
+  - {name: '$p_T$ (GeV/$c$)', value: 'noqual'}
   values:
   - value: 0.7
     errors:
-    - {symerror: 0.29, label: 'Stat'}
-    - {symerror: 16%, label: 'Systematic'}
+    - {symerror: 0.29, label: 'stat.'}
+    - {symerror: 0.05, label: 'sys.'}
   - value: 0.72
     errors:
-    - {symerror: 0.14, label: 'Stat'}
-    - {symerror: 16%, label: 'Systematic'}
+    - {symerror: 0.14, label: 'stat.'}
+    - {symerror: 0.02, label: 'sys.'}
   - value: 0.71
     errors:
-    - {symerror: 0.09, label: 'Stat'}
-    - {symerror: 16%, label: 'Systematic'}
+    - {symerror: 0.09, label: 'stat.'}
+    - {symerror: 0.01, label: 'sys.'}
   - value: 0.74
     errors:
-    - {symerror: 0.07, label: 'Stat'}
-    - {symerror: 16%, label: 'Systematic'}
+    - {symerror: 0.07, label: 'stat.'}
+    - {symerror: 0.01, label: 'sys.'}
   - value: 0.76
     errors:
-    - {symerror: 0.08, label: 'Stat'}
-    - {symerror: 16%, label: 'Systematic'}
+    - {symerror: 0.08, label: 'stat.'}
+    - {symerror: 0.01, label: 'sys.'}
   - value: 0.81
     errors:
-    - {symerror: 0.08, label: 'Stat'}
-    - {symerror: 16%, label: 'Systematic'}
+    - {symerror: 0.08, label: 'stat.'}
+    - {symerror: 0.01, label: 'sys.'}
   - value: 0.71
     errors:
-    - {symerror: 0.12, label: 'Stat'}
-    - {symerror: 16%, label: 'Systematic'}
+    - {symerror: 0.12, label: 'stat.'}
+    - {symerror: 0.02, label: 'sys.'}

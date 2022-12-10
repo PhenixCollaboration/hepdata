@@ -9,28 +9,30 @@ independent_variables:
   - {low: 346.6, high: 346.8}
 dependent_variables:
 - header: {name: '$N_{participants}$'}
+  qualifiers:
+  - {name: '$p_T$ (GeV/$c$)', value: 'noqual'}
   values:
   - value: 0.73
     errors:
-    - {symerror: 0.18, label: 'Stat'}
-    - {symerror: 16%, label: 'Systematic'}
+    - {symerror: 0.18, label: 'stat.'}
+    - {symerror: 0.03, label: 'sys.'}
   - value: 0.74
     errors:
-    - {symerror: 0.1, label: 'Stat'}
-    - {symerror: 16%, label: 'Systematic'}
+    - {symerror: 0.1, label: 'stat.'}
+    - {symerror: 0.02, label: 'sys.'}
   - value: 0.81
     errors:
-    - {symerror: 0.08, label: 'Stat'}
-    - {symerror: 16%, label: 'Systematic'}
+    - {symerror: 0.08, label: 'stat.'}
+    - {symerror: 0.01, label: 'sys.'}
   - value: 0.78
     errors:
-    - {symerror: 0.08, label: 'Stat'}
-    - {symerror: 16%, label: 'Systematic'}
+    - {symerror: 0.08, label: 'stat.'}
+    - {symerror: 0.01, label: 'sys.'}
   - value: 0.8
     errors:
-    - {symerror: 0.08, label: 'Stat'}
-    - {symerror: 16%, label: 'Systematic'}
+    - {symerror: 0.08, label: 'stat.'}
+    - {symerror: 0.01, label: 'sys.'}
   - value: 0.75
     errors:
-    - {symerror: 0.06, label: 'Stat'}
-    - {symerror: 16%, label: 'Systematic'}
+    - {symerror: 0.06, label: 'stat.'}
+    - {symerror: 0.01, label: 'sys.'}

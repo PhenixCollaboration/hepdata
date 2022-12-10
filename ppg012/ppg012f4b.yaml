@@ -8,61 +8,59 @@ independent_variables:
   - {low: 1.4, high: 1.6}
   - {low: 1.6, high: 1.8}
 dependent_variables:
-- header: {name: '$\frac{1}{2\pi p_T} \frac{1}{N_{evt}} \frac{d^2N}{dp_Tdy}$'}
+- header: {name: '$\frac{1}{2\pi p_T} \frac{1/N_{evt} \frac{d^2N}{dp_T dy}$'}
   qualifiers:
-  - {name: 'Centrality', value: 'minimum-bias'}
-  - {name: 'Particle', value: '$p$'}
+  - {name: '$p_T$ (GeV/$c$)', value: '$p$ (minimum bias)'}
   values:
   - value: 1.04
     errors:
-    - {symerror: 0.13, label: 'Stat'}
-    - {symerror: 17%, label: 'Systematic'}
+    - {symerror: 0.13, label: 'stat.'}
+    - {symerror: 0.18, label: 'sys.'}
   - value: 0.76
     errors:
-    - {symerror: 0.08, label: 'Stat'}
-    - {symerror: 17%, label: 'Systematic'}
+    - {symerror: 0.08, label: 'stat.'}
+    - {symerror: 0.13, label: 'sys.'}
   - value: 0.45
     errors:
-    - {symerror: 0.06, label: 'Stat'}
-    - {symerror: 17%, label: 'Systematic'}
+    - {symerror: 0.06, label: 'stat.'}
+    - {symerror: 0.08, label: 'sys.'}
   - value: 0.23
     errors:
-    - {symerror: 0.04, label: 'Stat'}
-    - {symerror: 17%, label: 'Systematic'}
+    - {symerror: 0.04, label: 'stat.'}
+    - {symerror: 0.04, label: 'sys.'}
   - value: 0.15
     errors:
-    - {symerror: 0.04, label: 'Stat'}
-    - {symerror: 17%, label: 'Systematic'}
+    - {symerror: 0.04, label: 'stat.'}
+    - {symerror: 0.03, label: 'sys.'}
   - value: 0.12
     errors:
-    - {symerror: 0.04, label: 'Stat'}
-    - {symerror: 17%, label: 'Systematic'}
-- header: {name: '$\frac{1}{2\pi p_T} \frac{1}{N_{evt}} \frac{d^2N}{dp_Tdy}$'}
+    - {symerror: 0.04, label: 'stat.'}
+    - {symerror: 0.02, label: 'sys.'}
+- header: {name: '$\frac{1}{2\pi p_T} \frac{1/N_{evt} \frac{d^2N}{dp_T dy}$'}
   qualifiers:
-  - {name: 'Centrality', value: 'minimum-bias'}
-  - {name: 'Particle', value: '$\bar{p}$'}
+  - {name: '$p_T$ (GeV/$c$)', value: '$\bar{p}$ (minimum bias)'}
   values:
   - value: 0.7
     errors:
-    - {symerror: 0.12, label: 'Stat'}
-    - {symerror: 17%, label: 'Systematic'}
+    - {symerror: 0.12, label: 'stat.'}
+    - {symerror: 0.12, label: 'sys.'}
   - value: 0.55
     errors:
-    - {symerror: 0.08, label: 'Stat'}
-    - {symerror: 17%, label: 'Systematic'}
+    - {symerror: 0.08, label: 'stat.'}
+    - {symerror: 0.09, label: 'sys.'}
   - value: 0.27
     errors:
-    - {symerror: 0.05, label: 'Stat'}
-    - {symerror: 17%, label: 'Systematic'}
+    - {symerror: 0.05, label: 'stat.'}
+    - {symerror: 0.05, label: 'sys.'}
   - value: 0.182
     errors:
-    - {symerror: 0.033, label: 'Stat'}
-    - {symerror: 17%, label: 'Systematic'}
+    - {symerror: 0.033, label: 'stat.'}
+    - {symerror: 0.03, label: 'sys.'}
   - value: 0.13
     errors:
-    - {symerror: 0.04, label: 'Stat'}
-    - {symerror: 17%, label: 'Systematic'}
+    - {symerror: 0.04, label: 'stat.'}
+    - {symerror: 0.02, label: 'sys.'}
   - value: 0.08
     errors:
-    - {symerror: 0.04, label: 'Stat'}
-    - {symerror: 17%, label: 'Systematic'}
+    - {symerror: 0.04, label: 'stat.'}
+    - {symerror: 0.01, label: 'sys.'}
