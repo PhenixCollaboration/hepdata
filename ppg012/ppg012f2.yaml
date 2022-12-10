@@ -11,7 +11,8 @@ independent_variables:
 dependent_variables:
 - header: {name: '$\frac{1}{2\pi p_T} \frac{1}{N_{evt}} \frac{d^2N}{dp_Tdy}$'}
   qualifiers:
-  - {name: '$p_T$ (GeV/$c$)', value: '$\Lambda$ (minimum bias)'}
+  - {name: 'Centrality', value: 'minimum-bias'}
+  - {name: 'Particle', value: '$\Lambda$ '}
   values:
   - value: 0.98
     errors:
@@ -43,7 +44,8 @@ dependent_variables:
     - {symerror: 0.02, label: 'sys.'}
 - header: {name: '$\frac{1}{2\pi p_T} \frac{1}{N_{evt}} \frac{d^2N}{dp_Tdy}$'}
   qualifiers:
-  - {name: '$p_T$ (GeV/$c$)', value: '$\bar{\Lambda}$ (minimum bias)'}
+  - {name: 'Centrality', value: 'minimum-bias'}
+  - {name: 'Particle', value: '$\bar{\Lambda}$'}
   values:
   - value: 0.68
     errors:
@@ -75,7 +77,8 @@ dependent_variables:
     - {symerror: 0.01, label: 'sys.'}
 - header: {name: '$\frac{1}{2\pi p_T} \frac{1}{N_{evt}} \frac{d^2N}{dp_Tdy}$'}
   qualifiers:
-  - {name: '$p_T$ (GeV/$c$)', value: '$\Lambda$ $5\%$ central'}
+  - {name: 'Centrality', value: '$5\%$ central'}
+  - {name: 'Particle', value: '$\Lambda$ '}
   values:
   - value: 2.7
     errors:
@@ -107,7 +110,8 @@ dependent_variables:
     - {symerror: 0.06, label: 'sys.'}
 - header: {name: '$\frac{1}{2\pi p_T} \frac{1}{N_{evt}} \frac{d^2N}{dp_Tdy}$'}
   qualifiers:
-  - {name: '$p_T$ (GeV/$c$)', value: '$\bar{\Lambda}$ $5\%$ central'}
+  - {name: 'Centrality', value: '$5\%$ central'}
+  - {name: 'Particle', value: '$\bar{\Lambda}$'}
   values:
   - value: 1.9
     errors:

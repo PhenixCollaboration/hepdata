@@ -8,9 +8,10 @@ independent_variables:
   - {low: 1.4, high: 1.6}
   - {low: 1.6, high: 1.8}
 dependent_variables:
-- header: {name: '$\frac{1}{2\pi p_T} \frac{1/N_{evt} \frac{d^2N}{dp_T dy}$'}
+- header: {name: '$\frac{1}{2\pi p_T} \frac{1}{N_{evt}} \frac{d^2N}{dp_Tdy}$'}
   qualifiers:
-  - {name: '$p_T$ (GeV/$c$)', value: '$p$ (minimum bias)'}
+  - {name: 'Centrality', value: 'minimum-bias'}
+  - {name: 'Particle', value: '$p$'}
   values:
   - value: 1.04
     errors:
@@ -36,9 +37,10 @@ dependent_variables:
     errors:
     - {symerror: 0.04, label: 'stat.'}
     - {symerror: 0.02, label: 'sys.'}
-- header: {name: '$\frac{1}{2\pi p_T} \frac{1/N_{evt} \frac{d^2N}{dp_T dy}$'}
+- header: {name: '$\frac{1}{2\pi p_T} \frac{1}{N_{evt}} \frac{d^2N}{dp_Tdy}$'}
   qualifiers:
-  - {name: '$p_T$ (GeV/$c$)', value: '$\bar{p}$ (minimum bias)'}
+  - {name: 'Centrality', value: 'minimum-bias'}
+  - {name: 'Particle', value: '$\bar{p}$'}
   values:
   - value: 0.7
     errors:
