@@ -1,0 +1,16 @@
+independent_variables:
+- header: {name: 'Parameter'}
+  values:
+  - {value: Centroid (GeV/$c^2$)}
+  - {value: Width (GeV/$c^2$)}
+dependent_variables:
+- header: {name: 'Value'}
+  values:
+  - value: 1.02
+    errors:
+    - {symerror: 0.00014, label: 'stat.'}
+    - {symerror: 0.00085, label: 'sys.'}
+  - value: 4.24
+    errors:
+    - {symerror: 0.45, label: 'stat.'}
+    - {asymerror: {plus: 0.55, minus: 0.51}, label: 'sys.'}

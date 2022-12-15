@@ -1,0 +1,34 @@
+independent_variables:
+- header: {name: '$m_T$ bin Centroid'}
+  values:
+  - {value: 0.348}
+  - {value: 0.673}
+  - {value: 0.873}
+  - {value: 1.073}
+- header: {name: '$m_T$ bin Width'}
+  values:
+  - {value: 0.4}
+  - {value: 0.2}
+  - {value: 0.2}
+  - {value: 0.2}
+dependent_variables:
+- header: {name: 'Invariant Yield'}
+  qualifiers:
+  - {name: 'Subsystem Combination', value: 'East-East'}
+  values:
+  - value: 0.22289
+    errors:
+    - {symerror: 0.03891, label: 'stat.'}
+    - {symerror: 0.03308, label: 'sys.'}
+  - value: 0.04897
+    errors:
+    - {symerror: 0.01120, label: 'stat.'}
+    - {symerror: 0.00727, label: 'sys.'}
+  - value: 0.03772
+    errors:
+    - {symerror: 0.00663, label: 'stat.'}
+    - {symerror: 0.00560, label: 'sys.'}
+  - value: 0.02254
+    errors:
+    - {symerror: 0.00608, label: 'stat.'}
+    - {symerror: 0.00334, label: 'sys.'}

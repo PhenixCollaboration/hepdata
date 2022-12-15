@@ -1,0 +1,40 @@
+independent_variables:
+- header: {name: 'Centrality (%)'}
+  values:
+  - {low: 0, high: 10}
+  - {low: 10, high: 40}
+  - {low: 40, high: 92}
+dependent_variables:
+- header: {name: '$N_{part}$'}
+  values:
+  - value: 325.2
+  - value: 171.8
+  - value: 32.0
+- header: {name: '$dN/dy$'}
+  values:
+  - value: 3.94
+    errors:
+    - {symerror: 0.60, label: 'stat.'}
+    - {symerror: 0.62, label: 'sys.'}
+  - value: 2.22
+    errors:
+    - {symerror: 0.18, label: 'stat.'}
+    - {symerror: 0.35, label: 'sys.'}
+  - value: 0.32
+    errors:
+    - {symerror: 0.03, label: 'stat.'}
+    - {symerror: 0.05, label: 'sys.'}
+- header: {name: '$1/(0.5 N_{part}) dN/dy$'}
+  values:
+  - value: 0.0242
+    errors:
+    - {symerror: 0.0037, label: 'stat.'}
+    - {symerror: 0.0041, label: 'sys.'}
+  - value: 0.0258
+    errors:
+    - {symerror: 0.0021, label: 'stat.'}
+    - {symerror: 0.0041, label: 'sys.'}
+  - value: 0.0200
+    errors:
+    - {symerror: 0.0019, label: 'stat.'}
+    - {symerror: 0.0032, label: 'sys.'}

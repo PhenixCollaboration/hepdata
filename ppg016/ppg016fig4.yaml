@@ -1,0 +1,46 @@
+independent_variables:
+- header: {name: 'Subsystem Combination'}
+  values:
+  - {value: dN/dy}
+  - {value: $T$(MeV)}
+dependent_variables:
+- header: {name: 'TOF-TOF'}
+  values:
+  - value: 1.16
+    errors:
+    - {symerror: 0.17, label: 'stat.'}
+    - {symerror: 0.19, label: 'sys.'}
+  - value: 380
+    errors:
+    - {symerror: 18, label: 'stat.'}
+    - {symerror: 22, label: 'sys.'}
+- header: {name: 'TOF-PbSc'}
+  values:
+  - value: 1.37
+    errors:
+    - {symerror: 0.15, label: 'stat.'}
+    - {symerror: 0.22, label: 'sys.'}
+  - value: 385
+    errors:
+    - {symerror: 34, label: 'stat.'}
+    - {symerror: 28, label: 'sys.'}
+- header: {name: 'PbSc-PbSc'}
+  values:
+  - value: 1.47
+    errors:
+    - {symerror: 0.26, label: 'stat.'}
+    - {symerror: 0.27, label: 'sys.'}
+  - value: 311
+    errors:
+    - {symerror: 47, label: 'stat.'}
+    - {symerror: 65, label: 'sys.'}
+- header: {name: 'Full Data Set'}
+  values:
+  - value: 1.34
+    errors:
+    - {symerror: 0.09, label: 'stat.'}
+    - {symerror: 0.21, label: 'sys.'}
+  - value: 366
+    errors:
+    - {symerror: 11, label: 'stat.'}
+    - {symerror: 18, label: 'sys.'}

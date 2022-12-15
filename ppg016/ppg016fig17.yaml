@@ -1,0 +1,73 @@
+independent_variables:
+- header: {name: 'Centrality (%)'}
+  values:
+  - {low: 0, high: 5}
+  - {low: 40, high: 50}
+  - {low: 60, high: 92}
+dependent_variables:
+- header: {name: '$\pi^+$'}
+  values:
+  - value: 210.2
+    errors:
+    - {symerror: 0.8, label: 'stat.'}
+  - value: 201.9
+    errors:
+    - {symerror: 0.8, label: 'stat.'}
+  - value: 187.8
+    errors:
+    - {symerror: 0.7, label: 'stat.'}
+- header: {name: '$\pi^-$'}
+  values:
+  - value: 211.9
+    errors:
+    - {symerror: 0.7, label: 'stat.'}
+  - value: 203.0
+    errors:
+    - {symerror: 0.7, label: 'stat.'}
+  - value: 189.2
+    errors:
+    - {symerror: 0.7, label: 'stat.'}
+- header: {name: '$K^+$'}
+  values:
+  - value: 290.2
+    errors:
+    - {symerror: 2.2, label: 'stat.'}
+  - value: 260.6
+    errors:
+    - {symerror: 2.4, label: 'stat.'}
+  - value: 233.9
+    errors:
+    - {symerror: 2.6, label: 'stat.'}
+- header: {name: '$K^-$'}
+  values:
+  - value: 293.8
+    errors:
+    - {symerror: 2.2, label: 'stat.'}
+  - value: 265.1
+    errors:
+    - {symerror: 2.3, label: 'stat.'}
+  - value: 237.4
+    errors:
+    - {symerror: 2.6, label: 'stat.'}
+- header: {name: '$p$'}
+  values:
+  - value: 414.8
+    errors:
+    - {symerror: 7.5, label: 'stat.'}
+  - value: 326.3
+    errors:
+    - {symerror: 5.9, label: 'stat.'}
+  - value: 260.7
+    errors:
+    - {symerror: 5.4, label: 'stat.'}
+- header: {name: '$\bar{p}$'}
+  values:
+  - value: 437.9
+    errors:
+    - {symerror: 8.5, label: 'stat.'}
+  - value: 330.5
+    errors:
+    - {symerror: 6.4, label: 'stat.'}
+  - value: 262.1
+    errors:
+    - {symerror: 5.9, label: 'stat.'}

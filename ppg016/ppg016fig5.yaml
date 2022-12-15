@@ -1,0 +1,44 @@
+independent_variables:
+- header: {name: 'Centrality (%)'}
+  values:
+  - {low: 0, high: 10}
+  - {low: 10, high: 40}
+  - {low: 40, high: 92}
+  - {value: Minimum Bias}
+dependent_variables:
+- header: {name: 'dN/dy'}
+  values:
+  - value: 3.94
+    errors:
+    - {symerror: 0.60, label: 'stat.'}
+    - {symerror: 0.62, label: 'sys.'}
+  - value: 2.22
+    errors:
+    - {symerror: 0.18, label: 'stat.'}
+    - {symerror: 0.35, label: 'sys.'}
+  - value: 0.32
+    errors:
+    - {symerror: 0.03, label: 'stat.'}
+    - {symerror: 0.05, label: 'sys.'}
+  - value: 1.34
+    errors:
+    - {symerror: 0.09, label: 'stat.'}
+    - {symerror: 0.21, label: 'sys.'}
+- header: {name: '$T$(MeV)'}
+  values:
+  - value: 376
+    errors:
+    - {symerror: 24, label: 'stat.'}
+    - {symerror: 20, label: 'sys.'}
+  - value: 360
+    errors:
+    - {symerror: 13, label: 'stat.'}
+    - {symerror: 23, label: 'sys.'}
+  - value: 359
+    errors:
+    - {symerror: 15, label: 'stat.'}
+    - {symerror: 16, label: 'sys.'}
+  - value: 366
+    errors:
+    - {symerror: 11, label: 'stat.'}
+    - {symerror: 18, label: 'sys.'}
