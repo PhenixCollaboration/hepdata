@@ -1,0 +1,29 @@
+independent_variables:
+- header: {name: '$\sqrt{s_{NN}}$ [GeV]'}
+  values:
+  - {value: 200}
+  - {value: 130}
+  - {value: 19.6}
+dependent_variables:
+- header: {name: '$dE_T$/$d\eta$ PHENIX'}
+  values:
+  - value: 1.20
+    errors:
+    - {symerror: 0.07, label: 'stat.'}
+  - value: 1.14
+    errors:
+    - {symerror: 0.08, label: 'stat.'}
+  - value: 1.13
+    errors:
+    - {symerror: 0.07, label: 'stat.'}
+- header: {name: '$dN_{ch}$/$d\eta$ PHENIX'}
+  values:
+  - value: 1.18
+    errors:
+    - {symerror: 0.08, label: 'stat.'}
+  - value: 1.17
+    errors:
+    - {symerror: 0.08, label: 'stat.'}
+  - value: 1.09
+    errors:
+    - {symerror: 0.06, label: 'stat.'}
