@@ -1,0 +1,209 @@
+independent_variables:
+- header: {name: '$p_T$ [GeV/$c$]'}
+  values:
+  - {low: 1.26193, high: 1.36193}
+  - {low: 1.65166, high: 1.75166}
+  - {low: 2.04137, high: 2.14137}
+  - {low: 2.43116, high: 2.53116}
+  - {low: 2.82113, high: 2.92113}
+  - {low: 3.21136, high: 3.31136}
+  - {low: 3.78075, high: 3.88075}
+dependent_variables:
+- header: {name: 'B$_2$ [GeV$^2$/$c^3$]'}
+  qualifiers:
+  - {name: 'Centrality', value: '0-20%'}
+  - {name: 'Particle', value: '$d$'}
+  values:
+  - value: 6.4e-4
+    errors:
+    - {symerror: 8e-5, label: 'stat.'}
+    - {symerror: 1.1e-4, label: 'sys.'}
+  - value: 8.4e-4
+    errors:
+    - {symerror: 9e-5, label: 'stat.'}
+    - {symerror: 1.5e-4, label: 'sys.'}
+  - value: 0.00114
+    errors:
+    - {symerror: 1.0e-4, label: 'stat.'}
+    - {symerror: 1.9e-4, label: 'sys.'}
+  - value: 0.00131
+    errors:
+    - {symerror: 1.3e-4, label: 'stat.'}
+    - {symerror: 2.3e-4, label: 'sys.'}
+  - value: 0.00122
+    errors:
+    - {symerror: 1.9e-4, label: 'stat.'}
+    - {symerror: 3.1e-4, label: 'sys.'}
+  - value: 0.00127
+    errors:
+    - {symerror: 2.8e-4, label: 'stat.'}
+    - {symerror: 3.4e-4, label: 'sys.'}
+  - value: 0.0014
+    errors:
+    - {symerror: 5e-4, label: 'stat.'}
+    - {symerror: 4e-4, label: 'sys.'}
+- header: {name: 'B$_2$ [GeV$^2$/$c^3$]'}
+  qualifiers:
+  - {name: 'Centrality', value: '0-20%'}
+  - {name: 'Particle', value: '$\bar{d}$'}
+  values:
+  - value: 5.8e-4
+    errors:
+    - {symerror: 8e-5, label: 'stat.'}
+    - {symerror: 1.1e-4, label: 'sys.'}
+  - value: 7.4e-4
+    errors:
+    - {symerror: 9e-5, label: 'stat.'}
+    - {symerror: 1.4e-4, label: 'sys.'}
+  - value: 0.00101
+    errors:
+    - {symerror: 1.2e-4, label: 'stat.'}
+    - {symerror: 1.6e-4, label: 'sys.'}
+  - value: 8.6e-4
+    errors:
+    - {symerror: 1.4e-4, label: 'stat.'}
+    - {symerror: 1.8e-4, label: 'sys.'}
+  - value: 0.00100
+    errors:
+    - {symerror: 2.0e-4, label: 'stat.'}
+    - {symerror: 1.9e-4, label: 'sys.'}
+  - value: 0.00142
+    errors:
+    - {symerror: 4e-4, label: 'stat.'}
+    - {symerror: 2.6e-4, label: 'sys.'}
+  - value: 0.0019
+    errors:
+    - {symerror: 7e-4, label: 'stat.'}
+    - {symerror: 6e-4, label: 'sys.'}
+- header: {name: 'B$_2$ [GeV$^2$/$c^3$]'}
+  qualifiers:
+  - {name: 'Centrality', value: '20-92%'}
+  - {name: 'Particle', value: '$d$'}
+  values:
+  - value: 0.00251
+    errors:
+    - {symerror: 3.2e-4, label: 'stat.'}
+    - {symerror: 4e-4, label: 'sys.'}
+  - value: 0.0036
+    errors:
+    - {symerror: 4e-4, label: 'stat.'}
+    - {symerror: 6e-4, label: 'sys.'}
+  - value: 0.0051
+    errors:
+    - {symerror: 6e-4, label: 'stat.'}
+    - {symerror: 8e-4, label: 'sys.'}
+  - value: 0.0057
+    errors:
+    - {symerror: 8e-4, label: 'stat.'}
+    - {symerror: 9e-4, label: 'sys.'}
+  - value: 0.0064
+    errors:
+    - {symerror: 0.0012, label: 'stat.'}
+    - {symerror: 0.0012, label: 'sys.'}
+  - value: 0.0110
+    errors:
+    - {symerror: 0.0024, label: 'stat.'}
+    - {symerror: 0.0028, label: 'sys.'}
+  - value: 0.010
+    errors:
+    - {symerror: 0.004, label: 'stat.'}
+    - {symerror: 0.004, label: 'sys.'}
+- header: {name: 'B$_2$ [GeV$^2$/$c^3$]'}
+  qualifiers:
+  - {name: 'Centrality', value: '20-92%'}
+  - {name: 'Particle', value: '$\bar{d}$'}
+  values:
+  - value: 0.00233
+    errors:
+    - {symerror: 3.0e-4, label: 'stat.'}
+    - {symerror: 4e-4, label: 'sys.'}
+  - value: 0.0038
+    errors:
+    - {symerror: 4e-4, label: 'stat.'}
+    - {symerror: 6e-4, label: 'sys.'}
+  - value: 0.0043
+    errors:
+    - {symerror: 6e-4, label: 'stat.'}
+    - {symerror: 8e-4, label: 'sys.'}
+  - value: 0.0044
+    errors:
+    - {symerror: 8e-4, label: 'stat.'}
+    - {symerror: 0.0015, label: 'sys.'}
+  - value: 0.0047
+    errors:
+    - {symerror: 0.0013, label: 'stat.'}
+    - {symerror: 0.0010, label: 'sys.'}
+  - value: 0.0085
+    errors:
+    - {symerror: 0.0026, label: 'stat.'}
+    - {symerror: 0.005, label: 'sys.'}
+  - value: 0.009
+    errors:
+    - {symerror: 0.006, label: 'stat.'}
+    - {symerror: 0.007, label: 'sys.'}
+- header: {name: 'B$_2$ [GeV$^2$/$c^3$]'}
+  qualifiers:
+  - {name: 'Centrality', value: '0-92% (Min Bias)'}
+  - {name: 'Particle', value: '$d$'}
+  values:
+  - value: 0.00134
+    errors:
+    - {symerror: 1.5e-4, label: 'stat.'}
+    - {symerror: 2.1e-4, label: 'sys.'}
+  - value: 0.00185
+    errors:
+    - {symerror: 1.9e-4, label: 'stat.'}
+    - {symerror: 2.9e-4, label: 'sys.'}
+  - value: 0.00256
+    errors:
+    - {symerror: 2.2e-4, label: 'stat.'}
+    - {symerror: 4e-4, label: 'sys.'}
+  - value: 0.00288
+    errors:
+    - {symerror: 2.8e-4, label: 'stat.'}
+    - {symerror: 5e-4, label: 'sys.'}
+  - value: 0.0029
+    errors:
+    - {symerror: 4e-4, label: 'stat.'}
+    - {symerror: 7e-4, label: 'sys.'}
+  - value: 0.0036
+    errors:
+    - {symerror: 6e-4, label: 'stat.'}
+    - {symerror: 8e-4, label: 'sys.'}
+  - value: 0.0034
+    errors:
+    - {symerror: 0.0011, label: 'stat.'}
+    - {symerror: 7e-4, label: 'sys.'}
+- header: {name: 'B$_2$ [GeV$^2$/$c^3$]'}
+  qualifiers:
+  - {name: 'Centrality', value: '0-92% (Min Bias)'}
+  - {name: 'Particle', value: '$\bar{d}$'}
+  values:
+  - value: 0.00121
+    errors:
+    - {symerror: 1.3e-4, label: 'stat.'}
+    - {symerror: 2.2e-4, label: 'sys.'}
+  - value: 0.00175
+    errors:
+    - {symerror: 1.7e-4, label: 'stat.'}
+    - {symerror: 2.8e-4, label: 'sys.'}
+  - value: 0.00219
+    errors:
+    - {symerror: 2.3e-4, label: 'stat.'}
+    - {symerror: 3.4e-4, label: 'sys.'}
+  - value: 0.00212
+    errors:
+    - {symerror: 2.7e-4, label: 'stat.'}
+    - {symerror: 4e-4, label: 'sys.'}
+  - value: 0.0022
+    errors:
+    - {symerror: 4e-4, label: 'stat.'}
+    - {symerror: 4e-4, label: 'sys.'}
+  - value: 0.0034
+    errors:
+    - {symerror: 8e-4, label: 'stat.'}
+    - {symerror: 8e-4, label: 'sys.'}
+  - value: 0.0046
+    errors:
+    - {symerror: 0.0016, label: 'stat.'}
+    - {symerror: 0.0021, label: 'sys.'}

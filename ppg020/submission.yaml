@@ -1,0 +1,73 @@
+#PHENIX paper PPG015
+#
+#Scaling properties of proton and anti-proton production in $\sqrt{s_{NN}}$ = 200 GeV Au + Au collisions.
+#
+#Phys.Rev.Lett. 94, 122302 (2005)
+#InspireHEP ID: 651462
+#ArXiv: [nucl-ex] 0406004
+#
+#Prepared by Joesph Beller
+#Please contact Christine Nattrass if you have any questions about this submission
+#PPG liaison:
+#Reviewer:
+---
+additional_resources:
+- location: "https://arxiv.org/abs/nucl-ex/0406004"
+  description: "arXiv article"
+- location: "https://phenix-intra.sdcc.bnl.gov/phenix/WWW/info/data/ppg020_data.html"
+  description: "webpage with data points"
+- location: "https://inspirehep.net/literature/651462"
+  description: "InspireHEP"
+- location: "thumb_ppg020_dbard.png"
+  description: "Image File"
+- location: "thumb_ppg020_fig1.png"
+  description: "Image File"
+- location: "thumb_ppg020_fig2.png"
+  description: "Image File"
+- location: "thumb_ppg020_fig3.png"
+  description: "Image File"
+- location: "thumb_ppg020_meanf.png"
+  description: "Image File"
+  
+comment: | # Information that applies to all data tables.
+  Deuteron and antideuteron production in Au+Au collisions at $\sqrt{s_{NN}}$ = 200 GeV
+  The production of deuterons and antideuterons in the transverse momentum range 1.1 < $p_T$ < GeV/$c$ at mid-rapidity in Au+Au collisions at $\sqrt{s_{NN}}$ = 200 GeV has been studied by the PHENIX experiment at RHIC. A coalescence analysis comparing the deuteron and antideuteron spectra with those of protons and antiprotons, has been performed. The coalescence probability is equal for both deuterons and antideuterons and increases as a function of $p_T$, which is consistent with an expanding collision zone. Comparing (anti)proton yields $\bar{p}$/$p$ = 0.73 $\pm$ 0.01, with (anti)deuteron yields: $\bar{d}$/$d$ = 0.47 $\pm$ 0.03, we estimate that $\bar{n}$/n = 0.64 $\pm$ 0.04.
+---
+# This is Figure 2a.
+name: "Figure 2a"
+location: Data from Fig. 2 of PRL 94, 122302 (2005)
+description: filler desc.
+keywords: # used for searching, possibly multiple values for each keyword
+- {name: reactions, values: [AU + AU --> CHARGED X0]}
+- {name: cmenergies, values: [200.0]} # centre-of-mass energy in GeV
+- {name: phrases, values: [ppg020]}
+data_file: ppg020f2a.yaml
+additional_resources:
+- location: "thumb_ppg020_fig2.png"
+  description: "Image File"
+---
+# This is Figure 2b.
+name: "Figure 2b"
+location: Data from Fig. 2 of PRL 94, 122302 (2005)
+description: filler desc.
+keywords: # used for searching, possibly multiple values for each keyword
+- {name: reactions, values: [AU + AU --> CHARGED X0]}
+- {name: cmenergies, values: [200.0]} # centre-of-mass energy in GeV
+- {name: phrases, values: [ppg020]}
+data_file: ppg020f2b.yaml
+additional_resources:
+- location: "thumb_ppg020_fig2.png"
+  description: "Image File"
+---
+# This is Figure 3.
+name: "Figure 3"
+location: Data from Fig. 3 of PRL 94, 122302 (2005)
+description: Coalescence parameter $B_2$ vs $p_T$ for deuterons (left panel) and anti-deuterons (right panel). Grey bands indicate the systematic errors. Values are plotted at the "true" mean value of $p_T$ of each bin, the extent of which is indicated by the width of the grey bars along x-axis.
+keywords: # used for searching, possibly multiple values for each keyword
+- {name: reactions, values: [AU + AU --> CHARGED X0]}
+- {name: cmenergies, values: [200.0]} # centre-of-mass energy in GeV
+- {name: phrases, values: [ppg020]}
+data_file: ppg020f3.yaml
+additional_resources:
+- location: "thumb_ppg020_fig3.png"
+  description: "Image File"

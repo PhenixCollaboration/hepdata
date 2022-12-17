@@ -1,0 +1,68 @@
+independent_variables:
+- header: {name: '$m_T$ [GeV/$c^2$]'}
+  values:
+  - {low: 2.2389, high: 2.3389}
+  - {low: 2.4825, high: 2.5825}
+  - {low: 2.75923, high: 2.85923}
+  - {low: 3.06032, high: 3.16032}
+  - {low: 3.37948, high: 3.47948}
+  - {low: 3.71223, high: 3.81223}
+dependent_variables:
+- header: {name: 'Inv. Yield $\frac{1}{2 \pi p_T}$$\frac{dN^2}{dp_T dy}$ [GeV/$c^{-2}$]'}
+  qualifiers:
+  - {name: 'Centrality', value: '20-90%'}
+  - {name: 'Particle', value: '$d$'}
+  values:
+  - value: 6.70E-04
+    errors:
+    - {symerror: 7.00E-05, label: 'stat.'}
+    - {symerror: 6.00E-05, label: 'sys.'}
+  - value: 4.89E-04
+    errors:
+    - {symerror: 5.00E-05, label: 'stat.'}
+    - {symerror: 2.50E-05, label: 'sys.'}
+  - value: 3.26E-04
+    errors:
+    - {symerror: 2.50E-05, label: 'stat.'}
+    - {symerror: 1.50E-05, label: 'sys.'}
+  - value: 1.42E-04
+    errors:
+    - {symerror: 1.50E-05, label: 'stat.'}
+    - {symerror: 9.00E-06, label: 'sys.'}
+  - value: 5.60E-05
+    errors:
+    - {symerror: 1.00E-05, label: 'stat.'}
+    - {symerror: 6.00E-06, label: 'sys.'}
+  - value: 3.90E-05
+    errors:
+    - {symerror: 7.00E-06, label: 'stat.'}
+    - {symerror: 8.00E-06, label: 'sys.'}
+- header: {name: 'Inv. Yield $\frac{1}{2 \pi p_T}$$\frac{dN^2}{dp_T dy}$ [GeV/$c^{-2}$]'}
+  qualifiers:
+  - {name: 'Centrality', value: '20-90%'}
+  - {name: 'Particle', value: '$\bar{d}$'}
+  values:
+  - value: 3.22E-04
+    errors:
+    - {symerror: 3.50E-05, label: 'stat.'}
+    - {symerror: 3.50E-05, label: 'sys.'}
+  - value: 2.94E-04
+    errors:
+    - {symerror: 2.70E-05, label: 'stat.'}
+    - {symerror: 2.10E-05, label: 'sys.'}
+  - value: 1.39E-04
+    errors:
+    - {symerror: 1.60E-05, label: 'stat.'}
+    - {symerror: 1.80E-05, label: 'sys.'}
+  - value: 6.30E-05
+    errors:
+    - {symerror: 1.00E-05, label: 'stat.'}
+    - {symerror: 2.00E-05, label: 'sys.'}
+  - value: 2.70E-05
+    errors:
+    - {symerror: 7.00E-06, label: 'stat.'}
+    - {symerror: 4.00E-06, label: 'sys.'}
+  - value: 1.80E-05
+    errors:
+    - {symerror: 5.00E-06, label: 'stat.'}
+    - {symerror: 1.00E-05, label: 'sys.'}
