@@ -1,0 +1,46 @@
+independent_variables:
+- header: {name: '$p_T$ (GeV/$c$)'}
+  values:
+  - {low: 0.55, high: 0.70}
+  - {low: 0.90, high: 1.20}
+  - {low: 1.20, high: 1.60}
+  - {low: 1.60, high: 2.00}
+  - {low: 2.00, high: 2.40}
+  - {low: 2.40, high: 3.00}
+  - {low: 3.00, high: 3.50}
+  - {low: 3.50, high: 4.00}
+dependent_variables:
+- header: {name: 'h2p'}
+  values:
+  - value: 0.05821
+    errors:
+    - {symerror: 0.00300, label: 'stat.'}
+    - {symerror: 0.00786, label: 'syst.'}
+  - value: 0.17971
+    errors:
+    - {symerror: 0.00593, label: 'stat.'}
+    - {symerror: 0.02426, label: 'syst.'}
+  - value: 0.24680
+    errors:
+    - {symerror: 0.00644, label: 'stat.'}
+    - {symerror: 0.03332, label: 'syst.'}
+  - value: 0.34506
+    errors:
+    - {symerror: 0.01258, label: 'stat.'}
+    - {symerror: 0.04658, label: 'syst.'}
+  - value: 0.39544
+    errors:
+    - {symerror: 0.02091, label: 'stat.'}
+    - {symerror: 0.05338, label: 'syst.'}
+  - value: 0.43158
+    errors:
+    - {symerror: 0.03290, label: 'stat.'}
+    - {symerror: 0.05826, label: 'syst.'}
+  - value: 0.47952
+    errors:
+    - {symerror: 0.06177, label: 'stat.'}
+    - {symerror: 0.06474, label: 'syst.'}
+  - value: 0.47400
+    errors:
+    - {symerror: 0.09084, label: 'stat.'}
+    - {symerror: 0.06399, label: 'syst.'}

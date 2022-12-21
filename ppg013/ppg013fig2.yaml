@@ -1,0 +1,90 @@
+independent_variables:
+- header: {name: 'Relative Fraction'}
+  values:
+  - {low: 0, high: 5}
+  - {low: 5, high: 15}
+  - {low: 15, high: 30}
+  - {low: 30, high: 60}
+  - {low: 60, high: 80}
+  - {low: 80, high: 92}
+dependent_variables:
+- header: {name: '$N_{part}$'}
+  values:
+  - value: 348.0
+    errors:
+    - {symerror: 10.0, label: 'stat.'}
+  - value: 271.0
+    errors:
+    - {symerror: 9.0, label: 'stat.'}
+  - value: 180.0
+    errors:
+    - {symerror: 6.6, label: 'stat.'}
+  - value: 79.0
+    errors:
+    - {symerror: 4.6, label: 'stat.'}
+  - value: 19.5
+    errors:
+    - {symerror: 3.5, label: 'stat.'}
+  - value: 5.5
+    errors:
+    - {symerror: 2.6, label: 'stat.'}
+- header: {name: '$N_{coll}$'}
+  values:
+  - value: 1009.0
+    errors:
+    - {symerror: 101.0, label: 'stat.'}
+  - value: 712.0
+    errors:
+    - {symerror: 72.0, label: 'stat.'}
+  - value: 406.0
+    errors:
+    - {symerror: 46.0, label: 'stat.'}
+  - value: 131.0
+    errors:
+    - {symerror: 23.0, label: 'stat.'}
+  - value: 20.0
+    errors:
+    - {symerror: 6.0, label: 'stat.'}
+  - value: 4.1
+    errors:
+    - {symerror: 1.7, label: 'stat.'}
+- header: {name: '${N^{central}_{coll}}/{N_{coll}}$'}
+  values:
+  - value: 1.00
+    errors:
+    - {symerror: 11001, label: 'stat.'}
+  - value: 1.41
+    errors:
+    - {symerror: 0.03, label: 'stat.'}
+  - value: 2.49
+    errors:
+    - {symerror: 0.13, label: 'stat.'}
+  - value: 7.68
+    errors:
+    - {symerror: 1.10, label: 'stat.'}
+  - value: 50.40
+    errors:
+    - {symerror: 13.00, label: 'stat.'}
+  - value: 246.00
+    errors:
+    - {symerror: 98.00, label: 'stat.'}
+- header: {name: '${2N_{coll}}/{N_{part}}$'}
+  values:
+  - value: 5.8
+    errors:
+    - {symerror: 0.6, label: 'stat.'}
+  - value: 5.2
+    errors:
+    - {symerror: 0.6, label: 'stat.'}
+  - value: 4.5
+    errors:
+    - {symerror: 0.5, label: 'stat.'}
+  - value: 3.4
+    errors:
+    - {symerror: 0.6, label: 'stat.'}
+  - value: 2.1
+    errors:
+    - {symerror: 0.5, label: 'stat.'}
+  - value: 1.5
+    errors:
+    - {symerror: 0.5, label: 'stat.'}
