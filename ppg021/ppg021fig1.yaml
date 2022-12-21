@@ -1,0 +1,64 @@
+independent_variables:
+- header: {name: 'Fit Parameter'}
+  values:
+  - {value: '$\lambda_{inv}$ ($\pi^+\pi^+$)'}
+  - {value: '$R_{inv}$ ($\pi^+\pi^+$)'}
+  - {value: '$\lambda_{inv}$ ($\pi^-\pi^-$)'}
+  - {value: '$R_{inv}$ ($\pi^-\pi^-$)'}
+  - {value: '$\lambda_{3D-Fit}$ ($\pi^+\pi^+$)'}
+  - {value: '$R_{side}$ ($\pi^-\pi^-$)'}
+  - {value: '$R_{out}$ ($\pi^-\pi^-$)'}
+  - {value: '$R_{long}$ ($\pi^-\pi^-$)'}
+dependent_variables:
+- header: {name: 'Sinyukov Fit'}
+  values:
+  - value: 0.229
+    errors:
+    - {symerror: 0.008, label: 'stat.'}
+  - value: 5.56
+    errors:
+    - {symerror: 0.08, label: 'stat.'}
+  - value: 0.239
+    errors:
+    - {symerror: 0.007, label: 'stat.'}
+  - value: 5.52
+    errors:
+    - {symerror: 0.08, label: 'stat.'}
+  - value: 0.341
+    errors:
+    - {symerror: 0.008, label: 'stat.'}
+  - value: 4.14
+    errors:
+    - {symerror: 0.07, label: 'stat.'}
+  - value: 4.39
+    errors:
+    - {symerror: 0.07, label: 'stat.'}
+  - value: 4.50
+    errors:
+    - {symerror: 0.08, label: 'stat.'}
+- header: {name: 'Full Coulomb'}
+  values:
+  - value: 0.390
+    errors:
+    - {symerror: 0.007, label: 'stat.'}
+  - value: 5.96
+    errors:
+    - {symerror: 0.08, label: 'stat.'}
+  - value: 0.394
+    errors:
+    - {symerror: 0.007, label: 'stat.'}
+  - value: 5.91
+    errors:
+    - {symerror: 0.05, label: 'stat.'}
+  - value: 0.441
+    errors:
+    - {symerror: 0.007, label: 'stat.'}
+  - value: 4.50
+    errors:
+    - {symerror: 0.06, label: 'stat.'}
+  - value: 3.87
+    errors:
+    - {symerror: 0.06, label: 'stat.'}
+  - value: 4.80
+    errors:
+    - {symerror: 0.07, label: 'stat.'}

@@ -1,0 +1,95 @@
+#PHENIX paper PPG021 
+#
+#Bose-Einstein Correlations of Charged Pion Pairs in Au + Au collisions at #\sqrt{s_{NN}}$ = 200 GeV
+#
+#Phys.Rev.Lett. 93 (2004) 152302
+#InspireHEP ID: 642225
+#
+#Prepared by Nikolas Nelson
+#Please contact Christine Nattrass if you have any questions about this submission
+#PPG liaison:
+#Reviewer:
+#
+comment: | # Information that applies to all data tables.
+    Bose-Einstein correlations of identically ch√arged pion pairs were measured by the PHENIX experiment at mid-rapidity in Au + Au collisions at $\sqrt{s_{NN}}$ = 200 GeV. The Bertsch-Pratt radius parameters were determined as a function of the transverse momentum of the pair and as a function of the centrality of the collision. Using the full Coulomb correction, the ratio $R_{out}$/$R_{side}$ is smaller than unity for $⟨k_T⟩$ from 0.25 to 1.2 GeV/$c$ and for all measured centralities. However, using recently developed partial Coulomb correction methods, we find that $R_{out}$/$R_{side}$ is 0.8-1.1 for the measured $⟨k_T⟩$ range, and approximately constant at unity with the number of participants.
+additional_resources:
+- {location: "https://phenix-intra.sdcc.bnl.gov/WWW/p/draft/enoki/ppg021/", description: "web page with data points"}
+- {location: "http://arxiv.org/abs/nucl-ex/0401003", description: arXiv}
+- {location: "https://inspirehep.net/literature/642225", description: InspireHEP}
+---
+# This is Figure 1.
+name: "Figure 1"
+location: From Fig. 1 of PRL 93 (2004) 152302
+description: '1-D and 3-D HBT radii for 0.2 < $k_T$ < 2.0 GeV/$c$ at 0-30% centrality. $<k_T>$ ~ 0.45 ($\pm$0.17) GeV/$c$ and $<N_{part}>$ ~ 281 ($\pm$4).'
+keywords: # used for searching, possibly mutliple values for each keywords
+- {name: reactions, values: [Au Au --> CHARGED X]}
+- {name: cmenergies, values: [200.0]}
+- {name: phrases, values: [ppg021, mid-rapidity, transverse momentum]}
+data_file: ppg021fig1.yaml 
+additional_resources:
+- {description: Original EPS Image file, location: 3DC2_new2.eps}
+- {description: PNG Image file, location: 3DC2_new2.png}
+- {description: Thumbnail Image file, location: thumb_3DC2_new2.png}
+---
+# This is Figure 2.
+name: "Figure 2a"
+location: From Fig. 2 of PRL 93 (2004) 152302
+description: 'The $k_T$ dependence of the Bertsch-Pratt radius parameters and $\lambda$ for charged pions for 0-30% centrality. Results from $\pi^+\pi^+$ correlation.'
+keywords: # used for searching, possibly mutliple values for each keywords
+- {name: reactions, values: [Au Au --> CHARGED X]}
+- {name: cmenergies, values: [200.0]}
+- {name: phrases, values: [ppg021, mid-rapidity, transverse momentum]}
+data_file: ppg021fig2a.yaml 
+additional_resources:
+- {description: Original EPS Image file, location: kTdep_new.eps}
+- {description: PNG Image file, location: kTdep_new.png}
+- {description: Thumbnail Image file, location: thumb_kTdep_new.png}
+- {description: Original EPS Image file, location: kTPCFC_new.eps}
+- {description: PNG Image file, location: kTPCFC_new.png}
+- {description: Thumbnail Image file, location: thumb_kTPCFC_new.png}
+---
+# This is Figure 2.
+name: "Figure 2b"
+location: From Fig. 2 of PRL 93 (2004) 152302
+description: 'The $k_T$ dependence of the Bertsch-Pratt radius parameters and $\lambda$ for charged pions for 0-30% centrality. Results from $\pi^-\pi^-$ correlation.'
+keywords: # used for searching, possibly mutliple values for each keywords
+- {name: reactions, values: [Au Au --> CHARGED X]}
+- {name: cmenergies, values: [200.0]}
+- {name: phrases, values: [ppg021, mid-rapidity, transverse momentum]}
+data_file: ppg021fig2b.yaml 
+additional_resources:
+- {description: Original EPS Image file, location: kTdep_new.eps}
+- {description: PNG Image file, location: kTdep_new.png}
+- {description: Thumbnail Image file, location: thumb_kTdep_new.png}
+- {description: Original EPS Image file, location: kTPCFC_new.eps}
+- {description: PNG Image file, location: kTPCFC_new.png}
+- {description: Thumbnail Image file, location: thumb_kTPCFC_new.png}
+---
+# This is Figure 3.
+name: "Figure 3a"
+location: From Fig. 3 of PRL 93 (2004) 152302
+description: 'Bertsch-Pratt radius parameters versus the cube root of the number of participants (N1/3 ) for charged pions for the part fits to a core-halo structure in the 0.2 GeV/$c$ < $k_T$ < 2.0 GeV/$c$ range, with $<k_T>$ = 0.45 GeV/$c$. Results from $\pi^+\pi^+$ correlation.'
+keywords: # used for searching, possibly mutliple values for each keywords
+- {name: reactions, values: [Au Au --> CHARGED X]}
+- {name: cmenergies, values: [200.0]}
+- {name: phrases, values: [ppg021, mid-rapidity, transverse momentum]}
+data_file: ppg021fig3a.yaml 
+additional_resources:
+- {description: Original EPS Image file, location: Ctdep_new.eps}
+- {description: PNG Image file, location: Ctdep_new.png}
+- {description: Thumbnail Image file, location: thumb_Ctdep_new.png}
+---
+# This is Figure 3.
+name: "Figure 3b"
+location: From Fig. 3 of PRL 93 (2004) 152302
+description: 'Bertsch-Pratt radius parameters versus the cube root of the number of participants (N1/3 ) for charged pions for the part fits to a core-halo structure in the 0.2 GeV/$c$ < $k_T$ < 2.0 GeV/$c$ range, with $<k_T>$ = 0.45 GeV/$c$. Results from $\pi^-\pi^-$ correlation.'
+keywords: # used for searching, possibly mutliple values for each keywords
+- {name: reactions, values: [Au Au --> CHARGED X]}
+- {name: cmenergies, values: [200.0]}
+- {name: phrases, values: [ppg021, mid-rapidity, transverse momentum]}
+data_file: ppg021fig3b.yaml 
+additional_resources:
+- {description: Original EPS Image file, location: Ctdep_new.eps}
+- {description: PNG Image file, location: Ctdep_new.png}
+- {description: Thumbnail Image file, location: thumb_Ctdep_new.png}
+---
