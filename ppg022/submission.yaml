@@ -1,0 +1,69 @@
+#PHENIX paper PPG022
+#
+#Scaling properties of proton and anti-proton production in $\sqrt{s_{NN}}$ = 200 GeV Au + Au collisions.
+#
+#Phys.Rev.Lett. 91, 182301 (2003)
+#InspireHEP ID: 619061
+#ArXiv: [nucl-ex] 0305013
+#
+#Prepared by Joesph Beller
+#Please contact Christine Nattrass if you have any questions about this submission
+#PPG liaison:
+#Reviewer:
+---
+additional_resources:
+- location: "https://arxiv.org/abs/nucl-ex/0305013"
+  description: "arXiv article"
+- location: "https://phenix-intra.sdcc.bnl.gov/WWW/info/data/ppg022_data.html"
+  description: "webpage with data points"
+- location: "https://inspirehep.net/literature/619061"
+  description: "InspireHEP"
+- location: "thumb_fig1.png"
+  description: "Image File"
+- location: "thumb_fig2.png"
+  description: "Image File"
+- location: "thumb_fig3.png"
+  description: "Image File"
+  
+comment: | # Information that applies to all data tables.
+  Elliptic Flow of Identified Hadrons in Au+Au Collisions at $\sqrt{s_{NN}}$ = 200 GeV
+  The anisotropy paramenter ($v_2$), the second harmonic of the azimuthal particles distributions, has been measured with the PHENIX detector in Au+Au collisions at $\sqrt{s_{NN}}$ = 200 GeV for identified and inclusive charged particle production at central rapidities (|$\eta$| = 3-4). We observe that the $v_2$ of mesons falls below that of (anti)baryons for $p_T$ > 2 GeV/$c$, in marked contrast to the predictions of a hydrodynamical model. A quard coalescence model is also investigated.
+---
+# This is Figure 1a.
+name: "Figure 1a"
+location: Data from Fig. 1 of PRL 91, 182301 (2003)
+description: Correlation of reaction planes between two beam counters for the second moment is shown as a function of centrality.
+keywords: # used for searching, possibly multiple values for each keyword
+- {name: reactions, values: [AU + AU --> CHARGED X0]}
+- {name: cmenergies, values: [200.0]} # centre-of-mass energy in GeV
+- {name: phrases, values: [ppg022]}
+data_file: ppg022f1a.yaml
+additional_resources:
+- location: "thumb_fig1.png"
+  description: "Image File"
+---
+# This is Figure 1b.
+name: "Figure 1b"
+location: Data from Fig. 1 of PRL 91, 182301 (2003)
+description: The value of $v_2$ for charged particles is shown as a function of centrality (middle) and as a function of $p_T$ (right).
+keywords: # used for searching, possibly multiple values for each keyword
+- {name: reactions, values: [AU + AU --> CHARGED X0]}
+- {name: cmenergies, values: [200.0]} # centre-of-mass energy in GeV
+- {name: phrases, values: [ppg022]}
+data_file: ppg022f1b.yaml
+additional_resources:
+- location: "thumb_fig1.png"
+  description: "Image File"
+---
+# This is Figure 1c.
+name: "Figure 1c"
+location: Data from Fig. 1 of PRL 91, 182301 (2003)
+description: The value of $v_2$ for charged particles is shown as a function of transverse momentum, $p_T$.
+keywords: # used for searching, possibly multiple values for each keyword
+- {name: reactions, values: [AU + AU --> CHARGED X0]}
+- {name: cmenergies, values: [200.0]} # centre-of-mass energy in GeV
+- {name: phrases, values: [ppg022]}
+data_file: ppg022f1c.yaml
+additional_resources:
+- location: "thumb_fig1.png"
+  description: "Image File"

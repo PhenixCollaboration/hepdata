@@ -1,0 +1,41 @@
+independent_variables:
+- header: {name: 'Centrality (%)'}
+  values:
+  - {low: 60, high: 70}
+  - {low: 50, high: 60}
+  - {low: 40, high: 50}
+  - {low: 30, high: 40}
+  - {low: 20, high: 30}
+  - {low: 10, high: 20}
+  - {low: 0, high: 10}
+dependent_variables:
+- header: {name: '$v_2$'}
+  values:
+  - value: 0.0614
+    errors:
+    - {symerror: 0.0020, label: 'err.'}
+    - {asymerror: {plus: 0.07, minus: -0.05}, label: 'sys.'}
+  - value: 0.0798
+    errors:
+    - {symerror: 9e-4, label: 'err.'}
+    - {asymerror: {plus: 0.08, minus: -0.08}, label: 'sys.'}
+  - value: 0.0846
+    errors:
+    - {symerror: 5e-4, label: 'err.'}
+    - {asymerror: {plus: 0.09, minus: -0.08}, label: 'sys.'}
+  - value: 0.08130
+    errors:
+    - {symerror: 3.3e-4, label: 'err.'}
+    - {asymerror: {plus: 0.08, minus: -0.08}, label: 'sys.'}
+  - value: 0.07060
+    errors:
+    - {symerror: 2.4e-4, label: 'err.'}
+    - {asymerror: {plus: 0.07, minus: -0.07}, label: 'sys.'}
+  - value: 0.05140
+    errors:
+    - {symerror: 1.9e-4, label: 'err.'}
+    - {asymerror: {plus: 0.05, minus: -0.05}, label: 'sys.'}
+  - value: 0.02670
+    errors:
+    - {symerror: 2.2e-4, label: 'err.'}
+    - {asymerror: {plus: 0.032, minus: -0.021}, label: 'sys.'}
