@@ -1,0 +1,251 @@
+#PHENIX paper PPG019
+#
+#Systematic Studies of the Centrality and $\sqrt{s_{NN}}$ Dependence of $dE_T$/$d\eta$ and $dN_{ch}$/$d\eta$ in Heavy Ion Collisions at Mid-rapidty
+#
+#Phys.Rev. C 71 (2005) 034908
+#InspireHEP ID: 659749
+#
+#Prepared by Nikolas Nelson
+#Please contact Christine Nattrass if you have any questions about this submission
+#PPG liaison:
+#Reviewer:
+#
+comment: | # Information that applies to all data tables.
+    The PHENIX experiment at RHIC has measured transverse energy and charged particle multiplicity at mid-rapidity in Au + Au collisions at $\sqrt{s_{NN}}$ = 19.6, 130, and 200 GeV as a function of centrality. The presented results are compared to measurements from other RHIC experiments, and experiments at lower energies. The $\sqrt{s_{NN}} dependence of $dE_T$/$d\eta$ and $dN_{ch}$/$d\eta$ per pair of participants is consistent with logarithmic scaling for the most central events. The centrality dependence of $dE_T$/$d\eta$ and $dN_{ch}$/$d\eta$ is similar at all measured incident energies. At RHIC energies the ratio of transverse energy per charged particle was found independent of centrality and growing slowly with $\sqrt{s_{NN}}$. A survey of comparisons between the data and available theoretical models is also presented.
+additional_resources:
+- {location: "https://phenix-intra.sdcc.bnl.gov/WWW/p/info/ppg/019/", description: "web page with data points"}
+- {location: "http://arxiv.org/abs/nucl-ex/0409015", description: arXiv}
+- {location: "https://inspirehep.net/literature/659749", description: InspireHEP}
+---
+# This is Figure 2.
+name: "Figure 2a-1"
+location: Data From Table 2 of PRL C 71 (2005) 034908
+description: '$B$/$A$ ratio from the fit to the data.'
+keywords: # used for searching, possibly mutliple values for each keywords
+- {name: reactions, values: [Au Au --> CHARGED X]}
+- {name: cmenergies, values: [200.0, 130.0, 19.6, 17.2, 8.7]}
+- {name: phrases, values: [ppg019, mid-rapidity, transverse energy, charged particle multiplicity]}
+data_file: ppg019fig2a1.yaml 
+---
+# This is Figure 2.
+name: "Figure 2a-2"
+location: Data From Table 2 of PRL C 71 (2005) 034908
+description: '$B$/$A$ ratio from the fit to the data.'
+keywords: # used for searching, possibly mutliple values for each keywords
+- {name: reactions, values: [Au Au --> CHARGED X]}
+- {name: cmenergies, values: [200.0, 130.0, 19.6, 17.2, 8.7]}
+- {name: phrases, values: [ppg019, mid-rapidity, transverse energy, charged particle multiplicity]}
+data_file: ppg019fig2a2.yaml 
+---
+# This is Figure 2.
+name: "Figure 2b-1"
+location: Data From Table 2 of PRL C 71 (2005) 034908
+description: 'Parameter $\alpha$ from the fit to the data.'
+keywords: # used for searching, possibly mutliple values for each keywords
+- {name: reactions, values: [Au Au --> CHARGED X]}
+- {name: cmenergies, values: [200.0, 130.0, 19.6, 17.2, 8.7, 4.8]}
+- {name: phrases, values: [ppg019, mid-rapidity, transverse energy, charged particle multiplicity]}
+data_file: ppg019fig2b1.yaml 
+---
+# This is Figure 2.
+name: "Figure 2b-2"
+location: Data From Table 2 of PRL C 71 (2005) 034908
+description: 'Parameter $\alpha$ from the fit to the data.'
+keywords: # used for searching, possibly mutliple values for each keywords
+- {name: reactions, values: [Au Au --> CHARGED X]}
+- {name: cmenergies, values: [200.0, 130.0, 19.6, 17.2, 8.7, 4.8]}
+- {name: phrases, values: [ppg019, mid-rapidity, transverse energy, charged particle multiplicity]}
+data_file: ppg019fig2b2.yaml 
+---
+# This is Figure 13.
+name: "Figure 13"
+location: Data From Table 13 of PRL C 71 (2005) 034908
+description: 'Results of the measurements by PHENIX at $\sqrt{s_{NN}}$ = 200 GeV..'
+keywords: # used for searching, possibly mutliple values for each keywords
+- {name: reactions, values: [Au Au --> CHARGED X]}
+- {name: cmenergies, values: [200.0]}
+- {name: phrases, values: [ppg019, mid-rapidity, transverse energy, charged particle multiplicity]}
+data_file: ppg019fig13.yaml 
+additional_resources:
+- {description: Original EPS Image file, location: fig05_left.eps}
+- {description: PNG Image file, location: fig05_left.png}
+- {description: Thumbnail Image file, location: thumb_fig05_left.png}
+- {description: Original EPS Image file, location: fig05_right.eps}
+- {description: PNG Image file, location: fig05_right.png}
+- {description: Thumbnail Image file, location: thumb_fig05_right.png}
+- {description: Original EPS Image file, location: fig07.eps}
+- {description: PNG Image file, location: fig07.png}
+- {description: Thumbnail Image file, location: thumb_fig07.png}
+- {description: Original EPS Image file, location: fig08_left.eps}
+- {description: PNG Image file, location: fig08_left.png}
+- {description: Thumbnail Image file, location: thumb_fig08_left.png}
+- {description: Original EPS Image file, location: fig08_right.eps}
+- {description: PNG Image file, location: fig08_right.png}
+- {description: Thumbnail Image file, location: thumb_fig08_right.png}
+---
+# This is Figure 14.
+name: "Figure 14"
+location: Data From Table 14 of PRL C 71 (2005) 034908
+description: 'Results of the measurements by PHENIX at $\sqrt{s_{NN}}$ = 130 GeV.'
+keywords: # used for searching, possibly mutliple values for each keywords
+- {name: reactions, values: [Au Au --> CHARGED X]}
+- {name: cmenergies, values: [130.0]}
+- {name: phrases, values: [ppg019, mid-rapidity, transverse energy, charged particle multiplicity]}
+data_file: ppg019fig14.yaml 
+additional_resources:
+- {description: Original EPS Image file, location: fig05_left.eps}
+- {description: PNG Image file, location: fig05_left.png}
+- {description: Thumbnail Image file, location: thumb_fig05_left.png}
+- {description: Original EPS Image file, location: fig05_right.eps}
+- {description: PNG Image file, location: fig05_right.png}
+- {description: Thumbnail Image file, location: thumb_fig05_right.png}
+- {description: Original EPS Image file, location: fig07.eps}
+- {description: PNG Image file, location: fig07.png}
+- {description: Thumbnail Image file, location: thumb_fig07.png}
+- {description: Original EPS Image file, location: fig08_left.eps}
+- {description: PNG Image file, location: fig08_left.png}
+- {description: Thumbnail Image file, location: thumb_fig08_left.png}
+- {description: Original EPS Image file, location: fig08_right.eps}
+- {description: PNG Image file, location: fig08_right.png}
+- {description: Thumbnail Image file, location: thumb_fig08_right.png}
+---
+# This is Figure 15.
+name: "Figure 15"
+location: Data From Table 15 of PRL C 71 (2005) 034908
+description: 'Results of the measurements by PHENIX at $\sqrt{s_{NN}}$ = 19.6 GeV.'
+keywords: # used for searching, possibly mutliple values for each keywords
+- {name: reactions, values: [Au Au --> CHARGED X]}
+- {name: cmenergies, values: [19.6]}
+- {name: phrases, values: [ppg019, mid-rapidity, transverse energy, charged particle multiplicity]}
+data_file: ppg019fig15.yaml 
+additional_resources:
+- {description: Original EPS Image file, location: fig05_left.eps}
+- {description: PNG Image file, location: fig05_left.png}
+- {description: Thumbnail Image file, location: thumb_fig05_left.png}
+- {description: Original EPS Image file, location: fig05_right.eps}
+- {description: PNG Image file, location: fig05_right.png}
+- {description: Thumbnail Image file, location: thumb_fig05_right.png}
+- {description: Original EPS Image file, location: fig07.eps}
+- {description: PNG Image file, location: fig07.png}
+- {description: Thumbnail Image file, location: thumb_fig07.png}
+- {description: Original EPS Image file, location: fig08_left.eps}
+- {description: PNG Image file, location: fig08_left.png}
+- {description: Thumbnail Image file, location: thumb_fig08_left.png}
+- {description: Original EPS Image file, location: fig08_right.eps}
+- {description: PNG Image file, location: fig08_right.png}
+- {description: Thumbnail Image file, location: thumb_fig08_right.png}
+---
+# This is Figure 16.
+name: "Figure 16a"
+location: Data From Table 16 of PRL C 71 (2005) 034908
+description: 'Ratios of measured quantities at 200 GeV/130 GeV and 200 GeV/19.6 GeV. The number of $N_P$ is the average between two energies.'
+keywords: # used for searching, possibly mutliple values for each keywords
+- {name: reactions, values: [Au Au --> CHARGED X]}
+- {name: cmenergies, values: [200.0, 130.0, 19.6]}
+- {name: phrases, values: [ppg019, mid-rapidity, transverse energy, charged particle multiplicity]}
+data_file: ppg019fig16a.yaml 
+additional_resources:
+- {description: Original EPS Image file, location: fig06_left.eps}
+- {description: PNG Image file, location: fig06_left.png}
+- {description: Thumbnail Image file, location: thumb_fig06_left.png}
+- {description: Original EPS Image file, location: fig06_right.eps}
+- {description: PNG Image file, location: fig06_right.png}
+- {description: Thumbnail Image file, location: thumb_fig06_right.png}
+---
+# This is Figure 16.
+name: "Figure 16b"
+location: Data From Table 16 of PRL C 71 (2005) 034908
+description: 'Ratios of measured quantities at 200 GeV/130 GeV and 200 GeV/19.6 GeV. The number of $N_P$ is the average between two energies.'
+keywords: # used for searching, possibly mutliple values for each keywords
+- {name: reactions, values: [Au Au --> CHARGED X]}
+- {name: cmenergies, values: [200.0, 130.0, 19.6]}
+- {name: phrases, values: [ppg019, mid-rapidity, transverse energy, charged particle multiplicity]}
+data_file: ppg019fig16b.yaml 
+additional_resources:
+- {description: Original EPS Image file, location: fig06_left.eps}
+- {description: PNG Image file, location: fig06_left.png}
+- {description: Thumbnail Image file, location: thumb_fig06_left.png}
+- {description: Original EPS Image file, location: fig06_right.eps}
+- {description: PNG Image file, location: fig06_right.png}
+- {description: Thumbnail Image file, location: thumb_fig06_right.png}
+---
+# This is Figure 17.
+name: "Figure 17a"
+location: Data From Table 17 of PRL C 71 (2005) 034908
+description: 'Average values of $dN_{ch}$/$d\eta$/($0.5N_p$) at different $\sqrt{s_{NN}}$'
+keywords: # used for searching, possibly mutliple values for each keywords
+- {name: reactions, values: [Au Au --> CHARGED X]}
+- {name: cmenergies, values: [200.0, 130.0, 17.2]}
+- {name: phrases, values: [ppg019, mid-rapidity, transverse energy, charged particle multiplicity]}
+data_file: ppg019fig17a.yaml 
+additional_resources:
+- {description: Original EPS Image file, location: fig09_left.eps}
+- {description: PNG Image file, location: fig09_left.png}
+- {description: Thumbnail Image file, location: thumb_fig09_left.png}
+- {description: Original EPS Image file, location: fig09_right.eps}
+- {description: PNG Image file, location: fig09_right.png}
+- {description: Thumbnail Image file, location: thumb_fig09_right.png}
+- {description: Original EPS Image file, location: fig12.eps}
+- {description: PNG Image file, location: fig12.png}
+- {description: Thumbnail Image file, location: thumb_fig12.png}
+---
+# This is Figure 17.
+name: "Figure 17b"
+location: Data From Table 17 of PRL C 71 (2005) 034908
+description: 'Average values of $dN_{ch}$/$d\eta$/($0.5N_p$) at different $\sqrt{s_{NN}}$'
+keywords: # used for searching, possibly mutliple values for each keywords
+- {name: reactions, values: [Au Au --> CHARGED X]}
+- {name: cmenergies, values: [19.6]}
+- {name: phrases, values: [ppg019, mid-rapidity, transverse energy, charged particle multiplicity]}
+data_file: ppg019fig17b.yaml 
+additional_resources:
+- {description: Original EPS Image file, location: fig09_left.eps}
+- {description: PNG Image file, location: fig09_left.png}
+- {description: Thumbnail Image file, location: thumb_fig09_left.png}
+- {description: Original EPS Image file, location: fig09_right.eps}
+- {description: PNG Image file, location: fig09_right.png}
+- {description: Thumbnail Image file, location: thumb_fig09_right.png}
+- {description: Original EPS Image file, location: fig12.eps}
+- {description: PNG Image file, location: fig12.png}
+- {description: Thumbnail Image file, location: thumb_fig12.png}
+---
+# This is Figure 17.
+name: "Figure 17c"
+location: Data From Table 17 of PRL C 71 (2005) 034908
+description: 'Average values of $dN_{ch}$/$d\eta$/($0.5N_p$) at different $\sqrt{s_{NN}}$'
+keywords: # used for searching, possibly mutliple values for each keywords
+- {name: reactions, values: [Au Au --> CHARGED X]}
+- {name: cmenergies, values: [8.7]}
+- {name: phrases, values: [ppg019, mid-rapidity, transverse energy, charged particle multiplicity]}
+data_file: ppg019fig17c.yaml 
+additional_resources:
+- {description: Original EPS Image file, location: fig09_left.eps}
+- {description: PNG Image file, location: fig09_left.png}
+- {description: Thumbnail Image file, location: thumb_fig09_left.png}
+- {description: Original EPS Image file, location: fig09_right.eps}
+- {description: PNG Image file, location: fig09_right.png}
+- {description: Thumbnail Image file, location: thumb_fig09_right.png}
+- {description: Original EPS Image file, location: fig12.eps}
+- {description: PNG Image file, location: fig12.png}
+- {description: Thumbnail Image file, location: thumb_fig12.png}
+---
+# This is Figure 17.
+name: "Figure 17d"
+location: Data From Table 17 of PRL C 71 (2005) 034908
+description: 'Average values of $dN_{ch}$/$d\eta$/($0.5N_p$) at different $\sqrt{s_{NN}}$'
+keywords: # used for searching, possibly mutliple values for each keywords
+- {name: reactions, values: [Au Au --> CHARGED X]}
+- {name: cmenergies, values: [4.8]}
+- {name: phrases, values: [ppg019, mid-rapidity, transverse energy, charged particle multiplicity]}
+data_file: ppg019fig17d.yaml 
+additional_resources:
+- {description: Original EPS Image file, location: fig09_left.eps}
+- {description: PNG Image file, location: fig09_left.png}
+- {description: Thumbnail Image file, location: thumb_fig09_left.png}
+- {description: Original EPS Image file, location: fig09_right.eps}
+- {description: PNG Image file, location: fig09_right.png}
+- {description: Thumbnail Image file, location: thumb_fig09_right.png}
+- {description: Original EPS Image file, location: fig12.eps}
+- {description: PNG Image file, location: fig12.png}
+- {description: Thumbnail Image file, location: thumb_fig12.png}
+---

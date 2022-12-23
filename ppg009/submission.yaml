@@ -139,7 +139,7 @@ keywords: # used for searching, possibly mutliple values for each keywords
 - {name: phrases, values: [ppg009]}
 data_file: ppg009fig10a.yaml
 ---
-# This is Figure 10a.
+# This is Figure 10a2.
 name: "Figure 10a-2"
 location: Data From Table 10 of PRC 69 (024904) 2004
 description: '$\pi^{-}$ invariant yields in each event centrality and $p_T$ bin measured at midrapidity, normalized to one rapidity unit.'
@@ -150,24 +150,44 @@ keywords: # used for searching, possibly mutliple values for each keywords
 data_file: ppg009fig10a2.yaml
 ---
 # This is Figure 10b.
-name: "Figure 10b"
+name: "Figure 10b-1"
 location: Data From Table 10 of PRC 69 (024904) 2004
-description: 'Pion invariant yields in each event centrality and $p_T$ bin measured at midrapidity, normalized to one rapidity unit.'
+description: '$\pi^{+}$ invariant yields in each event centrality and $p_T$ bin measured at midrapidity, normalized to one rapidity unit.'
 keywords: # used for searching, possibly mutliple values for each keywords
 - {name: reactions, values: [Au Au --> CHARGED X]}
 - {name: cmenergies, values: [130.0]}
 - {name: phrases, values: [ppg009]}
 data_file: ppg009fig10b.yaml
 ---
+# This is Figure 10b2.
+name: "Figure 10b-2"
+location: Data From Table 10 of PRC 69 (024904) 2004
+description: '$\pi^{-}$ invariant yields in each event centrality and $p_T$ bin measured at midrapidity, normalized to one rapidity unit.'
+keywords: # used for searching, possibly mutliple values for each keywords
+- {name: reactions, values: [Au Au --> CHARGED X]}
+- {name: cmenergies, values: [130.0]}
+- {name: phrases, values: [ppg009]}
+data_file: ppg009fig10b2.yaml
+---
 # This is Figure 11a.
-name: "Figure 11a"
+name: "Figure 11a-1"
 location: Data From Table 11 of PRC 69 (024904) 2004
-description: 'Kaon invariant yields in each event centrality and $p_T$ bin, measured at midrapidity and normalized to one rapidity unit.'
+description: '$k^+$ invariant yields in each event centrality and $p_T$ bin, measured at midrapidity and normalized to one rapidity unit.'
 keywords: # used for searching, possibly mutliple values for each keywords
 - {name: reactions, values: [Au Au --> CHARGED X]}
 - {name: cmenergies, values: [130.0]}
 - {name: phrases, values: [ppg009]}
 data_file: ppg009fig11a.yaml
+---
+# This is Figure 11a2.
+name: "Figure 11a-2"
+location: Data From Table 11 of PRC 69 (024904) 2004
+description: '$k^-$ invariant yields in each event centrality and $p_T$ bin, measured at midrapidity and normalized to one rapidity unit.'
+keywords: # used for searching, possibly mutliple values for each keywords
+- {name: reactions, values: [Au Au --> CHARGED X]}
+- {name: cmenergies, values: [130.0]}
+- {name: phrases, values: [ppg009]}
+data_file: ppg009fig11a2.yaml
 ---
 # This is Figure 11b.
 name: "Figure 11b"
@@ -190,14 +210,24 @@ keywords: # used for searching, possibly mutliple values for each keywords
 data_file: ppg009fig12a.yaml
 ---
 # This is Figure 12b.
-name: "Figure 12b"
+name: "Figure 12b-1"
 location: Data From Table 12 of PRC 69 (024904) 2004
-description: '(Anti)proton invariant yields in each event centrality and $p_T$ bin, measured at midrapidity and normalized to one rapidity unit.'
+description: '$p$ invariant yields in each event centrality and $p_T$ bin, measured at midrapidity and normalized to one rapidity unit.'
 keywords: # used for searching, possibly mutliple values for each keywords
 - {name: reactions, values: [Au Au --> CHARGED X]}
 - {name: cmenergies, values: [130.0]}
 - {name: phrases, values: [ppg009]}
 data_file: ppg009fig12b.yaml
+---
+# This is Figure 12b2.
+name: "Figure 12b-2"
+location: Data From Table 12 of PRC 69 (024904) 2004
+description: '$\bar{p}$ invariant yields in each event centrality and $p_T$ bin, measured at midrapidity and normalized to one rapidity unit.'
+keywords: # used for searching, possibly mutliple values for each keywords
+- {name: reactions, values: [Au Au --> CHARGED X]}
+- {name: cmenergies, values: [130.0]}
+- {name: phrases, values: [ppg009]}
+data_file: ppg009fig12b2.yaml
 ---
 # This is Figure 13a.
 name: "Figure 13a"

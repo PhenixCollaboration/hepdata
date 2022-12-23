@@ -1,0 +1,17 @@
+independent_variables:
+- header: {name: 'Experiment'}
+  values:
+  - {value: PHENIX}
+dependent_variables:
+- header: {name: 'Ratio of $\phi$ to $\pi$'}
+  values:
+  - value: 0.015
+    errors:
+    - {symerror: 0.002, label: 'stat.'}
+    - {symerror: 0.002, label: 'sys.'}
+- header: {name: 'Ratio of $\phi$ to $K$'}
+  values:
+  - value: 0.094
+    errors:
+    - {symerror: 0.014, label: 'stat.'}
+    - {symerror: 0.016, label: 'sys.'}

@@ -1,0 +1,40 @@
+independent_variables:
+- header: {name: '$p_T$ (GeV/$c$)'}
+  values:
+  - {low: 0.91, high: 1.35}
+  - {low: 1.35, high: 1.60}
+  - {low: 1.60, high: 1.83}
+  - {low: 1.83, high: 2.05}
+  - {low: 2.05, high: 2.35}
+  - {low: 2.35, high: 2.71}
+  - {low: 2.71, high: 3.14}
+  - {low: 3.14, high: 4.00}
+dependent_variables:
+- header: {name: '$R_{cp}$ of $\phi$'}
+  qualifiers:
+  - {name: 'Centrality', value: '0-5%'}
+  values:
+  - value: 0.545
+    errors:
+    - {symerror: 0.179, label: 'stat.'}
+  - value: 0.698
+    errors:
+    - {symerror: 0.198, label: 'stat.'}
+  - value: 0.565
+    errors:
+    - {symerror: 0.141, label: 'stat.'}
+  - value: 0.651
+    errors:
+    - {symerror: 0.181, label: 'stat.'}
+  - value: 0.548
+    errors:
+    - {symerror: 0.254, label: 'stat.'}
+  - value: 0.631
+    errors:
+    - {symerror: 0.237, label: 'stat.'}
+  - value: 1.034
+    errors:
+    - {symerror: 0.451, label: 'stat.'}
+  - value: 0.670
+    errors:
+    - {symerror: 0.236, label: 'stat.'}

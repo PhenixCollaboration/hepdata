@@ -1,0 +1,96 @@
+independent_variables:
+- header: {name: '$p_T$ (GeV/$c$)'}
+  values:
+  - {low: 0.65, high: 0.75}
+  - {low: 0.75, high: 0.85}
+  - {low: 0.85, high: 0.95}
+  - {low: 0.95, high: 1.05}
+  - {low: 1.05, high: 1.15}
+  - {low: 1.15, high: 1.25}
+  - {low: 1.25, high: 1.35}
+  - {low: 1.35, high: 1.45}
+  - {low: 1.45, high: 1.55}
+  - {low: 1.55, high: 1.65}
+  - {low: 1.65, high: 1.75}
+  - {low: 1.75, high: 1.85}
+  - {low: 1.85, high: 1.95}
+  - {low: 1.95, high: 2.10}
+  - {low: 2.10, high: 2.30}
+  - {low: 2.30, high: 2.50}
+  - {low: 2.50, high: 2.70}
+  - {low: 2.70, high: 2.90}
+  - {low: 2.90, high: 3.25}
+  - {low: 3.25, high: 3.75}
+  - {low: 3.75, high: 4.25}
+  - {low: 4.25, high: 5.00}
+dependent_variables:
+- header: {name: '$R_{cp}$ of ($p$ + $\bar{p}$)/2'}
+  qualifiers:
+  - {name: 'Centrality', value: '0-5%'}
+  values:
+  - value: 0.472
+    errors:
+    - {symerror: 0.011, label: 'stat.'}
+  - value: 0.513
+    errors:
+    - {symerror: 0.012, label: 'stat.'}
+  - value: 0.562
+    errors:
+    - {symerror: 0.013, label: 'stat.'}
+  - value: 0.609
+    errors:
+    - {symerror: 0.015, label: 'stat.'}
+  - value: 0.663
+    errors:
+    - {symerror: 0.017, label: 'stat.'}
+  - value: 0.729
+    errors:
+    - {symerror: 0.020, label: 'stat.'}
+  - value: 0.775
+    errors:
+    - {symerror: 0.022, label: 'stat.'}
+  - value: 0.825
+    errors:
+    - {symerror: 0.026, label: 'stat.'}
+  - value: 0.864
+    errors:
+    - {symerror: 0.029, label: 'stat.'}
+  - value: 0.886
+    errors:
+    - {symerror: 0.032, label: 'stat.'}
+  - value: 0.929
+    errors:
+    - {symerror: 0.037, label: 'stat.'}
+  - value: 0.918
+    errors:
+    - {symerror: 0.040, label: 'stat.'}
+  - value: 0.971
+    errors:
+    - {symerror: 0.047, label: 'stat.'}
+  - value: 0.960
+    errors:
+    - {symerror: 0.053, label: 'stat.'}
+  - value: 0.944
+    errors:
+    - {symerror: 0.036, label: 'stat.'}
+  - value: 1.000
+    errors:
+    - {symerror: 0.049, label: 'stat.'}
+  - value: 0.959
+    errors:
+    - {symerror: 0.061, label: 'stat.'}
+  - value: 0.930
+    errors:
+    - {symerror: 0.076, label: 'stat.'}
+  - value: 0.857
+    errors:
+    - {symerror: 0.088, label: 'stat.'}
+  - value: 0.942
+    errors:
+    - {symerror: 0.098, label: 'stat.'}
+  - value: 0.941
+    errors:
+    - {symerror: 0.165, label: 'stat.'}
+  - value: 1.001
+    errors:
+    - {symerror: 0.296, label: 'stat.'}

@@ -1,0 +1,26 @@
+independent_variables:
+- header: {name: '$\sqrt{s_{NN}}$ [GeV]'}
+  values:
+  - {value: 200}
+  - {value: 130}
+  - {value: 19.6}
+  - {value: 17.2}
+  - {value: 8.7}
+dependent_variables:
+- header: {name: '$dN_{ch}$/$d\eta$ Average'}
+  values:
+  - value: 0.28
+    errors:
+    - {asymerror: {plus: 0.18, minus: 0.15}, label: 'stat.'}
+  - value: 0.26
+    errors:
+    - {asymerror: {plus: 0.18, minus: 0.11}, label: 'stat.'}
+  - value: 0.23
+    errors:
+    - {asymerror: {plus: 0.73, minus: 0.23}, label: 'stat.'}
+  - value: 0.31
+    errors:
+    - {asymerror: {plus: 0.46, minus: 0.24}, label: 'stat.'}
+  - value: 0.12
+    errors:
+    - {asymerror: {plus: 0.64, minus: 0.20}, label: 'stat.'}

@@ -1,0 +1,483 @@
+#PHENIX paper PPG016
+#
+#Production of phi mesons at mid-rapidity in $\sqrt{s_{NN}} = 200 GeV Au + Au collisions at RHIC
+#
+#Phys.Rev. C 72 (2005) 014903
+#InspireHEP ID: 661505
+#
+#Prepared by Nikolas Nelson
+#Please contact Christine Nattrass if you have any questions about this submission
+#PPG liaison:
+#Reviewer:
+#
+comment: | # Information that applies to all data tables.
+    We present the results of $\phi$ meson production in the $K^+ K^-$ decay channel from Au + Au collisions at $\sqrt{s_{NN}}$ = 200 GeV as measured at mid-rapidity by the PHENIX detector at RHIC. Precision resonance centroid and width values are extracted as a function of collision centrality. No significant variation from the PDG accepted values is observed, contrary to some model predictions. The $\phi$ transverse mass spectra are fitted with a linear exponential function for which the derived inverse slope parameter is seen to be constant as a function of centrality. However, when these data are fitted by a hydrodynamic model the result is that the centrality-dependent freeze-out temperature and the expansion velocity values are consistent with the values previously derived from fitting identified charged hadron data. As a function of transverse momentum the collisions scaled peripheral-to-central yield ratio $R_{CP}$ for the $\phi$ is comparable to that of pions rather than that of protons. This result lends support to theoretical models which distinguish between baryons and mesons instead of particle mass for explaining the anomalous (anti)proton yield.
+additional_resources:
+- {location: "https://phenix-intra.sdcc.bnl.gov/WWW/p/info/ppg/016/", description: "web page with data points"}
+- {location: "http://arxiv.org/abs/nucl-ex/0410012", description: arXiv}
+- {location: "https://inspirehep.net/literature/661505", description: InspireHEP}
+---
+# This is Figure 1.
+name: "Table 1"
+location: Data From Table 1 of PRL C 72 (2005) 014903
+description: 'Average number of participants and collisions in Au + Au reaction at RHIC for different centralities determined from a Glauber model.'
+keywords: # used for searching, possibly mutliple values for each keywords
+- {name: reactions, values: [Au Au --> CHARGED X]}
+- {name: cmenergies, values: [200.0]}
+- {name: phrases, values: [ppg016, mid-rapidity]}
+data_file: ppg016fig1.yaml 
+---
+# This is Figure 2.
+name: "Table 2"
+location: Data From Table 2 of PRL C 72 (2005) 014903
+description: '$\phi$ meson mass centroid and width for minimum-bias Au + Au collisions at $\sqrt{s_{NN}}$ = 200 GeV.'
+keywords: # used for searching, possibly mutliple values for each keywords
+- {name: reactions, values: [Au Au --> CHARGED X]}
+- {name: cmenergies, values: [200.0]}
+- {name: phrases, values: [ppg016, mid-rapidity]}
+data_file: ppg016fig2.yaml 
+---
+# This is Figure 4.
+name: "Table 4"
+location: Data From Table 4 of PRL C 72 (2005) 014903
+description: 'Minimum-bias $dN/dy$ and $T$ for different subsystem combinations.'
+keywords: # used for searching, possibly mutliple values for each keywords
+- {name: reactions, values: [Au Au --> CHARGED X]}
+- {name: cmenergies, values: [200.0]}
+- {name: phrases, values: [ppg016, mid-rapidity]}
+data_file: ppg016fig4.yaml 
+---
+# This is Figure 5.
+name: "Table 5"
+location: Data From Table 5 of PRL C 72 (2005) 014903
+description: '$dN/dy$ and $T$ for different centrality bins.'
+keywords: # used for searching, possibly mutliple values for each keywords
+- {name: reactions, values: [Au Au --> CHARGED X]}
+- {name: cmenergies, values: [200.0]}
+- {name: phrases, values: [ppg016, mid-rapidity]}
+data_file: ppg016fig5.yaml 
+---
+# This is Figure 6.
+name: "Table 6"
+location: Data From Table 6 of PRL C 72 (2005) 014903
+description: 'Blast wave model parameters as a function of centrality from fitting $\pi^±$, $K^±$, $p$, and $\bar{p}$ spectra.'
+keywords: # used for searching, possibly mutliple values for each keywords
+- {name: reactions, values: [Au Au --> CHARGED X]}
+- {name: cmenergies, values: [200.0]}
+- {name: phrases, values: [ppg016, mid-rapidity]}
+data_file: ppg016fig6.yaml 
+---
+# This is Figure 7.
+name: "Table 7a"
+location: Data From Table 7 of PRL C 72 (2005) 014903
+description: '$m_T$ spectra of $\phi$ mesons in different centrality bins.'
+keywords: # used for searching, possibly mutliple values for each keywords
+- {name: reactions, values: [Au Au --> CHARGED X]}
+- {name: cmenergies, values: [200.0]}
+- {name: phrases, values: [ppg016, mid-rapidity]}
+data_file: ppg016fig7a.yaml 
+---
+# This is Figure 7.
+name: "Table 7b"
+location: Data From Table 7 of PRL C 72 (2005) 014903
+description: '$m_T$ spectra of $\phi$ mesons in different centrality bins.'
+keywords: # used for searching, possibly mutliple values for each keywords
+- {name: reactions, values: [Au Au --> CHARGED X]}
+- {name: cmenergies, values: [200.0]}
+- {name: phrases, values: [ppg016, mid-rapidity]}
+data_file: ppg016fig7b.yaml 
+---
+# This is Figure 7.
+name: "Table 7c"
+location: Data From Table 7 of PRL C 72 (2005) 014903
+description: '$m_T$ spectra of $\phi$ mesons in different centrality bins.'
+keywords: # used for searching, possibly mutliple values for each keywords
+- {name: reactions, values: [Au Au --> CHARGED X]}
+- {name: cmenergies, values: [200.0]}
+- {name: phrases, values: [ppg016, mid-rapidity]}
+data_file: ppg016fig7c.yaml 
+---
+# This is Figure 9.
+name: "Figure 9"
+location: Data From Fig. 9 of PRL C 72 (2005) 014903
+description: 'Centrality dependence of the $\phi$ mass centroid and $\phi$ intrinsic width.'
+keywords: # used for searching, possibly mutliple values for each keywords
+- {name: reactions, values: [Au Au --> CHARGED X]}
+- {name: cmenergies, values: [200.0]}
+- {name: phrases, values: [ppg016, mid-rapidity]}
+data_file: ppg016fig9.yaml 
+---
+# This is Figure 10.
+name: "Figure 10a"
+location: Data From Fig. 10 of PRL C 72 (2005) 014903
+description: 'Minimum-bias $m_T$ spectra of $\phi$ for differetn subsystem combinations.'
+keywords: # used for searching, possibly mutliple values for each keywords
+- {name: reactions, values: [Au Au --> CHARGED X]}
+- {name: cmenergies, values: [200.0]}
+- {name: phrases, values: [ppg016, mid-rapidity]}
+data_file: ppg016fig10a.yaml 
+additional_resources:
+- {description: Original EPS Image file, location: min-bias.eps}
+- {description: PNG Image file, location: min-bias.png}
+- {description: Thumbnail Image file, location: thumb_min-bias.png}
+---
+# This is Figure 10.
+name: "Figure 10b"
+location: Data From Fig. 10 of PRL C 72 (2005) 014903
+description: 'Minimum-bias $m_T$ spectra of $\phi$ for differetn subsystem combinations.'
+keywords: # used for searching, possibly mutliple values for each keywords
+- {name: reactions, values: [Au Au --> CHARGED X]}
+- {name: cmenergies, values: [200.0]}
+- {name: phrases, values: [ppg016, mid-rapidity]}
+data_file: ppg016fig10b.yaml 
+additional_resources:
+- {description: Original EPS Image file, location: min-bias.eps}
+- {description: PNG Image file, location: min-bias.png}
+- {description: Thumbnail Image file, location: thumb_min-bias.png}
+---
+# This is Figure 10.
+name: "Figure 10c"
+location: Data From Fig. 10 of PRL C 72 (2005) 014903
+description: 'Minimum-bias $m_T$ spectra of $\phi$ for differetn subsystem combinations.'
+keywords: # used for searching, possibly mutliple values for each keywords
+- {name: reactions, values: [Au Au --> CHARGED X]}
+- {name: cmenergies, values: [200.0]}
+- {name: phrases, values: [ppg016, mid-rapidity]}
+data_file: ppg016fig10c.yaml 
+additional_resources:
+- {description: Original EPS Image file, location: min-bias.eps}
+- {description: PNG Image file, location: min-bias.png}
+- {description: Thumbnail Image file, location: thumb_min-bias.png}
+---
+# This is Figure 11.
+name: "Figure 11a"
+location: Data From Fig. 11 of PRL C 72 (2005) 014903
+description: '$\phi$ $m_T$ spectra in different centrality bins.'
+keywords: # used for searching, possibly mutliple values for each keywords
+- {name: reactions, values: [Au Au --> CHARGED X]}
+- {name: cmenergies, values: [200.0]}
+- {name: phrases, values: [ppg016, mid-rapidity]}
+data_file: ppg016fig11a.yaml 
+additional_resources:
+- {description: Original EPS Image file, location: centrality-mt.eps}
+- {description: PNG Image file, location: centrality-mt.png}
+- {description: Thumbnail Image file, location: thumb_centrality-mt.png}
+---
+# This is Figure 11.
+name: "Figure 11b"
+location: Data From Fig. 11 of PRL C 72 (2005) 014903
+description: '$\phi$ $m_T$ spectra in different centrality bins.'
+keywords: # used for searching, possibly mutliple values for each keywords
+- {name: reactions, values: [Au Au --> CHARGED X]}
+- {name: cmenergies, values: [200.0]}
+- {name: phrases, values: [ppg016, mid-rapidity]}
+data_file: ppg016fig11b.yaml 
+additional_resources:
+- {description: Original EPS Image file, location: centrality-mt.eps}
+- {description: PNG Image file, location: centrality-mt.png}
+- {description: Thumbnail Image file, location: thumb_centrality-mt.png}
+---
+# This is Figure 11.
+name: "Figure 11c"
+location: Data From Fig. 11 of PRL C 72 (2005) 014903
+description: '$\phi$ $m_T$ spectra in different centrality bins.'
+keywords: # used for searching, possibly mutliple values for each keywords
+- {name: reactions, values: [Au Au --> CHARGED X]}
+- {name: cmenergies, values: [200.0]}
+- {name: phrases, values: [ppg016, mid-rapidity]}
+data_file: ppg016fig11c.yaml 
+additional_resources:
+- {description: Original EPS Image file, location: centrality-mt.eps}
+- {description: PNG Image file, location: centrality-mt.png}
+- {description: Thumbnail Image file, location: thumb_centrality-mt.png}
+---
+# This is Figure 12.
+name: "Figure 12a"
+location: Data From Fig. 12 of PRL C 72 (2005) 014903
+description: 'Centrality dependence of $\phi$ yield at midrapidity.'
+keywords: # used for searching, possibly mutliple values for each keywords
+- {name: reactions, values: [Au Au --> CHARGED X]}
+- {name: cmenergies, values: [200.0]}
+- {name: phrases, values: [ppg016, mid-rapidity]}
+data_file: ppg016fig12a.yaml 
+additional_resources:
+- {description: Original EPS Image file, location: cent-1-1-1.eps}
+- {description: PNG Image file, location: cent-1-1-1.png}
+- {description: Thumbnail Image file, location: thumb_cent-1-1-1.png}
+---
+# This is Figure 12.
+name: "Figure 12b"
+location: Data From Fig. 12 of PRL C 72 (2005) 014903
+description: 'Centrality dependence of $\phi$ yield at midrapidity.'
+keywords: # used for searching, possibly mutliple values for each keywords
+- {name: reactions, values: [Au Au --> CHARGED X]}
+- {name: cmenergies, values: [200.0]}
+- {name: phrases, values: [ppg016, mid-rapidity]}
+data_file: ppg016fig12b.yaml 
+additional_resources:
+- {description: Original EPS Image file, location: cent-1-1-1.eps}
+- {description: PNG Image file, location: cent-1-1-1.png}
+- {description: Thumbnail Image file, location: thumb_cent-1-1-1.png}
+---
+# This is Figure 13.
+name: "Figure 13"
+location: Data From Fig. 13 of PRL C 72 (2005) 014903
+description: 'Centrality dependence of the inverse slope, $T$.'
+keywords: # used for searching, possibly mutliple values for each keywords
+- {name: reactions, values: [Au Au --> CHARGED X]}
+- {name: cmenergies, values: [200.0]}
+- {name: phrases, values: [ppg016, mid-rapidity]}
+data_file: ppg016fig13.yaml 
+additional_resources:
+- {description: Original EPS Image file, location: cent-1-1-2.eps}
+- {description: PNG Image file, location: cent-1-1-2.png}
+- {description: Thumbnail Image file, location: thumb_cent-1-1-2.png}
+---
+# This is Figure 14.
+name: "Figure 14a"
+location: Data From Fig. 14 of PRL C 72 (2005) 014903
+description: 'Centrality dependence of particle ratios for $K^+$/$\pi^+$ and $K^-$/$\pi^-$.'
+keywords: # used for searching, possibly mutliple values for each keywords
+- {name: reactions, values: [Au Au --> CHARGED X]}
+- {name: cmenergies, values: [200.0]}
+- {name: phrases, values: [ppg016, mid-rapidity]}
+data_file: ppg016fig14a.yaml 
+additional_resources:
+- {description: Original EPS Image file, location: ratio_pi_k_phi_npart.eps}
+- {description: PNG Image file, location: ratio_pi_k_phi_npart.png}
+- {description: Thumbnail Image file, location: thumb_ratio_pi_k_phi_npart.png}
+---
+# This is Figure 14.
+name: "Figure 14b"
+location: Data From Fig. 14 of PRL C 72 (2005) 014903
+description: 'Centrality dependence of particle ratios for $\phi$/$\pi$ and $\phi$/$K$.'
+keywords: # used for searching, possibly mutliple values for each keywords
+- {name: reactions, values: [Au Au --> CHARGED X]}
+- {name: cmenergies, values: [200.0]}
+- {name: phrases, values: [ppg016, mid-rapidity]}
+data_file: ppg016fig14b.yaml 
+additional_resources:
+- {description: Original EPS Image file, location: ratio_pi_k_phi_npart.eps}
+- {description: PNG Image file, location: ratio_pi_k_phi_npart.png}
+- {description: Thumbnail Image file, location: thumb_ratio_pi_k_phi_npart.png}
+---
+# This is Figure 15.
+name: "Figure 15"
+location: Data From Fig. 15 of PRL C 72 (2005) 014903
+description: 'Centrality dependence of $\phi$ yields at different collision energies.'
+keywords: # used for searching, possibly mutliple values for each keywords
+- {name: reactions, values: [Au Au --> CHARGED X]}
+- {name: cmenergies, values: [200.0]}
+- {name: phrases, values: [ppg016, mid-rapidity]}
+data_file: ppg016fig15.yaml 
+additional_resources:
+- {description: Original EPS Image file, location: cent-sqrts-1.eps}
+- {description: PNG Image file, location: cent-sqrts-1.png}
+- {description: Thumbnail Image file, location: thumb_cent-sqrts-1.png}
+---
+# This is Figure 16.
+name: "Figure 16"
+location: Data From Fig. 16 of PRL C 72 (2005) 014903
+description: '$\phi$/$\pi$ and $\phi$/$K^-$ ratios as a function of collision energies.'
+keywords: # used for searching, possibly mutliple values for each keywords
+- {name: reactions, values: [Au Au --> CHARGED X]}
+- {name: cmenergies, values: [200.0]}
+- {name: phrases, values: [ppg016, mid-rapidity]}
+data_file: ppg016fig16.yaml 
+additional_resources:
+- {description: Original EPS Image file, location: ratio_nn_phipik-v2.eps}
+- {description: PNG Image file, location: ratio_nn_phipik-v2.png}
+- {description: Thumbnail Image file, location: thumb_ratio_nn_phipik-v2.png}
+---
+# This is Figure 17.
+name: "Figure 17"
+location: Data From Fig. 17 of PRL C 72 (2005) 014903
+description: 'Inverse slope parameteres $T$ in $m_T$ spectra.'
+keywords: # used for searching, possibly mutliple values for each keywords
+- {name: reactions, values: [Au Au --> CHARGED X]}
+- {name: cmenergies, values: [200.0]}
+- {name: phrases, values: [ppg016, mid-rapidity]}
+data_file: ppg016fig17.yaml
+---
+# This is Figure 19.
+name: "Figure 19a"
+location: Data From Fig. 19 of PRL C 72 (2005) 014903
+description: '$\pi^+$ & $\pi^-$ $p_T$ spectra for 0-10 centrality bins.'
+keywords: # used for searching, possibly mutliple values for each keywords
+- {name: reactions, values: [Au Au --> CHARGED X]}
+- {name: cmenergies, values: [200.0]}
+- {name: phrases, values: [ppg016, mid-rapidity]}
+data_file: ppg016fig19a.yaml 
+additional_resources:
+- {description: Original EPS Image file, location: simfit_pikp_cent12_0-10.eps}
+- {description: PNG Image file, location: simfit_pikp_cent12_0-10.png}
+- {description: Thumbnail Image file, location: thumb_simfit_pikp_cent12_0-10.png}
+---
+# This is Figure 19.
+name: "Figure 19b"
+location: Data From Fig. 19 of PRL C 72 (2005) 014903
+description: '$K^+$ & $K^-$ $p_T$ spectra for 0-10 centrality bins.'
+keywords: # used for searching, possibly mutliple values for each keywords
+- {name: reactions, values: [Au Au --> CHARGED X]}
+- {name: cmenergies, values: [200.0]}
+- {name: phrases, values: [ppg016, mid-rapidity]}
+data_file: ppg016fig19b.yaml 
+additional_resources:
+- {description: Original EPS Image file, location: simfit_pikp_cent12_0-10.eps}
+- {description: PNG Image file, location: simfit_pikp_cent12_0-10.png}
+- {description: Thumbnail Image file, location: thumb_simfit_pikp_cent12_0-10.png}
+---
+# This is Figure 19.
+name: "Figure 19c"
+location: Data From Fig. 19 of PRL C 72 (2005) 014903
+description: '$p$ & $\bar{p}$ $p_T$ spectra for 0-10 centrality bins.'
+keywords: # used for searching, possibly mutliple values for each keywords
+- {name: reactions, values: [Au Au --> CHARGED X]}
+- {name: cmenergies, values: [200.0]}
+- {name: phrases, values: [ppg016, mid-rapidity]}
+data_file: ppg016fig19c.yaml 
+additional_resources:
+- {description: Original EPS Image file, location: simfit_pikp_cent12_0-10.eps}
+- {description: PNG Image file, location: simfit_pikp_cent12_0-10.png}
+- {description: Thumbnail Image file, location: thumb_simfit_pikp_cent12_0-10.png}
+---
+# This is Figure 20.
+name: "Figure 20a"
+location: Data From Fig. 20 of PRL C 72 (2005) 014903
+description: '$\pi^+$ & $\pi^-$ $p_T$ spectra for 10-40 centrality bins.'
+keywords: # used for searching, possibly mutliple values for each keywords
+- {name: reactions, values: [Au Au --> CHARGED X]}
+- {name: cmenergies, values: [200.0]}
+- {name: phrases, values: [ppg016, mid-rapidity]}
+data_file: ppg016fig20a.yaml 
+additional_resources:
+- {description: Original EPS Image file, location: simfit_pikp_cent15_10-40.eps}
+- {description: PNG Image file, location: simfit_pikp_cent15_10-40.png}
+- {description: Thumbnail Image file, location: thumb_simfit_pikp_cent15_10-40.png}
+---
+# This is Figure 20.
+name: "Figure 20b"
+location: Data From Fig. 20 of PRL C 72 (2005) 014903
+description: '$K^+$ & $K^-$ $p_T$ spectra for 10-40 centrality bins.'
+keywords: # used for searching, possibly mutliple values for each keywords
+- {name: reactions, values: [Au Au --> CHARGED X]}
+- {name: cmenergies, values: [200.0]}
+- {name: phrases, values: [ppg016, mid-rapidity]}
+data_file: ppg016fig20b.yaml 
+additional_resources:
+- {description: Original EPS Image file, location: simfit_pikp_cent15_10-40.eps}
+- {description: PNG Image file, location: simfit_pikp_cent15_10-40.png}
+- {description: Thumbnail Image file, location: thumb_simfit_pikp_cent15_10-40.png}
+---
+# This is Figure 20.
+name: "Figure 20c"
+location: Data From Fig. 20 of PRL C 72 (2005) 014903
+description: '$p$ & $\bar{p}$ $p_T$ spectra for 10-40 centrality bins.'
+keywords: # used for searching, possibly mutliple values for each keywords
+- {name: reactions, values: [Au Au --> CHARGED X]}
+- {name: cmenergies, values: [200.0]}
+- {name: phrases, values: [ppg016, mid-rapidity]}
+data_file: ppg016fig20c.yaml 
+additional_resources:
+- {description: Original EPS Image file, location: simfit_pikp_cent15_10-40.eps}
+- {description: PNG Image file, location: simfit_pikp_cent15_10-40.png}
+- {description: Thumbnail Image file, location: thumb_simfit_pikp_cent15_10-40.png}
+---
+# This is Figure 21.
+name: "Figure 21a"
+location: Data From Fig. 21 of PRL C 72 (2005) 014903
+description: '$\pi^+$ & $\pi^-$ $p_T$ spectra for 40-92 centrality bins.'
+keywords: # used for searching, possibly mutliple values for each keywords
+- {name: reactions, values: [Au Au --> CHARGED X]}
+- {name: cmenergies, values: [200.0]}
+- {name: phrases, values: [ppg016, mid-rapidity]}
+data_file: ppg016fig21a.yaml 
+additional_resources:
+- {description: Original EPS Image file, location: simfit_pikp_cent16_40-92.eps}
+- {description: PNG Image file, location: simfit_pikp_cent16_40-92.png}
+- {description: Thumbnail Image file, location: thumb_simfit_pikp_cent16_40-92.png}
+---
+# This is Figure 21.
+name: "Figure 21b"
+location: Data From Fig. 21 of PRL C 72 (2005) 014903
+description: '$K^+$ & $K^-$ $p_T$ spectra for 40-92 centrality bins.'
+keywords: # used for searching, possibly mutliple values for each keywords
+- {name: reactions, values: [Au Au --> CHARGED X]}
+- {name: cmenergies, values: [200.0]}
+- {name: phrases, values: [ppg016, mid-rapidity]}
+data_file: ppg016fig21b.yaml 
+additional_resources:
+- {description: Original EPS Image file, location: simfit_pikp_cent16_40-92.eps}
+- {description: PNG Image file, location: simfit_pikp_cent16_40-92.png}
+- {description: Thumbnail Image file, location: thumb_simfit_pikp_cent16_40-92.png}
+---
+# This is Figure 21.
+name: "Figure 21c"
+location: Data From Fig. 21 of PRL C 72 (2005) 014903
+description: '$p$ & $\bar{p}$ $p_T$ spectra for 40-92 centrality bins.'
+keywords: # used for searching, possibly mutliple values for each keywords
+- {name: reactions, values: [Au Au --> CHARGED X]}
+- {name: cmenergies, values: [200.0]}
+- {name: phrases, values: [ppg016, mid-rapidity]}
+data_file: ppg016fig21c.yaml 
+additional_resources:
+- {description: Original EPS Image file, location: simfit_pikp_cent16_40-92.eps}
+- {description: PNG Image file, location: simfit_pikp_cent16_40-92.png}
+- {description: Thumbnail Image file, location: thumb_simfit_pikp_cent16_40-92.png}
+---
+# This is Figure 22.
+name: "Figure 22"
+location: Data From Fig. 22 of PRL C 72 (2005) 014903
+description: '$p_T$ spectra of proton and $\phi$ mesons at different centralities scaled down by their respective number of $N_{coll}$.'
+keywords: # used for searching, possibly mutliple values for each keywords
+- {name: reactions, values: [Au Au --> CHARGED X]}
+- {name: cmenergies, values: [200.0]}
+- {name: phrases, values: [ppg016, mid-rapidity]}
+data_file: ppg016fig22.yaml 
+additional_resources:
+- {description: Original EPS Image file, location: pT-ppbar-phi.eps}
+- {description: PNG Image file, location: pT-ppbar-phi.png}
+- {description: Thumbnail Image file, location: thumb_pT-ppbar-phi.png}
+---
+# This is Figure 23.
+name: "Figure 23a"
+location: Data From Fig. 23 of PRL C 72 (2005) 014903
+description: '$N_{coll}$ scaled central to peripheral ratio $R_{CP}$ for $\phi$.'
+keywords: # used for searching, possibly mutliple values for each keywords
+- {name: reactions, values: [Au Au --> CHARGED X]}
+- {name: cmenergies, values: [200.0]}
+- {name: phrases, values: [ppg016, mid-rapidity]}
+data_file: ppg016fig23a.yaml 
+additional_resources:
+- {description: Original EPS Image file, location: Rcp.eps}
+- {description: PNG Image file, location: Rcp.png}
+- {description: Thumbnail Image file, location: thumb_Rcp.png}
+---
+# This is Figure 23.
+name: "Figure 23b"
+location: Data From Fig. 23 of PRL C 72 (2005) 014903
+description: '$N_{coll}$ scaled central to peripheral ratio $R_{CP}$ for $\pi^0$.'
+keywords: # used for searching, possibly mutliple values for each keywords
+- {name: reactions, values: [Au Au --> CHARGED X]}
+- {name: cmenergies, values: [200.0]}
+- {name: phrases, values: [ppg016, mid-rapidity]}
+data_file: ppg016fig23b.yaml 
+additional_resources:
+- {description: Original EPS Image file, location: Rcp.eps}
+- {description: PNG Image file, location: Rcp.png}
+- {description: Thumbnail Image file, location: thumb_Rcp.png}
+---
+# This is Figure 23.
+name: "Figure 23c"
+location: Data From Fig. 23 of PRL C 72 (2005) 014903
+description: '$N_{coll}$ scaled central to peripheral ratio $R_{CP}$ for ($p$ + $\bar{p}$)/2.'
+keywords: # used for searching, possibly mutliple values for each keywords
+- {name: reactions, values: [Au Au --> CHARGED X]}
+- {name: cmenergies, values: [200.0]}
+- {name: phrases, values: [ppg016, mid-rapidity]}
+data_file: ppg016fig23c.yaml 
+additional_resources:
+- {description: Original EPS Image file, location: Rcp.eps}
+- {description: PNG Image file, location: Rcp.png}
+- {description: Thumbnail Image file, location: thumb_Rcp.png}
+---
