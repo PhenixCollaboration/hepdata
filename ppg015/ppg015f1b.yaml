@@ -11,7 +11,7 @@ independent_variables:
 dependent_variables:
 - header: {name: '$p$/$\pi^-$'}
   qualifiers:
-  - {name: '$p_T$ (GeV/$c$)', value: 'Central (0-10%)'}
+  - {name: 'centrality', value: '0-10%'}
   values:
   - value: 0.43
     errors:
@@ -36,7 +36,7 @@ dependent_variables:
     - {symerror: 0.26, label: 'Stat. + Sys.'}
 - header: {name: '$p$/$\pi^-$'}
   qualifiers:
-  - {name: '$p_T$ (GeV/$c$)', value: 'Mid-central (20-30%)'}
+  - {name: 'centrality', value: '20-30%'}
   values:
   - value: 0.37
     errors:
@@ -61,7 +61,7 @@ dependent_variables:
     - {symerror: 0.21, label: 'Stat. + Sys.'}
 - header: {name: '$p$/$\pi^-$'}
   qualifiers:
-  - {name: '$p_T$ (GeV/$c$)', value: 'Peripheral (60-92%)'}
+  - {name: 'centrality', value: '60-92%'}
   values:
   - value: 0.270
     errors:
@@ -86,7 +86,7 @@ dependent_variables:
     - {symerror: 0.27, label: 'Stat. + Sys.'}
 - header: {name: '$\bar{p}$/$\pi^0$'}
   qualifiers:
-  - {name: '$p_T$ (GeV/$c$)', value: 'Central (0-10%)'}
+  - {name: 'centrality', value: '0-10%'}
   values:
   - value: 0.336
     errors:
@@ -111,7 +111,7 @@ dependent_variables:
     - {symerror: 0.19, label: 'Stat. + Sys.'}
 - header: {name: '$\bar{p}$/$\pi^0$'}
   qualifiers:
-  - {name: '$p_T$ (GeV/$c$)', value: 'Mid-central (20-30%)'}
+  - {name: 'centrality', value: '20-30%'}
   values:
   - value: 0.282
     errors:
@@ -136,7 +136,7 @@ dependent_variables:
     - {symerror: 0.16, label: 'Stat. + Sys.'}
 - header: {name: '$\bar{p}$/$\pi^0$'}
   qualifiers:
-  - {name: '$p_T$ (GeV/$c$)', value: 'Peripheral (60-92%)'}
+  - {name: 'centrality', value: '60-92%'}
   values:
   - value: 0.213
     errors:
