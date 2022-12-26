@@ -1,14 +1,16 @@
 independent_variables:
-- header: {name: '$N_{part}$'}
+- header: {name: 'centrality'}
   values:
-  - {low: 6, high: 20}
-  - {low: 20, high: 80}
-  - {low: 80, high: 180}
-  - {low: 180, high: 270}
-  - {low: 270, high: 350}
-  - {low: 350, high: 400}
+  - {low: 80, high: 92}
+  - {low: 60, high: 80}
+  - {low: 30, high: 60}
+  - {low: 15, high: 30}
+  - {low: 5, high: 15}
+  - {low: 0, high: 5}
 dependent_variables:
-- header: {name: '1.6 $< p_T <$ 2.6'}
+- header: {name: '$R_{AA}$'}
+  qualifiers:
+  - {name: '$p_T$', value: '1.6 $< p_T <$ 2.6$'}
   values:
   - value: 0.7151
     errors:
@@ -28,7 +30,9 @@ dependent_variables:
   - value: 0.5968
     errors:
     - {symerror: 0.0051, label: 'stat.'}
-- header: {name: '1.6 $< p_T <$ 2.6'}
+- header: {name: '$R_{AA} \langle N_{part} \rangle $'}
+  qualifiers:
+  - {name: '$p_T$', value: '1.6 $< p_T <$ 2.6$'}
   values:
   - value: 1.066
     errors:
@@ -48,7 +52,9 @@ dependent_variables:
   - value: 3.462
     errors:
     - {symerror: 0.030, label: 'stat.'}
-- header: {name: '2.6 $< p_T <$ 3.6'}
+- header: {name: '$R_{AA}$'}
+  qualifiers:
+  - {name: '$p_T$', value: '2.6 $< p_T <$ 3.6$'}
   values:
   - value: 0.7873
     errors:
@@ -68,7 +74,9 @@ dependent_variables:
   - value: 0.5789
     errors:
     - {symerror: 0.0187, label: 'stat.'}
-- header: {name: '2.6 $< p_T <$ 3.6'}
+- header: {name: '$R_{AA} \langle N_{part} \rangle $'}
+  qualifiers:
+  - {name: '$p_T$', value: '2.6 $< p_T <$ 3.6$'}
   values:
   - value: 1.174
     errors:
@@ -88,7 +96,9 @@ dependent_variables:
   - value: 3.359
     errors:
     - {symerror: 0.108, label: 'stat.'}
-- header: {name: '3.6 $< p_T$'}
+- header: {name: '$R_{AA}$'}
+  qualifiers:
+  - {name: '$p_T$', value: 'p_T >$ 3.6$'}
   values:
   - value: 1.1877
     errors:
@@ -108,7 +118,9 @@ dependent_variables:
   - value: 0.4921
     errors:
     - {symerror: 0.0552, label: 'stat.'}
-- header: {name: '3.6 $< p_T$'}
+- header: {name: '$R_{AA} \langle N_{part} \rangle $'}
+  qualifiers:
+  - {name: '$p_T$', value: 'p_T >$ 3.6$'}
   values:
   - value: 1.771
     errors:

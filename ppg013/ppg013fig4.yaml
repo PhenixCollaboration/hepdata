@@ -1,14 +1,16 @@
 independent_variables:
-- header: {name: '$N_{part}$'}
+- header: {name: 'centrality'}
   values:
-  - {low: 6, high: 20}
-  - {low: 20, high: 80}
-  - {low: 80, high: 180}
-  - {low: 180, high: 270}
-  - {low: 270, high: 350}
-  - {low: 350, high: 400}
+  - {low: 80, high: 92}
+  - {low: 60, high: 80}
+  - {low: 30, high: 60}
+  - {low: 15, high: 30}
+  - {low: 5, high: 15}
+  - {low: 0, high: 5}
 dependent_variables:
-- header: {name: '$p_T$ $>$ 2.0 GeV/$c$'}
+- header: {name: '$\langle p^{trunc}_T\rangle $ (MeV/$c$)'}
+  qualifiers:
+  - {name: '$p^{min}_T$', value: '2.0 GeV/$c$'}
   values:
   - value: 450.704
     errors:
@@ -28,7 +30,9 @@ dependent_variables:
   - value: 394.828
     errors:
     - {symerror: 6.497, label: 'stat.'}
-- header: {name: '$p_T$ $>$ 0.5 GeV/$c$'}
+- header: {name: '$\langle p^{trunc}_T\rangle $ (MeV/$c$)'}
+  qualifiers:
+  - {name: '$p^{min}_T$', value: '0.5 GeV/$c$'}
   values:
   - value: 322.585
     errors:
