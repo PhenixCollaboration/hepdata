@@ -5,7 +5,9 @@ independent_variables:
   - {value: 130}
   - {value: 19.6}
 dependent_variables:
-- header: {name: '$dE_T$/$d\eta$ PHENIX'}
+- header: {name: 'B/A'}
+  qualifiers:
+  - {name: 'Observable', value: '$dE_T$/$d\eta$ PHENIX'}
   values:
   - value: 0.49
     errors:
@@ -16,7 +18,9 @@ dependent_variables:
   - value: 0.37
     errors:
     - {asymerror: {plus: 0.48, minus: 0.22}, label: 'stat.'}
-- header: {name: '$dN_{ch}$/$d\eta$ PHENIX'}
+- header: {name: 'B/A'}
+  qualifiers:
+  - {name: 'Observable', value: '$dN_{ch}$/$d\eta$ PHENIX'}
   values:
   - value: 0.41
     errors:
