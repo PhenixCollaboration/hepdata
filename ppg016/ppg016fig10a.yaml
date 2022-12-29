@@ -1,24 +1,14 @@
 independent_variables:
-- header: {name: '$m_T$ bin Centroid'}
+- header: {name: '$m_T$'}
   values:
-  - {value: 0.346}
-  - {value: 0.672}
-  - {value: 0.872}
-  - {value: 1.072}
-  - {value: 1.272}
-  - {value: 1.546}
-  - {value: 1.872}
-  - {value: 2.281}
-- header: {name: '$m_T$ bin Width'}
-  values:
-  - {value: 0.4}
-  - {value: 0.2}
-  - {value: 0.2}
-  - {value: 0.2}
-  - {value: 0.2}
-  - {value: 0.4}
-  - {value: 0.2}
-  - {value: 1.0}
+  - {low: 0.2, high: 0.6}
+  - {low: 0.6, high: 0.8}
+  - {low: 0.8, high: 1.0}
+  - {low: 1.0, high: 1.2}
+  - {low: 1.2, high: 1.4}
+  - {low: 1.4, high: 1.8}
+  - {low: 1.8, high: 2.0}
+  - {low: 2.0, high: 3.0}
 dependent_variables:
 - header: {name: 'Invariant Yield'}
   qualifiers:
