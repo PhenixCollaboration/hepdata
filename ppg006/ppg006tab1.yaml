@@ -1,0 +1,158 @@
+independent_variables:
+- header: {name: 'Centrality (%)'}
+  values:
+  - {low: 60, high: 100}
+  - {low: 30, high: 60}
+  - {low: 15, high: 30}
+  - {low: 5, high: 15}
+  - {low: 0, high: 5}
+dependent_variables:
+- header: {name: '$N_{part}$'}
+  values:
+  - value: 14.0
+    errors:
+    - {symerror: 3.3, label: 'stat.'}
+  - value: 79.0
+    errors:
+    - {symerror: 4.6, label: 'stat.'}
+  - value: 180.0
+    errors:
+    - {symerror: 6.6, label: 'stat.'}
+  - value: 271.0
+    errors:
+    - {symerror: 8.4, label: 'stat.'}
+  - value: 348.0
+    errors:
+    - {symerror: 10.0, label: 'stat.'}
+- header: {name: '$\pi^+$'}
+  values:
+  - value: 9.6
+    errors:
+    - {symerror: 0.2, label: 'stat.'}
+    - {symerror: 1.2, label: 'sys.'}
+  - value: 57.0
+    errors:
+    - {symerror: 0.6, label: 'stat.'}
+    - {symerror: 7.4, label: 'sys.'}
+  - value: 141.0
+    errors:
+    - {symerror: 1.5, label: 'stat.'}
+    - {symerror: 18.3, label: 'sys.'}
+  - value: 216.0
+    errors:
+    - {symerror: 2.0, label: 'stat.'}
+    - {symerror: 28.1, label: 'sys.'}
+  - value: 276.0
+    errors:
+    - {symerror: 3.0, label: 'stat.'}
+    - {symerror: 35.9, label: 'sys.'}
+- header: {name: '$\pi^-$'}
+  values:
+  - value: 8.6
+    errors:
+    - {symerror: 0.2, label: 'stat.'}
+    - {symerror: 1.1, label: 'sys.'}
+  - value: 53.3
+    errors:
+    - {symerror: 0.6, label: 'stat.'}
+    - {symerror: 6.9, label: 'sys.'}
+  - value: 129.0
+    errors:
+    - {symerror: 1.4, label: 'stat.'}
+    - {symerror: 16.8, label: 'sys.'}
+  - value: 200.0
+    errors:
+    - {symerror: 2.0, label: 'stat.'}
+    - {symerror: 26.0, label: 'sys.'}
+  - value: 270.0
+    errors:
+    - {symerror: 3.0, label: 'stat.'}
+    - {symerror: 35.1, label: 'sys.'}
+- header: {name: '$K^+$'}
+  values:
+  - value: 1.0
+    errors:
+    - {symerror: 0.1, label: 'stat.'}
+    - {symerror: 0.1, label: 'sys.'}
+  - value: 8.3
+    errors:
+    - {symerror: 0.3, label: 'stat.'}
+    - {symerror: 1.2, label: 'sys.'}
+  - value: 22.2
+    errors:
+    - {symerror: 0.8, label: 'stat.'}
+    - {symerror: 3.3, label: 'sys.'}
+  - value: 35.0
+    errors:
+    - {symerror: 1.3, label: 'stat.'}
+    - {symerror: 5.3, label: 'sys.'}
+  - value: 46.7
+    errors:
+    - {symerror: 1.5, label: 'stat.'}
+    - {symerror: 7.0, label: 'sys.'}
+- header: {name: '$K^-$'}
+  values:
+  - value: 1.0
+    errors:
+    - {symerror: 0.1, label: 'stat.'}
+    - {symerror: 0.1, label: 'sys.'}
+  - value: 6.2
+    errors:
+    - {symerror: 0.3, label: 'stat.'}
+    - {symerror: 0.9, label: 'sys.'}
+  - value: 15.5
+    errors:
+    - {symerror: 0.7, label: 'stat.'}
+    - {symerror: 2.3, label: 'sys.'}
+  - value: 30.4
+    errors:
+    - {symerror: 1.4, label: 'stat.'}
+    - {symerror: 4.6, label: 'sys.'}
+  - value: 40.5
+    errors:
+    - {symerror: 2.3, label: 'stat.'}
+    - {symerror: 6.1, label: 'sys.'}
+- header: {name: '$p$'}
+  values:
+  - value: 0.7
+    errors:
+    - {symerror: 0.1, label: 'stat.'}
+    - {symerror: 0.1, label: 'sys.'}
+  - value: 5.0
+    errors:
+    - {symerror: 0.2, label: 'stat.'}
+    - {symerror: 0.7, label: 'sys.'}
+  - value: 13.2
+    errors:
+    - {symerror: 0.4, label: 'stat.'}
+    - {symerror: 1.8, label: 'sys.'}
+  - value: 21.6
+    errors:
+    - {symerror: 0.6, label: 'stat.'}
+    - {symerror: 3.0, label: 'sys.'}
+  - value: 28.7
+    errors:
+    - {symerror: 0.9, label: 'stat.'}
+    - {symerror: 4.0, label: 'sys.'}
+- header: {name: '$\bar{p}$'}
+  values:
+  - value: 0.5
+    errors:
+    - {symerror: 0.1, label: 'stat.'}
+    - {symerror: 0.1, label: 'sys.'}
+  - value: 3.6
+    errors:
+    - {symerror: 0.1, label: 'stat.'}
+    - {symerror: 0.5, label: 'sys.'}
+  - value: 9.2
+    errors:
+    - {symerror: 0.4, label: 'stat.'}
+    - {symerror: 1.3, label: 'sys.'}
+  - value: 13.8
+    errors:
+    - {symerror: 0.6, label: 'stat.'}
+    - {symerror: 1.9, label: 'sys.'}
+  - value: 20.1
+    errors:
+    - {symerror: 1.0, label: 'stat.'}
+    - {symerror: 2.8, label: 'sys.'}
