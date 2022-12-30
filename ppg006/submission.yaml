@@ -17,6 +17,26 @@ additional_resources:
 - {location: "https://arxiv.org/abs/nucl-ex/0112006", description: arXiv}
 - {location: "https://inspirehep.net/literature/568437", description: InspireHEP}
 ---
+# This is Table 1.
+name: "Table 1"
+location: Data From Table 1 of PRL 88 (242301) 2002
+description: 'Average transverse momentum for particles as a function of the number of nucleons participating in the collision $N_{part}$. The systematic errors are 13%, 15% and 14% for $\pi^{±}$, $K^{±}$, $p$ and $\bar{p}$, respectively.'
+keywords: # used for searching, possibly mutliple values for each keywords
+- {name: reactions, values: [Au Au --> CHARGED X]}
+- {name: cmenergies, values: [130.0]}
+- {name: phrases, values: [ppg006, transverse momentum, mid-rapitity]}
+data_file: ppg006tab1.yaml 
+---
+# This is Table 2.
+name: "Table 2"
+location: Data From tables of PRL 88 (242301) 2002
+description: 'Interpolation from $p$ and $\bar{p}$ data.'
+keywords: # used for searching, possibly mutliple values for each keywords
+- {name: reactions, values: [Au Au --> CHARGED X]}
+- {name: cmenergies, values: [130.0]}
+- {name: phrases, values: [ppg006, transverse momentum, mid-rapitity]}
+data_file: ppg006tab2.yaml 
+---
 # This is Figure 1.
 name: "Figure 1a"
 location: Data From Fig. 1 of PRL 88 (242301) 2002
@@ -159,8 +179,8 @@ additional_resources:
 ---
 # This is Figure 2.
 name: "Figure 2"
-location: Data From Fig. 2 of PRL 88 (242301) 2002
-description: 'Average transverse momentum for particles as a function of the number of nucleons participating in the collision $N_{part}$. The systematic errors are 13%, 15% and 14% for $\pi^{±}$, $K^{±}$, $p$ and $\bar{p}$, respectively.'
+location: Data From Fig. 2 88 (242301) 2002
+description: 'Average $p_T$ tables.'
 keywords: # used for searching, possibly mutliple values for each keywords
 - {name: reactions, values: [Au Au --> CHARGED X]}
 - {name: cmenergies, values: [130.0]}
@@ -170,24 +190,4 @@ additional_resources:
 - {description: Original EPS Image file, location: meanpt.eps}
 - {description: PNG Image file, location: meanpt.png}
 - {description: Thumbnail Image file, location: thumb_meanpt.png}
----
-# This is Figure 4.
-name: "Figure 4a"
-location: Data From tables 88 (242301) 2002
-description: 'Average $p_T$ tables.'
-keywords: # used for searching, possibly mutliple values for each keywords
-- {name: reactions, values: [Au Au --> CHARGED X]}
-- {name: cmenergies, values: [130.0]}
-- {name: phrases, values: [ppg006, transverse momentum, mid-rapitity]}
-data_file: ppg006fig4a.yaml 
----
-# This is Figure 4.
-name: "Figure 4b"
-location: Data From tables of PRL 88 (242301) 2002
-description: 'Interpolation from $p$ and $\bar{p}$ data.'
-keywords: # used for searching, possibly mutliple values for each keywords
-- {name: reactions, values: [Au Au --> CHARGED X]}
-- {name: cmenergies, values: [130.0]}
-- {name: phrases, values: [ppg006, transverse momentum, mid-rapitity]}
-data_file: ppg006fig4b.yaml 
 ---
