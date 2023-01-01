@@ -1,0 +1,58 @@
+independent_variables:
+- header: {name: '$p_{T}$ (GeV/$c$)'}
+  values:
+  - {low: 1.25, high: 1.75}
+  - {low: 1.75, high: 2.25}
+  - {low: 2.25, high: 2.75}
+  - {low: 2.75, high: 3.25}
+  - {low: 3.25, high: 3.75}
+  - {low: 3.75, high: 4.25}
+  - {low: 4.25, high: 4.75}
+  - {low: 4.75, high: 5.25}
+  - {low: 5.25, high: 5.75}
+  - {low: 5.75, high: 6.25}
+dependent_variables:
+- header: {name: '$\frac{h+/-}{pi^0}$'}
+  qualifiers:
+  - {name: 'Centrality', value: '80-92%'}
+  values:
+  - value: 1.43
+    errors:
+    - {symerror: 0.17, label: 'stat.'}
+    - {symerror: 0.14, label: 'syst.'}
+  - value: 1.49
+    errors:
+    - {symerror: 0.18, label: 'stat.'}
+    - {symerror: 0.15, label: 'syst.'}
+  - value: 1.47
+    errors:
+    - {symerror: 0.18, label: 'stat.'}
+    - {symerror: 0.15, label: 'syst.'}
+  - value: 1.56
+    errors:
+    - {symerror: 0.21, label: 'stat.'}
+    - {symerror: 0.16, label: 'syst.'}
+  - value: 1.68
+    errors:
+    - {symerror: 0.26, label: 'stat.'}
+    - {symerror: 0.17, label: 'syst.'}
+  - value: 1.3
+    errors:
+    - {symerror: 0.25, label: 'stat.'}
+    - {symerror: 0.14, label: 'syst.'}
+  - value: 1.7
+    errors:
+    - {symerror: 0.4, label: 'stat.'}
+    - {symerror: 0.18, label: 'syst.'}
+  - value: 1.46
+    errors:
+    - {symerror: 0.43, label: 'stat.'}
+    - {symerror: 0.16, label: 'syst.'}
+  - value: 0.87
+    errors:
+    - {symerror: 0.42, label: 'stat.'}
+    - {symerror: 0.09, label: 'syst.'}
+  - value: 1.57
+    errors:
+    - {symerror: 0.98, label: 'stat.'}
+    - {symerror: 0.18, label: 'syst.'}

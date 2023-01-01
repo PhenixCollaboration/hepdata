@@ -1,6 +1,6 @@
 # PHENIX paper PPG023
 #
-# High-p_T Charged Hadron Suppression in Au+Au Collisions at sqrt(s_NN) = 200 GeV
+# High- $p_T$ Charged Hadron Suppression in Au + Au Collisions at $\sqrt{s_{NN}} = 200 GeV
 #
 # Phys.Rev.C 69 (2004) 034910
 # InspireHEP ID: 625472
@@ -10,14 +10,14 @@
 # Reviewer: TBA
 #
 comment: |
-  BNL-RHIC.  The PHENIX experiment at RHIC has measured charged hadron yields at mid-rapidity over a wide range of transverse momentum (0.5$< p_T<$10 GeV/$c$) in Au+Au collisions at $\sqrt{s_{NN}}$= 200 GeV. The data are compared to $\pi^0$ measurements from the same experiment. For both charged hadrons and neutral pions, the yields per nucleon-nucleon collision are significantly suppressed in central compared to peripheral and nucleon-nucleon collisions. The suppression sets in gradually and increases with increasing centrality of the collisions. Above 4-5 GeV/$c$ in $p_T$, a constant and almost identical suppression of charged hadrons and $\pi^0$ s is observed. The $p_T$ spectra are compared to published spectra from Au+Au at $\sqrt{s_{NN}}$= 130 GeV in terms of $x_T$ scaling. Central and peripheral $\pi^0$ as well as peripheral charged spectra exhibit the same $x_T$ scaling as observed in p+p data.
+  BNL-RHIC.  The PHENIX experiment at RHIC has measured charged hadron yields at mid-rapidity over a wide range of transverse momentum (0.5 < $p_T$ < 10 GeV/$c$) in Au+Au collisions at $\sqrt{s_{NN}}$= 200 GeV. The data are compared to $\pi^0$ measurements from the same experiment. For both charged hadrons and neutral pions, the yields per nucleon-nucleon collision are significantly suppressed in central compared to peripheral and nucleon-nucleon collisions. The suppression sets in gradually and increases with increasing centrality of the collisions. Above 4-5 GeV/$c$ in $p_T$, a constant and almost identical suppression of charged hadrons and $\pi^0$ s is observed. The $p_T$ spectra are compared to published spectra from Au+Au at $\sqrt{s_{NN}}$= 130 GeV in terms of $x_T$ scaling. Central and peripheral $\pi^0$ as well as peripheral charged spectra exhibit the same $x_T$ scaling as observed in p+p data.
 additional_resources:
   - {location: "https://phenix-intra.sdcc.bnl.gov/phenix/WWW/info/data/ppg023/DataInPaper.html", description: "web page with data points"}
   - {location: "https://arxiv.org/pdf/nucl-ex/0308006.pdf", description: "paper"}
   - {location: "https://inspirehep.net/literature/625472", description: "paper"}
 ---
-name: "Figure 8 Part 1"
-description: 'Invariant yields for different centrality bins $(h^++h^-)/2$. Stat stands for statistical error, sys stands for the systematic errors and OCC stands for occupancy error.'
+name: "Figure 8a"
+description: '$p_T$ spectra of charged hadrons for minimum bias collisions along with spectra for 9 centrality classes derived from the pseudo-rapidity region $|\eta|$ < 0.18.'
 keywords:
   - {name: reactions, values: [AU AU --> CHARGED X]}
   - {name: cmenergies, values: [200.0]}
@@ -25,10 +25,10 @@ keywords:
 additional_resources:
   - {location: thumb_spec1half.png, description: Thumbnail Image file}
   - {location: spec1half.png, description: Image file}
-data_file: fig8_1_invYld_yamldata.yaml
+data_file: ppg023fig8a.yaml
 ---
-name: "Figure 8 Part 2"
-description: 'Invariant yields for different centrality bins $(h^++h^-)/2$. Stat stands for statistical error, sys stands for the systematic errors and OCC stands for occupancy error.'
+name: "Figure 8b"
+description: '$p_T$ spectra of charged hadrons for minimum bias collisions along with spectra for 9 centrality classes derived from the pseudo-rapidity region $|\eta|$ < 0.18.'
 keywords:
   - {name: reactions, values: [AU AU --> CHARGED X]}
   - {name: cmenergies, values: [200.0]}
@@ -36,10 +36,10 @@ keywords:
 additional_resources:
   - {location: thumb_spec1half.png, description: Thumbnail Image file}
   - {location: spec1half.png, description: Image file}
-data_file: fig8_2_invYld_yamldata.yaml
+data_file: ppg023fig8b.yaml
 ---
-name: "Figure 8 Part 3"
-description: 'Invariant yields for different centrality bins $(h^++h^-)/2$. Stat stands for statistical error, sys stands for the systematic errors and OCC stands for occupancy error.'
+name: "Figure 8c"
+description: '$p_T$ spectra of charged hadrons for minimum bias collisions along with spectra for 9 centrality classes derived from the pseudo-rapidity region $|\eta|$ < 0.18.'
 keywords:
   - {name: reactions, values: [AU AU --> CHARGED X]}
   - {name: cmenergies, values: [200.0]}
@@ -47,10 +47,10 @@ keywords:
 additional_resources:
   - {location: thumb_spec1half.png, description: Thumbnail Image file}
   - {location: spec1half.png, description: Image file}
-data_file: fig8_3_invYld_yamldata.yaml
+data_file: ppg023fig8c.yaml
 ---
-name: "Figure 8 Part 4"
-description: 'Invariant yields for different centrality bins $(h^++h^-)/2$. Stat stands for statistical error, sys stands for the systematic errors and OCC stands for occupancy error.'
+name: "Figure 8d"
+description: '$p_T$ spectra of charged hadrons for minimum bias collisions along with spectra for 9 centrality classes derived from the pseudo-rapidity region $|\eta|$ < 0.18.'
 keywords:
   - {name: reactions, values: [AU AU --> CHARGED X]}
   - {name: cmenergies, values: [200.0]}
@@ -58,10 +58,21 @@ keywords:
 additional_resources:
   - {location: thumb_spec1half.png, description: Thumbnail Image file}
   - {location: spec1half.png, description: Image file}
-data_file: fig8_4_invYld_yamldata.yaml
+data_file: ppg023fig8d.yaml
 ---
-name: "Figure 10 Part 1"
-description: 'Only the Npart values for $p^{trunc}_T$ as a function of centrality. Stat stands for statistical error.  Data points for truncated mean $p_{T}$ calculation.for three $p_{T}$ ranges. The integral region is from 8 GeV/$c$ > $p_{T}$ > $p_{T}^{min}$.  For the most peripheral bin, since the data stop around 6.5 GeV/$c$ truncated mean $p_T$ is lower. Stat stands for statistical error.'
+name: "Figure 8e"
+description: '$p_T$ spectra of charged hadrons for minimum bias collisions along with spectra for 9 centrality classes derived from the pseudo-rapidity region $|\eta|$ < 0.18.'
+keywords:
+  - {name: reactions, values: [AU AU --> CHARGED X]}
+  - {name: cmenergies, values: [200.0]}
+  - {name: phrases, values: [ppg023, mid-rapidity, transverse momentum]}
+additional_resources:
+  - {location: thumb_spec1half.png, description: Thumbnail Image file}
+  - {location: spec1half.png, description: Image file}
+data_file: ppg023fig8e.yaml
+---
+name: "Figure 10"
+description: 'Centrality dependence of $<p^{trunc}_T>$.'
 keywords:
   - {name: reactions, values: [AU AU --> CHARGED X]}
   - {name: cmenergies, values: [200.0]}
@@ -69,21 +80,10 @@ keywords:
 additional_resources:
   - {location: thumb_trunpt.png, description: Thumbnail Image file}
   - {location: trunpt.png, description: Image file}
-data_file: PPG023_C_X_centrality.yaml
----
-name: "Figure 10 Part 2"
-description: '$p^{trunc}_T$ as a function of centrality. Stat stands for statistical error.  Data points for truncated mean $p_{T}$ calculation.for three $p_{T}$ ranges. The integral region is from 8 GeV/$c$ > $p_{T}$ > $p_{T}^{min}$.  For the most peripheral bin, since the data stop around 6.5 GeV/$c$ truncated mean $p_T$ is lower. Stat stands for statistical error.'
-keywords:
-  - {name: reactions, values: [AU AU --> CHARGED X]}
-  - {name: cmenergies, values: [200.0]}
-  - {name: phrases, values: [ppg023, mid-rapidity, transverse momentum]}
-additional_resources:
-  - {location: thumb_trunpt.png, description: Thumbnail Image file}
-  - {location: trunpt.png, description: Image file}
-data_file: PPG023_C.yaml
+data_file: ppg023fig10.yaml
 ---
 name: "Figure 11"
-description: 'Central (0-10%) to peripheral (60-92%) ratio. Stat stands for statistical error and sys stands for the systematic error.'
+description: 'Ratio of charged hadron yields per nucleon-nucleon collision between central (0-10%) and peripheral (60-92%) Au + Au collisions.'
 keywords:
   - {name: reactions, values: [AU AU --> CHARGED X]}
   - {name: cmenergies, values: [200.0]}
@@ -91,10 +91,10 @@ keywords:
 additional_resources:
   - {location: thumb_cp.png, description: Thumbnail Image file}
   - {location: cp.png, description: Image file}
-data_file: B_.yaml
+data_file: ppg023fig11.yaml
 ---
-name: "Figure 12 Part 1"
-description: '$R_{AA}$ for $(h^++h^-)/2$ and $\pi^0$ as function of $p_{T}$ for minimum bias and 9 centrality classes. Stat stands for statistical error from AuAu. The asymmetric uncertainty from the fit of the $\pi^0$ mass peak is denoted by fit.  $\sigma_{ENBC}$ stands for Error on number of binary collisions. Error from pp parametrization that is not $p_{T}$ dependendent.  This error is not included in the calculation of the Upper bound of the systematic error and the Lower bound of the systematic error.' 
+name: "Figure 12a"
+description: '$R_{AA}$ for $(h^++h^-)/2$ and $\pi^0$ as function of $p_{T}$ for minimum bias and 9 centrality classes.' 
 keywords:
   - {name: reactions, values: [AU AU --> CHARGED X]}
   - {name: cmenergies, values: [200.0]}
@@ -102,10 +102,10 @@ keywords:
 additional_resources:
   - {location: thumb_Raahalf.png, description: Thumbnail Image file}
   - {location: Raahalf.png, description: Image file}
-data_file: raa8_remake_yamldata.yaml
+data_file: ppg023fig12a.yaml
 ---
-name: "Figure 12 Part 2"
-description: '$R_{AA}$ for $(h^++h^-)/2$ and $\pi^0$ as function of $p_{T}$ for minimum bias and 9 centrality classes. Stat stands for statistical error from AuAu. The asymmetric uncertainty from the fit of the $\pi^0$ mass peak is denoted by fit.  $\sigma_{ENBC}$ stands for Error on number of binary collisions. Error from pp parametrization that is not $p_{T}$ dependendent.  This error is not included in the calculation of the Upper bound of the systematic error and the Lower bound of the systematic error.'
+name: "Figure 12b"
+description: '$R_{AA}$ for $(h^++h^-)/2$ and $\pi^0$ as function of $p_{T}$ for minimum bias and 9 centrality classes.'
 keywords:
   - {name: reactions, values: [AU AU --> CHARGED X]}
   - {name: cmenergies, values: [200.0]}
@@ -113,10 +113,21 @@ keywords:
 additional_resources:
   - {location: thumb_Raahalf.png, description: Thumbnail Image file}
   - {location: Raahalf.png, description: Image file}
-data_file: raa2_remake_yamldata.yaml
+data_file: ppg023fig12b.yaml
 ---
-name: "Figure 13 Part 1"
-description: '$(h^++h^-)/2\pi^0$. Stat stands for statistical error and FNE stands for fractional normalization errors.'
+name: "Figure 12c"
+description: '$R_{AA}$ for $(h^++h^-)/2$ and $\pi^0$ as function of $p_{T}$ for minimum bias and 9 centrality classes.' 
+keywords:
+  - {name: reactions, values: [AU AU --> CHARGED X]}
+  - {name: cmenergies, values: [200.0]}
+  - {name: phrases, values: [ppg023, p0, mid-rapidity, transverse momentum, nuclear modification factor]}
+additional_resources:
+  - {location: thumb_Raahalf.png, description: Thumbnail Image file}
+  - {location: Raahalf.png, description: Image file}
+data_file: ppg023fig12c.yaml
+---
+name: "Figure 13a"
+description: 'Charged hadron to $\pi^0$ ratios for minimum bias events and 9 centrality classes.'
 keywords:
   - {name: reactions, values: [AU AU --> CHARGED X]}
   - {name: cmenergies, values: [200.0]}
@@ -124,10 +135,10 @@ keywords:
 additional_resources:
   - {location: thumb_hpi.png, description: Thumbnail Image file}
   - {location: hpi.png, description: Image file}
-data_file: fig13_1_hpiRatio_yamldata.yaml
+data_file: ppg023fig13a.yaml
 ---
-name: "Figure 13 Part 2"
-description: '$(h^++h^-)/2\pi^0$. Stat stands for statistical error and FNE stands for fractional normalization errors.'
+name: "Figure 13b"
+description: 'Charged hadron to $\pi^0$ ratios for minimum bias events and 9 centrality classes.'
 keywords:
   - {name: reactions, values: [AU AU --> CHARGED X]}
   - {name: cmenergies, values: [200.0]}
@@ -138,10 +149,10 @@ additional_resources:
 additional_resources:
   - {location: thumb_hpi.png, description: Thumbnail Image file}
   - {location: hpi.png, description: Image file}
-data_file: fig13_2_hpiRatio_yamldata.yaml
+data_file: ppg023fig13b.yaml
 ---
-name: "Figure 13 Part 3"
-description: '$(h^++h^-)/2\pi^0$. Stat stands for statistical error and FNE stands for fractional normalization errors.'
+name: "Figure 13c"
+description: 'Charged hadron to $\pi^0$ ratios for minimum bias events and 9 centrality classes.'
 keywords:
   - {name: reactions, values: [AU AU --> CHARGED X]}
   - {name: cmenergies, values: [200.0]}
@@ -149,10 +160,10 @@ keywords:
 additional_resources:
   - {location: thumb_hpi.png, description: Thumbnail Image file}
   - {location: hpi.png, description: Image file}
-data_file: fig13_3_hpiRatio_yamldata.yaml
+data_file: ppg023fig13c.yaml
 ---
-name: "Figure 13 Part 4"
-description: '$(h^++h^-)/2\pi^0$. Stat stands for statistical error and FNE stands for fractional normalization errors.'
+name: "Figure 13d"
+description: 'Charged hadron to $\pi^0$ ratios for minimum bias events and 9 centrality classes.'
 keywords:
   - {name: reactions, values: [AU AU --> CHARGED X]}
   - {name: cmenergies, values: [200.0]}
@@ -160,10 +171,10 @@ keywords:
 additional_resources:
   - {location: thumb_hpi.png, description: Thumbnail Image file}
   - {location: hpi.png, description: Image file}
-data_file: fig13_4_hpiRatio_yamldata.yaml
+data_file: ppg023fig13d.yaml
 ---
-name: "Figure13 Part 5"
-description: '$(h^++h^-)/2\pi^0$. Stat stands for statistical error and FNE stands for fractional normalization errors.'
+name: "Figure 13e"
+description: 'Charged hadron to $\pi^0$ ratios for minimum bias events and 9 centrality classes.'
 keywords:
   - {name: reactions, values: [AU AU --> CHARGED X]}
   - {name: cmenergies, values: [200.0]}
@@ -171,10 +182,10 @@ keywords:
 additional_resources:
   - {location: thumb_hpi.png, description: Thumbnail Image file}
   - {location: hpi.png, description: Image file}
-data_file: fig13_5_hpiRatio_yamldata.yaml
+data_file: ppg023fig13e.yaml
 ---
-name: "Figure13 Part 6"
-description: '$(h^++h^-)/2\pi^0$. Stat stands for statistical error and FNE stands for fractional normalization errors.'
+name: "Figure 13f"
+description: 'Charged hadron to $\pi^0$ ratios for minimum bias events and 9 centrality classes.'
 keywords:
   - {name: reactions, values: [AU AU --> CHARGED X]}
   - {name: cmenergies, values: [200.0]}
@@ -182,10 +193,10 @@ keywords:
 additional_resources:
   - {location: thumb_hpi.png, description: Thumbnail Image file}
   - {location: hpi.png, description: Image file}
-data_file: fig13_6_hpiRatio_yamldata.yaml
+data_file: ppg023fig13f.yaml
 ---
-name: "Figure 14 Part 1"
-description: 'Only the Ncoll and Npart values of the integrated yield for $p_{T}>$4.5 GeV/c for $h^{\pm}$. Normalized by either $N_{Part}$ or $N_{coll}$ scaling. Integrated yield for charged hadrons. Statistical and systematic error from Au+Au and N+N reference includes: a)NN reference error with 10.4% normalization error subtracted, this error is 11.2%. b)systematic error on AuAu is 8.5%(correction). c) 5% (occupancy correction it is centrality dependent). Error on $N_{coll}$ + 10.4% error on N+N reference. statistical and systematic error from AuAu and N+N reference it is same as a,b and c.'
+name: "Figure 14a"
+description: 'Au + Au yield integrated for $p_T$ > 4.5 (GeV/$c$) over the $N$ + $N$ yield, normalized using either $N_{coll}$ or $N_{part}$, plot as a function of $<N_{part}>$.'
 keywords:
   - {name: reactions, values: [AU AU --> CHARGED X]}
   - {name: cmenergies, values: [200.0]}
@@ -193,10 +204,10 @@ keywords:
 additional_resources:
   - {location: thumb_Raaintehalf.png, description: Thumbnail Image file}
   - {location: Raaintehalf.png, description: Image file}
-data_file: PPG023_G_NcollpartValues_chHdrn.yaml
+data_file: ppg023fig14a.yaml
 ---
-name: "Figure 14 Part 1B"
-description: 'Integrated yield for $p_{T}>$4.5 GeV/c for $h^{\pm}$. Normalized by either $N_{Part}$ or $N_{coll}$ scaling. Integrated yield for charged hadrons. Statistical and systematic error from Au+Au and N+N reference includes: a)NN reference error with 10.4% normalization error subtracted, this error is 11.2%. b)systematic error on AuAu is 8.5%(correction). c) 5% (occupancy correction it is centrality dependent). Error on $N_{coll}$ + 10.4% error on N+N reference. statistical and systematic error from AuAu and N+N reference it is same as a,b and c.'
+name: "Figure 14b"
+description: 'Au + Au yield integrated for $p_T$ > 4.5 (GeV/$c$) over the $N$ + $N$ yield, normalized using either $N_{coll}$ or $N_{part}$, plot as a function of $<N_{part}>$.'
 keywords:
   - {name: reactions, values: [AU AU --> CHARGED X]}
   - {name: cmenergies, values: [200.0]}
@@ -204,31 +215,9 @@ keywords:
 additional_resources:
   - {location: thumb_Raaintehalf.png, description: Thumbnail Image file}
   - {location: Raaintehalf.png, description: Image file}
-data_file: PPG023_G_Ncoll_IntegratedYieldForChargedHadrons.yaml
+data_file: ppg023fig14b.yaml
 ---
-name: "Figure 14 Part 2"
-description: 'Only the Ncoll and Npart values of the integrated yield for $p_{T}>$4.5 GeV/c for $pi^{0}$. Normalized by either $N_{Part}$ or $N_{coll}$ scaling. Integrated yield for $pi^{0}$. Statistical and systematic error from Au+Au and N+N reference includes: a)NN reference error with 10.4% normalization error subtracted, this error is 11.2%. b)systematic error on AuAu is 8.5%(correction). c) 5% (occupancy correction it is centrality dependent). Error on $N_{coll}$ + 10.4% error on N+N reference. statistical and systematic error from AuAu and N+N reference it is same as a,b and c.'
-keywords:
-  - {name: reactions, values: [AU AU --> CHARGED X]}
-  - {name: cmenergies, values: [200.0]}
-  - {name: phrases, values: [ppg023, p0, mid-rapidity, transverse momentum]}
-additional_resources:
-  - {location: thumb_Raaintehalf.png, description: Thumbnail Image file}
-  - {location: Raaintehalf.png, description: Image file}
-data_file: PPG023_G_NcollpartValues_pi0.yaml
----
-name: "Figure 14 Part 2B"
-description: 'Integrated yield for $p_{T}>$4.5 GeV/c for $pi^{0}$. Normalized by either $N_{Part}$ or $N_{coll}$ scaling. Integrated yield for $pi^{0}$. Statistical and systematic error from Au+Au and N+N reference includes: a)NN reference error with 10.4% normalization error subtracted, this error is 11.2%. b)systematic error on AuAu is 8.5%(correction). c) 5% (occupancy correction it is centrality dependent). Error on $N_{coll}$ + 10.4% error on N+N reference. statistical and systematic error from AuAu and N+N reference it is same as a,b and c.'
-keywords:
-  - {name: reactions, values: [AU AU --> CHARGED X]}
-  - {name: cmenergies, values: [200.0]}
-  - {name: phrases, values: [ppg023, p0, mid-rapidity, transverse momentum]}
-additional_resources:
-  - {location: thumb_Raaintehalf.png, description: Thumbnail Image file}
-  - {location: Raaintehalf.png, description: Image file}
-data_file: PPG023_G_Ncoll_IntegratedYieldForPizero.yaml
----
-name: "Figure 17 Part 1"
+name: "Figure 17a"
 description: '$x_T$-scaled spectra for $\pi^0$ for Au+Au collisions at $\sqrt{s_{NN}}$ = 130 GeV from the lead-scintillator.'
 keywords:
   - {name: reactions, values: [AU AU --> CHARGED X]}
@@ -237,9 +226,9 @@ keywords:
 additional_resources:
   - {location: thumb_xT.png, description: Thumbnail Image file}
   - {location: xT.png, description: Image file}
-data_file: PPG023_H2_NeutralPionDataFrom130GeV.yaml
+data_file: ppg023fig17a.yaml
 ---
-name: "Figure 17 Part 2"
+name: "Figure 17b"
 description: '$x_T$-scaled spectra for $\pi^0$ for Au+Au collisions at $\sqrt{s_{NN}}$ = 200 GeV from the lead-scintillator.'
 keywords:
   - {name: reactions, values: [AU AU --> CHARGED X]}
@@ -248,9 +237,9 @@ keywords:
 additional_resources:
   - {location: thumb_xT.png, description: Thumbnail Image file}
   - {location: xT.png, description: Image file}
-data_file: PPG023_H3_TABLE1_NeutralPionDataFrom200GeVFrom.yaml
+data_file: ppg023fig17b.yaml
 ---
-name: "Figure 17 Part 3"
+name: "Figure 17c"
 description: '$x_T$-scaled spectra for $\pi^0$ for Au+Au collisions at $\sqrt{s_{NN}}$ = 200 GeV from the lead-scintillator.'
 keywords:
   - {name: reactions, values: [AU AU --> CHARGED X]}
@@ -259,9 +248,9 @@ keywords:
 additional_resources:
   - {location: thumb_xTloghalf.png, description: Thumbnail Image file}
   - {location: xTloghalf.png, description: Image file}
-data_file: PPG023_H3_TABLE2_NeutralPionDataFrom200GeVFrom.yaml
+data_file: ppg023fig17c.yaml
 ---
-name: "Figure 17 Part 4"
+name: "Figure 17d"
 description: '$x_T$-scaled spectra for $h^{\pm}$ for Au+Au collisions at $\sqrt{s_{NN}}$ = 130 GeV from the lead-scintillator.'
 keywords:
   - {name: reactions, values: [AU AU --> CHARGED X]}
@@ -270,12 +259,13 @@ keywords:
 additional_resources:
   - {location: thumb_xTloghalf.png, description: Thumbnail Image file}
   - {location: xTloghalf.png, description: Image file}
-data_file: PPG023_H_ChargedHadronDataFrom13GeVh++h-DIVIDINGBY2.yaml
+data_file: ppg023fig17d.yaml
 ---
 name: "Invariant yield from p+p reference"
-description: 'Invariant yields from the p+p reference data.  The normalization uncertainty is labeled norm, the uncertainty from the fit is labeled fit, and the uncertainty $\pi^0$ is from the $\pi^0$ ratio.'
+description: 'Invariant yields from the p+p reference data. The normalization uncertainty is labeled norm, the uncertainty from the fit is labeled fit, and the uncertainty $\pi^0$ is from the $\pi^0$ ratio.'
 keywords:
   - {name: reactions, values: [P P --> CHARGED X]}
   - {name: cmenergies, values: [200.0]}
   - {name: phrases, values: [ppg023, p0, mid-rapidity]}
-data_file: PPG023_D_NN_reference.yaml
+data_file: ppg023tab1.yaml
+---

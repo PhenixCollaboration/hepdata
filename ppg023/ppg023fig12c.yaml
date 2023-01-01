@@ -1,0 +1,211 @@
+independent_variables:
+- header: {name: '$p_{T}$ (GeV/$c$)'}
+  values:
+  - {low: 0.550, high: 0.650}
+  - {low: 0.650, high: 0.750}
+  - {low: 0.750, high: 0.850}
+  - {low: 0.850, high: 0.950}
+  - {low: 0.950, high: 1.050}
+  - {low: 1.050, high: 1.150}
+  - {low: 1.150, high: 1.250}
+  - {low: 1.250, high: 1.350}
+  - {low: 1.350, high: 1.450}
+  - {low: 1.450, high: 1.550}
+  - {low: 1.550, high: 1.650}
+  - {low: 1.650, high: 1.750}
+  - {low: 1.750, high: 1.850}
+  - {low: 1.850, high: 1.950}
+  - {low: 1.950, high: 2.100}
+  - {low: 2.100, high: 2.300}
+  - {low: 2.300, high: 2.500}
+  - {low: 2.500, high: 2.700}
+  - {low: 2.700, high: 2.900}
+  - {low: 2.900, high: 3.125}
+  - {low: 3.125, high: 3.375}
+  - {low: 3.375, high: 3.625}
+  - {low: 3.625, high: 3.875}
+  - {low: 3.875, high: 4.200}
+  - {low: 4.200, high: 4.600}
+  - {low: 4.600, high: 5.000}
+  - {low: 5.000, high: 5.400}
+  - {low: 5.400, high: 5.800}
+  - {low: 5.800, high: 6.500}
+dependent_variables:
+- header: {name: '$R_{AA}$'}
+  qualifiers:
+  - {name: 'Centrality', value: '80-92%'}
+  values:
+  - value: 0.667
+    errors:
+    - {symerror: 0.00267, label: 'stat.'}
+    - {asymerror: {plus: 0.11619, minus: -0.07886}, label: 'sys. (bounds)'}
+    - {symerror: 0.06933, label: 'sys. ($pp$)'}
+    - {symerror: 0.16332, label: 'sys. ($N_{coll}$)'}
+  - value: 0.684
+    errors:
+    - {symerror: 0.00314, label: 'stat.'}
+    - {asymerror: {plus: 0.11922, minus: -0.08053}, label: 'sys. (bounds)'}
+    - {symerror: 0.07109, label: 'sys. ($pp$)'}
+    - {symerror: 0.16748, label: 'sys. ($N_{coll}$)'}
+  - value: 0.682
+    errors:
+    - {symerror: 0.00368, label: 'stat.'}
+    - {asymerror: {plus: 0.11846, minus: -0.08000}, label: 'sys. (bounds)'}
+    - {symerror: 0.07093, label: 'sys. ($pp$)'}
+    - {symerror: 0.16709, label: 'sys. ($N_{coll}$)'}
+  - value: 0.700
+    errors:
+    - {symerror: 0.00434, label: 'stat.'}
+    - {asymerror: {plus: 0.12052, minus: -0.08170}, label: 'sys. (bounds)'}
+    - {symerror: 0.07275, label: 'sys. ($pp$)'}
+    - {symerror: 0.17138, label: 'sys. ($N_{coll}$)'}
+  - value: 0.715
+    errors:
+    - {symerror: 0.00508, label: 'stat.'}
+    - {asymerror: {plus: 0.12160, minus: -0.08307}, label: 'sys. (bounds)'}
+    - {symerror: 0.07435, label: 'sys. ($pp$)'}
+    - {symerror: 0.17515, label: 'sys. ($N_{coll}$)'}
+  - value: 0.725
+    errors:
+    - {symerror: 0.00602, label: 'stat.'}
+    - {asymerror: {plus: 0.12124, minus: -0.08389}, label: 'sys. (bounds)'}
+    - {symerror: 0.07541, label: 'sys. ($pp$)'}
+    - {symerror: 0.17765, label: 'sys. ($N_{coll}$)'}
+  - value: 0.745
+    errors:
+    - {symerror: 0.00715, label: 'stat.'}
+    - {asymerror: {plus: 0.12201, minus: -0.08578}, label: 'sys. (bounds)'}
+    - {symerror: 0.07751, label: 'sys. ($pp$)'}
+    - {symerror: 0.18260, label: 'sys. ($N_{coll}$)'}
+  - value: 0.758
+    errors:
+    - {symerror: 0.00834, label: 'stat.'}
+    - {asymerror: {plus: 0.12101, minus: -0.08681}, label: 'sys. (bounds)'}
+    - {symerror: 0.07885, label: 'sys. ($pp$)'}
+    - {symerror: 0.18576, label: 'sys. ($N_{coll}$)'}
+  - value: 0.793
+    errors:
+    - {symerror: 0.00992, label: 'stat.'}
+    - {asymerror: {plus: 0.12280, minus: -0.09044}, label: 'sys. (bounds)'}
+    - {symerror: 0.08250, label: 'sys. ($pp$)'}
+    - {symerror: 0.19436, label: 'sys. ($N_{coll}$)'}
+  - value: 0.825
+    errors:
+    - {symerror: 0.01171, label: 'stat.'}
+    - {asymerror: {plus: 0.12332, minus: -0.09354}, label: 'sys. (bounds)'}
+    - {symerror: 0.08579, label: 'sys. ($pp$)'}
+    - {symerror: 0.20210, label: 'sys. ($N_{coll}$)'}
+  - value: 0.851
+    errors:
+    - {symerror: 0.01369, label: 'stat.'}
+    - {asymerror: {plus: 0.12213, minus: -0.09594}, label: 'sys. (bounds)'}
+    - {symerror: 0.08845, label: 'sys. ($pp$)'}
+    - {symerror: 0.20837, label: 'sys. ($N_{coll}$)'}
+  - value: 0.814
+    errors:
+    - {symerror: 0.01555, label: 'stat.'}
+    - {asymerror: {plus: 0.11183, minus: -0.09132}, label: 'sys. (bounds)'}
+    - {symerror: 0.08465, label: 'sys. ($pp$)'}
+    - {symerror: 0.19941, label: 'sys. ($N_{coll}$)'}
+  - value: 0.859
+    errors:
+    - {symerror: 0.01830, label: 'stat.'}
+    - {asymerror: {plus: 0.11332, minus: -0.09588}, label: 'sys. (bounds)'}
+    - {symerror: 0.08935, label: 'sys. ($pp$)'}
+    - {symerror: 0.21048, label: 'sys. ($N_{coll}$)'}
+  - value: 0.905
+    errors:
+    - {symerror: 0.02153, label: 'stat.'}
+    - {asymerror: {plus: 0.11496, minus: -0.10040}, label: 'sys. (bounds)'}
+    - {symerror: 0.09407, label: 'sys. ($pp$)'}
+    - {symerror: 0.22160, label: 'sys. ($N_{coll}$)'}
+  - value: 0.886
+    errors:
+    - {symerror: 0.02428, label: 'stat.'}
+    - {asymerror: {plus: 0.10893, minus: -0.09785}, label: 'sys. (bounds)'}
+    - {symerror: 0.09218, label: 'sys. ($pp$)'}
+    - {symerror: 0.21714, label: 'sys. ($N_{coll}$)'}
+  - value: 0.883
+    errors:
+    - {symerror: 0.02058, label: 'stat.'}
+    - {asymerror: {plus: 0.10422, minus: -0.09680}, label: 'sys. (bounds)'}
+    - {symerror: 0.09185, label: 'sys. ($pp$)'}
+    - {symerror: 0.21638, label: 'sys. ($N_{coll}$)'}
+  - value: 0.890
+    errors:
+    - {symerror: 0.02642, label: 'stat.'}
+    - {asymerror: {plus: 0.10080, minus: -0.09653}, label: 'sys. (bounds)'}
+    - {symerror: 0.09253, label: 'sys. ($pp$)'}
+    - {symerror: 0.21798, label: 'sys. ($N_{coll}$)'}
+  - value: 0.995
+    errors:
+    - {symerror: 0.03503, label: 'stat.'}
+    - {asymerror: {plus: 0.11016, minus: -0.10687}, label: 'sys. (bounds)'}
+    - {symerror: 0.10349, label: 'sys. ($pp$)'}
+    - {symerror: 0.24380, label: 'sys. ($N_{coll}$)'}
+  - value: 0.937
+    errors:
+    - {symerror: 0.04271, label: 'stat.'}
+    - {asymerror: {plus: 0.10275, minus: -0.09975}, label: 'sys. (bounds)'}
+    - {symerror: 0.09741, label: 'sys. ($pp$)'}
+    - {symerror: 0.22947, label: 'sys. ($N_{coll}$)'}
+  - value: 0.906
+    errors:
+    - {symerror: 0.05137, label: 'stat.'}
+    - {asymerror: {plus: 0.10220, minus: -0.09567}, label: 'sys. (bounds)'}
+    - {symerror: 0.09422, label: 'sys. ($pp$)'}
+    - {symerror: 0.22197, label: 'sys. ($N_{coll}$)'}
+  - value: 0.982
+    errors:
+    - {symerror: 0.05998, label: 'stat.'}
+    - {asymerror: {plus: 0.11496, minus: -0.10534}, label: 'sys. (bounds)'}
+    - {symerror: 0.10210, label: 'sys. ($pp$)'}
+    - {symerror: 0.24052, label: 'sys. ($N_{coll}$)'}
+  - value: 0.893
+    errors:
+    - {symerror: 0.07366, label: 'stat.'}
+    - {asymerror: {plus: 0.10562, minus: -0.09517}, label: 'sys. (bounds)'}
+    - {symerror: 0.09285, label: 'sys. ($pp$)'}
+    - {symerror: 0.21874, label: 'sys. ($N_{coll}$)'}
+  - value: 0.743
+    errors:
+    - {symerror: 0.08413, label: 'stat.'}
+    - {asymerror: {plus: 0.08889, minus: -0.07885}, label: 'sys. (bounds)'}
+    - {symerror: 0.07729, label: 'sys. ($pp$)'}
+    - {symerror: 0.18208, label: 'sys. ($N_{coll}$)'}
+  - value: 0.851
+    errors:
+    - {symerror: 0.11666, label: 'stat.'}
+    - {asymerror: {plus: 0.10304, minus: -0.09011}, label: 'sys. (bounds)'}
+    - {symerror: 0.08849, label: 'sys. ($pp$)'}
+    - {symerror: 0.20847, label: 'sys. ($N_{coll}$)'}
+  - value: 0.824
+    errors:
+    - {symerror: 0.11220, label: 'stat.'}
+    - {asymerror: {plus: 0.10148, minus: -0.08747}, label: 'sys. (bounds)'}
+    - {symerror: 0.08574, label: 'sys. ($pp$)'}
+    - {symerror: 0.20198, label: 'sys. ($N_{coll}$)'}
+  - value: 0.898
+    errors:
+    - {symerror: 0.15875, label: 'stat.'}
+    - {asymerror: {plus: 0.11305, minus: -0.09617}, label: 'sys. (bounds)'}
+    - {symerror: 0.09338, label: 'sys. ($pp$)'}
+    - {symerror: 0.21999, label: 'sys. ($N_{coll}$)'}
+  - value: 0.875
+    errors:
+    - {symerror: 0.21158, label: 'stat.'}
+    - {asymerror: {plus: 0.11310, minus: -0.09551}, label: 'sys. (bounds)'}
+    - {symerror: 0.09104, label: 'sys. ($pp$)'}
+    - {symerror: 0.21447, label: 'sys. ($N_{coll}$)'}
+  - value: 0.447
+    errors:
+    - {symerror: 0.21515, label: 'stat.'}
+    - {asymerror: {plus: 0.05950, minus: -0.05020}, label: 'sys. (bounds)'}
+    - {symerror: 0.04653, label: 'sys. ($pp$)'}
+    - {symerror: 0.10961, label: 'sys. ($N_{coll}$)'}
+  - value: 0.738
+    errors:
+    - {symerror: 0.32813, label: 'stat.'}
+    - {asymerror: {plus: 0.10564, minus: -0.08940}, label: 'sys. (bounds)'}
+    - {symerror: 0.07677, label: 'sys. ($pp$)'}
+    - {symerror: 0.18086, label: 'sys. ($N_{coll}$)'}
