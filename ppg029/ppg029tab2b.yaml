@@ -1,0 +1,47 @@
+independent_variables:
+- header: {name: '$p_{Ta}$ (GeV/$c$)'}
+  values:
+  - {low: 1.72, high: 2.14}
+  - {low: 2.14, high: 2.53}
+  - {low: 2.53, high: 3.17}
+  - {low: 3.17, high: 4.36}
+  - {low: 4.36, high: 5.00}
+dependent_variables:
+- header: {name: '$\sigma_N$ rad'}
+  qualifiers:
+  - {name: '$p_{Ta}$', value: '$p_{Tt}$ = 4.40 GeV/$c$'}
+  values:
+  - value: 0.28
+    errors:
+    - {symerror: 0.02, label: 'stat.'}
+  - value: 0.18
+    errors:
+    - {symerror: 0.01, label: 'stat.'}
+  - value: 0.20
+    errors:
+    - {symerror: 0.01, label: 'stat.'}
+  - value: 0.16
+    errors:
+    - {symerror: 0.01, label: 'stat.'}
+  - value: 0.14
+    errors:
+    - {symerror: 0.01, label: 'stat.'}
+- header: {name: '$\sigma_A$ rad'}
+  qualifiers:
+  - {name: '$p_{Ta}$', value: '$p_{Tt}$ = 4.40 GeV/$c$'}
+  values:
+  - value: 0.50
+    errors:
+    - {symerror: 0.03, label: 'stat.'}
+  - value: 0.47
+    errors:
+    - {symerror: 0.06, label: 'stat.'}
+  - value: 0.47
+    errors:
+    - {symerror: 0.04, label: 'stat.'}
+  - value: 0.38
+    errors:
+    - {symerror: 0.04, label: 'stat.'}
+  - value: 0.39
+    errors:
+    - {symerror: 0.07, label: 'stat.'}

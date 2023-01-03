@@ -1,0 +1,56 @@
+independent_variables:
+- header: {name: '$p_{Tt}$ (GeV/$c$)'}
+  values:
+  - {low: 3.22, high: 3.89}
+  - {low: 3.89, high: 4.90}
+  - {low: 4.90, high: 5.91}
+  - {low: 5.91, high: 7.24}
+  - {low: 7.24, high: 8.34}
+  - {low: 8.34, high: 10.00}
+dependent_variables:
+- header: {name: '$<z_t>$'}
+  values:
+  - value: 0.51
+    errors:
+    - {symerror: 4.10e-03, label: 'stat.'}
+    - {symerror: 0.06, label: 'syst.'}
+  - value: 0.56
+    errors:
+    - {symerror: 2.10e-03, label: 'stat.'}
+    - {symerror: 0.07, label: 'syst.'}
+  - value: 0.61
+    errors:
+    - {symerror: 1.10e-03, label: 'stat.'}
+    - {symerror: 0.07, label: 'syst.'}
+  - value: 0.64
+    errors:
+    - {symerror: 1.10e-04, label: 'stat.'}
+    - {symerror: 0.07, label: 'syst.'}
+  - value: 0.66
+    errors:
+    - {symerror: 1.10e-03, label: 'stat.'}
+    - {symerror: 0.07, label: 'syst.'}
+  - value: 0.68
+    errors:
+    - {symerror: 5.10e-03, label: 'stat.'}
+    - {symerror: 0.06, label: 'syst.'}
+- header: {name: '$\bar{x_h}$'}
+  values:
+  - value: 0.88
+    errors:
+    - {symerror: 0.01, label: 'stat.'}
+  - value: 0.87
+    errors:
+    - {symerror: 0.01, label: 'stat.'}
+  - value: 0.85
+    errors:
+    - {symerror: 0.01, label: 'stat.'}
+  - value: 0.85
+    errors:
+    - {symerror: 0.02, label: 'stat.'}
+  - value: 0.86
+    errors:
+    - {symerror: 0.02, label: 'stat.'}
+  - value: 0.84
+    errors:
+    - {symerror: 0.05, label: 'stat.'}

@@ -1,0 +1,47 @@
+independent_variables:
+- header: {name: '$p_{Ta}$ (GeV/$c$)'}
+  values:
+  - {low: 1.9, high: 2.2}
+  - {low: 2.2, high: 2.7}
+  - {low: 2.7, high: 3.4}
+  - {low: 3.4, high: 4.7}
+  - {low: 4.7, high: 5.0}
+dependent_variables:
+- header: {name: '$\bar{x^-1_h}$ $<z_t>$ $\sqrt{<k^2_T>}$'}
+  qualifiers:
+  - {name: '$p_{Ta}$', value: '5.0 < $p_{Tt}$ < 10.0'}
+  values:
+  - value: 2.69
+    errors:
+    - {symerror: 0.37, label: 'stat.'}
+  - value: 2.54
+    errors:
+    - {symerror: 0.31, label: 'stat.'}
+  - value: 2.13
+    errors:
+    - {symerror: 0.26, label: 'stat.'}
+  - value: 1.89
+    errors:
+    - {symerror: 0.27, label: 'stat.'}
+  - value: 1.41
+    errors:
+    - {symerror: 0.30, label: 'stat.'}
+- header: {name: '$\sqrt{<k^2_T>}$'}
+  qualifiers:
+  - {name: '$p_{Ta}$', value: '5.0 < $p_{Tt}$ < 10.0'}
+  values:
+  - value: 3.09
+    errors:
+    - {symerror: 0.30, label: 'stat.'}
+  - value: 3.19
+    errors:
+    - {symerror: 0.30, label: 'stat.'}
+  - value: 3.04
+    errors:
+    - {symerror: 0.30, label: 'stat.'}
+  - value: 3.04
+    errors:
+    - {symerror: 0.38, label: 'stat.'}
+  - value: 2.64
+    errors:
+    - {symerror: 0.56, label: 'stat.'}

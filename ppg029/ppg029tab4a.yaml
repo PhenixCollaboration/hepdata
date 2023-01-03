@@ -1,0 +1,36 @@
+independent_variables:
+- header: {name: '$p_{Tt}$ (GeV/$c$)'}
+  values:
+  - {low: 2.23, high: 2.72}
+  - {low: 2.72, high: 3.22}
+  - {low: 3.22, high: 3.89}
+  - {low: 3.89, high: 4.90}
+  - {low: 4.90, high: 5.91}
+  - {low: 5.91, high: 7.24}
+  - {low: 7.24, high: 8.00}
+dependent_variables:
+- header: {name: '$\sqrt{<p^2_{out}>}$'}
+  qualifiers:
+  - {name: '$p_{Tt}$', value: '1.4 < $p_{Ta}$ < 5.0'}
+  values:
+  - value: 1.315
+    errors:
+    - {symerror: 0.043, label: 'stat.'}
+  - value: 1.250
+    errors:
+    - {symerror: 0.046, label: 'stat.'}
+  - value: 1.182
+    errors:
+    - {symerror: 0.049, label: 'stat.'}
+  - value: 1.011
+    errors:
+    - {symerror: 0.038, label: 'stat.'}
+  - value: 0.953
+    errors:
+    - {symerror: 0.052, label: 'stat.'}
+  - value: 0.868
+    errors:
+    - {symerror: 0.064, label: 'stat.'}
+  - value: 0.798
+    errors:
+    - {symerror: 0.068, label: 'stat.'}

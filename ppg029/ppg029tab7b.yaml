@@ -1,0 +1,40 @@
+independent_variables:
+- header: {name: '$x_E$'}
+  values:
+  - {low: 0.18, high: 0.22}
+  - {low: 0.22, high: 0.27}
+  - {low: 0.27, high: 0.35}
+  - {low: 0.35, high: 0.44}
+  - {low: 0.44, high: 0.54}
+  - {low: 0.54, high: 0.64}
+  - {low: 0.64, high: 0.81}
+  - {low: 0.81, high: 1.00}
+dependent_variables:
+- header: {name: '$dn$/$dx_E$'}
+  qualifiers:
+  - {name: '$x_E$', value: '$p_{Tt}$ = 6.40 GeV/$c$'}
+  values:
+  - value: 8.0e-02
+    errors:
+    - {symerror: 6.3e-03, label: 'stat.'}
+  - value: 4.6e-02
+    errors:
+    - {symerror: 4.7e-03, label: 'stat.'}
+  - value: 3.1e-02
+    errors:
+    - {symerror: 3.9e-03, label: 'stat.'}
+  - value: 1.7e-02
+    errors:
+    - {symerror: 2.0e-03, label: 'stat.'}
+  - value: 8.2e-03
+    errors:
+    - {symerror: 1.4e-03, label: 'stat.'}
+  - value: 3.8e-03
+    errors:
+    - {symerror: 9.2e-04, label: 'stat.'}
+  - value: 2.4e-03
+    errors:
+    - {symerror: 7.3e-04, label: 'stat.'}
+  - value: 9.3e-04
+    errors:
+    - {symerror: 2.6e-04, label: 'stat.'}
