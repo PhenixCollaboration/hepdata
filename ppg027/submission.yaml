@@ -48,7 +48,7 @@ additional_resources:
 # This is Figure 2.
 name: "Figure 2"
 location: Data From Figure 2 of PRL 93 (2004) 092301
-description: '$F_{p_T}$ (in percent, 0.2 GeV/$$ < $p_T$ < 2.0 GeV/$c$) as a function of centrality, which is expressed in terms of the number of participants in the collision, $N_{part}$.'
+description: '$F_{p_T}$ (in percent, 0.2 GeV/$c$ < $p_T$ < 2.0 GeV/$c$) as a function of centrality, which is expressed in terms of the number of participants in the collision, $N_{part}$.'
 keywords: # used for searching, possibly mutliple values for each keywords
 - {name: reactions, values: [Au Au --> CHARGED X, $p$ $p$ --> CHARGED X]}
 - {name: cmenergies, values: [200.0]}
@@ -68,34 +68,6 @@ keywords: # used for searching, possibly mutliple values for each keywords
 - {name: cmenergies, values: [200.0]}
 - {name: phrases, values: [ppg027, transverse momentum, mid-rapidity, elliptic flow]}
 data_file: ppg027fig3.yaml 
-additional_resources:
-- {description: Original EPS Image file, location: FtPtMax.eps}
-- {description: PNG Image file, location: FtPtMax.png}
-- {description: Thumbnail Image file, location: thumb_FtPtMax.png}
----
-# This is Figure 2a.
-name: "Figure 2a"
-location: Data From Figure 2 of PRL 93 (2004) 092301
-description: '$F_{p_T}$ (in percent, 0.2 GeV/$$ < $p_T$ < 2.0 GeV/$c$) as a function of centrality, which is expressed in terms of the number of participants in the collision, $N_{part}$.'
-keywords: # used for searching, possibly mutliple values for each keywords
-- {name: reactions, values: [Au Au --> CHARGED X, $p$ $p$ --> CHARGED X]}
-- {name: cmenergies, values: [200.0]}
-- {name: phrases, values: [ppg027, transverse momentum, mid-rapidity, elliptic flow]}
-data_file: ppg027fig2a.yaml 
-additional_resources:
-- {description: Original EPS Image file, location: FtCent.eps}
-- {description: PNG Image file, location: FtCent.png}
-- {description: Thumbnail Image file, location: thumb_FtCent.png}
----
-# This is Figure 3a.
-name: "Figure 3a"
-location: Data From Figure 3 of PRL 93 (2004) 092301
-description: '$F_{p_T}$ (in percent) of non-random fluctuations as a function of the $p_T$ range over which $M_{p_T}$ is calculated, 0.2 GeV/$c$ < $p_T$ < $p^{max}_T$, for the 20-25% centrality class ($N_{part}$ = 181.6).'
-keywords: # used for searching, possibly mutliple values for each keywords
-- {name: reactions, values: [Au Au --> CHARGED X, $p$ $p$ --> CHARGED X]}
-- {name: cmenergies, values: [200.0]}
-- {name: phrases, values: [ppg027, transverse momentum, mid-rapidity, elliptic flow]}
-data_file: ppg027fig3a.yaml 
 additional_resources:
 - {description: Original EPS Image file, location: FtPtMax.eps}
 - {description: PNG Image file, location: FtPtMax.png}
