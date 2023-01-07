@@ -1,0 +1,26 @@
+independent_variables:
+- header: {name: '$N_{qp}$'}
+  values:
+  - {low: 8.15, high: 8.85}
+  - {low: 6.85, high: 7.55}
+  - {low: 6.05, high: 6.75}
+  - {low: 5.15, high: 5.85}
+  - {low: 3.75, high: 4.45}
+dependent_variables:
+- header: {name: '$p$+Al'}
+  values:
+  - value: 1.29
+    errors:
+    - {symerror: 0.19, label: 'syst.'}
+  - value: 1.44
+    errors:
+    - {symerror: 0.22, label: 'syst.'}
+  - value: 1.52
+    errors:
+    - {symerror: 0.23, label: 'syst.'}
+  - value: 1.45
+    errors:
+    - {symerror: 0.22, label: 'syst.'}
+  - value: 1.56
+    errors:
+    - {symerror: 0.23, label: 'syst.'}

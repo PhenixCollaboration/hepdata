@@ -1,0 +1,15 @@
+independent_variables:
+- header: {name: '$N_{qp}$'}
+  values:
+  - {value: 2.99}
+dependent_variables:
+- header: {name: '$p$+$p$ (PHENIX)'}
+  values:
+  - value: 1.59
+    errors:
+    - {symerror: 0.11, label: 'syst.'}
+- header: {name: '$p$+$p$ (PHOBOS)'}
+  values:
+  - value: 1.51
+    errors:
+    - {asymerror: {plus: 0.17, minus: 0.35}, label: 'syst.'}
