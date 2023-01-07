@@ -1,4 +1,11 @@
 independent_variables:
+- header: {name: 'Centrality (%)'}
+  values:
+  - {low: 0, high: 5}
+  - {low: 5, high: 10}
+  - {low: 10, high: 20}
+  - {low: 20, high: 40}
+  - {low: 40, high: 72}
 - header: {name: '$N_{qp}$'}
   values:
   - {low: 8.15, high: 8.85}
@@ -7,7 +14,9 @@ independent_variables:
   - {low: 5.15, high: 5.85}
   - {low: 3.75, high: 4.45}
 dependent_variables:
-- header: {name: '$p$+Al'}
+- header: {name: '$(dN_{ch}/d\eta)/(N_{qp}/2)$'}
+  qualifiers:
+  - {name: 'system', value: '$p$+Al'}
   values:
   - value: 1.29
     errors:

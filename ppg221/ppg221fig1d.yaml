@@ -35,7 +35,9 @@ independent_variables:
   - {low: 2.75, high: 2.85}
   - {low: 2.85, high: 3.00}
 dependent_variables:
-- header: {name: '$p$+Al'}
+- header: {name: '$dN_{ch}/d\eta$'}
+  qualifiers:
+  - {name: 'system', value: '$p$+Al'}
   values:
   - value: 6.02
     errors:

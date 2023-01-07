@@ -26,7 +26,9 @@ independent_variables:
   - {low: 2.7, high: 2.9}
   - {low: 2.9, high: 3.0}
 dependent_variables:
-- header: {name: '$^3$He+Au'}
+- header: {name: '$v_2$'}
+  qualifiers:
+  - {name: 'system', value: '$^3$He+Au'}
   values:
   - value: 0.0509
     errors:
@@ -124,7 +126,9 @@ dependent_variables:
     errors:
     - {symerror: 0.0057, label: 'stat.'}
     - {symerror: 0.0016, label: 'syst.'}
-- header: {name: '$d$+Au'}
+- header: {name: '$v_2$'}
+  qualifiers:
+  - {name: 'system', value: '$d$+Au'}
   values:
   - value: 0.0487
     errors:
@@ -222,7 +226,9 @@ dependent_variables:
     errors:
     - {symerror: 0.0025, label: 'stat.'}
     - {symerror: 0.0013, label: 'syst.'}
-- header: {name: '$p$+Au'}
+- header: {name: '$v_2$'}
+  qualifiers:
+  - {name: 'system', value: '$p$+Au'}
   values:
   - value: 0.0487
     errors:
@@ -320,7 +326,9 @@ dependent_variables:
     errors:
     - {symerror: 0.0026, label: 'stat.'}
     - {symerror: 0.00045, label: 'syst.'}
-- header: {name: '$p$+Al'}
+- header: {name: '$v_2$'}
+  qualifiers:
+  - {name: 'system', value: '$p$+Al'}
   values:
   - value: 0.0575
     errors:

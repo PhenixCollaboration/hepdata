@@ -34,7 +34,9 @@ independent_variables:
   - {low: 2.75, high: 2.85}
   - {low: 2.85, high: 3.00}
 dependent_variables:
-- header: {name: '$^3$He+Au'}
+- header: {name: '$dN_{ch}/d\eta$'}
+  qualifiers:
+  - {name: 'system', value: '$^3$He+Au'}
   values:
   - value: 29.8
     errors:
