@@ -1,0 +1,57 @@
+#PHENIX paper PPG031
+#
+#
+#
+#Phys.Rev. Lett. 93 (2004) 202002
+#InspireHEP ID: 648739
+#
+#Prepared by Nikolas Nelson
+#Please contact Christine Nattrass if you have any questions about this submission
+#PPG liaison:
+#Reviewer:
+#
+comment: | # Information that applies to all data tables.
+    We present a measurement of the double longitudinal spin asymmetry in inclusive $\pi^0$ production in polarized proton-proton collisions at $\sqrt{s}$ = 200 GeV. The data were taken at the Relativistic Heavy Ion Collider with average beam polarizations of 27%. The measurements are the first of a porgram to study the longitudinal spin structure of the proton, using strongly interacting probes, at collider energies. The asymmetry is presented for transverse momenta 1-5 GeV/$c$ at mid-rapidity, where next-to-leading order perturbative quantum chromodynamic (NLO pQCD) calculations well describe the unpolarized cross section. The observed asymmetry is small and is compared with a NLO pQCD calculation with a range of polarized gluon distributions.
+additional_resources:
+- {location: "https://phenix-intra.sdcc.bnl.gov/WWW/p/info/ppg/031/", description: "web page with data points"}
+- {location: "http://arxiv.org/abs/hep-ex/0404027", description: arXiv}
+- {location: "https://inspirehep.net/literature/648739", description: InspireHEP}
+---
+# This is Table 1.
+name: "Table 1"
+location: Data from Table 1 of PRL 93 (2004) 202002.
+description: 'Double spin asymmetry for the raw signal ($\pi^0 + BG$), for the background ($BG$) and for $\pi^0$ background corrected; single spin asymmetry for $\pi^0$ background corrected; for the four $p_T$ bins.'
+keywords: # used for searching, possibly mutliple values for each keywords
+- {name: reactions, values: [$p$ $p$ --> CHARGED X]}
+- {name: cmenergies, values: [200.0]}
+- {name: phrases, values: [ppg031, transverse momenta, mid-rapidity]}
+data_file: ppg031tab1.yaml 
+---
+# This is Figure 1.
+name: "Figure 1"
+location: Data from Figure 1 of PRL 93 (2004) 202002.
+description: 'Single spin raw asymmetry normalized by the beam polarization, $\epsilon$/$P$, as a function of azimuthal angle $\phi$, for forward neutron production.'
+keywords: # used for searching, possibly mutliple values for each keywords
+- {name: reactions, values: [$p$ $p$ --> CHARGED X]}
+- {name: cmenergies, values: [200.0]}
+- {name: phrases, values: [ppg031, transverse momenta, mid-rapidity]}
+data_file: ppg031fig1.yaml 
+additional_resources:
+- {description: Original EPS Image file, location: pol.eps}
+- {description: PNG Image file, location: pol.png}
+- {description: Thumbnail Image file, location: thumb_pol.png}
+---
+# This is Figure 3.
+name: "Figure 3"
+location: Data from Figure 3 of PRL 93 (2004) 202002.
+description: 'The measured double spin asymmetry $A^{\pi^0}_{LL}$ versus mean $p_T$ of $\pi^0$s in each bin.'
+keywords: # used for searching, possibly mutliple values for each keywords
+- {name: reactions, values: [$p$ $p$ --> CHARGED X]}
+- {name: cmenergies, values: [200.0]}
+- {name: phrases, values: [ppg031, transverse momenta, mid-rapidity]}
+data_file: ppg031fig3.yaml 
+additional_resources:
+- {description: Original EPS Image file, location: all.eps}
+- {description: PNG Image file, location: all.png}
+- {description: Thumbnail Image file, location: thumb_all.png}
+---

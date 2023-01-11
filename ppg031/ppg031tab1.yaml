@@ -1,0 +1,70 @@
+independent_variables:
+- header: {name: '$p_T$ (GeV/$c$)'}
+  values:
+  - {low: 1, high: 2}
+  - {low: 2, high: 3}
+  - {low: 3, high: 4}
+  - {low: 4, high: 5}
+- header: {name: '$<p_T>$ (GeV/$c$'}
+  values:
+  - value: 1.59
+  - value: 2.39
+  - value: 3.37
+  - value: 4.38
+dependent_variables:
+- header: {name: '$A^{raw}_{LL}$'}
+  values:
+  - value: -0.015
+    errors:
+    - {symerror: 0.009, label: 'stat.'}
+  - value: -0.015
+    errors:
+    - {symerror: 0.011, label: 'stat.'}
+  - value: -0.018
+    errors:
+    - {symerror: 0.025, label: 'stat.'}
+  - value: 0.026
+    errors:
+    - {symerror: 0.057, label: 'stat.'}
+- header: {name: '$A^{BG}_{LL}$'}
+  values:
+  - value: 0.016
+    errors:
+    - {symerror: 0.014, label: 'stat.'}
+  - value: -0.030
+    errors:
+    - {symerror: 0.024, label: 'stat.'}
+  - value: -0.024
+    errors:
+    - {symerror: 0.068, label: 'stat.'}
+  - value: 0.24
+    errors:
+    - {symerror: 0.17, label: 'stat.'}
+- header: {name: '$A^{\pi^0}_{LL}$'}
+  values:
+  - value: -0.027
+    errors:
+    - {symerror: 0.013, label: 'stat.'}
+  - value: -0.013
+    errors:
+    - {symerror: 0.013, label: 'stat.'}
+  - value: -0.017
+    errors:
+    - {symerror: 0.028, label: 'stat.'}
+  - value: 0.007
+    errors:
+    - {symerror: 0.062, label: 'stat.'}
+- header: {name: '$A^{\pi^0}_{L}$'}
+  values:
+  - value: -0.002
+    errors:
+    - {symerror: 0.003, label: 'stat.'}
+  - value: -0.001
+    errors:
+    - {symerror: 0.003, label: 'stat.'}
+  - value: -0.003
+    errors:
+    - {symerror: 0.006, label: 'stat.'}
+  - value: -0.010
+    errors:
+    - {symerror: 0.012, label: 'stat.'}

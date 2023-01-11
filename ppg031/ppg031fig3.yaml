@@ -1,0 +1,28 @@
+independent_variables:
+- header: {name: '$p_T$ (GeV/$c$)'}
+  values:
+  - {low: 1, high: 2}
+  - {low: 2, high: 3}
+  - {low: 3, high: 4}
+  - {low: 4, high: 5}
+- header: {name: '$<p_T>$ (GeV/$c$'}
+  values:
+  - value: 1.59
+  - value: 2.39
+  - value: 3.37
+  - value: 4.38
+dependent_variables:
+- header: {name: '$A^{\pi^0}_{LL}$'}
+  values:
+  - value: -0.027
+    errors:
+    - {symerror: 0.013, label: 'stat.'}
+  - value: -0.013
+    errors:
+    - {symerror: 0.013, label: 'stat.'}
+  - value: -0.017
+    errors:
+    - {symerror: 0.028, label: 'stat.'}
+  - value: 0.007
+    errors:
+    - {symerror: 0.062, label: 'stat.'}
