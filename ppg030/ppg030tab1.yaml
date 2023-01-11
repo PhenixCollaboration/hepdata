@@ -1,0 +1,64 @@
+independent_variables:
+- header: {name: 'Centrality (%)'}
+  values:
+  - {low: 0, high: 20}
+  - {low: 20, high: 40}
+  - {low: 40, high: 60}
+  - {low: 60, high: 88}
+dependent_variables:
+- header: {name: '$<N_{coll}>$'}
+  values:
+  - value: 15.4
+    errors:
+    - {symerror: 1.0, label: 'stat.'}
+  - value: 10.6
+    errors:
+    - {symerror: 0.7, label: 'stat.'}
+  - value: 7.0
+    errors:
+    - {symerror: 0.6, label: 'stat.'}
+  - value: 3.1
+    errors:
+    - {symerror: 0.3, label: 'stat.'}
+- header: {name: '$<N_{part}>$'}
+  values:
+  - value: 15.6
+    errors:
+    - {symerror: 0.9, label: 'stat.'}
+  - value: 11.1
+    errors:
+    - {symerror: 0.6, label: 'stat.'}
+  - value: 7.7
+    errors:
+    - {symerror: 0.4, label: 'stat.'}
+  - value: 4.2
+    errors:
+    - {symerror: 0.3, label: 'stat.'}
+- header: {name: '$<\nu = N_{coll}/N^d_{part}>$'}
+  values:
+  - value: 7.5
+    errors:
+    - {symerror: 0.5, label: 'stat.'}
+  - value: 5.6
+    errors:
+    - {symerror: 0.4, label: 'stat.'}
+  - value: 4.0
+    errors:
+    - {symerror: 0.3, label: 'stat.'}
+  - value: 2.2
+    errors:
+    - {symerror: 0.2, label: 'stat.'}
+- header: {name: 'Trigger bias correction'}
+  values:
+  - value: 0.95
+    errors:
+    - {symerror: 0.3, label: 'stat.'}
+  - value: 0.99
+    errors:
+    - {symerror: 0.007, label: 'stat.'}
+  - value: 1.03
+    errors:
+    - {symerror: 0.009, label: 'stat.'}
+  - value: 1.04
+    errors:
+    - {symerror: 0.027, label: 'stat.'}

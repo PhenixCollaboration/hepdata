@@ -1,0 +1,89 @@
+#PHENIX paper PPG030
+#
+#Nuclear Effects on Hadron Production in $d$+$Au$ and $p$+$p$ Collisions at $\sqrt{s_{NN}}$
+#
+#Phys.Rev. C 74 (2006) 024904
+#InspireHEP ID: 711951
+#
+#Prepared by Nikolas Nelson
+#Please contact Christine Nattrass if you have any questions about this submission
+#PPG liaison:
+#Reviewer:
+#
+comment: | # Information that applies to all data tables.
+    PHENIX has measured the centrality dependence of mid-rapidity pion, kaon and proton transverse momentum distributions in $d$+$Au$ and $p$+$p$ collisions at $\sqrt{s_{NN}} = 200 GeV. The $p$+$p$ data provide a reference for nuclear effects in $d$+$Au$ and previously measured $Au$+$Au$ collisions. Hadron production is enhanced in $d$+$Au$, relative to independent nucleon-nucleon scattering, as was observed in lower energy collisions. The nuclear modification factor for (anti) protons is larger than that for pions. The difference increases with centrality, but is not sufficient to account for the abundance of baryon production observed in central $Au$+$Au$ collisions at RHIC. The centrality dependence in $d$+$Au$ shows that the nuclear modification factor increases gradually with the number of collisions suffered by each participant nucleon. We also present comparisons with lower energy data as well as with parton recombination and other theoretical models of nuclear effects on particle production.
+additional_resources:
+- {location: "https://phenix-intra.sdcc.bnl.gov/WWW/p/info/ppg/030/", description: "web page with data points"}
+- {location: "http://arxiv.org/abs/nucl-ex/0603010", description: arXiv}
+- {location: "https://inspirehep.net/literature/711951", description: InspireHEP}
+---
+# This is Table 1.
+name: "Table 1"
+location: Data From Table 1 of PRC 74 (2006) 024904
+description: 'Mean number of binary collisions, particpating nucleons from the Au nucleus, number of collisions per participating deuteron nucleon, and trigger bias corrections for the $d$+Au centrality bins.'
+keywords: # used for searching, possibly mutliple values for each keywords
+- {name: reactions, values: [$d$ $Au$ --> CHARGED X, $p$ $p$ --> CHARGED X]}
+- {name: cmenergies, values: [200.0]}
+- {name: phrases, values: [ppg030, transverse momentum, mid-rapidity]}
+data_file: ppg030tab1.yaml 
+---
+# This is Table 2.
+name: "Table 2"
+location: Data From Table 2 of PRC 74 (2006) 024904
+description: 'Systematic errors in percent on particle yields in $d$+Au and $p$+$p$ collisions. These values are independent of $p_T$.'
+keywords: # used for searching, possibly mutliple values for each keywords
+- {name: reactions, values: [$d$ $Au$ --> CHARGED X, $p$ $p$ --> CHARGED X]}
+- {name: cmenergies, values: [200.0]}
+- {name: phrases, values: [ppg030, transverse momentum, mid-rapidity]}
+data_file: ppg030tab2.yaml 
+---
+# This is Table 3.
+name: "Figure 3a-1"
+location: Data From Table 3 of PRC 74 (2006) 024904
+description: 'Transverse momentum in GeV/$c$ for $\pi^{\pm}$.'
+keywords: # used for searching, possibly mutliple values for each keywords
+- {name: reactions, values: [$d$ $Au$ --> CHARGED X, $p$ $p$ --> CHARGED X]}
+- {name: cmenergies, values: [200.0]}
+- {name: phrases, values: [ppg030, transverse momentum, mid-rapidity]}
+data_file: ppg030tab3a1.yaml 
+---
+# This is Table 3.
+name: "Figure 3a-2"
+location: Data From Table 3 of PRC 74 (2006) 024904
+description: 'Transverse momentum in GeV/$c$ for $\pi^{\pm}$.'
+keywords: # used for searching, possibly mutliple values for each keywords
+- {name: reactions, values: [$d$ $Au$ --> CHARGED X, $p$ $p$ --> CHARGED X]}
+- {name: cmenergies, values: [200.0]}
+- {name: phrases, values: [ppg030, transverse momentum, mid-rapidity]}
+data_file: ppg030tab3a2.yaml 
+---
+# This is Table 3.
+name: "Figure 3b-1"
+location: Data From Table 3 of PRC 74 (2006) 024904
+description: 'Transverse momentum in GeV/$c$ for $K^{\pm}$.'
+keywords: # used for searching, possibly mutliple values for each keywords
+- {name: reactions, values: [$d$ $Au$ --> CHARGED X, $p$ $p$ --> CHARGED X]}
+- {name: cmenergies, values: [200.0]}
+- {name: phrases, values: [ppg030, transverse momentum, mid-rapidity]}
+data_file: ppg030tab3b1.yaml 
+---
+# This is Table 3.
+name: "Figure 3b-2"
+location: Data From Table 3 of PRC 74 (2006) 024904
+description: 'Transverse momentum in GeV/$c$ for $K^{\pm}$.'
+keywords: # used for searching, possibly mutliple values for each keywords
+- {name: reactions, values: [$d$ $Au$ --> CHARGED X, $p$ $p$ --> CHARGED X]}
+- {name: cmenergies, values: [200.0]}
+- {name: phrases, values: [ppg030, transverse momentum, mid-rapidity]}
+data_file: ppg030tab3b2.yaml 
+---
+# This is Table 3.
+name: "Figure 3c"
+location: Data From Table 3 of PRC 74 (2006) 024904
+description: 'Transverse momentum in GeV/$c$ for $p$ and $\bar{p}$.'
+keywords: # used for searching, possibly mutliple values for each keywords
+- {name: reactions, values: [$d$ $Au$ --> CHARGED X, $p$ $p$ --> CHARGED X]}
+- {name: cmenergies, values: [200.0]}
+- {name: phrases, values: [ppg030, transverse momentum, mid-rapidity]}
+data_file: ppg030tab3c.yaml 
+---
