@@ -1,0 +1,58 @@
+independent_variables:
+- header: {name: 'Centrality (%)'}
+  values:
+  - {low: 0, high: 5}
+  - {low: 5, high: 10}
+  - {low: 10, high: 20}
+  - {low: 20, high: 40}
+  - {low: 40, high: 60}
+  - {low: 60, high: 90}
+dependent_variables:
+- header: {name: '$<v^B_2>$'}
+  values:
+  - value: 0.035
+    errors:
+    - {symerror: 0.001, label: 'stat.'}
+  - value: 0.062
+    errors:
+    - {symerror: 0.001, label: 'stat.'}
+  - value: 0.095
+    errors:
+    - {symerror: 0.0005, label: 'stat.'}
+  - value: 0.15
+    errors:
+    - {symerror: 0.0004, label: 'stat.'}
+  - value: 0.17
+    errors:
+    - {symerror: 0.001, label: 'stat.'}
+  - value: 0.066
+    errors:
+    - {symerror: 0.001, label: 'stat.'}
+- header: {name: '$<v^A_2>$'}
+  values:
+  - value: 0.052
+    errors:
+    - {symerror: 0.007, label: 'stat.'}
+  - value: 0.10
+    errors:
+    - {symerror: 0.005, label: 'stat.'}
+  - value: 0.14
+    errors:
+    - {symerror: 0.003, label: 'stat.'}
+  - value: 0.021
+    errors:
+    - {symerror: 0.003, label: 'stat.'}
+  - value: 0.24
+    errors:
+    - {symerror: 0.006, label: 'stat.'}
+  - value: 0.091
+    errors:
+    - {symerror: 0.004, label: 'stat.'}
+- header: {name: '$\phi_{Min}$ (rad)'}
+  values:
+  - value: 0.94
+  - value: 0.96
+  - value: 0.98
+  - value: 0.91
+  - value: 0.86
+  - value: 1.1
