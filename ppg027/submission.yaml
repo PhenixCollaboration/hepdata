@@ -1,0 +1,75 @@
+#PHENIX paper PPG027
+#
+#Measurement of Non-Random Event-by-Event Fluctuations of Average Transverse Momentum in $\sqrt{s_{NN}}$ = 200 GeV Au + Au and $p$ + $p$ Collisions
+#
+#Phys.Rev. Letter 93 (2004) 092301
+#InspireHEP ID: 630161
+#
+#Prepared by Nikolas Nelson
+#Please contact Christine Nattrass if you have any questions about this submission
+#PPG liaison:
+#Reviewer:
+#
+comment: | # Information that applies to all data tables.
+    Event-by-event fluctuations of the average transverse momentum of produced particles near mid-rapidity have been measured by the PHENIX Collaboration in $\sqrt{s_{NN}}$ = 200 GeV Au + Au and $p$ + $p$ collisions at the Relativistic Heavy Ion Collider. The fluctuations are observed to be in excess of the expectation for statistically independent particle emission for all centralities. The excess fluctuations exhibit a dependence on both the centrality of the collision and on the transverse momentum window over which the average is calculated. Both the centrality and $p_T$ dependence can be well reproduced by a simulation of random particle production with the addition of contributions from hard scattering processes.
+additional_resources:
+- {location: "https://phenix-intra.sdcc.bnl.gov/WWW/p/info/ppg/027/", description: "web page with data points"}
+- {location: "http://arxiv.org/abs/nucl-ex/0310005", description: arXiv}
+- {location: "https://inspirehep.net/literature/630161", description: InspireHEP}
+---
+# This is Figure 1.
+name: "Figure 1a"
+location: Data From Figure 1 of PRL 93 (2004) 092301
+description: 'Comparisons between the data and mixed event $M_{p_T}$ distributions for the representative 0-5% centrality classes.'
+keywords: # used for searching, possibly mutliple values for each keywords
+- {name: reactions, values: [Au Au --> CHARGED X, $p$ $p$ --> CHARGED X]}
+- {name: cmenergies, values: [200.0]}
+- {name: phrases, values: [ppg027, transverse momentum, mid-rapidity]}
+data_file: ppg027fig1a.yaml 
+additional_resources:
+- {description: Original EPS Image file, location: residuals.eps}
+- {description: PNG Image file, location: residuals.png}
+- {description: Thumbnail Image file, location: thumb_residuals.png}
+---
+# This is Figure 1.
+name: "Figure 1b"
+location: Data From Figure 1 of PRL 93 (2004) 092301
+description: 'Comparisons between the data and mixed event $M_{p_T}$ distributions for the representative 30-35% centrality classes.'
+keywords: # used for searching, possibly mutliple values for each keywords
+- {name: reactions, values: [Au Au --> CHARGED X, $p$ $p$ --> CHARGED X]}
+- {name: cmenergies, values: [200.0]}
+- {name: phrases, values: [ppg027, transverse momentum, mid-rapidity]}
+data_file: ppg027fig1b.yaml 
+additional_resources:
+- {description: Original EPS Image file, location: residuals.eps}
+- {description: PNG Image file, location: residuals.png}
+- {description: Thumbnail Image file, location: thumb_residuals.png}
+---
+# This is Figure 2.
+name: "Figure 2"
+location: Data From Figure 2 of PRL 93 (2004) 092301
+description: '$F_{p_T}$ (in percent, 0.2 GeV/$c$ < $p_T$ < 2.0 GeV/$c$) as a function of centrality, which is expressed in terms of the number of participants in the collision, $N_{part}$.'
+keywords: # used for searching, possibly mutliple values for each keywords
+- {name: reactions, values: [Au Au --> CHARGED X, $p$ $p$ --> CHARGED X]}
+- {name: cmenergies, values: [200.0]}
+- {name: phrases, values: [ppg027, transverse momentum, mid-rapidity, elliptic flow]}
+data_file: ppg027fig2.yaml 
+additional_resources:
+- {description: Original EPS Image file, location: FtCent.eps}
+- {description: PNG Image file, location: FtCent.png}
+- {description: Thumbnail Image file, location: thumb_FtCent.png}
+---
+# This is Figure 3.
+name: "Figure 3"
+location: Data From Figure 3 of PRL 93 (2004) 092301
+description: '$F_{p_T}$ (in percent) of non-random fluctuations as a function of the $p_T$ range over which $M_{p_T}$ is calculated, 0.2 GeV/$c$ < $p_T$ < $p^{max}_T$, for the 20-25% centrality class ($N_{part}$ = 181.6).'
+keywords: # used for searching, possibly mutliple values for each keywords
+- {name: reactions, values: [Au Au --> CHARGED X, $p$ $p$ --> CHARGED X]}
+- {name: cmenergies, values: [200.0]}
+- {name: phrases, values: [ppg027, transverse momentum, mid-rapidity, elliptic flow]}
+data_file: ppg027fig3.yaml 
+additional_resources:
+- {description: Original EPS Image file, location: FtPtMax.eps}
+- {description: PNG Image file, location: FtPtMax.png}
+- {description: Thumbnail Image file, location: thumb_FtPtMax.png}
+---

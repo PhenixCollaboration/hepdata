@@ -1,0 +1,22 @@
+independent_variables:
+- header: {name: 'Centrality (%)'}
+  values:
+  - {low: 45, high: 50}
+- header: {name: '$N_{qp}$'}
+  values:
+  - {value: 2.99}
+dependent_variables:
+- header: {name: '$(dN_{ch}/d\eta)/(N_{qp}/2)$'}
+  qualifiers:
+  - {name: 'system', value: '$p$+$p$ (PHENIX)'}
+  values:
+  - value: 1.59
+    errors:
+    - {symerror: 0.11, label: 'syst.'}
+- header: {name: '$(dN_{ch}/d\eta)/(N_{qp}/2)$'}
+  qualifiers:
+  - {name: 'system', value: '$p$+$p$ (PHOBOS)'}
+  values:
+  - value: 1.51
+    errors:
+    - {asymerror: {plus: 0.17, minus: 0.35}, label: 'syst.'}

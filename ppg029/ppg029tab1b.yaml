@@ -1,0 +1,48 @@
+independent_variables:
+- header: {name: '$p_{Ta}$ (GeV/$c$)'}
+  values:
+  - {low: 1.0, high: 2.0}
+  - {low: 2.0, high: 3.0}
+  - {low: 3.0, high: 4.0}
+  - {low: 4.0, high: 5.0}
+dependent_variables:
+- header: {name: '$\chi^2$(DOF=34)'}
+  qualifiers:
+  - {name: '$p_{Ta}$', value: '3.0 < $p_{Ta}$ < 10.0 GeV/$c$'}
+  values:
+  - value: 188.4
+  - value: 63.2
+  - value: 50.3
+  - value: 63.2
+- header: {name: '$\sigma_N$'}
+  qualifiers:
+  - {name: '$p_{Ta}$', value: '3.0 < $p_{Ta}$ < 10.0 GeV/$c$'}
+  values:
+  - value: 0.29
+    errors:
+    - {symerror: 4e-03, label: 'stat.'}
+  - value: 0.21
+    errors:
+    - {symerror: 3e-03, label: 'stat.'}
+  - value: 0.16
+    errors:
+    - {symerror: 4e-03, label: 'stat.'}
+  - value: 0.14
+    errors:
+    - {symerror: 4e-03, label: 'stat.'}
+- header: {name: '$\sqrt{<p^2_{out}>}$'}
+  qualifiers:
+  - {name: '$p_{Ta}$', value: '3.0 < $p_{Ta}$ < 10.0 GeV/$c$'}
+  values:
+  - value: 0.87
+    errors:
+    - {symerror: 0.03, label: 'stat.'}
+  - value: 1.16
+    errors:
+    - {symerror: 0.04, label: 'stat.'}
+  - value: 1.36
+    errors:
+    - {symerror: 0.06, label: 'stat.'}
+  - value: 1.69
+    errors:
+    - {symerror: 0.13, label: 'stat.'}

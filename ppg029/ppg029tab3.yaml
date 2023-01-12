@@ -1,0 +1,57 @@
+independent_variables:
+- header: {name: '$p_{Tt}$ (GeV/$c$)'}
+  values:
+  - {low: 2.23, high: 2.72}
+  - {low: 2.72, high: 3.22}
+  - {low: 3.22, high: 3.89}
+  - {low: 3.89, high: 4.90}
+  - {low: 4.90, high: 5.91}
+  - {low: 5.91, high: 7.23}
+  - {low: 7.23, high: 8.00}
+dependent_variables:
+- header: {name: '$\sigma_N$'}
+  values:
+  - value: 0.247
+    errors:
+    - {symerror: 0.002, label: 'stat.'}
+  - value: 0.227
+    errors:
+    - {symerror: 0.003, label: 'stat.'}
+  - value: 0.235
+    errors:
+    - {symerror: 0.004, label: 'stat.'}
+  - value: 0.215
+    errors:
+    - {symerror: 0.004, label: 'stat.'}
+  - value: 0.210
+    errors:
+    - {symerror: 0.006, label: 'stat.'}
+  - value: 0.197
+    errors:
+    - {symerror: 0.009, label: 'stat.'}
+  - value: 0.185
+    errors:
+    - {symerror: 0.012, label: 'stat.'}
+- header: {name: '$\sigma_A$'}
+  values:
+  - value: 0.565
+    errors:
+    - {symerror: 0.013, label: 'stat.'}
+  - value: 0.548
+    errors:
+    - {symerror: 0.014, label: 'stat.'}
+  - value: 0.521
+    errors:
+    - {symerror: 0.016, label: 'stat.'}
+  - value: 0.464
+    errors:
+    - {symerror: 0.014, label: 'stat.'}
+  - value: 0.431
+    errors:
+    - {symerror: 0.020, label: 'stat.'}
+  - value: 0.396
+    errors:
+    - {symerror: 0.025, label: 'stat.'}
+  - value: 0.350
+    errors:
+    - {symerror: 0.028, label: 'stat.'}
