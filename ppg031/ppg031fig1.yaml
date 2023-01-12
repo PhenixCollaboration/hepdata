@@ -1,14 +1,24 @@
 independent_variables:
+- header: {name: '$\phi$ bins (rad)'}
+  values:
+  - {low: -1.571, high: -1.178}
+  - {low: -1.178, high: -0.785}
+  - {low: -0.785, high: -0.393}
+  - {low: -0.393, high: 0.000}
+  - {low: 0.000, high: 0.393}
+  - {low: 0.393, high: 0.785}
+  - {low: 0.785, high: 1.178}
+  - {low: 1.178, high: 1.571}
 - header: {name: '$\phi$ (rad)'}
   values:
-  - {low: -1.374, high: -0.982}
-  - {low: -0.982, high: -0.589}
-  - {low: -0.589, high: -0.196}
-  - {low: -0.196, high: 0.196}
-  - {low: 0.196, high: 0.589}
-  - {low: 0.589, high: 0.982}
-  - {low: 0.982, high: 1.374}
-  - {low: 1.374, high: 1.500}
+  - value: -1.374
+  - value: -0.982
+  - value: -0.589
+  - value: -0.196
+  - value: 0.196
+  - value: 0.589
+  - value: 0.982
+  - value: 1.374
 dependent_variables:
 - header: {name: '$\epsilon$/$P$'}
   qualifiers:
