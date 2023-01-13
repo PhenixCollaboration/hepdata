@@ -15,66 +15,64 @@ independent_variables:
   - {low: 6.5, high: 7}
   - {low: 7, high: 7.5}
   - {low: 7.5, high: 8}
-  - {low: 8, high: 8.5}
-  - {low: 8.5, high: 9}
-  - {low: 9, high: 9.5}
-  - {low: 9.5, high: 10}
 dependent_variables:
-- header: {name: '$ R_{AA} $'}
+- header: {name: 'Centrality'}
   qualifiers:
-  - {name: 'pT (GeV/c)', value: '$ Central\ \pi^0\ (0-10\%) $'}
+  - {name: 'pT (GeV/c)', value: '0-92% (min. bias)'}
   values:
-  - value: 0.33
+  - value: 0.301
     errors:
-    - {symerror: 0.04, label: 'eNorm'}
-  - value: 0.38
+    - {symerror: 0.031, label: 'sys(norm)'}
+    - {symerror: 0.027, label: 'sys(corr)'}
+  - value: 0.0553
     errors:
-    - {symerror: 0.05, label: 'eNorm'}
-  - value: 0.38
+    - {symerror: 0.006, label: 'sys(norm)'}
+    - {symerror: 0.005, label: 'sys(corr)'}
+  - value: 0.0119
     errors:
-    - {symerror: 0.05, label: 'eNorm'}
-  - value: 0.31
+    - {symerror: 0.0012, label: 'sys(norm)'}
+    - {symerror: 0.0011, label: 'sys(corr)'}
+  - value: 0.00297
     errors:
-    - {symerror: 0.04, label: 'eNorm'}
-  - value: 0.27
+    - {symerror: 3.2e-4, label: 'sys(norm)'}
+    - {symerror: 2.7e-4, label: 'sys(corr)'}
+  - value: 9.2e-4
     errors:
-    - {symerror: 0.04, label: 'eNorm'}
-  - value: 0.255
+    - {symerror: 1.0e-4, label: 'sys(norm)'}
+    - {symerror: 8e-5, label: 'sys(corr)'}
+  - value: 3.20e-4
     errors:
-    - {symerror: 0.034, label: 'eNorm'}
-  - value: 0.248
+    - {symerror: 3.5e-5, label: 'sys(norm)'}
+    - {symerror: 2.9e-5, label: 'sys(corr)'}
+  - value: 1.14e-4
     errors:
-    - {symerror: 0.033, label: 'eNorm'}
-  - value: 0.27
+    - {symerror: 1.3e-5, label: 'sys(norm)'}
+    - {symerror: 1.1e-5, label: 'sys(corr)'}
+  - value: 4.79e-5
     errors:
-    - {symerror: 0.04, label: 'eNorm'}
-  - value: 0.248
+    - {symerror: 5e-6, label: 'sys(norm)'}
+    - {symerror: 5e-6, label: 'sys(corr)'}
+  - value: 1.94e-5
     errors:
-    - {symerror: 0.033, label: 'eNorm'}
-  - value: 0.188
+    - {symerror: 2.2e-6, label: 'sys(norm)'}
+    - {symerror: 2.1e-6, label: 'sys(corr)'}
+  - value: 1.09e-5
     errors:
-    - {symerror: 0.025, label: 'eNorm'}
-  - value: 0.225
+    - {symerror: 1.3e-6, label: 'sys(norm)'}
+    - {symerror: 1.4e-6, label: 'sys(corr)'}
+  - value: 4.27e-6
     errors:
-    - {symerror: 0.030, label: 'eNorm'}
-  - value: 0.155
+    - {symerror: 5e-7, label: 'sys(norm)'}
+    - {symerror: 6e-7, label: 'sys(corr)'}
+  - value: 2.98e-6
     errors:
-    - {symerror: 0.021, label: 'eNorm'}
-  - value: 0.216
+    - {symerror: 5e-7, label: 'sys(norm)'}
+    - {symerror: 8e-7, label: 'sys(corr)'}
+  - value: 8.6e-7
     errors:
-    - {symerror: 0.029, label: 'eNorm'}
-  - value: 0.34
+    - {symerror: 1.4e-7, label: 'sys(norm)'}
+    - {symerror: 3.5e-7, label: 'sys(corr)'}
+  - value: 6.87e-7
     errors:
-    - {symerror: 0.05, label: 'eNorm'}
-  - value: 0.245
-    errors:
-    - {symerror: 0.033, label: 'eNorm'}
-  - value: 0.224
-    errors:
-    - {symerror: 0.030, label: 'eNorm'}
-  - value: 0.31
-    errors:
-    - {symerror: 0.04, label: 'eNorm'}
-  - value: 0.28
-    errors:
-    - {symerror: 0.04, label: 'eNorm'}
+    - {symerror: 1.2e-7, label: 'sys(norm)'}
+    - {symerror: 2.9e-7, label: 'sys(corr)'}
