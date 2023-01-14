@@ -5,7 +5,7 @@ independent_variables:
   - {low: 1.5, high: 2}
   - {low: 2, high: 2.5}
   - {low: 2.5, high: 3}
-  # - {low: 3, high: 3.5}
+  # - {low: 3, high: 3.5}     # ZERO ERROR
   - {low: 3.5, high: 4}
   - {low: 4, high: 4.5}
   - {low: 4.5, high: 5}
@@ -44,7 +44,7 @@ dependent_variables:
   # - value: 0.05
   #   errors:
   #   - {symerror: 0.06, label: 'sys(norm)'}
-  #   - {symerror: 0.00, label: 'sys(corr)'}
+  #   - {symerror: 0.00, label: 'sys(corr)'}        # ZERO ERROR
   - value: 0.05
     errors:
     - {symerror: 0.05, label: 'sys(norm)'}
