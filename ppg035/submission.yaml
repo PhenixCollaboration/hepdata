@@ -1,0 +1,99 @@
+#PHENIX paper PPG035
+#
+#Centrality Dependence of Charm Production from Single Electrons in Au+Au Collisions at $\sqrt{s_{NN}}$ = 200 GeV
+#
+#Phys.Rev.Lett. 94 (2005) 082301
+#InspireHEP ID: 660611
+#
+#Prepared by Nikolas Nelson
+#Please contact Christine Nattrass if you have any questions about this submission
+#PPG liaison:
+#Reviewer:
+#
+comment: | # Information that applies to all data tables.
+    The PHENIX experiment has measured mid-rapidity transverse momentum spectra (0.4 < $p_T$ < 4.0 GeV/$c$) of single electrons as a function of centrality in Au+Au collisions at $\sqrt{s_{NN}}$ = 200 GeV. Contributions to the raw spectra from photon conversions and Dalitz decays of light neutral mesons are measured by introducing a thin (1.7% $X_0$) converter into the PHENIX acceptance and are statistically removed. The subtracted "non-photonic" electron spectra are primarily due to the semileptonic decays of hadrons containing heavy quarks (charm and bottom). For all centralities, charm production is found to scale with the nuclear overlap function, $T_{AA}$. For minimum-bias collisions the charm cross section per binary collision is $N_{c\bar{c}}$/$T_{AA}$ = 622 $\pm$ 57 (stat.) $\pm$ 160 (sys.) $\mu$barns.
+additional_resources:
+- {location: "https://phenix-intra.sdcc.bnl.gov/WWW/p/info/ppg/035/", description: "web page with data points"}
+- {location: "http://arxiv.org/abs/nucl-ex/0409028", description: arXiv}
+- {location: "https://inspirehep.net/literature/660611", description: InspireHEP}
+---
+# This is Table 1.
+name: "Table 1"
+location: Data From Tab. 1 of PRL 94 (2005) 082301
+description: 'Centrality bin, number of $N+N$ collisions, nuclear overlap function, charm cross section per $N+N$ collision, in $\sqrt{s_{NN}}$ = 200 GeV Au+Au reactions.'
+keywords: # used for searching, possibly mutliple values for each keywords
+- {name: reactions, values: [Au Au --> CHARGED X]}
+- {name: cmenergies, values: [200.0]}
+- {name: phrases, values: [ppg035, mid-rapidity, Dalitz decays]}
+data_file: ppg035tab1.yaml 
+---
+# This is Figure 2.
+name: "Figure 2a"
+location: Data From Fig. 2 of PRL 94 (2005) 082301
+description: 'Fully corrected heavy flavor electron $p_T$ spectra for different Au+Au centralities.'
+keywords: # used for searching, possibly mutliple values for each keywords
+- {name: reactions, values: [Au Au --> CHARGED X]}
+- {name: cmenergies, values: [200.0]}
+- {name: phrases, values: [ppg035, mid-rapidity, Dalitz decays]}
+data_file: ppg035fig2a.yaml 
+additional_resources:
+- {description: Original EPS Image file, location: draw_fig2_c1.eps}
+- {description: PNG Image file, location: draw_fig2_c1.png}
+- {description: Thumbnail Image file, location: thumb_draw_fig2_c1.png}
+---
+# This is Figure 2.
+name: "Figure 2b"
+location: Data From Fig. 2 of PRL 94 (2005) 082301
+description: 'Fully corrected heavy flavor electron $p_T$ spectra for different Au+Au centralities.'
+keywords: # used for searching, possibly mutliple values for each keywords
+- {name: reactions, values: [Au Au --> CHARGED X]}
+- {name: cmenergies, values: [200.0]}
+- {name: phrases, values: [ppg035, mid-rapidity, Dalitz decays]}
+data_file: ppg035fig2b.yaml 
+additional_resources:
+- {description: Original EPS Image file, location: draw_fig2_c1.eps}
+- {description: PNG Image file, location: draw_fig2_c1.png}
+- {description: Thumbnail Image file, location: thumb_draw_fig2_c1.png}
+---
+# This is Figure 2.
+name: "Figure 2c"
+location: Data From Fig. 2 of PRL 94 (2005) 082301
+description: 'Fully corrected heavy flavor electron $p_T$ spectra for different Au+Au centralities.'
+keywords: # used for searching, possibly mutliple values for each keywords
+- {name: reactions, values: [Au Au --> CHARGED X]}
+- {name: cmenergies, values: [200.0]}
+- {name: phrases, values: [ppg035, mid-rapidity, Dalitz decays]}
+data_file: ppg035fig2c.yaml 
+additional_resources:
+- {description: Original EPS Image file, location: draw_fig2_c1.eps}
+- {description: PNG Image file, location: draw_fig2_c1.png}
+- {description: Thumbnail Image file, location: thumb_draw_fig2_c1.png}
+---
+# This is Figure 3.
+name: "Figure 3a"
+location: Data From Fig. 3 of PRL 94 (2005) 082301
+description: 'Non-photonic electron yield (0.8 < $p_T$ < 4.0 GeV/$c$) measured in Au+Au reactions at 200 GeV scaled by $N_{coll}$ (left-hand scale) as a function of centrality given by $N_{coll}$. This electron yield translates to the electron cross section per $N+N$ collisions in the above $p_T$ range (right-hand scale).'
+keywords: # used for searching, possibly mutliple values for each keywords
+- {name: reactions, values: [Au Au --> CHARGED X]}
+- {name: cmenergies, values: [200.0]}
+- {name: phrases, values: [ppg035, mid-rapidity, Dalitz decays]}
+data_file: ppg035fig3a.yaml 
+additional_resources:
+- {description: Original EPS Image file, location: draw_fig3.eps}
+- {description: PNG Image file, location: draw_fig3.png}
+- {description: Thumbnail Image file, location: thumb_draw_fig3.png}
+---
+# This is Figure 3.
+name: "Figure 3b"
+location: Data From Fig. 3 of PRL 94 (2005) 082301
+description: 'Non-photonic electron yield (0.8 < $p_T$ < 4.0 GeV/$c$) measured in Au+Au reactions at 200 GeV scaled by $N_{coll}$ (left-hand scale) as a function of centrality given by $N_{coll}$. The yield in $p$+$p$ collisions at 200 GeV is also shown.'
+keywords: # used for searching, possibly mutliple values for each keywords
+- {name: reactions, values: [$p$ $p$ --> CHARGED X]}
+- {name: cmenergies, values: [200.0]}
+- {name: phrases, values: [ppg035, mid-rapidity, Dalitz decays]}
+data_file: ppg035fig3b.yaml 
+additional_resources:
+- {description: Original EPS Image file, location: draw_fig3.eps}
+- {description: PNG Image file, location: draw_fig3.png}
+- {description: Thumbnail Image file, location: thumb_draw_fig3.png}
+---

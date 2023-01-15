@@ -1,0 +1,102 @@
+independent_variables:
+- header: {name: 'Centrality (%)'}
+  values:
+  - {low: 0, high: 92}
+  - {low: 0, high: 10}
+  - {low: 10, high: 20}
+  - {low: 20, high: 40}
+  - {low: 40, high: 60}
+  - {low: 60, high: 92}
+dependent_variables:
+- header: {name: '$N_{coll}$'}
+  values:
+  - value: 258
+    errors:
+    - {symerror: 25, label: 'stat.'}
+  - value: 955
+    errors:
+    - {symerror: 94, label: 'stat.'}
+  - value: 603
+    errors:
+    - {symerror: 59, label: 'stat.'}
+  - value: 297
+    errors:
+    - {symerror: 31, label: 'stat.'}
+  - value: 91.0
+    errors:
+    - {symerror: 12, label: 'stat.'}
+  - value: 14.5
+    errors:
+    - {symerror: 4.0, label: 'stat.'}
+- header: {name: '$T_{AA} (mb^{-1})$'}
+  values:
+  - value: 6.14
+    errors:
+    - {symerror: 0.45, label: 'stat.'}
+  - value: 22.8
+    errors:
+    - {symerror: 1.6, label: 'stat.'}
+  - value: 14.4
+    errors:
+    - {symerror: 1.0, label: 'stat.'}
+  - value: 7.07
+    errors:
+    - {symerror: 0.58, label: 'stat.'}
+  - value: 2.16
+    errors:
+    - {symerror: 0.26, label: 'stat.'}
+  - value: 0.350
+    errors:
+    - {symerror: 0.10, label: 'stat.'}
+- header: {name: '$1/{T_{AA}}$${{dN_{c\bar{c}}}/{dy}}|_y$ = 0'}
+  values:
+  - value: 143
+    errors:
+    - {symerror: 13, label: 'stat.'}
+    - {symerror: 36, label: 'syst.'}
+  - value: 137
+    errors:
+    - {symerror: 21, label: 'stat.'}
+    - {symerror: 35, label: 'syst.'}
+  - value: 137
+    errors:
+    - {symerror: 26, label: 'stat.'}
+    - {symerror: 35, label: 'syst.'}
+  - value: 168
+    errors:
+    - {symerror: 27, label: 'stat.'}
+    - {symerror: 45, label: 'syst.'}
+  - value: 193
+    errors:
+    - {symerror: 47, label: 'stat.'}
+    - {symerror: 52, label: 'syst.'}
+  - value: 116
+    errors:
+    - {symerror: 87, label: 'stat.'}
+    - {symerror: 43, label: 'syst.'}
+- header: {name: '$N_{c\bar{c}}$/$T_{AA}$ ($\mu$b)'}
+  values:
+  - value: 622
+    errors:
+    - {symerror: 57, label: 'stat.'}
+    - {symerror: 160, label: 'syst.'}
+  - value: 597
+    errors:
+    - {symerror: 93, label: 'stat.'}
+    - {symerror: 160, label: 'syst.'}
+  - value: 596
+    errors:
+    - {symerror: 120, label: 'stat.'}
+    - {symerror: 160, label: 'syst.'}
+  - value: 731
+    errors:
+    - {symerror: 120, label: 'stat.'}
+    - {symerror: 200, label: 'syst.'}
+  - value: 841
+    errors:
+    - {symerror: 210, label: 'stat.'}
+    - {symerror: 230, label: 'syst.'}
+  - value: 504
+    errors:
+    - {symerror: 380, label: 'stat.'}
+    - {symerror: 190, label: 'syst.'}

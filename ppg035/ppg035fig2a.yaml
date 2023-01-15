@@ -1,0 +1,202 @@
+independent_variables:
+- header: {name: '$p_T$ bins (GeV/$c$)'}
+  values:
+  - {low: 0.300, high: 0.400}
+  - {low: 0.400, high: 0.500}
+  - {low: 0.500, high: 0.600}
+  - {low: 0.600, high: 0.700}
+  - {low: 0.700, high: 0.900}
+  - {low: 0.900, high: 1.10}
+  - {low: 1.10, high: 1.40}
+  - {low: 1.40, high: 1.80}
+  - {low: 1.80, high: 2.80}
+  - {low: 2.80, high: 4.00}
+- header: {name: '$p_T$ (GeV/$c$)'}
+  values:
+  - value: 0.347
+  - value: 0.446
+  - value: 0.546
+  - value: 0.684
+  - value: 0.885
+  - value: 1.09
+  - value: 1.29
+  - value: 1.61
+  - value: 2.32
+  - value: 3.36
+dependent_variables:
+- header: {name: '(1/2$\pi$ $p_T$)dN/d$p_T$dy [($c$/GeV)$^2$]'}
+  qualifiers:
+  - {name: 'Centrality', value: 'Min. Bias'}
+  values:
+  - value: 0.0514
+    errors:
+    - {symerror: 0.011, label: 'stat.'}
+    - {asymerror: {plus: 0.025, minus: 0.027}, label: 'syst.'}
+  - value: 0.0341
+    errors:
+    - {symerror: 0.0063, label: 'stat.'}
+    - {asymerror: {plus: 0.013, minus: 0.013}, label: 'syst.'}
+  - value: 0.0187
+    errors:
+    - {symerror: 0.0037, label: 'stat.'}
+    - {asymerror: {plus: 0.0070, minus: 0.0074}, label: 'syst.'}
+  - value: 0.0134
+    errors:
+    - {symerror: 0.0014, label: 'stat.'}
+    - {asymerror: {plus: 0.0031, minus: 0.0033}, label: 'syst.'}
+  - value: 0.00485
+    errors:
+    - {symerror: 0.00069, label: 'stat.'}
+    - {asymerror: {plus: 0.0010, minus: 0.0011}, label: 'syst.'}
+  - value: 0.00186
+    errors:
+    - {symerror: 0.00036, label: 'stat.'}
+    - {asymerror: {plus: 0.00039, minus: 0.00040}, label: 'syst.'}
+  - value: 0.000752
+    errors:
+    - {symerror: 0.00022, label: 'stat.'}
+    - {asymerror: {plus: 0.00016, minus: 0.00017}, label: 'syst.'}
+  - value: 0.000250
+    errors:
+    - {symerror: 0.000050, label: 'stat.'}
+    - {asymerror: {plus: 0.000041, minus: 0.000042}, label: 'syst.'}
+  - value: 0.0000217
+    errors:
+    - {symerror: 0.0000094, label: 'stat.'}
+    - {asymerror: {plus: 0.0000036, minus: 0.0000037}, label: 'syst.'}
+  - value: 0.000000719
+    errors:
+    - {symerror: 0.0000017, label: 'stat.'}
+    - {asymerror: {plus: 0.00000015, minus: 0.00000072}, label: 'syst.'}
+- header: {name: '(1/2$\pi$ $p_T$)dN/d$p_T$dy [($c$/GeV)$^2$]'}
+  qualifiers:
+  - {name: 'Centrality', value: '0-10%'}
+  values:
+  - value: 0.131
+    errors:
+    - {symerror: 0.065, label: 'stat.'}
+    - {asymerror: {plus: 0.065, minus: 0.068}, label: 'syst.'}
+  - value: 0.111
+    errors:
+    - {symerror: 0.038, label: 'stat.'}
+    - {asymerror: {plus: 0.042, minus: 0.044}, label: 'syst.'}
+  - value: 0.0979
+    errors:
+    - {symerror: 0.023, label: 'stat.'}
+    - {asymerror: {plus: 0.037, minus: 0.039}, label: 'syst.'}
+  - value: 0.0517
+    errors:
+    - {symerror: 0.0087, label: 'stat.'}
+    - {asymerror: {plus: 0.012, minus: 0.013}, label: 'syst.'}
+  - value: 0.0174
+    errors:
+    - {symerror: 0.0042, label: 'stat.'}
+    - {asymerror: {plus: 0.0038, minus: 0.0039}, label: 'syst.'}
+  - value: 0.00628
+    errors:
+    - {symerror: 0.0021, label: 'stat.'}
+    - {asymerror: {plus: 0.0013, minus: 0.0014}, label: 'syst.'}
+  - value: 0.00241
+    errors:
+    - {symerror: 0.0013, label: 'stat.'}
+    - {asymerror: {plus: 0.00052, minus: 0.00054}, label: 'syst.'}
+  - value: 0.000922
+    errors:
+    - {symerror: 0.00030, label: 'stat.'}
+    - {asymerror: {plus: 0.00015, minus: 0.00016}, label: 'syst.'}
+  - value: 0.0000929
+    errors:
+    - {symerror: 0.000057, label: 'stat.'}
+    - {asymerror: {plus: 0.000015, minus: 0.000016}, label: 'syst.'}
+  - value: 0.00000301
+    errors:
+    - {symerror: 0.000010, label: 'stat.'}
+    - {asymerror: {plus: 0.00000065, minus: 0.0000030}, label: 'syst.'}
+- header: {name: '(1/2$\pi$ $p_T$)dN/d$p_T$dy [($c$/GeV)$^2$]'}
+  qualifiers:
+  - {name: 'Centrality', value: '10-20%'}
+  values:
+  - value: 0.251
+    errors:
+    - {symerror: 0.052, label: 'stat.'}
+    - {asymerror: {plus: 0.12, minus: 0.13}, label: 'syst.'}
+  - value: 0.0814
+    errors:
+    - {symerror: 0.029, label: 'stat.'}
+    - {asymerror: {plus: 0.030, minus: 0.032}, label: 'syst.'}
+  - value: 0.0158
+    errors:
+    - {symerror: 0.017, label: 'stat.'}
+    - {asymerror: {plus: 0.0059, minus: 0.016}, label: 'syst.'}
+  - value: 0.0226
+    errors:
+    - {symerror: 0.0065, label: 'stat.'}
+    - {asymerror: {plus: 0.0053, minus: 0.0055}, label: 'syst.'}
+  - value: 0.0105
+    errors:
+    - {symerror: 0.0032, label: 'stat.'}
+    - {asymerror: {plus: 0.0023, minus: 0.0024}, label: 'syst.'}
+  - value: 0.00566
+    errors:
+    - {symerror: 0.0017, label: 'stat.'}
+    - {asymerror: {plus: 0.0012, minus: 0.0012}, label: 'syst.'}
+  - value: 0.00173
+    errors:
+    - {symerror: 0.0010, label: 'stat.'}
+    - {asymerror: {plus: 0.00037, minus: 0.00039}, label: 'syst.'}
+  - value: 0.000419
+    errors:
+    - {symerror: 0.00024, label: 'stat.'}
+    - {asymerror: {plus: 0.000068, minus: 0.000070}, label: 'syst.'}
+  - value: 0.00000942
+    errors:
+    - {symerror: 0.000043, label: 'stat.'}
+    - {asymerror: {plus: 0.0000016, minus: 0.0000094}, label: 'syst.'}
+  - value: 0.0000112
+    errors:
+    - {symerror: 0.0000085, label: 'stat.'}
+    - {asymerror: {plus: 0.0000024, minus: 0.0000025}, label: 'syst.'}
+- header: {name: '(1/2$\pi$ $p_T$)dN/d$p_T$dy [($c$/GeV)$^2$]'}
+  qualifiers:
+  - {name: 'Centrality', value: '40-60%'}
+  values:
+  - value: 0.0311
+    errors:
+    - {symerror: 0.014, label: 'stat.'}
+    - {asymerror: {plus: 0.015, minus: 0.016}, label: 'syst.'}
+  - value: 0.0192
+    errors:
+    - {symerror: 0.0079, label: 'stat.'}
+    - {asymerror: {plus: 0.0072, minus: 0.0076}, label: 'syst.'}
+  - value: 0.00982
+    errors:
+    - {symerror: 0.0046, label: 'stat.'}
+    - {asymerror: {plus: 0.0037, minus: 0.0039}, label: 'syst.'}
+  - value: 0.00663
+    errors:
+    - {symerror: 0.0018, label: 'stat.'}
+    - {asymerror: {plus: 0.0016, minus: 0.0016}, label: 'syst.'}
+  - value: 0.00180
+    errors:
+    - {symerror: 0.00087, label: 'stat.'}
+    - {asymerror: {plus: 0.00039, minus: 0.00041}, label: 'syst.'}
+  - value: 0.000831
+    errors:
+    - {symerror: 0.00046, label: 'stat.'}
+    - {asymerror: {plus: 0.00017, minus: 0.00018}, label: 'syst.'}
+  - value: 0.000375
+    errors:
+    - {symerror: 0.00028, label: 'stat.'}
+    - {asymerror: {plus: 0.000080, minus: 0.000084}, label: 'syst.'}
+  - value: 0.000136
+    errors:
+    - {symerror: 0.000062, label: 'stat.'}
+    - {asymerror: {plus: 0.000022, minus: 0.000023}, label: 'syst.'}
+  - value: 0.0000213
+    errors:
+    - {symerror: 0.000012, label: 'stat.'}
+    - {asymerror: {plus: 0.0000035, minus: 0.0000036}, label: 'syst.'}
+  - value: 0.00000130
+    errors:
+    - {symerror: 0.0000013, label: 'stat.'}
+    - {asymerror: {plus: 0.00000028, minus: 0.0000013}, label: 'syst.'}
