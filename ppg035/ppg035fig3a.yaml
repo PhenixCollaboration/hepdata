@@ -1,0 +1,36 @@
+independent_variables:
+- header: {name: '$N_{coll}$'}
+  values:
+  - value: 258
+  - value: 955
+  - value: 603
+  - value: 297
+  - value: 90.7
+  - value: 15.0
+dependent_variables:
+- header: {name: '${dN_e}/{dy}/{N_{coll}}$'}
+  values:
+  - value: 0.0000427
+    errors:
+    - {symerror: 0.0000040, label: 'stat.'}
+    - {asymerror: {plus: 0.0000097, minus: 0.000010}, label: 'syst.'}
+  - value: 0.0000407
+    errors:
+    - {symerror: 0.0000065, label: 'stat.'}
+    - {asymerror: {plus: 0.0000092, minus: 0.0000095}, label: 'syst.'}
+  - value: 0.0000416
+    errors:
+    - {symerror: 0.0000080, label: 'stat.'}
+    - {asymerror: {plus: 0.0000095, minus: 0.0000098}, label: 'syst.'}
+  - value: 0.0000514
+    errors:
+    - {symerror: 0.0000081, label: 'stat.'}
+    - {asymerror: {plus: 0.000012, minus: 0.000012}, label: 'syst.'}
+  - value: 0.0000544
+    errors:
+    - {symerror: 0.000014, label: 'stat.'}
+    - {asymerror: {plus: 0.000013, minus: 0.000013}, label: 'syst.'}
+  - value: 0.0000358
+    errors:
+    - {symerror: 0.000026, label: 'stat.'}
+    - {asymerror: {plus: 0.000012, minus: 0.000012}, label: 'syst.'}

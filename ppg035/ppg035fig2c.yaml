@@ -1,0 +1,46 @@
+independent_variables:
+- header: {name: '$p_T$ bins (GeV/$c$)'}
+  values:
+  - {low: 0.300, high: 0.400}
+  - {low: 0.400, high: 0.500}
+  - {low: 0.500, high: 0.900}
+  - {low: 0.900, high: 1.30}
+  - {low: 1.30, high: 1.90}
+  - {low: 1.90, high: 2.80}
+- header: {name: '$p_T$ (GeV/$c$)'}
+  values:
+  - value: 0.347
+  - value: 0.484
+  - value: 0.740
+  - value: 1.15
+  - value: 1.61
+  - value: 2.32
+dependent_variables:
+- header: {name: '(1/2$\pi$ $p_T$)dN/d$p_T$dy [($c$/GeV)$^2$]'}
+  qualifiers:
+  - {name: 'Centrality', value: '60-92%'}
+  values:
+  - value: 0.00625
+    errors:
+    - {symerror: 0.0044, label: 'stat.'}
+    - {asymerror: {plus: 0.0031, minus: 0.0032}, label: 'syst.'}
+  - value: 0.00192
+    errors:
+    - {symerror: 0.0013, label: 'stat.'}
+    - {asymerror: {plus: 0.00072, minus: 0.00076}, label: 'syst.'}
+  - value: 0.000307
+    errors:
+    - {symerror: 0.00027, label: 'stat.'}
+    - {asymerror: {plus: 0.000070, minus: 0.000073}, label: 'syst.'}
+  - value: 0.000112
+    errors:
+    - {symerror: 0.000077, label: 'stat.'}
+    - {asymerror: {plus: 0.000023, minus: 0.000024}, label: 'syst.'}
+  - value: 0.0000164
+    errors:
+    - {symerror: 0.000014, label: 'stat.'}
+    - {asymerror: {plus: 0.0000071, minus: 0.0000071}, label: 'syst.'}
+  - value: 0.00000713
+    errors:
+    - {symerror: 0.0000046, label: 'stat.'}
+    - {asymerror: {plus: 0.0000012, minus: 0.0000012}, label: 'syst.'}
