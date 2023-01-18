@@ -1,24 +1,24 @@
 independent_variables:
 - header: {name: 'Centrality (%)'}
   values:
-  - {low: 0, high: 1}
-  - {low: 1, high: 2}
-  - {low: 2, high: 5}
+  - {low: 0, high: 5}
   - {low: 5, high: 10}
   - {low: 10, high: 20}
   - {low: 20, high: 30}
   - {low: 30, high: 40}
-  - {low: 40, high: 70}
+  - {low: 40, high: 50}
+  - {low: 50, high: 60}
+  - {low: 60, high: 70}
 - header: {name: '$N_{qp}$'}
   values:
-  - {low: 26.85, high: 27.55}
-  - {low: 24.35, high: 25.05}
-  - {low: 22.55, high: 23.25}
-  - {low: 19.65, high: 20.35}
-  - {low: 17.65, high: 18.35}
-  - {low: 14.95, high: 15.65}
-  - {low: 12.35, high: 13.05}
-  - {low: 10.05, high: 10.75}
+  - {value: 1.37}
+  - {value: 1.34}
+  - {value: 1.30}
+  - {value: 1.31}
+  - {value: 1.27}
+  - {value: 1.27}
+  - {value: 1.25}
+  - {value: 1.22}
 dependent_variables:
 - header: {name: '$(dN_{ch}/d\eta)/(N_{qp}/2)$'}
   qualifiers:
