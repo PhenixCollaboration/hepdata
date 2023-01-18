@@ -14,13 +14,11 @@ independent_variables:
   - {low: -1.95, high: -1.85}
   - {low: -1.85, high: -1.75}
   - {low: -1.75, high: -1.65}
-  - {low: -1.65, high: -0.25}
   - {low: -0.25, high: -0.15}
   - {low: -0.15, high: -0.05}
   - {low: -0.05, high: 0.05}
   - {low: 0.05, high: 0.15}
   - {low: 0.15, high: 0.25}
-  - {low: 0.25, high: 1.65}
   - {low: 1.65, high: 1.75}
   - {low: 1.75, high: 1.85}
   - {low: 1.85, high: 1.95}
@@ -61,9 +59,6 @@ dependent_variables:
   - value: 16.9
     errors:
     - {symerror: 2.0, label: 'syst.'}
-  - value: 16.8
-    errors:
-    - {symerror: 2.0, label: 'syst.'}
   - value: 16.7
     errors:
     - {symerror: 2.0, label: 'syst.'}
@@ -100,9 +95,6 @@ dependent_variables:
   - value: 11.2
     errors:
     - {symerror: 1.6, label: 'syst.'}
-  - value: 10.1
-    errors:
-    - {symerror: 1.2, label: 'syst.'}
   - value: 8.82
     errors:
     - {symerror: 1.1, label: 'syst.'}
