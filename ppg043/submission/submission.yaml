@@ -1,0 +1,74 @@
+# PHENIX paper PPG007
+
+# "Net Charge Fluctuations in Au+Au Interactions at sqrt(s_NN) = 130 GeV."
+
+# Phys. Rev. Lett. 91, 072301 (2003)
+# InspireHEP ID: 617814
+# preprint nucl-ex/0304022
+
+# Prepared by Micah Hillman
+# Please contact Christine Nattrass if you have any questions about this submission
+# PPG liaison:
+# Reviewer:
+
+---
+additional_resources: # additional references (e.g. experiment TWiki page for analysis)
+  - {location: "https://phenix-intra.sdcc.bnl.gov/WWW/p/info/ppg/043/", description: "Internal PHENIX Collaboration Link"}
+  - {location: "http://arxiv.org/abs/0905.1070", description: arXiv}
+  - {location: "https://inspirehep.net/literature/819672", description: InspireHEP}
+
+comment: | # preserve newline
+  We present inclusive charged hadron elliptic flow ($v_2$) measured over the pseudorapidity range $|\eta| < $ 0.35 in \Au collisions at \sqsn = 200 GeV. Results for $v_2$ are presented over a broad range of transverse momentum (\pt = 0.2--8.0 GeV/$c$) and centrality (0--60\%). In order to study non-flow effects that are not correlated with the reaction plane, as well as the fluctuations of $v_2$, we compare two different analysis methods: (1) event plane method from two independent sub-detectors at forward ($|\eta|$ = 3.1--3.9) and beam ($|\eta| > 6.5$) pseudorapidities and (2) two-particle cumulant method extracted using correlations between particles detected at midrapidity.  The two event-plane results are consistent within systematic uncertainties over the measured \pt and in centrality 0--40\%. There is at most 20\% difference of the $v_2$ between the two event plane methods in peripheral (40--60\%) collisions.  The comparisons between the two-particle cumulant results and the standard event plane measurements are discussed.
+
+---
+name: "Fig. 22a"
+location: Data from Fig. 22a of PRL [???] (???) 2009.
+description: Comparison of the $v_2$ {ZDC-SMD} from the S-N and ZDC-BBC-CNT subevents as a function of $p_T$ in the 20–60% centrality range.
+keywords:
+- {name: reactions, values: [Au Au --> pi0 X]}
+- {name: cmenergies, values: [200.0]}
+- {name: phrases, values: [ppg043, elliptic flow]}
+data_file: 22a.yaml
+additional_resources:
+- {description: Original EPS Image file, location: f22.eps}
+- {description: PNG Image file, location: f22.png}
+- {description: Thumbnail Image file, location: thumb_f22.png}
+---
+name: "Fig. 22b"
+location: Data from Fig. 22b of PRL [???] (???) 2009.
+description: Comparison of the $v_2$ {BBC} from the S-N and ZDC-BBC-CNT subevents as a function of $p_T$ in the 20–60% centrality range.
+keywords:
+- {name: reactions, values: [Au Au --> pi0 X]}
+- {name: cmenergies, values: [200.0]}
+- {name: phrases, values: [ppg043, elliptic flow]}
+data_file: 22b.yaml
+additional_resources:
+- {description: Original EPS Image file, location: f22.eps}
+- {description: PNG Image file, location: f22.png}
+- {description: Thumbnail Image file, location: thumb_f22.png}
+---
+name: "Fig. 22c"
+location: Data from Fig. 22c of PRL [???] (???) 2009.
+description: Comparison of $v_2$ between BBC and ZDC-SMD event planes from the S-N subevent as a function of $p_T$ in centrality 20–60%.
+keywords:
+- {name: reactions, values: [Au Au --> pi0 X]}
+- {name: cmenergies, values: [200.0]}
+- {name: phrases, values: [ppg043, elliptic flow]}
+data_file: 22c.yaml
+additional_resources:
+- {description: Original EPS Image file, location: f22.eps}
+- {description: PNG Image file, location: f22.png}
+- {description: Thumbnail Image file, location: thumb_f22.png}
+---
+name: "Fig. 22d"
+location: Data from Fig. 22d of PRL [???] (???) 2009.
+description: Comparison of $v_2$ between BBC and ZDC-SMD event planes from the ZDC-BBC-CNT subevent as a function of $p_T$ in centrality 20–60%.
+keywords:
+- {name: reactions, values: [Au Au --> pi0 X]}
+- {name: cmenergies, values: [200.0]}
+- {name: phrases, values: [ppg043, elliptic flow]}
+data_file: 22d.yaml
+additional_resources:
+- {description: Original EPS Image file, location: f22.eps}
+- {description: PNG Image file, location: f22.png}
+- {description: Thumbnail Image file, location: thumb_f22.png}
