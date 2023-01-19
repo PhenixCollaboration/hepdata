@@ -10,7 +10,7 @@ independent_variables:
   - {value: 1.875}
   - {value: 2.25}
   - {value: 2.75}
-  - {value: 0.35}
+  - {value: 3.5}
 dependent_variables:
 - header: {name: '$v_2\{BF\}$ in centrality 5-10%'}
   values:
@@ -50,13 +50,16 @@ dependent_variables:
     errors:
     - {symerror: 0.05, label: 'stat'}
     - {symerror: 0.013, label: 'syst'}
+  - value: 0.116
+    errors:
+    - {symerror: 0.07, label: 'stat'}
+    - {symerror: 0.009, label: 'syst'}
+- header: {name: '$v_2\{BF\}$ in centrality 10-20%'}
+  values:
   - value: 0.0310
     errors:
     - {symerror: 0.004, label: 'stat'}
     - {symerror: 0.0021, label: 'syst'}
-- header: {name: '$v_2\{BF\}$ in centrality 10-20%'}
-  values:
-  - value: ''
   - value: 0.063
     errors:
     - {symerror: 0.006, label: 'stat'}
@@ -89,7 +92,10 @@ dependent_variables:
     errors:
     - {symerror: 0.04, label: 'stat'}
     - {symerror: 0.015, label: 'syst'}
-  - value: ''
+  - value: 0.142
+    errors:
+    - {symerror: 0.06, label: 'stat'}
+    - {symerror: 0.010, label: 'syst'}
 - header: {name: '$v_2\{BF\}$ in centrality 20-40%'}
   values:
   - value: 0.035
@@ -128,7 +134,10 @@ dependent_variables:
     errors:
     - {symerror: 0.04, label: 'stat'}
     - {symerror: 0.024, label: 'syst'}
-  - value: ''
+  - value: 0.293
+    errors:
+    - {symerror: 0.06, label: 'stat'}
+    - {symerror: 0.033, label: 'syst'}
 - header: {name: '$v_2\{BF\}$ in centrality 40-60%'}
   values:
   - value: 0.026
@@ -167,7 +176,10 @@ dependent_variables:
     errors:
     - {symerror: 0.07, label: 'stat'}
     - {symerror: 0.034, label: 'syst'}
-  - value: ''
+  - value: 0.208
+    errors:
+    - {symerror: 0.10, label: 'stat'}
+    - {symerror: 0.029, label: 'syst'}
 - header: {name: '$v_2\{BF\}$ in centrality 60-88%'}
   values:
   - value: 0.0192

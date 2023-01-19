@@ -8,7 +8,7 @@ independent_variables:
   - {low: 15.4, high: 17.8}
   - {low: 17.5, high: 20.3}
 dependent_variables:
-- header: {name: '$R$ in $0<p_T<1$ GeV/$c$'}
+- header: {name: '$R$ in $0.5<p_T<1$ GeV/$c$'}
   values:
   - value: 1.7
     errors:
@@ -36,10 +36,7 @@ dependent_variables:
     - {symerror: 0.05, label: 'syst'}
 - header: {name: '$R$ in $2<p_T<2.5$ GeV/$c$'}
   values:
-  - value: -9999
-    errors:
-    - {symerror: 999, label: 'stat'}
-    - {symerror: 999, label: 'syst'}
+  - value: ''
   - value: 1.01
     errors:
     - {symerror: 0.4, label: 'stat'}
