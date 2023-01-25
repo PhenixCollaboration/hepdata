@@ -1,0 +1,57 @@
+independent_variables:
+- header: {name: 'Centrality (%)'}
+  values:
+  - {low: 0, high: 5}
+  - {low: 5, high: 10}
+  - {low: 10, high: 20}
+  - {low: 20, high: 40}
+  - {low: 40, high: 60}
+  - {low: 60, high: 70}
+  - {low: 0, high: 70}
+dependent_variables:
+- header: {name: 'Meson Triggers'}
+  values:
+  - value: 0.339
+    errors:
+    - {symerror: 0.055, label: 'stat.'}
+  - value: 0.385
+    errors:
+    - {symerror: 0.052, label: 'stat.'}
+  - value: 0.427
+    errors:
+    - {symerror: 0.051, label: 'stat.'}
+  - value: 0.422
+    errors:
+    - {symerror: 0.042, label: 'stat.'}
+  - value: 0.401
+    errors:
+    - {symerror: 0.034, label: 'stat.'}
+  - value: 0.326
+    errors:
+    - {symerror: 0.068, label: 'stat.'}
+  - value: 0.398
+    errors:
+    - {symerror: 0.024, label: 'stat.'}
+- header: {name: 'Baryon Triggers'}
+  values:
+  - value: 0.274
+    errors:
+    - {symerror: 0.084, label: 'stat.'}
+  - value: 0.343
+    errors:
+    - {symerror: 0.090, label: 'stat.'}
+  - value: 0.550
+    errors:
+    - {symerror: 0.19, label: 'stat.'}
+  - value: 0.462
+    errors:
+    - {symerror: 0.074, label: 'stat.'}
+  - value: 0.438
+    errors:
+    - {symerror: 0.081, label: 'stat.'}
+  - value: 0.344
+    errors:
+    - {symerror: 0.10, label: 'stat.'}
+  - value: 0.445
+    errors:
+    - {symerror: 0.073, label: 'stat.'}

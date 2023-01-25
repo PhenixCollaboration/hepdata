@@ -1,0 +1,21 @@
+independent_variables:
+- header: {name: 'Centrality (%)'}
+  values:
+  - {value: 0}
+dependent_variables:
+- header: {name: 'Near Side'}
+  qualifiers:
+  - {name: 'Particle', value: '$p$+$p$'}
+  values:
+  - value: 0.0392
+    errors:
+    - {symerror: 0.0027, label: 'stat.'}
+    - {asymerror: {plus: 0.039, minus: 0.044}, label: 'syst.'}
+- header: {name: 'Away Side'}
+  qualifiers:
+  - {name: 'Particle', value: '$p$+$p$'}
+  values:
+  - value: 0.0325
+    errors:
+    - {symerror: 0.0027, label: 'stat.'}
+    - {asymerror: {plus: 0.033, minus: 0.037}, label: 'syst.'}
