@@ -214,14 +214,28 @@ additional_resources:
 - {description: Thumbnail Image file, location: thumb_ratio_pi_k_phi_npart.png}
 ---
 # This is Figure 15.
-name: "Figure 15"
+name: "Figure 15a"
 location: Data From Fig. 15 of PRL C 72 (2005) 014903
 description: 'Centrality dependence of $\phi$ yields at different collision energies.'
 keywords: # used for searching, possibly mutliple values for each keywords
 - {name: reactions, values: [Au Au --> CHARGED X]}
 - {name: cmenergies, values: [200.0]}
 - {name: phrases, values: [ppg016, mid-rapidity]}
-data_file: ppg016fig15.yaml 
+data_file: ppg016fig15a.yaml 
+additional_resources:
+- {description: Original EPS Image file, location: cent-sqrts-1.eps}
+- {description: PNG Image file, location: cent-sqrts-1.png}
+- {description: Thumbnail Image file, location: thumb_cent-sqrts-1.png}
+---
+# This is Figure 15.
+name: "Figure 15b"
+location: Data From Fig. 15 of PRL C 72 (2005) 014903
+description: 'Centrality dependence of $\phi$ yields at different collision energies.'
+keywords: # used for searching, possibly mutliple values for each keywords
+- {name: reactions, values: [Au Au --> CHARGED X]}
+- {name: cmenergies, values: [200.0]}
+- {name: phrases, values: [ppg016, mid-rapidity]}
+data_file: ppg016fig15b.yaml 
 additional_resources:
 - {description: Original EPS Image file, location: cent-sqrts-1.eps}
 - {description: PNG Image file, location: cent-sqrts-1.png}
