@@ -7,7 +7,6 @@ independent_variables:
   - {low: 20, high: 40}
   - {low: 40, high: 60}
   - {low: 60, high: 70}
-  - {low: 0, high: 70}
 dependent_variables:
 - header: {name: 'Meson Triggers'}
   values:
@@ -29,9 +28,6 @@ dependent_variables:
   - value: 0.326
     errors:
     - {symerror: 0.068, label: 'stat.'}
-  - value: 0.398
-    errors:
-    - {symerror: 0.024, label: 'stat.'}
 - header: {name: 'Baryon Triggers'}
   values:
   - value: 0.274
@@ -52,6 +48,3 @@ dependent_variables:
   - value: 0.344
     errors:
     - {symerror: 0.10, label: 'stat.'}
-  - value: 0.445
-    errors:
-    - {symerror: 0.073, label: 'stat.'}
