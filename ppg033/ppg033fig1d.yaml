@@ -1,0 +1,43 @@
+independent_variables:
+- header: {name: 'Centrality (%)'}
+  values:
+  - {low: 0, high: 5}
+  - {low: 5, high: 10}
+  - {low: 10, high: 20}
+  - {low: 20, high: 40}
+  - {low: 40, high: 60}
+dependent_variables:
+- header: {name: '$v_2^{Meson}$'}
+  values:
+  - value: 0.0600
+    errors:
+    - {symerror: 0.030, label: 'stat.'}
+  - value: 0.100
+    errors:
+    - {symerror: 0.010, label: 'stat.'}
+  - value: 0.130
+    errors:
+    - {symerror: 0.010, label: 'stat.'}
+  - value: 0.180
+    errors:
+    - {symerror: 0.010, label: 'stat.'}
+  - value: 0.160
+    errors:
+    - {symerror: 0.020, label: 'stat.'}
+- header: {name: '$v_2^{Baryons}$'}
+  values:
+  - value: 0.0900
+    errors:
+    - {symerror: 0.050, label: 'stat.'}
+  - value: 0.160
+    errors:
+    - {symerror: 0.020, label: 'stat.'}
+  - value: 0.190
+    errors:
+    - {symerror: 0.020, label: 'stat.'}
+  - value: 0.240
+    errors:
+    - {symerror: 0.020, label: 'stat.'}
+  - value: 0.220
+    errors:
+    - {symerror: 0.020, label: 'stat.'}

@@ -1,0 +1,24 @@
+independent_variables:
+- header: {name: '$p_T$'}
+  values:
+  - {low: 1.20, high: 1.30}
+  - {low: 1.30, high: 1.45}
+  - {low: 1.45, high: 1.70}
+  - {low: 1.70, high: 2.50}
+dependent_variables:
+- header: {name: 'Trigger Mesons'}
+  qualifiers:
+  - {name: 'Centrality', value: '0-5%'}
+  values:
+  - value: 0.310
+    errors:
+    - {symerror: 0.21, label: 'stat.'}
+  - value: 0.460
+    errors:
+    - {symerror: 0.13, label: 'stat.'}
+  - value: 0.360
+    errors:
+    - {symerror: 0.11, label: 'stat.'}
+  - value: 0.0600
+    errors:
+    - {symerror: 0.010, label: 'stat.'}

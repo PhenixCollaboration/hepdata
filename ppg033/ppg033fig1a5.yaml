@@ -1,0 +1,64 @@
+independent_variables:
+- header: {name: '$\Delta\phi$'}
+  values:
+  - {low: 0.01, high: 0.15}
+  - {low: 0.15, high: 0.31}
+  - {low: 0.31, high: 0.47}
+  - {low: 0.47, high: 0.63}
+  - {low: 0.63, high: 0.79}
+  - {low: 0.79, high: 0.95}
+  - {low: 0.95, high: 1.11}
+  - {low: 1.11, high: 1.27}
+  - {low: 2.21, high: 2.35}
+  - {low: 2.35, high: 2.51}
+  - {low: 2.51, high: 2.67}
+  - {low: 2.67, high: 2.82}
+  - {low: 2.82, high: 2.98}
+  - {low: 2.98, high: 3.14}
+dependent_variables:
+- header: {name: 'Au+Au'}
+  qualifiers:
+  - {name: 'Centrality', value: '60-70%'}
+  values:
+  - value: 0.290
+    errors:
+    - {symerror: 0.080, label: 'stat.'}
+  - value: 0.0900
+    errors:
+    - {symerror: 0.040, label: 'stat.'}
+  - value: 0.150
+    errors:
+    - {symerror: 0.060, label: 'stat.'}
+  - value: 0.190
+    errors:
+    - {symerror: 0.070, label: 'stat.'}
+  - value: 0.130
+    errors:
+    - {symerror: 0.070, label: 'stat.'}
+  - value: 0.170
+    errors:
+    - {symerror: 0.10, label: 'stat.'}
+  - value: 0.480
+    errors:
+    - {symerror: 0.26, label: 'stat.'}
+  - value: 0.240
+    errors:
+    - {symerror: 0.24, label: 'stat.'}
+  - value: 0.200
+    errors:
+    - {symerror: 0.10, label: 'stat.'}
+  - value: 0.170
+    errors:
+    - {symerror: 0.070, label: 'stat.'}
+  - value: 0.150
+    errors:
+    - {symerror: 0.070, label: 'stat.'}
+  - value: 0.240
+    errors:
+    - {symerror: 0.080, label: 'stat.'}
+  - value: 0.100
+    errors:
+    - {symerror: 0.050, label: 'stat.'}
+  - value: 0.100
+    errors:
+    - {symerror: 0.050, label: 'stat.'}

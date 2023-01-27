@@ -1,0 +1,35 @@
+independent_variables:
+- header: {name: 'Centrality (%)'}
+  values:
+  - {value: 'Baryon $d$+Au'}
+  - {value: 'Meson $d$+Au'}
+  - {value: '$p$+$p$'}
+dependent_variables:
+- header: {name: 'Near Side'}
+  values:
+  - value: 0.0321
+    errors:
+    - {symerror: 0.0063, label: 'stat.'}
+    - {asymerror: {plus: 0.039, minus: 0.025}, label: 'syst.'}
+  - value: 0.0359
+    errors:
+    - {symerror: 0.0032, label: 'stat.'}
+    - {asymerror: {plus: 0.040, minus: 0.032}, label: 'syst.'}
+  - value: 0.0392
+    errors:
+    - {symerror: 0.0027, label: 'stat.'}
+    - {asymerror: {plus: 0.044, minus: 0.039}, label: 'syst.'}
+- header: {name: 'Away Side'}
+  values:
+  - value: 0.0278
+    errors:
+    - {symerror: 0.0058, label: 'stat.'}
+    - {asymerror: {plus: 0.035, minus: 0.021}, label: 'syst.'}
+  - value: 0.0279
+    errors:
+    - {symerror: 0.0030, label: 'stat.'}
+    - {asymerror: {plus: 0.032, minus: 0.024}, label: 'syst.'}
+  - value: 0.0325
+    errors:
+    - {symerror: 0.0027, label: 'stat.'}
+    - {asymerror: {plus: 0.037, minus: 0.033}, label: 'syst.'}
