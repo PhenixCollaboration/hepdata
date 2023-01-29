@@ -1,0 +1,75 @@
+#PHENIX paper PPG036
+#
+#Nuclear Modification Factors for Hadrons At Forward and Backword Rapidities in Deuteron-Gold Collisions at $\sqrt_{s_{NN}}$ = 200 GeV
+#
+#Phys.Rev.Lett 94 (2005) 082302
+#InspireHEP ID: 665543
+#
+#Prepared by Nikolas Nelson
+#Please contact Christine Nattrass if you have any questions about this submission
+#PPG liaison:
+#Reviewer:
+#
+comment: | # Information that applies to all data tables.
+    We report on charged hadron production in deuteron-gold reactions at $\sqrt{s_{NN}}$ = 200 GeV. Our measurements in the deuteron-direction cover 1.4 < $\eta$ < 2.2, referred to as forward rapidity, and in the gold-direction -2.0 < $\eta$ < -1.4, referred to as backward rapidity, and a transverse momentum range $p_T$ = 0.5 - 4.0 GeV/$c$. We compare the relative yields for different deuteron-gold collision centrality classes. We observe a suppression relative to binary collision scaling at forward rapidity, sensitive to low momentum fraction $(x)$ partons in the gold nucleus, and an enhancement at backward rapidity, sensitive to high momentum fraction partons in the gold nucleus.
+additional_resources:
+- {location: "https://phenix-intra.sdcc.bnl.gov/WWW/p/info/ppg/036/", description: "web page with data points"}
+- {location: "http://arxiv.org/abs/nucl-ex/0411054", description: arXiv}
+- {location: "https://inspirehep.net/literature/665543", description: InspireHEP}
+---
+# This is Figure 2.
+name: "Figure 2a"
+location: Data From Fig. 2 of PRL 94 (2005) 082302
+description: '$R_{cp}$ as a function of $p_T$ for Punch-Through Hadrons at forward rapidity and backward rapidity for different centrality classes.'
+keywords: # used for searching, possibly mutliple values for each keywords
+- {name: reactions, values: [Au Au --> CHARGED X]}
+- {name: cmenergies, values: [200.0]}
+- {name: phrases, values: [ppg036, transverse momentum]}
+data_file: ppg036fig2a.yaml 
+additional_resources:
+- {description: Original EPS Image file, location: fig2_color.eps}
+- {description: PNG Image file, location: fig2_color.png}
+- {description: Thumbnail Image file, location: thumb_fig2_color.png}
+---
+# This is Figure 2.
+name: "Figure 2b"
+location: Data From Fig. 2 of PRL 94 (2005) 082302
+description: '$R_{cp}$ as a function of $p_T$ for Hadron Decay Muons at forward rapidity and backward rapidity for different centrality classes.'
+keywords: # used for searching, possibly mutliple values for each keywords
+- {name: reactions, values: [Au Au --> CHARGED X]}
+- {name: cmenergies, values: [200.0]}
+- {name: phrases, values: [ppg036, transverse momentum]}
+data_file: ppg036fig2b.yaml 
+additional_resources:
+- {description: Original EPS Image file, location: fig2_color.eps}
+- {description: PNG Image file, location: fig2_color.png}
+- {description: Thumbnail Image file, location: thumb_fig2_color.png}
+---
+# This is Figure 3.
+name: "Figure 3a"
+location: Data From Fig. 3 of PRL 94 (2005) 082302
+description: '$R_{cp}$ as a function of $\eta$ for 1.5 < $p_T$ < 4.0 GeV/$c$ for different centrality classes.'
+keywords: # used for searching, possibly mutliple values for each keywords
+- {name: reactions, values: [Au Au --> CHARGED X]}
+- {name: cmenergies, values: [200.0]}
+- {name: phrases, values: [ppg036, transverse momentum]}
+data_file: ppg036fig3a.yaml 
+additional_resources:
+- {description: Original EPS Image file, location: fig3_color.eps}
+- {description: PNG Image file, location: fig3_color.png}
+- {description: Thumbnail Image file, location: thumb_fig3_color.png}
+---
+# This is Figure 3.
+name: "Figure 3b"
+location: Data From Fig. 3 of PRL 94 (2005) 082302
+description: '$R_{cp}$ as a function of $\eta$ for 1.5 < $p_T$ < 4.0 GeV/$c$ for different centrality classes.'
+keywords: # used for searching, possibly mutliple values for each keywords
+- {name: reactions, values: [Au Au --> CHARGED X]}
+- {name: cmenergies, values: [200.0]}
+- {name: phrases, values: [ppg036, transverse momentum]}
+data_file: ppg036fig3b.yaml 
+additional_resources:
+- {description: Original EPS Image file, location: fig3_color.eps}
+- {description: PNG Image file, location: fig3_color.png}
+- {description: Thumbnail Image file, location: thumb_fig3_color.png}
+---
