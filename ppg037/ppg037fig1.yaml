@@ -1,0 +1,66 @@
+independent_variables:
+- header: {name: '$p_T$ (GeV/$c$)'}
+  values:
+  - {low: 0.4, high: 0.5}
+  - {low: 0.5, high: 0.6}
+  - {low: 0.6, high: 0.8}
+  - {low: 0.8, high: 1.0}
+  - {low: 1.0, high: 1.2}
+  - {low: 1.2, high: 1.4}
+  - {low: 1.4, high: 1.6}
+  - {low: 1.6, high: 2.0}
+  - {low: 2.0, high: 2.5}
+  - {low: 2.5, high: 3.0}
+  - {low: 3.0, high: 4.0}
+  - {low: 4.0, high: 5.0}
+dependent_variables:
+- header: {name: 'Inlusive Electron Invariant Crossection'}
+  values:
+  - value: 0.0707
+    errors:
+    - {symerror: 0.0033, label: 'stat.'}
+    - {symerror: 0.0051, label: 'sys.'}
+  - value: 0.0310
+    errors:
+    - {symerror: 0.0019, label: 'stat.'}
+    - {symerror: 0.0020, label: 'sys.'}
+  - value: 0.0115
+    errors:
+    - {symerror: 0.00070, label: 'stat.'}
+    - {symerror: 0.00068, label: 'sys.'}
+  - value: 0.00336
+    errors:
+    - {symerror: 0.00033, label: 'stat.'}
+    - {symerror: 0.00020, label: 'sys.'}
+  - value: 0.00121
+    errors:
+    - {symerror: 0.00016, label: 'stat.'}
+    - {symerror: 0.000071, label: 'sys.'}
+  - value: 0.000461
+    errors:
+    - {symerror:  0.000066, label: 'stat.'}
+    - {symerror: 0.000027, label: 'sys.'}
+  - value: 0.000253
+    errors:
+    - {symerror: 0.000029, label: 'stat.'}
+    - {symerror: 0.000016, label: 'sys.'}
+  - value: 0.0000827
+    errors:
+    - {symerror: 0.0000074, label: 'stat.'}
+    - {symerror: 0.0000054, label: 'sys.'}
+  - value: 0.0000234
+    errors:
+    - {symerror: 0.0000023, label: 'stat.'}
+    - {symerror: 0.0000018, label: 'sys.'}
+  - value: 0.00000487
+    errors:
+    - {asymerror: {plus: 0.0000011, minus: 0.00000088}, label: 'stat.'}
+    - {symerror: 0.00000045, label: 'sys.'}
+  - value: 0.00000120
+    errors:
+    - {asymerror: {plus: 0.00000033, minus: 0.00000026}, label: 'stat.'}
+    - {symerror: 0.00000015, label: 'sys.'}
+  - value: 0.000000138
+    errors:
+    - {asymerror: {plus: 0.00000016, minus: 0.00000010}, label: 'stat.'}
+    - {symerror: 0.000000047, label: 'sys.'}
