@@ -9,237 +9,243 @@ independent_variables:
   - {low: 3.0, high: 3.5}
   - {low: 3.5, high: 4.0}
 dependent_variables:
-- header: {name: '$R_{cp}$ Forward Rapidity'}
+- header: {name: '$R_{cp}$'}
   qualifiers:
   - {name: 'Centrality (%)', value: '0-20/60-88'}
+  - {name: 'Rapidity', value: '1.4 < $\eta$ < 2.2'}
   values:
   - value: 0.462
     errors:
     - {symerror: 0.014, label: 'stat.'}
-    - {symerror: 0.023, label: 'sys. (Point by Point)'}
-    - {symerror: 0.053, label: 'sys. (Common)'}
+    - {symerror: 0.023, label: 'sys-uncorr'}
+    - {symerror: 0.053, label: 'sys-corr'}
   - value: 0.519
     errors:
     - {symerror: 0.010, label: 'stat.'}
-    - {symerror: 0.025, label: 'sys. (Point by Point)'}
-    - {symerror: 0.060, label: 'sys. (Common)'}
+    - {symerror: 0.025, label: 'sys-uncorr'}
+    - {symerror: 0.060, label: 'sys-corr'}
   - value: 0.559
     errors:
     - {symerror: 0.014, label: 'stat.'}
-    - {symerror: 0.034, label: 'sys. (Point by Point)'}
-    - {symerror: 0.064, label: 'sys. (Common)'}
+    - {symerror: 0.034, label: 'sys-uncorr'}
+    - {symerror: 0.064, label: 'sys-corr'}
   - value: 0.596
     errors:
     - {symerror: 0.022, label: 'stat.'}
-    - {symerror: 0.028, label: 'sys. (Point by Point)'}
-    - {symerror: 0.069, label: 'sys. (Common)'}
+    - {symerror: 0.028, label: 'sys-uncorr'}
+    - {symerror: 0.069, label: 'sys-corr'}
   - value: 0.567
     errors:
     - {symerror: 0.030, label: 'stat.'}
-    - {symerror: 0.033, label: 'sys. (Point by Point)'}
-    - {symerror: 0.065, label: 'sys. (Common)'}
+    - {symerror: 0.033, label: 'sys-uncorr'}
+    - {symerror: 0.065, label: 'sys-corr'}
   - value: 0.579
     errors:
     - {symerror: 0.045, label: 'stat.'}
-    - {symerror: 0.042, label: 'sys. (Point by Point)'}
-    - {symerror: 0.067, label: 'sys. (Common)'}
+    - {symerror: 0.042, label: 'sys-uncorr'}
+    - {symerror: 0.067, label: 'sys-corr'}
   - value: 0.586
     errors:
     - {symerror: 0.067, label: 'stat.'}
-    - {symerror: 0.045, label: 'sys. (Point by Point)'}
-    - {symerror: 0.067, label: 'sys. (Common)'}
-- header: {name: '$R_{cp}$ Backward Rapidity'}
+    - {symerror: 0.045, label: 'sys-uncorr'}
+    - {symerror: 0.067, label: 'sys-corr'}
+- header: {name: '$R_{cp}$'}
   qualifiers:
   - {name: 'Centrality (%)', value: '0-20/60-88'}
+  - {name: 'Rapidity', value: '-2.0 < $\eta$ < -1.4'}
   values:
   - value: 1.09
     errors:
     - {symerror: 0.060, label: 'stat.'}
-    - {symerror: 0.070, label: 'sys. (Point by Point)'}
-    - {symerror: 0.13, label: 'sys. (Common)'}
+    - {symerror: 0.070, label: 'sys-uncorr'}
+    - {symerror: 0.13, label: 'sys-corr'}
   - value: 1.21
     errors:
     - {symerror: 0.030, label: 'stat.'}
-    - {symerror: 0.080, label: 'sys. (Point by Point)'}
-    - {symerror: 0.14, label: 'sys. (Common)'}
+    - {symerror: 0.080, label: 'sys-uncorr'}
+    - {symerror: 0.14, label: 'sys-corr'}
   - value: 1.14
     errors:
     - {symerror: 0.030, label: 'stat.'}
-    - {symerror: 0.060, label: 'sys. (Point by Point)'}
-    - {symerror: 0.13, label: 'sys. (Common)'}
+    - {symerror: 0.060, label: 'sys-uncorr'}
+    - {symerror: 0.13, label: 'sys-corr'}
   - value: 1.45
     errors:
     - {symerror: 0.070, label: 'stat.'}
-    - {symerror: 0.12, label: 'sys. (Point by Point)'}
-    - {symerror: 0.17, label: 'sys. (Common)'}
+    - {symerror: 0.12, label: 'sys-uncorr'}
+    - {symerror: 0.17, label: 'sys-corr'}
   - value: 1.32
     errors:
     - {symerror: 0.090, label: 'stat.'}
-    - {symerror: 0.11, label: 'sys. (Point by Point)'}
-    - {symerror: 0.15, label: 'sys. (Common)'}
+    - {symerror: 0.11, label: 'sys-uncorr'}
+    - {symerror: 0.15, label: 'sys-corr'}
   - value: 0.950
     errors:
     - {symerror: 0.090, label: 'stat.'}
-    - {symerror: 0.080, label: 'sys. (Point by Point)'}
-    - {symerror: 0.11, label: 'sys. (Common)'}
+    - {symerror: 0.080, label: 'sys-uncorr'}
+    - {symerror: 0.11, label: 'sys-corr'}
   - value: 2.06
     errors:
     - {symerror: 0.36, label: 'stat.'}
-    - {symerror: 0.17, label: 'sys. (Point by Point)'}
-    - {symerror: 0.24, label: 'sys. (Common)'}
-- header: {name: '$R_{cp}$ Forward Rapidity'}
+    - {symerror: 0.17, label: 'sys-uncorr'}
+    - {symerror: 0.24, label: 'sys-corr'}
+- header: {name: '$R_{cp}$'}
   qualifiers:
   - {name: 'Centrality (%)', value: '20-40/60-88'}
+  - {name: 'Rapidity', value: '1.4 < $\eta$ < 2.2'}
   values:
   - value: 0.572
     errors:
     - {symerror: 0.018, label: 'stat.'}
-    - {symerror: 0.016, label: 'sys. (Point by Point)'}
-    - {symerror: 0.058, label: 'sys. (Common)'}
+    - {symerror: 0.016, label: 'sys-uncorr'}
+    - {symerror: 0.058, label: 'sys-corr'}
   - value: 0.637
     errors:
     - {symerror: 0.013, label: 'stat.'}
-    - {symerror: 0.022, label: 'sys. (Point by Point)'}
-    - {symerror: 0.064, label: 'sys. (Common)'}
+    - {symerror: 0.022, label: 'sys-uncorr'}
+    - {symerror: 0.064, label: 'sys-corr'}
   - value: 0.659
     errors:
     - {symerror: 0.017, label: 'stat.'}
-    - {symerror: 0.044, label: 'sys. (Point by Point)'}
-    - {symerror: 0.067, label: 'sys. (Common)'}
+    - {symerror: 0.044, label: 'sys-uncorr'}
+    - {symerror: 0.067, label: 'sys-corr'}
   - value: 0.731
     errors:
     - {symerror: 0.027, label: 'stat.'}
-    - {symerror: 0.023, label: 'sys. (Point by Point)'}
-    - {symerror: 0.074, label: 'sys. (Common)'}
+    - {symerror: 0.023, label: 'sys-uncorr'}
+    - {symerror: 0.074, label: 'sys-corr'}
   - value: 0.707
     errors:
     - {symerror: 0.039, label: 'stat.'}
-    - {symerror: 0.048, label: 'sys. (Point by Point)'}
-    - {symerror: 0.071, label: 'sys. (Common)'}
+    - {symerror: 0.048, label: 'sys-uncorr'}
+    - {symerror: 0.071, label: 'sys-corr'}
   - value: 0.744
     errors:
     - {symerror: 0.060, label: 'stat.'}
-    - {symerror: 0.056, label: 'sys. (Point by Point)'}
-    - {symerror: 0.075, label: 'sys. (Common)'}
+    - {symerror: 0.056, label: 'sys-uncorr'}
+    - {symerror: 0.075, label: 'sys-corr'}
   - value: 0.706
     errors:
     - {symerror: 0.084, label: 'stat.'}
-    - {symerror: 0.059, label: 'sys. (Point by Point)'}
-    - {symerror: 0.071, label: 'sys. (Common)'}
-- header: {name: '$R_{cp}$ Backward Rapidity'}
+    - {symerror: 0.059, label: 'sys-uncorr'}
+    - {symerror: 0.071, label: 'sys-corr'}
+- header: {name: '$R_{cp}$'}
   qualifiers:
   - {name: 'Centrality (%)', value: '20-40/60-88'}
+  - {name: 'Rapidity', value: '-2.0 < $\eta$ < -1.4'}
   values:
   - value: 1.02
     errors:
     - {symerror: 0.060, label: 'stat.'}
-    - {symerror: 0.060, label: 'sys. (Point by Point)'}
-    - {symerror: 0.10, label: 'sys. (Common)'}
+    - {symerror: 0.060, label: 'sys-uncorr'}
+    - {symerror: 0.10, label: 'sys-corr'}
   - value: 1.14
     errors:
     - {symerror: 0.030, label: 'stat.'}
-    - {symerror: 0.12, label: 'sys. (Point by Point)'}
-    - {symerror: 0.12, label: 'sys. (Common)'}
+    - {symerror: 0.12, label: 'sys-uncorr'}
+    - {symerror: 0.12, label: 'sys-corr'}
   - value: 1.09
     errors:
     - {symerror: 0.030, label: 'stat.'}
-    - {symerror: 0.10, label: 'sys. (Point by Point)'}
-    - {symerror: 0.11, label: 'sys. (Common)'}
+    - {symerror: 0.10, label: 'sys-uncorr'}
+    - {symerror: 0.11, label: 'sys-corr'}
   - value: 1.31
     errors:
     - {symerror: 0.060, label: 'stat.'}
-    - {symerror: 0.12, label: 'sys. (Point by Point)'}
-    - {symerror: 0.13, label: 'sys. (Common)'}
+    - {symerror: 0.12, label: 'sys-uncorr'}
+    - {symerror: 0.13, label: 'sys-corr'}
   - value: 1.32
     errors:
     - {symerror: 0.10, label: 'stat.'}
-    - {symerror: 0.13, label: 'sys. (Point by Point)'}
-    - {symerror: 0.13, label: 'sys. (Common)'}
+    - {symerror: 0.13, label: 'sys-uncorr'}
+    - {symerror: 0.13, label: 'sys-corr'}
   - value: 1.05
     errors:
     - {symerror: 0.10, label: 'stat.'}
-    - {symerror: 0.11, label: 'sys. (Point by Point)'}
-    - {symerror: 0.11, label: 'sys. (Common)'}
+    - {symerror: 0.11, label: 'sys-uncorr'}
+    - {symerror: 0.11, label: 'sys-corr'}
   - value: 1.45
     errors:
     - {symerror: 0.27, label: 'stat.'}
-    - {symerror: 0.15, label: 'sys. (Point by Point)'}
-    - {symerror: 0.15, label: 'sys. (Common)'}
-- header: {name: '$R_{cp}$ Forward Rapidity'}
+    - {symerror: 0.15, label: 'sys-uncorr'}
+    - {symerror: 0.15, label: 'sys-corr'}
+- header: {name: '$R_{cp}$'}
   qualifiers:
   - {name: 'Centrality (%)', value: '40-60/60-88'}
+  - {name: 'Rapidity', value: '1.4 < $\eta$ < 2.2'}
   values:
   - value: 0.718
     errors:
     - {symerror: 0.024, label: 'stat.'}
-    - {symerror: 0.032, label: 'sys. (Point by Point)'}
-    - {symerror: 0.045, label: 'sys. (Common)'}
+    - {symerror: 0.032, label: 'sys-uncorr'}
+    - {symerror: 0.045, label: 'sys-corr'}
   - value: 0.754
     errors:
     - {symerror: 0.017, label: 'stat.'}
-    - {symerror: 0.046, label: 'sys. (Point by Point)'}
-    - {symerror: 0.048, label: 'sys. (Common)'}
+    - {symerror: 0.046, label: 'sys-uncorr'}
+    - {symerror: 0.048, label: 'sys-corr'}
   - value: 0.769
     errors:
     - {symerror: 0.021, label: 'stat.'}
-    - {symerror: 0.047, label: 'sys. (Point by Point)'}
-    - {symerror: 0.048, label: 'sys. (Common)'}
+    - {symerror: 0.047, label: 'sys-uncorr'}
+    - {symerror: 0.048, label: 'sys-corr'}
   - value: 0.767
     errors:
     - {symerror: 0.031, label: 'stat.'}
-    - {symerror: 0.064, label: 'sys. (Point by Point)'}
-    - {symerror: 0.048, label: 'sys. (Common)'}
+    - {symerror: 0.064, label: 'sys-uncorr'}
+    - {symerror: 0.048, label: 'sys-corr'}
   - value: 0.792
     errors:
     - {symerror: 0.046, label: 'stat.'}
-    - {symerror: 0.066, label: 'sys. (Point by Point)'}
-    - {symerror: 0.050, label: 'sys. (Common)'}
+    - {symerror: 0.066, label: 'sys-uncorr'}
+    - {symerror: 0.050, label: 'sys-corr'}
   - value: 0.858
     errors:
     - {symerror: 0.073, label: 'stat.'}
-    - {symerror: 0.075, label: 'sys. (Point by Point)'}
-    - {symerror: 0.054, label: 'sys. (Common)'}
+    - {symerror: 0.075, label: 'sys-uncorr'}
+    - {symerror: 0.054, label: 'sys-corr'}
   - value: 0.768
     errors:
     - {symerror: 0.098, label: 'stat.'}
-    - {symerror: 0.075, label: 'sys. (Point by Point)'}
-    - {symerror: 0.048, label: 'sys. (Common)'}
-- header: {name: '$R_{cp}$ Backward Rapidity'}
+    - {symerror: 0.075, label: 'sys-uncorr'}
+    - {symerror: 0.048, label: 'sys-corr'}
+- header: {name: '$R_{cp}$'}
   qualifiers:
   - {name: 'Centrality (%)', value: '40-60/60-88'}
+  - {name: 'Rapidity', value: '-2.0 < $\eta$ < -1.4'}
   values:
   - value: 0.905
     errors:
     - {symerror: 0.060, label: 'stat.'}
-    - {symerror: 0.030, label: 'sys. (Point by Point)'}
-    - {symerror: 0.057, label: 'sys. (Common)'}
+    - {symerror: 0.030, label: 'sys-uncorr'}
+    - {symerror: 0.057, label: 'sys-corr'}
   - value: 1.06
     errors:
     - {symerror: 0.030, label: 'stat.'}
-    - {symerror: 0.050, label: 'sys. (Point by Point)'}
-    - {symerror: 0.067, label: 'sys. (Common)'}
+    - {symerror: 0.050, label: 'sys-uncorr'}
+    - {symerror: 0.067, label: 'sys-corr'}
   - value: 0.956
     errors:
     - {symerror: 0.030, label: 'stat.'}
-    - {symerror: 0.040, label: 'sys. (Point by Point)'}
-    - {symerror: 0.060, label: 'sys. (Common)'}
+    - {symerror: 0.040, label: 'sys-uncorr'}
+    - {symerror: 0.060, label: 'sys-corr'}
   - value: 1.14
     errors:
     - {symerror: 0.060, label: 'stat.'}
-    - {symerror: 0.090, label: 'sys. (Point by Point)'}
-    - {symerror: 0.072, label: 'sys. (Common)'}
+    - {symerror: 0.090, label: 'sys-uncorr'}
+    - {symerror: 0.072, label: 'sys-corr'}
   - value: 1.16
     errors:
     - {symerror: 0.090, label: 'stat.'}
-    - {symerror: 0.15, label: 'sys. (Point by Point)'}
-    - {symerror: 0.073, label: 'sys. (Common)'}
+    - {symerror: 0.15, label: 'sys-uncorr'}
+    - {symerror: 0.073, label: 'sys-corr'}
   - value: 0.910
     errors:
     - {symerror: 0.10, label: 'stat.'}
-    - {symerror: 0.12, label: 'sys. (Point by Point)'}
-    - {symerror: 0.057, label: 'sys. (Common)'}
+    - {symerror: 0.12, label: 'sys-uncorr'}
+    - {symerror: 0.057, label: 'sys-corr'}
   - value: 1.56
     errors:
     - {symerror: 0.31, label: 'stat.'}
-    - {symerror: 0.20, label: 'sys. (Point by Point)'}
-    - {symerror: 0.098, label: 'sys. (Common)'}
+    - {symerror: 0.20, label: 'sys-uncorr'}
+    - {symerror: 0.098, label: 'sys-corr'}

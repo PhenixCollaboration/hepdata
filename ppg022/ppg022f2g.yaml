@@ -1,0 +1,65 @@
+independent_variables:
+- header: {name: '$p_T$ (GeV/$c$)'}
+  values:
+  - {low: 0.00, high: 0.25}
+  - {low: 0.25, high: 0.50}
+  - {low: 0.50, high: 0.75}
+  - {low: 0.75, high: 1.00}
+  - {low: 1.00, high: 1.25}
+  - {low: 1.25, high: 1.50}
+  - {low: 1.50, high: 2.00}
+  - {low: 2.00, high: 2.50}
+  - {low: 2.50, high: 3.00}
+- header: {name: 'Mean $p_T$ (GeV/$c$)'}
+  values:
+  - {value: 0.21}
+  - {value: 0.36}
+  - {value: 0.61}
+  - {value: 0.86}
+  - {value: 1.11}
+  - {value: 1.36}
+  - {value: 1.69}
+  - {value: 2.18}
+  - {value: 2.67}
+  
+dependent_variables:
+- header: {name: '$v_2$'}
+  qualifiers:
+  - {name: '$p_T$ (GeV/$c$)', value: 'Particle'}
+  values:
+  - value: 1.80E-02
+    errors:
+    - {symerror: 8.45E-04, label: 'stat'}
+    - {symerror: 1.80E-03, label: 'sys'}
+  - value: 3.34E-02
+    errors:
+    - {symerror: 4.35E-04, label: 'stat'}
+    - {symerror: 3.34E-03, label: 'sys'}
+  - value: 6.01E-02
+    errors:
+    - {symerror: 6.04E-04, label: 'stat'}
+    - {symerror: 6.01E-03, label: 'sys'}
+  - value: 8.38E-02
+    errors:
+    - {symerror: 8.84E-04, label: 'stat'}
+    - {symerror: 8.38E-03, label: 'sys'}
+  - value: 1.06E-01
+    errors:
+    - {symerror: 1.27E-03, label: 'stat'}
+    - {symerror: 1.06E-02, label: 'sys'}
+  - value: 1.19E-01
+    errors:
+    - {symerror: 1.81E-03, label: 'stat'}
+    - {symerror: 1.19E-02, label: 'sys'}
+  - value: 1.38E-01
+    errors:
+    - {symerror: 2.25E-03, label: 'stat'}
+    - {symerror: 1.38E-02, label: 'sys'}
+  - value: 1.54E-01
+    errors:
+    - {symerror: 5.28E-03, label: 'stat'}
+    - {symerror: 1.54E-02, label: 'sys'}
+  - value: 1.51E-01
+    errors:
+    - {symerror: 1.37E-02, label: 'stat'}
+    - {symerror: 1.51E-02, label: 'sys'}

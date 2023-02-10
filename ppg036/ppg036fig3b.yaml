@@ -6,147 +6,159 @@ independent_variables:
   - {low: 1.8, high: 2.0}
   - {low: 2.0, high: 2.2}
 dependent_variables:
-- header: {name: '$R_{cp}$ PTH Forward Rapidity'}
+- header: {name: '$R_{cp}$'}
   qualifiers:
   - {name: 'Centrality (%)', value: '0-20/60-88'}
+  - {name: 'Rapidity', value: '1.4 < $\eta$ < 2.2'}
+  - {name: 'Particle Type', value: 'Punch Through Hadron'}
   values:
   - value: 0.631
     errors:
     - {symerror: 0.031, label: 'stat.'}
-    - {symerror: 0.041, label: 'sys. (Point by Point)'}
-    - {symerror: 0.073, label: 'sys. (Common)'}
+    - {symerror: 0.041, label: 'sys-uncorr'}
+    - {symerror: 0.073, label: 'sys-corr'}
   - value: 0.564
     errors:
     - {symerror: 0.021, label: 'stat.'}
-    - {symerror: 0.044, label: 'sys. (Point by Point)'}
-    - {symerror: 0.065, label: 'sys. (Common)'}
+    - {symerror: 0.044, label: 'sys-uncorr'}
+    - {symerror: 0.065, label: 'sys-corr'}
   - value: 0.539
     errors:
     - {symerror: 0.019, label: 'stat.'}
-    - {symerror: 0.043, label: 'sys. (Point by Point)'}
-    - {symerror: 0.062, label: 'sys. (Common)'}
+    - {symerror: 0.043, label: 'sys-uncorr'}
+    - {symerror: 0.062, label: 'sys-corr'}
   - value: 0.506
     errors:
     - {symerror: 0.013, label: 'stat.'}
-    - {symerror: 0.045, label: 'sys. (Point by Point)'}
-    - {symerror: 0.058, label: 'sys. (Common)'}
-- header: {name: '$R_{cp}$ PTH Forward Rapidity'}
+    - {symerror: 0.045, label: 'sys-uncorr'}
+    - {symerror: 0.058, label: 'sys-corr'}
+- header: {name: '$R_{cp}$'}
   qualifiers:
   - {name: 'Centrality (%)', value: '20-40/60-88'}
+  - {name: 'Rapidity', value: '1.4 < $\eta$ < 2.2'}
+  - {name: 'Particle Type', value: 'Punch Through Hadron'}
   values:
   - value: 0.725
     errors:
     - {symerror: 0.043, label: 'stat.'}
-    - {symerror: 0.049, label: 'sys. (Point by Point)'}
-    - {symerror: 0.073, label: 'sys. (Common)'}
+    - {symerror: 0.049, label: 'sys-uncorr'}
+    - {symerror: 0.073, label: 'sys-corr'}
   - value: 0.677
     errors:
     - {symerror: 0.021, label: 'stat.'}
-    - {symerror: 0.042, label: 'sys. (Point by Point)'}
-    - {symerror: 0.068, label: 'sys. (Common)'}
+    - {symerror: 0.042, label: 'sys-uncorr'}
+    - {symerror: 0.068, label: 'sys-corr'}
   - value: 0.657
     errors:
     - {symerror: 0.022, label: 'stat.'}
-    - {symerror: 0.041, label: 'sys. (Point by Point)'}
-    - {symerror: 0.066, label: 'sys. (Common)'}
+    - {symerror: 0.041, label: 'sys-uncorr'}
+    - {symerror: 0.066, label: 'sys-corr'}
   - value: 0.635
     errors:
     - {symerror: 0.024, label: 'stat.'}
-    - {symerror: 0.045, label: 'sys. (Point by Point)'}
-    - {symerror: 0.064, label: 'sys. (Common)'}
-- header: {name: '$R_{cp}$ PTH Forward Rapidity'}
+    - {symerror: 0.045, label: 'sys-uncorr'}
+    - {symerror: 0.064, label: 'sys-corr'}
+- header: {name: '$R_{cp}$'}
   qualifiers:
   - {name: 'Centrality (%)', value: '40-60/60-88'}
+  - {name: 'Rapidity', value: '1.4 < $\eta$ < 2.2'}
+  - {name: 'Particle Type', value: 'Punch Through Hadron'}
   values:
   - value: 0.829
     errors:
     - {symerror: 0.052, label: 'stat.'}
-    - {symerror: 0.055, label: 'sys. (Point by Point)'}
-    - {symerror: 0.052, label: 'sys. (Common)'}
+    - {symerror: 0.055, label: 'sys-uncorr'}
+    - {symerror: 0.052, label: 'sys-corr'}
   - value: 0.785
     errors:
     - {symerror: 0.028, label: 'stat.'}
-    - {symerror: 0.046, label: 'sys. (Point by Point)'}
-    - {symerror: 0.049, label: 'sys. (Common)'}
+    - {symerror: 0.046, label: 'sys-uncorr'}
+    - {symerror: 0.049, label: 'sys-corr'}
   - value: 0.775
     errors:
     - {symerror: 0.021, label: 'stat.'}
-    - {symerror: 0.044, label: 'sys. (Point by Point)'}
-    - {symerror: 0.049, label: 'sys. (Common)'}
+    - {symerror: 0.044, label: 'sys-uncorr'}
+    - {symerror: 0.049, label: 'sys-corr'}
   - value: 0.722
     errors:
     - {symerror: 0.033, label: 'stat.'}
-    - {symerror: 0.049, label: 'sys. (Point by Point)'}
-    - {symerror: 0.045, label: 'sys. (Common)'}
-- header: {name: '$R_{cp}$ HDM Forward Rapidity'}
+    - {symerror: 0.049, label: 'sys-uncorr'}
+    - {symerror: 0.045, label: 'sys-corr'}
+- header: {name: '$R_{cp}$'}
   qualifiers:
   - {name: 'Centrality (%)', value: '0-20/60-88'}
+  - {name: 'Rapidity', value: '1.4 < $\eta$ < 2.2'}
+  - {name: 'Particle Type', value: 'Hadron Decay Muon'}
   values:
   - value: 0.660
     errors:
     - {symerror: 0.031, label: 'stat.'}
-    - {symerror: 0.047, label: 'sys. (Point by Point)'}
-    - {symerror: 0.076, label: 'sys. (Common)'}
+    - {symerror: 0.047, label: 'sys-uncorr'}
+    - {symerror: 0.076, label: 'sys-corr'}
   - value: 0.680
     errors:
     - {symerror: 0.019, label: 'stat.'}
-    - {symerror: 0.045, label: 'sys. (Point by Point)'}
-    - {symerror: 0.078, label: 'sys. (Common)'}
+    - {symerror: 0.045, label: 'sys-uncorr'}
+    - {symerror: 0.078, label: 'sys-corr'}
   - value: 0.545
     errors:
     - {symerror: 0.015, label: 'stat.'}
-    - {symerror: 0.039, label: 'sys. (Point by Point)'}
-    - {symerror: 0.063, label: 'sys. (Common)'}
+    - {symerror: 0.039, label: 'sys-uncorr'}
+    - {symerror: 0.063, label: 'sys-corr'}
   - value: 0.592
     errors:
     - {symerror: 0.012, label: 'stat.'}
-    - {symerror: 0.042, label: 'sys. (Point by Point)'}
-    - {symerror: 0.068, label: 'sys. (Common)'}
-- header: {name: '$R_{cp}$ HDM Forward Rapidity'}
+    - {symerror: 0.042, label: 'sys-uncorr'}
+    - {symerror: 0.068, label: 'sys-corr'}
+- header: {name: '$R_{cp}$'}
   qualifiers:
   - {name: 'Centrality (%)', value: '20-40/60-88'}
+  - {name: 'Rapidity', value: '1.4 < $\eta$ < 2.2'}
+  - {name: 'Particle Type', value: 'Hadron Decay Muon'}
   values:
   - value: 0.732
     errors:
     - {symerror: 0.038, label: 'stat.'}
-    - {symerror: 0.053, label: 'sys. (Point by Point)'}
-    - {symerror: 0.074, label: 'sys. (Common)'}
+    - {symerror: 0.053, label: 'sys-uncorr'}
+    - {symerror: 0.074, label: 'sys-corr'}
   - value: 0.710
     errors:
     - {symerror: 0.024, label: 'stat.'}
-    - {symerror: 0.052, label: 'sys. (Point by Point)'}
-    - {symerror: 0.072, label: 'sys. (Common)'}
+    - {symerror: 0.052, label: 'sys-uncorr'}
+    - {symerror: 0.072, label: 'sys-corr'}
   - value: 0.648
     errors:
     - {symerror: 0.018, label: 'stat.'}
-    - {symerror: 0.047, label: 'sys. (Point by Point)'}
-    - {symerror: 0.065, label: 'sys. (Common)'}
+    - {symerror: 0.047, label: 'sys-uncorr'}
+    - {symerror: 0.065, label: 'sys-corr'}
   - value: 0.709
     errors:
     - {symerror: 0.016, label: 'stat.'}
-    - {symerror: 0.052, label: 'sys. (Point by Point)'}
-    - {symerror: 0.072, label: 'sys. (Common)'}
-- header: {name: '$R_{cp}$ HDM Forward Rapidity'}
+    - {symerror: 0.052, label: 'sys-uncorr'}
+    - {symerror: 0.072, label: 'sys-corr'}
+- header: {name: '$R_{cp}$'}
   qualifiers:
   - {name: 'Centrality (%)', value: '40-60/60-88'}
+  - {name: 'Rapidity', value: '1.4 < $\eta$ < 2.2'}
+  - {name: 'Particle Type', value: 'Hadron Decay Muon'}
   values:
   - value: 0.865
     errors:
     - {symerror: 0.046, label: 'stat.'}
-    - {symerror: 0.056, label: 'sys. (Point by Point)'}
-    - {symerror: 0.047, label: 'sys. (Common)'}
+    - {symerror: 0.056, label: 'sys-uncorr'}
+    - {symerror: 0.047, label: 'sys-corr'}
   - value: 0.806
     errors:
     - {symerror: 0.029, label: 'stat.'}
-    - {symerror: 0.052, label: 'sys. (Point by Point)'}
-    - {symerror: 0.051, label: 'sys. (Common)'}
+    - {symerror: 0.052, label: 'sys-uncorr'}
+    - {symerror: 0.051, label: 'sys-corr'}
   - value: 0.767
     errors:
     - {symerror: 0.023, label: 'stat.'}
-    - {symerror: 0.049, label: 'sys. (Point by Point)'}
-    - {symerror: 0.048, label: 'sys. (Common)'}
+    - {symerror: 0.049, label: 'sys-uncorr'}
+    - {symerror: 0.048, label: 'sys-corr'}
   - value: 0.814
     errors:
     - {symerror: 0.020, label: 'stat.'}
-    - {symerror: 0.052, label: 'sys. (Point by Point)'}
-    - {symerror: 0.051, label: 'sys. (Common)'}
+    - {symerror: 0.052, label: 'sys-uncorr'}
+    - {symerror: 0.051, label: 'sys-corr'}
