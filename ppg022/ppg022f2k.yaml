@@ -9,7 +9,7 @@ independent_variables:
   - {low: 0.75, high: 1.00}
   - {low: 1.00, high: 1.25}
   - {low: 1.25, high: 1.50}
-- header: {name: 'Mean $p_T$ (GeV/$c$)'}
+- header: {name: '$\langle p_T \rangle$ (GeV/$c$)'}
   values:
   - {value: 0.21}
   - {value: 0.32}
@@ -23,7 +23,7 @@ independent_variables:
 dependent_variables:
 - header: {name: '$v_2$'}
   qualifiers:
-  - {name: '$p_T$ (GeV/$c$)', value: 'Particle'}
+  - {name: 'Particle', value: '$K^+$ and K^-'}
   values:
   - value: 9.21E-03
     errors:

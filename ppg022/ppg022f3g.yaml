@@ -1,0 +1,89 @@
+independent_variables:
+- header: {name: '$p_T$ (GeV/$c$)'}
+  values:
+  - {low: 0.00, high: 0.25}
+  - {low: 0.25, high: 0.50}
+  - {low: 0.50, high: 0.75}
+  - {low: 0.75, high: 1.00}
+  - {low: 1.00, high: 1.25}
+  - {low: 1.25, high: 1.50}
+  - {low: 1.50, high: 2.00}
+  - {low: 2.00, high: 2.50}
+  - {low: 2.50, high: 3.00}
+  - {low: 3.00, high: 4.00}
+  - {low: 4.00, high: 5.00}
+- header: {name: '$\langle p_T \rangle$ (GeV/$c$)'}
+  values:
+  - {value: 0.20}
+  - {value: 0.36}
+  - {value: 0.61}
+  - {value: 0.86}
+  - {value: 1.11}
+  - {value: 1.36}
+  - {value: 1.70}
+  - {value: 2.20}
+  - {value: 2.70}
+  - {value: 3.34}
+  - {value: 4.38}
+  
+dependent_variables:
+- header: {name: '$v_2$'}
+  qualifiers:
+  - {name: 'Particle', value: '$ch^-$'}
+  - {name: 'Centrality', value: '20 - 40%'}
+  values:
+  - value: 0.0209
+    errors:
+    - {symerror: 8.51E-04, label: 'stat'}
+    - {symerror: 2.09E-03, label: 'sys'}
+    - {symerror: 0.00E+00, label: 'bckgrnd'}
+  - value: 0.0458
+    errors:
+    - {symerror: 4.24E-04, label: 'stat'}
+    - {symerror: 4.58E-03, label: 'sys'}
+    - {symerror: 0.00E+00, label: 'bckgrnd'}
+  - value: 0.0763
+    errors:
+    - {symerror: 5.47E-04, label: 'stat'}
+    - {symerror: 7.63E-03, label: 'sys'}
+    - {symerror: 0.00E+00, label: 'bckgrnd'}
+  - value: 0.1035
+    errors:
+    - {symerror: 7.41E-04, label: 'stat'}
+    - {symerror: 1.04E-02, label: 'sys'}
+    - {symerror: 0.00E+00, label: 'bckgrnd'}
+  - value: 0.1266
+    errors:
+    - {symerror: 9.94E-04, label: 'stat'}
+    - {symerror: 1.27E-02, label: 'sys'}
+    - {symerror: 0.00E+00, label: 'bckgrnd'}
+  - value: 0.1464
+    errors:
+    - {symerror: 1.33E-03, label: 'stat'}
+    - {symerror: 1.46E-02, label: 'sys'}
+    - {symerror: 0.00E+00, label: 'bckgrnd'}
+  - value: 0.1755
+    errors:
+    - {symerror: 1.51E-03, label: 'stat'}
+    - {symerror: 1.75E-02, label: 'sys'}
+    - {symerror: 0.00E+00, label: 'bckgrnd'}
+  - value: 0.1931
+    errors:
+    - {symerror: 2.78E-03, label: 'stat'}
+    - {symerror: 1.93E-02, label: 'sys'}
+    - {symerror: 0.00E+00, label: 'bckgrnd'}
+  - value: 0.1930
+    errors:
+    - {symerror: 4.96E-03, label: 'stat'}
+    - {symerror: 1.93E-02, label: 'sys'}
+    - {symerror: 0.00E+00, label: 'bckgrnd'}
+  - value: 0.1966
+    errors:
+    - {symerror: 7.73E-03, label: 'stat'}
+    - {symerror: 1.97E-02, label: 'sys'}
+    - {symerror: 1.97E-02, label: 'bckgrnd'}
+  - value: 0.1771
+    errors:
+    - {symerror: 1.52E-02, label: 'stat'}
+    - {symerror: 1.77E-02, label: 'sys'}
+    - {symerror: 1.77E-02, label: 'bckgrnd'}

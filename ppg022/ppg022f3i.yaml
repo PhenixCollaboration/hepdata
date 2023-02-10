@@ -1,0 +1,68 @@
+independent_variables:
+- header: {name: '$p_T$ (GeV/$c$)'}
+  values:
+  - {low: 0.50, high: 0.75}
+  - {low: 0.75, high: 1.00}
+  - {low: 1.00, high: 1.25}
+  - {low: 1.25, high: 1.50}
+  - {low: 1.50, high: 2.00}
+  - {low: 2.00, high: 2.50}
+  - {low: 2.50, high: 3.00}
+  - {low: 3.00, high: 4.00}
+- header: {name: '$\langle p_T \rangle$ (GeV/$c$)'}
+  values:
+  - {value: 0.64}
+  - {value: 0.88}
+  - {value: 1.12}
+  - {value: 1.37}
+  - {value: 1.71}
+  - {value: 2.20}
+  - {value: 2.70}
+  - {value: 3.31}
+  
+dependent_variables:
+- header: {name: '$v_2$'}
+  qualifiers:
+  - {name: 'Particle', value: '$\bar{p}$'}
+  - {name: 'Centrality', value: '20 - 40%'}
+  values:
+  - value: 0.0243
+    errors:
+    - {symerror: 7.70E-03, label: 'stat'}
+    - {asymerror: {plus: 2.43E-03, minus: -2.67E-03}, label: 'sys'}
+    - {symerror: 0.00E+00, label: 'bckgrnd'}
+  - value: 0.0532
+    errors:
+    - {symerror: 6.39E-03, label: 'stat'}
+    - {asymerror: {plus: 5.32E-03, minus: -5.85E-03}, label: 'sys'}
+    - {symerror: 0.00E+00, label: 'bckgrnd'}
+  - value: 0.0854
+    errors:
+    - {symerror: 6.42E-03, label: 'stat'}
+    - {asymerror: {plus: 8.54E-03, minus: -9.39E-03}, label: 'sys'}
+    - {symerror: 0.00E+00, label: 'bckgrnd'}
+  - value: 0.1225
+    errors:
+    - {symerror: 7.26E-03, label: 'stat'}
+    - {asymerror: {plus: 1.22E-02, minus: -1.35E-02}, label: 'sys'}
+    - {symerror: 0.00E+00, label: 'bckgrnd'}
+  - value: 0.1660
+    errors:
+    - {symerror: 7.26E-03, label: 'stat'}
+    - {asymerror: {plus: 1.66E-02, minus: -1.83E-02}, label: 'sys'}
+    - {symerror: 0.00E+00, label: 'bckgrnd'}
+  - value: 0.2262
+    errors:
+    - {symerror: 1.27E-02, label: 'stat'}
+    - {asymerror: {plus: 2.26E-02, minus: -2.49E-02}, label: 'sys'}
+    - {symerror: 0.00E+00, label: 'bckgrnd'}
+  - value: 0.2263
+    errors:
+    - {symerror: 2.26E-02, label: 'stat'}
+    - {asymerror: {plus: 2.26E-02, minus: -2.49E-02}, label: 'sys'}
+    - {symerror: 0.00E+00, label: 'bckgrnd'}
+  - value: 0.2583
+    errors:
+    - {symerror: 4.37E-02, label: 'stat'}
+    - {asymerror: {plus: 2.58E-02, minus: -2.84E-02}, label: 'sys'}
+    - {symerror: 2.58E-02, label: 'bckgrnd'}
