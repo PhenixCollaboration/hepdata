@@ -36,7 +36,7 @@ comment: | # Information that applies to all data tables.
 # This is Figure 2a.
 name: "Figure 2a"
 location: Data from Fig. 2 of PRL 94, 122302 (2005)
-description: filler desc.
+description: Corrected spectra for deuterons and anti-deuterons for different centralities are plotted vs $m_T$.
 keywords: # used for searching, possibly multiple values for each keyword
 - {name: reactions, values: [AU + AU --> CHARGED X0]}
 - {name: cmenergies, values: [200.0]} # centre-of-mass energy in GeV
@@ -49,7 +49,7 @@ additional_resources:
 # This is Figure 2b.
 name: "Figure 2b"
 location: Data from Fig. 2 of PRL 94, 122302 (2005)
-description: filler desc.
+description: Corrected spectra for deuterons and anti-deuterons for different centralities are plotted vs $m_T$.
 keywords: # used for searching, possibly multiple values for each keyword
 - {name: reactions, values: [AU + AU --> CHARGED X0]}
 - {name: cmenergies, values: [200.0]} # centre-of-mass energy in GeV
@@ -57,4 +57,30 @@ keywords: # used for searching, possibly multiple values for each keyword
 data_file: ppg020f2b.yaml
 additional_resources:
 - location: "thumb_ppg020_fig2.png"
+  description: "Image File"
+---
+# This is Figure 3.
+name: "Figure 3"
+location: Data from Fig. 3 of PRL 94, 122302 (2005)
+description: Coalescence parameter $B_2$ vs $p_T$ for deuterons (left panel) and anti-deuterons (right panel). Grey bands indicate the systematic errors. Values are plotted at the "true" mean value of $p_T$ of each bin, the extent of which is indicated by the width of the grey bars along x-axis.
+keywords: # used for searching, possibly multiple values for each keyword
+- {name: reactions, values: [AU + AU --> CHARGED X0]}
+- {name: cmenergies, values: [200.0]} # centre-of-mass energy in GeV
+- {name: phrases, values: [ppg020]}
+data_file: ppg020f3.yaml
+additional_resources:
+- location: "thumb_ppg020_fig3.png"
+  description: "Image File"
+---
+# This is Figure 5.
+name: "Figure 5"
+location: Data from Fig. 5 of PRL 94, 122302 (2005)
+description: $\bar{d}/d$ ratio vs. $p_T$ for minimum bias data.
+keywords: # used for searching, possibly multiple values for each keyword
+- {name: reactions, values: [AU + AU --> CHARGED X0]}
+- {name: cmenergies, values: [200.0]} # centre-of-mass energy in GeV
+- {name: phrases, values: [ppg020]}
+data_file: ppg020f5.yaml
+additional_resources:
+- location: "thumb_ppg020_dbard.png"
   description: "Image File"

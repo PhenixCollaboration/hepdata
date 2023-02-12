@@ -7,10 +7,20 @@ independent_variables:
   - {low: 3, high: 3.3}
   - {low: 3.3, high: 3.6}
   - {low: 3.6, high: 4}
+- header: {name: '$\langle m_T \rangle$ [GeV/$c^2$]'}
+  values:
+  - {value: 2.29}
+  - {value: 2.53}
+  - {value: 2.81}
+  - {value: 3.11}
+  - {value: 3.43}
+  - {value: 3.76}
+  
 dependent_variables:
 - header: {name: 'Inv. Yield $\frac{1}{2 \pi p_T}$$\frac{dN^2}{dp_T dy}$ [GeV/$c^{-2}$]'}
   qualifiers:
-  - {name: '$m_T$ [GeV/$c^2$]', value: '20-92%'}
+  - {name: 'Centrality', value: '20-92%'}
+  - {name: 'Particle', value: '$d$'}
   values:
   - value: 6.72E-04
     errors:
@@ -38,7 +48,8 @@ dependent_variables:
     - {symerror: 8.08E-06, label: 'sys.'}
 - header: {name: 'Inv. Yield $\frac{1}{2 \pi p_T}$$\frac{dN^2}{dp_T dy}$ [GeV/$c^{-2}$]'}
   qualifiers:
-  - {name: '$m_T$ [GeV/$c^2$]', value: '20-90%'}
+  - {name: 'Centrality', value: '20-92%'}
+  - {name: 'Particle', value: '$\bar{d}$'}
   values:
   - value: 3.22E-04
     errors:
