@@ -1,0 +1,180 @@
+independent_variables:
+- header: {name: '$p_T$ (GeV/$c$)'}
+  values:
+  - {low: 1.00, high: 1.50}
+  - {low: 1.50, high: 2.00}
+  - {low: 2.00, high: 2.50}
+  - {low: 2.50, high: 3.00}
+  - {low: 3.00, high: 3.50}
+  - {low: 3.50, high: 4.00}
+  - {low: 4.00, high: 4.50}
+  - {low: 4.50, high: 5.00}
+  - {low: 5.00, high: 5.50}
+  - {low: 5.50, high: 6.00}
+  - {low: 6.00, high: 6.50}
+  - {low: 6.50, high: 7.00}
+  - {low: 7.00, high: 7.50}
+  - {low: 7.50, high: 8.00}
+  - {low: 8.00, high: 9.00}
+  - {low: 9.00, high: 10.0}
+  - {low: 10.0, high: 12.0}
+dependent_variables:
+- header: {name: 'Direct Gamma Spectrum'}
+  qualifiers:
+  - {name: 'Centrality', value: '50-60%'}
+  values:
+  - value: 0.0294
+  - value: 0.00419
+  - value: 0.000799
+  - value: 0.000195
+  - value: 0.0000551
+  - value: 0.0000186
+  - value: 0.00000668
+  - value: 0.00000157
+    errors:
+    - {symerror: 0.0000023, label: 'tot.'}
+    - {symerror: 0.0000023, label: 'stat.'}
+    - {symerror: 0.00000017, label: 'sys.'}
+  - value: 0.000000719
+    errors:
+    - {symerror: 0.0000011, label: 'tot.'}
+    - {symerror: 0.0000011, label: 'stat.'}
+    - {symerror: 0.000000090, label: 'sys.'}
+  - value: 0.000000611
+    errors:
+    - {symerror: 0.00000060, label: 'tot.'}
+    - {symerror: 0.00000060, label: 'stat.'}
+    - {symerror: 0.000000080, label: 'sys.'}
+  - value: 0.000000128
+    errors:
+    - {symerror: 0.00000034, label: 'tot.'}
+    - {symerror: 0.00000034, label: 'stat.'}
+    - {symerror: 0.000000018, label: 'sys.'}
+  - value: 0.000000269
+    errors:
+    - {symerror: 0.00000026, label: 'tot.'}
+    - {symerror: 0.00000025, label: 'stat.'}
+    - {symerror: 0.000000039, label: 'sys.'}
+  - value: 0.000000289
+    errors:
+    - {symerror: 0.00000019, label: 'tot.'}
+    - {symerror: 0.00000018, label: 'stat.'}
+    - {symerror: 0.000000048, label: 'sys.'}
+  - value: 0.0000000284
+    errors:
+    - {symerror: 0.000000084, label: 'tot.'}
+    - {symerror: 0.000000084, label: 'stat.'}
+    - {symerror: 0.0000000066, label: 'sys.'}
+  - value: 0.0000000275
+    errors:
+    - {symerror: 0.000000042, label: 'tot.'}
+    - {symerror: 0.000000042, label: 'stat.'}
+    - {symerror: 0.0000000056, label: 'sys.'}
+  - value: 0.0000000278
+    errors:
+    - {symerror: 0.000000028, label: 'tot.'}
+    - {symerror: 0.000000027, label: 'stat.'}
+    - {symerror: 0.0000000072, label: 'sys.'}
+  - value: 0.00000000752
+- header: {name: 'Direct Gamma Spectrum'}
+  qualifiers:
+  - {name: 'Centrality', value: '70-80%'}
+  values:
+  - value: 0.00610
+  - value: 0.000878
+  - value: 0.000168
+  - value: 0.0000413
+  - value: 0.0000121
+  - value: 0.00000320
+    errors:
+    - {symerror: 0.0000034, label: 'tot.'}
+    - {symerror: 0.0000033, label: 'stat.'}
+    - {symerror: 0.00000035, label: 'sys.'}
+  - value: 0.00000170
+  - value: 0.00000101
+  - value: 0.000000254
+    errors:
+    - {symerror: 0.00000045, label: 'tot.'}
+    - {symerror: 0.00000045, label: 'stat.'}
+    - {symerror: 0.000000039, label: 'sys.'}
+  - value: 0.0000000411
+    errors:
+    - {symerror: 0.00000021, label: 'tot.'}
+    - {symerror: 0.00000021, label: 'stat.'}
+    - {symerror: 0.0000000061, label: 'sys.'}
+  - value: 0.000000126
+  - value: 0.000000119
+  - value: 0.0000000279
+  - value: 0.00000000446
+    errors:
+    - {symerror: 0.000000038, label: 'tot.'}
+    - {symerror: 0.000000038, label: 'stat.'}
+    - {symerror: 0.00000000068, label: 'sys.'}
+  - value: 0.00000000572
+    errors:
+    - {symerror: 0.000000021, label: 'tot.'}
+    - {symerror: 0.000000021, label: 'stat.'}
+    - {symerror: 0.0000000017, label: 'sys.'}
+  - value: 0.00000000410
+  - value: 0.00000000102
+    errors:
+    - {symerror: 0.0000000033, label: 'tot.'}
+    - {symerror: 0.0000000027, label: 'stat.'}
+    - {symerror: 0.0000000019, label: 'sys.'}
+- header: {name: 'Direct Gamma Spectrum'}
+  qualifiers:
+  - {name: 'Centrality', value: '80-92%'}
+  values:
+  - value: 0.00302
+  - value: 0.000419
+  - value: 0.0000803
+  - value: 0.00000406
+    errors:
+    - {symerror: 0.000016, label: 'tot.'}
+    - {symerror: 0.000016, label: 'stat.'}
+    - {symerror: 0.00000044, label: 'sys.'}
+  - value: 0.00000542
+  - value: 0.00000195
+  - value: 0.000000354
+    errors:
+    - {symerror: 0.00000093, label: 'tot.'}
+    - {symerror: 0.00000092, label: 'stat.'}
+    - {symerror: 0.000000033, label: 'sys.'}
+  - value: 0.000000542
+  - value: 0.000000218
+  - value: 0.000000135
+    errors:
+    - {symerror: 0.00000013, label: 'tot.'}
+    - {symerror: 0.00000013, label: 'stat.'}
+    - {symerror: 0.000000022, label: 'sys.'}
+  - value: 0.0000000933
+    errors:
+    - {symerror: 0.000000076, label: 'tot.'}
+    - {symerror: 0.000000074, label: 'stat.'}
+    - {symerror: 0.000000019, label: 'sys.'}
+  - value: 0.0000000429
+    errors:
+    - {symerror: 0.000000055, label: 'tot.'}
+    - {symerror: 0.000000053, label: 'stat.'}
+    - {symerror: 0.000000017, label: 'sys.'}
+  - value: 0.0000000424
+  - value: 0.00000000325
+    errors:
+    - {symerror: 0.000000026, label: 'tot.'}
+    - {symerror: 0.000000026, label: 'stat.'}
+    - {symerror: 0.0000000023, label: 'sys.'}
+  - value: 0.00000000821
+    errors:
+    - {symerror: 0.000000014, label: 'tot.'}
+    - {symerror: 0.000000013, label: 'stat.'}
+    - {symerror: 0.0000000053, label: 'sys.'}
+  - value: 0.00000000804
+    errors:
+    - {symerror: 0.000000015, label: 'tot.'}
+    - {symerror: 0.000000013, label: 'stat.'}
+    - {symerror: 0.0000000071, label: 'sys.'}
+  - value: 0.00000000314
+    errors:
+    - {symerror: 0.0000000063, label: 'tot.'}
+    - {symerror: 0.0000000058, label: 'stat.'}
+    - {symerror: 0.0000000023, label: 'sys.'}

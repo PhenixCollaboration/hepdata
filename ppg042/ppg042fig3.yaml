@@ -1,0 +1,51 @@
+independent_variables:
+- header: {name: 'Centrality'}
+  values:
+  - {low: 0, high: 10}
+  - {low: 10, high: 20}
+  - {low: 20, high: 30}
+  - {low: 30, high: 40}
+  - {low: 40, high: 50}
+  - {low: 50, high: 60}
+  - {low: 60, high: 70}
+  - {low: 70, high: 80}
+  - {low: 80, high: 92}
+- header: {name: '$N_{part}$'}
+  values:
+  - value: 325.2
+  - value: 234.6
+  - value: 166.6
+  - value: 114.2
+  - value: 74.2
+  - value: 45.5
+  - value: 25.7
+  - value: 13.4
+  - value: 6.3
+dependent_variables:
+- header: {name: '$R_{AA}$'}
+  values:
+  - value: 1.12
+    errors:
+    - {symerror: 0.18, label: 'stat.'}
+  - value: 1.21
+    errors:
+    - {symerror: 0.22, label: 'stat.'}
+  - value: 0.980
+    errors:
+    - {symerror: 0.24, label: 'stat.'}
+  - value: 1.06
+    errors:
+    - {symerror: 0.31, label: 'stat.'}
+  - value: 1.04
+    errors:
+    - {symerror: 0.38, label: 'stat.'}
+  - value: 0.740
+    errors:
+    - {symerror: 0.70, label: 'stat.'}
+  - value: 0.550
+    errors:
+    - {symerror: 0.78, label: 'stat.'}
+  - value: 2.02
+  - value: 1.44
+    errors:
+    - {symerror: 1.5, label: 'stat.'}
