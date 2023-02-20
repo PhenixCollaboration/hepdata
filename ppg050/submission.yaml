@@ -1,0 +1,61 @@
+#PHENIX paper PPG050
+#
+#Measurement of Transverse Single-Spin Asymmetries for Mid-rapidity Production of Neutral Pions and Charged Hadrons in Polarized $p$+$p$ Collisions at $\sqrt{s}$ = 200 GeV
+#
+#Phys.Rev.Lett 95 (2005) 202001
+#InspireHEP ID: 687618
+#
+#Prepared by Nikolas Nelson
+#Please contact Christine Nattrass if you have any questions about this submission
+#PPG liaison:
+#Reviewer:
+#
+comment: | # Information that applies to all data tables.
+    The transverse single-spin asymmetries of neutral pions and non-identified charged hadrons have been measured at mid-rapidity in polarized proton-proton collisions at $\sqrt{s}$ = 200 GeV. The data cover a transverse momentum $(p_T)$ range 0.5-5.0 GeV/$c$ for charged hadrons and 1.0-5.0 GeV/$c$ for neutral pions, at a Feynman-$x$ $(x_F)$ value of approximately zero. The asymmetries seen in this previously unexplored kinematic region are consistent with zero within statistical errors of a few percent. In addition, the inclusive charged hadron cross section at mid-rapidity from 0.5 < $p_T$ < 7.0 GeV/$c$ is presented and compared to NLO pQCD calculations. Successful description of the unpolarized cross section above ~2 GeV/$c$ using NLO pQCD suggests that pQCD is applicable in the interpretation of the asymmetry results in the relevant kinematic range.
+additional_resources:
+- {location: "https://phenix-intra.sdcc.bnl.gov/WWW/p/info/ppg/050/", description: "web page with data points"}
+- {location: "http://arxiv.org/abs/hep-ex/0507073", description: arXiv}
+- {location: "https://inspirehep.net/literature/687618", description: InspireHEP}
+---
+# This is Figure 1.
+name: "Figure 1"
+location: Data From Fig. 1 of PRL 95 (2005) 202001
+description: 'Invariant cross section vs. $p_T$ for the production of charged hadrons at mid-rapidity.'
+keywords: # used for searching, possibly mutliple values for each keywords
+- {name: reactions, values: [$p$ $p$ --> CHARGED X]}
+- {name: cmenergies, values: [200.0]}
+- {name: phrases, values: [ppg050, mid-rapidity]}
+data_file: ppg050fig1.yaml
+additional_resources:
+- {description: Original EPS Image file, location: fig1_cross_section.eps}
+- {description: PNG Image file, location: fig1_cross_section.png}
+- {description: Thumbnail Image file, location: thumb_fig1_cross_section.png}
+---
+# This is Figure 2.
+name: "Figure 2a"
+location: Data From Fig. 2 of PRL 95 (2005) 202001
+description: 'Mid-rapidity neutral pion transverse single-spin asymmetry, $A_N$, vs. transverse momentum.'
+keywords: # used for searching, possibly mutliple values for each keywords
+- {name: reactions, values: [$p$ $p$ --> CHARGED X]}
+- {name: cmenergies, values: [200.0]}
+- {name: phrases, values: [ppg050, mid-rapidity, transverse momentum]}
+data_file: ppg050fig2a.yaml
+additional_resources:
+- {description: Original EPS Image file, location: fig2_asymmetry.eps}
+- {description: PNG Image file, location: fig2_asymmetry.png}
+- {description: Thumbnail Image file, location: thumb_fig2_asymmetry.png}
+---
+# This is Figure 2.
+name: "Figure 2b"
+location: Data From Fig. 2 of PRL 95 (2005) 202001
+description: 'Mid-rapidity charged hadron transverse single-spin asymmetry, $A_N$, vs. transverse momentum.'
+keywords: # used for searching, possibly mutliple values for each keywords
+- {name: reactions, values: [$p$ $p$ --> CHARGED X]}
+- {name: cmenergies, values: [200.0]}
+- {name: phrases, values: [ppg050, mid-rapidity, transverse momentum]}
+data_file: ppg050fig2b.yaml
+additional_resources:
+- {description: Original EPS Image file, location: fig2_asymmetry.eps}
+- {description: PNG Image file, location: fig2_asymmetry.png}
+- {description: Thumbnail Image file, location: thumb_fig2_asymmetry.png}
+---
