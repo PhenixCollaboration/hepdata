@@ -18,6 +18,7 @@ independent_variables:
   
 dependent_variables:
 - header: {name: 'Inv. Yield $\frac{1}{2 \pi p_T}$$\frac{dN^2}{dp_T dy}$ [GeV/$c^{-2}$]'}
+  qualifiers:
   - {name: 'Centrality', value: '20-92%'}
   - {name: 'Particle', value: '$d$'}
   values:
@@ -47,7 +48,8 @@ dependent_variables:
     - {symerror: 8e-6, label: 'sys.'}
 - header: {name: 'Inv. Yield $\frac{1}{2 \pi p_T}$$\frac{dN^2}{dp_T dy}$ [GeV/$c^{-2}$]'}
   qualifiers:
-  - {name: '$m_T$ [GeV/$c^2$]', value: '20-90%'}
+  - {name: 'Centrality', value: '20-92%'}
+  - {name: 'Particle', value: '$\bar{d}$'}
   values:
   - value: 3.22e-4
     errors:

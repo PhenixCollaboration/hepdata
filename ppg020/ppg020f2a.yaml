@@ -54,7 +54,8 @@ dependent_variables:
     - {symerror: 1.2e-5, label: 'sys.'}
 - header: {name: 'Inv. Yield $\frac{1}{2 \pi p_T}$$\frac{dN^2}{dp_T dy}$ [GeV/$c^{-2}$]'}
   qualifiers:
-  - {name: '$m_T$ [GeV/$c^2$]', value: '0-20%'}
+  - {name: 'Centrality', value: '0-20%'}
+  - {name: 'Particle', value: '$\bar{d}$'}
   values:
   - value: 0.00152
     errors:
@@ -86,7 +87,8 @@ dependent_variables:
     - {symerror: 1.3e-5, label: 'sys.'}
 - header: {name: 'Inv. Yield $\frac{1}{2 \pi p_T}$$\frac{dN^2}{dp_T dy}$ [GeV/$c^{-2}$]'}
   qualifiers:
-  - {name: '$m_T$ [GeV/$c^2$]', value: 'Min. Bias'}
+  - {name: 'Centrality', value: 'Min. Bias'}
+  - {name: 'Particle', value: '$d$'}
   values:
   - value: 0.00121
     errors:
@@ -118,7 +120,8 @@ dependent_variables:
     - {symerror: 2.3e-6, label: 'sys.'}
 - header: {name: 'Inv. Yield $\frac{1}{2 \pi p_T}$$\frac{dN^2}{dp_T dy}$ [GeV/$c^{-2}$]'}
   qualifiers:
-  - {name: '$m_T$ [GeV/$c^2$]', value: 'Min. Bias'}
+  - {name: 'Centrality', value: 'Min. Bias'}
+  - {name: 'Particle', value: '$\bar{d}$'}
   values:
   - value: 5.5e-4
     errors:
