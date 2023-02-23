@@ -1,0 +1,47 @@
+independent_variables:
+- header: {name: '$p_T$ [GeV/$c$]'}
+  values:
+  - {low: 1.1, high: 1.5}
+  - {low: 1.5, high: 1.9}
+  - {low: 1.9, high: 2.3}
+  - {low: 2.3, high: 2.7}
+  - {low: 2.7, high: 3.1}
+  - {low: 3.1, high: 3.5}
+- header: {name: '$\langle p_T \rangle$ [GeV/$c^2$]'}
+  values:
+  - {value: 1.312}
+  - {value: 1.702}
+  - {value: 2.091}
+  - {value: 2.481}
+  - {value: 2.871}
+  - {value: 3.261}
+  
+dependent_variables:
+- header: {name: 'Ratio $\bar{d}/d$'}
+  qualifiers:
+  - {name: 'Centrality', value: '0-92% (Min Bias)'}
+  values:
+  - value: 0.45
+    errors:
+    - {symerror: 0.06, label: 'stat.'}
+    - {symerror: 0.05, label: 'sys.'}
+  - value: 0.524
+    errors:
+    - {symerror: 0.06, label: 'stat.'}
+    - {symerror: 0.026, label: 'sys.'}
+  - value: 0.450
+    errors:
+    - {symerror: 0.04, label: 'stat.'}
+    - {symerror: 0.021, label: 'sys.'}
+  - value: 0.43
+    errors:
+    - {symerror: 0.05, label: 'stat.'}
+    - {symerror: 0.04, label: 'sys.'}
+  - value: 0.51
+    errors:
+    - {symerror: 0.09, label: 'stat.'}
+    - {symerror: 0.05, label: 'sys.'}
+  - value: 0.56
+    errors:
+    - {symerror: 0.13, label: 'stat.'}
+    - {symerror: 0.07, label: 'sys.'}

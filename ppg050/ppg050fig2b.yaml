@@ -1,0 +1,40 @@
+independent_variables:
+- header: {name: '$p_T$ (GeV/$c$)'}
+  values:
+  - {low: 0.5, high: 1.0}
+  - {low: 1.0, high: 2.0}
+  - {low: 2.0, high: 5.0}
+- header: {name: '$<p_T>$ (GeV/$c$)'}
+  values:
+  - value: 0.70
+  - value: 1.32
+  - value: 2.56
+dependent_variables:
+- header: {name: '$A_N^{h^-}$'}
+  values:
+  - value: -0.0038
+    errors:
+    - {symerror: 0.0042, label: 'stat.'}
+    - {symerror: 0.0013, label: 'sys.'}
+  - value: -0.0012
+    errors:
+    - {symerror: 0.0082, label: 'stat.'}
+    - {symerror: 0.0004, label: 'sys.'}
+  - value: -0.021
+    errors:
+    - {symerror: 0.027, label: 'stat.'}
+    - {symerror: 0.007, label: 'sys.'}
+- header: {name: '$A_N^{h^+}$'}
+  values:
+  - value: -0.0009
+    errors:
+    - {symerror: 0.0041, label: 'stat.'}
+    - {symerror: 0.0003, label: 'sys.'}
+  - value: -0.0054
+    errors:
+    - {symerror: 0.0078, label: 'stat.'}
+    - {symerror: 0.0019, label: 'sys.'}
+  - value: -0.031
+    errors:
+    - {symerror: 0.026, label: 'stat.'}
+    - {symerror: 0.011, label: 'sys.'}

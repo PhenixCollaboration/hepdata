@@ -1,0 +1,89 @@
+#PHENIX paper PPG042
+#
+#Centrality Dependence of Direct Photon Production in $\sqrt{s_{NN}}$ = 200 GeV Au+Au Collisions
+#
+#Phys.Rev.Lett 94 (2005) 232301 
+#InspireHEP ID: 678021
+#
+#Prepared by Nikolas Nelson
+#Please contact Christine Nattrass if you have any questions about this submission
+#PPG liaison:
+#Reviewer:
+#
+comment: | # Information that applies to all data tables.
+    The first measurement of direct photons in Au+Au collisions at $\sqrt{s_{NN}}$ = 200 GeV is presented. The direct photon signal is extracted as a function of the Au+Au collision centrality and compared to NLO pQCD calculations. The direct photon yield is shown to scale with the number of nucleon-nucleon collisions for all centralities.
+additional_resources:
+- {location: "https://phenix-intra.sdcc.bnl.gov/WWW/p/info/ppg/042/", description: "web page with data points"}
+- {location: "http://arxiv.org/abs/nucl-ex/0503003", description: arXiv}
+- {location: "https://inspirehep.net/literature/678021", description: InspireHEP}
+---
+# This is Figure 1.
+name: "Figure 1a"
+location: Data From Fig. 1 of PRL 94 (2005) 232301
+description: 'Double ratio of measured $(\gamma/\pi^0)_{Measured}$ invariant yield ratio to the background decay $(\gamma/\pi^0)_{Background}$ ratio as a function of $p_T$ for minimum bias and for five centralities of Au+Au collisions at $\sqrt{s_{NN}}$ = 200 GeV.'
+keywords: # used for searching, possibly mutliple values for each keywords
+- {name: reactions, values: [Au Au --> CHARGED X]}
+- {name: cmenergies, values: [200.0]}
+- {name: phrases, values: [ppg042]}
+data_file: ppg042fig1a.yaml
+additional_resources:
+- {description: Original EPS Image file, location: fig1_ratios.eps}
+- {description: PNG Image file, location: fig1_ratios.png}
+- {description: Thumbnail Image file, location: thumb_fig1_ratios.png}
+---
+# This is Figure 1.
+name: "Figure 1b"
+location: Data From Fig. 1 of PRL 94 (2005) 232301
+description: 'Double ratio of measured $(\gamma/\pi^0)_{Measured}$ invariant yield ratio to the background decay $(\gamma/\pi^0)_{Background}$ ratio as a function of $p_T$ for minimum bias and for five centralities of Au+Au collisions at $\sqrt{s_{NN}}$ = 200 GeV.'
+keywords: # used for searching, possibly mutliple values for each keywords
+- {name: reactions, values: [Au Au --> CHARGED X]}
+- {name: cmenergies, values: [200.0]}
+- {name: phrases, values: [ppg042]}
+data_file: ppg042fig1b.yaml
+additional_resources:
+- {description: Original EPS Image file, location: fig1_ratios.eps}
+- {description: PNG Image file, location: fig1_ratios.png}
+- {description: Thumbnail Image file, location: thumb_fig1_ratios.png}
+---
+# This is Figure 2.
+name: "Figure 2a"
+location: Data From Fig. 2 of PRL 94 (2005) 232301
+description: 'Direct $\gamma$ invariant yields as a function of transverse momentum for 9 centrality selections and minimum bias Au+AU collisions at $\sqrt{s_{NN}}$ = 200 GeV. Data with no errors represents 90% confidence level upper limit.'
+keywords: # used for searching, possibly mutliple values for each keywords
+- {name: reactions, values: [Au Au --> CHARGED X]}
+- {name: cmenergies, values: [200.0]}
+- {name: phrases, values: [ppg042]}
+data_file: ppg042fig2a.yaml
+additional_resources:
+- {description: Original EPS Image file, location: fig2_spectra.eps}
+- {description: PNG Image file, location: fig2_spectra.png}
+- {description: Thumbnail Image file, location: thumb_fig2_spectra.png}
+---
+# This is Figure 2.
+name: "Figure 2b"
+location: Data From Fig. 2 of PRL 94 (2005) 232301
+description: 'Direct $\gamma$ invariant yields as a function of transverse momentum for 9 centrality selections and minimum bias Au+AU collisions at $\sqrt{s_{NN}}$ = 200 GeV. Data with no errors represents 90% confidence level upper limit.'
+keywords: # used for searching, possibly mutliple values for each keywords
+- {name: reactions, values: [Au Au --> CHARGED X]}
+- {name: cmenergies, values: [200.0]}
+- {name: phrases, values: [ppg042]}
+data_file: ppg042fig2b.yaml
+additional_resources:
+- {description: Original EPS Image file, location: fig2_spectra.eps}
+- {description: PNG Image file, location: fig2_spectra.png}
+- {description: Thumbnail Image file, location: thumb_fig2_spectra.png}
+---
+# This is Figure 3.
+name: "Figure 3"
+location: Data From Fig. 3 of PRL 94 (2005) 232301
+description: 'Ratio of Au+Au yield to $p$+$p$ yield normalized by the number of binary nucleon collisions as a function of centrality given by $N_{part}$ for direct $\gamma$ and $\pi^0$ yields integrated above 6 GeV/$c$. Data with no errors represents 90% confidence level upper limit.'
+keywords: # used for searching, possibly mutliple values for each keywords
+- {name: reactions, values: [Au Au --> CHARGED X]}
+- {name: cmenergies, values: [200.0]}
+- {name: phrases, values: [ppg042]}
+data_file: ppg042fig3.yaml
+additional_resources:
+- {description: Original EPS Image file, location: fig3_raa.eps}
+- {description: PNG Image file, location: fig3_raa.png}
+- {description: Thumbnail Image file, location: thumb_fig3_raa.png}
+---

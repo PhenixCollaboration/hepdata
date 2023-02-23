@@ -1,68 +1,77 @@
 independent_variables:
 - header: {name: '$m_T$ [GeV/$c^2$]'}
   values:
-  - {low: 2.2389, high: 2.3389}
-  - {low: 2.4825, high: 2.5825}
-  - {low: 2.75923, high: 2.85923}
-  - {low: 3.06032, high: 3.16032}
-  - {low: 3.37948, high: 3.47948}
-  - {low: 3.71223, high: 3.81223}
+  - {low: 2.2, high: 2.4}
+  - {low: 2.4, high: 2.7}
+  - {low: 2.7, high: 3}
+  - {low: 3, high: 3.3}
+  - {low: 3.3, high: 3.6}
+  - {low: 3.6, high: 4}
+- header: {name: '$\langle m_T \rangle$ [GeV/$c^2$]'}
+  values:
+  - {value: 2.29}
+  - {value: 2.53}
+  - {value: 2.81}
+  - {value: 3.11}
+  - {value: 3.43}
+  - {value: 3.76}
+  
 dependent_variables:
 - header: {name: 'Inv. Yield $\frac{1}{2 \pi p_T}$$\frac{dN^2}{dp_T dy}$ [GeV/$c^{-2}$]'}
   qualifiers:
-  - {name: 'Centrality', value: '20-90%'}
+  - {name: 'Centrality', value: '20-92%'}
   - {name: 'Particle', value: '$d$'}
   values:
-  - value: 6.70E-04
+  - value: 6.7e-4
     errors:
-    - {symerror: 7.00E-05, label: 'stat.'}
-    - {symerror: 6.00E-05, label: 'sys.'}
-  - value: 4.89E-04
+    - {symerror: 7e-5, label: 'stat.'}
+    - {symerror: 6e-5, label: 'sys.'}
+  - value: 4.89e-4
     errors:
-    - {symerror: 5.00E-05, label: 'stat.'}
-    - {symerror: 2.50E-05, label: 'sys.'}
-  - value: 3.26E-04
+    - {symerror: 5e-5, label: 'stat.'}
+    - {symerror: 2.5e-5, label: 'sys.'}
+  - value: 3.26e-4
     errors:
-    - {symerror: 2.50E-05, label: 'stat.'}
-    - {symerror: 1.50E-05, label: 'sys.'}
-  - value: 1.42E-04
+    - {symerror: 2.5e-5, label: 'stat.'}
+    - {symerror: 1.5e-5, label: 'sys.'}
+  - value: 1.42e-4
     errors:
-    - {symerror: 1.50E-05, label: 'stat.'}
-    - {symerror: 9.00E-06, label: 'sys.'}
-  - value: 5.60E-05
+    - {symerror: 1.5e-5, label: 'stat.'}
+    - {symerror: 9e-6, label: 'sys.'}
+  - value: 5.6e-5
     errors:
-    - {symerror: 1.00E-05, label: 'stat.'}
-    - {symerror: 6.00E-06, label: 'sys.'}
-  - value: 3.90E-05
+    - {symerror: 1.0e-5, label: 'stat.'}
+    - {symerror: 6e-6, label: 'sys.'}
+  - value: 3.9e-5
     errors:
-    - {symerror: 7.00E-06, label: 'stat.'}
-    - {symerror: 8.00E-06, label: 'sys.'}
+    - {symerror: 7e-6, label: 'stat.'}
+    - {symerror: 8e-6, label: 'sys.'}
 - header: {name: 'Inv. Yield $\frac{1}{2 \pi p_T}$$\frac{dN^2}{dp_T dy}$ [GeV/$c^{-2}$]'}
   qualifiers:
-  - {name: 'Centrality', value: '20-90%'}
+  - {name: 'Centrality', value: '20-92%'}
   - {name: 'Particle', value: '$\bar{d}$'}
   values:
-  - value: 3.22E-04
+  - value: 3.22e-4
     errors:
-    - {symerror: 3.50E-05, label: 'stat.'}
-    - {symerror: 3.50E-05, label: 'sys.'}
-  - value: 2.94E-04
+    - {symerror: 3.5e-5, label: 'stat.'}
+    - {symerror: 3.5e-5, label: 'sys.'}
+  - value: 2.94e-4
     errors:
-    - {symerror: 2.70E-05, label: 'stat.'}
-    - {symerror: 2.10E-05, label: 'sys.'}
-  - value: 1.39E-04
+    - {symerror: 2.7e-5, label: 'stat.'}
+    - {symerror: 2.1e-5, label: 'sys.'}
+  - value: 1.39e-4
     errors:
-    - {symerror: 1.60E-05, label: 'stat.'}
-    - {symerror: 1.80E-05, label: 'sys.'}
-  - value: 6.30E-05
+    - {symerror: 1.6e-5, label: 'stat.'}
+    - {symerror: 1.8e-5, label: 'sys.'}
+  - value: 6.3e-5
     errors:
-    - {symerror: 1.00E-05, label: 'stat.'}
-    - {symerror: 2.00E-05, label: 'sys.'}
-  - value: 2.70E-05
+    - {symerror: 1.0e-5, label: 'stat.'}
+    - {symerror: 2.0e-5, label: 'sys.'}
+  - value: 2.7e-5
     errors:
-    - {symerror: 7.00E-06, label: 'stat.'}
-    - {symerror: 4.00E-06, label: 'sys.'}
-  - value: 1.80E-05
+    - {symerror: 7e-6, label: 'stat.'}
+    - {symerror: 4e-6, label: 'sys.'}
+  - value: 1.8e-5
     errors:
-    - {symerror: 5.00E-06, label: 'stat.'}
-    - {symerror: 1.00E-05, label: 'sys.'}
+    - {symerror: 5e-6, label: 'stat.'}
+    - {symerror: 1.0e-5, label: 'sys.'}
