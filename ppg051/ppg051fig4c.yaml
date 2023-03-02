@@ -1,0 +1,32 @@
+independent_variables:
+- header: {name: '$p_T$ (GeV/$c$)'}
+  values:
+  - {low: 2.00, high: 2.50}
+  - {low: 2.50, high: 3.00}
+  - {low: 3.00, high: 3.50}
+  - {low: 3.50, high: 4.00}
+  - {low: 4.00, high: 5.00}
+  - {low: 5.00, high: 6.00}
+dependent_variables:
+- header: {name: '$\eta/\pi^0$'}
+  qualifiers:
+  - {name: 'Centrality', value: '60-92%'}
+  values:
+  - value: 0.312
+    errors:
+    - {symerror: 0.094, label: 'stat.'}
+  - value: 0.383
+    errors:
+    - {symerror: 0.110, label: 'stat.'}
+  - value: 0.404
+    errors:
+    - {symerror: 0.081, label: 'stat.'}
+  - value: 0.438
+    errors:
+    - {symerror: 0.093, label: 'stat.'}
+  - value: 0.542
+    errors:
+    - {symerror: 0.139, label: 'stat.'}
+  - value: 0.404
+    errors:
+    - {symerror: 0.257, label: 'stat.'}
