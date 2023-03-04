@@ -15,19 +15,20 @@ independent_variables:
   - {low: 1.7, high: 1.8}
   - {low: 1.8, high: 1.9}
   - {low: 1.9, high: 2}
-  - {low: 2.05, high: 2.15}
-  - {low: 2.25, high: 2.35}
-  - {low: 2.45, high: 2.55}
-  - {low: 2.65, high: 2.75}
-  - {low: 2.85, high: 2.95}
-  - {low: 3.2, high: 3.3}
-  - {low: 3.7, high: 3.8}
-  - {low: 4.2, high: 4.3}
+  - {low: 2, high: 2.2}
+  - {low: 2.2, high: 2.4}
+  - {low: 2.4, high: 2.6}
+  - {low: 2.6, high: 2.8}
+  - {low: 2.8, high: 3}
+  - {low: 3, high: 3.5}
+  - {low: 3.5, high: 4}
+  - {low: 4, high: 4.5}
 dependent_variables:
 - header: {name: 'Invariant yield / $N_{Collisions}$'}
   qualifiers:
   - {name: 'Centrality', value: '0-10%'}
   - {name: '$N_{Coll}$', value: '955.4'}
+  - {name: 'Particle', value: '$p$'}
   values:
   - value: 0.00280
     errors:
@@ -121,6 +122,7 @@ dependent_variables:
   qualifiers:
   - {name: 'Centrality', value: '20-30%'}
   - {name: '$N_{Coll}$', value: '373.8'}
+  - {name: 'Particle', value: '$p$'}
   values:
   - value: 0.00366
     errors:
@@ -214,6 +216,7 @@ dependent_variables:
   qualifiers:
   - {name: 'Centrality', value: '40-50%'}
   - {name: '$N_{Coll}$', value: '120.3'}
+  - {name: 'Particle', value: '$p$'}
   values:
   - value: 0.00525
     errors:
@@ -307,6 +310,7 @@ dependent_variables:
   qualifiers:
   - {name: 'Centrality', value: '60-92%'}
   - {name: '$N_{Coll}$', value: '14.5'}
+  - {name: 'Particle', value: '$p$'}
   values:
   - value: 0.00805
     errors:
@@ -400,6 +404,7 @@ dependent_variables:
   qualifiers:
   - {name: 'Centrality', value: '0-10%'}
   - {name: '$N_{Coll}$', value: '955.4'}
+  - {name: 'Particle', value: '$\bar{p}$'}
   values:
   - value: 0.00195
     errors:
@@ -493,6 +498,7 @@ dependent_variables:
   qualifiers:
   - {name: 'Centrality', value: '20-30%'}
   - {name: '$N_{Coll}$', value: '373.8'}
+  - {name: 'Particle', value: '$\bar{p}$'}
   values:
   - value: 0.00259
     errors:
@@ -586,6 +592,7 @@ dependent_variables:
   qualifiers:
   - {name: 'Centrality', value: '40-50%'}
   - {name: '$N_{Coll}$', value: '120.3'}
+  - {name: 'Particle', value: '$\bar{p}$'}
   values:
   - value: 0.00374
     errors:
@@ -679,6 +686,7 @@ dependent_variables:
   qualifiers:
   - {name: 'Centrality', value: '60-92%'}
   - {name: '$N_{Coll}$', value: '14.5'}
+  - {name: 'Particle', value: '$\bar{p}$'}
   values:
   - value: 0.00595
     errors:

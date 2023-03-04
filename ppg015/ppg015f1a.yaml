@@ -15,15 +15,15 @@ independent_variables:
   - {low: 1.7, high: 1.8}
   - {low: 1.8, high: 1.9}
   - {low: 1.9, high: 2}
-  - {low: 2.05, high: 2.15}
-  - {low: 2.25, high: 2.35}
-  - {low: 2.45, high: 2.55}
-  - {low: 2.65, high: 2.75}
-  - {low: 2.85, high: 2.95}
+  - {low: 2, high: 2.2}
+  - {low: 2.2, high: 2.4}
+  - {low: 2.4, high: 2.6}
+  - {low: 2.6, high: 2.8}
+  - {low: 2.8, high: 3}
 dependent_variables:
 - header: {name: '$p$/$\pi^+$'}
   qualifiers:
-  - {name: 'centrality', value: '0-10%'}
+  - {name: 'Centrality', value: 'Central (0-10%)'}
   values:
   - value: 0.0650
     errors:
@@ -84,7 +84,7 @@ dependent_variables:
     - {symerror: 0.16, label: 'Stat. + Sys.'}
 - header: {name: '$p$/$\pi^+$'}
   qualifiers:
-  - {name: 'centrality', value: '20-30%'}
+  - {name: 'Centrality', value: 'Mid-central (20-30%)'}
   values:
   - value: 0.0700
     errors:
@@ -145,7 +145,7 @@ dependent_variables:
     - {symerror: 0.10, label: 'Stat. + Sys.'}
 - header: {name: '$p$/$\pi^+$'}
   qualifiers:
-  - {name: 'centrality', value: '60-92%'}
+  - {name: 'Centrality', value: 'Peripheral (60-92%)'}
   values:
   - value: 0.094
     errors:
@@ -206,7 +206,7 @@ dependent_variables:
     - {symerror: 0.13, label: 'Stat. + Sys.'}
 - header: {name: '$\bar{p}$/$\pi^-$'}
   qualifiers:
-  - {name: 'centrality', value: '0-10%'}
+  - {name: 'Centrality', value: 'Central (0-10%)'}
   values:
   - value: 0.0445
     errors:
@@ -267,7 +267,7 @@ dependent_variables:
     - {symerror: 0.11, label: 'Stat. + Sys.'}
 - header: {name: '$\bar{p}$/$\pi^-$'}
   qualifiers:
-  - {name: 'centrality', value: '20-30%'}
+  - {name: 'Centrality', value: 'Mid-central (20-30%)'}
   values:
   - value: 0.0496
     errors:
@@ -328,7 +328,7 @@ dependent_variables:
     - {symerror: 0.08, label: 'Stat. + Sys.'}
 - header: {name: '$\bar{p}$/$\pi^-$'}
   qualifiers:
-  - {name: 'centrality', value: '60-92%'}
+  - {name: 'Centrality', value: 'Peripheral (60-92%)'}
   values:
   - value: 0.0711
     errors:
