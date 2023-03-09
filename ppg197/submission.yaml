@@ -1,0 +1,39 @@
+#PHENIX paper PPG197
+#
+#Measurements of $B \rightarrow J/\psi$ at forward rapidity in $p$+$p$ collisions at $\sqrt{s}$ = 510 GeV
+#
+#Phys.Rev.Lett D 95 (2017) 092002
+#InspireHEP ID: 1507891
+#
+#Prepared by Nikolas Nelson
+#Please contact Christine Nattrass if you have any questions about this submission
+#PPG liaison:
+#Reviewer:
+#
+comment: | # Information that applies to all data tables.
+   We report the first measurement of the fraction of $J/\psi$ mesons coming from $B$-meson decay ($F_{B \rightarrow J/\psi}$) in $p$+$p$ collisions at $\sqrt{s}$ = 510 GeV. The measurement is performed using the forward silicon vertex detector and central vertex detector at PHENIX, which provide precise tracking and distance-of-closest-approach determinations, enabling the statistical separation of $J/\psi$ due to $B$-meson decays from prompt $J/\psi$. The measured value of $F_{B \rightarrow = J/\psi}$ is $8.1\%\pm2.3\% (stat)\pm1.9\% (syst)$ for $J/\psi$ with transverse momenta 0 < $p_T$ < 5 GeV/$c$ and rapidity 1.2 < $|y|$ < 2.2. The measured fraction $F_{B \rightarrow J/\psi}$ at PHENIX is compared to values measured by other experiments at higher center of mass energies and to fixed-order-next-to-leading-logarithm and color-evaporation-model predictions. The $b\bar{b}$ cross section per unit rapidity ($d\sigma/dy(pp→b\bar{b})$) extracted from the obtained $F_{B \rightarrow J/\psi}$ and the PHENIX inclusive $J/\psi$ cross section measured at 200 GeV scaled with color-evaporation-model calculations, at the mean $B$ hadron rapidity $y = \pm1.7$ in 510 GeV $p$+$p$ collisions, is $3.63^{+1.92}_{−1.70}$ $\mu$$b$, and it is consistent with the fixed-order-next-to-leading-logarithm calculations.
+additional_resources:
+- {location: "https://phenix-intra.sdcc.bnl.gov/phenix/WWW/p/info/ppg/197/", description: "web page with data points"}
+- {location: "http://arxiv.org/abs/1701.01342", description: arXiv}
+- {location: "https://inspirehep.net/literature/1507891", description: InspireHEP}
+---
+# This is Table 5.
+name: "Figure 5a"
+location: Data From Table 5 of PRL D 95 (2017) 092002
+description: 'Fraction of $B$-meson decays in $J/\psi$ samples obtained in $p$+$p$ collisions at $\sqrt{S}$ = 510 GeV.'
+keywords: # used for searching, possibly mutliple values for each keywords
+- {name: reactions, values: [$p$ $p$ --> CHARGED X]}
+- {name: cmenergies, values: [510.0]}
+- {name: phrases, values: [ppg197, transverse momentum]}
+data_file: ppg197tab5a.yaml
+---
+# This is Table 5.
+name: "Figure 5b"
+location: Data From Table 5 of PRL D 95 (2017) 092002
+description: 'Fraction of $B$-meson decays in $J/\psi$ samples obtained in $p$+$p$ collisions at $\sqrt{S}$ = 510 GeV.'
+keywords: # used for searching, possibly mutliple values for each keywords
+- {name: reactions, values: [$p$ $p$ --> CHARGED X]}
+- {name: cmenergies, values: [510.0]}
+- {name: phrases, values: [ppg197, transverse momentum]}
+data_file: ppg197tab5b.yaml
+---
