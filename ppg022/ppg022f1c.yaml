@@ -2,22 +2,42 @@ independent_variables:
 - header: {name: '$p_T$ (GeV/$c$)'}
   values:
   - {low: 0, high: 0.25}
-  - {low: 0.25, high: 0.5}
+  - {low: 0.25, high: 0.50}
   - {low: 0.5, high: 0.75}
-  - {low: 0.75, high: 1}
+  - {low: 0.75, high: 1.00}
   - {low: 1, high: 1.25}
-  - {low: 1.25, high: 1.5}
+  - {low: 1.25, high: 1.50}
   - {low: 1.5, high: 1.75}
-  - {low: 1.75, high: 2}
+  - {low: 1.75, high: 2.00}
   - {low: 2, high: 2.25}
-  - {low: 2.25, high: 2.5}
+  - {low: 2.25, high: 2.50}
   - {low: 2.5, high: 2.75}
-  - {low: 2.75, high: 3}
+  - {low: 2.75, high: 3.00}
   - {low: 3, high: 3.25}
-  - {low: 3.25, high: 3.5}
-  - {low: 3.5, high: 4}
-  - {low: 4, high: 4.5}
-  - {low: 4.5, high: 5}
+  - {low: 3.25, high: 3.50}
+  - {low: 3.5, high: 4.00}
+  - {low: 4, high: 4.50}
+  - {low: 4.5, high: 5.00}
+- header: {name: '$\langle p_T \rangle$ (GeV/$c$)'}
+  values:
+  - {value: 0.2044}
+  - {value: 0.3631}
+  - {value: 0.6106}
+  - {value: 0.8627}
+  - {value: 1.113}
+  - {value: 1.363}
+  - {value: 1.613}
+  - {value: 1.862}
+  - {value: 2.113}
+  - {value: 2.363}
+  - {value: 2.612}
+  - {value: 2.863}
+  - {value: 3.114}
+  - {value: 3.365}
+  - {value: 3.710}
+  - {value: 4.220}
+  - {value: 4.720}
+  
 dependent_variables:
 - header: {name: '$v_2$'}
   qualifiers:
@@ -26,68 +46,68 @@ dependent_variables:
   - value: 0.01530
     errors:
     - {symerror: 2.6e-4, label: 'err.'}
-    - {asymerror: {plus: 0.017, minus: -0.014}, label: 'sys.'}
+    - {asymerror: {plus: 0.0015, minus: -0.0015}, label: 'sys.'}
   - value: 0.03420
     errors:
     - {symerror: 1.4e-4, label: 'err.'}
-    - {asymerror: {plus: 0.04, minus: -0.032}, label: 'sys.'}
+    - {asymerror: {plus: 0.0025, minus: -0.0025}, label: 'sys.'}
   - value: 0.05810
     errors:
     - {symerror: 1.9e-4, label: 'err.'}
-    - {asymerror: {plus: 0.06, minus: -0.05}, label: 'sys.'}
+    - {asymerror: {plus: 0.0035, minus: -0.0035}, label: 'sys.'}
   - value: 0.07880
     errors:
     - {symerror: 2.5e-4, label: 'err.'}
-    - {asymerror: {plus: 0.08, minus: -0.07}, label: 'sys.'}
+    - {asymerror: {plus: 0.004, minus: -0.004}, label: 'sys.'}
   - value: 0.09730
     errors:
     - {symerror: 3.3e-4, label: 'err.'}
-    - {asymerror: {plus: 0.10, minus: -0.09}, label: 'sys.'}
+    - {asymerror: {plus: 0.005, minus: -0.005}, label: 'sys.'}
   - value: 0.1130
     errors:
     - {symerror: 4e-4, label: 'err.'}
-    - {asymerror: {plus: 0.12, minus: -0.11}, label: 'sys.'}
+    - {asymerror: {plus: 0.005, minus: -0.005}, label: 'sys.'}
   - value: 0.1280
     errors:
     - {symerror: 6e-4, label: 'err.'}
-    - {asymerror: {plus: 0.13, minus: -0.12}, label: 'sys.'}
+    - {asymerror: {plus: 0.006, minus: -0.006}, label: 'sys.'}
   - value: 0.1410
     errors:
     - {symerror: 8e-4, label: 'err.'}
-    - {asymerror: {plus: 0.15, minus: -0.14}, label: 'sys.'}
+    - {asymerror: {plus: 0.007, minus: -0.007}, label: 'sys.'}
   - value: 0.1510
     errors:
     - {symerror: 0.0011, label: 'err.'}
-    - {asymerror: {plus: 0.16, minus: -0.15}, label: 'sys.'}
+    - {asymerror: {plus: 0.006, minus: -0.006}, label: 'sys.'}
   - value: 0.1600
     errors:
     - {symerror: 0.0015, label: 'err.'}
-    - {asymerror: {plus: 0.17, minus: -0.15}, label: 'sys.'}
+    - {asymerror: {plus: 0.007, minus: -0.007}, label: 'sys.'}
   - value: 0.1630
     errors:
     - {symerror: 0.0020, label: 'err.'}
-    - {asymerror: {plus: 0.17, minus: -0.16}, label: 'sys.'}
+    - {asymerror: {plus: 0.007, minus: -0.007}, label: 'sys.'}
   - value: 0.1690
     errors:
     - {symerror: 0.0026, label: 'err.'}
-    - {asymerror: {plus: 0.18, minus: -0.16}, label: 'sys.'}
+    - {asymerror: {plus: 0.007, minus: -0.007}, label: 'sys.'}
   - value: 0.1610
     errors:
     - {symerror: 0.0034, label: 'err.'}
-    - {asymerror: {plus: 0.17, minus: -0.16}, label: 'sys.'}
+    - {asymerror: {plus: 0.010, minus: -0.006}, label: 'sys.'}
   - value: 0.154
     errors:
     - {symerror: 0.004, label: 'err.'}
-    - {asymerror: {plus: 0.17, minus: -0.14}, label: 'sys.'}
+    - {asymerror: {plus: 0.014, minus: -0.011}, label: 'sys.'}
   - value: 0.150
     errors:
     - {symerror: 0.004, label: 'err.'}
-    - {asymerror: {plus: 0.16, minus: -0.14}, label: 'sys.'}
+    - {asymerror: {plus: 0.014, minus: -0.007}, label: 'sys.'}
   - value: 0.142
     errors:
     - {symerror: 0.006, label: 'err.'}
-    - {asymerror: {plus: 0.16, minus: -0.14}, label: 'sys.'}
+    - {asymerror: {plus: 0.020, minus: -0.007}, label: 'sys.'}
   - value: 0.122
     errors:
     - {symerror: 0.008, label: 'err.'}
-    - {asymerror: {plus: 0.15, minus: -0.11}, label: 'sys.'}
+    - {asymerror: {plus: 0.030, minus: -0.015}, label: 'sys.'}
