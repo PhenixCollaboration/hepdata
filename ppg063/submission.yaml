@@ -1,0 +1,61 @@
+#PHENIX paper PPG063
+#
+#Inclusive cross section and double helicity asymmetry for $\pi^0$ production in p+p collisions at $\sqrt{s}$ = 200 GeV: Implications for the polarized gluon distribution in the proton
+#
+#Phys.Rev.Lett D 76 (2007) 051106
+#InspireHEP ID: 749394
+#
+#Prepared by Nikolas Nelson
+#Please contact Christine Nattrass if you have any questions about this submission
+#PPG liaison:
+#Reviewer:
+#
+comment: | # Information that applies to all data tables.
+  The PHENIX experiment presents results from the RHIC 2005 run with polarized proton collisions at $\sqrt{s}$ = 200 GeV, for inclusive $\pi^0$ production at mid-rapidity. Unpolarized cross section results are given for transverse momenta $p_T$ = 0.5 to 20 GeV/$c$, extending the range of published data to both lower and higher $p_T$. The cross section is described well for $p_T$ < 1 GeV/$c$ by an exponential in $p_T$, and, for $p_T$ > 2 GeV/$c$, by perturbative QCD. Double helicity asymmetries $A_{LL}$ are presented based on a factor of five improvement in uncertainties as compared to previously published results, due to both an improved beam polarization of 50%, and to higher integrated luminosity. These measurements are sensitive to the gluon polarization in the proton, and exclude maximal values for the gluon polarization.
+additional_resources:
+- {location: "https://phenix-intra.sdcc.bnl.gov/phenix/WWW/p/info/ppg/063/", description: "web page with data points"}
+- {location: "http://arxiv.org/abs/0704.3599", description: arXiv}
+- {location: "https://inspirehep.net/literature/749394", description: InspireHEP}
+---
+# This is Figure 1.
+name: "Figure 1"
+location: Data From Fig. 1 of PRL D 76 (2007) 051106
+description: 'The neutral pion production cross section at $\sqrt{s}$ = 200 GeV as a function of $p_T$ and the results of NLO pQCD calculations for theory scales $\mu$ = $p_T$/2, $p_T$, and $2p_T$.'
+keywords: # used for searching, possibly mutliple values for each keywords
+- {name: reactions, values: [$p$ $p$ --> CHARGED X]}
+- {name: cmenergies, values: [200.0]}
+- {name: phrases, values: [ppg063, mid-rapidity, transverse momenta]}
+data_file: ppg063fig1.yaml
+additional_resources:
+- {description: Original EPS Image file, location: fig1-2.eps}
+- {description: PNG Image file, location: fig1-2.png}
+- {description: Thumbnail Image file, location: thumb_fig1-2.png}
+---
+# This is Figure 2.
+name: "Figure 2a"
+location: Data From Fig. 2 of PRL D 76 (2007) 051106
+description: 'The double helicity asymmetry for neutral pion production at $\sqrt{s}$ = 200 GeV as a function of $p_T$ (GeV/$c$).'
+keywords: # used for searching, possibly mutliple values for each keywords
+- {name: reactions, values: [$p$ $p$ --> CHARGED X]}
+- {name: cmenergies, values: [200.0]}
+- {name: phrases, values: [ppg063, mid-rapidity, transverse momenta]}
+data_file: ppg063fig2a.yaml
+additional_resources:
+- {description: Original EPS Image file, location: fig2-2.eps}
+- {description: PNG Image file, location: fig2-2.png}
+- {description: Thumbnail Image file, location: thumb_fig2-2.png}
+---
+# This is Figure 2.
+name: "Figure 2b"
+location: Data From Fig. 2 of PRL D 76 (2007) 051106
+description: 'The double helicity asymmetry for neutral pion production at $\sqrt{s}$ = 200 GeV as a function of $p_T$ (GeV/$c$).'
+keywords: # used for searching, possibly mutliple values for each keywords
+- {name: reactions, values: [$p$ $p$ --> CHARGED X]}
+- {name: cmenergies, values: [200.0]}
+- {name: phrases, values: [ppg063, mid-rapidity, transverse momenta]}
+data_file: ppg063fig2b.yaml
+additional_resources:
+- {description: Original EPS Image file, location: fig2-2.eps}
+- {description: PNG Image file, location: fig2-2.png}
+- {description: Thumbnail Image file, location: thumb_fig2-2.png}
+---
