@@ -1,0 +1,56 @@
+independent_variables:
+- header: {name: '$KE_T$/$n_q$ (GeV)'}
+  values:
+  - {low: 0.06, high: 0.08}
+  - {low: 0.08, high: 0.10}
+  - {low: 0.10, high: 0.12}
+  - {low: 0.12, high: 0.15}
+  - {low: 0.15, high: 0.20}
+  - {low: 0.20, high: 0.25}
+  - {low: 0.25, high: 0.30}
+  - {low: 0.30, high: 0.35}
+  - {low: 0.35, high: 0.40}
+  - {low: 0.40, high: 0.60}
+  - {low: 0.60, high: 0.70}
+  - {low: 0.70, high: 0.90}
+dependent_variables:
+- header: {name: '$v_2$/$n_q$'}
+  qualifiers:
+  - {name: 'Species', value: '$p$+$\bar{p}$'}
+  values:
+  - value: 7.936E-03
+    errors:
+    - {symerror: 4E-04, label: 'stat.'}
+  - value: 1.088E-02
+    errors:
+    - {symerror: 3E-04, label: 'stat.'}
+  - value: 1.405E-02
+    errors:
+    - {symerror: 3E-04, label: 'stat.'}
+  - value: 1.743E-02
+    errors:
+    - {symerror: 3E-04, label: 'stat.'}
+  - value: 2.284E-02
+    errors:
+    - {symerror: 2E-04, label: 'stat.'}
+  - value: 3.038E-02
+    errors:
+    - {symerror: 2E-04, label: 'stat.'}
+  - value: 3.629E-02
+    errors:
+    - {symerror: 3E-04, label: 'stat.'}
+  - value: 4.324E-02
+    errors:
+    - {symerror: 3E-04, label: 'stat.'}
+  - value: 4.859E-02
+    errors:
+    - {symerror: 4E-04, label: 'stat.'}
+  - value: 5.468E-02
+    errors:
+    - {symerror: 4E-04, label: 'stat.'}
+  - value: 6.296E-02
+    errors:
+    - {symerror: 7E-04, label: 'stat.'}
+  - value: 6.756E-02
+    errors:
+    - {symerror: 1E-03, label: 'stat.'}
