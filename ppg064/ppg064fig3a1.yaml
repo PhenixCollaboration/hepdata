@@ -1,0 +1,33 @@
+independent_variables:
+- header: {name: '$p_T$ (GeV/$c$)'}
+  values:
+  - {low: 2.50, high: 3.50}
+  - {low: 3.50, high: 4.50}
+  - {low: 4.50, high: 5.50}
+  - {low: 5.50, high: 6.50}
+  - {low: 6.50, high: 7.50}
+dependent_variables:
+- header: {name: '$R_{dAu}$'}
+  qualifiers:
+  - {name: 'Decay Channel', value: '$3\gamma$'}
+  values:
+  - value: 1.01E+00
+    errors:
+    - {symerror: 4E-01, label: 'stat.'}
+    - {symerror: 2E-01, label: 'sys.'}
+  - value: 1.19E+00
+    errors:
+    - {symerror: 4E-01, label: 'stat.'}
+    - {symerror: 2E-01, label: 'sys.'}
+  - value: 1.16E+00
+    errors:
+    - {symerror: 3E-01, label: 'stat.'}
+    - {symerror: 2E-01, label: 'sys.'}
+  - value: 1.49E+00
+    errors:
+    - {symerror: 7E-01, label: 'stat.'}
+    - {symerror: 3E-01, label: 'sys.'}
+  - value: 1.71E+00
+    errors:
+    - {symerror: 7E-01, label: 'stat.'}
+    - {symerror: 3E-01, label: 'sys.'}

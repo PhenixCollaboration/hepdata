@@ -1,0 +1,38 @@
+independent_variables:
+- header: {name: '$p_T$ (GeV/$c$)'}
+  values:
+  - {low: 3.00, high: 4.00}
+  - {low: 4.00, high: 5.00}
+  - {low: 5.00, high: 6.00}
+  - {low: 6.00, high: 7.00}
+  - {low: 7.00, high: 8.00}
+  - {low: 8.00, high: 10.00}
+dependent_variables:
+- header: {name: 'm (GeV/$c^2$)'}
+  qualifiers:
+  - {name: 'Decay Channel', value: '$3\pi$'}
+  values:
+  - value: 782
+    errors:
+    - {symerror: 5, label: 'stat.'}
+    - {symerror: 16, label: 'sys.'}
+  - value: 785
+    errors:
+    - {symerror: 6, label: 'stat.'}
+    - {symerror: 16, label: 'sys.'}
+  - value: 781
+    errors:
+    - {symerror: 3, label: 'stat.'}
+    - {symerror: 16, label: 'sys.'}
+  - value: 786
+    errors:
+    - {symerror: 5, label: 'stat.'}
+    - {symerror: 16, label: 'sys.'}
+  - value: 783
+    errors:
+    - {symerror: 3, label: 'stat.'}
+    - {symerror: 16, label: 'sys.'}
+  - value: 786
+    errors:
+    - {symerror: 6, label: 'stat.'}
+    - {symerror: 16, label: 'sys.'}

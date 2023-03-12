@@ -1,0 +1,33 @@
+independent_variables:
+- header: {name: '$p_T$ (GeV/$c$)'}
+  values:
+  - {low: 2.00, high: 3.00}
+  - {low: 3.00, high: 4.00}
+  - {low: 4.00, high: 5.00}
+  - {low: 5.00, high: 6.00}
+  - {low: 6.00, high: 7.00}
+dependent_variables:
+- header: {name: 'Ratio $\omega/\pi^0$'}
+  qualifiers:
+  - {name: 'Decay Channel', value: '$3\gamma$'}
+  values:
+  - value: 8.70E-01
+    errors:
+    - {symerror: 2E-01, label: 'stat.'}
+    - {symerror: 4E-01, label: 'sys.'}
+  - value: 8.30E-01
+    errors:
+    - {symerror: 1E-01, label: 'stat.'}
+    - {symerror: 3E-01, label: 'sys.'}
+  - value: 6.40E-01
+    errors:
+    - {symerror: 1E-01, label: 'stat.'}
+    - {symerror: 2E-01, label: 'sys.'}
+  - value: 7.60E-01
+    errors:
+    - {symerror: 2E-01, label: 'stat.'}
+    - {symerror: 2E-01, label: 'sys.'}
+  - value: 1.05E+00
+    errors:
+    - {symerror: 3E-01, label: 'stat.'}
+    - {symerror: 3E-01, label: 'sys.'}

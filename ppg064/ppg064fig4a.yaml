@@ -1,0 +1,68 @@
+independent_variables:
+- header: {name: '$p_T$ (GeV/$c$)'}
+  values:
+  - {low: 2.50, high: 3.00}
+  - {low: 3.00, high: 3.50}
+  - {low: 3.50, high: 4.00}
+  - {low: 4.00, high: 4.50}
+  - {low: 4.50, high: 5.00}
+  - {low: 5.00, high: 5.50}
+  - {low: 5.50, high: 6.00}
+  - {low: 6.00, high: 6.50}
+  - {low: 6.50, high: 7.00}
+  - {low: 7.00, high: 7.50}
+  - {low: 7.50, high: 8.50}
+  - {low: 8.50, high: 10.00}
+dependent_variables:
+- header: {name: 'm (GeV/$c^2$)'}
+  qualifiers:
+  - {name: 'Decay Channel', value: '$3\pi$'}
+  values:
+  - value: 773
+    errors:
+    - {symerror: 5, label: 'stat.'}
+    - {symerror: 15, label: 'sys.'}
+  - value: 782
+    errors:
+    - {symerror: 3, label: 'stat.'}
+    - {symerror: 16, label: 'sys.'}
+  - value: 785
+    errors:
+    - {symerror: 4, label: 'stat.'}
+    - {symerror: 16, label: 'sys.'}
+  - value: 784
+    errors:
+    - {symerror: 3, label: 'stat.'}
+    - {symerror: 16, label: 'sys.'}
+  - value: 785
+    errors:
+    - {symerror: 3, label: 'stat.'}
+    - {symerror: 16, label: 'sys.'}
+  - value: 784
+    errors:
+    - {symerror: 3, label: 'stat.'}
+    - {symerror: 16, label: 'sys.'}
+  - value: 781
+    errors:
+    - {symerror: 11, label: 'stat.'}
+    - {symerror: 16, label: 'sys.'}
+  - value: 784
+    errors:
+    - {symerror: 6, label: 'stat.'}
+    - {symerror: 16, label: 'sys.'}
+  - value: 789
+    errors:
+    - {symerror: 6, label: 'stat.'}
+    - {symerror: 16, label: 'sys.'}
+  - value: 781
+    errors:
+    - {symerror: 5, label: 'stat.'}
+    - {symerror: 16, label: 'sys.'}
+  - value: 789
+    errors:
+    - {symerror: 7, label: 'stat.'}
+    - {symerror: 16, label: 'sys.'}
+  - value: 782
+    errors:
+    - {symerror: 6, label: 'stat.'}
+    - {symerror: 16, label: 'sys.'}
