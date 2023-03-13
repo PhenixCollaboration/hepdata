@@ -18,11 +18,15 @@ additional_resources:
   description: "webpage with data points"
 - location: "https://inspirehep.net/literature/664944"
   description: "InspireHEP"
-- location: "thumb_fig1.png"
+- location: "thumb_Fig1_ref.png"
   description: "Image File"
-- location: "thumb_fig2.png"
+- location: "thumb_Fig2_ref.png"
   description: "Image File"
-- location: "thumb_fig3.png"
+- location: "thumb_Fig3_ref.png"
+  description: "Image File"
+- location: "thumb_Fig4_ref.png"
+  description: "Image File"
+- location: "thumb_flow_saturation_vs_roots_prl.png"
   description: "Image File"
   
 comment: | # Information that applies to all data tables.
@@ -30,13 +34,26 @@ comment: | # Information that applies to all data tables.
 ---
 # This is Figure 1.
 name: "Figure 1"
-location: Data from Fig. 1 of PRL 91, 182301 (2003)
-description: Assorted-$p_T$ correlation functions (0.65 < $p_{T,ref}$ < 2.5 GeV/$c$) for charged hadrons of 0.5 < $p_T$ < 0.7 GeV/$c$ and 1.0 < $p_T$ < 1.5 obtained in Au+Au collisions at $\sqrt{S_{NN}}$ = 62.4 GeV. The left and right panels show correlation functions for centrality cuts of 20-40% and 40-60% respectively. The lines represent fits to the correlation functions.
+location: Data from Fig. 1 of PRL 94, 232302 (2003)
+description: Assorted-$p_T$ correlation functions (0.65 < $p_{T,ref}$ < 2.5 GeV/$c$) for charged hadrons of 0.5 < $p_T$ < 0.7 GeV/$c$ and 1.0 < $p_T$ < 1.5 obtained in Au+Au collisions at $\sqrt{S_{NN}}$ = 62.4 GeV.
 keywords: # used for searching, possibly multiple values for each keyword
 - {name: reactions, values: [AU + AU --> CHARGED X0]}
 - {name: cmenergies, values: [200.0]} # centre-of-mass energy in GeV
-- {name: phrases, values: [ppg022]}
-data_file: ppg022f1a.yaml
+- {name: phrases, values: [ppg047]}
+data_file: ppg047f1.yaml
 additional_resources:
-- location: "thumb_fig1.png"
+- location: "thumb_Fig1_ref.png"
+  description: "Image File"
+---
+# This is Figure 4.
+name: "Figure 4"
+location: Data from Fig. 4 of PRL PRL 94, 232302 (2003)
+description: Differential $v_2$ vs. $\sqrt{S_{NN}}$ for charged hadrons in nucleus-nucleus collisions. Results are shown for the centrality cut of 13 - 26% and $p_T$ selections of 1.75 GeV/$c$ and 0.65 GeV/$c$.
+keywords: # used for searching, possibly multiple values for each keyword
+- {name: reactions, values: [AU + AU --> CHARGED X0]}
+- {name: cmenergies, values: [200.0]} # centre-of-mass energy in GeV
+- {name: phrases, values: [ppg047]}
+data_file: ppg047f4.yaml
+additional_resources:
+- location: "thumb_Fig4_ref.png"
   description: "Image File"
