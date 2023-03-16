@@ -1,0 +1,53 @@
+independent_variables:
+- header: {name: '$p^{\gamma}_T$ (GeV$c$)'}
+  values:
+  - {low: 3.00, high: 4.00}
+  - {low: 4.00, high: 5.00}
+  - {low: 5.00, high: 6.00}
+  - {low: 6.00, high: 7.00}
+  - {low: 7.00, high: 8.00}
+  - {low: 8.00, high: 9.00}
+  - {low: 9.00, high: 10.00}
+  - {low: 10.00, high: 12.00}
+  - {low: 12.00, high: 15.00}
+dependent_variables:
+- header: {name: 'Isolated/All Ratio'}
+  qualifiers:
+  - {name: 'Species', value: 'Direct Photons'}
+  values:
+  - value: 5.94E-01
+    errors:
+    - {symerror: 1.4E-02, label: 'stat.'}
+    - {asymerror: {plus: 2.3E-01, minus: 1.8E-01}, label: 'sys.'}
+  - value: 6.64E-01
+    errors:
+    - {symerror: 2.8E-02, label: 'stat.'}
+    - {asymerror: {plus: 1.8E-01, minus: 1.5E-01}, label: 'sys.'}
+  - value: 6.26E-01
+    errors:
+    - {symerror: 4.3E-02, label: 'stat.'}
+    - {asymerror: {plus: 1.2E-01, minus: 9.4E-02}, label: 'sys.'}
+  - value: 6.58E-01
+    errors:
+    - {symerror: 6.1E-02, label: 'stat.'}
+    - {asymerror: {plus: 8.6E-02, minus: 7.2E-02}, label: 'sys.'}
+  - value: 9.00E-01
+    errors:
+    - {symerror: 1.3E-01, label: 'stat.'}
+    - {asymerror: {plus: 1.4E-01, minus: 9.9E-02}, label: 'sys.'}
+  - value: 7.15E-01
+    errors:
+    - {symerror: 1.3E-01, label: 'stat.'}
+    - {asymerror: {plus: 6.4E-02, minus: 5.0E-02}, label: 'sys.'}
+  - value: 8.72E-01
+    errors:
+    - {symerror: 1.2E-01, label: 'stat.'}
+    - {asymerror: {plus: 5.2E-02, minus: 4.4E-02}, label: 'sys.'}
+  - value: 9.07E-01
+    errors:
+    - {symerror: 1.9E-01, label: 'stat.'}
+    - {asymerror: {plus: 3.6E-02, minus: 2.7E-02}, label: 'sys.'}
+  - value: 8.02E-01
+    errors:
+    - {symerror: 2.9E-01, label: 'stat.'}
+    - {asymerror: {plus: 4.0E-02, minus: 3.2E-02}, label: 'sys.'}
