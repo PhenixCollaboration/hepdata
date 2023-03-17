@@ -68,22 +68,42 @@ keywords: # used for searching, possibly mutliple values for each keywords
 data_file: ppg054fig8e.yaml
 ---
 # This is Figure 12.
-name: "Figure 12"
+name: "Figure 12a"
 location: Data From Fig. 12 of PRC 76 (2007) 034904
 description: '$R_{AA}$ vs. $\Delta\phi$ for $\pi^0$ yields integrated over 3 < $p_T$ < 5 GeV/$c$.'
 keywords: # used for searching, possibly mutliple values for each keywords
 - {name: reactions, values: [Au Au --> CHARGED X]}
 - {name: cmenergies, values: [200.0]}
 - {name: phrases, values: [ppg054, mid-rapidity, azimuthal anisotropy, transverse momentum]}
-data_file: ppg054fig12.yaml
+data_file: ppg054fig12a.yaml
+---
+# This is Figure 12.
+name: "Figure 12b"
+location: Data From Fig. 12 of PRC 76 (2007) 034904
+description: '$<R_{AA}>$ for $\pi^0$ yields integrated over 3 < $p_T$ < 5 GeV/$c$.'
+keywords: # used for searching, possibly mutliple values for each keywords
+- {name: reactions, values: [Au Au --> CHARGED X]}
+- {name: cmenergies, values: [200.0]}
+- {name: phrases, values: [ppg054, mid-rapidity, azimuthal anisotropy, transverse momentum]}
+data_file: ppg054fig12b.yaml
 ---
 # This is Figure 13.
-name: "Figure 13"
+name: "Figure 13a"
 location: Data From Fig. 13 of PRC 76 (2007) 034904
 description: '$R_{AA}$ vs. $\Delta\phi$ for $\pi^0$ yields integrated over 5 < $p_T$ < 8 GeV/$c$.'
 keywords: # used for searching, possibly mutliple values for each keywords
 - {name: reactions, values: [Au Au --> CHARGED X]}
 - {name: cmenergies, values: [200.0]}
 - {name: phrases, values: [ppg054, mid-rapidity, azimuthal anisotropy, transverse momentum]}
-data_file: ppg054fig13.yaml
+data_file: ppg054fig13a.yaml
+---
+# This is Figure 13.
+name: "Figure 13b"
+location: Data From Fig. 13 of PRC 76 (2007) 034904
+description: '$<R_{AA}>$ for $\pi^0$ yields integrated over 5 < $p_T$ < 8 GeV/$c$.'
+keywords: # used for searching, possibly mutliple values for each keywords
+- {name: reactions, values: [Au Au --> CHARGED X]}
+- {name: cmenergies, values: [200.0]}
+- {name: phrases, values: [ppg054, mid-rapidity, azimuthal anisotropy, transverse momentum]}
+data_file: ppg054fig13b.yaml
 ---
