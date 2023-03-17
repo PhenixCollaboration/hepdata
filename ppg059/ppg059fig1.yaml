@@ -1,0 +1,28 @@
+independent_variables:
+- header: {name: '$p_T$ (GeV/$c$)'}
+  values:
+  - {low: 1, high: 2}
+  - {low: 2, high: 3}
+  - {low: 3, high: 4}
+  - {low: 4, high: 5}
+dependent_variables:
+- header: {name: '$A_{LL}$'}
+  qualifiers:
+  - {name: 'Run', value: '3+4'}
+  values:
+  - value: -0.60e-2
+    errors:
+    - {symerror: -0.6e-2, label: 'stat.'}
+    - {symerror: 0.1e-2, label: 'sys.'}
+  - value: -0.10e-2
+    errors:
+    - {symerror: -0.6e-2, label: 'stat.'}
+    - {symerror: 0.1e-2, label: 'sys.'}
+  - value: -0.41e-2
+    errors:
+    - {symerror: -0.1e-1, label: 'stat.'}
+    - {symerror: 0.1e-2, label: 'sys.'}
+  - value: 0.32e-2
+    errors:
+    - {symerror: -0.3e-1, label: 'stat.'}
+    - {symerror: 0.7e-2, label: 'sys.'}

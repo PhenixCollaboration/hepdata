@@ -1,0 +1,38 @@
+independent_variables:
+- header: {name: '$p_T$ (GeV/$c$)'}
+  values:
+  - {low: 2.00, high: 2.50}
+  - {low: 2.50, high: 3.00}
+  - {low: 3.00, high: 3.50}
+  - {low: 3.50, high: 4.00}
+  - {low: 4.00, high: 5.00}
+  - {low: 5.00, high: 6.00}
+dependent_variables:
+- header: {name: '1/[2${\pi}p_T$] $d^2N/dp_Tdy$ (GeV/$c$)'}
+  qualifiers:
+  - {name: 'Centrality', value: '60-92%'}
+  values:
+  - value: 1.060e-03
+    errors:
+    - {symerror: 2e-04, label: 'stat.'}
+    - {symerror: 2e-04, label: 'sys.'}
+  - value: 3.340e-04
+    errors:
+    - {symerror: 7e-05, label: 'stat.'}
+    - {symerror: 8e-05, label: 'sys.'}
+  - value: 1.107e-04
+    errors:
+    - {symerror: 2e-05, label: 'stat.'}
+    - {symerror: 2e-05, label: 'sys.'}
+  - value: 4.037e-05
+    errors:
+    - {symerror: 7e-06, label: 'stat.'}
+    - {symerror: 6e-06, label: 'sys.'}
+  - value: 1.160e-05
+    errors:
+    - {symerror: 3e-06, label: 'stat.'}
+    - {symerror: 2e-06, label: 'sys.'}
+  - value: 1.665e-06
+    errors:
+    - {symerror: 1e-06, label: 'stat.'}
+    - {symerror: 3e-07, label: 'sys.'}

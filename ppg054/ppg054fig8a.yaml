@@ -1,0 +1,174 @@
+independent_variables:
+- header: {name: '$p_T$ (GeV/$c$)'}
+  values:
+  - {low: 1.00, high: 1.50}
+  - {low: 1.50, high: 2.00}
+  - {low: 2.00, high: 2.50}
+  - {low: 2.50, high: 3.00}
+  - {low: 3.00, high: 3.50}
+  - {low: 3.50, high: 4.00}
+  - {low: 4.00, high: 4.50}
+  - {low: 4.50, high: 5.00}
+  - {low: 5.00, high: 5.50}
+  - {low: 5.50, high: 6.00}
+  - {low: 6.00, high: 6.50}
+  - {low: 6.50, high: 7.00}
+  - {low: 7.00, high: 7.50}
+  - {low: 7.50, high: 8.00}
+  - {low: 8.00, high: 9.00}
+  - {low: 9.00, high: 10.00}
+  - {low: 10.00, high: 12.00}
+  - {low: 12.00, high: 14.00}
+dependent_variables:
+- header: {name: '$1/{2{\pi}p_TN_{evt}}$${d^2N}/{dp_Tdy}$$(c^2/GeV^2)$'}
+  qualifiers:
+  - {name: 'Centrality', value: '0-92%'}
+  values:
+  - value: 1.078e+00
+    errors:
+    - {symerror: 3e-3, label: 'stat.'}
+    - {symerror: 0.12, label: 'sys.'}
+  - value: 1.928e-01
+    errors:
+    - {symerror: 7e-4, label: 'stat.'}
+    - {symerror: 0.022, label: 'sys.'}
+  - value: 4.038e-02
+    errors:
+    - {symerror: 2e-4, label: 'stat.'}
+    - {symerror: 0.005, label: 'sys.'}
+  - value: 9.578e-03
+    errors:
+    - {symerror: 1e-4, label: 'stat.'}
+    - {symerror: 0.0012, label: 'sys.'}
+  - value: 2.564e-03
+    errors:
+    - {symerror: 2e-5, label: 'stat.'}
+    - {symerror: 3e-4, label: 'sys.'}
+  - value: 8.115e-04
+    errors:
+    - {symerror: 1e-5, label: 'stat.'}
+    - {symerror: 1e-4, label: 'sys.'}
+  - value: 2.906e-04
+    errors:
+    - {symerror: 0e-5, label: 'stat.'}
+    - {symerror: 4e-5, label: 'sys.'}
+  - value: 1.121e-04
+    errors:
+    - {symerror: 2e-6, label: 'stat.'}
+    - {symerror: 2e-5, label: 'sys.'}
+  - value: 4.924e-05
+    errors:
+    - {symerror: 1e-6, label: 'stat.'}
+    - {symerror: 6e-6, label: 'sys.'}
+  - value: 2.240e-05
+    errors:
+    - {symerror: 5e-7, label: 'stat.'}
+    - {symerror: 3e-6, label: 'sys.'}
+  - value: 1.190e-05
+    errors:
+    - {symerror: 3e-7, label: 'stat.'}
+    - {symerror: 2e-6, label: 'sys.'}
+  - value: 5.970e-06
+    errors:
+    - {symerror: 2e-7, label: 'stat.'}
+    - {symerror: 8e-7, label: 'sys.'}
+  - value: 3.246e-06
+    errors:
+    - {symerror: 1e-7, label: 'stat.'}
+    - {symerror: 5e-7, label: 'sys.'}
+  - value: 1.715e-06
+    errors:
+    - {symerror: 9e-8, label: 'stat.'}
+    - {symerror: 3e-7, label: 'sys.'}
+  - value: 8.583e-07
+    errors:
+    - {symerror: 4e-8, label: 'stat.'}
+    - {symerror: 1e-7, label: 'sys.'}
+  - value: 3.078e-07
+    errors:
+    - {symerror: 2e-8, label: 'stat.'}
+    - {symerror: 5e-8, label: 'sys.'}
+  - value: 9.178e-08
+    errors:
+    - {symerror: 8e-9, label: 'stat.'}
+    - {symerror: 1e-8, label: 'sys.'}
+  - value: 2.380e-08
+    errors:
+    - {symerror: 4e-9, label: 'stat.'}
+    - {symerror: 4e-9, label: 'sys.'}
+- header: {name: '$1/{2{\pi}p_TN_{evt}}$${d^2N}/{dp_Tdy}$$(c^2/GeV^2)$'}
+  qualifiers:
+  - {name: 'Centrality', value: '0-10%'}
+  values:
+  - value: 3.314e+00
+    errors:
+    - {symerror: 3e-2, label: 'stat.'}
+    - {symerror: 0.4, label: 'sys.'}
+  - value: 5.981e-01
+    errors:
+    - {symerror: 5e-3, label: 'stat.'}
+    - {symerror: 0.07, label: 'sys.'}
+  - value: 1.208e-01
+    errors:
+    - {symerror: 1e-3, label: 'stat.'}
+    - {symerror: 0.014, label: 'sys.'}
+  - value: 2.718e-02
+    errors:
+    - {symerror: 4e-4, label: 'stat.'}
+    - {symerror: 0.004, label: 'sys.'}
+  - value: 6.970e-03
+    errors:
+    - {symerror: 1e-4, label: 'stat.'}
+    - {symerror: 0.001, label: 'sys.'}
+  - value: 2.158e-03
+    errors:
+    - {symerror: 5e-5, label: 'stat.'}
+    - {symerror: 3e-4, label: 'sys.'}
+  - value: 7.185e-04
+    errors:
+    - {symerror: 2e-5, label: 'stat.'}
+    - {symerror: 9e-5, label: 'sys.'}
+  - value: 2.715e-04
+    errors:
+    - {symerror: 1e-5, label: 'stat.'}
+    - {symerror: 4e-5, label: 'sys.'}
+  - value: 1.288e-04
+    errors:
+    - {symerror: 6e-6, label: 'stat.'}
+    - {symerror: 2e-5, label: 'sys.'}
+  - value: 5.417e-05
+    errors:
+    - {symerror: 3e-6, label: 'stat.'}
+    - {symerror: 8e-6, label: 'sys.'}
+  - value: 2.940e-05
+    errors:
+    - {symerror: 2e-6, label: 'stat.'}
+    - {symerror: 4e-6, label: 'sys.'}
+  - value: 1.280e-05
+    errors:
+    - {symerror: 1e-6, label: 'stat.'}
+    - {symerror: 2e-6, label: 'sys.'}
+  - value: 7.641e-06
+    errors:
+    - {symerror: 6e-7, label: 'stat.'}
+    - {symerror: 1e-6, label: 'sys.'}
+  - value: 4.630e-06
+    errors:
+    - {symerror: 5e-7, label: 'stat.'}
+    - {symerror: 8e-7, label: 'sys.'}
+  - value: 1.883e-06
+    errors:
+    - {symerror: 2e-7, label: 'stat.'}
+    - {symerror: 3e-7, label: 'sys.'}
+  - value: 1.057e-06
+    errors:
+    - {symerror: 1e-7, label: 'stat.'}
+    - {symerror: 2e-7, label: 'sys.'}
+  - value: 2.777e-07
+    errors:
+    - {symerror: 4e-8, label: 'stat.'}
+    - {symerror: 6e-8, label: 'sys.'}
+  - value: 5.941e-08
+    errors:
+    - {symerror: 1e-8, label: 'stat.'}
+    - {symerror: 1e-8, label: 'sys.'}

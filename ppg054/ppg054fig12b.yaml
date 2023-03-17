@@ -1,0 +1,36 @@
+independent_variables:
+- header: {name: 'Centrality (%)'}
+  values:
+  - {low: 10, high: 20}
+  - {low: 20, high: 30}
+  - {low: 30, high: 40}
+  - {low: 40, high: 50}
+  - {low: 50, high: 60}
+  - {low: 60, high: 70}
+dependent_variables:
+- header: {name: '$<R_{AA}>$'}
+  values:
+  - value: 0.389
+    errors:
+    - {symerror: 0.021, label: 'stat.'}
+    - {symerror: 0.053, label: 'sys.'}
+  - value: 0.496
+    errors:
+    - {symerror: 0.036, label: 'stat.'}
+    - {symerror: 0.071, label: 'sys.'}
+  - value: 0.558
+    errors:
+    - {symerror: 0.039, label: 'stat.'}
+    - {symerror: 0.080, label: 'sys.'}
+  - value: 0.693
+    errors:
+    - {symerror: 0.048, label: 'stat.'}
+    - {symerror: 0.106, label: 'sys.'}
+  - value: 0.792
+    errors:
+    - {symerror: 0.054, label: 'stat.'}
+    - {symerror: 0.156, label: 'sys.'}
+  - value: 0.887
+    errors:
+    - {symerror: 0.060, label: 'stat.'}
+    - {symerror: 0.256, label: 'sys.'}

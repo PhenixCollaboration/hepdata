@@ -9,33 +9,33 @@ independent_variables:
   - {low: 10, high: 20}
   - {low: 0, high: 10}
 dependent_variables:
-- header: {name: '$v_2$'}
+- header: {name: 'Correction Factor $v_2$'}
   values:
   - value: 0.0614
     errors:
     - {symerror: 0.0020, label: 'err.'}
-    - {asymerror: {plus: 0.07, minus: -0.05}, label: 'sys.'}
+    - {symerror: 0.012, label: 'sys.'}
   - value: 0.0798
     errors:
     - {symerror: 9e-4, label: 'err.'}
-    - {asymerror: {plus: 0.08, minus: -0.08}, label: 'sys.'}
+    - {symerror: 0.0035, label: 'sys.'}
   - value: 0.0846
     errors:
     - {symerror: 5e-4, label: 'err.'}
-    - {asymerror: {plus: 0.09, minus: -0.08}, label: 'sys.'}
+    - {symerror: 0.0032, label: 'sys.'}
   - value: 0.08130
     errors:
     - {symerror: 3.3e-4, label: 'err.'}
-    - {asymerror: {plus: 0.08, minus: -0.08}, label: 'sys.'}
+    - {symerror: 0.0029, label: 'sys.'}
   - value: 0.07060
     errors:
     - {symerror: 2.4e-4, label: 'err.'}
-    - {asymerror: {plus: 0.07, minus: -0.07}, label: 'sys.'}
+    - {symerror: 0.0027, label: 'sys.'}
   - value: 0.05140
     errors:
     - {symerror: 1.9e-4, label: 'err.'}
-    - {asymerror: {plus: 0.05, minus: -0.05}, label: 'sys.'}
+    - {symerror: 0.0026, label: 'sys.'}
   - value: 0.02670
     errors:
     - {symerror: 2.2e-4, label: 'err.'}
-    - {asymerror: {plus: 0.032, minus: -0.021}, label: 'sys.'}
+    - {symerror: 0.006, label: 'sys.'}

@@ -1,0 +1,162 @@
+independent_variables:
+- header: {name: '$p_T$ (GeV/$c$)'}
+  values:
+  - {low: 1.00, high: 1.50}
+  - {low: 1.50, high: 2.00}
+  - {low: 2.00, high: 2.50}
+  - {low: 2.50, high: 3.00}
+  - {low: 3.00, high: 3.50}
+  - {low: 3.50, high: 4.00}
+  - {low: 4.00, high: 4.50}
+  - {low: 4.50, high: 5.00}
+  - {low: 5.00, high: 5.50}
+  - {low: 5.50, high: 6.00}
+  - {low: 6.00, high: 6.50}
+  - {low: 6.50, high: 7.00}
+  - {low: 7.00, high: 7.50}
+  - {low: 7.50, high: 8.00}
+  - {low: 8.00, high: 9.00}
+  - {low: 9.00, high: 10.00}
+  - {low: 10.00, high: 12.00}
+  - {low: 12.00, high: 14.00}
+dependent_variables:
+- header: {name: '$R_{AA} \gamma$'}
+  qualifiers:
+  - {name: 'Centrality', value: '0-10%'}
+  values:
+  - value: 8.261
+  - value: 4.177
+  - value: 0.979
+  - value: 0.587
+  - value: 1.108
+  - value: 1.080
+  - value: 1.714
+    errors:
+    - {symerror: 0.634, label: 'sys.'}
+  - value: 1.656
+    errors:
+    - {symerror: 0.544, label: 'sys.'}
+  - value: 1.290
+    errors:
+    - {symerror: 0.459, label: 'sys.'}
+  - value: 1.418
+    errors:
+    - {symerror: 0.414, label: 'sys.'}
+  - value: 1.006
+    errors:
+    - {symerror: 0.340, label: 'sys.'}
+  - value: 1.199
+    errors:
+    - {symerror: 0.361, label: 'sys.'}
+  - value: 1.331
+    errors:
+    - {symerror: 0.397, label: 'sys.'}
+  - value: 1.177
+    errors:
+    - {symerror: 0.380, label: 'sys.'}
+  - value: 0.948
+    errors:
+    - {symerror: 0.298, label: 'sys.'}
+  - value: 0.954
+    errors:
+    - {symerror: 0.356, label: 'sys.'}
+  - value: 0.823
+    errors:
+    - {symerror: 0.321, label: 'sys.'}
+  - value: 0.957
+    errors:
+    - {symerror: 0.465, label: 'sys.'}
+- header: {name: '$R_{AA} \pi^0$'}
+  qualifiers:
+  - {name: 'Centrality', value: '0-10%'}
+  values:
+  - value: 0.452
+    errors:
+    - {symerror: 0.055, label: 'sys.-uncorr'}
+    - {symerror: 0.044, label: 'sys.-corr'}
+    - {symerror: 0.031, label: 'sys.-norm'}
+  - value: 0.494
+    errors:
+    - {symerror: 0.056, label: 'sys.-uncorr'}
+    - {symerror: 0.048, label: 'sys.-corr'}
+    - {symerror: 0.034, label: 'sys.-norm'}
+  - value: 0.465
+    errors:
+    - {symerror: 0.056, label: 'sys.-uncorr'}
+    - {symerror: 0.045, label: 'sys.-corr'}
+    - {symerror: 0.032, label: 'sys.-norm'}
+  - value: 0.402
+    errors:
+    - {symerror: 0.052, label: 'sys.-uncorr'}
+    - {symerror: 0.039, label: 'sys.-corr'}
+    - {symerror: 0.028, label: 'sys.-norm'}
+  - value: 0.340
+    errors:
+    - {symerror: 0.048, label: 'sys.-uncorr'}
+    - {symerror: 0.033, label: 'sys.-corr'}
+    - {symerror: 0.023, label: 'sys.-norm'}
+  - value: 0.308
+    errors:
+    - {symerror: 0.039, label: 'sys.-uncorr'}
+    - {symerror: 0.030, label: 'sys.-corr'}
+    - {symerror: 0.021, label: 'sys.-norm'}
+  - value: 0.272
+    errors:
+    - {symerror: 0.037, label: 'sys.-uncorr'}
+    - {symerror: 0.026, label: 'sys.-corr'}
+    - {symerror: 0.019, label: 'sys.-norm'}
+  - value: 0.252
+    errors:
+    - {symerror: 0.035, label: 'sys.-uncorr'}
+    - {symerror: 0.024, label: 'sys.-corr'}
+    - {symerror: 0.017, label: 'sys.-norm'}
+  - value: 0.269
+    errors:
+    - {symerror: 0.038, label: 'sys.-uncorr'}
+    - {symerror: 0.026, label: 'sys.-corr'}
+    - {symerror: 0.018, label: 'sys.-norm'}
+  - value: 0.236
+    errors:
+    - {symerror: 0.036, label: 'sys.-uncorr'}
+    - {symerror: 0.023, label: 'sys.-corr'}
+    - {symerror: 0.016, label: 'sys.-norm'}
+  - value: 0.252
+    errors:
+    - {symerror: 0.038, label: 'sys.-uncorr'}
+    - {symerror: 0.024, label: 'sys.-corr'}
+    - {symerror: 0.017, label: 'sys.-norm'}
+  - value: 0.204
+    errors:
+    - {symerror: 0.034, label: 'sys.-uncorr'}
+    - {symerror: 0.020, label: 'sys.-corr'}
+    - {symerror: 0.014, label: 'sys.-norm'}
+  - value: 0.218
+    errors:
+    - {symerror: 0.040, label: 'sys.-uncorr'}
+    - {symerror: 0.021, label: 'sys.-corr'}
+    - {symerror: 0.015, label: 'sys.-norm'}
+  - value: 0.227
+    errors:
+    - {symerror: 0.043, label: 'sys.-uncorr'}
+    - {symerror: 0.022, label: 'sys.-corr'}
+    - {symerror: 0.016, label: 'sys.-norm'}
+  - value: 0.195
+    errors:
+    - {symerror: 0.037, label: 'sys.-uncorr'}
+    - {symerror: 0.019, label: 'sys.-corr'}
+    - {symerror: 0.013, label: 'sys.-norm'}
+  - value: 0.269
+    errors:
+    - {symerror: 0.060, label: 'sys.-uncorr'}
+    - {symerror: 0.026, label: 'sys.-corr'}
+    - {symerror: 0.019, label: 'sys.-norm'}
+  - value: 0.232
+    errors:
+    - {symerror: 0.060, label: 'sys.-uncorr'}
+    - {symerror: 0.023, label: 'sys.-corr'}
+    - {symerror: 0.016, label: 'sys.-norm'}
+  - value: 0.192
+    errors:
+    - {symerror: 0.056, label: 'sys.-uncorr'}
+    - {symerror: 0.019, label: 'sys.-corr'}
+    - {symerror: 0.013, label: 'sys.-norm'}

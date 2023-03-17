@@ -1,0 +1,59 @@
+#PHENIX paper PPG047
+#
+#Saturation of azimuthal anisotropy in Au + Au collisions at $\sqrt{s_{NN}}$ = 62-200 GeV
+#
+#Phys.Rev.Lett. 94, 232302 (2003)
+#InspireHEP ID: 664944
+#ArXiv: [nucl-ex] 0411040
+#
+#Prepared by Joesph Beller
+#Please contact Christine Nattrass if you have any questions about this submission
+#PPG liaison:
+#Reviewer:
+---
+additional_resources:
+- location: "https://arxiv.org/abs/nucl-ex/0411040"
+  description: "arXiv article"
+- location: "https://phenix-intra.sdcc.bnl.gov/WWW/p/info/ppg/047/index.html"
+  description: "webpage with data points"
+- location: "https://inspirehep.net/literature/664944"
+  description: "InspireHEP"
+- location: "thumb_Fig1_ref.png"
+  description: "Image File"
+- location: "thumb_Fig2_ref.png"
+  description: "Image File"
+- location: "thumb_Fig3_ref.png"
+  description: "Image File"
+- location: "thumb_Fig4_ref.png"
+  description: "Image File"
+- location: "thumb_flow_saturation_vs_roots_prl.png"
+  description: "Image File"
+  
+comment: | # Information that applies to all data tables.
+  New measurements are presented for charged hadron azimuthal correlations at mid-rapidity in Au+Au collissions at $\sqrt{s_{NN}}$ = 62.4 and 200 GeV. They are compared to earlier measurements obtained at $\sqrt{s_{NN}}$ = 130 GeV and in Pb+Pb collisions at $\sqrt{s_{NN}}$ = 17.2 GeV. Sizeable anisotropies are observed with centrality and transverse momentum ($p_T$) dependence characteristic of elliptic flow ($v_2$). For a broad range of centralities, the observed magnitudes and trends of the differential anisotropy, $v_2$($p_T$), change very little over the collision energy range $\sqrt{s_{NN}}$ = 62-200 GeV, indicating saturation of the excitation function for $v_2$ at these energies. Sucha a saturation may be indicative of the dominance of a very soft equation of state for $\sqrt{s_{NN}}$ ~ 60-200 GeV.
+---
+# This is Figure 1.
+name: "Figure 1"
+location: Data from Fig. 1 of PRL 94, 232302 (2003)
+description: Assorted-$p_T$ correlation functions (0.65 < $p_{T,ref}$ < 2.5 GeV/$c$) for charged hadrons of 0.5 < $p_T$ < 0.7 GeV/$c$ and 1.0 < $p_T$ < 1.5 obtained in Au+Au collisions at $\sqrt{S_{NN}}$ = 62.4 GeV.
+keywords: # used for searching, possibly multiple values for each keyword
+- {name: reactions, values: [AU + AU --> CHARGED X0]}
+- {name: cmenergies, values: [200.0]} # centre-of-mass energy in GeV
+- {name: phrases, values: [ppg047]}
+data_file: ppg047f1.yaml
+additional_resources:
+- location: "thumb_Fig1_ref.png"
+  description: "Image File"
+---
+# This is Figure 4.
+name: "Figure 4"
+location: Data from Fig. 4 of PRL PRL 94, 232302 (2003)
+description: Differential $v_2$ vs. $\sqrt{S_{NN}}$ for charged hadrons in nucleus-nucleus collisions. Results are shown for the centrality cut of 13 - 26% and $p_T$ selections of 1.75 GeV/$c$ and 0.65 GeV/$c$.
+keywords: # used for searching, possibly multiple values for each keyword
+- {name: reactions, values: [AU + AU --> CHARGED X0]}
+- {name: cmenergies, values: [200.0]} # centre-of-mass energy in GeV
+- {name: phrases, values: [ppg047]}
+data_file: ppg047f4.yaml
+additional_resources:
+- location: "thumb_Fig4_ref.png"
+  description: "Image File"

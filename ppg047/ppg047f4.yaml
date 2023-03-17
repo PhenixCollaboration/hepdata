@@ -1,0 +1,49 @@
+independent_variables:
+- header: {name: '$\sqrt{S_{NN}}$'}
+  values:
+  - {value: 200}
+  - {value: 130}
+  - {value: 62}
+  - {value: 17.2}
+  - {value: 3.1}
+dependent_variables:
+- header: {name: '$v_2$'}
+  qualifiers:
+  - {name: '$p_T$ GeV/$c$', value: '0.65'}
+  - {name: 'Centrality', value: '13-26%'}
+  values:
+  - value: 0.0680
+    errors:
+    - {symerror: 6e-4, label: 'sys.'}
+  - value: 0.0620
+    errors:
+    - {symerror: 0.0030, label: 'sys.'}
+  - value: 0.0637
+    errors:
+    - {symerror: 0.0010, label: 'sys.'}
+  - value: 0.04430
+    errors:
+    - {symerror: 1.0e-4, label: 'sys.'}
+  - value: -0.00600
+    errors:
+    - {symerror: 3.0e-4, label: 'sys.'}
+- header: {name: '$v_2$'}
+  qualifiers:
+  - {name: '$p_T$ GeV/$c$', value: '1.75'}
+  - {name: 'Centrality', value: '13-26%'}
+  values:
+  - value: 0.1465
+    errors:
+    - {symerror: 0.0018, label: 'sys.'}
+  - value: 0.144
+    errors:
+    - {symerror: 0.014, label: 'sys.'}
+  - value: 0.1405
+    errors:
+    - {symerror: 0.0023, label: 'sys.'}
+  - value: 0.090
+    errors:
+    - {symerror: 0.009, label: 'sys.'}
+  - value: 0.00200
+    errors:
+    - {symerror: 1.0e-4, label: 'sys.'}

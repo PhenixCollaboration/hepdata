@@ -1,0 +1,111 @@
+independent_variables:
+- header: {name: '$k_T$ (GeV/$c$)'}
+  values:
+  - {low: 0.25, high: 0.37}
+  - {low: 0.37, high: 0.48}
+  - {low: 0.48, high: 0.60}
+dependent_variables:
+- header: {name: '$R_T$ (fm)'}
+  qualifiers:
+  - {name: 'Centrality', value: '0-20%'}
+  values:
+  - value: 5.4
+    errors:
+    - {symerror: 0.1, label: 'stat.'}
+  - value: 5.1
+    errors:
+    - {symerror: 0.1, label: 'stat.'}
+  - value: 4.4
+    errors:
+    - {symerror: 0.1, label: 'stat.'}
+- header: {name: '$R_T$ (fm)'}
+  qualifiers:
+  - {name: 'Centrality', value: '40-90%'}
+  values:
+  - value: 3.2
+    errors:
+    - {symerror: 0.1, label: 'stat.'}
+  - value: 3.0
+    errors:
+    - {symerror: 0.1, label: 'stat.'}
+  - value: 3.1
+    errors:
+    - {symerror: 0.1, label: 'stat.'}
+- header: {name: 'Complement $R_L$'}
+  qualifiers:
+  - {name: 'Centrality', value: '0-20%'}
+  values:
+  - value: 17.1
+    errors:
+    - {symerror: 1.4, label: 'stat.'}
+  - value: 15.5
+    errors:
+    - {symerror: 1.3, label: 'stat.'}
+  - value: 11.5
+    errors:
+    - {symerror: 1.5, label: 'stat.'}
+- header: {name: 'Complement $R_L$'}
+  qualifiers:
+  - {name: 'Centrality', value: '40-90%'}
+  values:
+  - value: 9.2
+    errors:
+    - {symerror: 1.1, label: 'stat.'}
+  - value: 10.2
+    errors:
+    - {symerror: 1.6, label: 'stat.'}
+  - value: 11.2
+    errors:
+    - {symerror: 2.4, label: 'stat.'}
+- header: {name: '$a$'}
+  qualifiers:
+  - {name: 'Centrality', value: '0-20%'}
+  values:
+  - value: 3.8
+    errors:
+    - {symerror: 0.3, label: 'stat.'}
+  - value: 3.7
+    errors:
+    - {symerror: 0.3, label: 'stat.'}
+  - value: 3.1
+    errors:
+    - {symerror: 0.4, label: 'stat.'}
+- header: {name: '$a$'}
+  qualifiers:
+  - {name: 'Centrality', value: '40-90%'}
+  values:
+  - value: 3.4
+    errors:
+    - {symerror: 0.4, label: 'stat.'}
+  - value: 4.1
+    errors:
+    - {symerror: 0.6, label: 'stat.'}
+  - value: 4.3
+    errors:
+    - {symerror: 0.9, label: 'stat.'}
+- header: {name: '$\lambda$'}
+  qualifiers:
+  - {name: 'Centrality', value: '0-20%'}
+  values:
+  - value: 0.44
+    errors:
+    - {symerror: 0.02, label: 'stat.'}
+  - value: 0.40
+    errors:
+    - {symerror: 0.03, label: 'stat.'}
+  - value: 0.28
+    errors:
+    - {symerror: 0.02, label: 'stat.'}
+- header: {name: '$\lambda$'}
+  qualifiers:
+  - {name: 'Centrality', value: '40-90%'}
+  values:
+  - value: 0.44
+    errors:
+    - {symerror: 0.03, label: 'stat.'}
+  - value: 0.51
+    errors:
+    - {symerror: 0.05, label: 'stat.'}
+  - value: 0.60
+    errors:
+    - {symerror: 0.10, label: 'stat.'}
