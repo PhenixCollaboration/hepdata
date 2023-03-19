@@ -1,0 +1,28 @@
+independent_variables:
+- header: {name: '$KE_T$ (GeV)'}
+  values:
+  - {low: 0.35, high: 0.60}
+  - {low: 0.60, high: 0.85}
+  - {low: 0.85, high: 1.25}
+  - {low: 1.25, high: 1.65}
+  - {low: 1.65, high: 2.25}
+dependent_variables:
+- header: {name: '$v_2$'}
+  qualifiers:
+  - {name: 'Species', value: '$\bar{d}$+$d$'}
+  values:
+  - value: 6.52E-02
+    errors:
+    - {symerror: 1E-02, label: 'stat.'}
+  - value: 1.08E-01
+    errors:
+    - {symerror: 2E-02, label: 'stat.'}
+  - value: 1.76E-01
+    errors:
+    - {symerror: 2E-02, label: 'stat.'}
+  - value: 2.10E-01
+    errors:
+    - {symerror: 2E-02, label: 'stat.'}
+  - value: 2.72E-01
+    errors:
+    - {symerror: 3E-02, label: 'stat.'}
