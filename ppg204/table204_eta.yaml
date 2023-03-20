@@ -1,0 +1,102 @@
+independent_variables:
+- header: {name: '$p_{T}$ GeV/c'}
+  values:
+  - {low: 2, high: 3}
+  - {low: 3, high: 4}
+  - {low: 4, high: 5}
+  - {low: 5, high: 6}
+  - {low: 6, high: 7}
+  - {low: 7, high: 8}
+  - {low: 8, high: 10}
+  - {low: 10, high: 20}
+dependent_variables:
+- header: {name: '$p+$Au'}
+  qualifiers:
+  - {name: '$p_{T}$ GeV/c', value: '$A_{N}^{\eta}$ at $\sqrt{s_{NN}} = 200$ GeV, $|\eta|<0.35$'}
+  values:
+  - value: 0.01279
+    errors:
+    - {symerror: 0.00665, label: 'Statistical'}
+    - {symerror: 0.00306, label: 'Systematic'}
+    - {asymerror: {plus: 0.0003956, minus: -0.0003725}, label: 'Scaling uncertainty due to polarization'}
+  - value: -0.00255
+    errors:
+    - {symerror: 0.00377, label: 'Statistical'}
+    - {symerror: 0.00115, label: 'Systematic'}
+    - {asymerror: {plus: 0.0000789, minus: -0.0000743}, label: 'Scaling uncertainty due to polarization'}
+  - value: -0.00168
+    errors:
+    - {symerror: 0.00448, label: 'Statistical'}
+    - {symerror: 0.00117, label: 'Systematic'}
+    - {asymerror: {plus: 0.0000520, minus: -0.0000489}, label: 'Scaling uncertainty due to polarization'}
+  - value: -0.00810
+    errors:
+    - {symerror: 0.00667, label: 'Statistical'}
+    - {symerror: 0.00183, label: 'Systematic'}
+    - {asymerror: {plus: 0.0002505, minus: -0.0002359}, label: 'Scaling uncertainty due to polarization'}
+  - value: 0.0064
+    errors:
+    - {symerror: 0.0108, label: 'Statistical'}
+    - {symerror: 0.0029, label: 'Systematic'}
+    - {asymerror: {plus: 0.0001979, minus: -0.0001864}, label: 'Scaling uncertainty due to polarization'}
+  - value: -0.0056
+    errors:
+    - {symerror: 0.0170, label: 'Statistical'}
+    - {symerror: 0.0026, label: 'Systematic'}
+    - {asymerror: {plus: 0.0001732, minus: -0.0001631}, label: 'Scaling uncertainty due to polarization'}
+  - value: -0.0122
+    errors:
+    - {symerror: 0.0216, label: 'Statistical'}
+    - {symerror: 0.0002, label: 'Systematic'}
+    - {asymerror: {plus: 0.0003773, minus: -0.0003553}, label: 'Scaling uncertainty due to polarization'}
+  - value: 0.0615
+    errors:
+    - {symerror: 0.0351, label: 'Statistical'}
+    - {symerror: 0.0021, label: 'Systematic'}
+    - {asymerror: {plus: 0.0019021, minus: -0.0017913}, label: 'Scaling uncertainty due to polarization'}
+
+- header: {name: '$p+$Al'}
+  qualifiers:
+  - {name: '$p_{T}$ GeV/c', value: '$A_{N}^{\eta}$ at $\sqrt{s_{NN}} = 200$ GeV, $|\eta|<0.35$'}
+  values:
+  - value: -0.0044
+    errors:
+    - {symerror: 0.0107, label: 'Statistical'}
+    - {symerror: 0.0046, label: 'Systematic'}
+    - {asymerror: {plus: 0.0001361, minus: -0.0001282}, label: 'Scaling uncertainty due to polarization'}
+  - value: 0.00043
+    errors:
+    - {symerror: 0.00575, label: 'Statistical'}
+    - {symerror: 0.00219, label: 'Systematic'}
+    - {asymerror: {plus: 0.0000133, minus: -0.0000125}, label: 'Scaling uncertainty due to polarization'}
+  - value: -0.00278
+    errors:
+    - {symerror: 0.00686, label: 'Statistical'}
+    - {symerror: 0.00050, label: 'Systematic'}
+    - {asymerror: {plus: 0.0000860, minus: -0.0000810}, label: 'Scaling uncertainty due to polarization'}
+  - value: -0.0022
+    errors:
+    - {symerror: 0.0104, label: 'Statistical'}
+    - {symerror: 0.0031, label: 'Systematic'}
+    - {asymerror: {plus: 0.0000680, minus: -0.0000641}, label: 'Scaling uncertainty due to polarization'}
+  - value: -0.0032
+    errors:
+    - {symerror: 0.0163, label: 'Statistical'}
+    - {symerror: 0.0055, label: 'Systematic'}
+    - {asymerror: {plus: 0.0000990, minus: -0.0000932}, label: 'Scaling uncertainty due to polarization'}
+  - value: 0.0468
+    errors:
+    - {symerror: 0.0260, label: 'Statistical'}
+    - {symerror: 0.0004, label: 'Systematic'}
+    - {asymerror: {plus: 0.0014474, minus: -0.0013631}, label: 'Scaling uncertainty due to polarization'}
+  - value: 0.0017
+    errors:
+    - {symerror: 0.0318, label: 'Statistical'}
+    - {symerror: 0.0027, label: 'Systematic'}
+    - {asymerror: {plus: 0.0000526, minus: -0.0000495}, label: 'Scaling uncertainty due to polarization'}
+  - value: 0.0395
+    errors:
+    - {symerror: 0.0464, label: 'Statistical'}
+    - {symerror: 0.0133, label: 'Systematic'}
+    - {asymerror: {plus: 0.0012216, minus: -0.0011505}, label: 'Scaling uncertainty due to polarization'}
+
