@@ -1,0 +1,43 @@
+# HEPData submission package for PPG204
+#
+# Transverse single-spin asymmetries of midrapidity pi0 and eta mesons in p+Au and p+Al collisions at √s_NN=200 GeV
+#
+# e-Print:2303.07190 [hep-ex] (2023)
+# InspireHEP ID: 2641468
+#
+# PPG representative/uploader: Dillon Fitzgerald
+# IRC representative/reviewer: Sanghwa Park
+
+additional_resources:
+- {description: Image file, location: fig2a.png}
+- {description: Image file, location: fig2b.png}
+- {description: arXiv link, location: 'https://arxiv.org/abs/2303.07190'}
+comment: |
+    Presented are the first measurements of the transverse single-spin asymmetries ($A_N$) for neutral pions and eta mesons in $p+$Au and $p+$Al collisions at $\sqrt{s_{NN}} = 200$ GeV in the pseudorapidity range $| \eta |<0.35$ with the PHENIX detector at the Relativistic Heavy Ion Collider. The asymmetries are consistent with zero, similar to those for midrapidity neutral pions and eta mesons produced in $p+p$ collisions. These measurements show no evidence of additional effects that could potentially arise from the more complex partonic environment present in proton-nucleus collisions.
+---
+additional_resources:
+- {description: Image file, location: fig2a.png}
+- {description: Thumbnail Image file, location: thumb_fig2a.png}
+data_file: table204_pi0.yaml
+description: Data from Figure 2 (a) of the $\pi^{0}$ transverse single-spin asymmetry in $\sqrt{s_{NN}}=200$ GeV $p^{\uparrow}+$Au and $p^{\uparrow}+$Al collisions as a function of $p_{T}$.
+keywords:
+- {name: reactions, values: [P NUCLEUS --> PI0 X]}
+- {name: observables, values: [ASYM]}
+- {name: cmenergies, values: [200.0]}
+- {name: phrases, values: [Spin Correlation, Asymmetry Measurement, Azimuthal Angular Dependence, Proton-Nucleus Scattering, Transverse Momentum Dependence, Transverse Single-Spin Asymmetry, TSSA, Single-Spin Asymmetry, SSA, Neutral Pion, Pi0 ]}
+name: Figure 2 (a)
+---
+additional_resources:
+- {description: Image file, location: fig2b.png}
+- {description: Thumbnail Image file, location: thumb_fig2b.png}
+data_file: table204_eta.yaml
+description: Data from Figure 2 (b) of the $\eta$ transverse single-spin asymmetry in $\sqrt{s_{NN}}=200$ GeV $p^{\uparrow}+$Au and $p^{\uparrow}+$Al collisions as a function of $p_{T}$.
+keywords:
+- {name: reactions, values: [P NUCLEUS --> ETA X]}
+- {name: observables, values: [ASYM]}
+- {name: cmenergies, values: [200.0]}
+- {name: phrases, values: [Spin Correlation, Asymmetry Measurement, Azimuthal Angular Dependence, Proton-Nucleus Scattering, Transverse Momentum Dependence, Transverse Single-Spin Asymmetry, TSSA, Single-Spin Asymmetry, SSA, Eta Meson ]}
+name: Figure 2 (b)
+
+
+

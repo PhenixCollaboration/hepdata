@@ -1,0 +1,123 @@
+independent_variables:
+- header: {name: '$p_{T}$ GeV/c'}
+  values:
+  - {low: 2, high: 3}
+  - {low: 3, high: 4}
+  - {low: 4, high: 5}
+  - {low: 5, high: 6}
+  - {low: 6, high: 7}
+  - {low: 7, high: 8}
+  - {low: 8, high: 9}
+  - {low: 9, high: 10}
+  - {low: 10, high: 12}
+  - {low: 12, high: 20}
+dependent_variables:
+- header: {name: '$p+$Au'}
+  qualifiers:
+  - {name: '$p_{T}$ GeV/c', value: '$A_{N}^{\pi^{0}}$ at $\sqrt{s_{NN}} = 200$ GeV, $|\eta|<0.35$'}
+  values:
+  - value: 0.000818
+    errors:
+    - {symerror: 0.000993, label: 'Statistical'}
+    - {symerror: 0.000569, label: 'Systematic'}
+    - {asymerror: {plus: 0.0000253, minus: -0.0000238}, label: 'Scaling uncertainty due to polarization'}
+  - value: -0.000145
+    errors:
+    - {symerror: 0.000701, label: 'Statistical'}
+    - {symerror: 0.000286, label: 'Systematic'}
+    - {asymerror: {plus: 0.0000045, minus: -0.0000042}, label: 'Scaling uncertainty due to polarization'}
+  - value: -0.000135
+    errors:
+    - {symerror: 0.000974, label: 'Statistical'}
+    - {symerror: 0.000257, label: 'Systematic'}
+    - {asymerror: {plus: 0.0000042, minus: -0.0000039}, label: 'Scaling uncertainty due to polarization'}
+  - value: -0.00011
+    errors:
+    - {symerror: 0.00164, label: 'Statistical'}
+    - {symerror: 0.00028, label: 'Systematic'}
+    - {asymerror: {plus: 0.0000034, minus: -0.0000032}, label: 'Scaling uncertainty due to polarization'}
+  - value: 0.00097
+    errors:
+    - {symerror: 0.00281, label: 'Statistical'}
+    - {symerror: 0.00024, label: 'Systematic'}
+    - {asymerror: {plus: 0.0000300, minus: -0.0000283}, label: 'Scaling uncertainty due to polarization'}
+  - value: -0.00243
+    errors:
+    - {symerror: 0.00464, label: 'Statistical'}
+    - {symerror: 0.00109, label: 'Systematic'}
+    - {asymerror: {plus: 0.0000752, minus: -0.0000708}, label: 'Scaling uncertainty due to polarization'}
+  - value: 0.00179
+    errors:
+    - {symerror: 0.00732, label: 'Statistical'}
+    - {symerror: 0.00055, label: 'Systematic'}
+    - {asymerror: {plus: 0.0000554, minus: -0.0000521}, label: 'Scaling uncertainty due to polarization'}
+  - value: 0.0093
+    errors:
+    - {symerror: 0.0106, label: 'Statistical'}
+    - {symerror: 0.0005, label: 'Systematic'}
+    - {asymerror: {plus: 0.0002876, minus: -0.0002709}, label: 'Scaling uncertainty due to polarization'}
+  - value: -0.0072
+    errors:
+    - {symerror: 0.0122, label: 'Statistical'}
+    - {symerror: 0.0014, label: 'Systematic'}
+    - {asymerror: {plus: 0.0002227, minus: -0.0002097}, label: 'Scaling uncertainty due to polarization'}
+  - value: -0.0438
+    errors:
+    - {symerror: 0.0198, label: 'Statistical'}
+    - {symerror: 0.0008, label: 'Systematic'}
+    - {asymerror: {plus: 0.0013546, minus: -0.0012757}, label: 'Scaling uncertainty due to polarization'}
+
+- header: {name: '$p+$Al'}
+  qualifiers:
+  - {name: '$p_{T}$ GeV/c', value: '$A_{N}^{\pi^{0}}$ at $\sqrt{s_{NN}} = 200$ GeV, $|\eta|<0.35$'}
+  values:
+  - value: -0.00147
+    errors:
+    - {symerror: 0.00163, label: 'Statistical'}
+    - {symerror: 0.00088, label: 'Systematic'}
+    - {asymerror: {plus: 0.0000455, minus: -0.0000428}, label: 'Scaling uncertainty due to polarization'}
+  - value: 0.00056
+    errors:
+    - {symerror: 0.00113, label: 'Statistical'}
+    - {symerror: 0.00006, label: 'Systematic'}
+    - {asymerror: {plus: 0.0000173, minus: -0.0000163}, label: 'Scaling uncertainty due to polarization'}
+  - value: 0.00126
+    errors:
+    - {symerror: 0.00153, label: 'Statistical'}
+    - {symerror: 0.00005, label: 'Systematic'}
+    - {asymerror: {plus: 0.0000390, minus: -0.0000367}, label: 'Scaling uncertainty due to polarization'}
+  - value: -0.00018
+    errors:
+    - {symerror: 0.00254, label: 'Statistical'}
+    - {symerror: 0.00051, label: 'Systematic'}
+    - {asymerror: {plus: 0.0000056, minus: -0.0000052}, label: 'Scaling uncertainty due to polarization'}
+  - value: 0.00500
+    errors:
+    - {symerror: 0.00429, label: 'Statistical'}
+    - {symerror: 0.00042, label: 'Systematic'}
+    - {asymerror: {plus: 0.0001546, minus: -0.0001456}, label: 'Scaling uncertainty due to polarization'}
+  - value: -0.00809
+    errors:
+    - {symerror: 0.00699, label: 'Statistical'}
+    - {symerror: 0.00060, label: 'Systematic'}
+    - {asymerror: {plus: 0.0002502, minus: -0.0002356}, label: 'Scaling uncertainty due to polarization'}
+  - value: 0.0035
+    errors:
+    - {symerror: 0.0109, label: 'Statistical'}
+    - {symerror: 0.0004, label: 'Systematic'}
+    - {asymerror: {plus: 0.0001082, minus: -0.0001019}, label: 'Scaling uncertainty due to polarization'}
+  - value: 0.0058
+    errors:
+    - {symerror: 0.0155, label: 'Statistical'}
+    - {symerror: 0.0010, label: 'Systematic'}
+    - {asymerror: {plus: 0.0001794, minus: -0.0001689}, label: 'Scaling uncertainty due to polarization'}
+  - value: 0.0208
+    errors:
+    - {symerror: 0.0181, label: 'Statistical'}
+    - {symerror: 0.0016, label: 'Systematic'}
+    - {asymerror: {plus: 0.0006433, minus: -0.0006058}, label: 'Scaling uncertainty due to polarization'}
+  - value: -0.0099
+    errors:
+    - {symerror: 0.0286, label: 'Statistical'}
+    - {symerror: 0.0011, label: 'Systematic'}
+    - {asymerror: {plus: 0.0003062, minus: -0.0002883}, label: 'Scaling uncertainty due to polarization'}
