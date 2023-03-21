@@ -1,0 +1,103 @@
+#PHENIX paper PPG067
+#
+#System Size and Energy Dependence of Jet-Induced Hadron Pair Correlation Shapes in Cu+Cu and Au+Au Collisions at $\sqrt{s_{NN}}$ = 200 and 62.4 GeV
+#
+#Phys.Rev.Lett 98 (2007) 232302
+#InspireHEP ID: 731669
+#
+#Prepared by Nikolas Nelson
+#Please contact Christine Nattrass if you have any questions about this submission
+#PPG liaison:
+#Reviewer:
+#
+comment: | # Information that applies to all data tables.
+  We present azimuthal angle correlations of intermediate transverse momentum (1-4 GeV/$c$) hadrons from dijets in Cu+Cu and Au+Au collisions at $\sqrt{s_{NN}}$ = 62.4 and 200 GeV. The away-side dijet induced azimuthal correlation is broadened, non-Gaussian, and peaked away from $\Delta\phi$ = $\pi$ in central and semi-central collisions in all the systems. The broadening and peak location are found to depend upon the number of participants in the collision, but not on the collision energy or beam nuclei. These results are consistent with sound or shock wave models, but pose challenges to Cherenkov gluon radiation models.
+additional_resources:
+- {location: "https://phenix-intra.sdcc.bnl.gov/phenix/WWW/p/info/ppg/067/", description: "web page with data points"}
+- {location: "http://arxiv.org/abs/nucl-ex/0611019", description: arXiv}
+- {location: "https://inspirehep.net/literature/731669", description: InspireHEP}
+---
+# This is Figure 1.
+name: "Figure 1"
+location: Data From Fig. 1 of PRL 98 (2007) 232302
+description: 'The measured correlation $C(\Delta\phi)$ and the dijet correlation $J(\Delta\phi)$ in central Au+Au collisions at $\sqrt{s_{NN}}$ = 200 GeV.'
+keywords: # used for searching, possibly mutliple values for each keywords
+- {name: reactions, values: [Au Au --> CHARGED X]}
+- {name: cmenergies, values: [200.0]}
+- {name: phrases, values: [ppg067, azimuthal angle, transverse momentum]}
+data_file: ppg067fig1.yaml
+additional_resources:
+- {description: Original PS Image file, location: JetExtract.ps}
+- {description: PNG Image file, location: JetExtract.png}
+- {description: Thumbnail Image file, location: thumb_JetExtract.png}
+---
+# This is Figure 2.
+name: "Figure 2a"
+location: Data From Fig. 2 of PRL 98 (2007) 232302
+description: 'Dijet correlations in Au+Au and Cu+Cu collisions at $\sqrt{s_{NN}}$ = 62.4 and 200 GeV.'
+keywords: # used for searching, possibly mutliple values for each keywords
+- {name: reactions, values: [Au Au --> CHARGED X]}
+- {name: cmenergies, values: [200.0, 62.4]}
+- {name: phrases, values: [ppg067, azimuthal angle, transverse momentum]}
+data_file: ppg067fig2a.yaml
+additional_resources:
+- {description: Original PS Image file, location: AllJets.ps}
+- {description: PNG Image file, location: AllJets.png}
+- {description: Thumbnail Image file, location: thumb_AllJets.png}
+---
+# This is Figure 2.
+name: "Figure 2b"
+location: Data From Fig. 2 of PRL 98 (2007) 232302
+description: 'Dijet correlations in Au+Au and Cu+Cu collisions at $\sqrt{s_{NN}}$ = 62.4 and 200 GeV.'
+keywords: # used for searching, possibly mutliple values for each keywords
+- {name: reactions, values: [Au Au --> CHARGED X, Cu Cu --> CHARGED X]}
+- {name: cmenergies, values: [200.0, 62.4]}
+- {name: phrases, values: [ppg067, azimuthal angle, transverse momentum]}
+data_file: ppg067fig2b.yaml
+additional_resources:
+- {description: Original PS Image file, location: AllJets.ps}
+- {description: PNG Image file, location: AllJets.png}
+- {description: Thumbnail Image file, location: thumb_AllJets.png}
+---
+# This is Figure 3.
+name: "Figure 3a"
+location: Data From Fig. 3 of PRL 98 (2007) 232302
+description: 'Collision centrality, energy, and system size dependence of shape parameters.'
+keywords: # used for searching, possibly mutliple values for each keywords
+- {name: reactions, values: [$d$ Au --> CHARGED X]}
+- {name: cmenergies, values: [200.0]}
+- {name: phrases, values: [ppg067, azimuthal angle, transverse momentum]}
+data_file: ppg067fig3a.yaml
+additional_resources:
+- {description: Original PS Image file, location: ShapePars.ps}
+- {description: PNG Image file, location: ShapePars.png}
+- {description: Thumbnail Image file, location: thumb_ShapePars.png}
+---
+# This is Figure 3.
+name: "Figure 3b"
+location: Data From Fig. 3 of PRL 98 (2007) 232302
+description: 'Collision centrality, energy, and system size dependence of shape parameters.'
+keywords: # used for searching, possibly mutliple values for each keywords
+- {name: reactions, values: [Au Au --> CHARGED X]}
+- {name: cmenergies, values: [200.0]}
+- {name: phrases, values: [ppg067, azimuthal angle, transverse momentum]}
+data_file: ppg067fig3b.yaml
+additional_resources:
+- {description: Original PS Image file, location: ShapePars.ps}
+- {description: PNG Image file, location: ShapePars.png}
+- {description: Thumbnail Image file, location: thumb_ShapePars.png}
+---
+# This is Figure 3.
+name: "Figure 3c"
+location: Data From Fig. 3 of PRL 98 (2007) 232302
+description: 'Collision centrality, energy, and system size dependence of shape parameters.'
+keywords: # used for searching, possibly mutliple values for each keywords
+- {name: reactions, values: [Au Au --> CHARGED X, Cu Cu --> CHARGED X]}
+- {name: cmenergies, values: [200.0, 62.4]}
+- {name: phrases, values: [ppg067, azimuthal angle, transverse momentum]}
+data_file: ppg067fig3c.yaml
+additional_resources:
+- {description: Original PS Image file, location: ShapePars.ps}
+- {description: PNG Image file, location: ShapePars.png}
+- {description: Thumbnail Image file, location: thumb_ShapePars.png}
+---

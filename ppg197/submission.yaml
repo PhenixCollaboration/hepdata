@@ -18,7 +18,7 @@ additional_resources:
 - {location: "https://inspirehep.net/literature/1507891", description: InspireHEP}
 ---
 # This is Table 5.
-name: "Figure 5a"
+name: "Table 5a"
 location: Data From Table 5 of PRL D 95 (2017) 092002
 description: 'Fraction of $B$-meson decays in $J/\psi$ samples obtained in $p$+$p$ collisions at $\sqrt{S}$ = 510 GeV.'
 keywords: # used for searching, possibly mutliple values for each keywords
@@ -28,7 +28,7 @@ keywords: # used for searching, possibly mutliple values for each keywords
 data_file: ppg197tab5a.yaml
 ---
 # This is Table 5.
-name: "Figure 5b"
+name: "Table 5b"
 location: Data From Table 5 of PRL D 95 (2017) 092002
 description: 'Fraction of $B$-meson decays in $J/\psi$ samples obtained in $p$+$p$ collisions at $\sqrt{S}$ = 510 GeV.'
 keywords: # used for searching, possibly mutliple values for each keywords
@@ -36,4 +36,14 @@ keywords: # used for searching, possibly mutliple values for each keywords
 - {name: cmenergies, values: [510.0]}
 - {name: phrases, values: [ppg197, transverse momentum]}
 data_file: ppg197tab5b.yaml
+---
+# This is Table 5.
+name: "Table 5c"
+location: Data From Table 5 of PRL D 95 (2017) 092002
+description: 'The $b\bar{b}$ cross section per unit rapidity ($d\sigma/dy(pp→b\bar{b})$) extracted from the obtained $F_{B \rightarrow J/\psi}$ and the PHENIX inclusive $J/\psi$ cross section measured at 200 GeV scaled with color-evaporation-model calculations, at the mean $B$ hadron rapidity.'
+keywords: # used for searching, possibly mutliple values for each keywords
+- {name: reactions, values: [$p$ $p$ --> CHARGED X]}
+- {name: cmenergies, values: [510.0]}
+- {name: phrases, values: [ppg197, transverse momentum]}
+data_file: ppg197tab5c.yaml
 ---

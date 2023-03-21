@@ -1,0 +1,28 @@
+independent_variables:
+- header: {name: '${KE_T}/{n_q}$ (GeV)'}
+  values:
+  - {low: 0.23, high: 0.39}
+  - {low: 0.39, high: 0.55}
+  - {low: 0.55, high: 0.67}
+  - {low: 0.67, high: 0.87}
+  - {low: 0.87, high: 1.25}
+dependent_variables:
+- header: {name: '$v_2$'}
+  qualifiers:
+  - {name: 'Species', value: '$\phi$ mesons'}
+  values:
+  - value: 5.00E-02
+    errors:
+    - {symerror: 9E-03, label: 'stat.'}
+  - value: 6.00E-02
+    errors:
+    - {symerror: 7E-03, label: 'stat.'}
+  - value: 8.05E-02
+    errors:
+    - {symerror: 8E-03, label: 'stat.'}
+  - value: 9.20E-02
+    errors:
+    - {symerror: 1E-02, label: 'stat.'}
+  - value: 8.15E-02
+    errors:
+    - {symerror: 2E-02, label: 'stat.'}

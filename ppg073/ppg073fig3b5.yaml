@@ -1,0 +1,28 @@
+independent_variables:
+- header: {name: '${KE_T}/{n_q}$ (GeV)'}
+  values:
+  - {low: 0.06, high: 0.10}
+  - {low: 0.10, high: 0.14}
+  - {low: 0.14, high: 0.20}
+  - {low: 0.20, high: 0.28}
+  - {low: 0.28, high: 0.38}
+dependent_variables:
+- header: {name: '$v_2$'}
+  qualifiers:
+  - {name: 'Species', value: '$\bar{d}$+$d$'}
+  values:
+  - value: 1.09E-02
+    errors:
+    - {symerror: 2E-03, label: 'stat.'}
+  - value: 1.80E-02
+    errors:
+    - {symerror: 3E-03, label: 'stat.'}
+  - value: 2.93E-02
+    errors:
+    - {symerror: 3E-03, label: 'stat.'}
+  - value: 3.50E-02
+    errors:
+    - {symerror: 4E-03, label: 'stat.'}
+  - value: 4.53E-02
+    errors:
+    - {symerror: 5E-03, label: 'stat.'}

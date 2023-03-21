@@ -14,15 +14,19 @@ dependent_variables:
     errors:
     - {symerror: -0.6e-2, label: 'stat.'}
     - {symerror: 0.1e-2, label: 'sys.'}
+    - {symerror: -0.1e-2, label: 'scale'}
   - value: -0.10e-2
     errors:
     - {symerror: -0.6e-2, label: 'stat.'}
     - {symerror: 0.1e-2, label: 'sys.'}
+    - {symerror: -0.2e-3, label: 'scale'}
   - value: -0.41e-2
     errors:
     - {symerror: -0.1e-1, label: 'stat.'}
     - {symerror: 0.1e-2, label: 'sys.'}
+    - {symerror: -0.7e-3, label: 'scale'}
   - value: 0.32e-2
     errors:
     - {symerror: -0.3e-1, label: 'stat.'}
     - {symerror: 0.7e-2, label: 'sys.'}
+    - {symerror: 0.6e-3, label: 'scale'}

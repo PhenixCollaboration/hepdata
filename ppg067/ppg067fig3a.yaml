@@ -1,0 +1,23 @@
+independent_variables:
+- header: {name: 'Centrality Integrated (%)'}
+  values:
+  - {value: 0}
+dependent_variables:
+- header: {name: 'rms (rad)'}
+  values:
+  - value: 7.20E-01
+    errors:
+    - {symerror: 9E-02, label: 'stat.'}
+    - {symerror: 6E-02, label: 'sys.'}
+- header: {name: 'kurtosis'}
+  values:
+  - value: 2.63E+00
+    errors:
+    - {symerror: 4E-01, label: 'stat.'}
+    - {symerror: 2E-01, label: 'sys.'}
+- header: {name: '$D$ (rad)'}
+  values:
+  - value: 4.40E-01
+    errors:
+    - {symerror: 5E-02, label: 'stat.'}
+    - {asymerror: {plus: 2E-02, minus: 4E-01}, label: 'sys.'}
