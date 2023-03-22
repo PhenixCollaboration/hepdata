@@ -1,0 +1,54 @@
+independent_variables:
+- header: {name: '$p_T$ (GeV/$c$)'}
+  values:
+  - {low: 0.50, high: 0.75}
+  - {low: 0.75, high: 1.00}
+  - {low: 1.00, high: 1.50}
+  - {low: 1.50, high: 2.00}
+  - {low: 2.00, high: 2.50}
+  - {low: 2.50, high: 3.00}
+  - {low: 3.00, high: 3.50}
+  - {low: 3.50, high: 4.00}
+  - {low: 4.00, high: 5.00}
+  - {low: 5.00, high: 6.00}
+  - {low: 6.00, high: 7.00}
+  - {low: 7.00, high: 9.00}
+dependent_variables:
+- header: {name: '$A_{LL}$'}
+  values:
+  - value: 6.20E-01
+    errors:
+    - {asymerror: {minus: 1.80E-03, plus: 2.70E-03}, label: 'stat.'}
+  - value: 8.60E-01
+    errors:
+    - {asymerror: {minus: 2.80E-03, plus: 2.90E-03}, label: 'stat.'}
+  - value: 1.29E+00
+    errors:
+    - {asymerror: {minus: 3.00E-04, plus: 1.90E-03}, label: 'stat.'}
+  - value: 1.75E+00
+    errors:
+    - {asymerror: {minus: 1.00E-03, plus: 1.30E-03}, label: 'stat.'}
+  - value: 2.22E+00
+    errors:
+    - {asymerror: {minus: -4.00E-04, plus: 1.50E-03}, label: 'stat.'}
+  - value: 2.72E+00
+    errors:
+    - {asymerror: {minus: -1.50E-03, plus: 2.00E-03}, label: 'stat.'}
+  - value: 3.21E+00
+    errors:
+    - {asymerror: {minus: 5.30E-03, plus: 3.00E-03}, label: 'stat.'}
+  - value: 3.72E+00
+    errors:
+    - {asymerror: {minus: 1.29E-02, plus: 4.50E-03}, label: 'stat.'}
+  - value: 4.38E+00
+    errors:
+    - {asymerror: {minus: -1.20E-03, plus: 5.60E-03}, label: 'stat.'}
+  - value: 5.40E+00
+    errors:
+    - {symerror: 1.10E-02, label: 'stat.'}
+  - value: 6.41E+00
+    errors:
+    - {asymerror: {minus: 2.00E-02, plus: 2.00E-02}, label: 'stat.'}
+  - value: 7.79E+00
+    errors:
+    - {asymerror: {minus: 2.30E-02, plus: 2.80E-02}, label: 'stat.'}
