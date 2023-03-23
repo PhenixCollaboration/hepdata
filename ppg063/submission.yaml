@@ -19,10 +19,10 @@ additional_resources:
 ---
 # This is Figure 1.
 name: "Figure 1"
-location: Data From Fig. 1 of PRL D 76 (2007) 051106
+location: Data From Fig. 1 of PRD 76 (2007) 051106
 description: 'The neutral pion production cross section at $\sqrt{s}$ = 200 GeV as a function of $p_T$ and the results of NLO pQCD calculations for theory scales $\mu$ = $p_T$/2, $p_T$, and $2p_T$.'
 keywords: # used for searching, possibly mutliple values for each keywords
-- {name: reactions, values: [$p$ $p$ --> CHARGED X]}
+- {name: reactions, values: [$p$ $p$ --> $\pi^0$+X]}
 - {name: cmenergies, values: [200.0]}
 - {name: phrases, values: [ppg063, mid-rapidity, transverse momenta]}
 data_file: ppg063fig1.yaml
@@ -32,30 +32,36 @@ additional_resources:
 - {description: Thumbnail Image file, location: thumb_fig1-2.png}
 ---
 # This is Figure 2.
-name: "Figure 2a"
-location: Data From Fig. 2 of PRL D 76 (2007) 051106
-description: 'The double helicity asymmetry for neutral pion production at $\sqrt{s}$ = 200 GeV as a function of $p_T$ (GeV/$c$). Scale uncertainty of 9.4% is sys. error.'
+name: "Figure 2"
+location: Data From Fig. 2 of PRD 76 (2007) 051106
+description: 'The double helicity asymmetry ($A_{LL}$) for neutral pion production at $\sqrt{s}$ = 200 GeV as a function of $p_T$ (GeV/$c$). Not included in the figure/table: the correlated for all points scale systematic uncertainty of 9.4% (scales both the values and stat. uncertainties by the same factor).'
 keywords: # used for searching, possibly mutliple values for each keywords
-- {name: reactions, values: [$p$ $p$ --> CHARGED X]}
+- {name: reactions, values: [$p$ $p$ --> $\pi^0$+X]}
 - {name: cmenergies, values: [200.0]}
 - {name: phrases, values: [ppg063, mid-rapidity, transverse momenta]}
-data_file: ppg063fig2a.yaml
+data_file: ppg063fig2.yaml
 additional_resources:
 - {description: Original EPS Image file, location: fig2-2.eps}
 - {description: PNG Image file, location: fig2-2.png}
 - {description: Thumbnail Image file, location: thumb_fig2-2.png}
 ---
-# This is Figure 2.
-name: "Figure 2b"
-location: Data From Fig. 2 of PRL D 76 (2007) 051106
-description: 'The double helicity asymmetry for neutral pion production at $\sqrt{s}$ = 200 GeV as a function of $p_T$ (GeV/$c$). Scale uncertainty of 9.4% is sys. error.'
+# This is Table 1
+name: "Table 1a"
+location: Data From Fig. 2 of PRD 76 (2007) 051106
+description: 'Additional data not presented but referred to in PRD 76 (2007) 051106. The single helicity asymmetry ($A_L$) for neutral pion production at $\sqrt{s}$ = 200 GeV as a function of $p_T$ (GeV/$c$). Systematic uncertainties are negligible.'
 keywords: # used for searching, possibly mutliple values for each keywords
-- {name: reactions, values: [$p$ $p$ --> CHARGED X]}
+- {name: reactions, values: [$p$ $p$ --> $\pi^0$+X]}
 - {name: cmenergies, values: [200.0]}
 - {name: phrases, values: [ppg063, mid-rapidity, transverse momenta]}
-data_file: ppg063fig2b.yaml
-additional_resources:
-- {description: Original EPS Image file, location: fig2-2.eps}
-- {description: PNG Image file, location: fig2-2.png}
-- {description: Thumbnail Image file, location: thumb_fig2-2.png}
+data_file: ppg063tab1a.yaml
+---
+# This is Table 1
+name: "Table 1b"
+location: Data From Fig. 2 of PRD 76 (2007) 051106
+description: 'The double transverse spin asymmetry ($A_{TT}$) for neutral pion production at $\sqrt{s}$ = 200 GeV as a function of $p_T$ (GeV/$c$). The correlated for all points scale systematic uncertainty is 9.4% (scales both the values and stat. uncertainties by the same factor).'
+keywords: # used for searching, possibly mutliple values for each keywords
+- {name: reactions, values: [$p$ $p$ --> $\pi^0$+X]}
+- {name: cmenergies, values: [200.0]}
+- {name: phrases, values: [ppg063, mid-rapidity, transverse momenta]}
+data_file: ppg063tab1b.yaml
 ---

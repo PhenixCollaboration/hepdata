@@ -1,0 +1,42 @@
+#PHENIX paper PPG058
+#
+#Azimuthal Angle Correlations for Rapidity Separated Hadron Pairs in $d$ + $Au$ Collisions at $\sqrt{s_{NN}}$ = 200 GeV
+#
+#Phys.Rev.Lett. PRL 96 (2006) 222301
+#InspireHEP ID: 712584
+#ArXiv: [nucl-ex] 0603017
+#
+#Prepared by Joesph Beller
+#Please contact Christine Nattrass if you have any questions about this submission
+#PPG liaison:
+#Reviewer:
+---
+additional_resources:
+- location: "https://arxiv.org/abs/nucl-ex/0603017"
+  description: "arXiv article"
+- location: "https://phenix-intra.sdcc.bnl.gov/phenix/WWW/info/data/ppg058_data.html"
+  description: "webpage with data points"
+- location: "https://inspirehep.net/literature/712584"
+  description: "InspireHEP"
+- location: "thumb_fig1.png"
+  description: "Image File"
+- location: "thumb_fig2.png"
+  description: "Image File"
+- location: "thumb_fig3.png"
+  description: "Image File"
+  
+comment: | # Information that applies to all data tables.
+  We report on two-particle azimuthal angle correlations between charged hadrons at forward/backward (deuteron/gold going direction) rapidity and charged hadrons at mid-rapidity in deuteron-gold ($d$ + $Au$) and proton-proton ($p$ + $p$) collisions at $\sqrt{s_{NN}}$ =200GeV. Jet structures are observed in the correlations which we quantify in terms of the conditional yield and angular width of away-side partners. The kinematic region studied here samples partons in the gold nucleus carrying nucleon momentum fraction $x$ ∼ 0.1 to ∼ 0.01. Within this range, we find no $x$ dependence of the jet structure in $d$ + $Au$ collisions.
+---
+# This is Figure 1.
+name: "Figure 1"
+location: Data from Fig. 1 of PRL 96, 222301 (2006)
+description: Azimuthal angle correlation functions. Note that the y-axis is zero-suppressed on the middle and bottom panels. In the additonal resource, the Gaussian widths from the fits and the signal to background ration integrated over $\pi$ - 1 < $\Delta\phi$ < $\pi$ + 1 are shown.
+keywords: # used for searching, possibly multiple values for each keyword
+- {name: reactions, values: [AU + AU --> CHARGED X0]}
+- {name: cmenergies, values: [200.0]} # centre-of-mass energy in GeV
+- {name: phrases, values: [ppg058]}
+data_file: ppg058f1.yaml
+additional_resources:
+- location: "thumb_fig1.png"
+  description: "Image File"
