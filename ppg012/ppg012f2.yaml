@@ -3,8 +3,8 @@ independent_variables:
   values:
   - {low: 0.4, high: 0.6}
   - {low: 0.6, high: 0.8}
-  - {low: 0.8, high: 1}
-  - {low: 1, high: 1.2}
+  - {low: 0.8, high: 1.0}
+  - {low: 1.0, high: 1.2}
   - {low: 1.2, high: 1.4}
   - {low: 1.4, high: 1.6}
   - {low: 1.6, high: 1.8}
@@ -17,31 +17,31 @@ dependent_variables:
   - value: 0.98
     errors:
     - {symerror: 0.24, label: 'stat.'}
-    - {symerror: 0.16, label: 'sys.'}
+    - {symerror: 0.13, label: 'sys.'}
   - value: 0.81
     errors:
-    - {symerror: 0.1, label: 'stat.'}
-    - {symerror: 0.13, label: 'sys.'}
+    - {symerror: 0.10, label: 'stat.'}
+    - {symerror: 0.11, label: 'sys.'}
   - value: 0.62
     errors:
     - {symerror: 0.04, label: 'stat.'}
-    - {symerror: 0.10, label: 'sys.'}
+    - {symerror: 0.08, label: 'sys.'}
   - value: 0.406
     errors:
     - {symerror: 0.028, label: 'stat.'}
-    - {symerror: 0.06, label: 'sys.'}
+    - {symerror: 0.05, label: 'sys.'}
   - value: 0.254
     errors:
-    - {symerror: 0.02, label: 'stat.'}
-    - {symerror: 0.04, label: 'sys.'}
-  - value: 0.19
+    - {symerror: 0.020, label: 'stat.'}
+    - {symerror: 0.034, label: 'sys.'}
+  - value: 0.190
     errors:
     - {symerror: 0.012, label: 'stat.'}
-    - {symerror: 0.03, label: 'sys.'}
+    - {symerror: 0.025, label: 'sys.'}
   - value: 0.119
     errors:
     - {symerror: 0.014, label: 'stat.'}
-    - {symerror: 0.02, label: 'sys.'}
+    - {symerror: 0.016, label: 'sys.'}
 - header: {name: '$\frac{1}{2\pi p_T} \frac{1}{N_{evt}} \frac{d^2N}{dp_Tdy}$'}
   qualifiers:
   - {name: 'Centrality', value: 'minimum-bias'}
@@ -50,31 +50,31 @@ dependent_variables:
   - value: 0.68
     errors:
     - {symerror: 0.23, label: 'stat.'}
-    - {symerror: 0.11, label: 'sys.'}
+    - {symerror: 0.09, label: 'sys.'}
   - value: 0.58
     errors:
     - {symerror: 0.09, label: 'stat.'}
-    - {symerror: 0.09, label: 'sys.'}
+    - {symerror: 0.08, label: 'sys.'}
   - value: 0.44
     errors:
     - {symerror: 0.04, label: 'stat.'}
-    - {symerror: 0.07, label: 'sys.'}
+    - {symerror: 0.06, label: 'sys.'}
   - value: 0.302
     errors:
     - {symerror: 0.022, label: 'stat.'}
-    - {symerror: 0.05, label: 'sys.'}
+    - {symerror: 0.04, label: 'sys.'}
   - value: 0.194
     errors:
     - {symerror: 0.015, label: 'stat.'}
-    - {symerror: 0.03, label: 'sys.'}
+    - {symerror: 0.026, label: 'sys.'}
   - value: 0.153
     errors:
     - {symerror: 0.012, label: 'stat.'}
-    - {symerror: 0.02, label: 'sys.'}
+    - {symerror: 0.021, label: 'sys.'}
   - value: 0.085
     errors:
     - {symerror: 0.011, label: 'stat.'}
-    - {symerror: 0.01, label: 'sys.'}
+    - {symerror: 0.011, label: 'sys.'}
 - header: {name: '$\frac{1}{2\pi p_T} \frac{1}{N_{evt}} \frac{d^2N}{dp_Tdy}$'}
   qualifiers:
   - {name: 'Centrality', value: '$5\%$ central'}
@@ -83,60 +83,60 @@ dependent_variables:
   - value: 2.7
     errors:
     - {symerror: 1.2, label: 'stat.'}
-    - {symerror: 0.43, label: 'sys.'}
-  - value: 2.4
+    - {symerror: 0.4, label: 'sys.'}
+  - value: 2.40
     errors:
     - {symerror: 0.5, label: 'stat.'}
-    - {symerror: 0.38, label: 'sys.'}
+    - {symerror: 0.32, label: 'sys.'}
   - value: 2.02
     errors:
     - {symerror: 0.22, label: 'stat.'}
-    - {symerror: 0.32, label: 'sys.'}
+    - {symerror: 0.27, label: 'sys.'}
   - value: 1.64
     errors:
-    - {symerror: 0.2, label: 'stat.'}
-    - {symerror: 0.26, label: 'sys.'}
+    - {symerror: 0.20, label: 'stat.'}
+    - {symerror: 0.22, label: 'sys.'}
   - value: 1.19
     errors:
     - {symerror: 0.15, label: 'stat.'}
-    - {symerror: 0.19, label: 'sys.'}
+    - {symerror: 0.16, label: 'sys.'}
   - value: 0.71
     errors:
     - {symerror: 0.08, label: 'stat.'}
-    - {symerror: 0.11, label: 'sys.'}
+    - {symerror: 0.09, label: 'sys.'}
   - value: 0.38
     errors:
-    - {symerror: 0.1, label: 'stat.'}
-    - {symerror: 0.06, label: 'sys.'}
+    - {symerror: 0.10, label: 'stat.'}
+    - {symerror: 0.05, label: 'sys.'}
 - header: {name: '$\frac{1}{2\pi p_T} \frac{1}{N_{evt}} \frac{d^2N}{dp_Tdy}$'}
   qualifiers:
   - {name: 'Centrality', value: '$5\%$ central'}
   - {name: 'Particle', value: '$\bar{\Lambda}$'}
   values:
-  - value: 1.9
+  - value: 1.91
     errors:
     - {symerror: 1.1, label: 'stat.'}
-    - {symerror: 0.30, label: 'sys.'}
-  - value: 1.7
+    - {symerror: 0.26, label: 'sys.'}
+  - value: 1.73
     errors:
     - {symerror: 0.4, label: 'stat.'}
-    - {symerror: 0.27, label: 'sys.'}
+    - {symerror: 0.23, label: 'sys.'}
   - value: 1.43
     errors:
     - {symerror: 0.25, label: 'stat.'}
-    - {symerror: 0.23, label: 'sys.'}
+    - {symerror: 0.19, label: 'sys.'}
   - value: 1.22
     errors:
     - {symerror: 0.15, label: 'stat.'}
-    - {symerror: 0.20, label: 'sys.'}
-  - value: 0.8
+    - {symerror: 0.16, label: 'sys.'}
+  - value: 0.80
     errors:
     - {symerror: 0.12, label: 'stat.'}
-    - {symerror: 0.13, label: 'sys.'}
+    - {symerror: 0.11, label: 'sys.'}
   - value: 0.57
     errors:
     - {symerror: 0.07, label: 'stat.'}
-    - {symerror: 0.09, label: 'sys.'}
+    - {symerror: 0.08, label: 'sys.'}
   - value: 0.27
     errors:
     - {symerror: 0.06, label: 'stat.'}

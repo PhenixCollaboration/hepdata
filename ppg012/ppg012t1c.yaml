@@ -1,0 +1,50 @@
+independent_variables:
+- header: {name: 'Particle'}
+  values:
+  - {value: '$\Lambda$'}
+  - {value: '$\bar{\Lambda}$'}
+  - {value: '$p$'}
+  - {value: '$\bar{p}$'}
+
+dependent_variables:
+- header: {name: '$T$'}
+  qualifiers:
+  - {name: 'Centrality', value: 'Minimum Bias'}
+  values:
+  - value: 355
+    errors:
+    - {symerror: 11, label: 'stat.'}
+    - {symerror: 57, label: 'sys.'}
+  - value: 366
+    errors:
+    - {symerror: 13, label: 'stat.'}
+    - {symerror: 59, label: 'sys.'}
+  - value: 292
+    errors:
+    - {symerror: 21, label: 'stat.'}
+    - {symerror: 50, label: 'sys.'}
+  - value: 304
+    errors:
+    - {symerror: 23, label: 'stat.'}
+    - {symerror: 52, label: 'sys.'}
+- header: {name: '$T$'}
+  qualifiers:
+  - {name: 'Centrality', value: '5%'}
+  values:
+  - value: 384
+    errors:
+    - {symerror: 16, label: 'stat.'}
+    - {symerror: 61, label: 'sys.'}
+  - value: 380
+    errors:
+    - {symerror: 19, label: 'stat.'}
+    - {symerror: 61, label: 'sys.'}
+  - value: 319
+    errors:
+    - {symerror: 31, label: 'stat.'}
+    - {symerror: 54, label: 'sys.'}
+  - value: 327
+    errors:
+    - {symerror: 34, label: 'stat.'}
+    - {symerror: 52, label: 'sys.'}
+    
