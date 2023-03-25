@@ -1,0 +1,142 @@
+independent_variables:
+- header: {name: 'Centrality'}
+  values:
+  - {low: 5, high: 10}
+  - {low: 10, high: 15}
+  - {low: 15, high: 20}
+  - {low: 20, high: 25}
+  - {low: 25, high: 30}
+  - {low: 30, high: 35}
+  - {low: 35, high: 40}
+  - {low: 40, high: 45}
+  - {low: 45, high: 50}
+  - {low: 50, high: 55}
+  - {low: 55, high: 60}
+- header: {name: '$\langle N_{part} \rangle$'}
+  values:
+  - {value: 345.1}
+  - {value: 296.3}
+  - {value: 250.3}
+  - {value: 211}
+  - {value: 177.7}
+  - {value: 148.7}
+  - {value: 123.8}
+  - {value: 102.1}
+  - {value: 82.9}
+  - {value: 66.2}
+  - {value: 45.9}
+dependent_variables:
+- header: {name: '$v_2$'}
+  qualifiers:
+  - {name: '$p_T$ (GeV/$c$)', value: '1.35 GeV/$c$'}
+  - {name: '$\sqrt{s_{NN}}$', value: '62.4 GeV'}
+  values:
+  - value: 0.050
+    errors:
+    - {symerror: 0.004, label: 'sys.'}
+  - value: 0.069
+    errors:
+    - {symerror: 0.004, label: 'sys.'}
+  - value: 0.090
+    errors:
+    - {symerror: 0.004, label: 'sys.'}
+  - value: 0.114
+    errors:
+    - {symerror: 0.004, label: 'sys.'}
+  - value: 0.130
+    errors:
+    - {symerror: 0.004, label: 'sys.'}
+  - value: 0.1423
+    errors:
+    - {symerror: 0.0011, label: 'sys.'}
+  - value: 0.152
+    errors:
+    - {symerror: 0.005, label: 'sys.'}
+  - value: 0.162
+    errors:
+    - {symerror: 0.006, label: 'sys.'}
+  - value: 0.167
+    errors:
+    - {symerror: 0.009, label: 'sys.'}
+  - value: 0.166
+    errors:
+    - {symerror: 0.011, label: 'sys.'}
+  - value: 0.177
+    errors:
+    - {symerror: 0.013, label: 'sys.'}
+- header: {name: '$v_2$'}
+  qualifiers:
+  - {name: '$p_T$ (GeV/$c$)', value: '0.75 GeV/$c$'}
+  - {name: '$\sqrt{s_{NN}}$', value: '62.4 GeV'}
+  values:
+  - value: 0.0230
+    errors:
+    - {symerror: 0.0017, label: 'sys.'}
+  - value: 0.0381
+    errors:
+    - {symerror: 0.0017, label: 'sys.'}
+  - value: 0.0560
+    errors:
+    - {symerror: 0.0017, label: 'sys.'}
+  - value: 0.0687
+    errors:
+    - {symerror: 0.0018, label: 'sys.'}
+  - value: 0.0816
+    errors:
+    - {symerror: 0.0020, label: 'sys.'}
+  - value: 0.0932
+    errors:
+    - {symerror: 0.0023, label: 'sys.'}
+  - value: 0.0966
+    errors:
+    - {symerror: 0.0027, label: 'sys.'}
+  - value: 0.1049
+    errors:
+    - {symerror: 0.0034, label: 'sys.'}
+  - value: 0.1095
+    errors:
+    - {symerror: 0.0033, label: 'sys.'}
+  - value: 0.107
+    errors:
+    - {symerror: 0.004, label: 'sys.'}
+  - value: 0.109
+    errors:
+    - {symerror: 0.004, label: 'sys.'}
+- header: {name: '$v_2$'}
+  qualifiers:
+  - {name: '$p_T$ (GeV/$c$)', value: '0.4 GeV/$c$'}
+  - {name: '$\sqrt{s_{NN}}$', value: '62.4 GeV'}
+  values:
+  - value: 0.0120
+    errors:
+    - {symerror: 0.0010, label: 'sys.'}
+  - value: 0.0190
+    errors:
+    - {symerror: 0.0010, label: 'sys.'}
+  - value: 0.0260
+    errors:
+    - {symerror: 7e-4, label: 'sys.'}
+  - value: 0.0355
+    errors:
+    - {symerror: 7e-4, label: 'sys.'}
+  - value: 0.0421
+    errors:
+    - {symerror: 7e-4, label: 'sys.'}
+  - value: 0.0482
+    errors:
+    - {symerror: 8e-4, label: 'sys.'}
+  - value: 0.0536
+    errors:
+    - {symerror: 9e-4, label: 'sys.'}
+  - value: 0.0584
+    errors:
+    - {symerror: 0.0010, label: 'sys.'}
+  - value: 0.0609
+    errors:
+    - {symerror: 0.0012, label: 'sys.'}
+  - value: 0.0643
+    errors:
+    - {symerror: 0.0014, label: 'sys.'}
+  - value: 0.0649
+    errors:
+    - {symerror: 0.0022, label: 'sys.'}
