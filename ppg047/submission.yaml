@@ -2,7 +2,7 @@
 #
 #Saturation of azimuthal anisotropy in Au + Au collisions at $\sqrt{s_{NN}}$ = 62-200 GeV
 #
-#Phys.Rev.Lett. 94, 232302 (2003)
+#Phys.Rev.Lett. 94, 232302 (2005)
 #InspireHEP ID: 664944
 #ArXiv: [nucl-ex] 0411040
 #
@@ -34,7 +34,7 @@ comment: | # Information that applies to all data tables.
 ---
 # This is Figure 1.
 name: "Figure 1"
-location: Data from Fig. 1 of PRL 94, 232302 (2003)
+location: Data from Fig. 1 of PRL 94, 232302 (2005)
 description: Assorted-$p_T$ correlation functions (0.65 < $p_{T,ref}$ < 2.5 GeV/$c$) for charged hadrons of 0.5 < $p_T$ < 0.7 GeV/$c$ and 1.0 < $p_T$ < 1.5 obtained in Au+Au collisions at $\sqrt{S_{NN}}$ = 62.4 GeV.
 keywords: # used for searching, possibly multiple values for each keyword
 - {name: reactions, values: [AU + AU --> CHARGED X0]}
@@ -45,9 +45,113 @@ additional_resources:
 - location: "thumb_Fig1_ref.png"
   description: "Image File"
 ---
+# This is Figure 2a.
+name: "Figure 2a"
+location: Data from Fig. 2 of PRL PRL 94, 232302 (2005)
+description: Differential anisotropy $v_2$($p_T$) for charged hadrons in Au + Au collisions at $\sqrt{s_{NN}}$ = 200 GeV obtained via cumulants method
+keywords: # used for searching, possibly multiple values for each keyword
+- {name: reactions, values: [AU + AU --> CHARGED X0]}
+- {name: cmenergies, values: [200.0]} # centre-of-mass energy in GeV
+- {name: phrases, values: [ppg047]}
+data_file: ppg047f2a.yaml
+additional_resources:
+- location: "thumb_Fig2_ref.png"
+  description: "Image File"
+---
+# This is Figure 2b.
+name: "Figure 2b"
+location: Data from Fig. 2 of PRL PRL 94, 232302 (2005)
+description: Differential anisotropy $v_2$($p_T$) for charged hadrons in Au + Au collisions at $\sqrt{s_{NN}}$ = 200 GeV obtained via correlation function method
+keywords: # used for searching, possibly multiple values for each keyword
+- {name: reactions, values: [AU + AU --> CHARGED X0]}
+- {name: cmenergies, values: [200.0]} # centre-of-mass energy in GeV
+- {name: phrases, values: [ppg047]}
+data_file: ppg047f2b.yaml
+additional_resources:
+- location: "thumb_Fig2_ref.png"
+  description: "Image File"
+---
+# This is Figure 2c.
+name: "Figure 2c"
+location: Data from Fig. 2 of PRL PRL 94, 232302 (2005)
+description: Differential anisotropy $v_2$($p_T$) for charged hadrons in Au + Au collisions at $\sqrt{s_{NN}}$ = 200 GeV obtained via reaction plane methods
+keywords: # used for searching, possibly multiple values for each keyword
+- {name: reactions, values: [AU + AU --> CHARGED X0]}
+- {name: cmenergies, values: [200.0]} # centre-of-mass energy in GeV
+- {name: phrases, values: [ppg047]}
+data_file: ppg047f2c.yaml
+additional_resources:
+- location: "thumb_Fig2_ref.png"
+  description: "Image File"
+---
+# This is Figure 3a.
+name: "Figure 3a"
+location: Data from Fig. 3 of PRL PRL 94, 232302 (2005)
+description: Differential anisotropy as a function of centrality for $\sqrt{s_{NN}}$ = 62.4 GeV/$c$
+keywords: # used for searching, possibly multiple values for each keyword
+- {name: reactions, values: [AU + AU --> CHARGED X0]}
+- {name: cmenergies, values: [200.0]} # centre-of-mass energy in GeV
+- {name: phrases, values: [ppg047]}
+data_file: ppg047f3a.yaml
+additional_resources:
+- location: "thumb_Fig3_ref.png"
+  description: "Image File"
+---
+# This is Figure 3b.
+name: "Figure 3b"
+location: Data from Fig. 3 of PRL PRL 94, 232302 (2005)
+description: Differential anisotropy as a function of centrality for $\sqrt{s_{NN}}$ = 130 GeV/$c$
+keywords: # used for searching, possibly multiple values for each keyword
+- {name: reactions, values: [AU + AU --> CHARGED X0]}
+- {name: cmenergies, values: [200.0]} # centre-of-mass energy in GeV
+- {name: phrases, values: [ppg047]}
+data_file: ppg047f3b.yaml
+additional_resources:
+- location: "thumb_Fig3_ref.png"
+  description: "Image File"
+---
+# This is Figure 3c.
+name: "Figure 3c"
+location: Data from Fig. 3 of PRL PRL 94, 232302 (2005)
+description: Differential anisotropy as a function of centrality for $\sqrt{s_{NN}}$ = 200 GeV/$c$
+keywords: # used for searching, possibly multiple values for each keyword
+- {name: reactions, values: [AU + AU --> CHARGED X0]}
+- {name: cmenergies, values: [200.0]} # centre-of-mass energy in GeV
+- {name: phrases, values: [ppg047]}
+data_file: ppg047f3c.yaml
+additional_resources:
+- location: "thumb_Fig3_ref.png"
+  description: "Image File"
+---
+# This is Figure 3d.
+name: "Figure 3d"
+location: Data from Fig. 3 of PRL PRL 94, 232302 (2005)
+description: Differential anisotropy $v_2$($p_T$) for centrality selection 13 - 26%.
+keywords: # used for searching, possibly multiple values for each keyword
+- {name: reactions, values: [AU + AU --> CHARGED X0]}
+- {name: cmenergies, values: [200.0]} # centre-of-mass energy in GeV
+- {name: phrases, values: [ppg047]}
+data_file: ppg047f3d.yaml
+additional_resources:
+- location: "thumb_Fig3_ref.png"
+  description: "Image File"
+---
+# This is Figure 3e.
+name: "Figure 3e"
+location: Data from Fig. 3 of PRL PRL 94, 232302 (2005)
+description: Differential anisotropy $v_2$($p_T$) for centrality selection 13 - 26%.
+keywords: # used for searching, possibly multiple values for each keyword
+- {name: reactions, values: [AU + AU --> CHARGED X0]}
+- {name: cmenergies, values: [200.0]} # centre-of-mass energy in GeV
+- {name: phrases, values: [ppg047]}
+data_file: ppg047f3e.yaml
+additional_resources:
+- location: "thumb_Fig3_ref.png"
+  description: "Image File"
+---
 # This is Figure 4.
 name: "Figure 4"
-location: Data from Fig. 4 of PRL PRL 94, 232302 (2003)
+location: Data from Fig. 4 of PRL PRL 94, 232302 (2005)
 description: Differential $v_2$ vs. $\sqrt{S_{NN}}$ for charged hadrons in nucleus-nucleus collisions. Results are shown for the centrality cut of 13 - 26% and $p_T$ selections of 1.75 GeV/$c$ and 0.65 GeV/$c$.
 keywords: # used for searching, possibly multiple values for each keyword
 - {name: reactions, values: [AU + AU --> CHARGED X0]}

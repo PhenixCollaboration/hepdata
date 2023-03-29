@@ -1,8 +1,6 @@
 independent_variables:
-- header: {name: '$p_T$ (GeV/$c$)'}
+- header: {name: '$p_T$ Bins (GeV/$c$)'}
   values:
-  - {low: 0.50, high: 0.75}
-  - {low: 0.75, high: 1.00}
   - {low: 1.00, high: 1.50}
   - {low: 1.50, high: 2.00}
   - {low: 2.00, high: 2.50}
@@ -12,43 +10,44 @@ independent_variables:
   - {low: 4.00, high: 5.00}
   - {low: 5.00, high: 6.00}
   - {low: 6.00, high: 7.00}
-  - {low: 7.00, high: 9.00}
+- header: {name: '$p_T$ (GeV/$c$)'}
+  values:
+  - value: 1.29
+  - value: 1.75
+  - value: 2.22
+  - value: 2.72
+  - value: 3.21
+  - value: 3.71
+  - value: 4.38
+  - value: 5.40
+  - value: 6.41
 dependent_variables:
 - header: {name: '$A_{TT}$'}
   values:
-  - value: 6.20E-01
+  - value: -4.00E-04
     errors:
-    - {asymerror: {minus: -1.69E-03, plus: 9.60E-04}, label: 'stat.'}
-  - value: 8.60E-01
+    - {symerror: 8.90E-03, label: 'stat.'}
+  - value: 9.80E-03
     errors:
-    - {asymerror: {minus: 1.50E-03, plus: 1.00E-03}, label: 'stat.'}
-  - value: 1.29E+00
+    - {symerror: 6.20E-03, label: 'stat.'}
+  - value: -2.40E-03
     errors:
-    - {asymerror: {minus: 7.10E-04, plus: 7.00E-04}, label: 'stat.'}
-  - value: 1.75E+00
+    - {symerror: 6.80E-03, label: 'stat.'}
+  - value: 3.90E-03
     errors:
-    - {asymerror: {minus: 7.00E-05, plus: 5.00E-04}, label: 'stat.'}
-  - value: 2.22E+00
+    - {symerror: 9.40E-03, label: 'stat.'}
+  - value: 3.00E-03
     errors:
-    - {asymerror: {minus: 3.80E-04, plus: 5.50E-04}, label: 'stat.'}
-  - value: 2.72E+00
+    - {symerror: 1.40E-02, label: 'stat.'}
+  - value: 1.50E-02
     errors:
-    - {asymerror: {minus: -3.00E-04, plus: 7.50E-04}, label: 'stat.'}
-  - value: 3.21E+00
+    - {symerror: 2.10E-02, label: 'stat.'}
+  - value: -2.00E-02
     errors:
-    - {asymerror: {minus: -2.00E-04, plus: 1.10E-03}, label: 'stat.'}
-  - value: 3.72E+00
+    - {symerror: 2.60E-02, label: 'stat.'}
+  - value: -4.00E-03
     errors:
-    - {asymerror: {minus: -1.40E-03, plus: 1.70E-03}, label: 'stat.'}
-  - value: 4.38E+00
+    - {symerror: 5.20E-02, label: 'stat.'}
+  - value: 1.80E-02
     errors:
-    - {asymerror: {minus: -8.00E-04, plus: 2.10E-03}, label: 'stat.'}
-  - value: 5.40E+00
-    errors:
-    - {asymerror: {minus: -3.40E-03, plus: 4.20E-03}, label: 'stat.'}
-  - value: 6.41E+00
-    errors:
-    - {asymerror: {minus: -1.00E-02, plus: 7.50E-03}, label: 'stat.'}
-  - value: 7.79E+00
-    errors:
-    - {asymerror: {minus: 1.00E-03, plus: 1.00E-02}, label: 'stat.'}
+    - {symerror: 9.30E-02, label: 'stat.'}

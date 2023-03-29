@@ -1,20 +1,20 @@
 independent_variables:
 - header: {name: '$p_T$ (GeV/$c$)'}
   values:
-  - {low: 0.35, high: 0.45}
-  - {low: 0.45, high: 0.55}
-  - {low: 0.55, high: 0.65}
-  - {low: 0.65, high: 0.75}
-  - {low: 0.75, high: 0.85}
-  - {low: 0.85, high: 0.95}
-  - {low: 0.95, high: 1.05}
-  - {low: 1.05, high: 1.15}
-  - {low: 1.15, high: 1.3}
-  - {low: 1.3, high: 1.5}
-  - {low: 1.5, high: 1.7}
-  - {low: 1.7, high: 1.9}
-  - {low: 1.9, high: 2.222}
-  - {low: 2.22, high: 2.722}
+  - {low: 0.4, high: 0.5}
+  - {low: 0.5, high: 0.6}
+  - {low: 0.6, high: 0.7}
+  - {low: 0.7, high: 0.8}
+  - {low: 0.8, high: 0.9}
+  - {low: 0.9, high: 1}
+  - {low: 1, high: 1.1}
+  - {low: 1.1, high: 1.2}
+  - {low: 1.2, high: 1.4}
+  - {low: 1.4, high: 1.6}
+  - {low: 1.6, high: 1.8}
+  - {low: 1.8, high: 2}
+  - {low: 2, high: 2.5}
+  - {low: 2.5, high: 3}
 dependent_variables:
 - header: {name: '$\frac{1}{2\pi p_T} \frac{d^2N}{dp_T d\eta}$'}
   qualifiers:
@@ -28,11 +28,11 @@ dependent_variables:
     - {symerror: 0.014, label: 'Stat'}
   - value: 0.192
     errors:
-    - {symerror: 0.010, label: 'Stat'}
+    - {symerror: 0.01, label: 'Stat'}
   - value: 0.099
     errors:
     - {symerror: 0.006, label: 'Stat'}
-  - value: 0.050
+  - value: 0.05
     errors:
     - {symerror: 0.004, label: 'Stat'}
   - value: 0.0304
@@ -40,25 +40,25 @@ dependent_variables:
     - {symerror: 0.0028, label: 'Stat'}
   - value: 0.0149
     errors:
-    - {symerror: 0.0020, label: 'Stat'}
+    - {symerror: 0.002, label: 'Stat'}
   - value: 0.0145
     errors:
     - {symerror: 0.0017, label: 'Stat'}
   - value: 0.0058
     errors:
-    - {symerror: 8e-4, label: 'Stat'}
+    - {symerror: 8.00E-04, label: 'Stat'}
   - value: 0.0017
     errors:
-    - {symerror: 4e-4, label: 'Stat'}
+    - {symerror: 4.00E-04, label: 'Stat'}
   - value: 0.0015
     errors:
-    - {symerror: 4e-4, label: 'Stat'}
-  - value: 4.9e-4
+    - {symerror: 4.00E-04, label: 'Stat'}
+  - value: 4.90E-04
     errors:
-    - {symerror: 1.7e-4, label: 'Stat'}
-  - value: 1.2e-4
+    - {symerror: 1.70E-04, label: 'Stat'}
+  - value: 1.20E-04
     errors:
-    - {symerror: 4e-5, label: 'Stat'}
-  - value: 2.6e-5
+    - {symerror: 4.00E-05, label: 'Stat'}
+  - value: 2.60E-05
     errors:
-    - {symerror: 2.8e-5, label: 'Stat'}
+    - {symerror: 2.80E-05, label: 'Stat'}

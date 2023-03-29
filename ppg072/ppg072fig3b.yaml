@@ -1,0 +1,83 @@
+independent_variables:
+- header: {name: '$\Delta\phi$ Bins'}
+  values:
+  - {low: 0.00, high: 0.16}
+  - {low: 0.16, high: 0.32}
+  - {low: 0.32, high: 0.46}
+  - {low: 0.46, high: 0.62}
+  - {low: 0.80, high: 0.92}
+  - {low: 1.12, high: 1.24}
+  - {low: 2.20, high: 2.36}
+  - {low: 2.36, high: 2.50}
+  - {low: 2.50, high: 2.68}
+  - {low: 2.68, high: 2.82}
+  - {low: 2.82, high: 3.00}
+  - {low: 3.00, high: 3.12}
+- header: {name: '$\Delta\phi$'}
+  values:
+  - value: 0.0785
+  - value: 0.2356
+  - value: 0.3927
+  - value: 0.5498
+  - value: 1.0210
+  - value: 1.1781
+  - value: 2.2777
+  - value: 2.4347
+  - value: 2.5918
+  - value: 2.7489
+  - value: 2.9060
+  - value: 3.0631
+dependent_variables:
+- header: {name: '$1/{N_{trig}}$ ${dN}/{\Delta\phi}$'}
+  qualifiers:
+  - {name: 'Centrality', value: '60-90%'}
+  - {name: 'Particle Type', value: '$\bar{p}$ triggers, $\bar{p}$ partners'}
+  values:
+  - value: 7.430E-03
+    errors:
+    - {symerror: 3.728E-03, label: 'stat.'}
+    - {symerror: 3.715E-04, label: 'sys.'}
+  - value: 4.227E-03
+    errors:
+    - {symerror: 3.007E-03, label: 'stat.'}
+    - {symerror: 2.113E-04, label: 'sys.'}
+  - value: 8.469E-03
+    errors:
+    - {symerror: 3.795E-03, label: 'stat.'}
+    - {symerror: 4.235E-04, label: 'sys.'}
+  - value: 1.869E-03
+    errors:
+    - {symerror: 1.871E-03, label: 'stat.'}
+    - {symerror: 9.347E-05, label: 'sys.'}
+  - value: 9.142E-03
+    errors:
+    - {symerror: 4.092E-03, label: 'stat.'}
+    - {symerror: 4.571E-04, label: 'sys.'}
+  - value: 8.967E-03
+    errors:
+    - {symerror: 9.011E-03, label: 'stat.'}
+    - {symerror: 4.484E-04, label: 'sys.'}
+  - value: 7.698E-03
+    errors:
+    - {symerror: 4.463E-03, label: 'stat.'}
+    - {symerror: 3.849E-04, label: 'sys.'}
+  - value: 6.209E-03
+    errors:
+    - {symerror: 3.115E-03, label: 'stat.'}
+    - {symerror: 3.104E-04, label: 'sys.'}
+  - value: 7.087E-03
+    errors:
+    - {symerror: 2.695E-03, label: 'stat.'}
+    - {symerror: 3.544E-04, label: 'sys.'}
+  - value: 8.109E-03
+    errors:
+    - {symerror: 2.724E-03, label: 'stat.'}
+    - {symerror: 4.055E-04, label: 'sys.'}
+  - value: 6.037E-03
+    errors:
+    - {symerror: 2.707E-03, label: 'stat.'}
+    - {symerror: 3.019E-04, label: 'sys.'}
+  - value: 2.338E-03
+    errors:
+    - {symerror: 1.655E-03, label: 'stat.'}
+    - {symerror: 1.169E-04, label: 'sys.'}

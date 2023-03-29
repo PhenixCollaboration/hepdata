@@ -1,0 +1,158 @@
+independent_variables:
+- header: {name: 'Centrality (%)'}
+  values:
+  - {low: 0, high: 5}
+  - {low: 5, high: 10}
+  - {low: 10, high: 20}
+  - {low: 20, high: 40}
+  - {low: 40, high: 60}
+  - {low: 60, high: 90}
+- header: {name: '$N_{part}$'}
+  values:
+  - value: 351
+  - value: 300
+  - value: 235
+  - value: 140
+  - value: 60
+  - value: 15
+dependent_variables:
+- header: {name: 'near side yield/trigger'}
+  qualifiers:
+  - {name: 'Particle Type', value: 'trigger proton, associated proton'}
+  values:
+  - value: 5.189E-03
+    errors:
+    - {symerror: 3.852E-03, label: 'stat.'}
+    - {symerror: 8.900E-04, label: 'sys.'}
+  - value: 6.105E-04
+    errors:
+    - {symerror: 3.568E-03, label: 'stat.'}
+    - {symerror: 9.800E+01, label: 'sys.'}
+  - value: -1.379E-03
+    errors:
+    - {symerror: 2.350E-03, label: 'stat.'}
+    - {symerror: 1.000E-03, label: 'sys.'}
+  - value: 1.465E-04
+    errors:
+    - {symerror: 1.599E-03, label: 'stat.'}
+    - {symerror: 1.100E-03, label: 'sys.'}
+  - value: 1.634E-03
+    errors:
+    - {symerror: 1.533E-03, label: 'stat.'}
+    - {symerror: 6.400E-04, label: 'sys.'}
+  - value: 1.196E-04
+    errors:
+    - {symerror: 1.272E-03, label: 'stat.'}
+    - {symerror: 1.800E-04, label: 'sys.'}
+- header: {name: 'near side yield/trigger'}
+  qualifiers:
+  - {name: 'Particle Type', value: 'trigger proton, associated anti-proton'}
+  values:
+  - value: 4.631E-03
+    errors:
+    - {symerror: 3.892E-03, label: 'stat.'}
+    - {symerror: 6.700E-04, label: 'sys.'}
+  - value: 1.277E-02
+    errors:
+    - {symerror: 3.605E-03, label: 'stat.'}
+    - {symerror: 9.500E-04, label: 'sys.'}
+  - value: 7.333E-03
+    errors:
+    - {symerror: 2.418E-03, label: 'stat.'}
+    - {symerror: 8.300E-04, label: 'sys.'}
+  - value: 6.621E-03
+    errors:
+    - {symerror: 1.598E-03, label: 'stat.'}
+    - {symerror: 8.200E-04, label: 'sys.'}
+  - value: 7.435E-03
+    errors:
+    - {symerror: 1.629E-03, label: 'stat.'}
+    - {symerror: 5.800E-04, label: 'sys.'}
+  - value: 3.315E-03
+    errors:
+    - {symerror: 1.515E-03, label: 'stat.'}
+    - {symerror: 2.100E-04, label: 'sys.'}
+- header: {name: 'near side yield/trigger'}
+  qualifiers:
+  - {name: 'Particle Type', value: 'trigger anti-proton, associated proton'}
+  values:
+  - value: 1.872E-02
+    errors:
+    - {symerror: 4.961E-03, label: 'stat.'}
+    - {symerror: 1.300E-03, label: 'sys.'}
+  - value: 9.913E-03
+    errors:
+    - {symerror: 4.576E-03, label: 'stat.'}
+    - {symerror: 1.100E-03, label: 'sys.'}
+  - value: 1.076E-02
+    errors:
+    - {symerror: 3.001E-03, label: 'stat.'}
+    - {symerror: 1.100E-03, label: 'sys.'}
+  - value: 9.143E-03
+    errors:
+    - {symerror: 2.085E-03, label: 'stat.'}
+    - {symerror: 1.200E-03, label: 'sys.'}
+  - value: 8.669E-03
+    errors:
+    - {symerror: 2.050E-03, label: 'stat.'}
+    - {symerror: 7.600E-04, label: 'sys.'}
+  - value: 5.025E-03
+    errors:
+    - {symerror: 2.008E-03, label: 'stat.'}
+    - {symerror: 3.200E-04, label: 'sys.'}
+- header: {name: 'near side yield/trigger'}
+  qualifiers:
+  - {name: 'Particle Type', value: 'trigger anti-proton, associated anti-proton'}
+  values:
+  - value: -4.350E-03
+    errors:
+    - {symerror: 4.307E-03, label: 'stat.'}
+    - {symerror: 6.800E-04, label: 'sys.'}
+  - value: 1.368E-03
+    errors:
+    - {symerror: 3.951E-03, label: 'stat.'}
+    - {symerror: 7.100E-04, label: 'sys.'}
+  - value: -4.118E-04
+    errors:
+    - {symerror: 2.645E-03, label: 'stat.'}
+    - {symerror: 7.300E-04, label: 'sys.'}
+  - value: -4.280E-04
+    errors:
+    - {symerror: 1.736E-03, label: 'stat.'}
+    - {symerror: 7.600E-04, label: 'sys.'}
+  - value: 3.018E-03
+    errors:
+    - {symerror: 1.708E-03, label: 'stat.'}
+    - {symerror: 4.700E-04, label: 'sys.'}
+  - value: -1.083E-03
+    errors:
+    - {symerror: 1.192E-03, label: 'stat.'}
+    - {symerror: 1.400E-04, label: 'sys.'}
+- header: {name: 'near side yield/trigger'}
+  qualifiers:
+  - {name: 'Particle Type', value: 'trigger baryon, associated baryon'}
+  values:
+  - value: 9.854E-03
+    errors:
+    - {symerror: 4.069E-03, label: 'stat.'}
+    - {symerror: 1.600E-03, label: 'sys.'}
+  - value: 9.646E-03
+    errors:
+    - {symerror: 3.751E-03, label: 'stat.'}
+    - {symerror: 1.800E-03, label: 'sys.'}
+  - value: 7.241E-03
+    errors:
+    - {symerror: 2.496E-03, label: 'stat.'}
+    - {symerror: 1.800E-03, label: 'sys.'}
+  - value: 7.400E-03
+    errors:
+    - {symerror: 1.683E-03, label: 'stat.'}
+    - {symerror: 1.800E-03, label: 'sys.'}
+  - value: 9.615E-03
+    errors:
+    - {symerror: 1.657E-03, label: 'stat.'}
+    - {symerror: 1.200E-03, label: 'sys.'}
+  - value: 3.873E-03
+    errors:
+    - {symerror: 1.603E-03, label: 'stat.'}
+    - {symerror: 3.700E-04, label: 'sys.'}

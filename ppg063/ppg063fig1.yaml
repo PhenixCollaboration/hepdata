@@ -1,5 +1,5 @@
 independent_variables:
-- header: {name: '$p_T$ (GeV/$c$)'}
+- header: {name: '$p_T$ Bins (GeV/$c$)'}
   values:
   - {low: 0.50, high: 0.75}
   - {low: 0.75, high: 1.00}
@@ -22,10 +22,37 @@ independent_variables:
   - {low: 9.00, high: 9.50}
   - {low: 9.50, high: 10.00}
   - {low: 10.00, high: 12.00}
-  - {low: 12.00, high: 13.00}
-  - {low: 13.00, high: 16.00}
+  - {low: 12.00, high: 14.00}
+  - {low: 14.00, high: 16.00}
   - {low: 16.00, high: 18.00}
   - {low: 18.00, high: 20.00}
+- header: {name: '$p_T$ (GeV/$c$)'}
+  values:
+  - value: 0.616
+  - value: 0.866
+  - value: 1.215
+  - value: 1.719
+  - value: 2.223
+  - value: 2.725
+  - value: 3.228
+  - value: 3.730
+  - value: 4.231
+  - value: 4.732
+  - value: 5.234
+  - value: 5.735
+  - value: 6.237
+  - value: 6.738
+  - value: 7.238
+  - value: 7.739
+  - value: 8.240
+  - value: 8.740
+  - value: 9.241
+  - value: 9.741
+  - value: 10.880
+  - value: 12.900
+  - value: 14.910
+  - value: 16.920
+  - value: 18.930
 dependent_variables:
 - header: {name: '$E*d^3$ $\sigma/dp^3$ ($mb*GeV^{-2}*c^3$)'}
   values:

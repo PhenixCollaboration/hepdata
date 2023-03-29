@@ -1,0 +1,128 @@
+independent_variables:
+- header: {name: '$p_T$ (GeV/$c$)'}
+  values:
+  - {low: 1.00, high: 1.50}
+  - {low: 1.50, high: 2.00}
+  - {low: 2.00, high: 2.50}
+  - {low: 2.50, high: 3.00}
+  - {low: 3.00, high: 3.50}
+  - {low: 3.50, high: 4.00}
+  - {low: 4.00, high: 4.50}
+  - {low: 4.50, high: 5.00}
+  - {low: 5.00, high: 5.50}
+  - {low: 5.50, high: 6.00}
+  - {low: 6.00, high: 6.50}
+  - {low: 6.50, high: 7.00}
+  - {low: 7.00, high: 7.50}
+  - {low: 7.50, high: 8.00}
+  - {low: 8.00, high: 8.50}
+  - {low: 8.50, high: 9.00}
+  - {low: 9.00, high: 9.50}
+  - {low: 9.50, high: 10.00}
+  - {low: 10.00, high: 12.00}
+  - {low: 12.00, high: 14.00}
+dependent_variables:
+- header: {name: '$1/{N_{evt}}$${d^2N}/{p_Tdp_Tdy}$ (GeV/$c$)$^{-2}$'}
+  qualifiers:
+  - {name: 'Centrality', value: '60-70%'}
+  values:
+  - value: 1.59E-01
+    errors:
+    - {symerror: 1.76E-03, label: 'stat.'}
+    - {symerror: 1.76E-03, label: 'sys. (uncorr.)'}
+    - {symerror: 1.06E-02, label: 'sys. (corr.)'}
+  - value: 2.81E-02
+    errors:
+    - {symerror: 2.69E-04, label: 'stat.'}
+    - {symerror: 2.69E-04, label: 'sys. (uncorr.)'}
+    - {symerror: 1.86E-03, label: 'sys. (corr.)'}
+  - value: 5.99E-03
+    errors:
+    - {symerror: 5.49E-05, label: 'stat.'}
+    - {symerror: 5.49E-05, label: 'sys. (uncorr.)'}
+    - {symerror: 4.29E-04, label: 'sys. (corr.)'}
+  - value: 1.54E-03
+    errors:
+    - {symerror: 1.51E-05, label: 'stat.'}
+    - {symerror: 1.51E-05, label: 'sys. (uncorr.)'}
+    - {symerror: 1.16E-04, label: 'sys. (corr.)'}
+  - value: 4.62E-04
+    errors:
+    - {symerror: 5.16E-06, label: 'stat.'}
+    - {symerror: 5.16E-06, label: 'sys. (uncorr.)'}
+    - {symerror: 3.60E-05, label: 'sys. (corr.)'}
+  - value: 1.54E-04
+    errors:
+    - {symerror: 2.09E-06, label: 'stat.'}
+    - {symerror: 2.09E-06, label: 'sys. (uncorr.)'}
+    - {symerror: 1.20E-05, label: 'sys. (corr.)'}
+  - value: 5.73E-05
+    errors:
+    - {symerror: 1.04E-06, label: 'stat.'}
+    - {symerror: 1.04E-06, label: 'sys. (uncorr.)'}
+    - {symerror: 4.46E-06, label: 'sys. (corr.)'}
+  - value: 2.35E-05
+    errors:
+    - {symerror: 5.68E-07, label: 'stat.'}
+    - {symerror: 5.68E-07, label: 'sys. (uncorr.)'}
+    - {symerror: 1.81E-06, label: 'sys. (corr.)'}
+  - value: 1.06E-05
+    errors:
+    - {symerror: 3.14E-07, label: 'stat.'}
+    - {symerror: 3.14E-07, label: 'sys. (uncorr.)'}
+    - {symerror: 8.06E-07, label: 'sys. (corr.)'}
+  - value: 5.26E-06
+    errors:
+    - {symerror: 2.08E-07, label: 'stat.'}
+    - {symerror: 2.08E-07, label: 'sys. (uncorr.)'}
+    - {symerror: 3.97E-07, label: 'sys. (corr.)'}
+  - value: 2.53E-06
+    errors:
+    - {symerror: 1.33E-07, label: 'stat.'}
+    - {symerror: 1.33E-07, label: 'sys. (uncorr.)'}
+    - {symerror: 1.88E-07, label: 'sys. (corr.)'}
+  - value: 1.43E-06
+    errors:
+    - {symerror: 6.45E-08, label: 'stat.'}
+    - {symerror: 6.45E-08, label: 'sys. (uncorr.)'}
+    - {symerror: 1.07E-07, label: 'sys. (corr.)'}
+  - value: 8.02E-07
+    errors:
+    - {symerror: 5.07E-08, label: 'stat.'}
+    - {symerror: 5.07E-08, label: 'sys. (uncorr.)'}
+    - {symerror: 7.63E-08, label: 'sys. (corr.)'}
+  - value: 4.27E-07
+    errors:
+    - {symerror: 3.14E-08, label: 'stat.'}
+    - {symerror: 3.14E-08, label: 'sys. (uncorr.)'}
+    - {symerror: 3.26E-08, label: 'sys. (corr.)'}
+  - value: 2.60E-07
+    errors:
+    - {symerror: 2.28E-08, label: 'stat.'}
+    - {symerror: 2.28E-08, label: 'sys. (uncorr.)'}
+    - {symerror: 2.01E-08, label: 'sys. (corr.)'}
+  - value: 1.83E-07
+    errors:
+    - {symerror: 1.86E-08, label: 'stat.'}
+    - {symerror: 1.86E-08, label: 'sys. (uncorr.)'}
+    - {symerror: 1.42E-08, label: 'sys. (corr.)'}
+  - value: 1.01E-07
+    errors:
+    - {symerror: 1.28E-08, label: 'stat.'}
+    - {symerror: 1.28E-08, label: 'sys. (uncorr.)'}
+    - {symerror: 8.12E-09, label: 'sys. (corr.)'}
+  - value: 7.58E-08
+    errors:
+    - {symerror: 1.12E-08, label: 'stat.'}
+    - {symerror: 1.12E-08, label: 'sys. (uncorr.)'}
+    - {symerror: 6.27E-09, label: 'sys. (corr.)'}
+  - value: 2.51E-08
+    errors:
+    - {symerror: 2.93E-09, label: 'stat.'}
+    - {symerror: 2.93E-09, label: 'sys. (uncorr.)'}
+    - {symerror: 2.45E-09, label: 'sys. (corr.)'}
+  - value: 7.60E-09
+    errors:
+    - {symerror: 1.60E-09, label: 'stat.'}
+    - {symerror: 1.60E-09, label: 'sys. (uncorr.)'}
+    - {symerror: 1.04E-09, label: 'sys. (corr.)'}

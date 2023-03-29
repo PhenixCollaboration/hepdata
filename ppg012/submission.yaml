@@ -31,7 +31,7 @@ comment: | # Information that applies to all data tables.
 # This is Figure 1a.
 name: "Figure 2"
 location: Data from Fig. 2 of PRL 89, 092302 (2002)
-description: Transverse momemntum spectra of $\Lambda$ and $\bar{\Lambda}$ for minimum-bias and for the $5\%$ most central events. For clarity of presentation, the data points for minimum-bias are scaled down by a factor of ten.
+description: Transverse momentum spectra of $\Lambda$ and $\bar{\Lambda}$ for minimum-bias and for the $5\%$ most central events.
 keywords: # used for searching, possibly multiple values for each keyword
 - {name: reactions, values: [AU + AU --> CHARGED X0]}
 - {name: cmenergies, values: [130.0]} # centre-of-mass energy in GeV
@@ -70,7 +70,7 @@ additional_resources:
 # This is Figure 4.
 name: "Figure 4a"
 location: Data from Fig. 4 of PRL 89, 092302 (2002)
-description: Spectra of inclusive $\Lambda$ ($\bar{\Lambda}$) for minimum-bias events. The data points for $\bar{\Lambda}$ are scaled down by a factor of two.
+description: Spectra of inclusive $\Lambda$ ($\bar{\Lambda}$) for minimum-bias events.
 keywords: # used for searching, possibly multiple values for each keyword
 - {name: reactions, values: [AU + AU --> CHARGED X0]}
 - {name: cmenergies, values: [130.0]} # centre-of-mass energy in GeV
@@ -83,7 +83,7 @@ additional_resources:
 # This is Figure 4.
 name: "Figure 4b"
 location: Data from Fig. 4 of PRL 89, 092302 (2002)
-description: Spectra of inclusive feed-down corrected protons (antiprotons) for minimum-bias events. The data points for antiprotons are scaled down by a factor of two.
+description: Spectra of inclusive feed-down corrected protons (antiprotons) for minimum-bias events.
 keywords: # used for searching, possibly multiple values for each keyword
 - {name: reactions, values: [AU + AU --> CHARGED X0]}
 - {name: cmenergies, values: [130.0]} # centre-of-mass energy in GeV
@@ -92,4 +92,46 @@ data_file: ppg012f4b.yaml
 additional_resources:
 - location: "thumb_figure_4.png"
   description: "Image File"
+---
+# This is Table I.
+name: "Table Ia"
+location: Data from Table I of PRL 89, 092302 (2002)
+description: Inclusive $\Lambda$ and feed-down corrected proton yields for minimum bias and for the 5% most central events. Systematic errors are 17% for protons and 16% for $\Lambda$
+keywords: # used for searching, possibly multiple values for each keyword
+- {name: reactions, values: [AU + AU --> CHARGED X0]}
+- {name: cmenergies, values: [130.0]} # centre-of-mass energy in GeV
+- {name: phrases, values: [ppg012]}
+data_file: ppg012t1a.yaml
+---
+# This is Table I.
+name: "Table Ib"
+location: Data from Table I of PRL 89, 092302 (2002)
+description: Inclusive $\Lambda$ and feed-down corrected average transverse momentum for minimum bias and for the 5% most central events. Systematic errors are 17% for protons and 16% for $\Lambda$
+keywords: # used for searching, possibly multiple values for each keyword
+- {name: reactions, values: [AU + AU --> CHARGED X0]}
+- {name: cmenergies, values: [130.0]} # centre-of-mass energy in GeV
+- {name: phrases, values: [ppg012]}
+data_file: ppg012t1b.yaml
+---
+# This is Table I.
+name: "Table Ic"
+location: Data from Table I of PRL 89, 092302 (2002)
+description: Inclusive $\Lambda$ and feed-down corrected slope parameters for minimum bias and for the 5% most central events. Systematic errors are 17% for protons and 16% for $\Lambda$
+keywords: # used for searching, possibly multiple values for each keyword
+- {name: reactions, values: [AU + AU --> CHARGED X0]}
+- {name: cmenergies, values: [130.0]} # centre-of-mass energy in GeV
+- {name: phrases, values: [ppg012]}
+data_file: ppg012t1c.yaml
+---
+# This is Table II.
+name: "Table II"
+location: Data from Table II of PRL 89, 092302 (2002)
+description: Total measured and predicted baryon yields for minimum-bias and for the 5% most central events. The proton yields are corrected for feed-down. The systematic errors are 24% for the protons and 23% for the $\Lambda$
+keywords: # used for searching, possibly multiple values for each keyword
+- {name: reactions, values: [AU + AU --> CHARGED X0]}
+- {name: cmenergies, values: [130.0]} # centre-of-mass energy in GeV
+- {name: phrases, values: [ppg012]}
+data_file: ppg012t2.yaml
+
+
 

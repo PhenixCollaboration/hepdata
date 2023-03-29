@@ -1,0 +1,50 @@
+independent_variables:
+- header: {name: 'Particle'}
+  values:
+  - {value: '$\Lambda$'}
+  - {value: '$\bar{\Lambda}$'}
+  - {value: '$p$'}
+  - {value: '$\bar{p}$'}
+
+dependent_variables:
+- header: {name: '$\langle p_T \rangle$'}
+  qualifiers:
+  - {name: 'Centrality', value: 'Minimum Bias'}
+  values:
+  - value: 1.06
+    errors:
+    - {symerror: 0.08, label: 'stat.'}
+    - {symerror: 0.16, label: 'sys.'}
+  - value: 1.10
+    errors:
+    - {symerror: 0.12, label: 'stat.'}
+    - {symerror: 0.18, label: 'sys.'}
+  - value: 0.88
+    errors:
+    - {symerror: 0.04, label: 'stat.'}
+    - {symerror: 0.15, label: 'sys.'}
+  - value: 0.91
+    errors:
+    - {symerror: 0.06, label: 'stat.'}
+    - {symerror: 0.15, label: 'sys.'}
+- header: {name: '$\langle p_T \rangle$'}
+  qualifiers:
+  - {name: 'Centrality', value: '5%'}
+  values:
+  - value: 1.15
+    errors:
+    - {symerror: 0.15, label: 'stat.'}
+    - {symerror: 0.18, label: 'sys.'}
+  - value: 1.14
+    errors:
+    - {symerror: 0.21, label: 'stat.'}
+    - {symerror: 0.18, label: 'sys.'}
+  - value: 0.95
+    errors:
+    - {symerror: 0.07, label: 'stat.'}
+    - {symerror: 0.16, label: 'sys.'}
+  - value: 1.04
+    errors:
+    - {symerror: 0.12, label: 'stat.'}
+    - {symerror: 0.18, label: 'sys.'}
+    
