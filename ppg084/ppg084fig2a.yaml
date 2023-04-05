@@ -1,0 +1,30 @@
+independent_variables:
+- header: {name: '$p_T$ (GeV/$c$)'}
+  values:
+  - {low: 1.00, high: 1.50}
+  - {low: 1.50, high: 2.00}
+  - {low: 2.00, high: 2.50}
+  - {low: 2.50, high: 3.00}
+  - {low: 3.00, high: 3.50}
+  - {low: 3.50, high: 4.00}
+dependent_variables:
+- header: {name: '$R_{AA}$'}
+  values:
+  - value: 6.549E-01
+    errors:
+    - {symerror: 9.87E-02, label: 'tot.'}
+  - value: 9.101E-01
+    errors:
+    - {symerror: 1.42E-01, label: 'tot.'}
+  - value: 1.157E+00
+    errors:
+    - {symerror: 1.87E-01, label: 'tot.'}
+  - value: 1.522E+00
+    errors:
+    - {symerror: 2.68E-01, label: 'tot.'}
+  - value: 2.112E+00
+    errors:
+    - {symerror: 4.29E-01, label: 'tot.'}
+  - value: 1.898E+00
+    errors:
+    - {symerror: 5.22E-01, label: 'tot.'}

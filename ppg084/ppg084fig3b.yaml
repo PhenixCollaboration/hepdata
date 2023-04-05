@@ -1,0 +1,43 @@
+independent_variables:
+- header: {name: 'Centrality (%)'}
+  values:
+  - {low: 0, high: 10}
+  - {low: 10, high: 20}
+  - {low: 20, high: 30}
+  - {low: 30, high: 40}
+  - {low: 40, high: 50}
+  - {low: 50, high: 60}
+  - {low: 60, high: 88}
+- header: {name: '$N_{part}$'}
+  values:
+  - value: 93.3
+  - value: 71.1
+  - value: 51.3
+  - value: 36.2
+  - value: 24.9
+  - value: 16.1
+  - value: 7.0
+dependent_variables:
+- header: {name: '$<R_{AA}>$ (2.5 < $p_T$ < 3.5 GeV/$c$)'}
+  values:
+  - value: 6.676E-01
+    errors:
+    - {symerror: 1.11E-01, label: 'sys.'}
+  - value: 7.535E-01
+    errors:
+    - {symerror: 1.25E-01, label: 'sys.'}
+  - value: 8.423E-01
+    errors:
+    - {symerror: 1.40E-01, label: 'sys.'}
+  - value: 9.181E-01
+    errors:
+    - {symerror: 1.53E-01, label: 'sys.'}
+  - value: 9.747E-01
+    errors:
+    - {symerror: 1.60E-01, label: 'sys.'}
+  - value: 1.059E+00
+    errors:
+    - {symerror: 1.75E-01, label: 'sys.'}
+  - value: 1.052E+00
+    errors:
+    - {symerror: 1.74E-01, label: 'sys.'}

@@ -1,0 +1,56 @@
+independent_variables:
+- header: {name: '$p_T$ (GeV/$c$)'}
+  values:
+  - {low: 1.00, high: 1.50}
+  - {low: 1.50, high: 2.00}
+  - {low: 2.00, high: 2.50}
+  - {low: 2.50, high: 3.00}
+  - {low: 3.00, high: 3.50}
+  - {low: 3.50, high: 4.00}
+  - {low: 4.00, high: 4.50}
+  - {low: 4.50, high: 5.00}
+  - {low: 5.00, high: 5.50}
+  - {low: 5.50, high: 6.00}
+  - {low: 6.00, high: 7.00}
+  - {low: 7.00, high: 8.00}
+dependent_variables:
+- header: {name: '$1/{2 \pi p_T N_{evt}}$ ${d^2N}/{d p_T dy}$ ($c^2/GeV^2$)'}
+  qualifiers:
+  - {name: 'Centrality', value: '0-10%'}
+  values:
+  - value: 5.468E-01
+    errors:
+    - {symerror: 7.24E-02, label: 'tot.'}
+  - value: 7.434E-02
+    errors:
+    - {symerror: 9.38E-03, label: 'tot.'}
+  - value: 1.245E-02
+    errors:
+    - {symerror: 1.73E-03, label: 'tot.'}
+  - value: 2.587E-03
+    errors:
+    - {symerror: 3.67E-04, label: 'tot.'}
+  - value: 5.913E-04
+    errors:
+    - {symerror: 9.37E-05, label: 'tot.'}
+  - value: 1.568E-04
+    errors:
+    - {symerror: 2.76E-05, label: 'tot.'}
+  - value: 4.743E-05
+    errors:
+    - {symerror: 8.49E-06, label: 'tot.'}
+  - value: 1.600E-05
+    errors:
+    - {symerror: 3.02E-06, label: 'tot.'}
+  - value: 4.856E-06
+    errors:
+    - {symerror: 9.44E-07, label: 'tot.'}
+  - value: 1.938E-06
+    errors:
+    - {symerror: 4.75E-07, label: 'tot.'}
+  - value: 5.342E-07
+    errors:
+    - {symerror: 1.21E-07, label: 'tot.'}
+  - value: 1.014E-07
+    errors:
+    - {symerror: 3.25E-08, label: 'tot.'}
