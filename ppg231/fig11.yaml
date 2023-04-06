@@ -1,14 +1,14 @@
 independent_variables:
 - header: {name: '$p_{T} [GeV/c]$'}
   values:
-  - {value: 1.25}
-  - {value: 1.75}
-  - {value: 2.25}
-  - {value: 2.75}
-  - {value: 3.50}
-  - {value: 4.50}
-  - {value: 6.00}
-  - {value: 8.50}
+  - {low: 1.00, high: 1.50}
+  - {low: 1.50, high: 2.00}
+  - {low: 2.00, high: 2.50}
+  - {low: 2.50, high: 3.00}
+  - {low: 3.00, high: 4.00}
+  - {low: 4.00, high: 5.00}
+  - {low: 5.00, high: 7.00}
+  - {low: 7.00, high: 10.00}
 dependent_variables:
 - header: {name: '$d^{2}N/dydp_{T}$ [(GeV/$c$)$^{-1}$] $~$ (global err. $\pm$10%)'}
   qualifiers:
