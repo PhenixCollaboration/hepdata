@@ -1,0 +1,48 @@
+independent_variables:
+- header: {name: '$p_{T} [GeV/c]$'}
+  values:
+  - {low: 1.00, high: 1.50}
+  - {low: 1.50, high: 2.00}
+  - {low: 2.00, high: 2.50}
+  - {low: 2.50, high: 3.00}
+  - {low: 3.00, high: 4.00}
+  - {low: 4.00, high: 5.00}
+  - {low: 5.00, high: 7.00}
+  - {low: 7.00, high: 10.00}
+dependent_variables:
+- header: {name: '$d^{2}N/dydp_{T}$ [(GeV/$c$)$^{-1}$] $~$ (global err. $\pm$10%)'}
+  qualifiers:
+  - {name: '', value: '1.2 < |y| < 2.2, $~$ $p$+$p$$\sqrt{s_{NN}}$=510~GeV, $~$  5$<m_{\mu\mu}<$10 GeV/c$^2$'}
+  values:
+  - value: 1.05e+00
+    errors:
+    - {symerror: 1.02e-01, label: 'stat'}
+    - {symerror: 1.16e-01, label: 'sys'}
+  - value: 1.19e+00
+    errors:
+    - {symerror: 1.12e-01, label: 'stat'}
+    - {symerror: 1.31e-01, label: 'sys'}
+  - value: 1.08e+00
+    errors:
+    - {symerror: 1.05e-01, label: 'stat'}
+    - {symerror: 1.19e-01, label: 'sys'}
+  - value: 9.17e-01
+    errors:
+    - {symerror: 1.01e-01, label: 'stat'}
+    - {symerror: 1.01e-01, label: 'sys'}
+  - value: 6.71e-01
+    errors:
+    - {symerror: 6.04e-02, label: 'stat'}
+    - {symerror: 7.39e-02, label: 'sys'}
+  - value: 3.42e-01
+    errors:
+    - {symerror: 4.49e-02, label: 'stat'}
+    - {symerror: 3.77e-02, label: 'sys'}
+  - value: 4.27e-02
+    errors:
+    - {symerror: 1.49e-02, label: 'stat'}
+    - {symerror: 4.70e-03, label: 'sys'}
+  - value: 7.88e-03
+    errors:
+    - {symerror: 3.48e-03, label: 'stat'}
+    - {symerror: 8.69e-04, label: 'sys'}
