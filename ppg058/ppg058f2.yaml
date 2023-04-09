@@ -5,7 +5,7 @@ independent_variables:
   - {low: -0.35, high: 0.35}
   - {low: 1.4, high: 2}
 dependent_variables:
-- header: {name: 'CY'}
+- header: {name: 'Conditional Yield'}
   qualifiers:
   - {name: '$p_T^{trig}$', value: '0-40% $d+Au$'}
   values:
@@ -21,7 +21,7 @@ dependent_variables:
     errors:
     - {symerror: 0.026, label: 'stat.'}
     - {symerror: 0.0029, label: 'sys.'}
-- header: {name: 'CY'}
+- header: {name: 'Conditional Yield'}
   qualifiers:
   - {name: '$p_T^{trig}$', value: '40-88% $d+Au$'}
   values:
@@ -37,7 +37,7 @@ dependent_variables:
     errors:
     - {symerror: 0.027, label: 'stat.'}
     - {symerror: 0.0027, label: 'sys.'}
-- header: {name: 'CY'}
+- header: {name: 'Conditional Yield'}
   qualifiers:
   - {name: '$p_T^{trig}$', value: '$p + p$'}
   values:
