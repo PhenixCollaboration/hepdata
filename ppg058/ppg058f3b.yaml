@@ -1,0 +1,96 @@
+independent_variables:
+- header: {name: '$p_T^{assoc}$ (Gev/$c$)'}
+  values:
+  - {low: 0.5, high: 1}
+  - {low: 1, high: 1.5}
+  - {low: 1.5, high: 2}
+  - {low: 2, high: 3}
+dependent_variables:
+- header: {name: '$I_{dAu}$'}
+  qualifiers:
+  - {name: '$\eta^{trig}$', value: '1.4 - 2.0'}
+  - {name: 'Centrality', value: '0 - 40%'}
+  - {name: '$\p_T^{trig}$', value: '1.0 - 2.0 GeV/$c$'}
+  values:
+  - value: 0.95
+    errors:
+    - {symerror: 0.18, label: 'stat.'}
+    - {symerror: 0.05, label: 'sys.'}
+  - value: 1.21
+    errors:
+    - {symerror: 0.26, label: 'stat.'}
+    - {symerror: 0.09, label: 'sys.'}
+  - value: 1.46
+    errors:
+    - {symerror: 0.4, label: 'stat.'}
+    - {symerror: 0.11, label: 'sys.'}
+  - value: 1.4
+    errors:
+    - {symerror: 0.7, label: 'stat.'}
+    - {symerror: 0.9, label: 'sys.'}
+- header: {name: '$I_{dAu}$'}
+  qualifiers:
+  - {name: '$\eta^{trig}$', value: '1.4 - 2.0'}
+  - {name: 'Centrality', value: '0 - 40%'}
+  - {name: '$\p_T^{trig}$', value: '2.0 - 5.0 GeV/$c$'}
+  values:
+  - value: 0.92
+    errors:
+    - {symerror: 0.16, label: 'stat.'}
+    - {symerror: 0.06, label: 'sys.'}
+  - value: 1.27
+    errors:
+    - {symerror: 0.22, label: 'stat.'}
+    - {symerror: 0.07, label: 'sys.'}
+  - value: 1.43
+    errors:
+    - {symerror: 0.29, label: 'stat.'}
+    - {symerror: 0.09, label: 'sys.'}
+  - value: 1.36
+    errors:
+    - {symerror: 0.5, label: 'stat.'}
+    - {symerror: 0.25, label: 'sys.'}
+- header: {name: '$I_{dAu}$'}
+  qualifiers:
+  - {name: '$\eta^{trig}$', value: '1.4 - 2.0'}
+  - {name: 'Centrality', value: '40 - 80%'}
+  - {name: '$\p_T^{trig}$', value: '1.0 - 2.0 GeV/$c$'}
+  values:
+  - value: 0.98
+    errors:
+    - {symerror: 0.19, label: 'stat.'}
+    - {symerror: 0.19, label: 'sys.'}
+  - value: 1.53
+    errors:
+    - {symerror: 0.28, label: 'stat.'}
+    - {symerror: 0.10, label: 'sys.'}
+  - value: 1.60
+    errors:
+    - {symerror: 0.5, label: 'stat.'}
+    - {symerror: 0.20, label: 'sys.'}
+  - value: 0.82
+    errors:
+    - {symerror: 0.7, label: 'stat.'}
+    - {symerror: 0.12, label: 'sys.'}
+- header: {name: '$I_{dAu}$'}
+  qualifiers:
+  - {name: '$\eta^{trig}$', value: '1.4 - 2.0'}
+  - {name: 'Centrality', value: '40 - 80%'}
+  - {name: '$\p_T^{trig}$', value: '2.0 - 5.0 GeV/$c$'}
+  values:
+  - value: 1.14
+    errors:
+    - {symerror: 0.19, label: 'stat.'}
+    - {symerror: 0.05, label: 'sys.'}
+  - value: 1.04
+    errors:
+    - {symerror: 0.24, label: 'stat.'}
+    - {symerror: 0.23, label: 'sys.'}
+  - value: 1.16
+    errors:
+    - {symerror: 0.34, label: 'stat.'}
+    - {symerror: 0.23, label: 'sys.'}
+  - value: 1.21
+    errors:
+    - {symerror: 0.6, label: 'stat.'}
+    - {symerror: 0.35, label: 'sys.'}

@@ -1,0 +1,80 @@
+independent_variables:
+- header: {name: '$p_T^{assoc}$ (GeV/$c$)'}
+  values:
+  - {low: 0.5, high: 1}
+  - {low: 1, high: 1.5}
+  - {low: 1.5, high: 2}
+  - {low: 2, high: 3}
+dependent_variables:
+- header: {name: '$\frac{\sigma_{d+dAu}}{\sigma_{p+p}}$'}
+  qualifiers:
+  - {name: '$\eta^{trig}$', value: '-2.0 - -1.4'}
+  - {name: 'Centrality', value: '0 - 40%'}
+  - {name: '$\p_T^{trig}$', value: '1.0 - 2.0 GeV/$c$'}
+  values:
+  - value: 0.790
+    errors:
+    - {symerror: 0.030, label: 'stat.'}
+  - value: 0.83
+    errors:
+    - {symerror: 0.04, label: 'stat.'}
+  - value: 0.97
+    errors:
+    - {symerror: 0.07, label: 'stat.'}
+  - value: 1.01
+    errors:
+    - {symerror: 0.09, label: 'stat.'}
+- header: {name: '$\frac{\sigma_{d+dAu}}{\sigma_{p+p}}$'}
+  qualifiers:
+  - {name: '$\eta^{trig}$', value: '-2.0 - -1.4'}
+  - {name: 'Centrality', value: '0 - 40%'}
+  - {name: '$\p_T^{trig}$', value: '2.0 - 5.0 GeV/$c$'}
+  values:
+  - value: 0.87
+    errors:
+    - {symerror: 0.06, label: 'stat.'}
+  - value: 0.81
+    errors:
+    - {symerror: 0.07, label: 'stat.'}
+  - value: 1.00
+    errors:
+    - {symerror: 0.11, label: 'stat.'}
+  - value: 1.19
+    errors:
+    - {symerror: 0.16, label: 'stat.'}
+- header: {name: '$\frac{\sigma_{d+dAu}}{\sigma_{p+p}}$'}
+  qualifiers:
+  - {name: '$\eta^{trig}$', value: '-2.0 - -1.4'}
+  - {name: 'Centrality', value: '40 - 80%'}
+  - {name: '$\p_T^{trig}$', value: '1.0 - 2.0 GeV/$c$'}
+  values:
+  - value: 0.91
+    errors:
+    - {symerror: 0.06, label: 'stat.'}
+  - value: 0.97
+    errors:
+    - {symerror: 0.09, label: 'stat.'}
+  - value: 0.88
+    errors:
+    - {symerror: 0.11, label: 'stat.'}
+  - value: 1.21
+    errors:
+    - {symerror: 0.15, label: 'stat.'}
+- header: {name: '$\frac{\sigma_{d+dAu}}{\sigma_{p+p}}$'}
+  qualifiers:
+  - {name: '$\eta^{trig}$', value: '-2.0 - -1.4'}
+  - {name: 'Centrality', value: '40 - 80%'}
+  - {name: '$\p_T^{trig}$', value: '2.0 - 5.0 GeV/$c$'}
+  values:
+  - value: 0.93
+    errors:
+    - {symerror: 0.10, label: 'stat.'}
+  - value: 0.90
+    errors:
+    - {symerror: 0.13, label: 'stat.'}
+  - value: 0.77
+    errors:
+    - {symerror: 0.16, label: 'stat.'}
+  - value: 1.29
+    errors:
+    - {symerror: 0.27, label: 'stat.'}
