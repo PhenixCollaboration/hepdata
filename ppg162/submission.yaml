@@ -1,0 +1,103 @@
+#PHENIX paper PPG162
+#
+#Centrality dependence of low-momentum direct-photon production in Au+Au collisions at $\sqrt{s_{NN}}$ = 200 GeV
+#
+#Phys.Rev.Lett C 91 (2015) 6, 064904
+#InspireHEP ID: 1296308
+#
+#Prepared by Nikolas Nelson
+#Please contact Christine Nattrass if you have any questions about this submission
+#PPG liaison:
+#Reviewer:
+#
+comment: | # Information that applies to all data tables.
+  The PHENIX experiment at RHIC has measured the centrality dependence of the direct photon yield from Au+Au collisions at $\sqrt{s{NN}}$ = 200 GeV down to $p_T$ = 0.4 GeV/$c$. Photons are detected via photon conversions to $e^+e^−$ pairs and an improved technique is applied that minimizes the systematic uncertainties that usually limit direct photon measurements, in particular at low $p_T$. We find an excess of direct photons above the $N_{coll}$-scaled yield measured in $p$+$p$ collisions. This excess yield is well described by an exponential distribution with an inverse slope of about 240 MeV/$c$ in the $p_T$ range from 0.6 - 2.0 GeV/$c$. While the shape of the $p_T$ distribution is independent of centrality within the experimental uncertainties, the yield increases rapidly with increasing centrality, scaling approximately with $N_{part}^{\alpha}$, where $\alpha$ = 1.48 $\pm$ 0.08(stat) $\pm$ 0.04(syst).
+additional_resources:
+- {location: "https://phenix-intra.sdcc.bnl.gov/phenix/WWW/p/info/ppg/162/", description: "web page with data points"}
+- {location: "http://arxiv.org/abs/1405.3940", description: arXiv}
+- {location: "https://inspirehep.net/literature/1296308", description: InspireHEP}
+---
+# This is Figure 5.
+name: "Figure 5"
+location: Data From Fig. 5 of PRC 91 (2015) 6, 064904
+description: 'Ratio $R_{\gamma}$ as function of photon $p_T$ from the 2007 and 2010 data sets in minimum-bias Au+Au collisions, and the $R_{\gamma}$ in the combined 2007+2010 measurement.'
+keywords: # used for searching, possibly mutliple values for each keywords
+- {name: reactions, values: [Au Au --> CHARGED X]}
+- {name: cmenergies, values: [200.0]}
+- {name: phrases, values: [ppg162]}
+data_file: ppg162fig5.yaml
+additional_resources:
+- {description: Original PDF Image file, location: fig5.pdf}
+- {description: PNG Image file, location: fig5.png}
+- {description: Thumbnail Image file, location: thumb_fig5.png}
+---
+# This is Figure 6.
+name: "Figure 6"
+location: Data From Fig. 6 of PRC 91 (2015) 6, 064904
+description: 'Ratio $R_{\gamma}$ as function of photon $p_T$ for the combined 2007 and 2010 data sets in different centrality bins.'
+keywords: # used for searching, possibly mutliple values for each keywords
+- {name: reactions, values: [Au Au --> CHARGED X]}
+- {name: cmenergies, values: [200.0]}
+- {name: phrases, values: [ppg162]}
+data_file: ppg162fig6.yaml
+additional_resources:
+- {description: Original PDF Image file, location: fig6.pdf}
+- {description: PNG Image file, location: fig6.png}
+- {description: Thumbnail Image file, location: thumb_fig6.png}
+---
+# This is Figure 7.
+name: "Figure 7"
+location: Data From Fig. 7 of PRC 91 (2015) 6, 064904
+description: 'Direct photon $p_T$ spectra for minimum-bias Au+Au collisions from this measurement and Au+Au and p+p collisions.'
+keywords: # used for searching, possibly mutliple values for each keywords
+- {name: reactions, values: [Au Au --> CHARGED X]}
+- {name: cmenergies, values: [200.0]}
+- {name: phrases, values: [ppg162]}
+data_file: ppg162fig7.yaml
+additional_resources:
+- {description: Original PDF Image file, location: fig7.pdf}
+- {description: PNG Image file, location: fig7.png}
+- {description: Thumbnail Image file, location: thumb_fig7.png}
+---
+# This is Figure 8.
+name: "Figure 8"
+location: Data From Fig. 8 of PRC 91 (2015) 6, 064904
+description: 'Direct photon $p_T$ spectra in different centrality bins.'
+keywords: # used for searching, possibly mutliple values for each keywords
+- {name: reactions, values: [Au Au --> CHARGED X]}
+- {name: cmenergies, values: [200.0]}
+- {name: phrases, values: [ppg162]}
+data_file: ppg162fig8.yaml
+additional_resources:
+- {description: Original PDF Image file, location: fig8.pdf}
+- {description: PNG Image file, location: fig8.png}
+- {description: Thumbnail Image file, location: thumb_fig8.png}
+---
+# This is Figure 9.
+name: "Figure 9"
+location: Data From Fig. 9 of PRC 91 (2015) 6, 064904
+description: 'Direct photon $p_T$ spectra after subtraction of the $N_{coll}$ scaled $p$+$p$ contribution in different centrality bins.'
+keywords: # used for searching, possibly mutliple values for each keywords
+- {name: reactions, values: [Au Au --> CHARGED X]}
+- {name: cmenergies, values: [200.0]}
+- {name: phrases, values: [ppg162]}
+data_file: ppg162fig9.yaml
+additional_resources:
+- {description: Original PDF Image file, location: fig9.pdf}
+- {description: PNG Image file, location: fig9.png}
+- {description: Thumbnail Image file, location: thumb_fig9.png}
+---
+# This is Figure 10.
+name: "Figure 10"
+location: Data From Fig. 10 of PRC 91 (2015) 6, 064904
+description: 'Integrated thermal photon yields as a function of $N_{part}$ for different lower $p_T$ integration limits.'
+keywords: # used for searching, possibly mutliple values for each keywords
+- {name: reactions, values: [Au Au --> CHARGED X]}
+- {name: cmenergies, values: [200.0]}
+- {name: phrases, values: [ppg162]}
+data_file: ppg162fig10.yaml
+additional_resources:
+- {description: Original PDF Image file, location: fig10.pdf}
+- {description: PNG Image file, location: fig10.png}
+- {description: Thumbnail Image file, location: thumb_fig10.png}
+---
