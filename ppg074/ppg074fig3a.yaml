@@ -1,0 +1,209 @@
+independent_variables:
+- header: {name: '$p_T^B$ (GeV/$c$)'}
+  values:
+  - {low: 0.31, high: 0.95}
+  - {low: 0.95, high: 1.45}
+  - {low: 1.45, high: 1.95}
+  - {low: 1.95, high: 2.45}
+  - {low: 2.45, high: 2.95}
+  - {low: 2.95, high: 3.73}
+  - {low: 3.73, high: 5.03}
+dependent_variables:
+- header: {name: '$I_{AA}$'}
+  qualifiers:
+  - {name: 'Trigger Selection', value: '2.0 < $p_T^A$ < 3.0 GeV/$c$'}
+  - {name: 'Region', value: 'Head+Shoulder'}
+  values:
+  - value: 3.23E+00
+    errors:
+    - {symerror: 2.98E-02, label: 'stat.'}
+    - {asymerror: {plus: 1.16E+00, minus: 3.12E-01}, label: 'sys'}
+  - value: 3.50E+00
+    errors:
+    - {symerror: 4.05E-02, label: 'stat.'}
+    - {asymerror: {plus: 7.95E-01, minus: 3.40E-01}, label: 'sys'}
+  - value: 3.32E+00
+    errors:
+    - {symerror: 5.29E-02, label: 'stat.'}
+    - {asymerror: {plus: 5.59E-01, minus: 3.26E-01}, label: 'sys'}
+  - value: 2.33E+00
+    errors:
+    - {symerror: 5.06E-02, label: 'stat.'}
+    - {asymerror: {plus: 4.05E-01, minus: 2.43E-01}, label: 'sys'}
+  - value: 1.54E+00
+    errors:
+    - {symerror: 5.46E-02, label: 'stat.'}
+    - {asymerror: {plus: 4.80E-01, minus: 1.69E-01}, label: 'sys'}
+  - value: 8.81E-01
+    errors:
+    - {symerror: 4.17E-02, label: 'stat.'}
+    - {asymerror: {plus: 2.02E-01, minus: 1.00E-01}, label: 'sys'}
+  - value: 3.27E-01
+    errors:
+    - {symerror: 5.05E-02, label: 'stat.'}
+    - {asymerror: {plus: 9.75E-02, minus: 9.18E-02}, label: 'sys'}
+- header: {name: '$I_{AA}$'}
+  qualifiers:
+  - {name: 'Trigger Selection', value: '2.0 < $p_T^A$ < 3.0 GeV/$c$'}
+  - {name: 'Region', value: 'Head Only'}
+  values:
+  - value: 1.92E+00
+    errors:
+    - {symerror: 1.87E-02, label: 'stat.'}
+    - {asymerror: {plus: 7.63E-01, minus: 4.94E-01}, label: 'sys'}
+  - value: 1.70E+00
+    errors:
+    - {symerror: 2.19E-02, label: 'stat.'}
+    - {asymerror: {plus: 6.12E-01, minus: 5.02E-01}, label: 'sys'}
+  - value: 1.37E+00
+    errors:
+    - {symerror: 2.56E-02, label: 'stat.'}
+    - {asymerror: {plus: 4.98E-01, minus: 4.50E-01}, label: 'sys'}
+  - value: 8.54E-01
+    errors:
+    - {symerror: 2.61E-02, label: 'stat.'}
+    - {asymerror: {plus: 3.67E-01, minus: 3.33E-01}, label: 'sys'}
+  - value: 4.13E-01
+    errors:
+    - {symerror: 2.75E-02, label: 'stat.'}
+    - {asymerror: {plus: 3.27E-01, minus: 2.22E-01}, label: 'sys'}
+  - value: 2.36E-01
+    errors:
+    - {symerror: 2.43E-02, label: 'stat.'}
+    - {asymerror: {plus: 1.53E-01, minus: 1.21E-01}, label: 'sys'}
+  - value: 1.06E-01
+    errors:
+    - {symerror: 3.00E-02, label: 'stat.'}
+    - {asymerror: {plus: 6.88E-02, minus: 6.54E-02}, label: 'sys'}
+- header: {name: '$I_{AA}$'}
+  qualifiers:
+  - {name: 'Trigger Selection', value: '3.0 < $p_T^A$ < 4.0 GeV/$c$'}
+  - {name: 'Region', value: 'Head+Shoulder'}
+  values:
+  - value: 2.96E+00
+    errors:
+    - {symerror: 5.88E-02, label: 'stat.'}
+    - {asymerror: {plus: 8.99E-01, minus: 1.35E-01}, label: 'sys'}
+  - value: 2.49E+00
+    errors:
+    - {symerror: 6.18E-02, label: 'stat.'}
+    - {asymerror: {plus: 5.98E-01, minus: 2.05E-01}, label: 'sys'}
+  - value: 2.33E+00
+    errors:
+    - {symerror: 8.36E-02, label: 'stat.'}
+    - {asymerror: {plus: 3.72E-01, minus: 2.49E-01}, label: 'sys'}
+  - value: 1.22E+00
+    errors:
+    - {symerror: 6.56E-02, label: 'stat.'}
+    - {asymerror: {plus: 3.03E-01, minus: 1.69E-01}, label: 'sys'}
+  - value: 8.06E-01
+    errors:
+    - {symerror: 7.12E-02, label: 'stat.'}
+    - {asymerror: {plus: 2.71E-01, minus: 1.25E-01}, label: 'sys'}
+  - value: 4.50E-01
+    errors:
+    - {symerror: 4.81E-02, label: 'stat.'}
+    - {asymerror: {plus: 8.75E-02, minus: 8.87E-02}, label: 'sys'}
+  - value: 2.02E-01
+    errors:
+    - {symerror: 6.11E-02, label: 'stat.'}
+    - {asymerror: {plus: 1.06E-01, minus: 1.07E-01}, label: 'sys'}
+- header: {name: '$I_{AA}$'}
+  qualifiers:
+  - {name: 'Trigger Selection', value: '3.0 < $p_T^A$ < 4.0 GeV/$c$'}
+  - {name: 'Region', value: 'Head Only'}
+  values:
+  - value: 1.76E+00
+    errors:
+    - {symerror: 3.78E-02, label: 'stat.'}
+    - {asymerror: {plus: 5.98E-01, minus: 2.80E-01}, label: 'sys'}
+  - value: 1.13E+00
+    errors:
+    - {symerror: 3.53E-02, label: 'stat.'}
+    - {asymerror: {plus: 4.37E-01, minus: 2.95E-01}, label: 'sys'}
+  - value: 8.17E-01
+    errors:
+    - {symerror: 4.18E-02, label: 'stat.'}
+    - {asymerror: {plus: 3.14E-01, minus: 2.91E-01}, label: 'sys'}
+  - value: 3.11E-01
+    errors:
+    - {symerror: 3.60E-02, label: 'stat.'}
+    - {asymerror: {plus: 2.18E-01, minus: 1.82E-01}, label: 'sys'}
+  - value: 2.39E-01
+    errors:
+    - {symerror: 4.17E-02, label: 'stat.'}
+    - {asymerror: {plus: 1.75E-01, minus: 1.15E-01}, label: 'sys'}
+  - value: 1.39E-01
+    errors:
+    - {symerror: 2.85E-02, label: 'stat.'}
+    - {asymerror: {plus: 6.05E-02, minus: 6.31E-02}, label: 'sys'}
+  - value: 1.42E-01
+    errors:
+    - {symerror: 3.60E-02, label: 'stat.'}
+    - {asymerror: {plus: 5.31E-02, minus: 5.39E-02}, label: 'sys'}
+- header: {name: '$I_{AA}$'}
+  qualifiers:
+  - {name: 'Trigger Selection', value: '4.0 < $p_T^A$ < 5.0 GeV/$c$'}
+  - {name: 'Region', value: 'Head+Shoulder'}
+  values:
+  - value: 2.59E+00
+    errors:
+    - {symerror: 1.06E-01, label: 'stat.'}
+    - {asymerror: {plus: 3.82E-01, minus: 1.88E-01}, label: 'sys'}
+  - value: 1.94E+00
+    errors:
+    - {symerror: 1.17E-01, label: 'stat.'}
+    - {asymerror: {plus: 2.73E-01, minus: 2.58E-01}, label: 'sys'}
+  - value: 1.38E+00
+    errors:
+    - {symerror: 1.14E-01, label: 'stat.'}
+    - {asymerror: {plus: 2.14E-01, minus: 1.93E-01}, label: 'sys'}
+  - value: 6.33E-01
+    errors:
+    - {symerror: 9.87E-02, label: 'stat.'}
+    - {asymerror: {plus: 1.97E-01, minus: 1.68E-01}, label: 'sys'}
+  - value: 4.43E-01
+    errors:
+    - {symerror: 1.16E-01, label: 'stat.'}
+    - {asymerror: {plus: 2.02E-01, minus: 2.03E-01}, label: 'sys'}
+  - value: 3.97E-01
+    errors:
+    - {symerror: 8.68E-02, label: 'stat.'}
+    - {asymerror: {plus: 1.49E-01, minus: 1.50E-01}, label: 'sys'}
+  - value: 3.65E-01
+    errors:
+    - {symerror: 9.20E-02, label: 'stat.'}
+    - {asymerror: {plus: 1.43E-01, minus: 1.43E-01}, label: 'sys'}
+- header: {name: '$I_{AA}$'}
+  qualifiers:
+  - {name: 'Trigger Selection', value: '4.0 < $p_T^A$ < 5.0 GeV/$c$'}
+  - {name: 'Region', value: 'Head Only'}
+  values:
+  - value: 1.62E+00
+    errors:
+    - {symerror: 7.61E-02, label: 'stat.'}
+    - {asymerror: {plus: 2.85E-01, minus: 2.29E-01}, label: 'sys'}
+  - value: 1.00E+00
+    errors:
+    - {symerror: 7.10E-02, label: 'stat.'}
+    - {asymerror: {plus: 2.38E-01, minus: 2.44E-01}, label: 'sys'}
+  - value: 6.61E-01
+    errors:
+    - {symerror: 7.38E-02, label: 'stat.'}
+    - {asymerror: {plus: 1.84E-01, minus: 1.64E-01}, label: 'sys'}
+  - value: 1.99E-01
+    errors:
+    - {symerror: 6.06E-02, label: 'stat.'}
+    - {asymerror: {plus: 1.30E-01, minus: 1.11E-01}, label: 'sys'}
+  - value: 1.04E-01
+    errors:
+    - {symerror: 6.12E-02, label: 'stat.'}
+    - {asymerror: {plus: 1.01E-01, minus: 1.03E-01}, label: 'sys'}
+  - value: 2.73E-01
+    errors:
+    - {symerror: 5.30E-02, label: 'stat.'}
+    - {asymerror: {plus: 7.49E-02, minus: 7.60E-02}, label: 'sys'}
+  - value: 1.99E-01
+    errors:
+    - {symerror: 5.35E-02, label: 'stat.'}
+    - {asymerror: {plus: 6.53E-02, minus: 6.54E-02}, label: 'sys'}

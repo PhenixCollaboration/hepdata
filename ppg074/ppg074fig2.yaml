@@ -1,0 +1,308 @@
+independent_variables:
+- header: {name: '$p_T^B$ (GeV/$c$)'}
+  values:
+  - {low: 0.38, high: 0.94}
+  - {low: 0.94, high: 1.50}
+  - {low: 1.50, high: 1.94}
+  - {low: 1.94, high: 2.52}
+  - {low: 2.52, high: 2.94}
+  - {low: 2.94, high: 3.92}
+  - {low: 3.92, high: 4.94}
+  - {low: 4.94, high: 7.90}
+dependent_variables:
+- header: {name: '$R_{HS}$'}
+  qualifiers:
+  - {name: 'Trigger Selection', value: '2.0 < $p_T^A$ < 3.0 GeV/$c$'}
+  - {name: 'Collision', value: '$p$+$p$'}
+  values:
+  - value: 2.428E+00
+    errors:
+    - {asymerror: {plus: 4.950E-02, minus: 3.333E-01}, label: 'stat.'}
+  - value: 2.419E+00
+    errors:
+    - {asymerror: {plus: 6.050E-02, minus: 2.095E-01}, label: 'stat.'}
+  - value: 2.752E+00
+    errors:
+    - {asymerror: {plus: 1.003E-01, minus: 1.262E-01}, label: 'stat.'}
+  - value: 2.673E+00
+    errors:
+    - {asymerror: {plus: 1.182E-01, minus: 1.158E-01}, label: 'stat.'}
+  - value: 3.234E+00
+    errors:
+    - {asymerror: {plus: 2.312E-01, minus: 2.225E-01}, label: 'stat.'}
+  - value: 3.325E+00
+    errors:
+    - {asymerror: {plus: 2.382E-01, minus: 2.308E-01}, label: 'stat.'}
+  - value: 4.590E+00
+    errors:
+    - {asymerror: {plus: 6.221E-01, minus: 5.881E-01}, label: 'stat.'}
+  - value: 5.438E+00
+    errors:
+    - {asymerror: {plus: 2.994E-01, minus: 2.925E-01}, label: 'stat.'}
+- header: {name: '$R_{HS}$'}
+  qualifiers:
+  - {name: 'Trigger Selection', value: '2.0 < $p_T^A$ < 3.0 GeV/$c$'}
+  - {name: 'Collision', value: 'Au+Au'}
+  values:
+  - value: 9.650E-01
+    errors:
+    - {symerror: 8.000E-03, label: 'stat.'}
+    - {asymerror: {plus: 2.113E-01, minus: 2.355E-01}, label: 'sys. corr.'}
+    - {asymerror: {plus: 7.470E-03, minus: 2.700E-04}, label: 'sys. uncorr.'}
+  - value: 7.220E-01
+    errors:
+    - {symerror: 8.000E-03, label: 'stat.'}
+    - {asymerror: {plus: 1.805E-01, minus: 2.010E-01}, label: 'sys. corr.'}
+    - {asymerror: {plus: 3.816E-02, minus: 2.500E-03}, label: 'sys. uncorr.'}
+  - value: 6.280E-01
+    errors:
+    - {symerror: 1.000E-02, label: 'stat.'}
+    - {asymerror: {plus: 1.764E-01, minus: 1.964E-01}, label: 'sys. corr.'}
+    - {asymerror: {plus: 4.017E-02, minus: 4.500E-03}, label: 'sys. uncorr.'}
+  - value: 5.310E-01
+    errors:
+    - {symerror: 1.600E-02, label: 'stat.'}
+    - {asymerror: {plus: 1.780E-01, minus: 1.984E-01}, label: 'sys. corr.'}
+    - {asymerror: {plus: 5.116E-02, minus: 8.910E-03}, label: 'sys. uncorr.'}
+  - value: 3.950E-01
+    errors:
+    - {symerror: 2.700E-02, label: 'stat.'}
+    - {asymerror: {plus: 1.982E-01, minus: 2.081E-01}, label: 'sys. corr.'}
+    - {asymerror: {plus: 1.134E-01, minus: 2.126E-02}, label: 'sys. uncorr.'}
+  - value: 4.020E-01
+    errors:
+    - {symerror: 4.400E-02, label: 'stat.'}
+    - {asymerror: {plus: 1.918E-01, minus: 1.977E-01}, label: 'sys. corr.'}
+    - {asymerror: {plus: 8.301E-02, minus: 3.452E-02}, label: 'sys. uncorr.'}
+  - value: 5.810E-01
+    errors:
+    - {symerror: 1.900E-01, label: 'stat.'}
+    - {asymerror: {plus: 2.775E-01, minus: 2.848E-01}, label: 'sys. corr.'}
+    - {asymerror: {plus: 7.593E-02, minus: 1.191E-01}, label: 'sys. uncorr.'}
+  - value: 6.380E-01
+    errors:
+    - {symerror: 2.130E-01, label: 'stat.'}
+    - {asymerror: {plus: 1.139E-01, minus: 1.112E-01}, label: 'sys. corr.'}
+    - {asymerror: {plus: 7.005E-02, minus: 1.143E-01}, label: 'sys. uncorr.'}
+- header: {name: '$R_{HS}$'}
+  qualifiers:
+  - {name: 'Trigger Selection', value: '3.0 < $p_T^A$ < 4.0 GeV/$c$'}
+  - {name: 'Collision', value: '$p$+$p$'}
+  values:
+  - value: 2.553E+00
+    errors:
+    - {asymerror: {plus: 1.095E-01, minus: 2.414E-01}, label: 'stat.'}
+  - value: 2.730E+00
+    errors:
+    - {asymerror: {plus: 1.362E-01, minus: 1.502E-01}, label: 'stat.'}
+  - value: 3.199E+00
+    errors:
+    - {asymerror: {plus: 2.496E-01, minus: 2.419E-01}, label: 'stat.'}
+  - value: 3.418E+00
+    errors:
+    - {asymerror: {plus: 3.109E-01, minus: 2.980E-01}, label: 'stat.'}
+  - value: 3.525E+00
+    errors:
+    - {asymerror: {plus: 4.278E-01, minus: 4.069E-01}, label: 'stat.'}
+  - value: 4.184E+00
+    errors:
+    - {asymerror: {plus: 4.674E-01, minus: 4.502E-01}, label: 'stat.'}
+  - value: 5.528E+00
+    errors:
+    - {asymerror: {plus: 1.012E+00, minus: 1.009E+00}, label: 'stat.'}
+  - value: 7.077E+00
+    errors:
+    - {asymerror: {plus: 6.647E-01, minus: 6.346E-01}, label: 'stat.'}
+- header: {name: '$R_{HS}$'}
+  qualifiers:
+  - {name: 'Trigger Selection', value: '3.0 < $p_T^A$ < 4.0 GeV/$c$'}
+  - {name: 'Collision', value: 'Au+Au'}
+  values:
+  - value: 1.003E+00
+    errors:
+    - {symerror: 2.100E-02, label: 'stat.'}
+    - {asymerror: {plus: 1.742E-01, minus: 1.829E-01}, label: 'sys. corr.'}
+    - {asymerror: {plus: 7.000E-05, minus: 7.200E-04}, label: 'sys. uncorr.'}
+  - value: 7.110E-01
+    errors:
+    - {symerror: 2.300E-02, label: 'stat.'}
+    - {asymerror: {plus: 1.692E-01, minus: 1.804E-01}, label: 'sys. corr.'}
+    - {asymerror: {plus: 4.831E-02, minus: 7.480E-03}, label: 'sys. uncorr.'}
+  - value: 5.500E-01
+    errors:
+    - {symerror: 2.800E-02, label: 'stat.'}
+    - {asymerror: {plus: 1.664E-01, minus: 1.849E-01}, label: 'sys. corr.'}
+    - {asymerror: {plus: 4.435E-02, minus: 1.574E-02}, label: 'sys. uncorr.'}
+  - value: 3.840E-01
+    errors:
+    - {symerror: 4.600E-02, label: 'stat.'}
+    - {asymerror: {plus: 1.902E-01, minus: 2.126E-01}, label: 'sys. corr.'}
+    - {asymerror: {plus: 9.285E-02, minus: 3.872E-02}, label: 'sys. uncorr.'}
+  - value: 4.670E-01
+    errors:
+    - {symerror: 8.800E-02, label: 'stat.'}
+    - {asymerror: {plus: 2.079E-01, minus: 1.997E-01}, label: 'sys. corr.'}
+    - {asymerror: {plus: 1.093E-01, minus: 6.493E-02}, label: 'sys. uncorr.'}
+  - value: 5.310E-01
+    errors:
+    - {symerror: 1.220E-01, label: 'stat.'}
+    - {asymerror: {plus: 1.661E-01, minus: 1.849E-01}, label: 'sys. corr.'}
+    - {asymerror: {plus: 5.907E-02, minus: 7.896E-02}, label: 'sys. uncorr.'}
+  - value: 2.145E+00
+    errors:
+    - {symerror: 1.271E+00, label: 'stat.'}
+    - {asymerror: {plus: 1.655E-01, minus: 2.161E-01}, label: 'sys. corr.'}
+    - {asymerror: {plus: 2.705E+00, minus: 4.724E-01}, label: 'sys. uncorr.'}
+  - value: 2.488E+00
+    errors:
+    - {symerror: 1.216E+00, label: 'stat.'}
+    - {asymerror: {plus: 4.210E-02, minus: 4.830E-02}, label: 'sys. corr.'}
+    - {asymerror: {plus: 2.378E+00, minus: 5.668E-01}, label: 'sys. uncorr.'}
+- header: {name: '$R_{HS}$'}
+  qualifiers:
+  - {name: 'Trigger Selection', value: '4.0 < $p_T^A$ < 5.0 GeV/$c$'}
+  - {name: 'Collision', value: '$p$+$p$'}
+  values:
+  - value: 2.495E+00
+    errors:
+    - {asymerror: {plus: 1.867E-01, minus: 2.633E-01}, label: 'stat.'}
+  - value: 3.464E+00
+    errors:
+    - {asymerror: {plus: 3.791E-01, minus: 3.559E-01}, label: 'stat.'}
+  - value: 3.109E+00
+    errors:
+    - {asymerror: {plus: 3.476E-01, minus: 3.314E-01}, label: 'stat.'}
+  - value: 3.835E+00
+    errors:
+    - {asymerror: {plus: 5.362E-01, minus: 5.122E-01}, label: 'stat.'}
+  - value: 6.726E+00
+    errors:
+    - {asymerror: {plus: 1.947E+00, minus: 1.655E+00}, label: 'stat.'}
+  - value: 5.528E+00
+    errors:
+    - {asymerror: {plus: 1.012E+00, minus: 1.009E+00}, label: 'stat.'}
+  - value: 5.579E+00
+    errors:
+    - {asymerror: {plus: 1.419E+00, minus: 1.404E+00}, label: 'stat.'}
+  - value: 9.191E+00
+    errors:
+    - {asymerror: {plus: 1.346E+00, minus: 1.094E+00}, label: 'stat.'}
+- header: {name: '$R_{HS}$'}
+  qualifiers:
+  - {name: 'Trigger Selection', value: '4.0 < $p_T^A$ < 5.0 GeV/$c$'}
+  - {name: 'Collision', value: 'Au+Au'}
+  values:
+  - value: 1.069E+00
+    errors:
+    - {symerror: 5.700E-02, label: 'stat.'}
+    - {asymerror: {plus: 1.569E-01, minus: 1.639E-01}, label: 'sys. corr.'}
+    - {asymerror: {plus: 3.740E-03, minus: 5.540E-03}, label: 'sys. uncorr.'}
+  - value: 9.710E-01
+    errors:
+    - {symerror: 8.700E-02, label: 'stat.'}
+    - {asymerror: {plus: 1.806E-01, minus: 2.016E-01}, label: 'sys. corr.'}
+    - {asymerror: {plus: 2.650E-03, minus: 2.670E-03}, label: 'sys. uncorr.'}
+  - value: 8.220E-01
+    errors:
+    - {symerror: 1.120E-01, label: 'stat.'}
+    - {asymerror: {plus: 1.844E-01, minus: 1.847E-01}, label: 'sys. corr.'}
+    - {asymerror: {plus: 1.896E-02, minus: 2.374E-02}, label: 'sys. uncorr.'}
+  - value: 5.200E-01
+    errors:
+    - {symerror: 1.790E-01, label: 'stat.'}
+    - {asymerror: {plus: 2.229E-01, minus: 2.067E-01}, label: 'sys. corr.'}
+    - {asymerror: {plus: 9.346E-02, minus: 1.317E-01}, label: 'sys. uncorr.'}
+  - value: 4.430E-01
+    errors:
+    - {symerror: 2.860E-01, label: 'stat.'}
+    - {asymerror: {plus: 2.253E-01, minus: 2.545E-01}, label: 'sys. corr.'}
+    - {asymerror: {plus: 1.457E-01, minus: 3.059E-01}, label: 'sys. uncorr.'}
+  - value: 2.145E+00
+    errors:
+    - {symerror: 1.271E+00, label: 'stat.'}
+    - {asymerror: {plus: 1.655E-01, minus: 2.161E-01}, label: 'sys. corr.'}
+    - {asymerror: {plus: 2.705E+00, minus: 4.724E-01}, label: 'sys. uncorr.'}
+  - value: 1.344E+00
+    errors:
+    - {symerror: 5.650E-01, label: 'stat.'}
+    - {asymerror: {plus: 5.570E-02, minus: 6.050E-02}, label: 'sys. corr.'}
+    - {asymerror: {plus: 2.653E-01, minus: 1.044E-01}, label: 'sys. uncorr.'}
+  - value: 2.489E+00
+    errors:
+    - {symerror: 9.720E-01, label: 'stat.'}
+    - {asymerror: {plus: 7.700E-03, minus: 8.600E-03}, label: 'sys. corr.'}
+    - {asymerror: {plus: 2.250E+00, minus: 3.584E-01}, label: 'sys. uncorr.'}
+- header: {name: '$R_{HS}$'}
+  qualifiers:
+  - {name: 'Trigger Selection', value: '5.0 < $p_T^A$ < 10.0 GeV/$c$'}
+  - {name: 'Collision', value: '$p$+$p$'}
+  values:
+  - value: 3.073E+00
+    errors:
+    - {asymerror: {plus: 1.220E-01, minus: 1.596E-01}, label: 'stat.'}
+  - value: 3.884E+00
+    errors:
+    - {asymerror: {plus: 1.937E-01, minus: 1.879E-01}, label: 'stat.'}
+  - value: 4.915E+00
+    errors:
+    - {asymerror: {plus: 3.173E-01, minus: 3.058E-01}, label: 'stat.'}
+  - value: 5.372E+00
+    errors:
+    - {asymerror: {plus: 3.945E-01, minus: 3.822E-01}, label: 'stat.'}
+  - value: 5.525E+00
+    errors:
+    - {asymerror: {plus: 4.548E-01, minus: 4.411E-01}, label: 'stat.'}
+  - value: 7.077E+00
+    errors:
+    - {asymerror: {plus: 6.647E-01, minus: 6.346E-01}, label: 'stat.'}
+  - value: 9.191E+00
+    errors:
+    - {asymerror: {plus: 1.346E+00, minus: 1.094E+00}, label: 'stat.'}
+  - value: 1.116E+01
+    errors:
+    - {asymerror: {plus: 1.363E+00, minus: 1.357E+00}, label: 'stat.'}
+- header: {name: '$R_{HS}$'}
+  qualifiers:
+  - {name: 'Trigger Selection', value: '5.0 < $p_T^A$ < 10.0 GeV/$c$'}
+  - {name: 'Collision', value: 'Au+Au'}
+  values:
+  - value: 1.339E+00
+    errors:
+    - {symerror: 1.650E-01, label: 'stat.'}
+    - {asymerror: {plus: 1.692E-01, minus: 1.727E-01}, label: 'sys. corr.'}
+    - {asymerror: {plus: 5.049E-02, minus: 3.889E-02}, label: 'sys. uncorr.'}
+  - value: 9.170E-01
+    errors:
+    - {symerror: 1.620E-01, label: 'stat.'}
+    - {asymerror: {plus: 1.401E-01, minus: 1.437E-01}, label: 'sys. corr.'}
+    - {asymerror: {plus: 1.788E-02, minus: 1.572E-02}, label: 'sys. uncorr.'}
+  - value: 6.450E-01
+    errors:
+    - {symerror: 2.190E-01, label: 'stat.'}
+    - {asymerror: {plus: 1.667E-01, minus: 1.983E-01}, label: 'sys. corr.'}
+    - {asymerror: {plus: 7.050E-02, minus: 1.169E-01}, label: 'sys. uncorr.'}
+  - value: 6.490E-01
+    errors:
+    - {symerror: 2.890E-01, label: 'stat.'}
+    - {asymerror: {plus: 1.409E-01, minus: 1.652E-01}, label: 'sys. corr.'}
+    - {asymerror: {plus: 8.599E-02, minus: 1.687E-01}, label: 'sys. uncorr.'}
+  - value: 6.200E-01
+    errors:
+    - {symerror: 2.830E-01, label: 'stat.'}
+    - {asymerror: {plus: 7.930E-02, minus: 8.690E-02}, label: 'sys. corr.'}
+    - {asymerror: {plus: 9.195E-02, minus: 1.780E-01}, label: 'sys. uncorr.'}
+  - value: 2.488E+00
+    errors:
+    - {symerror: 1.216E+00, label: 'stat.'}
+    - {asymerror: {plus: 4.210E-02, minus: 4.830E-02}, label: 'sys. corr.'}
+    - {asymerror: {plus: 2.378E+00, minus: 5.668E-01}, label: 'sys. uncorr.'}
+  - value: 2.489E+00
+    errors:
+    - {symerror: 9.720E-01, label: 'stat.'}
+    - {asymerror: {plus: 7.700E-03, minus: 8.600E-03}, label: 'sys. corr.'}
+    - {asymerror: {plus: 2.250E+00, minus: 3.584E-01}, label: 'sys. uncorr.'}
+  - value: 2.761E+00
+    errors:
+    - {symerror: 1.015E+00, label: 'stat.'}
+    - {asymerror: {plus: 3.600E-03, minus: 4.100E-03}, label: 'sys. corr.'}
+    - {asymerror: {plus: 2.879E+00, minus: 4.371E-01}, label: 'sys. uncorr.'}

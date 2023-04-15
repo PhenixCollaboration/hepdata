@@ -1,0 +1,103 @@
+#PHENIX paper PPG074
+#
+#Transverse momentum and centrality dependence of dihadron correlations in Au+Au collisions at $\sqrt{s_{NN}}$ = 200 GeV: Jet-quenching and the response of partonic matter
+#
+#Phys.Rev.Lett C 77 (2008) 011901
+#InspireHEP ID: 751182
+#
+#Prepared by Nikolas Nelson
+#Please contact Christine Nattrass if you have any questions about this submission
+#PPG liaison:
+#Reviewer:
+#
+comment: | # Information that applies to all data tables.
+  Azimuthal angle ($\Delta\phi$) correlations are presented for charged hadrons from dijets for 0.4 < $p_T$ < 10 GeV/$c$ in Au+Au collisions at $\sqrt{s_{NN}}$ = 200 GeV. With increasing $p_T$, the away-side distribution evolves from a broad to a concave shape, then to a convex shape. Comparisons to $p$+$p$ data suggest that the away-side can be divided into a partially suppressed "head" region centered at $\Delta\phi$ ~ $\pi$, and an enhanced "shoulder" region centered at $\Delta\phi$ ~ $\pi$ +/- 1.1. The $p_T$ spectrum for the "head" region softens toward central collisions, consistent with the onset of jet quenching. The spectral slope for the "shoulder" region is independent of centrality and trigger $p_T$, which offers constraints on energy transport mechanisms and suggests that the "shoulder" region contains the medium response to energetic jets.
+additional_resources:
+- {location: "https://phenix-intra.sdcc.bnl.gov/phenix/WWW/p/info/ppg/074/", description: "web page with data points"}
+- {location: "http://arxiv.org/abs/0705.3238", description: arXiv}
+- {location: "https://inspirehep.net/literature/751182", description: InspireHEP}
+---
+# This is Figure 1.
+name: "Figure 1"
+location: Data From Fig. 1 of PRC 77 (2008) 011901
+description: '<p>Per-trigger yield versus $\Delta\phi$ for various trigger and partner $p_T$ ($p_T^A$ $\otimes$ $p_T^B$), in $p$+$p$ and 0-20% Au+Au collisions.</p> <p><i>The systematic errors on $v_2$ are represented by "sys. corr." and are dominated by the reaction plane resolution. The fit that accounts for the overlap of the near- and away-side Gaussians at $\Delta\phi_{min}$ gives systematically lower $b_0$ values that that for ZYAM, and is assigned as the differences as one-sided systematic errors on $b_0$ represented by "sys. uncorr.".'
+keywords: # used for searching, possibly mutliple values for each keywords
+- {name: reactions, values: [Au Au --> CHARGED X, $p$ $p$ --> CHARGED X]}
+- {name: cmenergies, values: [200.0]}
+- {name: phrases, values: [ppg074, azimuthal angle]}
+data_file: ppg074fig1a.yaml
+additional_resources:
+- {description: Original PS Image file, location: fig1.ps}
+- {description: PNG Image file, location: fig1.png}
+- {description: Thumbnail Image file, location: thumb_fig1.png}
+---
+# This is Figure 1.
+name: "Figure 1b"
+location: Data From Fig. 1 of PRC 77 (2008) 011901
+description: '<p>Per-trigger yield versus $\Delta\phi$ for various trigger and partner $p_T$ ($p_T^A$ $\otimes$ $p_T^B$), in $p$+$p$ and 0-20% Au+Au collisions.</p> <p><i>The systematic errors on $v_2$ are represented by "sys. corr." and are dominated by the reaction plane resolution. The fit that accounts for the overlap of the near- and away-side Gaussians at $\Delta\phi_{min}$ gives systematically lower $b_0$ values that that for ZYAM, and is assigned as the differences as one-sided systematic errors on $b_0$ represented by "sys. uncorr.".</p></i>'
+keywords: # used for searching, possibly mutliple values for each keywords
+- {name: reactions, values: [Au Au --> CHARGED X, $p$ $p$ --> CHARGED X]}
+- {name: cmenergies, values: [200.0]}
+- {name: phrases, values: [ppg074, azimuthal angle]}
+data_file: ppg074fig1b.yaml
+additional_resources:
+- {description: Original PS Image file, location: fig1.ps}
+- {description: PNG Image file, location: fig1.png}
+- {description: Thumbnail Image file, location: thumb_fig1.png}
+---
+# This is Figure 2.
+name: "Figure 2"
+location: Data From Fig. 2 of PRC 77 (2008) 011901
+description: '<p>$R_{HS}$ versus $p_T^B$ for $p$+$p$ and Au+Au collisions for four trigger selections.</p> <p><i>The systematic errors on $v_2$ are represented by "sys. corr." and are dominated by the reaction plane resolution. The fit that accounts for the overlap of the near- and away-side Gaussians at $\Delta\phi_{min}$ gives systematically lower $b_0$ values that that for ZYAM, and is assigned as the differences as one-sided systematic errors on $b_0$ represented by "sys. uncorr.".</p></i>'
+keywords: # used for searching, possibly mutliple values for each keywords
+- {name: reactions, values: [Au Au --> CHARGED X, $p$ $p$ --> CHARGED X]}
+- {name: cmenergies, values: [200.0]}
+- {name: phrases, values: [ppg074, azimuthal angle]}
+data_file: ppg074fig2.yaml
+additional_resources:
+- {description: Original PS Image file, location: fig2.ps}
+- {description: PNG Image file, location: fig2.png}
+- {description: Thumbnail Image file, location: thumb_fig2.png}
+---
+# This is Figure 3.
+name: "Figure 3a"
+location: Data From Fig. 3 of PRC 77 (2008) 011901
+description: '$I_{AA}$ versus $p_T^B$ for four trigger $p_T$ bins in HR+SR ($|\Delta\phi - \pi|$ < $\pi/2$) and HR ($|\Delta\phi - \pi|$ < $\pi/6$).'
+keywords: # used for searching, possibly mutliple values for each keywords
+- {name: reactions, values: [Au Au --> CHARGED X, $p$ $p$ --> CHARGED X]}
+- {name: cmenergies, values: [200.0]}
+- {name: phrases, values: [ppg074, azimuthal angle]}
+data_file: ppg074fig3a.yaml
+additional_resources:
+- {description: Original EP Image file, location: fig3.ps}
+- {description: PNG Image file, location: fig3.png}
+- {description: Thumbnail Image file, location: thumb_fig3.png}
+---
+# This is Figure 3.
+name: "Figure 3b"
+location: Data From Fig. 3 of PRC 77 (2008) 011901
+description: '$I_{AA}$ versus $p_T^B$ for four trigger $p_T$ bins in HR+SR ($|\Delta\phi - \pi|$ < $\pi/2$) and HR ($|\Delta\phi - \pi|$ < $\pi/6$).'
+keywords: # used for searching, possibly mutliple values for each keywords
+- {name: reactions, values: [Au Au --> CHARGED X, $p$ $p$ --> CHARGED X]}
+- {name: cmenergies, values: [200.0]}
+- {name: phrases, values: [ppg074, azimuthal angle]}
+data_file: ppg074fig3b.yaml
+additional_resources:
+- {description: Original EP Image file, location: fig3.ps}
+- {description: PNG Image file, location: fig3.png}
+- {description: Thumbnail Image file, location: thumb_fig3.png}
+---
+# This is Figure 4.
+name: "Figure 4"
+location: Data From Fig. 4 of PRC 77 (2008) 011901
+description: 'Truncated mean $<p_T^{\prime}>$ in 1 < $p_T^B$ < 5 GeV/$c$ versus $N_{part}$ for the near-side, away-side shoulder, and head regions for Au+Au and $p$+$p$ for three trigger $p_T$ bins.'
+keywords: # used for searching, possibly mutliple values for each keywords
+- {name: reactions, values: [Au Au --> CHARGED X, $p$ $p$ --> CHARGED X]}
+- {name: cmenergies, values: [200.0]}
+- {name: phrases, values: [ppg074, azimuthal angle]}
+data_file: ppg074fig4.yaml
+additional_resources:
+- {description: Original PS Image file, location: fig4.ps}
+- {description: PNG Image file, location: fig4.png}
+- {description: Thumbnail Image file, location: thumb_fig4.png}
+---
