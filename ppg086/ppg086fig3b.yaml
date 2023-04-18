@@ -1,0 +1,38 @@
+independent_variables:
+- header: {name: '$p_T$ (GeV/$c$)'}
+  values:
+  - {value: 1.176}
+  - {value: 1.685}
+  - {value: 2.191}
+  - {value: 2.698}
+  - {value: 3.338}
+  - {value: 4.370}
+dependent_variables:
+- header: {name: '$r$ = direct $\gamma$/inclusive $\gamma$'}
+  qualifiers:
+  - {name: 'Collision', value: 'Au+Au (Min. Bias)'}
+  values:
+  - value: 1.729E-01
+    errors:
+    - {symerror: 1.881E-02, label: 'stat.'}
+    - {symerror: 2.635E-02, label: 'sys.'}
+  - value: 1.583E-01
+    errors:
+    - {symerror: 1.965E-02, label: 'stat.'}
+    - {symerror: 2.106E-02, label: 'sys.'}
+  - value: 1.310E-01
+    errors:
+    - {symerror: 2.608E-02, label: 'stat.'}
+    - {symerror: 2.572E-02, label: 'sys.'}
+  - value: 1.396E-01
+    errors:
+    - {symerror: 3.669E-02, label: 'stat.'}
+    - {symerror: 3.254E-02, label: 'sys.'}
+  - value: 2.018E-01
+    errors:
+    - {symerror: 4.467E-02, label: 'stat.'}
+    - {symerror: 3.702E-02, label: 'sys.'}
+  - value: 2.170E-01
+    errors:
+    - {symerror: 8.798E-02, label: 'stat.'}
+    - {symerror: 2.908E-02, label: 'sys.'}

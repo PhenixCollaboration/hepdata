@@ -1,0 +1,39 @@
+independent_variables:
+- header: {name: '$p_T$ (GeV/$c$)'}
+  values:
+  - {value: 1.175}
+  - {value: 1.684}
+  - {value: 2.191}
+  - {value: 2.698}
+  - {value: 3.336}
+  - {value: 4.369}
+dependent_variables:
+- header: {name: '${Ed^3N}/{dp^3}$ (GeV$^{-2}c^3$) or ${Ed^3\sigma}/{dp^3}$ ($mb$ GeV$^{-2}c^3$)'}
+  qualifiers:
+  - {name: 'Collision', value: 'Au+Au'}
+  - {name: 'Centrality', value: '0-20%'}
+  values:
+  - value: 4.366E-01
+    errors:
+    - {symerror: 7.036E-02, label: 'stat.'}
+    - {symerror: 9.637E-02, label: 'sys.'}
+  - value: 4.542E-02
+    errors:
+    - {symerror: 8.955E-03, label: 'stat.'}
+    - {symerror: 1.064E-02, label: 'sys.'}
+  - value: 6.460E-03
+    errors:
+    - {symerror: 1.956E-03, label: 'stat.'}
+    - {symerror: 1.510E-03, label: 'sys.'}
+  - value: 1.528E-03
+    errors:
+    - {symerror: 5.603E-04, label: 'stat.'}
+    - {symerror: 4.502E-04, label: 'sys.'}
+  - value: 2.935E-04
+    errors:
+    - {symerror: 1.300E-04, label: 'stat.'}
+    - {symerror: 9.576E-05, label: 'sys.'}
+  - value: -1.265E-07
+    errors:
+    - {symerror: 2.592E-05, label: 'stat.'}
+    - {symerror: 7.757E-06, label: 'sys.'}
