@@ -1,5 +1,16 @@
 independent_variables:
+- header: {name: '$p_T$ (GeV/$c$) Bins'}
+  values:
+  - {low: 0.931, high: 1.438}
+  - {low: 1.438, high: 1.945}
+  - {low: 1.945, high: 2.452}
+  - {low: 2.452, high: 2.958}
+  - {low: 2.958, high: 3.603}
+  - {low: 3.603, high: 4.761}
+dependent_variables:
 - header: {name: '$p_T$ (GeV/$c$)'}
+  qualifiers:
+  - {name: 'Collision', value: '$p$+$p$'}
   values:
   - {value: 1.184}
   - {value: 1.691}
@@ -7,32 +18,31 @@ independent_variables:
   - {value: 2.704}
   - {value: 3.349}
   - {value: 4.375}
-dependent_variables:
 - header: {name: '${Ed^3N}/{dp^3}$ (GeV$^{-2}c^3$) or ${Ed^3\sigma}/{dp^3}$ ($mb$ GeV$^{-2}c^3$)'}
   qualifiers:
   - {name: 'Collision', value: '$p$+$p$'}
   values:
-  - value: -2.317E-04
+  - value: -2.32E-04
     errors:
-    - {symerror: 8.482E-04, label: 'stat.'}
-    - {symerror: 2.512E-03, label: 'sys.'}
-  - value: 6.697E-04
+    - {symerror: 8.5E-04, label: 'stat.'}
+    - {symerror: 2.5E-03, label: 'sys.'}
+  - value: 6.70E-04
     errors:
-    - {symerror: 1.560E-04, label: 'stat.'}
-    - {symerror: 3.394E-04, label: 'sys.'}
-  - value: 1.633E-04
+    - {symerror: 1.6E-04, label: 'stat.'}
+    - {symerror: 3.4E-04, label: 'sys.'}
+  - value: 1.63E-04
     errors:
-    - {symerror: 4.785E-05, label: 'stat.'}
-    - {symerror: 6.910E-05, label: 'sys.'}
-  - value: 4.655E-05
+    - {symerror: 4.8E-05, label: 'stat.'}
+    - {symerror: 6.9E-05, label: 'sys.'}
+  - value: 4.66E-05
     errors:
-    - {symerror: 1.897E-05, label: 'stat.'}
-    - {symerror: 1.966E-05, label: 'sys.'}
-  - value: 7.788E-06
+    - {symerror: 1.90E-05, label: 'stat.'}
+    - {symerror: 1.97E-05, label: 'sys.'}
+  - value: 7.79E-06
     errors:
-    - {symerror: 5.065E-06, label: 'stat.'}
-    - {symerror: 3.997E-06, label: 'sys.'}
-  - value: 1.245E-06
+    - {symerror: 5.1E-06, label: 'stat.'}
+    - {symerror: 4.0E-06, label: 'sys.'}
+  - value: 1.25E-06
     errors:
-    - {symerror: 1.572E-06, label: 'stat.'}
-    - {symerror: 7.872E-07, label: 'sys.'}
+    - {symerror: 1.6E-06, label: 'stat.'}
+    - {symerror: 7.9E-07, label: 'sys.'}

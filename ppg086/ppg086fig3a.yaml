@@ -1,5 +1,16 @@
 independent_variables:
+- header: {name: '$p_T$ (GeV/$c$) Bins'}
+  values:
+  - {low: 0.931, high: 1.438}
+  - {low: 1.438, high: 1.945}
+  - {low: 1.945, high: 2.452}
+  - {low: 2.452, high: 2.958}
+  - {low: 2.958, high: 3.603}
+  - {low: 3.603, high: 4.761}
+dependent_variables:
 - header: {name: '$p_T$ (GeV/$c$)'}
+  qualifiers:
+  - {name: 'Collision', value: '$p$+$p$'}
   values:
   - {value: 1.184}
   - {value: 1.691}
@@ -7,32 +18,31 @@ independent_variables:
   - {value: 2.704}
   - {value: 3.349}
   - {value: 4.375}
-dependent_variables:
 - header: {name: '$r$ = direct $\gamma$/inclusive $\gamma$'}
   qualifiers:
   - {name: 'Collision', value: '$p$+$p$'}
   values:
-  - value: -1.072E-03
+  - value: -1.07E-03
     errors:
-    - {symerror: 3.924E-03, label: 'stat.'}
-    - {symerror: 1.162E-02, label: 'sys.'}
-  - value: 2.591E-02
+    - {symerror: 3.9E-03, label: 'stat.'}
+    - {symerror: 1.2E-02, label: 'sys.'}
+  - value: 2.59E-02
     errors:
-    - {symerror: 6.034E-03, label: 'stat.'}
-    - {symerror: 1.235E-02, label: 'sys.'}
-  - value: 3.377E-02
+    - {symerror: 6.0E-03, label: 'stat.'}
+    - {symerror: 1.2E-02, label: 'sys.'}
+  - value: 3.38E-02
     errors:
-    - {symerror: 9.895E-03, label: 'stat.'}
-    - {symerror: 1.306E-02, label: 'sys.'}
-  - value: 3.897E-02
+    - {symerror: 9.9E-03, label: 'stat.'}
+    - {symerror: 1.3E-02, label: 'sys.'}
+  - value: 3.90E-02
     errors:
-    - {symerror: 1.588E-02, label: 'stat.'}
-    - {symerror: 1.503E-02, label: 'sys.'}
-  - value: 3.077E-02
+    - {symerror: 1.6E-02, label: 'stat.'}
+    - {symerror: 1.5E-02, label: 'sys.'}
+  - value: 3.08E-02
     errors:
-    - {symerror: 2.001E-02, label: 'stat.'}
-    - {symerror: 1.488E-02, label: 'sys.'}
-  - value: 3.524E-02
+    - {symerror: 2.0E-02, label: 'stat.'}
+    - {symerror: 1.5E-02, label: 'sys.'}
+  - value: 3.52E-02
     errors:
-    - {symerror: 4.451E-02, label: 'stat.'}
-    - {symerror: 2.144E-02, label: 'sys.'}
+    - {symerror: 4.5E-02, label: 'stat.'}
+    - {symerror: 2.1E-02, label: 'sys.'}
