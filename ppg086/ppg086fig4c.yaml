@@ -1,0 +1,50 @@
+independent_variables:
+- header: {name: '$p_T$ (GeV/$c$) Bins'}
+  values:
+  - {low: 0.923, high: 1.433}
+  - {low: 1.433, high: 1.941}
+  - {low: 1.941, high: 2.445}
+  - {low: 2.445, high: 2.957}
+  - {low: 2.957, high: 3.721}
+  - {low: 3.721, high: 5.019}
+dependent_variables:
+- header: {name: '$p_T$ (GeV/$c$)'}
+  qualifiers:
+  - {name: 'Collision', value: 'Au+Au'}
+  - {name: 'Centrality', value: '20-40%'}
+  values:
+  - {value: 1.178}
+  - {value: 1.687}
+  - {value: 2.193}
+  - {value: 2.701}
+  - {value: 3.339}
+  - {value: 4.370}
+- header: {name: '${Ed^3N}/{dp^3}$ (GeV$^{-2}c^3$) or ${Ed^3\sigma}/{dp^3}$ ($mb$ GeV$^{-2}c^3$)'}
+  qualifiers:
+  - {name: 'Collision', value: 'Au+Au'}
+  - {name: 'Centrality', value: '20-40%'}
+  values:
+  - value: 1.78E-01
+    errors:
+    - {symerror: 2.6E-02, label: 'stat.'}
+    - {symerror: 3.7E-02, label: 'sys.'}
+  - value: 2.03E-02
+    errors:
+    - {symerror: 3.6E-03, label: 'stat.'}
+    - {symerror: 4.4E-03, label: 'sys.'}
+  - value: 2.69E-03
+    errors:
+    - {symerror: 8.7E-04, label: 'stat.'}
+    - {symerror: 7.1E-04, label: 'sys.'}
+  - value: 1.01E-04
+    errors:
+    - {symerror: 2.6E-04, label: 'stat.'}
+    - {symerror: 1.7E-04, label: 'sys.'}
+  - value: 2.30E-04
+    errors:
+    - {symerror: 7.4E-05, label: 'stat.'}
+    - {symerror: 4.3E-05, label: 'sys.'}
+  - value: 1.79E-05
+    errors:
+    - {symerror: 1.7E-05, label: 'stat.'}
+    - {symerror: 5.6E-06, label: 'sys.'}

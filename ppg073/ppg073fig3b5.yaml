@@ -1,11 +1,11 @@
 independent_variables:
 - header: {name: '${KE_T}/{n_q}$ (GeV)'}
   values:
-  - {low: 0.06, high: 0.10}
-  - {low: 0.10, high: 0.14}
-  - {low: 0.14, high: 0.20}
-  - {low: 0.20, high: 0.28}
-  - {low: 0.28, high: 0.38}
+  - value: 0.078
+  - value: 0.120
+  - value: 0.173
+  - value: 0.238
+  - value: 0.329
 dependent_variables:
 - header: {name: '$v_2$'}
   qualifiers:
@@ -14,20 +14,20 @@ dependent_variables:
   - value: 1.09E-02
     errors:
     - {symerror: 2E-03, label: 'stat.'}
-    - {symerror: 4.4E-04, label: 'sys.'}
+    - {symerror: 1.6E-03, label: 'sys.'}
   - value: 1.80E-02
     errors:
     - {symerror: 3E-03, label: 'stat.'}
-    - {symerror: 7.2E-04, label: 'sys.'}
+    - {symerror: 1.9E-03, label: 'sys.'}
   - value: 2.93E-02
     errors:
     - {symerror: 3E-03, label: 'stat.'}
-    - {symerror: 1.2E-03, label: 'sys.'}
+    - {symerror: 2.9E-04, label: 'sys.'}
   - value: 3.50E-02
     errors:
     - {symerror: 4E-03, label: 'stat.'}
-    - {symerror: 1.4E-03, label: 'sys.'}
+    - {symerror: 3.5E-03, label: 'sys.'}
   - value: 4.53E-02
     errors:
     - {symerror: 5E-03, label: 'stat.'}
-    - {symerror: 1.8E-03, label: 'sys.'}
+    - {symerror: 6.3E-03, label: 'sys.'}

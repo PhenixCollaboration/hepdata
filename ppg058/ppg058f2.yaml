@@ -1,0 +1,56 @@
+independent_variables:
+- header: {name: '$\eta^{trig}$'}
+  values:
+  - {low: -2, high: -1.4}
+  - {low: -0.35, high: 0.35}
+  - {low: 1.4, high: 2}
+dependent_variables:
+- header: {name: 'Conditional Yield'}
+  qualifiers:
+  - {name: '$p_T^{trig}$', value: '0-40% $d+Au$'}
+  values:
+  - value: 0.0940
+    errors:
+    - {symerror: 0.011, label: 'stat.'}
+    - {symerror: 0.0012, label: 'sys.'}
+  - value: 0.1150
+    errors:
+    - {symerror: 0.032, label: 'stat.'}
+    - {symerror: 0.0035, label: 'sys.'}
+  - value: 0.1220
+    errors:
+    - {symerror: 0.026, label: 'stat.'}
+    - {symerror: 0.0029, label: 'sys.'}
+- header: {name: 'Conditional Yield'}
+  qualifiers:
+  - {name: '$p_T^{trig}$', value: '40-88% $d+Au$'}
+  values:
+  - value: 0.0970
+    errors:
+    - {symerror: 0.021, label: 'stat.'}
+    - {symerror: 0.0021, label: 'sys.'}
+  - value: 0.1020
+    errors:
+    - {symerror: 0.023, label: 'stat.'}
+    - {symerror: 0.0023, label: 'sys.'}
+  - value: 0.0910
+    errors:
+    - {symerror: 0.027, label: 'stat.'}
+    - {symerror: 0.0027, label: 'sys.'}
+- header: {name: 'Conditional Yield'}
+  qualifiers:
+  - {name: '$p_T^{trig}$', value: '$p + p$'}
+  values:
+  - value: 0.1030
+    errors:
+    - {symerror: 0.014, label: 'stat.'}
+    - {symerror: 0.0015, label: 'sys.'}
+  - value: 0.125
+    errors:
+    - {symerror: 0.006, label: 'stat.'}
+    - {symerror: 0.037, label: 'sys.'}
+    - {symerror: 0.005, label: 'sys.'}
+  - value: 0.1030
+    errors:
+    - {symerror: 0.014, label: 'stat.'}
+    - {symerror: 0.0015, label: 'sys.'}

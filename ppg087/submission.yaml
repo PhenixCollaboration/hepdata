@@ -1,0 +1,88 @@
+#PHENIX paper PPG087
+#
+#Inclusive cross section and double helicity asymmetry for $\pi^0$ production in $p + p$ collisions at $\sqrt{s}$ = 62.4 GeV
+#
+#Phys. Rev. D 79, 012003 (2009)
+#InspireHEP ID: 798469
+#ArXiv: [hep-ex] 0810.0701
+#
+#Prepared by Joesph Beller
+#Please contact Christine Nattrass if you have any questions about this submission
+#PPG liaison:
+#Reviewer:
+---
+additional_resources:
+- location: "https://arxiv.org/abs/nucl-ex/0810.0701"
+  description: "arXiv article"
+- location: "https://phenix-intra.sdcc.bnl.gov/phenix/WWW/p/info/ppg/087/"
+  description: "webpage with data points"
+- location: "https://inspirehep.net/literature/798469"
+  description: "InspireHEP"
+- location: "thumb_fig1.png"
+  description: "Image File"
+- location: "thumb_fig2.png"
+  description: "Image File"
+- location: "thumb_fig3.png"
+  description: "Image File"
+- location: "thumb_fig4.png"
+  description: "Image File"
+- location: "thumb_fig5.png"
+  description: "Image File"
+- location: "thumb_fig6.png"
+  description: "Image File"
+
+  
+comment: | # Information that applies to all data tables.
+  The PHENIX experiment presents results from the RHIC 2006 run with polarized $p + p$ collisions at $\sqrt{s}$ = 62.4 GeV, for inclusive $\pi^0$ production at mid-rapidity. Unpolarized cross section results are measured for transverse momenta $p_T$ = 0.5 to 7 GeV/$c$. Next-to-leading order perturbative quantum chromodynamics calculations are compared with the data, and while the calculations are consistent with the measurements, next-to-leading logarithmic corrections improve the agreement. Double helicity asymmetries ALL are presented for $p_T$ = 1 to 4 GeV/$c$ and probe the higher range of Bjorken $x$ of the gluon ($x_g$) with better statistical precision than our previous measurements at $\sqrt{s}$ = 200 GeV. These measurements are sensitive to the gluon production in the proton for 0.06 < $x_g$ < 0.4.
+---
+# This is Table 1.
+name: "Figure 1"
+location: Data from Figure 1 of Phys. Rev. D 79, 012003 (2009)
+description: The fraction of inclusive $\pi^0$ yield which satisfied the BBC trigger condition.
+keywords: # used for searching, possibly multiple values for each keyword
+- {name: reactions, values: [$p$ + $p$ --> $\pi^0$]}
+- {name: cmenergies, values: [62.4]} # centre-of-mass energy in GeV
+- {name: phrases, values: [ppg087]}
+data_file: ppg087tab3.yaml
+additional_resources:
+- location: "thumb_fig1.png"
+  description: "Image File"
+---
+# This is Figure 3.
+name: "Figure 3"
+location: Data from Figure 3 of Phys. Rev. D 79, 012003 (2009)
+description: The neutral pion production cross section at $\sqrt{s}$ = 62.4 GeV as a function of $p_T$ and the results of next-to-leading order (NLO) and next-to-leading logarithmic accuracy (NLL) perturbative Quantum Chromodynamics (pQCD) calculations for the theory scale $\mu$ = $p_T$.
+keywords: # used for searching, possibly multiple values for each keyword
+- {name: reactions, values: [$p$ + $p$ --> $\pi^0$]}
+- {name: cmenergies, values: [62.4]} # centre-of-mass energy in GeV
+- {name: phrases, values: [ppg087]}
+data_file: ppg087tab1+2.yaml
+additional_resources:
+- location: "thumb_fig3.png"
+  description: "Image File"
+---
+# This is Table 4.
+name: "Figure 4"
+location: Data from Figure 4 of Phys. Rev. D 79, 012003 (2009)
+description: The parameter $n$ obtained from the ratio of invariant cross section at $\sqrt{s}$ = 62.4 GeV and $\sqrt{s}$ = 200GeV, at each $x_T$ of $\sqrt{s}$ = 62.4 GeV data; error bars show the statistical and systematic uncertainties of the $\sqrt{s}$ = 62.4 GeV and $sqrt{s}$ = 200 GeV data. There is an additional 11% + 9.7% normalization uncertainty.
+keywords: # used for searching, possibly multiple values for each keyword
+- {name: reactions, values: [$p$ + $p$ --> $\pi^0$]}
+- {name: cmenergies, values: [62.4]} # centre-of-mass energy in GeV
+- {name: phrases, values: [ppg087]}
+data_file: ppg087tab4.yaml
+additional_resources:
+- location: "thumb_fig4.png"
+  description: "Image File"
+---
+# This is Table 5.
+name: "Table 5"
+location: Data from Table.5 of Phys. Rev. D 79, 012003 (2009)
+description: The double helicity asymmetry for neutral pion production at $\sqrt{s}$ = 62.4 GeV as a function pf $p_T$ (GeV/$c$). Error bars are statistical uncertainties, with the 14% overall polarization uncertainty not shown; other experimental systematic uncertainties are negligible.
+keywords: # used for searching, possibly multiple values for each keyword
+- {name: reactions, values: [$p$ + $p$ --> $\pi^0$]}
+- {name: cmenergies, values: [62.4]} # centre-of-mass energy in GeV
+- {name: phrases, values: [ppg087]}
+data_file: ppg087tab5.yaml
+additional_resources:
+- location: "thumb_fig5.png"
+  description: "Image File"
