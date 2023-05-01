@@ -1,5 +1,5 @@
 independent_variables:
-- header: {name: '$p_{T}[GeV/c]$'}
+- header: {name: '$p_T$ (GeV/$c$)'}
   values:
   - {low: 0.00, high: 0.25}
   - {low: 0.25, high: 0.50}
@@ -24,187 +24,93 @@ independent_variables:
   - {low: 7.00, high: 8.00}
   - {low: 8.00, high: 10.00}
 dependent_variables:
-- header: {name: '$\frac{BR}{2\pi p_{T}} \frac{d^{2}\sigma}{dydp_{T}}$'}
-  qualifiers:
-  - {name: '$p_{T}[GeV/c]$', value: '$p+p$\sqrt{s_{NN}}$=510GeV'}
+- header: {name: '(2$\pi p_T$)$^{-1}$ BR d$^2\sigma$/dyd$p_T$ (nb/(GeV/$c$)$^2$)'}
   values:
-  - value: 5.04e0
+  - value: 5.04
     errors:
-    - {symerror: 0.23e0, label: 'stat type-B'}
-    - {symerror: 0.51e0, label: 'stat type-B'}
-  - value: 4.85e0
+    - {symerror: 0.23, label: 'stat.'}
+    - {symerror: 0.51, label: 'sys.'}
+  - value: 4.85
     errors:
-    - {symerror: 0.17e0, label: 'stat type-B'}
-    - {symerror: 0.49e0, label: 'stat type-B'}
-  - value: 4.42e0
+    - {symerror: 0.17, label: 'stat.'}
+    - {symerror: 0.49, label: 'sys.'}
+  - value: 4.42
     errors:
-    - {symerror: 0.15e0, label: 'stat type-B'}
-    - {symerror: 0.45e0, label: 'stat type-B'}
-  - value: 3.73e0
+    - {symerror: 0.15, label: 'stat.'}
+    - {symerror: 0.45, label: 'sys.'}
+  - value: 3.73
     errors:
-    - {symerror: 0.13e0, label: 'stat type-B'}
-    - {symerror: 0.38e0, label: 'stat type-B'}
-  - value: 3.16e0
+    - {symerror: 0.13, label: 'stat.'}
+    - {symerror: 0.38, label: 'sys.'}
+  - value: 3.16
     errors:
-    - {symerror: 0.11e0, label: 'stat type-B'}
-    - {symerror: 0.32e0, label: 'stat type-B'}
-  - value: 2.47e0
+    - {symerror: 0.11, label: 'stat.'}
+    - {symerror: 0.32, label: 'sys.'}
+  - value: 2.47
     errors:
-    - {symerror: 0.08e0, label: 'stat type-B'}
-    - {symerror: 0.25e0, label: 'stat type-B'}
-  - value: 2.00e0
+    - {symerror: 0.08, label: 'stat.'}
+    - {symerror: 0.25, label: 'sys.'}
+  - value: 2.00
     errors:
-    - {symerror: 0.07e0, label: 'stat type-B'}
-    - {symerror: 0.20e0, label: 'stat type-B'}
-  - value: 1.52e0
+    - {symerror: 0.07, label: 'stat.'}
+    - {symerror: 0.20, label: 'sys.'}
+  - value: 1.52
     errors:
-    - {symerror: 0.05e0, label: 'stat type-B'}
-    - {symerror: 0.15e0, label: 'stat type-B'}
-  - value: 1.18e0
+    - {symerror: 0.05, label: 'stat.'}
+    - {symerror: 0.15, label: 'sys.'}
+  - value: 1.18
     errors:
-    - {symerror: 0.04e0, label: 'stat type-B'}
-    - {symerror: 0.12e0, label: 'stat type-B'}
+    - {symerror: 0.04, label: 'stat.'}
+    - {symerror: 0.12, label: 'sys.'}
   - value: 8.45e-1
     errors:
-    - {symerror: 0.30e-1, label: 'stat type-B'}
-    - {symerror: 0.85e-1, label: 'stat type-B'}
+    - {symerror: 0.30e-1, label: 'stat.'}
+    - {symerror: 0.85e-1, label: 'sys.'}
   - value: 6.44e-1
     errors:
-    - {symerror: 0.23e-1, label: 'stat type-B'}
-    - {symerror: 0.65e-1, label: 'stat type-B'}
+    - {symerror: 0.23e-1, label: 'stat.'}
+    - {symerror: 0.65e-1, label: 'sys.'}
   - value: 4.90e-1
     errors:
-    - {symerror: 0.18e-1, label: 'stat type-B'}
-    - {symerror: 0.50e-1, label: 'stat type-B'}
+    - {symerror: 0.18e-1, label: 'stat.'}
+    - {symerror: 0.50e-1, label: 'sys.'}
   - value: 3.69e-1
     errors:
-    - {symerror: 0.14e-1, label: 'stat type-B'}
-    - {symerror: 0.37e-1, label: 'stat type-B'}
+    - {symerror: 0.14e-1, label: 'stat.'}
+    - {symerror: 0.37e-1, label: 'sys.'}
   - value: 2.74e-1
     errors:
-    - {symerror: 0.10e-1, label: 'stat type-B'}
-    - {symerror: 0.28e-1, label: 'stat type-B'}
+    - {symerror: 0.10e-1, label: 'stat.'}
+    - {symerror: 0.28e-1, label: 'sys.'}
   - value: 1.99e-1
     errors:
-    - {symerror: 0.08e-1, label: 'stat type-B'}
-    - {symerror: 0.20e-1, label: 'stat type-B'}
+    - {symerror: 0.08e-1, label: 'stat.'}
+    - {symerror: 0.20e-1, label: 'sys.'}
   - value: 1.44e-1
     errors:
-    - {symerror: 0.06e-1, label: 'stat type-B'}
-    - {symerror: 0.15e-1, label: 'stat type-B'}
+    - {symerror: 0.06e-1, label: 'stat.'}
+    - {symerror: 0.15e-1, label: 'sys.'}
   - value: 9.53e-2
     errors:
-    - {symerror: 0.36e-2, label: 'stat type-B'}
-    - {symerror: 0.96e-2, label: 'stat type-B'}
+    - {symerror: 0.36e-2, label: 'stat.'}
+    - {symerror: 0.96e-2, label: 'sys.'}
   - value: 5.16e-2
     errors:
-    - {symerror: 0.21e-2, label: 'stat type-B'}
-    - {symerror: 0.52e-2, label: 'stat type-B'}
+    - {symerror: 0.21e-2, label: 'stat.'}
+    - {symerror: 0.52e-2, label: 'sys.'}
   - value: 2.31e-2
     errors:
-    - {symerror: 0.09e-2, label: 'stat type-B'}
-    - {symerror: 0.23e-2, label: 'stat type-B'}
+    - {symerror: 0.09e-2, label: 'stat.'}
+    - {symerror: 0.23e-2, label: 'sys.'}
   - value: 7.17e-3
     errors:
-    - {symerror: 0.34e-3, label: 'stat type-B'}
-    - {symerror: 0.72e-3, label: 'stat type-B'}
+    - {symerror: 0.34e-3, label: 'stat.'}
+    - {symerror: 0.72e-3, label: 'sys.'}
   - value: 2.05e-3
     errors:
-    - {symerror: 0.15e-3, label: 'stat type-B'}
-    - {symerror: 0.21e-3, label: 'stat type-B'}
+    - {symerror: 0.15e-3, label: 'stat.'}
+    - {symerror: 0.21e-3, label: 'sys.'}
   - value: 5.18e-4
     errors:
-    - {symerror: 0.44e-4, label: 'stat type-B'}
-    - {symerror: 0.52e-4, label: 'stat type-B'}
-- header: {name: '$\frac{BR}{2\pi p_{T}} \frac{d^{2}\sigma}{dydp_{T}}$'}
-  qualifiers:
-  - {name: '$p_{T}[GeV/c]$', value: '$p+p$\sqrt{s_{NN}}$=200GeV'}
-  values:
-  - value: 5.04e0
-    errors:
-    - {symerror: 0.23e0, label: 'stat type-B'}
-    - {symerror: 0.51e0, label: 'stat type-B'}
-  - value: 4.85e0
-    errors:
-    - {symerror: 0.17e0, label: 'stat type-B'}
-    - {symerror: 0.49e0, label: 'stat type-B'}
-  - value: 4.42e0
-    errors:
-    - {symerror: 0.15e0, label: 'stat type-B'}
-    - {symerror: 0.45e0, label: 'stat type-B'}
-  - value: 3.73e0
-    errors:
-    - {symerror: 0.13e0, label: 'stat type-B'}
-    - {symerror: 0.38e0, label: 'stat type-B'}
-  - value: 3.16e0
-    errors:
-    - {symerror: 0.11e0, label: 'stat type-B'}
-    - {symerror: 0.32e0, label: 'stat type-B'}
-  - value: 2.47e0
-    errors:
-    - {symerror: 0.08e0, label: 'stat type-B'}
-    - {symerror: 0.25e0, label: 'stat type-B'}
-  - value: 2.00e0
-    errors:
-    - {symerror: 0.07e0, label: 'stat type-B'}
-    - {symerror: 0.20e0, label: 'stat type-B'}
-  - value: 1.52e0
-    errors:
-    - {symerror: 0.05e0, label: 'stat type-B'}
-    - {symerror: 0.15e0, label: 'stat type-B'}
-  - value: 1.18e0
-    errors:
-    - {symerror: 0.04e0, label: 'stat type-B'}
-    - {symerror: 0.12e0, label: 'stat type-B'}
-  - value: 8.45e-1
-    errors:
-    - {symerror: 0.30e-1, label: 'stat type-B'}
-    - {symerror: 0.85e-1, label: 'stat type-B'}
-  - value: 6.44e-1
-    errors:
-    - {symerror: 0.23e-1, label: 'stat type-B'}
-    - {symerror: 0.65e-1, label: 'stat type-B'}
-  - value: 4.90e-1
-    errors:
-    - {symerror: 0.18e-1, label: 'stat type-B'}
-    - {symerror: 0.50e-1, label: 'stat type-B'}
-  - value: 3.69e-1
-    errors:
-    - {symerror: 0.14e-1, label: 'stat type-B'}
-    - {symerror: 0.37e-1, label: 'stat type-B'}
-  - value: 2.74e-1
-    errors:
-    - {symerror: 0.10e-1, label: 'stat type-B'}
-    - {symerror: 0.28e-1, label: 'stat type-B'}
-  - value: 1.99e-1
-    errors:
-    - {symerror: 0.08e-1, label: 'stat type-B'}
-    - {symerror: 0.20e-1, label: 'stat type-B'}
-  - value: 1.44e-1
-    errors:
-    - {symerror: 0.06e-1, label: 'stat type-B'}
-    - {symerror: 0.15e-1, label: 'stat type-B'}
-  - value: 9.53e-2
-    errors:
-    - {symerror: 0.36e-2, label: 'stat type-B'}
-    - {symerror: 0.96e-2, label: 'stat type-B'}
-  - value: 5.16e-2
-    errors:
-    - {symerror: 0.21e-2, label: 'stat type-B'}
-    - {symerror: 0.52e-2, label: 'stat type-B'}
-  - value: 2.31e-2
-    errors:
-    - {symerror: 0.09e-2, label: 'stat type-B'}
-    - {symerror: 0.23e-2, label: 'stat type-B'}
-  - value: 7.17e-3
-    errors:
-    - {symerror: 0.34e-3, label: 'stat type-B'}
-    - {symerror: 0.72e-3, label: 'stat type-B'}
-  - value: 2.05e-3
-    errors:
-    - {symerror: 0.15e-3, label: 'stat type-B'}
-    - {symerror: 0.21e-3, label: 'stat type-B'}
-  - value: 5.18e-4
-    errors:
-    - {symerror: 0.44e-4, label: 'stat type-B'}
-    - {symerror: 0.52e-4, label: 'stat type-B'}
+    - {symerror: 0.44e-4, label: 'stat.'}
+    - {symerror: 0.52e-4, label: 'sys.'}

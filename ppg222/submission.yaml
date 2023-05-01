@@ -1,11 +1,47 @@
-comment: |
-  BNL-RHIC. The PHENIX experiment at the Relativistic Heavy Ion Collider has measured the differential cross section, mean transverse momentum, mean transverse momentum squared of inclusive $J/\psi$  and cross section ratio of $\psi$ to $J/\psi$ at forward rapidity in $p$$+$$p$ collisions at $\sqrt{s_{NN}}$=510 GeV via the dimuon decay channel. Comparison is made to inclusive $J/\psi$ cross sections measured at $\sqrt{s_{NN}}$=200 GeV and 2.76-13 TeV. The result is also compared to leading-order nonrelativistic QCD calculations coupled to a color-glass-condensate description of the low-x gluons in the proton at low transverse momentum (p_T) and to next-to-leading order nonrelativistic QCD calculations for the rest of the p_T range. These calculations overestimate the data at low p_T. While consistent with the data within uncertainties above $\approx$3 GeV/c, the calculations are systematically below the data. The total cross section times the branching ratio is BR $\frac{d\sigma_{pp}^J/\psi }{dy}(1.2 < |y| < 2.2,0 < p_T < 10 GeV/c) = 54.3 pm 0.5(stat) pm 5.5(sys)nb$.
+#PHENIX paper PPG222
+#
+#$J/\psi$ and $\psi(2S)$ production at forward rapidity in $p$+$p$ collisions at $\sqrt{s}$ = 510 GeV
+#
+#Phys.Rev.Lett D 101 (2020) 052006
+#InspireHEP ID: 1773662
+#
+#Prepared by Nikolas Nelson
+#Please contact Christine Nattrass if you have any questions about this submission
+#PPG liaison:
+#Reviewer:
+#
+comment: | # Information that applies to all data tables.
+  The PHENIX experiment at the Relativistic Heavy Ion Collider has measured the differential cross section, mean transverse momentum, mean transverse momentum squared of inclusive $J/\psi$ and cross-section ratio of $\psi(2S)$ to $J/\psi$ at forward rapidity in $p$+$p$ collisions at $\sqrt{s}$ = 510 GeV via the dimuon decay channel. Comparison is made to inclusive $J/\psi$ cross sections measured at $\sqrt{s}$ = 200 GeV and 2.76-13 TeV. The result is also compared to leading-order nonrelativistic QCD calculations coupled to a color-glass-condensate description of the low-$x$ gluons in the proton at low transverse momentum ($p_T$) and to next-to-leading order nonrelativistic QCD calculations for the rest of the $p_T$ range. These calculations overestimate the data at low $p_T$. While consistent with the data within uncertainties above ≈ 3 GeV/$c$, the calculations are systematically below the data. The total cross section times the branching ratio is BR $d{\sigma^{J/\psi}_{pp}}/dy$(1.2 < $|y|$ < 2.2, 0 < $p_T$ < 10 GeV/$c$) = 54.3 $\pm$ 0.5 (stat) $\pm$ 5.5 (syst) nb.
 additional_resources:
-  - {location: "https://phenix-intra.sdcc.bnl.gov/phenix/WWW/info/data/ppg222_data.html", description: "web page with data points"}
+- {location: "https://phenix-intra.sdcc.bnl.gov/phenix/WWW/p/info/ppg/222/", description: "web page with data points"}
+- {location: "https://arxiv.org/abs/1912.13424", description: arXiv}
+- {location: "https://inspirehep.net/literature/1773662", description: InspireHEP}
 ---
+# This is Figure 5.
 name: "Figure 5"
-description: 'The inclusive $J/\psi$ differential cross section as a function of p_T at 1.2 < |y| < 2.2 at 510 GeV and at 200 GeV' 
-keywords:
-  - {name: reactions, values: [p p --> mu+mu-]}
-  - {name: cmenergies, values: [510.0]}
+location: Data From Table 3 of PRD 101 (2020) 052006
+description: 'The inclusive $J/\psi$ differential cross section as a function of $p_T$ at 1.2 < $|y|$ < 2.2 at 510 GeV.'
+keywords: # used for searching, possibly mutliple values for each keywords
+- {name: reactions, values: [$p$ $p$ --> CHARGED X]}
+- {name: cmenergies, values: [510.0]}
+- {name: phrases, values: [ppg222, transverse momentum]}
 data_file: pp_differential_sigma_pT_Fwd.yaml
+additional_resources:
+- {description: Original PDF Image file, location: d2sigdydpt_NLO_NRQCD.pdf}
+- {description: PNG Image file, location: d2sigdydpt_NLO_NRQCD.png}
+- {description: Thumbnail Image file, location: thumb_d2sigdydpt_NLO_NRQCD.png}
+---
+# This is Figure 6.
+name: "Figure 6"
+location: Data From Table 4 of PRD 101 (2020) 052006
+description: 'The inclusive $J/\psi$ differential cross section integrated over 0 < $p_T$ < 10 GeV/$c$ as a function of rapidity at 510 GeV.'
+keywords: # used for searching, possibly mutliple values for each keywords
+- {name: reactions, values: [$p$ $p$ --> CHARGED X]}
+- {name: cmenergies, values: [510.0]}
+- {name: phrases, values: [ppg222, transverse momentum]}
+data_file: ppg222fig6.yaml
+additional_resources:
+- {description: Original PDF Image file, location: dsigdyNLO.pdf}
+- {description: PNG Image file, location: dsigdyNLO.png}
+- {description: Thumbnail Image file, location: thumb_dsigdyNLO.png}
+---
