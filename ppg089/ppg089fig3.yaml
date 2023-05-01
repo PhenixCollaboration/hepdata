@@ -1,0 +1,126 @@
+independent_variables:
+- header: {name: '$p_{Tt}$ (GeV/$c$)'}
+  values:
+  - {low: 2.0, high: 2.5}
+  - {low: 2.5, high: 3.0}
+  - {low: 3.0, high: 3.5}
+  - {low: 3.5, high: 4.2}
+  - {low: 4.2, high: 5.2}
+  - {low: 5.2, high: 6.5}
+  - {low: 6.5, high: 8.0}
+  - {low: 8.0, high: 10.0}
+dependent_variables:
+- header: {name: '$<p_{Tt}>$ (GeV/$c$)'}
+  qualifiers:
+  - {name: '', value: ''}
+  values:
+  - value: 2.23
+  - value: 2.72
+  - value: 3.22
+  - value: 3.80
+  - value: 4.61
+  - value: 5.70
+  - value: 7.04
+  - value: 8.78
+- header: {name: '$<z_t>$'}
+  qualifiers:
+  - {name: '', value: 'Equal Fraction of q, g Jets'}
+  values:
+  - value: 0.42
+    errors:
+    - {symerror: 0.05, label: 'stat.'}
+  - value: 0.46
+    errors:
+    - {symerror: 0.06, label: 'stat.'}
+  - value: 0.50
+    errors:
+    - {symerror: 0.06, label: 'stat.'}
+  - value: 0.53
+    errors:
+    - {symerror: 0.06, label: 'stat.'}
+  - value: 0.56
+    errors:
+    - {symerror: 0.07, label: 'stat.'}
+  - value: 0.60
+    errors:
+    - {symerror: 0.07, label: 'stat.'}
+  - value: 0.63
+    errors:
+    - {symerror: 0.07, label: 'stat.'}
+  - value: 0.66
+    errors:
+    - {symerror: 0.06, label: 'stat.'}
+- header: {name: '$<z_t>$'}
+  qualifiers:
+  - {name: '', value: 'All Gluon Jets'}
+  values:
+  - value: 0.377
+  - value: 0.413
+  - value: 0.442
+  - value: 0.469
+  - value: 0.500
+  - value: 0.532
+  - value: 0.564
+  - value: 0.603
+- header: {name: '$<z_t>$'}
+  qualifiers:
+  - {name: '', value: 'All Quark Jets'}
+  values:
+  - value: 0.473
+  - value: 0.524
+  - value: 0.560
+  - value: 0.596
+  - value: 0.633
+  - value: 0.668
+  - value: 0.700
+  - value: 0.728
+- header: {name: '$\hat{x_h}$'}
+  qualifiers:
+  - {name: '', value: 'Equal Fraction of q, g Jets'}
+  values:
+  - value: 1.061
+    errors:
+    - {symerror: 0.003, label: 'stat.'}
+  - value: 0.994
+  - value: 0.952
+    errors:
+    - {symerror: 0.004, label: 'stat.'}
+  - value: 0.926
+    errors:
+    - {symerror: 0.008, label: 'stat.'}
+  - value: 0.905
+    errors:
+    - {symerror: 0.011, label: 'stat.'}
+  - value: 0.890
+    errors:
+    - {symerror: 0.014, label: 'stat.'}
+  - value: 0.884
+    errors:
+    - {symerror: 0.013, label: 'stat.'}
+  - value: 0.866
+    errors:
+    - {symerror: 0.013, label: 'stat.'}
+- header: {name: '$\hat{x_h}$'}
+  qualifiers:
+  - {name: '', value: 'All Gluon Jets'}
+  values:
+  - value: 1.060
+  - value: 0.994
+  - value: 0.955
+  - value: 0.931
+  - value: 0.912
+  - value: 0.899
+  - value: 0.893
+  - value: 0.875
+- header: {name: '$\hat{x_h}$'}
+  qualifiers:
+  - {name: '', value: 'All Quark Jets'}
+  values:
+  - value: 1.065
+  - value: 0.994
+  - value: 0.947
+  - value: 0.915
+  - value: 0.890
+  - value: 0.872
+  - value: 0.866
+  - value: 0.849

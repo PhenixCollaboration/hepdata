@@ -1,0 +1,61 @@
+#PHENIX paper PPG089
+#
+#Double Helicity Dependence of Jet Properties from Dihadrons in Longitudinally Polarized $p$+$p$ Collisions at $\sqrt{s}$ = 200 GeV
+#
+#Phys.Rev.Lett D 81 (2010) 012002
+#InspireHEP ID: 833129
+#
+#Prepared by Nikolas Nelson
+#Please contact Christine Nattrass if you have any questions about this submission
+#PPG liaison:
+#Reviewer:
+#
+comment: | # Information that applies to all data tables.
+  It has been postulated that partonic orbital angular momentum can lead to a significant double-helicity dependence in the net transverse momentum of Drell-Yan dileptons produced in longitudinally polarized $p$+$p$ collisions. Analogous effects are also expected for dijet production. If confirmed by experiment, this hypothesis, which is based on semi-classical arguments, could lead to a new approach for studying the contributions of orbital angular momentum to the proton spin. We report the first measurement of the double-helicity dependence of the dijet transverse momentum in longitudinally polarized $p$+$p$ collisions at $\sqrt{s}$ = 200 GeV from data taken by the PHENIX experiment in 2005 and 2006. The analysis deduces the transverse momentum of the dijet from the widths of the near- and far-side peaks in the azimuthal correlation of the dihadrons. When averaged over the transverse momentum of the triggered particle, the difference of the root-mean-square of the dijet transverse momentum between like- and unlike-helicity collisions is found to be -37 $\pm$ 88$^{(stat)}$ $\pm$ 14$^{(syst)}$ MeV/$c$.
+additional_resources:
+- {location: "https://phenix-intra.sdcc.bnl.gov/phenix/WWW/p/info/ppg/089/", description: "web page with data points"}
+- {location: "http://arxiv.org/abs/0910.1029", description: arXiv}
+- {location: "https://inspirehep.net/literature/833129", description: InspireHEP}
+---
+# This is Figure 3.
+name: "Figure 3"
+location: Data From Fig. 3 of PRD 81 (2010) 012002 
+description: 'Values of derived $<z_T>$ and $\hat{x_h}$.'
+keywords: # used for searching, possibly mutliple values for each keywords
+- {name: reactions, values: [$p$ $p$ --> CHARGED X]}
+- {name: cmenergies, values: [200.0]}
+- {name: phrases, values: [ppg089, transverse momentum, azimuthal correlation]}
+data_file: ppg089fig3.yaml
+additional_resources:
+- {description: Original EPS Image file, location: xh_zt_values.eps}
+- {description: PNG Image file, location: xh_zt_values.png}
+- {description: Thumbnail Image file, location: thumb_xh_zt_values.png}
+---
+# This is Figure 4.
+name: "Figure 4"
+location: Data From Fig. 4 of PRD 81 (2010) 012002 
+description: 'Helicity-averaged $\sqrt{<j^2_T>}$ and $\sqrt{<k^2_T>}$ for combined 2005 and 2006 data.'
+keywords: # used for searching, possibly mutliple values for each keywords
+- {name: reactions, values: [$p$ $p$ --> CHARGED X]}
+- {name: cmenergies, values: [200.0]}
+- {name: phrases, values: [ppg089, transverse momentum, azimuthal correlation]}
+data_file: ppg089fig4.yaml
+additional_resources:
+- {description: Original EPS Image file, location: avgJTKT_final.eps}
+- {description: PNG Image file, location: avgJTKT_final.png}
+- {description: Thumbnail Image file, location: thumb_avgJTKT_final.png}
+---
+# This is Figure 5.
+name: "Figure 5"
+location: Data From Fig. 5 of PRD 81 (2010) 012002 
+description: 'Difference in $\sqrt{<j^2_T>}$ and $\sqrt{<k^2_T>}$ for like- minus unlike-helicity combinations.'
+keywords: # used for searching, possibly mutliple values for each keywords
+- {name: reactions, values: [$p$ $p$ --> CHARGED X]}
+- {name: cmenergies, values: [200.0]}
+- {name: phrases, values: [ppg089, transverse momentum, azimuthal correlation]}
+data_file: ppg089fig5.yaml
+additional_resources:
+- {description: Original EPS Image file, location: avgdKT_final.eps}
+- {description: PNG Image file, location: avgdKT_final.png}
+- {description: Thumbnail Image file, location: thumb_avgdKT_final.png}
+---
