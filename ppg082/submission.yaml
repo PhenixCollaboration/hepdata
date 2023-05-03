@@ -1,0 +1,117 @@
+#PHENIX paper PPG082
+#
+#Kaon interferometric probes of space-time evolution in Au+Au collisions at $\sqrt{s_{NN}}$ = 200 GeV
+#
+#Phys.Rev.Lett 103 (2009) 142301
+#InspireHEP ID: 816475
+#
+#Prepared by Nikolas Nelson
+#Please contact Christine Nattrass if you have any questions about this submission
+#PPG liaison:
+#Reviewer:
+#
+comment: | # Information that applies to all data tables.
+  Bose-Einstein correlations of charged kaons are measured for Au+Au collisions at $\sqrt{s_{NN}}$ = 200 GeV and are compared to charged pion probes, which have a larger hadronic scattering cross section. Three dimensional Gaussian source radii are extracted, along with a one-dimensional kaon emission source function. The centrality dependences of the three Gaussian radii are well described by a single linear function if $N_{part}^{1/3}$ with zero intercept. Imaging analysis shows a deviation from a Gaussian tail at $r \ge$ 10 fm, although the bulk emission at lower radius is well-described by a Gaussian. The presence of a non-Gaussian tail in the kaon source reaffirms that the particle emission region in a heavy ion collision is extended, and that similar measurements with pions are not solely due to the decay of long-lived resonances.
+additional_resources:
+- {location: "https://phenix-intra.sdcc.bnl.gov/phenix/WWW/p/info/ppg/082/", description: "web page with data points"}
+- {location: "http://arxiv.org/abs/0903.4863", description: arXiv}
+- {location: "https://inspirehep.net/literature/816475", description: InspireHEP}
+---
+# This is Figure 1.
+name: "Figure 1"
+location: Data From Fig. 1 of PRL 103 (2009) 142301
+description: '3D correlation function of charged kaon pairs measured for 0.3 < $k_T$ < 1.5 GeV/$c$ at 0-30% centrality in Au+Au collisions at $\sqrt{s_{NN}}$ = 200 GeV.'
+keywords: # used for searching, possibly mutliple values for each keywords
+- {name: reactions, values: [Au Au --> CHARGED X]}
+- {name: cmenergies, values: [200.0]}
+- {name: phrases, values: [ppg082]}
+data_file: ppg082fig1.yaml
+additional_resources:
+- {description: Original EPS Image file, location: Kaon_3DC2.eps}
+- {description: PNG Image file, location: Kaon_3DC2.png}
+- {description: Thumbnail Image file, location: thumb_Kaon_3DC2.png}
+---
+# This is Figure 2.
+name: "Figure 2a"
+location: Data From Fig. 2 of PRL 103 (2009) 142301
+description: '3D Gaussian HBT radius parameters for charged kaon pairs as a function of $N_{part}^{1/3}$ measured for 0.3 < $k_T$ < 1.5 GeV/$c$ and $m_T$ measured for 0-30% centrality in Au+Au collisions at $\sqrt{s_{NN}}$ = 200 GeV.'
+keywords: # used for searching, possibly mutliple values for each keywords
+- {name: reactions, values: [Au Au --> CHARGED X]}
+- {name: cmenergies, values: [200.0]}
+- {name: phrases, values: [ppg082]}
+data_file: ppg082fig2a.yaml
+additional_resources:
+- {description: Original EPS Image file, location: Kaon_3Dradii_mTNp.eps}
+- {description: PNG Image file, location: Kaon_3Dradii_mTNp.png}
+- {description: Thumbnail Image file, location: thumb_Kaon_3Dradii_mTNp.png}
+---
+# This is Figure 2.
+name: "Figure 2b"
+location: Data From Fig. 2 of PRL 103 (2009) 142301
+description: '3D Gaussian HBT radius parameters for charged kaon pairs as a function of $N_{part}^{1/3}$ measured for 0.3 < $k_T$ < 1.5 GeV/$c$ and $m_T$ measured for 0-30% centrality in Au+Au collisions at $\sqrt{s_{NN}}$ = 200 GeV.'
+keywords: # used for searching, possibly mutliple values for each keywords
+- {name: reactions, values: [Au Au --> CHARGED X]}
+- {name: cmenergies, values: [200.0]}
+- {name: phrases, values: [ppg082]}
+data_file: ppg082fig2b.yaml
+additional_resources:
+- {description: Original EPS Image file, location: Kaon_3Dradii_mTNp.eps}
+- {description: PNG Image file, location: Kaon_3Dradii_mTNp.png}
+- {description: Thumbnail Image file, location: thumb_Kaon_3Dradii_mTNp.png}
+---
+# This is Figure 3.
+name: "Figure 3a-1"
+location: Data From Fig. 3 of PRL 103 (2009) 142301
+description: 'Measured $C_2$($q_{inv}$) and restored $C_2$($q_{inv}$) from imaged $S(r)$, compared with angle-averaged Gaussian $C_2$($q_{inv}$) for charged kaon pairs measured for 0.3 < $k_T$ < 0.9 GeV/$c$ at 0-30% central Au+Au collisions at $\sqrt{s_{NN}}$ = 200 GeV.'
+keywords: # used for searching, possibly mutliple values for each keywords
+- {name: reactions, values: [Au Au --> CHARGED X]}
+- {name: cmenergies, values: [200.0]}
+- {name: phrases, values: [ppg082]}
+data_file: ppg082fig3a1.yaml
+additional_resources:
+- {description: Original EPS Image file, location: Kaon_1Dimaging.eps}
+- {description: PNG Image file, location: Kaon_1Dimaging.png}
+- {description: Thumbnail Image file, location: thumb_Kaon_1Dimaging.png}
+---
+# This is Figure 3.
+name: "Figure 3a-2"
+location: Data From Fig. 3 of PRL 103 (2009) 142301
+description: 'Measured $C_2$($q_{inv}$) and restored $C_2$($q_{inv}$) from imaged $S(r)$, compared with angle-averaged Gaussian $C_2$($q_{inv}$) for charged kaon pairs measured for 0.3 < $k_T$ < 0.9 GeV/$c$ at 0-30% central Au+Au collisions at $\sqrt{s_{NN}}$ = 200 GeV.'
+keywords: # used for searching, possibly mutliple values for each keywords
+- {name: reactions, values: [Au Au --> CHARGED X]}
+- {name: cmenergies, values: [200.0]}
+- {name: phrases, values: [ppg082]}
+data_file: ppg082fig3a2.yaml
+additional_resources:
+- {description: Original EPS Image file, location: Kaon_1Dimaging.eps}
+- {description: PNG Image file, location: Kaon_1Dimaging.png}
+- {description: Thumbnail Image file, location: thumb_Kaon_1Dimaging.png}
+---
+# This is Figure 3.
+name: "Figure 3a-3"
+location: Data From Fig. 3 of PRL 103 (2009) 142301
+description: 'Measured $C_2$($q_{inv}$) and restored $C_2$($q_{inv}$) from imaged $S(r)$, compared with angle-averaged Gaussian $C_2$($q_{inv}$) for charged kaon pairs measured for 0.3 < $k_T$ < 0.9 GeV/$c$ at 0-30% central Au+Au collisions at $\sqrt{s_{NN}}$ = 200 GeV.'
+keywords: # used for searching, possibly mutliple values for each keywords
+- {name: reactions, values: [Au Au --> CHARGED X]}
+- {name: cmenergies, values: [200.0]}
+- {name: phrases, values: [ppg082]}
+data_file: ppg082fig3a3.yaml
+additional_resources:
+- {description: Original EPS Image file, location: Kaon_1Dimaging.eps}
+- {description: PNG Image file, location: Kaon_1Dimaging.png}
+- {description: Thumbnail Image file, location: thumb_Kaon_1Dimaging.png}
+---
+# This is Figure 3.
+name: "Figure 3b"
+location: Data From Fig. 3 of PRL 103 (2009) 142301
+description: 'Measured $C_2$($q_{inv}$) and restored $C_2$($q_{inv}$) from imaged $S(r)$, compared with angle-averaged Gaussian $C_2$($q_{inv}$) for charged kaon pairs measured for 0.3 < $k_T$ < 0.9 GeV/$c$ at 0-30% central Au+Au collisions at $\sqrt{s_{NN}}$ = 200 GeV.'
+keywords: # used for searching, possibly mutliple values for each keywords
+- {name: reactions, values: [Au Au --> CHARGED X]}
+- {name: cmenergies, values: [200.0]}
+- {name: phrases, values: [ppg082]}
+data_file: ppg082fig3b.yaml
+additional_resources:
+- {description: Original EPS Image file, location: Kaon_1Dimaging.eps}
+- {description: PNG Image file, location: Kaon_1Dimaging.png}
+- {description: Thumbnail Image file, location: thumb_Kaon_1Dimaging.png}
+---
