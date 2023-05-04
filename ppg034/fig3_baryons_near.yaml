@@ -1,0 +1,72 @@
+independent_variables:
+- header: {name: '$p_{T,\ assoc}\ (\mathrm{GeV}/c)$'}
+  values:
+  - {value: 0.89}
+  - {value: 1.13}
+  - {value: 1.43}
+  - {value: 1.76}
+dependent_variables:
+- header: {name: '$\frac{1}{N_{\mathrm{trig}}}\frac{dN}{dp_T}\ [(\mathrm{GeV}/c)^{-1}]$'}
+  qualifiers:
+  - {name: 'Centrality', value: '0-20%'}
+  values:
+  - value: 0.0068
+    errors:
+    - {symerror: 0.0016, label: 'stat.'}
+  - value: 0.0142
+    errors:
+    - {symerror: 0.0015, label: 'stat.'}
+  - value: 0.0186
+    errors:
+    - {symerror: 0.0012, label: 'stat.'}
+  - value: 0.0197
+    errors:
+    - {symerror: 7e-4, label: 'stat.'}
+- header: {name: '$\frac{1}{N_{\mathrm{trig}}}\frac{dN}{dp_T}\ [(\mathrm{GeV}/c)^{-1}]$'}
+  qualifiers:
+  - {name: 'Centrality', value: '20-40%'}
+  values:
+  - value: 0.0052
+    errors:
+    - {symerror: 0.0014, label: 'stat.'}
+  - value: 0.0118
+    errors:
+    - {symerror: 0.0012, label: 'stat.'}
+  - value: 0.0148
+    errors:
+    - {symerror: 0.0010, label: 'stat.'}
+  - value: 0.0134
+    errors:
+    - {symerror: 6e-4, label: 'stat.'}
+- header: {name: '$\frac{1}{N_{\mathrm{trig}}}\frac{dN}{dp_T}\ [(\mathrm{GeV}/c)^{-1}]$'}
+  qualifiers:
+  - {name: 'Centrality', value: '40-70%'}
+  values:
+  - value: 0.0031
+    errors:
+    - {symerror: 0.0014, label: 'stat.'}
+  - value: 0.0041
+    errors:
+    - {symerror: 0.0010, label: 'stat.'}
+  - value: 0.0059
+    errors:
+    - {symerror: 9e-4, label: 'stat.'}
+  - value: 0.0057
+    errors:
+    - {symerror: 4e-4, label: 'stat.'}
+- header: {name: '$\frac{1}{N_{\mathrm{trig}}}\frac{dN}{dp_T}\ [(\mathrm{GeV}/c)^{-1}]$'}
+  qualifiers:
+  - {name: 'Centrality', value: '70-90%'}
+  values:
+  - value: 0.0061
+    errors:
+    - {symerror: 0.0030, label: 'stat.'}
+  - value: 0.0030
+    errors:
+    - {symerror: 9e-4, label: 'stat.'}
+  - value: 0.0060
+    errors:
+    - {symerror: 0.0010, label: 'stat.'}
+  - value: 0.0042
+    errors:
+    - {symerror: 5e-4, label: 'stat.'}

@@ -1,0 +1,56 @@
+independent_variables:
+- header: {name: '$p_{T,\ assoc}\ \mathrm{GeV}/c$'}
+  values:
+  - {value: 0.89}
+  - {value: 1.13}
+  - {value: 1.43}
+  - {value: 1.76}
+dependent_variables:
+- header: {name: 'ZYAM sbtr. CY(baryon)/CY(meson)'}
+  qualifiers:
+  - {name: 'Centrality', value: '0-20%'}
+  values:
+  - value: 0.015
+    errors:
+    - {symerror: 0.004, label: 'stat.'}
+  - value: 0.050
+    errors:
+    - {symerror: 0.005, label: 'stat.'}
+  - value: 0.108
+    errors:
+    - {symerror: 0.008, label: 'stat.'}
+  - value: 0.204
+    errors:
+    - {symerror: 0.009, label: 'stat.'}
+- header: {name: 'ZYAM sbtr. CY(baryon)/CY(meson)'}
+  qualifiers:
+  - {name: 'Centrality', value: '20-40%'}
+  values:
+  - value: 0.016
+    errors:
+    - {symerror: 0.004, label: 'stat.'}
+  - value: 0.059
+    errors:
+    - {symerror: 0.006, label: 'stat.'}
+  - value: 0.105
+    errors:
+    - {symerror: 0.007, label: 'stat.'}
+  - value: 0.165
+    errors:
+    - {symerror: 0.008, label: 'stat.'}
+- header: {name: 'ZYAM sbtr. CY(baryon)/CY(meson)'}
+  qualifiers:
+  - {name: 'Centrality', value: '70-90%'}
+  values:
+  - value: 0.040
+    errors:
+    - {symerror: 0.020, label: 'stat.'}
+  - value: 0.027
+    errors:
+    - {symerror: 0.008, label: 'stat.'}
+  - value: 0.073
+    errors:
+    - {symerror: 0.013, label: 'stat.'}
+  - value: 0.095
+    errors:
+    - {symerror: 0.013, label: 'stat.'}
