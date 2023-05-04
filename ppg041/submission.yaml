@@ -1,0 +1,38 @@
+# PHENIX paper PPG041
+
+# "Centrality dependence of charged hadron production in deuteron+gold and nucleon+gold collisions at sqrt(s_NN)=200 GeV"
+
+# Phys.Rev.C. 77, 014905 (2008)
+# InspireHEP ID: 758544
+# preprint http://arxiv.org/abs/0708.2416
+
+# Prepared by Micah Hillman
+# Please contact Christine Nattrass if you have any questions about this submission
+# PPG liaison:
+# Reviewer:
+
+---
+additional_resources:
+  - {location: "https://phenix-intra.sdcc.bnl.gov/WWW/p/info/ppg/041/", description: "web page with data points"}    # Updated for ppg041
+  - {location: "http://arxiv.org/abs/0708.2416", description: arXiv}                                                            # Updated for ppg041
+  - {location: "https://inspirehep.net/literature/758544", description: InspireHEP}                                             # Updated for ppg041
+
+comment: We present transverse momentum ($p_T$) spectra of charged hadrons measured in deuteron-gold and nucleon-gold collisions at $\sqrt{s} = 200 \mathrm{GeV}$ for four centrality classes. Nucleon-gold collisions were selected by tagging events in which a spectator nucleon was observed in one of two forward rapidity detectors. The spectra and yields were investigated as a function of the number of binary nucleon-nucleon collisions, $\nu$, suffered by deuteron nucleons. A comparison of charged particle yields to those in $p+p$ collisions show that the yield per nucleon-nucleon collision saturates with $\nu$ for high momentum particles. We also present the charged hadron to neutral pion ratios as a function of $p_T$.
+---
+name: "Fig. 12, Part 1"
+location: Data from Fig. 12 of PRC 77 (014905) 2008.
+description: Charged hadron spectra for centrality selected d+Au collisions.
+keywords:
+  - {name: reactions, values: [Au Au --> Charged X]}
+  - {name: cmenergies, values: [200.0]}
+  - {name: phrases, values: [ppg034, mid-rapidity]}
+data_file: fig12_p1.yaml
+---
+name: "Fig. 16"
+location: Data from Fig. 16 of PRC 77 (014905) 2008.
+description: Charged hadron spectra for centrality selected d+Au collisions.
+keywords:
+  - {name: reactions, values: [Au Au --> Charged X]}
+  - {name: cmenergies, values: [200.0]}
+  - {name: phrases, values: [ppg034, mid-rapidity]}
+data_file: fig16.yaml
