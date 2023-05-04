@@ -1,0 +1,31 @@
+independent_variables:
+- header: {name: '$p_T\ (\mathrm{GeV/c})$'}
+  values:
+  - {low: 5.0, high: 5.5}
+  - {low: 5.5, high: 6.0}
+  - {low: 6.0, high: 6.5}
+  - {low: 6.5, high: 7.0}
+  - {low: 7.0, high: 8.0}
+dependent_variables:
+- header: {name: '$E\frac{d\sigma}{dp^3} \mathrm{(mb \cdot GeV^{-2} \cdot c^2)}$'}
+  values:
+  - value: NaN
+    errors:
+    - {symerror: NaN, label: 'stat.'}
+    - {symerror: NaN, label: 'sys.'}
+  - value: 5.61e-7
+    errors:
+    - {symerror: 2.63e-7, label: 'stat.'}
+    - {symerror: 2.5e-7, label: 'sys.'}
+  - value: 2.68e-7
+    errors:
+    - {symerror: 1.78e-7, label: 'stat.'}
+    - {symerror: 1.25e-7, label: 'sys.'}
+  - value: 2.37e-7
+    errors:
+    - {symerror: 1.24e-7, label: 'stat.'}
+    - {symerror: 7.12e-8, label: 'sys.'}
+  - value: 4.11e-8
+    errors:
+    - {symerror: 5.36e-8, label: 'stat.'}
+    - {symerror: 2.56e-8, label: 'sys.'}
