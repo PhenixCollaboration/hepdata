@@ -14,25 +14,133 @@
 ---
 additional_resources:
   - {location: "https://phenix-intra.sdcc.bnl.gov/WWW/p/info/ppg/041/", description: "web page with data points"}    # Updated for ppg041
-  - {location: "http://arxiv.org/abs/0708.2416", description: arXiv}                                                            # Updated for ppg041
-  - {location: "https://inspirehep.net/literature/758544", description: InspireHEP}                                             # Updated for ppg041
+  - {location: "http://arxiv.org/abs/0708.2416", description: arXiv}                                                 # Updated for ppg041
+  - {location: "https://inspirehep.net/literature/758544", description: InspireHEP}                                  # Updated for ppg041
 
 comment: We present transverse momentum ($p_T$) spectra of charged hadrons measured in deuteron-gold and nucleon-gold collisions at $\sqrt{s} = 200 \mathrm{GeV}$ for four centrality classes. Nucleon-gold collisions were selected by tagging events in which a spectator nucleon was observed in one of two forward rapidity detectors. The spectra and yields were investigated as a function of the number of binary nucleon-nucleon collisions, $\nu$, suffered by deuteron nucleons. A comparison of charged particle yields to those in $p+p$ collisions show that the yield per nucleon-nucleon collision saturates with $\nu$ for high momentum particles. We also present the charged hadron to neutral pion ratios as a function of $p_T$.
 ---
 name: "Fig. 12, Part 1"
 location: Data from Fig. 12 of PRC 77 (014905) 2008.
-description: Charged hadron spectra for centrality selected d+Au collisions.
+description: <p>Charged hadron spectra for centrality selected d+Au collisions.</p> <p><i>Working submission. Please contact Christine Nattrass if you have any questions about this upload.</i></p> <p><b>Figure Notes</b> <ul><li>Binning for this figure is likely accurate, but please check.</li></ul></p>
 keywords:
-  - {name: reactions, values: [Au Au --> Charged X]}
+  - {name: reactions, values: [d Au --> Charged X]}
   - {name: cmenergies, values: [200.0]}
-  - {name: phrases, values: [ppg034, mid-rapidity]}
+  - {name: phrases, values: [ppg041, mid-rapidity]}
 data_file: fig12_p1.yaml
+---
+name: "Fig. 12, Part 2"
+location: Data from Fig. 12 of PRC 77 (014905) 2008.
+description: <p>Charged hadron spectra for centrality selected N+Au collisions. All centralities.</p> <p><i>Working submission. Please contact Christine Nattrass if you have any questions about this upload.</i></p> <p><b>Figure Notes</b> <ul><li>Binning, particularly for larger $p_T$, may be inaccurate. Please check.</li></ul></p>
+keywords:
+  - {name: reactions, values: [N Au --> Charged X]}
+  - {name: cmenergies, values: [200.0]}
+  - {name: phrases, values: [ppg041, mid-rapidity]}
+data_file: fig12_p2.yaml
+---
+name: "Fig. 12, Part 3"
+location: Data from Fig. 12 of PRC 77 (014905) 2008.
+description: <p>Charged hadron spectra for centrality selected N+Au collisions. Centrality A (Central).</p> <p><i>Working submission. Please contact Christine Nattrass if you have any questions about this upload.</i></p> <p><b>Figure Notes</b> <ul><li>Binning, particularly for larger $p_T$, may be inaccurate. Please check.</li></ul></p>
+keywords:
+  - {name: reactions, values: [N Au --> Charged X]}
+  - {name: cmenergies, values: [200.0]}
+  - {name: phrases, values: [ppg041, mid-rapidity]}
+data_file: fig12_p3.yaml
+---
+name: "Fig. 12, Part 4"
+location: Data from Fig. 12 of PRC 77 (014905) 2008.
+description: <p>Charged hadron spectra for centrality selected N+Au collisions. Centrality B.</p> <p><i>Working submission. Please contact Christine Nattrass if you have any questions about this upload.</i></p> <p><b>Figure Notes</b> <ul><li>Binning, particularly for larger $p_T$, may be inaccurate. Please check.</li></ul></p>
+keywords:
+  - {name: reactions, values: [N Au --> Charged X]}
+  - {name: cmenergies, values: [200.0]}
+  - {name: phrases, values: [ppg041, mid-rapidity]}
+data_file: fig12_p4.yaml
+---
+name: "Fig. 12, Part 5"
+location: Data from Fig. 12 of PRC 77 (014905) 2008.
+description: <p>Charged hadron spectra for centrality selected N+Au collisions. Centrality C.</p> <p><i>Working submission. Please contact Christine Nattrass if you have any questions about this upload.</i></p> <p><b>Figure Notes</b> <ul><li>Binning, particularly for larger $p_T$, may be inaccurate. Please check.</li></ul></p>
+keywords:
+  - {name: reactions, values: [N Au --> Charged X]}
+  - {name: cmenergies, values: [200.0]}
+  - {name: phrases, values: [ppg041, mid-rapidity]}
+data_file: fig12_p5.yaml
+---
+name: "Fig. 12, Part 6"
+location: Data from Fig. 12 of PRC 77 (014905) 2008.
+description: <p>Charged hadron spectra for centrality selected N+Au collisions. Centrality D (Peripheral).</p> <p><i>Working submission. Please contact Christine Nattrass if you have any questions about this upload.</i></p> <p><b>Figure Notes</b> <ul><li>Binning, particularly for larger $p_T$, may be inaccurate. Please check.</li></ul></p>
+keywords:
+  - {name: reactions, values: [N Au --> Charged X]}
+  - {name: cmenergies, values: [200.0]}
+  - {name: phrases, values: [ppg041, mid-rapidity]}
+data_file: fig12_p6.yaml
+---
+name: "Fig. 14, Part 1"
+location: Data from Fig. 14 of PRC 77 (014905) 2008.
+description: <p>$R_{dAu}$ as a function of $p_T$.</p> <p><i>Working submission. Please contact Christine Nattrass if you have any questions about this upload.</i></p> <p><b>Figure Notes</b> <ul><li>Binning, particularly for larger $p_T$, is not uniform and may be inaccurate. Please check.</li><li>Figure may need to be split into four if the binning is non-uniform between different centralities.</li></ul></p>
+keywords:
+  - {name: reactions, values: [d Au --> Charged X]}
+  - {name: cmenergies, values: [200.0]}
+  - {name: phrases, values: [ppg041, mid-rapidity]}
+data_file: fig14_p1.yaml
+---
+name: "Fig. 14, Part 2"
+location: Data from Fig. 14 of PRC 77 (014905) 2008.
+description: <p>$R_{NAu}$ as a function of $p_T$. Centrality A (Peripheral).</p> <p><i>Working submission. Please contact Christine Nattrass if you have any questions about this upload.</i></p> <p><b>Figure Notes</b> <ul><li>Binning, particularly for larger $p_T$, is not uniform and may be inaccurate. Please check.</li></ul></p>
+keywords:
+  - {name: reactions, values: [d Au --> Charged X]}
+  - {name: cmenergies, values: [200.0]}
+  - {name: phrases, values: [ppg041, mid-rapidity]}
+data_file: fig14_p2.yaml
+---
+name: "Fig. 14, Part 3"
+location: Data from Fig. 14 of PRC 77 (014905) 2008.
+description: <p>$R_{NAu}$ as a function of $p_T$. Centrality B.</p> <p><i>Working submission. Please contact Christine Nattrass if you have any questions about this upload.</i></p> <p><b>Figure Notes</b> <ul><li>Binning, particularly for larger $p_T$, is not uniform and may be inaccurate. Please check.</li></ul></p>
+keywords:
+  - {name: reactions, values: [d Au --> Charged X]}
+  - {name: cmenergies, values: [200.0]}
+  - {name: phrases, values: [ppg041, mid-rapidity]}
+data_file: fig14_p3.yaml
+---
+name: "Fig. 14, Part 4"
+location: Data from Fig. 14 of PRC 77 (014905) 2008.
+description: <p>$R_{dAu}$ as a function of $p_T$. Centrality C.</p> <p><i>Working submission. Please contact Christine Nattrass if you have any questions about this upload.</i></p> <p><b>Figure Notes</b> <ul><li>Binning, particularly for larger $p_T$, is not uniform and may be inaccurate. Please check.</li></ul></p>
+keywords:
+  - {name: reactions, values: [d Au --> Charged X]}
+  - {name: cmenergies, values: [200.0]}
+  - {name: phrases, values: [ppg041, mid-rapidity]}
+data_file: fig14_p4.yaml
+---
+name: "Fig. 14, Part 5"
+location: Data from Fig. 14 of PRC 77 (014905) 2008.
+description: <p>$R_{dAu}$ as a function of $p_T$. Centrality D (Central).</p> <p><i>Working submission. Please contact Christine Nattrass if you have any questions about this upload.</i></p> <p><b>Figure Notes</b> <ul><li>Binning, particularly for larger $p_T$, is not uniform and may be inaccurate. Please check.</li></ul></p>
+keywords:
+  - {name: reactions, values: [d Au --> Charged X]}
+  - {name: cmenergies, values: [200.0]}
+  - {name: phrases, values: [ppg041, mid-rapidity]}
+data_file: fig14_p5.yaml
+---
+name: "Fig. 15, Part 1"
+location: Data from Fig. 15 of PRC 77 (014905) 2008.
+description: <p>$R_{dAu}$ values averaged in three momentum ranges as functions of $\nu−1$. Horizontal bars show the uncertainty in the value of $\nu$ for each centrality class.</p> <p><i>Working submission. Please contact Christine Nattrass if you have any questions about this upload.</i></p> <p><b>Figure Notes</b> <ul><li>In this case, the horizontal error bars represent actual errors on $\nu$, rather than bin widths. Unsure how to properly implement these.</li></ul></p>
+keywords:
+  - {name: reactions, values: [d Au --> Charged X]}
+  - {name: cmenergies, values: [200.0]}
+  - {name: phrases, values: [ppg041, mid-rapidity]}
+data_file: fig15_p1.yaml
+---
+name: "Fig. 15, Part 2"
+location: Data from Fig. 15 of PRC 77 (014905) 2008.
+description: <p>$R_{NAu}$ values averaged in three momentum ranges as functions of $\nu−1$. Horizontal bars show the uncertainty in the value of $\nu$ for each centrality class.</p> <p><i>Working submission. Please contact Christine Nattrass if you have any questions about this upload.</i></p> <p><b>Figure Notes</b> <ul><li>In this case, the horizontal error bars represent actual errors on $\nu$, rather than bin widths. Unsure how to properly implement these.</li></ul></p>
+keywords:
+  - {name: reactions, values: [N Au --> Charged X]}
+  - {name: cmenergies, values: [200.0]}
+  - {name: phrases, values: [ppg041, mid-rapidity]}
+data_file: fig15_p2.yaml
 ---
 name: "Fig. 16"
 location: Data from Fig. 16 of PRC 77 (014905) 2008.
-description: Charged hadron spectra for centrality selected d+Au collisions.
+description: <p>Charged hadron spectra for centrality selected d+Au collisions.</p> <p><i>Working submission. Please contact Christine Nattrass if you have any questions about this upload.</i></p> <p><b>Figure Notes</b> <ul><li>Binning for this figure is likely accurate, but please check.</li></ul></p>
 keywords:
   - {name: reactions, values: [Au Au --> Charged X]}
   - {name: cmenergies, values: [200.0]}
-  - {name: phrases, values: [ppg034, mid-rapidity]}
+  - {name: phrases, values: [ppg041, mid-rapidity]}
 data_file: fig16.yaml
