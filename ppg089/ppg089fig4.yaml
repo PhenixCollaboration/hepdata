@@ -1,0 +1,152 @@
+independent_variables:
+- header: {name: '$p_{Tt}$ (GeV/$c$)'}
+  values:
+  - {low: 2.0, high: 2.5}
+  - {low: 2.5, high: 3.0}
+  - {low: 3.0, high: 3.5}
+  - {low: 3.5, high: 4.2}
+  - {low: 4.2, high: 5.2}
+  - {low: 5.2, high: 6.5}
+  - {low: 6.5, high: 8.0}
+  - {low: 8.0, high: 10.0}
+dependent_variables:
+- header: {name: '$<p_{Tt}>$ (GeV/$c$)'}
+  qualifiers:
+  - {name: 'Range', value: ''}
+  values:
+  - value: 2.23
+  - value: 2.72
+  - value: 3.22
+  - value: 3.80
+  - value: 4.61
+  - value: 5.70
+  - value: 7.04
+  - value: 8.78
+- header: {name: '$\sqrt{<j_T^2>}$ (GeV/$c$)'}
+  qualifiers:
+  - {name: 'Range', value: '2.0 < $p_{Ta}$ < 5.0 GeV'}
+  values:
+  - value: 0.582
+    errors:
+    - {symerror: 0.001, label: 'stat.'}
+    - {symerror: 0.001, label: 'sys.'}
+  - value: 0.613
+    errors:
+    - {symerror: 0.002, label: 'stat.'}
+    - {symerror: 0.001, label: 'sys.'}
+  - value: 0.625
+    errors:
+    - {symerror: 0.002, label: 'stat.'}
+    - {symerror: 0.002, label: 'sys.'}
+  - value: 0.626
+    errors:
+    - {symerror: 0.003, label: 'stat.'}
+    - {symerror: 0.004, label: 'sys.'}
+  - value: 0.630
+    errors:
+    - {symerror: 0.003, label: 'stat.'}
+    - {symerror: 0.006, label: 'sys.'}
+  - value: 0.634
+    errors:
+    - {symerror: 0.005, label: 'stat.'}
+    - {symerror: 0.009, label: 'sys.'}
+  - value: 0.639
+    errors:
+    - {symerror: 0.008, label: 'stat.'}
+    - {symerror: 0.005, label: 'sys.'}
+  - value: 0.634
+    errors:
+    - {symerror: 0.012, label: 'stat.'}
+    - {symerror: 0.004, label: 'sys.'}
+- header: {name: '$\sqrt{<j_T^2>}$ (GeV/$c$)'}
+  qualifiers:
+  - {name: 'Range', value: '1.4 < $p_{Ta}$ < 5.0 GeV'}
+  values:
+  - value: 0.584
+    errors:
+    - {symerror: 0.001, label: 'stat.'}
+  - value: 0.595
+    errors:
+    - {symerror: 0.001, label: 'stat.'}
+  - value: 0.598
+    errors:
+    - {symerror: 0.002, label: 'stat.'}
+  - value: 0.599
+    errors:
+    - {symerror: 0.002, label: 'stat.'}
+  - value: 0.604
+    errors:
+    - {symerror: 0.003, label: 'stat.'}
+  - value: 0.600
+    errors:
+    - {symerror: 0.004, label: 'stat.'}
+  - value: 0.605
+    errors:
+    - {symerror: 0.007, label: 'stat.'}
+  - value: 0.605
+    errors:
+    - {symerror: 0.011, label: 'stat.'}
+- header: {name: '$\sqrt{<k_T^2>}$ (GeV/$c$)'}
+  qualifiers:
+  - {name: 'Range', value: '2.0 < $p_{Ta}$ < 5.0 GeV'}
+  values:
+  - value: 2.96
+    errors:
+    - {symerror: 0.03, label: 'stat.'}
+    - {symerror: 0.36, label: 'sys.'}
+  - value: 2.83
+    errors:
+    - {symerror: 0.03, label: 'stat.'}
+    - {symerror: 0.40, label: 'sys.'}
+  - value: 2.87
+    errors:
+    - {symerror: 0.03, label: 'stat.'}
+    - {symerror: 0.38, label: 'sys.'}
+  - value: 2.79
+    errors:
+    - {symerror: 0.03, label: 'stat.'}
+    - {symerror: 0.36, label: 'sys.'}
+  - value: 2.80
+    errors:
+    - {symerror: 0.04, label: 'stat.'}
+    - {symerror: 0.35, label: 'sys.'}
+  - value: 2.91
+    errors:
+    - {symerror: 0.05, label: 'stat.'}
+    - {symerror: 0.34, label: 'sys.'}
+  - value: 3.01
+    errors:
+    - {symerror: 0.07, label: 'stat.'}
+    - {symerror: 0.39, label: 'sys.'}
+  - value: 3.18
+    errors:
+    - {symerror: 0.11, label: 'stat.'}
+    - {symerror: 0.31, label: 'sys.'}
+- header: {name: '$\sqrt{<k_T^2>}$ (GeV/$c$)'}
+  qualifiers:
+  - {name: 'Range', value: '1.4 < $p_{Ta}$ < 5.0 GeV'}
+  values:
+  - value: 3.18
+    errors:
+    - {symerror: 0.03, label: 'stat.'}
+  - value: 2.89
+    errors:
+    - {symerror: 0.03, label: 'stat.'}
+  - value: 2.80
+    errors:
+    - {symerror: 0.03, label: 'stat.'}
+  - value: 2.66
+    errors:
+    - {symerror: 0.03, label: 'stat.'}
+  - value: 2.68
+    errors:
+    - {symerror: 0.03, label: 'stat.'}
+  - value: 2.74
+    errors:
+    - {symerror: 0.04, label: 'stat.'}
+  - value: 2.81
+    errors:
+    - {symerror: 0.07, label: 'stat.'}
+  - value: 3.21
+    errors:
+    - {symerror: 0.11, label: 'stat.'}

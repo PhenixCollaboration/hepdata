@@ -1,6 +1,6 @@
 #PHENIX paper PPG021 
 #
-#Bose-Einstein Correlations of Charged Pion Pairs in Au + Au collisions at #\sqrt{s_{NN}}$ = 200 GeV
+#Bose-Einstein Correlations of Charged Pion Pairs in Au+Au collisions at $\sqrt{s_{NN}}$ = 200 GeV
 #
 #Phys.Rev.Lett. 93 (2004) 152302
 #InspireHEP ID: 642225
@@ -22,7 +22,7 @@ name: "Figure 1"
 location: From Fig. 1 of PRL 93 (2004) 152302
 description: '1-D and 3-D HBT radii for 0.2 < $k_T$ < 2.0 GeV/$c$ at 0-30% centrality. $<k_T>$ ~ 0.45 ($\pm$0.17) GeV/$c$ and $<N_{part}>$ ~ 281 ($\pm$4).'
 keywords: # used for searching, possibly mutliple values for each keywords
-- {name: reactions, values: [Au Au --> CHARGED X]}
+- {name: reactions, values: [Au Au --> $\pi^+$ $\pi^+$, Au Au --> $\pi^-$ $\pi^-$]}
 - {name: cmenergies, values: [200.0]}
 - {name: phrases, values: [ppg021, mid-rapidity, Bose-Einstein Correlations, Hanbury Brown-Twiss (HBT) Effect, Strongly Interacting Quark Gluon Plasma, Au+Au Collisions at RHIC, Gaussian Approximation, femtoscopy]}
 data_file: ppg021fig1.yaml 
@@ -36,7 +36,7 @@ name: "Figure 3a"
 location: From Fig. 3 of PRL 93 (2004) 152302
 description: 'The $k_T$ dependence of the Bertsch-Pratt radius parameters and $\lambda$ for charged pions for 0-30% centrality. Results from $\pi^+\pi^+$ correlation.'
 keywords: # used for searching, possibly mutliple values for each keywords
-- {name: reactions, values: [Au Au --> CHARGED X]}
+- {name: reactions, values: [Au Au --> $\pi^+$ $\pi^+$]}
 - {name: cmenergies, values: [200.0]}
 - {name: phrases, values: [ppg021, mid-rapidity, Bose-Einstein Correlations, Hanbury Brown-Twiss (HBT) Effect, Strongly Interacting Quark Gluon Plasma, Au+Au Collisions at RHIC, Gaussian Approximation, femtoscopy]}
 data_file: ppg021fig3a.yaml 
@@ -53,7 +53,7 @@ name: "Figure 3b"
 location: From Fig. 3 of PRL 93 (2004) 152302
 description: 'The $k_T$ dependence of the Bertsch-Pratt radius parameters and $\lambda$ for charged pions for 0-30% centrality. Results from $\pi^-\pi^-$ correlation.'
 keywords: # used for searching, possibly mutliple values for each keywords
-- {name: reactions, values: [Au Au --> CHARGED X]}
+- {name: reactions, values: [Au Au --> $\pi^-$ $\pi^-$]}
 - {name: cmenergies, values: [200.0]}
 - {name: phrases, values: [ppg021, mid-rapidity, Bose-Einstein Correlations, Hanbury Brown-Twiss (HBT) Effect, Strongly Interacting Quark Gluon Plasma, Au+Au Collisions at RHIC, Gaussian Approximation, femtoscopy]}
 data_file: ppg021fig3b.yaml 
@@ -68,9 +68,9 @@ additional_resources:
 # This is Figure 4.
 name: "Figure 4a"
 location: From Fig. 4 of PRL 93 (2004) 152302
-description: 'Bertsch-Pratt radius parameters versus the cube root of the number of participants (N1/3 ) for charged pions for the part fits to a core-halo structure in the 0.2 GeV/$c$ < $k_T$ < 2.0 GeV/$c$ range, with $<k_T>$ = 0.45 GeV/$c$. Results from $\pi^+\pi^+$ correlation.'
+description: 'Bertsch-Pratt radius parameters versus the cube root of the number of participants ($N^{1/3}_{part}$) for $\pi^+\pi^+$ (blue squares) and $\pi^-\pi^-$ (red triangle) for the fits to a core-halo structure by Eq. (2) with statistical error bars and systematic error bands, in the 0.2 GeV/$c$ < $k_T$ < 2.0 GeV/$c$ range, with $<k_T>$ ~ 0.45 GeV/$c$. The solid line shows to $p_0$+$p_1$*$N^{1/3}_{part}$ for both signs.'
 keywords: # used for searching, possibly mutliple values for each keywords
-- {name: reactions, values: [Au Au --> CHARGED X]}
+- {name: reactions, values: [Au Au --> $\pi^+$ $\pi^+$]}
 - {name: cmenergies, values: [200.0]}
 - {name: phrases, values: [ppg021, mid-rapidity, Bose-Einstein Correlations, Hanbury Brown-Twiss (HBT) Effect, Strongly Interacting Quark Gluon Plasma, Au+Au Collisions at RHIC, Gaussian Approximation, femtoscopy]}
 data_file: ppg021fig4a.yaml 
@@ -82,9 +82,9 @@ additional_resources:
 # This is Figure 4.
 name: "Figure 4b"
 location: From Fig. 4 of PRL 93 (2004) 152302
-description: 'Bertsch-Pratt radius parameters versus the cube root of the number of participants (N1/3 ) for charged pions for the part fits to a core-halo structure in the 0.2 GeV/$c$ < $k_T$ < 2.0 GeV/$c$ range, with $<k_T>$ = 0.45 GeV/$c$. Results from $\pi^-\pi^-$ correlation.'
+description: 'Bertsch-Pratt radius parameters versus the cube root of the number of participants ($N^{1/3}_{part}$) for $\pi^+\pi^+$ (blue squares) and $\pi^-\pi^-$ (red triangle) for the fits to a core-halo structure by Eq. (2) with statistical error bars and systematic error bands, in the 0.2 GeV/$c$ < $k_T$ < 2.0 GeV/$c$ range, with $<k_T>$ ~ 0.45 GeV/$c$. The solid line shows to $p_0$+$p_1$*$N^{1/3}_{part}$ for both signs.'
 keywords: # used for searching, possibly mutliple values for each keywords
-- {name: reactions, values: [Au Au --> CHARGED X]}
+- {name: reactions, values: [Au Au --> $\pi^-$ $\pi^-$]}
 - {name: cmenergies, values: [200.0]}
 - {name: phrases, values: [ppg021, mid-rapidity, Bose-Einstein Correlations, Hanbury Brown-Twiss (HBT) Effect, Strongly Interacting Quark Gluon Plasma, Au+Au Collisions at RHIC, Gaussian Approximation, femtoscopy]}
 data_file: ppg021fig4b.yaml 

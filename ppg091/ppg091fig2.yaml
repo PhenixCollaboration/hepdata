@@ -1,0 +1,63 @@
+independent_variables:
+- header: {name: '$p_T$ (GeV/$c$) Bin'}
+  values:
+  - {low: 1.0, high: 1.5}
+  - {low: 1.5, high: 2.0}
+  - {low: 2.0, high: 2.5}
+  - {low: 2.5, high: 3.0}
+  - {low: 3.0, high: 3.5}
+  - {low: 3.5, high: 4.0}
+  - {low: 4.0, high: 5.0}
+  - {low: 5.0, high: 6.0}
+  - {low: 6.0, high: 7.0}
+  - {low: 7.0, high: 9.0}
+  - {low: 9.0, high: 12.0}
+dependent_variables:
+- header: {name: '$<p_T>$ (GeV/$c$)'}
+  values:
+  - value : 1.30
+  - value : 1.75
+  - value : 2.23
+  - value : 2.72
+  - value : 3.22
+  - value : 3.72
+  - value : 4.38
+  - value : 5.40
+  - value : 6.41
+  - value : 7.74
+  - value : 10.02
+- header: {name: '$A_{LL}$'}
+  values:
+  - value: 0.0012
+    errors:
+    - {symerror: 0.0013, label: 'stat.'}
+  - value: 0.00146
+    errors:
+    - {symerror: 0.00082, label: 'stat.'}
+  - value: 0.00070
+    errors:
+    - {symerror: 0.00084, label: 'stat.'}
+  - value: 0.0000
+    errors:
+    - {symerror: 0.0011, label: 'stat.'}
+  - value: -0.0006
+    errors:
+    - {symerror: 0.0016, label: 'stat.'}
+  - value: -0.0013
+    errors:
+    - {symerror: 0.0023, label: 'stat.'}
+  - value: -0.0005
+    errors:
+    - {symerror: 0.0029, label: 'stat.'}
+  - value: 0.0099
+    errors:
+    - {symerror: 0.0057, label: 'stat.'}
+  - value: -0.015
+    errors:
+    - {symerror: 0.010, label: 'stat.'}
+  - value: 0.026
+    errors:
+    - {symerror: 0.014, label: 'stat.'}
+  - value: 0.003
+    errors:
+    - {symerror: 0.029, label: 'stat.'}

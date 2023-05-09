@@ -1,0 +1,58 @@
+#PHENIX paper PPG093
+#
+#Event Structure and Double Helicity Asymmetry in Jet Production from Polarized $p$+$p$ Collisions at $\sqrt{s}$ = 200 GeV
+#
+#Phys.Rev.Lett D 84 (2011) 012006
+#InspireHEP ID: 870912
+#
+#Prepared by Nikolas Nelson
+#Please contact Christine Nattrass if you have any questions about this submission
+#PPG liaison:
+#Reviewer:
+#
+comment: | # Information that applies to all data tables.
+  We report on event structure and double helicity asymmetry ($A_{LL}$) of jet production in longitudinally polarized $p$+$p$ collisions at $\sqrt{s}$ = 200 GeV. Photons and charged particles were measured by the PHENIX experiment at midrapidity $|\chi|$ < 0.35 with the requirement of a high-momentum (>2 GeV/$c$) photon in the event. Event structure, such as multiplicity, $p_T$ density and thrust in the PHENIX acceptance, were measured and compared with the $pythia$ event generator and $geant$ detector simulation. The shape of jets and the underlying event were well reproduced at this collision energy. For the measurement of jet $A_{LL}$, photons and charged particles were clustered with a seed-cone algorithm to obtain the cluster $p_T$ sum ($p^{reco}_T$). The effect of detector response and the underlying events on $p^{reco}_T$ was evaluated with the simulation. The production rate of reconstructed jets is satisfactorily reproduced with the NLO pQCD jet production cross section. For 4 < $p^{reco}_T$ < 12 GeV/$c$ with an average beam polarization of $\langle P \rangle $ = 49%, we measured $A_{LL}$ = -0.0014 $\pm$ 0.0037$^{stat}$ at the lowest $p^{reco}_T$ bin (4-5 GeV/$c$) and -0.0181 $\pm$ 0.0282$^{stat}$ at the highest $p^{reco}_T$ bin (10-12 GeV/$c$) with a beam polarization scale error of 9.4% and a $p_T$ scale error of 10%. Jets in the measured $p^{reco}_T$ range arise primarily from hard-scattered gluons with momentum fraction 0.02 < $x$ < 0.3 according to $pythia$. The measured $A_{LL}$ is compared with predictions that assume various $\Delta G(x)$ distributions based on the GRSV parameterization. The present result imposes the limit -1.1 $<$ $\int_{0.02}^{0.30}dx\Delta G$($x$,$\mu^2$ = 1 GeV$^2$) $<$ 0.4 at 95% confidence level or $\int_{0.02}^{0.30}dx\Delta G$($x$,$\mu^2$ = 1 GeV$^2$) $<$ 0.5 at 99% confidence level.
+additional_resources:
+- {location: "https://phenix-intra.sdcc.bnl.gov/phenix/WWW/p/info/ppg/093/", description: "web page with data points"}
+- {location: "http://arxiv.org/abs/1009.4921", description: arXiv}
+- {location: "https://inspirehep.net/literature/870912", description: InspireHEP}
+---
+# This is Figure 5.
+name: "Figure 5"
+location: Data From Fig. 5 of PRD 84 (2011) 012006
+description: 'The relative yields of $q$+$q$, $q$+$g$, and $g$+$g$ subprocesses in the PYTHIA+GEANT simulation.'
+keywords: # used for searching, possibly mutliple values for each keywords
+- {name: reactions, values: [$p$ $p$ --> CHARGED X]}
+- {name: cmenergies, values: [200.0]}
+- {name: phrases, values: [ppg093, midrapidity, double helicity asymmetry]}
+data_file: ppg093fig5.yaml
+additional_resources:
+- {description: PNG Image file, location: subproc_frac.png}
+- {description: Thumbnail Image file, location: thumb_subproc_frac.png}
+---
+# This is Figure 15.
+name: "Figure 15"
+location: Data From Fig. 15 of PRD 84 (2011) 012006
+description: 'The correction factor $\epsilon^j_{trig+acc}$ for high-$p_T$ photon trigger efficiency and acceptance effect.'
+keywords: # used for searching, possibly mutliple values for each keywords
+- {name: reactions, values: [$p$ $p$ --> CHARGED X]}
+- {name: cmenergies, values: [200.0]}
+- {name: phrases, values: [ppg093, midrapidity, double helicity asymmetry]}
+data_file: ppg093fig15.yaml
+additional_resources:
+- {description: PNG Image file, location: trig_eff_acce_corr.png}
+- {description: Thumbnail Image file, location: thumb_trig_eff_acce_corr.png}
+---
+# This is Figure 18.
+name: "Figure 18"
+location: Data From Fig. 18 of PRD 84 (2011) 012006
+description: 'Reconstructed-jet $A_{LL}$ as a function of $p_T^{reco}$.'
+keywords: # used for searching, possibly mutliple values for each keywords
+- {name: reactions, values: [$p$ $p$ --> CHARGED X]}
+- {name: cmenergies, values: [200.0]}
+- {name: phrases, values: [ppg093, midrapidity, double helicity asymmetry]}
+data_file: ppg093fig18.yaml
+additional_resources:
+- {description: PNG Image file, location: A_LL_theo.png}
+- {description: Thumbnail Image file, location: thumb_A_LL_theo.png}
+---

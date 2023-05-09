@@ -1,0 +1,180 @@
+independent_variables:
+- header: {name: '$\Delta\phi$ (rad)'}
+  values:
+  - {low: 0.000000, high: 0.261799}
+  - {low: 0.261799, high: 0.523599}
+  - {low: 0.523599, high: 0.785398}
+  - {low: 0.785398, high: 1.047198}
+  - {low: 1.047198, high: 1.308997}
+  - {low: 1.308997, high: 1.570796}
+  - {low: 1.570796, high: 1.832596}
+  - {low: 1.832596, high: 2.094395}
+  - {low: 2.094395, high: 2.356194}
+  - {low: 2.356194, high: 2.617994}
+  - {low: 2.617994, high: 2.879793}
+  - {low: 2.879793, high: 3.141593}
+dependent_variables:
+- header: {name: '$Y = \frac{1}{N_{trig}} \frac{d^2N}{d\Delta\phi dp_{T}}$'}
+  qualifiers:
+  - {name: 'Centrality', value: '0-20%'}
+  - {name: 'Hadron Trigger', value: '$1.0<p_T<1.3\ \mathrm{GeV}/c$'}
+  values:
+  - value: 0.040
+    errors:
+    - {symerror: 0.004, label: 'stat.'}
+  - value: 0.034
+    errors:
+    - {symerror: 0.004, label: 'stat.'}
+  - value: 0.006
+    errors:
+    - {symerror: 0.004, label: 'stat.'}
+  - value: 0.001
+    errors:
+    - {symerror: 0.005, label: 'stat.'}
+  - value: 0.013
+    errors:
+    - {symerror: 0.006, label: 'stat.'}
+  - value: 0.026
+    errors:
+    - {symerror: 0.007, label: 'stat.'}
+  - value: 0.036
+    errors:
+    - {symerror: 0.006, label: 'stat.'}
+  - value: 0.042
+    errors:
+    - {symerror: 0.005, label: 'stat.'}
+  - value: 0.051
+    errors:
+    - {symerror: 0.005, label: 'stat.'}
+  - value: 0.043
+    errors:
+    - {symerror: 0.005, label: 'stat.'}
+  - value: 0.045
+    errors:
+    - {symerror: 0.005, label: 'stat.'}
+  - value: 0.028
+    errors:
+    - {symerror: 0.004, label: 'stat.'}
+- header: {name: '$Y = \frac{1}{N_{trig}} \frac{d^2N}{d\Delta\phi dp_{T}}$'}
+  qualifiers:
+  - {name: 'Centrality', value: '20-40%'}
+  - {name: 'Hadron Trigger', value: '$1.0<p_T<1.3\ \mathrm{GeV}/c$'}
+  values:
+  - value: 0.0294
+    errors:
+    - {symerror: 0.0031, label: 'stat.'}
+  - value: 0.0270
+    errors:
+    - {symerror: 0.0033, label: 'stat..'}
+  - value: 0.0114
+    errors:
+    - {symerror: 0.0035, label: 'stat.'}
+  - value: -0.003
+    errors:
+    - {symerror: 0.004, label: 'stat.'}
+  - value: 0.007
+    errors:
+    - {symerror: 0.005, label: 'stat.'}
+  - value: 0.013
+    errors:
+    - {symerror: 0.005, label: 'stat.'}
+  - value: 0.020
+    errors:
+    - {symerror: 0.005, label: 'stat.'}
+  - value: 0.034
+    errors:
+    - {symerror: 0.004, label: 'stat.'}
+  - value: 0.033
+    errors:
+    - {symerror: 0.004, label: 'stat.'}
+  - value: 0.035
+    errors:
+    - {symerror: 0.004, label: 'stat.'}
+  - value: 0.032
+    errors:
+    - {symerror: 0.004, label: 'stat.'}
+  - value: 0.024
+    errors:
+    - {symerror: 0.004, label: 'stat.'}
+- header: {name: '$Y = \frac{1}{N_{trig}} \frac{d^2N}{d\Delta\phi dp_{T}}$'}
+  qualifiers:
+  - {name: 'Centrality', value: '0-20%'}
+  - {name: 'Hadron Trigger', value: '$1.6<p_T<2.0\ \mathrm{GeV}/c$'}
+  values:
+  - value: 0.0574
+    errors:
+    - {symerror: 0.0018, label: 'stat.'}
+  - value: 0.0407
+    errors:
+    - {symerror: 0.0019, label: 'stat.'}
+  - value: 0.0127
+    errors:
+    - {symerror: 0.0021, label: 'stat.'}
+  - value: 0.0021
+    errors:
+    - {symerror: 0.0025, label: 'stat.'}
+  - value: 0.0039
+    errors:
+    - {symerror: 0.0030, label: 'stat.'}
+  - value: 0.0140
+    errors:
+    - {symerror: 0.0034, label: 'stat.'}
+  - value: 0.0233
+    errors:
+    - {symerror: 0.0030, label: 'stat.'}
+  - value: 0.0314
+    errors:
+    - {symerror: 0.0026, label: 'stat.'}
+  - value: 0.0286
+    errors:
+    - {symerror: 0.0024, label: 'stat.'}
+  - value: 0.0182
+    errors:
+    - {symerror: 0.0023, label: 'stat.'}
+  - value: 0.0160
+    errors:
+    - {symerror: 0.0022, label: 'stat.'}
+  - value: 0.0127
+    errors:
+    - {symerror: 0.0022, label: 'stat.'}
+- header: {name: '$Y = \frac{1}{N_{trig}} \frac{d^2N}{d\Delta\phi dp_{T}}$'}
+  qualifiers:
+  - {name: 'Centrality', value: '20-40%'}
+  - {name: 'Hadron Trigger', value: '$1.6<p_T<2.0\ \mathrm{GeV}/c$'}
+  values:
+  - value: 0.0397
+    errors:
+    - {symerror: 0.0015, label: 'stat.'}
+  - value: 0.0253
+    errors:
+    - {symerror: 0.0015, label: 'stat.'}
+  - value: 0.0102
+    errors:
+    - {symerror: 0.0017, label: 'stat.'}
+  - value: 0.0013
+    errors:
+    - {symerror: 0.0019, label: 'stat.'}
+  - value: 4e-4
+    errors:
+    - {symerror: 0.0022, label: 'stat.'}
+  - value: 0.0051
+    errors:
+    - {symerror: 0.0025, label: 'stat.'}
+  - value: 0.0186
+    errors:
+    - {symerror: 0.0022, label: 'stat.'}
+  - value: 0.0212
+    errors:
+    - {symerror: 0.0020, label: 'stat.'}
+  - value: 0.0186
+    errors:
+    - {symerror: 0.0019, label: 'stat.'}
+  - value: 0.0171
+    errors:
+    - {symerror: 0.0018, label: 'stat.'}
+  - value: 0.0116
+    errors:
+    - {symerror: 0.0018, label: 'stat.'}
+  - value: 0.0089
+    errors:
+    - {symerror: 0.0018, label: 'stat.'}

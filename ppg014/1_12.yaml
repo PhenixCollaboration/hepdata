@@ -1,68 +1,74 @@
 independent_variables:
-- header: {name: 'pT (GeV/c)'}
+- header: {name: '$p_{\mathrm{T}}$ (GeV/c)'}
   values:
-  - {low: 1, high: 1.5}
-  - {low: 1.5, high: 2}
-  - {low: 2, high: 2.5}
-  - {low: 2.5, high: 3}
-  - {low: 3, high: 3.5}
-  - {low: 3.5, high: 4}
-  - {low: 4, high: 4.5}
-  - {low: 4.5, high: 5}
-  - {low: 5, high: 5.5}
-  - {low: 5.5, high: 6}
+  - {low: 1.0, high: 1.5}
+  - {low: 1.5, high: 2.0}
+  - {low: 2.0, high: 2.5}
+  - {low: 2.5, high: 3.0}
+  - {low: 3.0, high: 3.5}
+  - {low: 3.5, high: 4.0}
+  - {low: 4.0, high: 4.5}
+  - {low: 4.5, high: 5.0}
+  - {low: 5.0, high: 5.5}
+  - {low: 5.5, high: 6.0}
+  - {low: 6.0, high: 6.5}
 dependent_variables:
-- header: {name: '$1 / [2 \pi p_T N_{evt}] d^2N/dp_Tdy(GeV/c)^2$'}
+- header: {name: '$\frac{1}{2\pi p_{T} N_{\mathrm{evt}}} \frac{d^{2}N}{dp_{T}dy} (\mathrm{GeV}/c)^{-2}$'}
   qualifiers:
   - {name: 'Centrality', value: '70-92%'}
   values:
   - value: 0.0491
     errors:
     - {symerror: 9e-4, label: 'stat.'}
-    - {symerror: 0.004, label: 'pT uncorr.'}
-    - {symerror: 0.0019, label: 'pT corr.'}
+    - {symerror: 0.004, label: 'uncorr.'}
+    - {symerror: 0.0019, label: 'corr.'}
   - value: 0.00865
     errors:
     - {symerror: 1.6e-4, label: 'stat.'}
-    - {symerror: 8e-4, label: 'pT uncorr.'}
-    - {symerror: 4e-4, label: 'pT corr.'}
+    - {symerror: 8e-4, label: 'uncorr.'}
+    - {symerror: 4e-4, label: 'corr.'}
   - value: 0.00190
     errors:
     - {symerror: 5e-5, label: 'stat.'}
-    - {symerror: 1.7e-4, label: 'pT uncorr.'}
-    - {symerror: 9e-5, label: 'pT corr.'}
+    - {symerror: 1.7e-4, label: 'uncorr.'}
+    - {symerror: 9e-5, label: 'corr.'}
   - value: 5.02e-4
     errors:
     - {symerror: 1.7e-5, label: 'stat.'}
-    - {symerror: 4e-5, label: 'pT uncorr.'}
-    - {symerror: 2.4e-5, label: 'pT corr.'}
+    - {symerror: 4e-5, label: 'uncorr.'}
+    - {symerror: 2.4e-5, label: 'corr.'}
   - value: 1.58e-4
     errors:
     - {symerror: 7e-6, label: 'stat.'}
-    - {symerror: 1.4e-5, label: 'pT uncorr.'}
-    - {symerror: 8e-6, label: 'pT corr.'}
+    - {symerror: 1.4e-5, label: 'uncorr.'}
+    - {symerror: 8e-6, label: 'corr.'}
   - value: 5.27e-5
     errors:
     - {symerror: 2.9e-6, label: 'stat.'}
-    - {symerror: 5e-6, label: 'pT uncorr.'}
-    - {symerror: 2.7e-6, label: 'pT corr.'}
+    - {symerror: 5e-6, label: 'uncorr.'}
+    - {symerror: 2.7e-6, label: 'corr.'}
   - value: 1.92e-5
     errors:
     - {symerror: 1.7e-6, label: 'stat.'}
-    - {symerror: 1.9e-6, label: 'pT uncorr.'}
-    - {symerror: 9e-7, label: 'pT corr.'}
+    - {symerror: 1.9e-6, label: 'uncorr.'}
+    - {symerror: 9e-7, label: 'corr.'}
   - value: 7.63e-6
     errors:
     - {symerror: 1.0e-6, label: 'stat.'}
-    - {symerror: 9e-7, label: 'pT uncorr.'}
-    - {symerror: 3.5e-7, label: 'pT corr.'}
+    - {symerror: 9e-7, label: 'uncorr.'}
+    - {symerror: 3.5e-7, label: 'corr.'}
   - value: 4.17e-6
     errors:
     - {symerror: 7e-7, label: 'stat.'}
-    - {symerror: 6e-7, label: 'pT uncorr.'}
-    - {symerror: 1.7e-7, label: 'pT corr.'}
+    - {symerror: 6e-7, label: 'uncorr.'}
+    - {symerror: 1.7e-7, label: 'corr.'}
   - value: 1.55e-6
     errors:
-    - {symerror: 4e-7, label: 'stat.'}
-    - {symerror: 4e-7, label: 'pT uncorr.'}
-    - {symerror: 8e-8, label: 'pT corr.'}
+    - {symerror: 3.5e-7, label: 'stat.'}
+    - {symerror: 4e-7, label: 'uncorr.'}
+    - {symerror: 8e-8, label: 'corr.'}
+  - value: 9.2e-7
+    errors:
+    - {symerror: 2.5e-7, label: 'stat.'}
+    - {symerror: 2.8e-7, label: 'uncorr.'}
+    - {symerror: 5e-8, label: 'corr.'}

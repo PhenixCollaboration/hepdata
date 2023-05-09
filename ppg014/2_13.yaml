@@ -1,16 +1,16 @@
 independent_variables:
-- header: {name: 'pT (GeV/c)'}
+- header: {name: '$p_{\mathrm{T}}$ (GeV/c)'}
   values:
-  - {low: 1, high: 1.5}
-  - {low: 1.5, high: 2}
-  - {low: 2, high: 2.5}
-  - {low: 2.5, high: 3}
-  - {low: 3, high: 3.5}
-  - {low: 3.5, high: 4}
-  - {low: 4, high: 4.5}
-  - {low: 4.5, high: 5}
-  - {low: 5, high: 5.5}
-  - {low: 5.5, high: 6}
+  - {low: 1.0, high: 1.5}
+  - {low: 1.5, high: 2.0}
+  - {low: 2.0, high: 2.5}
+  - {low: 2.5, high: 3.0}
+  - {low: 3.0, high: 3.5}
+  - {low: 3.5, high: 4.0}
+  - {low: 4.0, high: 4.5}
+  - {low: 4.5, high: 5.0}
+  - {low: 5.0, high: 5.5}
+  - {low: 5.5, high: 6.0}
 dependent_variables:
 - header: {name: '$R_{AA}$'}
   qualifiers:
@@ -18,41 +18,41 @@ dependent_variables:
   values:
   - value: 0.82
     errors:
-    - {symerror: 0.11, label: 'sys(norm)'}
-    - {symerror: 0.23, label: 'sys(corr)'}
+    - {symerror: 0.11, label: 'sys(uncorr)'}
+    - {symerror: 0.23, label: 'sys(norm)'}
   - value: 0.85
     errors:
-    - {symerror: 0.11, label: 'sys(norm)'}
-    - {symerror: 0.23, label: 'sys(corr)'}
+    - {symerror: 0.11, label: 'sys(uncorr)'}
+    - {symerror: 0.23, label: 'sys(norm)'}
   - value: 0.92
     errors:
-    - {symerror: 0.12, label: 'sys(norm)'}
-    - {symerror: 0.25, label: 'sys(corr)'}
+    - {symerror: 0.12, label: 'sys(uncorr)'}
+    - {symerror: 0.25, label: 'sys(norm)'}
   - value: 0.85
     errors:
-    - {symerror: 0.12, label: 'sys(norm)'}
-    - {symerror: 0.24, label: 'sys(corr)'}
+    - {symerror: 0.12, label: 'sys(uncorr)'}
+    - {symerror: 0.24, label: 'sys(norm)'}
   - value: 0.80
     errors:
-    - {symerror: 0.13, label: 'sys(norm)'}
-    - {symerror: 0.22, label: 'sys(corr)'}
+    - {symerror: 0.13, label: 'sys(uncorr)'}
+    - {symerror: 0.22, label: 'sys(norm)'}
   - value: 0.90
     errors:
-    - {symerror: 0.16, label: 'sys(norm)'}
-    - {symerror: 0.25, label: 'sys(corr)'}
+    - {symerror: 0.16, label: 'sys(uncorr)'}
+    - {symerror: 0.25, label: 'sys(norm)'}
   - value: 0.78
     errors:
-    - {symerror: 0.16, label: 'sys(norm)'}
-    - {symerror: 0.21, label: 'sys(corr)'}
+    - {symerror: 0.16, label: 'sys(uncorr)'}
+    - {symerror: 0.21, label: 'sys(norm)'}
   - value: 1.01
     errors:
-    - {symerror: 0.23, label: 'sys(norm)'}
-    - {symerror: 0.28, label: 'sys(corr)'}
+    - {symerror: 0.23, label: 'sys(uncorr)'}
+    - {symerror: 0.28, label: 'sys(norm)'}
   - value: 1.05
     errors:
-    - {symerror: 0.31, label: 'sys(norm)'}
-    - {symerror: 0.29, label: 'sys(corr)'}
+    - {symerror: 0.31, label: 'sys(uncorr)'}
+    - {symerror: 0.29, label: 'sys(norm)'}
   - value: 0.66
     errors:
-    - {symerror: 0.29, label: 'sys(norm)'}
-    - {symerror: 0.18, label: 'sys(corr)'}
+    - {symerror: 0.29, label: 'sys(uncorr)'}
+    - {symerror: 0.18, label: 'sys(norm)'}
