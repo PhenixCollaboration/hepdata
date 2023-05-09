@@ -17,6 +17,16 @@ additional_resources:
 - {location: "https://arxiv.org/abs/1912.13424", description: arXiv}
 - {location: "https://inspirehep.net/literature/1773662", description: InspireHEP}
 ---
+# This is Table 1.
+name: "Table"
+location: Data From PRD 101 (2020) 052006
+description: 'The total cross section times the branching ratio.'
+keywords: # used for searching, possibly mutliple values for each keywords
+- {name: reactions, values: [$p$ $p$ --> CHARGED X]}
+- {name: cmenergies, values: [510.0]}
+- {name: phrases, values: [ppg222, transverse momentum]}
+data_file: ppg222tab1.yaml
+---
 # This is Figure 5.
 name: "Figure 5"
 location: Data From Table 3 of PRD 101 (2020) 052006

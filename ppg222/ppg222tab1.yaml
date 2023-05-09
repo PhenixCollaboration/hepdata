@@ -1,0 +1,13 @@
+independent_variables:
+- header: {name: '$|y|$'}
+  values:
+  - {low: 1.2, high: 2.2}
+dependent_variables:
+- header: {name: 'BR $d\sigma^{J/psi}_{pp}$/$dy$'}
+  qualifiers:
+  - {name: 'Range', value: '0 < $p_T$ < 10 GeV/$c$'}
+  values:
+  - value: 54.3
+    errors:
+    - {symerror: 0.5, label: 'stat.'}
+    - {symerror: 5.5, label: 'sys.'}
