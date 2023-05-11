@@ -1,0 +1,103 @@
+#PHENIX paper PPG096
+#
+#Nuclear modification factors of $\phi$ mesons in $d$+Au, Cu+Cu and Au+Au collisions at $\sqrt{s_{NN}}$ = 200 GeV
+#
+#Phys.Rev.Lett C 83 (2011) 024909
+#InspireHEP ID: 852260
+#
+#Prepared by Nikolas Nelson
+#Please contact Christine Nattrass if you have any questions about this submission
+#PPG liaison:
+#Reviewer:
+#
+comment: | # Information that applies to all data tables.
+  The PHENIX experiment at the Relativistic Heavy Ion Collider (RHIC) has performed systematic measurements of $\phi$ meson production in the $K^+K^-$ decay channel at midrapidity in $p$+$p$, $d$+Au, Cu+Cu and Au+Au collisions at $\sqrt{s_{NN}}$ = 200 GeV. Results are presented on the $\phi$ invariant yield and the nuclear modification factor $R_{AA}$ for Au+Au and Cu+Cu, and $R_{dA}$ for $d$+Au collisions, studied as a function of transverse momentum (1 < $p_T$ < 7 GeV/$c$) and centrality. In central and mid-central Au+Au collisions, the $R_{AA}$ of $\phi$ exhibits a suppression relative to expectations from binary scaled $p$+$p$ results. The amount of suppression is smaller than that of the neutral pion and the $\eta$ meson in the intermediate $p_T$ range (2-5 GeV/$c$); whereas at higher $p_T$ the $\phi$, $\pi^0$, and $\eta$ show similar suppression. The baryon (protons and anti-protons) excess observed in central Au+Au collisions at intermediate $p_T$ is not observed for the $\phi$ meson despite the similar mass of the proton and the $\phi$. This suggests that the excess is linked to the number of constituent quarks rather than the hadron mass. The difference gradually disappears with decreasing centrality and for peripheral collisions the $R_{AA}$ values for both particles are consistent with binary scaling. Cu+Cu collisions show the same yield and suppression as Au+Au collisions for the same number of $N_{part}$. The $R_{dA}$ of $\phi$ shows no evidence for cold nuclear effects within uncertainties.
+additional_resources:
+- {location: "https://phenix-intra.sdcc.bnl.gov/phenix/WWW/p/info/ppg/096/", description: "web page with data points"}
+- {location: "http://arxiv.org/abs/1004.3532", description: arXiv}
+- {location: "https://inspirehep.net/literature/852260", description: InspireHEP}
+---
+# This is Figure 3.
+name: "Figure 3"
+location: Data From Fig. 3 of PRC 83 (2011) 024909
+description: 'Invariant $p_T$ spectra of the $\phi$ meson for different centrality bins in Au+Au, Cu+Cu, $d$+Au, and $p$+$p$ collisions at $\sqrt{s_{NN}}$ = 200 GeV.'
+keywords: # used for searching, possibly mutliple values for each keywords
+- {name: reactions, values: [$p$ $p$ --> CHARGED X, $d$ Au --> CHARGED X, Cu Cu --> CHARGED X, Au Au --> CHARGED X]}
+- {name: cmenergies, values: [200.0]}
+- {name: phrases, values: [ppg096, midrapidity, transverse momentum]}
+data_file: ppg096fig3.yaml
+additional_resources:
+- {description: Original EPS Image file, location: spectra.eps}
+- {description: PNG Image file, location: spectra.png}
+- {description: Thumbnail Image file, location: thumb_spectra.png}
+---
+# This is Figure 4.
+name: "Figure 4"
+location: Data From Fig. 4 of PRC 83 (2011) 024909
+description: '$R_{AA}$ vs. $p_T$ for $\phi$, $\pi^0$, $\eta$, ($K^+$+$K^-$) and ($p$+$\bar{p}$) in central Au+Au collisions, $R_{AA}$ vs. $p_T$ for $\phi$ and $\pi^0$ in 10-20% mid-central Au+Au collisions, and $R_{AA}$ vs. $p_T$ for $\phi$ and $p$+$\bar{p}$ in 60-92% and for $\pi^0$ in 80-92% peripheral Au+Au collisions.'
+keywords: # used for searching, possibly mutliple values for each keywords
+- {name: reactions, values: [Au Au --> CHARGED X]}
+- {name: cmenergies, values: [200.0]}
+- {name: phrases, values: [ppg096, midrapidity, transverse momentum]}
+data_file: ppg096fig4.yaml
+additional_resources:
+- {description: Original EPS Image file, location: raa_auau.eps}
+- {description: PNG Image file, location: raa_auau.png}
+- {description: Thumbnail Image file, location: thumb_raa_auau.png}
+---
+# This is Figure 5.
+name: "Figure 5"
+location: Data From Fig. 5 of PRC 83 (2011) 024909
+description: '$R_{AA}$ vs. $p_T$ for $\phi$ and $\pi^0$ for 30-40% centrality Au+Au and 0-10% centrality Cu+Cu collisions, and $R_{AA}$ vs. $p_T$ for $\phi$ and $\pi^0$ for 40-50% centrality Au+Au and 10-20% centrality Cu+Cu collisions.'
+keywords: # used for searching, possibly mutliple values for each keywords
+- {name: reactions, values: [Cu Cu --> CHARGED X, Au Au --> CHARGED X]}
+- {name: cmenergies, values: [200.0]}
+- {name: phrases, values: [ppg096, midrapidity, transverse momentum]}
+data_file: ppg096fig5.yaml
+additional_resources:
+- {description: Original EPS Image file, location: raa_aucu.eps}
+- {description: PNG Image file, location: raa_aucu.png}
+- {description: Thumbnail Image file, location: thumb_raa_aucu.png}
+---
+# This is Figure 6.
+name: "Figure 6a"
+location: Data From Fig. 6 of PRC 83 (2011) 024909
+description: '$R_{AA}$ for $\phi$ integrated at $p_T$ > 2.2 GeV/$c$ in Cu+Cu and Au+Au collisions vs. $N_{part}$.'
+keywords: # used for searching, possibly mutliple values for each keywords
+- {name: reactions, values: [Au Au --> CHARGED X]}
+- {name: cmenergies, values: [200.0]}
+- {name: phrases, values: [ppg096, midrapidity, transverse momentum]}
+data_file: ppg096fig6a.yaml
+additional_resources:
+- {description: Original EPS Image file, location: raa_int.eps}
+- {description: PNG Image file, location: raa_int.png}
+- {description: Thumbnail Image file, location: thumb_raa_int.png}
+---
+# This is Figure 6.
+name: "Figure 6b"
+location: Data From Fig. 6 of PRC 83 (2011) 024909
+description: '$R_{AA}$ for $\phi$ integrated at $p_T$ > 2.2 GeV/$c$ in Cu+Cu and Au+Au collisions vs. $N_{part}$.'
+keywords: # used for searching, possibly mutliple values for each keywords
+- {name: reactions, values: [Cu Cu --> CHARGED X]}
+- {name: cmenergies, values: [200.0]}
+- {name: phrases, values: [ppg096, midrapidity, transverse momentum]}
+data_file: ppg096fig6b.yaml
+additional_resources:
+- {description: Original EPS Image file, location: raa_int.eps}
+- {description: PNG Image file, location: raa_int.png}
+- {description: Thumbnail Image file, location: thumb_raa_int.png}
+---
+# This is Figure 7.
+name: "Figure 7"
+location: Data From Fig. 7 of PRC 83 (2011) 024909
+description: '$R_{dA}$ vs. $p_T$ for $\phi$, $\pi^0$, and ($p$+$\bar{p}$) for 0-20% centrality $d$+Au collisions, and $R_{dA}$ vs. $p_T$ for $\phi$, $\pi^0$, and ($p$+$\bar{p}$) for 60-88% peripheral $d$+Au collisions.'
+keywords: # used for searching, possibly mutliple values for each keywords
+- {name: reactions, values: [$d$ Au --> CHARGED X]}
+- {name: cmenergies, values: [200.0]}
+- {name: phrases, values: [ppg096, midrapidity, transverse momentum]}
+data_file: ppg096fig7.yaml
+additional_resources:
+- {description: Original EPS Image file, location: rda.eps}
+- {description: PNG Image file, location: rda.png}
+- {description: Thumbnail Image file, location: thumb_rda.png}
+---

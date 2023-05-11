@@ -1,0 +1,56 @@
+independent_variables:
+- header: {name: 'Centrality (%)'}
+  values:
+  - {low: 60, high: 92}
+  - {low: 50, high: 60}
+  - {low: 40, high: 50}
+  - {low: 30, high: 40}
+  - {low: 20, high: 30}
+  - {low: 10, high: 20}
+  - {low: 0, high: 10}
+dependent_variables:
+- header: {name: '$N_{part}$'}
+  qualifiers:
+  - {name: 'Collision', value: ''}
+  - {name: 'Centrality (%)', value: ''}
+  values:
+  - value: 14.5
+  - value: 45.5
+  - value: 74.4
+  - value: 114.2
+  - value: 166.6
+  - value: 234.6
+  - value: 325.2
+- header: {name: '$<R_{AA}>$ ($p_T$ > 2.2 GeV/$c$)'}
+  qualifiers:
+  - {name: 'Collision', value: 'Au+Au'}
+  - {name: 'Centrality (%)', value: '0-10%'}
+  values:
+  - value: 1.149
+    errors:
+    - {symerror: 0.042, label: 'stat.'}
+    - {symerror: 0.330, label: 'sys.'}
+  - value: 1.167
+    errors:
+    - {symerror: 0.049, label: 'stat.'}
+    - {symerror: 0.220, label: 'sys.'}
+  - value: 1.147
+    errors:
+    - {symerror: 0.045, label: 'stat.'}
+    - {symerror: 0.178, label: 'sys.'}
+  - value: 1.029
+    errors:
+    - {symerror: 0.042, label: 'stat.'}
+    - {symerror: 0.158, label: 'sys.'}
+  - value: 0.974
+    errors:
+    - {symerror: 0.039, label: 'stat.'}
+    - {symerror: 0.160, label: 'sys.'}
+  - value: 0.852
+    errors:
+    - {symerror: 0.036, label: 'stat.'}
+    - {symerror: 0.144, label: 'sys.'}
+  - value: 0.638
+    errors:
+    - {symerror: 0.035, label: 'stat.'}
+    - {symerror: 0.114, label: 'sys.'}
