@@ -1,4 +1,4 @@
-#PHENIX paper PPG107
+#PHENIX paper PPG120
 #
 #Cross section and parity violating spin asymmetries of $W^{\pm}$ Boson production in polarized $p+p$ collisions at $\sqrt{s}$ = 500 GeV
 #
@@ -20,6 +20,12 @@ additional_resources:
   description: "InspireHEP"
 - location: "thumb_fig1.png"
   description: "Image File"
+- location: "thumb_fig2.png"
+  description: "Image File"
+- location: "thumb_fig3.png"
+  description: "Image File"
+- location: "thumb_fig4.png"
+  description: "Image File"
   
 comment: |
   Large parity violating longitudinal single-spin asymmetries $A^{e^+}_L$ = $-0.86^{+0.30}_{-0.14}$ and $A^{e^-}_L$ = $0.88^{+0.12}_{-0.71}$ are observed for inclusive high transverse momentum electrons and positrons in polarized $p + p$ collisions at a center of mass energy of $\sqrt{s}$ = 500 GeV with the PHENIX detector at RHIC. These $e^{\pm}$ come mainly from the decay of $W^{\pm}$ and $Z^0$ bosons, and their asymmetries directly demonstrate parity violation in the couplings of the $W^{\pm}$ to the light quarks. The observed electron and positron yields were used to estimate $W^{\pm}$ boson production cross sections for the $e^{\pm}$ channels of $\sigma$ $(pp \rightarrow W^+ X) \times BR(W^+ \rightarrow e^+\nu_e) = 144.1 \pm 21.2$(stat)$^{+3.4}_{-10.3}$(syst)$\pm 15\%(norm)$ pb, and $\sigma (pp \rightarrow W^- X) \times BR(W^- \rightarrow e^- \bar{\nu}_e)$ = 31.7 $\pm$12.1(stat)$^{+10.1}_{-8.2}$(syst) $\pm$ 15\%($norm$) pb.
@@ -27,14 +33,36 @@ comment: |
 # This is Figure 1.
 name: "Figure 1"
 location: Data from Figure 1 of Phys. Rev. Lett. 106, 062001 (2011)
-description: Cross section for midrapidity inclusive of $\eta$ productions at $\sqrt{s}$ = 200 GeV as a function of $p_T$ and its comparison to NLO pQCD calculations at three different scales $\mu$. The error bars shown are the statistical and systematic uncertainties added in quadrature. Note that the fragmentation functions used in the calculations are partially constrained by this data. 
+description: The spectra of positive and negative candidates before and after an isolation cut. The computation of the background before the isolation cut is described in the text. The background band after the isolation cut is computed by scaling the background before the isolation cut by the isolation cut efficiency measured in the background region (12< $p_T$ <20GeV/$c$). The systematic errors include uncertainties in the photon conversion probability, the background normalization, and the background extrapoltion to $p_T$ > 30 GeV/$c$.
 keywords: # used for searching, possibly multiple values for each keyword
-- {name: reactions, values: [$p$ + $p$ --> $\eta + X$]}
 - {name: cmenergies, values: [500]} # centre-of-mass energy in GeV
-- {name: phrases, values: [ppg120]}
-data_file: ppg107fig2.yaml
+- {name: phrases, values: [ppg120,W boson,isolation cut]}
+data_file: ppg120fig1.yaml
+additional_resources:
+- location: "thumb_fig1.png"
+  description: "Image File"
+---
+# This is Figure 2a.
+name: "Figure 2a"
+location: Data from Figure 2 of Phys. Rev. Lett. 106, 062001 (2011)
+description: Background subtracted spectra of positron candidates taken from all counts compared to the spectrum of W and Z decays from an NLO calculation [12, 13]. The statistical errors are from the 
+keywords: # used for searching, possibly multiple values for each keyword
+- {name: cmenergies, values: [500]} # centre-of-mass energy in GeV
+- {name: phrases, values: [ppg120,W boson]}
+data_file: ppg120fig2a.yaml
 additional_resources:
 - location: "thumb_fig2.png"
   description: "Image File"
-- location: "fig2.eps"
-  description: "EPS File" 
+---
+# This is Figure 2b.
+name: "Figure 2b"
+location: Data from Figure 2 of Phys. Rev. Lett. 106, 062001 (2011)
+description: Data from Figure 2 of Phys. Rev. Lett. 106, 062001 (2011)
+description: Background subtracted spectra of electron candidates taken from all counts compared to the spectrum of W and Z decays from an NLO calculation [12, 13]. 
+keywords: # used for searching, possibly multiple values for each keyword
+- {name: cmenergies, values: [500]} # centre-of-mass energy in GeV
+- {name: phrases, values: [ppg120,W boson]}
+data_file: ppg120fig2b.yaml
+additional_resources:
+- location: "thumb_fig2.png"
+  description: "Image File"
