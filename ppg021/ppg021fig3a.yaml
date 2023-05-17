@@ -1,5 +1,5 @@
 independent_variables:
-- header: {name: '$k_T$ Range'}
+- header: {name: '$k_T$ Range (GeV/$c$)'}
   values:
   - {low: 0.20, high: 0.30}
   - {low: 0.30, high: 0.36}
@@ -10,7 +10,7 @@ independent_variables:
   - {low: 0.60, high: 0.75}
   - {low: 0.75, high: 1.00}
   - {low: 1.00, high: 2.00}
-- header: {name: '$<k_T>$'}
+- header: {name: '$<k_T>$ (GeV/$c$)'}
   values:
   - {value: 0.27}
   - {value: 0.33}
@@ -21,7 +21,7 @@ independent_variables:
   - {value: 0.66}
   - {value: 0.84}
   - {value: 1.15}
-- header: {name: 'r.m.s'}
+- header: {name: 'r.m.s of $k_T$ (GeV/$c$)'}
   values:
   - {value: 0.02}
   - {value: 0.02}
@@ -454,7 +454,7 @@ dependent_variables:
   - value: 0.78
     errors:
     - {symerror: 0.18, label: 'stat.'}
-    - {symerror: 0.06, label: 'sys.'}
+    - {symerror: 0.08, label: 'sys.'}
 - header: {name: '$R_{out}$/$R_{side}$ Full Coulomb'}
   values:
   - value: 0.87
