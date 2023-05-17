@@ -1,0 +1,41 @@
+independent_variables:
+- header: {name: '$p_T$'}
+  values:
+  - {value: 2.33}
+  - {value: 3.35}
+  - {value: 4.38}
+  - {value: 5.4}
+  - {value: 6.74}
+dependent_variables:
+- header: {name: '$A_{LL}$'}
+  values:
+  - value: -0.0073
+    errors:
+    - {symerror: 0.0055, label: 'stat'}
+    - {symerror: 6e-4, label: 'sys polar'}
+    - {symerror: 4e-4, label: 'sys lum'}
+    - {symerror: 4e-4, label: 'sys BP'}
+  - value: 0
+    errors:
+    - {symerror: 0.0070, label: 'stat'}
+    - {symerror: 0, label: 'sys polar'}
+    - {symerror: 4e-4, label: 'sys lum'}
+    - {symerror: 0, label: 'sys BP'}
+  - value: -0.0026
+    errors:
+    - {symerror: 0.01240, label: 'stat'}
+    - {symerror: 2.0e-4, label: 'sys polar'}
+    - {symerror: 4e-4, label: 'sys lum'}
+    - {symerror: 1e-4, label: 'sys BP'}
+  - value: 0.0137
+    errors:
+    - {symerror: 0.0228, label: 'stat'}
+    - {symerror: 0.0016, label: 'sys polar'}
+    - {symerror: 4e-4, label: 'sys lum'}
+    - {symerror: 7e-4, label: 'sys BP'}
+  - value: -0.0111
+    errors:
+    - {symerror: 0.0320, label: 'stat'}
+    - {symerror: 0.0021, label: 'sys polar'}
+    - {symerror: 4e-4, label: 'sys lum'}
+    - {symerror: 5e-4, label: 'sys BP'}

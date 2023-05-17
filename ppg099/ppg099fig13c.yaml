@@ -1,0 +1,63 @@
+independent_variables:
+- header: {name: '$p_T$ (GeV/$c$)'}
+  values:
+  - {low: 0.00, high: 0.25}
+  - {low: 0.25, high: 0.50}
+  - {low: 0.50, high: 0.75}
+  - {low: 0.75, high: 1.00}
+  - {low: 1.00, high: 1.25}
+  - {low: 1.25, high: 1.50}
+  - {low: 1.50, high: 2.00}
+  - {low: 2.00, high: 3.00}
+  - {low: 3.00, high: 4.00}
+dependent_variables:
+- header: {name: '$V$'}
+  qualifiers:
+  - {name: 'meson', value: '$\eta^{\prime}$'}
+  - {name: 'decay channel', value: '$\eta\pi^+\pi^-$'}
+  values:
+  - value: 0.264
+    errors:
+    - {symerror: 6.3E-02, label: 'sys. (Type A)'}
+    - {symerror: 2.6E-02, label: 'sys. (Type B)'}
+    - {symerror: 1.1E-02, label: 'sys. (Type C)'}
+  - value: 0.188
+    errors:
+    - {symerror: 3.1E-02, label: 'sys. (Type A)'}
+    - {symerror: 1.8E-02, label: 'sys. (Type B)'}
+    - {symerror: 8.0E-03, label: 'sys. (Type C)'}
+  - value: 8.9E-02
+    errors:
+    - {symerror: 1.5E-02, label: 'sys. (Type A)'}
+    - {symerror: 9.0E-03, label: 'sys. (Type B)'}
+    - {symerror: 4.0E-03, label: 'sys. (Type C)'}
+  - value: 5.83E-02
+    errors:
+    - {symerror: 8.2E-03, label: 'sys. (Type A)'}
+    - {symerror: 5.8E-03, label: 'sys. (Type B)'}
+    - {symerror: 2.5E-03, label: 'sys. (Type C)'}
+  - value: 2.57E-02
+    errors:
+    - {symerror: 4.3E-03, label: 'sys. (Type A)'}
+    - {symerror: 2.5E-03, label: 'sys. (Type B)'}
+    - {symerror: 1.2E-03, label: 'sys. (Type C)'}
+  - value: 1.31E-02
+    errors:
+    - {symerror: 2.7E-03, label: 'sys. (Type A)'}
+    - {symerror: 1.3E-03, label: 'sys. (Type B)'}
+    - {symerror: 6.0E-04, label: 'sys. (Type C)'}
+  - value: 2.79E-03
+    errors:
+    - {symerror: 7.5E-04, label: 'sys. (Type A)'}
+    - {symerror: 2.8E-04, label: 'sys. (Type B)'}
+    - {symerror: 1.3E-04, label: 'sys. (Type C)'}
+  - value: 7.2E-04
+    errors:
+    - {symerror: 1.5E-04, label: 'sys. (Type A)'}
+    - {symerror: 7.0E-05, label: 'sys. (Type B)'}
+    - {symerror: 3.0E-05, label: 'sys. (Type C)'}
+  - value: 9.7E-05
+    errors:
+    - {symerror: 3.1E-05, label: 'sys. (Type A)'}
+    - {symerror: 1.0E-05, label: 'sys. (Type B)'}
+    - {symerror: 4.0E-06, label: 'sys. (Type C)'}

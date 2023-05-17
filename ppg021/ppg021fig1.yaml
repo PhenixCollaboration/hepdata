@@ -2,13 +2,13 @@ independent_variables:
 - header: {name: 'Fit Parameter'}
   values:
   - {value: '$\lambda_{inv}$ ($\pi^+\pi^+$)'}
-  - {value: '$R_{inv}$ ($\pi^+\pi^+$)'}
+  - {value: '$R_{inv}$ ($\pi^+\pi^+$) [fm]'}
   - {value: '$\lambda_{inv}$ ($\pi^-\pi^-$)'}
-  - {value: '$R_{inv}$ ($\pi^-\pi^-$)'}
+  - {value: '$R_{inv}$ ($\pi^-\pi^-$) [fm]'}
   - {value: '$\lambda_{3D-Fit}$ ($\pi^+\pi^+$)'}
-  - {value: '$R_{side}$ ($\pi^-\pi^-$)'}
-  - {value: '$R_{out}$ ($\pi^-\pi^-$)'}
-  - {value: '$R_{long}$ ($\pi^-\pi^-$)'}
+  - {value: '$R_{side}$ ($\pi^-\pi^-$) [fm]'}
+  - {value: '$R_{out}$ ($\pi^-\pi^-$) [fm]'}
+  - {value: '$R_{long}$ ($\pi^-\pi^-$) [fm]'}
 dependent_variables:
 - header: {name: 'Sinyukov Fit'}
   values:
@@ -43,7 +43,7 @@ dependent_variables:
     - {symerror: 0.007, label: 'stat.'}
   - value: 5.96
     errors:
-    - {symerror: 0.08, label: 'stat.'}
+    - {symerror: 0.05, label: 'stat.'}
   - value: 0.394
     errors:
     - {symerror: 0.007, label: 'stat.'}

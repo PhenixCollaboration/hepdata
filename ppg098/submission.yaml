@@ -1,0 +1,113 @@
+#PHENIX paper PPG098
+#
+#Elliptic and hexadecapole flow of charged hadrons in Au+Au collisions at $\sqrt{s_{NN}}$ = 200 GeV
+#
+#Phys.Rev.Lett 105 (2010) 062301
+#InspireHEP ID: 850211
+#
+#Prepared by Nikolas Nelson
+#Please contact Christine Nattrass if you have any questions about this submission
+#PPG liaison:
+#Reviewer:
+#
+comment: | # Information that applies to all data tables.
+  Differential measurements of the elliptic ($v_2$) and hexadecapole ($v_4$) Fourier flow coefficients are reported for charged hadrons as a function of transverse momentum ($p_T$) and collision centrality or the number of participant nucleons ($N_{part}$) for Au+Au collisions at $\sqrt{s_{NN}}$ = 200 GeV. The $v_{2,4}$ measurements at pseudorapidity $|\eta|$ $\le$ 0.35 obtained with four separate reaction plane detectors positioned in the range 1.0 < $|\eta|$ < 3.9 show good agreement, indicating the absence of significant $\eta$-dependent nonflow perturbations. Sizable values for $v_4(p_T)$ are observed with a ratio ${v_4(p_T,N_{part})}/{v_2^2(p_T,N_{part})}$ $\approx$ 0.8 for 50 $\le$ $N_{part}$ $\le$ 200, which is compatible with the combined effects of a finite viscosity and initial eccentricity fluctuations. For $N_{part}$ $\ge$ 200 this ratio increases up to 1.7 in the most central collisions.
+additional_resources:
+- {location: "https://phenix-intra.sdcc.bnl.gov/phenix/WWW/p/info/ppg/098/", description: "web page with data points"}
+- {location: "http://arxiv.org/abs/1003.5586", description: arXiv}
+- {location: "https://inspirehep.net/literature/850211", description: InspireHEP}
+---
+# This is Table 1.
+name: "Table 1"
+location: Data From Table of PRL 105 (2010) 062301
+description: 'Glauber quantities ($N_{part}$, $N_{coll}$, $b$) for Au+Au collisions at 200 GeV (PHENIX Run 2007)'
+keywords: # used for searching, possibly mutliple values for each keywords
+- {name: reactions, values: [Au Au --> CHARGED X]}
+- {name: cmenergies, values: [200.0]}
+- {name: phrases, values: [ppg098, elliptic flow, hexadecapole flow, transverse momentum, pseudorapidity]}
+data_file: ppg098tab1.yaml
+---
+# This is Figure 1.
+name: "Figure 1"
+location: Data From Fig. 1 of PRL 105 (2010) 062301
+description: 'Event-plane resolution factors vs. $N_{part}$ for $v_2$ and $v_4$ measurements for the indicated event planes.'
+keywords: # used for searching, possibly mutliple values for each keywords
+- {name: reactions, values: [Au Au --> CHARGED X]}
+- {name: cmenergies, values: [200.0]}
+- {name: phrases, values: [ppg098, elliptic flow, hexadecapole flow, transverse momentum, pseudorapidity]}
+data_file: ppg098fig1.yaml
+additional_resources:
+- {description: Original JPG Image file, location: Fig1c.jpg}
+- {description: PNG Image file, location: Fig1c.png}
+- {description: Thumbnail Image file, location: thumb_Fig1c.png}
+---
+# This is Figure 2.
+name: "Figure 2"
+location: Data From Fig. 2 of PRL 105 (2010) 062301
+description: 'Comparison of $v_2$ vs. $N_{part}$ and $v_4$ vs. $N_{part}$ for charged hadrons obtained with several reaction plane detectors for the $p_T$ selections indicated.'
+keywords: # used for searching, possibly mutliple values for each keywords
+- {name: reactions, values: [Au Au --> CHARGED X]}
+- {name: cmenergies, values: [200.0]}
+- {name: phrases, values: [ppg098, elliptic flow, hexadecapole flow, transverse momentum, pseudorapidity]}
+data_file: ppg098fig2.yaml
+additional_resources:
+- {description: Original JPG Image file, location: Fig2c.jpg}
+- {description: PNG Image file, location: Fig2c.png}
+- {description: Thumbnail Image file, location: thumb_Fig2c.png}
+---
+# This is Figure 3.
+name: "Figure 3a"
+location: Data From Fig. 3 of PRL 105 (2010) 062301
+description: '$p_T$ dependence of $v_2$ for charged hadrons for several centrality selections as indicated.'
+keywords: # used for searching, possibly mutliple values for each keywords
+- {name: reactions, values: [Au Au --> CHARGED X]}
+- {name: cmenergies, values: [200.0]}
+- {name: phrases, values: [ppg098, elliptic flow, hexadecapole flow, transverse momentum, pseudorapidity]}
+data_file: ppg098fig3a.yaml
+additional_resources:
+- {description: Original JPG Image file, location: Fig3c.jpg}
+- {description: PNG Image file, location: Fig3c.png}
+- {description: Thumbnail Image file, location: thumb_Fig3c.png}
+---
+# This is Figure 3.
+name: "Figure 3b"
+location: Data From Fig. 3 of PRL 105 (2010) 062301
+description: '$p_T$ dependence of $v_4$ for charged hadrons for several centrality selections as indicated.'
+keywords: # used for searching, possibly mutliple values for each keywords
+- {name: reactions, values: [Au Au --> CHARGED X]}
+- {name: cmenergies, values: [200.0]}
+- {name: phrases, values: [ppg098, elliptic flow, hexadecapole flow, transverse momentum, pseudorapidity]}
+data_file: ppg098fig3b.yaml
+additional_resources:
+- {description: Original JPG Image file, location: Fig3c.jpg}
+- {description: PNG Image file, location: Fig3c.png}
+- {description: Thumbnail Image file, location: thumb_Fig3c.png}
+---
+# This is Figure 4.
+name: "Figure 4a"
+location: Data From Fig. 4 of PRL 105 (2010) 062301
+description: '$v_2$ vs. $N_{part}$ and $v_4$ vs. $N_{part}$ for charged hadrons for several $p_T$ selections as indicated.'
+keywords: # used for searching, possibly mutliple values for each keywords
+- {name: reactions, values: [Au Au --> CHARGED X]}
+- {name: cmenergies, values: [200.0]}
+- {name: phrases, values: [ppg098, elliptic flow, hexadecapole flow, transverse momentum, pseudorapidity]}
+data_file: ppg098fig4a.yaml
+additional_resources:
+- {description: Original JPG Image file, location: Fig4c.jpg}
+- {description: PNG Image file, location: Fig4c.png}
+- {description: Thumbnail Image file, location: thumb_Fig4c.png}
+---
+# This is Figure 4.
+name: "Figure 4b"
+location: Data From Fig. 4 of PRL 105 (2010) 062301
+description: 'The ratio ${v_4}/{(v_2)^2}$ vs. $N_{part}$ for the same $p_T$ selections.'
+keywords: # used for searching, possibly mutliple values for each keywords
+- {name: reactions, values: [Au Au --> CHARGED X]}
+- {name: cmenergies, values: [200.0]}
+- {name: phrases, values: [ppg098, elliptic flow, hexadecapole flow, transverse momentum, pseudorapidity]}
+data_file: ppg098fig4b.yaml
+additional_resources:
+- {description: Original JPG Image file, location: Fig4c.jpg}
+- {description: PNG Image file, location: Fig4c.png}
+- {description: Thumbnail Image file, location: thumb_Fig4c.png}
+---

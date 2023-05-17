@@ -1,0 +1,88 @@
+#PHENIX paper PPG107
+#
+#Cross section and double helicity asymmetry for $\eta$ mesons and their comparison to $\pi^0$ production in $p+p$ collisions at $\sqrt{s}$ = 200 GeV
+#
+#Phys. Rev. D 83,032001 (2011)
+#InspireHEP ID: 871225
+#ArXiv: [hep-ex] 1009.6224
+#
+#Prepared by Joesph Beller
+#Please contact Christine Nattrass if you have any questions about this submission
+#PPG liaison:
+#Reviewer:
+---
+additional_resources:
+- location: "http://arxiv.org/abs/1009.6224"
+  description: "arXiv article"
+- location: "https://phenix-intra.sdcc.bnl.gov/phenix/WWW/p/info/ppg/107/"
+  description: "webpage with data points"
+- location: "https://inspirehep.net/literature/871225"
+  description: "InspireHEP"
+- location: "thumb_fig1.png"
+  description: "Image File"
+- location: "thumb_fig2.png"
+  description: "Image File"
+- location: "thumb_fig3.png"
+  description: "Image File"
+- location: "thumb_fig4.png"
+  description: "Image File"
+- location: "thumb_fig5.png"
+  description: "EPS File"
+- location: "fig1.eps"
+  description: "EPS File"
+- location: "fig2.eps"
+  description: "EPS File"
+- location: "fig3.eps"
+  description: "EPS File"
+- location: "fig4.eps"
+  description: "EPS File"
+- location: "fig5.eps"
+  description: "EPS File"
+  
+comment: |
+  Measurements of double helicity asymmetries in inclusive hadron production in polarized $p + p$ collisions are sensitive to helicity-dependent parton distribution functions, in particular to the gluon helicity distribution, ∆g. This study focuses on the extraction of the double helicity asymmetry in $\eta$ production ($\vec{p}+\vec{p}$ → $\eta+X$), the $\eta$ cross section and the $\eta/\pi^0$ cross section ratio. The cross section and ratio measurements provide essential input for the extraction of fragmentation functions that are needed to access the helicity-dependent parton distribution functions. 
+---
+# This is Figure 2.
+name: "Figure 2"
+location: Data from Figure 2 of Phys. Rev. D 83,032001 (2011)
+description: Cross section for midrapidity inclusive of $\eta$ productions at $\sqrt{s}$ = 200 GeV as a function of $p_T$ and its comparison to NLO pQCD calculations at three different scales $\mu$. The error bars shown are the statistical and systematic uncertainties added in quadrature. Note that the fragmentation functions used in the calculations are partially constrained by this data. 
+keywords: # used for searching, possibly multiple values for each keyword
+- {name: reactions, values: [$p$ + $p$ --> $\eta + X$]}
+- {name: cmenergies, values: [200]} # centre-of-mass energy in GeV
+- {name: phrases, values: [ppg107]}
+data_file: ppg107fig2.yaml
+additional_resources:
+- location: "thumb_fig2.png"
+  description: "Image File"
+- location: "fig2.eps"
+  description: "EPS File" 
+---
+# This is Figure 4.
+name: "Figure 4"
+location: Data from Figure 4 of Phys. Rev. D 83,032001 (2011)
+description: Cross section ratio for the midrapidity production of inclusive $\eta$ to $\pi^0$ mesons at $\sqrt{s}$ = 200 GeV as a function of $p_T$. The error bars show the statistical and systematic uncertainties added in quadrature. The solid curve shows the ratio of the NLO pQCD calculations shown in Fig. 3 and the corresponding one for the $\pi^0$. The dashed curve shows the result of a PYTHIA Monte-Carlo simulation.
+keywords: # used for searching, possibly multiple values for each keyword
+- {name: reactions, values: [$p$ + $p$ --> $\eta + X$]}
+- {name: cmenergies, values: [200]} # centre-of-mass energy in GeV
+- {name: phrases, values: [ppg107]}
+data_file: ppg107fig4.yaml
+additional_resources:
+- location: "thumb_fig4.png"
+  description: "Image File"
+- location: "fig4.eps"
+  description: "EPS File"
+---
+# This is Figure 5.
+name: "Figure 5"
+location: Data from Figure 5 of Phys. Rev. D 83,032001 (2011)
+description: Double helicity asymmetry for midrapidity inclusive $\eta$ production from the combined 2005 and 2006 data at $\sqrt{s}$ = 200 GeV as a function of $p_T$. An additional 4.8% systematic uncertainty in the beam polarizations is not shown.
+keywords: # used for searching, possibly multiple values for each keyword
+- {name: reactions, values: [$p$ + $p$ --> $\eta + X$]}
+- {name: cmenergies, values: [200]} # centre-of-mass energy in GeV
+- {name: phrases, values: [ppg107]}
+data_file: ppg107fig5.yaml
+additional_resources:
+- location: "thumb_fig5.png"
+  description: "Image File"
+- location: "fig5.eps"
+  description: "EPS File"

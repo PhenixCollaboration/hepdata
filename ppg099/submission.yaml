@@ -1,0 +1,197 @@
+#PHENIX paper PPG099
+#
+#Measurement of neutral mesons in $p$+$p$ collisions at $\sqrt{s}$ = 200 GeV and scaling properties of hadron production
+#
+#Phys.Rev.Lett D 83 (2011) 052004
+#InspireHEP ID: 855102
+#
+#Prepared by Nikolas Nelson
+#Please contact Christine Nattrass if you have any questions about this submission
+#PPG liaison:
+#Reviewer:
+#
+comment: | # Information that applies to all data tables.
+  The PHENIX experiment at the Relativistic Heavy Ion Collider has measured the invariant differential cross section for production of $K^0_S$, $\omega$, $\eta^{prime}$, and $\phi$ mesons in $p$+$p$ collisions at = 200 GeV. Measurements $\omega$ and $\phi$ production in different decay channels give consistent results. New results for the $\phi$ are in agreement with previously published data and extend the measured $p_T$ coverage. The spectral shapes of all hadron transverse momentum distributions measured by PHENIX are well described by a Tsallis distribution functional form with only two parameters, $n$ and $T$, determining the high-$p_T$ and characterizing the low-$p_T$ regions of the spectra, respectively. The values of these parameters are very similar for all analyzed meson spectra, but with a lower parameter $T$ extracted for protons. The integrated invariant cross sections calculated from the fitted distributions are found to be consistent with existing measurements and with statistical model predictions.
+additional_resources:
+- {location: "https://phenix-intra.sdcc.bnl.gov/phenix/WWW/p/info/ppg/099/", description: "web page with data points"}
+- {location: "http://arxiv.org/abs/1005.3674", description: arXiv}
+- {location: "https://inspirehep.net/literature/855102", description: InspireHEP}
+---
+# This is Table 3.
+name: "Table 3"
+location: Data From Tab. 3 of PRD 83 (2011) 052004
+description: 'Parameters of the Tsallis fit with all parameters free to vary.'
+keywords: # used for searching, possibly mutliple values for each keywords
+- {name: reactions, values: [$p$ $p$ --> CHARGED X]}
+- {name: cmenergies, values: [200.0]}
+- {name: phrases, values: [ppg099, transverse momentum]}
+data_file: ppg099tab3.yaml
+---
+# This is Table 4.
+name: "Table 4"
+location: Data From Tab. 4 of PRD 83 (2011) 052004
+description: 'Parameters of the power law fit.'
+keywords: # used for searching, possibly mutliple values for each keywords
+- {name: reactions, values: [$p$ $p$ --> CHARGED X]}
+- {name: cmenergies, values: [200.0]}
+- {name: phrases, values: [ppg099, transverse momentum]}
+data_file: ppg099tab4.yaml
+---
+# This is Table 5.
+name: "Table 5"
+location: Data From Tab. 5 of PRD 83 (2011) 052004
+description: 'Constant and linear fits to the power law and Tsallis fit parameters. The last column (Prob.) gives the probability estimated by the $\chi^2$/$n.d.f.$ of the fit.'
+keywords: # used for searching, possibly mutliple values for each keywords
+- {name: reactions, values: [$p$ $p$ --> CHARGED X]}
+- {name: cmenergies, values: [200.0]}
+- {name: phrases, values: [ppg099, transverse momentum]}
+data_file: ppg099tab5.yaml
+---
+# This is Table 6.
+name: "Table 6"
+location: Data From Tab. 6 of PRD 83 (2011) 052004
+description: 'Parameters of the Tsallis fit with parameter $n$ constrained to a fixed linear dependence on mass (for mesons)'
+keywords: # used for searching, possibly mutliple values for each keywords
+- {name: reactions, values: [$p$ $p$ --> CHARGED X]}
+- {name: cmenergies, values: [200.0]}
+- {name: phrases, values: [ppg099, transverse momentum]}
+data_file: ppg099tab6.yaml
+---
+# This is Table 7.
+name: "Table 7"
+location: Data From Tab. 7 of PRD 83 (2011) 052004
+description: 'Constant and linear fits to the Tsallis parameter $T$ of mesons with fixed parameter $n$. The last column (Prob.) gives the probability estimated by the $\chi^2$/$n.d.f.$ of the fit.'
+keywords: # used for searching, possibly mutliple values for each keywords
+- {name: reactions, values: [$p$ $p$ --> CHARGED X]}
+- {name: cmenergies, values: [200.0]}
+- {name: phrases, values: [ppg099, transverse momentum]}
+data_file: ppg099tab7.yaml
+---
+# This is Table 8.
+name: "Table 8"
+location: Data From Tab. 8 of PRD 83 (2011) 052004
+description: 'Parameters of the Tsallis fit with parameters $n$ and $T$ constrained to have a fixed linear dependence on mass (for mesons).'
+keywords: # used for searching, possibly mutliple values for each keywords
+- {name: reactions, values: [$p$ $p$ --> CHARGED X]}
+- {name: cmenergies, values: [200.0]}
+- {name: phrases, values: [ppg099, transverse momentum]}
+data_file: ppg099tab8.yaml
+---
+# This is Table 9.
+name: "Table 9a"
+location: Data From Tab. 9 of PRD 83 (2011) 052004
+description: 'Cross sections in mb and $<p_T>$ in GeV/$c$ of different particles in $p$+$p$ collisions at $\sqrt{s}$ = 200 GeV. PHENIX columns show the values obtained by fits to the experiment spectra with the Tsallis functional form.'
+keywords: # used for searching, possibly mutliple values for each keywords
+- {name: reactions, values: [$p$ $p$ --> CHARGED X]}
+- {name: cmenergies, values: [200.0]}
+- {name: phrases, values: [ppg099, transverse momentum]}
+data_file: ppg099tab9a.yaml
+---
+# This is Table 9.
+name: "Table 9b"
+location: Data From Tab. 9 of PRD 83 (2011) 052004
+description: 'Cross sections in mb and $<p_T>$ in GeV/$c$ of different particles in $p$+$p$ collisions at $\sqrt{s}$ = 200 GeV. PHENIX columns show the values obtained by fits to the experiment spectra with the Tsallis functional form.'
+keywords: # used for searching, possibly mutliple values for each keywords
+- {name: reactions, values: [$p$ $p$ --> CHARGED X]}
+- {name: cmenergies, values: [200.0]}
+- {name: phrases, values: [ppg099, transverse momentum]}
+data_file: ppg099tab9b.yaml
+---
+# This is Figure 12.
+name: "Figure 12a"
+location: Data From Fig. 12 of PRD 83 (2011) 052004
+description: 'Invariant differential cross sections of different particles measured in $p$+$p$ collisions at $\sqrt{s}$ = 200 GeV in various decay modes. Type A systematic uncertainties are $p_T$ independent. Type C & B systematic uncertainties are residual with Type B having an unknown $p_T$ dependence. For each $y$-coordinate in each $p_T$ bin was varied by the same amount according to the uncertainty Type C.'
+keywords: # used for searching, possibly mutliple values for each keywords
+- {name: reactions, values: [$p$ $p$ --> CHARGED X]}
+- {name: cmenergies, values: [200.0]}
+- {name: phrases, values: [ppg099, transverse momentum]}
+data_file: ppg099fig12a.yaml
+additional_resources:
+- {description: Original EPS Image file, location: fig12_all_spectra.eps}
+- {description: PNG Image file, location: fig12_all_spectra.png}
+- {description: Thumbnail Image file, location: thumb_fig12_all_spectra.png}
+---
+# This is Figure 12.
+name: "Figure 12b"
+location: Data From Fig. 12 of PRD 83 (2011) 052004
+description: 'Invariant differential cross sections of different particles measured in $p$+$p$ collisions at $\sqrt{s}$ = 200 GeV in various decay modes. Type A systematic uncertainties are $p_T$ independent. Type C & B systematic uncertainties are residual with Type B having an unknown $p_T$ dependence. For each $y$-coordinate in each $p_T$ bin was varied by the same amount according to the uncertainty Type C.'
+keywords: # used for searching, possibly mutliple values for each keywords
+- {name: reactions, values: [$p$ $p$ --> CHARGED X]}
+- {name: cmenergies, values: [200.0]}
+- {name: phrases, values: [ppg099, transverse momentum]}
+data_file: ppg099fig12b.yaml
+additional_resources:
+- {description: Original EPS Image file, location: fig12_all_spectra.eps}
+- {description: PNG Image file, location: fig12_all_spectra.png}
+- {description: Thumbnail Image file, location: thumb_fig12_all_spectra.png}
+---
+# This is Figure 12.
+name: "Figure 12c"
+location: Data From Fig. 12 of PRD 83 (2011) 052004
+description: 'Invariant differential cross sections of different particles measured in $p$+$p$ collisions at $\sqrt{s}$ = 200 GeV in various decay modes. Type A systematic uncertainties are $p_T$ independent. Type C & B systematic uncertainties are residual with Type B having an unknown $p_T$ dependence. For each $y$-coordinate in each $p_T$ bin was varied by the same amount according to the uncertainty Type C.'
+keywords: # used for searching, possibly mutliple values for each keywords
+- {name: reactions, values: [$p$ $p$ --> CHARGED X]}
+- {name: cmenergies, values: [200.0]}
+- {name: phrases, values: [ppg099, transverse momentum]}
+data_file: ppg099fig12c.yaml
+additional_resources:
+- {description: Original EPS Image file, location: fig12_all_spectra.eps}
+- {description: PNG Image file, location: fig12_all_spectra.png}
+- {description: Thumbnail Image file, location: thumb_fig12_all_spectra.png}
+---
+# This is Figure 13.
+name: "Figure 13a"
+location: Data From Fig. 13 of PRD 83 (2011) 052004
+description: 'The $p_T$ spectra of various hadrons measured by PHENIX fitted to the power law and Tsallis fit. Type A systematic uncertainties are $p_T$ independent. Type C & B systematic uncertainties are residual with Type B having an unknown $p_T$ dependence. For each $y$-coordinate in each $p_T$ bin was varied by the same amount according to the uncertainty Type C.'
+keywords: # used for searching, possibly mutliple values for each keywords
+- {name: reactions, values: [$p$ $p$ --> CHARGED X]}
+- {name: cmenergies, values: [200.0]}
+- {name: phrases, values: [ppg099, transverse momentum]}
+data_file: ppg099fig13a.yaml
+additional_resources:
+- {description: Original EPS Image file, location: fig13_fits.eps}
+- {description: PNG Image file, location: fig13_fits.png}
+- {description: Thumbnail Image file, location: thumb_fig13_fits.png}
+---
+# This is Figure 13.
+name: "Figure 13b"
+location: Data From Fig. 13 of PRD 83 (2011) 052004
+description: 'The $p_T$ spectra of various hadrons measured by PHENIX fitted to the power law and Tsallis fit. Type A systematic uncertainties are $p_T$ independent. Type C & B systematic uncertainties are residual with Type B having an unknown $p_T$ dependence. For each $y$-coordinate in each $p_T$ bin was varied by the same amount according to the uncertainty Type C.'
+keywords: # used for searching, possibly mutliple values for each keywords
+- {name: reactions, values: [$p$ $p$ --> CHARGED X]}
+- {name: cmenergies, values: [200.0]}
+- {name: phrases, values: [ppg099, transverse momentum]}
+data_file: ppg099fig13b.yaml
+additional_resources:
+- {description: Original EPS Image file, location: fig13_fits.eps}
+- {description: PNG Image file, location: fig13_fits.png}
+- {description: Thumbnail Image file, location: thumb_fig13_fits.png}
+---
+# This is Figure 13.
+name: "Figure 13c"
+location: Data From Fig. 13 of PRD 83 (2011) 052004
+description: 'The $p_T$ spectra of various hadrons measured by PHENIX fitted to the power law and Tsallis fit. Type A systematic uncertainties are $p_T$ independent. Type C & B systematic uncertainties are residual with Type B having an unknown $p_T$ dependence. For each $y$-coordinate in each $p_T$ bin was varied by the same amount according to the uncertainty Type C.'
+keywords: # used for searching, possibly mutliple values for each keywords
+- {name: reactions, values: [$p$ $p$ --> CHARGED X]}
+- {name: cmenergies, values: [200.0]}
+- {name: phrases, values: [ppg099, transverse momentum]}
+data_file: ppg099fig13c.yaml
+additional_resources:
+- {description: Original EPS Image file, location: fig13_fits.eps}
+- {description: PNG Image file, location: fig13_fits.png}
+- {description: Thumbnail Image file, location: thumb_fig13_fits.png}
+---
+# This is Figure 13.
+name: "Figure 13d"
+location: Data From Fig. 13 of PRD 83 (2011) 052004
+description: 'The $p_T$ spectra of various hadrons measured by PHENIX fitted to the power law and Tsallis fit. Type A systematic uncertainties are $p_T$ independent. Type C & B systematic uncertainties are residual with Type B having an unknown $p_T$ dependence. For each $y$-coordinate in each $p_T$ bin was varied by the same amount according to the uncertainty Type C.'
+keywords: # used for searching, possibly mutliple values for each keywords
+- {name: reactions, values: [$p$ $p$ --> CHARGED X]}
+- {name: cmenergies, values: [200.0]}
+- {name: phrases, values: [ppg099, transverse momentum]}
+data_file: ppg099fig13d.yaml
+additional_resources:
+- {description: Original EPS Image file, location: fig13_fits.eps}
+- {description: PNG Image file, location: fig13_fits.png}
+- {description: Thumbnail Image file, location: thumb_fig13_fits.png}
+---

@@ -1,0 +1,152 @@
+independent_variables:
+- header: {name: '$p_T$ Bins (GeV/$c$)'}
+  values:
+  - {low: 0.00, high: 0.25}
+  - {low: 0.25, high: 0.50}
+  - {low: 0.50, high: 0.75}
+  - {low: 0.75, high: 1.00}
+  - {low: 1.00, high: 1.25}
+  - {low: 1.25, high: 1.50}
+  - {low: 1.50, high: 1.75}
+  - {low: 1.75, high: 2.00}
+  - {low: 2.00, high: 2.25}
+  - {low: 2.25, high: 2.50}
+  - {low: 2.50, high: 2.75}
+  - {low: 2.75, high: 3.00}
+  - {low: 3.00, high: 3.25}
+  - {low: 3.25, high: 3.50}
+  - {low: 3.50, high: 3.75}
+  - {low: 3.75, high: 4.00}
+  - {low: 4.00, high: 4.25}
+  - {low: 4.25, high: 4.50}
+  - {low: 4.50, high: 4.75}
+  - {low: 4.75, high: 5.00}
+  - {low: 5.00, high: 6.00}
+  - {low: 6.00, high: 7.00}
+  - {low: 7.00, high: 8.00}
+  - {low: 8.00, high: 9.00}
+dependent_variables:
+- header: {name: '$p_T$ (GeV/$c$)'}
+  values:
+  - value: 0.125
+  - value: 0.375
+  - value: 0.625
+  - value: 0.875
+  - value: 1.125
+  - value: 1.375
+  - value: 1.625
+  - value: 1.875
+  - value: 2.125
+  - value: 2.375
+  - value: 2.625
+  - value: 2.875
+  - value: 3.125
+  - value: 3.375
+  - value: 3.625
+  - value: 3.875
+  - value: 4.125
+  - value: 4.375
+  - value: 4.625
+  - value: 4.875
+  - value: 5.500
+  - value: 6.500
+  - value: 7.500
+  - value: 8.500
+- header: {name: 'B d$\sigma$/d$y$d$p_T$ (nb)'}
+  values:
+  - value: 3.8
+    errors:
+    - {symerror: 0.04, label: 'stat.'}
+    - {symerror: 0.5, label: 'sys.'}
+  - value: 9.2
+    errors:
+    - {symerror: 0.7, label: 'stat.'}
+    - {symerror: 1.1, label: 'sys.'}
+  - value: 15.4
+    errors:
+    - {symerror: 0.9, label: 'stat.'}
+    - {symerror: 1.9, label: 'sys.'}
+  - value: 19.3
+    errors:
+    - {symerror: 1.1, label: 'stat.'}
+    - {symerror: 2.3, label: 'sys.'}
+  - value: 22.4
+    errors:
+    - {symerror: 1.2, label: 'stat.'}
+    - {symerror: 2.7, label: 'sys.'}
+  - value: 18.7
+    errors:
+    - {symerror: 1.2, label: 'stat.'}
+    - {symerror: 2.3, label: 'sys.'}
+  - value: 16.8
+    errors:
+    - {symerror: 1.2, label: 'stat.'}
+    - {symerror: 2.0, label: 'sys.'}
+  - value: 16.1
+    errors:
+    - {symerror: 1.2, label: 'stat.'}
+    - {symerror: 2.0, label: 'sys.'}
+  - value: 12.7
+    errors:
+    - {symerror: 1.1, label: 'stat.'}
+    - {symerror: 1.6, label: 'sys.'}
+  - value: 9.9
+    errors:
+    - {symerror: 1.1, label: 'stat.'}
+    - {symerror: 1.2, label: 'sys.'}
+  - value: 9.2
+    errors:
+    - {symerror: 1.0, label: 'stat.'}
+    - {symerror: 1.1, label: 'sys.'}
+  - value: 6.6
+    errors:
+    - {symerror: 1.0, label: 'stat.'}
+    - {symerror: 0.8, label: 'sys.'}
+  - value: 5.7
+    errors:
+    - {symerror: 0.8, label: 'stat.'}
+    - {symerror: 0.7, label: 'sys.'}
+  - value: 4.2
+    errors:
+    - {asymerror: {plus: 0.8, minus: 0.7}, label: 'stat.'}
+    - {symerror: 0.5, label: 'sys.'}
+  - value: 3.1
+    errors:
+    - {symerror: 0.6, label: 'stat.'}
+    - {symerror: 0.39, label: 'sys.'}
+  - value: 2.6
+    errors:
+    - {symerror: 0.6, label: 'stat.'}
+    - {symerror: 0.33, label: 'sys.'}
+  - value: 1.8
+    errors:
+    - {symerror: 0.6, label: 'stat.'}
+    - {symerror: 0.23, label: 'sys.'}
+  - value: 1.2
+    errors:
+    - {symerror: 0.5, label: 'stat.'}
+    - {symerror: 0.15, label: 'sys.'}
+  - value: 1.4
+    errors:
+    - {symerror: 0.04, label: 'stat.'}
+    - {symerror: 0.17, label: 'sys.'}
+  - value: 0.9
+    errors:
+    - {symerror: 0.04, label: 'stat.'}
+    - {asymerror: {plus: 0.12, minus: 0.115}, label: 'sys.'}
+  - value: 0.47
+    errors:
+    - {symerror: 0.11, label: 'stat.'}
+    - {symerror: 0.06, label: 'sys.'}
+  - value: 0.17
+    errors:
+    - {symerror: 0.05, label: 'stat.'}
+    - {symerror: 0.025, label: 'sys.'}
+  - value: 0.074
+    errors:
+    - {asymerror: {plus: 0.032, minus: 0.034}, label: 'stat.'}
+    - {asymerror: {plus: 0.011, minus: 0.010}, label: 'sys.'}
+  - value: 0.020
+    errors:
+    - {asymerror: {plus: 0.012, minus: 0.020}, label: 'stat.'}
+    - {symerror: 0.003, label: 'sys.'}

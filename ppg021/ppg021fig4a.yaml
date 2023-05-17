@@ -45,30 +45,39 @@ dependent_variables:
   - value: 0.308
     errors:
     - {symerror: 0.017, label: 'stat.'}
+    - {symerror: 0.050, label: 'sys.'}
   - value: 0.324
     errors:
     - {symerror: 0.018, label: 'stat.'}
+    - {symerror: 0.053, label: 'sys.'}
   - value: 0.338
     errors:
     - {symerror: 0.020, label: 'stat.'}
+    - {symerror: 0.049, label: 'sys.'}
   - value: 0.357
     errors:
     - {symerror: 0.022, label: 'stat.'}
+    - {symerror: 0.045, label: 'sys.'}
   - value: 0.349
     errors:
     - {symerror: 0.017, label: 'stat.'}
+    - {symerror: 0.039, label: 'sys.'}
   - value: 0.374
     errors:
     - {symerror: 0.025, label: 'stat.'}
+    - {symerror: 0.041, label: 'sys.'}
   - value: 0.427
     errors:
     - {symerror: 0.031, label: 'stat.'}
+    - {symerror: 0.036, label: 'sys.'}
   - value: 0.455
     errors:
     - {symerror: 0.044, label: 'stat.'}
+    - {symerror: 0.026, label: 'sys.'}
   - value: 0.423
     errors:
     - {symerror: 0.085, label: 'stat.'}
+    - {symerror: 0.019, label: 'sys.'}
 - header: {name: '$\lambda$ Full Coulomb'}
   values:
   - value: 0.417
@@ -98,263 +107,245 @@ dependent_variables:
   - value: 0.467
     errors:
     - {symerror: 0.075, label: 'stat.'}
-- header: {name: '$R_{side}$ Sinyukov Fit'}
+- header: {name: '$R_{side}$ [fm] Sinyukov Fit'}
   values:
   - value: 4.54
     errors:
     - {symerror: 0.17, label: 'stat.'}
-    - {symerror: 0.09, label: 'syst.'}
+    - {symerror: 0.22, label: 'sys.'}
   - value: 4.25
     errors:
     - {symerror: 0.16, label: 'stat.'}
-    - {symerror: 0.09, label: 'syst.'}
+    - {symerror: 0.20, label: 'sys.'}
   - value: 4.14
     errors:
     - {symerror: 0.17, label: 'stat.'}
-    - {symerror: 0.08, label: 'syst.'}
+    - {symerror: 0.21, label: 'sys.'}
   - value: 4.05
     errors:
     - {symerror: 0.17, label: 'stat.'}
-    - {symerror: 0.08, label: 'syst.'}
+    - {symerror: 0.18, label: 'sys.'}
   - value: 3.67
     errors:
     - {symerror: 0.12, label: 'stat.'}
-    - {symerror: 0.07, label: 'syst.'}
+    - {symerror: 0.15, label: 'sys.'}
   - value: 3.45
     errors:
     - {symerror: 0.16, label: 'stat.'}
-    - {symerror: 0.07, label: 'syst.'}
+    - {symerror: 0.15, label: 'sys.'}
   - value: 3.03
     errors:
     - {symerror: 0.17, label: 'stat.'}
-    - {symerror: 0.06, label: 'syst.'}
+    - {symerror: 0.13, label: 'sys.'}
   - value: 2.95
     errors:
     - {symerror: 0.20, label: 'stat.'}
-    - {symerror: 0.06, label: 'syst.'}
+    - {symerror: 0.10, label: 'sys.'}
   - value: 2.48
     errors:
     - {symerror: 0.46, label: 'stat.'}
-    - {symerror: 0.05, label: 'syst.'}
-- header: {name: '$R_{side}$ Full Coulomb'}
+    - {symerror: 0.09, label: 'sys.'}
+- header: {name: '$R_{side}$ [fm] Full Coulomb'}
   values:
   - value: 4.90
     errors:
     - {symerror: 0.13, label: 'stat.'}
-    - {symerror: 0.10, label: 'syst.'}
   - value: 4.61
     errors:
     - {symerror: 0.13, label: 'stat.'}
-    - {symerror: 0.09, label: 'syst.'}
   - value: 4.53
     errors:
     - {symerror: 0.14, label: 'stat.'}
-    - {symerror: 0.09, label: 'syst.'}
   - value: 4.36
     errors:
     - {symerror: 0.14, label: 'stat.'}
-    - {symerror: 0.09, label: 'syst.'}
   - value: 3.96
     errors:
     - {symerror: 0.11, label: 'stat.'}
-    - {symerror: 0.08, label: 'syst.'}
   - value: 3.70
     errors:
     - {symerror: 0.14, label: 'stat.'}
-    - {symerror: 0.07, label: 'syst.'}
   - value: 3.21
     errors:
     - {symerror: 0.15, label: 'stat.'}
-    - {symerror: 0.06, label: 'syst.'}
   - value: 3.07
     errors:
     - {symerror: 0.19, label: 'stat.'}
-    - {symerror: 0.06, label: 'syst.'}
   - value: 2.59
     errors:
     - {symerror: 0.42, label: 'stat.'}
-    - {symerror: 0.05, label: 'syst.'}
-- header: {name: '$R_{out}$ Sinyukov Fit'}
+- header: {name: '$R_{out}$ [fm] Sinyukov Fit'}
   values:
   - value: 4.90
     errors:
     - {symerror: 0.18, label: 'stat.'}
-    - {symerror: 0.34, label: 'syst.'}
+    - {symerror: 0.36, label: 'sys.'}
   - value: 4.31
     errors:
     - {symerror: 0.16, label: 'stat.'}
-    - {symerror: 0.30, label: 'syst.'}
+    - {symerror: 0.33, label: 'sys.'}
   - value: 4.42
     errors:
     - {symerror: 0.17, label: 'stat.'}
-    - {symerror: 0.31, label: 'syst.'}
+    - {symerror: 0.29, label: 'sys.'}
   - value: 4.15
     errors:
     - {symerror: 0.17, label: 'stat.'}
-    - {symerror: 0.29, label: 'syst.'}
+    - {symerror: 0.22, label: 'sys.'}
   - value: 3.71
     errors:
     - {symerror: 0.13, label: 'stat.'}
-    - {symerror: 0.26, label: 'syst.'}
+    - {symerror: 0.21, label: 'sys.'}
   - value: 3.42
     errors:
     - {symerror: 0.16, label: 'stat.'}
-    - {symerror: 0.24, label: 'syst.'}
+    - {symerror: 0.15, label: 'sys.'}
   - value: 3.26
     errors:
     - {symerror: 0.18, label: 'stat.'}
-    - {symerror: 0.23, label: 'syst.'}
+    - {symerror: 0.11, label: 'sys.'}
   - value: 2.75
     errors:
     - {symerror: 0.22, label: 'stat.'}
-    - {symerror: 0.19, label: 'syst.'}
+    - {symerror: 0.08, label: 'sys.'}
   - value: 2.83
     errors:
     - {symerror: 0.63, label: 'stat.'}
-    - {symerror: 0.20, label: 'syst.'}
-- header: {name: '$R_{out}$ Full Coulomb'}
+    - {symerror: 0.19, label: 'sys.'}
+- header: {name: '$R_{out}$ [fm] Full Coulomb'}
   values:
   - value: 4.10
     errors:
     - {symerror: 0.12, label: 'stat.'}
-    - {symerror: 0.29, label: 'syst.'}
   - value: 3.78
     errors:
     - {symerror: 0.12, label: 'stat.'}
-    - {symerror: 0.26, label: 'syst.'}
   - value: 3.95
     errors:
     - {symerror: 0.13, label: 'stat.'}
-    - {symerror: 0.28, label: 'syst.'}
   - value: 3.75
     errors:
     - {symerror: 0.14, label: 'stat.'}
-    - {symerror: 0.26, label: 'syst.'}
   - value: 3.41
     errors:
     - {symerror: 0.11, label: 'stat.'}
-    - {symerror: 0.24, label: 'syst.'}
   - value: 3.18
     errors:
     - {symerror: 0.13, label: 'stat.'}
-    - {symerror: 0.22, label: 'syst.'}
   - value: 3.11
     errors:
     - {symerror: 0.15, label: 'stat.'}
-    - {symerror: 0.22, label: 'syst.'}
   - value: 2.65
     errors:
     - {symerror: 0.19, label: 'stat.'}
-    - {symerror: 0.19, label: 'syst.'}
   - value: 2.66
     errors:
     - {symerror: 0.52, label: 'stat.'}
-    - {symerror: 0.19, label: 'syst.'}
-- header: {name: '$R_{long}$ Sinyukov Fit'}
+- header: {name: '$R_{long}$ [fm] Sinyukov Fit'}
   values:
   - value: 4.85
     errors:
     - {symerror: 0.19, label: 'stat.'}
-    - {symerror: 0.10, label: 'syst.'}
+    - {symerror: 0.43, label: 'sys.'}
   - value: 4.42
     errors:
     - {symerror: 0.18, label: 'stat.'}
-    - {symerror: 0.09, label: 'syst.'}
+    - {symerror: 0.44, label: 'sys.'}
   - value: 4.18
     errors:
     - {symerror: 0.20, label: 'stat.'}
-    - {symerror: 0.08, label: 'syst.'}
+    - {symerror: 0.39, label: 'sys.'}
   - value: 4.03
     errors:
     - {symerror: 0.19, label: 'stat.'}
-    - {symerror: 0.08, label: 'syst.'}
+    - {symerror: 0.33, label: 'sys.'}
   - value: 3.70
     errors:
     - {symerror: 0.15, label: 'stat.'}
-    - {symerror: 0.07, label: 'syst.'}
+    - {symerror: 0.25, label: 'sys.'}
   - value: 3.50
     errors:
     - {symerror: 0.21, label: 'stat.'}
-    - {symerror: 0.07, label: 'syst.'}
+    - {symerror: 0.25, label: 'sys.'}
   - value: 3.18
     errors:
     - {symerror: 0.20, label: 'stat.'}
-    - {symerror: 0.06, label: 'syst.'}
+    - {symerror: 0.18, label: 'sys.'}
   - value: 3.19
     errors:
     - {symerror: 0.30, label: 'stat.'}
-    - {symerror: 0.06, label: 'syst.'}
+    - {symerror: 0.14, label: 'sys.'}
   - value: 2.25
     errors:
     - {symerror: 0.38, label: 'stat.'}
-    - {symerror: 0.05, label: 'syst.'}
-- header: {name: '$R_{long}$ Full Coulomb'}
+    - {symerror: 0.07, label: 'sys.'}
+- header: {name: '$R_{long}$ [fm] Full Coulomb'}
   values:
   - value: 5.18
     errors:
     - {symerror: 0.15, label: 'stat.'}
-    - {symerror: 0.10, label: 'syst.'}
   - value: 4.80
     errors:
     - {symerror: 0.15, label: 'stat.'}
-    - {symerror: 0.10, label: 'syst.'}
   - value: 4.60
     errors:
     - {symerror: 0.17, label: 'stat.'}
-    - {symerror: 0.09, label: 'syst.'}
   - value: 4.35
     errors:
     - {symerror: 0.16, label: 'stat.'}
-    - {symerror: 0.09, label: 'syst.'}
   - value: 4.04
     errors:
     - {symerror: 0.13, label: 'stat.'}
-    - {symerror: 0.08, label: 'syst.'}
   - value: 3.76
     errors:
     - {symerror: 0.16, label: 'stat.'}
-    - {symerror: 0.08, label: 'syst.'}
   - value: 3.36
     errors:
     - {symerror: 0.18, label: 'stat.'}
-    - {symerror: 0.07, label: 'syst.'}
   - value: 3.33
     errors:
     - {symerror: 0.27, label: 'stat.'}
-    - {symerror: 0.07, label: 'syst.'}
   - value: 2.34
     errors:
     - {symerror: 0.35, label: 'stat.'}
-    - {symerror: 0.05, label: 'syst.'}
 - header: {name: '$R_{out}$/$R_{side}$ Sinyukov Fit'}
   values:
   - value: 1.08
     errors:
     - {symerror: 0.06, label: 'stat.'}
+    - {symerror: 0.10, label: 'sys.'}
   - value: 1.01
     errors:
     - {symerror: 0.05, label: 'stat.'}
+    - {symerror: 0.09, label: 'sys.'}
   - value: 1.07
     errors:
     - {symerror: 0.06, label: 'stat.'}
+    - {symerror: 0.09, label: 'sys.'}
   - value: 1.03
     errors:
     - {symerror: 0.06, label: 'stat.'}
+    - {symerror: 0.07, label: 'sys.'}
   - value: 1.01
     errors:
     - {symerror: 0.05, label: 'stat.'}
+    - {symerror: 0.08, label: 'sys.'}
   - value: 0.99
     errors:
     - {symerror: 0.07, label: 'stat.'}
+    - {symerror: 0.07, label: 'sys.'}
   - value: 1.07
     errors:
     - {symerror: 0.08, label: 'stat.'}
+    - {symerror: 0.06, label: 'sys.'}
   - value: 0.93
     errors:
     - {symerror: 0.10, label: 'stat.'}
+    - {symerror: 0.04, label: 'sys.'}
   - value: 1.14
     errors:
     - {symerror: 0.33, label: 'stat.'}
+    - {symerror: 0.09, label: 'sys.'}
 - header: {name: '$R_{out}$/$R_{side}$ Full Coulomb'}
   values:
   - value: 0.84

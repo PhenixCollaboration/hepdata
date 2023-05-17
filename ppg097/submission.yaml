@@ -1,0 +1,50 @@
+#PHENIX paper PPG097
+#
+#Transverse momentum dependence of $J/\psi$ polarization at midrapidity in $p$+$p$ collisions at $\sqrt{s]$ = 200 GeV
+#
+#Phys.Rev.Lett D 82 (2010) 012001
+#InspireHEP ID: 839540
+#
+#Prepared by Nikolas Nelson
+#Please contact Christine Nattrass if you have any questions about this submission
+#PPG liaison:
+#Reviewer:
+#
+comment: | # Information that applies to all data tables.
+  We report the measurement of the transverse momentum dependence of inclusive $J/\psi$ polarization in $p$+$p$ collisions at $\sqrt{s}$ = 200 GeV performed by the PHENIX Experiment at RHIC. The polarization is studied in the helicity, Gottfried-Jackson, and Collins-Soper frames for $p_T$ < 5 GeV/$c$ and $|y|$ < 0.35. The J/psi polarization in the helicity and Gottfried-Jackson frames is consistent with zero for all transverse momenta, with a slight (1.8 sigma) trend towards longitudinal polarization for transverse momenta above 2 GeV/$c$. No conclusion is allowed due to the limited acceptance in the Collins-Soper frame and the uncertainties of the current data. The results are compared to observations for other collision systems and center of mass energies and to different quarkonia production models.
+additional_resources:
+- {location: "https://phenix-intra.sdcc.bnl.gov/phenix/WWW/p/info/ppg/097/", description: "web page with data points"}
+- {location: "http://arxiv.org/abs/0912.2082", description: arXiv}
+- {location: "https://inspirehep.net/literature/839540", description: InspireHEP}
+---
+# This is Figure 5.
+name: "Figure 5"
+location: Data From Fig. 5 of PRD 82 (2010) 012001
+description: 'Fit to $J/\psi$ yield times dielectron branching ratio ($B$) after detector acceptance and efficiency corrections for the real data with $A$ = 28.7 $\pm$ 1.0 nb/GeV/$c$, $b$ = 3.41 $\pm$ 0.21 GeV/$c$, and $n$ = 4.6 $\pm$ 0.4.'
+keywords: # used for searching, possibly mutliple values for each keywords
+- {name: reactions, values: [$p$ $p$ --> CHARGED X]}
+- {name: cmenergies, values: [200.0]}
+- {name: phrases, values: [ppg097, transverse momentum, midrapidity]}
+data_file: ppg097fig5.yaml
+additional_resources:
+- {description: Original EPS Image file, location: jpsi_fit.eps}
+- {description: PNG Image file, location: jpsi_fit.png}
+- {description: Thumbnail Image file, location: thumb_jpsi_fit.png}
+---
+# This is Figure 8.
+name: "Figure 8"
+location: Data From Fig. 8 of PRD 82 (2010) 012001
+description: '$J/\psi$ polarization parameter ($\lambda_{J/\psi}$) versus transverse momentum ($p_T$).'
+keywords: # used for searching, possibly mutliple values for each keywords
+- {name: reactions, values: [$p$ $p$ --> CHARGED X]}
+- {name: cmenergies, values: [200.0]}
+- {name: phrases, values: [ppg097, transverse momentum, midrapidity]}
+data_file: ppg097fig8.yaml
+additional_resources:
+- {description: Original EPS Image file, location: pol_pt.eps}
+- {description: PNG Image file, location: pol_pt.png}
+- {description: Thumbnail Image file, location: thumb_pol_pt.png}
+- {description: Original EPS Image file, location: pol_pt_GJ.eps}
+- {description: PNG Image file, location: pol_pt_GJ.png}
+- {description: Thumbnail Image file, location: thumb_pol_pt_GJ.png}
+---
