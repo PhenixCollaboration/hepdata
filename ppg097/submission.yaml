@@ -32,14 +32,31 @@ additional_resources:
 - {description: Thumbnail Image file, location: thumb_jpsi_fit.png}
 ---
 # This is Figure 8.
-name: "Figure 8"
+name: "Figure 8a"
 location: Data From Fig. 8 of PRD 82 (2010) 012001
 description: '$J/\psi$ polarization parameter ($\lambda_{J/\psi}$) versus transverse momentum ($p_T$).'
 keywords: # used for searching, possibly mutliple values for each keywords
 - {name: reactions, values: [$p$ $p$ --> CHARGED X]}
 - {name: cmenergies, values: [200.0]}
 - {name: phrases, values: [ppg097, transverse momentum, midrapidity]}
-data_file: ppg097fig8.yaml
+data_file: ppg097fig8a.yaml
+additional_resources:
+- {description: Original EPS Image file, location: pol_pt.eps}
+- {description: PNG Image file, location: pol_pt.png}
+- {description: Thumbnail Image file, location: thumb_pol_pt.png}
+- {description: Original EPS Image file, location: pol_pt_GJ.eps}
+- {description: PNG Image file, location: pol_pt_GJ.png}
+- {description: Thumbnail Image file, location: thumb_pol_pt_GJ.png}
+---
+# This is Figure 8.
+name: "Figure 8b"
+location: Data From Fig. 8 of PRD 82 (2010) 012001
+description: '$J/\psi$ polarization parameter ($\lambda_{J/\psi}$) versus transverse momentum ($p_T$).'
+keywords: # used for searching, possibly mutliple values for each keywords
+- {name: reactions, values: [$p$ $p$ --> CHARGED X]}
+- {name: cmenergies, values: [200.0]}
+- {name: phrases, values: [ppg097, transverse momentum, midrapidity]}
+data_file: ppg097fig8b.yaml
 additional_resources:
 - {description: Original EPS Image file, location: pol_pt.eps}
 - {description: PNG Image file, location: pol_pt.png}
