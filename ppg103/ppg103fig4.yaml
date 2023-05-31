@@ -1,0 +1,23 @@
+independent_variables:
+- header: {name: '$<x_F>$'}
+  values:
+  - {value: -0.081}
+  - {value: 0.085}
+dependent_variables:
+- header: {name: '$A_N$'}
+  qualifiers:
+  - {name: 'Year', value: '2006 + 2008'}
+  - {name: '$p_T$', value: '[0.0, 6.0]'}
+  values:
+  - value: -0.015
+    errors:
+    - {symerror: 0.026, label: '$\delta$$A_N$ stat.'}
+    - {symerror: 0.002, label: '$\delta$$A_N$ Type A sys.'}
+    - {symerror: 6e-5, label: '$\delta$$A^f_N$ Type B sys.'}
+    - {symerror: 4e-4, label: '$\delta$$A^P_N$ Type B sys.'}
+  - value: -0.086
+    errors:
+    - {symerror: 0.026, label: '$\delta$$A_N$ stat.'}
+    - {symerror: 0.003, label: '$\delta$$A_N$ Type A sys.'}
+    - {symerror: 3e-4, label: '$\delta$$A^f_N$ Type B sys.'}
+    - {symerror: 0.002, label: '$\delta$$A^P_N$ Type B sys.'}
