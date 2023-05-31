@@ -1,0 +1,27 @@
+independent_variables:
+- header: {name: '$p_T$ (GeV/$c$)'}
+  values:
+  - {low: 0, high: 5}
+dependent_variables:
+- header: {name: '$<p_T>$ (GeV/$c$)'}
+  qualifiers:
+  - {name: '', value: ''}
+  values:
+  - value: 1.78
+- header: {name: '$\lambda_{J/\psi}$'}
+  qualifiers:
+  - {name: '', value: 'Helicity Frame'}
+  values:
+  - value: -0.10
+    errors:
+    - {asymerror: {plus: 0.05, minus: 0.09}, label: 'stat.'}
+    - {symerror: 0.05, label: 'sys.'}
+- header: {name: '$\lambda_{J/\psi}$'}
+  qualifiers:
+  - {name: '', value: 'Gottfried-Jackson Frame'}
+  values:
+  - value: -0.16
+    errors:
+    - {asymerror: {plus: 0.18, minus: 0.12}, label: 'stat.'}
+    - {asymerror: {plus: 0.09, minus: 0.11}, label: 'sys.'}
+    
