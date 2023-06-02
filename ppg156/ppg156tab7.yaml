@@ -1,45 +1,8 @@
 independent_variables:
-- header: {name: '$P^t_T$'}
+- header: {name: '$\sigma_{bb}(\mu b)$'}
   values:
-  - {low: 5, high: 7}
-  - {low: 7, high: 9}
-  - {low: 9, high: 12}
+  - value: 3.4 $\pm$ 0.8 (stat) $\pm$ 1.1 (sys)
 dependent_variables:
-- header: {name: '$I^{head}_{AA}$'}
-  qualifiers:
-  - {name: 'Centrality', value: '0-20%'}
+- header: {name: 'Reference'}
   values:
-  - value: 0.35
-    errors:
-    - {symerror: 0.04, label: 'stat.'}
-    - {symerror: 0.03, label: 'syst.'}
-    - {symerror: 0.02, label: 'scale'}
-  - value: 0.34
-    errors:
-    - {symerror: 0.05, label: 'stat.'}
-    - {symerror: 0.03, label: 'syst.'}
-    - {symerror: 0.02, label: 'scale'}
-  - value: 0.50
-    errors:
-    - {symerror: 0.08, label: 'stat.'}
-    - {symerror: 0.02, label: 'syst.'}
-    - {symerror: 0.03, label: 'scale'}
-- header: {name: '$I^{head}_{AA}$'}
-  qualifiers:
-  - {name: 'Centrality', value: '20-60%'}
-  values:
-  - value: 0.55
-    errors:
-    - {symerror: 0.02, label: 'stat.'}
-    - {symerror: 0.04, label: 'syst.'}
-    - {symerror: 0.03, label: 'scale'}
-  - value: 0.64
-    errors:
-    - {symerror: 0.04, label: 'stat.'}
-    - {symerror: 0.02, label: 'syst.'}
-    - {symerror: 0.04, label: 'scale'}
-  - value: 0.73
-    errors:
-    - {symerror: .06, label: 'stat.'}
-    - {symerror: 0.02, label: 'syst.'}
-    - {symerror: 0.04, label: 'scale'}
+  - value: 'This Work'

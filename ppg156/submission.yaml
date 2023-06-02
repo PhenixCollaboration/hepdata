@@ -1,0 +1,30 @@
+#PHENIX paper PPG156
+#
+#Cross section for $b\bar{b}$ production via dielectrons in d+Au collisions at $\sqrt{s_{NN}}$=200 GeV
+#
+#Phys.Rev.C 91 (2015) 014907
+#InspireHEP ID: 1296859
+#
+#Prepared by Josie Hakanson
+#Please contact Christine Nattrass if you have any questions about this submission
+#PPG liaison:
+#Reviewer:
+#
+comment: | # Information that applies to all data tables.
+  We report a measurement of $e^{+}e^{-}$ pairs from semileptonic heavy-flavor decays in $d$+Au collisions at $\sqrt{s_{NN}}$ = 200 GeV. Exploring the mass and transverse-momentum dependence of the yield, the bottom decay contribution can be isolated from charm, and quantified by comparison to PYTHIA and MC@NLO simulations. The resulting $b\bar{b}$-production cross section is $\sigma^{dAu}_{b\bar{b}}$ = 1.37$\pm$0.28(stat)$\pm$0.46(syst) mb, which is equivalent to a nucleon-nucleon cross section of $\sigma^{NN}_{b\bar{b}}$ = 3.4 $\pm$ 0.8(stat)$\pm$1.1(syst) $\mu$b
+additional_resources:
+- {location: "https://phenix-intra.sdcc.bnl.gov/phenix/WWW/p/info/ppg/156/", description: "web page with data points"}
+- {location: "http://arxiv.org/abs/1405.4004", description: arXiv}
+- {location: "https://inspirehep.net/literature/1296859", description: InspireHEP}
+---
+# This is Table 7.
+name: "Table 7"
+
+location: Data From Tab. 7 of PRL 91 (2015) 014907
+description: 'Compilation of the published $b\bar{b}$ cross sections.'
+keywords: # used for searching, possibly mutliple values for each keywords
+- {name: reactions, values: [$d$ + Au]}
+- {name: cmenergies, values: [200.0]}
+- {name: phrases, values: [ppg156, semileptonic heavy-flavor decays, pythia, mc@nlo, b ̄b-production cross section]}
+data_file: ppg156tab7.yaml
+---
