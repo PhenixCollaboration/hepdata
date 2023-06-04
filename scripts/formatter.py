@@ -1,4 +1,4 @@
-""""
+"""
 This is a little program to edit .txt files to match the PDG format for error
 Version 2.1 (this version includes more exceptions)
 Author: Joseph Dominicus Lap
@@ -6,6 +6,10 @@ Author: Joseph Dominicus Lap
 An extended version that is a bit more user-friendly. Includes both manual and auto mode, but it is a very limited auto mode. 
 Version 3.1
 Author: Patrick John Steffanic
+
+A modified version that fixes issues handling asymmetric errors. Negative values are now allowed in errors. 0 errors are also permitted, but the program displays a message for users to double check their data. Prints the y value associated the 0 error with 4 significant figures. Modifications were made in lines 104-118 and 245-259.
+Version 3.2
+Author: Joesph Duane Beller
 """
 
 
@@ -97,9 +101,21 @@ def my_round(n, var,dig):
 #A little script to follow PDG guidelines on error
 def ERR_Format(err):
     #How many digits is our error?
-    digits=int(np.floor(np.log10(Decimal(err)))+1)
 
+    ###This first if statement makes sure a 0 value is not entered. This modification was added by Joesph Beller
+    
+    errcheck = float(err) #Converting our err into a float to verify if it is == 0
+    global error_is_0
+    if(errcheck != 0):  #Checks if err is zero
+        digits=int(np.floor(np.log10(np.abs(Decimal(err))))+1)  ##Definition of digits since version 2.1
+        error_is_0 = 1  #Flag to print at end
+    else:
+        var, digits = [1,-2] #Avoid an error in the following if statements
+        error_is_0 = 0  #Flag to print at end
 
+    ###Modification ended
+    
+    
     #What are the first 3 digits of our error?
     #We've removed the annoying edge case of  having a '.' as a digit
     if (digits<3):
@@ -122,16 +138,16 @@ def ERR_Format(err):
     #%g takes off trailing 0's
 
     realerr=my_round(err,var,digits)
-
+    
     return realerr,var,digits
 
 def do_formatting(data, X_bins, N_errs):
     output_data=[]
 
-    for j in range(len(data)):
+    for j in range(len(data)):  #runs through this code for j# of vertical lines of data
         line = []
 
-        if(X_bins):
+        if(X_bins): #if true
             line.append(data[j,0]) #Append the left bin
             line.append(data[j,1]) #Append the right bin
         else:
@@ -235,7 +251,12 @@ if __name__=="__main__":
             data = data[1:]
 
         output_data = do_formatting(data, X_bins, N_errs)
-
+        
+        #Making sure to warn user that they had an error of 0
+        if(error_is_0 == 1): #1 is a flag for an error having a 0 value
+            print("You cannot have an error of 0 in HEPData. Please double check your data :)")
+            print("Data formatting is complete")
+        
         #Just in case something prevents saving
         try:
             np.savetxt(sys.argv[3],output_data,fmt='%s',header=(header_))
