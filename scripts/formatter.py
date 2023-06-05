@@ -105,13 +105,12 @@ def ERR_Format(err):
     ###This first if statement makes sure a 0 value is not entered. This modification was added by Joesph Beller
     
     errcheck = float(err) #Converting our err into a float to verify if it is == 0
-    global error_is_0
+    
     if(errcheck != 0):  #Checks if err is zero
         digits=int(np.floor(np.log10(np.abs(Decimal(err))))+1)  ##Definition of digits since version 2.1
-        error_is_0 = 1  #Flag to print at end
     else:
         var, digits = [1,-2] #Avoid an error in the following if statements
-        error_is_0 = 0  #Flag to print at end
+        error_is_0 = 1  #Flag to print at end; this is still in development
 
     ###Modification ended
     
@@ -226,7 +225,8 @@ def build_header(bad_header, first_line, X_bins, N_errs):
     return header_
 
 if __name__=="__main__":
-
+    
+    
     if(sys.argv[1]=="-h"):
         print_help()
 
@@ -249,13 +249,10 @@ if __name__=="__main__":
             X_bins = False
             header_ = build_header(bad_header, first_line, X_bins, N_errs)
             data = data[1:]
-
+            
+        
         output_data = do_formatting(data, X_bins, N_errs)
         
-        #Making sure to warn user that they had an error of 0
-        if(error_is_0 == 1): #1 is a flag for an error having a 0 value
-            print("You cannot have an error of 0 in HEPData. Please double check your data :)")
-            print("Data formatting is complete")
         
         #Just in case something prevents saving
         try:
@@ -263,7 +260,8 @@ if __name__=="__main__":
         except Exception as e:
             print(e)
             print('Something is wrong with your permissions or there is not enough storage for the new Nch.txt file')
-
+        
+            
     else:
         N_errs = int(sys.argv[2])
         X_bins = strtobool(sys.argv[1])
@@ -280,7 +278,6 @@ if __name__=="__main__":
             first_line = data[0]
             header_ = build_header(bad_header, first_line, X_bins, N_errs)
             data = data[1:]
-
 
         output_data = do_formatting(data, X_bins, N_errs)
 
