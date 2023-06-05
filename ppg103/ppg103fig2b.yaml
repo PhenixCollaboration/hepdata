@@ -1,13 +1,13 @@
 independent_variables:
-- header: {name: '$<x_F>$'}
+- header: {name: '$p_T$ (GeV/$c$)'}
   values:
-  - {value: 0.000}
-  - {value: 0.000}
+  - {low: 0.0, high: 1.4}
+  - {low: 1.4, high: 6.0}
 dependent_variables:
 - header: {name: '$A_N$'}
   qualifiers:
+  - {name: 'Year', value: '2006'}
   - {name: '', value: '$x_F$ = 0'}
-  - {name: '$p_T$', value: '[0.0, 1.4], [1.4, 6.0]'}
   values:
   - value: -0.063
     errors:
