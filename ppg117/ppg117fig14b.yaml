@@ -1,0 +1,31 @@
+independent_variables:
+- header: {name: 'Centrality (%)'}
+  values:
+  - {low: 0.0, high: 20}
+  - {low: 20, high: 40}
+  - {low: 40, high: 94}
+dependent_variables:
+- header: {name: '$N_{part}$'}
+  qualifiers:
+  - {name: '$p_T$', value: '$R_{AA}$ of heavy flavor $\mu^{-}$ for $p_T > 2$ GeV/c in CuCu at y=1.65'}
+  values:
+  - value: 85.9
+  - value: 45.2
+  - value: 11.7
+- header: {name: '$R_{AA}$'}
+  qualifiers:
+  - {name: '$p_T$', value: '$R_{AA}$ of heavy flavor $\mu^{-}$ for $p_T > 2$ GeV/c in CuCu at y=1.65'}
+  values:
+  - value: 0.44
+    errors:
+    - {symerror: 0.06, label: 'Stat. Error'}
+    - {symerror: 0.13, label: 'Syst. Error'}
+  - value: 1.05
+    errors:
+    - {symerror: 0.08, label: 'Stat. Error'}
+    - {symerror: 0.29, label: 'Syst. Error'}
+  - value: 0.83
+    errors:
+    - {symerror: 0.11, label: 'Stat. Error'}
+    - {symerror: 0.25, label: 'Syst. Error'}
+    

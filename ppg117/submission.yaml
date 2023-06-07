@@ -1,0 +1,123 @@
+#PHENIX paper PPG117
+#
+#Nuclear-Modification Factor for Open-Heavy-Flavor Production at Forward Rapidity in Cu+Cu Collisions at $\sqrt{s_{NN}}=200$ GeV
+#
+#Phys.Rev.Lett 86 (2012) 024909
+#InspireHEP ID: 1102910
+#
+#Prepared by Shannon Harris
+#Please contact Christine Nattrass if you have any questions about this submission
+#PPG liaison:
+#Reviewer:
+#
+comment: | # Information that applies to all data tables.
+  Background: Heavy-flavor production in $p$+$p$ collisions tests perturbative-quantum-chromodynamics (pQCD) calculations. Modification of heavy-flavor production in heavy-ion collisions relative to binary-collision scaling from $p$+$p$ results, quantified with the nuclear-modification factor ($R_{AA}$), provides information on both cold- and hot-nuclear-matter effects. Purpose: Determine transverse-momentum, $p_T$, spectra and the corresponding $R_{AA}$ for muons from heavy-flavor mesons decay in $p$+$p$ and Cu+Cu collisions at $\sqrt{s_{NN}}$=200 GeV and $y$=1.65. Method: Results are obtained using the semi-leptonic decay of heavy-flavor mesons into negative muons. The PHENIX muon-arm spectrometers measure the $p_T$ spectra of inclusive muon candidates. Backgrounds, primarily due to light hadrons, are determined with a Monte-Carlo calculation using a set of input hadron distributions tuned to match measured-hadron distributions in the same detector and statistically subtracted. Results: The charm-production cross section in $p$+$p$ collisions at $\sqrt{s}=200$ GeV, integrated over $p_T$ and in the rapidity range $1.4<y<1.9$ is found to be $d\sigma_{c\bar{c}}/dy = 0.139 +/- 0.029$ (stat) $^{+0.051}_{-0.058}$ (syst) mb. This result is consistent with calculations and with expectations based on the corresponding midrapidity charm-production cross section measured earlier by PHENIX. The $R_{AA}$ for heavy-flavor muons in Cu+Cu collisions is measured in three centrality intervals for $1<p_T<4$ GeV/$c$. Suppression relative to binary-collision scaling ($R_{AA}<1$) increases with centrality. Conclusions: Within experimental and theoretical uncertainties, the measured heavy-flavor yield in $p$+$p$ collisions is consistent with state-of-the-art pQCD calculations. Suppression in central Cu+Cu collisions suggests the presence of significant cold-nuclear-matter effects and final-state energy loss.
+additional_resources:
+- {location: "https://phenix-intra.sdcc.bnl.gov/phenix/WWW/p/info/ppg/117/", description: "web page with data points"}
+- {location: "http://arxiv.org/abs/1204.0754", description: arXiv}
+- {location: "https://inspirehep.net/literature/1102910", description: InspireHEP}
+---
+# This is Figure 10.
+name: "Figure 10"
+location: Data From Figure 10 of PRL 86 (2012) 024909
+description: 'Production cross section of negative muons from heavy-flavor mesons decay as a function of $p_T$ in $p$+$p$ collisions at $\sqrt{s}=200$ GeV.'
+keywords: # used for searching, possibly mutliple values for each keywords
+- {name: reactions, values: [p p --> CHARGED X]}
+- {name: cmenergies, values: [200.0]}
+- {name: phrases, values: [ppg117, negative muons, heavy-flavor mesons, decay]}
+data_file: ppg117fig10.yaml
+additional_resources:
+- {description: Original EPS Image file, location: Fig10.eps}
+- {description: PNG Image file, location: Fig10.png}
+- {description: Thumbnail Image file, location: thumb_Fig10.png}
+---
+# This is Figure 11a.
+name: "Figure 11a"
+location: Data From Figure 11 of PRL 86 (2012) 024909
+description: 'Invariant production yields of negative muons from heavy-flavor-mesons decay as a function $p_T$ in $p$+$p$ collisions at $\sqrt{s}=200$ GeV (open squares) and in Cu+Cu collisions for three different centrality intervals (40-94%, 20-40%, and 0-20%), scaled by powers of ten for clarity (filled circles). The solid line associated to each set of points corresponds to a fit to the $p$+$p$ invariant yield distribution described in the text, scaled by the appropriate number of binary collisions $N_{coll}$  when comparing to the Cu+Cu measurements.'
+keywords: # used for searching, possibly mutliple values for each keywords
+- {name: reactions, values: [Cu Cu --> CHARGED X]}
+- {name: cmenergies, values: [200.0]}
+- {name: phrases, values: [ppg117, heavy-flavor-mesons, invariant yield, invariant production, binary collisions, meson decay]}
+data_file: ppg117fig11a.yaml
+additional_resources:
+- {description: Original EPS Image file, location: Fig11.eps}
+- {description: PNG Image file, location: Fig11.png}
+- {description: Thumbnail Image file, location: thumb_Fig11.png}
+---
+# This is Figure 11b.
+name: "Figure 11b"
+location: Data From Figure 11 of PRL 86 (2012) 024909
+description: 'Invariant production yields of negative muons from heavy-flavor-mesons decay as a function $p_T$ in $p$+$p$ collisions at $\sqrt{s}=200$ GeV (open squares) and in Cu+Cu collisions for three different centrality intervals (40-94%, 20-40%, and 0-20%), scaled by powers of ten for clarity (filled circles). The solid line associated to each set of points corresponds to a fit to the $p$+$p$ invariant yield distribution described in the text, scaled by the appropriate number of binary collisions $N_{coll}$  when comparing to the Cu+Cu measurements.'
+keywords: # used for searching, possibly mutliple values for each keywords
+- {name: reactions, values: [p p --> CHARGED X]}
+- {name: cmenergies, values: [200.0]}
+- {name: phrases, values: [ppg117, heavy-flavor-mesons, invariant yield, invariant production, binary collisions, meson decay]}
+data_file: ppg117fig11b.yaml
+additional_resources:
+- {description: Original EPS Image file, location: Fig11.eps}
+- {description: PNG Image file, location: Fig11.png}
+- {description: Thumbnail Image file, location: thumb_Fig11.png}
+---
+# This is Figure 12.
+name: "Figure 12"
+location: Data From Figure 12 of PRL 86 (2012) 024909
+description: 'c$\bar{c}$ production cross section as a function of rapidity in $p$+$p$ collisions, measured using semileptonic decay to electrons (closed square) and to muons (closed circle).'
+keywords: # used for searching, possibly mutliple values for each keywords
+- {name: reactions, values: [p p --> CHARGED X]}
+- {name: cmenergies, values: [200.0]}
+- {name: phrases, values: [ppg117, semileptonic decay, decay to electrons, decay to muons]}
+data_file: ppg117fig12.yaml
+additional_resources:
+- {description: Original EPS Image file, location: Fig12.eps}
+- {description: PNG Image file, location: Fig12.png}
+- {description: Thumbnail Image file, location: thumb_Fig12.png}
+---
+# This is Figure 14a.
+name: "Figure 14a"
+location: Data From Figure 14 of PRL 86 (2012) 024909
+description: 'Comparison of $R_{AA}$ as a function of $N_{part}$ between heavy-flavor muons reconstructed at forward rapidity ($1.4<y<1.9$) and $p_T >$ 2 GeV in Cu+Cu collisions (red squares) and nonphotonic electrons reconstructed at midrapidity and $p_T>$ 3 GeV in Au+Au collisions (blue circles).'
+keywords: # used for searching, possibly mutliple values for each keywords
+- {name: reactions, values: [Cu Cu --> CHARGED X,Au Au --> CHARGED X]}
+- {name: cmenergies, values: [200.0]}
+- {name: phrases, values: [ppg117, heavy-flavor muons, forward rapidity, nonphotonic electrons]}
+data_file: ppg117fig14a.yaml
+additional_resources:
+- {description: Original EPS Image file, location: Fig14.eps}
+- {description: PNG Image file, location: Fig14.png}
+- {description: Thumbnail Image file, location: thumb_Fig14.png}
+---
+# This is Figure 14b.
+name: "Figure 14b"
+location: Data From Figure 14 of PRL 86 (2012) 024909
+description: 'Comparison of $R_{AA}$ as a function of $N_{part}$ between heavy-flavor muons reconstructed at forward rapidity ($1.4<y<1.9$) and $p_T >$ 2 GeV in Cu+Cu collisions (red squares) and nonphotonic electrons reconstructed at midrapidity and $p_T>$ 3 GeV in Au+Au collisions (blue circles).'
+keywords: # used for searching, possibly mutliple values for each keywords
+- {name: reactions, values: [Cu Cu --> CHARGED X,Au Au --> CHARGED X]}
+- {name: cmenergies, values: [200.0]}
+- {name: phrases, values: [ppg117, heavy-flavor muons, forward rapidity, nonphotonic electrons]}
+data_file: ppg117fig14b.yaml
+additional_resources:
+- {description: Original EPS Image file, location: Fig14.eps}
+- {description: PNG Image file, location: Fig14.png}
+- {description: Thumbnail Image file, location: thumb_Fig14.png}
+---
+# This is Figure 13.
+name: "Figure 13"
+location: Data From Figure 13 of PRL 86 (2012) 024909
+description: 'Transverse momentum distribution of $R_{AA}$ for negative muons from heavy-flavor mesons decay in Cu+Cu collisions in the following centrality classes: 40-94% (top panel), 20-40% (middle panel) and 0-20% (bottom panel). Also shown in the bottom panel is a theoretical calculation from [39,40], discussed in Section V.'
+keywords: # used for searching, possibly mutliple values for each keywords
+- {name: reactions, values: [Cu Cu --> CHARGED X]}
+- {name: cmenergies, values: [200.0]}
+- {name: phrases, values: [ppg117, negative muons, heavy-flavor meson decay, transverse momentum distribution]}
+data_file: ppg117fig13.yaml
+additional_resources:
+- {description: Original EPS Image file, location: Fig13a.eps}
+- {description: PNG Image file, location: Fig13a.png}
+- {description: Thumbnail Image file, location: thumb_Fig13a.png}
+- {description: Original EPS Image file, location: Fig13b.eps}
+- {description: PNG Image file, location: Fig13b.png}
+- {description: Thumbnail Image file, location: thumb_Fig13b.png}
+- {description: Original EPS Image file, location: Fig13c.eps}
+- {description: PNG Image file, location: Fig13c.png}
+- {description: Thumbnail Image file, location: thumb_Fig13c.png}
+---

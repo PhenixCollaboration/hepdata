@@ -1,0 +1,42 @@
+independent_variables:
+- header: {name: 'Centrality (%)'}
+  values:
+  - {low: 00, high: 10}
+  - {low: 10, high: 20}
+  - {low: 20, high: 40}
+  - {low: 40, high: 60}
+  - {low: 60, high: 92}
+dependent_variables:
+- header: {name: '$N_{part}$'}
+  qualifiers:
+  - {name: '$p_T$', value: '$R_{AA}$ of heavy flavor electrons for $p_T>3$ GeV/c in Au + Au at y=0'}
+  values:
+  - value: 325.2
+  - value: 234.6
+  - value: 140.4
+  - value: 59.95
+  - value: 14.5
+- header: {name: '$R_{AA}$'}
+  qualifiers:
+  - {name: '$p_T$', value: '$R_{AA}$ of heavy flavor electrons for $p_T>3$ GeV/c in Au + Au at y=0'}
+  values:
+  - value: 4.241e-01
+    errors:
+    - {asymerror: {plus: 1.166e-02, minus: 1.140e-02}, label: 'Stat. Error'}
+    - {symerror: 5.903e-02, label: 'Syst. Error'}
+  - value: 5.400e-01
+    errors:
+    - {asymerror: {plus: 1.557e-02, minus: 1.518e-02}, label: 'Stat. Error'}
+    - {symerror: 7.125e-02, label: 'Syst. Error'}
+  - value: 6.522e-01
+    errors:
+    - {asymerror: {plus: 1.667e-02, minus: 1.640e-02}, label: 'Stat. Error'}
+    - {symerror: 9.092e-02, label: 'Syst. Error'}
+  - value: 8.550e-01
+    errors:
+    - {asymerror: {plus: 3.351e-02, minus: 3.247e-02}, label: 'Stat. Error'}
+    - {symerror: 1.494e-01, label: 'Syst. Error'}
+  - value: 7.039e-01
+    errors:
+    - {asymerror: {plus: 6.388e-02, minus: 5.982e-02}, label: 'Stat. Error'}
+    - {symerror: 2.238e-01, label: 'Syst. Error'}
