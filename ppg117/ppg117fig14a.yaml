@@ -9,7 +9,9 @@ independent_variables:
 dependent_variables:
 - header: {name: '$N_{part}$'}
   qualifiers:
-  - {name: '$p_T$', value: '$R_{AA}$ of heavy flavor electrons for $p_T>3$ GeV/c in Au + Au at y=0'}
+  - {name: 'Collision Species', value: ''}
+  qualifiers:
+  - {name: '$y$', value: ''}
   values:
   - value: 325.2
   - value: 234.6
@@ -18,25 +20,27 @@ dependent_variables:
   - value: 14.5
 - header: {name: '$R_{AA}$'}
   qualifiers:
-  - {name: '$p_T$', value: '$R_{AA}$ of heavy flavor electrons for $p_T>3$ GeV/c in Au + Au at y=0'}
+  - {name: 'Collision Species', value: 'Au+Au'}
+  qualifiers:
+  - {name: '$y$', value: '0'}
   values:
-  - value: 4.241e-01
+  - value: 4.241E-01
     errors:
-    - {asymerror: {plus: 1.166e-02, minus: 1.140e-02}, label: 'Stat. Error'}
-    - {symerror: 5.903e-02, label: 'Syst. Error'}
-  - value: 5.400e-01
+    - {asymerror: {plus: 1.166E-02, minus: 1.140E-02}, label: 'Stat. Error'}
+    - {symerror: 5.903E-02, label: 'Sys. Error'}
+  - value: 5.400E-01
     errors:
-    - {asymerror: {plus: 1.557e-02, minus: 1.518e-02}, label: 'Stat. Error'}
-    - {symerror: 7.125e-02, label: 'Syst. Error'}
-  - value: 6.522e-01
+    - {asymerror: {plus: 1.557E-02, minus: 1.518E-02}, label: 'Stat. Error'}
+    - {symerror: 7.125E-02, label: 'Sys. Error'}
+  - value: 6.522E-01
     errors:
-    - {asymerror: {plus: 1.667e-02, minus: 1.640e-02}, label: 'Stat. Error'}
-    - {symerror: 9.092e-02, label: 'Syst. Error'}
-  - value: 8.550e-01
+    - {asymerror: {plus: 1.667E-02, minus: 1.640E-02}, label: 'Stat. Error'}
+    - {symerror: 9.092E-02, label: 'Sys. Error'}
+  - value: 8.550E-01
     errors:
-    - {asymerror: {plus: 3.351e-02, minus: 3.247e-02}, label: 'Stat. Error'}
-    - {symerror: 1.494e-01, label: 'Syst. Error'}
-  - value: 7.039e-01
+    - {asymerror: {plus: 3.351E-02, minus: 3.247E-02}, label: 'Stat. Error'}
+    - {symerror: 1.494E-01, label: 'Sys. Error'}
+  - value: 7.039E-01
     errors:
-    - {asymerror: {plus: 6.388e-02, minus: 5.982e-02}, label: 'Stat. Error'}
-    - {symerror: 2.238e-01, label: 'Syst. Error'}
+    - {asymerror: {plus: 6.388E-02, minus: 5.982E-02}, label: 'Stat. Error'}
+    - {symerror: 2.238E-01, label: 'Sys. Error'}

@@ -22,7 +22,7 @@ name: "Figure 10"
 location: Data From Figure 10 of PRL 86 (2012) 024909
 description: 'Production cross section of negative muons from heavy-flavor mesons decay as a function of $p_T$ in $p$+$p$ collisions at $\sqrt{s}=200$ GeV.'
 keywords: # used for searching, possibly mutliple values for each keywords
-- {name: reactions, values: [p p --> CHARGED X]}
+- {name: reactions, values: [$p$ + $p$ --> $\mu^-$ $+ X$]}
 - {name: cmenergies, values: [200.0]}
 - {name: phrases, values: [ppg117, negative muons, heavy-flavor mesons, decay]}
 data_file: ppg117fig10.yaml
@@ -30,11 +30,11 @@ additional_resources:
 - {description: Original EPS Image file, location: Fig10.eps}
 - {description: PNG Image file, location: Fig10.png}
 - {description: Thumbnail Image file, location: thumb_Fig10.png}
----
+--- 
 # This is Figure 11a.
 name: "Figure 11a"
 location: Data From Figure 11 of PRL 86 (2012) 024909
-description: 'Invariant production yields of negative muons from heavy-flavor-mesons decay as a function $p_T$ in $p$+$p$ collisions at $\sqrt{s}=200$ GeV (open squares) and in Cu+Cu collisions for three different centrality intervals (40-94%, 20-40%, and 0-20%), scaled by powers of ten for clarity (filled circles). The solid line associated to each set of points corresponds to a fit to the $p$+$p$ invariant yield distribution described in the text, scaled by the appropriate number of binary collisions $N_{coll}$  when comparing to the Cu+Cu measurements.'
+description: 'Invariant production yields of negative muons from heavy-flavor-mesons decay as a function $p_T$ in Cu+Cu collisions for three different centrality intervals (40-94%, 20-40%, and 0-20%), scaled by powers of ten for clarity. The solid line associated to each set of points corresponds to a fit to the $p$+$p$ invariant yield distribution described in the text, scaled by the appropriate number of binary collisions $N_{coll}$  when comparing to the Cu+Cu measurements.'
 keywords: # used for searching, possibly mutliple values for each keywords
 - {name: reactions, values: [Cu Cu --> CHARGED X]}
 - {name: cmenergies, values: [200.0]}
@@ -48,9 +48,9 @@ additional_resources:
 # This is Figure 11b.
 name: "Figure 11b"
 location: Data From Figure 11 of PRL 86 (2012) 024909
-description: 'Invariant production yields of negative muons from heavy-flavor-mesons decay as a function $p_T$ in $p$+$p$ collisions at $\sqrt{s}=200$ GeV (open squares) and in Cu+Cu collisions for three different centrality intervals (40-94%, 20-40%, and 0-20%), scaled by powers of ten for clarity (filled circles). The solid line associated to each set of points corresponds to a fit to the $p$+$p$ invariant yield distribution described in the text, scaled by the appropriate number of binary collisions $N_{coll}$  when comparing to the Cu+Cu measurements.'
+description: 'Invariant production yields of negative muons from heavy-flavor-mesons decay as a function $p_T$ in $p$+$p$ collisions at $\sqrt{s}=200$ GeV. The solid line associated to each set of points corresponds to a fit to the $p$+$p$ invariant yield distribution described in the text, scaled by the appropriate number of binary collisions $N_{coll}$  when comparing to the Cu+Cu measurements.'
 keywords: # used for searching, possibly mutliple values for each keywords
-- {name: reactions, values: [p p --> CHARGED X]}
+- {name: reactions, values: [$p$ + $p$ --> $\mu^-$ $+ X$]}
 - {name: cmenergies, values: [200.0]}
 - {name: phrases, values: [ppg117, heavy-flavor-mesons, invariant yield, invariant production, binary collisions, meson decay]}
 data_file: ppg117fig11b.yaml
@@ -64,7 +64,7 @@ name: "Figure 12"
 location: Data From Figure 12 of PRL 86 (2012) 024909
 description: 'c$\bar{c}$ production cross section as a function of rapidity in $p$+$p$ collisions, measured using semileptonic decay to electrons (closed square) and to muons (closed circle).'
 keywords: # used for searching, possibly mutliple values for each keywords
-- {name: reactions, values: [p p --> CHARGED X]}
+- {name: reactions, values: [$p$ + $p$ --> CHARGED X]}
 - {name: cmenergies, values: [200.0]}
 - {name: phrases, values: [ppg117, semileptonic decay, decay to electrons, decay to muons]}
 data_file: ppg117fig12.yaml
@@ -72,34 +72,6 @@ additional_resources:
 - {description: Original EPS Image file, location: Fig12.eps}
 - {description: PNG Image file, location: Fig12.png}
 - {description: Thumbnail Image file, location: thumb_Fig12.png}
----
-# This is Figure 14a.
-name: "Figure 14a"
-location: Data From Figure 14 of PRL 86 (2012) 024909
-description: 'Comparison of $R_{AA}$ as a function of $N_{part}$ between heavy-flavor muons reconstructed at forward rapidity ($1.4<y<1.9$) and $p_T >$ 2 GeV in Cu+Cu collisions (red squares) and nonphotonic electrons reconstructed at midrapidity and $p_T>$ 3 GeV in Au+Au collisions (blue circles).'
-keywords: # used for searching, possibly mutliple values for each keywords
-- {name: reactions, values: [Cu Cu --> CHARGED X,Au Au --> CHARGED X]}
-- {name: cmenergies, values: [200.0]}
-- {name: phrases, values: [ppg117, heavy-flavor muons, forward rapidity, nonphotonic electrons]}
-data_file: ppg117fig14a.yaml
-additional_resources:
-- {description: Original EPS Image file, location: Fig14.eps}
-- {description: PNG Image file, location: Fig14.png}
-- {description: Thumbnail Image file, location: thumb_Fig14.png}
----
-# This is Figure 14b.
-name: "Figure 14b"
-location: Data From Figure 14 of PRL 86 (2012) 024909
-description: 'Comparison of $R_{AA}$ as a function of $N_{part}$ between heavy-flavor muons reconstructed at forward rapidity ($1.4<y<1.9$) and $p_T >$ 2 GeV in Cu+Cu collisions (red squares) and nonphotonic electrons reconstructed at midrapidity and $p_T>$ 3 GeV in Au+Au collisions (blue circles).'
-keywords: # used for searching, possibly mutliple values for each keywords
-- {name: reactions, values: [Cu Cu --> CHARGED X,Au Au --> CHARGED X]}
-- {name: cmenergies, values: [200.0]}
-- {name: phrases, values: [ppg117, heavy-flavor muons, forward rapidity, nonphotonic electrons]}
-data_file: ppg117fig14b.yaml
-additional_resources:
-- {description: Original EPS Image file, location: Fig14.eps}
-- {description: PNG Image file, location: Fig14.png}
-- {description: Thumbnail Image file, location: thumb_Fig14.png}
 ---
 # This is Figure 13.
 name: "Figure 13"
@@ -120,4 +92,32 @@ additional_resources:
 - {description: Original EPS Image file, location: Fig13c.eps}
 - {description: PNG Image file, location: Fig13c.png}
 - {description: Thumbnail Image file, location: thumb_Fig13c.png}
+---
+# This is Figure 14a.
+name: "Figure 14a"
+location: Data From Figure 14 of PRL 86 (2012) 024909
+description: 'Comparison of $R_{AA}$ as a function of $N_{part}$ between heavy-flavor muons reconstructed at forward rapidity ($1.4<y<1.9$) and $p_T >$ 2 GeV in Cu+Cu collisions (red squares) and nonphotonic electrons reconstructed at midrapidity and $p_T>$ 3 GeV in Au+Au collisions (blue circles).'
+keywords: # used for searching, possibly mutliple values for each keywords
+- {name: reactions, values: [Au Au --> CHARGED X]}
+- {name: cmenergies, values: [200.0]}
+- {name: phrases, values: [ppg117, heavy-flavor muons, forward rapidity, nonphotonic electrons]}
+data_file: ppg117fig14a.yaml
+additional_resources:
+- {description: Original EPS Image file, location: Fig14.eps}
+- {description: PNG Image file, location: Fig14.png}
+- {description: Thumbnail Image file, location: thumb_Fig14.png}
+---
+# This is Figure 14b.
+name: "Figure 14b"
+location: Data From Figure 14 of PRL 86 (2012) 024909
+description: 'Comparison of $R_{AA}$ as a function of $N_{part}$ between heavy-flavor muons reconstructed at forward rapidity ($1.4<y<1.9$) and $p_T >$ 2 GeV in Cu+Cu collisions (red squares) and nonphotonic electrons reconstructed at midrapidity and $p_T>$ 3 GeV in Au+Au collisions (blue circles).'
+keywords: # used for searching, possibly mutliple values for each keywords
+- {name: reactions, values: [Cu Cu --> CHARGED X]}
+- {name: cmenergies, values: [200.0]}
+- {name: phrases, values: [ppg117, heavy-flavor muons, forward rapidity, nonphotonic electrons]}
+data_file: ppg117fig14b.yaml
+additional_resources:
+- {description: Original EPS Image file, location: Fig14.eps}
+- {description: PNG Image file, location: Fig14.png}
+- {description: Thumbnail Image file, location: thumb_Fig14.png}
 ---
