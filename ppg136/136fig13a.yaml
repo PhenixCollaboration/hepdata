@@ -1,0 +1,115 @@
+independent_variables:
+- header: {name: '$p_T$ [GeV/$c$] bins'}
+  values:
+  - {low: 4.98, high: 5.48}
+  - {low: 5.48, high: 5.98}
+  - {low: 5.98, high: 6.48}
+  - {low: 6.48, high: 6.98}
+  - {low: 6.98, high: 7.48}
+  - {low: 7.48, high: 7.98}
+  - {low: 7.98, high: 8.48}
+  - {low: 8.49, high: 9.00}
+  - {low: 8.99, high: 9.49}
+  - {low: 9.49, high: 9.99}
+  - {low: 10.29, high: 11.38}
+  - {low: 11.84, high: 13.86}
+  - {low: 13.86, high: 15.88}
+  - {low: 15.88, high: 17.90}
+  - {low: 17.90, high: 19.91}
+  - {low: 19.91, high: 21.92}
+  - {low: 21.92, high: 23.93}
+  - {low: 23.92, high: 25.92}
+dependent_variables:
+- header: {name: '< $p_T$ > [GeV/$c$]'}
+  values:
+  - value: 5.23
+  - value: 5.73
+  - value: 6.23
+  - value: 6.73
+  - value: 7.23
+  - value: 7.73
+  - value: 8.23
+  - value: 8.74
+  - value: 9.24
+  - value: 9.74
+  - value: 10.83
+  - value: 12.85
+  - value: 14.87
+  - value: 16.89
+  - value: 18.90
+  - value: 20.91
+  - value: 22.92
+  - value: 24.92
+- header: {name: 'Ratio'}
+  values:
+  - value: 0.66
+    errors:
+    - {symerror: 0.014, label: 'stat'}
+    - {asymerror: {plus: 0.22, minus: -0.15}, label: 'sys'}
+  - value: 0.69
+    errors:
+    - {symerror: 0.017, label: 'stat'}
+    - {asymerror: {plus: 0.19, minus: -0.15}, label: 'sys'}
+  - value: 0.76
+    errors:
+    - {symerror: 0.022, label: 'stat'}
+    - {asymerror: {plus: 0.18, minus: -0.13}, label: 'sys'}
+  - value: 0.73
+    errors:
+    - {symerror: 0.021, label: 'stat'}
+    - {asymerror: {plus: 0.12, minus: -0.10}, label: 'sys'}
+  - value: 0.79
+    errors:
+    - {symerror: 0.027, label: 'stat'}
+    - {asymerror: {plus: 0.13, minus: -0.10}, label: 'sys'}
+  - value: 0.813
+    errors:
+    - {symerror: 0.029, label: 'stat'}
+    - {asymerror: {plus: 0.11, minus: -0.089}, label: 'sys'}
+  - value: 0.750
+    errors:
+    - {symerror: 0.028, label: 'stat'}
+    - {asymerror: {plus: 0.07, minus: -0.067}, label: 'sys'}
+  - value: 0.742
+    errors:
+    - {symerror: 0.029, label: 'stat'}
+    - {asymerror: {plus: 0.06, minus: -0.052}, label: 'sys'}
+  - value: 0.806
+    errors:
+    - {symerror: 0.035, label: 'stat'}
+    - {asymerror: {plus: 0.06, minus: -0.056}, label: 'sys'}
+  - value: 0.911
+    errors:
+    - {symerror: 0.05, label: 'stat'}
+    - {asymerror: {plus: 0.07, minus: -0.064}, label: 'sys'}
+  - value: 0.863
+    errors:
+    - {symerror: 0.027, label: 'stat'}
+    - {asymerror: {plus: 0.06, minus: -0.052}, label: 'sys'}
+  - value: 0.945
+    errors:
+    - {symerror: 0.04, label: 'stat'}
+    - {asymerror: {plus: 0.06, minus: -0.057}, label: 'sys'}
+  - value: 0.916
+    errors:
+    - {symerror: 0.06, label: 'stat'}
+    - {asymerror: {plus: 0.05, minus: -0.046}, label: 'sys'}
+  - value: 1.082
+    errors:
+    - {symerror: 0.12, label: 'stat'}
+    - {asymerror: {plus: 0.12, minus: -0.097}, label: 'sys'}
+  - value: 1.017
+    errors:
+    - {symerror: 0.12, label: 'stat'}
+    - {asymerror: {plus: 0.08, minus: -0.071}, label: 'sys'}
+  - value: 0.975
+    errors:
+    - {symerror: 0.10, label: 'stat'}
+    - {asymerror: {plus: 0.04, minus: -0.039}, label: 'sys'}
+  - value: 1.11
+    errors:
+    - {symerror: 0.19, label: 'stat'}
+    - {asymerror: {plus: 0.10, minus: -0.10}, label: 'sys'}
+  - value: 0.9090
+    errors:
+    - {symerror: 0.09, label: 'stat'}

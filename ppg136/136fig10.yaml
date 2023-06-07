@@ -1,0 +1,96 @@
+independent_variables:
+- header: {name: '$p_T$ [GeV/$c$]'}
+  values:
+  - {low: 5, high: 5.5}
+  - {low: 5.5, high: 6}
+  - {low: 6, high: 6.5}
+  - {low: 6.5, high: 7}
+  - {low: 7, high: 7.5}
+  - {low: 7.7, high: 8}
+  - {low: 8, high: 8.5}
+  - {low: 8.5, high: 9}
+  - {low: 9, high: 9.5}
+  - {low: 9.5, high: 10}
+  - {low: 10, high: 12}
+  - {low: 12, high: 14}
+  - {low: 14, high: 16}
+  - {low: 16, high: 18}
+  - {low: 18, high: 20}
+  - {low: 20, high: 22}
+  - {low: 22, high: 24}
+  - {low: 24, high: 26}
+dependent_variables:
+- header: {name: '$Ed^3\sigma/dp^3$ [pb \times GeV$^{-2}$ \times $c^3$]'}
+  values:
+  - value: 1140
+    errors:
+    - {asymerror: {plus: 30, minus: -30}, label: 'stat'}
+    - {symerror: 500, label: 'sys'}
+  - value: 613
+    errors:
+    - {asymerror: {plus: 19, minus: -19}, label: 'stat'}
+    - {symerror: 220, label: 'sys'}
+  - value: 348
+    errors:
+    - {asymerror: {plus: 13, minus: -13}, label: 'stat'}
+    - {symerror: 100, label: 'sys'}
+  - value: 231.0
+    errors:
+    - {asymerror: {plus: 9, minus: -8.5}, label: 'stat'}
+    - {symerror: 60, label: 'sys'}
+  - value: 136.0
+    errors:
+    - {asymerror: {plus: 6, minus: -6.1}, label: 'stat'}
+    - {symerror: 31, label: 'sys'}
+  - value: 92.9
+    errors:
+    - {asymerror: {plus: 4, minus: -4.4}, label: 'stat'}
+    - {symerror: 20, label: 'sys'}
+  - value: 67.0
+    errors:
+    - {asymerror: {plus: 3.2, minus: -3.2}, label: 'stat'}
+    - {symerror: 13, label: 'sys'}
+  - value: 48.3
+    errors:
+    - {asymerror: {plus: 2.5, minus: -2.5}, label: 'stat'}
+    - {symerror: 9, label: 'sys'}
+  - value: 32.1
+    errors:
+    - {asymerror: {plus: 1.9, minus: -1.9}, label: 'stat'}
+    - {symerror: 6, label: 'sys'}
+  - value: 20.4
+    errors:
+    - {asymerror: {plus: 1.5, minus: -1.5}, label: 'stat'}
+    - {symerror: 4, label: 'sys'}
+  - value: 9.81
+    errors:
+    - {asymerror: {plus: 0.4, minus: -0.42}, label: 'stat'}
+    - {symerror: 1.7, label: 'sys'}
+  - value: 2.97
+    errors:
+    - {asymerror: {plus: 0.19, minus: -0.19}, label: 'stat'}
+    - {symerror: 0.5, label: 'sys'}
+  - value: 1.060
+    errors:
+    - {asymerror: {plus: 0.10, minus: -0.099}, label: 'stat'}
+    - {symerror: 0.17, label: 'sys'}
+  - value: 0.338
+    errors:
+    - {asymerror: {plus: 0.06, minus: -0.055}, label: 'stat'}
+    - {symerror: 0.05, label: 'sys'}
+  - value: 0.173
+    errors:
+    - {asymerror: {plus: 0.034, minus: -0.034}, label: 'stat'}
+    - {symerror: 0.028, label: 'sys'}
+  - value: 0.088
+    errors:
+    - {asymerror: {plus: 0.020, minus: -0.021}, label: 'stat'}
+    - {symerror: 0.015, label: 'sys'}
+  - value: 0.042
+    errors:
+    - {asymerror: {plus: 0.014, minus: -0.015}, label: 'stat'}
+    - {symerror: 0.007, label: 'sys'}
+  - value: 0.029
+    errors:
+    - {asymerror: {plus: 0.009, minus: -0.014}, label: 'stat'}
+    - {symerror: 0.004, label: 'sys'}
