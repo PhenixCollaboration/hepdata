@@ -1,0 +1,115 @@
+#PHENIX paper PPG131
+#
+#Cold-nuclear-matter effects on heavy-quark production in $d$+Au collisions at $\sqrt{s_{NN}}$ =200 GeV
+#
+#Phys.Rev.Lett 109 (2010) 242301
+#InspireHEP ID: 1126162
+#
+#Prepared by Josie Hakanson and Shannon Harris
+#Please contact Christine Nattrass if you have any questions about this submission
+#PPG liaison:
+#Reviewer:
+#
+comment: | # Information that applies to all data tables.
+  The PHENIX experiment has measured electrons and positrons at midrapidity from the decays of hadrons containing charm and bottom quarks produced in $d$+Au and $p$+$p$ collisions at $\sqrt{s_{NN}}$ = 200 GeV in the transverse-momentum range 0.85$\leq p^{e}_{T} \leq$8.5 GeV/c. In central $d$+Au collisions, the nuclear modification factor $R_{dA}$ at 1.5 < $p_{T}$ < 5 GeV/c displays evidence of enhancement of these electrons, relative to those produced in $p$+$p$ collisions, and shows that the mass-dependent Cronin enhancement observed at the Relativistic Heavy Ion Collider extends to the heavy $D$ meson family. A comparison with the neutral-pion data suggests that the difference in cold-nuclear-matter effects on light- and heavy-flavor mesons could contribute to the observed differences between the $\pi^{0}$ and heavy-flavor-electron nuclear modification factor $R_{AA}$.
+additional_resources:
+- {location: "https://phenix-intra.sdcc.bnl.gov/phenix/WWW/p/info/ppg/131/", description: "web page with data points"}
+- {location: "http://arxiv.org/abs/1208.1293", description: arXiv}
+- {location: "https://inspirehep.net/literature/1126162", description: InspireHEP}
+---
+name: "Tables 1-2"
+
+location: Data From Tab. 3-6 of PRL 109 (2010) 242301
+description: 'Heavy flavor electron yield, Run-8 $p$ + $p$, $d$+Au collisions.'
+keywords: # used for searching, possibly mutliple values for each keywords
+- {name: reactions, values: [$d$ + Au]}
+- {name: cmenergies, values: [200.0]}
+- {name: phrases, values: [ppg131, $d$+Au collisions, $p$ + $p$ collisions, mass-dependent Cronin enhancement, Relativistic Heavy Ion Collider, heavy $D$ meson family, heavy flavor electron, heavy flavor mesons, light flavor mesons]}
+data_file: ppg131tab1-2.yaml
+additional_resources:
+- {description: png file, location: ppg131fig1.png}
+- {description: Thumbnail Image file, location: thumb_fig1.png}
+---
+name: "Tables 3-6"
+
+location: Data From Tab. 3-6 of PRL 109 (2010) 242301
+description: 'Heavy flavor electron yield, $d$+Au collisions.'
+keywords: # used for searching, possibly mutliple values for each keywords
+- {name: reactions, values: [$d$ + Au]}
+- {name: cmenergies, values: [200.0]}
+- {name: phrases, values: [ppg131]}
+data_file: ppg131tab3-6.yaml
+additional_resources:
+- {description: png file, location: ppg131fig1.png}
+- {description: Thumbnail Image file, location: thumb_fig1.png}
+---
+# This is table 2
+name: "Table 7"
+
+location: Data From Tab. 7 of PRL 109 (2010) 242301
+description: 'Heavy flavor electron $R_{dA}$ 0-100% d+Au collisions. Global scaling error, not included, is 10.4 %'
+keywords:
+- {name: reactions, values: [$d$ + Au]}
+- {name: cmenergies, values: [200.0]}
+- {name: phrases, values: [ppg131]}
+data_file: ppg131tab7.yaml
+additional_resources:
+- {description: Thumbnail Image File of $R_d_A$, location: thumb_fig4.png}
+- {description: png Image File of $R_d_A$, location: ppg131fig4.png}
+---
+# This is table 8
+name: "Table 8"
+
+location: Data From Tab. 7-11 of PRL 109 (2010) 242301
+description: 'Heavy flavor electron RdA 0-20% $d$+Au collisions. Global scaling error, not included, is 11.0 %'
+keywords:
+- {name: reactions, values: [$d$ + Au]}
+- {name: cmenergies, values: [200.0]}
+- {name: phrases, values: [ppg131]}
+data_file: ppg131tab8.yaml
+additional_resources:
+- {description: Thumbnail Image File of $R_d_A$, location: thumb_fig5.png}
+- {description: png Image File of $R_d_A$ from 0-20%, location: ppg131fig5.png}
+---
+# This is table 9
+name: "Table 9"
+
+location: Data From Tab. 9 of PRL 109 (2010) 242301
+description: 'Heavy flavor electron $R_{dA}$ 20-40% $d$+Au collisions. Global scaling error, not included, is 10.7 %'
+keywords:
+- {name: reactions, values: [$d$ + Au]}
+- {name: cmenergies, values: [200.0]}
+- {name: phrases, values: [ppg131]}
+data_file: ppg131tab9.yaml
+additional_resources:
+- {description: Thumbnail Image File of $R_d_A$, location: thumb_fig2.png}
+- {description: png Image File of $R_d_A$ from 60-88%, location: ppg131fig2.png}
+---
+# This is table 10
+name: "Table 10"
+
+location: Data From Tab. 10 of PRL 109 (2010) 242301
+description: 'Heavy flavor electron $R_{dA}$ 40-60% $d$+Au collisions. Global scaling error, not included, is 11.1 %'
+keywords:
+- {name: reactions, values: [$d$ + Au]}
+- {name: cmenergies, values: [200.0]}
+- {name: phrases, values: [ppg131]}
+data_file: ppg131tab10.yaml
+additional_resources:
+- {description: Thumbnail Image File of $R_d_A$, location: thumb_fig3.png}
+- {description: png Image File of $R_d_A$ from 60-88%, location: ppg131fig3.png}
+---
+# This is table 11
+name: "Table 11"
+
+location: Data From Tab. 11 of PRL 109 (2010) 242301
+description: 'Heavy flavor electron $R_{dA}$ 60-88% $d$+Au collisions. Global scaling error, not included, is 12.4 %'
+keywords:
+- {name: reactions, values: [$d$ + Au]}
+- {name: cmenergies, values: [200.0]}
+- {name: phrases, values: [ppg131]}
+data_file: ppg131tab11.yaml
+additional_resources:
+- {description: Thumbnail Image File of $R_d_A$, location: thumb_fig5.png}
+- {description: png Image File of $R_d_A$ from 60-88%, location: ppg131fig5.png}
+---
