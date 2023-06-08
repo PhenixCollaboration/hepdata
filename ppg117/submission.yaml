@@ -22,7 +22,7 @@ name: "Figure 10"
 location: Data From Figure 10 of PRL 86 (2012) 024909
 description: 'Production cross section of negative muons from heavy-flavor mesons decay as a function of $p_T$ in $p$+$p$ collisions at $\sqrt{s}=200$ GeV.'
 keywords: # used for searching, possibly mutliple values for each keywords
-- {name: reactions, values: [$p$ + $p$ --> $\mu^-$ $+ X$]}
+- {name: reactions, values: [$p$ $p$ --> $\mu^-$ X]}
 - {name: cmenergies, values: [200.0]}
 - {name: phrases, values: [ppg117, negative muons, heavy-flavor mesons, decay]}
 data_file: ppg117fig10.yaml
@@ -50,7 +50,7 @@ name: "Figure 11b"
 location: Data From Figure 11 of PRL 86 (2012) 024909
 description: 'Invariant production yields of negative muons from heavy-flavor-mesons decay as a function $p_T$ in $p$+$p$ collisions at $\sqrt{s}=200$ GeV. The solid line associated to each set of points corresponds to a fit to the $p$+$p$ invariant yield distribution described in the text, scaled by the appropriate number of binary collisions $N_{coll}$  when comparing to the Cu+Cu measurements.'
 keywords: # used for searching, possibly mutliple values for each keywords
-- {name: reactions, values: [$p$ + $p$ --> $\mu^-$ $+ X$]}
+- {name: reactions, values: [$p$ $p$ --> $\mu^-$ X]}
 - {name: cmenergies, values: [200.0]}
 - {name: phrases, values: [ppg117, heavy-flavor-mesons, invariant yield, invariant production, binary collisions, meson decay]}
 data_file: ppg117fig11b.yaml
@@ -64,7 +64,7 @@ name: "Figure 12"
 location: Data From Figure 12 of PRL 86 (2012) 024909
 description: 'c$\bar{c}$ production cross section as a function of rapidity in $p$+$p$ collisions, measured using semileptonic decay to electrons (closed square) and to muons (closed circle).'
 keywords: # used for searching, possibly mutliple values for each keywords
-- {name: reactions, values: [$p$ + $p$ --> CHARGED X]}
+- {name: reactions, values: [$p$ $p$ --> CHARGED X]}
 - {name: cmenergies, values: [200.0]}
 - {name: phrases, values: [ppg117, semileptonic decay, decay to electrons, decay to muons]}
 data_file: ppg117fig12.yaml
