@@ -1,0 +1,35 @@
+independent_variables:
+- header: {name: 'Centrality (%)'}
+  values:
+  - {low: 0.0, high: 20}
+  - {low: 20, high: 40}
+  - {low: 40, high: 94}
+dependent_variables:
+- header: {name: '$N_{part}$'}
+  qualifiers:
+  - {name: 'Collision Species', value: ''}
+  qualifiers:
+  - {name: '$y$', value: ''}
+  values:
+  - value: 85.9
+  - value: 45.2
+  - value: 11.7
+- header: {name: '$R_{AA}$'}
+  qualifiers:
+  - {name: 'Collision Species', value: 'Cu+Cu'}
+  qualifiers:
+  - {name: '$y$', value: '1.65'}
+  values:
+  - value: 0.44
+    errors:
+    - {symerror: 0.06, label: 'Stat. Error'}
+    - {symerror: 0.13, label: 'Sys. Error'}
+  - value: 1.05
+    errors:
+    - {symerror: 0.08, label: 'Stat. Error'}
+    - {symerror: 0.29, label: 'Sys. Error'}
+  - value: 0.83
+    errors:
+    - {symerror: 0.11, label: 'Stat. Error'}
+    - {symerror: 0.25, label: 'Sys. Error'}
+    

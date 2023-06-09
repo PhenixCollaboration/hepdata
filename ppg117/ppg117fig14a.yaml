@@ -1,0 +1,46 @@
+independent_variables:
+- header: {name: 'Centrality (%)'}
+  values:
+  - {low: 00, high: 10}
+  - {low: 10, high: 20}
+  - {low: 20, high: 40}
+  - {low: 40, high: 60}
+  - {low: 60, high: 92}
+dependent_variables:
+- header: {name: '$N_{part}$'}
+  qualifiers:
+  - {name: 'Collision Species', value: ''}
+  qualifiers:
+  - {name: '$y$', value: ''}
+  values:
+  - value: 325.2
+  - value: 234.6
+  - value: 140.4
+  - value: 59.95
+  - value: 14.5
+- header: {name: '$R_{AA}$'}
+  qualifiers:
+  - {name: 'Collision Species', value: 'Au+Au'}
+  qualifiers:
+  - {name: '$y$', value: '0'}
+  values:
+  - value: 4.241E-01
+    errors:
+    - {asymerror: {plus: 1.166E-02, minus: 1.140E-02}, label: 'Stat. Error'}
+    - {symerror: 5.903E-02, label: 'Sys. Error'}
+  - value: 5.400E-01
+    errors:
+    - {asymerror: {plus: 1.557E-02, minus: 1.518E-02}, label: 'Stat. Error'}
+    - {symerror: 7.125E-02, label: 'Sys. Error'}
+  - value: 6.522E-01
+    errors:
+    - {asymerror: {plus: 1.667E-02, minus: 1.640E-02}, label: 'Stat. Error'}
+    - {symerror: 9.092E-02, label: 'Sys. Error'}
+  - value: 8.550E-01
+    errors:
+    - {asymerror: {plus: 3.351E-02, minus: 3.247E-02}, label: 'Stat. Error'}
+    - {symerror: 1.494E-01, label: 'Sys. Error'}
+  - value: 7.039E-01
+    errors:
+    - {asymerror: {plus: 6.388E-02, minus: 5.982E-02}, label: 'Stat. Error'}
+    - {symerror: 2.238E-01, label: 'Sys. Error'}

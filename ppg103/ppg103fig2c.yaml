@@ -1,0 +1,23 @@
+independent_variables:
+- header: {name: '$p_T$ (GeV/$c$)'}
+  values:
+  - {low: 0.0, high: 1.4}
+  - {low: 1.4, high: 6.0}
+dependent_variables:
+- header: {name: '$A_N$'}
+  qualifiers:
+  - {name: 'Year', value: '2006 + 2008'}
+  - {name: '', value: '$x_F$ < 0'}
+  values:
+  - value: 0.017
+    errors:
+    - {symerror: 0.038, label: '$\delta$$A_N$ stat.'}
+    - {symerror: 0.005, label: '$\delta$$A_N$ Type A sys.'}
+    - {symerror: 7e-5, label: '$\delta$$A^f_N$ Type B sys.'}
+    - {symerror: 5e-4, label: '$\delta$$A^P_N$ Type B sys.'}
+  - value: 0.007
+    errors:
+    - {symerror: 0.039, label: '$\delta$$A_N$ stat.'}
+    - {symerror: 0.002, label: '$\delta$$A_N$ Type A sys.'}
+    - {symerror: 3e-5, label: '$\delta$$A^f_N$ Type B sys.'}
+    - {symerror: 2e-4, label: '$\delta$$A^P_N$ Type B sys.'}

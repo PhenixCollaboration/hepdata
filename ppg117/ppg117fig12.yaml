@@ -1,0 +1,21 @@
+independent_variables:
+- header: {name: 'Rapidity/$y$'}
+  values:
+  - {low: -3.0, high: -0.3}
+  - {low: -0.3, high: 0.3}
+  - {low: 0.3, high: 3.0}
+dependent_variables:
+- header: {name: '$d\sigma_{c\bar{c}}/dy \quad$(mb)'}
+  values:
+  - value: 0.139
+    errors:
+    - {symerror: 0.029, label: 'Stat. Error'}
+    - {asymerror: {plus: 0.051, minus: 0.058}, label: 'Sys. Error'}
+  - value: 0.119
+    errors:
+    - {symerror: 0.012, label: 'Stat. Error'}
+    - {asymerror: {plus: 0.038, minus: 0.038}, label: 'Sys. Error'}
+  - value: 0.139
+    errors:
+    - {symerror: 0.029, label: 'Stat. Error'}
+    - {asymerror: {plus: 0.051, minus: 0.058}, label: 'Sys. Error'}

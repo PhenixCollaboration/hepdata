@@ -1,0 +1,66 @@
+independent_variables:
+- header: {name: '$p_T$ (GeV/$c$)'}
+  values:
+  - {low: 1.00, high: 1.24}
+  - {low: 1.24, high: 1.48}
+  - {low: 1.48, high: 1.72}
+  - {low: 1.72, high: 1.96}
+  - {low: 1.96, high: 2.20}
+  - {low: 2.20, high: 2.43}
+  - {low: 2.43, high: 2.68}
+  - {low: 2.68, high: 3.00}
+  - {low: 3.00, high: 3.42}
+  - {low: 3.42, high: 4.02}
+  - {low: 4.02, high: 4.74}
+  - {low: 4.74, high: 6.56}
+dependent_variables:
+- header: {name: '$1/2\pi p_T \quad d^2\sigma/dp_Td\eta \quad$ (mb)'}
+  values:
+  - value: 3.64E-04
+    errors:
+    - {symerror: 1.55E-05, label: 'Stat. Error'}
+    - {symerror: 1.23E-04, label: 'Sys. Error'}
+  - value: 1.19E-04
+    errors:
+    - {symerror: 2.85E-06, label: 'Stat. Error'}
+    - {symerror: 3.39E-05, label: 'Sys. Error'}
+  - value: 4.57E-05
+    errors:
+    - {symerror: 1.15E-06, label: 'Stat. Error'}
+    - {symerror: 1.25E-05, label: 'Sys. Error'}
+  - value: 1.92E-05
+    errors:
+    - {symerror: 5.39E-07, label: 'Stat. Error'}
+    - {symerror: 5.18E-06, label: 'Sys. Error'}
+  - value: 8.31E-06
+    errors:
+    - {symerror: 3.02E-07, label: 'Stat. Error'}
+    - {symerror: 2.27E-06, label: 'Sys. Error'}
+  - value: 3.52E-06
+    errors:
+    - {symerror: 1.54E-07, label: 'Stat. Error'}
+    - {symerror: 1.18E-06, label: 'Sys. Error'}
+  - value: 1.67E-06
+    errors:
+    - {symerror: 9.21E-08, label: 'Stat. Error'}
+    - {symerror: 5.74E-07, label: 'Sys. Error'}
+  - value: 9.12E-07
+    errors:
+    - {symerror: 6.04E-08, label: 'Stat. Error'}
+    - {symerror: 3.18E-07, label: 'Sys. Error'}
+  - value: 3.83E-07
+    errors:
+    - {symerror: 2.28E-08, label: 'Stat. Error'}
+    - {symerror: 1.22E-07, label: 'Sys. Error'}
+  - value: 1.41E-07
+    errors:
+    - {symerror: 1.24E-08, label: 'Stat. Error'}
+    - {symerror: 4.15E-08, label: 'Sys. Error'}
+  - value: 3.34E-08
+    errors:
+    - {symerror: 3.49E-09, label: 'Stat. Error'}
+    - {symerror: 1.12E-08, label: 'Sys. Error'}
+  - value: 2.99E-09
+    errors:
+    - {symerror: 1.09E-09, label: 'Stat. Error'}
+    - {symerror: 1.31E-09, label: 'Sys. Error'}

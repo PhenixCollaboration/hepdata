@@ -1,0 +1,68 @@
+independent_variables:
+- header: {name: '$p_T$ (GeV/$c$)'}
+  values:
+  - {low: 1.00, high: 1.24}
+  - {low: 1.24, high: 1.48}
+  - {low: 1.48, high: 1.72}
+  - {low: 1.72, high: 1.96}
+  - {low: 1.96, high: 2.20}
+  - {low: 2.20, high: 2.43}
+  - {low: 2.43, high: 2.68}
+  - {low: 2.68, high: 3.00}
+  - {low: 3.00, high: 3.42}
+  - {low: 3.42, high: 4.02}
+  - {low: 4.02, high: 4.74}
+  - {low: 4.74, high: 6.56}
+dependent_variables:
+- header: {name: '$\frac{1}{2\pi P_T} \frac{d^2N}{dP_Tdy}$ (GeV/$c$)$^{-2}$'}
+  qualifiers:
+  - {name: 'Collision Species', value: '$p$+$p$'}
+  values:
+  - value: 8.67E-07
+    errors:
+    - {symerror: 3.69E-08, label: 'Stat. Error'}
+    - {symerror: 2.93E-07, label: 'Sys. Error'}
+  - value: 2.84E-07
+    errors:
+    - {symerror: 6.79E-09, label: 'Stat. Error'}
+    - {symerror: 8.06E-08, label: 'Sys. Error'}
+  - value: 1.09E-07
+    errors:
+    - {symerror: 2.75E-09, label: 'Stat. Error'}
+    - {symerror: 2.98E-08, label: 'Sys. Error'}
+  - value: 4.58E-08
+    errors:
+    - {symerror: 1.28E-09, label: 'Stat. Error'}
+    - {symerror: 1.23E-08, label: 'Sys. Error'}
+  - value: 1.98E-08
+    errors:
+    - {symerror: 7.20E-10, label: 'Stat. Error'}
+    - {symerror: 5.40E-09, label: 'Sys. Error'}
+  - value: 8.38E-09
+    errors:
+    - {symerror: 3.66E-10, label: 'Stat. Error'}
+    - {symerror: 2.81E-09, label: 'Sys. Error'}
+  - value: 3.97E-09
+    errors:
+    - {symerror: 2.19E-10, label: 'Stat. Error'}
+    - {symerror: 1.37E-09, label: 'Sys. Error'}
+  - value: 2.17E-09
+    errors:
+    - {symerror: 1.44E-10, label: 'Stat. Error'}
+    - {symerror: 7.57E-10, label: 'Sys. Error'}
+  - value: 9.12E-10
+    errors:
+    - {symerror: 5.43E-11, label: 'Stat. Error'}
+    - {symerror: 2.91E-10, label: 'Sys. Error'}
+  - value: 3.35E-10
+    errors:
+    - {symerror: 2.95E-11, label: 'Stat. Error'}
+    - {symerror: 9.89E-11, label: 'Sys. Error'}
+  - value: 7.96E-11
+    errors:
+    - {symerror: 8.31E-12, label: 'Stat. Error'}
+    - {symerror: 2.66E-11, label: 'Sys. Error'}
+  - value: 7.12E-12
+    errors:
+    - {symerror: 2.60E-12, label: 'Stat. Error'}
+    - {symerror: 3.12E-12, label: 'Sys. Error'}

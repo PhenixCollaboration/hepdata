@@ -1,0 +1,110 @@
+independent_variables:
+- header: {name: '$p_T$ (GeV/$c$)'}
+  values:
+  - {low: 1.00, high: 1.25}
+  - {low: 1.25, high: 1.50}
+  - {low: 1.50, high: 1.75}
+  - {low: 1.75, high: 2.00}
+  - {low: 2.00, high: 2.50}
+  - {low: 2.50, high: 3.00}
+  - {low: 3.00, high: 4.00}
+dependent_variables:
+- header: {name: '$\frac{1}{2\pi p_T} \frac{d^2N}{dp_Tdy}$ (GeV/$c$)$^{-2}$'}
+  qualifiers:
+  - {name: 'Centrality (%)', value: '0-20'}
+  - {name: 'Collision Species', value: 'Cu + Cu'}
+  values:
+  - value: 1.01E-2
+    errors:
+    - {symerror: 6E-4, label: 'Stat. Error'}
+    - {symerror: 0.0035, label: 'Sys. Error'}
+  - value: 2.91E-3
+    errors:
+    - {symerror: 1.9E-4, label: 'Stat. Error'}
+    - {symerror: 0.0011, label: 'Sys. Error'}
+  - value: 1.17E-3
+    errors:
+    - {symerror: 9E-5, label: 'Stat. Error'}
+    - {symerror: 4E-4, label: 'Sys. Error'}
+  - value: 4.10E-4
+    errors:
+    - {symerror: 4E-5, label: 'Stat. Error'}
+    - {symerror: 1.5E-4, label: 'Sys. Error'}
+  - value: 9.60E-5
+    errors:
+    - {symerror: 1.4E-5, label: 'Stat. Error'}
+    - {symerror: 4E-5, label: 'Sys. Error'}
+  - value: 1.7E-5
+    errors:
+    - {symerror: 5E-6, label: 'Stat. Error'}
+    - {symerror: 1.0E-5, label: 'Sys. Error'}
+  - value: 3.70E-6
+    errors:
+    - {symerror: 1.4E-6, label: 'Stat. Error'}
+    - {symerror: 2.1E-6, label: 'Sys. Error'}
+- header: {name: '$\frac{1}{2\pi p_T} \frac{d^2N}{dp_Tdy}$ (GeV/$c$)$^{-2}$'}
+  qualifiers:
+  - {name: 'Centrality (%)', value: '20-40'}
+  - {name: 'Collision Species', value: 'Cu + Cu'}
+  values:
+  - value: 5.25E-4
+    errors:
+    - {symerror: 2.8E-5, label: 'Stat. Error'}
+    - {symerror: 1.5E-4, label: 'Sys. Error'}
+  - value: 1.91E-4
+    errors:
+    - {symerror: 9E-6, label: 'Stat. Error'}
+    - {symerror: 5E-5, label: 'Sys. Error'}
+  - value: 8.00E-5
+    errors:
+    - {symerror: 5E-6, label: 'Stat. Error'}
+    - {symerror: 2.2E-5, label: 'Sys. Error'}
+  - value: 3.52E-5
+    errors:
+    - {symerror: 2.7E-6, label: 'Stat. Error'}
+    - {symerror: 1.0E-5, label: 'Sys. Error'}
+  - value: 9.50E-6
+    errors:
+    - {symerror: 9E-7, label: 'Stat. Error'}
+    - {symerror: 2.6E-6, label: 'Sys. Error'}
+  - value: 1.67E-6
+    errors:
+    - {symerror: 2.8E-7, label: 'Stat. Error'}
+    - {symerror: 6E-7, label: 'Sys. Error'}
+  - value: 1.80E-7
+    errors:
+    - {symerror: 8E-8, label: 'Stat. Error'}
+    - {symerror: 1.2E-7, label: 'Sys. Error'}
+- header: {name: '$\frac{1}{2\pi p_T} \frac{d^2N}{dp_Tdy}$ (GeV/$c$)$^{-2}$'}
+  qualifiers:
+  - {name: 'Centrality (%)', value: '40-94'}
+  - {name: 'Collision Species', value: 'Cu + Cu'}
+  values:
+  - value: 1.27E-5
+    errors:
+    - {symerror: 7E-7, label: 'Stat. Error'}
+    - {symerror: 3.5E-6, label: 'Sys. Error'}
+  - value: 4.82E-6
+    errors:
+    - {symerror: 2.4E-7, label: 'Stat. Error'}
+    - {symerror: 1.3E-6, label: 'Sys. Error'}
+  - value: 1.53E-6
+    errors:
+    - {symerror: 1.1E-7, label: 'Stat. Error'}
+    - {symerror: 4E-7, label: 'Sys. Error'}
+  - value: 5.70E-7
+    errors:
+    - {symerror: 7E-8, label: 'Stat. Error'}
+    - {symerror: 1.6E-7, label: 'Sys. Error'}
+  - value: 1.34E-7
+    errors:
+    - {symerror: 2.2E-8, label: 'Stat. Error'}
+    - {symerror: 4E-8, label: 'Sys. Error'}
+  - value: 2.60E-8
+    errors:
+    - {symerror: 7E-9, label: 'Stat. Error'}
+    - {symerror: 1.2E-8, label: 'Sys. Error'}
+  - value: 5.90E-9
+    errors:
+    - {symerror: 2.0E-9, label: 'Stat. Error'}
+    - {symerror: 2.8E-9, label: 'Sys. Error'}
