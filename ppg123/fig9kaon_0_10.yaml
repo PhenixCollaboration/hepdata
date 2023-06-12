@@ -1,5 +1,5 @@
 independent_variables:
-- header: {name: '$p_t$ (GeV/$c$)'}
+- header: {name: '$p_T$ (GeV/$c$)'}
   values:
   - {low: 1.0, high: 1.2}
   - {low: 1.2, high: 1.4}
@@ -14,10 +14,27 @@ independent_variables:
   - {low: 3.0, high: 3.4}
   - {low: 3.4, high: 3.9}
 dependent_variables:
+- header: {name: '$\langle p_T \rangle$ (GeV/$c$)'}
+  qualifiers:
+  - {name: 'Centrality (%)', value: '0-10'}
+  - {name: 'Particle', value: '$K^+$ + $K^-$'}
+  values:
+  - value: 1.08822
+  - value: 1.28563
+  - value: 1.48403
+  - value: 1.68144
+  - value: 1.87885
+  - value: 2.07626
+  - value: 2.27565
+  - value: 2.47405
+  - value: 2.67146
+  - value: 2.87085
+  - value: 3.17539
+  - value: 3.67139
 - header: {name: '$v_2$'}
   qualifiers:
   - {name: 'Centrality (%)', value: '0-10'}
-  - {name: 'Particle', value: '$K^+$ $K^-$'}
+  - {name: 'Particle', value: '$K^+$ + $K^-$'}
   values:
   - value: 0.0358
     errors:
