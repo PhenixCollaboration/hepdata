@@ -1,146 +1,146 @@
 independent_variables:
-- header: {name: '$p_T$'}
+- header: {name: '$p_T$ (GeV/$c$)'}
   values:
   - {low: 0.8, high: 0.9}
-  - {low: 0.9, high: 1}
-  - {low: 1, high: 1.2}
+  - {low: 0.9, high: 1.0}
+  - {low: 1.0, high: 1.2}
   - {low: 1.2, high: 1.4}
   - {low: 1.4, high: 1.6}
   - {low: 1.6, high: 1.8}
-  - {low: 1.8, high: 2}
-  - {low: 2, high: 2.2}
+  - {low: 1.8, high: 2.0}
+  - {low: 2.0, high: 2.2}
   - {low: 2.2, high: 2.4}
   - {low: 2.4, high: 2.6}
   - {low: 2.6, high: 2.8}
-  - {low: 2.8, high: 3}
-  - {low: 3, high: 3.2}
+  - {low: 2.8, high: 3.0}
+  - {low: 3.0, high: 3.2}
   - {low: 3.2, high: 3.4}
   - {low: 3.4, high: 3.6}
   - {low: 3.6, high: 3.8}
-  - {low: 3.8, high: 4}
-  - {low: 4, high: 4.5}
-  - {low: 4.5, high: 5}
-  - {low: 5, high: 6}
-  - {low: 6, high: 7}
-  - {low: 7, high: 8}
-  - {low: 8, high: 9}
+  - {low: 3.8, high: 4.0}
+  - {low: 4.0, high: 4.5}
+  - {low: 4.5, high: 5.0}
+  - {low: 5.0, high: 6.0}
+  - {low: 6.0, high: 7.0}
+  - {low: 7.0, high: 8.0}
+  - {low: 8.0, high: 9.0}
 dependent_variables:
 - header: {name: '$R_{dA}$'}
   qualifiers:
-  - {name: '$p_T$', value: 'Heavy flavor electron $R_{dA}$ 20-40% d+Au collisions.'}
+  - {name: 'Centrality (%)', value: '20-40'}
   values:
-  - value: 1.54
+  - value: 1.540
     errors:
-    - {symerror: 0.29, label: 'Stat. Error'}
-    - {symerror: 0.4, label: 'Sys. Error'}
-    - {symerror: 0.165, label: 'Scaling Error'}
-  - value: 1.27
+    - {symerror: 0.290, label: 'stat.'}
+    - {symerror: 0.400, label: 'sys.'}
+    - {symerror: 0.165, label: 'scale'}
+  - value: 1.270
     errors:
-    - {symerror: 0.23, label: 'Stat. Error'}
-    - {symerror: 0.28, label: 'Sys. Error'}
-    - {symerror: 0.136, label: 'Scaling Error'}
-  - value: 1.27
+    - {symerror: 0.230, label: 'stat.'}
+    - {symerror: 0.280, label: 'sys.'}
+    - {symerror: 0.136, label: 'scale'}
+  - value: 1.270
     errors:
-    - {symerror: 0.16, label: 'Stat. Error'}
-    - {symerror: 0.23, label: 'Sys. Error'}
-    - {symerror: 0.136, label: 'Scaling Error'}
-  - value: 1.43
+    - {symerror: 0.160, label: 'stat.'}
+    - {symerror: 0.230, label: 'sys.'}
+    - {symerror: 0.136, label: 'scale'}
+  - value: 1.430
     errors:
-    - {symerror: 0.24, label: 'Stat. Error'}
-    - {symerror: 0.25, label: 'Sys. Error'}
-    - {symerror: 0.153, label: 'Scaling Error'}
-  - value: 1.37
+    - {symerror: 0.240, label: 'stat.'}
+    - {symerror: 0.250, label: 'sys.'}
+    - {symerror: 0.153, label: 'scale'}
+  - value: 1.370
     errors:
-    - {symerror: 0.26, label: 'Stat. Error'}
-    - {symerror: 0.21, label: 'Sys. Error'}
-    - {symerror: 0.147, label: 'Scaling Error'}
+    - {symerror: 0.260, label: 'stat.'}
+    - {symerror: 0.210, label: 'sys.'}
+    - {symerror: 0.147, label: 'scale'}
   - value: 1.384
     errors:
-    - {symerror: 0.013, label: 'Stat. Error'}
-    - {symerror: 0.19, label: 'Sys. Error'}
-    - {symerror: 0.148, label: 'Scaling Error'}
-  - value: 1.47
+    - {symerror: 0.013, label: 'stat.'}
+    - {symerror: 0.190, label: 'sys.'}
+    - {symerror: 0.148, label: 'scale'}
+  - value: 1.470
     errors:
-    - {symerror: 0.017, label: 'Stat. Error'}
-    - {symerror: 0.19, label: 'Sys. Error'}
-    - {symerror: 0.157, label: 'Scaling Error'}
+    - {symerror: 0.017, label: 'stat.'}
+    - {symerror: 0.190, label: 'sys.'}
+    - {symerror: 0.157, label: 'scale'}
   - value: 1.486
     errors:
-    - {symerror: 0.021, label: 'Stat. Error'}
-    - {symerror: 0.19, label: 'Sys. Error'}
-    - {symerror: 0.159, label: 'Scaling Error'}
+    - {symerror: 0.021, label: 'stat.'}
+    - {symerror: 0.190, label: 'sys.'}
+    - {symerror: 0.159, label: 'scale'}
   - value: 1.496
     errors:
-    - {symerror: 0.025, label: 'Stat. Error'}
-    - {symerror: 0.19, label: 'Sys. Error'}
-    - {symerror: 0.160, label: 'Scaling Error'}
+    - {symerror: 0.025, label: 'stat.'}
+    - {symerror: 0.19, label: 'sys.'}
+    - {symerror: 0.160, label: 'scale'}
   - value: 1.455
     errors:
-    - {symerror: 0.031, label: 'Stat. Error'}
-    - {symerror: 0.19, label: 'Sys. Error'}
-    - {symerror: 0.156, label: 'Scaling Error'}
-  - value: 1.43
+    - {symerror: 0.031, label: 'stat.'}
+    - {symerror: 0.190, label: 'sys.'}
+    - {symerror: 0.156, label: 'scale'}
+  - value: 1.430
     errors:
-    - {symerror: 0.04, label: 'Stat. Error'}
-    - {symerror: 0.23, label: 'Sys. Error'}
-    - {symerror: 0.153, label: 'Scaling Error'}
-  - value: 1.43
+    - {symerror: 0.040, label: 'stat.'}
+    - {symerror: 0.230, label: 'sys.'}
+    - {symerror: 0.153, label: 'scale'}
+  - value: 1.430
     errors:
-    - {symerror: 0.04, label: 'Stat. Error'}
-    - {symerror: 0.22, label: 'Sys. Error'}
-    - {symerror: 0.153, label: 'Scaling Error'}
-  - value: 1.44
+    - {symerror: 0.040, label: 'stat.'}
+    - {symerror: 0.220, label: 'sys.'}
+    - {symerror: 0.153, label: 'scale'}
+  - value: 1.440
     errors:
-    - {symerror: 0.05, label: 'Stat. Error'}
-    - {symerror: 0.22, label: 'Sys. Error'}
-    - {symerror: 0.154, label: 'Scaling Error'}
-  - value: 1.59
+    - {symerror: 0.050, label: 'stat.'}
+    - {symerror: 0.220, label: 'sys.'}
+    - {symerror: 0.154, label: 'scale'}
+  - value: 1.590
     errors:
-    - {symerror: 0.06, label: 'Stat. Error'}
-    - {symerror: 0.24, label: 'Sys. Error'}
-    - {symerror: 0.170, label: 'Scaling Error'}
-  - value: 1.42
+    - {symerror: 0.060, label: 'stat.'}
+    - {symerror: 0.240, label: 'sys.'}
+    - {symerror: 0.170, label: 'scale'}
+  - value: 1.420
     errors:
-    - {symerror: 0.07, label: 'Stat. Error'}
-    - {symerror: 0.21, label: 'Sys. Error'}
-    - {symerror: 0.152, label: 'Scaling Error'}
-  - value: 1.37
+    - {symerror: 0.070, label: 'stat.'}
+    - {symerror: 0.210, label: 'sys.'}
+    - {symerror: 0.152, label: 'scale'}
+  - value: 1.370
     errors:
-    - {symerror: 0.08, label: 'Stat. Error'}
-    - {symerror: 0.2, label: 'Sys. Error'}
-    - {symerror: 0.147, label: 'Scaling Error'}
-  - value: 1.55
+    - {symerror: 0.080, label: 'stat.'}
+    - {symerror: 0.200, label: 'sys.'}
+    - {symerror: 0.147, label: 'scale'}
+  - value: 1.550
     errors:
-    - {symerror: 0.1, label: 'Stat. Error'}
-    - {symerror: 0.23, label: 'Sys. Error'}
-    - {symerror: 0.166, label: 'Scaling Error'}
-  - value: 1.41
+    - {symerror: 0.100, label: 'stat.'}
+    - {symerror: 0.230, label: 'sys.'}
+    - {symerror: 0.166, label: 'scale'}
+  - value: 1.410
     errors:
-    - {symerror: 0.08, label: 'Stat. Error'}
-    - {symerror: 0.2, label: 'Sys. Error'}
-    - {symerror: 0.151, label: 'Scaling Error'}
-  - value: 1.25
+    - {symerror: 0.080, label: 'stat.'}
+    - {symerror: 0.200, label: 'sys.'}
+    - {symerror: 0.151, label: 'scale'}
+  - value: 1.250
     errors:
-    - {symerror: 0.15, label: 'Stat. Error'}
-    - {symerror: 0.18, label: 'Sys. Error'}
-    - {symerror: 0.134, label: 'Scaling Error'}
-  - value: 1.48
+    - {symerror: 0.150, label: 'stat.'}
+    - {symerror: 0.180, label: 'sys.'}
+    - {symerror: 0.134, label: 'scale'}
+  - value: 1.480
     errors:
-    - {symerror: 0.19, label: 'Stat. Error'}
-    - {symerror: 0.22, label: 'Sys. Error'}
-    - {symerror: 0.158, label: 'Scaling Error'}
-  - value: 0.94
+    - {symerror: 0.190, label: 'stat.'}
+    - {symerror: 0.220, label: 'sys.'}
+    - {symerror: 0.158, label: 'scale'}
+  - value: 0.940
     errors:
-    - {symerror: 0.31, label: 'Stat. Error'}
-    - {symerror: 0.14, label: 'Sys. Error'}
-    - {symerror: 0.101, label: 'Scaling Error'}
-  - value: 1.28
+    - {symerror: 0.310, label: 'stat.'}
+    - {symerror: 0.140, label: 'sys.'}
+    - {symerror: 0.101, label: 'scale'}
+  - value: 1.280
     errors:
-    - {symerror: 0.5, label: 'Stat. Error'}
-    - {symerror: 0.21, label: 'Sys. Error'}
-    - {symerror: 0.137, label: 'Scaling Error'}
-  - value: 1.53
+    - {symerror: 0.500, label: 'stat.'}
+    - {symerror: 0.210, label: 'sys.'}
+    - {symerror: 0.137, label: 'scale'}
+  - value: 1.530
     errors:
-    - {symerror: 0.9, label: 'Stat. Error'}
-    - {symerror: 0.26, label: 'Sys. Error'}
-    - {symerror: 0.164, label: 'Scaling Error'}
+    - {symerror: 0.900, label: 'stat.'}
+    - {symerror: 0.260, label: 'sys.'}
+    - {symerror: 0.164, label: 'scale'}

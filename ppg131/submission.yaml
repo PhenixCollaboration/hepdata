@@ -17,97 +17,93 @@ additional_resources:
 - {location: "http://arxiv.org/abs/1208.1293", description: arXiv}
 - {location: "https://inspirehep.net/literature/1126162", description: InspireHEP}
 ---
-name: "Tables 1-2"
+name: "Figures 1-2"
 
-location: Data From Tab. 3-6 of PRL 109 (2010) 242301
-description: 'Heavy flavor electron yield, Run-8 $p$ + $p$, $d$+Au collisions.'
+location: Data From Fig. 1-2 of PRL 109 (2010) 242301
+description: 'Heavy flavor electron yield, Run-8 $p$ + $p$, $d$+Au collisions. Electrons from heavy flavor decays, separated by centrality. The lines represent a fit to the previous $p+p$ result [23], scaled by $N_{coll}$. The inset shows the ratio of photonic background electrons determined by the converter and cocktail methods for Minimum Bias $d$+Au collisions, with error bars (boxes) that represent the statistical uncertainty on the converter data (systematic uncertainty on the photonic-electron cocktail).'
 keywords: # used for searching, possibly mutliple values for each keywords
-- {name: reactions, values: [$d$ + Au]}
+- {name: reactions, values: [$d$ + Au$\implies$ CHARGED X, $p + p$ $\implies$ CHARGED X]}
 - {name: cmenergies, values: [200.0]}
-- {name: phrases, values: [ppg131, $d$+Au collisions, $p$ + $p$ collisions, mass-dependent Cronin enhancement, Relativistic Heavy Ion Collider, heavy $D$ meson family, heavy flavor electron, heavy flavor mesons, light flavor mesons]}
+- {name: phrases, values: [ppg131, mass-dependent Cronin enhancement, Relativistic Heavy Ion Collider, heavy $D$ meson family, heavy flavor electron, heavy flavor mesons, light flavor mesons]}
 data_file: ppg131tab1-2.yaml
 additional_resources:
 - {description: png file, location: ppg131fig1.png}
 - {description: Thumbnail Image file, location: thumb_fig1.png}
 ---
-name: "Tables 3-6"
+name: "Figures 3-6"
 
-location: Data From Tab. 3-6 of PRL 109 (2010) 242301
-description: 'Heavy flavor electron yield, $d$+Au collisions.'
+location: Data From Fig. 3-6 of PRL 109 (2010) 242301
+description: 'Heavy flavor electron yield, $d$+Au $\implies$ CHARGED X. Electrons from heavy flavor decays,
+separated by centrality. The lines represent a fit to the previous $p+p$ result [23], scaled by $N_{coll}$. The inset shows the ratio of photonic background electrons determined by the converter and cocktail methods for Minimum Bias $d$+Au collisions, with error bars (boxes) that represent the statistical uncertainty on the converter data (systematic uncertainty on the photonic-electron cocktail).'
 keywords: # used for searching, possibly mutliple values for each keywords
-- {name: reactions, values: [$d$ + Au]}
+- {name: reactions, values: [$d$ + Au$\implies$ CHARGED X, $p + p$ $\implies$ CHARGED X]}
 - {name: cmenergies, values: [200.0]}
-- {name: phrases, values: [ppg131]}
+- {name: phrases, values: [ppg131, mass-dependent Cronin enhancement, Relativistic Heavy Ion Collider, heavy $D$ meson family, heavy flavor electron, heavy flavor mesons, light flavor mesons]}
 data_file: ppg131tab3-6.yaml
 additional_resources:
 - {description: png file, location: ppg131fig1.png}
 - {description: Thumbnail Image file, location: thumb_fig1.png}
 ---
-# This is table 2
-name: "Table 7"
+name: "Figure 7"
 
-location: Data From Tab. 7 of PRL 109 (2010) 242301
-description: 'Heavy flavor electron $R_{dA}$ 0-100% d+Au collisions. Global scaling error, not included, is 10.4 %'
+location: Data From Fig. 7 of PRL 109 (2010) 242301
+description: 'Heavy flavor electron $R_{dA}$ 0-100% d+Au collisions. The nuclear modification factors $R_{dA}$ and $R_{AA}$ for minimum bias $d$+Au and Au+Au collisions, for the $\pi^{0}$ and $e^{\pm}_{HF}$. The two boxes on the right side of the plot represent the global uncertainties in the $d$+Au (left) and Au+Au (right) values of $N_{coll}$ . An additional common global scaling uncertainty of 9.7% on $R_{dA}$ and $R_{AA}$ from the $p+p$ reference data is omitted for clarity.'
 keywords:
-- {name: reactions, values: [$d$ + Au]}
+- {name: reactions, values: [$d$ + Au$\implies$ CHARGED X, $p + p$ $\implies$ CHARGED X]}
 - {name: cmenergies, values: [200.0]}
-- {name: phrases, values: [ppg131]}
+- {name: phrases, values: [ppg131, mass-dependent Cronin enhancement, Relativistic Heavy Ion Collider, heavy $D$ meson family, heavy flavor electron, heavy flavor mesons, light flavor mesons]}
 data_file: ppg131tab7.yaml
 additional_resources:
 - {description: Thumbnail Image File of $R_d_A$, location: thumb_fig4.png}
 - {description: png Image File of $R_d_A$, location: ppg131fig4.png}
 ---
-# This is table 8
-name: "Table 8"
+name: "Figure 8"
 
-location: Data From Tab. 7-11 of PRL 109 (2010) 242301
-description: 'Heavy flavor electron RdA 0-20% $d$+Au collisions. Global scaling error, not included, is 11.0 %'
+location: Data From Fig. 8 of PRL 109 (2010) 242301
+description: 'Heavy flavor electron RdA 0-20% $d$+Au collisions. The nuclear modification factor, $R_{dA}$, for electrons from open heavy flavor decays, for the (a) most central and (b) most peripheral centrality bins.'
 keywords:
-- {name: reactions, values: [$d$ + Au]}
+- {name: reactions, values: [$d$ + Au$\implies$ CHARGED X, $p + p$ $\implies$ CHARGED X]}
 - {name: cmenergies, values: [200.0]}
-- {name: phrases, values: [ppg131]}
+- {name: phrases, values: [ppg131, mass-dependent Cronin enhancement, Relativistic Heavy Ion Collider, heavy $D$ meson family, heavy flavor electron, heavy flavor mesons, light flavor mesons]}
 data_file: ppg131tab8.yaml
 additional_resources:
 - {description: Thumbnail Image File of $R_d_A$, location: thumb_fig5.png}
 - {description: png Image File of $R_d_A$ from 0-20%, location: ppg131fig5.png}
 ---
-# This is table 9
-name: "Table 9"
+name: "Figure 9"
 
-location: Data From Tab. 9 of PRL 109 (2010) 242301
-description: 'Heavy flavor electron $R_{dA}$ 20-40% $d$+Au collisions. Global scaling error, not included, is 10.7 %'
+location: Data From Fig. 9 of PRL 109 (2010) 242301
+description: 'Heavy flavor electron $R_{dA}$ 20-40% $d$+Au collisions. The nuclear modification factor, $R_{dA}$, for electrons from open heavy flavor decays, for the (a) most central and (b) most peripheral centrality bins.'
 keywords:
-- {name: reactions, values: [$d$ + Au]}
+- {name: reactions, values: [$d$ + Au$\implies$ CHARGED X, $p + p$ $\implies$ CHARGED X]}
 - {name: cmenergies, values: [200.0]}
-- {name: phrases, values: [ppg131]}
+- {name: phrases, values: [ppg131, mass-dependent Cronin enhancement, Relativistic Heavy Ion Collider, heavy $D$ meson family, heavy flavor electron, heavy flavor mesons, light flavor mesons]}
 data_file: ppg131tab9.yaml
 additional_resources:
 - {description: Thumbnail Image File of $R_d_A$, location: thumb_fig2.png}
 - {description: png Image File of $R_d_A$ from 60-88%, location: ppg131fig2.png}
 ---
-# This is table 10
-name: "Table 10"
+name: "Figure 10"
 
-location: Data From Tab. 10 of PRL 109 (2010) 242301
-description: 'Heavy flavor electron $R_{dA}$ 40-60% $d$+Au collisions. Global scaling error, not included, is 11.1 %'
+location: Data From Fig. 10 of PRL 109 (2010) 242301
+description: 'Heavy flavor electron $R_{dA}$ 40-60% $d$+Au collisions. The nuclear modification factor, $R_{dA}$, for electrons from open heavy flavor decays, for the (a) most central and (b) most peripheral centrality bins.'
 keywords:
-- {name: reactions, values: [$d$ + Au]}
+- {name: reactions, values: [$d$ + Au$\implies$ CHARGED X, $p + p$ $\implies$ CHARGED X]}
 - {name: cmenergies, values: [200.0]}
-- {name: phrases, values: [ppg131]}
+- {name: phrases, values: [ppg131, mass-dependent Cronin enhancement, Relativistic Heavy Ion Collider, heavy $D$ meson family, heavy flavor electron, heavy flavor mesons, light flavor mesons]}
 data_file: ppg131tab10.yaml
 additional_resources:
 - {description: Thumbnail Image File of $R_d_A$, location: thumb_fig3.png}
 - {description: png Image File of $R_d_A$ from 60-88%, location: ppg131fig3.png}
 ---
-# This is table 11
-name: "Table 11"
+name: "Figure 11"
 
-location: Data From Tab. 11 of PRL 109 (2010) 242301
-description: 'Heavy flavor electron $R_{dA}$ 60-88% $d$+Au collisions. Global scaling error, not included, is 12.4 %'
+location: Data From Fig. 11 of PRL 109 (2010) 242301
+description: 'Heavy flavor electron $R_{dA}$ 60-88% $d$+Au collisions. The nuclear modification factor, $R_{dA}$, for electrons from open heavy flavor decays, for the (a) most central and (b) most peripheral centrality bins.'
 keywords:
-- {name: reactions, values: [$d$ + Au]}
+- {name: reactions, values: [$d$ + Au$\implies$ CHARGED X, $p + p$ $\implies$ CHARGED X]}
 - {name: cmenergies, values: [200.0]}
-- {name: phrases, values: [ppg131]}
+- {name: phrases, values: [ppg131, mass-dependent Cronin enhancement, Relativistic Heavy Ion Collider, heavy $D$ meson family, heavy flavor electron, heavy flavor mesons, light flavor mesons]}
 data_file: ppg131tab11.yaml
 additional_resources:
 - {description: Thumbnail Image File of $R_d_A$, location: thumb_fig5.png}

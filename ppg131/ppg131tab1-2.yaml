@@ -1,122 +1,144 @@
 independent_variables:
-- header: {name: '$p_T$ GeV/$c$'}
+- header: {name: '$p_T$ (GeV/$c$)'}
   values:
   - {low: 0.8, high: 0.9}
-  - {low: 0.9, high: 1}
-  - {low: 1, high: 1.2}
+  - {low: 0.9, high: 1.0}
+  - {low: 1.0, high: 1.2}
   - {low: 1.2, high: 1.4}
   - {low: 1.4, high: 1.6}
   - {low: 1.6, high: 1.8}
-  - {low: 1.8, high: 2}
-  - {low: 2, high: 2.2}
+  - {low: 1.8, high: 2.0}
+  - {low: 2.0, high: 2.2}
   - {low: 2.2, high: 2.4}
   - {low: 2.4, high: 2.6}
   - {low: 2.6, high: 2.8}
-  - {low: 2.8, high: 3}
-  - {low: 3, high: 3.2}
+  - {low: 2.8, high: 3.0}
+  - {low: 3.0, high: 3.2}
   - {low: 3.2, high: 3.4}
   - {low: 3.4, high: 3.6}
   - {low: 3.6, high: 3.8}
-  - {low: 3.8, high: 4}
-  - {low: 4, high: 4.5}
-  - {low: 4.5, high: 5}
-  - {low: 5, high: 6}
-  - {low: 6, high: 7}
-  - {low: 7, high: 8}
+  - {low: 3.8, high: 4.0}
+  - {low: 4.0, high: 4.5}
+  - {low: 4.5, high: 5.0}
+  - {low: 5.0, high: 6.0}
+  - {low: 6.0, high: 7.0}
+  - {low: 7.0, high: 8.0}
   - {low: 0.8, high: 0.9}
 dependent_variables:
 - header: {name: '$\frac{e^{+}+e^{-}}{2}\frac{1}{2\pi p_{T}}\frac{d^{2}N}{dp_{T}dy}$'}
   qualifiers:
-  - {name: 'Collision Species.', value: '$p + p$ Global scaling uncertainty, not included, is 10%.'}
+  - {name: 'Collision Species', value: '$p + p$'}
   values:
-  - value: 2.1e-5
+  - value: 2.10e-5
     errors:
-    - {symerror: 4.0e-6, label: 'Stat.'}
-    - {symerror: 4.0e-6, label: 'Sys.'}
+    - {symerror: 4.00e-6, label: 'Stat.'}
+    - {symerror: 4.00e-6, label: 'Sys.'}
+    - {symerror: 2.10e-6, label: 'Scale'}
   - value: 1.19e-5
     errors:
-    - {symerror: 2.6e-6, label: 'Stat.'}
-    - {symerror: 2.4e-6, label: 'Sys.'}
-  - value: 6.4e-6
+    - {symerror: 2.60e-6, label: 'Stat.'}
+    - {symerror: 2.40e-6, label: 'Sys.'}
+    - {symerror: 1.19e-6, label: 'Scale'}
+  - value: 6.40e-6
     errors:
-    - {symerror: 1.2e-6, label: 'Stat.'}
-    - {symerror: 1.1e-6, label: 'Sys.'}
-  - value: 2.8e-6
+    - {symerror: 1.20e-6, label: 'Stat.'}
+    - {symerror: 1.10e-6, label: 'Sys.'}
+    - {symerror: 6.40e-7, label: 'Scale'}
+  - value: 2.80e-6
     errors:
-    - {symerror: 6.0e-7, label: 'Stat.'}
-    - {symerror: 5.0e-7, label: 'Sys.'}
-  - value: 1.570e-6
+    - {symerror: 6.00e-7, label: 'Stat.'}
+    - {symerror: 5.00e-7, label: 'Sys.'}
+    - {symerror: 2.80e-7, label: 'Scale'}
+  - value: 1.57e-6
     errors:
-    - {symerror: 2.8e-8, label: 'Stat.'}
-    - {symerror: 2.2e-7, label: 'Sys.'}
+    - {symerror: 2.80e-8, label: 'Stat.'}
+    - {symerror: 2.20e-7, label: 'Sys.'}
+    - {symerror: 1.57e-7, label: 'Scale'}
   - value: 7.68e-7
     errors:
-    - {symerror: 1.7e-8, label: 'Stat.'}
-    - {symerror: 1.0e-7, label: 'Sys.'}
+    - {symerror: 1.70e-8, label: 'Stat.'}
+    - {symerror: 1.00e-7, label: 'Sys.'}
+    - {symerror: 7.68e-8, label: 'Scale'}
   - value: 4.20e-7
     errors:
-    - {symerror: 1.2e-8, label: 'Stat.'}
-    - {symerror: 5.0e-8, label: 'Sys.'}
+    - {symerror: 1.20e-8, label: 'Stat.'}
+    - {symerror: 5.00e-8, label: 'Sys.'}
+    - {symerror: 4.20e-8, label: 'Scale'}
   - value: 2.47e-7
     errors:
-    - {symerror: 8.0e-9, label: 'Stat.'}
-    - {symerror: 3.0e-8, label: 'Sys.'}
+    - {symerror: 8.00e-9, label: 'Stat.'}
+    - {symerror: 3.00e-8, label: 'Sys.'}
+    - {symerror: 2.47e-8, label: 'Scale'}
   - value: 1.38e-7
     errors:
-    - {symerror: 6.0e-9, label: 'Stat.'}
-    - {symerror: 1.7e-8, label: 'Sys.'}
-  - value: 9.0e-8
+    - {symerror: 6.00e-9, label: 'Stat.'}
+    - {symerror: 1.70e-8, label: 'Sys.'}
+    - {symerror: 1.38e-8, label: 'Scale'}
+  - value: 9.00e-8
     errors:
-    - {symerror: 4.0e-9, label: 'Stat.'}
-    - {symerror: 1.0e-8, label: 'Sys.'}
+    - {symerror: 4.00e-9, label: 'Stat.'}
+    - {symerror: 1.00e-8, label: 'Sys.'}
+    - {symerror: 9.00e-9, label: 'Scale'}
   - value: 4.88e-8
     errors:
-    - {symerror: 3.0e-9, label: 'Stat.'}
-    - {symerror: 6.0e-9, label: 'Sys.'}
+    - {symerror: 3.00e-9, label: 'Stat.'}
+    - {symerror: 6.00e-9, label: 'Sys.'}
+    - {symerror: 4.88e-9, label: 'Scale'}
   - value: 3.26e-8
     errors:
-    - {symerror: 2.3e-9, label: 'Stat.'}
-    - {symerror: 4.0e-9, label: 'Sys.'}
+    - {symerror: 2.30e-9, label: 'Stat.'}
+    - {symerror: 4.00e-9, label: 'Sys.'}
+    - {symerror: 3.26e-9, label: 'Scale'}
   - value: 2.29e-8
     errors:
-    - {symerror: 1.8e-9, label: 'Stat.'}
-    - {symerror: 2.5e-9, label: 'Sys.'}
+    - {symerror: 1.80e-9, label: 'Stat.'}
+    - {symerror: 2.50e-9, label: 'Sys.'}
+    - {symerror: 2.29e-9, label: 'Scale'}
   - value: 1.65e-8
     errors:
-    - {symerror: 1.4e-9, label: 'Stat.'}
-    - {symerror: 1.7e-9, label: 'Sys.'}
-  - value: 9.8e-9
+    - {symerror: 1.40e-9, label: 'Stat.'}
+    - {symerror: 1.70e-9, label: 'Sys.'}
+    - {symerror: 1.65e-9, label: 'Scale'}
+  - value: 9.80e-9
     errors:
-    - {symerror: 1.1e-9, label: 'Stat.'}
-    - {symerror: 1.1e-9, label: 'Sys.'}
-  - value: 8.1e-9
+    - {symerror: 1.10e-9, label: 'Stat.'}
+    - {symerror: 1.10e-9, label: 'Sys.'}
+    - {symerror: 9.80e-10, label: 'Scale'}
+  - value: 8.10e-9
     errors:
-    - {symerror: 9.0e-10, label: 'Stat.'}
-    - {symerror: 8.0e-10, label: 'Sys.'}
-  - value: 4.4e-9
+    - {symerror: 9.00e-10, label: 'Stat.'}
+    - {symerror: 8.00e-10, label: 'Sys.'}
+    - {symerror: 8.10e-10, label: 'Scale'}
+  - value: 4.40e-9
     errors:
-    - {symerror: 7.0e-10, label: 'Stat.'}
-    - {symerror: 5.0e-10, label: 'Sys.'}
+    - {symerror: 7.00e-10, label: 'Stat.'}
+    - {symerror: 5.00e-10, label: 'Sys.'}
+    - {symerror: 4.40e-10, label: 'Scale'}
   - value: 2.77e-9
     errors:
-    - {symerror: 3.1e-10, label: 'Stat.'}
-    - {symerror: 2.9e-10, label: 'Sys.'}
+    - {symerror: 3.10e-10, label: 'Stat.'}
+    - {symerror: 2.90e-10, label: 'Sys.'}
+    - {symerror: 2.77e-10, label: 'Scale'}
   - value: 1.34e-9
     errors:
-    - {symerror: 2.8e-10, label: 'Stat.'}
-    - {symerror: 1.4e-10, label: 'Sys.'}
-  - value: 5.1e-10
+    - {symerror: 2.80e-10, label: 'Stat.'}
+    - {symerror: 1.40e-10, label: 'Sys.'}
+    - {symerror: 1.34e-10, label: 'Scale'}
+  - value: 5.10e-10
     errors:
-    - {symerror: 1.2e-10, label: 'Stat.'}
-    - {symerror: 5.0e-11, label: 'Sys.'}
+    - {symerror: 1.20e-10, label: 'Stat.'}
+    - {symerror: 5.00e-11, label: 'Sys.'}
+    - {symerror: 5.10e-11, label: 'Scale'}
   - value: 1.31e-10
     errors:
-    - {symerror: 6.0e-11, label: 'Stat.'}
-    - {symerror: 1.4e-11, label: 'Sys.'}
-  - value: 6.5e-11
+    - {symerror: 6.00e-11, label: 'Stat.'}
+    - {symerror: 1.40e-11, label: 'Sys.'}
+    - {symerror: 1.31e-11, label: 'Scale'}
+  - value: 6.50e-11
     errors:
-    - {symerror: 3.4e-11, label: 'Stat.'}
-    - {symerror: 7.0e-12, label: 'Sys.'}
+    - {symerror: 3.40e-11, label: 'Stat.'}
+    - {symerror: 7.00e-12, label: 'Sys.'}
+    - {symerror: 6.50e-12, label: 'Scale'}
   - value: 'n/a'
 - header: {name: '$\frac{e^{+}+e^{-}}{2}\frac{1}{2\pi p_{T}}\frac{d^{2}N}{dp_{T}dy}$'}
   qualifiers:
@@ -124,93 +146,93 @@ dependent_variables:
   values:
   - value: 1.95e-4
     errors:
-    - {symerror: 7.0e-6, label: 'Stat.'}
-    - {symerror: 3.5e-5, label: 'Sys.'}
+    - {symerror: 7.00e-6, label: 'Stat.'}
+    - {symerror: 3.50e-5, label: 'Sys.'}
   - value: 1.14e-4
     errors:
-    - {symerror: 5.0e-6, label: 'Stat.'}
-    - {symerror: 2.0e-5, label: 'Sys.'}
+    - {symerror: 5.00e-6, label: 'Stat.'}
+    - {symerror: 2.00e-5, label: 'Sys.'}
   - value: 6.41e-5
     errors:
-    - {symerror: 1.7e-6, label: 'Stat.'}
-    - {symerror: 1.0e-5, label: 'Sys.'}
-  - value: 2.930e-5
+    - {symerror: 1.70e-6, label: 'Stat.'}
+    - {symerror: 1.00e-5, label: 'Sys.'}
+  - value: 2.93e-5
     errors:
-    - {symerror: 1.0e-7, label: 'Stat.'}
-    - {symerror: 4.0e-6, label: 'Sys.'}
-  - value: 1.490e-5
+    - {symerror: 1.00e-7, label: 'Stat.'}
+    - {symerror: 4.00e-6, label: 'Sys.'}
+  - value: 1.49e-5
     errors:
-    - {symerror: 6.0e-8, label: 'Stat.'}
-    - {symerror: 1.7e-6, label: 'Sys.'}
+    - {symerror: 6.00e-8, label: 'Stat.'}
+    - {symerror: 1.70e-6, label: 'Sys.'}
   - value: 7.79e-6
     errors:
-    - {symerror: 4.0e-8, label: 'Stat.'}
-    - {symerror: 8.0e-7, label: 'Sys.'}
-  - value: 4.420e-6
+    - {symerror: 4.00e-8, label: 'Stat.'}
+    - {symerror: 8.00e-7, label: 'Sys.'}
+  - value: 4.42e-6
     errors:
-    - {symerror: 2.7e-8, label: 'Stat.'}
-    - {symerror: 4.0e-7, label: 'Sys.'}
-  - value: 2.450e-6
+    - {symerror: 2.70e-8, label: 'Stat.'}
+    - {symerror: 4.00e-7, label: 'Sys.'}
+  - value: 2.45e-6
     errors:
-    - {symerror: 1.9e-8, label: 'Stat.'}
-    - {symerror: 2.4e-7, label: 'Sys.'}
-  - value: 1.450e-6
+    - {symerror: 1.90e-8, label: 'Stat.'}
+    - {symerror: 2.40e-7, label: 'Sys.'}
+  - value: 1.45e-6
     errors:
-    - {symerror: 1.4e-8, label: 'Stat.'}
-    - {symerror: 1.4e-7, label: 'Sys.'}
+    - {symerror: 1.40e-8, label: 'Stat.'}
+    - {symerror: 1.40e-7, label: 'Sys.'}
   - value: 8.91e-7
     errors:
-    - {symerror: 1.0e-8, label: 'Stat.'}
-    - {symerror: 8.0e-8, label: 'Sys.'}
+    - {symerror: 1.00e-8, label: 'Stat.'}
+    - {symerror: 8.00e-8, label: 'Sys.'}
   - value: 5.41e-7
     errors:
-    - {symerror: 7.0e-9, label: 'Stat.'}
-    - {symerror: 5.0e-8, label: 'Sys.'}
+    - {symerror: 7.00e-9, label: 'Stat.'}
+    - {symerror: 5.00e-8, label: 'Sys.'}
   - value: 3.49e-7
     errors:
-    - {symerror: 6.0e-9, label: 'Stat.'}
-    - {symerror: 3.1e-8, label: 'Sys.'}
+    - {symerror: 6.00e-9, label: 'Stat.'}
+    - {symerror: 3.10e-8, label: 'Sys.'}
   - value: 2.27e-7
     errors:
-    - {symerror: 4.0e-9, label: 'Stat.'}
-    - {symerror: 2.0e-8, label: 'Sys.'}
-  - value: 1.480e-7
+    - {symerror: 4.00e-9, label: 'Stat.'}
+    - {symerror: 2.00e-8, label: 'Sys.'}
+  - value: 1.48e-7
     errors:
-    - {symerror: 3.4e-9, label: 'Stat.'}
-    - {symerror: 1.3e-8, label: 'Sys.'}
+    - {symerror: 3.40e-9, label: 'Stat.'}
+    - {symerror: 1.30e-8, label: 'Sys.'}
   - value: 9.91e-8
     errors:
-    - {symerror: 2.6e-9, label: 'Stat.'}
-    - {symerror: 9.0e-9, label: 'Sys.'}
+    - {symerror: 2.60e-9, label: 'Stat.'}
+    - {symerror: 9.00e-9, label: 'Sys.'}
   - value: 6.42e-8
     errors:
-    - {symerror: 2.1e-9, label: 'Stat.'}
-    - {symerror: 6.0e-9, label: 'Sys.'}
+    - {symerror: 2.10e-9, label: 'Stat.'}
+    - {symerror: 6.00e-9, label: 'Sys.'}
   - value: 4.82e-8
     errors:
-    - {symerror: 1.7e-9, label: 'Stat.'}
-    - {symerror: 4.0e-9, label: 'Sys.'}
+    - {symerror: 1.70e-9, label: 'Stat.'}
+    - {symerror: 4.00e-9, label: 'Sys.'}
   - value: 2.49e-8
     errors:
-    - {symerror: 7.0e-10, label: 'Stat.'}
-    - {symerror: 2.2e-9, label: 'Sys.'}
+    - {symerror: 7.00e-10, label: 'Stat.'}
+    - {symerror: 2.20e-9, label: 'Sys.'}
   - value: 1.06e-8
     errors:
-    - {symerror: 6.0e-10, label: 'Stat.'}
-    - {symerror: 9.0e-10, label: 'Sys.'}
+    - {symerror: 6.00e-10, label: 'Stat.'}
+    - {symerror: 9.00e-10, label: 'Sys.'}
   - value: 3.47e-9
     errors:
-    - {symerror: 2.6e-10, label: 'Stat.'}
-    - {symerror: 3.1e-10, label: 'Sys.'}
-  - value: 8.2e-10
+    - {symerror: 2.60e-10, label: 'Stat.'}
+    - {symerror: 3.10e-10, label: 'Sys.'}
+  - value: 8.20e-10
     errors:
-    - {symerror: 1.2e-10, label: 'Stat.'}
-    - {symerror: 8.0e-11, label: 'Sys.'}
+    - {symerror: 1.20e-10, label: 'Stat.'}
+    - {symerror: 8.00e-11, label: 'Sys.'}
   - value: 3.86e-10
     errors:
-    - {symerror: 7.0e-11, label: 'Stat.'}
-    - {symerror: 3.4e-11, label: 'Sys.'}
+    - {symerror: 7.00e-11, label: 'Stat.'}
+    - {symerror: 3.40e-11, label: 'Sys.'}
   - value: 1.28e-10
     errors:
-    - {symerror: 4.0e-11, label: 'Stat.'}
-    - {symerror: 1.7e-11, label: 'Sys.'}
+    - {symerror: 4.00e-11, label: 'Stat.'}
+    - {symerror: 1.70e-11, label: 'Sys.'}
