@@ -10,7 +10,11 @@ independent_variables:
   - {low: 0.75, high: 1.00}
   - {low: 1.00, high: 1.25}
   - {low: 1.25, high: 1.50}
+
+dependent_variables:
 - header: {name: '$\langle p_T \rangle$ (GeV/$c$)'}
+  qualifiers:
+  - {name: 'Particle', value: '$\pi^+$ and $\pi^-$'}
   values:
   - {value: 0.11}
   - {value: 0.18}
@@ -21,10 +25,10 @@ independent_variables:
   - {value: 0.85}
   - {value: 1.09}
   - {value: 1.34}
-dependent_variables:
+
 - header: {name: '$v_2$'}
   qualifiers:
-  - {name: 'Particle', value: '$pi^+$ and $\pi^-$'}
+  - {name: 'Particle', value: '$\pi^+$ and $\pi^-$'}
   values:
   - value: 0.0090
     errors:
