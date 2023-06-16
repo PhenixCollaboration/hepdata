@@ -1,0 +1,48 @@
+independent_variables:
+- header: {name: '$<x_F>$'}
+  values:
+  - {value: 0.53}
+  - {value: 0.68}
+  - {value: 0.83}
+  - {value: 0.93}
+dependent_variables:
+- header: {name: '$d\sigma/dx$ (mb)'}
+  qualifiers:
+  - {name: '', value: 'Exponential $p_T$ Form'}
+  values:
+  - value: 0.243
+    errors:
+    - {symerror: 0.024, label: 'stat.'}
+    - {symerror: 0.043, label: 'sys.'}
+  - value: 0.491
+    errors:
+    - {symerror: 0.039, label: 'stat.'}
+    - {symerror: 0.052, label: 'sys.'}
+  - value: 0.680
+    errors:
+    - {symerror: 0.044, label: 'stat.'}
+    - {symerror: 0.094, label: 'sys.'}
+  - value: 0.334
+    errors:
+    - {symerror: 0.035, label: 'stat.'}
+    - {symerror: 0.111, label: 'sys.'}
+- header: {name: '$d\sigma/dx$ (mb)'}
+  qualifiers:
+  - {name: '', value: 'Gaussian $p_T$ Form'}
+  values:
+  - value: 0.194
+    errors:
+    - {symerror: 0.021, label: 'stat.'}
+    - {symerror: 0.037, label: 'sys.'}
+  - value: 0.455
+    errors:
+    - {symerror: 0.036, label: 'stat.'}
+    - {symerror: 0.085, label: 'sys.'}
+  - value: 0.612
+    errors:
+    - {symerror: 0.044, label: 'stat.'}
+    - {symerror: 0.096, label: 'sys.'}
+  - value: 0.319
+    errors:
+    - {symerror: 0.037, label: 'stat.'}
+    - {symerror: 0.123, label: 'sys.'}

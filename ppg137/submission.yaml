@@ -1,0 +1,58 @@
+#PHENIX paper PPG137
+#
+#Inclusive cross section and single-transverse-spin asymmetry for very forward neutron production in polarized $p$+$p$ collisions at $\sqrt{s}$ = 200 GeV
+#
+#Phys.Rev.Lett D 88 (2013) 032006
+#InspireHEP ID: 1185577
+#
+#Prepared by Nikolas Nelson
+#Please contact Christine Nattrass if you have any questions about this submission
+#PPG liaison:
+#Reviewer:
+#
+comment: | # Information that applies to all data tables.
+  The energy dependence of the single-transverse-spin asymmetry, $A_N$, and the cross section for neutron production at very forward angles were measured in the PHENIX experiment at RHIC for polarized $p$+$p$ collisions at $\sqrt{s}$ = 200 GeV. The neutrons were observed in forward detectors covering an angular range of up to 2.2 mrad. We report results for neutrons with momentum fraction of $x_F$ = 0.45 to 1.0. The energy dependence of the measured cross sections were consistent with $x_F$ scaling, compared to measurements by an ISR experiment which measured neutron production in unpolarized $p$+$p$ collisions at $\sqrt{s}$ = 30.6 - 62.7 GeV. The cross sections for large $x_F$ neutron production for $p$+$p$ collisions, as well as those in $e$+$p$ collisions measured at HERA, are described by a pion exchange mechanism. The observed forward neutron asymmetries were large, reaching $A_N$ = -0.08 $\pm$ 0.02 for $x_F$ = 0.8; the measured backward asymmetries, for negative $x_F$, were consistent with zero. The observed asymmetry for forward neutron production is discussed within the pion exchange framework, with interference between the spin-flip amplitude due to the pion exchange and nonflip amplitudes from all Reggeon exchanges. Within the pion exchange description, the measured neutron asymmetry is sensitive to the contribution of other Reggeon exchanges even for small amplitudes.
+additional_resources:
+- {location: "https://phenix-intra.sdcc.bnl.gov/phenix/WWW/p/info/ppg/137/", description: "web page with data points"}
+- {location: "http://arxiv.org/abs/1209.3283", description: arXiv}
+- {location: "https://inspirehep.net/literature/1185577", description: InspireHEP}
+---
+# This is Figure 13.
+name: "Figure 13"
+location: Data From Table 3 of PRD 88 (2013) 032006
+description: 'The cross section resultsfor forward neutron production in $p$+$p$ collisions at $\sqrt{s}$ = 200 GeV are show. Two different forms, exponential and Gaussian, were used for the $p_T$ distribution.'
+keywords: # used for searching, possibly mutliple values for each keywords
+- {name: reactions, values: [$p$ $p$ --> neutron]}
+- {name: cmenergies, values: [200.0]}
+- {name: phrases, values: [ppg137, inclusive cross section, single-transverse-spin asymmetry]}
+data_file: ppg137fig13.yaml
+additional_resources:
+- {description: PNG Image file, location: DrawCS_all_v2.png}
+- {description: Thumbnail Image file, location: thumb_DrawCS_all_v2.png}
+---
+# This is Figure 17.
+name: "Figure 17a"
+location: Data From Table 5 of PRD 88 (2013) 032006
+description: 'The $x_F$ dependence of $A_N$ for neutron production in the ZDC trigger sample.'
+keywords: # used for searching, possibly mutliple values for each keywords
+- {name: reactions, values: [$p$ $p$ --> neutron]}
+- {name: cmenergies, values: [200.0]}
+- {name: phrases, values: [ppg137, inclusive cross section, single-transverse-spin asymmetry]}
+data_file: ppg137fig17a.yaml
+additional_resources:
+- {description: PNG Image file, location: DrawFinAsymXfByPhi_v2.png}
+- {description: Thumbnail Image file, location: thumb_DrawFinAsymXfByPhi_v2.png}
+---
+# This is Figure 17.
+name: "Figure 17b"
+location: Data From Table 6 of PRD 88 (2013) 032006
+description: 'The $x_F$ dependence of $A_N$ for neutron production for the ZDC$\otimes$BBC trigger sample.'
+keywords: # used for searching, possibly mutliple values for each keywords
+- {name: reactions, values: [$p$ $p$ --> neutron]}
+- {name: cmenergies, values: [200.0]}
+- {name: phrases, values: [ppg137, inclusive cross section, single-transverse-spin asymmetry]}
+data_file: ppg137fig17b.yaml
+additional_resources:
+- {description: PNG Image file, location: DrawFinAsymXfByPhi_v2.png}
+- {description: Thumbnail Image file, location: thumb_DrawFinAsymXfByPhi_v2.png}
+---
