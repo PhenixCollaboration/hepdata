@@ -1,0 +1,73 @@
+independent_variables:
+- header: {name: '$p_T$ (GeV/$c$)'}
+  values:
+  - {low: 0.50, high: 0.60}
+  - {low: 0.60, high: 0.70}
+  - {low: 0.70, high: 0.80}
+  - {low: 0.80, high: 0.90}
+  - {low: 0.90, high: 1.00}
+  - {low: 1.00, high: 1.20}
+  - {low: 1.20, high: 1.40}
+  - {low: 1.40, high: 1.60}
+  - {low: 1.60, high: 2.00}
+  - {low: 2.00, high: 2.40}
+  - {low: 2.40, high: 3.00}
+  - {low: 3.00, high: 3.50}
+  - {low: 3.50, high: 5.50}
+dependent_variables:
+- header: {name: '$v_2$'}
+  qualifiers:
+  - {name: 'Centrality', value: '0-92%'}
+  values:
+  - value: 4.01e-2
+    errors:
+    - {symerror: 6.36e-2, label: 'stat.'}
+    - {symerror: 1.89e-2, label: 'sys.'}
+  - value: 4.08e-2
+    errors:
+    - {symerror: 7.12e-3, label: 'stat.'}
+    - {symerror: 1.88e-2, label: 'sys.'}
+  - value: 3.85e-2
+    errors:
+    - {symerror: 7.42e-3, label: 'stat.'}
+    - {symerror: 1.68e-2, label: 'sys.'}
+  - value: 6.26e-2
+    errors:
+    - {symerror: 7.67e-3, label: 'stat.'}
+    - {symerror: 1.45e-2, label: 'sys.'}
+  - value: 6.25e-2
+    errors:
+    - {symerror: 8.61e-3, label: 'stat.'}
+    - {symerror: 1.37e-2, label: 'sys.'}
+  - value: 5.63e-2
+    errors:
+    - {symerror: 6.99e-3, label: 'stat.'}
+    - {symerror: 1.18e-2, label: 'sys.'}
+  - value: 6.98e-2
+    errors:
+    - {symerror: 9.23e-3, label: 'stat.'}
+    - {symerror: 1.15e-2, label: 'sys.'}
+  - value: 9.20e-1
+    errors:
+    - {symerror: 1.03e-2, label: 'stat.'}
+    - {symerror: 1.12e-2, label: 'sys.'}
+  - value: 8.70e-1
+    errors:
+    - {symerror: 1.52e-2, label: 'stat.'}
+    - {symerror: 1.07e-2, label: 'sys.'}
+  - value: 6.92e-2
+    errors:
+    - {symerror: 1.81e-2, label: 'stat.'}
+    - {symerror: 9.31e-3, label: 'sys.'}
+  - value: 7.06e-2
+    errors:
+    - {symerror: 3.08e-2, label: 'stat.'}
+    - {symerror: 8.42e-3, label: 'sys.'}
+  - value: 3.08e-2
+    errors:
+    - {symerror: 4.65e-2, label: 'stat.'}
+    - {symerror: 7.89e-3, label: 'sys.'}
+  - value: 9.86e-3
+    errors:
+    - {symerror: 6.45e-2, label: 'stat.'}
+    - {symerror: 9.57e-2, label: 'sys.'}

@@ -1,0 +1,192 @@
+independent_variables:
+- header: {name: 'Centrality (%)'}
+  values:
+  - {low: 0, high: 10}
+  - {low: 10, high: 20}
+  - {low: 20, high: 40}
+  - {low: 40, high: 60}
+  - {low: 60, high: 92}
+dependent_variables:
+- header: {name: '$N_{part}$'}
+  qualifiers:
+  - {name: '$p_T^e$ (GeV/$c$)', value: ''}
+  values:
+  - value: 325.2
+  - value: 234.6
+  - value: 140.4
+  - value: 59.95
+  - value: 14.5
+- header: {name: '$R_{AuAu}$'}
+  qualifiers:
+  - {name: '$p_T^e$ (GeV/$c$)', value: '> 0.3'}
+  values:
+  - value: 1.09
+    errors:
+    - {asymerror: {plus: 2.20e-2, minus: 2.17e-2}, label: 'stat.'}
+    - {symerror: 2.71e-1, label: 'sys.'}
+    - {asymerror: {plus: 2.325e-1, minus: 1.587e-1}, label: 'frac.'}
+  - value: 1.03
+    errors:
+    - {asymerror: {plus: 2.38e-2, minus: 2.35e-2}, label: 'stat.'}
+    - {symerror: 2.43e-1, label: 'sys.'}
+    - {asymerror: {plus: 2.325e-1, minus: 1.587e-1}, label: 'frac.'}
+  - value: 9.43e-1
+    errors:
+    - {asymerror: {plus: 2.29e-2, minus: 2.26e-2}, label: 'stat.'}
+    - {symerror: 2.19e-1, label: 'sys.'}
+    - {asymerror: {plus: 2.325e-1, minus: 1.587e-1}, label: 'frac.'}
+  - value: 9.86e-1
+    errors:
+    - {asymerror: {plus: 3.90e-2, minus: 3.86e-2}, label: 'stat.'}
+    - {symerror: 2.53e-1, label: 'sys.'}
+    - {asymerror: {plus: 2.325e-1, minus: 1.587e-1}, label: 'frac.'}
+  - value: 1.04
+    errors:
+    - {asymerror: {plus: 7.64e-2, minus: 7.55e-2}, label: 'stat.'}
+    - {symerror: 3.88e-1, label: 'sys.'}
+    - {asymerror: {plus: 2.325e-1, minus: 1.587e-1}, label: 'frac.'}
+- header: {name: '$R_{AuAu}$'}
+  qualifiers:
+  - {name: '$p_T^e$ (GeV/$c$)', value: '> 0.6'}
+  values:
+  - value: 1.03
+    errors:
+    - {asymerror: {plus: 1.84e-2, minus: 1.81e-2}, label: 'stat.'}
+    - {symerror: 1.59e-1, label: 'sys.'}
+    - {asymerror: {plus: 1.309e-1, minus: 1.037e-1}, label: 'frac.'}
+  - value: 1.05
+    errors:
+    - {asymerror: {plus: 2.11e-2, minus: 2.08e-2}, label: 'stat.'}
+    - {symerror: 1.59e-1, label: 'sys.'}
+    - {asymerror: {plus: 1.309e-1, minus: 1.037e-1}, label: 'frac.'}
+  - value: 1.10
+    errors:
+    - {asymerror: {plus: 2.11e-2, minus: 2.09e-2}, label: 'stat.'}
+    - {symerror: 1.71e-1, label: 'sys.'}
+    - {asymerror: {plus: 1.309e-1, minus: 1.037e-1}, label: 'frac.'}
+  - value: 1.14
+    errors:
+    - {asymerror: {plus: 3.71e-2, minus: 3.67e-2}, label: 'stat.'}
+    - {symerror: 2.08e-1, label: 'sys.'}
+    - {asymerror: {plus: 1.309e-1, minus: 1.037e-1}, label: 'frac.'}
+  - value: 1.08
+    errors:
+    - {asymerror: {plus: 7.16e-2, minus: 7.09e-2}, label: 'stat.'}
+    - {symerror: 3.49e-1, label: 'sys.'}
+    - {asymerror: {plus: 1.309e-1, minus: 1.037e-1}, label: 'frac.'}
+- header: {name: '$R_{AuAu}$'}
+  qualifiers:
+  - {name: '$p_T^e$ (GeV/$c$)', value: '> 0.8'}
+  values:
+  - value: 9.77e-1
+    errors:
+    - {asymerror: {plus: 1.81e-2, minus: 1.78e-2}, label: 'stat.'}
+    - {symerror: 1.29e-1, label: 'sys.'}
+    - {asymerror: {plus: 1.096e-1, minus: 8.989e-2}, label: 'frac.'}
+  - value: 1.04
+    errors:
+    - {asymerror: {plus: 2.13e-2, minus: 2.09e-2}, label: 'stat.'}
+    - {symerror: 1.35e-1, label: 'sys.'}
+    - {asymerror: {plus: 1.096e-1, minus: 8.989e-2}, label: 'frac.'}
+  - value: 1.09
+    errors:
+    - {asymerror: {plus: 2.14e-2, minus: 2.11e-2}, label: 'stat.'}
+    - {symerror: 1.49e-1, label: 'sys.'}
+    - {asymerror: {plus: 1.096e-1, minus: 8.989e-2}, label: 'frac.'}
+  - value: 1.20
+    errors:
+    - {asymerror: {plus: 3.82e-2, minus: 3.77e-2}, label: 'stat.'}
+    - {symerror: 1.97e-1, label: 'sys.'}
+    - {asymerror: {plus: 1.096e-1, minus: 8.989e-2}, label: 'frac.'}
+  - value: 1.07
+    errors:
+    - {asymerror: {plus: 7.27e-2, minus: 7.17e-2}, label: 'stat.'}
+    - {symerror: 3.33e-1, label: 'sys.'}
+    - {asymerror: {plus: 1.096e-1, minus: 8.989e-2}, label: 'frac.'}
+- header: {name: '$R_{AuAu}$'}
+  qualifiers:
+  - {name: '$p_T^e$ (GeV/$c$)', value: '> 2.0'}
+  values:
+  - value: 5.89e-1
+    errors:
+    - {asymerror: {plus: 6.64e-3, minus: 6.63e-3}, label: 'stat.'}
+    - {symerror: 8.88e-2, label: 'sys.'}
+    - {asymerror: {plus: 1.096e-1, minus: 8.989e-2}, label: 'frac.'}
+  - value: 7.10e-1
+    errors:
+    - {asymerror: {plus: 8.52e-3, minus: 8.50e-3}, label: 'stat.'}
+    - {symerror: 1.03e-1, label: 'sys.'}
+    - {asymerror: {plus: 1.096e-1, minus: 8.989e-2}, label: 'frac.'}
+  - value: 8.13e-1
+    errors:
+    - {asymerror: {plus: 9.13e-3, minus: 9.12e-3}, label: 'stat.'}
+    - {symerror: 1.25e-1, label: 'sys.'}
+    - {asymerror: {plus: 1.096e-1, minus: 8.989e-2}, label: 'frac.'}
+  - value: 9.91e-1
+    errors:
+    - {asymerror: {plus: 1.66e-2, minus: 1.66e-2}, label: 'stat.'}
+    - {symerror: 1.77e-1, label: 'sys.'}
+    - {asymerror: {plus: 1.096e-1, minus: 8.989e-2}, label: 'frac.'}
+  - value: 7.78e-1
+    errors:
+    - {asymerror: {plus: 2.96e-2, minus: 2.92e-2}, label: 'stat.'}
+    - {symerror: 2.57e-1, label: 'sys.'}
+    - {asymerror: {plus: 1.096e-1, minus: 8.989e-2}, label: 'frac.'}
+- header: {name: '$R_{AuAu}$'}
+  qualifiers:
+  - {name: '$p_T^e$ (GeV/$c$)', value: '> 3.0'}
+  values:
+  - value: 4.24e-1
+    errors:
+    - {asymerror: {plus: 1.17e-2, minus: 1.14e-2}, label: 'stat.'}
+    - {symerror: 5.90e-2, label: 'sys.'}
+    - {asymerror: {plus: 9.049e-2, minus: 7.662e-2}, label: 'frac.'}
+  - value: 5.40e-1
+    errors:
+    - {asymerror: {plus: 1.56e-2, minus: 1.52e-2}, label: 'stat.'}
+    - {symerror: 7.12e-2, label: 'sys.'}
+    - {asymerror: {plus: 9.049e-2, minus: 7.662e-2}, label: 'frac.'}
+  - value: 6.52e-1
+    errors:
+    - {asymerror: {plus: 1.67e-2, minus: 1.64e-2}, label: 'stat.'}
+    - {symerror: 9.09e-2, label: 'sys.'}
+    - {asymerror: {plus: 9.049e-2, minus: 7.662e-2}, label: 'frac.'}
+  - value: 8.55e-1
+    errors:
+    - {asymerror: {plus: 3.35e02, minus: 3.25e-2}, label: 'stat.'}
+    - {symerror: 1.40e-1, label: 'sys.'}
+    - {asymerror: {plus: 9.049e-2, minus: 7.662e-2}, label: 'frac.'}
+  - value: 7.04e-1
+    errors:
+    - {asymerror: {plus: 6.39e-2, minus: 5.98e-2}, label: 'stat.'}
+    - {symerror: 2.24e-1, label: 'sys.'}
+    - {asymerror: {plus: 9.049e-2, minus: 7.662e-2}, label: 'frac.'}
+- header: {name: '$R_{AuAu}$'}
+  qualifiers:
+  - {name: '$p_T^e$ (GeV/$c$)', value: '> 4.0'}
+  values:
+  - value: 3.03e-1
+    errors:
+    - {asymerror: {plus: 2.19e-2, minus: 2.05e-2}, label: 'stat.'}
+    - {symerror: 4.42e-2, label: 'sys.'}
+    - {asymerror: {plus: 0.066e-1, minus: 8.787e-2}, label: 'frac.'}
+  - value: 4.51e-1
+    errors:
+    - {asymerror: {plus: 3.09e-2, minus: 2.88e-2}, label: 'stat.'}
+    - {symerror: 5.96e-2, label: 'sys.'}
+    - {asymerror: {plus: 0.066e-1, minus: 8.787e-2}, label: 'frac.'}
+  - value: 5.11e-1
+    errors:
+    - {asymerror: {plus: 3.16e-2, minus: 3.00e-2}, label: 'stat.'}
+    - {symerror: 7.14e-2, label: 'sys.'}
+    - {asymerror: {plus: 0.066e-1, minus: 8.787e-2}, label: 'frac.'}
+  - value: 7.59e-1
+    errors:
+    - {asymerror: {plus: 6.73e-2, minus: 6.17e-2}, label: 'stat.'}
+    - {symerror: 1.22e-1, label: 'sys.'}
+    - {asymerror: {plus: 0.066e-1, minus: 8.787e-2}, label: 'frac.'}
+  - value: 3.99e-1
+    errors:
+    - {asymerror: {plus: 1.22e-1, minus: 9.72e-2}, label: 'stat.'}
+    - {symerror: 1.31e-1, label: 'sys.'}
+    - {asymerror: {plus: 0.066e-1, minus: 8.787e-2}, label: 'frac.'}
