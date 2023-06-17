@@ -1,0 +1,154 @@
+independent_variables:
+- header: {name: '$p_T$ (GeV/$c$)'}
+  values:
+  - {low: 0.00, high: 0.25}
+  - {low: 0.25, high: 0.50}
+  - {low: 0.50, high: 0.75}
+  - {low: 0.75, high: 1.00}
+  - {low: 1.00, high: 1.25}
+  - {low: 1.25, high: 1.50}
+  - {low: 1.50, high: 1.75}
+  - {low: 1.75, high: 2.00}
+  - {low: 2.00, high: 2.25}
+  - {low: 2.25, high: 2.50}
+  - {low: 2.50, high: 2.75}
+  - {low: 2.75, high: 3.00}
+  - {low: 3.00, high: 3.25}
+  - {low: 3.25, high: 3.50}
+  - {low: 3.50, high: 3.75}
+  - {low: 3.75, high: 4.00}
+  - {low: 4.00, high: 4.25}
+  - {low: 4.25, high: 4.50}
+  - {low: 4.50, high: 4.75}
+  - {low: 4.75, high: 5.00}
+  - {low: 5.00, high: 6.00}
+  - {low: 6.00, high: 7.00}
+  - {low: 7.00, high: 8.00}
+  - {low: 8.00, high: 9.00}
+dependent_variables:
+- header: {name: '$e^+e^-$ counts'}
+  values:
+  - value: 93
+  - value: 212
+  - value: 326
+  - value: 370
+  - value: 384
+  - value: 313
+  - value: 265
+  - value: 229
+  - value: 170
+  - value: 119
+  - value: 103
+  - value: 71
+  - value: 52
+  - value: 38
+  - value: 25
+  - value: 21
+  - value: 15
+  - value: 8
+  - value: 12
+  - value: 10
+  - value: 27
+  - value: 11
+  - value: 6
+  - value: 2
+- header: {name: 'Like-sign pairs'}
+  values:
+  - value: 2
+  - value: 16
+  - value: 23
+  - value: 25
+  - value: 18
+  - value: 25
+  - value: 23
+  - value: 16
+  - value: 13
+  - value: 13
+  - value: 8
+  - value: 10
+  - value: 2
+  - value: 2
+  - value: 0
+  - value: 1
+  - value: 2
+  - value: 0
+  - value: 0
+  - value: 1
+  - value: 3
+  - value: 0
+  - value: 0
+  - value: 0
+- header: {name: 'Net count'}
+  values:
+  - value: 91
+    errors:
+    - {symerror: 9, label: 'stat.'}
+  - value: 196
+    errors:
+    - {symerror: 15, label: 'stat.'}
+  - value: 303
+    errors:
+    - {symerror: 19, label: 'stat.'}
+  - value: 345
+    errors:
+    - {symerror: 20, label: 'stat.'}
+  - value: 366
+    errors:
+    - {symerror: 20, label: 'stat.'}
+  - value: 288
+    errors:
+    - {symerror: 18, label: 'stat.'}
+  - value: 242
+    errors:
+    - {symerror: 17, label: 'stat.'}
+  - value: 213
+    errors:
+    - {symerror: 16, label: 'stat.'}
+  - value: 157
+    errors:
+    - {symerror: 14, label: 'stat.'}
+  - value: 106
+    errors:
+    - {symerror: 11, label: 'stat.'}
+  - value: 95
+    errors:
+    - {symerror: 11, label: 'stat.'}
+  - value: 61
+    errors:
+    - {symerror: 9, label: 'stat.'}
+  - value: 50
+    errors:
+    - {symerror: 7, label: 'stat.'}
+  - value: 36
+    errors:
+    - {symerror: 6, label: 'stat.'}
+  - value: 25
+    errors:
+    - {symerror: 5, label: 'stat.'}
+  - value: 20
+    errors:
+    - {symerror: 5, label: 'stat.'}
+  - value: 13
+    errors:
+    - {asymerror: {plus: 4.3, minus: 4.2}, label: 'stat.'}
+  - value: 8
+    errors:
+    - {asymerror: {plus: 3.1, minus: 3.0}, label: 'stat.'}
+  - value: 12
+    errors:
+    - {asymerror: {plus: 3.7, minus: 3.6}, label: 'stat.'}
+  - value: 9
+    errors:
+    - {asymerror: {plus: 3.5, minus: 3.4}, label: 'stat.'}
+  - value: 24
+    errors:
+    - {asymerror: {plus: 5.5, minus: 5.6}, label: 'stat.'}
+  - value: 11
+    errors:
+    - {symerror: 3.3, label: 'stat.'}
+  - value: 6
+    errors:
+    - {asymerror: {plus: 2.8, minus: 2.6}, label: 'stat.'}
+  - value: 2
+    errors:
+    - {asymerror: {plus: 2, minus: 1.2}, label: 'stat.'}
