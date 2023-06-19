@@ -1,0 +1,68 @@
+independent_variables:
+- header: {name: '$p_T$ (GeV/$c$)'}
+  values:
+  - {low: 0.50, high: 0.70}
+  - {low: 0.70, high: 0.80}
+  - {low: 0.80, high: 1.00}
+  - {low: 1.00, high: 1.20}
+  - {low: 1.20, high: 1.80}
+  - {low: 1.80, high: 3.00}
+dependent_variables:
+- header: {name: '$v_2$'}
+  qualifiers:
+  - {name: 'Centrality', value: '10-40%'}
+  - {name: 'Particle', value: '$p$'}
+  values:
+  - value: 2.59e-02
+    errors:
+    - {symerror: 3.59e-03, label: 'stat.'}
+    - {symerror: 1.66e-03, label: 'sys.'}
+  - value: 4.51e-02
+    errors:
+    - {symerror: 4.24e-03, label: 'stat.'}
+    - {symerror: 2.89e-03, label: 'sys.'}
+  - value: 6.47e-02
+    errors:
+    - {symerror: 2.99e-03, label: 'stat.'}
+    - {symerror: 4.14e-03, label: 'sys.'}
+  - value: 8.74e-02
+    errors:
+    - {symerror: 3.24e-03, label: 'stat.'}
+    - {symerror: 5.59e-03, label: 'sys.'}
+  - value: 1.34e-01
+    errors:
+    - {symerror: 5.33e-03, label: 'stat.'}
+    - {symerror: 8.56e-03, label: 'sys.'}
+  - value: 1.81e-01
+    errors:
+    - {symerror: 1.31e-02, label: 'stat.'}
+    - {symerror: 1.16e-02, label: 'sys.'}
+- header: {name: '$v_2$'}
+  qualifiers:
+  - {name: 'Centrality', value: '10-40%'}
+  - {name: 'Particle', value: '$\bar{p}$'}
+  values:
+  - value: 1.52e-02
+    errors:
+    - {symerror: 5.18e-03, label: 'stat.'}
+    - {symerror: 9.73e-04, label: 'sys.'}
+  - value: 4.61e-02
+    errors:
+    - {symerror: 6.32e-03, label: 'stat.'}
+    - {symerror: 2.95e-03, label: 'sys.'}
+  - value: 5.72e-02
+    errors:
+    - {symerror: 4.43e-03, label: 'stat.'}
+    - {symerror: 3.66e-03, label: 'sys.'}
+  - value: 8.21e-02
+    errors:
+    - {symerror: 4.70e-03, label: 'stat.'}
+    - {symerror: 5.26e-03, label: 'sys.'}
+  - value: 1.33e-01
+    errors:
+    - {symerror: 8.58e-03, label: 'stat.'}
+    - {symerror: 8.54e-03, label: 'sys.'}
+  - value: 1.72e-01
+    errors:
+    - {symerror: 2.08e-02, label: 'stat.'}
+    - {symerror: 1.10e-02, label: 'sys.'}

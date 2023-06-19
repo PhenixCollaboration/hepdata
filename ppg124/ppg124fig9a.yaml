@@ -1,0 +1,94 @@
+independent_variables:
+- header: {name: 'Centrality (%)'}
+  values:
+  - {low: 0, high: 10}
+  - {low: 10, high: 20}
+  - {low: 20, high: 30}
+  - {low: 30, high: 40}
+  - {low: 40, high: 50}
+  - {low: 50, high: 60}
+dependent_variables:
+- header: {name: '$v_2$'}
+  qualifiers:
+  - {name: '$p_T$', value: '0.2 - 1.0 (GeV/$c$)'}
+  values:
+  - value: 2.56e-02
+    errors:
+    - {symerror: 5.57e-04, label: 'stat.'}
+    - {symerror: 1.09e-03, label: 'sys.'}
+  - value: 4.58e-02
+    errors:
+    - {symerror: 4.49e-04, label: 'stat.'}
+    - {symerror: 1.43e-03, label: 'sys.'}
+  - value: 6.13e-02
+    errors:
+    - {symerror: 5.53e-04, label: 'stat.'}
+    - {symerror: 1.94e-03, label: 'sys.'}
+  - value: 6.89e-02
+    errors:
+    - {symerror: 7.85e-04, label: 'stat.'}
+    - {symerror: 5.14e-03, label: 'sys.'}
+  - value: 7.30e-02
+    errors:
+    - {symerror: 1.39e-03, label: 'stat.'}
+    - {symerror: 5.64e-03, label: 'sys.'}
+  - value: 6.59e-02
+    errors:
+    - {symerror: 2.84e-03, label: 'stat.'}
+    - {symerror: 5.07e-03, label: 'sys.'}
+- header: {name: '$v_2$'}
+  qualifiers:
+  - {name: '$p_T$', value: '1.0 - 2.0 (GeV/$c$)'}
+  values:
+  - value: 5.48e-02
+    errors:
+    - {symerror: 1.23e-03, label: 'stat.'}
+    - {symerror: 3.00e-03, label: 'sys.'}
+  - value: 9.85e-02
+    errors:
+    - {symerror: 9.90e-04, label: 'stat.'}
+    - {symerror: 4.60e-03, label: 'sys.'}
+  - value: 1.32e-01
+    errors:
+    - {symerror: 1.23e-03, label: 'stat.'}
+    - {symerror: 6.21e-03, label: 'sys.'}
+  - value: 1.47e-01
+    errors:
+    - {symerror: 1.79e-03, label: 'stat.'}
+    - {symerror: 1.21e-02, label: 'sys.'}
+  - value: 1.60e-01
+    errors:
+    - {symerror: 3.28e-03, label: 'stat.'}
+    - {symerror: 1.35e-02, label: 'sys.'}
+  - value: 1.45e-01
+    errors:
+    - {symerror: 7.04e-03, label: 'stat.'}
+    - {symerror: 1.22e-02, label: 'sys.'}
+- header: {name: '$v_2$'}
+  qualifiers:
+  - {name: '$p_T$', value: '1.0 - 4.0 (GeV/$c$)'}
+  values:
+  - value: 7.44e-02
+    errors:
+    - {symerror: 4.51e-03, label: 'stat.'}
+    - {symerror: 4.58e-03, label: 'sys.'}
+  - value: 1.47e-01
+    errors:
+    - {symerror: 3.57e-03, label: 'stat.'}
+    - {symerror: 8.03e-03, label: 'sys.'}
+  - value: 1.92e-01
+    errors:
+    - {symerror: 4.43e-03, label: 'stat.'}
+    - {symerror: 1.05e-02, label: 'sys.'}
+  - value: 2.08e-01
+    errors:
+    - {symerror: 6.46e-03, label: 'stat.'}
+    - {symerror: 1.81e-02, label: 'sys.'}
+  - value: 2.09e-01
+    errors:
+    - {symerror: 1.20e-02, label: 'stat.'}
+    - {symerror: 1.87e-02, label: 'sys.'}
+  - value: 1.70e-01
+    errors:
+    - {symerror: 2.65e-02, label: 'stat.'}
+    - {symerror: 1.51e-02, label: 'sys.'}

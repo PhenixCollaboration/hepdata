@@ -1,0 +1,33 @@
+independent_variables:
+- header: {name: '$p_T$ (GeV/$c$)'}
+  values:
+  - {low: 0.5, high: 1.0}
+  - {low: 1.0, high: 1.5}
+  - {low: 1.5, high: 2.0}
+  - {low: 2.0, high: 3.0}
+  - {low: 3.0, high: 4.0}
+dependent_variables:
+- header: {name: '$v_2$'}
+  qualifiers:
+  - {name: 'Centrality', value: '50-60%'}
+  values:
+  - value: 9.95e-02
+    errors:
+    - {symerror: 4.09e-04, label: 'stat.'}
+    - {symerror: 5.01e-03, label: 'sys.'}
+  - value: 1.48e-01
+    errors:
+    - {symerror: 5.32e-04, label: 'stat.'}
+    - {symerror: 7.44e-03, label: 'sys.'}
+  - value: 1.84e-01
+    errors:
+    - {symerror: 1.15e-03, label: 'stat.'}
+    - {symerror: 9.18e-03, label: 'sys.'}
+  - value: 2.04e-01
+    errors:
+    - {symerror: 2.03e-03, label: 'stat.'}
+    - {symerror: 1.02e-02, label: 'sys.'}
+  - value: 2.13e-01
+    errors:
+    - {symerror: 6.31e-03, label: 'stat.'}
+    - {symerror: 1.02e-02, label: 'sys.'}

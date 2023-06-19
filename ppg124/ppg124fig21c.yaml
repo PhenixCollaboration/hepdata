@@ -1,0 +1,54 @@
+independent_variables:
+- header: {name: '${{KE}_T}/{n_q}$ (GeV)'}
+  values:
+  - {low: 0.05, high: 0.07}
+  - {low: 0.07, high: 0.10}
+  - {low: 0.10, high: 0.14}
+  - {low: 0.14, high: 0.20}
+  - {low: 0.20, high: 0.35}
+  - {low: 0.35, high: 0.73}
+dependent_variables:
+- header: {name: '${v_2}/{n_q}$'}
+  qualifiers:
+  - {name: '', value: '$p$'}
+  values:
+  - value: 8.62e-03
+    errors:
+    - {symerror: 1.44e-03, label: 'stat.'}
+  - value: 1.50e-02
+    errors:
+    - {symerror: 1.98e-03, label: 'stat.'}
+  - value: 2.16e-02
+    errors:
+    - {symerror: 2.23e-03, label: 'stat.'}
+  - value: 2.91e-02
+    errors:
+    - {symerror: 2.90e-03, label: 'stat.'}
+  - value: 4.46e-02
+    errors:
+    - {symerror: 4.49e-03, label: 'stat.'}
+  - value: 6.04e-02
+    errors:
+    - {symerror: 7.09e-03, label: 'stat.'}
+- header: {name: '${v_2}/{n_q}$'}
+  qualifiers:
+  - {name: '', value: '$\bar{p}$'}
+  values:
+  - value: 5.06e-03
+    errors:
+    - {symerror: 2.01e-03, label: 'stat.'}
+  - value: 1.54e-02
+    errors:
+    - {symerror: 3.77e-03, label: 'stat.'}
+  - value: 1.91e-02
+    errors:
+    - {symerror: 4.15e-03, label: 'stat.'}
+  - value: 2.74e-02
+    errors:
+    - {symerror: 5.79e-03, label: 'stat.'}
+  - value: 4.44e-02
+    errors:
+    - {symerror: 9.49e-03, label: 'stat.'}
+  - value: 5.73e-02
+    errors:
+    - {symerror: 1.36e-02, label: 'stat.'}

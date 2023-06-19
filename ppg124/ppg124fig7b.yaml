@@ -1,0 +1,107 @@
+independent_variables:
+- header: {name: '$p_T$ (GeV/$c$)'}
+  values:
+  - {low: 0.5, high: 1.0}
+  - {low: 1.0, high: 1.5}
+  - {low: 1.5, high: 2.0}
+  - {low: 2.0, high: 2.5}
+  - {low: 2.5, high: 3.0}
+  - {low: 3.0, high: 4.0}
+  - {low: 4.0, high: 5.0}
+dependent_variables:
+- header: {name: '$v_2$'}
+  qualifiers:
+  - {name: 'Centrality', value: '0-20%'}
+  values:
+  - value: 4.35e-02
+    errors:
+    - {symerror: 5.39e-04, label: 'stat.'}
+    - {symerror: 3.09e-03, label: 'sys.'}
+  - value: 6.84e-02
+    errors:
+    - {symerror: 1.03e-03, label: 'stat.'}
+    - {symerror: 5.09e-03, label: 'sys.'}
+  - value: 8.95e-02
+    errors:
+    - {symerror: 2.29e-03, label: 'stat.'}
+    - {symerror: 6.38e-03, label: 'sys.'}
+  - value: 1.07e-01
+    errors:
+    - {symerror: 5.04e-03, label: 'stat.'}
+    - {symerror: 7.91e-03, label: 'sys.'}
+  - value: 1.21e-01
+    errors:
+    - {symerror: 1.04e-02, label: 'stat.'}
+    - {symerror: 9.93e-03, label: 'sys.'}
+  - value: 1.04e-01
+    errors:
+    - {symerror: 1.82e-02, label: 'stat.'}
+    - {symerror: 7.45e-03, label: 'sys.'}
+  - value: 1.55e-01
+    errors:
+    - {symerror: 5.66e-02, label: 'stat.'}
+    - {symerror: 1.10e-02, label: 'sys.'}
+- header: {name: '$v_2$'}
+  qualifiers:
+  - {name: 'Centrality', value: '20-40%'}
+  values:
+  - value: 8.43e-02
+    errors:
+    - {symerror: 6.58e-04, label: 'stat.'}
+    - {symerror: 5.99e-03, label: 'sys.'}
+  - value: 1.30e-01
+    errors:
+    - {symerror: 1.27e-03, label: 'stat.'}
+    - {symerror: 9.38e-03, label: 'sys.'}
+  - value: 1.70e-01
+    errors:
+    - {symerror: 2.89e-03, label: 'stat.'}
+    - {symerror: 1.24e-02, label: 'sys.'}
+  - value: 1.92e-01
+    errors:
+    - {symerror: 6.31e-03, label: 'stat.'}
+    - {symerror: 1.36e-02, label: 'sys.'}
+  - value: 2.12e-01
+    errors:
+    - {symerror: 1.28e-02, label: 'stat.'}
+    - {symerror: 1.51e-02, label: 'sys.'}
+  - value: 1.98e-01
+    errors:
+    - {symerror: 2.19e-02, label: 'stat.'}
+    - {symerror: 2.07e-02, label: 'sys.'}
+  - value: 2.79e-01
+    errors:
+    - {symerror: 6.62e-02, label: 'stat.'}
+    - {symerror: 7.36e-02, label: 'sys.'}
+- header: {name: '$v_2$'}
+  qualifiers:
+  - {name: 'Centrality', value: 'Minimum Bias'}
+  values:
+  - value: 6.09e-02
+    errors:
+    - {symerror: 4.90e-04, label: 'stat.'}
+    - {symerror: 6.67e-03, label: 'sys.'}
+  - value: 9.38e-02
+    errors:
+    - {symerror: 9.11e-04, label: 'stat.'}
+    - {symerror: 1.06e-02, label: 'sys.'}
+  - value: 1.21e-01
+    errors:
+    - {symerror: 2.01e-03, label: 'stat.'}
+    - {symerror: 1.32e-02, label: 'sys.'}
+  - value: 1.40e-01
+    errors:
+    - {symerror: 4.38e-03, label: 'stat.'}
+    - {symerror: 1.54e-02, label: 'sys.'}
+  - value: 1.51e-01
+    errors:
+    - {symerror: 9.03e-03, label: 'stat.'}
+    - {symerror: 1.65e-02, label: 'sys.'}
+  - value: 1.24e-01
+    errors:
+    - {symerror: 1.57e-02, label: 'stat.'}
+    - {symerror: 2.07e-02, label: 'sys.'}
+  - value: 1.94e-01
+    errors:
+    - {symerror: 4.81e-02, label: 'stat.'}
+    - {symerror: 3.75e-02, label: 'sys.'}

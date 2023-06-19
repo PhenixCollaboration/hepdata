@@ -1,0 +1,68 @@
+independent_variables:
+- header: {name: '$p_T$ (GeV/$c$)'}
+  values:
+  - {low: 0.6, high: 0.7}
+  - {low: 0.7, high: 0.8}
+  - {low: 0.8, high: 0.9}
+  - {low: 0.9, high: 1.0}
+  - {low: 1.0, high: 1.2}
+  - {low: 1.2, high: 1.4}
+  - {low: 1.4, high: 1.6}
+  - {low: 1.6, high: 1.8}
+  - {low: 1.8, high: 2.0}
+  - {low: 2.0, high: 2.4}
+  - {low: 2.4, high: 3.0}
+  - {low: 3.0, high: 3.6}
+dependent_variables:
+- header: {name: '$v_2$'}
+  qualifiers:
+  - {name: 'Centrality', value: '0-10%'}
+  values:
+  - value: 5.01e-03
+    errors:
+    - {symerror: 2.36e-03, label: 'stat.'}
+    - {symerror: 7.51e-04, label: 'sys.'}
+  - value: 7.71e-03
+    errors:
+    - {symerror: 2.22e-03, label: 'stat.'}
+    - {symerror: 1.47e-03, label: 'sys.'}
+  - value: 1.39e-02
+    errors:
+    - {symerror: 2.16e-03, label: 'stat.'}
+    - {symerror: 1.70e-03, label: 'sys.'}
+  - value: 2.26e-02
+    errors:
+    - {symerror: 2.17e-03, label: 'stat.'}
+    - {symerror: 3.30e-03, label: 'sys.'}
+  - value: 2.84e-02
+    errors:
+    - {symerror: 1.60e-03, label: 'stat.'}
+    - {symerror: 4.03e-03, label: 'sys.'}
+  - value: 3.93e-02
+    errors:
+    - {symerror: 1.77e-03, label: 'stat.'}
+    - {symerror: 5.47e-03, label: 'sys.'}
+  - value: 5.30e-02
+    errors:
+    - {symerror: 2.05e-03, label: 'stat.'}
+    - {symerror: 6.53e-03, label: 'sys.'}
+  - value: 6.35e-02
+    errors:
+    - {symerror: 2.47e-03, label: 'stat.'}
+    - {symerror: 3.30e-03, label: 'sys.'}
+  - value: 6.90e-02
+    errors:
+    - {symerror: 3.07e-03, label: 'stat.'}
+    - {symerror: 3.46e-03, label: 'sys.'}
+  - value: 8.23e-02
+    errors:
+    - {symerror: 2.85e-03, label: 'stat.'}
+    - {symerror: 4.29e-03, label: 'sys.'}
+  - value: 9.44e-02
+    errors:
+    - {symerror: 5.27e-03, label: 'stat.'}
+    - {symerror: 5.27e-03, label: 'sys.'}
+  - value: 1.04e-01
+    errors:
+    - {symerror: 9.46e-03, label: 'stat.'}
+    - {symerror: 7.36e-03, label: 'sys.'}
