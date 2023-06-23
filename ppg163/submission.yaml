@@ -1,0 +1,31 @@
+#PHENIX paper PPG163
+#
+#TITLE: Nuclear matter effects on $J/\psi$ production in asymmetric $Cu$+$Au$ collisions at $\sqrt{S_{NN}}$=200 $GeV$.
+#
+#PRC 90 (2014) 064908
+#InspireHEP ID: 1288921
+#
+#Prepared by Hugh Jones
+#Please contact Christine Nattrass if you have any questions about this submission
+#PPG liaison:
+#Reviewer:
+#
+comment: | # Information that applies to all data tables.
+  We report on $J/{\psi}$ production from asymmetric Cu+Au heavy-ion collisions at $\sqrt{S_{NN}}$=200 $GeV$ at the Relativistic Heavy Ion Collider at both forward (Cu-going direction) and backward (Au-going direction) rapidities. The nuclear modification of $J/{\psi}$ yields in Cu+Au collisions in the Au-going direction is found to be comparable to that in Au+Au collisions when plotted as a function of the number of participating nucleons. In the Cu-going direction, $J/{\psi}$ production shows a stronger suppression. This diverence is comparable in magnitude and has the same sign as the diverence expected from shadowing effects due to stronger low-$x$ gluon suppression in the larger Au nucleus. The relative suppression is opposite to that expected from hot nuclear matter dissociation, since a higher energy density is expected in the Au-going direction.
+additional_resources:
+- {location: "https://phenix-intra.sdcc.bnl.gov/phenix/WWW/p/info/ppg/163/", description: "web page with data points"}
+- {location: "http://arxiv.org/abs/1404.1873", description: arXiv}
+- {location: "https://inspirehep.net/literature/1288921", description: InspireHEP}
+---
+# This is Table IV.
+name: "Table IV"
+location: Data From Table IV of PRC 90 (2014) 064908
+description: Nuclear modification factor ($R_{AA}$) at forward (1.2<$y$<2.2 Cu-going) and backward (-2.2<$y$<-1.2 Au-going) rapidity and forward/backward ratio as a function of centrality (%).
+keywords: # used for searching, possibly mutliple values for each keywords
+- {name: reactions, values: [Cu Au --> CHARGED X]}
+- {name: cmenergies, values: [200.0]}
+- {name: phrases, values: [ppg163]}
+data_file: ppg163tab4.yaml
+additional_resources:
+- {description: Thumbnail Image file, location: thumb_table7.png}
+---

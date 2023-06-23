@@ -1,0 +1,26 @@
+independent_variables:
+- header: {name: '$p_T$ (GeV/$c$)'}
+  values:
+  - {low: 0, high: 1}
+  - {low: 1, high: 2}
+  - {low: 2, high: 3}
+  - {low: 3, high: 5}
+dependent_variables:
+- header: {name: '${B^{\psi^{\prime}}_{ee}\sigma_{\psi^{\prime}}}/{B^{J/\psi}_{ee}\sigma_{J/\psi}}$ (%)'}
+  values:
+  - value: 1.69
+    errors:
+    - {symerror: 0.51, label: 'uncorr.'}
+    - {asymerror: {plus: 0.12, minus: 0.11}, label: 'corr.'}
+  - value: 1.96
+    errors:
+    - {symerror: 0.53, label: 'uncorr.'}
+    - {asymerror: {plus: 0.23, minus: 0.15}, label: 'corr.'}
+  - value: 2.3
+    errors:
+    - {symerror: 1.0, label: 'uncorr.'}
+    - {asymerror: {plus: 0.5, minus: 0.3}, label: 'corr.'}
+  - value: 3.4
+    errors:
+    - {asymerror: {plus: 2.0, minus: 2.1}, label: 'uncorr.'}
+    - {asymerror: {plus: 0.5, minus: 0.4}, label: 'corr.'}

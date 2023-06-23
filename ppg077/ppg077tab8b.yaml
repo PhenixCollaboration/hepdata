@@ -1,0 +1,52 @@
+independent_variables:
+- header: {name: 'Centrality (%)'}
+  values:
+  - value: 'min. bias'
+  - value: '$p$+$p$'
+dependent_variables:
+- header: {name: '$T_{AA}$ (mb$^{-1}$)'}
+  values:
+  - value: 6.14
+    errors:
+    - {symerror: 0.50, label: 'stat.'}
+  - value: 'N/A'
+- header: {name: '${d\sigma^e}/{dy}$$|_{p_T > 0.4}$ ($\mu$b)'}
+  values:
+  - value: 5.96
+    errors:
+    - {symerror: 0.08, label: 'stat.'}
+    - {symerror: 0.96, label: 'sys.'}
+  - value: 5.79
+    errors:
+    - {symerror: 0.59, label: 'stat.'}
+    - {symerror: 1.64, label: 'sys.'}
+- header: {name: '${d\sigma^e_{c\bar{c}}}/{dy}$ ($\mu$b)'}
+  values:
+  - value: 10.9
+    errors:
+    - {symerror: 0.2, label: 'stat.'}
+    - {symerror: 2.1, label: 'sys.'}
+  - value: 10.7
+    errors:
+    - {symerror: 1.1, label: 'stat.'}
+    - {symerror: 3.2, label: 'sys.'}
+- header: {name: '${d\sigma_{c\bar{c}}}/{dy}$ ($\mu$b)'}
+  values:
+  - value: 123
+    errors:
+    - {symerror: 2, label: 'stat.'}
+    - {symerror: 27, label: 'sys.'}
+  - value: 119
+    errors:
+    - {symerror: 12, label: 'stat.'}
+    - {symerror: 38, label: 'sys.'}
+- header: {name: '$\sigma_{c\bar{c}}$ ($\mu$b)'}
+  values:
+  - value: 568
+    errors:
+    - {symerror: 8, label: 'stat.'}
+    - {symerror: 150, label: 'sys.'}
+  - value: 551
+    errors:
+    - {symerror: 57, label: 'stat.'}
+    - {symerror: 195, label: 'sys.'}

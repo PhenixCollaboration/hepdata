@@ -1,0 +1,73 @@
+independent_variables:
+- header: {name: '$p_T$ (GeV/$c$)'}
+  values:
+  - {low: 0.50, high: 0.60}
+  - {low: 0.60, high: 0.70}
+  - {low: 0.70, high: 0.80}
+  - {low: 0.80, high: 0.90}
+  - {low: 0.90, high: 1.00}
+  - {low: 1.00, high: 1.20}
+  - {low: 1.20, high: 1.40}
+  - {low: 1.40, high: 1.60}
+  - {low: 1.60, high: 2.00}
+  - {low: 2.00, high: 2.40}
+  - {low: 2.40, high: 3.00}
+  - {low: 3.00, high: 3.50}
+  - {low: 3.50, high: 5.50}
+dependent_variables:
+- header: {name: '$v_2$'}
+  qualifiers:
+  - {name: 'Centrality', value: '0-92%'}
+  values:
+  - value: 4.01e-2
+    errors:
+    - {symerror: 6.4e-2, label: 'stat.'}
+    - {symerror: 1.9e-2, label: 'sys.'}
+  - value: 4.08e-2
+    errors:
+    - {symerror: 7.1e-3, label: 'stat.'}
+    - {symerror: 1.9e-2, label: 'sys.'}
+  - value: 3.85e-2
+    errors:
+    - {symerror: 7.4e-3, label: 'stat.'}
+    - {symerror: 1.7e-2, label: 'sys.'}
+  - value: 6.26e-2
+    errors:
+    - {symerror: 7.7e-3, label: 'stat.'}
+    - {symerror: 1.5e-2, label: 'sys.'}
+  - value: 6.25e-2
+    errors:
+    - {symerror: 8.6e-3, label: 'stat.'}
+    - {symerror: 1.4e-2, label: 'sys.'}
+  - value: 5.63e-2
+    errors:
+    - {symerror: 7.0e-3, label: 'stat.'}
+    - {symerror: 1.2e-2, label: 'sys.'}
+  - value: 6.98e-2
+    errors:
+    - {symerror: 9.2e-3, label: 'stat.'}
+    - {symerror: 1.2e-2, label: 'sys.'}
+  - value: 9.20e-1
+    errors:
+    - {symerror: 1.0e-2, label: 'stat.'}
+    - {symerror: 1.1e-2, label: 'sys.'}
+  - value: 8.70e-1
+    errors:
+    - {symerror: 1.5e-2, label: 'stat.'}
+    - {symerror: 1.1e-2, label: 'sys.'}
+  - value: 6.92e-2
+    errors:
+    - {symerror: 1.8e-2, label: 'stat.'}
+    - {symerror: 9.3e-3, label: 'sys.'}
+  - value: 7.06e-2
+    errors:
+    - {symerror: 3.1e-2, label: 'stat.'}
+    - {symerror: 8.4e-3, label: 'sys.'}
+  - value: 3.08e-2
+    errors:
+    - {symerror: 4.7e-2, label: 'stat.'}
+    - {symerror: 7.9e-3, label: 'sys.'}
+  - value: 9.86e-3
+    errors:
+    - {symerror: 6.5e-2, label: 'stat.'}
+    - {symerror: 9.6e-2, label: 'sys.'}

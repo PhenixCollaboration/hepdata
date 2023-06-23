@@ -1,0 +1,105 @@
+independent_variables:
+- header: {name: '$p_T$'}
+  values:
+  - {low: 0.400, high: 0.500}
+  - {low: 0.500, high: 0.625}
+  - {low: 0.625, high: 0.750}
+  - {low: 0.750, high: 0.875}
+  - {low: 0.875, high: 1.00}
+  - {low: 1.00, high: 1.25}
+  - {low: 1.25, high: 1.50}
+  - {low: 1.50, high: 1.75}
+  - {low: 1.75, high: 4.00}
+- header: {name: '$\langle p_T \rangle$'}
+  values: 
+  - {value: 0.448}
+  - {value: 0.558}
+  - {value: 0.682}
+  - {value: 0.806}
+  - {value: 0.932}
+  - {value: 1.11}
+  - {value: 1.36}
+  - {value: 1.61}
+  - {value: 2.14}
+
+dependent_variables:
+- header: {name: '$v_2$'}
+  qualifiers:
+  - {name: '$p_T$ [GeV/$c$]', value: 'Inclusive electron'}
+  values:
+  - value: 0.0736
+    errors:
+    - {symerror: 0.0033, label: 'stat.'}
+    - {asymerror: {plus: 0.0055, minus: -0.0033}, label: 'sys.'}
+  - value: 0.0807
+    errors:
+    - {symerror: 0.0038, label: 'stat.'}
+    - {asymerror: {plus: 0.0044, minus: -0.0055}, label: 'sys.'}
+  - value: 0.0933
+    errors:
+    - {symerror: 0.0051, label: 'stat.'}
+    - {asymerror: {plus: 0.0048, minus: -0.0080}, label: 'sys.'}
+  - value: 0.0985
+    errors:
+    - {symerror: 0.0066, label: 'stat.'}
+    - {asymerror: {plus: 0.011, minus: -0.0059}, label: 'sys.'}
+  - value: 0.0988
+    errors:
+    - {symerror: 0.0086, label: 'stat.'}
+    - {asymerror: {plus: 0.012, minus: -0.0063}, label: 'sys.'}
+  - value: 0.109
+    errors:
+    - {symerror: 0.0086, label: 'stat.'}
+    - {asymerror: {plus: 0.0069, minus: -0.0080}, label: 'sys.'}
+  - value: 0.119
+    errors:
+    - {symerror: 0.013, label: 'stat.'}
+    - {asymerror: {plus: 0.022, minus: -0.0068}, label: 'sys.'}
+  - value: 0.145
+    errors:
+    - {symerror: 0.021, label: 'stat.'}
+    - {asymerror: {plus: 0.019, minus: -0.012}, label: 'sys.'}
+  - value: 0.0757
+    errors:
+    - {symerror: 0.021, label: 'stat.'}
+    - {asymerror: {plus: 0.024, minus: -0.029}, label: 'sys.'}
+- header: {name: '$v_2$'}
+  qualifiers:
+  - {name: '$p_T$ [GeV/$c$]', value: 'Heavy flavor electron'}
+  values:
+  - value: 0.0863
+    errors:
+    - {symerror: 0.024, label: 'stat.'}
+    - {asymerror: {plus: 0.029, minus: -0.015}, label: 'sys.'}
+  - value: 0.0673
+    errors:
+    - {symerror: 0.022, label: 'stat.'}
+    - {asymerror: {plus: 0.017, minus: -0.025}, label: 'sys.'}
+  - value: 0.0852
+    errors:
+    - {symerror: 0.023, label: 'stat.'}
+    - {asymerror: {plus: 0.015, minus: -0.032}, label: 'sys.'}
+  - value: 0.0761
+    errors:
+    - {symerror: 0.026, label: 'stat.'}
+    - {asymerror: {plus: 0.039, minus: -0.022}, label: 'sys.'}
+  - value: 0.0573
+    errors:
+    - {symerror: 0.031, label: 'stat.'}
+    - {asymerror: {plus: 0.040, minus: -0.025}, label: 'sys.'}
+  - value: 0.0735
+    errors:
+    - {symerror: 0.027, label: 'stat.'}
+    - {asymerror: {plus: 0.023, minus: -0.027}, label: 'sys.'}
+  - value: 0.0876
+    errors:
+    - {symerror: 0.038, label: 'stat.'}
+    - {asymerror: {plus: 0.062, minus: -0.023}, label: 'sys.'}
+  - value: 0.147
+    errors:
+    - {symerror: 0.053, label: 'stat.'}
+    - {asymerror: {plus: 0.049, minus: -0.033}, label: 'sys.'}
+  - value: -0.0243
+    errors:
+    - {symerror: 0.050, label: 'stat.'}
+    - {asymerror: {plus: 0.089, minus: -0.084}, label: 'sys.'}

@@ -1,0 +1,11 @@
+independent_variables:
+- header: {name: '$p_T$ (GeV/$c$)'}
+  values:
+  - {low: 0, high: 5}
+dependent_variables:
+- header: {name: '$1/{2\pi{p_T}}$${B_{ee}d^2\sigma_{J/\psi^{\prime}}}/{dyd{p_T}}$ (pb/(GeV/$c$)$^2$)'}
+  values:
+  - value: 95
+    errors:
+    - {symerror: 20, label: 'uncorr.'}
+    - {asymerror: {plus: 17, minus: 15}, label: 'corr.'}

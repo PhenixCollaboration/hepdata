@@ -1,0 +1,114 @@
+independent_variables:
+- header: {name: 'Centrality (%)'}
+  values:
+  - {low: 0, high: 10}
+  - {low: 10, high: 20}
+  - {low: 20, high: 40}
+  - {low: 40, high: 60}
+  - {low: 60, high: 92}
+dependent_variables:
+- header: {name: '$T_{AA}$ (mb$^{-1}$)'}
+  values:
+  - value: 22.8
+    errors:
+    - {symerror: 1.6, label: 'stat.'}
+  - value: 14.4
+    errors:
+    - {symerror: 1.0, label: 'stat.'}
+  - value: 7.07
+    errors:
+    - {symerror: 0.58, label: 'stat.'}
+  - value: 2.16
+    errors:
+    - {symerror: 0.26, label: 'stat.'}
+  - value: 0.35
+    errors:
+    - {symerror: 0.10, label: 'stat.'}
+- header: {name: '${d\sigma^e}/{dy}$$|_{p_T > 0.4}$ ($\mu$b)'}
+  values:
+  - value: 6.50
+    errors:
+    - {symerror: 0.12, label: 'stat.'}
+    - {symerror: 0.92, label: 'sys.'}
+  - value: 6.30
+    errors:
+    - {symerror: 0.13, label: 'stat.'}
+    - {symerror: 0.96, label: 'sys.'}
+  - value: 6.15
+    errors:
+    - {symerror: 0.13, label: 'stat.'}
+    - {symerror: 1.07, label: 'sys.'}
+  - value: 6.64
+    errors:
+    - {symerror: 0.22, label: 'stat.'}
+    - {symerror: 1.28, label: 'sys.'}
+  - value: 5.98
+    errors:
+    - {symerror: 0.42, label: 'stat.'}
+    - {symerror: 1.68, label: 'sys.'}
+- header: {name: '${d\sigma^e_{c\bar{c}}}/{dy}$ ($\mu$b)'}
+  values:
+  - value: 11.9
+    errors:
+    - {symerror: 0.2, label: 'stat.'}
+    - {symerror: 2.0, label: 'sys.'}
+  - value: 11.6
+    errors:
+    - {symerror: 0.2, label: 'stat.'}
+    - {symerror: 2.1, label: 'sys.'}
+  - value: 11.3
+    errors:
+    - {symerror: 0.2, label: 'stat.'}
+    - {symerror: 2.2, label: 'sys.'}
+  - value: 12.2
+    errors:
+    - {symerror: 0.4, label: 'stat.'}
+    - {symerror: 2.6, label: 'sys.'}
+  - value: 11.0
+    errors:
+    - {symerror: 0.8, label: 'stat.'}
+    - {symerror: 2.4, label: 'sys.'}
+- header: {name: '${d\sigma_{c\bar{c}}}/{dy}$ ($\mu$b)'}
+  values:
+  - value: 134
+    errors:
+    - {symerror: 2, label: 'stat.'}
+    - {symerror: 27, label: 'sys.'}
+  - value: 130
+    errors:
+    - {symerror: 3, label: 'stat.'}
+    - {symerror: 27, label: 'sys.'}
+  - value: 127
+    errors:
+    - {symerror: 3, label: 'stat.'}
+    - {symerror: 29, label: 'sys.'}
+  - value: 137
+    errors:
+    - {symerror: 5, label: 'stat.'}
+    - {symerror: 33, label: 'sys.'}
+  - value: 123
+    errors:
+    - {symerror: 9, label: 'stat.'}
+    - {symerror: 39, label: 'sys.'}
+- header: {name: '$\sigma_{c\bar{c}}$ ($\mu$b)'}
+  values:
+  - value: 620
+    errors:
+    - {symerror: 11, label: 'stat.'}
+    - {symerror: 156, label: 'sys.'}
+  - value: 600
+    errors:
+    - {symerror: 12, label: 'stat.'}
+    - {symerror: 155, label: 'sys.'}
+  - value: 586
+    errors:
+    - {symerror: 12, label: 'stat.'}
+    - {symerror: 159, label: 'sys.'}
+  - value: 633
+    errors:
+    - {symerror: 21, label: 'stat.'}
+    - {symerror: 180, label: 'sys.'}
+  - value: 570
+    errors:
+    - {symerror: 40, label: 'stat.'}
+    - {symerror: 201, label: 'sys.'}

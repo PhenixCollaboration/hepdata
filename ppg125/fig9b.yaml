@@ -1,0 +1,76 @@
+independent_variables:
+- header: {name: '$p_T$ [GeV/$c$]'}
+  values:
+  - {low: 0.00, high: 0.50}
+  - {low: 0.50, high: 1.00}
+  - {low: 1.00, high: 1.50}
+  - {low: 1.50, high: 2.00}
+  - {low: 2.00, high: 2.50}
+  - {low: 2.50, high: 3.00}
+  - {low: 3.00, high: 3.50}
+  - {low: 3.50, high: 4.00}
+  - {low: 4.00, high: 5.00}
+  - {low: 5.00, high: 7.00}
+  - {low: 7.00, high: 9.00}
+dependent_variables:
+- header: {name: '$R_{dAu}$'}
+  qualifiers:
+  - {name: 'Rapidity', value: '[-0.35,0.35]'}
+  - {name: 'Centrality (%)', value: 'Minimum Bias'}
+  values:
+  - value: 0.78
+    errors:
+    - {symerror: 0.07, label: 'Type A sys.'}
+    - {symerror: 0.11, label: 'Type B sys.'}
+    - {symerror: 0.06, label: 'Type C sys.'}
+  - value: 0.69
+    errors:
+    - {symerror: 0.04, label: 'Type A sys.'}
+    - {symerror: 0.09, label: 'Type B sys.'}
+    - {symerror: 0.06, label: 'Type C sys.'}
+  - value: 0.680
+    errors:
+    - {symerror: 0.035, label: 'Type A sys.'}
+    - {symerror: 0.09, label: 'Type B sys.'}
+    - {symerror: 0.05, label: 'Type C sys.'}
+  - value: 0.78
+    errors:
+    - {symerror: 0.05, label: 'Type A sys.'}
+    - {symerror: 0.10, label: 'Type B sys.'}
+    - {symerror: 0.06, label: 'Type C sys.'}
+  - value: 0.90
+    errors:
+    - {symerror: 0.08, label: 'Type A sys.'}
+    - {symerror: 0.12, label: 'Type B sys.'}
+    - {symerror: 0.07, label: 'Type C sys.'}
+  - value: 0.84
+    errors:
+    - {symerror: 0.09, label: 'Type A sys.'}
+    - {symerror: 0.11, label: 'Type B sys.'}
+    - {symerror: 0.07, label: 'Type C sys.'}
+  - value: 1.00
+    errors:
+    - {symerror: 0.14, label: 'Type A sys.'}
+    - {symerror: 0.13, label: 'Type B sys.'}
+    - {symerror: 0.08, label: 'Type C sys.'}
+  - value: 1.10
+    errors:
+    - {symerror: 0.21, label: 'Type A sys.'}
+    - {symerror: 0.15, label: 'Type B sys.'}
+    - {symerror: 0.09, label: 'Type C sys.'}
+  - value: 1.100
+    errors:
+    - {asymerror: {plus: 0.22, minus: -0.21}, label: 'Type A sys.'}
+    - {symerror: 0.14, label: 'Type B sys.'}
+    - {symerror: 0.08, label: 'Type C sys.'}
+  - value: 0.910
+    errors:
+    - {symerror: 0.21, label: 'Type A sys.'}
+    - {asymerror: {plus: 0.11, minus: -0.13}, label: 'Type B sys.'}
+    - {symerror: 0.07, label: 'Type C sys.'}
+  - value: 0.770
+    errors:
+    - {asymerror: {plus: 0.4, minus: -0.34}, label: 'Type A sys.'}
+    - {asymerror: {plus: 0.09, minus: -0.12}, label: 'Type B sys.'}
+    - {symerror: 0.06, label: 'Type C sys.'}
+

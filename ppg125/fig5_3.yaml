@@ -1,0 +1,76 @@
+independent_variables:
+- header: {name: '$p_T$ [GeV/$c$]'}
+  values:
+  - {low: 0.00, high: 0.50}
+  - {low: 0.50, high: 1.00}
+  - {low: 1.00, high: 1.50}
+  - {low: 1.50, high: 2.00}
+  - {low: 2.00, high: 2.50}
+  - {low: 2.50, high: 3.00}
+  - {low: 3.00, high: 3.50}
+  - {low: 3.50, high: 4.00}
+  - {low: 4.00, high: 5.00}
+  - {low: 5.00, high: 7.00}
+  - {low: 7.00, high: 9.00}
+dependent_variables:
+- header: {name: '$B_{ll}d^2N/(2\pi p_Tdydp_T)$ [(GeV/$c$)$^{-2}$]'}
+  qualifiers:
+  - {name: 'Rapidity', value: '[-0.35,0.35]'}
+  - {name: 'Centrality (%)', value: '40-60'}
+  values:
+  - value: 6.39e-7
+    errors:
+    - {symerror: 6e-8, label: 'Type A sys.'}
+    - {symerror: 4e-8, label: 'Type B sys.'}
+    - {symerror: 1.2e-8, label: 'Type C sys.'}
+  - value: 4.23e-7
+    errors:
+    - {symerror: 3.0e-8, label: 'Type A sys.'}
+    - {symerror: 2.8e-8, label: 'Type B sys.'}
+    - {symerror: 8e-9, label: 'Type C sys.'}
+  - value: 3.07e-7
+    errors:
+    - {symerror: 2.1e-8, label: 'Type A sys.'}
+    - {symerror: 2.1e-8, label: 'Type B sys.'}
+    - {symerror: 6e-9, label: 'Type C sys.'}
+  - value: 1.90e-7
+    errors:
+    - {symerror: 1.5e-8, label: 'Type A sys.'}
+    - {symerror: 1.3e-8, label: 'Type B sys.'}
+    - {symerror: 4e-9, label: 'Type C sys.'}
+  - value: 1.200e-7
+    errors:
+    - {symerror: 1.2e-8, label: 'Type A sys.'}
+    - {symerror: 8e-9, label: 'Type B sys.'}
+    - {symerror: 2.3e-9, label: 'Type C sys.'}
+  - value: 6.00e-8
+    errors:
+    - {symerror: 9e-9, label: 'Type A sys.'}
+    - {symerror: 4e-9, label: 'Type B sys.'}
+    - {symerror: 1.2e-9, label: 'Type C sys.'}
+  - value: 3.03e-8
+    errors:
+    - {symerror: 6e-9, label: 'Type A sys.'}
+    - {symerror: 2.0e-9, label: 'Type B sys.'}
+    - {symerror: 6e-10, label: 'Type C sys.'}
+  - value: 1.350e-8
+    errors:
+    - {symerror: 5e-9, label: 'Type A sys.'}
+    - {symerror: 9e-10, label: 'Type B sys.'}
+    - {symerror: 2.6e-10, label: 'Type C sys.'}
+  - value: 8.04e-9
+    errors:
+    - {symerror: 2.1e-9, label: 'Type A sys.'}
+    - {symerror: 5e-10, label: 'Type B sys.'}
+    - {symerror: 1.6e-10, label: 'Type C sys.'}
+  - value: 2.34e-9
+    errors:
+    - {symerror: 5e-10, label: 'Type A sys.'}
+    - {symerror: 1.6e-10, label: 'Type B sys.'}
+    - {symerror: 5e-11, label: 'Type C sys.'}
+  - value: 1.630e-11
+    errors:
+    - {symerror: 1.1e-10, label: 'Type A sys.'}
+    - {symerror: 1.1e-12, label: 'Type B sys.'}
+    - {symerror: 3.2e-13, label: 'Type C sys.'}
+    

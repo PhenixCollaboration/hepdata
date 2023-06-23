@@ -1,0 +1,188 @@
+independent_variables:
+- header: {name: 'Centrality (%)'}
+  values:
+  - {low: 0, high: 10}
+  - {low: 10, high: 20}
+  - {low: 20, high: 30}
+  - {low: 30, high: 40}
+  - {low: 40, high: 50}
+  - {low: 50, high: 60}
+dependent_variables:
+- header: {name: '$N_{part}$'}
+  qualifiers:
+  - {name: '$p_T$', value: ''}
+  values:
+  - value: 93.3
+  - value: 71.1
+  - value: 51.3
+  - value: 36.2
+  - value: 24.9
+  - value: 16.1
+- header: {name: '$v_2$'}
+  qualifiers:
+  - {name: '$p_T$', value: '0.2 - 1.0 (GeV)'}
+  values:
+  - value: 2.91e-02
+    errors:
+    - {symerror: 8.4e-04, label: 'stat.'}
+    - {symerror: 4.5e-03, label: 'sys.'}
+  - value: 3.52e-02
+    errors:
+    - {symerror: 7.5e-04, label: 'stat.'}
+    - {symerror: 3.6e-03, label: 'sys.'}
+  - value: 3.91e-02
+    errors:
+    - {symerror: 9.1e-04, label: 'stat.'}
+    - {symerror: 3.0e-03, label: 'sys.'}
+  - value: 3.75e-02
+    errors:
+    - {symerror: 1.2e-03, label: 'stat.'}
+    - {symerror: 2.0e-03, label: 'sys.'}
+  - value: 3.90e-02
+    errors:
+    - {symerror: 1.8e-03, label: 'stat.'}
+    - {symerror: 2.7e-03, label: 'sys.'}
+  - value: 3.33e-02
+    errors:
+    - {symerror: 2.5e-03, label: 'stat.'}
+    - {symerror: 3.0e-03, label: 'sys.'}
+- header: {name: '$v_2$'}
+  qualifiers:
+  - {name: '$p_T$', value: '1.0 - 2.0 (GeV)'}
+  values:
+  - value: 6.41e-02
+    errors:
+    - {symerror: 1.9e-03, label: 'stat.'}
+    - {symerror: 9.6e-03, label: 'sys.'}
+  - value: 7.34e-02
+    errors:
+    - {symerror: 1.7e-03, label: 'stat.'}
+    - {symerror: 7.1e-03, label: 'sys.'}
+  - value: 8.71e-02
+    errors:
+    - {symerror: 2.1e-03, label: 'stat.'}
+    - {symerror: 6.2e-03, label: 'sys.'}
+  - value: 8.65e-02
+    errors:
+    - {symerror: 2.8e-03, label: 'stat.'}
+    - {symerror: 4.0e-03, label: 'sys.'}
+  - value: 8.23e-02
+    errors:
+    - {symerror: 4.4e-03, label: 'stat.'}
+    - {symerror: 5.3e-03, label: 'sys.'}
+  - value: 6.68e-02
+    errors:
+    - {symerror: 6.2e-03, label: 'stat.'}
+    - {symerror: 5.8e-03, label: 'sys.'}
+- header: {name: '$v_2$'}
+  qualifiers:
+  - {name: '$p_T$', value: '2.0 - 4.0 (GeV)'}
+  values:
+  - value: 8.61e-02
+    errors:
+    - {symerror: 7.1e-03, label: 'stat.'}
+    - {symerror: 1.3e-02, label: 'sys.'}
+  - value: 9.71e-02
+    errors:
+    - {symerror: 6.3e-03, label: 'stat.'}
+    - {symerror: 9.8e-03, label: 'sys.'}
+  - value: 1.18e-01
+    errors:
+    - {symerror: 7.7e-03, label: 'stat.'}
+    - {symerror: 9.1e-03, label: 'sys.'}
+  - value: 1.31e-01
+    errors:
+    - {symerror: 1.0e-02, label: 'stat.'}
+    - {symerror: 7.1e-03, label: 'sys.'}
+  - value: 9.32e-02
+    errors:
+    - {symerror: 1.6e-02, label: 'stat.'}
+    - {symerror: 6.5e-03, label: 'sys.'}
+  - value: 1.15e-01
+    errors:
+    - {symerror: 2.3e-02, label: 'stat.'}
+    - {symerror: 1.1e-02, label: 'sys.'}
+- header: {name: '$v_2$/$\epsilon$'}
+  qualifiers:
+  - {name: '$p_T$', value: '0.2 - 1.0 (GeV)'}
+  values:
+  - value: 1.72e-01
+    errors:
+    - {symerror: 5.0e-03, label: 'stat.'}
+    - {symerror: 2.7e-02, label: 'sys.'}
+  - value: 1.42e-01
+    errors:
+    - {symerror: 3.0e-03, label: 'stat.'}
+    - {symerror: 1.5e-02, label: 'sys.'}
+  - value: 1.21e-01
+    errors:
+    - {symerror: 2.8e-03, label: 'stat.'}
+    - {symerror: 9.5e-03, label: 'sys.'}
+  - value: 9.19e-02
+    errors:
+    - {symerror: 2.9e-03, label: 'stat.'}
+    - {symerror: 5.2e-03, label: 'sys.'}
+  - value: 7.89e-02
+    errors:
+    - {symerror: 3.7e-03, label: 'stat.'}
+    - {symerror: 5.8e-03, label: 'sys.'}
+  - value: 5.68e-02
+    errors:
+    - {symerror: 4.3e-03, label: 'stat.'}
+    - {symerror: 5.2e-03, label: 'sys.'}
+- header: {name: '$v_2$/$\epsilon$'}
+  qualifiers:
+  - {name: '$p_T$', value: '1.0 - 2.0 (GeV)'}
+  values:
+  - value: 3.79e-01
+    errors:
+    - {symerror: 1.1e-02, label: 'stat.'}
+    - {symerror: 5.7e-02, label: 'sys.'}
+  - value: 2.96e-01
+    errors:
+    - {symerror: 6.9e-03, label: 'stat.'}
+    - {symerror: 3.0e-02, label: 'sys.'}
+  - value: 2.69e-01
+    errors:
+    - {symerror: 6.5e-03, label: 'stat.'}
+    - {symerror: 2.0e-02, label: 'sys.'}
+  - value: 2.12e-01
+    errors:
+    - {symerror: 6.9e-03, label: 'stat.'}
+    - {symerror: 1.0e-02, label: 'sys.'}
+  - value: 1.66e-01
+    errors:
+    - {symerror: 8.8e-03, label: 'stat.'}
+    - {symerror: 1.1e-02, label: 'sys.'}
+  - value: 1.14e-01
+    errors:
+    - {symerror: 1.1e-02, label: 'stat.'}
+    - {symerror: 1.0e-02, label: 'sys.'}
+- header: {name: '$v_2$/$\epsilon$'}
+  qualifiers:
+  - {name: '$p_T$', value: '2.0 - 4.0 (GeV)'}
+  values:
+  - value: 5.08e-01
+    errors:
+    - {symerror: 4.2e-02, label: 'stat.'}
+    - {symerror: 7.8e-02, label: 'sys.'}
+  - value: 3.91e-01
+    errors:
+    - {symerror: 2.5e-02, label: 'stat.'}
+    - {symerror: 4.1e-02, label: 'sys.'}
+  - value: 3.66e-01
+    errors:
+    - {symerror: 2.4e-02, label: 'stat.'}
+    - {symerror: 2.9e-02, label: 'sys.'}
+  - value: 3.22e-01
+    errors:
+    - {symerror: 2.5e-02, label: 'stat.'}
+    - {symerror: 1.8e-02, label: 'sys.'}
+  - value: 1.89e-01
+    errors:
+    - {symerror: 3.3e-02, label: 'stat.'}
+    - {symerror: 1.4e-02, label: 'sys.'}
+  - value: 1.96e-01
+    errors:
+    - {symerror: 4.0e-02, label: 'stat.'}
+    - {symerror: 1.8e-02, label: 'sys.'}

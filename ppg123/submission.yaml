@@ -1,0 +1,404 @@
+#PHENIX paper PPG123
+#
+#Deviation from quark number scaling of the anisotropy parameter v2 of pions, kaons, and protons in Au + Au collisions at $\sqrt{s_{NN}}$ =200 GeV
+#
+#Phys.Rev.C 85 (2012) 064914
+#InspireHEP ID: 1093596
+#
+#Prepared by Andrew McAninch
+#Please contact Christine Nattrass if you have any questions about this submission
+#PPG liaison:
+#Reviewer:
+#
+comment: | # Information that applies to all data tables.
+  Measurements of the anisotropy parameter $v_2$ of identified hadrons (pions, kaons, and protons) as a function of centrality, transverse momentum $p_T$ , and transverse kinetic energy KE$_T$ at midrapidity (|$\eta$| < 0.35) in Au + Au collisions at $\sqrt{s_{NN}}$ =200 GeV are presented. Pions and protons are identified up to $p_T$ = 6 GeV/c, and kaons up to $p_T$ = 4 GeV/c, by combining information from time-of-flight and aerogel Cerenkov detectors in the PHENIX ˇExperiment. The scaling of $v_2$ with the number of valence quarks ($n_q$) has been studied in different centrality bins as a function of transverse momentum and transverse kinetic energy. A deviation from previously observed quark-number scaling is observed at large values of KE$_T$ /$n_q$ in noncentral Au + Au collisions (20–60%), but this scaling remains valid in central collisions (0–10%).
+additional_resources:
+- {location: "https://phenix-intra.sdcc.bnl.gov/phenix/WWW/p/info/ppg/123/", description: "web page with data points"}
+- {location: "http://arxiv.org/abs/1203.2644", description: arXiv}
+- {location: "https://inspirehep.net/literature/1093596", description: InspireHEP}
+---
+# This is Figure 1.
+name: "Figure 8a-1"
+location: Data From Fig. 8 of PRC 85 (2012) 064914
+description: 'Identified hadron $v_2$ in central (0–20% centrality, left panels) Au + Au
+collisions at $\sqrt{s_{NN}}$ = 200 GeV. Panels (a) and (b) show $v_2$ as a
+function of transverse momentum $p_T$. The $v_2$ of all species
+for centrality 0–20% has been scaled up by a factor of 1.6 for
+better comparison with results of 20–60% centrality. The error bars
+(shaded boxes) represent the statistical (systematic) uncertainties. The
+systematic uncertainties shown are type A and B only.'
+keywords: # used for searching, possibly mutliple values for each keywords
+- {name: reactions, values: [Au Au —> $\pi^+$ $\pi^-$]}
+- {name: cmenergies, values: [200.0]}
+- {name: phrases, values: [ppg123, midrapidity, centrality, transverse momentum, transverse kinetic energy]}
+data_file: fig8a1pion_0_20.yaml
+additional_resources:
+- {description: Original EPS Image file, location: Figure_8.eps}
+- {description: PNG Image file, location: Figure_8.png}
+- {description: Thumbnail Image file, location: thumb_Figure_8.png}
+---
+name: "Figure 8a-2"
+location: Data From Fig. 8 of PRC 85 (2012) 064914
+description: 'Identified hadron $v_2$ in central (0–20% centrality, left panels) Au + Au
+collisions at $\sqrt{s_{NN}}$ = 200 GeV. Panels (a) and (b) show $v_2$ as a
+function of transverse momentum $p_T$. The $v_2$ of all species
+for centrality 0–20% has been scaled up by a factor of 1.6 for
+better comparison with results of 20–60% centrality. The error bars
+(shaded boxes) represent the statistical (systematic) uncertainties. The
+systematic uncertainties shown are type A and B only.'
+keywords: # used for searching, possibly mutliple values for each keywords
+- {name: reactions, values: [Au Au —> $K^+$ $K^-$]}
+- {name: cmenergies, values: [200.0]}
+- {name: phrases, values: [ppg123, midrapidity, centrality, transverse momentum, transverse kinetic energy]}
+data_file: fig8a2kaon_0_20.yaml
+additional_resources:
+- {description: Original EPS Image file, location: Figure_8.eps}
+- {description: PNG Image file, location: Figure_8.png}
+- {description: Thumbnail Image file, location: thumb_Figure_8.png}
+---
+name: "Figure 8a-3"
+location: Data From Fig. 8 of PRC 85 (2012) 064914
+description: 'Identified hadron $v_2$ in central (0–20% centrality, left panels) Au + Au
+collisions at $\sqrt{s_{NN}}$ = 200 GeV. Panels (a) and (b) show $v_2$ as a
+function of transverse momentum $p_T$. The $v_2$ of all species
+for centrality 0–20% has been scaled up by a factor of 1.6 for
+better comparison with results of 20–60% centrality. The error bars
+(shaded boxes) represent the statistical (systematic) uncertainties. The
+systematic uncertainties shown are type A and B only.'
+keywords: # used for searching, possibly mutliple values for each keywords
+- {name: reactions, values: [Au Au —> $p$ $\bar p$]}
+- {name: cmenergies, values: [200.0]}
+- {name: phrases, values: [ppg123, midrapidity, centrality, transverse momentum, transverse kinetic energy]}
+data_file: fig8a3proton_0_20.yaml
+additional_resources:
+- {description: Original EPS Image file, location: Figure_8.eps}
+- {description: PNG Image file, location: Figure_8.png}
+- {description: Thumbnail Image file, location: thumb_Figure_8.png}
+---
+name: "Figure 8b-1"
+location: Data From Fig. 8 of PRC 85 (2012) 064914
+description: 'Identified hadron $v_2$ in midcentral (20–60%, right panels) Au + Au
+collisions at $\sqrt{s_{NN}}$ = 200 GeV. Panels (a) and (b) show $v_2$ as a
+function of transverse momentum $p_T$. The $v_2$ of all species
+for centrality 0–20% has been scaled up by a factor of 1.6 for
+better comparison with results of 20–60% centrality. The error bars
+(shaded boxes) represent the statistical (systematic) uncertainties. The
+systematic uncertainties shown are type A and B only.'
+keywords: # used for searching, possibly mutliple values for each keywords
+- {name: reactions, values: [Au Au —> $\pi^+$ $\pi^-$]}
+- {name: cmenergies, values: [200.0]}
+- {name: phrases, values: [ppg123, midrapidity, centrality, transverse momentum, transverse kinetic energy]}
+data_file: fig8b1pion_20_60.yaml
+additional_resources:
+- {description: Original EPS Image file, location: Figure_8.eps}
+- {description: PNG Image file, location: Figure_8.png}
+- {description: Thumbnail Image file, location: thumb_Figure_8.png}
+---
+name: "Figure 8b-2"
+location: Data From Fig. 8 of PRC 85 (2012) 064914
+description: 'Identified hadron $v_2$ in midcentral (20–60%, right panels) Au + Au
+collisions at $\sqrt{s_{NN}}$ = 200 GeV. Panels (a) and (b) show $v_2$ as a
+function of transverse momentum $p_T$. The $v_2$ of all species
+for centrality 0–20% has been scaled up by a factor of 1.6 for
+better comparison with results of 20–60% centrality. The error bars
+(shaded boxes) represent the statistical (systematic) uncertainties. The
+systematic uncertainties shown are type A and B only.'
+keywords: # used for searching, possibly mutliple values for each keywords
+- {name: reactions, values: [Au Au —> $K^+$ $K^-$]}
+- {name: cmenergies, values: [200.0]}
+- {name: phrases, values: [ppg123, midrapidity, centrality, transverse momentum, transverse kinetic energy]}
+data_file: fig8b2kaon_20_60.yaml
+additional_resources:
+- {description: Original EPS Image file, location: Figure_8.eps}
+- {description: PNG Image file, location: Figure_8.png}
+- {description: Thumbnail Image file, location: thumb_Figure_8.png}
+---
+name: "Figure 8b-3"
+location: Data From Fig. 8 of PRC 85 (2012) 064914
+description: 'Identified hadron $v_2$ in midcentral (20–60%, right panels) Au + Au
+collisions at $\sqrt{s_{NN}}$ = 200 GeV. Panels (a) and (b) show $v_2$ as a
+function of transverse momentum $p_T$. The $v_2$ of all species
+for centrality 0–20% has been scaled up by a factor of 1.6 for
+better comparison with results of 20–60% centrality. The error bars
+(shaded boxes) represent the statistical (systematic) uncertainties. The
+systematic uncertainties shown are type A and B only.'
+keywords: # used for searching, possibly mutliple values for each keywords
+- {name: reactions, values: [Au Au —> $p$ $\bar p$]}
+- {name: cmenergies, values: [200.0]}
+- {name: phrases, values: [ppg123, midrapidity, centrality, transverse momentum, transverse kinetic energy]}
+data_file: fig8b3proton_20_60.yaml
+additional_resources:
+- {description: Original EPS Image file, location: Figure_8.eps}
+- {description: PNG Image file, location: Figure_8.png}
+- {description: Thumbnail Image file, location: thumb_Figure_8.png}
+---
+name: "Figure 9a-1"
+location: Data From Fig. 9 of PRC 85 (2012) 064914
+description: 'The quark-number-scaled $v_2$ ($v_2/n_q$) of
+identified hadrons are shown as a function of the kinetic energy per
+quark, KE$_T/n_q$ in 0–10% centrality [panel (a)] in Au + Au
+collisions at $\sqrt{s_{NN}}$ = 200 GeV. The error bars (shaded boxes)
+represent the statistical (systematic) uncertainties. The systematic
+uncertainties shown are type A and B only.'
+keywords: # used for searching, possibly mutliple values for each keywords
+- {name: reactions, values: [Au Au —> $\pi^+$ $\pi^-$]}
+- {name: cmenergies, values: [200.0]}
+- {name: phrases, values: [ppg123, midrapidity, centrality, transverse momentum, transverse kinetic energy]}
+data_file: fig9a1pion_0_10.yaml
+additional_resources:
+- {description: Original EPS Image file, location: Figure_9.eps}
+- {description: PNG Image file, location: Figure_9.png}
+- {description: Thumbnail Image file, location: thumb_Figure_9.png}
+---
+name: "Figure 9a-2"
+location: Data From Fig. 9 of PRC 85 (2012) 064914
+description: 'The quark-number-scaled $v_2$ ($v_2/n_q$) of
+identified hadrons are shown as a function of the kinetic energy per
+quark, KE$_T/n_q$ in 0–10% centrality [panel (a)] in Au + Au
+collisions at $\sqrt{s_{NN}}$ = 200 GeV. The error bars (shaded boxes)
+represent the statistical (systematic) uncertainties. The systematic
+uncertainties shown are type A and B only.'
+keywords: # used for searching, possibly mutliple values for each keywords
+- {name: reactions, values: [Au Au —> $K^+$ $K^-$]}
+- {name: cmenergies, values: [200.0]}
+- {name: phrases, values: [ppg123, midrapidity, centrality, transverse momentum, transverse kinetic energy]}
+data_file: fig9a2kaon_0_10.yaml
+additional_resources:
+- {description: Original EPS Image file, location: Figure_9.eps}
+- {description: PNG Image file, location: Figure_9.png}
+- {description: Thumbnail Image file, location: thumb_Figure_9.png}
+---
+name: "Figure 9a-3"
+location: Data From Fig. 9 of PRC 85 (2012) 064914
+description: 'The quark-number-scaled $v_2$ ($v_2/n_q$) of
+identified hadrons are shown as a function of the kinetic energy per
+quark, KE$_T/n_q$ in 0–10% centrality [panel (a)] in Au + Au
+collisions at $\sqrt{s_{NN}}$ = 200 GeV. The error bars (shaded boxes)
+represent the statistical (systematic) uncertainties. The systematic
+uncertainties shown are type A and B only.'
+keywords: # used for searching, possibly mutliple values for each keywords
+- {name: reactions, values: [Au Au —> $p$ $\bar p$]}
+- {name: cmenergies, values: [200.0]}
+- {name: phrases, values: [ppg123, midrapidity, centrality, transverse momentum, transverse kinetic energy]}
+data_file: fig9a3proton_0_10.yaml
+additional_resources:
+- {description: Original EPS Image file, location: Figure_9.eps}
+- {description: PNG Image file, location: Figure_9.png}
+- {description: Thumbnail Image file, location: thumb_Figure_9.png}
+---
+name: "Figure 9b-1"
+location: Data From Fig. 9 of PRC 85 (2012) 064914
+description: 'The quark-number-scaled $v_2$ ($v_2/n_q$) of
+identified hadrons are shown as a function of the kinetic energy per
+quark, KE$_T/n_q$ in 10–20% centrality [panel (b)] in Au + Au
+collisions at $\sqrt{s_{NN}}$ = 200 GeV. The error bars (shaded boxes)
+represent the statistical (systematic) uncertainties. The systematic
+uncertainties shown are type A and B only.'
+keywords: # used for searching, possibly mutliple values for each keywords
+- {name: reactions, values: [Au Au —> $\pi^+$ $\pi^-$]}
+- {name: cmenergies, values: [200.0]}
+- {name: phrases, values: [ppg123, midrapidity, centrality, transverse momentum, transverse kinetic energy]}
+data_file: fig9b1pion_10_20.yaml
+additional_resources:
+- {description: Original EPS Image file, location: Figure_9.eps}
+- {description: PNG Image file, location: Figure_9.png}
+- {description: Thumbnail Image file, location: thumb_Figure_9.png}
+---
+name: "Figure 9b-2"
+location: Data From Fig. 9 of PRC 85 (2012) 064914
+description: 'The quark-number-scaled $v_2$ ($v_2/n_q$) of
+identified hadrons are shown as a function of the kinetic energy per
+quark, KE$_T/n_q$ in 10–20% centrality [panel (b)] in Au + Au
+collisions at $\sqrt{s_{NN}}$ = 200 GeV. The error bars (shaded boxes)
+represent the statistical (systematic) uncertainties. The systematic
+uncertainties shown are type A and B only.'
+keywords: # used for searching, possibly mutliple values for each keywords
+- {name: reactions, values: [Au Au —> $K^+$ $K^-$]}
+- {name: cmenergies, values: [200.0]}
+- {name: phrases, values: [ppg123, midrapidity, centrality, transverse momentum, transverse kinetic energy]}
+data_file: fig9b2kaon_10_20.yaml
+additional_resources:
+- {description: Original EPS Image file, location: Figure_9.eps}
+- {description: PNG Image file, location: Figure_9.png}
+- {description: Thumbnail Image file, location: thumb_Figure_9.png}
+---
+name: "Figure 9b-3"
+location: Data From Fig. 9 of PRC 85 (2012) 064914
+description: 'The quark-number-scaled $v_2$ ($v_2/n_q$) of
+identified hadrons are shown as a function of the kinetic energy per
+quark, KE$_T/n_q$ in 10–20% centrality [panel (b)] in Au + Au
+collisions at $\sqrt{s_{NN}}$ = 200 GeV. The error bars (shaded boxes)
+represent the statistical (systematic) uncertainties. The systematic
+uncertainties shown are type A and B only.'
+keywords: # used for searching, possibly mutliple values for each keywords
+- {name: reactions, values: [Au Au —> $p$ $\bar p$]}
+- {name: cmenergies, values: [200.0]}
+- {name: phrases, values: [ppg123, midrapidity, centrality, transverse momentum, transverse kinetic energy]}
+data_file: fig9b3proton_10_20.yaml
+additional_resources:
+- {description: Original EPS Image file, location: Figure_9.eps}
+- {description: PNG Image file, location: Figure_9.png}
+- {description: Thumbnail Image file, location: thumb_Figure_9.png}
+---
+name: "Figure 9c-1"
+location: Data From Fig. 9 of PRC 85 (2012) 064914
+description: 'The quark-number-scaled $v_2$ ($v_2/n_q$) of
+identified hadrons are shown as a function of the kinetic energy per
+quark, KE$_T/n_q$ in 20–40% centrality [panel (c)] in Au + Au
+collisions at $\sqrt{s_{NN}}$ = 200 GeV. The error bars (shaded boxes)
+represent the statistical (systematic) uncertainties. The systematic
+uncertainties shown are type A and B only.'
+keywords: # used for searching, possibly mutliple values for each keywords
+- {name: reactions, values: [Au Au —> $\pi^+$ $\pi^-$]}
+- {name: cmenergies, values: [200.0]}
+- {name: phrases, values: [ppg123, midrapidity, centrality, transverse momentum, transverse kinetic energy]}
+data_file: fig9c1pion_20_40.yaml
+additional_resources:
+- {description: Original EPS Image file, location: Figure_9.eps}
+- {description: PNG Image file, location: Figure_9.png}
+- {description: Thumbnail Image file, location: thumb_Figure_9.png}
+---
+name: "Figure 9c-2"
+location: Data From Fig. 9 of PRC 85 (2012) 064914
+description: 'The quark-number-scaled $v_2$ ($v_2/n_q$) of
+identified hadrons are shown as a function of the kinetic energy per
+quark, KE$_T/n_q$ in 20–40% centrality [panel (c)] in Au + Au
+collisions at $\sqrt{s_{NN}}$ = 200 GeV. The error bars (shaded boxes)
+represent the statistical (systematic) uncertainties. The systematic
+uncertainties shown are type A and B only.'
+keywords: # used for searching, possibly mutliple values for each keywords
+- {name: reactions, values: [Au Au —> $K^+$ $K^-$]}
+- {name: cmenergies, values: [200.0]}
+- {name: phrases, values: [ppg123, midrapidity, centrality, transverse momentum, transverse kinetic energy]}
+data_file: fig9c2kaon_20_40.yaml
+additional_resources:
+- {description: Original EPS Image file, location: Figure_9.eps}
+- {description: PNG Image file, location: Figure_9.png}
+- {description: Thumbnail Image file, location: thumb_Figure_9.png}
+---
+name: "Figure 9c-3"
+location: Data From Fig. 9 of PRC 85 (2012) 064914
+description: 'The quark-number-scaled $v_2$ ($v_2/n_q$) of
+identified hadrons are shown as a function of the kinetic energy per
+quark, KE$_T/n_q$ in 20–40% centrality [panel (c)] in Au + Au
+collisions at $\sqrt{s_{NN}}$ = 200 GeV. The error bars (shaded boxes)
+represent the statistical (systematic) uncertainties. The systematic
+uncertainties shown are type A and B only.'
+keywords: # used for searching, possibly mutliple values for each keywords
+- {name: reactions, values: [Au Au —> $p$ $\bar p$]}
+- {name: cmenergies, values: [200.0]}
+- {name: phrases, values: [ppg123, midrapidity, centrality, transverse momentum, transverse kinetic energy]}
+data_file: fig9c3proton_20_40.yaml
+additional_resources:
+- {description: Original EPS Image file, location: Figure_9.eps}
+- {description: PNG Image file, location: Figure_9.png}
+- {description: Thumbnail Image file, location: thumb_Figure_9.png}
+---
+name: "Figure 9d-1"
+location: Data From Fig. 9 of PRC 85 (2012) 064914
+description: 'The quark-number-scaled $v_2$ ($v_2/n_q$) of
+identified hadrons are shown as a function of the kinetic energy per
+quark, KE$_T/n_q$ in 40–60% centrality [panel (d)] in Au + Au
+collisions at $\sqrt{s_{NN}}$ = 200 GeV. The error bars (shaded boxes)
+represent the statistical (systematic) uncertainties. The systematic
+uncertainties shown are type A and B only.'
+keywords: # used for searching, possibly mutliple values for each keywords
+- {name: reactions, values: [Au Au —> $\pi^+$ $\pi^-$]}
+- {name: cmenergies, values: [200.0]}
+- {name: phrases, values: [ppg123, midrapidity, centrality, transverse momentum, transverse kinetic energy]}
+data_file: fig9d1pion_40_60.yaml
+additional_resources:
+- {description: Original EPS Image file, location: Figure_9.eps}
+- {description: PNG Image file, location: Figure_9.png}
+- {description: Thumbnail Image file, location: thumb_Figure_9.png}
+---
+name: "Figure 9d-2"
+location: Data From Fig. 9 of PRC 85 (2012) 064914
+description: 'The quark-number-scaled $v_2$ ($v_2/n_q$) of
+identified hadrons are shown as a function of the kinetic energy per
+quark, KE$_T/n_q$ in 40–60% centrality [panel (d)] in Au + Au
+collisions at $\sqrt{s_{NN}}$ = 200 GeV. The error bars (shaded boxes)
+represent the statistical (systematic) uncertainties. The systematic
+uncertainties shown are type A and B only.'
+keywords: # used for searching, possibly mutliple values for each keywords
+- {name: reactions, values: [Au Au —> $K^+$ $K^-$]}
+- {name: cmenergies, values: [200.0]}
+- {name: phrases, values: [ppg123, midrapidity, centrality, transverse momentum, transverse kinetic energy]}
+data_file: fig9d2kaon_40_60.yaml
+additional_resources:
+- {description: Original EPS Image file, location: Figure_9.eps}
+- {description: PNG Image file, location: Figure_9.png}
+- {description: Thumbnail Image file, location: thumb_Figure_9.png}
+---
+name: "Figure 9d-3"
+location: Data From Fig. 9 of PRC 85 (2012) 064914
+description: 'The quark-number-scaled $v_2$ ($v_2/n_q$) of
+identified hadrons are shown as a function of the kinetic energy per
+quark, KE$_T/n_q$ in 40–60% centrality [panel (d)] in Au + Au
+collisions at $\sqrt{s_{NN}}$ = 200 GeV. The error bars (shaded boxes)
+represent the statistical (systematic) uncertainties. The systematic
+uncertainties shown are type A and B only.'
+keywords: # used for searching, possibly mutliple values for each keywords
+- {name: reactions, values: [Au Au —> $p$ $\bar p$]}
+- {name: cmenergies, values: [200.0]}
+- {name: phrases, values: [ppg123, midrapidity, centrality, transverse momentum, transverse kinetic energy]}
+data_file: fig9d3proton_40_60.yaml
+additional_resources:
+- {description: Original EPS Image file, location: Figure_9.eps}
+- {description: PNG Image file, location: Figure_9.png}
+- {description: Thumbnail Image file, location: thumb_Figure_9.png}
+---
+name: "Figure 10b-1"
+location: Data From Fig. 10 of PRC 85 (2012) 064914
+description: 'The quark-number-scaled $v_2$ ($v_2/n_q$) of
+identified hadrons are shown as a function of the kinetic energy per
+quark, KE$_T/n_q$ in 10–40% centrality [panel (b)] in Au + Au collisions at $\sqrt{s_{NN}}$ = 200 GeV. The $v_2$ of $\Lambda$
+and K$^0_S$ are measured by STAR collaboration [21]. The error bars
+(open boxes) represent the statistical (systematic) uncertainties. The
+systematic uncertainties shown on the results from this study are type A and B only.'
+keywords: # used for searching, possibly mutliple values for each keywords
+- {name: reactions, values: [Au Au —> $\pi^+$ $\pi^-$]}
+- {name: cmenergies, values: [200.0]}
+- {name: phrases, values: [ppg123, midrapidity, centrality, transverse momentum, transverse kinetic energy]}
+data_file: fig10b1pion_10_40.yaml
+additional_resources:
+- {description: Original EPS Image file, location: Figure_10.eps}
+- {description: PNG Image file, location: Figure_10.png}
+- {description: Thumbnail Image file, location: thumb_Figure_10.png}
+---
+name: "Figure 10b-2"
+location: Data From Fig. 10 of PRC 85 (2012) 064914
+description: 'The quark-number-scaled $v_2$ ($v_2/n_q$) of
+identified hadrons are shown as a function of the kinetic energy per
+quark, KE$_T/n_q$ in 10–40% centrality [panel (b)] in Au + Au collisions at $\sqrt{s_{NN}}$ = 200 GeV. The $v_2$ of $\Lambda$
+and K$^0_S$ are measured by STAR collaboration [21]. The error bars
+(open boxes) represent the statistical (systematic) uncertainties. The
+systematic uncertainties shown on the results from this study are type A and B only.'
+keywords: # used for searching, possibly mutliple values for each keywords
+- {name: reactions, values: [Au Au —> $K^+$ $K^-$]}
+- {name: cmenergies, values: [200.0]}
+- {name: phrases, values: [ppg123, midrapidity, centrality, transverse momentum, transverse kinetic energy]}
+data_file: fig10b2kaon_10_40.yaml
+additional_resources:
+- {description: Original EPS Image file, location: Figure_10.eps}
+- {description: PNG Image file, location: Figure_10.png}
+- {description: Thumbnail Image file, location: thumb_Figure_10.png}
+---
+name: "Figure 10b-3"
+location: Data From Fig. 10 of PRC 85 (2012) 064914
+description: 'The quark-number-scaled $v_2$ ($v_2/n_q$) of
+identified hadrons are shown as a function of the kinetic energy per
+quark, KE$_T/n_q$ in 10–40% centrality [panel (b)] in Au + Au collisions at $\sqrt{s_{NN}}$ = 200 GeV. The $v_2$ of $\Lambda$
+and K$^0_S$ are measured by STAR collaboration [21]. The error bars
+(open boxes) represent the statistical (systematic) uncertainties. The
+systematic uncertainties shown on the results from this study are type A and B only.'
+keywords: # used for searching, possibly mutliple values for each keywords
+- {name: reactions, values: [Au Au —> $p$ $\bar p$]}
+- {name: cmenergies, values: [200.0]}
+- {name: phrases, values: [ppg123, midrapidity, centrality, transverse momentum, transverse kinetic energy]}
+data_file: fig10b3proton_10_40.yaml
+additional_resources:
+- {description: Original EPS Image file, location: Figure_10.eps}
+- {description: PNG Image file, location: Figure_10.png}
+- {description: Thumbnail Image file, location: thumb_Figure_10.png}
+---

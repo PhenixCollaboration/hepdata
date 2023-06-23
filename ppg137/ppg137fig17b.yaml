@@ -1,0 +1,44 @@
+independent_variables:
+- header: {name: '$<x_F>$'}
+  values:
+  - {value: -0.776}
+  - {value: -0.682}
+  - {value: -0.568}
+  - {value: 0.568}
+  - {value: 0.682}
+  - {value: 0.776}
+dependent_variables:
+- header: {name: '$A_N$'}
+  values:
+  - value: 0.0035
+    errors:
+    - {symerror: 0.0117, label: 'stat.'}
+    - {symerror: 0.0082, label: 'sys.'}
+  - value: -0.0093
+    errors:
+    - {symerror: 0.0106, label: 'stat.'}
+    - {symerror: 0.0037, label: 'sys.'}
+  - value: -0.0033
+    errors:
+    - {symerror: 0.0115, label: 'stat.'}
+    - {symerror: 0.0096, label: 'sys.'}
+  - value: -0.0629
+    errors:
+    - {symerror: 0.0097, label: 'stat.'}
+    - {symerror: 0.0096, label: 'sys.'}
+  - value: -0.0657
+    errors:
+    - {symerror: 0.0090, label: 'stat.'}
+    - {symerror: 0.0037, label: 'sys.'}
+  - value: -0.0667
+    errors:
+    - {symerror: 0.0099, label: 'stat.'}
+    - {symerror: 0.0082, label: 'sys.'}
+- header: {name: '$\chi^2/ndf$'}
+  values:
+  - value: 2.672/7
+  - value: 2.915/7
+  - value: 6.783/7
+  - value: 13.27/7
+  - value: 5.425/7
+  - value: 5.003/7

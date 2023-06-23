@@ -9,7 +9,12 @@ independent_variables:
   - {low: 2.00, high: 2.50}
   - {low: 2.50, high: 3.00}
   - {low: 3.00, high: 4.00}
+
+dependent_variables:
 - header: {name: '$\langle p_T \rangle$ (GeV/$c$)'}
+  qualifiers:
+  - {name: 'Particle', value: '$p$'}
+  - {name: 'Centrality', value: '20 - 40%'}
   values:
   - {value: 0.64}
   - {value: 0.88}
@@ -19,7 +24,6 @@ independent_variables:
   - {value: 2.20}
   - {value: 2.70}
   - {value: 3.31}
-dependent_variables:
 - header: {name: '$v_2$'}
   qualifiers:
   - {name: 'Particle', value: '$p$'}
@@ -65,3 +69,4 @@ dependent_variables:
     - {symerror: 0.033, label: 'stat'}
     - {asymerror: {plus: 0.029, minus: -0.032}, label: 'sys'}
     - {symerror: 0.029, label: 'bckgrnd'}
+
