@@ -1,0 +1,103 @@
+#PHENIX paper PPG192
+#
+#Measurement of emission angle anisotropy via long-range angular correlations with high $p_T$ hadrons in $d$+Au and $p$+$p$ collisions at $\sqrt{s_{NN}}$ = 200 GeV
+#
+#Phys.Rev.Lett C 98 (2018) 014912
+#InspireHEP ID: 1638373
+#
+#Prepared by Nikolas Nelson
+#Please contact Christine Nattrass if you have any questions about this submission
+#PPG liaison:
+#Reviewer:
+#
+comment: | # Information that applies to all data tables.
+  We present measurements of two-particle angular correlations between high-transverse-momentum ( 2< $p_T$ < 11 GeV/$c$) $\pi^0$ observed at midrapidity ($|\eta|$ < 0.35) and particles produced either at forward (3.1 < $\eta$ < 3.9) or backward (−3.7 < $\eta$ < −3.1) rapidity in $d$+Au and $p$+$p$ collisions at $\sqrt{s_{NN}}$ = 200 GeV. The azimuthal angle correlations for particle pairs with this large rapidity gap in the Au-going direction exhibit a ridge-like structure that persists up to $p_T$ ≈ 6 GeV/$c$ and which strongly depends on collision centrality, which is a similar characteristic to the hydrodynamical particle flow in A+A collisions. The ridge-like structure is absent in the $d$-going direction as well as in $p$+$p$ collisions, in the transverse-momentum range studied. The results indicate that the ridge-like structure is shifted in the Au-going direction toward more central collisions, similar to the charged-particle pseudorapidity distributions.
+additional_resources:
+- {location: "https://phenix-intra.sdcc.bnl.gov/phenix/WWW/p/info/ppg/192/", description: "web page with data points"}
+- {location: "http://arxiv.org/abs/1711.09003", description: arXiv}
+- {location: "https://inspirehep.net/literature/1638373", description: InspireHEP}
+---
+# This is Figure 7.
+name: "Figure 7a"
+location: Data From Fig. 7 of PRC 98 (2018) 014912
+description: 'Fourier fit coefficients for CNT-MPCS (Au-going) correlations, as a function of collision system and $\pi^0$ $p_T$: (a) the negative of the dipole coefficient, $-c_1$; (b) the quadrupole coefficient $c_2$; (c) the ratio ${-c_2}/{c_1}$.'
+keywords: # used for searching, possibly mutliple values for each keywords
+- {name: reactions, values: [$d$ Au --> CHARGED X, $p$ $p$ --> CHARGED X]}
+- {name: cmenergies, values: [200.0]}
+- {name: phrases, values: [ppg192, emission angle anisotropy, long-range angular correlations, transverse momentum]}
+data_file: ppg192fig7a.yaml
+additional_resources:
+- {description: Thumbnail Image file, location: thumb_SummaryForPaper_C1C2SemiLog_switchN1.png}
+---
+# This is Figure 7.
+name: "Figure 7b"
+location: Data From Fig. 7 of PRC 98 (2018) 014912
+description: 'Fourier fit coefficients for CNT-MPCS (Au-going) correlations, as a function of collision system and $\pi^0$ $p_T$: Fractional systematic uncertainty on the quadrupole coefficient $c_2$ for $d$+Au.'
+keywords: # used for searching, possibly mutliple values for each keywords
+- {name: reactions, values: [$d$ Au --> CHARGED X]}
+- {name: cmenergies, values: [200.0]}
+- {name: phrases, values: [ppg192, emission angle anisotropy, long-range angular correlations, transverse momentum]}
+data_file: ppg192fig7b.yaml
+additional_resources:
+- {description: Thumbnail Image file, location: thumb_SummaryForPaper_C1C2SemiLog_switchN1.png}
+---
+# This is Figure 7.
+name: "Figure 7c"
+location: Data From Fig. 7 of PRC 98 (2018) 014912
+description: 'Fourier fit coefficients for CNT-MPCS (Au-going) correlations, as a function of collision system and $\pi^0$ $p_T$: Fractional systematic uncertainty on the quadrupole coefficient $c_2$ for $p$+$p$.'
+keywords: # used for searching, possibly mutliple values for each keywords
+- {name: reactions, values: [$p$ $p$ --> CHARGED X]}
+- {name: cmenergies, values: [200.0]}
+- {name: phrases, values: [ppg192, emission angle anisotropy, long-range angular correlations, transverse momentum]}
+data_file: ppg192fig7c.yaml
+additional_resources:
+- {description: Thumbnail Image file, location: thumb_SummaryForPaper_C1C2SemiLog_switchN1.png}
+---
+# This is Figure 8.
+name: "Figure 8a"
+location: Data From Fig. 8 of PRC 98 (2018) 014912
+description: 'Fourier fit coefficients for CNT-MPCN ($d$-going) correlations, as a function of collision system and $\pi^0$ $p_T$: (a) the negative of the dipole coefficient, $-c_1$; (b) the quadrupole coefficient $c_2$; (c) the ratio ${-c_2}/{c_1}$.'
+keywords: # used for searching, possibly mutliple values for each keywords
+- {name: reactions, values: [$d$ Au --> CHARGED X, $p$ $p$ --> CHARGED X]}
+- {name: cmenergies, values: [200.0]}
+- {name: phrases, values: [ppg192, emission angle anisotropy, long-range angular correlations, transverse momentum]}
+data_file: ppg192fig8a.yaml
+additional_resources:
+- {description: Thumbnail Image file, location: thumb_SummaryForPaper_C1C2SemiLog_switch1.png}
+---
+# This is Figure 8.
+name: "Figure 8b"
+location: Data From Fig. 8 of PRC 98 (2018) 014912
+description: 'Fourier fit coefficients for CNT-MPCN ($d$-going) correlations, as a function of collision system and $\pi^0$ $p_T$: Fractional systematic uncertainty on the quadrupole coefficient $c_2$ for $d$+Au.'
+keywords: # used for searching, possibly mutliple values for each keywords
+- {name: reactions, values: [$d$ Au --> CHARGED X]}
+- {name: cmenergies, values: [200.0]}
+- {name: phrases, values: [ppg192, emission angle anisotropy, long-range angular correlations, transverse momentum]}
+data_file: ppg192fig8b.yaml
+additional_resources:
+- {description: Thumbnail Image file, location: thumb_SummaryForPaper_C1C2SemiLog_switch1.png}
+---
+# This is Figure 8.
+name: "Figure 8c"
+location: Data From Fig. 8 of PRC 98 (2018) 014912
+description: 'Fourier fit coefficients for CNT-MPCN ($d$-going) correlations, as a function of collision system and $\pi^0$ $p_T$: Fractional systematic uncertainty on the quadrupole coefficient $c_2$ for $d$+Au and $p$+$p$.'
+keywords: # used for searching, possibly mutliple values for each keywords
+- {name: reactions, values: [$p$ $p$ --> CHARGED X]}
+- {name: cmenergies, values: [200.0]}
+- {name: phrases, values: [ppg192, emission angle anisotropy, long-range angular correlations, transverse momentum]}
+data_file: ppg192fig8c.yaml
+additional_resources:
+- {description: Thumbnail Image file, location: thumb_SummaryForPaper_C1C2SemiLog_switch1.png}
+---
+# This is Figure 9.
+name: "Figure 9"
+location: Data From Fig. 9 of PRC 98 (2018) 014912
+description: 'System centrality dependence of correlation coefficients $-c_1$, $c_2$, and the ratio ${-c_2}/{c_1}$ as a function of $N_{part}$.'
+keywords: # used for searching, possibly mutliple values for each keywords
+- {name: reactions, values: [$d$ Au --> CHARGED X, $p$ $p$ --> CHARGED X]}
+- {name: cmenergies, values: [200.0]}
+- {name: phrases, values: [ppg192, emission angle anisotropy, long-range angular correlations, transverse momentum]}
+data_file: ppg192fig9.yaml
+additional_resources:
+- {description: Thumbnail Image file, location: thumb_SummaryForPaper_C1C2OverCentFinal_switch1.png}
+---

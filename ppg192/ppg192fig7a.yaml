@@ -1,0 +1,721 @@
+independent_variables:
+- header: {name: '$p_T$ Bins (GeV/$c$)'}
+  values:
+  - {low: 2.0, high: 2.5}
+  - {low: 2.5, high: 3.0}
+  - {low: 3.0, high: 3.5}
+  - {low: 3.5, high: 4.0}
+  - {low: 4.0, high: 5.0}
+  - {low: 5.0, high: 6.0}
+  - {low: 6.0, high: 7.0}
+  - {low: 7.0, high: 9.0}
+dependent_variables:
+- header: {name: '$p_T$ (GeV/$c$)'}
+  qualifiers:
+  - {name: 'Centrality', value: ''}
+  - {name: 'Collision', value: ''}
+  values:
+  - value: 2.288
+  - value: 2.774
+  - value: 3.260
+  - value: 3.746
+  - value: 4.407
+  - value: 5.398
+  - value: 6.395
+  - value: 7.602
+- header: {name: '$-c_1$'}
+  qualifiers:
+  - {name: 'Centrality', value: '0-5%'}
+  - {name: 'Collision', value: '$d$+Au'}
+  values:
+  - value: 7.309e-03
+    errors:
+    - {symerror: 2.548e-04, label: 'stat.'}
+  - value: 8.268e-03
+    errors:
+    - {symerror: 1.964e-04, label: 'stat.'}
+  - value: 9.079e-03
+    errors:
+    - {symerror: 1.714e-04, label: 'stat.'}
+  - value: 9.404e-03
+    errors:
+    - {symerror: 1.781e-04, label: 'stat.'}
+  - value: 9.565e-03
+    errors:
+    - {symerror: 1.640e-04, label: 'stat.'}
+  - value: 9.555e-03
+    errors:
+    - {symerror: 2.737e-04, label: 'stat.'}
+  - value: 8.138e-03
+    errors:
+    - {symerror: 4.774e-04, label: 'stat.'}
+  - value: 7.010e-03
+    errors:
+    - {symerror: 6.784e-04, label: 'stat.'}
+- header: {name: '$c_2$'}
+  qualifiers:
+  - {name: 'Centrality', value: '0-5%'}
+  - {name: 'Collision', value: '$d$+Au'}
+  values:
+  - value: 4.438e-03
+    errors:
+    - {symerror: 3.630e-04, label: 'stat.'}
+  - value: 4.621e-03
+    errors:
+    - {symerror: 2.786e-04, label: 'stat.'}
+  - value: 4.434e-03
+    errors:
+    - {symerror: 2.424e-04, label: 'stat.'}
+  - value: 4.104e-03
+    errors:
+    - {symerror: 2.520e-04, label: 'stat.'}
+  - value: 3.915e-03
+    errors:
+    - {symerror: 2.318e-04, label: 'stat.'}
+  - value: 3.593e-03
+    errors:
+    - {symerror: 3.871e-04, label: 'stat.'}
+  - value: 2.120e-03
+    errors:
+    - {symerror: 6.754e-04, label: 'stat.'}
+  - value: 2.106e-03
+    errors:
+    - {symerror: 9.601e-04, label: 'stat.'}
+- header: {name: '${-c_2}/{c_1}$'}
+  qualifiers:
+  - {name: 'Centrality', value: '0-5%'}
+  - {name: 'Collision', value: '$d$+Au'}
+  values:
+  - value: 6.072e-01
+    errors:
+    - {symerror: 5.809e-02, label: 'stat.'}
+  - value: 5.588e-01
+    errors:
+    - {symerror: 3.876e-02, label: 'stat.'}
+  - value: 4.884e-01
+    errors:
+    - {symerror: 2.985e-02, label: 'stat.'}
+  - value: 4.364e-01
+    errors:
+    - {symerror: 2.935e-02, label: 'stat.'}
+  - value: 4.093e-01
+    errors:
+    - {symerror: 2.628e-02, label: 'stat.'}
+  - value: 3.760e-01
+    errors:
+    - {symerror: 4.338e-02, label: 'stat.'}
+  - value: 2.606e-01
+    errors:
+    - {symerror: 8.588e-02, label: 'stat.'}
+  - value: 3.005e-01
+    errors:
+    - {symerror: 1.430e-01, label: 'stat.'}
+- header: {name: '$-c_1$'}
+  qualifiers:
+  - {name: 'Centrality', value: '5-10%'}
+  - {name: 'Collision', value: '$d$+Au'}
+  values:
+  - value: 8.796e-03
+    errors:
+    - {symerror: 3.188e-04, label: 'stat.'}
+  - value: 9.854e-03
+    errors:
+    - {symerror: 2.470e-04, label: 'stat.'}
+  - value: 1.085e-02
+    errors:
+    - {symerror: 2.156e-04, label: 'stat.'}
+  - value: 1.178e-02
+    errors:
+    - {symerror: 2.235e-04, label: 'stat.'}
+  - value: 1.160e-02
+    errors:
+    - {symerror: 2.056e-04, label: 'stat.'}
+  - value: 1.168e-02
+    errors:
+    - {symerror: 3.395e-04, label: 'stat.'}
+  - value: 9.542e-03
+    errors:
+    - {symerror: 5.884e-04, label: 'stat.'}
+  - value: 8.042e-03
+    errors:
+    - {symerror: 8.320e-04, label: 'stat.'}
+- header: {name: '$c_2$'}
+  qualifiers:
+  - {name: 'Centrality', value: '5-10%'}
+  - {name: 'Collision', value: '$d$+Au'}
+  values:
+  - value: 4.583e-03
+    errors:
+    - {symerror: 4.546e-04, label: 'stat.'}
+  - value: 4.034e-03
+    errors:
+    - {symerror: 3.507e-04, label: 'stat.'}
+  - value: 4.059e-03
+    errors:
+    - {symerror: 3.054e-04, label: 'stat.'}
+  - value: 4.025e-03
+    errors:
+    - {symerror: 3.161e-04, label: 'stat.'}
+  - value: 2.963e-03
+    errors:
+    - {symerror: 2.907e-04, label: 'stat.'}
+  - value: 2.678e-03
+    errors:
+    - {symerror: 4.803e-04, label: 'stat.'}
+  - value: 2.574e-03
+    errors:
+    - {symerror: 8.316e-04, label: 'stat.'}
+  - value: 3.761e-03
+    errors:
+    - {symerror: 1.175e-03, label: 'stat.'}
+- header: {name: '${-c_2}/{c_1}$'}
+  qualifiers:
+  - {name: 'Centrality', value: '5-10%'}
+  - {name: 'Collision', value: '$d$+Au'}
+  values:
+  - value: 5.211e-01
+    errors:
+    - {symerror: 5.827e-02, label: 'stat.'}
+  - value: 4.094e-01
+    errors:
+    - {symerror: 3.862e-02, label: 'stat.'}
+  - value: 3.740e-01
+    errors:
+    - {symerror: 3.018e-02, label: 'stat.'}
+  - value: 3.417e-01
+    errors:
+    - {symerror: 2.848e-02, label: 'stat.'}
+  - value: 2.555e-01
+    errors:
+    - {symerror: 2.595e-02, label: 'stat.'}
+  - value: 2.293e-01
+    errors:
+    - {symerror: 4.230e-02, label: 'stat.'}
+  - value: 2.698e-01
+    errors:
+    - {symerror: 9.045e-02, label: 'stat.'}
+  - value: 4.677e-01
+    errors:
+    - {symerror: 1.616e-01, label: 'stat.'}
+- header: {name: '$-c_1$'}
+  qualifiers:
+  - {name: 'Centrality', value: '10-20%'}
+  - {name: 'Collision', value: '$d$+Au'}
+  values:
+  - value: 9.788e-03
+    errors:
+    - {symerror: 2.699e-04, label: 'stat.'}
+  - value: 1.116e-02
+    errors:
+    - {symerror: 2.107e-04, label: 'stat.'}
+  - value: 1.204e-02
+    errors:
+    - {symerror: 1.847e-04, label: 'stat.'}
+  - value: 1.324e-02
+    errors:
+    - {symerror: 1.913e-04, label: 'stat.'}
+  - value: 1.312e-02
+    errors:
+    - {symerror: 1.755e-04, label: 'stat.'}
+  - value: 1.333e-02
+    errors:
+    - {symerror: 2.903e-04, label: 'stat.'}
+  - value: 1.032e-02
+    errors:
+    - {symerror: 4.988e-04, label: 'stat.'}
+  - value: 8.785e-03
+    errors:
+    - {symerror: 6.967e-04, label: 'stat.'}
+- header: {name: '$c_2$'}
+  qualifiers:
+  - {name: 'Centrality', value: '10-20%'}
+  - {name: 'Collision', value: '$d$+Au'}
+  values:
+  - value: 3.018e-03
+    errors:
+    - {symerror: 3.857e-04, label: 'stat.'}
+  - value: 3.641e-03
+    errors:
+    - {symerror: 2.993e-04, label: 'stat.'}
+  - value: 4.160e-03
+    errors:
+    - {symerror: 2.614e-04, label: 'stat.'}
+  - value: 3.346e-03
+    errors:
+    - {symerror: 2.705e-04, label: 'stat.'}
+  - value: 3.080e-03
+    errors:
+    - {symerror: 2.481e-04, label: 'stat.'}
+  - value: 2.950e-03
+    errors:
+    - {symerror: 4.104e-04, label: 'stat.'}
+  - value: 2.691e-03
+    errors:
+    - {symerror: 7.050e-04, label: 'stat.'}
+  - value: 8.435e-04
+    errors:
+    - {symerror: 9.866e-04, label: 'stat.'}
+- header: {name: '${-c_2}/{c_1}$'}
+  qualifiers:
+  - {name: 'Centrality', value: '10-20%'}
+  - {name: 'Collision', value: '$d$+Au'}
+  values:
+  - value: 3.084e-01
+    errors:
+    - {symerror: 4.126e-02, label: 'stat.'}
+  - value: 3.262e-01
+    errors:
+    - {symerror: 2.833e-02, label: 'stat.'}
+  - value: 3.456e-01
+    errors:
+    - {symerror: 2.310e-02, label: 'stat.'}
+  - value: 2.526e-01
+    errors:
+    - {symerror: 2.115e-02, label: 'stat.'}
+  - value: 2.347e-01
+    errors:
+    - {symerror: 1.949e-02, label: 'stat.'}
+  - value: 2.213e-01
+    errors:
+    - {symerror: 3.162e-02, label: 'stat.'}
+  - value: 2.608e-01
+    errors:
+    - {symerror: 7.076e-02, label: 'stat.'}
+  - value: 9.601e-02
+    errors:
+    - {symerror: 1.129e-01, label: 'stat.'}
+- header: {name: '$-c_1$'}
+  qualifiers:
+  - {name: 'Centrality', value: '0-20%'}
+  - {name: 'Collision', value: '$d$+Au'}
+  values:
+  - value: 8.521e-03
+    errors:
+    - {symerror: 1.587e-04, label: 'stat.'}
+  - value: 9.642e-03
+    errors:
+    - {symerror: 1.235e-04, label: 'stat.'}
+  - value: 1.052e-02
+    errors:
+    - {symerror: 1.083e-04, label: 'stat.'}
+  - value: 1.130e-02
+    errors:
+    - {symerror: 1.125e-04, label: 'stat.'}
+  - value: 1.128e-02
+    errors:
+    - {symerror: 1.035e-04, label: 'stat.'}
+  - value: 1.139e-02
+    errors:
+    - {symerror: 1.718e-04, label: 'stat.'}
+  - value: 9.256e-03
+    errors:
+    - {symerror: 2.978e-04, label: 'stat.'}
+  - value: 7.902e-03
+    errors:
+    - {symerror: 4.201e-04, label: 'stat.'}
+- header: {name: '$c_2$'}
+  qualifiers:
+  - {name: 'Centrality', value: '0-20%'}
+  - {name: 'Collision', value: '$d$+Au'}
+  values:
+  - value: 4.017e-03
+    errors:
+    - {symerror: 2.264e-04, label: 'stat.'}
+  - value: 4.152e-03
+    errors:
+    - {symerror: 1.754e-04, label: 'stat.'}
+  - value: 4.249e-03
+    errors:
+    - {symerror: 1.532e-04, label: 'stat.'}
+  - value: 3.829e-03
+    errors:
+    - {symerror: 1.591e-04, label: 'stat.'}
+  - value: 3.391e-03
+    errors:
+    - {symerror: 1.463e-04, label: 'stat.'}
+  - value: 3.140e-03
+    errors:
+    - {symerror: 2.430e-04, label: 'stat.'}
+  - value: 2.435e-03
+    errors:
+    - {symerror: 4.210e-04, label: 'stat.'}
+  - value: 2.073e-03
+    errors:
+    - {symerror: 5.943e-04, label: 'stat.'}
+- header: {name: '${-c_2}/{c_1}$'}
+  qualifiers:
+  - {name: 'Centrality', value: '0-20%'}
+  - {name: 'Collision', value: '$d$+Au'}
+  values:
+  - value: 4.715e-01
+    errors:
+    - {symerror: 2.938e-02, label: 'stat.'}
+  - value: 4.307e-01
+    errors:
+    - {symerror: 1.989e-02, label: 'stat.'}
+  - value: 4.040e-01
+    errors:
+    - {symerror: 1.579e-02, label: 'stat.'}
+  - value: 3.390e-01
+    errors:
+    - {symerror: 1.493e-02, label: 'stat.'}
+  - value: 3.005e-01
+    errors:
+    - {symerror: 1.358e-02, label: 'stat.'}
+  - value: 2.758e-01
+    errors:
+    - {symerror: 2.220e-02, label: 'stat.'}
+  - value: 2.631e-01
+    errors:
+    - {symerror: 4.712e-02, label: 'stat.'}
+  - value: 2.624e-01
+    errors:
+    - {symerror: 7.782e-02, label: 'stat.'}
+- header: {name: '$-c_1$'}
+  qualifiers:
+  - {name: 'Centrality', value: '20-40%'}
+  - {name: 'Collision', value: '$d$+Au'}
+  values:
+  - value: 1.277e-02
+    errors:
+    - {symerror: 2.600e-04, label: 'stat.'}
+  - value: 1.430e-02
+    errors:
+    - {symerror: 2.051e-04, label: 'stat.'}
+  - value: 1.541e-02
+    errors:
+    - {symerror: 1.809e-04, label: 'stat.'}
+  - value: 1.588e-02
+    errors:
+    - {symerror: 1.879e-04, label: 'stat.'}
+  - value: 1.596e-02
+    errors:
+    - {symerror: 1.719e-04, label: 'stat.'}
+  - value: 1.616e-02
+    errors:
+    - {symerror: 2.831e-04, label: 'stat.'}
+  - value: 1.377e-02
+    errors:
+    - {symerror: 4.825e-04, label: 'stat.'}
+  - value: 1.114e-02
+    errors:
+    - {symerror: 6.712e-04, label: 'stat.'}
+- header: {name: '$c_2$'}
+  qualifiers:
+  - {name: 'Centrality', value: '20-40%'}
+  - {name: 'Collision', value: '$d$+Au'}
+  values:
+  - value: 3.811e-03
+    errors:
+    - {symerror: 3.717e-04, label: 'stat.'}
+  - value: 3.247e-03
+    errors:
+    - {symerror: 2.915e-04, label: 'stat.'}
+  - value: 3.551e-03
+    errors:
+    - {symerror: 2.562e-04, label: 'stat.'}
+  - value: 3.339e-03
+    errors:
+    - {symerror: 2.657e-04, label: 'stat.'}
+  - value: 3.163e-03
+    errors:
+    - {symerror: 2.430e-04, label: 'stat.'}
+  - value: 3.118e-03
+    errors:
+    - {symerror: 3.999e-04, label: 'stat.'}
+  - value: 1.155e-03
+    errors:
+    - {symerror: 6.826e-04, label: 'stat.'}
+  - value: 1.719e-03
+    errors:
+    - {symerror: 9.486e-04, label: 'stat.'}
+- header: {name: '${-c_2}/{c_1}$'}
+  qualifiers:
+  - {name: 'Centrality', value: '20-40%'}
+  - {name: 'Collision', value: '$d$+Au'}
+  values:
+  - value: 2.985e-01
+    errors:
+    - {symerror: 3.044e-02, label: 'stat.'}
+  - value: 2.270e-01
+    errors:
+    - {symerror: 2.099e-02, label: 'stat.'}
+  - value: 2.305e-01
+    errors:
+    - {symerror: 1.714e-02, label: 'stat.'}
+  - value: 2.102e-01
+    errors:
+    - {symerror: 1.716e-02, label: 'stat.'}
+  - value: 1.982e-01
+    errors:
+    - {symerror: 1.558e-02, label: 'stat.'}
+  - value: 1.930e-01
+    errors:
+    - {symerror: 2.528e-02, label: 'stat.'}
+  - value: 8.389e-02
+    errors:
+    - {symerror: 4.978e-02, label: 'stat.'}
+  - value: 1.543e-01
+    errors:
+    - {symerror: 8.631e-02, label: 'stat.'}
+- header: {name: '$-c_1$'}
+  qualifiers:
+  - {name: 'Centrality', value: '40-60%'}
+  - {name: 'Collision', value: '$d$+Au'}
+  values:
+  - value: 1.722e-02
+    errors:
+    - {symerror: 4.217e-04, label: 'stat.'}
+  - value: 1.892e-02
+    errors:
+    - {symerror: 3.372e-04, label: 'stat.'}
+  - value: 2.084e-02
+    errors:
+    - {symerror: 2.990e-04, label: 'stat.'}
+  - value: 2.053e-02
+    errors:
+    - {symerror: 3.114e-04, label: 'stat.'}
+  - value: 2.170e-02
+    errors:
+    - {symerror: 2.855e-04, label: 'stat.'}
+  - value: 2.060e-02
+    errors:
+    - {symerror: 4.675e-04, label: 'stat.'}
+  - value: 1.819e-02
+    errors:
+    - {symerror: 7.921e-04, label: 'stat.'}
+  - value: 1.515e-02
+    errors:
+    - {symerror: 1.092e-03, label: 'stat.'}
+- header: {name: '$c_2$'}
+  qualifiers:
+  - {name: 'Centrality', value: '40-60%'}
+  - {name: 'Collision', value: '$d$+Au'}
+  values:
+  - value: 3.173e-03
+    errors:
+    - {symerror: 6.032e-04, label: 'stat.'}
+  - value: 3.683e-03
+    errors:
+    - {symerror: 4.789e-04, label: 'stat.'}
+  - value: 3.477e-03
+    errors:
+    - {symerror: 4.231e-04, label: 'stat.'}
+  - value: 4.007e-03
+    errors:
+    - {symerror: 4.405e-04, label: 'stat.'}
+  - value: 3.058e-03
+    errors:
+    - {symerror: 4.035e-04, label: 'stat.'}
+  - value: 3.861e-03
+    errors:
+    - {symerror: 6.603e-04, label: 'stat.'}
+  - value: 4.089e-03
+    errors:
+    - {symerror: 1.121e-03, label: 'stat.'}
+  - value: 1.735e-03
+    errors:
+    - {symerror: 1.546e-03, label: 'stat.'}
+- header: {name: '${-c_2}/{c_1}$'}
+  qualifiers:
+  - {name: 'Centrality', value: '40-60%'}
+  - {name: 'Collision', value: '$d$+Au'}
+  values:
+  - value: 1.842e-01
+    errors:
+    - {symerror: 3.569e-02, label: 'stat.'}
+  - value: 1.946e-01
+    errors:
+    - {symerror: 2.590e-02, label: 'stat.'}
+  - value: 1.668e-01
+    errors:
+    - {symerror: 2.068e-02, label: 'stat.'}
+  - value: 1.952e-01
+    errors:
+    - {symerror: 2.197e-02, label: 'stat.'}
+  - value: 1.409e-01
+    errors:
+    - {symerror: 1.884e-02, label: 'stat.'}
+  - value: 1.874e-01
+    errors:
+    - {symerror: 3.274e-02, label: 'stat.'}
+  - value: 2.248e-01
+    errors:
+    - {symerror: 6.343e-02, label: 'stat.'}
+  - value: 1.145e-01
+    errors:
+    - {symerror: 1.028e-01, label: 'stat.'}
+- header: {name: '$-c_1$'}
+  qualifiers:
+  - {name: 'Centrality', value: '60-88%'}
+  - {name: 'Collision', value: '$d$+Au'}
+  values:
+  - value: 2.562e-02
+    errors:
+    - {symerror: 7.712e-04, label: 'stat.'}
+  - value: 2.636e-02
+    errors:
+    - {symerror: 6.283e-04, label: 'stat.'}
+  - value: 2.957e-02
+    errors:
+    - {symerror: 5.656e-04, label: 'stat.'}
+  - value: 2.920e-02
+    errors:
+    - {symerror: 5.925e-04, label: 'stat.'}
+  - value: 3.217e-02
+    errors:
+    - {symerror: 5.430e-04, label: 'stat.'}
+  - value: 3.026e-02
+    errors:
+    - {symerror: 8.824e-04, label: 'stat.'}
+  - value: 2.785e-02
+    errors:
+    - {symerror: 1.479e-03, label: 'stat.'}
+  - value: 2.182e-02
+    errors:
+    - {symerror: 1.994e-03, label: 'stat.'}
+- header: {name: '$c_2$'}
+  qualifiers:
+  - {name: 'Centrality', value: '60-88%'}
+  - {name: 'Collision', value: '$d$+Au'}
+  values:
+  - value: 3.366e-03
+    errors:
+    - {symerror: 1.102e-03, label: 'stat.'}
+  - value: 1.450e-03
+    errors:
+    - {symerror: 8.957e-04, label: 'stat.'}
+  - value: 3.526e-03
+    errors:
+    - {symerror: 8.026e-04, label: 'stat.'}
+  - value: 4.365e-03
+    errors:
+    - {symerror: 8.379e-04, label: 'stat.'}
+  - value: 4.744e-03
+    errors:
+    - {symerror: 7.673e-04, label: 'stat.'}
+  - value: 3.193e-03
+    errors:
+    - {symerror: 1.253e-03, label: 'stat.'}
+  - value: 2.535e-03
+    errors:
+    - {symerror: 2.094e-03, label: 'stat.'}
+  - value: 6.031e-03
+    errors:
+    - {symerror: 2.811e-03, label: 'stat.'}
+- header: {name: '${-c_2}/{c_1}$'}
+  qualifiers:
+  - {name: 'Centrality', value: '60-88%'}
+  - {name: 'Collision', value: '$d$+Au'}
+  values:
+  - value: 1.314e-01
+    errors:
+    - {symerror: 4.353e-02, label: 'stat.'}
+  - value: 5.503e-02
+    errors:
+    - {symerror: 3.410e-02, label: 'stat.'}
+  - value: 1.192e-01
+    errors:
+    - {symerror: 2.745e-02, label: 'stat.'}
+  - value: 1.495e-01
+    errors:
+    - {symerror: 2.919e-02, label: 'stat.'}
+  - value: 1.475e-01
+    errors:
+    - {symerror: 2.425e-02, label: 'stat.'}
+  - value: 1.055e-01
+    errors:
+    - {symerror: 4.179e-02, label: 'stat.'}
+  - value: 9.105e-02
+    errors:
+    - {symerror: 7.577e-02, label: 'stat.'}
+  - value: 2.764e-01
+    errors:
+    - {symerror: 1.346e-01, label: 'stat.'}
+- header: {name: '$-c_1$'}
+  qualifiers:
+  - {name: 'Centrality', value: ''}
+  - {name: 'Collision', value: '$p$+$p$'}
+  values:
+  - value: 6.513e-02
+    errors:
+    - {symerror: 4.073e-04, label: 'stat.'}
+  - value: 7.082e-02
+    errors:
+    - {symerror: 3.954e-04, label: 'stat.'}
+  - value: 7.437e-02
+    errors:
+    - {symerror: 4.663e-04, label: 'stat.'}
+  - value: 7.767e-02
+    errors:
+    - {symerror: 6.108e-04, label: 'stat.'}
+  - value: 7.516e-02
+    errors:
+    - {symerror: 6.829e-04, label: 'stat.'}
+  - value: 7.197e-02
+    errors:
+    - {symerror: 1.320e-03, label: 'stat.'}
+  - value: 6.914e-02
+    errors:
+    - {symerror: 2.379e-03, label: 'stat.'}
+  - value: 5.215e-02
+    errors:
+    - {symerror: 3.304e-03, label: 'stat.'}
+- header: {name: '$c_2$'}
+  qualifiers:
+  - {name: 'Centrality', value: ''}
+  - {name: 'Collision', value: '$p$+$p$'}
+  values:
+  - value: 7.893e-03
+    errors:
+    - {symerror: 5.777e-04, label: 'stat.'}
+  - value: 9.202e-03
+    errors:
+    - {symerror: 5.593e-04, label: 'stat.'}
+  - value: 1.122e-02
+    errors:
+    - {symerror: 6.604e-04, label: 'stat.'}
+  - value: 1.140e-02
+    errors:
+    - {symerror: 8.633e-04, label: 'stat.'}
+  - value: 1.120e-02
+    errors:
+    - {symerror: 9.637e-04, label: 'stat.'}
+  - value: 1.254e-02
+    errors:
+    - {symerror: 1.866e-03, label: 'stat.'}
+  - value: 7.353e-03
+    errors:
+    - {symerror: 3.335e-03, label: 'stat.'}
+  - value: 4.668e-03
+    errors:
+    - {symerror: 4.680e-03, label: 'stat.'}
+- header: {name: '${-c_2}/{c_1}$'}
+  qualifiers:
+  - {name: 'Centrality', value: ''}
+  - {name: 'Collision', value: '$p$+$p$'}
+  values:
+  - value: 1.212e-01
+    errors:
+    - {symerror: 9.029e-03, label: 'stat.'}
+  - value: 1.299e-01
+    errors:
+    - {symerror: 8.061e-03, label: 'stat.'}
+  - value: 1.508e-01
+    errors:
+    - {symerror: 9.110e-03, label: 'stat.'}
+  - value: 1.468e-01
+    errors:
+    - {symerror: 1.140e-02, label: 'stat.'}
+  - value: 1.490e-01
+    errors:
+    - {symerror: 1.316e-02, label: 'stat.'}
+  - value: 1.742e-01
+    errors:
+    - {symerror: 2.673e-02, label: 'stat.'}
+  - value: 1.063e-01
+    errors:
+    - {symerror: 4.901e-02, label: 'stat.'}
+  - value: 8.952e-02
+    errors:
+    - {symerror: 9.057e-02, label: 'stat.'}
