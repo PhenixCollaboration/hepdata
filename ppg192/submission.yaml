@@ -90,14 +90,26 @@ additional_resources:
 - {description: Thumbnail Image file, location: thumb_SummaryForPaper_C1C2SemiLog_switch1.png}
 ---
 # This is Figure 9.
-name: "Figure 9"
+name: "Figure 9a"
 location: Data From Fig. 9 of PRC 98 (2018) 014912
 description: 'System centrality dependence of correlation coefficients $-c_1$, $c_2$, and the ratio ${-c_2}/{c_1}$ as a function of $N_{part}$.'
 keywords: # used for searching, possibly mutliple values for each keywords
-- {name: reactions, values: [$d$ Au --> CHARGED X, $p$ $p$ --> CHARGED X]}
+- {name: reactions, values: [$d$ Au --> CHARGED X]}
 - {name: cmenergies, values: [200.0]}
 - {name: phrases, values: [ppg192, emission angle anisotropy, long-range angular correlations, transverse momentum]}
-data_file: ppg192fig9.yaml
+data_file: ppg192fig9a.yaml
+additional_resources:
+- {description: Thumbnail Image file, location: thumb_SummaryForPaper_C1C2OverCentFinal_switch1.png}
+---
+# This is Figure 9.
+name: "Figure 9b"
+location: Data From Fig. 9 of PRC 98 (2018) 014912
+description: 'System centrality dependence of correlation coefficients $-c_1$, $c_2$, and the ratio ${-c_2}/{c_1}$ as a function of $N_{part}$.'
+keywords: # used for searching, possibly mutliple values for each keywords
+- {name: reactions, values: [$p$ $p$ --> CHARGED X]}
+- {name: cmenergies, values: [200.0]}
+- {name: phrases, values: [ppg192, emission angle anisotropy, long-range angular correlations, transverse momentum]}
+data_file: ppg192fig9b.yaml
 additional_resources:
 - {description: Thumbnail Image file, location: thumb_SummaryForPaper_C1C2OverCentFinal_switch1.png}
 ---
