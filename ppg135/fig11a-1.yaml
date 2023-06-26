@@ -1,0 +1,58 @@
+independent_variables:
+- header: {name: '$\langle p_T \rangle$ (GeV/$c$)'}
+  values:
+  - value: 1.5
+  - value: 2.4
+  - value: 3.4
+  - value: 4.4
+  - value: 5.4
+  - value: 6.4
+  - value: 7.4
+  - value: 8.4
+  - value: 9.4
+  - value: 10.8
+dependent_variables:
+- header: {name: '$A_N$'}
+  qualifiers:
+  - {name: 'Pseudorapidity', value: '$|\eta|$ < 0.35'}
+  values:
+  - value: 8.0e-4
+    errors:
+    - {symerror: 6e-4, label: '$\sigma_{stat}$'}
+    - {symerror: 2.0e-4, label: '$\sigma_{syst}$'}
+  - value: 6.0e-4
+    errors:
+    - {symerror: 6e-4, label: '$\sigma_{stat}$'}
+    - {symerror: 2.0e-4, label: '$\sigma_{syst}$'}
+  - value: 2.0e-4
+    errors:
+    - {symerror: 0.0011, label: '$\sigma_{stat}$'}
+    - {symerror: 3.0e-4, label: '$\sigma_{syst}$'}
+  - value: 0.0013
+    errors:
+    - {symerror: 0.0022, label: '$\sigma_{stat}$'}
+    - {symerror: 6e-4, label: '$\sigma_{syst}$'}
+  - value: 4e-4
+    errors:
+    - {symerror: 0.005, label: '$\sigma_{stat}$'}
+    - {symerror: 9e-4, label: '$\sigma_{syst}$'}
+  - value: -0.0071
+    errors:
+    - {symerror: 0.008, label: '$\sigma_{stat}$'}
+    - {symerror: 0.0016, label: '$\sigma_{syst}$'}
+  - value: -0.0062
+    errors:
+    - {symerror: 0.014, label: '$\sigma_{stat}$'}
+    - {symerror: 0.0027, label: '$\sigma_{syst}$'}
+  - value: 0.004
+    errors:
+    - {symerror: 0.021, label: '$\sigma_{stat}$'}
+    - {symerror: 0.005, label: '$\sigma_{syst}$'}
+  - value: 0.006
+    errors:
+    - {symerror: 0.032, label: '$\sigma_{stat}$'}
+    - {symerror: 0.006, label: '$\sigma_{syst}$'}
+  - value: 0.033
+    errors:
+    - {symerror: 0.04, label: '$\sigma_{stat}$'}
+    - {symerror: 0.008, label: '$\sigma_{syst}$'}
