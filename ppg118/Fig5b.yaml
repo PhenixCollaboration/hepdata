@@ -1,0 +1,59 @@
+independent_variables:
+- header: {name: '$p_T$ (GeV/$c$)'}
+  values:
+  - {low: 0.25, high: 0.50}
+  - {low: 0.50, high: 0.75}
+  - {low: 0.75, high: 1.00}
+  - {low: 1.00, high: 1.25}
+  - {low: 1.25, high: 1.50}
+  - {low: 1.50, high: 1.75}
+  - {low: 1.75, high: 2.00}
+  - {low: 2.00, high: 2.50}
+  - {low: 2.50, high: 3.00}
+  - {low: 3.00, high: 4.00}
+dependent_variables:
+- header: {name: '$1/{N_{evt}}$ ${1}/{2} \pi {p}_{T} {{d}^{2}N}/{dy d{p}_{T}} {(GeV/c)}^{-2}$'}
+  qualifiers:
+  - {name: 'Collision', value: '$d$ + Au'}
+  - {name: 'Centrality', value: '60-88%'}
+  values:
+  - value: 1.42e-01
+    errors:
+    - {symerror: 7.94e-02, label: 'stat.'}
+    - {symerror: 4.12e-02, label: 'sys.'}
+  - value: 8.88e-02
+    errors:
+    - {symerror: 2.05e-02, label: 'stat.'}
+    - {symerror: 2.81e-02, label: 'sys.'}
+  - value: 3.05e-02
+    errors:
+    - {symerror: 5.55e-03, label: 'stat.'}
+    - {symerror: 7.43e-03, label: 'sys.'}
+  - value: 9.89e-03
+    errors:
+    - {symerror: 1.77e-03, label: 'stat.'}
+    - {symerror: 2.14e-03, label: 'sys.'}
+  - value: 6.62e-03
+    errors:
+    - {symerror: 1.05e-03, label: 'stat.'}
+    - {symerror: 1.36e-03, label: 'sys.'}
+  - value: 2.29e-03
+    errors:
+    - {symerror: 4.20e-04, label: 'stat.'}
+    - {symerror: 4.42e-04, label: 'sys.'}
+  - value: 1.37e-03
+    errors:
+    - {symerror: 2.71e-04, label: 'stat.'}
+    - {symerror: 2.55e-04, label: 'sys.'}
+  - value: 4.57e-04
+    errors:
+    - {symerror: 8.15e-05, label: 'stat.'}
+    - {symerror: 8.19e-05, label: 'sys.'}
+  - value: 2.16e-04
+    errors:
+    - {symerror: 3.66e-05, label: 'stat.'}
+    - {symerror: 3.76e-05, label: 'sys.'}
+  - value: 3.97e-05
+    errors:
+    - {symerror: 7.75e-06, label: 'stat.'}
+    - {symerror: 6.80e-06, label: 'sys.'}

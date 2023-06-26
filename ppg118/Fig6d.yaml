@@ -1,0 +1,59 @@
+independent_variables:
+- header: {name: '$p_T$ (GeV/$c$)'}
+  values:
+  - {low: 5, high: 6}
+  - {low: 6, high: 7}
+  - {low: 7, high: 8}
+  - {low: 8, high: 10}
+  - {low: 10, high: 12}
+dependent_variables:
+- header: {name: '$1/{N_{evt}}$ ${1}/{2} \pi {p}_{T} $ $ {{d}^{2}N}/{dy d{p}_{T}} {(GeV/c)}^{-2}$'}
+  qualifiers:
+  - {name: 'Collision', value: 'Au + Au'}
+  - {name: 'Centrality', value: 'Min. bias'}
+  values:
+  - value: 2.4e-5
+    errors:
+    - {symerror: 8e-6, label: 'stat.'}
+    - {symerror: 6e-6, label: 'sys.'}
+  - value: 3.7e-6
+    errors:
+    - {symerror: 1.5e-6, label: 'stat.'}
+    - {symerror: 9e-7, label: 'sys.'}
+  - value: 1.39e-6
+    errors:
+    - {symerror: 4e-7, label: 'stat.'}
+    - {symerror: 3.4e-7, label: 'sys.'}
+  - value: 4.5e-7
+    errors:
+    - {symerror: 8e-8, label: 'stat.'}
+    - {symerror: 1.1e-7, label: 'sys.'}
+  - value: 9.6e-8
+    errors:
+    - {symerror: 2.5e-8, label: 'stat.'}
+    - {symerror: 2.4e-8, label: 'sys.'}
+- header: {name: '$1/{N_{evt}}$ ${1}/{2} \pi {p}_{T} $ $ {{d}^{2}N}/{dy d{p}_{T}} {(GeV/c)}^{-2}$'}
+  qualifiers:
+  - {name: 'Collision', value: 'Au + Au'}
+  - {name: 'Centrality', value: '20-40%'}
+  values:
+  - value: 4.6e-5
+    errors:
+    - {symerror: 1.0e-5, label: 'stat.'}
+    - {symerror: 1.0e-5, label: 'sys.'}
+  - value: 7.1e-6
+    errors:
+    - {symerror: 2.1e-6, label: 'stat.'}
+    - {symerror: 1.6e-6, label: 'sys.'}
+  - value: 2.0e-6
+    errors:
+    - {symerror: 6e-7, label: 'stat.'}
+    - {symerror: 5e-7, label: 'sys.'}
+  - value: 5.0e-7
+    errors:
+    - {symerror: 1.2e-7, label: 'stat.'}
+    - {symerror: 1.1e-7, label: 'sys.'}
+  - value: 1.23e-7
+    errors:
+    - {symerror: 4e-8, label: 'stat.'}
+    - {symerror: 2.8e-8, label: 'sys.'}

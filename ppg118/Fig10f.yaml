@@ -1,0 +1,24 @@
+independent_variables:
+- header: {name: '$p_T$ (GeV/$c$)'}
+  values:
+  - {low: 6, high: 7}
+  - {low: 7, high: 8}
+  - {low: 8, high: 10}
+dependent_variables:
+- header: {name: '$R_{AA}$'}
+  qualifiers:
+  - {name: 'Collision', value: 'Au + Au'}
+  - {name: 'Centrality', value: '60-92%'}
+  values:
+  - value: 2.4
+    errors:
+    - {symerror: 0.5, label: 'stat.'}
+    - {symerror: 0.8, label: 'sys.'}
+  - value: 1.4
+    errors:
+    - {symerror: 0.7, label: 'stat.'}
+    - {symerror: 0.5, label: 'sys.'}
+  - value: 3.0
+    errors:
+    - {symerror: 0.8, label: 'stat.'}
+    - {symerror: 1.1, label: 'sys.'}

@@ -1,0 +1,53 @@
+independent_variables:
+- header: {name: '$p_T$ (GeV/$c$)'}
+  values:
+  - {low: 0.00, high: 0.25}
+  - {low: 0.25, high: 0.50}
+  - {low: 0.50, high: 0.75}
+  - {low: 0.75, high: 1.00}
+  - {low: 1.00, high: 1.25}
+  - {low: 1.25, high: 1.50}
+  - {low: 1.50, high: 2.00}
+  - {low: 2.00, high: 3.00}
+  - {low: 3.00, high: 4.00}
+dependent_variables:
+- header: {name: 'Ratio'}
+  qualifiers:
+  - {name: 'Decay Channel', value: '${e}^{+}{e}^{-}$'}
+  values:
+  - value: 0.027
+    errors:
+    - {symerror: 0.009, label: 'stat.'}
+    - {symerror: 0.006, label: 'sys.'}
+  - value: 0.078
+    errors:
+    - {symerror: 0.015, label: 'stat.'}
+    - {symerror: 0.016, label: 'sys.'}
+  - value: 0.210
+    errors:
+    - {symerror: 0.022, label: 'stat.'}
+    - {symerror: 0.035, label: 'sys.'}
+  - value: 0.28
+    errors:
+    - {symerror: 0.04, label: 'stat.'}
+    - {symerror: 0.05, label: 'sys.'}
+  - value: 0.42
+    errors:
+    - {symerror: 0.06, label: 'stat.'}
+    - {symerror: 0.07, label: 'sys.'}
+  - value: 0.47
+    errors:
+    - {symerror: 0.07, label: 'stat.'}
+    - {symerror: 0.08, label: 'sys.'}
+  - value: 0.54
+    errors:
+    - {symerror: 0.09, label: 'stat.'}
+    - {symerror: 0.09, label: 'sys.'}
+  - value: 0.61
+    errors:
+    - {symerror: 0.12, label: 'stat.'}
+    - {symerror: 0.11, label: 'sys.'}
+  - value: 0.71
+    errors:
+    - {symerror: 0.25, label: 'stat.'}
+    - {symerror: 0.13, label: 'sys.'}

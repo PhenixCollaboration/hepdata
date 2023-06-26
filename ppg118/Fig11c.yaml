@@ -1,0 +1,30 @@
+independent_variables:
+- header: {name: 'Centrality (%)'}
+  values:
+  - {low: 0, high: 20}
+  - {low: 20, high: 60}
+  - {low: 60, high: 92}
+dependent_variables:
+- header: {name: '$N_{Part}$'}
+  qualifiers:
+  - {name: 'Collision', value: 'Au + Au'}
+  values:
+  - {value: 280.5}
+  - {value: 101.6}
+  - {value: 11.8}
+- header: {name: '$R_{AA}$'}
+  qualifiers:
+  - {name: 'Collision', value: 'Au + Au'}
+  values:
+  - value: 0.25
+    errors:
+    - {symerror: 0.06, label: 'stat'}
+    - {symerror: 0.06, label: 'sys.'}
+  - value: 0.43
+    errors:
+    - {symerror: 0.08, label: 'stat'}
+    - {symerror: 0.09, label: 'sys.'}
+  - value: 1.8
+    errors:
+    - {symerror: 0.4, label: 'stat'}
+    - {symerror: 0.6, label: 'sys.'}

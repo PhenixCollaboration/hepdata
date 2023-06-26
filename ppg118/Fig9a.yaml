@@ -1,0 +1,160 @@
+independent_variables:
+- header: {name: '$p_T$ (GeV/$c$)'}
+  values:
+  - {low: 0.25, high: 0.50}
+  - {low: 0.50, high: 0.75}
+  - {low: 0.75, high: 1.00}
+  - {low: 1.00, high: 1.25}
+  - {low: 1.25, high: 1.50}
+  - {low: 1.50, high: 2.00}
+  - {low: 2.00, high: 3.00}
+  - {low: 3.00, high: 4.00}
+dependent_variables:
+- header: {name: '$R_{dAu}$'}
+  qualifiers:
+  - {name: 'Decay Channel', value: '$\omega \rightarrow e^+e^-$'}
+  - {name: 'Centrality', value: 'Min. bias'}
+  values:
+  - value: 0.82
+    errors:
+    - {symerror: 0.27, label: 'stat.'}
+    - {symerror: 0.24, label: 'sys.'}
+  - value: 0.70
+    errors:
+    - {symerror: 0.13, label: 'stat.'}
+    - {symerror: 0.22, label: 'sys.'}
+  - value: 0.67
+    errors:
+    - {symerror: 0.11, label: 'stat.'}
+    - {symerror: 0.17, label: 'sys.'}
+  - value: 0.56
+    errors:
+    - {symerror: 0.10, label: 'stat.'}
+    - {symerror: 0.12, label: 'sys.'}
+  - value: 0.70
+    errors:
+    - {symerror: 0.13, label: 'stat.'}
+    - {symerror: 0.15, label: 'sys.'}
+  - value: 0.92
+    errors:
+    - {symerror: 0.17, label: 'stat.'}
+    - {symerror: 0.15, label: 'sys.'}
+  - value: 1.50
+    errors:
+    - {symerror: 0.30, label: 'stat.'}
+    - {symerror: 0.27, label: 'sys.'}
+  - value: 1.50
+    errors:
+    - {symerror: 0.53, label: 'stat.'}
+    - {symerror: 0.31, label: 'sys.'}
+- header: {name: '$R_{dAu}$'}
+  qualifiers:
+  - {name: 'Decay Channel', value: '$\omega \rightarrow e^+e^-$'}
+  - {name: 'Centrality', value: '0-20%'}
+  values:
+  - value: 0.98
+    errors:
+    - {symerror: 0.40, label: 'stat.'}
+    - {symerror: 0.34, label: 'sys.'}
+  - value: 0.79
+    errors:
+    - {symerror: 0.21, label: 'stat.'}
+    - {symerror: 0.29, label: 'sys.'}
+  - value: 0.59
+    errors:
+    - {symerror: 0.14, label: 'stat.'}
+    - {symerror: 0.17, label: 'sys.'}
+  - value: 0.57
+    errors:
+    - {symerror: 0.11, label: 'stat.'}
+    - {symerror: 0.15, label: 'sys.'}
+  - value: 0.71
+    errors:
+    - {symerror: 0.14, label: 'stat.'}
+    - {symerror: 0.17, label: 'sys.'}
+  - value: 0.94
+    errors:
+    - {symerror: 0.18, label: 'stat.'}
+    - {symerror: 0.16, label: 'sys.'}
+  - value: 1.50
+    errors:
+    - {symerror: 0.31, label: 'stat.'}
+    - {symerror: 0.27, label: 'sys.'}
+  - value: 1.50
+    errors:
+    - {symerror: 0.53, label: 'stat.'}
+    - {symerror: 0.30, label: 'sys.'}
+- header: {name: '$R_{dAu}$'}
+  qualifiers:
+  - {name: 'Decay Channel', value: '$\omega \rightarrow e^+e^-$'}
+  - {name: 'Centrality', value: '20-40%'}
+  values:
+  - value: 0.98
+    errors:
+    - {symerror: 0.41, label: 'stat.'}
+    - {symerror: 0.29, label: 'sys.'}
+  - value: 0.70
+    errors:
+    - {symerror: 0.17, label: 'stat.'}
+    - {symerror: 0.22, label: 'sys.'}
+  - value: 0.67
+    errors:
+    - {symerror: 0.14, label: 'stat.'}
+    - {symerror: 0.16, label: 'sys.'}
+  - value: 0.52
+    errors:
+    - {symerror: 0.10, label: 'stat.'}
+    - {symerror: 0.11, label: 'sys.'}
+  - value: 0.80
+    errors:
+    - {symerror: 0.16, label: 'stat.'}
+    - {symerror: 0.17, label: 'sys.'}
+  - value: 1.00
+    errors:
+    - {symerror: 0.19, label: 'stat.'}
+    - {symerror: 0.17, label: 'sys.'}
+  - value: 1.80
+    errors:
+    - {symerror: 0.37, label: 'stat.'}
+    - {symerror: 0.35, label: 'sys.'}
+  - value: 1.80
+    errors:
+    - {symerror: 0.65, label: 'stat.'}
+    - {symerror: 0.39, label: 'sys.'}
+- header: {name: '$R_{dAu}$'}
+  qualifiers:
+  - {name: 'Decay Channel', value: '$\omega \rightarrow e^+e^-$'}
+  - {name: 'Centrality', value: '40-60%'}
+  values:
+  - value: 0.67
+    errors:
+    - {symerror: 0.34, label: 'stat.'}
+    - {symerror: 0.21, label: 'sys.'}
+  - value: 0.63
+    errors:
+    - {symerror: 0.16, label: 'stat.'}
+    - {symerror: 0.22, label: 'sys.'}
+  - value: 0.69
+    errors:
+    - {symerror: 0.13, label: 'stat.'}
+    - {symerror: 0.19, label: 'sys.'}
+  - value: 0.57
+    errors:
+    - {symerror: 0.14, label: 'stat.'}
+    - {symerror: 0.13, label: 'sys.'}
+  - value: 0.63
+    errors:
+    - {symerror: 0.14, label: 'stat.'}
+    - {symerror: 0.14, label: 'sys.'}
+  - value: 0.96
+    errors:
+    - {symerror: 0.19, label: 'stat.'}
+    - {symerror: 0.16, label: 'sys.'}
+  - value: 1.70
+    errors:
+    - {symerror: 0.36, label: 'stat.'}
+    - {symerror: 0.30, label: 'sys.'}
+  - value: 1.50
+    errors:
+    - {symerror: 0.58, label: 'stat.'}
+    - {symerror: 0.32, label: 'sys.'}

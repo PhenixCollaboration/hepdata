@@ -1,0 +1,24 @@
+independent_variables:
+- header: {name: '$p_T$ (GeV/$c$)'}
+  values:
+  - {low: 3.5, high: 4.5}
+  - {low: 4.5, high: 5.5}
+  - {low: 5.5, high: 6.5}
+dependent_variables:
+- header: {name: '$1/{N_{evt}}$ ${1}/{2} \pi {p}_{T} $ $ {{d}^{2}N}/{dy d{p}_{T}} {(GeV/c)}^{-2}$'}
+  qualifiers:
+  - {name: 'Collision', value: 'Au + Au'}
+  - {name: 'Centrality', value: '60-92%'}
+  values:
+  - value: 4.3e-5
+    errors:
+    - {symerror: 2.2e-5, label: 'stat.'}
+    - {symerror: 1.0e-5, label: 'sys.'}
+  - value: 1.4e-5
+    errors:
+    - {symerror: 4e-6, label: 'stat.'}
+    - {symerror: 4e-6, label: 'sys.'}
+  - value: 2.3e-6
+    errors:
+    - {symerror: 1.1e-6, label: 'stat.'}
+    - {symerror: 8e-7, label: 'sys.'}
