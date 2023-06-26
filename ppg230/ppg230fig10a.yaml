@@ -1,0 +1,30 @@
+independent_variables:
+- header: {name: '$p_T$ (Gev/$c$)'}
+  values:
+  - {low: 0.0, high: 3.0}
+  - {low: 3.0, high: 10.0}
+dependent_variables:
+- header: {name: '$\lambda_{\theta \phi}$'}
+  qualifiers:
+  - {name: 'Frame', value: 'Helicity'}
+  values:
+  - value: 0.23
+    errors:
+    - {asymerror: {plus: 012, minus: 0.08}, label: 'stat.'}
+    - {asymerror: {plus: 0.09, minus: 0.11}, label: 'sys.'}
+  - value: 0.12
+    errors:
+    - {asymerror: {plus: 0.19, minus: 0.19}, label: 'stat.'}
+    - {asymerror: {plus: 0.04, minus: 0.04}, label: 'sys.'}
+- header: {name: '$\lambda_{\theta \phi}$'}
+  qualifiers:
+  - {name: 'Frame', value: 'Gottfried-Jackson'}
+  values:
+  - value: -0.01
+    errors:
+    - {asymerror: {plus: 0.25, minus: 0.24}, label: 'stat.'}
+    - {asymerror: {plus: 0.06, minus: 0.07}, label: 'sys.'}
+  - value: 0.13
+    errors:
+    - {asymerror: {plus: 0.20, minus: 0.18}, label: 'stat.'}
+    - {asymerror: {plus: 0.08, minus: 0.09}, label: 'sys.'}
