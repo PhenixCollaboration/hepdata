@@ -1,0 +1,71 @@
+independent_variables:
+- header: {name: 'Rapidity Range ($y$)'}
+  values:
+  - {low: -2.20, high: -1.95}
+  - {low: -1.95, high: -1.70}
+  - {low: -1.70, high: -1.45}
+  - {low: -1.45, high: -1.20}
+  - {low: 1.20, high: 1.45}
+  - {low: 1.45, high: 1.70}
+  - {low: 1.70, high: 1.95}
+  - {low: 1.95, high: 2.20}
+  - {low: 2.20, high: 2.45}
+dependent_variables:
+- header: {name: '$B_{ll}dN/dy$'}
+  qualifiers:
+  - {name: 'Centrality (%)', value: 'Minimum Bias'}
+  values:
+  - value: 2.50E-06
+    errors:
+    - {symerror: 6.00E-08, label: 'stat.'}
+    - {symerror: 5.00E-08, label: 'sys. A'}
+    - {symerror: 2.20E-07, label: 'sys. B'}
+    - {symerror: 5.00E-08, label: 'sys. C'}
+  - value: 4.00E-06
+    errors:
+    - {symerror: 5.00E-08, label: 'stat.'}
+    - {symerror: 4.00E-08, label: 'sys. A'}
+    - {symerror: 3.50E-07, label: 'sys. B'}
+    - {symerror: 9.00E-08, label: 'sys. C'}
+  - value: 5.40E-06
+    errors:
+    - {symerror: 6.00E-08, label: 'stat.'}
+    - {symerror: 5.00E-08, label: 'sys. A'}
+    - {symerror: 5.00E-07, label: 'sys. B'}
+    - {symerror: 1.10E-07, label: 'sys. C'}
+  - value: 7.20E-06
+    errors:
+    - {symerror: 1.40E-07, label: 'stat.'}
+    - {symerror: 1.10E-07, label: 'sys. A'}
+    - {symerror: 6.00E-07, label: 'sys. B'}
+    - {symerror: 1.50E-07, label: 'sys. C'}
+  - value: 5.50E-06
+    errors:
+    - {symerror: 1.10E-07, label: 'stat.'}
+    - {symerror: 9.00E-08, label: 'sys. A'}
+    - {symerror: 5.00E-07, label: 'sys. B'}
+    - {symerror: 1.20E-07, label: 'sys. C'}
+  - value: 4.20E-06
+    errors:
+    - {symerror: 5.00E-08, label: 'stat.'}
+    - {symerror: 4.00E-08, label: 'sys. A'}
+    - {symerror: 4.00E-07, label: 'sys. B'}
+    - {symerror: 9.00E-08, label: 'sys. C'}
+  - value: 3.20E-06
+    errors:
+    - {symerror: 4.00E-08, label: 'stat.'}
+    - {symerror: 3.10E-08, label: 'sys. A'}
+    - {symerror: 3.00E-07, label: 'sys. B'}
+    - {symerror: 7.00E-08, label: 'sys. C'}
+  - value: 2.50E-06
+    errors:
+    - {symerror: 4.00E-08, label: 'stat.'}
+    - {symerror: 3.10E-08, label: 'sys. A'}
+    - {symerror: 2.30E-07, label: 'sys. B'}
+    - {symerror: 5.00E-08, label: 'sys. C'}
+  - value: 1.50E-06
+    errors:
+    - {symerror: 6.00E-08, label: 'stat.'}
+    - {symerror: 5.00E-08, label: 'sys. A'}
+    - {symerror: 1.40E-07, label: 'sys. B'}
+    - {symerror: 3.20E-08, label: 'sys. C'}
