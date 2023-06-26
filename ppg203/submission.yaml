@@ -1,0 +1,33 @@
+#PHENIX paper PPG203
+#
+#Nuclear dependence of the transverse-single-spin asymmetry for forward neutron production in polarized $p$+$A$ collisions at $\sqrt{s_{NN}}$ = 200 GeV
+#
+#Phys.Rev.Lett 120 (2018) 022001
+#InspireHEP ID: 1520869
+#
+#Prepared by Nikolas Nelson
+#Please contact Christine Nattrass if you have any questions about this submission
+#PPG liaison:
+#Reviewer:
+#
+comment: | # Information that applies to all data tables.
+  During 2015 the Relativistic Heavy Ion Collider (RHIC) provided collisions of transversely polarized protons with Au and Al nuclei for the first time, enabling the exploration of transverse-single-spin asymmetries with heavy nuclei. Large single-spin asymmetries in very forward neutron production have been previously observed in transversely polarized $p$+$p$ collisions at RHIC, and the existing theoretical framework that was successful in describing the single-spin asymmetry in $p$+$p$ collisions predicts only a moderate atomic-mass-number ($A$) dependence. In contrast, the asymmetries observed at RHIC in $p$+$A$ collisions showed a surprisingly strong $A$ dependence in inclusive forward neutron production. The observed asymmetry in $p$+Al collisions is much smaller, while the asymmetry in $p$+Au collisions is a factor of three larger in absolute value and of opposite sign. The interplay of different neutron production mechanisms is discussed as a possible explanation of the observed $A$ dependence.
+additional_resources:
+- {location: "https://phenix-intra.sdcc.bnl.gov/phenix/WWW/p/info/ppg/203/", description: "web page with data points"}
+- {location: "http://arxiv.org/abs/1703.10941", description: arXiv}
+- {location: "https://inspirehep.net/literature/1520869", description: InspireHEP}
+---
+# This is Figure 4.
+name: "Figure 4"
+location: Data From Table 1 of PRL 120 (2018) 022001
+description: 'Forward neutron $A_N$ in $p$+$A$ collisions for $A$ = 1 ($p$), 27 (Al), and 197 (Au), for ZDC inclusive, ZDC $\otimes$ BBC-tag, and ZDC $\otimes$ BBC-veto triggered samples. The 3% scale uncertainty is from the polarization normalization uncertaintiy.'
+keywords: # used for searching, possibly mutliple values for each keywords
+- {name: reactions, values: [$p$ $A$ --> CHARGED X]}
+- {name: cmenergies, values: [200.0]}
+- {name: phrases, values: [ppg203, transverse-single-spin asymmetry, neutron production]}
+data_file: ppg203fig4.yaml
+additional_resources:
+- {description: Original EPS Image file, location: result.eps}
+- {description: PNG Image file, location: result.png}
+- {description: Thumbnail Image file, location: thumb_result.png}
+---
