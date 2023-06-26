@@ -1,0 +1,13 @@
+independent_variables:
+- header: {name: '$p_T$ (Gev/$c$)'}
+  values:
+  - {low: 3.0, high: 10.0}
+dependent_variables:
+- header: {name: '$\lambda_{\theta \phi}$'}
+  qualifiers:
+  - {name: 'Frame', value: 'Collins-Soper'}
+  values:
+  - value: 0.02
+    errors:
+    - {asymerror: {plus: 0.18, minus: 0.18}, label: 'stat.'}
+    - {asymerror: {plus: 0.01, minus: 0.07}, label: 'sys.'}
