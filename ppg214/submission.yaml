@@ -22,8 +22,19 @@ name: "Table 3"
 location: Data From Table 3 of PRD 98 (2018) 032007
 description: 'Single-spin asymmetries at forward $A^{FW}_L$ and backward $A^{BW}_L$ rapidities for $p$+$p$ collisions at $\sqrt{s}$ = 510 GeV for results in 2013 and 2012, plus combined results for both years.'
 keywords: # used for searching, possibly mutliple values for each keywords
-- {name: reactions, values: [$p$ $p$ --> CHARGED X]}
+- {name: reactions, values: [$p$ $p$ --> $W^\pm$ + X, $p$ $p$ --> $\mu^\pm$ + X]}
 - {name: cmenergies, values: [510.0]}
 - {name: phrases, values: [ppg214, cross section, single-spin asymmetry, helicities]}
 data_file: ppg214tab3.yaml
 ---
+# This is Relevent Information.
+name: "Conclusion"
+location: Data From PRD 98 (2018) 032007
+description: 'The total $W$ boson production cross sections for $p$+$p$ collisions at $\sqrt{s}$ = 510 GeV for $\sigma$($W^+$ $\rightarrow$ $\mu^+$) and $\sigma$($W^-$ $\rightarrow$ $\mu^-$).'
+keywords: # used for searching, possibly mutliple values for each keywords
+- {name: reactions, values: [$p$ $p$ --> $W^\pm$ + X, $p$ $p$ --> $\mu^\pm$ + X]}
+- {name: cmenergies, values: [510.0]}
+- {name: phrases, values: [ppg214, cross section, single-spin asymmetry, helicities]}
+data_file: ppg214extra.yaml
+---
+

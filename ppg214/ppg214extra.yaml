@@ -1,0 +1,17 @@
+independent_variables:
+- header: {name: 'Cross Section (pb)'}
+  values:
+  - value: 'Total $W$ Boson Production'
+dependent_variables:
+- header: {name: '$\sigma$($W^+$ $\rightarrow$ $\mu^+$)'}
+  values:
+  - value: 123.31
+    errors:
+    - {asymerror: {plus: 0.13, minus: -0.11}, label: 'stat.'}
+    - {asymerror: {plus: 0.34, minus: -0.31}, label: 'sys.'}
+- header: {name: '$\sigma$($W^+$ $\rightarrow$ $\mu^+$)'}
+  values:
+  - value: 35.80
+    errors:
+    - {asymerror: {plus: 3.9, minus: -3.0}, label: 'stat.'}
+    - {asymerror: {plus: 13, minus: -13}, label: 'sys.'}
