@@ -81,43 +81,53 @@ dependent_variables:
   - value: 230.0
     errors:
     - {symerror: 0.8, label: 'stat.'}
-    - {symerror: 13.9, label: 'syst.'}
+    - {symerror: 14, label: 'syst.'}
+    - {symerror: 1.7, label: 'bending syst.'}
   - value: 194.0
     errors:
     - {symerror: 0.8, label: 'stat.'}
-    - {symerror: 11.7, label: 'syst.'}
+    - {symerror: 12, label: 'syst.'}
+    - {symerror: 2.6, label: 'bending syst.'}
   - value: 164.0
     errors:
     - {symerror: 0.8, label: 'stat.'}
-    - {symerror: 10.6, label: 'syst.'}
+    - {symerror: 11, label: 'syst.'}
+    - {symerror: 2.9, label: 'bending syst.'}
   - value: 134.0
     errors:
     - {symerror: 0.7, label: 'stat.'}
-    - {symerror: 8.4, label: 'syst.'}
+    - {symerror: 9.3, label: 'syst.'}
+    - {symerror: 4.0, label: 'bending syst.'}
   - value: 109.0
     errors:
     - {symerror: 0.5, label: 'stat.'}
-    - {symerror: 6.8, label: 'syst.'}
+    - {symerror: 7.8, label: 'syst.'}
+    - {symerror: 3.8, label: 'bending syst.'}
   - value: 88.4
     errors:
     - {symerror: 0.5, label: 'stat.'}
-    - {symerror: 5.5, label: 'syst.'}
+    - {symerror: 6.7, label: 'syst.'}
+    - {symerror: 3.8, label: 'bending syst.'}
   - value: 72.0
     errors:
     - {symerror: 0.4, label: 'stat.'}
-    - {symerror: 4.6, label: 'syst.'}
+    - {symerror: 6.0, label: 'syst.'}
+    - {symerror: 3.9, label: 'bending syst.'}
   - value: 58.1
     errors:
     - {symerror: 0.4, label: 'stat.'}
-    - {symerror: 3.6, label: 'syst.'}
+    - {symerror: 5.3, label: 'syst.'}
+    - {symerror: 3.9, label: 'bending syst.'}
   - value: 45.3
     errors:
     - {symerror: 0.3, label: 'stat.'}
-    - {symerror: 2.8, label: 'syst.'}
+    - {symerror: 4.8, label: 'syst.'}
+    - {symerror: 3.9, label: 'bending syst.'}
   - value: 35.2
     errors:
     - {symerror: 0.3, label: 'stat.'}
-    - {symerror: 2.1, label: 'syst.'}
+    - {symerror: 4.0, label: 'syst.'}
+    - {symerror: 3.4, label: 'bending syst.'}
 - header: {name: '$\epsilon_{Bj}\tau$ [GeV $fm^-2$ $c^-1$]'}
   values:
   - value: 2.2
@@ -154,137 +164,177 @@ dependent_variables:
   values:
   - value: 1.37
     errors:
-    - {symerror: 0.1, label: 'syst.'}
+    - {symerror: 0.09, label: 'full syst.'}
+    - {symerror: 0.01, label: 'bending syst.'}
   - value: 1.35
     errors:
-    - {symerror: 0.1, label: 'syst.'}
+    - {symerror: 0.09, label: 'full syst.'}
+    - {symerror: 0.02, label: 'bending syst.'}
   - value: 1.35
     errors:
-    - {symerror: 0.1, label: 'syst.'}
+    - {symerror: 0.10, label: 'full syst.'}
+    - {symerror: 0.02, label: 'bending syst.'}
   - value: 1.31
     errors:
-    - {symerror: 0.1, label: 'syst.'}
+    - {symerror: 0.10, label: 'full syst.'}
+    - {symerror: 0.04, label: 'bending syst.'}
   - value: 1.27
     errors:
-    - {symerror: 0.1, label: 'syst.'}
+    - {symerror: 0.10, label: 'full syst.'}
+    - {symerror: 0.05, label: 'bending syst.'}
   - value: 1.22
     errors:
-    - {symerror: 0.1, label: 'syst.'}
+    - {symerror: 0.10, label: 'full syst.'}
+    - {symerror: 0.05, label: 'bending syst.'}
   - value: 1.20
     errors:
-    - {symerror: 0.1, label: 'syst.'}
+    - {symerror: 0.11, label: 'full syst.'}
+    - {symerror: 0.07, label: 'bending syst.'}
   - value: 1.18
     errors:
-    - {symerror: 0.1, label: 'syst.'}
+    - {symerror: 0.12, label: 'full syst.'}
+    - {symerror: 0.08, label: 'bending syst.'}
   - value: 1.13
     errors:
-    - {symerror: 0.1, label: 'syst.'}
+    - {symerror: 0.14, label: 'full syst.'}
+    - {symerror: 0.10, label: 'bending syst.'}
   - value: 1.10
     errors:
-    - {symerror: 0.1, label: 'syst.'}
+    - {symerror: 0.15, label: 'full syst.'}
+    - {symerror: 0.11, label: 'bending syst.'}
 - header: {name: '$dN_{ch}$/$d\eta$'}
   values:
   - value: 312.0
     errors:
     - {symerror: 0.9, label: 'stat.'}
-    - {symerror: 20.3, label: 'syst.'}
+    - {symerror: 21, label: 'full syst.'}
+    - {symerror: 5.3, label: 'bending syst.'}
   - value: 265.0
     errors:
     - {symerror: 0.9, label: 'stat.'}
-    - {symerror: 17.4, label: 'syst.'}
+    - {symerror: 18, label: 'full syst.'}
+    - {symerror: 4.5, label: 'bending syst.'}
   - value: 226.0
     errors:
     - {symerror: 0.9, label: 'stat.'}
-    - {symerror: 14.3, label: 'syst.'}
+    - {symerror: 15, label: 'full syst.'}
+    - {symerror: 4.4, label: 'bending syst.'}
   - value: 187.0
     errors:
     - {symerror: 0.8, label: 'stat.'}
-    - {symerror: 11.8, label: 'syst.'}
+    - {symerror: 13, label: 'full syst.'}
+    - {symerror: 5.4, label: 'bending syst.'}
   - value: 154.0
     errors:
     - {symerror: 0.7, label: 'stat.'}
-    - {symerror: 9.8, label: 'syst.'}
+    - {symerror: 11, label: 'full syst.'}
+    - {symerror: 4.9, label: 'bending syst.'}
   - value: 125.0
     errors:
     - {symerror: 0.6, label: 'stat.'}
-    - {symerror: 8.1, label: 'syst.'}
+    - {symerror: 9.7, label: 'full syst.'}
+    - {symerror: 5.3, label: 'bending syst.'}
   - value: 102.0
     errors:
     - {symerror: 0.5, label: 'stat.'}
-    - {symerror: 6.7, label: 'syst.'}
+    - {symerror: 8.5, label: 'full syst.'}
+    - {symerror: 5.2, label: 'bending syst.'}
   - value: 82.6
     errors:
     - {symerror: 0.4, label: 'stat.'}
-    - {symerror: 5.4, label: 'syst.'}
+    - {symerror: 7.4, label: 'full syst.'}
+    - {symerror: 5.1, label: 'bending syst.'}
   - value: 65.0
     errors:
     - {symerror: 0.4, label: 'stat.'}
-    - {symerror: 4.2, label: 'syst.'}
+    - {symerror: 6.6, label: 'full syst.'}
+    - {symerror: 5.1, label: 'bending syst.'}
   - value: 51.1
     errors:
     - {symerror: 0.3, label: 'stat.'}
-    - {symerror: 3.4, label: 'syst.'}
+    - {symerror: 5.4, label: 'full syst.'}
+    - {symerror: 4.2, label: 'bending syst.'}
 - header: {name: '$dN_{ch}$/$d\eta$/($0.5N_p$)'}
   values:
   - value: 1.86
     errors:
-    - {symerror: 0.1, label: 'syst.'}
+    - {symerror: 0.14, label: 'full syst.'}
+    - {symerror: 0.03, label: 'bending syst.'}
   - value: 1.84
     errors:
-    - {symerror: 0.1, label: 'syst.'}
+    - {symerror: 0.14, label: 'full syst.'}
+    - {symerror: 0.03, label: 'bending syst.'}
   - value: 1.85
     errors:
-    - {symerror: 0.1, label: 'syst.'}
+    - {symerror: 0.14, label: 'full syst.'}
+    - {symerror: 0.04, label: 'bending syst.'}
   - value: 1.83
     errors:
-    - {symerror: 0.1, label: 'syst.'}
+    - {symerror: 0.14, label: 'full syst.'}
+    - {symerror: 0.05, label: 'bending syst.'}
   - value: 1.78
     errors:
-    - {symerror: 0.1, label: 'syst.'}
+    - {symerror: 0.14, label: 'full syst.'}
+    - {symerror: 0.06, label: 'bending syst.'}
   - value: 1.74
     errors:
-    - {symerror: 0.1, label: 'syst.'}
+    - {symerror: 0.15, label: 'full syst.'}
+    - {symerror: 0.08, label: 'bending syst.'}
   - value: 1.71
     errors:
-    - {symerror: 0.1, label: 'syst.'}
+    - {symerror: 0.16, label: 'full syst.'}
+    - {symerror: 0.09, label: 'bending syst.'}
   - value: 1.68
     errors:
-    - {symerror: 0.1, label: 'syst.'}
+    - {symerror: 0.17, label: 'full syst.'}
+    - {symerror: 0.11, label: 'bending syst.'}
   - value: 1.63
     errors:
-    - {symerror: 0.1, label: 'syst.'}
+    - {symerror: 0.19, label: 'full syst.'}
+    - {symerror: 0.14, label: 'bending syst.'}
   - value: 1.60
     errors:
-    - {symerror: 0.1, label: 'syst.'}
+    - {symerror: 0.20, label: 'full syst.'}
+    - {symerror: 0.14, label: 'bending syst.'}
 - header: {name: '$E_T$/$N_{ch}$ [GeV]'}
   values:
   - value: 0.738
     errors:
-    - {symerror: 0.07, label: 'syst.'}
+    - {symerror: 0.078, label: 'full syst.'}
+    - {symerror: 0.027, label: 'bending syst.'}
   - value: 0.733
     errors:
-    - {symerror: 0.07, label: 'syst.'}
+    - {symerror: 0.076, label: 'full syst.'}
+    - {symerror: 0.023, label: 'bending syst.'}
   - value: 0.728
     errors:
-    - {symerror: 0.07, label: 'syst.'}
+    - {symerror: 0.075, label: 'full syst.'}
+    - {symerror: 0.020, label: 'bending syst.'}
   - value: 0.720
     errors:
-    - {symerror: 0.07, label: 'syst.'}
+    - {symerror: 0.073, label: 'full syst.'}
+    - {symerror: 0.017, label: 'bending syst.'}
   - value: 0.711
     errors:
-    - {symerror: 0.07, label: 'syst.'}
+    - {symerror: 0.072, label: 'full syst.'}
+    - {symerror: 0.015, label: 'bending syst.'}
   - value: 0.705
     errors:
-    - {symerror: 0.07, label: 'syst.'}
+    - {symerror: 0.071, label: 'full syst.'}
+    - {symerror: 0.014, label: 'bending syst.'}
   - value: 0.704
     errors:
-    - {symerror: 0.07, label: 'syst.'}
+    - {symerror: 0.071, label: 'full syst.'}
+    - {symerror: 0.014, label: 'bending syst.'}
   - value: 0.704
     errors:
-    - {symerror: 0.07, label: 'syst.'}
+    - {symerror: 0.071, label: 'full syst.'}
+    - {symerror: 0.016, label: 'bending syst.'}
   - value: 0.697
     errors:
-    - {symerror: 0.07, label: 'syst.'}
+    - {symerror: 0.072, label: 'full syst.'}
+    - {symerror: 0.019, label: 'bending syst.'}
   - value: 0.690
     errors:
-    - {symerror: 0.07, label: 'syst.'}
+    - {symerror: 0.072, label: 'full syst.'}
+    - {symerror: 0.024, label: 'bending syst.'}
