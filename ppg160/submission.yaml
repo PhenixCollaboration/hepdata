@@ -1,0 +1,29 @@
+#PHENIX paper PPG160
+#
+#Centrality categorization for $R_{p(d)+A}$ in high-energy collisions
+#
+#Phys.Rev.Lett C 90 (2014) 034902
+#InspireHEP ID: 1261055
+#
+#Prepared by Nikolas Nelson
+#Please contact Christine Nattrass if you have any questions about this submission
+#PPG liaison:
+#Reviewer:
+#
+comment: | # Information that applies to all data tables.
+  High-energy proton- and deuteron-nucleus collisions provide an excellent tool for studying a wide array of physics effects, including modifications of parton distribution functions in nuclei, gluon saturation, and color neutralization and hadronization in a nuclear environment, among others. All of these effects are expected to have a significant dependence on the size of the nuclear target and the impact parameter of the collision, also known as the collision centrality. In this article, we detail a method for determining centrality classes in $p(d)$+$A$ collisions via cuts on the multiplicity at backward rapidity (i.e., the nucleus-going direction) and for determining systematic uncertainties in this procedure. For $d$+Au collisions at $\sqrt{s_{NN}}$ = 200 GeV we find that the connection to geometry is confirmed by measuring the fraction of events in which a neutron from the deuteron does not interact with the nucleus. As an application, we consider the nuclear modification factors $R_{p(d)+A}$, for which there is a potential bias in the measured centrality dependent yields due to auto-correlations between the process of interest and the backward rapidity multiplicity. We determine the bias correction factor within this framework. This method is further tested using the HIJING Monte Carlo generator. We find that for $d$+Au collisions at $\sqrt{s_{NN}}$ = 200 GeV, these bias corrections are small and vary by less than 5% (10%) up to $p_T$ = 10 (20) GeV. In contrast, for $p$+Pb collisions at $\sqrt{s_{NN}}$ = 5.02 TeV we find these bias factors are an order of magnitude larger and strongly $p_T$ dependent, likely due to the larger effect of multi-parton interactions.
+additional_resources:
+- {location: "https://phenix-intra.sdcc.bnl.gov/phenix/WWW/p/info/ppg/160/", description: "web page with data points"}
+- {location: "http://arxiv.org/abs/1310.4793", description: arXiv}
+- {location: "https://inspirehep.net/literature/1261055", description: InspireHEP}
+---
+# This is Table 2.
+name: "Table 2"
+location: Data From Table 2 of PRC 90 (2014) 034902
+description: 'Different physical quantities characterizing $d$+Au collisions, and the bias-factor corrections, for four PHENIX centrality bins.'
+keywords: # used for searching, possibly mutliple values for each keywords
+- {name: reactions, values: [$d$ Au --> CHARGED X]}
+- {name: cmenergies, values: [200.0]}
+- {name: phrases, values: [ppg160, color neutralization, hadronization, nuclei saturation, gluon saturation, bias-factor corrections]}
+data_file: ppg160tab2.yaml
+---
