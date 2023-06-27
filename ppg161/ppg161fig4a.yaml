@@ -1,0 +1,60 @@
+independent_variables:
+- header: {name: '$p_T$ Bins (GeV/$c$)'}
+  values:
+  - {low: 0.44, high: 0.54}
+  - {low: 0.54, high: 0.84}
+  - {low: 0.84, high: 0.94}
+  - {low: 0.94, high: 1.36}
+  - {low: 1.36, high: 1.78}
+  - {low: 1.78, high: 2.12}
+  - {low: 2.12, high: 2.62}
+  - {low: 2.62, high: 2.94}
+dependent_variables:
+- header: {name: '$p_T$ (GeV/$c$)'}
+  qualifiers:
+  - {name: 'Particle', value: ''}
+  values:
+  - value: 0.492
+  - value: 0.691
+  - value: 0.890
+  - value: 1.149
+  - value: 1.575
+  - value: 1.951
+  - value: 2.371
+  - value: 2.776
+- header: {name: '$v_2$'}
+  qualifiers:
+  - {name: 'Particle', value: 'Pion'}
+  values:
+  - value: 0.047
+    errors:
+    - {symerror: 0.002, label: 'stat.'}
+    - {symerror: 0.003, label: 'sys.'}
+  - value: 0.072
+    errors:
+    - {symerror: 0.002, label: 'stat.'}
+    - {symerror: 0.004, label: 'sys.'}
+  - value: 0.086
+    errors:
+    - {symerror: 0.003, label: 'stat.'}
+    - {symerror: 0.005, label: 'sys.'}
+  - value: 0.103
+    errors:
+    - {symerror: 0.003, label: 'stat.'}
+    - {symerror: 0.006, label: 'sys.'}
+  - value: 0.108
+    errors:
+    - {symerror: 0.005, label: 'stat.'}
+    - {symerror: 0.007, label: 'sys.'}
+  - value: 0.137
+    errors:
+    - {symerror: 0.009, label: 'stat.'}
+    - {symerror: 0.008, label: 'sys.'}
+  - value: 0.155
+    errors:
+    - {symerror: 0.016, label: 'stat.'}
+    - {symerror: 0.009, label: 'sys.'}
+  - value: 0.114
+    errors:
+    - {symerror: 0.027, label: 'stat.'}
+    - {symerror: 0.007, label: 'sys.'}

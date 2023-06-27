@@ -1,0 +1,86 @@
+independent_variables:
+- header: {name: '$p_T$ Bins (GeV/$c$)'}
+  values:
+  - {low: 0.13, high: 0.63}
+  - {low: 0.63, high: 0.75}
+  - {low: 0.75, high: 1.03}
+  - {low: 1.03, high: 1.15}
+  - {low: 1.15, high: 1.43}
+  - {low: 1.43, high: 1.55}
+  - {low: 1.55, high: 1.83}
+  - {low: 1.83, high: 1.95}
+  - {low: 1.95, high: 2.47}
+  - {low: 2.47, high: 2.95}
+  - {low: 2.95, high: 3.47}
+  - {low: 3.47, high: 3.98}
+  - {low: 3.98, high: 4.47}
+dependent_variables:
+- header: {name: '$p_T$ (GeV/$c$)'}
+  values:
+  - value: 0.497
+  - value: 0.695
+  - value: 0.894
+  - value: 1.094
+  - value: 1.294
+  - value: 1.494
+  - value: 1.694
+  - value: 1.894
+  - value: 2.207
+  - value: 2.710
+  - value: 3.213
+  - value: 3.716
+  - value: 4.219
+- header: {name: '$v_2$'}
+  values:
+  - value: 0.047
+    errors:
+    - {symerror: 7e-4, label: 'stat.'}
+    - {symerror: 0.004, label: 'sys.'}
+  - value: 0.066
+    errors:
+    - {symerror: 9e-4, label: 'stat.'}
+    - {symerror: 0.005, label: 'sys.'}
+  - value: 0.082
+    errors:
+    - {symerror: 0.001, label: 'stat.'}
+    - {symerror: 0.007, label: 'sys.'}
+  - value: 0.097
+    errors:
+    - {symerror: 0.001, label: 'stat.'}
+    - {symerror: 0.008, label: 'sys.'}
+  - value: 0.110
+    errors:
+    - {symerror: 0.002, label: 'stat.'}
+    - {symerror: 0.009, label: 'sys.'}
+  - value: 0.115
+    errors:
+    - {symerror: 0.002, label: 'stat.'}
+    - {symerror: 0.009, label: 'sys.'}
+  - value: 0.121
+    errors:
+    - {symerror: 0.003, label: 'stat.'}
+    - {symerror: 0.010, label: 'sys.'}
+  - value: 0.130
+    errors:
+    - {symerror: 0.003, label: 'stat.'}
+    - {symerror: 0.010, label: 'sys.'}
+  - value: 0.133
+    errors:
+    - {symerror: 0.003, label: 'stat.'}
+    - {symerror: 0.011, label: 'sys.'}
+  - value: 0.137
+    errors:
+    - {symerror: 0.005, label: 'stat.'}
+    - {symerror: 0.011, label: 'sys.'}
+  - value: 0.144
+    errors:
+    - {symerror: 0.009, label: 'stat.'}
+    - {symerror: 0.012, label: 'sys.'}
+  - value: 0.109
+    errors:
+    - {symerror: 0.014, label: 'stat.'}
+    - {symerror: 0.009, label: 'sys.'}
+  - value: 0.104
+    errors:
+    - {symerror: 0.021, label: 'stat.'}
+    - {symerror: 0.008, label: 'sys.'}

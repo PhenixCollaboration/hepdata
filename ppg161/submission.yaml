@@ -1,0 +1,67 @@
+#PHENIX paper PPG161
+#
+#Measurement of long-range angular correlation and quadrupole anisotropy of pions and (anti)protons in central $d$+Au collisions at $\sqrt{s_{NN}}$ = 200 GeV
+#
+#Phys.Rev.Lett 114 (2015) 192301
+#InspireHEP ID: 1293053
+#
+#Prepared by Nikolas Nelson
+#Please contact Christine Nattrass if you have any questions about this submission
+#PPG liaison:
+#Reviewer:
+#
+comment: | # Information that applies to all data tables.
+  We present azimuthal angular correlations between charged hadrons and energy deposited in calorimeter towers in central $d$+Au and minimum bias $p$+$p$ collisions at $\sqrt{s_{NN}}$ = 200 GeV. The charged hadron is measured at midrapidity $|\eta|$ < 0.35, and the energy is measured at large rapidity (−3.7 < $\eta$ < −3.1, Au-going direction). An enhanced near-side angular correlation across $|\Delta\eta|$ > 2.75 is observed in $d$+Au collisions. Using the event plane method applied to the Au-going energy distribution, we extract the anisotropy strength $v_2$ for inclusive charged hadrons at midrapidity up to $p_T$ = 4.5 GeV/$c$. We also present the measurement of $v_2$ for identified $\pi^{\pm}$ and (anti)protons in central $d$+Au collisions, and observe a mass-ordering pattern similar to that seen in heavy ion collisions. These results are compared with viscous hydrodynamic calculations and measurements from $p$+Pb at $\sqrt{s_{NN}}$ = 5.02 TeV. The magnitude of the mass-ordering in $d$+Au is found to be smaller than that in $p$+Pb collisions, which may indicate smaller radial flow in lower energy $d$+Au collisions.
+additional_resources:
+- {location: "https://phenix-intra.sdcc.bnl.gov/phenix/WWW/p/info/ppg/161/", description: "web page with data points"}
+- {location: "http://arxiv.org/abs/1404.7461", description: arXiv}
+- {location: "https://inspirehep.net/literature/1293053", description: InspireHEP}
+---
+# This is Figure 2.
+name: "Figure 2"
+location: Data From Fig. 2 of PRL 114 (2015) 192301
+description: '$c_2$ ($p_T$) for track lower-tower pairs from 0-5% $d$+Au collisions and $c_2$ ($p_T$) for pairs in minimum bias $p$+$p$ collisions times the dilution factor.'
+keywords: # used for searching, possibly mutliple values for each keywords
+- {name: reactions, values: [$d$ Au --> CHARGED X, $p$ $p$ --> CHARGED X]}
+- {name: cmenergies, values: [200.0]}
+- {name: phrases, values: [ppg161, long-range angular correlation, quadrupole anisotropy, azimuthal angular correlations]}
+data_file: ppg161fig2.yaml
+additional_resources:
+- {description: Thumbnail Image file, location: thumb_Figure_2_final.png}
+---
+# This is Figure 3.
+name: "Figure 3"
+location: Data From Fig. 3 of PRL 114 (2015) 192301
+description: 'Measured $v_2$ for midrapidity charged tracks in 0-5% central $d$+Au at $\sqrt{s_{NN}}$ = 200 GeV using the event plane method.'
+keywords: # used for searching, possibly mutliple values for each keywords
+- {name: reactions, values: [$d$ Au --> CHARGED X]}
+- {name: cmenergies, values: [200.0]}
+- {name: phrases, values: [ppg161, long-range angular correlation, quadrupole anisotropy, azimuthal angular correlations]}
+data_file: ppg161fig3.yaml
+additional_resources:
+- {description: Thumbnail Image file, location: thumb_Figure_3_final.png}
+---
+# This is Figure 4.
+name: "Figure 4a"
+location: Data From Fig. 4 of PRL 114 (2015) 192301
+description: 'Measured $v_2$ ($p_T$) for identified pions, each charged combined, 0-5% central $d$+Au collisions at RHIC.'
+keywords: # used for searching, possibly mutliple values for each keywords
+- {name: reactions, values: [$d$ Au --> CHARGED X]}
+- {name: cmenergies, values: [200.0]}
+- {name: phrases, values: [ppg161, long-range angular correlation, quadrupole anisotropy, azimuthal angular correlations]}
+data_file: ppg161fig4a.yaml
+additional_resources:
+- {description: Thumbnail Image file, location: thumb_Figure_4_final.png}
+---
+# This is Figure 4.
+name: "Figure 4b"
+location: Data From Fig. 4 of PRL 114 (2015) 192301
+description: 'Measured $v_2$ ($p_T$) for identified (anti)protons, each charged combined, 0-5% central $d$+Au collisions at RHIC.'
+keywords: # used for searching, possibly mutliple values for each keywords
+- {name: reactions, values: [$d$ Au --> CHARGED X]}
+- {name: cmenergies, values: [200.0]}
+- {name: phrases, values: [ppg161, long-range angular correlation, quadrupole anisotropy, azimuthal angular correlations]}
+data_file: ppg161fig4b.yaml
+additional_resources:
+- {description: Thumbnail Image file, location: thumb_Figure_4_final.png}
+---
