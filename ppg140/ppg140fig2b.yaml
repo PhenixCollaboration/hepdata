@@ -1,0 +1,93 @@
+independent_variables:
+- header: {name: '$p_{T}$(GeV/$c$)'}
+  values:
+  - {low: 4.0, high: 4.5}
+  - {low: 4.5, high: 5.0}
+  - {low: 5.0, high: 5.5}
+  - {low: 5.5, high: 6.0}
+  - {low: 6.0, high: 6.5}
+  - {low: 6.5, high: 7.0}
+  - {low: 7.0, high: 7.5}
+  - {low: 7.5, high: 8.0}
+  - {low: 8.0, high: 8.5}
+  - {low: 8.5, high: 9.0}
+  - {low: 9.0, high: 9.5}
+  - {low: 9.5, high: 10.0}
+  - {low: 10.0, high: 12.0}
+  - {low: 12.0, high: 14.0}
+  - {low: 14.0, high: 16.0}
+  - {low: 16.0, high: 18.0}
+  - {low: 18.0, high: 20.0}
+dependent_variables:
+- header: {name: '$Ed^{3}\sigma/dp^{3}$ (mb GeV$^{-2}c^{3}$)'}
+  qualifiers:
+  - {name: 'Particle', value: '$p+p$ (real photon)'}
+  values:
+  - value: 4.38E-6
+    errors:
+    - {symerror: 2.94E-7, label: 'ptp.'}
+    - {symerror: 3.19E-6, label: 'cor.'}
+  - value: 1.64E-6
+    errors:
+    - {symerror: 1.74E-7, label: 'ptp.'}
+    - {symerror: 1.17E-6, label: 'cor.'}
+  - value: 1.14E-6
+    errors:
+    - {symerror: 3.04E-8, label: 'ptp.'}
+    - {symerror: 4.78E-7, label: 'cor.'}
+  - value: 6.13E-7
+    errors:
+    - {symerror: 1.92E-8, label: 'ptp.'}
+    - {symerror: 2.21E-7, label: 'cor.'}
+  - value: 3.48E-7
+    errors:
+    - {symerror: 1.27E-8, label: 'ptp.'}
+    - {symerror: 1.04E-7, label: 'cor.'}
+  - value: 2.31E-7
+    errors:
+    - {symerror: 8.50E-9, label: 'ptp.'}
+    - {symerror: 6.24E-8, label: 'cor.'}
+  - value: 1.36E-7
+    errors:
+    - {symerror: 6.12E-9, label: 'ptp.'}
+    - {symerror: 3.13E-8, label: 'cor.'}
+  - value: 9.29E-8
+    errors:
+    - {symerror: 4.41E-9, label: 'ptp.'}
+    - {symerror: 2.04E-8, label: 'cor.'}
+  - value: 6.70E-8
+    errors:
+    - {symerror: 3.22E-9, label: 'ptp.'}
+    - {symerror: 1.34E-8, label: 'cor.'}
+  - value: 4.83E-8
+    errors:
+    - {symerror: 2.45E-9, label: 'ptp.'}
+    - {symerror: 9.18E-9, label: 'cor.'}
+  - value: 3.21E-8
+    errors:
+    - {symerror: 1.89E-9, label: 'ptp.'}
+    - {symerror: 6.10E-9, label: 'cor.'}
+  - value: 2.04E-8
+    errors:
+    - {symerror: 1.46E-9, label: 'ptp.'}
+    - {symerror: 3.68E-9, label: 'cor.'}
+  - value: 9.81E-9
+    errors:
+    - {symerror: 4.23E-10, label: 'ptp.'}
+    - {symerror: 1.67E-9, label: 'cor.'}
+  - value: 2.97E-9
+    errors:
+    - {symerror: 1.89E-10, label: 'ptp.'}
+    - {symerror: 5.05E-10, label: 'cor.'}
+  - value: 1.06E-9
+    errors:
+    - {symerror: 9.85E-11, label: 'ptp.'}
+    - {symerror: 1.69E-10, label: 'cor.'}
+  - value: 3.38E-10
+    errors:
+    - {symerror: 5.51E-11, label: 'ptp.'}
+    - {symerror: 5.42E-11, label: 'cor.'}
+  - value: 1.73E-10
+    errors:
+    - {symerror: 3.37E-11, label: 'ptp.'}
+    - {symerror: 2.77E-11, label: 'cor.'}

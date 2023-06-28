@@ -1,0 +1,53 @@
+independent_variables:
+- header: {name: '$p_{T}$(GeV/$c$)'}
+  values:
+  - {low: 1.18, high: 1.20}
+  - {low: 1.68, high: 1.70}
+  - {low: 2.19, high: 2.21}
+  - {low: 2.69, high: 2.71}
+  - {low: 3.20, high: 3.22}
+  - {low: 3.70, high: 3.72}
+  - {low: 4.21, high: 4.23}
+  - {low: 4.71, high: 4.73}
+  - {low: 5.38, high: 5.40}
+dependent_variables:
+- header: {name: '$R_{dA}$'}
+  qualifiers:
+  - {name: 'Particle', value: 'Virtual Photon'}
+  values:
+  - value: 1.53
+    errors:
+    - {symerror: 1.00, label: 'ptp.'}
+    - {symerror: 0.44, label: 'cor.'}
+  - value: 1.03
+    errors:
+    - {symerror: 0.36, label: 'ptp.'}
+    - {symerror: 0.29, label: 'cor.'}
+  - value: 1.71
+    errors:
+    - {symerror: 0.36, label: 'ptp.'}
+    - {symerror: 0.40, label: 'cor.'}
+  - value: 1.06
+    errors:
+    - {symerror: 0.22, label: 'ptp.'}
+    - {symerror: 0.25, label: 'cor.'}
+  - value: 1.30
+    errors:
+    - {symerror: 0.23, label: 'ptp.'}
+    - {symerror: 0.34, label: 'cor.'}
+  - value: 1.11
+    errors:
+    - {symerror: 0.23, label: 'ptp.'}
+    - {symerror: 0.27, label: 'cor.'}
+  - value: 0.82
+    errors:
+    - {symerror: 0.26, label: 'ptp.'}
+    - {symerror: 0.18, label: 'cor.'}
+  - value: 1.07
+    errors:
+    - {symerror: 0.31, label: 'ptp.'}
+    - {symerror: 0.23, label: 'cor.'}
+  - value: 0.56
+    errors:
+    - {symerror: 0.25, label: 'ptp.'}
+    - {symerror: 0.24, label: 'cor.'}
