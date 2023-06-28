@@ -1,0 +1,98 @@
+independent_variables:
+- header: {name: '$p_T$ (GeV/$c$)'}
+  values:
+  - {low: 0.5, high: 0.6}
+  - {low: 0.6, high: 0.7}
+  - {low: 0.7, high: 0.8}
+  - {low: 0.8, high: 0.9}
+  - {low: 0.9, high: 1.0}
+  - {low: 1.0, high: 1.2}
+  - {low: 1.2, high: 1.4}
+  - {low: 1.4, high: 1.6}
+  - {low: 1.6, high: 1.8}
+  - {low: 1.8, high: 2.0}
+  - {low: 2.0, high: 2.5}
+  - {low: 2.5, high: 3.0}
+  - {low: 3.0, high: 3.5}
+  - {low: 3.5, high: 4.0}
+  - {low: 4.0, high: 4.5}
+  - {low: 4.5, high: 5.0}
+  - {low: 5.0, high: 6.0}
+  - {low: 6.0, high: 7.0}
+dependent_variables:
+- header: {name: '$1/{2 \pi p_T} \times 1/{N_{evt}} \times d^2N/{dp_Tdy}$ [(GeV/$c$)$^{-2}$]'}
+  qualifiers:
+  - {name: 'Centrality (%)', value: '60-94'}
+  values:
+  - value: 4.3e-4
+    errors:
+    - {symerror: 2.3e-4, label: 'stat.'}
+    - {symerror: 6e-5, label: 'sys.'}
+  - value: 2.2e-4
+    errors:
+    - {symerror: 1.1e-4, label: 'stat.'}
+    - {symerror: 4e-5, label: 'sys.'}
+  - value: 1.69e-4
+    errors:
+    - {symerror: 6e-5, label: 'stat.'}
+    - {symerror: 2.6e-5, label: 'sys.'}
+  - value: 1.32e-4
+    errors:
+    - {symerror: 4e-5, label: 'stat.'}
+    - {symerror: 1.8e-5, label: 'sys.'}
+  - value: 6.1e-5
+    errors:
+    - {symerror: 2.2e-5, label: 'stat.'}
+    - {symerror: 1.0e-5, label: 'sys.'}
+  - value: 4.60e-5
+    errors:
+    - {symerror: 2.1e-6, label: 'stat.'}
+    - {symerror: 1.2e-5, label: 'sys.'}
+  - value: 2.21e-5
+    errors:
+    - {symerror: 1.1e-6, label: 'stat.'}
+    - {symerror: 5e-6, label: 'sys.'}
+  - value: 1.28e-5
+    errors:
+    - {symerror: 7e-7, label: 'stat.'}
+    - {symerror: 2.3e-6, label: 'sys.'}
+  - value: 6.4e-6
+    errors:
+    - {symerror: 4e-7, label: 'stat.'}
+    - {symerror: 1.1e-6, label: 'sys.'}
+  - value: 3.35e-6
+    errors:
+    - {symerror: 2.9e-7, label: 'stat.'}
+    - {symerror: 6e-7, label: 'sys.'}
+  - value: 1.21e-6
+    errors:
+    - {symerror: 9e-8, label: 'stat.'}
+    - {symerror: 1.9e-7, label: 'sys.'}
+  - value: 3.8e-7
+    errors:
+    - {symerror: 4e-8, label: 'stat.'}
+    - {symerror: 5e-8, label: 'sys.'}
+  - value: 1.16e-7
+    errors:
+    - {symerror: 1.1e-8, label: 'stat.'}
+    - {symerror: 1.5e-8, label: 'sys.'}
+  - value: 4.4e-8
+    errors:
+    - {symerror: 6e-9, label: 'stat.'}
+    - {symerror: 5e-9, label: 'sys.'}
+  - value: 2.30e-8
+    errors:
+    - {symerror: 4e-9, label: 'stat.'}
+    - {symerror: 2.5e-9, label: 'sys.'}
+  - value: 6.5e-9
+    errors:
+    - {symerror: 2.2e-9, label: 'stat.'}
+    - {symerror: 9e-10, label: 'sys.'}
+  - value: 2.42e-9
+    errors:
+    - {symerror: 8e-10, label: 'stat.'}
+    - {symerror: 3.2e-10, label: 'sys.'}
+  - value: 3.1e-10
+    errors:
+    - {symerror: 3.3e-10, label: 'stat.'}
+    - {symerror: 7e-11, label: 'sys.'}
