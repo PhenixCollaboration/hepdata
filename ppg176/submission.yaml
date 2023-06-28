@@ -1,0 +1,42 @@
+#PHENIX paper PPG176
+#
+#Azimuthally anisotropic emission of low-momentum direct photons in Au+Au collisions at $\sqrt{s_{NN}}$ = 200 GeV
+#
+#Phys.Rev.Lett C 94 (2016) 064901
+#InspireHEP ID: 1394895
+#
+#Prepared by Nikolas Nelson
+#Please contact Christine Nattrass if you have any questions about this submission
+#PPG liaison:
+#Reviewer:
+#
+comment: | # Information that applies to all data tables.
+  The PHENIX experiment at the Relativistic Heavy Ion Collider has measured 2nd and 3rd order Fourier coefficients of the azimuthal distributions of direct photons emitted at midrapidity in Au+Au collisions at $\sqrt{s_{NN}}$ = 200 GeV for various collision centralities. Combining two different analysis techniques, results were obtained in the transverse momentum range of 0.4 < $p_T$ < 4.0 GeV/$c$. At low $p_T$ the second-order coefficients, $v_2$, are similar to the ones observed in hadrons. Third order coefficients, $v_3$, are nonzero and almost independent of centrality. These new results on $v_2$ and $v_3$, combined with previously published results on yields, are compared to model calculations that provide yields and asymmetries in the same framework. Those models are challenged to explain simultaneously the observed large yield and large azimuthal anisotropies.
+additional_resources:
+- {location: "https://phenix-intra.sdcc.bnl.gov/phenix/WWW/p/info/ppg/176/", description: "web page with data points"}
+- {location: "http://arxiv.org/abs/1509.07758", description: arXiv}
+- {location: "https://inspirehep.net/literature/1394895", description: InspireHEP}
+---
+# This is Figure 6.
+name: "Figure 6a"
+location: Data From Table 2 & 3 of PRC 94 (2016) 064901
+description: 'Direct photon $v_2$ and $v_3$ at midrapidity ($|\eta|$ < 0.35), for different centralities, measured with the conversion method. The event plane was determined with the reaction plane detector (1 < $|\eta|$ < 2.8).'
+keywords: # used for searching, possibly mutliple values for each keywords
+- {name: reactions, values: [Au Au --> CHARGED X]}
+- {name: cmenergies, values: [200.0]}
+- {name: phrases, values: [ppg176, azimuthal anisotropy, midrapidity, transverse momentum]}
+data_file: ppg176fig6a.yaml
+additional_resources:
+- {description: Thumbnail Image file, location: thumb_c_Figure6_160418.png}
+---
+name: "Figure 6b"
+location: Data From Table 2 & 3 of PRC 94 (2016) 064901
+description: 'Direct photon $v_2$ and $v_3$ at midrapidity ($|\eta|$ < 0.35), for different centralities, measured with the calorimeter method. The event plane was determined with the reaction plane detector (1 < $|\eta|$ < 2.8).'
+keywords: # used for searching, possibly mutliple values for each keywords
+- {name: reactions, values: [Au Au --> CHARGED X]}
+- {name: cmenergies, values: [200.0]}
+- {name: phrases, values: [ppg176, azimuthal anisotropy, midrapidity, transverse momentum]}
+data_file: ppg176fig6b.yaml
+additional_resources:
+- {description: Thumbnail Image file, location: thumb_c_Figure6_160418.png}
+---
