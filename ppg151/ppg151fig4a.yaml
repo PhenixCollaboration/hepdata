@@ -1,0 +1,30 @@
+independent_variables:
+- header: {name: '$N_{coll}$'}
+  values:
+  - value: 15.061
+  - value: 10.248
+  - value: 6.579
+  - value: 3.198
+dependent_variables:
+- header: {name: '$R_{dAu}$'}
+  values:
+  - value: 0.18
+    errors:
+    - {symerror: 0.15, label: 'stat.'}
+    - {asymerror: {plus: 0.11, minus: -0.02}, label: 'sys.'}
+    - {asymerror: {plus: 0.05, minus: -0.05}, label: 'scale'}
+  - value: 0.58
+    errors:
+    - {symerror: 0.22, label: 'stat.'}
+    - {asymerror: {plus: 0.10, minus: -0.07}, label: 'sys.'}
+    - {asymerror: {plus: 0.17, minus: -0.16}, label: 'scale'}
+  - value: 0.8
+    errors:
+    - {symerror: 0.27, label: 'stat.'}
+    - {asymerror: {plus: 0.12, minus: -0.10}, label: 'sys.'}
+    - {asymerror: {plus: 0.24, minus: -0.22}, label: 'scale'}
+  - value: 1.05
+    errors:
+    - {symerror: 0.32, label: 'stat.'}
+    - {asymerror: {plus: 0.14, minus: -0.16}, label: 'sys.'}
+    - {asymerror: {plus: 0.31, minus: -0.29}, label: 'scale'}
