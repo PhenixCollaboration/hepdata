@@ -1,0 +1,42 @@
+independent_variables:
+- header: {name: ''}
+  values:
+  - value: Acceptance
+  - value: Electron identification
+  - value: Simulation input
+  - value: Mass cut efficiency
+  - value: Continuum contribution
+  - value: Acceptance fluctuation
+  - value: ERT efficiency
+  - value: Occupancy effect
+  - value: Combinatorial background
+  - value: Total
+dependent_variables:
+- header: {name: '$p + p$(%)'}
+  qualifiers: 
+  - {name: 'Systematic', value: 'Uncertainty'}
+  values:
+  - value: 7.5
+  - value: 1.1
+  - value: 7.8
+  - value: 6.3
+  - value: 5.0
+  - value: 7.3
+  - value: 4.5
+  - value: NA
+  - value: 2.0
+  - value: 16.1
+- header: {name: 'Au + Au(%)'}
+  qualifiers: 
+  - {name: 'Systematic', value: 'Uncertainty'}
+  values:
+  - value: 7.0
+  - value: 5.0
+  - value: 7.9
+  - value: 5.0
+  - value: 5.8-8.6
+  - value: 14.0
+  - value: NA
+  - value: 2.0-7.5
+  - value: 2.0-7.5
+  - value: 20.7-21.2

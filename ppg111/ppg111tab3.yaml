@@ -1,0 +1,75 @@
+independent_variables:
+- header: {name: 'Value'}
+  values:
+  - value: $N_{unlike}-N_{like}$
+  - value: $f_{cont}$
+  - value: $N_{BBC} \times 10^{9}$
+  - value: $c$
+  - value: Acc $\times$ $\epsilon$
+  - value: $N_{coll}$
+  - value: $N_{part}$
+dependent_variables:
+- header: {name: '$p + p$'}
+  values:
+  - value: 10.5
+    errors:
+    - {asymerror: {plus: 3.7, minus: 3.6}, label: 'theo.'}
+  - value: 0.13
+    errors:
+    - {symerror: 1.8, label: 'theo.'}
+  - value: 143
+  - value: 0.70
+  - value: (1.64 $\pm$ 0.25)%
+  - value: 1.00
+  - value: 2.00
+- header: {name: 'Au + Au 0%-92%'}
+  values:
+  - value: 18.3
+    errors:
+    - {asymerror: {plus: 5.0, minus: 5.2}, label: 'theo.'}
+  - value: 0.216
+    errors:
+    - {symerror: 0.045, label: 'theo.'}
+  - value: 5.40
+  - value: 1.00
+  - value: (0.65 $\pm$ 0.13)%
+  - value: 258
+    errors:
+    - {symerror: 25, label: 'theo.'}
+  - value: 109
+    errors:
+    - {symerror: 4, label: 'theo.'}
+- header: {name: 'Au + Au 0%-30%'}
+  values:
+  - value: 11.2
+    errors:
+    - {asymerror: {plus: 3.8, minus: 4.0}, label: 'theo.'}
+  - value: 0.270
+    errors:
+    - {symerror: 0.063, label: 'theo.'}
+  - value: 1.62
+  - value: 1.00
+  - value: (0.58 $\pm$ 0.11)%
+  - value: 644
+    errors:
+    - {symerror: 63, label: 'theo.'}
+  - value: 242
+    errors:
+    - {symerror: 4, label: 'theo.'}
+- header: {name: 'Au + Au 30%-92%'}
+  values:
+  - value: 6.4
+    errors:
+    - {asymerror: {plus: 3.3, minus: 3.5}, label: 'theo.'}
+  - value: 0.186
+    errors:
+    - {asymerror: {plus: 0.065, minus: 0.060}, label: 'theo.'}
+  - value: 3.35
+  - value: 1.00
+  - value: (0.96 $\pm$ 0.18)%
+  - value: 72
+    errors:
+    - {symerror: 7, label: 'theo.'}
+  - value: 45
+    errors:
+    - {symerror: 2, label: 'theo.'}
