@@ -1,0 +1,122 @@
+independent_variables:
+- header: {name: '$p_T$ (GeV/$c$)'}
+  values:
+  - {low: 1.00, high: 1.25}
+  - {low: 1.25, high: 1.50}
+  - {low: 1.50, high: 1.75}
+  - {low: 1.75, high: 2.00}
+  - {low: 2.00, high: 2.25}
+  - {low: 2.25, high: 2.50}
+  - {low: 2.50, high: 2.75}
+  - {low: 2.75, high: 3.00}
+  - {low: 3.00, high: 3.50}
+  - {low: 3.50, high: 4.00}
+  - {low: 4.00, high: 5.00}
+  - {low: 5.00, high: 7.00}
+dependent_variables:
+- header: {name: '$R_{dA}$'}
+  qualifiers:
+  - {name: 'Centrality (%)', value: 'Minimum Bias'}
+  - {name: 'Rapidity', value: '-2.0 < $y$ < -1.4'}
+  values:
+  - value: 1.23
+    errors:
+    - {symerror: 0.05, label: 'stat.'}
+    - {symerror: 0.23, label: 'sys.'}
+  - value: 1.51
+    errors:
+    - {symerror: 0.06, label: 'stat.'}
+    - {symerror: 0.29, label: 'sys.'}
+  - value: 1.43
+    errors:
+    - {symerror: 0.07, label: 'stat.'}
+    - {symerror: 0.27, label: 'sys.'}
+  - value: 1.66
+    errors:
+    - {symerror: 0.07, label: 'stat.'}
+    - {symerror: 0.33, label: 'sys.'}
+  - value: 1.65
+    errors:
+    - {symerror: 0.09, label: 'stat.'}
+    - {symerror: 0.33, label: 'sys.'}
+  - value: 1.66
+    errors:
+    - {symerror: 0.11, label: 'stat.'}
+    - {symerror: 0.4, label: 'sys.'}
+  - value: 1.81
+    errors:
+    - {symerror: 0.16, label: 'stat.'}
+    - {symerror: 0.4, label: 'sys.'}
+  - value: 1.57
+    errors:
+    - {symerror: 0.17, label: 'stat.'}
+    - {symerror: 0.4, label: 'sys.'}
+  - value: 1.41
+    errors:
+    - {symerror: 0.14, label: 'stat.'}
+    - {symerror: 0.33, label: 'sys.'}
+  - value: 1.53
+    errors:
+    - {symerror: 0.27, label: 'stat.'}
+    - {symerror: 0.4, label: 'sys.'}
+  - value: 1.40
+    errors:
+    - {symerror: 0.29, label: 'stat.'}
+    - {symerror: 0.35, label: 'sys.'}
+  - value: 0.95
+    errors:
+    - {symerror: 0.29, label: 'stat.'}
+    - {symerror: 0.23, label: 'sys.'}
+- header: {name: '$R_{dA}$'}
+  qualifiers:
+  - {name: 'Centrality (%)', value: 'Minimum Bias'}
+  - {name: 'Rapidity', value: '1.4 < $y$ < 2.0'}
+  values:
+  - value: 0.659
+    errors:
+    - {symerror: 0.032, label: 'stat.'}
+    - {symerror: 0.12, label: 'sys.'}
+  - value: 0.84
+    errors:
+    - {symerror: 0.04, label: 'stat.'}
+    - {symerror: 0.16, label: 'sys.'}
+  - value: 0.85
+    errors:
+    - {symerror: 0.04, label: 'stat.'}
+    - {symerror: 0.16, label: 'sys.'}
+  - value: 0.99
+    errors:
+    - {symerror: 0.04, label: 'stat.'}
+    - {symerror: 0.20, label: 'sys.'}
+  - value: 0.98
+    errors:
+    - {symerror: 0.05, label: 'stat.'}
+    - {symerror: 0.20, label: 'sys.'}
+  - value: 1.00
+    errors:
+    - {symerror: 0.07, label: 'stat.'}
+    - {symerror: 0.22, label: 'sys.'}
+  - value: 1.06
+    errors:
+    - {symerror: 0.10, label: 'stat.'}
+    - {symerror: 0.22, label: 'sys.'}
+  - value: 0.91
+    errors:
+    - {symerror: 0.10, label: 'stat.'}
+    - {symerror: 0.22, label: 'sys.'}
+  - value: 0.84
+    errors:
+    - {symerror: 0.09, label: 'stat.'}
+    - {symerror: 0.20, label: 'sys.'}
+  - value: 1.02
+    errors:
+    - {symerror: 0.18, label: 'stat.'}
+    - {symerror: 0.25, label: 'sys.'}
+  - value: 0.88
+    errors:
+    - {symerror: 0.19, label: 'stat.'}
+    - {symerror: 0.23, label: 'sys.'}
+  - value: 0.60
+    errors:
+    - {symerror: 0.19, label: 'stat.'}
+    - {symerror: 0.15, label: 'sys.'}

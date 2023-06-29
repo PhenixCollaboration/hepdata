@@ -1,0 +1,59 @@
+independent_variables:
+- header: {name: 'Centrality (%)'}
+  values:
+  - {low: 0, high: 20}
+  - {low: 20, high: 40}
+  - {low: 40, high: 60}
+  - {low: 60, high: 88}
+dependent_variables:
+- header: {name: '$\langle N_{coll} \rangle$'}
+  qualifiers:
+  - {name: '$p_T$ (GeV/$c$)', value: '1.0 < $p_T$ < 3.0'}
+  - {name: 'Rapidity', value: '1.4 < $|y|$ < 2.0'}
+  values:
+  - value: 15.061
+  - value: 10.248
+  - value: 6.579
+  - value: 3.198
+- header: {name: '$R_{dA}$'}
+  qualifiers:
+  - {name: '$p_T$ (GeV/$c$)', value: '1.0 < $p_T$ < 3.0'}
+  - {name: 'Rapidity', value: '-2.0 < $y$ < -1.4'}
+  values:
+  - value: 1.62
+    errors:
+    - {symerror: 0.04, label: 'stat.'}
+    - {symerror: 0.20, label: 'sys.'}
+  - value: 1.34
+    errors:
+    - {symerror: 0.04, label: 'stat.'}
+    - {symerror: 0.17, label: 'sys.'}
+  - value: 1.22
+    errors:
+    - {symerror: 0.04, label: 'stat.'}
+    - {symerror: 0.16, label: 'sys.'}
+  - value: 1.076
+    errors:
+    - {symerror: 0.033, label: 'stat.'}
+    - {symerror: 0.17, label: 'sys.'}
+- header: {name: '$R_{dA}$'}
+  qualifiers:
+  - {name: '$p_T$ (GeV/$c$)', value: '1.0 < $p_T$ < 3.0'}
+  - {name: 'Rapidity', value: '1.4 < $y$ < 2.0'}
+  values:
+  - value: 0.596
+    errors:
+    - {symerror: 0.021, label: 'stat.'}
+    - {symerror: 0.08, label: 'sys.'}
+  - value: 0.757
+    errors:
+    - {symerror: 0.025, label: 'stat.'}
+    - {symerror: 0.10, label: 'sys.'}
+  - value: 0.907
+    errors:
+    - {symerror: 0.029, label: 'stat.'}
+    - {symerror: 0.12, label: 'sys.'}
+  - value: 1.23
+    errors:
+    - {symerror: 0.04, label: 'stat.'}
+    - {symerror: 0.19, label: 'sys.'}
