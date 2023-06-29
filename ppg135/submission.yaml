@@ -1,0 +1,203 @@
+#PHENIX paper PPG135
+#
+#Measurement of transverse-single-spin asymmetries for midrapidity and forward-rapidity production of hadrons in polarized $p$+$p$ collisions at $\sqrt{s}$ = 200 and 62.4 GeV
+
+#
+#Phys.Rev.D 90 (2014) 012006
+#InspireHEP ID: 1268155
+#
+#Prepared by Andrew McAninch
+#Please contact Christine Nattrass if you have any questions about this submission
+#PPG liaison:
+#Reviewer:
+#
+comment: | # Information that applies to all data tables.
+  Measurements of transverse-single-spin asymmetries ($A_N$) in $p$+$p$ collisions at $\sqrt{s}$ = 62.4 and 200 GeV with the PHENIX detector at RHIC are presented. At midrapidity, $A_N$ is measured for neutral pion and eta mesons reconstructed from diphoton decay, and, at forward rapidities, neutral pions are measured using both diphotons and electromagnetic clusters. The neutral-pion measurement of $A_N$ at midrapidity is consistent with zero with uncertainties a factor of 20 smaller than previous publications, which will lead to improved constraints on the gluon Sivers function. At higher rapidities, where the valence quark distributions are probed, the data exhibit sizable asymmetries. In comparison with previous measurements in this kinematic region, the new data extend the kinematic coverage in $\sqrt{s}$ and $p_T$ , and it is found that the asymmetries depend only weakly on $\sqrt{s}$. The origin of the forward $A_N$ is presently not understood quantitatively. The extended reach to higher $p_T$ probes the transition between transverse momentum dependent effects at low $p_T$ and multi-parton dynamics at high $p_T$.
+additional_resources:
+- {location: "https://phenix-intra.sdcc.bnl.gov/phenix/WWW/p/info/ppg/135/", description: "web page with data points"}
+- {location: "http://arxiv.org/abs/1312.1995", description: arXiv}
+- {location: "https://inspirehep.net/literature/1268155", description: InspireHEP}
+---
+name: "Figure 3a"
+location: Data From Fig. 3 of PRD 90 (2014) 012006
+description: 'Neutral pion $A_N$ at $\sqrt{s}$ = 62.4 GeV as
+function of $x_F$ in two different pseudorapidity ranges 
+(3.1 < $|\eta|$ < 3.5 and 3.5 < $|\eta|$ < 3.8) with statistical and systematic
+uncertainties.'
+keywords:
+- {name: reactions, values: [$p$ $p$ --> $\pi^0$ X]}
+- {name: cmenergies, values: [62.4]}
+- {name: phrases, values: [ppg135, Sivers effect, pQCD, midrapidity]}
+data_file: fig3a.yaml
+additional_resources:
+- {description: Original EPS Image file, location: fig3.eps}
+- {description: PNG Image file, location: fig3.png}
+- {description: Thumbnail Image file, location: thumb_fig3.png}
+---
+name: "Figure 3b"
+location: Data From Fig. 3 of PRD 90 (2014) 012006
+description: 'Neutral pion $A_N$ at $\sqrt{s}$ = 62.4 GeV as
+function of $x_F$ in two different pseudorapidity ranges 
+(3.1 < $|\eta|$ < 3.5 and 3.5 < $|\eta|$ < 3.8) with statistical and systematic
+uncertainties.'
+keywords:
+- {name: reactions, values: [$p$ $p$ --> $\pi^0$ X]}
+- {name: cmenergies, values: [62.4]}
+- {name: phrases, values: [ppg135, Sivers effect, pQCD, Sivers effect, pQCD, midrapidity]}
+data_file: fig3b.yaml
+additional_resources:
+- {description: Original EPS Image file, location: fig3.eps}
+- {description: PNG Image file, location: fig3.png}
+- {description: Thumbnail Image file, location: thumb_fig3.png}
+---
+name: "Figure 4"
+location: Data From Fig. 4 of PRD 90 (2014) 012006
+description: 'Neutral pion $A_N$ at $\sqrt{s}$ = 62.4 GeV as function of
+transverse momentum $p_T$.'
+keywords:
+- {name: reactions, values: [$p$ $p$ --> $\pi^0$ X]}
+- {name: cmenergies, values: [62.4]}
+- {name: phrases, values: [ppg135, Sivers effect, pQCD, midrapidity]}
+data_file: fig4.yaml
+additional_resources:
+- {description: Original EPS Image file, location: fig4.eps}
+- {description: PNG Image file, location: fig4.png}
+- {description: Thumbnail Image file, location: thumb_fig4.png}
+---
+name: "Figure 5"
+location: Data From Fig. 5 of PRD 90 (2014) 012006
+description: 'Comparison of neutral pion $A_N$ as function of $x_F$ from
+$\sqrt{s}$ = 62.4 GeV.'
+keywords:
+- {name: reactions, values: [$p$ $p$ --> $\pi^0$ X]}
+- {name: cmenergies, values: [62.4]}
+- {name: phrases, values: [ppg135, Sivers effect, pQCD, midrapidity]}
+data_file: fig5.yaml
+additional_resources:
+- {description: Original EPS Image file, location: fig5.eps}
+- {description: PNG Image file, location: fig5.png}
+- {description: Thumbnail Image file, location: thumb_fig5.png}
+---
+name: "Figure 7"
+location: Data From Fig. 7 of PRD 90 (2014) 012006
+description: 'Fractional composition of electromagnetic clusters in the MPC at $\sqrt{s}$ = 200 GeV for $x_F$ > 0.4.'
+keywords:
+- {name: reactions, values: [$p$ $p$ --> $\pi^0$ X]}
+- {name: cmenergies, values: [200.0]}
+- {name: phrases, values: [ppg135, Sivers effect, pQCD, midrapidity]}
+data_file: fig7.yaml
+additional_resources:
+- {description: Original EPS Image file, location: fig7.eps}
+- {description: PNG Image file, location: fig7.png}
+- {description: Thumbnail Image file, location: thumb_fig7.png}
+---
+name: "Figure 8a"
+location: Data From Fig. 8 of PRD 90 (2014) 012006
+description: 'Fractional composition of electromagnetic clusters in the MPC at $\sqrt{s}$ = 200 GeV for $x_F$ > 0.4.'
+keywords:
+- {name: reactions, values: [$p$ $p$ --> Cluster X]}
+- {name: cmenergies, values: [200.0]}
+- {name: phrases, values: [ppg135, Sivers effect, pQCD, midrapidity]}
+data_file: fig8a.yaml
+additional_resources:
+- {description: Original EPS Image file, location: fig8.eps}
+- {description: PNG Image file, location: fig8.png}
+- {description: Thumbnail Image file, location: thumb_fig8.png}
+---
+name: "Figure 8b"
+location: Data From Fig. 8 of PRD 90 (2014) 012006
+description: 'Fractional composition of electromagnetic clusters in the MPC at $\sqrt{s}$ = 200 GeV for $x_F$ > 0.4.'
+keywords:
+- {name: reactions, values: [$p$ $p$ --> Cluster X]}
+- {name: cmenergies, values: [200.0]}
+- {name: phrases, values: [ppg135, Sivers effect, pQCD, midrapidity]}
+data_file: fig8b.yaml
+additional_resources:
+- {description: Original EPS Image file, location: fig8.eps}
+- {description: PNG Image file, location: fig8.png}
+- {description: Thumbnail Image file, location: thumb_fig8.png}
+---
+name: "Figure 9"
+location: Data From Fig. 9 of PRD 90 (2014) 012006
+description: 'The $A_N$ of electromagnetic clusters
+at $\sqrt{s}$ = 200 GeV at large |$x_F$| > 0.4 in forward/backward
+rapidities as function of $p_T$.'
+keywords:
+- {name: reactions, values: [$p$ $p$ --> Cluster X]}
+- {name: cmenergies, values: [200.0]}
+- {name: phrases, values: [ppg135, Sivers effect, pQCD, forward rapidity, backward rapidity]}
+data_file: fig9.yaml
+additional_resources:
+- {description: Original EPS Image file, location: fig9.eps}
+- {description: PNG Image file, location: fig9.png}
+- {description: Thumbnail Image file, location: thumb_fig9.png}
+---
+name: "Figure 10"
+location: Data From Fig. 10 of PRD 90 (2014) 012006
+description: 'Transverse single spin asymmetries as function of $p_T$ and $x_F$ at forward/backward rapidities.'
+keywords:
+- {name: reactions, values: [$p$ $p$ --> Cluster X]}
+- {name: cmenergies, values: [200.0]}
+- {name: phrases, values: [ppg135, Sivers effect, pQCD, forward rapidity, backward rapidity]}
+data_file: fig10.yaml
+additional_resources:
+- {description: Original EPS Image file, location: fig10.eps}
+- {description: PNG Image file, location: fig10.png}
+- {description: Thumbnail Image file, location: thumb_fig10.png}
+---
+name: "Figure 11a-1"
+location: Data From Fig. 11 of PRD 90 (2014) 012006
+description: 'Transverse single spin asymmetries $A_N$ of $\pi^0$ mesons at 
+$\sqrt{s}$ = 200 GeV at midrapidity as function of $p_T$.'
+keywords:
+- {name: reactions, values: [$p$ $p$ --> $\pi^0$ X]}
+- {name: cmenergies, values: [200.0]}
+- {name: phrases, values: [ppg135, Sivers effect, pQCD, forward rapidity, backward rapidity]}
+data_file: fig11a-1.yaml
+additional_resources:
+- {description: Original EPS Image file, location: fig11.eps}
+- {description: PNG Image file, location: fig11.png}
+- {description: Thumbnail Image file, location: thumb_fig11.png}
+---
+name: "Figure 11a-2"
+location: Data From Fig. 11 of PRD 90 (2014) 012006
+description: 'Transverse single spin asymmetries $A_N$ of $\pi^0$ mesons at 
+$\sqrt{s}$ = 200 GeV at midrapidity as function of $p_T$.'
+keywords:
+- {name: reactions, values: [$p$ $p$ --> $\pi^0$ X]}
+- {name: cmenergies, values: [200.0]}
+- {name: phrases, values: [ppg135, Sivers effect, pQCD, forward rapidity, backward rapidity]}
+data_file: fig11a-2.yaml
+additional_resources:
+- {description: Original EPS Image file, location: fig11.eps}
+- {description: PNG Image file, location: fig11.png}
+- {description: Thumbnail Image file, location: thumb_fig11.png}
+---
+name: "Figure 11b-1"
+location: Data From Fig. 11 of PRD 90 (2014) 012006
+description: 'Transverse single spin asymmetries $A_N$ of $\eta$ mesons at 
+$\sqrt{s}$ = 200 GeV at midrapidity as function of $p_T$.'
+keywords:
+- {name: reactions, values: [$p$ $p$ --> $\eta$ X]}
+- {name: cmenergies, values: [200.0]}
+- {name: phrases, values: [ppg135, Sivers effect, pQCD, forward rapidity, backward rapidity]}
+data_file: fig11b-1.yaml
+additional_resources:
+- {description: Original EPS Image file, location: fig11.eps}
+- {description: PNG Image file, location: fig11.png}
+- {description: Thumbnail Image file, location: thumb_fig11.png}
+---
+name: "Figure 11b-2"
+location: Data From Fig. 11 of PRD 90 (2014) 012006
+description: 'Transverse single spin asymmetries $A_N$ of $\eta$ mesons at 
+$\sqrt{s}$ = 200 GeV at midrapidity as function of $p_T$.'
+keywords:
+- {name: reactions, values: [$p$ $p$ --> $\eta$ X]}
+- {name: cmenergies, values: [200.0]}
+- {name: phrases, values: [ppg135, Sivers effect, pQCD, forward rapidity, backward rapidity]}
+data_file: fig11b-2.yaml
+additional_resources:
+- {description: Original EPS Image file, location: fig11.eps}
+- {description: PNG Image file, location: fig11.png}
+- {description: Thumbnail Image file, location: thumb_fig11.png}
+---

@@ -1,0 +1,38 @@
+independent_variables:
+- header: {name: '$p_{T}$(GeV/$c$)'}
+  values:
+  - {low: 1.17, high: 1.19}
+  - {low: 1.68, high: 1.70}
+  - {low: 2.18, high: 2.20}
+  - {low: 2.69, high: 2.71}
+  - {low: 3.33, high: 3.35}
+  - {low: 4.36, high: 4.38}
+dependent_variables:
+- header: {name: '$R_{AA}$'}
+  qualifiers:
+  - {name: 'Particle', value: 'Virtual Photon'}
+  values:
+  - value: 7.51
+    errors:
+    - {symerror: 3.36, label: 'ptp.'}
+    - {symerror: 2.62, label: 'cor.'}
+  - value: 4.97
+    errors:
+    - {symerror: 1.55, label: 'ptp.'}
+    - {symerror: 1.57, label: 'cor.'}
+  - value: 2.71
+    errors:
+    - {symerror: 0.74, label: 'ptp.'}
+    - {symerror: 0.91, label: 'cor.'}
+  - value: 1.87
+    errors:
+    - {symerror: 0.54, label: 'ptp.'}
+    - {symerror: 0.66, label: 'cor.'}
+  - value: 1.73
+    errors:
+    - {symerror: 0.40, label: 'ptp.'}
+    - {symerror: 0.54, label: 'cor.'}
+  - value: 1.05
+    errors:
+    - {symerror: 0.42, label: 'ptp.'}
+    - {symerror: 0.30, label: 'cor.'}

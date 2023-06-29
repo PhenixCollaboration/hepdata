@@ -1,0 +1,26 @@
+independent_variables:
+- header: {name: 'Rapidity Range ($y$)'}
+  values:
+  - {low: -0.45, high: -0.15}
+  - {low: -0.15, high: 0.15}
+  - {low: 0.15, high: 0.45}
+dependent_variables:
+- header: {name: '$R_{dAu}$'}
+  qualifiers:
+  - {name: 'Centrality (%)', value: 'Minimum Bias'}
+  values:
+  - value: 0.765
+    errors:
+    - {symerror: 0.04, label: 'sys. A'}
+    - {symerror: 0.10, label: 'sys. B'}
+    - {symerror: 0.06, label: 'sys. C'}
+  - value: 0.764
+    errors:
+    - {symerror: 0.032, label: 'sys. A'}
+    - {symerror: 0.10, label: 'sys. B'}
+    - {symerror: 0.06, label: 'sys. C'}
+  - value: 0.784
+    errors:
+    - {symerror: 0.04, label: 'sys. A'}
+    - {symerror: 0.10, label: 'sys. B'}
+    - {symerror: 0.06, label: 'sys. C'}

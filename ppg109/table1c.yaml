@@ -1,0 +1,64 @@
+independent_variables:
+- header: {name: 'Rapidity Range ($y$)'}
+  values:
+  - {low: -0.5, high: -0.1}
+  - {low: -0.1, high: 0.1}
+  - {low: 0.1, high: 0.5}
+dependent_variables:
+- header: {name: '$R_{CP}$'}
+  qualifiers:
+  - {name: 'Centrality (%)', value: '0-20/60-88'}
+  values:
+  - value: 0.836
+    errors:
+    - {symerror: 0.06, label: 'sys. A'}
+    - {symerror: 0.008, label: 'sys. B'}
+    - {symerror: 0.07, label: 'sys. C'}
+  - value: 0.898
+    errors:
+    - {symerror: 0.05, label: 'sys. A'}
+    - {symerror: 0.009, label: 'sys. B'}
+    - {symerror: 0.07, label: 'sys. C'}
+  - value: 0.879
+    errors:
+    - {symerror: 0.06, label: 'sys. A'}
+    - {symerror: 0.009, label: 'sys. B'}
+    - {symerror: 0.07, label: 'sys. C'}
+- header: {name: '$R_{CP}$'}
+  qualifiers:
+  - {name: 'Centrality (%)', value: '20-40/60-88'}
+  values:
+  - value: 0.931
+    errors:
+    - {symerror: 0.06, label: 'sys. A'}
+    - {symerror: 0.009, label: 'sys. B'}
+    - {symerror: 0.06, label: 'sys. C'}
+  - value: 1.000
+    errors:
+    - {symerror: 0.06, label: 'sys. A'}
+    - {symerror: 0.010, label: 'sys. B'}
+    - {symerror: 0.07, label: 'sys. C'}
+  - value: 1.040
+    errors:
+    - {symerror: 0.08, label: 'sys. A'}
+    - {symerror: 0.010, label: 'sys. B'}
+    - {symerror: 0.07, label: 'sys. C'}
+- header: {name: '$R_{CP}$'}
+  qualifiers:
+  - {name: 'Centrality (%)', value: '40-60/60-88'}
+  values:
+  - value: 0.975
+    errors:
+    - {symerror: 0.07, label: 'sys. A'}
+    - {symerror: 0.010, label: 'sys. B'}
+    - {symerror: 0.04, label: 'sys. C'}
+  - value: 0.969
+    errors:
+    - {symerror: 0.07, label: 'sys. A'}
+    - {symerror: 0.010, label: 'sys. B'}
+    - {symerror: 0.04, label: 'sys. C'}
+  - value: 0.961
+    errors:
+    - {symerror: 0.08, label: 'sys. A'}
+    - {symerror: 0.010, label: 'sys. B'}
+    - {symerror: 0.04, label: 'sys. C'}

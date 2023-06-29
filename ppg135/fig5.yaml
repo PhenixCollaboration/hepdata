@@ -1,0 +1,64 @@
+independent_variables:
+- header: {name: '$x_F$'}
+  values:
+  - {low: 0.2, high: 0.3}
+  - {low: 0.3, high: 0.4}
+  - {low: 0.4, high: 0.5}
+  - {low: 0.5, high: 0.6}
+dependent_variables:
+- header: {name: '$\langle|x_F|\rangle$'}
+  qualifiers:
+  - {name: 'Pseudorapidity', value: '3.1 < $|\eta|$ < 3.8'}
+  values:
+  - value: 0.25
+  - value: 0.35
+  - value: 0.44
+  - value: 0.56
+- header: {name: '$\langle p_T \rangle$ (GeV/$c$)'}
+  qualifiers:
+  - {name: 'Pseudorapidity', value: '3.1 < $|\eta|$ < 3.8'}
+  values:
+  - value: 0.52
+  - value: 0.71
+  - value: 0.86
+  - value: 1.01
+- header: {name: '$A_N$ ($x_F$ > 0)'}
+  qualifiers:
+  - {name: 'Pseudorapidity', value: '3.1 < $|\eta|$ < 3.8'}
+  values:
+  - value: 0.0193
+    errors:
+    - {symerror: 0.007, label: '$\sigma_{stat.}$'}
+    - {symerror: 0.0017, label: '$\sigma_{syst.}$'}
+  - value: 0.0469
+    errors:
+    - {symerror: 0.007, label: '$\sigma_{stat.}$'}
+    - {symerror: 0.0013, label: '$\sigma_{syst.}$'}
+  - value: 0.0605
+    errors:
+    - {symerror: 0.010, label: '$\sigma_{stat.}$'}
+    - {symerror: 0.0019, label: '$\sigma_{syst.}$'}
+  - value: 0.082
+    errors:
+    - {symerror: 0.018, label: '$\sigma_{stat.}$'}
+    - {symerror: 0.005, label: '$\sigma_{syst.}$'}
+- header: {name: '$A_N$ ($x_F$ < 0)'}
+  qualifiers:
+  - {name: 'Pseudorapidity', value: '3.1 < $|\eta|$ < 3.8'}
+  values:
+  - value: -0.0067
+    errors:
+    - {symerror: 0.007, label: '$\sigma_{stat.}$'}
+    - {symerror: 0.0017, label: '$\sigma_{syst.}$'}
+  - value: -0.0017
+    errors:
+    - {symerror: 0.007, label: '$\sigma_{stat.}$'}
+    - {symerror: 0.0013, label: '$\sigma_{syst.}$'}
+  - value: -0.0182
+    errors:
+    - {symerror: 0.010, label: '$\sigma_{stat.}$'}
+    - {symerror: 0.0019, label: '$\sigma_{syst.}$'}
+  - value: -0.001
+    errors:
+    - {symerror: 0.018, label: '$\sigma_{stat.}$'}
+    - {symerror: 0.005, label: '$\sigma_{syst.}$'}

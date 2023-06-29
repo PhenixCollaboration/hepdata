@@ -1,0 +1,106 @@
+independent_variables:
+- header: {name: '$p_T$ Bins (GeV/$c$)'}
+  values:
+  - {low: 0.2, high: 0.5}
+  - {low: 0.5, high: 1.0}
+  - {low: 1.0, high: 1.5}
+  - {low: 1.5, high: 2.0}
+  - {low: 2.0, high: 2.5}
+  - {low: 2.5, high: 3.0}
+  - {low: 3.0, high: 3.5}
+  - {low: 3.5, high: 4.0}
+  - {low: 4.0, high: 4.5}
+dependent_variables:
+- header: {name: '$p_T$ (GeV/$c$)'}
+  qualifiers:
+  - {name: 'Collision', value: ''}
+  values:
+  - value: 0.364
+  - value: 0.710
+  - value: 1.204
+  - value: 1.705
+  - value: 2.207
+  - value: 2.710
+  - value: 3.213
+  - value: 3.716
+  - value: 4.219
+- header: {name: '$c_2$'}
+  qualifiers:
+  - {name: 'Collision', value: '$d$+Au'}
+  values:
+  - value: 0.002
+    errors:
+    - {symerror: 4e-5, label: 'stat.'}
+    - {symerror: 1e-4, label: 'sys.'}
+  - value: 0.004
+    errors:
+    - {symerror: 4e-5, label: 'stat.'}
+    - {symerror: 3e-4, label: 'sys.'}
+  - value: 0.007
+    errors:
+    - {symerror: 7e-5, label: 'stat.'}
+    - {symerror: 4e-4, label: 'sys.'}
+  - value: 0.008
+    errors:
+    - {symerror: 1e-4, label: 'stat.'}
+    - {symerror: 5e-4, label: 'sys.'}
+  - value: 0.009
+    errors:
+    - {symerror: 2e-4, label: 'stat.'}
+    - {symerror: 0.001, label: 'sys.'}
+  - value: 0.010
+    errors:
+    - {symerror: 4e-4, label: 'stat.'}
+    - {symerror: 0.001, label: 'sys.'}
+  - value: 0.009
+    errors:
+    - {symerror: 6e-4, label: 'stat.'}
+    - {symerror: 0.001, label: 'sys.'}
+  - value: 0.007
+    errors:
+    - {symerror: 9e-4, label: 'stat.'}
+    - {symerror: 8e-4, label: 'sys.'}
+  - value: 0.006
+    errors:
+    - {symerror: 0.001, label: 'stat.'}
+    - {symerror: 6e-4, label: 'sys.'}
+- header: {name: '$c_2$'}
+  qualifiers:
+  - {name: 'Collision', value: '$p$+$p$'}
+  values:
+  - value: 0.001
+    errors:
+    - {symerror: 2e-4, label: 'stat.'}
+    - {symerror: 1e-4, label: 'sys.'}
+  - value: 0.003
+    errors:
+    - {symerror: 2e-4, label: 'stat.'}
+    - {symerror: 3e-4, label: 'sys.'}
+  - value: 0.006
+    errors:
+    - {symerror: 5e-4, label: 'stat.'}
+    - {symerror: 7e-4, label: 'sys.'}
+  - value: 0.010
+    errors:
+    - {symerror: 9e-4, label: 'stat.'}
+    - {symerror: 0.001, label: 'sys.'}
+  - value: 0.013
+    errors:
+    - {symerror: 0.002, label: 'stat.'}
+    - {symerror: 0.003, label: 'sys.'}
+  - value: 0.014
+    errors:
+    - {symerror: 0.003, label: 'stat.'}
+    - {symerror: 0.003, label: 'sys.'}
+  - value: 0.014
+    errors:
+    - {symerror: 0.005, label: 'stat.'}
+    - {symerror: 0.003, label: 'sys.'}
+  - value: 0.018
+    errors:
+    - {symerror: 0.007, label: 'stat.'}
+    - {symerror: 0.005, label: 'sys.'}
+  - value: 0.007
+    errors:
+    - {symerror: 0.011, label: 'stat.'}
+    - {symerror: 0.005, label: 'sys.'}

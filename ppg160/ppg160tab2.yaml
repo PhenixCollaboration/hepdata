@@ -1,0 +1,78 @@
+independent_variables:
+- header: {name: 'Centrality (%)'}
+  values:
+  - {low: 0, high: 20}
+  - {low: 20, high: 40}
+  - {low: 40, high: 60}
+  - {low: 60, high: 88}
+dependent_variables:
+- header: {name: 'Bias-Factor Correction'}
+  values:
+  - value: 0.94
+    errors:
+    - {symerror: 0.01, label: 'stat.'}
+  - value: 1.00
+    errors:
+    - {symerror: 0.01, label: 'stat.'}
+  - value: 1.03
+    errors:
+    - {symerror: 0.02, label: 'stat.'}
+  - value: 1.03
+    errors:
+    - {symerror: 0.06, label: 'stat.'}
+- header: {name: '$<N_{coll}>$'}
+  values:
+  - value: 15.1
+    errors:
+    - {symerror: 1.0, label: 'stat.'}
+  - value: 10.2
+    errors:
+    - {symerror: 0.7, label: 'stat.'}
+  - value: 6.6
+    errors:
+    - {symerror: 0.4, label: 'stat.'}
+  - value: 3.2
+    errors:
+    - {symerror: 0.2, label: 'stat.'}
+- header: {name: '$<N_{part}>$'}
+  values:
+  - value: 5.2
+    errors:
+    - {symerror: 0.6, label: 'stat.'}
+  - value: 11.1
+    errors:
+    - {symerror: 0.6, label: 'stat.'}
+  - value: 7.8
+    errors:
+    - {symerror: 0.4, label: 'stat.'}
+  - value: 4.3
+    errors:
+    - {symerror: 0.2, label: 'stat.'}
+- header: {name: '$<N_{part} [Au]>$'}
+  values:
+  - value: 13.3
+    errors:
+    - {symerror: 0.8, label: 'stat.'}
+  - value: 9.3
+    errors:
+    - {symerror: 0.6, label: 'stat.'}
+  - value: 6.2
+    errors:
+    - {symerror: 0.4, label: 'stat.'}
+  - value: 3.0
+    errors:
+    - {symerror: 0.2, label: 'stat.'}
+- header: {name: '$<N_{part} [d]>$'}
+  values:
+  - value: 1.95
+    errors:
+    - {symerror: 0.01, label: 'stat.'}
+  - value: 1.84
+    errors:
+    - {symerror: 0.01, label: 'stat.'}
+  - value: 1.65
+    errors:
+    - {symerror: 0.02, label: 'stat.'}
+  - value: 136
+    errors:
+    - {symerror: 0.02, label: 'stat.'}

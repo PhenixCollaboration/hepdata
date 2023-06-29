@@ -1,0 +1,38 @@
+independent_variables:
+- header: {name: '$p_{T}$(GeV/$c$)'}
+  values:
+  - {low: 1.1, high: 1.3}
+  - {low: 1.6, high: 1.8}
+  - {low: 2.1, high: 2.3}
+  - {low: 2.6, high: 2.8}
+  - {low: 3.2, high: 3.4}
+  - {low: 4.3, high: 4.5}
+dependent_variables:
+- header: {name: '$r_{\gamma}$ = direct $\gamma$/inclusive $\gamma$'}
+  qualifiers:
+  - {name: 'Particle', value: '$p+p$ (RUN5 & RUN6 combined)'}
+  values:
+  - value: 0.01
+    errors:
+    - {symerror: 3.52E-3, label: 'stat.'}
+    - {symerror: 10.00E-2, label: 'syst.'}
+  - value: 0.02
+    errors:
+    - {symerror: 5.82E-3, label: 'stat.'}
+    - {symerror: 1.06E-2, label: 'syst.'}
+  - value: 0.02
+    errors:
+    - {symerror: 5.81E-3, label: 'stat.'}
+    - {symerror: 1.07E-2, label: 'syst.'}
+  - value: 0.04
+    errors:
+    - {symerror: 9.35E-3, label: 'stat.'}
+    - {symerror: 1.22E-2, label: 'syst.'}
+  - value: 0.04
+    errors:
+    - {symerror: 1.24E-2, label: 'stat.'}
+    - {symerror: 1.40E-2, label: 'syst.'}
+  - value: 0.08
+    errors:
+    - {symerror: 2.80E-2, label: 'stat.'}
+    - {symerror: 1.41E-2, label: 'syst.'}

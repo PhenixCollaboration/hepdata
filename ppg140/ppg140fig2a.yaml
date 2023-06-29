@@ -1,0 +1,38 @@
+independent_variables:
+- header: {name: '$p_{T}$ (GeV/$c$)'}
+  values:
+  - {low: 1.17, high: 1.19}
+  - {low: 1.68, high: 1.70}
+  - {low: 2.19, high: 2.21}
+  - {low: 2.69, high: 2.71}
+  - {low: 3.34, high: 3.36}
+  - {low: 4.36, high: 4.38}
+dependent_variables:
+- header: {name: '$Ed^{3}\sigma/dp^{3}$ (mb GeV$^{-2}c^{3}$)'}
+  qualifiers:
+  - {name: 'Particle', value: '$p+p$ (virtual photon)'}
+  values:
+  - value: 1.49E-3
+    errors:
+    - {symerror: 7.59E-4, label: 'ptp.'}
+    - {symerror: 2.16E-3, label: 'cor.'}
+  - value: 5.42E-4
+    errors:
+    - {symerror: 1.64E-4, label: 'ptp.'}
+    - {symerror: 3.05E-4, label: 'cor.'}
+  - value: 1.12E-4
+    errors:
+    - {symerror: 3.05E-5, label: 'ptp.'}
+    - {symerror: 5.79E-5, label: 'cor.'}
+  - value: 4.85E-5
+    errors:
+    - {symerror: 1.19E-5, label: 'ptp.'}
+    - {symerror: 1.65E-5, label: 'cor.'}
+  - value: 9.90E-6
+    errors:
+    - {symerror: 3.27E-6, label: 'ptp.'}
+    - {symerror: 3.87E-6, label: 'cor.'}
+  - value: 3.04E-6
+    errors:
+    - {symerror: 1.02E-6, label: 'ptp.'}
+    - {symerror: 6.28E-7, label: 'cor.'}

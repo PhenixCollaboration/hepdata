@@ -1,0 +1,49 @@
+#PHENIX paper PPG142
+#
+#$\Upsilon$ (1$S$+2$S$+3$S$) production in $d$+Au and $p$+$p$ collisions at $\sqrt{s_{NN}}$ = 200 GeV and cold-nuclear matter effects
+#
+#Phys.Rev.Lett C 87 (2013) 044909
+#InspireHEP ID: 1203021
+#
+#Prepared by Nikolas Nelson
+#Please contact Christine Nattrass if you have any questions about this submission
+#PPG liaison:
+#Reviewer:
+#
+comment: | # Information that applies to all data tables.
+  The three $\Upsilon$ states, $\Upsilon$(1$S$+2$S$+3$S$), are measured in $d$+Au and $p$+$p$ collisions at $\sqrt{s_{NN}}$ = 200 GeV and rapidities 1.2 < $|y|$ < 2.2 by the PHENIX experiment at the Relativistic Heavy-Ion Collider. Cross sections for the inclusive $\Upsilon$(1$S$+2$S$+3$S$) production are obtained. The inclusive yields per binary collision for $d$+Au collisions relative to those in $p$+$p$ collisions ($R_{dAu}$) are found to be 0.62 $\pm$ 0.26 (stat) $\pm$ 0.13 (syst) in the gold-going direction and 0.91 $\pm$ 0.33 (stat) $\pm$ 0.16 (syst) in the deuteron-going direction. The measured results are compared to a nuclear-shadowing model, EPS09 [JHEP 04, 065 (2009)], combined with a final-state breakup cross section, $\sigma_{br}$, and compared to lower energy $p$+$A$ results. We also compare the results to the PHENIX $J/\psi$ results [Phys. Rev. Lett. 107, 142301 (2011)]. The rapidity dependence of the observed $\Upsilon$ suppression is consistent with lower energy $p$+$A$ measurements.
+additional_resources:
+- {location: "https://phenix-intra.sdcc.bnl.gov/phenix/WWW/p/info/ppg/142/", description: "web page with data points"}
+- {location: "http://arxiv.org/abs/1211.4017", description: arXiv}
+- {location: "https://inspirehep.net/literature/1203021", description: InspireHEP}
+---
+# This is Table 2.
+name: "Table 2"
+location: Data From Table 2 of PRC 87 (2013) 044909
+description: 'Relative strength of the three $\Upsilon$ states at CDF [27] and from FNAL E605 [26].'
+keywords: # used for searching, possibly mutliple values for each keywords
+- {name: reactions, values: [$d$ Au --> CHARGED X, $p$ $p$ --> CHARGED X]}
+- {name: cmenergies, values: [200.0]}
+- {name: phrases, values: [ppg142, cold-nuclear-matter, inclusive yield, nuclear-shadowing]}
+data_file: ppg142tab2.yaml
+---
+# This is Table 4.
+name: "Table 4"
+location: Data From Table 4 of PRC 87 (2013) 044909
+description: 'Systematic uncertainties for each source and for each collision type. Type A represents a point-to-point uncorrelated systematic uncertainty. Type B represents a common systematic uncertainty between points at different rapidity. Type C is a global uncertainty.'
+keywords: # used for searching, possibly mutliple values for each keywords
+- {name: reactions, values: [$d$ Au --> CHARGED X, $p$ $p$ --> CHARGED X]}
+- {name: cmenergies, values: [200.0]}
+- {name: phrases, values: [ppg142, cold-nuclear-matter, inclusive yield, nuclear-shadowing]}
+data_file: ppg142tab4.yaml
+---
+# This is Table 5.
+name: "Table 5"
+location: Data From Table 5 of PRC 87 (2013) 044909
+description: '$\Upsilon$ invariant yields and cross sections of $p$+$p$ and $d$+Au collisions.'
+keywords: # used for searching, possibly mutliple values for each keywords
+- {name: reactions, values: [$d$ Au --> CHARGED X, $p$ $p$ --> CHARGED X]}
+- {name: cmenergies, values: [200.0]}
+- {name: phrases, values: [ppg142, cold-nuclear-matter, inclusive yield, nuclear-shadowing]}
+data_file: ppg142tab5.yaml
+---

@@ -1,0 +1,43 @@
+#PHENIX paper PPG200
+#
+#Low-momentum direct photon measurement in Cu+Cu collisions at $\sqrt{s_{NN}}$ = 200 GeV
+#
+#Phys.Rev.Lett C 98 (2018) 054902
+#InspireHEP ID: 1672473
+#
+#Prepared by Nikolas Nelson
+#Please contact Christine Nattrass if you have any questions about this submission
+#PPG liaison:
+#Reviewer:
+#
+comment: | # Information that applies to all data tables. 
+  We have measured direct photons for $p_T$ < 5 GeV/$c$ in minimum bias and 0% - 40% most central events at midrapidity for Cu+Cu collisions at $\sqrt{s_{NN}}$ = 200 GeV. The $e^+e^−$ contribution from quasi-real direct virtual photons has been determined as an excess over the known hadronic contributions in the $e^+e^−$ mass distribution. A clear enhancement of photons over the binary scaled $p$+$p$ fit is observed for $p_T$ < 4 GeV/$c$ in Cu+Cu data. The $p_T$ spectra are consistent with the Au+Au data covering a similar number of participants. The inverse slopes of the exponential fits to the excess after subtraction of the $p$+$p$ baseline are 285 $\pm$ 53(stat) $\pm$ 57(syst) MeV/$c$ and 333 $\pm$ 72(stat) $\pm$ 45(syst) MeV/$c$ for minimum bias and 0% - 40% most central events, respectively. The rapidity density, $dN/dy$, of photons demonstrates the same power law as a function of $dN_{ch}/d$\eta$ observed in Au+Au at the same collision energy.
+additional_resources:
+- {location: "https://phenix-intra.sdcc.bnl.gov/phenix/WWW/p/info/ppg/200/", description: "web page with data points"}
+- {location: "http://arxiv.org/abs/1805.04066", description: arXiv}
+- {location: "https://inspirehep.net/literature/1672473", description: InspireHEP}
+---
+# This is Figure 6.
+name: "Figure 6"
+location: Data From Fig. 6 of PRC 98 (2018) 054902
+description: 'Direct photon fraction measured with the virtual photon method for different systems in $\sqrt{s_{NN}}$ = 200 GeV Cu+Cu collisions.'
+keywords: # used for searching, possibly mutliple values for each keywords
+- {name: reactions, values: [Cu Cu --> CHARGED X]}
+- {name: cmenergies, values: [200.0]}
+- {name: phrases, values: [ppg200, midrapidity, quasi-real]}
+data_file: ppg200fig6.yaml
+additional_resources:
+- {description: Thumbnail Image file, location: thumb_fig6.png}
+---
+# This is Figure 7.
+name: "Figure 7"
+location: Data From Fig. 7 of PRC 98 (2018) 054902
+description: 'The direct photon spectra for Minimum Bias and 0-40% centrality in $\sqrt{s_{NN}}$ = 200 GeV Cu+Cu collisions.'
+keywords: # used for searching, possibly mutliple values for each keywords
+- {name: reactions, values: [Cu Cu --> CHARGED X]}
+- {name: cmenergies, values: [200.0]}
+- {name: phrases, values: [ppg200, midrapidity, quasi-real]}
+data_file: ppg200fig7.yaml
+additional_resources:
+- {description: Thumbnail Image file, location: thumb_fig7.png}
+---

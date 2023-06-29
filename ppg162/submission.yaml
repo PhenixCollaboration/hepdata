@@ -45,29 +45,29 @@ additional_resources:
 - {description: PNG Image file, location: fig6.png}
 - {description: Thumbnail Image file, location: thumb_fig6.png}
 ---
-# This is Figure 7.
-name: "Figure 7"
-location: Data From Fig. 7 of PRC 91 (2015) 6, 064904
-description: 'Direct photon $p_T$ spectra for minimum-bias Au+Au collisions from this measurement and Au+Au and p+p collisions.'
-keywords: # used for searching, possibly mutliple values for each keywords
-- {name: reactions, values: [Au Au --> CHARGED X]}
-- {name: cmenergies, values: [200.0]}
-- {name: phrases, values: [ppg162]}
-data_file: ppg162fig7.yaml
-additional_resources:
-- {description: Original PDF Image file, location: fig7.pdf}
-- {description: PNG Image file, location: fig7.png}
-- {description: Thumbnail Image file, location: thumb_fig7.png}
----
 # This is Figure 8.
-name: "Figure 8"
+name: "Figure 8a"
 location: Data From Fig. 8 of PRC 91 (2015) 6, 064904
 description: 'Direct photon $p_T$ spectra in different centrality bins.'
 keywords: # used for searching, possibly mutliple values for each keywords
 - {name: reactions, values: [Au Au --> CHARGED X]}
 - {name: cmenergies, values: [200.0]}
 - {name: phrases, values: [ppg162]}
-data_file: ppg162fig8.yaml
+data_file: ppg162fig8a.yaml
+additional_resources:
+- {description: Original PDF Image file, location: fig8.pdf}
+- {description: PNG Image file, location: fig8.png}
+- {description: Thumbnail Image file, location: thumb_fig8.png}
+---
+# This is Figure 8.
+name: "Figure 8b"
+location: Data From Fig. 8 of PRC 91 (2015) 6, 064904
+description: 'Direct photon $p_T$ spectra in different centrality bins.'
+keywords: # used for searching, possibly mutliple values for each keywords
+- {name: reactions, values: [$p$ $p$ --> CHARGED X]}
+- {name: cmenergies, values: [200.0]}
+- {name: phrases, values: [ppg162]}
+data_file: ppg162fig8b.yaml
 additional_resources:
 - {description: Original PDF Image file, location: fig8.pdf}
 - {description: PNG Image file, location: fig8.png}

@@ -1,0 +1,40 @@
+#PHENIX paper PPG214
+#
+#Cross section and longitudinal single-spin asymmetry $A_L$ for forward $W^{\pm}$ $\rightarrow$ $\mu^{\pm}$ $\nu$ production in polarized $p$+$p$ collisions at $\sqrt{s}$ = 510 GeV
+#
+#Phys.Rev.Lett D 98 (2018) 032007
+#InspireHEP ID: 1667398
+#
+#Prepared by Nikolas Nelson
+#Please contact Christine Nattrass if you have any questions about this submission
+#PPG liaison:
+#Reviewer:
+#
+comment: | # Information that applies to all data tables.
+  We have measured the cross section and single spin asymmetries from forward $W^{\pm}$ $\rightarrow$ $\mu^{\pm}$ $\nu$ production in longitudinally polarized $p$+$p$ collisions at $\sqrt{s}$ = 510 GeV using the PHENIX detector at the Relativistic Heavy Ion Collider. The cross sections are consistent with previous measurements at this collision energy, while the most forward and backward longitudinal single spin asymmetries provide new insights into the sea quark helicities in the proton. The charge of the W bosons provides a natural flavor separation of the participating partons.
+additional_resources:
+- {location: "https://phenix-intra.sdcc.bnl.gov/phenix/WWW/p/info/ppg/214/", description: "web page with data points"}
+- {location: "http://arxiv.org/abs/1804.04181", description: arXiv}
+- {location: "https://inspirehep.net/literature/1667398", description: InspireHEP}
+---
+# This is Table 3.
+name: "Table 3"
+location: Data From Table 3 of PRD 98 (2018) 032007
+description: 'Single-spin asymmetries at forward $A^{FW}_L$ and backward $A^{BW}_L$ rapidities for $p$+$p$ collisions at $\sqrt{s}$ = 510 GeV for results in 2013 and 2012, plus combined results for both years.'
+keywords: # used for searching, possibly mutliple values for each keywords
+- {name: reactions, values: [$p$ $p$ --> $W^\pm$ + X, $p$ $p$ --> $\mu^\pm$ + X]}
+- {name: cmenergies, values: [510.0]}
+- {name: phrases, values: [ppg214, cross section, single-spin asymmetry, helicities]}
+data_file: ppg214tab3.yaml
+---
+# This is Relevent Information.
+name: "Conclusion"
+location: Data From PRD 98 (2018) 032007
+description: 'The total $W$ boson production cross sections for $p$+$p$ collisions at $\sqrt{s}$ = 510 GeV for $\sigma$($W^+$ $\rightarrow$ $\mu^+$) and $\sigma$($W^-$ $\rightarrow$ $\mu^-$).'
+keywords: # used for searching, possibly mutliple values for each keywords
+- {name: reactions, values: [$p$ $p$ --> $W^\pm$ + X, $p$ $p$ --> $\mu^\pm$ + X]}
+- {name: cmenergies, values: [510.0]}
+- {name: phrases, values: [ppg214, cross section, single-spin asymmetry, helicities]}
+data_file: ppg214extra.yaml
+---
+

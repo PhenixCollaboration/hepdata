@@ -10,21 +10,21 @@ dependent_variables:
   values:
   - value: 0.20
     errors:
-    - {asymerror: {plus: 0.32, minus: 0.35}, label: 'stat.'}
-    - {asymerror: {plus: 0.48, minus: 0.52}, label: 'sys.'}
+    - {asymerror: {plus: 0.32, minus: -0.35}, label: 'stat.'}
+    - {asymerror: {plus: 0.48, minus: -0.52}, label: 'sys.'}
   - value: 0.01
     errors:
-    - {asymerror: {plus: 0.30, minus: 0.37}, label: 'stat.'}
-    - {asymerror: {plus: 0.20, minus: 0.19}, label: 'sys.'}
+    - {asymerror: {plus: 0.30, minus: -0.37}, label: 'stat.'}
+    - {asymerror: {plus: 0.20, minus: -0.19}, label: 'sys.'}
 - header: {name: '$\bar{\lambda}$'}
   qualifiers:
   - {name: 'Frame', value: 'Gottfried-Jackson'}
   values:
   - value: 0.17
     errors:
-    - {asymerror: {plus: 0.42, minus: 0.42}, label: 'stat.'}
-    - {asymerror: {plus: 0.29, minus: 0.42}, label: 'sys.'}
+    - {asymerror: {plus: 0.42, minus: -0.42}, label: 'stat.'}
+    - {asymerror: {plus: 0.29, minus: -0.42}, label: 'sys.'}
   - value: -0.04
     errors:
-    - {asymerror: {plus: 0.34, minus: 0.40}, label: 'stat.'}
-    - {asymerror: {plus: 0.23, minus: 0.17}, label: 'sys.'}
+    - {asymerror: {plus: 0.34, minus: -0.40}, label: 'stat.'}
+    - {asymerror: {plus: 0.23, minus: -0.17}, label: 'sys.'}
