@@ -1,0 +1,12 @@
+independent_variables:
+- header: {name: 'Centrality (%)'}
+  values:
+  - {low: 30, high: 92}
+dependent_variables:
+- header: {name: '$R_{AA}$'}
+  values:
+  - value: 0.84
+    errors:
+    - {asymerror: {plus: 0.45, minus: 0.48}, label: 'stat.'}
+    - {symerror: 0.18, label: 'syst.'}
+    - {symerror: 0.34, label: 'global'}
