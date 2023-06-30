@@ -1,0 +1,43 @@
+#PHENIX paper PPG141
+#
+#Double Spin Asymmetry of Electrons from Heavy Flavor Decays in $p$+$p$ Collisions at $\sqrt{s}$ = 200 GeV
+#
+#Phys.Rev.Lett D 87 (2013) 012011
+#InspireHEP ID: 1185576
+#
+#Prepared by Nikolas Nelson
+#Please contact Christine Nattrass if you have any questions about this submission
+#PPG liaison:
+#Reviewer:
+#
+comment: | # Information that applies to all data tables.
+  We report on the first measurement of double-spin asymmetry, $A_{LL}$, of electrons from the decays of hadrons containing heavy flavor in longitudinally polarized $p$+$p$ collisions at $\sqrt{s}$ = 200 GeV for $p_T$ = 0.5 to 3.0 GeV/$c$. The asymmetry was measured at mid-rapidity ($|\eta|$ < 0.35) with the PHENIX detector at the Relativistic Heavy Ion Collider. The measured asymmetries are consistent with zero within the statistical errors. We obtained a constraint for the polarized gluon distribution in the proton of $|\Delta g/g(log_{10}x = -1.6^{+0.5}_{-0.4}, \mu = m_T^c)|^2$ < 0.033 (1 $\sigma$), based on a leading-order perturbative-quantum-chromodynamics model, using the measured asymmetry.
+additional_resources:
+- {location: "https://phenix-intra.sdcc.bnl.gov/phenix/WWW/p/info/ppg/141/", description: "web page with data points"}
+- {location: "http://arxiv.org/abs/1209.3278", description: arXiv}
+- {location: "https://inspirehep.net/literature/1185576", description: InspireHEP}
+---
+# This is Figure 12.
+name: "Figure 12"
+location: Data From Table 6 of PRD 87 (2013) 012011
+description: 'Invariant differential cross sections of electrons from heavy-flavor decays.'
+keywords: # used for searching, possibly mutliple values for each keywords
+- {name: reactions, values: [$p$ $p$ --> CHARGED X]}
+- {name: cmenergies, values: [200.0]}
+- {name: phrases, values: [ppg141, double spin asymmetry, heavy flavor decays]}
+data_file: ppg141fig12.yaml
+additional_resources:
+- {description: Thumbnail Image file, location: thumb_cross_section.fin.png}
+---
+# This is Figure 13.
+name: "Figure 13"
+location: Data From Table 8 of PRD 87 (2013) 012011
+description: 'Double-spin asymmetry of the heavy flavor electron production.'
+keywords: # used for searching, possibly mutliple values for each keywords
+- {name: reactions, values: [$p$ $p$ --> CHARGED X]}
+- {name: cmenergies, values: [200.0]}
+- {name: phrases, values: [ppg141, double spin asymmetry, heavy flavor decays]}
+data_file: ppg141fig13.yaml
+additional_resources:
+- {description: Thumbnail Image file, location: thumb_a_ll_pt_fin.png}
+---
