@@ -1,0 +1,31 @@
+#PHENIX paper PPG219
+#
+#Nonperturbative transverse momentum broadening in dihadron angular correlations in $\sqrt{s_{NN}}$ = 200 GeV proton-nucleus collisions
+#
+#Phys.Rev.Lett C 99 (2019) 044912
+#InspireHEP ID: 1695272
+#
+#Prepared by Nikolas Nelson
+#Please contact Christine Nattrass if you have any questions about this submission
+#PPG liaison:
+#Reviewer:
+#
+comment: | # Information that applies to all data tables.
+  The PHENIX collaboration has measured high-$p_T$ dihadron correlations in $p$+$p$, $p$+Al, and $p$+Au collisions at $\sqrt{s_{NN}}$ = 200 GeV. The correlations arise from inter- and intra-jet correlations and thus have sensitivity to nonperturbative effects in both the initial and final states. The distributions of $p_{out}$, the transverse momentum component of the associated hadron perpendicular to the trigger hadron, are sensitive to initial and final state transverse momenta. These distributions are measured multi-differentially as a function of $x_E$, the longitudinal momentum fraction of the associated hadron with respect to the trigger hadron. The near-side $p_{out}$ widths, sensitive to fragmentation transverse momentum, show no significant broadening between $p$+Au, $p$+Al, and $p$+$p$. The away-side nonperturbative $p_{out}$ widths are found to be broadened in $p$+Au when compared to $p$+$p$; however, there is no significant broadening in $p$+Al compared to $p$+$p$ collisions. The data also suggest that the away-side pout broadening is a function of $N_{coll}$, the number of binary nucleon-nucleon collisions, in the interaction. The potential implications of these results with regard to initial and final state transverse momentum broadening and energy loss of partons in a nucleus, among other nuclear effects, are discussed.
+additional_resources:
+- {location: "https://phenix-intra.sdcc.bnl.gov/phenix/WWW/p/info/ppg/219/", description: "web page with data points"}
+- {location: "http://arxiv.org/abs/1809.09045", description: arXiv}
+- {location: "https://inspirehep.net/literature/1695272", description: InspireHEP}
+---
+# This is Figure 5.
+name: "Figure 5"
+location: Data From Table 1 of PRC 99 (2019) 044912
+description: 'The Gaussian width differences between $p$+$A$ and $p$+$p$ are shown in two $x_E$ bins as a function of $N_{coll}$.'
+keywords: # used for searching, possibly mutliple values for each keywords
+- {name: reactions, values: [$p$ Al --> CHARGED X, $p$ Au --> CHARGED X]}
+- {name: cmenergies, values: [200.0]}
+- {name: phrases, values: [ppg219, nonperturbative transverse momentum, angular correlations]}
+data_file: ppg219fig5.yaml
+additional_resources:
+- {description: Thumbnail Image file, location: thumb_widths_vs_ncoll.png}
+---
