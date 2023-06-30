@@ -1,0 +1,68 @@
+independent_variables:
+- header: {name: '$p_T$ (GeV/$c$)'}
+  values:
+  - {low: 1.00, high: 1.25}
+  - {low: 1.25, high: 1.50}
+  - {low: 1.50, high: 1.75}
+  - {low: 1.75, high: 2.00}
+  - {low: 2.00, high: 2.25}
+  - {low: 2.25, high: 2.50}
+  - {low: 2.50, high: 2.75}
+  - {low: 2.75, high: 3.00}
+  - {low: 3.00, high: 3.50}
+  - {low: 3.50, high: 4.00}
+  - {low: 4.00, high: 5.00}
+  - {low: 5.00, high: 7.00}
+dependent_variables:
+- header: {name: '$Ed^3p/dp^3$'}
+  qualifiers:
+  - {name: 'Rapidity', value: '1.4 < $|y|$ < 2.0'}
+  values:
+  - value: 2.64e-4
+    errors:
+    - {symerror: 9e-6, label: 'stat.'}
+    - {symerror: 4e-5, label: 'sys.'}
+  - value: 8.38e-5
+    errors:
+    - {symerror: 3.1e-6, label: 'stat.'}
+    - {symerror: 1.4e-5, label: 'sys.'}
+  - value: 3.180e-5
+    errors:
+    - {symerror: 1.3e-7, label: 'stat.'}
+    - {symerror: 5e-5, label: 'sys.'}
+  - value: 1.27e-5
+    errors:
+    - {symerror: 5e-7, label: 'stat.'}
+    - {symerror: 2.2e-6, label: 'sys.'}
+  - value: 5.61e-6
+    errors:
+    - {symerror: 2.8e-7, label: 'stat.'}
+    - {symerror: 1.0e-6, label: 'sys.'}
+  - value: 2.55e-6
+    errors:
+    - {symerror: 1.6e-7, label: 'stat.'}
+    - {symerror: 5e-7, label: 'sys.'}
+  - value: 1.24e-6
+    errors:
+    - {symerror: 1.0e-7, label: 'stat.'}
+    - {symerror: 2.2e-7, label: 'sys.'}
+  - value: 6.7e-7
+    errors:
+    - {symerror: 7e-8, label: 'stat.'}
+    - {symerror: 1.3e-7, label: 'sys.'}
+  - value: 2.83e-7
+    errors:
+    - {symerror: 2.7e-8, label: 'stat.'}
+    - {symerror: 5e-8, label: 'sys.'}
+  - value: 8.2e-8
+    errors:
+    - {symerror: 1.4e-8, label: 'stat.'}
+    - {symerror: 1.7e-8, label: 'sys.'}
+  - value: 2.1e-8
+    errors:
+    - {symerror: 4e-9, label: 'stat.'}
+    - {symerror: 4e-9, label: 'sys.'}
+  - value: 2.4e-9
+    errors:
+    - {symerror: 7e-10, label: 'stat.'}
+    - {symerror: 5e-10, label: 'sys.'}

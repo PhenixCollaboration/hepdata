@@ -1,0 +1,43 @@
+independent_variables:
+- header: {name: '$\Delta\phi$ Bins (rad)'}
+  values:
+  - {low: -1.50, high: 0.00}
+  - {low: 0.00, high: 1.00}
+  - {low: 1.00, high: 2.50}
+  - {low: 2.50, high: 3.50}
+  - {low: 3.50, high: 5.00}
+dependent_variables:
+- header: {name: '$\Delta\phi$ (rad)'}
+  values:
+  - value: -0.691
+  - value: 0.565
+  - value: 1.822
+  - value: 3.078
+  - value: 4.335
+- header: {name: '$J_{dA}$'}
+  values:
+  - value: 0.84
+    errors:
+    - {symerror: 0.24, label: 'stat.'}
+    - {symerror: 0.53, label: 'sys.'}
+    - {symerror: 0.12, label: 'scale'}
+  - value: 1.09
+    errors:
+    - {symerror: 0.41, label: 'stat.'}
+    - {symerror: 0.93, label: 'sys.'}
+    - {symerror: 0.15, label: 'scale'}
+  - value: 0.64
+    errors:
+    - {symerror: 0.16, label: 'stat.'}
+    - {symerror: 0.32, label: 'sys.'}
+    - {symerror: 0.09, label: 'scale'}
+  - value: 0.433
+    errors:
+    - {symerror: 0.087, label: 'stat.'}
+    - {symerror: 0.198, label: 'sys.'}
+    - {symerror: 0.06, label: 'scale'}
+  - value: 0.73
+    errors:
+    - {symerror: 0.20, label: 'stat.'}
+    - {symerror: 0.39, label: 'sys.'}
+    - {symerror: 0.10, label: 'scale'}

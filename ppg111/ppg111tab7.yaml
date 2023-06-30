@@ -1,0 +1,20 @@
+independent_variables:
+- header: {name: 'Source'}
+  values:
+  - value: No $2S$ or $3S$
+  - value: No $2S$,$3S$ or $\chi _{B}$
+  - value: Measured
+dependent_variables:
+- header: {name: '$R_{AA}$'}
+  values:
+  - value: 0.65
+    errors:
+    - {symerror: 0.11}
+  - value: 0.37
+    errors:
+    - {symerror: 0.37}
+  - value: 0.50
+    errors:
+    - {symerror: 0.18, label: 'stat.'}
+    - {symerror: 0.11, label: 'syst.'}
+    - {symerror: 0.19, label: 'global'}

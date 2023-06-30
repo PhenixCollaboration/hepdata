@@ -1,0 +1,122 @@
+independent_variables:
+- header: {name: '$p_T$ (GeV/$c$)'}
+  values:
+  - {low: 1.00, high: 1.25}
+  - {low: 1.25, high: 1.50}
+  - {low: 1.50, high: 1.75}
+  - {low: 1.75, high: 2.00}
+  - {low: 2.00, high: 2.25}
+  - {low: 2.25, high: 2.50}
+  - {low: 2.50, high: 2.75}
+  - {low: 2.75, high: 3.00}
+  - {low: 3.00, high: 3.50}
+  - {low: 3.50, high: 4.00}
+  - {low: 4.00, high: 5.00}
+  - {low: 5.00, high: 7.00}
+dependent_variables:
+- header: {name: '$1/2 \pi p_T \times d^2N^{\mu}/dp_Tdy$ [(GeV/$c$)$^{-2}$]'}
+  qualifiers:
+  - {name: 'Centrality (%)', value: '0-20'}
+  - {name: 'Rapidity', value: '-2.0 < $y$ < -1.4'}
+  values:
+  - value: 1.425e-4
+    errors:
+    - {symerror: 2.5e-6, label: 'stat.'}
+    - {symerror: 2.0e-5, label: 'sys.'}
+  - value: 5.48e-5
+    errors:
+    - {symerror: 9e-7, label: 'stat.'}
+    - {symerror: 8e-6, label: 'sys.'}
+  - value: 2.05e-5
+    errors:
+    - {symerror: 4e-7, label: 'stat.'}
+    - {symerror: 2.9e-6, label: 'sys.'}
+  - value: 8.79e-6
+    errors:
+    - {symerror: 1.5e-7, label: 'stat.'}
+    - {symerror: 1.3e-6, label: 'sys.'}
+  - value: 3.72e-6
+    errors:
+    - {symerror: 8e-8, label: 'stat.'}
+    - {symerror: 5e-7, label: 'sys.'}
+  - value: 1.67e-6
+    errors:
+    - {symerror: 5e-8, label: 'stat.'}
+    - {symerror: 2.6e-7, label: 'sys.'}
+  - value: 8.28e-7
+    errors:
+    - {symerror: 3.2e-8, label: 'stat.'}
+    - {symerror: 1.3e-7, label: 'sys.'}
+  - value: 4.17e-7
+    errors:
+    - {symerror: 2.1e-8, label: 'stat.'}
+    - {symerror: 7e-8, label: 'sys.'}
+  - value: 1.46e-7
+    errors:
+    - {symerror: 8e-9, label: 'stat.'}
+    - {symerror: 2.4e-8, label: 'sys.'}
+  - value: 4.2e-8
+    errors:
+    - {symerror: 4e-9, label: 'stat.'}
+    - {symerror: 7e-9, label: 'sys.'}
+  - value: 1.11e-8
+    errors:
+    - {symerror: 1.3e-9, label: 'stat.'}
+    - {symerror: 2.0e-9, label: 'sys.'}
+  - value: 8.6e-10
+    errors:
+    - {symerror: 2.0e-10, label: 'stat.'}
+    - {symerror: 1.6e-10, label: 'sys.'}
+- header: {name: '$1/2 \pi p_T \times d^2N^{\mu}/dp_Tdy$ [(GeV/$c$)$^{-2}$]'}
+  qualifiers:
+  - {name: 'Centrality (%)', value: '0-20'}
+  - {name: 'Rapidity', value: '1.4 < $y$ < 2.0'}
+  values:
+  - value: 5.11e-5
+    errors:
+    - {symerror: 2.0e-6, label: 'stat.'}
+    - {symerror: 7e-6, label: 'sys.'}
+  - value: 2.02e-5
+    errors:
+    - {symerror: 7e-7, label: 'stat.'}
+    - {symerror: 2.9e-6, label: 'sys.'}
+  - value: 7.90e-6
+    errors:
+    - {symerror: 2.8e-7, label: 'stat.'}
+    - {symerror: 1.1e-6, label: 'sys.'}
+  - value: 3.82e-6
+    errors:
+    - {symerror: 1.0e-7, label: 'stat.'}
+    - {symerror: 6e-7, label: 'sys.'}
+  - value: 1.72e-6
+    errors:
+    - {symerror: 6e-8, label: 'stat.'}
+    - {symerror: 2.5e-7, label: 'sys.'}
+  - value: 7.69e-7
+    errors:
+    - {symerror: 3.3e-8, label: 'stat.'}
+    - {symerror: 1.2e-7, label: 'sys.'}
+  - value: 4.09e-7
+    errors:
+    - {symerror: 2.1e-8, label: 'stat.'}
+    - {symerror: 6e-8, label: 'sys.'}
+  - value: 1.88e-7
+    errors:
+    - {symerror: 1.4e-8, label: 'stat.'}
+    - {symerror: 3.2e-8, label: 'sys.'}
+  - value: 7.9e-8
+    errors:
+    - {symerror: 5e-9, label: 'stat.'}
+    - {symerror: 1.3e-8, label: 'sys.'}
+  - value: 2.70e-8
+    errors:
+    - {symerror: 2.7e-9, label: 'stat.'}
+    - {symerror: 5e-9, label: 'sys.'}
+  - value: 6.7e-9
+    errors:
+    - {symerror: 9e-10, label: 'stat.'}
+    - {symerror: 1.2e-9, label: 'sys.'}
+  - value: 4.4e-10
+    errors:
+    - {symerror: 1.4e-10, label: 'stat.'}
+    - {symerror: 9e-11, label: 'sys.'}

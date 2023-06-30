@@ -1,0 +1,97 @@
+#PHENIX paper PPG111
+#
+#Measurement of $\Upsilon$(1S+2S+3S) production in $p+p$ and Au+Au collisions at $\sqrt{s_{NN}}$=200 GeV
+#
+#Phys.Rev.C 91 (2015) 024913
+#InspireHEP ID: 1289084
+#
+#Prepared by Josie Hakanson
+#Please contact Christine Nattrass if you have any questions about this submission
+#PPG liaison:
+#Reviewer:
+#
+comment: | # Information that applies to all data tables.
+  Measurements of bottomonium production in heavy ion and $p+p$ collisions at the Relativistic Heavy Ion Collider (RHIC) are presented. The inclusive yield of the three $\Upsilon$ states, $\Upsilon$(1S + 2S + 3S), was measured in the PHENIX experiment via electron-positron decay pairs at midrapidity for Au+Au and $p+p$ collisions at $\sqrt{s_{NN}}$ = 200 GeV. The $\Upsilon$(1S + 2S + 3S) → $e^{+}e^{-}$ differential cross section at midrapidity was found to be $B_{ee}d\sigma$/dy = 108 ± 38 (stat) ± 15 (syst) ± 11 (luminosity) pb in $p+p$ collisions. The nuclear modification factor in the 30% most central Au+Au collisions indicates a suppression of the total $\Upsilon$ state yield relative to the extrapolation from $p+p$ collision data. The suppression is consistent with measurements made by STAR at RHIC and at higher energies by the CMS experiment at the Large Hadron Collider.
+additional_resources:
+- {location: "https://phenix-intra.sdcc.bnl.gov/phenix/WWW/p/info/ppg/111/", description: "web page with data points"}
+- {location: "http://arxiv.org/abs/1404.2246", description: arXiv}
+- {location: "https://inspirehep.net/literature/1289084", description: InspireHEP}
+---
+name: "Table 1"
+
+location: Data From Tab. 1 of PRC 91 (2015) 024913
+description: 'Composition of the $\Upsilon$ family in the dilepton channel as measured by E866/NuSea [46], CDF [47], LHCb [48], and CMS [49]. Fractions are in % and only statistical uncertainties are shown.'
+keywords: # used for searching, possibly mutliple values for each keywords
+- {name: reactions, values: [Au + Au$\implies$ $\Upsilon$(1S + 2S + 3S), $p + p$$\implies$ $\Upsilon$(1S + 2S + 3S)]}
+- {name: cmenergies, values: [200.0]}
+- {name: phrases, values: [ppg111, bottomonium production, electron-positron decay, $\Upsilon$(1S + 2S + 3S)]}
+data_file: ppg111tab1.yaml
+---
+name: "Table 2"
+
+location: Data From Tab. 2 of PRC 91 (2015) 024913
+description: 'Feed-down fractions of the $\Upsilon$(1S) state in $p + p$ collisions as measured by CDF for $p_{T}$ > 8 GeV/$c$ [50].'
+keywords: # used for searching, possibly mutliple values for each keywords
+- {name: reactions, values: [Au + Au$\implies$ $\Upsilon$(1S + 2S + 3S), $p + p$$\implies$ $\Upsilon$(1S + 2S + 3S)]}
+- {name: cmenergies, values: [200.0]}
+- {name: phrases, values: [ppg111, bottomonium production, electron-positron decay, $\Upsilon$(1S + 2S + 3S)]}
+data_file: ppg111tab2.yaml
+---
+name: "Table 3"
+
+location: Data From Tab. 3 of PRC 91 (2015) 024913
+description: 'Summary of values used in $BdN/dy$ (5) and $R_{AA}$ (7) calculations. Errors are theoretical (theo.).'
+keywords: # used for searching, possibly mutliple values for each keywords
+- {name: reactions, values: [Au + Au$\implies$ $\Upsilon$(1S + 2S + 3S), $p + p$$\implies$ $\Upsilon$(1S + 2S + 3S)]}
+- {name: cmenergies, values: [200.0]}
+- {name: phrases, values: [ppg111, bottomonium production, electron-positron decay, $\Upsilon$(1S + 2S + 3S)]}
+data_file: ppg111tab3.yaml
+additional_resources:
+- {description: Figure 7a, location: figure7a.png}
+- {description: Figure 7b, location: figure7b.png}
+- {description: Figure 7c, location: figure7c.png}
+- {description: Figure 7d, location: figure7d.png}
+- {description: Figure 5, location: figure5.png}
+---
+name: "Table 4"
+
+location: Data From Tab. 4 of PRC 91 (2015) 024913
+description: 'Summary of the relative systematic uncertainties involved in $BdN/dy$ calculations.'
+keywords: # used for searching, possibly mutliple values for each keywords
+- {name: reactions, values: [Au + Au$\implies$ $\Upsilon$(1S + 2S + 3S), $p + p$$\implies$ $\Upsilon$(1S + 2S + 3S)]}
+- {name: cmenergies, values: [200.0]}
+- {name: phrases, values: [ppg111, bottomonium production, electron-positron decay, $\Upsilon$(1S + 2S + 3S)]}
+data_file: ppg111tab4.yaml
+---
+name: "Table 5"
+
+location: Data From Tab. 5 of PRC 91 (2015) 024913
+description: 'Summary of the measured $\Upsilon$ invariant multiplicities, $BdN/dy$, for one $p + p$ three Au + Au data sets.'
+keywords: # used for searching, possibly mutliple values for each keywords
+- {name: reactions, values: [Au + Au$\implies$ $\Upsilon$(1S + 2S + 3S), $p + p$$\implies$ $\Upsilon$(1S + 2S + 3S)]}
+- {name: cmenergies, values: [200.0]}
+- {name: phrases, values: [ppg111, bottomonium production, electron-positron decay, $\Upsilon$(1S + 2S + 3S)]}
+data_file: ppg111tab5.yaml
+---
+name: "Table 6"
+
+location: Data From Tab. 6 of PRC 91 (2015) 024913
+description: 'Summary of the measured $\Upsilon$ nuclear modification factors, $R_{AA}$, for Au + Au data sets.'
+keywords: # used for searching, possibly mutliple values for each keywords
+- {name: reactions, values: [Au + Au$\implies$ $\Upsilon$(1S + 2S + 3S), $p + p$$\implies$ $\Upsilon$(1S + 2S + 3S)]}
+- {name: cmenergies, values: [200.0]}
+- {name: phrases, values: [ppg111, bottomonium production, electron-positron decay, $\Upsilon$(1S + 2S + 3S)]}
+data_file: ppg111tab6.yaml
+additional_resources:
+- {description: Figure 13, location: Figure13.png}
+---
+name: "Table 7"
+
+location: Data From Tab. 7 of PRC 91 (2015) 024913
+description: '$\Upsilon$(1S + 2S + 3S) $R_{AA}$ expected when the excited states are completed suppressed in Au + Au collisions along with the measured result in the 30% most central collision regime. Estimations based on Tables I and II.'
+keywords: # used for searching, possibly mutliple values for each keywords
+- {name: reactions, values: [Au + Au$\implies$ $\Upsilon$(1S + 2S + 3S), $p + p$$\implies$ $\Upsilon$(1S + 2S + 3S)]}
+- {name: cmenergies, values: [200.0]}
+- {name: phrases, values: [ppg111, bottomonium production, electron-positron decay, $\Upsilon$(1S + 2S + 3S)]}
+data_file: ppg111tab7.yaml
+---
