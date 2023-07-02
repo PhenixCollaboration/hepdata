@@ -1,0 +1,134 @@
+independent_variables:
+- header: {name: '$p_T$ (GeV/$c$)'}
+  values:
+  - {low: 1.0, high: 2.0}
+  - {low: 2.0, high: 2.5}
+  - {low: 2.5, high: 3.0}
+  - {low: 3.0, high: 4.5}
+  - {low: 4.5, high: 7.0}
+dependent_variables:
+- header: {name: '$B_{ll}/2 \pi p_T \times d^2N/dydp_T$ [(GeV/$c$)$^{-2}$]'}
+  qualifiers:
+  - {name: 'Rapidity', value: '-2.2 < $y$ < -1.2'}
+  - {name: 'Centrality (%)', value: 'Minimum Bias'}
+  values:
+  - value: 4.4e-7
+    errors:
+    - {symerror: 4e-8, label: 'stat.'}
+    - {symerror: 7e-8, label: 'B sys.'}
+  - value: 8.7e-8
+    errors:
+    - {symerror: 8e-9, label: 'stat.'}
+    - {symerror: 1.1e-8, label: 'B sys.'}
+  - value: 3.09e-8
+    errors:
+    - {symerror: 2.5e-9, label: 'stat.'}
+    - {symerror: 4e-9, label: 'B sys.'}
+  - value: 2.70e-9
+    errors:
+    - {symerror: 2.2e-10, label: 'stat.'}
+    - {symerror: 3.5e-10, label: 'B sys.'}
+  - value: 6.4e-11
+    errors:
+    - {symerror: 1.7e-11, label: 'stat.'}
+    - {symerror: 8e-12, label: 'B sys.'}
+- header: {name: '$B_{ll}/2 \pi p_T \times d^2N/dydp_T$ [(GeV/$c$)$^{-2}$]'}
+  qualifiers:
+  - {name: 'Rapidity', value: '-2.2 < $y$ < -1.2'}
+  - {name: 'Centrality (%)', value: '0-20'}
+  values:
+  - value: 1.01e-6
+    errors:
+    - {symerror: 1.2e-7, label: 'stat.'}
+    - {symerror: 1.5e-7, label: 'B sys.'}
+  - value: 1.95e-7
+    errors:
+    - {symerror: 1.9e-8, label: 'stat.'}
+    - {symerror: 2.5e-8, label: 'B sys.'}
+  - value: 7.4e-8
+    errors:
+    - {symerror: 7e-9, label: 'stat.'}
+    - {symerror: 1.0e-8, label: 'B sys.'}
+  - value: 6.0e-9
+    errors:
+    - {symerror: 8e-10, label: 'stat.'}
+    - {symerror: 8e-10, label: 'B sys.'}
+  - value: 1.10e-10
+    errors:
+    - {symerror: 4e-11, label: 'stat.'}
+    - {symerror: 1.4e-11, label: 'B sys.'}
+- header: {name: '$B_{ll}/2 \pi p_T \times d^2N/dydp_T$ [(GeV/$c$)$^{-2}$]'}
+  qualifiers:
+  - {name: 'Rapidity', value: '-2.2 < $y$ < -1.2'}
+  - {name: 'Centrality (%)', value: '20-40'}
+  values:
+  - value: 6.6e-7
+    errors:
+    - {symerror: 1.3e-7, label: 'stat.'}
+    - {symerror: 1.0e-7, label: 'B sys.'}
+  - value: 1.12e-7
+    errors:
+    - {symerror: 1.7e-8, label: 'stat.'}
+    - {symerror: 1.5e-8, label: 'B sys.'}
+  - value: 3.7e-8
+    errors:
+    - {symerror: 6e-9, label: 'stat.'}
+    - {symerror: 5e-9, label: 'B sys.'}
+  - value: 3.8e-9
+    errors:
+    - {symerror: 5e-10, label: 'stat.'}
+    - {symerror: 5e-10, label: 'B sys.'}
+  - value: 9.6e-11
+    errors:
+    - {symerror: 3.5e-11, label: 'stat.'}
+    - {symerror: 1.3e-11, label: 'B sys.'}
+- header: {name: '$B_{ll}/2 \pi p_T \times d^2N/dydp_T$ [(GeV/$c$)$^{-2}$]'}
+  qualifiers:
+  - {name: 'Rapidity', value: '-2.2 < $y$ < -1.2'}
+  - {name: 'Centrality (%)', value: '40-60'}
+  values:
+  - value: 4.9e-7
+    errors:
+    - {symerror: 8e-8, label: 'stat.'}
+    - {symerror: 7e-8, label: 'B sys.'}
+  - value: 5.5e-8
+    errors:
+    - {symerror: 9e-9, label: 'stat.'}
+    - {symerror: 7e-9, label: 'B sys.'}
+  - value: 2.23e-8
+    errors:
+    - {symerror: 3.2e-9, label: 'stat.'}
+    - {symerror: 2.9e-9, label: 'B sys.'}
+  - value: 1.87e-9
+    errors:
+    - {symerror: 2.9e-10, label: 'stat.'}
+    - {symerror: 2.4e-10, label: 'B sys.'}
+  - value: 4.3e-11
+    errors:
+    - {symerror: 2.4e-11, label: 'stat.'}
+    - {symerror: 6e-12, label: 'B sys.'}
+- header: {name: '$B_{ll}/2 \pi p_T \times d^2N/dydp_T$ [(GeV/$c$)$^{-2}$]'}
+  qualifiers:
+  - {name: 'Rapidity', value: '-2.2 < $y$ < -1.2'}
+  - {name: 'Centrality (%)', value: '60-88'}
+  values:
+  - value: 1.89e-7
+    errors:
+    - {symerror: 3.2e-8, label: 'stat.'}
+    - {symerror: 2.8e-8, label: 'B sys.'}
+  - value: 2.32e-8
+    errors:
+    - {symerror: 4e-9, label: 'stat.'}
+    - {symerror: 3.0e-9, label: 'B sys.'}
+  - value: 7.1e-9
+    errors:
+    - {symerror: 1.5e-9, label: 'stat.'}
+    - {symerror: 9e-10, label: 'B sys.'}
+  - value: 6.5e-10
+    errors:
+    - {symerror: 3.2e-10, label: 'stat.'}
+    - {symerror: 9e-11, label: 'B sys.'}
+  - value: 2.59e-11
+    errors:
+    - {symerror: 1.0e-11, label: 'stat.'}
+    - {symerror: 3.4e-12, label: 'B sys.'}
