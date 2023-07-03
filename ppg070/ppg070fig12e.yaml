@@ -1,0 +1,16 @@
+independent_variables:
+- header: {name: 'Number of Clusters, $N_c$'}
+  values:
+  - {value: 8.9}
+  - {value: 4.8}
+dependent_variables:
+- header: {name: 'Particles per Cluster, $n_c$'}
+  qualifiers:
+  - {name: '', value: 'PHENIX: 22.5 GeV Cu+Cu'}
+  values:
+  - value: 1.019
+    errors:
+    - {symerror: 0.008, label: 'sys.'}
+  - value: 1.027
+    errors:
+    - {symerror: 0.027, label: 'sys.'}

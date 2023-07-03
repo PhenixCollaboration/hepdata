@@ -1,0 +1,42 @@
+independent_variables:
+- header: {name: 'Centrality (%)'}
+  values:
+  - {low: 0, high: 5}
+  - {low: 5, high: 10}
+  - {low: 10, high: 15}
+  - {low: 15, high: 20}
+  - {low: 20, high: 25}
+  - {low: 25, high: 30}
+dependent_variables:
+- header: {name: '$N_{part}$'}
+  qualifiers:
+  - {name: '$p_T$ (GeV/$c$)', value: ''}
+  values:
+  - value: 104.3
+  - value: 92.2
+  - value: 79.6
+  - value: 67.7
+  - value: 57.4
+  - value: 48.6
+- header: {name: '1/$k_{NBD}$'}
+  qualifiers:
+  - {name: '$p_T$ (GeV/$c$)', value: '0.2 < $p_T$ < 0.75'}
+  values:
+  - value: 0.0072
+    errors:
+    - {symerror: 0.0033, label: 'sys.'}
+  - value: 0.0102
+    errors:
+    - {symerror: 0.0034, label: 'sys.'}
+  - value: 0.0136
+    errors:
+    - {symerror: 0.0032, label: 'sys.'}
+  - value: 0.0150
+    errors:
+    - {symerror: 0.0023, label: 'sys.'}
+  - value: 0.0182
+    errors:
+    - {symerror: 0.0038, label: 'sys.'}
+  - value: 0.0254
+    errors:
+    - {symerror: 0.0082, label: 'sys.'}

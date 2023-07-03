@@ -1,0 +1,24 @@
+independent_variables:
+- header: {name: 'Number of Clusters, $N_c$'}
+  values:
+  - {value: 0.80}
+  - {value: 1.42}
+  - {value: 2.49}
+  - {value: 3.54}
+dependent_variables:
+- header: {name: 'Particles per Cluster, $n_c$'}
+  qualifiers:
+  - {name: '', value: 'NA22: 22 GeV $p$+$p$'}
+  values:
+  - value: 1.188
+    errors:
+    - {symerror: 0.023, label: 'sys.'}
+  - value: 1.336
+    errors:
+    - {symerror: 0.024, label: 'sys.'}
+  - value: 1.527
+    errors:
+    - {symerror: 0.015, label: 'sys.'}
+  - value: 1.608
+    errors:
+    - {symerror: 0.022, label: 'sys.'}

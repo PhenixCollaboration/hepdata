@@ -1,0 +1,63 @@
+independent_variables:
+- header: {name: 'Centrality (%)'}
+  values:
+  - {low: 0, high: 5}
+  - {low: 5, high: 10}
+  - {low: 10, high: 15}
+  - {low: 15, high: 20}
+  - {low: 20, high: 25}
+  - {low: 25, high: 30}
+  - {low: 30, high: 35}
+  - {low: 35, high: 40}
+  - {low: 40, high: 45}
+  - {low: 45, high: 50}
+  - {low: 50, high: 55}
+dependent_variables:
+- header: {name: '$N_{part}$'}
+  values:
+  - value: 351
+  - value: 299
+  - value: 253
+  - value: 215
+  - value: 181
+  - value: 151
+  - value: 125
+  - value: 102
+  - value: 82
+  - value: 65
+  - value: 51
+- header: {name: '$\mu_{ch}$'}
+  values:
+  - value: 61.0
+    errors:
+    - {symerror: 1.1, label: 'sys.'}
+  - value: 53.1
+    errors:
+    - {symerror: 1.0, label: 'sys.'}
+  - value: 45.8
+    errors:
+    - {symerror: 0.8, label: 'sys.'}
+  - value: 39.1
+    errors:
+    - {symerror: 0.7, label: 'sys.'}
+  - value: 32.6
+    errors:
+    - {symerror: 0.6, label: 'sys.'}
+  - value: 27.4
+    errors:
+    - {symerror: 0.5, label: 'sys.'}
+  - value: 22.3
+    errors:
+    - {symerror: 0.4, label: 'sys.'}
+  - value: 17.8
+    errors:
+    - {symerror: 0.3, label: 'sys.'}
+  - value: 14.2
+    errors:
+    - {symerror: 0.3, label: 'sys.'}
+  - value: 10.8
+    errors:
+    - {symerror: 0.2, label: 'sys.'}
+  - value: 8.3
+    errors:
+    - {symerror: 0.2, label: 'sys.'}

@@ -1,0 +1,18 @@
+independent_variables:
+- header: {name: 'Centrality (%)'}
+  values:
+  - {low: 5, high: 10}
+  - {low: 20, high: 25}
+dependent_variables:
+- header: {name: '$N_{part}$'}
+  values:
+  - value: 92
+  - value: 58
+- header: {name: '$\mu_{ch}$'}
+  values:
+  - value: 9.1
+    errors:
+    - {symerror: 0.04, label: 'sys.'}
+  - value: 4.9
+    errors:
+    - {symerror: 0.02, label: 'sys.'}
