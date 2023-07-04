@@ -1,0 +1,77 @@
+#PHENIX paper PPG198
+#
+#Angular decay coefficients of $J/\psi$ mesons at forward rapidity from $p$+$p$ collisions at $\sqrt{s}$ = 510 GeV
+#
+#Phys.Rev.Lett D 95 (2017) 092003
+#InspireHEP ID: 1505176
+#
+#Prepared by Nikolas Nelson
+#Please contact Christine Nattrass if you have any questions about this submission
+#PPG liaison:
+#Reviewer:
+#
+comment: | # Information that applies to all data tables.
+  We report the first measurement of the full angular distribution for inclusive $J/\psi$ $\rightarrow$ $\mu^+\mu^-$ decays in $p$+$p$ collisions at $\sqrt{s}$ = 510 GeV. The measurements are made for $J/\psi$ transverse momentum 2 < $p_T$ < 10 GeV/$c$ and rapidity 1.2 < $y$ < 2.2 in the Helicity, Collins-Soper, and Gottfried-Jackson reference frames. In all frames the polar coefficient $\lambda_{\theta}$ is strongly negative at low $p_T$ and becomes close to zero at high $p_T$, while the azimuthal coefficient $\lambda_{\phi}$ is close to zero at low $p_T$, and becomes slightly negative at higher $p_T$. The frame-independent coefficient $\bar{\lambda}$ is strongly negative at all $p_T$ in all frames. The data are compared to the theoretical predictions provided by nonrelativistic quantum chromodynamics models.
+additional_resources:
+- {location: "https://phenix-intra.sdcc.bnl.gov/phenix/WWW/p/info/ppg/198/", description: "web page with data points"}
+- {location: "http://arxiv.org/abs/1612.06807", description: arXiv}
+- {location: "https://inspirehep.net/literature/1505176", description: InspireHEP}
+---
+# This is Table 1.
+name: "Table 1"
+location: Data From Table 1 of PRD 95 (2017) 092003
+description: 'Systematic uncertainties in the polarization measurements.'
+keywords: # used for searching, possibly mutliple values for each keywords
+- {name: reactions, values: [$p$ $p$ --> $J/\psi$]}
+- {name: cmenergies, values: [510.0]}
+- {name: phrases, values: [ppg198, angular decay coefficients, forward rapidity, transverse momentum]}
+data_file: ppg198tab1.yaml
+---
+# This is Figure 6.
+name: "Figure 6"
+location: Data From Table 1 & 2 of PRD 95 (2017) 092003
+description: 'Polar angular decay coefficient $\lambda_{\theta}$ as a function of transverse momentum for four reference frames and three $p_T$ bins.'
+keywords: # used for searching, possibly mutliple values for each keywords
+- {name: reactions, values: [$p$ $p$ --> $J/\psi$]}
+- {name: cmenergies, values: [510.0]}
+- {name: phrases, values: [ppg198, angular decay coefficients, forward rapidity, transverse momentum]}
+data_file: ppg198fig6.yaml
+additional_resources:
+- {description: Thumbnail Image file, location: thumb_finalplot_theta.png}
+---
+# This is Figure 7.
+name: "Figure 7"
+location: Data From Table 1 & 3 of PRD 95 (2017) 092003
+description: '"Mixed" angular decay coefficient $\lambda_{\theta \phi}$ as a function of transverse momentum for four reference frames and three $p_T$ bins.'
+keywords: # used for searching, possibly mutliple values for each keywords
+- {name: reactions, values: [$p$ $p$ --> $J/\psi$]}
+- {name: cmenergies, values: [510.0]}
+- {name: phrases, values: [ppg198, angular decay coefficients, forward rapidity, transverse momentum]}
+data_file: ppg198fig7.yaml
+additional_resources:
+- {description: Thumbnail Image file, location: thumb_finalplot_thetaphi.png}
+---
+# This is Figure 8.
+name: "Figure 8"
+location: Data From Table 1 & 3 of PRD 95 (2017) 092003
+description: 'Azimuthal angular decay coefficient $\lambda_{\phi}$ as a function of transverse momentum for four reference frames and three $p_T$ bins.'
+keywords: # used for searching, possibly mutliple values for each keywords
+- {name: reactions, values: [$p$ $p$ --> $J/\psi$]}
+- {name: cmenergies, values: [510.0]}
+- {name: phrases, values: [ppg198, angular decay coefficients, forward rapidity, transverse momentum]}
+data_file: ppg198fig8.yaml
+additional_resources:
+- {description: Thumbnail Image file, location: thumb_finalplot_phi.png}
+---
+# This is Figure 9.
+name: "Figure 9"
+location: Data From Table 1 & 2 of PRD 95 (2017) 092003
+description: 'Frame-independent angular decay coefficient $\bar{\lambda}$ as a function of transverse momentum for the four reference frames and three $p_T$ bins.'
+keywords: # used for searching, possibly mutliple values for each keywords
+- {name: reactions, values: [$p$ $p$ --> $J/\psi$]}
+- {name: cmenergies, values: [510.0]}
+- {name: phrases, values: [ppg198, angular decay coefficients, forward rapidity, transverse momentum]}
+data_file: ppg198fig9.yaml
+additional_resources:
+- {description: Thumbnail Image file, location: thumb_finalplot_tilde.png}
+---

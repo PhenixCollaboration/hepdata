@@ -1,0 +1,71 @@
+independent_variables:
+- header: {name: '$p_T$ (GeV/$c$)'}
+  values:
+  - {low: 2, high: 3}
+  - {low: 3, high: 4}
+  - {low: 4, high: 10}
+dependent_variables:
+- header: {name: '$\lambda_{\theta\phi}$'}
+  qualifiers:
+  - {name: 'Reference Frame:', value: 'HX'}
+  values:
+  - value: -0.171
+    errors:
+    - {symerror: 0.120, label: 'stat.'}
+    - {asymerror: {plus: 0.072, minus: -0.073}, label: 'sys.'}
+  - value: 0.016
+    errors:
+    - {symerror: 0.087, label: 'stat.'}
+    - {asymerror: {plus: 0.086, minus: -0.085}, label: 'sys.'}
+  - value: 0.157
+    errors:
+    - {symerror: 0.094, label: 'stat.'}
+    - {asymerror: {plus: 0.162, minus: -0.167}, label: 'sys.'}
+- header: {name: '$\lambda_{\theta\phi}$'}
+  qualifiers:
+  - {name: 'Reference Frame:', value: 'CS'}
+  values:
+  - value: 0.075
+    errors:
+    - {symerror: 0.076, label: 'stat.'}
+    - {asymerror: {plus: 0.120, minus: -0.120}, label: 'sys.'}
+  - value: -0.081
+    errors:
+    - {symerror: 0.110, label: 'stat.'}
+    - {asymerror: {plus: 0.120, minus: -0.122}, label: 'sys.'}
+  - value: -0.035
+    errors:
+    - {symerror: 0.120, label: 'stat.'}
+    - {asymerror: {plus: 0.057, minus: -0.059}, label: 'sys.'}
+- header: {name: '$\lambda_{\theta\phi}$'}
+  qualifiers:
+  - {name: 'Reference Frame:', value: 'GJB'}
+  values:
+  - value: 0.267
+    errors:
+    - {symerror: 0.120, label: 'stat.'}
+    - {asymerror: {plus: 0.099, minus: -0.098}, label: 'sys.'}
+  - value: -0.034
+    errors:
+    - {symerror: 0.120, label: 'stat.'}
+    - {asymerror: {plus: 0.083, minus: -0.084}, label: 'sys.'}
+  - value: -0.156
+    errors:
+    - {symerror: 0.063, label: 'stat.'}
+    - {asymerror: {plus: 0.151, minus: -0.145}, label: 'sys.'}
+- header: {name: '$\lambda_{\theta\phi}$'}
+  qualifiers:
+  - {name: 'Reference Frame:', value: 'GJF'}
+  values:
+  - value: 0.288
+    errors:
+    - {symerror: 0.140, label: 'stat.'}
+    - {asymerror: {plus: 0.087, minus: -0.086}, label: 'sys.'}
+  - value: -0.230
+    errors:
+    - {symerror: 0.100, label: 'stat.'}
+    - {asymerror: {plus: 0.133, minus: -0.131}, label: 'sys.'}
+  - value: -0.313
+    errors:
+    - {symerror: 0.110, label: 'stat.'}
+    - {asymerror: {plus: 0.217, minus: -0.214}, label: 'sys.'}
