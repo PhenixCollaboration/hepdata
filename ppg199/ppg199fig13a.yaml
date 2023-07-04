@@ -1,0 +1,30 @@
+independent_variables:
+- header: {name: 'Rapidity ($y$)'}
+  values:
+  - {low: -2.2, high: -1.2}
+  - {low: 1.2, high: 2.2}
+dependent_variables:
+- header: {name: 'F$_{B \rightarrow J/\psi}$'}
+  qualifiers:
+  - {name: 'Collision', value: '$p$+$p$'}
+  values:
+  - value: 0.025
+    errors:
+    - {symerror: 0.008, label: 'stat.'}
+    - {symerror: 0.010, label: 'sys.'}
+  - value: 0.025
+    errors:
+    - {symerror: 0.010, label: 'stat.'}
+    - {symerror: 0.009, label: 'sys.'}
+- header: {name: 'F$_{B \rightarrow J/\psi}$'}
+  qualifiers:
+  - {name: 'Collision', value: 'Cu+Au'}
+  values:
+  - value: 0.094
+    errors:
+    - {symerror: 0.028, label: 'stat.'}
+    - {symerror: 0.033, label: 'sys.'}
+  - value: 0.089
+    errors:
+    - {symerror: 0.026, label: 'stat.'}
+    - {symerror: 0.034, label: 'sys.'}

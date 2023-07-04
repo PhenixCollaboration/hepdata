@@ -1,0 +1,65 @@
+#PHENIX paper PPG199
+#
+#$B$-meson production at forward and backward rapidity in $p$+$p$ and Cu+Au collisions at $\sqrt{s_{NN}}$ = 200 GeV
+#
+#Phys.Rev.Lett C 96 (2017) 064901
+#InspireHEP ID: 1512141
+#
+#Prepared by Nikolas Nelson
+#Please contact Christine Nattrass if you have any questions about this submission
+#PPG liaison:
+#Reviewer:
+#
+comment: | # Information that applies to all data tables.
+  The fraction of $J/\psi$ mesons which come from $B$-meson decay, F$_{B \rightarrow J/\psi}$, is measured for $J/\psi$ rapidity 1.2 < $|y|$ < 2.2 and $p_T$ > 0 in $p$+$p$ and Cu+Au collisions at $\sqrt{s_{NN}}$ = 200 GeV with the PHENIX detector. The extracted fraction is F$_{B \rightarrow J/\psi}$ = 0.025 $\pm$ 0.006(stat) $\pm$ 0.010(syst) for $p$+$p$ collisions. For Cu+Au collisions, F$_{B \rightarrow J/\psi}$ is 0.094 $\pm$ 0.028(stat) $\pm$ 0.037(syst) in the Au-going direction (−2.2 < $y$ < −1.2) and 0.089 $\pm$ 0.026(stat) $\pm$ 0.040(syst) in the Cu-going direction (1.2 < $y$ < 2.2). The nuclear modification factor, $R_{CuAu}$, of $B$ mesons in Cu+Au collisions is consistent with binary scaling of measured yields in $p$+$p$ at both forward and backward rapidity.
+additional_resources:
+- {location: "https://phenix-intra.sdcc.bnl.gov/phenix/WWW/p/info/ppg/199/", description: "web page with data points"}
+- {location: "http://arxiv.org/abs/1702.01085", description: arXiv}
+- {location: "https://inspirehep.net/literature/1512141", description: InspireHEP}
+---
+# This is Table 6.
+name: "Table 6"
+location: Data From Table 6 of PRC 96 (2017) 064901
+description: 'Differential cross section for $p$+$p$ $\rightarrow$ $b\bar{b}$ at $\sqrt{s}$ = 200 GeV.'
+keywords: # used for searching, possibly mutliple values for each keywords
+- {name: reactions, values: [$p$ $p$ --> CHARGED X]}
+- {name: cmenergies, values: [200.0]}
+- {name: phrases, values: [ppg199, forward rapidity, backward rapidity, differential cross section]}
+data_file: ppg199tab6.yaml
+---
+# This is Figure 13.
+name: "Figure 13a"
+location: Data Table 5 of PRC 96 (2017) 064901
+description: 'Fraction F$_{B \rightarrow J/\psi}$ of $B$-meson decays in the inclusive $J/\psi$ sample in $p$+$p$ and Cu+Au collisions at $sqrt{s_{NN}}$ = 200 GeV versus rapidity along with a theoretical estimation based on fixed-order plus next-to-leading logs (FONLL) for the $B \rightarrow J/\psi$ cross section and Color-Evaporation-Model (CEM) for the prompt $J/\psi$.'
+keywords: # used for searching, possibly mutliple values for each keywords
+- {name: reactions, values: [$p$ $p$ --> CHARGED X, Cu Au --> CHARGED X]}
+- {name: cmenergies, values: [200.0]}
+- {name: phrases, values: [ppg199, forward rapidity, backward rapidity]}
+data_file: ppg199fig13a.yaml
+additional_resources:
+- {description: Thumbnail Image file, location: thumb_bfrac_rap_pp_cuau.png}
+---
+# This is Figure 13.
+name: "Figure 13b"
+location: Data Table 5 of PRC 96 (2017) 064901
+description: 'Fraction F$_{B \rightarrow J/\psi}$ of $B$-meson decays in the inclusive $J/\psi$ sample in $p$+$p$ and Cu+Au collisions at $sqrt{s_{NN}}$ = 200 GeV versus rapidity along with a theoretical estimation based on fixed-order plus next-to-leading logs (FONLL) for the $B \rightarrow J/\psi$ cross section and Color-Evaporation-Model (CEM) for the prompt $J/\psi$.'
+keywords: # used for searching, possibly mutliple values for each keywords
+- {name: reactions, values: [$p$ $p$ --> CHARGED X]}
+- {name: cmenergies, values: [200.0]}
+- {name: phrases, values: [ppg199, forward rapidity, backward rapidity]}
+data_file: ppg199fig13b.yaml
+additional_resources:
+- {description: Thumbnail Image file, location: thumb_bfrac_rap_pp_cuau.png}
+---
+# This is Figure 15.
+name: "Figure 15"
+location: Data From Table 7 of PRC 96 (2017) 064901
+description: 'Rapidity dependence of $B$-meson and prompt-$J/\psi$ meson nuclear modification factors $R_{CuAu}$ along with the initial state effect estimated from EPS09.'
+keywords: # used for searching, possibly mutliple values for each keywords
+- {name: reactions, values: [Cu Au --> CHARGED X]}
+- {name: cmenergies, values: [200.0]}
+- {name: phrases, values: [ppg199, forward rapidity, backward rapidity]}
+data_file: ppg199fig15.yaml
+additional_resources:
+- {description: Thumbnail Image file, location: thumb_raa_cuau.png}
+---
