@@ -1,0 +1,78 @@
+#PHENIX paper PPG172
+#
+#Forward $J/\psi$ production in U+U collisions at $\sqrt{s_{NN}}$ = 193 GeV
+#
+#Phys.Rev.Lett C 93 (2016) 034903
+#InspireHEP ID: 1393789
+#
+#Prepared by Nikolas Nelson
+#Please contact Christine Nattrass if you have any questions about this submission
+#PPG liaison:
+#Reviewer:
+#
+comment: | # Information that applies to all data tables.
+  The invariant yields for $J/\psi$ production at forward rapidity (1.2 < $|y|$ < 2.2) in U+U collisions at $\sqrt{s_{NN}}$ = 193 GeV have been measured as a function of collision centrality. The invariant yields and nuclear-modification factor $R_{AA}$ are presented and compared with those from Au+Au collisions in the same rapidity range. Additionally, the direct ratio of the invariant yields from U+U and Au+Au collisions within the same centrality class is presented, and used to investigate the role of $c\bar{c}$ coalescence. Two different parameterizations of the deformed Woods-Saxon distribution were used in Glauber calculations to determine the values of the number of nucleon-nucleon collisions in each centrality class, $N_{coll}$, and these were found to give significantly different $N_{coll}$ values. Results using $N_{coll}$ values from both deformed Woods-Saxon distributions are presented. The measured ratios show that the $J/\psi$ suppression, relative to binary collision scaling, is similar in U+U and Au+Au for peripheral and midcentral collisions, but that $J/\psi$ show less suppression for the most central U+U collisions. The results are consistent with a picture in which, for central collisions, increase in the $J/\psi$ yield due to $c\bar{c}$ coalescence becomes more important than the decrease in yield due to increased energy density. For midcentral collisions, the conclusions about the balance between $c\bar{c}$ coalescence and suppression depend on which deformed Woods-Saxon distribution is used to determine $N_{coll}$.
+additional_resources:
+- {location: "https://phenix-intra.sdcc.bnl.gov/phenix/WWW/p/info/ppg/172/", description: "web page with data points"}
+- {location: "http://arxiv.org/abs/1509.05380", description: arXiv}
+- {location: "https://inspirehep.net/literature/1393789", description: InspireHEP}
+---
+# This is Table 2.
+name: "Table 2"
+location: Data From Table 2 of PRC 93 (2016) 034903
+description: 'Centrality parameters $N_{part}$ and $N_{coll}$ in U+U and Au+Au collisions, estimated using the Glauber model.'
+keywords: # used for searching, possibly mutliple values for each keywords
+- {name: reactions, values: [U U --> $J/\psi$]}
+- {name: cmenergies, values: [193.0]}
+- {name: phrases, values: [ppg172, invariant yields, nuclear-modification, Wood-Saxon distributions]}
+data_file: ppg172tab2.yaml
+---
+# This is Figure 6.
+name: "Figure 6"
+location: Data From Table 4 of PRC 93 (2016) 034903
+description: 'The nuclear-modification factor, $R_{AA}$, measured as a function of collision centrality ($N_{part}$) for $J/\psi$ at forward rapidity in U+U collisions at $\sqrt{s_{NN}}$ = 193 GeV.'
+keywords: # used for searching, possibly mutliple values for each keywords
+- {name: reactions, values: [U U --> $J/\psi$]}
+- {name: cmenergies, values: [193.0]}
+- {name: phrases, values: [ppg172, invariant yields, nuclear-modification, Wood-Saxon distributions]}
+data_file: ppg172fig6.yaml
+additional_resources:
+- {description: Thumbnail Image file, location: thumb_RAA_set1.png}
+- {description: Thumbnail Image file, location: thumb_RAA_set2.png}
+---
+# This is Figure 7.
+name: "Figure 7"
+location: Data From Table 5 of PRC 93 (2016) 034903
+description: 'Invariant yield measured as a function of collision centrality for $J/\psi$ at forward rapidity for U+U and Au+Au collisions.'
+keywords: # used for searching, possibly mutliple values for each keywords
+- {name: reactions, values: [U U --> $J/\psi$]}
+- {name: cmenergies, values: [193.0]}
+- {name: phrases, values: [ppg172, invariant yields, nuclear-modification, Wood-Saxon distributions]}
+data_file: ppg172fig7.yaml
+additional_resources:
+- {description: Thumbnail Image file, location: thumb_BdNdy_vs_centrality.png}
+---
+# This is Figure 8.
+name: "Figure 8"
+location: Data From Table 6 of PRC 93 (2016) 034903
+description: 'The relative nuclear-modification factor for U+U and Au+Au as a function of collision centrality.'
+keywords: # used for searching, possibly mutliple values for each keywords
+- {name: reactions, values: [U U --> $J/\psi$]}
+- {name: cmenergies, values: [193.0]}
+- {name: phrases, values: [ppg172, invariant yields, nuclear-modification, Wood-Saxon distributions]}
+data_file: ppg172fig8.yaml
+additional_resources:
+- {description: Thumbnail Image file, location: thumb_Ruuauau_set1_and_set2.png}
+---
+# This is Figure 9.
+name: "Figure 9"
+location: Data From Table 5 of PRC 93 (2016) 034903
+description: 'The ratio of the invariant yield for U+U to that for Au+Au, as a function of collision centrality.'
+keywords: # used for searching, possibly mutliple values for each keywords
+- {name: reactions, values: [U U --> $J/\psi$]}
+- {name: cmenergies, values: [193.0]}
+- {name: phrases, values: [ppg172, invariant yields, nuclear-modification, Wood-Saxon distributions]}
+data_file: ppg172fig9.yaml
+additional_resources:
+- {description: Thumbnail Image file, location: thumb_dNdy_ratio_set1_and_set2.png}
+---
