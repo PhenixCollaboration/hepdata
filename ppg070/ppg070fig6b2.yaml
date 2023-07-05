@@ -1,0 +1,62 @@
+independent_variables:
+- header: {name: 'Centrality (%)'}
+  values:
+  - {low: 0, high: 5}
+  - {low: 5, high: 10}
+  - {low: 10, high: 15}
+  - {low: 15, high: 20}
+  - {low: 20, high: 25}
+  - {low: 25, high: 30}
+  - {low: 30, high: 35}
+  - {low: 35, high: 40}
+  - {low: 40, high: 45}
+  - {low: 45, high: 50}
+dependent_variables:
+- header: {name: '$N_{part}$'}
+  qualifiers:
+  - {name: '$p_T$ (GeV/$c$)', value: ''}
+  values:
+  - value: 345.1
+  - value: 296.3
+  - value: 250.3
+  - value: 211.0
+  - value: 177.7
+  - value: 148.7
+  - value: 123.8
+  - value: 102.1
+  - value: 82.9
+  - value: 66.2
+- header: {name: '$\omega_{ch,dyn}$'}
+  qualifiers:
+  - {name: '$p_T$ (GeV/$c$)', value: '0.2 < $p_T$ < 1.0'}
+  values:
+  - value: 1.07
+    errors:
+    - {symerror: 0.015, label: 'sys.'}
+  - value: 1.09
+    errors:
+    - {symerror: 0.017, label: 'sys.'}
+  - value: 1.08
+    errors:
+    - {symerror: 0.016, label: 'sys.'}
+  - value: 1.09
+    errors:
+    - {symerror: 0.016, label: 'sys.'}
+  - value: 1.10
+    errors:
+    - {symerror: 0.016, label: 'sys.'}
+  - value: 1.10
+    errors:
+    - {symerror: 0.017, label: 'sys.'}
+  - value: 1.11
+    errors:
+    - {symerror: 0.017, label: 'sys.'}
+  - value: 1.11
+    errors:
+    - {symerror: 0.017, label: 'sys.'}
+  - value: 1.12
+    errors:
+    - {symerror: 0.018, label: 'sys.'}
+  - value: 1.12
+    errors:
+    - {symerror: 0.018, label: 'sys.'}

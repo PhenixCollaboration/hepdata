@@ -1,0 +1,33 @@
+independent_variables:
+- header: {name: '$p_T$ (GeV/$c$)'}
+  values:
+  - {value: 3.02}
+  - {value: 3.07}
+  - {value: 3.13}
+dependent_variables:
+- header: {name: 'Data Sample'}
+  qualifiers:
+  - {name: '$p_T$ (GeV/$c$)', value: ''}
+  values:
+  - value: '$p$+$p$'
+  - value: '$p$+Al'
+  - value: '$p$+Au'
+- header: {name: '$A^{J/\psi}_{N}$'}
+  qualifiers:
+  - {name: '$p_T$ (GeV/$c$)', value: '2 < $p_T$ < 10'}
+  values:
+  - value: 0.006
+    errors:
+    - {symerror: 0.016, label: '$\sigma A^{stat}_{N}$'}
+    - {symerror: 9e-4, label: '$\sigma A^{stat}_{N}$ (source 1)'}
+    - {symerror: 0.004, label: '$\sigma A^{stat}_{N}$ (source 2)'}
+  - value: -0.007
+    errors:
+    - {symerror: 0.040, label: '$\sigma A^{stat}_{N}$'}
+    - {symerror: 0.015, label: '$\sigma A^{stat}_{N}$ (source 1)'}
+    - {symerror: 5e-4, label: '$\sigma A^{stat}_{N}$ (source 2)'}
+  - value: 0.013
+    errors:
+    - {symerror: 0.031, label: '$\sigma A^{stat}_{N}$'}
+    - {symerror: 0.005, label: '$\sigma A^{stat}_{N}$ (source 1)'}
+    - {symerror: 0.002, label: '$\sigma A^{stat}_{N}$ (source 2)'}

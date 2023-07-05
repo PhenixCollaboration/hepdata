@@ -17,16 +17,6 @@ additional_resources:
 - {location: "http://arxiv.org/abs/1404.2246", description: arXiv}
 - {location: "https://inspirehep.net/literature/1289084", description: InspireHEP}
 ---
-name: "Table 1"
-
-location: Data From Tab. 1 of PRC 91 (2015) 024913
-description: 'Composition of the $\Upsilon$ family in the dilepton channel as measured by E866/NuSea [46], CDF [47], LHCb [48], and CMS [49]. Fractions are in % and only statistical uncertainties are shown.'
-keywords: # used for searching, possibly mutliple values for each keywords
-- {name: reactions, values: [Au + Au$\implies$ $\Upsilon$(1S + 2S + 3S), $p + p$$\implies$ $\Upsilon$(1S + 2S + 3S)]}
-- {name: cmenergies, values: [200.0]}
-- {name: phrases, values: [ppg111, bottomonium production, electron-positron decay, $\Upsilon$(1S + 2S + 3S)]}
-data_file: ppg111tab1.yaml
----
 name: "Table 2"
 
 location: Data From Tab. 2 of PRC 91 (2015) 024913
@@ -73,15 +63,27 @@ keywords: # used for searching, possibly mutliple values for each keywords
 - {name: phrases, values: [ppg111, bottomonium production, electron-positron decay, $\Upsilon$(1S + 2S + 3S)]}
 data_file: ppg111tab5.yaml
 ---
-name: "Table 6"
+name: "Table 6a"
 
-location: Data From Tab. 6 of PRC 91 (2015) 024913
+location: Data From Tab. 6a of PRC 91 (2015) 024913
 description: 'Summary of the measured $\Upsilon$ nuclear modification factors, $R_{AA}$, for Au + Au data sets.'
 keywords: # used for searching, possibly mutliple values for each keywords
 - {name: reactions, values: [Au + Au$\implies$ $\Upsilon$(1S + 2S + 3S), $p + p$$\implies$ $\Upsilon$(1S + 2S + 3S)]}
 - {name: cmenergies, values: [200.0]}
 - {name: phrases, values: [ppg111, bottomonium production, electron-positron decay, $\Upsilon$(1S + 2S + 3S)]}
 data_file: ppg111tab6.yaml
+additional_resources:
+- {description: Figure 13, location: Figure13.png}
+---
+name: "Table 6b"
+
+location: Data From Tab. 6b of PRC 91 (2015) 024913
+description: 'Summary of the measured $\Upsilon$ nuclear modification factors, $R_{AA}$, for Au + Au data sets.'
+keywords: # used for searching, possibly mutliple values for each keywords
+- {name: reactions, values: [Au + Au$\implies$ $\Upsilon$(1S + 2S + 3S), $p + p$$\implies$ $\Upsilon$(1S + 2S + 3S)]}
+- {name: cmenergies, values: [200.0]}
+- {name: phrases, values: [ppg111, bottomonium production, electron-positron decay, $\Upsilon$(1S + 2S + 3S)]}
+data_file: ppg111tab6b.yaml
 additional_resources:
 - {description: Figure 13, location: Figure13.png}
 ---

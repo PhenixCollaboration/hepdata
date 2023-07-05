@@ -1,0 +1,84 @@
+independent_variables:
+- header: {name: 'Centrality (%)'}
+  values:
+  - {low: 0, high: 20}
+  - {low: 20, high: 40}
+  - {low: 40, high: 60}
+  - {low: 60, high: 88}
+dependent_variables:
+- header: {name: '$\langle N_{coll} \rangle$'}
+  qualifiers:
+  - {name: 'Rapidity', value: '1.2 < $|y|$ < 2.2'}
+  values:
+  - value: 15.1
+    errors:
+    - {symerror: 1.0, label: 'C sys.'}
+  - value: 10.2
+    errors:
+    - {symerror: 0.7, label: 'C sys.'}
+  - value: 6.6
+    errors:
+    - {symerror: 0.4, label: 'C sys.'}
+  - value: 3.2
+    errors:
+    - {symerror: 0.2, label: 'C sys.'}
+- header: {name: '$R_{dAu}$'}
+  qualifiers:
+  - {name: 'Rapidity', value: '-2.2 < $y$ < -1.2'}
+  values:
+  - value: 1.26
+    errors:
+    - {symerror: 0.21, label: 'stat.'}
+    - {symerror: 0.21, label: 'B sys.'}
+  - value: 1.25
+    errors:
+    - {symerror: 0.20, label: 'stat.'}
+    - {symerror: 0.20, label: 'B sys.'}
+  - value: 1.18
+    errors:
+    - {symerror: 0.20, label: 'stat.'}
+    - {symerror: 0.19, label: 'B sys.'}
+  - value: 1.24
+    errors:
+    - {symerror: 0.22, label: 'stat.'}
+    - {symerror: 0.20, label: 'B sys.'}
+- header: {name: '$R_{dAu}$'}
+  qualifiers:
+  - {name: 'Rapidity', value: '1.2 < $y$ < 2.2'}
+  values:
+  - value: 0.73
+    errors:
+    - {symerror: 0.12, label: 'stat.'}
+    - {symerror: 0.12, label: 'B sys.'}
+  - value: 0.65
+    errors:
+    - {symerror: 0.10, label: 'stat.'}
+    - {symerror: 0.11, label: 'B sys.'}
+  - value: 0.80
+    errors:
+    - {symerror: 0.11, label: 'stat.'}
+    - {symerror: 0.13, label: 'B sys.'}
+  - value: 0.95
+    errors:
+    - {symerror: 0.17, label: 'stat.'}
+    - {symerror: 0.16, label: 'B sys.'}
+- header: {name: '$R_{dAu}$'}
+  qualifiers:
+  - {name: 'Rapidity', value: '$|y|$ < 0.35'}
+  values:
+  - value: 1.03
+    errors:
+    - {symerror: 0.11, label: 'stat.'}
+    - {symerror: 0.09, label: 'B sys.'}
+  - value: 1.00
+    errors:
+    - {symerror: 0.10, label: 'stat.'}
+    - {symerror: 0.09, label: 'B sys.'}
+  - value: 0.86
+    errors:
+    - {symerror: 0.09, label: 'stat.'}
+    - {symerror: 0.08, label: 'B sys.'}
+  - value: 1.04
+    errors:
+    - {symerror: 0.11, label: 'stat.'}
+    - {symerror: 0.09, label: 'B sys.'}

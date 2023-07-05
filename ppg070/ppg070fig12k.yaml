@@ -1,0 +1,24 @@
+independent_variables:
+- header: {name: 'Number of Clusters, $N_c$'}
+  values:
+  - {value: 1.35}
+  - {value: 2.54}
+  - {value: 3.69}
+  - {value: 4.83}
+dependent_variables:
+- header: {name: 'Particles per Cluster, $n_c$'}
+  qualifiers:
+  - {name: '', value: 'EMC: 280 GeV $\mu$+$p$'}
+  values:
+  - value: 1.158
+    errors:
+    - {symerror: 0.012, label: 'sys.'}
+  - value: 1.238
+    errors:
+    - {symerror: 0.023, label: 'sys.'}
+  - value: 1.275
+    errors:
+    - {symerror: 0.030, label: 'sys.'}
+  - value: 1.299
+    errors:
+    - {symerror: 0.062, label: 'sys.'}

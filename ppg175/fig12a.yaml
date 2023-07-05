@@ -1,0 +1,134 @@
+independent_variables:
+- header: {name: '$p_T$ (GeV/$c$)'}
+  values:
+  - {low: 1.0, high: 2.0}
+  - {low: 2.0, high: 2.5}
+  - {low: 2.5, high: 3.0}
+  - {low: 3.0, high: 4.5}
+  - {low: 4.5, high: 7.0}
+dependent_variables:
+- header: {name: '$R_{dAu}$'}
+  qualifiers:
+  - {name: 'Rapidity', value: '-2.2 < $y$ < -1.2'}
+  - {name: 'Centrality (%)', value: 'Minimum Bias'}
+  values:
+  - value: 0.92
+    errors:
+    - {symerror: 0.10, label: 'stat.'}
+    - {symerror: 0.12, label: 'B sys.'}
+  - value: 1.57
+    errors:
+    - {symerror: 0.16, label: 'stat.'}
+    - {symerror: 0.19, label: 'B sys.'}
+  - value: 2.19
+    errors:
+    - {symerror: 0.22, label: 'stat.'}
+    - {symerror: 0.26, label: 'B sys.'}
+  - value: 1.66
+    errors:
+    - {symerror: 0.17, label: 'stat.'}
+    - {symerror: 0.20, label: 'B sys.'}
+  - value: 1.03
+    errors:
+    - {symerror: 0.30, label: 'stat.'}
+    - {symerror: 0.12, label: 'B sys.'}
+- header: {name: '$R_{dAu}$'}
+  qualifiers:
+  - {name: 'Rapidity', value: '-2.2 < $y$ < -1.2'}
+  - {name: 'Centrality (%)', value: '0-20'}
+  values:
+  - value: 1.07
+    errors:
+    - {symerror: 0.14, label: 'stat.'}
+    - {symerror: 0.14, label: 'B sys.'}
+  - value: 1.78
+    errors:
+    - {symerror: 0.20, label: 'stat.'}
+    - {symerror: 0.18, label: 'B sys.'}
+  - value: 2.63
+    errors:
+    - {symerror: 0.29, label: 'stat.'}
+    - {symerror: 0.26, label: 'B sys.'}
+  - value: 1.84
+    errors:
+    - {symerror: 0.28, label: 'stat.'}
+    - {symerror: 0.18, label: 'B sys.'}
+  - value: 0.90
+    errors:
+    - {symerror: 0.33, label: 'stat.'}
+    - {symerror: 0.09, label: 'B sys.'}
+- header: {name: '$R_{dAu}$'}
+  qualifiers:
+  - {name: 'Rapidity', value: '-2.2 < $y$ < -1.2'}
+  - {name: 'Centrality (%)', value: '20-40'}
+  values:
+  - value: 1.03
+    errors:
+    - {symerror: 0.22, label: 'stat.'}
+    - {symerror: 0.13, label: 'B sys.'}
+  - value: 1.51
+    errors:
+    - {symerror: 0.25, label: 'stat.'}
+    - {symerror: 0.15, label: 'B sys.'}
+  - value: 1.95
+    errors:
+    - {symerror: 0.35, label: 'stat.'}
+    - {symerror: 0.19, label: 'B sys.'}
+  - value: 1.74
+    errors:
+    - {symerror: 0.25, label: 'stat.'}
+    - {symerror: 0.17, label: 'B sys.'}
+  - value: 1.17
+    errors:
+    - {symerror: 0.4, label: 'stat.'}
+    - {symerror: 0.12, label: 'B sys.'}
+- header: {name: '$R_{dAu}$'}
+  qualifiers:
+  - {name: 'Rapidity', value: '-2.2 < $y$ < -1.2'}
+  - {name: 'Centrality (%)', value: '40-60'}
+  values:
+  - value: 1.20
+    errors:
+    - {symerror: 0.22, label: 'stat.'}
+    - {symerror: 0.16, label: 'B sys.'}
+  - value: 1.14
+    errors:
+    - {symerror: 0.19, label: 'stat.'}
+    - {symerror: 0.11, label: 'B sys.'}
+  - value: 1.83
+    errors:
+    - {symerror: 0.28, label: 'stat.'}
+    - {symerror: 0.18, label: 'B sys.'}
+  - value: 1.33
+    errors:
+    - {symerror: 0.22, label: 'stat.'}
+    - {symerror: 0.13, label: 'B sys.'}
+  - value: 0.80
+    errors:
+    - {symerror: 0.5, label: 'stat.'}
+    - {symerror: 0.08, label: 'B sys.'}
+- header: {name: '$R_{dAu}$'}
+  qualifiers:
+  - {name: 'Rapidity', value: '-2.2 < $y$ < -1.2'}
+  - {name: 'Centrality (%)', value: '60-88'}
+  values:
+  - value: 0.94
+    errors:
+    - {symerror: 0.17, label: 'stat.'}
+    - {symerror: 0.12, label: 'B sys.'}
+  - value: 1.00
+    errors:
+    - {symerror: 0.20, label: 'stat.'}
+    - {symerror: 0.10, label: 'B sys.'}
+  - value: 1.19
+    errors:
+    - {symerror: 0.26, label: 'stat.'}
+    - {symerror: 0.12, label: 'B sys.'}
+  - value: 0.95
+    errors:
+    - {symerror: 0.5, label: 'stat.'}
+    - {symerror: 0.10, label: 'B sys.'}
+  - value: 1.00
+    errors:
+    - {symerror: 0.4, label: 'stat.'}
+    - {symerror: 0.10, label: 'B sys.'}

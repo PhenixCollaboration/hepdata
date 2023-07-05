@@ -1,0 +1,33 @@
+independent_variables:
+- header: {name: '$<x_F>$'}
+  values:
+  - {value: 0.088}
+  - {value: 0.089}
+  - {value: 0.089}
+dependent_variables:
+- header: {name: 'Data Sample'}
+  qualifiers:
+  - {name: '$x_F$', value: ''}
+  values:
+  - value: '$p$+$p$'
+  - value: '$p$+Al'
+  - value: '$p$+Au'
+- header: {name: '$A^{J/\psi}_N$'}
+  qualifiers:
+  - {name: '$x_F$', value: '0.05 < $x_F$ < 0.11'}
+  values:
+  - value: 0.004
+    errors:
+    - {symerror: 0.012, label: '$\sigma A^{stat}_{N}$'}
+    - {symerror: 1e-4, label: '$\sigma A^{stat}_{N}$ (source 1)'}
+    - {symerror: 6e-4, label: '$\sigma A^{stat}_{N}$ (source 2)'}
+  - value: 0.014
+    errors:
+    - {symerror: 0.033, label: '$\sigma A^{stat}_{N}$'}
+    - {symerror: 0.003, label: '$\sigma A^{stat}_{N}$ (source 1)'}
+    - {symerror: 0.002, label: '$\sigma A^{stat}_{N}$ (source 2)'}
+  - value: -0.027
+    errors:
+    - {symerror: 0.027, label: '$\sigma A^{stat}_{N}$'}
+    - {symerror: 0.001, label: '$\sigma A^{stat}_{N}$ (source 1)'}
+    - {symerror: 1e-4, label: '$\sigma A^{stat}_{N}$ (source 2)'}

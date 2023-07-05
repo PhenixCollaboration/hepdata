@@ -1,0 +1,22 @@
+independent_variables:
+- header: {name: 'Centrality (%)'}
+  values:
+  - {low: 5, high: 10}
+  - {low: 20, high: 25}
+dependent_variables:
+- header: {name: '$N_{part}$'}
+  qualifiers:
+  - {name: '$p_T$ (GeV/$c$)', value: ''}
+  values:
+  - value: 92.2
+  - value: 58.6
+- header: {name: '$\omega_{ch,dyn}$'}
+  qualifiers:
+  - {name: '$p_T$ (GeV/$c$)', value: '0.2 < $p_T$ < 2.0'}
+  values:
+  - value: 1.04
+    errors:
+    - {symerror: 0.02, label: 'sys.'}
+  - value: 1.06
+    errors:
+    - {symerror: 0.02, label: 'sys.'}
