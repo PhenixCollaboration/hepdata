@@ -1,0 +1,96 @@
+independent_variables:
+- header: {name: '$|\phi_{\mu ,1}$-$\phi_{\mu ,2}|$ [rad]'}
+  values:
+  - value: 0-$\frac{\pi}{15}$
+  - value: $\frac{\pi}{15}$-$\frac{2\pi}{15}$
+  - value: $\frac{2\pi}{15}$-$\frac{3\pi}{15}$
+  - value: $\frac{3\pi}{15}$-$\frac{4\pi}{15}$
+  - value: $\frac{4\pi}{15}$-$\frac{5\pi}{15}$
+  - value: $\frac{5\pi}{15}$-$\frac{6\pi}{15}$
+  - value: $\frac{6\pi}{15}$-$\frac{7\pi}{15}$
+  - value: $\frac{7\pi}{15}$-$\frac{8\pi}{15}$
+  - value: $\frac{8\pi}{15}$-$\frac{9\pi}{15}$
+  - value: $\frac{9\pi}{15}$-$\frac{10\pi}{15}$
+  - value: $\frac{10\pi}{15}$-$\frac{11\pi}{15}$
+  - value: $\frac{11\pi}{15}$-$\frac{12\pi}{15}$
+  - value: $\frac{12\pi}{15}$-$\frac{13\pi}{15}$
+  - value: $\frac{13\pi}{15}$-$\frac{14\pi}{15}$
+  - value: $\frac{3\pi}{15}$-$\pi$
+dependent_variables:
+- header: {name: '$dN/d\phi$ $10^{-9}\times$[rad$^{-1}$]'}
+  values:
+  - value: -0.136
+    errors:
+    - {symerror: 0.199, label: 'stat.'}
+    - {asymerror: {plus: 0.033, minus: 0.043}, label: 'sys. B'}
+    - {symerror: 0.016, label: 'sys. C'}
+  - value: -0.014
+    errors:
+    - {symerror: 0.130, label: 'stat.'}
+    - {asymerror: {plus: 0.049, minus: 0.032}, label: 'sys. B'}
+    - {symerror: 0.002, label: 'sys. C'}
+  - value: 0.456
+    errors:
+    - {symerror: 0.237, label: 'stat.'}
+    - {asymerror: {plus: 0.165, minus: 0.174}, label: 'sys. B'}
+    - {symerror: 0.055, label: 'sys. C'}
+  - value: 0.238
+    errors:
+    - {symerror: 0.280, label: 'stat.'}
+    - {asymerror: {plus: 0.334, minus: 0.298}, label: 'sys. B'}
+    - {symerror: 0.029, label: 'sys. C'}
+  - value: 1.080
+    errors:
+    - {symerror: 0.410, label: 'stat.'}
+    - {asymerror: {plus: 0.570, minus: 0.510}, label: 'sys. B'}
+    - {symerror: 0.130, label: 'sys. C'}
+  - value: 0.443 
+    errors:
+    - {symerror: 0.579, label: 'stat.'}
+    - {asymerror: {plus: 0.792, minus: 0.685}, label: 'sys. B'}
+    - {symerror: 0.053, label: 'sys. C'}
+  - value: 3.340
+    errors:
+    - {symerror: 0.710, label: 'stat.'}
+    - {asymerror: {plus: 0.940, minus: 0.850}, label: 'sys. B'}
+    - {symerror: 0.400, label: 'sys. C'}
+  - value: 5.020
+    errors:
+    - {symerror: 0.870, label: 'stat.'}
+    - {asymerror: {plus: 0.950, minus: 0.850}, label: 'sys. B'}
+    - {symerror: 0.600, label: 'sys. C'}
+  - value: 7.090
+    errors:
+    - {symerror: 0.930, label: 'stat.'}
+    - {asymerror: {plus: 0.850, minus: 0.770}, label: 'sys. B'}
+    - {symerror: 0.850, label: 'sys. C'}
+  - value: 7.970
+    errors:
+    - {symerror: 0.970, label: 'stat.'}
+    - {asymerror: {plus: 0.770, minus: 0.730}, label: 'sys. B'}
+    - {symerror: 0.960, label: 'sys. C'}
+  - value: 6.690
+    errors:
+    - {symerror: 1.050, label: 'stat.'}
+    - {asymerror: {plus: 0.820, minus: 0.800}, label: 'sys. B'}
+    - {symerror: 0.800, label: 'sys. C'}
+  - value: 7.700
+    errors:
+    - {symerror: 1.110, label: 'stat.'}
+    - {asymerror: {plus: 0.980, minus: 0.960}, label: 'sys. B'}
+    - {symerror: 0.920, label: 'sys. C'}
+  - value: 10.20
+    errors:
+    - {symerror: 1.100, label: 'stat.'}
+    - {asymerror: {plus: 1.300, minus: 1.300}, label: 'sys. B'}
+    - {symerror: 1.200, label: 'sys. C'}
+  - value: 7.950
+    errors:
+    - {symerror: 1.090, label: 'stat.'}
+    - {asymerror: {plus: 1.280, minus: 1.270}, label: 'sys. B'}
+    - {symerror: 0.950, label: 'sys. C'}
+  - value: 6.150
+    errors:
+    - {symerror: 1.210, label: 'stat.'}
+    - {asymerror: {plus: 1.130, minus: 1.120}, label: 'sys. B'}
+    - {symerror: 0.740, label: 'sys. C'}

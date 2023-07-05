@@ -1,0 +1,54 @@
+independent_variables:
+- header: {name: '$|\phi_{\mu ,1}$-$\phi_{\mu ,2}|$ [rad]'}
+  values:
+  - value: $\frac{4\pi}{12}$-$\frac{5\pi}{12}$
+  - value: $\frac{5\pi}{12}$-$\frac{6\pi}{12}$
+  - value: $\frac{6\pi}{12}$-$\frac{7\pi}{12}$
+  - value: $\frac{7\pi}{12}$-$\frac{8\pi}{12}$
+  - value: $\frac{8\pi}{12}$-$\frac{9\pi}{12}$
+  - value: $\frac{9\pi}{12}$-$\frac{10\pi}{12}$
+  - value: $\frac{10\pi}{12}$-$\frac{11\pi}{12}$
+  - value: $\frac{11\pi}{12}$-$\pi$
+dependent_variables:
+- header: {name: '$dN/d\phi$ $10^{-9}\times$[rad$^{-1}$]'}
+  values:
+  - value: 0.084
+    errors:
+    - {symerror: 0.035, label: 'stat.'}
+    - {asymerror: {plus: 0.009, minus: 0.009}, label: 'sys. B'}
+    - {symerror: 0.010, label: 'sys. C'}
+  - value: 0.057
+    errors:
+    - {symerror: 0.027, label: 'stat.'}
+    - {asymerror: {plus: 0.004, minus: 0.004}, label: 'sys. B'}
+    - {symerror: 0.007, label: 'sys. C'}
+  - value: 0.274
+    errors:
+    - {symerror: 0.066, label: 'stat.'}
+    - {asymerror: {plus: 0.011, minus: 0.012}, label: 'sys. B'}
+    - {symerror: 0.033, label: 'sys. C'}
+  - value: 0.532
+    errors:
+    - {symerror: 0.096, label: 'stat.'}
+    - {asymerror: {plus: 0.023, minus: 0.028}, label: 'sys. B'}
+    - {symerror: 0.064, label: 'sys. C'}
+  - value: 1.130
+    errors:
+    - {symerror: 0.140, label: 'stat.'}
+    - {asymerror: {plus: 0.050, minus: 0.090}, label: 'sys. B'}
+    - {symerror: 0.140, label: 'sys. C'}
+  - value: 1.510
+    errors:
+    - {symerror: 0.180, label: 'stat.'}
+    - {asymerror: {plus: 0.090, minus: 0.180}, label: 'sys. B'}
+    - {symerror: 0.180, label: 'sys. C'}
+  - value: 1.870
+    errors:
+    - {symerror: 0.220, label: 'stat.'}
+    - {asymerror: {plus: 0.160, minus: 0.300}, label: 'sys. B'}
+    - {symerror: 0.220, label: 'sys. C'}
+  - value: 1.940
+    errors:
+    - {symerror: 0.240, label: 'stat.'}
+    - {asymerror: {plus: 0.210, minus: 0.410}, label: 'sys. B'}
+    - {symerror: 0.230, label: 'sys. C'}
