@@ -1,0 +1,58 @@
+independent_variables:
+- header: {name: 'Centrality (%)'}
+  values:
+  - {low: 0, high: 20}
+  - {low: 20, high: 40}
+  - {low: 40, high: 93}
+dependent_variables:
+- header: {name: '$\langle N_{part} \rangle$'}
+  qualifiers:
+  - {name: 'Rapidity', value: '1.2 < $|y|$ < 2.2'}
+  values:
+  - value: 154.8
+    errors:
+    - {symerror: 4, label: 'stat. + A sys.'}
+  - value: 80.4
+    errors:
+    - {symerror: 3.3, label: 'stat. + A sys.'}
+  - value: 19.5
+    errors:
+    - {symerror: 0.5, label: 'stat. + A sys.'}
+- header: {name: '$BR$ $dN/dy$ (Cu-going)'}
+  qualifiers:
+  - {name: 'Rapidity', value: '1.2 < $y$ < 2.2'}
+  values:
+  - value: 7.30e-5
+    errors:
+    - {symerror: 8e-5, label: 'stat. + A sys.'}
+    - {symerror: 1.1e-5, label: 'B sys.'}
+    - {symerror: 2.2e-6, label: 'C sys.'}
+  - value: 1.20e-4
+    errors:
+    - {symerror: 3.0e-5, label: 'stat. + A sys.'}
+    - {symerror: 2.0e-5, label: 'B sys.'}
+    - {symerror: 4e-6, label: 'C sys.'}
+  - value: 1.50e-5
+    errors:
+    - {symerror: 6e-6, label: 'stat. + A sys.'}
+    - {symerror: 2.0e-6, label: 'B sys.'}
+    - {symerror: 5e-7, label: 'C sys.'}
+- header: {name: '$BR$ $dN/dy$ (Au-going)'}
+  qualifiers:
+  - {name: 'Rapidity', value: '-2.2 < $y$ < -1.2'}
+  values:
+  - value: 3.40e-4
+    errors:
+    - {symerror: 1.0e-4, label: 'stat. + A sys.'}
+    - {symerror: 5e-5, label: 'B sys.'}
+    - {symerror: 1.0e-5, label: 'C sys.'}
+  - value: 1.20e-4
+    errors:
+    - {symerror: 3.0e-5, label: 'stat. + A sys.'}
+    - {symerror: 2.0e-5, label: 'B sys.'}
+    - {symerror: 4e-6, label: 'C sys.'}
+  - value: 2.70e-5
+    errors:
+    - {symerror: 7e-6, label: 'stat. + A sys.'}
+    - {symerror: 4e-6, label: 'B sys.'}
+    - {symerror: 8e-7, label: 'C sys.'}

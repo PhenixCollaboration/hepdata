@@ -1,0 +1,40 @@
+independent_variables:
+- header: {name: '$|y|$'}
+  values:
+  - {low: 1.8, high: 2.2}
+  - {low: 1.2, high: 1.8}
+dependent_variables:
+- header: {name: '$\langle |y| \rangle$ (Gev/$c$)'}
+  qualifiers:
+  - {name: 'Rapidity', value: '1.2 < $|y|$ < 2.2'}
+  values:
+  - value: 2
+  - value: 1.6
+- header: {name: '$R_{CuAu}$ (Cu-going)'}
+  qualifiers:
+  - {name: 'Rapidity', value: '1.2 < $y$ < 2.2'}
+  values:
+  - value: 1.20
+    errors:
+    - {symerror: 0.6, label: 'stat. + A sys.'}
+    - {symerror: 0.20, label: 'B sys.'}
+    - {symerror: 0.13, label: 'C sys.'}
+  - value: 0.70
+    errors:
+    - {symerror: 0.30, label: 'stat. + A sys.'}
+    - {symerror: 0.10, label: 'B sys.'}
+    - {symerror: 0.08, label: 'C sys.'}
+- header: {name: '$R_{CuAu}$ (Au-going)'}
+  qualifiers:
+  - {name: 'Rapidity', value: '-2.2 < $y$ < -1.2'}
+  values:
+  - value: 2.10
+    errors:
+    - {symerror: 0.5, label: 'stat. + A sys.'}
+    - {symerror: 0.30, label: 'B sys.'}
+    - {symerror: 0.23, label: 'C sys.'}
+  - value: 1.40
+    errors:
+    - {symerror: 0.4, label: 'stat. + A sys.'}
+    - {symerror: 0.20, label: 'B sys.'}
+    - {symerror: 0.15, label: 'C sys.'}
