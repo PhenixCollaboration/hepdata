@@ -1,0 +1,57 @@
+independent_variables:
+- header: {name: '$p_T$ Bins (GeV/$c$)'}
+  values:
+  - {low: 0.25, high: 0.45}
+  - {low: 0.45, high: 0.95}
+  - {low: 0.95, high: 1.45}
+  - {low: 1.45, high: 1.95}
+  - {low: 1.95, high: 2.45}
+  - {low: 2.45, high: 2.95}
+  - {low: 2.95, high: 3.45}
+  - {low: 3.45, high: 3.95}
+  - {low: 3.95, high: 4.45}
+dependent_variables:
+- header: {name: '$p_T$ (GeV/$c$)'}
+  qualifiers:
+  - {name: 'Centrality', value: ''}
+  values:
+  - value: 0.360943
+  - value: 0.691833
+  - value: 1.1911
+  - value: 1.69654 
+  - value: 2.20117 
+  - value: 2.70571 
+  - value: 3.2097
+  - value: 3.71372 
+  - value: 4.21814 
+- header: {name: '$c^{pp}_2$ x $S/c^{pAu}_2$'}
+  qualifiers:
+  - {name: 'Centrality', value: '0-5%'}
+  values:
+  - value: 0.119
+    errors:
+    - {symerror: 0.010, label: 'stat.'}
+  - value: 0.133
+    errors:
+    - {symerror: 0.005, label: 'stat.'}
+  - value: 0.173
+    errors:
+    - {symerror: 0.006, label: 'stat.'}
+  - value: 0.199
+    errors:
+    - {symerror: 0.009, label: 'stat.'}
+  - value: 0.217
+    errors:
+    - {symerror: 0.015, label: 'stat.'}
+  - value: 0.229
+    errors:
+    - {symerror: 0.022, label: 'stat.'}
+  - value: 0.33
+    errors:
+    - {symerror: 0.05, label: 'stat.'}
+  - value: 0.21
+    errors:
+    - {symerror: 0.05, label: 'stat.'}
+  - value: 0.24
+    errors:
+    - {symerror: 0.08, label: 'stat.'}
