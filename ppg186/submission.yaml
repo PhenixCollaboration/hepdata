@@ -1,0 +1,45 @@
+#PHENIX paper PPG186
+#
+#TITLE: Inclusive cross section and double-helicity asymmetry for $\pi^0$ production at midrapidity in $p$ + $p$ collisions at $\sqrt{s}$ = 510 GeV.
+#
+#PRD 93, (2016) 011501(R) 
+#InspireHEP ID: 1396712
+#
+#Prepared by Hugh Jones
+#Please contact Christine Nattrass if you have any questions about this submission
+#PPG liaison:
+#Reviewer:
+#
+comment: | # Information that applies to all data tables.
+  PHENIX measurements are presented for the cross section and double-helicity asymmetry (ALL) in inclusive $\pi^0$ production at midrapidity from $p$ + $p$ collisions at $\sqrt{s}$ = 510 GeV from data taken in 2012 and 2013 at the Relativistic Heavy Ion Collider. The next-to-leading-order perturbative-quantum-chromodynamics theory calculation is in excellent agreement with the presented cross section results. The calculation utilized parton-to-pion fragmentation functions from the recent DSS14 global analysis, which prefer a smaller gluon-to-pion fragmentation function. The $\pi^0$ $A_{LL}$ results follow an increasingly positive asymmetry trend with $p_T$ and $\sqrt{s}$ with respect to the predictions and are in excellent agreement with the latest global analysis results. This analysis incorporated earlier results on $\pi^0$ and jet $A_{LL}$ and suggested a positive contribution of gluon polarization to the spin of the proton $\Delta G$ for the gluon momentum fraction range $x$ > 0.05. The data presented here extend to a currently unexplored region, down to $x$ $\sim$ 0.01, and thus provide additional constraints on the value of $\Delta G$.
+additional_resources:
+- {location: "https://phenix-intra.sdcc.bnl.gov/phenix/WWW/p/info/ppg/186/", description: "web page with data points"}
+- {location: "http://arxiv.org/abs/1510.02317", description: arXiv}
+- {location: "https://inspirehep.net/literature/1396712", description: InspireHEP}
+---
+# This is Figure 2.
+name: "Figure 2"
+location: Data From Figure 2 of PRD 93, (2016) 011501(R) 
+description: The neutral pion production cross section at midrapidity in $p$ + $p$ collisions at $\sqrt{s}$ = 510 GeV as a function of $p_T$ and NLO pQCD calculations for theory scales $\mu = p_T/2$ (dotted line), $p_T$ (solid line) and 2$p_T$ (dashed line), with $\mu$ representing equal factorization, renormalization, and fragmentation scales.
+keywords: # used for searching, possibly mutliple values for each keywords
+- {name: reactions, values: [$p$ + $p$ --> CHARGED X]}
+- {name: cmenergies, values: [510]}
+- {name: phrases, values: [ppg186, cross section, double-helicity asymmetry, inclusive $\pi^0$]}
+data_file: Fig2.yaml
+additional_resources:
+- {description: Thumbnail Image file, location: thumb_fig2.png}
+- {description: Thumbnail Image file, location: fig2.eps}
+---
+# This is Figure 3.
+name: "Figure 3"
+location: Data From Figure 3 of PRD 93, (2016) 011501(R)
+description: $A_{LL}$ vs $p_T$ for $\pi^0$ production at midrapidity in $p$ + $p$ collisions at $\sqrt{s}$ = 510 GeV.
+keywords: # used for searching, possibly mutliple values for each keywords
+- {name: reactions, values: [$p$ + $p$ --> CHARGED X]}
+- {name: cmenergies, values: [510]}
+- {name: phrases, values: [ppg186, cross section, double-helicity asymmetry, inclusive $\pi^0$]}
+data_file: Fig3.yaml
+additional_resources:
+- {description: Thumbnail Image file, location: thumb_fig3.png}
+- {description: Thumbnail Image file, location: fig3.eps}
+---
