@@ -1,0 +1,260 @@
+independent_variables:
+- header: {name: '$p_T$ (GeV/$c$)'}
+  values:
+  - {low: 0.50, high: 0.65}
+  - {low: 0.65, high: 0.80}
+  - {low: 0.80, high: 1.00}
+  - {low: 1.00, high: 1.20}
+  - {low: 1.20, high: 1.40}
+  - {low: 1.40, high: 1.65}
+  - {low: 1.65, high: 1.90}
+  - {low: 1.90, high: 2.20}
+  - {low: 2.20, high: 2.60}
+  - {low: 2.60, high: 2.90}
+  - {low: 2.90, high: 3.50}
+dependent_variables:
+- header: {name: '$v_2$ (Fourier Coefficient)'}
+  qualifiers:
+  - {name: 'Centrality', value: '0-10%'}
+  - {name: 'Particle', value: 'proton'}
+  values:
+  - value: 0.0160
+    errors:
+    - {symerror: 0.0015, label: 'sta.'}
+    - {symerror: 5e-4, label: 'sys.'}
+  - value: 0.0209
+    errors:
+    - {symerror: 0.0013, label: 'sta.'}
+    - {symerror: 6e-4, label: 'sys.'}
+  - value: 0.0297
+    errors:
+    - {symerror: 0.0010, label: 'sta.'}
+    - {symerror: 9e-4, label: 'sys.'}
+  - value: 0.0410
+    errors:
+    - {symerror: 0.0010, label: 'sta.'}
+    - {symerror: 0.0012, label: 'sys.'}
+  - value: 0.0535
+    errors:
+    - {symerror: 0.0012, label: 'sta.'}
+    - {symerror: 0.0016, label: 'sys.'}
+  - value: 0.0668
+    errors:
+    - {symerror: 0.0013, label: 'sta.'}
+    - {symerror: 0.0020, label: 'sys.'}
+  - value: 0.0818
+    errors:
+    - {symerror: 0.0018, label: 'sta.'}
+    - {symerror: 0.0025, label: 'sys.'}
+  - value: 0.0891
+    errors:
+    - {symerror: 0.0022, label: 'sta.'}
+    - {symerror: 0.004, label: 'sys.'}
+  - value: 0.1089
+    errors:
+    - {symerror: 0.0029, label: 'sta.'}
+    - {symerror: 0.005, label: 'sys.'}
+  - value: 0.113
+    errors:
+    - {symerror: 0.005, label: 'sta.'}
+    - {symerror: 0.006, label: 'sys.'}
+  - value: 0.119
+    errors:
+    - {symerror: 0.007, label: 'sta.'}
+    - {symerror: 0.006, label: 'sys.'}
+- header: {name: '$v_2$ (Fourier Coefficient)'}
+  qualifiers:
+  - {name: 'Centrality', value: '10-20%'}
+  - {name: 'Particle', value: 'proton'}
+  values:
+  - value: 0.0234
+    errors:
+    - {symerror: 0.0014, label: 'sta.'}
+    - {symerror: 7e-4, label: 'sys.'}
+  - value: 0.0334
+    errors:
+    - {symerror: 0.0012, label: 'sta.'}
+    - {symerror: 0.0010, label: 'sys.'}
+  - value: 0.0426
+    errors:
+    - {symerror: 0.0010, label: 'sta.'}
+    - {symerror: 0.0013, label: 'sys.'}
+  - value: 0.0601
+    errors:
+    - {symerror: 0.0010, label: 'sta.'}
+    - {symerror: 0.0018, label: 'sys.'}
+  - value: 0.0759
+    errors:
+    - {symerror: 0.0012, label: 'sta.'}
+    - {symerror: 0.0023, label: 'sys.'}
+  - value: 0.0939
+    errors:
+    - {symerror: 0.0013, label: 'sta.'}
+    - {symerror: 0.0028, label: 'sys.'}
+  - value: 0.1127
+    errors:
+    - {symerror: 0.0017, label: 'sta.'}
+    - {symerror: 0.0034, label: 'sys.'}
+  - value: 0.1298
+    errors:
+    - {symerror: 0.0022, label: 'sta.'}
+    - {symerror: 0.006, label: 'sys.'}
+  - value: 0.1429
+    errors:
+    - {symerror: 0.0029, label: 'sta.'}
+    - {symerror: 0.007, label: 'sys.'}
+  - value: 0.161
+    errors:
+    - {symerror: 0.005, label: 'sta.'}
+    - {symerror: 0.008, label: 'sys.'}
+  - value: 0.150
+    errors:
+    - {symerror: 0.007, label: 'sta.'}
+    - {symerror: 0.007, label: 'sys.'}
+- header: {name: '$v_2$ (Fourier Coefficient)'}
+  qualifiers:
+  - {name: 'Centrality', value: '20-30%'}
+  - {name: 'Particle', value: 'proton'}
+  values:
+  - value: 0.0331
+    errors:
+    - {symerror: 0.0015, label: 'sta.'}
+    - {symerror: 0.0010, label: 'sys.'}
+  - value: 0.0415
+    errors:
+    - {symerror: 0.0013, label: 'sta.'}
+    - {symerror: 0.0012, label: 'sys.'}
+  - value: 0.0585
+    errors:
+    - {symerror: 0.0010, label: 'sta.'}
+    - {symerror: 0.0018, label: 'sys.'}
+  - value: 0.0815
+    errors:
+    - {symerror: 0.0011, label: 'sta.'}
+    - {symerror: 0.0024, label: 'sys.'}
+  - value: 0.1035
+    errors:
+    - {symerror: 0.0013, label: 'sta.'}
+    - {symerror: 0.0031, label: 'sys.'}
+  - value: 0.1252
+    errors:
+    - {symerror: 0.0014, label: 'sta.'}
+    - {symerror: 0.004, label: 'sys.'}
+  - value: 0.1433
+    errors:
+    - {symerror: 0.0019, label: 'sta.'}
+    - {symerror: 0.004, label: 'sys.'}
+  - value: 0.1621
+    errors:
+    - {symerror: 0.0024, label: 'sta.'}
+    - {symerror: 0.008, label: 'sys.'}
+  - value: 0.1773
+    errors:
+    - {symerror: 0.0032, label: 'sta.'}
+    - {symerror: 0.009, label: 'sys.'}
+  - value: 0.193
+    errors:
+    - {symerror: 0.005, label: 'sta.'}
+    - {symerror: 0.010, label: 'sys.'}
+  - value: 0.180
+    errors:
+    - {symerror: 0.007, label: 'sta.'}
+    - {symerror: 0.009, label: 'sys.'}
+- header: {name: '$v_2$ (Fourier Coefficient)'}
+  qualifiers:
+  - {name: 'Centrality', value: '30-40%'}
+  - {name: 'Particle', value: 'proton'}
+  values:
+  - value: 0.0416
+    errors:
+    - {symerror: 0.0019, label: 'sta.'}
+    - {symerror: 0.0012, label: 'sys.'}
+  - value: 0.0528
+    errors:
+    - {symerror: 0.0016, label: 'sta.'}
+    - {symerror: 0.0016, label: 'sys.'}
+  - value: 0.0747
+    errors:
+    - {symerror: 0.0013, label: 'sta.'}
+    - {symerror: 0.0022, label: 'sys.'}
+  - value: 0.1001
+    errors:
+    - {symerror: 0.0014, label: 'sta.'}
+    - {symerror: 0.0030, label: 'sys.'}
+  - value: 0.1265
+    errors:
+    - {symerror: 0.0017, label: 'sta.'}
+    - {symerror: 0.004, label: 'sys.'}
+  - value: 0.1516
+    errors:
+    - {symerror: 0.0019, label: 'sta.'}
+    - {symerror: 0.005, label: 'sys.'}
+  - value: 0.1700
+    errors:
+    - {symerror: 0.0025, label: 'sta.'}
+    - {symerror: 0.005, label: 'sys.'}
+  - value: 0.1901
+    errors:
+    - {symerror: 0.0032, label: 'sta.'}
+    - {symerror: 0.010, label: 'sys.'}
+  - value: 0.199
+    errors:
+    - {symerror: 0.004, label: 'sta.'}
+    - {symerror: 0.010, label: 'sys.'}
+  - value: 0.220
+    errors:
+    - {symerror: 0.007, label: 'sta.'}
+    - {symerror: 0.011, label: 'sys.'}
+  - value: 0.203
+    errors:
+    - {symerror: 0.009, label: 'sta.'}
+    - {symerror: 0.010, label: 'sys.'}
+- header: {name: '$v_2$ (Fourier Coefficient)'}
+  qualifiers:
+  - {name: 'Centrality', value: '40-50%'}
+  - {name: 'Particle', value: 'proton'}
+  values:
+  - value: 0.0499
+    errors:
+    - {symerror: 0.0027, label: 'sta.'}
+    - {symerror: 0.0015, label: 'sys.'}
+  - value: 0.0637
+    errors:
+    - {symerror: 0.0023, label: 'sta.'}
+    - {symerror: 0.0019, label: 'sys.'}
+  - value: 0.0888
+    errors:
+    - {symerror: 0.0019, label: 'sta.'}
+    - {symerror: 0.0027, label: 'sys.'}
+  - value: 0.1108
+    errors:
+    - {symerror: 0.0021, label: 'sta.'}
+    - {symerror: 0.0033, label: 'sys.'}
+  - value: 0.1401
+    errors:
+    - {symerror: 0.0025, label: 'sta.'}
+    - {symerror: 0.004, label: 'sys.'}
+  - value: 0.1644
+    errors:
+    - {symerror: 0.0029, label: 'sta.'}
+    - {symerror: 0.005, label: 'sys.'}
+  - value: 0.188
+    errors:
+    - {symerror: 0.004, label: 'sta.'}
+    - {symerror: 0.006, label: 'sys.'}
+  - value: 0.199
+    errors:
+    - {symerror: 0.005, label: 'sta.'}
+    - {symerror: 0.010, label: 'sys.'}
+  - value: 0.212
+    errors:
+    - {symerror: 0.007, label: 'sta.'}
+    - {symerror: 0.011, label: 'sys.'}
+  - value: 0.220
+    errors:
+    - {symerror: 0.010, label: 'sta.'}
+    - {symerror: 0.011, label: 'sys.'}
+  - value: 0.212
+    errors:
+    - {symerror: 0.013, label: 'sta.'}
+    - {symerror: 0.011, label: 'sys.'}

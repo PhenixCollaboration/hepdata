@@ -1,0 +1,258 @@
+independent_variables:
+- header: {name: '$p_T$ (GeV/$c$)'}
+  values:
+  - {low: 0.30, high: 0.50}
+  - {low: 0.50, high: 0.65}
+  - {low: 0.65, high: 0.80}
+  - {low: 0.80, high: 1.00}
+  - {low: 1.00, high: 1.20}
+  - {low: 1.20, high: 1.40}
+  - {low: 1.40, high: 1.65}
+  - {low: 1.65, high: 1.90}
+  - {low: 1.90, high: 2.20}
+  - {low: 2.20, high: 2.60}
+  - {low: 2.60, high: 2.90}
+  - {low: 2.90, high: 3.60}
+  - {low: 3.60, high: 4.10}
+  - {low: 4.10, high: 5.10}
+dependent_variables:
+- header: {name: '$v_1$ (Fourier Coefficients)'}
+  qualifiers:
+  - {name: 'Centrality', value: '10-20%'}
+  values:
+  - value: 0.00111
+    errors:
+    - {symerror: 9e-5, label: 'sta.'}
+    - {symerror: 0.0028, label: 'sys.'}
+  - value: 0.00121
+    errors:
+    - {symerror: 1.1e-4, label: 'sta.'}
+    - {symerror: 0.0030, label: 'sys.'}
+  - value: 7.5e-4
+    errors:
+    - {symerror: 1.3e-4, label: 'sta.'}
+    - {symerror: 0.0030, label: 'sys.'}
+  - value: -5.3e-4
+    errors:
+    - {symerror: 1.3e-4, label: 'sta.'}
+    - {symerror: 0.0028, label: 'sys.'}
+  - value: -0.00229
+    errors:
+    - {symerror: 1.7e-4, label: 'sta.'}
+    - {symerror: 0.0028, label: 'sys.'}
+  - value: -0.00495
+    errors:
+    - {symerror: 2.2e-4, label: 'sta.'}
+    - {symerror: 0.0028, label: 'sys.'}
+  - value: -0.00834
+    errors:
+    - {symerror: 2.7e-4, label: 'sta.'}
+    - {symerror: 0.0027, label: 'sys.'}
+  - value: -0.0136
+    errors:
+    - {symerror: 4e-4, label: 'sta.'}
+    - {symerror: 0.0034, label: 'sys.'}
+  - value: -0.0193
+    errors:
+    - {symerror: 5e-4, label: 'sta.'}
+    - {symerror: 0.005, label: 'sys.'}
+  - value: -0.0261
+    errors:
+    - {symerror: 6e-4, label: 'sta.'}
+    - {symerror: 0.006, label: 'sys.'}
+  - value: -0.0355
+    errors:
+    - {symerror: 0.0010, label: 'sta.'}
+    - {symerror: 0.007, label: 'sys.'}
+  - value: -0.0424
+    errors:
+    - {symerror: 0.0014, label: 'sta.'}
+    - {symerror: 0.008, label: 'sys.'}
+  - value: -0.0429
+    errors:
+    - {symerror: 0.0021, label: 'sta.'}
+    - {symerror: 0.008, label: 'sys.'}
+  - value: -0.0344
+    errors:
+    - {symerror: 0.0033, label: 'sta.'}
+    - {symerror: 0.007, label: 'sys.'}
+- header: {name: '$v_1$ (Fourier Coefficients)'}
+  qualifiers:
+  - {name: 'Centrality', value: '20-30%'}
+  values:
+  - value: 0.00105
+    errors:
+    - {symerror: 9e-5, label: 'sta.'}
+    - {symerror: 0.0017, label: 'sys.'}
+  - value: 0.00117
+    errors:
+    - {symerror: 1.1e-4, label: 'sta.'}
+    - {symerror: 0.0020, label: 'sys.'}
+  - value: 6.7e-4
+    errors:
+    - {symerror: 1.3e-4, label: 'sta.'}
+    - {symerror: 0.0019, label: 'sys.'}
+  - value: -4.5e-4
+    errors:
+    - {symerror: 1.4e-4, label: 'sta.'}
+    - {symerror: 0.0019, label: 'sys.'}
+  - value: -0.00219
+    errors:
+    - {symerror: 1.8e-4, label: 'sta.'}
+    - {symerror: 0.0016, label: 'sys.'}
+  - value: -0.00465
+    errors:
+    - {symerror: 2.3e-4, label: 'sta.'}
+    - {symerror: 0.0019, label: 'sys.'}
+  - value: -0.00828
+    errors:
+    - {symerror: 2.7e-4, label: 'sta.'}
+    - {symerror: 0.0018, label: 'sys.'}
+  - value: -0.0120
+    errors:
+    - {symerror: 4e-4, label: 'sta.'}
+    - {symerror: 0.0021, label: 'sys.'}
+  - value: -0.0175
+    errors:
+    - {symerror: 5e-4, label: 'sta.'}
+    - {symerror: 0.0024, label: 'sys.'}
+  - value: -0.0237
+    errors:
+    - {symerror: 6e-4, label: 'sta.'}
+    - {symerror: 0.0032, label: 'sys.'}
+  - value: -0.0303
+    errors:
+    - {symerror: 0.0010, label: 'sta.'}
+    - {symerror: 0.004, label: 'sys.'}
+  - value: -0.0330
+    errors:
+    - {symerror: 0.0014, label: 'sta.'}
+    - {symerror: 0.004, label: 'sys.'}
+  - value: -0.0361
+    errors:
+    - {symerror: 0.0020, label: 'sta.'}
+    - {symerror: 0.005, label: 'sys.'}
+  - value: -0.0313
+    errors:
+    - {symerror: 0.0032, label: 'sta.'}
+    - {symerror: 0.004, label: 'sys.'}
+- header: {name: '$v_1$ (Fourier Coefficients)'}
+  qualifiers:
+  - {name: 'Centrality', value: '30-40%'}
+  values:
+  - value: 3.7e-4
+    errors:
+    - {symerror: 1.1e-4, label: 'sta.'}
+    - {symerror: 0.0019, label: 'sys.'}
+  - value: 2.8e-4
+    errors:
+    - {symerror: 1.3e-4, label: 'sta.'}
+    - {symerror: 0.0021, label: 'sys.'}
+  - value: -6e-5
+    errors:
+    - {symerror: 1.5e-4, label: 'sta.'}
+    - {symerror: 0.0021, label: 'sys.'}
+  - value: -8.2e-4
+    errors:
+    - {symerror: 1.6e-4, label: 'sta.'}
+    - {symerror: 0.0018, label: 'sys.'}
+  - value: -0.00286
+    errors:
+    - {symerror: 2.1e-4, label: 'sta.'}
+    - {symerror: 0.0019, label: 'sys.'}
+  - value: -0.00530
+    errors:
+    - {symerror: 2.7e-4, label: 'sta.'}
+    - {symerror: 0.0018, label: 'sys.'}
+  - value: -0.00792
+    errors:
+    - {symerror: 3.2e-4, label: 'sta.'}
+    - {symerror: 0.0022, label: 'sys.'}
+  - value: -0.0117
+    errors:
+    - {symerror: 4e-4, label: 'sta.'}
+    - {symerror: 0.0023, label: 'sys.'}
+  - value: -0.0157
+    errors:
+    - {symerror: 6e-4, label: 'sta.'}
+    - {symerror: 0.0024, label: 'sys.'}
+  - value: -0.0210
+    errors:
+    - {symerror: 7e-4, label: 'sta.'}
+    - {symerror: 0.0032, label: 'sys.'}
+  - value: -0.0268
+    errors:
+    - {symerror: 0.0011, label: 'sta.'}
+    - {symerror: 0.004, label: 'sys.'}
+  - value: -0.0277
+    errors:
+    - {symerror: 0.0016, label: 'sta.'}
+    - {symerror: 0.005, label: 'sys.'}
+  - value: -0.0307
+    errors:
+    - {symerror: 0.0023, label: 'sta.'}
+    - {symerror: 0.004, label: 'sys.'}
+  - value: -0.0228
+    errors:
+    - {symerror: 0.004, label: 'sta.'}
+    - {symerror: 0.0034, label: 'sys.'}
+- header: {name: '$v_1$ (Fourier Coefficients)'}
+  qualifiers:
+  - {name: 'Centrality', value: '40-50%'}
+  values:
+  - value: -7.7e-4
+    errors:
+    - {symerror: 1.4e-4, label: 'sta.'}
+    - {symerror: 0.0022, label: 'sys.'}
+  - value: -3.9e-4
+    errors:
+    - {symerror: 1.6e-4, label: 'sta.'}
+    - {symerror: 0.0024, label: 'sys.'}
+  - value: -7.0e-4
+    errors:
+    - {symerror: 1.9e-4, label: 'sta.'}
+    - {symerror: 0.0024, label: 'sys.'}
+  - value: -0.00162
+    errors:
+    - {symerror: 2.1e-4, label: 'sta.'}
+    - {symerror: 0.0022, label: 'sys.'}
+  - value: -0.00307
+    errors:
+    - {symerror: 2.7e-4, label: 'sta.'}
+    - {symerror: 0.0019, label: 'sys.'}
+  - value: -0.00541
+    errors:
+    - {symerror: 3.5e-4, label: 'sta.'}
+    - {symerror: 0.0020, label: 'sys.'}
+  - value: -0.0076
+    errors:
+    - {symerror: 4e-4, label: 'sta.'}
+    - {symerror: 0.0023, label: 'sys.'}
+  - value: -0.0108
+    errors:
+    - {symerror: 6e-4, label: 'sta.'}
+    - {symerror: 0.0017, label: 'sys.'}
+  - value: -0.0144
+    errors:
+    - {symerror: 7e-4, label: 'sta.'}
+    - {symerror: 0.0020, label: 'sys.'}
+  - value: -0.0175
+    errors:
+    - {symerror: 9e-4, label: 'sta.'}
+    - {symerror: 0.0022, label: 'sys.'}
+  - value: -0.0206
+    errors:
+    - {symerror: 0.0014, label: 'sta.'}
+    - {symerror: 0.0026, label: 'sys.'}
+  - value: -0.0201
+    errors:
+    - {symerror: 0.0020, label: 'sta.'}
+    - {symerror: 0.0025, label: 'sys.'}
+  - value: -0.0245
+    errors:
+    - {symerror: 0.0028, label: 'sta.'}
+    - {symerror: 0.0030, label: 'sys.'}
+  - value: -0.022
+    errors:
+    - {symerror: 0.004, label: 'sta.'}
+    - {symerror: 0.004, label: 'sys.'}

@@ -1,0 +1,59 @@
+independent_variables:
+- header: {name: '$p_T$ (GeV/$c$)'}
+  values:
+  - {low: 0.30, high: 0.50}
+  - {low: 0.50, high: 0.80}
+  - {low: 0.80, high: 1.00}
+  - {low: 1.00, high: 1.20}
+  - {low: 1.20, high: 1.50}
+  - {low: 1.50, high: 1.75}
+  - {low: 1.75, high: 1.95}
+  - {low: 1.95, high: 2.40}
+  - {low: 2.40, high: 3.00}
+  - {low: 3.00, high: 3.60}
+dependent_variables:
+- header: {name: '$v_3/\epsilon_3$'}
+  qualifiers:
+  - {name: 'Centrality', value: '10-20%'}
+  - {name: 'particle', value: 'Au + Au'}
+  values:
+  - value: 0.06520
+    errors:
+    - {symerror: 2.0e-4, label: 'sta.'}
+    - {symerror: 0.007, label: 'sys.'}
+  - value: 0.13989
+    errors:
+    - {symerror: 2.7e-4, label: 'sta.'}
+    - {symerror: 0.009, label: 'sys.'}
+  - value: 0.2257
+    errors:
+    - {symerror: 4e-4, label: 'sta.'}
+    - {symerror: 0.016, label: 'sys.'}
+  - value: 0.3088
+    errors:
+    - {symerror: 5e-4, label: 'sta.'}
+    - {symerror: 0.017, label: 'sys.'}
+  - value: 0.4012
+    errors:
+    - {symerror: 7e-4, label: 'sta.'}
+    - {symerror: 0.026, label: 'sys.'}
+  - value: 0.4966
+    errors:
+    - {symerror: 9e-4, label: 'sta.'}
+    - {symerror: 0.026, label: 'sys.'}
+  - value: 0.5767
+    errors:
+    - {symerror: 0.0012, label: 'sta.'}
+    - {symerror: 0.032, label: 'sys.'}
+  - value: 0.6620
+    errors:
+    - {symerror: 0.0013, label: 'sta.'}
+    - {symerror: 0.04, label: 'sys.'}
+  - value: 0.7292
+    errors:
+    - {symerror: 0.0024, label: 'sta.'}
+    - {symerror: 0.05, label: 'sys.'}
+  - value: 0.720
+    errors:
+    - {symerror: 0.004, label: 'sta.'}
+    - {symerror: 0.04, label: 'sys.'}
