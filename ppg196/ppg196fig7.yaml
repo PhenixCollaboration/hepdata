@@ -1,0 +1,56 @@
+independent_variables:
+- header: {name: '$x_F$'}
+  values:
+  - {low: -0.20, high: -0.05}
+  - {low: -0.05, high: 0.00}
+  - {low: 0.00, high: 0.05}
+  - {low: 0.05, high: 0.20}
+dependent_variables:
+- header: {name: '$<x_F>$'}
+  qualifiers:
+  - {name: '', value: ''}
+  values:
+  - value: -0.07
+  - value: -0.04
+  - value: 0.04
+  - value: 0.07
+- header: {name: '$A_N$'}
+  qualifiers:
+  - {name: '', value: '$\mu^-$'}
+  values:
+  - value: 0.003
+    errors:
+    - {symerror: 0.048, label: 'stat.'}
+    - {asymerror: {plus: 0.007, minus: -0.013}, label: 'sys.'}
+  - value: -0.009
+    errors:
+    - {symerror: 0.061, label: 'stat.'}
+    - {asymerror: {plus: 0.006, minus: -0.010}, label: 'sys.'}
+  - value: -0.030
+    errors:
+    - {symerror: 0.062, label: 'stat.'}
+    - {asymerror: {plus: 0.010, minus: -0.015}, label: 'sys.'}
+  - value: 0.019
+    errors:
+    - {symerror: 0.047, label: 'stat.'}
+    - {asymerror: {plus: 0.009, minus: -0.007}, label: 'sys.'}
+- header: {name: '$A_N$'}
+  qualifiers:
+  - {name: '', value: '$\mu^+$'}
+  values:
+  - value: -0.030
+    errors:
+    - {symerror: 0.035, label: 'stat.'}
+    - {asymerror: {plus: 0.009, minus: -0.014}, label: 'sys.'}
+  - value: -0.026
+    errors:
+    - {symerror: 0.043, label: 'stat.'}
+    - {asymerror: {plus: 0.009, minus: -0.026}, label: 'sys.'}
+  - value: -0.004
+    errors:
+    - {symerror: 0.045, label: 'stat.'}
+    - {asymerror: {plus: 0.005, minus: -0.013}, label: 'sys.'}
+  - value: 0.058
+    errors:
+    - {symerror: 0.035, label: 'stat.'}
+    - {asymerror: {plus: 0.023, minus: -0.013}, label: 'sys.'}
