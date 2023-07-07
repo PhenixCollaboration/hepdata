@@ -1,0 +1,67 @@
+#PHENIX paper PPG184
+#
+#Centrality-dependent modification of jet-production rates in deuteron-gold collisions at $\sqrt{s_{NN}}$ = 200 GeV
+#
+#Phys.Rev.Lett 116 (2016) 122301
+#InspireHEP ID: 1393528
+#
+#Prepared by Nikolas Nelson
+#Please contact Christine Nattrass if you have any questions about this submission
+#PPG liaison:
+#Reviewer:
+#
+comment: | # Information that applies to all data tables.
+  Jet production rates are measured in $p$+$p$ and $d$+Au collisions at $\sqrt{s_{NN}}$ = 200 GeV recorded in 2008 with the PHENIX detector at the Relativistic Heavy Ion Collider. Jets are reconstructed using the $R$ = 0.3 anti-$k_t$ algorithm from energy deposits in the electromagnetic calorimeter and charged tracks in multi-wire proportional chambers, and the jet transverse momentum ($p_T$) spectra are corrected for the detector response. Spectra are reported for jets with 12 < $p_T$ < 50 GeV/$c$, within a pseudorapidity acceptance of $∣\eta∣$ < 0.3. The nuclear-modification factor ($R_{dAu}$) values for 0%-100% $d$+Au events are found to be consistent with unity, constraining the role of initial state effects on jet production. However, the centrality-selected $R_{dAu}$ values and central-to-peripheral ratios ($R_{CP}$) show large, $p_T$-dependent deviations from unity, which challenge the conventional models that relate hard-process rates and soft-particle production in collisions involving nuclei.
+additional_resources:
+- {location: "https://phenix-intra.sdcc.bnl.gov/phenix/WWW/p/info/ppg/184/", description: "web page with data points"}
+- {location: "http://arxiv.org/abs/1509.04657", description: arXiv}
+- {location: "https://inspirehep.net/literature/1393528", description: InspireHEP}
+---
+# This is Figure 1.
+name: "Figure 1"
+location: Data From Fig. 1 of PRL 116 (2016) 122301
+description: 'Measured anti-$k_T$, $R$ = 0.3 jet yields in $d$+Au collisions, and the measured and calculated jet cross section in $p$+$p$ collisions, with data series offset by multiplicative factors.'
+keywords: # used for searching, possibly mutliple values for each keywords
+- {name: reactions, values: [$d$ Au --> CHARGED X, $p$ $p$ --> CHARGED X]}
+- {name: cmenergies, values: [200.0]}
+- {name: phrases, values: [ppg184, jet production, pseudorapidity, transverse momentum]}
+data_file: ppg184fig1.yaml
+additional_resources:
+- {description: Thumbnail Image file, location: thumb_Fig1.png}
+---
+# This is Figure 2.
+name: "Figure 2a"
+location: Data From Fig. 2 of PRL 116 (2016) 122301
+description: '$R_{dAu}$ for 0-100% as a function of $p_T$.'
+keywords: # used for searching, possibly mutliple values for each keywords
+- {name: reactions, values: [$d$ Au --> CHARGED X]}
+- {name: cmenergies, values: [200.0]}
+- {name: phrases, values: [ppg184, jet production, pseudorapidity, transverse momentum]}
+data_file: ppg184fig2a.yaml
+additional_resources:
+- {description: Thumbnail Image file, location: thumb_Fig2.png}
+---
+# This is Figure 2.
+name: "Figure 2b"
+location: Data From Fig. 2 of PRL 116 (2016) 122301
+description: '$R_{dAu}$ for centrality-selected collisions as a function of $p_T$.'
+keywords: # used for searching, possibly mutliple values for each keywords
+- {name: reactions, values: [$d$ Au --> CHARGED X]}
+- {name: cmenergies, values: [200.0]}
+- {name: phrases, values: [ppg184, jet production, pseudorapidity, transverse momentum]}
+data_file: ppg184fig2b.yaml
+additional_resources:
+- {description: Thumbnail Image file, location: thumb_Fig2.png}
+---
+# This is Figure 2.
+name: "Figure 2c"
+location: Data From Fig. 2 of PRL 116 (2016) 122301
+description: '$R_{CP}$ as a function of $p_T$.'
+keywords: # used for searching, possibly mutliple values for each keywords
+- {name: reactions, values: [$d$ Au --> CHARGED X]}
+- {name: cmenergies, values: [200.0]}
+- {name: phrases, values: [ppg184, jet production, pseudorapidity, transverse momentum]}
+data_file: ppg184fig2c.yaml
+additional_resources:
+- {description: Thumbnail Image file, location: thumb_Fig2.png}
+---
