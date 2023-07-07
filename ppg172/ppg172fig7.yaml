@@ -1,0 +1,84 @@
+independent_variables:
+- header: {name: 'Centrality (%)'}
+  values:
+  - {low: 0, high: 10}
+  - {low: 10, high: 20}
+  - {low: 20, high: 30}
+  - {low: 30, high: 40}
+  - {low: 40, high: 50}
+  - {low: 50, high: 60}
+  - {low: 60, high: 70}
+  - {low: 70, high: 80}
+dependent_variables:
+- header: {name: '$10^6 B_{\mu\mu}$ $dN$/$dy$'}
+  qualifiers:
+  - {name: 'Collision', value: 'U+U'}
+  values:
+  - value: 182.7
+    errors:
+    - {symerror: 35.1, label: 'stat.'}
+    - {symerror: 15.7, label: 'sys.'}
+  - value: 144.5
+    errors:
+    - {symerror: 19.8, label: 'stat.'}
+    - {symerror: 12.4, label: 'sys.'}
+  - value: 110.6
+    errors:
+    - {symerror: 8.2, label: 'stat.'}
+    - {symerror: 9.5, label: 'sys.'}
+  - value: 72.4
+    errors:
+    - {symerror: 6.3, label: 'stat.'}
+    - {symerror: 6.2, label: 'sys.'}
+  - value: 41.7
+    errors:
+    - {symerror: 3.4, label: 'stat.'}
+    - {symerror: 3.6, label: 'sys.'}
+  - value: 23.8
+    errors:
+    - {symerror: 2.0, label: 'stat.'}
+    - {symerror: 2.0, label: 'sys.'}
+  - value: 11.9
+    errors:
+    - {symerror: 1.4, label: 'stat.'}
+    - {symerror: 1.0, label: 'sys.'}
+  - value: 4.0
+    errors:
+    - {symerror: 0.8, label: 'stat.'}
+    - {symerror: 0.4, label: 'sys.'}
+- header: {name: '$10^6 B_{\mu\mu}$ $dN$/$dy$'}
+  qualifiers:
+  - {name: 'Collision', value: 'Au+Au'}
+  values:
+  - value: 105.3
+    errors:
+    - {symerror: 18.8, label: 'stat.'}
+    - {asymerror: {plus: 16.6, minus: -9.72}, label: 'sys.'}
+  - value: 92.3
+    errors:
+    - {symerror: 10.7, label: 'stat.'}
+    - {asymerror: {plus: 10.6, minus: -10.3}, label: 'sys.'}
+  - value: 75.8
+    errors:
+    - {symerror: 6.3, label: 'stat.'}
+    - {symerror: 6.4, label: 'sys.'}
+  - value: 56.8
+    errors:
+    - {symerror: 3.8, label: 'stat.'}
+    - {symerror: 5.1, label: 'sys.'}
+  - value: 40.5
+    errors:
+    - {symerror: 2.4, label: 'stat.'}
+    - {symerror: 3.4, label: 'sys.'}
+  - value: 28.2
+    errors:
+    - {symerror: 1.4, label: 'stat.'}
+    - {symerror: 2.1, label: 'sys.'}
+  - value: 13.4
+    errors:
+    - {symerror: 0.8, label: 'stat.'}
+    - {symerror: 1.0, label: 'sys.'}
+  - value: 7.9
+    errors:
+    - {symerror: 0.54, label: 'stat.'}
+    - {symerror: 0.60, label: 'sys.'}

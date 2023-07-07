@@ -1,0 +1,67 @@
+#PHENIX paper PPG196
+#
+#Cross section and transverse single-spin asymmetry of muons from open heavy-flavor decays in polarized $p$+$p$ collisions at $\sqrt{s}$ = 200 GeV
+#
+#Phys.Rev.Lett D 95 (2017) 112001
+#InspireHEP ID: 1519828
+#
+#Prepared by Nikolas Nelson
+#Please contact Christine Nattrass if you have any questions about this submission
+#PPG liaison:
+#Reviewer:
+#
+comment: | # Information that applies to all data tables.
+  The cross section and transverse single-spin asymmetries of $\mu^−$ and $\mu^+$ from open heavy-flavor decays in polarized $p$+$p$ collisions at $\sqrt{s}$ = 200 GeV were measured by the PHENIX experiment during 2012 at the Relativistic Heavy Ion Collider. Because heavy-flavor production is dominated by gluon-gluon interactions at $\sqrt{s}$ = 200 GeV, these measurements offer a unique opportunity to obtain information on the trigluon correlation functions. The measurements are performed at forward and backward rapidity (1.4 < $|y|$ < 2.0) over the transverse momentum range of 1.25 < $p_T$ < 7 GeV/$c$ for the cross section and 1.25 < $p_T$ < 5 GeV/$c$ for the asymmetry measurements. The obtained cross section is compared to a fixed-order-plus-next-to-leading-log perturbative-quantum-chromodynamics calculation. The asymmetry results are consistent with zero within uncertainties, and a model calculation based on twist-3 three-gluon correlations agrees with the data.
+additional_resources:
+- {location: "https://phenix-intra.sdcc.bnl.gov/phenix/WWW/p/info/ppg/196/", description: "web page with data points"}
+- {location: "http://arxiv.org/abs/1703.09333", description: arXiv}
+- {location: "https://inspirehep.net/literature/1519828", description: InspireHEP}
+---
+# This is Figure 5.
+name: "Figure 5"
+location: Data From Table 4 of PRD 95 (2017) 112001
+description: '$A_N$ of negatively-charged muons from open heavy-flavor decays as a function of $p_T$ in the backward ($x_F$ < 0) and forward ($x_F$ > 0) regions.'
+keywords: # used for searching, possibly mutliple values for each keywords
+- {name: reactions, values: [$p$ $p$ --> CHARGED X]}
+- {name: cmenergies, values: [200.0]}
+- {name: phrases, values: [ppg196, cross section, single-spin asymmetry, heavy-flavor decays, polarized]}
+data_file: ppg196fig5.yaml
+additional_resources:
+- {description: Thumbnail Image file, location: thumb_pt_AN_minus.png}
+---
+# This is Figure 6.
+name: "Figure 6"
+location: Data From Table 4 of PRD 95 (2017) 112001
+description: '$A_N$ of positively-charged muons from open heavy-flavor decays as a function of $p_T$ in the backward ($x_F$ < 0) and forward ($x_F$ > 0) regions.'
+keywords: # used for searching, possibly mutliple values for each keywords
+- {name: reactions, values: [$p$ $p$ --> CHARGED X]}
+- {name: cmenergies, values: [200.0]}
+- {name: phrases, values: [ppg196, cross section, single-spin asymmetry, heavy-flavor decays, polarized]}
+data_file: ppg196fig6.yaml
+additional_resources:
+- {description: Thumbnail Image file, location: thumb_pt_AN_plus.png}
+---
+# This is Figure 7.
+name: "Figure 7"
+location: Data From Table 5 of PRD 95 (2017) 112001
+description: '$A_N$ of negatively-charged and positively-charged muons from open heavy-flavor decays as a function of $x_F$, where $x_F$ > 0 is along the direction of the polarized proton.'
+keywords: # used for searching, possibly mutliple values for each keywords
+- {name: reactions, values: [$p$ $p$ --> CHARGED X]}
+- {name: cmenergies, values: [200.0]}
+- {name: phrases, values: [ppg196, cross section, single-spin asymmetry, heavy-flavor decays, polarized]}
+data_file: ppg196fig7.yaml
+additional_resources:
+- {description: Thumbnail Image file, location: thumb_xf_AN_bothchg.png}
+---
+# This is Figure 8.
+name: "Figure 8"
+location: Data From Table 3 of PRD 95 (2017) 112001
+description: 'Charge-combined, invariant cross section of muons from open heavy-flavor decays as a function of $p_T$ in $p$+$p$ collisions at $\sqrt{s}$ = 200 GeV at forward rapidity.'
+keywords: # used for searching, possibly mutliple values for each keywords
+- {name: reactions, values: [$p$ $p$ --> CHARGED X]}
+- {name: cmenergies, values: [200.0]}
+- {name: phrases, values: [ppg196, cross section, single-spin asymmetry, heavy-flavor decays, polarized]}
+data_file: ppg196fig8.yaml
+additional_resources:
+- {description: Thumbnail Image file, location: thumb_Run12pp200_HF_xection_FONLL.png}
+---

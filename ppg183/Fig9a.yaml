@@ -1,0 +1,74 @@
+independent_variables:
+- header: {name: '$p_T$ (GeV/$c$)'}
+  values:
+  - {low: 0.20, high: 0.30}
+  - {low: 0.30, high: 0.50}
+  - {low: 0.50, high: 0.65}
+  - {low: 0.65, high: 0.80}
+  - {low: 0.80, high: 1.00}
+  - {low: 1.00, high: 1.20}
+  - {low: 1.20, high: 1.40}
+  - {low: 1.40, high: 1.65}
+  - {low: 1.65, high: 1.90}
+  - {low: 1.90, high: 2.20}
+  - {low: 2.20, high: 2.60}
+  - {low: 2.60, high: 2.90}
+  - {low: 2.90, high: 3.60}
+dependent_variables:
+- header: {name: '$v_1$ (Fourier Coefficient)'}
+  qualifiers:
+  - {name: 'Centrality', value: '10-50%'}
+  - {name: 'particle', value: 'pion'}
+  values:
+  - value: 0.00351
+    errors:
+    - {symerror: 1.8e-4, label: 'sta.'}
+    - {symerror: 0.0010, label: 'sys.'}
+  - value: 0.00354
+    errors:
+    - {symerror: 1.8e-4, label: 'sta.'}
+    - {symerror: 0.0010, label: 'sys.'}
+  - value: 0.00329
+    errors:
+    - {symerror: 2.0e-4, label: 'sta.'}
+    - {symerror: 0.0010, label: 'sys.'}
+  - value: 0.00179
+    errors:
+    - {symerror: 2.4e-4, label: 'sta.'}
+    - {symerror: 0.0010, label: 'sys.'}
+  - value: 5e-5
+    errors:
+    - {symerror: 2.7e-4, label: 'sta.'}
+    - {symerror: 0.0010, label: 'sys.'}
+  - value: -0.0029
+    errors:
+    - {symerror: 4e-4, label: 'sta.'}
+    - {symerror: 0.0010, label: 'sys.'}
+  - value: -0.0066
+    errors:
+    - {symerror: 5e-4, label: 'sta.'}
+    - {symerror: 0.0010, label: 'sys.'}
+  - value: -0.0102
+    errors:
+    - {symerror: 6e-4, label: 'sta.'}
+    - {symerror: 0.0010, label: 'sys.'}
+  - value: -0.0150
+    errors:
+    - {symerror: 9e-4, label: 'sta.'}
+    - {symerror: 0.0010, label: 'sys.'}
+  - value: -0.0201
+    errors:
+    - {symerror: 0.0012, label: 'sta.'}
+    - {symerror: 0.0020, label: 'sys.'}
+  - value: -0.0258
+    errors:
+    - {symerror: 0.0017, label: 'sta.'}
+    - {symerror: 0.0020, label: 'sys.'}
+  - value: -0.0369
+    errors:
+    - {symerror: 0.0034, label: 'sta.'}
+    - {symerror: 0.0020, label: 'sys.'}
+  - value: -0.0516
+    errors:
+    - {symerror: 0.006, label: 'sta.'}
+    - {symerror: 0.0020, label: 'sys.'}

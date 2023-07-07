@@ -1,0 +1,33 @@
+independent_variables:
+- header: {name: 'Centrality (%)'}
+  values:
+  - {low: 0, high: 20}
+  - {low: 20, high: 40}
+  - {low: 40, high: 93}
+dependent_variables:
+- header: {name: '$\langle N_{part} \rangle$'}
+  values:
+  - value: 154.8
+    errors:
+    - {symerror: 4, label: 'stat. + A sys.'}
+  - value: 80.4
+    errors:
+    - {symerror: 3.3, label: 'stat. + A sys.'}
+  - value: 19.5
+    errors:
+    - {symerror: 0.5, label: 'stat. + A sys.'}
+- header: {name: 'forward/backward ratio'}
+  values:
+  - value: 0.20
+    errors:
+    - {asymerror: {plus: 0.30, minus: -0.20}, label: 'stat. + A sys.'}
+    - {symerror: 0.10, label: 'B sys.'}
+
+  - value: 1.00
+    errors:
+    - {asymerror: {plus: 0.4, minus: -0.30}, label: 'stat. + A sys.'}
+    - {symerror: 0.10, label: 'B sys.'}
+  - value: 0.60
+    errors:
+    - {asymerror: {plus: 0.4, minus: -0.30}, label: 'stat. + A sys.'}
+    - {symerror: 0.10, label: 'B sys.'}

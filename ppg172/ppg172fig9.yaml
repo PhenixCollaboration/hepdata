@@ -1,0 +1,46 @@
+independent_variables:
+- header: {name: 'Centrality (%)'}
+  values:
+  - {low: 0, high: 10}
+  - {low: 10, high: 20}
+  - {low: 20, high: 30}
+  - {low: 30, high: 40}
+  - {low: 40, high: 50}
+  - {low: 50, high: 60}
+  - {low: 60, high: 70}
+  - {low: 70, high: 80}
+dependent_variables:
+- header: {name: '$dN^{UU}/dy$/$dN^{AuAu}/dy$'}
+  values:
+  - value: 1.73
+    errors:
+    - {symerror: 0.46, label: 'stat.'}
+    - {asymerror: {plus: 0.31, minus: -0.22}, label: 'sys.'}
+  - value: 1.57
+    errors:
+    - {symerror: 0.28, label: 'stat.'}
+    - {symerror: 0.22, label: 'sys.'}
+  - value: 1.46
+    errors:
+    - {symerror: 0.16, label: 'stat.'}
+    - {symerror: 0.18, label: 'sys.'}
+  - value: 1.27
+    errors:
+    - {symerror: 0.14, label: 'stat.'}
+    - {symerror: 0.16, label: 'sys.'}
+  - value: 1.03
+    errors:
+    - {symerror: 0.10, label: 'stat.'}
+    - {symerror: 0.12, label: 'sys.'}
+  - value: 0.84
+    errors:
+    - {symerror: 0.08, label: 'stat.'}
+    - {symerror: 0.10, label: 'sys.'}
+  - value: 0.89
+    errors:
+    - {symerror: 0.12, label: 'stat.'}
+    - {symerror: 0.10, label: 'sys.'}
+  - value: 0.51
+    errors:
+    - {symerror: 0.11, label: 'stat.'}
+    - {symerror: 0.06, label: 'sys.'}

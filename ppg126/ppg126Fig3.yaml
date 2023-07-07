@@ -1,0 +1,184 @@
+independent_variables:
+- header: {name: 'Centrality (%)'}
+  values:
+  - {low: 0, high: 10}
+  - {low: 10, high: 20}
+  - {low: 20, high: 30}
+  - {low: 30, high: 40}
+  - {low: 40, high: 50}
+  - {low: 50, high: 60}
+dependent_variables:
+- header: {name: '$v_2$'}
+  qualifiers:
+  - {name: 'particle', value: '$\pi^0$'}
+  - {name: 'reaction plane', value: 'BBC'}
+  values:
+  - value: 0.032
+    errors:
+    - {symerror: 0.018, label: 'stat.'}
+    - {symerror: 0.020, label: 'sys.'}
+  - value: 0.085
+    errors:
+    - {symerror: 0.012, label: 'stat.'}
+    - {symerror: 0.016, label: 'sys.'}
+  - value: 0.119
+    errors:
+    - {symerror: 0.011, label: 'stat.'}
+    - {symerror: 0.014, label: 'sys.'}
+  - value: 0.130
+    errors:
+    - {symerror: 0.014, label: 'stat.'}
+    - {symerror: 0.013, label: 'sys.'}
+  - value: 0.118
+    errors:
+    - {symerror: 0.020, label: 'stat.'}
+    - {symerror: 0.013, label: 'sys.'}
+  - value: 0.081
+    errors:
+    - {symerror: 0.033, label: 'stat.'}
+    - {symerror: 0.016, label: 'sys.'}
+- header: {name: '$v_2$'}
+  qualifiers:
+  - {name: 'particle', value: '$\pi^0$'}
+  - {name: 'reaction plane', value: 'RXN'}
+  values:
+  - value: 0.061
+    errors:
+    - {symerror: 0.008, label: 'stat.'}
+    - {symerror: 0.021, label: 'sys.'}
+  - value: 0.090
+    errors:
+    - {symerror: 0.006, label: 'stat.'}
+    - {symerror: 0.016, label: 'sys.'}
+  - value: 0.118
+    errors:
+    - {symerror: 0.006, label: 'stat.'}
+    - {symerror: 0.014, label: 'sys.'}
+  - value: 0.134
+    errors:
+    - {symerror: 0.007, label: 'stat.'}
+    - {symerror: 0.013, label: 'sys.'}
+  - value: 0.159
+    errors:
+    - {symerror: 0.009, label: 'stat.'}
+    - {symerror: 0.014, label: 'sys.'}
+  - value: 0.192
+    errors:
+    - {symerror: 0.014, label: 'stat.'}
+    - {symerror: 0.018, label: 'sys.'}
+- header: {name: '$v_2$'}
+  qualifiers:
+  - {name: 'particle', value: '$\gamma^{inc}$'}
+  - {name: 'reaction plane', value: 'BBC'}
+  values:
+  - value: 0.023
+    errors:
+    - {symerror: 0.009, label: 'stat.'}
+    - {symerror: 0.010, label: 'sys.'}
+  - value: 0.050
+    errors:
+    - {symerror: 0.007, label: 'stat.'}
+    - {symerror: 0.010, label: 'sys.'}
+  - value: 0.057
+    errors:
+    - {symerror: 0.007, label: 'stat.'}
+    - {symerror: 0.010, label: 'sys.'}
+  - value: 0.075
+    errors:
+    - {symerror: 0.010, label: 'stat.'}
+    - {symerror: 0.012, label: 'sys.'}
+  - value: 0.081
+    errors:
+    - {symerror: 0.015, label: 'stat.'}
+    - {symerror: 0.010, label: 'sys.'}
+  - value: 0.067
+    errors:
+    - {symerror: 0.026, label: 'stat.'}
+    - {symerror: 0.018, label: 'sys.'}
+- header: {name: '$v_2$'}
+  qualifiers:
+  - {name: 'particle', value: '$\gamma^{inc}$'}
+  - {name: 'reaction plane', value: 'RXN'}
+  values:
+  - value: 0.041
+    errors:
+    - {symerror: 0.004, label: 'stat.'}
+    - {symerror: 0.012, label: 'sys.'}
+  - value: 0.053
+    errors:
+    - {symerror: 0.004, label: 'stat.'}
+    - {symerror: 0.010, label: 'sys.'}
+  - value: 0.076
+    errors:
+    - {symerror: 0.004, label: 'stat.'}
+    - {symerror: 0.011, label: 'sys.'}
+  - value: 0.094
+    errors:
+    - {symerror: 0.005, label: 'stat.'}
+    - {symerror: 0.013, label: 'sys.'}
+  - value: 0.130
+    errors:
+    - {symerror: 0.007, label: 'stat.'}
+    - {symerror: 0.012, label: 'sys.'}
+  - value: 0.181
+    errors:
+    - {symerror: 0.011, label: 'stat.'}
+    - {symerror: 0.021, label: 'sys.'}
+- header: {name: '$v_2$'}
+  qualifiers:
+  - {name: 'particle', value: '$\gamma^{dir}$'}
+  - {name: 'reaction plane', value: 'BBC'}
+  values:
+  - value: 0.010
+    errors:
+    - {symerror: 0.019, label: 'stat.'}
+    - {symerror: 0.020, label: 'sys.'}
+  - value: 0.020
+    errors:
+    - {symerror: 0.017, label: 'stat.'}
+    - {symerror: 0.024, label: 'sys.'}
+  - value: -0.011
+    errors:
+    - {symerror: 0.023, label: 'stat.'}
+    - {symerror: 0.034, label: 'sys.'}
+  - value: -0.003
+    errors:
+    - {symerror: 0.033, label: 'stat.'}
+    - {symerror: 0.04, label: 'sys.'}
+  - value: 0.02
+    errors:
+    - {symerror: 0.07, label: 'stat.'}
+    - {symerror: 0.06, label: 'sys.'}
+  - value: 0.00
+    errors:
+    - {symerror: 0.13, label: 'stat.'}
+    - {symerror: 0.09, label: 'sys.'}
+- header: {name: '$v_2$'}
+  qualifiers:
+  - {name: 'particle', value: '$\gamma^{dir}$'}
+  - {name: 'reaction plane', value: 'RXN'}
+  values:
+  - value: 0.023
+    errors:
+    - {symerror: 0.009, label: 'stat.'}
+    - {symerror: 0.020, label: 'sys.'}
+  - value: 0.019
+    errors:
+    - {symerror: 0.009, label: 'stat.'}
+    - {symerror: 0.024, label: 'sys.'}
+  - value: 0.034
+    errors:
+    - {symerror: 0.012, label: 'stat.'}
+    - {symerror: 0.030, label: 'sys.'}
+  - value: 0.043
+    errors:
+    - {symerror: 0.017, label: 'stat.'}
+    - {symerror: 0.04, label: 'sys.'}
+  - value: 0.033
+    errors:
+    - {symerror: 0.033, label: 'stat.'}
+    - {symerror: 0.06, label: 'sys.'}
+  - value: 0.15
+    errors:
+    - {symerror: 0.06, label: 'stat.'}
+    - {symerror: 0.08, label: 'sys.'}

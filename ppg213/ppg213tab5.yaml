@@ -1,0 +1,40 @@
+independent_variables:
+- header: {name: 'measurement'}
+  values:
+  - value: $PYTHIA$ $\sigma_{b\bar{b}}$ $[\mu b]$
+  - value: $POWHEG$ $\sigma_{b\bar{b}}$ $[\mu b]$
+  - value: average $\sigma_{b\bar{b}}$ $[\mu b]$
+dependent_variables:
+- header: {name: 'south'}
+  values:
+  - value: 3.71
+    errors:
+    - {symerror: 0.29, label: 'stat.'}
+  - value: 3.94
+    errors:
+    - {symerror: 0.31, label: 'stat.'}
+  - value: 3.82
+    errors:
+    - {symerror: 0.30, label: 'stat.'}
+- header: {name: 'north'}
+  values:
+  - value: 3.42
+    errors:
+    - {symerror: 0.35, label: 'stat.'}
+  - value: 3.94
+    errors:
+    - {symerror: 0.40, label: 'stat.'}
+  - value: 3.65
+    errors:
+    - {symerror: 0.38, label: 'stat.'}
+- header: {name: 'combined'}
+  values:
+  - value: 3.59
+    errors:
+    - {symerror: 0.22, label: 'stat.'}
+  - value: 3.94
+    errors:
+    - {symerror: 0.25, label: 'stat.'}
+  - value: 3.75
+    errors:
+    - {symerror: 0.24, label: 'stat.'}

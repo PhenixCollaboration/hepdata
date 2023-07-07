@@ -1,0 +1,63 @@
+independent_variables:
+- header: {name: '$N^{FVTX}_{tracks}$'}
+  values:
+  - {low: 5.5, high: 7.5}
+  - {low: 7.5, high: 9.5}
+  - {low: 9.5, high: 11.5}
+  - {low: 11.5, high: 13.5}
+  - {low: 13.5, high: 15.5}
+  - {low: 15.5, high: 17.5}
+  - {low: 17.5, high: 19.5}
+  - {low: 19.5, high: 21.5}
+  - {low: 21.5, high: 23.5}
+  - {low: 23.5, high: 25.5}
+  - {low: 25.5, high: 27.5}
+dependent_variables:
+- header: {name: '$v_2${2,gap}'}
+  qualifiers:
+  - {name: '$\sqrt{s_{NN}}$', value: '39 GeV'}
+  values:
+  - value: 1.67E-2
+    errors:
+    - {symerror: 4.78E-4, label: 'stat.'}
+    - {symerror: 3.36E-3, label: 'syst.'}
+  - value: 1.91E-2
+    errors:
+    - {symerror: 3.37E-4, label: 'stat.'}
+    - {symerror: 3.84E-3, label: 'syst.'}
+  - value: 2.04E-2
+    errors:
+    - {symerror: 2.93E-4, label: 'stat.'}
+    - {symerror: 4.11E-3, label: 'syst.'}
+  - value: 2.11E-2
+    errors:
+    - {symerror: 2.93E-4, label: 'stat.'}
+    - {symerror: 4.26E-3, label: 'syst.'}
+  - value: 2.16E-2
+    errors:
+    - {symerror: 3.23E-4, label: 'stat.'}
+    - {symerror: 4.34E-3, label: 'syst.'}
+  - value: 2.41E-2
+    errors:
+    - {symerror: 3.64E-4, label: 'stat.'}
+    - {symerror: 4.86E-3, label: 'syst.'}
+  - value: 2.46E-2
+    errors:
+    - {symerror: 4.54E-4, label: 'stat.'}
+    - {symerror: 4.95E-3, label: 'syst.'}
+  - value: 2.39E-2
+    errors:
+    - {symerror: 6.07E-4, label: 'stat.'}
+    - {symerror: 4.82E-3, label: 'syst.'}
+  - value: 2.63E-2
+    errors:
+    - {symerror: 7.96E-4, label: 'stat.'}
+    - {symerror: 5.30E-3, label: 'syst.'}
+  - value: 2.61E-2
+    errors:
+    - {symerror: 1.14E-3, label: 'stat.'}
+    - {symerror: 5.25E-3, label: 'syst.'}
+  - value: 3.12E-2
+    errors:
+    - {symerror: 1.53E-3, label: 'stat.'}
+    - {symerror: 6.29E-3, label: 'syst.'}

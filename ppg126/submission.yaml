@@ -1,0 +1,68 @@
+#PHENIX paper PPG126
+#
+#TITLE: Observation of direct-photon collective flow in Au+Au collisions at sqrt(s_NN)=200GeV.
+# 
+#PRL84 (2012) 122302
+#InspireHEP ID: 900818
+#
+#Prepared by Hugh Jones
+#Please contact Christine Nattrass if you have any questions about this submission
+#PPG liaison:
+#Reviewer:
+#
+comment: | # Information that applies to all data tables.
+  The second Fourier component $v_2$ of the azimuthal anisotropy with respect to the reaction plane was measured for direct photons at midrapidity and transverse momentum ($p_T$) of 1-13 GeV/$c$ in Au+Au collisions at $\sqrt{s_{NN}}$ = 200 GeV. Previous measurements of this quantity for hadrons with $p_T$ < 6 GeV/$c$ indicate that the medium behaves like a nearly perfect fluid, while for $p_T$ > 6 GeV/$c$ a reduced anisotropy is interpreted in terms of a path-length dependence for parton energy loss. In this measurement with the PHENIX detector at the Relativistic Heavy Ion Collider we find that for $p_T$ > 4 GeV/$c$ the anisotropy for direct photons is consistent with zero, as expected if the dominant source of direct photons is initial hard scattering. However, in the $p_T$ < 4 GeV/$c$ region dominated by thermal photons, we find a substantial direct photon $v_2$ comparable to that of hadrons, whereas model calculations for thermal photons in this kinematic region significantly underpredict the observed $v_2$.
+additional_resources:
+- {location: "https://phenix-intra.sdcc.bnl.gov/phenix/WWW/p/info/ppg/126/", description: "web page with data points"}
+- {location: "http://arxiv.org/abs/1105.4126", description: arXiv}
+- {location: "https://inspirehep.net/literature/900818", description: InspireHEP}
+---
+# This is Figure 1a-c.
+name: "Figure 1a"
+location: Data From Figure 1a-c of PRL84 (2012) 122302
+description: '$v_2$ in minimum bias collisions, using two different reaction plane detectors: (solid black circles) BBC and (solid red squares) RXN for (a) $\pi^0$, (b) inclusive photon, and (c) direct photon.'
+keywords: # used for searching, possibly mutliple values for each keywords
+- {name: reactions, values: [Au Au --> CHARGED X]}
+- {name: cmenergies, values: [200.0]}
+- {name: phrases, values: [ppg126, direct photon, inclusive photon, pi photon, midrapidity, parton energy loss]}
+data_file: ppg126Fig1a.yaml
+additional_resources:
+- {description: PNG Image file, location: thumb_fig1a.png}
+- {description: PNG Image file, location: thumb_fig1f.png}
+---
+# This is Figure 2a.
+name: "Figure 2a"
+location: Data From Figure 1 of PRL84 (2012) 122302
+description: Centrality dependence of $v_2$ (a, c, e) for (solid-black circles) $\pi^0$, (solid-red squares) inclusive photons, and (b, d, f) (solid-black circles) direct photons measured with the BBC detector for (a),(b) minimum-bias (c),(d) 0%-20% centrality, and (e),(f) 20%-40% centrality.
+keywords: # used for searching, possibly mutliple values for each keywords
+- {name: reactions, values: [Au Au --> CHARGED X]}
+- {name: cmenergies, values: [200.0]}
+- {name: phrases, values: [ppg126, direct photon, inclusive photon, pi photon, midrapidity, parton energy loss]}
+data_file: ppg126_data_photon.yaml
+additional_resources:
+- {description: Thumbnail Image file, location: thumb_fig2.png}
+---
+# This is Figure 2.
+name: "Figure 2"
+location: Data From Figure 2 of PRL84 (2012) 122302
+description: Centrality dependence of $v_2$ (a, c, e) for (solid-black circles) $\pi^0$, (solid-red squares) inclusive photons, and (b, d, f) (solid-black circles) direct photons measured with the BBC detector for (a),(b) minimum-bias (c),(d) 0%-20% centrality, and (e),(f) 20%-40% centrality.
+keywords: # used for searching, possibly mutliple values for each keywords
+- {name: reactions, values: [Au Au --> CHARGED X]}
+- {name: cmenergies, values: [200.0]}
+- {name: phrases, values: [ppg126, direct photon, inclusive photon, pi photon, midrapidity, parton energy loss]}
+data_file: ppg126data_cent_v2.yaml
+additional_resources:
+- {description: Thumbnail Image file, location: thumb_fig2.png}
+---
+# This is Figure 3.
+name: "Figure 3"
+location: Data From Figure 3 of PRL84 (2012) 122302
+description: High $p_T$ ($p_T$ > 6 GeV/$c$) integrated $v_2$ vs $N_{part}$ for (a) $\pi^0$ (b) inclusive photon, and (c) direct photon. Results are shown with both reaction plane detectors$:$ (solid black circles) BBC and (solid red squares) RXN. Each point represents a 10% wide centrality bin from 60%-0%.
+keywords: # used for searching, possibly mutliple values for each keywords
+- {name: reactions, values: [Au Au --> CHARGED X]}
+- {name: cmenergies, values: [200.0]}
+- {name: phrases, values: [ppg126, direct photon, inclusive photon, pi photon, midrapidity, parton energy loss]}
+data_file: ppg126Fig3.yaml
+additional_resources:
+- {description: PNG Image file, location: thumb_fig3.png}
+---

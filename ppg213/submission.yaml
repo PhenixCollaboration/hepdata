@@ -1,0 +1,119 @@
+#PHENIX paper PPG213
+#
+#Measurements of $\mu\mu$ pairs from open heavy flavor and Drell-Yan in $p+p$ collisions at $\sqrt{s}$ = 200 GeV
+#
+#Phys.Rev.D 99 (2019) 072003
+#InspireHEP ID: 1672015
+#
+#Prepared by Josie Hakanson
+#Please contact Christine Nattrass if you have any questions about this submission
+#PPG liaison:
+#Reviewer:
+#
+comment: | # Information that applies to all data tables.
+  PHENIX reports differential cross sections of $\mu\mu$ pairs from semileptonic heavy-flavor decays and the Drell-Yan production mechanism measured in $p+p$ collisions at $\sqrt{s}$ = 200 GeV at forward and backward rapidity (1.2 < |$\eta$| < 2.2). The $\mu\mu$ pairs from $c\bar{c}$, $b\bar{b}$, and Drell-Yan are separated using a template fit to unlike- and like-sign muon pair spectra in mass and $p_{T}$ . The azimuthal opening angle correlation between the muons from $c\bar{c}$ and $b\bar{b}$ decays and the pair-$p_{T}$ distributions are compared to distributions generated using pythia and powheg models, which both include next-to-leading order processes. The measured distributions for pairs from $c\bar{c}$ are consistent with pythia calculations. The $c\bar{c}$ data presents narrower azimuthal correlations and softer $p_{T}$ distributions compared to distributions generated from powheg. The $b\bar{b}$ data are well described by both models. The extrapolated total cross section for bottom production is 3.75$\pm$0.24(stat)$\pm$$^{0.35}_{0.50}$(syst)$\pm$0.45(global)[$\mu$b], which is consistent with previous measurements at the Relativistic Heavy Ion Collider in the same system at the same collision energy, and is approximately a factor of two higher than the central value calculated with theoretical models. The measured Drell-Yan cross section is in good agreement with next-to-leading-order quantum-chromodynamics calculations.
+additional_resources:
+- {location: "https://phenix-intra.sdcc.bnl.gov/phenix/WWW/p/info/ppg/213/", description: "web page with data points"}
+- {location: "http://arxiv.org/abs/1805.02448", description: arXiv}
+- {location: "https://inspirehep.net/literature/1672015", description: InspireHEP}
+---
+name: "Figure 20"
+
+location: Data From Fig. 20 of PRD 99 (2019) 072003
+description: 'Summary of arm-averaged relative systematic uncertainties for the total bottom cross section $\sigma _{b\bar{b}}$, the differential Drell-Yan cross section $d^{2}\sigma _{DY\implies \mu\mu}/dmdy$, and the $b\bar{b}$ ($c\bar{c}$) differential yields $dN_{b\bar{b}(c\bar{c})\implies \mu\mu}/d\Delta\phi$. The systematic uncertainty type is indicated in the second column and is applicable only to the differential measurements. The uncertainties for the differential measurements vary with azimuthal opening angle, pair $p_{T}$ , or mass. Asymmetric uncertainties are quoted in bracketed values. For the $c\bar{c}$ measurement, the regions $\Delta\phi$ < $\pi$/2, $p_{T}$ < 0.5 GeV/$c$ and $p_{T}$ > 2.0 GeV/$c$ are excluded because the yield approaches zero and relative systematic uncertainties diverge. With these regions excluded, the difference between the systematic uncertainties of all measurements for the south and north muon arms differs by no greater than 2% for all systematic uncertainties sources.'
+keywords: # used for searching, possibly mutliple values for each keywords
+- {name: reactions, values: [$p + p\implies$ CHARGED X]}
+- {name: cmenergies, values: [200.0]}
+- {name: phrases, values: [ppg213, semileptonic heavy-flavor decays, $\mu\mu$ pairs, $p+p$ collisions, $PYTHIA$, $POWHEG$,  Relativistic Heavy Ion Collider]}
+data_file: ppg213tab4.yaml
+additional_resources:
+- {description: Figure 20a, location: Figure20a.png}
+- {description: Figure 20b, location: Figure20b.png}
+- {description: Figure 20c, location: Figure20c.png}
+- {description: Figure 20d, location: Figure20d.png}
+- {description: Figure 20e, location: Figure20e.png}
+- {description: Figure 20f, location: Figure20f.png}
+---
+name: "Figure 25a"
+
+location: Data From Fig.25a of PRD 99 (2019) 072003
+description: 'The differential yield $dN/d\phi$ of unlike-sign muon pairs from charm with mass 1.5-2.5 GeV/$c^2$ in the ideal muon arm acceptance, as a function of the pair azimuthal opening angle. Statistical (stat.) and types B and C systematic errors (sys. B & sys. C) are all $10^{-9}\times$[rad$^{-1}$].'
+keywords: # used for searching, possibly mutliple values for each keywords
+- {name: reactions, values: [$p + p\implies$ CHARGED X]}
+- {name: cmenergies, values: [200.0]}
+- {name: phrases, values: [ppg213, semileptonic heavy-flavor decays, $\mu\mu$ pairs, $p+p$ collisions, $PYTHIA$, $POWHEG$,  Relativistic Heavy Ion Collider]}
+data_file: ppg213tab8.yaml
+additional_resources:
+- {description: Figure 25a, location: Figure25a.png}
+---
+name: "Figure 25b"
+
+location: Data From Fig. 25b of PRD 99 (2019) 072003
+description: 'The differential yield $dN/d\phi$ of like-sign muon pairs from bottom with mass 3.5-10.0 GeV/$c^2$ in the ideal muon arm acceptance, as a function of the pair azimuthal opening angle. Statistical (stat.) and types B and C systematic errors (sys. B & sys. C) are all $10^{-9}\times$[rad$^{-1}$].'
+keywords: # used for searching, possibly mutliple values for each keywords
+- {name: reactions, values: [$p + p\implies$ CHARGED X]}
+- {name: cmenergies, values: [200.0]}
+- {name: phrases, values: [ppg213, semileptonic heavy-flavor decays, $\mu\mu$ pairs, $p+p$ collisions, $PYTHIA$, $POWHEG$,  Relativistic Heavy Ion Collider]}
+data_file: ppg213tab9.yaml
+additional_resources:
+- {description: Figure 25b, location: Figure25b.png}
+---
+name: "Figure 26a"
+
+location: Data From Fig 26a of PRD 99 (2019) 072003
+description: 'The differential yield $dN/dp_{T}$ of unlike-sign muon pairs from bottom with mass 1.5-2.5 GeV/$c^2$ in the ideal muon arm acceptance, as a function of the pair transverse momentum. Statistical (stat.) and types B and C systematic errors (sys. B & sys. C) are all $10^{-9}\times$[$c$/GeV].'
+keywords: # used for searching, possibly mutliple values for each keywords
+- {name: reactions, values: [$p + p\implies$ CHARGED X]}
+- {name: cmenergies, values: [200.0]}
+- {name: phrases, values: [ppg213, semileptonic heavy-flavor decays, $\mu\mu$ pairs, $p+p$ collisions, $PYTHIA$, $POWHEG$,  Relativistic Heavy Ion Collider]}
+data_file: ppg213tab10.yaml
+additional_resources:
+- {description: Figure 26a, location: Figure26a.png}
+---
+name: "Figure 26b"
+
+location: Data From Fig 26b of PRD 99 (2019) 072003
+description: 'The differential yield $dN/dp_{T}$ of like-sign muon pairs from bottom with mass 3.5-10.0 GeV/$c^2$ in the ideal muon arm acceptance, as a function of the pair transverse momentum. Statistical (stat.) and types B and C systematic errors (sys. B & sys. C) are all $10^{-9}\times$[$c$/GeV].'
+keywords: # used for searching, possibly mutliple values for each keywords
+- {name: reactions, values: [$p + p\implies$ CHARGED X]}
+- {name: cmenergies, values: [200.0]}
+- {name: phrases, values: [ppg213, semileptonic heavy-flavor decays, $\mu\mu$ pairs, $p+p$ collisions, $PYTHIA$, $POWHEG$,  Relativistic Heavy Ion Collider]}
+data_file: ppg213tab11.yaml
+additional_resources:
+- {description: Figure 26b, location: Figure26b.png}
+---
+name: "Figure 27"
+
+location: Data From Fig. 27 of PRD 99 (2019) 072003
+description: '$\sigma_{b\bar{b}}$ from fit using different models. Only statistical uncertainties are shown.'
+keywords: # used for searching, possibly mutliple values for each keywords
+- {name: reactions, values: [$p + p\implies$ CHARGED X]}
+- {name: cmenergies, values: [200.0]}
+- {name: phrases, values: [ppg213, semileptonic heavy-flavor decays, $\mu\mu$ pairs, $p+p$ collisions, $PYTHIA$, $POWHEG$,  Relativistic Heavy Ion Collider]}
+data_file: ppg213tab5.yaml
+additional_resources:
+- {description: Figure 27, location: Figure27.png}
+---
+name: "Figure 32"
+
+location: Data From Fig. 32 of PRD 99 (2019) 072003
+description: 'The differential Drell-Yan cross section $\frac{d^{2}\sigma}{dmdy}$ as a function of the muon pair mass, where the muon pair rapidity |$y\mu\mu$| is between 1.2 and 2.2. Statistical (stat.) and types B and C systematic errors (sys. B & sys. C) are all $10^{-9}\times$[pb $c^2$/GeV].'
+keywords: # used for searching, possibly mutliple values for each keywords
+- {name: reactions, values: [$p + p\implies$ CHARGED X]}
+- {name: cmenergies, values: [200.0]}
+- {name: phrases, values: [ppg213, semileptonic heavy-flavor decays, $\mu\mu$ pairs, $p+p$ collisions, $PYTHIA$, $POWHEG$,  Relativistic Heavy Ion Collider]}
+data_file: ppg213tab12.yaml
+additional_resources:
+- {description: Figure 32, location: Figure32.png}
+---
+name: "Figure 33"
+
+location: Data From Fig. 33 of PRD 99 (2019) 072003
+description: 'The differential Drell-Yan cross section $\frac{1}{2\pi p_{T}} \frac{d^{2}\sigma}{dydp_{T}}$ as a function of the muon pair transverse momentum, where the muon pair mass $m_{\mu\mu}$ is between 4.8 and 8.2 GeV/$c^2$ and the muon pair rapidity |$y\mu\mu$| is between 1.2 and 2.2. Statistical (stat.) and types B and C systematic errors (sys. B & sys. C) are all $10^{-9}\times$[pb $c^2$/GeV].'
+keywords: # used for searching, possibly mutliple values for each keywords
+- {name: reactions, values: [$p + p\implies$ CHARGED X]}
+- {name: cmenergies, values: [200.0]}
+- {name: phrases, values: [ppg213, semileptonic heavy-flavor decays, $\mu\mu$ pairs, $p+p$ collisions, $PYTHIA$, $POWHEG$,  Relativistic Heavy Ion Collider]}
+data_file: ppg213tab13.yaml
+additional_resources:
+- {description: Figure 33, location: Figure33.png}

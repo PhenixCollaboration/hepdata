@@ -1,0 +1,39 @@
+independent_variables:
+- header: {name: '$p_T$ (GeV/$c$)'}
+  values:
+  - {low: 0.50, high: 1.00}
+  - {low: 1.00, high: 1.50}
+  - {low: 1.50, high: 2.00}
+  - {low: 2.00, high: 2.80}
+  - {low: 2.80, high: 4.00}
+  - {low: 4.00, high: 4.80}
+dependent_variables:
+- header: {name: '$v_2$ (Fourier Coefficient)'}
+  qualifiers:
+  - {name: 'Centrality', value: '50-60%'}
+  - {name: 'particle', value: 'Au + Au'}
+  values:
+  - value: 0.2027
+    errors:
+    - {symerror: 4e-4, label: 'sta.'}
+    - {symerror: 0.010, label: 'sys.'}
+  - value: 0.3022
+    errors:
+    - {symerror: 5e-4, label: 'sta.'}
+    - {symerror: 0.016, label: 'sys.'}
+  - value: 0.3738
+    errors:
+    - {symerror: 0.0011, label: 'sta.'}
+    - {symerror: 0.019, label: 'sys.'}
+  - value: 0.4153
+    errors:
+    - {symerror: 0.0020, label: 'sta.'}
+    - {symerror: 0.021, label: 'sys.'}
+  - value: 0.433
+    errors:
+    - {symerror: 0.006, label: 'sta.'}
+    - {symerror: 0.021, label: 'sys.'}
+  - value: 0.301
+    errors:
+    - {symerror: 0.016, label: 'sta.'}
+    - {symerror: 0.021, label: 'sys.'}

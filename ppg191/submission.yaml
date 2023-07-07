@@ -1,0 +1,43 @@
+#PHENIX paper PPG191
+#
+#Measurement of long-range angular correlations and azimuthal anisotropies in high-multiplicity $p$+Au collisions at $\sqrt{s_{NN}}$ = 200 GeV
+#
+#Phys.Rev.Lett C 95 (2017) 034910
+#InspireHEP ID: 1486072
+#
+#Prepared by Nikolas Nelson
+#Please contact Christine Nattrass if you have any questions about this submission
+#PPG liaison:
+#Reviewer:
+#
+comment: | # Information that applies to all data tables.
+  We present the first measurements of long-range angular correlations and the transverse momentum dependence of elliptic flow $v_2$ in high-multiplicity $p$+Au collisions at $\sqrt{s_{NN}}$ = 200 GeV. A comparison of these results with previous measurements in high-multiplicity $d$+Au and $^3$He+Au collisions demonstrates a relation between $v_2$ and the initial collision eccentricity $\varepsilon_2$, suggesting that the observed momentum-space azimuthal anisotropies in these small systems have a collective origin and reflect the initial geometry. Good agreement is observed between the measured $v_2$ and hydrodynamic calculations for all systems, and an argument disfavoring theoretical explanations based on momentum-space domain correlations is presented. The set of measurements presented here allows us to leverage the distinct intrinsic geometry of each of these systems to distinguish between different theoretical descriptions of the long-range correlations observed in small collision systems.
+additional_resources:
+- {location: "https://phenix-intra.sdcc.bnl.gov/phenix/WWW/p/info/ppg/191/", description: "web page with data points"}
+- {location: "http://arxiv.org/abs/1609.02894", description: arXiv}
+- {location: "https://inspirehep.net/literature/1486072", description: InspireHEP}
+---
+# This is Figure 3.
+name: "Figure 3"
+location: Data From Fig. 3 of PRC 95 (2017) 034910
+description: 'The ratio of the two harmonics ($\Sigma Q^{BBC-S}$)$_{p+p}$/($\Sigma Q^{BBC-S}$)$_{pAu}$.'
+keywords: # used for searching, possibly mutliple values for each keywords
+- {name: reactions, values: [$p$ Au --> CHARGED X]}
+- {name: cmenergies, values: [200.0]}
+- {name: phrases, values: [ppg191, long-range angular correlations, azimuthal anisotropies, high-multiplicity, transverse momentum, elliptic flow]}
+data_file: ppg191fig3.yaml
+additional_resources:
+- {description: Thumbnail Image file, location: thumb_figure3.png}
+---
+# This is Figure 4.
+name: "Figure 4"
+location: Data From Fig. 4 of PRC 95 (2017) 034910
+description: '$v_2$ of charged hadrons within $|\eta|$ < 0.35 in 0-5% $p$+Au central collisions, compared to hydrodynamic calculations using the SONIC model, matched to the same multiplicity as the data.'
+keywords: # used for searching, possibly mutliple values for each keywords
+- {name: reactions, values: [$p$ Au --> CHARGED X]}
+- {name: cmenergies, values: [200.0]}
+- {name: phrases, values: [ppg191, long-range angular correlations, azimuthal anisotropies, high-multiplicity, transverse momentum, elliptic flow]}
+data_file: ppg191fig4.yaml
+additional_resources:
+- {description: Thumbnail Image file, location: thumb_figure4.png}
+---
