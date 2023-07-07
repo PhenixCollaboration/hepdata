@@ -1,0 +1,60 @@
+independent_variables:
+- header: {name: '$p_T$ Bins (GeV/$c$)'}
+  values:
+  - {low: 0.40, high: 0.60}
+  - {low: 0.60, high: 0.80}
+  - {low: 0.80, high: 1.00}
+  - {low: 1.00, high: 1.20}
+  - {low: 1.20, high: 1.40}
+  - {low: 1.40, high: 1.60}
+  - {low: 1.60, high: 1.80}
+  - {low: 1.80, high: 2.00}
+dependent_variables:
+- header: {name: '$p_T$ (GeV/$c$)'}
+  qualifiers:
+  - {name: '', value: ''}
+  values:
+  - value: 0.5
+  - value: 0.7
+  - value: 0.9
+  - value: 1.1
+  - value: 1.3
+  - value: 1.5
+  - value: 1.7
+  - value: 1.9
+- header: {name: '$v_2$'}
+  qualifiers:
+  - {name: '', value: '$K^+$+$K^-$'}
+  values:
+  - value: 0.0411
+    errors:
+    - {symerror: 0.0030, label: 'stat.'}
+    - {asymerror: {plus: 0.0022, minus: -0.003}, label: 'sys.'}
+  - value: 0.0544
+    errors:
+    - {symerror: 0.0029, label: 'stat.'}
+    - {asymerror: {plus: 0.0029, minus: -0.004}, label: 'sys.'}
+  - value: 0.0771
+    errors:
+    - {symerror: 0.0033, label: 'stat.'}
+    - {asymerror: {plus: 0.004, minus: -0.006}, label: 'sys.'}
+  - value: 0.093
+    errors:
+    - {symerror: 0.004, label: 'stat.'}
+    - {asymerror: {plus: 0.005, minus: -0.007}, label: 'sys.'}
+  - value: 0.109
+    errors:
+    - {symerror: 0.005, label: 'stat.'}
+    - {asymerror: {plus: 0.006, minus: -0.008}, label: 'sys.'}
+  - value: 0.115
+    errors:
+    - {symerror: 0.006, label: 'stat.'}
+    - {asymerror: {plus: 0.006, minus: -0.008}, label: 'sys.'}
+  - value: 0.123
+    errors:
+    - {symerror: 0.007, label: 'stat.'}
+    - {asymerror: {plus: 0.007, minus: -0.009}, label: 'sys.'}
+  - value: 0.142
+    errors:
+    - {symerror: 0.009, label: 'stat.'}
+    - {asymerror: {plus: 0.008, minus: -0.010}, label: 'sys.'}
