@@ -1,0 +1,63 @@
+#PHENIX paper PPG189
+#
+#Measurements of $e^+e^−$ pairs from open heavy flavor in $p$+$p$ and $d$+$A$ collisions at $\sqrt{s_{NN}}$ = 200 GeV
+#
+#Phys.Rev.Lett C 96 (2017) 024907
+#InspireHEP ID: 1512140
+#
+#Prepared by Nikolas Nelson
+#Please contact Christine Nattrass if you have any questions about this submission
+#PPG liaison:
+#Reviewer:
+#
+comment: | # Information that applies to all data tables.
+  We report a measurement of $e^+e^−$ pairs from semileptonic heavy-flavor decays in $p$+$p$ collisions at $\sqrt{s_{NN}}$ = 200 GeV. The $e^+e^−$ pair yield from $b\bar{b}$ and $c\bar{c}$ is separated by exploiting a double differential fit done simultaneously in dielectron invariant mass and $p_T$. We used three different event generators, PYTHIA, MC@ALO, and POWHEG, to simulate the $e^+e^−$ spectra from $c\bar{c}$ and $b\bar{b}$ production. The data can be well described by all three generators within the detector acceptance. However, when using the generators to extrapolate to 4$\pi$, significant differences are observed for the total cross section. These difference are less pronounced for $b\bar{b}$ than for $c\bar{c}$. The same model dependence was observed in already published $d$+$A$ data. The $p$+$p$ data are also directly compared with $d$+$A$ data in mass and $p_T$, and within the statistical accuracy no nuclear modification is seen.
+additional_resources:
+- {location: "https://phenix-intra.sdcc.bnl.gov/phenix/WWW/p/info/ppg/189/", description: "web page with data points"}
+- {location: "http://arxiv.org/abs/1702.01084", description: arXiv}
+- {location: "https://inspirehep.net/literature/1512140", description: InspireHEP}
+---
+# This is Table 5.
+name: "Table 5"
+location: Data From Table 5 of PRC 96 (2017) 024907
+description: 'Step by step extrapolation from the number of $e^+e^-$ pairs for $m_{e^+e^-}$ > 1.16 GeV/$c^2$ from $c\bar{c}$ in the PHENIX acceptance to the number of $c\bar{c}$ pairs in 4$\pi$ for PYTHIA, MC@NLO, and POWHEG. Numbers are in units of pairs per event using the $c\bar{c}$ cross sections determined in this paper.'
+keywords: # used for searching, possibly mutliple values for each keywords
+- {name: reactions, values: [$p$ $p$ --> CHARGED X, $d$ $A$ --> CHARGED X]}
+- {name: cmenergies, values: [200.0]}
+- {name: phrases, values: [ppg189, semileptonic, heavy-flavor decays, cross section, invariant mass, nuclear modification]}
+data_file: ppg189tab5.yaml
+---
+# This is Table 6.
+name: "Table 6"
+location: Data From Table 6 of PRC 96 (2017) 024907
+description: 'Step by step extrapolation from the number of $e^+e^-$ pairs for $m_{e^+e^-}$ > 1.16 GeV/$c^2$ from $b\bar{b}$ in the PHENIX acceptance to the number of $b\bar{b}$ pairs in 4$\pi$ for PYTHIA, MC@NLO, and POWHEG. Numbers are in units of pairs per event using the $b\bar{b}$ cross sections determined in this paper.'
+keywords: # used for searching, possibly mutliple values for each keywords
+- {name: reactions, values: [$p$ $p$ --> CHARGED X, $d$ $A$ --> CHARGED X]}
+- {name: cmenergies, values: [200.0]}
+- {name: phrases, values: [ppg189, semileptonic, heavy-flavor decays, cross section, invariant mass, nuclear modification]}
+data_file: ppg189tab6.yaml
+---
+# This is Figure 13.
+name: "Figure 13a"
+location: Data From Table 4 & 7 of PRC 96 (2017) 024907
+description: 'The extracted cross sections of $c\bar{c}$ and $b\bar{b}$ in $p$+$p$ and $d$+Au collisions.'
+keywords: # used for searching, possibly mutliple values for each keywords
+- {name: reactions, values: [$p$ $p$ --> CHARGED X]}
+- {name: cmenergies, values: [200.0]}
+- {name: phrases, values: [ppg189, semileptonic, heavy-flavor decays, cross section, invariant mass, nuclear modification]}
+data_file: ppg189fig13a.yaml
+additional_resources:
+- {description: Thumbnail Image file, location: thumb_fig13.png}
+---
+# This is Figure 13.
+name: "Figure 13b"
+location: Data From Table 4 & 7 of PRC 96 (2017) 024907
+description: 'The extracted cross sections of $c\bar{c}$ and $b\bar{b}$ in $p$+$p$ and $d$+Au collisions.'
+keywords: # used for searching, possibly mutliple values for each keywords
+- {name: reactions, values: [$d$ Au --> CHARGED X]}
+- {name: cmenergies, values: [200.0]}
+- {name: phrases, values: [ppg189, semileptonic, heavy-flavor decays, cross section, invariant mass, nuclear modification]}
+data_file: ppg189fig13b.yaml
+additional_resources:
+- {description: Thumbnail Image file, location: thumb_fig13.png}
+---

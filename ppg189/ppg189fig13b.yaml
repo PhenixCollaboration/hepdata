@@ -1,0 +1,36 @@
+independent_variables:
+- header: {name: '$d$+Au/$N_{coll}$'}
+  values:
+  - value: '$c\bar{c}$ (Reanalysis)'
+  - value: '$b\bar{b}$ (Reanalysis)'
+dependent_variables:
+- header: {name: 'PYTHIA'}
+  values:
+  - value: 385
+    errors:
+    - {symerror: 34, label: 'stat.'}
+    - {symerror: 119, label: 'sys.'}
+  - value: 3.40
+    errors:
+    - {symerror: 0.65, label: 'stat.'}
+    - {symerror: 1.10, label: 'sys.'}
+- header: {name: 'MC@NLO'}
+  values:
+  - value: 795
+    errors:
+    - {symerror: 80, label: 'stat.'}
+    - {symerror: 275, label: 'sys.'}
+  - value: 2.95
+    errors:
+    - {symerror: 0.67, label: 'stat.'}
+    - {symerror: 0.95, label: 'sys.'}
+- header: {name: 'POWHEG'}
+  values:
+  - value: 303
+    errors:
+    - {symerror: 26, label: 'stat.'}
+    - {symerror: 94, label: 'sys.'}
+  - value: 2.0
+    errors:
+    - {symerror: 0.6, label: 'stat.'}
+    - {symerror: 0.65, label: 'sys.'}
