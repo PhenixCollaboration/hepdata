@@ -1,130 +1,223 @@
 independent_variables:
 - header: {name: '$p_T$ (GeV/$c$)'}
   values:
-  - {low: 0.550, high: 0.650}
-  - {low: 0.650, high: 0.750}
-  - {low: 0.750, high: 0.850}
-  - {low: 0.850, high: 0.950}
-  - {low: 0.950, high: 1.050}
-  - {low: 1.050, high: 1.150}
-  - {low: 1.150, high: 1.250}
-  - {low: 1.250, high: 1.350}
-  - {low: 1.350, high: 1.450}
-  - {low: 1.450, high: 1.550}
-  - {low: 1.550, high: 1.650}
-  - {low: 1.650, high: 1.750}
-  - {low: 1.750, high: 1.850}
-  - {low: 1.850, high: 1.950}
-  - {low: 1.950, high: 2.100}
-  - {low: 2.100, high: 2.300}
-  - {low: 2.300, high: 2.500}
-  - {low: 2.500, high: 2.700}
-  - {low: 2.700, high: 2.900}
-  - {low: 2.900, high: 3.125}
-  - {low: 3.125, high: 3.375}
-  - {low: 3.375, high: 3.525}
-  - {low: 3.525, high: 3.875}
-  - {low: 3.875, high: 4.200}
-  - {low: 4.200, high: 4.600}
-  - {low: 4.600, high: 5.000}
-  - {low: 5.000, high: 5.400}
-  - {low: 5.400, high: 5.800}
-  - {low: 5.800, high: 6.500}
-  - {low: 6.500, high: 7.500}
-  - {low: 7.500, high: 8.000}
+  - {low: 0.50, high: 0.60}
+  - {low: 0.60, high: 0.70}
+  - {low: 0.70, high: 0.80}
+  - {low: 0.80, high: 0.90}
+  - {low: 0.90, high: 1.00}
+  - {low: 1.00, high: 1.10}
+  - {low: 1.10, high: 1.20}
+  - {low: 1.20, high: 1.30}
+  - {low: 1.30, high: 1.40}
+  - {low: 1.40, high: 1.50}
+  - {low: 1.50, high: 1.60}
+  - {low: 1.60, high: 1.70}
+  - {low: 1.70, high: 1.80}
+  - {low: 1.80, high: 1.90}
+  - {low: 1.90, high: 2.00}
+  - {low: 2.00, high: 2.20}
+  - {low: 2.20, high: 2.40}
+  - {low: 2.40, high: 2.60}
+  - {low: 2.60, high: 2.80}
+  - {low: 2.80, high: 3.00}
+  - {low: 3.00, high: 3.25}
+  - {low: 3.25, high: 3.50}
+  - {low: 3.50, high: 3.75}
+  - {low: 3.75, high: 4.00}
+  - {low: 4.00, high: 4.40}
+  - {low: 4.40, high: 4.80}
+  - {low: 4.80, high: 5.20}
+  - {low: 5.20, high: 5.60}
+  - {low: 5.60, high: 6.00}
+  - {low: 6.00, high: 7.00}
+  - {low: 7.00, high: 8.00}
 dependent_variables:
 - header: {name: '$R_{AA}$ $Au-Au$'}
   values:
-  - value: 0.251
+  - value: 0.2508
     errors:
-    - {symerror: 0.06, label: 'stat.'}
-  - value: 0.276
+    - {symerror: 1.5E-04, label: 'stat.'}
+    - {asymerror: {plus: 1.0E-01, minus: -3.9E-02}, label: 'sys.'}
+    - {symerror: 2.6E-02, label: 'scale ($pp$)'}
+    - {symerror: 2.5E-02, label: 'scale ($N_{coll}$)'}
+  - value: 0.2755
     errors:
-    - {symerror: 0.06, label: 'stat.'}
-  - value: 0.300
+    - {symerror: 1.7E-04, label: 'stat.'}
+    - {asymerror: {plus: 1.1E-01, minus: -4.3E-02}, label: 'sys.'}
+    - {symerror: 2.9E-02, label: 'scale ($pp$)'}
+    - {symerror: 2.7E-02, label: 'scale ($N_{coll}$)'}
+  - value: 0.3001
     errors:
-    - {symerror: 0.07, label: 'stat.'}
-  - value: 0.326
+    - {symerror: 2.1E-04, label: 'stat.'}
+    - {asymerror: {plus: 1.1E-01, minus: -4.7E-02}, label: 'sys.'}
+    - {symerror: 3.2E-02, label: 'scale ($pp$)'}
+    - {symerror: 2.9E-02, label: 'scale ($N_{coll}$)'}
+  - value: 0.3263
     errors:
-    - {symerror: 0.08, label: 'stat.'}
-  - value: 0.353
+    - {symerror: 2.6E-04, label: 'stat.'}
+    - {asymerror: {plus: 1.1E-01, minus: -5.1E-02}, label: 'sys.'}
+    - {symerror: 3.4E-02, label: 'scale ($pp$)'}
+    - {symerror: 3.2E-02, label: 'scale ($N_{coll}$)'}
+  - value: 0.3525
     errors:
-    - {symerror: 0.09, label: 'stat.'}
-  - value: 0.382
+    - {symerror: 3.2E-04, label: 'stat.'}
+    - {asymerror: {plus: 1.2E-01, minus: -5.5E-02}, label: 'sys.'}
+    - {symerror: 3.7E-02, label: 'scale ($pp$)'}
+    - {symerror: 3.5E-02, label: 'scale ($N_{coll}$)'}
+  - value: 0.3824
     errors:
-    - {symerror: 0.10, label: 'stat.'}
-  - value: 0.413
+    - {symerror: 3.8E-04, label: 'stat.'}
+    - {asymerror: {plus: 1.2E-01, minus: -5.9E-02}, label: 'sys.'}
+    - {symerror: 4.0E-02, label: 'scale ($pp$)'}
+    - {symerror: 3.7E-02, label: 'scale ($N_{coll}$)'}
+  - value: 0.4133
     errors:
-    - {symerror: 0.11, label: 'stat.'}
-  - value: 0.447
+    - {symerror: 4.5E-04, label: 'stat.'}
+    - {asymerror: {plus: 1.3E-01, minus: -6.4E-02}, label: 'sys.'}
+    - {symerror: 4.4E-02, label: 'scale ($pp$)'}
+    - {symerror: 4.1E-02, label: 'scale ($N_{coll}$)'}
+  - value: 0.4466
     errors:
-    - {symerror: 0.13, label: 'stat.'}
-  - value: 0.477
+    - {symerror: 5.8E-04, label: 'stat.'}
+    - {asymerror: {plus: 1.3E-01, minus: -6.9E-02}, label: 'sys.'}
+    - {symerror: 4.7E-02, label: 'scale ($pp$)'}
+    - {symerror: 4.4E-02, label: 'scale ($N_{coll}$)'}
+  - value: 0.4765
     errors:
-    - {symerror: 0.14, label: 'stat.'}
-  - value: 0.506
+    - {symerror: 6.7E-04, label: 'stat.'}
+    - {asymerror: {plus: 1.3E-01, minus: -7.3E-02}, label: 'sys.'}
+    - {symerror: 5.0E-02, label: 'scale ($pp$)'}
+    - {symerror: 4.7E-02, label: 'scale ($N_{coll}$)'}
+  - value: 0.5060
     errors:
-    - {symerror: 0.16, label: 'stat.'}
-  - value: 0.529
+    - {symerror: 8.1E-04, label: 'stat.'}
+    - {asymerror: {plus: 1.4E-01, minus: -7.8E-02}, label: 'sys.'}
+    - {symerror: 5.3E-02, label: 'scale ($pp$)'}
+    - {symerror: 5.0E-02, label: 'scale ($N_{coll}$)'}
+  - value: 0.5287
     errors:
-    - {symerror: 0.18, label: 'stat.'}
-  - value: 0.548
+    - {symerror: 9.5E-04, label: 'stat.'}
+    - {asymerror: {plus: 1.4E-01, minus: -8.1E-02}, label: 'sys.'}
+    - {symerror: 5.6E-02, label: 'scale ($pp$)'}
+    - {symerror: 5.2E-02, label: 'scale ($N_{coll}$)'}
+  - value: 0.5484
     errors:
-    - {symerror: 0.21, label: 'stat.'}
-  - value: 0.569
+    - {symerror: 1.2E-03, label: 'stat.'}
+    - {asymerror: {plus: 1.4E-01, minus: -8.4E-02}, label: 'sys.'}
+    - {symerror: 5.8E-02, label: 'scale ($pp$)'}
+    - {symerror: 5.4E-02, label: 'scale ($N_{coll}$)'}
+  - value: 0.5693
     errors:
-    - {symerror: 0.24, label: 'stat.'}
-  - value: 0.584
+    - {symerror: 1.4E-03, label: 'stat.'}
+    - {asymerror: {plus: 1.4E-01, minus: -8.7E-02}, label: 'sys.'}
+    - {symerror: 6.0E-02, label: 'scale ($pp$)'}
+    - {symerror: 5.6E-02, label: 'scale ($N_{coll}$)'}
+  - value: 0.5841
     errors:
-    - {symerror: 0.27, label: 'stat.'}
-  - value: 0.586
+    - {symerror: 1.6E-03, label: 'stat.'}
+    - {asymerror: {plus: 1.4E-01, minus: -8.9E-02}, label: 'sys.'}
+    - {symerror: 6.2E-02, label: 'scale ($pp$)'}
+    - {symerror: 5.7E-02, label: 'scale ($N_{coll}$)'}
+  - value: 0.5858
     errors:
-    - {symerror: 0.31, label: 'stat.'}
-  - value: 0.585
+    - {symerror: 1.8E-03, label: 'stat.'}
+    - {asymerror: {plus: 1.3E-01, minus: -8.9E-02}, label: 'sys.'}
+    - {symerror: 6.2E-02, label: 'scale ($pp$)'}
+    - {symerror: 5.7E-02, label: 'scale ($N_{coll}$)'}
+  - value: 0.5853
     errors:
-    - {symerror: 0.26, label: 'stat.'}
-  - value: 0.574
+    - {symerror: 1.5E-03, label: 'stat.'}
+    - {asymerror: {plus: 1.3E-01, minus: -8.8E-02}, label: 'sys.'}
+    - {symerror: 6.2E-02, label: 'scale ($pp$)'}
+    - {symerror: 5.7E-02, label: 'scale ($N_{coll}$)'}
+  - value: 0.5740
     errors:
-    - {symerror: 0.34, label: 'stat.'}
-  - value: 0.554
+    - {symerror: 2.0E-03, label: 'stat.'}
+    - {asymerror: {plus: 1.2E-01, minus: -8.6E-02}, label: 'sys.'}
+    - {symerror: 6.0E-02, label: 'scale ($pp$)'}
+    - {symerror: 5.6E-02, label: 'scale ($N_{coll}$)'}
+  - value: 0.5538
     errors:
-    - {symerror: 0.43, label: 'stat.'}
-  - value: 0.524
+    - {symerror: 2.4E-03, label: 'stat.'}
+    - {asymerror: {plus: 1.1E-01, minus: -8.3E-02}, label: 'sys.'}
+    - {symerror: 5.8E-02, label: 'scale ($pp$)'}
+    - {symerror: 5.4E-02, label: 'scale ($N_{coll}$)'}
+  - value: 0.5236
     errors:
-    - {symerror: 0.55, label: 'stat.'}
-  - value: 0.491
+    - {symerror: 2.9E-03, label: 'stat.'}
+    - {asymerror: {plus: 1.0E-01, minus: -7.8E-02}, label: 'sys.'}
+    - {symerror: 5.5E-02, label: 'scale ($pp$)'}
+    - {symerror: 5.1E-02, label: 'scale ($N_{coll}$)'}
+  - value: 0.4909
     errors:
-    - {symerror: 0.71, label: 'stat.'}
-  - value: 0.447
+    - {symerror: 3.5E-03, label: 'stat.'}
+    - {asymerror: {plus: 9.2E-02, minus: -7.3E-02}, label: 'sys.'}
+    - {symerror: 5.2E-02, label: 'scale ($pp$)'}
+    - {symerror: 4.8E-02, label: 'scale ($N_{coll}$)'}
+  - value: 0.4465
     errors:
-    - {symerror: 0.84, label: 'stat.'}
-  - value: 0.408
+    - {symerror: 3.8E-03, label: 'stat.'}
+    - {asymerror: {plus: 8.3E-02, minus: -6.8E-02}, label: 'sys.'}
+    - {symerror: 4.7E-02, label: 'scale ($pp$)'}
+    - {symerror: 4.4E-02, label: 'scale ($N_{coll}$)'}
+  - value: 0.4077
     errors:
-    - {symerror: 1.12, label: 'stat.'}
-  - value: 0.372
+    - {symerror: 4.6E-03, label: 'stat.'}
+    - {asymerror: {plus: 7.4E-02, minus: -6.1E-02}, label: 'sys.'}
+    - {symerror: 4.3E-02, label: 'scale ($pp$)'}
+    - {symerror: 4.0E-02, label: 'scale ($N_{coll}$)'}
+  - value: 0.3715
     errors:
-    - {symerror: 1.49, label: 'stat.'}
-  - value: 0.340
+    - {symerror: 5.5E-03, label: 'stat.'}
+    - {asymerror: {plus: 6.6E-02, minus: -5.6E-02}, label: 'sys.'}
+    - {symerror: 3.9E-02, label: 'scale ($pp$)'}
+    - {symerror: 3.6E-02, label: 'scale ($N_{coll}$)'}
+  - value: 0.3402
     errors:
-    - {symerror: 1.96, label: 'stat.'}
-  - value: 0.312
+    - {symerror: 6.7E-03, label: 'stat.'}
+    - {asymerror: {plus: 6.0E-02, minus: -5.1E-02}, label: 'sys.'}
+    - {symerror: 3.6E-02, label: 'scale ($pp$)'}
+    - {symerror: 3.3E-02, label: 'scale ($N_{coll}$)'}
+  - value: 0.3119
     errors:
-    - {symerror: 2.12, label: 'stat.'}
-  - value: 0.262
+    - {symerror: 6.6E-03, label: 'stat.'}
+    - {asymerror: {plus: 5.5E-02, minus: -4.7E-02}, label: 'sys.'}
+    - {symerror: 3.3E-02, label: 'scale ($pp$)'}
+    - {symerror: 3.1E-02, label: 'scale ($N_{coll}$)'}
+  - value: 0.2623
     errors:
-    - {symerror: 3.33, label: 'stat.'}
-  - value: 0.242
+    - {symerror: 8.7E-03, label: 'stat.'}
+    - {asymerror: {plus: 4.6E-02, minus: -3.9E-02}, label: 'sys.'}
+    - {symerror: 2.8E-02, label: 'scale ($pp$)'}
+    - {symerror: 2.6E-02, label: 'scale ($N_{coll}$)'}
+  - value: 0.2417
     errors:
-    - {symerror: 4.83, label: 'stat.'}
-  - value: 0.245
+    - {symerror: 1.2E-02, label: 'stat.'}
+    - {asymerror: {plus: 4.3E-02, minus: -3.7E-02}, label: 'sys.'}
+    - {symerror: 2.5E-02, label: 'scale ($pp$)'}
+    - {symerror: 2.4E-02, label: 'scale ($N_{coll}$)'}
+  - value: 0.2452
     errors:
-    - {symerror: 6.78, label: 'stat.'}
-  - value: 0.198
+    - {symerror: 1.7E-02, label: 'stat.'}
+    - {asymerror: {plus: 4.5E-02, minus: -3.8E-02}, label: 'sys.'}
+    - {symerror: 2.6E-02, label: 'scale ($pp$)'}
+    - {symerror: 2.4E-02, label: 'scale ($N_{coll}$)'}
+  - value: 0.1978
     errors:
-    - {symerror: 11.1, label: 'stat.'}
-  - value: 0.232
+    - {symerror: 2.2E-02, label: 'stat.'}
+    - {asymerror: {plus: 3.9E-02, minus: -3.2E-02}, label: 'sys.'}
+    - {symerror: 2.1E-02, label: 'scale ($pp$)'}
+    - {symerror: 1.9E-02, label: 'scale ($N_{coll}$)'}
+  - value: 0.2316
     errors:
-    - {symerror: 12.16, label: 'stat.'}
-  - value: 0.221
+    - {symerror: 2.8E-02, label: 'stat.'}
+    - {asymerror: {plus: 5.2E-02, minus: -4.2E-02}, label: 'sys.'}
+    - {symerror: 2.4E-02, label: 'scale ($pp$)'}
+    - {symerror: 2.3E-02, label: 'scale ($N_{coll}$)'}
+  - value: 0.2214
     errors:
-    - {symerror: 28.42, label: 'stat.'}
+    - {symerror: 6.3E-02, label: 'stat.'}
+    - {asymerror: {plus: 5.9E-02, minus: -4.6E-02}, label: 'sys.'}
+    - {symerror: 2.3E-02, label: 'scale ($pp$)'}
+    - {symerror: 2.2E-02, label: 'scale ($N_{coll}$)'}
