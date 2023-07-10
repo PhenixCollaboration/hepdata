@@ -19,7 +19,7 @@ additional_resources:
 ---
 # This is Figure 1.
 name: "Table 1"
-location: Data From Table 1 of PRL C 72 (2005) 014903
+location: Data From Table 1 of PRC 72 (2005) 014903
 description: 'Average number of participants and collisions in Au + Au reaction at RHIC for different centralities determined from a Glauber model.'
 keywords: # used for searching, possibly mutliple values for each keywords
 - {name: reactions, values: [Au Au --> CHARGED X]}
@@ -29,7 +29,7 @@ data_file: ppg016fig1.yaml
 ---
 # This is Figure 2.
 name: "Table 2"
-location: Data From Table 2 of PRL C 72 (2005) 014903
+location: Data From Table 2 of PRC 72 (2005) 014903
 description: '$\phi$ meson mass centroid and width for minimum-bias Au + Au collisions at $\sqrt{s_{NN}}$ = 200 GeV.'
 keywords: # used for searching, possibly mutliple values for each keywords
 - {name: reactions, values: [Au Au --> CHARGED X]}
@@ -39,7 +39,7 @@ data_file: ppg016fig2.yaml
 ---
 # This is Figure 4.
 name: "Table 4"
-location: Data From Table 4 of PRL C 72 (2005) 014903
+location: Data From Table 4 of PRC 72 (2005) 014903
 description: 'Minimum-bias $dN/dy$ and $T$ for different subsystem combinations.'
 keywords: # used for searching, possibly mutliple values for each keywords
 - {name: reactions, values: [Au Au --> CHARGED X]}
@@ -49,7 +49,7 @@ data_file: ppg016fig4.yaml
 ---
 # This is Figure 5.
 name: "Table 5"
-location: Data From Table 5 of PRL C 72 (2005) 014903
+location: Data From Table 5 of PRC 72 (2005) 014903
 description: '$dN/dy$ and $T$ for different centrality bins.'
 keywords: # used for searching, possibly mutliple values for each keywords
 - {name: reactions, values: [Au Au --> CHARGED X]}
@@ -59,7 +59,7 @@ data_file: ppg016fig5.yaml
 ---
 # This is Figure 6.
 name: "Table 6"
-location: Data From Table 6 of PRL C 72 (2005) 014903
+location: Data From Table 6 of PRC 72 (2005) 014903
 description: 'Blast wave model parameters as a function of centrality from fitting $\pi^±$, $K^±$, $p$, and $\bar{p}$ spectra.'
 keywords: # used for searching, possibly mutliple values for each keywords
 - {name: reactions, values: [Au Au --> CHARGED X]}
@@ -69,7 +69,7 @@ data_file: ppg016fig6.yaml
 ---
 # This is Figure 7.
 name: "Table 7"
-location: Data From Table 7 of PRL C 72 (2005) 014903
+location: Data From Table 7 of PRC 72 (2005) 014903
 description: '$m_T$ spectra of $\phi$ mesons in different centrality bins.'
 keywords: # used for searching, possibly mutliple values for each keywords
 - {name: reactions, values: [Au Au --> CHARGED X]}
@@ -79,7 +79,7 @@ data_file: ppg016fig7.yaml
 ---
 # This is Figure 9.
 name: "Figure 9"
-location: Data From Fig. 9 of PRL C 72 (2005) 014903
+location: Data From Fig. 9 of PRC 72 (2005) 014903
 description: 'Centrality dependence of the $\phi$ mass centroid and $\phi$ intrinsic width.'
 keywords: # used for searching, possibly mutliple values for each keywords
 - {name: reactions, values: [Au Au --> CHARGED X]}
@@ -89,7 +89,7 @@ data_file: ppg016fig9.yaml
 ---
 # This is Figure 10.
 name: "Figure 10a"
-location: Data From Fig. 10 of PRL C 72 (2005) 014903
+location: Data From Fig. 10 of PRC 72 (2005) 014903
 description: 'Minimum-bias $m_T$ spectra of $\phi$ for different subsystem combinations.'
 keywords: # used for searching, possibly mutliple values for each keywords
 - {name: reactions, values: [Au Au --> CHARGED X]}
@@ -103,7 +103,7 @@ additional_resources:
 ---
 # This is Figure 10.
 name: "Figure 10b"
-location: Data From Fig. 10 of PRL C 72 (2005) 014903
+location: Data From Fig. 10 of PRC 72 (2005) 014903
 description: 'Minimum-bias $m_T$ spectra of $\phi$ for different subsystem combinations.'
 keywords: # used for searching, possibly mutliple values for each keywords
 - {name: reactions, values: [Au Au --> CHARGED X]}
@@ -117,7 +117,7 @@ additional_resources:
 ---
 # This is Figure 10.
 name: "Figure 10c"
-location: Data From Fig. 10 of PRL C 72 (2005) 014903
+location: Data From Fig. 10 of PRC 72 (2005) 014903
 description: 'Minimum-bias $m_T$ spectra of $\phi$ for different subsystem combinations.'
 keywords: # used for searching, possibly mutliple values for each keywords
 - {name: reactions, values: [Au Au --> CHARGED X]}
@@ -129,9 +129,23 @@ additional_resources:
 - {description: PNG Image file, location: min-bias.png}
 - {description: Thumbnail Image file, location: thumb_min-bias.png}
 ---
+# This is Figure 10.
+name: "Figure 10d"
+location: Data From Fig. 10 of PRC 72 (2005) 014903
+description: 'Minimum-bias $m_T$ spectra of $\phi$ for different subsystem combinations.'
+keywords: # used for searching, possibly mutliple values for each keywords
+- {name: reactions, values: [Au Au --> CHARGED X]}
+- {name: cmenergies, values: [200.0]}
+- {name: phrases, values: [ppg016, mid-rapidity]}
+data_file: ppg016fig10d.yaml 
+additional_resources:
+- {description: Original EPS Image file, location: min-bias.eps}
+- {description: PNG Image file, location: min-bias.png}
+- {description: Thumbnail Image file, location: thumb_min-bias.png}
+---
 # This is Figure 11.
 name: "Figure 11"
-location: Data From Fig. 11 of PRL C 72 (2005) 014903
+location: Data From Fig. 11 of PRC 72 (2005) 014903
 description: '$\phi$ $m_T$ spectra in different centrality bins.'
 keywords: # used for searching, possibly mutliple values for each keywords
 - {name: reactions, values: [Au Au --> CHARGED X]}
@@ -145,7 +159,7 @@ additional_resources:
 ---
 # This is Figure 12.
 name: "Figure 12a"
-location: Data From Fig. 12 of PRL C 72 (2005) 014903
+location: Data From Fig. 12 of PRC 72 (2005) 014903
 description: 'Centrality dependence of $\phi$ yield at midrapidity.'
 keywords: # used for searching, possibly mutliple values for each keywords
 - {name: reactions, values: [Au Au --> CHARGED X]}
@@ -159,7 +173,7 @@ additional_resources:
 ---
 # This is Figure 12.
 name: "Figure 12b"
-location: Data From Fig. 12 of PRL C 72 (2005) 014903
+location: Data From Fig. 12 of PRC 72 (2005) 014903
 description: 'Centrality dependence of $\phi$ yield at midrapidity.'
 keywords: # used for searching, possibly mutliple values for each keywords
 - {name: reactions, values: [Au Au --> CHARGED X]}
@@ -173,7 +187,7 @@ additional_resources:
 ---
 # This is Figure 13.
 name: "Figure 13"
-location: Data From Fig. 13 of PRL C 72 (2005) 014903
+location: Data From Fig. 13 of PRC 72 (2005) 014903
 description: 'Centrality dependence of the inverse slope, $T$.'
 keywords: # used for searching, possibly mutliple values for each keywords
 - {name: reactions, values: [Au Au --> CHARGED X]}
@@ -187,7 +201,7 @@ additional_resources:
 ---
 # This is Figure 14.
 name: "Figure 14a"
-location: Data From Fig. 14 of PRL C 72 (2005) 014903
+location: Data From Fig. 14 of PRC 72 (2005) 014903
 description: 'Centrality dependence of particle ratios for $K^+$/$\pi^+$ and $K^-$/$\pi^-$.'
 keywords: # used for searching, possibly mutliple values for each keywords
 - {name: reactions, values: [Au Au --> CHARGED X]}
@@ -201,7 +215,7 @@ additional_resources:
 ---
 # This is Figure 14.
 name: "Figure 14b"
-location: Data From Fig. 14 of PRL C 72 (2005) 014903
+location: Data From Fig. 14 of PRC 72 (2005) 014903
 description: 'Centrality dependence of particle ratios for $\phi$/$\pi$ and $\phi$/$K$.'
 keywords: # used for searching, possibly mutliple values for each keywords
 - {name: reactions, values: [Au Au --> CHARGED X]}
@@ -215,7 +229,7 @@ additional_resources:
 ---
 # This is Figure 15.
 name: "Figure 15a"
-location: Data From Fig. 15 of PRL C 72 (2005) 014903
+location: Data From Fig. 15 of PRC 72 (2005) 014903
 description: 'Centrality dependence of $\phi$ yields at different collision energies.'
 keywords: # used for searching, possibly mutliple values for each keywords
 - {name: reactions, values: [Au Au --> CHARGED X]}
@@ -229,7 +243,7 @@ additional_resources:
 ---
 # This is Figure 15.
 name: "Figure 15b"
-location: Data From Fig. 15 of PRL C 72 (2005) 014903
+location: Data From Fig. 15 of PRC 72 (2005) 014903
 description: 'Centrality dependence of $\phi$ yields at different collision energies.'
 keywords: # used for searching, possibly mutliple values for each keywords
 - {name: reactions, values: [Au Au --> CHARGED X]}
@@ -243,7 +257,7 @@ additional_resources:
 ---
 # This is Figure 16.
 name: "Figure 16"
-location: Data From Fig. 16 of PRL C 72 (2005) 014903
+location: Data From Fig. 16 of PRC 72 (2005) 014903
 description: '$\phi$/$\pi$ and $\phi$/$K^-$ ratios as a function of collision energies.'
 keywords: # used for searching, possibly mutliple values for each keywords
 - {name: reactions, values: [Au Au --> CHARGED X]}
@@ -257,7 +271,7 @@ additional_resources:
 ---
 # This is Figure 17.
 name: "Figure 17"
-location: Data From Fig. 17 of PRL C 72 (2005) 014903
+location: Data From Fig. 17 of PRC 72 (2005) 014903
 description: 'Inverse slope parameteres $T$ in $m_T$ spectra.'
 keywords: # used for searching, possibly mutliple values for each keywords
 - {name: reactions, values: [Au Au --> CHARGED X]}
@@ -267,7 +281,7 @@ data_file: ppg016fig17.yaml
 ---
 # This is Figure 23.
 name: "Figure 23a"
-location: Data From Fig. 23 of PRL C 72 (2005) 014903
+location: Data From Fig. 23 of PRC 72 (2005) 014903
 description: '$N_{coll}$ scaled central to peripheral ratio $R_{CP}$ for $\phi$. The total systematic error is 19%, but 7% is uncorrelated between the $\phi$ and $p$ $R_{CP}$.'
 keywords: # used for searching, possibly mutliple values for each keywords
 - {name: reactions, values: [Au Au --> CHARGED X]}
@@ -281,7 +295,7 @@ additional_resources:
 ---
 # This is Figure 23.
 name: "Figure 23b"
-location: Data From Fig. 23 of PRL C 72 (2005) 014903
+location: Data From Fig. 23 of PRC 72 (2005) 014903
 description: '$N_{coll}$ scaled central to peripheral ratio $R_{CP}$ for $\pi^0$.'
 keywords: # used for searching, possibly mutliple values for each keywords
 - {name: reactions, values: [Au Au --> CHARGED X]}
@@ -295,7 +309,7 @@ additional_resources:
 ---
 # This is Figure 23.
 name: "Figure 23c"
-location: Data From Fig. 23 of PRL C 72 (2005) 014903
+location: Data From Fig. 23 of PRC 72 (2005) 014903
 description: '$N_{coll}$ scaled central to peripheral ratio $R_{CP}$ for ($p$ + $\bar{p}$)/2. The total systematic error is 19%, but 7% is uncorrelated the $\phi$ and $p$ $R_{CP}$.'
 keywords: # used for searching, possibly mutliple values for each keywords
 - {name: reactions, values: [Au Au --> CHARGED X]}

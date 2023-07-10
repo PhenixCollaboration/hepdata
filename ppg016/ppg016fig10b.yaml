@@ -7,32 +7,42 @@ independent_variables:
   - {low: 1.0, high: 1.2}
   - {low: 1.2, high: 1.4}
   - {low: 1.4, high: 1.8}
+  - {low: 1.8, high: 2.0}
+  - {low: 2.0, high: 3.0}
 dependent_variables:
 - header: {name: 'Invariant Yield'}
   qualifiers:
-  - {name: 'Subsystem Combination', value: 'TOF-East'}
+  - {name: 'Subsystem Combination', value: 'TOF-TOF'}
   values:
-  - value: 0.196
+  - value: 0.185
     errors:
-    - {symerror: 0.029, label: 'stat.'}
-    - {symerror: 0.029, label: 'sys.'}
-  - value: 0.0654
+    - {symerror: 0.057, label: 'stat.'}
+    - {symerror: 0.027, label: 'sys.'}
+  - value: 0.0561
     errors:
-    - {symerror: 0.0095, label: 'stat.'}
-    - {symerror: 0.0098, label: 'sys.'}
-  - value: 0.0337
+    - {symerror: 0.018, label: 'stat.'}
+    - {symerror: 0.0082, label: 'sys.'}
+  - value: 0.0333
     errors:
-    - {symerror: 0.0060, label: 'stat.'}
-    - {symerror: 0.0051, label: 'sys.'}
-  - value: 0.0290
+    - {symerror: 0.0078, label: 'stat.'}
+    - {symerror: 0.0049, label: 'sys.'}
+  - value: 0.0180
     errors:
-    - {symerror: 0.0041, label: 'stat.'}
-    - {symerror: 0.0044, label: 'sys.'}
-  - value: 0.0134
+    - {symerror: 0.0038, label: 'stat.'}
+    - {symerror: 0.0026, label: 'sys.'}
+  - value: 0.0127
     errors:
-    - {symerror: 0.0034, label: 'stat.'}
-    - {symerror: 0.0020, label: 'sys.'}
-  - value: 0.00868
+    - {symerror: 0.0026, label: 'stat.'}
+    - {symerror: 0.0019, label: 'sys.'}
+  - value: 0.00609
     errors:
-    - {symerror: 0.0019, label: 'stat.'}
-    - {symerror: 0.0013, label: 'sys.'}
+    - {symerror: 0.00091, label: 'stat.'}
+    - {symerror: 0.00089, label: 'sys.'}
+  - value: 0.00327
+    errors:
+    - {symerror: 0.00062, label: 'stat.'}
+    - {symerror: 0.00048, label: 'sys.'}
+  - value: 0.000800
+    errors:
+    - {symerror: 0.00012, label: 'stat.'}
+    - {symerror: 0.00012, label: 'sys.'}
