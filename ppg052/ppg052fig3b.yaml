@@ -6,7 +6,7 @@ independent_variables:
   - {low: 20, high: 30}
   - {low: 30, high: 40}
 dependent_variables:
-- header: {name: '$R_T$ (fm)'}
+- header: {name: '$R_{sr}$ (fm)'}
   qualifiers:
   - {name: '$k_T$', value: '0.2-0.4 (GeV/$c$)'}
   values:
@@ -22,7 +22,7 @@ dependent_variables:
   - value: 3.7
     errors:
     - {symerror: 0.1, label: 'stat.'}
-- header: {name: '$R_T$ (fm)'}
+- header: {name: '$R_{sr}$ (fm)'}
   qualifiers:
   - {name: '$k_T$', value: '0.5-1.0 (GeV/$c$)'}
   values:
@@ -38,7 +38,7 @@ dependent_variables:
   - value: 4.1
     errors:
     - {symerror: 0.6, label: 'stat.'}
-- header: {name: 'Complement $R_L$'}
+- header: {name: '$R_{lr}$ (fm)'}
   qualifiers:
   - {name: '$k_T$', value: '0.2-0.4 (GeV/$c$)'}
   values:
@@ -54,7 +54,7 @@ dependent_variables:
   - value: 12.1
     errors:
     - {symerror: 1.0, label: 'stat.'}
-- header: {name: 'Complement $R_L$'}
+- header: {name: '$R_{lr}$ (fm)'}
   qualifiers:
   - {name: '$k_T$', value: '0.5-1.0 (GeV/$c$)'}
   values:
