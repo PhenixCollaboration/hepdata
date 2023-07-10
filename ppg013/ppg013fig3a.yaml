@@ -2,6 +2,7 @@ independent_variables:
 - header: {name: '$p_T$ (GeV/$c$)'}
   values:
   - {low: 0.55, high: 0.70}
+  - {low: 0.70, high: 0.90}
   - {low: 0.90, high: 1.20}
   - {low: 1.20, high: 1.60}
   - {low: 1.60, high: 2.00}
@@ -16,6 +17,9 @@ dependent_variables:
     errors:
     - {symerror: 0.003, label: 'stat.'}
     - {symerror: 0.008, label: 'syst.'}
+  - value: 0.097
+    errors:
+    - {symerror: 0.003, label: 'stat.'}
   - value: 0.18
     errors:
     - {symerror: 0.006, label: 'stat.'}
