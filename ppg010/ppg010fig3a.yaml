@@ -10,6 +10,28 @@ dependent_variables:
   - value: 333
   - value: 472
   - value: 633
+- header: {name: '$\lambda$'}
+  values:
+  - value: 0.423
+    errors:
+    - {symerror: 0.037, label: 'stat'}
+  - value: 0.389
+    errors:
+    - {symerror: 0.039, label: 'stat'}
+  - value: 0.287
+    errors:
+    - {symerror: 0.048, label: 'stat'}
+- header: {name: '$R_{out}$ (fm)'}
+  values:
+  - value: 4.78
+    errors:
+    - {symerror: 0.30, label: 'stat'}
+  - value: 3.76
+    errors:
+    - {symerror: 0.26, label: 'stat'}
+  - value: 2.59
+    errors:
+    - {symerror: 0.46, label: 'stat'}
 - header: {name: '$R_(side)$ (fm)'}
   values:
   - value: 4.81
@@ -21,14 +43,14 @@ dependent_variables:
   - value: 2.79
     errors:
     - {symerror: 0.37, label: 'stat'}
-- header: {name: '$R_{out}$/$R_{side}$'}
+- header: {name: '$R_{long}$ (fm)'}
   values:
-  - value: 0.994
+  - value: 6.01
     errors:
-    - {symerror: 1.00, label: 'stat'}
-  - value: 1.005
+    - {symerror: 0.45, label: 'stat'}
+  - value: 4.76
     errors:
-    - {symerror: 0.72, label: 'stat'}
-  - value: 0.928
+    - {symerror: 0.35, label: 'stat'}
+  - value: 2.97
     errors:
-    - {symerror: 1.24, label: 'stat'}
+    - {symerror: 0.38, label: 'stat'}
