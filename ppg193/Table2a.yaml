@@ -1,0 +1,18 @@
+independent_variables:
+- header: {name: 'y'}
+  values:
+  - {low: -2.2, high: -1.2}
+  - {low: 1.2, high: 2.2}
+dependent_variables:
+- header: {name: 'd$\sigma_{\phi}$/dy (mb)'}
+  values:
+  - value: 2.46e-2
+    errors:
+    - {symerror: 0.12e-2, label: 'stat & type-A sys'}
+    - {symerror: 0.18e-2, label: 'type-B sys'}
+    - {symerror: 0.30e-2, label: 'type-C norm sys ($\pm$ 12%)'}
+  - value: 2.13e-2
+    errors:
+    - {symerror: 0.14e-2, label: 'stat & type-A sys'}
+    - {symerror: 0.16e-2, label: 'type-B sys'}
+    - {symerror: 0.26e-2, label: 'type-C norm sys ($\pm$ 12%)'}

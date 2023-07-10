@@ -1,0 +1,50 @@
+independent_variables:
+- header: {name: '$p_T$ range (GeV/$c$)'}
+  values:
+  - {low: 2.0, high: 2.5}
+  - {low: 2.5, high: 3.0}
+  - {low: 3.0, high: 3.5}
+  - {low: 3.5, high: 4.0}
+  - {low: 4.0, high: 5.0}
+  - {low: 5.0, high: 7.0}
+dependent_variables:
+- header: {name: '${\bar{p}}_T$ (GeV/$c$)'}
+  values:
+  - value: 2.24
+  - value: 2.74
+  - value: 3.24
+  - value: 3.74
+  - value: 4.44
+  - value: 5.79
+- header: {name: '$\frac{d^2 \sigma_{\phi}}{d p_T dy}$ [mb/(GeV/$c$)]'}
+  values:
+  - value: 2.16e-2
+    errors:
+    - {symerror: 0.17e-2, label: 'stat & type-A sys'}
+    - {symerror: 0.23e-2, label: 'type-B sys'}
+    - {symerror: 0.26e-2, label: 'type-C norm sys ($\pm$ 12%)'}
+  - value: 1.20e-2
+    errors:
+    - {symerror: 0.05e-2, label: 'stat & type-A sys'}
+    - {symerror: 0.12e-2, label: 'type-B sys'}
+    - {symerror: 0.14e-2, label: 'type-C norm sys ($\pm$ 12%)'}
+  - value: 6.26e-3
+    errors:
+    - {symerror: 0.36e-3, label: 'stat & type-A sys'}
+    - {symerror: 0.61e-3, label: 'type-B sys'}
+    - {symerror: 0.75e-3, label: 'type-C norm sys ($\pm$ 12%)'}
+  - value: 2.70e-3
+    errors:
+    - {symerror: 0.20e-3, label: 'stat & type-A sys'}
+    - {symerror: 0.30e-3, label: 'type-B sys'}
+    - {symerror: 0.32e-3, label: 'type-C norm sys ($\pm$ 12%)'}
+  - value: 1.06e-3
+    errors:
+    - {symerror: 0.07e-3, label: 'stat & type-A sys'}
+    - {symerror: 0.11e-3, label: 'type-B sys'}
+    - {symerror: 0.13e-3, label: 'type-C norm sys ($\pm$ 12%)'}
+  - value: 1.97e-4
+    errors:
+    - {symerror: 0.19e-4, label: 'stat & type-A sys'}
+    - {symerror: 0.20e-4, label: 'type-B sys'}
+    - {symerror: 0.24e-4, label: 'type-C norm sys ($\pm$ 12%)'}
