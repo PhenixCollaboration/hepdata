@@ -1,0 +1,28 @@
+independent_variables:
+- header: {name: '$m_T$ (GeV/$c^2$)'}
+  values:
+  - {low: 0.2, high: 0.6}
+  - {low: 0.6, high: 0.8}
+  - {low: 0.8, high: 1.0}
+  - {low: 1.0, high: 1.2}
+dependent_variables:
+- header: {name: 'Invariant Yield'}
+  qualifiers:
+  - {name: 'Subsystem Combination', value: 'East-East'}
+  values:
+  - value: 0.223
+    errors:
+    - {symerror: 0.039, label: 'stat.'}
+    - {symerror: 0.033, label: 'sys.'}
+  - value: 0.0490
+    errors:
+    - {symerror: 0.011, label: 'stat.'}
+    - {symerror: 0.0073, label: 'sys.'}
+  - value: 0.0377
+    errors:
+    - {symerror: 0.0066, label: 'stat.'}
+    - {symerror: 0.0056, label: 'sys.'}
+  - value: 0.0225
+    errors:
+    - {symerror: 0.0061, label: 'stat.'}
+    - {symerror: 0.0033, label: 'sys.'}

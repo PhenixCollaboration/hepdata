@@ -1,0 +1,122 @@
+#PHENIX paper PPG110
+#
+#Azimuthal anisotropy of neutral pion production in Au+Au collisions at $\sqrt{s_{NN}}$ = 200 GeV: Path-length dependence of jet quenching and the role of initial geometry
+#
+#Phys.Rev.Lett 105 (2010) 142301
+#InspireHEP ID: 858845
+#
+#Prepared by Nikolas Nelson
+#Please contact Christine Nattrass if you have any questions about this submission
+#PPG liaison:
+#Reviewer:
+#
+comment: | # Information that applies to all data tables.
+  We have measured the azimuthal anisotropy of $\pi^0$ for 1 < $p_T$ < 18 GeV/$c$ for Au+Au collisions at $\sqrt{s_{NN}}$ = 200 GeV. The observed anisotropy shows a gradual decrease in 3 < $p_T$ < 7 - 10 GeV/$c$, but remains positive beyond 10 GeV/$c$. The magnitude of this anisotropy is under-predicted, up to at least 10 GeV/$c$, by current perturbative QCD (pQCD) energy-loss model calculations. An estimate of the increase in anisotropy expected from initial-geometry modification due to gluon saturation effects and initial-geometry fluctuations is insufficient to account for this discrepancy. Calculations which implement a path length dependence steeper than what is implied by current pQCD energy-loss models, show reasonable agreement with the data.
+additional_resources:
+- {location: "https://phenix-intra.sdcc.bnl.gov/phenix/WWW/p/info/ppg/110/", description: "web page with data points"}
+- {location: "http://arxiv.org/abs/1006.3740", description: arXiv}
+- {location: "https://inspirehep.net/literature/858845", description: InspireHEP}
+---
+# This is Figure 1.
+name: "Figure 1a"
+location: Data From Fig. 1 of PRL 105 (2010) 142301
+description: '$\pi^0$ $v_2$ using the reaction plane determined with MPC and RXN$_{in}$ combined as a function of $p_T$ for different centralities.'
+keywords: # used for searching, possibly mutliple values for each keywords
+- {name: reactions, values: [Au Au --> $\pi^0$]}
+- {name: cmenergies, values: [200.0]}
+- {name: phrases, values: [ppg110, azimuthal anisotropy, path-length dependence, jet quenching]}
+data_file: ppg110fig1a.yaml
+additional_resources:
+- {description: Thumbnail Image file, location: thumb_fig1.png}
+---
+# This is Figure 1.
+name: "Figure 1b"
+location: Data From Fig. 1 of PRL 105 (2010) 142301
+description: 'Ratios of $v_2$ measured separately using MPC and RXN$_{in}$ to combine results.'
+keywords: # used for searching, possibly mutliple values for each keywords
+- {name: reactions, values: [Au Au --> $\pi^0$]}
+- {name: cmenergies, values: [200.0]}
+- {name: phrases, values: [ppg110, azimuthal anisotropy, path-length dependence, jet quenching]}
+data_file: ppg110fig1b.yaml
+additional_resources:
+- {description: Thumbnail Image file, location: thumb_fig1.png}
+---
+# This is Figure 2 & 3.
+name: "Figure 2a-1"
+location: Data From Fig. 2 & 3 of PRL 105 (2010) 142301
+description: '$v_2$ vs $N_{part}$ in two $p_T$ ranges and $R_{AA}$ vs $N_{part}$ in the same $p_T$ ranges.'
+keywords: # used for searching, possibly mutliple values for each keywords
+- {name: reactions, values: [Au Au --> $\pi^0$]}
+- {name: cmenergies, values: [200.0]}
+- {name: phrases, values: [ppg110, azimuthal anisotropy, path-length dependence, jet quenching]}
+data_file: ppg110fig2a1.yaml
+additional_resources:
+- {description: Thumbnail Image file, location: thumb_fig2.png}
+- {description: Thumbnail Image file, location: thumb_fig3.png}
+---
+# This is Figure 2 & 3.
+name: "Figure 2a-2"
+location: Data From Fig. 2 & 3 of PRL 105 (2010) 142301
+description: '$v_2$ vs $N_{part}$ in two $p_T$ ranges and $R_{AA}$ vs $N_{part}$ in the same $p_T$ ranges.'
+keywords: # used for searching, possibly mutliple values for each keywords
+- {name: reactions, values: [Au Au --> $\pi^0$]}
+- {name: cmenergies, values: [200.0]}
+- {name: phrases, values: [ppg110, azimuthal anisotropy, path-length dependence, jet quenching]}
+data_file: ppg110fig2a2.yaml
+additional_resources:
+- {description: Thumbnail Image file, location: thumb_fig2.png}
+- {description: Thumbnail Image file, location: thumb_fig3.png}
+---
+# This is Figure 2 & 3.
+name: "Figure 2a-3"
+location: Data From Fig. 2 & 3 of PRL 105 (2010) 142301
+description: '$v_2$ vs $N_{part}$ in two $p_T$ ranges and $R_{AA}$ vs $N_{part}$ in the same $p_T$ ranges.'
+keywords: # used for searching, possibly mutliple values for each keywords
+- {name: reactions, values: [Au Au --> $\pi^0$]}
+- {name: cmenergies, values: [200.0]}
+- {name: phrases, values: [ppg110, azimuthal anisotropy, path-length dependence, jet quenching]}
+data_file: ppg110fig2a3.yaml
+additional_resources:
+- {description: Thumbnail Image file, location: thumb_fig2.png}
+- {description: Thumbnail Image file, location: thumb_fig3.png}
+---
+# This is Figure 2 & 3.
+name: "Figure 2b-1"
+location: Data From Fig. 2 & 3 of PRL 105 (2010) 142301
+description: '$v_2$ vs $N_{part}$ and $R_{AA}$ vs $N_{part}$ in two $p_T$ ranges compared with WHDG model.'
+keywords: # used for searching, possibly mutliple values for each keywords
+- {name: reactions, values: [Au Au --> $\pi^0$]}
+- {name: cmenergies, values: [200.0]}
+- {name: phrases, values: [ppg110, azimuthal anisotropy, path-length dependence, jet quenching]}
+data_file: ppg110fig2b1.yaml
+additional_resources:
+- {description: Thumbnail Image file, location: thumb_fig2.png}
+- {description: Thumbnail Image file, location: thumb_fig3.png}
+---
+# This is Figure 2 & 3.
+name: "Figure 2b-2a"
+location: Data From Fig. 2 & 3 of PRL 105 (2010) 142301
+description: '$v_2$ vs $N_{part}$ in two $p_T$ ranges compared with various models.'
+keywords: # used for searching, possibly mutliple values for each keywords
+- {name: reactions, values: [Au Au --> $\pi^0$]}
+- {name: cmenergies, values: [200.0]}
+- {name: phrases, values: [ppg110, azimuthal anisotropy, path-length dependence, jet quenching]}
+data_file: ppg110fig2b2a.yaml
+additional_resources:
+- {description: Thumbnail Image file, location: thumb_fig2.png}
+- {description: Thumbnail Image file, location: thumb_fig3.png}
+---
+# This is Figure 2 & 3.
+name: "Figure 2b-2b"
+location: Data From Fig. 2 & 3 of PRL 105 (2010) 142301
+description: '$R_{AA}$ vs $N_{part}$ in two $p_T$ ranges compared with various models.'
+keywords: # used for searching, possibly mutliple values for each keywords
+- {name: reactions, values: [Au Au --> $\pi^0$]}
+- {name: cmenergies, values: [200.0]}
+- {name: phrases, values: [ppg110, azimuthal anisotropy, path-length dependence, jet quenching]}
+data_file: ppg110fig2b2b.yaml
+additional_resources:
+- {description: Thumbnail Image file, location: thumb_fig2.png}
+- {description: Thumbnail Image file, location: thumb_fig3.png}
+---
+

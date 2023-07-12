@@ -1,0 +1,26 @@
+independent_variables:
+- header: {name: '$c\bar{c}$'}
+  values:
+  - value: '$|y_e- $&$ y_e+|_{PHENIX}$ && $m_{e^+e^-}$ > 1.16 GeV/$c^2$'
+  - value: '$|y_e- $&$ y_e+|_{PHENIX}$'
+  - value: '$|y_{c\bar{c}}|$ < 0.5'
+  - value: '4$\pi$'
+dependent_variables:
+- header: {name: 'PYTHIA'}
+  values:
+  - value: 10.3e-9
+  - value: '2.18e-8 (2.11)'
+  - value: '4.47e-5 (51.1/$BR^2$)'
+  - value: '11.5e-5 (2.56)'
+- header: {name: 'MC@NLO'}
+  values:
+  - value: 8.34e-9
+  - value: '1.83e-8 (2.19)'
+  - value: '3.49e-5 (47.6/$BR^2$)'
+  - value: '9.17e-5 (2.62)'
+- header: {name: 'POWHEG'}
+  values:
+  - value: 6.99e-9
+  - value: '1.46e-8 (2.12)'
+  - value: '2.61e-5 (44.6/$BR^2$)'
+  - value: '6.93e-5 (2.66)'

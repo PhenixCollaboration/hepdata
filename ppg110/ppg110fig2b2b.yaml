@@ -1,0 +1,48 @@
+independent_variables:
+- header: {name: '$N_{part}$'}
+  values:
+  - {value: 350.8}
+  - {value: 167.6}
+dependent_variables:
+- header: {name: '$R_{AA}$'}
+  qualifiers:
+  - {name: '$p_T$ (GeV/$c$)', value: '6 < $p_T$ < 9'}
+  - {name: '', value: 'AMY Calculation'}
+  values:
+  - value: 0.1850
+  - value: 0.2830
+- header: {name: '$R_{AA}$'}
+  qualifiers:
+  - {name: '$p_T$ (GeV/$c$)', value: '6 < $p_T$ < 9'}
+  - {name: '', value: 'HT Calculation'}
+  values:
+  - value: 0.2250
+  - value: 0.3430
+- header: {name: '$R_{AA}$'}
+  qualifiers:
+  - {name: '$p_T$ (GeV/$c$)', value: '6 < $p_T$ < 9'}
+  - {name: '', value: 'ASW Calculation'}
+  values:
+  - value: 0.1750
+  - value: 0.3005
+- header: {name: '$R_{AA}$'}
+  qualifiers:
+  - {name: '$p_T$ (GeV/$c$)', value: '$p_T$ > 9'}
+  - {name: '', value: 'AMY Calculation'}
+  values:
+  - value: 0.1850
+  - value: 0.3110
+- header: {name: '$R_{AA}$'}
+  qualifiers:
+  - {name: '$p_T$ (GeV/$c$)', value: '$p_T$ > 9'}
+  - {name: '', value: 'HT Calculation'}
+  values:
+  - value: 0.2250
+  - value: 0.3420
+- header: {name: '$R_{AA}$'}
+  qualifiers:
+  - {name: '$p_T$ (GeV/$c$)', value: '$p_T$ > 9'}
+  - {name: '', value: 'ASW Calculation'}
+  values:
+  - value: 0.1750
+  - value: 0.3285

@@ -17,26 +17,6 @@ additional_resources:
 - {location: "http://arxiv.org/abs/1211.4017", description: arXiv}
 - {location: "https://inspirehep.net/literature/1203021", description: InspireHEP}
 ---
-# This is Table 2.
-name: "Table 2"
-location: Data From Table 2 of PRC 87 (2013) 044909
-description: 'Relative strength of the three $\Upsilon$ states at CDF [27] and from FNAL E605 [26].'
-keywords: # used for searching, possibly mutliple values for each keywords
-- {name: reactions, values: [$d$ Au --> CHARGED X, $p$ $p$ --> CHARGED X]}
-- {name: cmenergies, values: [200.0]}
-- {name: phrases, values: [ppg142, cold-nuclear-matter, inclusive yield, nuclear-shadowing]}
-data_file: ppg142tab2.yaml
----
-# This is Table 4.
-name: "Table 4"
-location: Data From Table 4 of PRC 87 (2013) 044909
-description: 'Systematic uncertainties for each source and for each collision type. Type A represents a point-to-point uncorrelated systematic uncertainty. Type B represents a common systematic uncertainty between points at different rapidity. Type C is a global uncertainty.'
-keywords: # used for searching, possibly mutliple values for each keywords
-- {name: reactions, values: [$d$ Au --> CHARGED X, $p$ $p$ --> CHARGED X]}
-- {name: cmenergies, values: [200.0]}
-- {name: phrases, values: [ppg142, cold-nuclear-matter, inclusive yield, nuclear-shadowing]}
-data_file: ppg142tab4.yaml
----
 # This is Table 5.
 name: "Table 5"
 location: Data From Table 5 of PRC 87 (2013) 044909

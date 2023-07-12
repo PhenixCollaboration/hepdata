@@ -1,7 +1,7 @@
 independent_variables:
 - header: {name: '$k_T$ (GeV/$c$)'}
   values:
-  - {low: 200, high: 300}
+  - {low: 200, high: 400}
   - {low: 400, high: 550}
   - {low: 550, high: 1000}
 dependent_variables:
@@ -10,6 +10,28 @@ dependent_variables:
   - value: 333
   - value: 472
   - value: 633
+- header: {name: '$\lambda$'}
+  values:
+  - value: 0.442
+    errors:
+    - {symerror: 0.035, label: 'stat'}
+  - value: 0.386
+    errors:
+    - {symerror: 0.048, label: 'stat'}
+  - value: 0.328
+    errors:
+    - {symerror: 0.056, label: 'stat'}
+- header: {name: '$R_{out}$ (fm)'}
+  values:
+  - value: 11.27
+    errors:
+    - {symerror: 0.72, label: 'stat'}
+  - value: 12.42
+    errors:
+    - {symerror: 1.18, label: 'stat'}
+  - value: 11.89
+    errors:
+    - {symerror: 1.73, label: 'stat'}
 - header: {name: '$R_(side)$ (fm)'}
   values:
   - value: 4.61
@@ -21,14 +43,14 @@ dependent_variables:
   - value: 3.10
     errors:
     - {symerror: 0.42, label: 'stat'}
-- header: {name: '$R_{out}$/$R_{side}$'}
+- header: {name: '$R_{long}$ (fm)'}
   values:
-  - value: 2.445
+  - value: 5.72
     errors:
-    - {symerror: 2.67, label: 'stat'}
-  - value: 3.144
+    - {symerror: 0.38, label: 'stat'}
+  - value: 4.81
     errors:
-    - {symerror: 3.12, label: 'stat'}
-  - value: 3.835
+    - {symerror: 0.43, label: 'stat'}
+  - value: 3.78
     errors:
-    - {symerror: 4.12, label: 'stat'}
+    - {symerror: 0.49, label: 'stat'}

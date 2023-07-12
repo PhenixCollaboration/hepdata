@@ -1,0 +1,92 @@
+independent_variables:
+- header: {name: 'Electron $p_T$ (GeV/$c$)'}
+  values:
+  - {low: 1.00, high: 1.20}
+  - {low: 1.20, high: 1.40}
+  - {low: 1.40, high: 1.60}
+  - {low: 1.60, high: 1.80}
+  - {low: 1.80, high: 2.00}
+  - {low: 2.00, high: 2.20}
+  - {low: 2.20, high: 2.40}
+  - {low: 2.40, high: 2.60}
+  - {low: 2.60, high: 2.80}
+  - {low: 2.80, high: 3.00}
+  - {low: 3.00, high: 3.20}
+  - {low: 3.20, high: 3.40}
+  - {low: 3.40, high: 3.60}
+  - {low: 3.60, high: 3.80}
+  - {low: 3.80, high: 4.00}
+  - {low: 4.00, high: 4.50}
+  - {low: 4.50, high: 5.00}
+  - {low: 5.00, high: 6.00}
+  - {low: 6.00, high: 7.00}
+  - {low: 7.00, high: 8.00}
+  - {low: 8.00, high: 9.00}
+dependent_variables:
+- header: {name: '$\frac{1}{2\pi p_T}\frac{d^2 \sigma}{d p_T dy}$ [mb (GeV/$c$)${}^{-2}$]'}
+  qualifiers:
+  - {name: 'decay', value: 'c$\rightarrow$ e'}
+  values:
+  - value: 2.84e-4
+    errors:
+    - {symerror: 3.4e-5, label: 'stat'}
+  - value: 1.31e-4
+    errors:
+    - {symerror: 1.3e-5, label: 'stat'}
+  - value: 6.3e-5
+    errors:
+    - {symerror: 6e-6, label: 'stat'}
+  - value: 3.11e-5
+    errors:
+    - {symerror: 2.6e-6, label: 'stat'}
+  - value: 1.59e-5
+    errors:
+    - {symerror: 1.3e-6, label: 'stat'}
+  - value: 8.4e-6
+    errors:
+    - {symerror: 7e-7, label: 'stat'}
+  - value: 4.6e-6
+    errors:
+    - {symerror: 4e-7, label: 'stat'}
+  - value: 2.56e-6
+    errors:
+    - {symerror: 2.3e-7, label: 'stat'}
+  - value: 1.48e-6
+    errors:
+    - {symerror: 1.4e-7, label: 'stat'}
+  - value: 8.7e-7
+    errors:
+    - {symerror: 8e-8, label: 'stat'}
+  - value: 5.3e-7
+    errors:
+    - {symerror: 5e-8, label: 'stat'}
+  - value: 3.29e-7
+    errors:
+    - {symerror: 3.5e-8, label: 'stat'}
+  - value: 2.07e-7
+    errors:
+    - {symerror: 2.3e-8, label: 'stat'}
+  - value: 1.34e-7
+    errors:
+    - {symerror: 1.5e-8, label: 'stat'}
+  - value: 8.8e-8
+    errors:
+    - {symerror: 1.1e-8, label: 'stat'}
+  - value: 4.5e-8
+    errors:
+    - {symerror: 6e-9, label: 'stat'}
+  - value: 1.83e-8
+    errors:
+    - {symerror: 2.9e-9, label: 'stat'}
+  - value: 5.8e-9
+    errors:
+    - {symerror: 1.1e-9, label: 'stat'}
+  - value: 1.42e-9
+    errors:
+    - {symerror: 3.4e-10, label: 'stat'}
+  - value: 4.3e-10
+    errors:
+    - {symerror: 1.2e-10, label: 'stat'}
+  - value: 1.5e-10
+    errors:
+    - {symerror: 4e-11, label: 'stat'}

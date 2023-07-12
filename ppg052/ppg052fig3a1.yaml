@@ -5,7 +5,7 @@ independent_variables:
   - {low: 0.37, high: 0.48}
   - {low: 0.48, high: 0.60}
 dependent_variables:
-- header: {name: '$R_T$ (fm)'}
+- header: {name: '$R_{sr}$ (fm)'}
   qualifiers:
   - {name: 'Centrality', value: '0-20%'}
   values:
@@ -18,7 +18,7 @@ dependent_variables:
   - value: 4.4
     errors:
     - {symerror: 0.1, label: 'stat.'}
-- header: {name: '$R_T$ (fm)'}
+- header: {name: '$R_{sr}$ (fm)'}
   qualifiers:
   - {name: 'Centrality', value: '40-90%'}
   values:
@@ -31,7 +31,7 @@ dependent_variables:
   - value: 3.1
     errors:
     - {symerror: 0.1, label: 'stat.'}
-- header: {name: 'Complement $R_L$'}
+- header: {name: '$R_{lr}$ (fm)'}
   qualifiers:
   - {name: 'Centrality', value: '0-20%'}
   values:
@@ -44,7 +44,7 @@ dependent_variables:
   - value: 11.5
     errors:
     - {symerror: 1.5, label: 'stat.'}
-- header: {name: 'Complement $R_L$'}
+- header: {name: '$R_{lr}$ (fm)'}
   qualifiers:
   - {name: 'Centrality', value: '40-90%'}
   values:

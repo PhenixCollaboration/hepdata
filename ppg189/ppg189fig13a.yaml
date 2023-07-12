@@ -1,0 +1,36 @@
+independent_variables:
+- header: {name: '$p$+$p$'}
+  values:
+  - value: '$c\bar{c}$'
+  - value: '$b\bar{b}$'
+dependent_variables:
+- header: {name: 'PYTHIA'}
+  values:
+  - value: 356
+    errors:
+    - {symerror: 27, label: 'stat.'}
+    - {symerror: 89, label: 'sys.'}
+  - value: 4.81
+    errors:
+    - {symerror: 0.71, label: 'stat.'}
+    - {symerror: 1.00, label: 'sys.'}
+- header: {name: 'MC@NLO'}
+  values:
+  - value: 708
+    errors:
+    - {symerror: 55, label: 'stat.'}
+    - {symerror: 175, label: 'sys.'}
+  - value: 3.85
+    errors:
+    - {symerror: 0.73, label: 'stat.'}
+    - {symerror: 0.8, label: 'sys.'}
+- header: {name: 'POWHEG'}
+  values:
+  - value: 267
+    errors:
+    - {symerror: 19, label: 'stat.'}
+    - {symerror: 67, label: 'sys.'}
+  - value: 2.91
+    errors:
+    - {symerror: 0.63, label: 'stat.'}
+    - {symerror: 0.61, label: 'sys.'}

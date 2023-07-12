@@ -18,14 +18,28 @@ additional_resources:
 - {location: "https://inspirehep.net/literature/690050", description: InspireHEP}
 ---
 # This is Figure 1.
-name: "Figure 1"
+name: "Figure 1a"
 location: Data From Fig. 1 of PRL 96 (2006) 032302
-description: 'The measured $v_2$ of inclusive photon ($v_2^{inclusive \gamma}$) and $v_2$ of $\pi^0$ ($v_2^{\pi^0}$) for 4 centrality selections.'
+description: 'The measured $v_2$ of $\pi^0$ ($v_2^{\pi^0}$) for 4 centrality selections.'
 keywords: # used for searching, possibly mutliple values for each keywords
 - {name: reactions, values: [Au Au --> CHARGED X]}
 - {name: cmenergies, values: [200.0]}
 - {name: phrases, values: [ppg046, azimuthal distribution]}
-data_file: ppg046fig1.yaml
+data_file: ppg046fig1a.yaml
+additional_resources:
+- {description: Original EPS Image file, location: ppg046_fig1.eps}
+- {description: PNG Image file, location: ppg046_fig1.png}
+- {description: Thumbnail Image file, location: thumb_ppg046_fig1.png}
+---
+# This is Figure 1.
+name: "Figure 1b"
+location: Data From Fig. 1 of PRL 96 (2006) 032302
+description: 'The measured $v_2$ of inclusive photon ($v_2^{inclusive \gamma}$) for 4 centrality selections.'
+keywords: # used for searching, possibly mutliple values for each keywords
+- {name: reactions, values: [Au Au --> CHARGED X]}
+- {name: cmenergies, values: [200.0]}
+- {name: phrases, values: [ppg046, azimuthal distribution]}
+data_file: ppg046fig1b.yaml
 additional_resources:
 - {description: Original EPS Image file, location: ppg046_fig1.eps}
 - {description: PNG Image file, location: ppg046_fig1.png}
@@ -53,7 +67,21 @@ keywords: # used for searching, possibly mutliple values for each keywords
 - {name: reactions, values: [Au Au --> CHARGED X]}
 - {name: cmenergies, values: [200.0]}
 - {name: phrases, values: [ppg046, azimuthal distribution, hadronic decay]}
-data_file: ppg046fig3.yaml
+data_file: ppg046fig3a.yaml
+additional_resources:
+- {description: Original EPS Image file, location: ppg046_fig3.eps}
+- {description: PNG Image file, location: ppg046_fig3.png}
+- {description: Thumbnail Image file, location: thumb_ppg046_fig3.png}
+---
+# This is Figure 3.
+name: "Figure 3b"
+location: Data From Fig. 3 of PRL 96 (2006) 032302
+description: 'The ratio of the hadronic decay photon $v_2$ over inclusive photon $v_2$ ($v_2^{b.g}/v_2^{inclusive \gamma}$) compared with the direct photon excess ratio $R = (N_{direct \gamma} + N_{b.g})/N_{b.g}$.'
+keywords: # used for searching, possibly mutliple values for each keywords
+- {name: reactions, values: [Au Au --> CHARGED X]}
+- {name: cmenergies, values: [200.0]}
+- {name: phrases, values: [ppg046, azimuthal distribution, hadronic decay]}
+data_file: ppg046fig3b.yaml
 additional_resources:
 - {description: Original EPS Image file, location: ppg046_fig3.eps}
 - {description: PNG Image file, location: ppg046_fig3.png}

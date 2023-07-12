@@ -1,0 +1,63 @@
+#PHENIX paper PPG207
+#
+#Measurements of mass-dependent azimuthal anisotropy in central $p$+Au, $d$+Au, and $^3$He+Au collisions at $\sqrt{s_{NN}}$ = 200 GeV
+#
+#Phys.Rev.Lett C 97 (2018) 064904
+#InspireHEP ID: 1632759
+#
+#Prepared by Nikolas Nelson
+#Please contact Christine Nattrass if you have any questions about this submission
+#PPG liaison:
+#Reviewer:
+#
+comment: | # Information that applies to all data tables.
+  We present measurements of the transverse-momentum dependence of elliptic flow $v_2$ for identified pions and (anti)protons at midrapidity ($|\eta|$ < 0.35), in 0%-5% central $p$+Au and $^3$He+Au collisions at $\sqrt{s_{NN}}$ = 200 GeV. When taken together with previously published measurements in $d$+Au collisions at $\sqrt{s_{NN}}$ = 200 GeV, the results cover a broad range of small-collision-system multiplicities and intrinsic initial geometries. We observe a clear mass-dependent splitting of $v_2$($p_T$) in $d$+Au and $^3$He+Au collisions, just as in large nucleus-nucleus ($A$+$A$) collisions, and a smaller splitting in $p$+Au collisions. Both hydrodynamic and transport model calculations successfully describe the data at low $p_T$ (< 1.5 GeV/$c$), but fail to describe various features at higher $p_T$. In all systems, the $v_2$ values follow an approximate quark-number scaling as a function of the hadron transverse kinetic energy per constituent quark($KE_T$/$n_q$), which was also seen previously in $A$+$A$ collisions.
+additional_resources:
+- {location: "https://phenix-intra.sdcc.bnl.gov/phenix/WWW/p/info/ppg/207/", description: "web page with data points"}
+- {location: "http://arxiv.org/abs/1710.09736", description: arXiv}
+- {location: "https://inspirehep.net/literature/1632759", description: InspireHEP}
+---
+# This is Table 1.
+name: "Table 1a"
+location: Data From Fig. 1 of PRC 97 (2018) 064904
+description: 'Values of $v_2$($p_T$) for kaons in central 0-5% $p$+Au collisions at $\sqrt{s_{NN}}$ = 200 GeV.'
+keywords: # used for searching, possibly mutliple values for each keywords
+- {name: reactions, values: [$p$ Au --> CHARGED X]}
+- {name: cmenergies, values: [200.0]}
+- {name: phrases, values: [ppg207, azimuthal anisotropy, transverse momentum, midrapidity]}
+data_file: ppg207tab1a.yaml
+---
+# This is Table 1.
+name: "Table 1b"
+location: Data From Fig. 1 of PRC 97 (2018) 064904
+description: 'Values of $v_2$($p_T$) for kaons in central 0-5% $^3$He+Au collisions at $\sqrt{s_{NN}}$ = 200 GeV.'
+keywords: # used for searching, possibly mutliple values for each keywords
+- {name: reactions, values: [$^3$He Au --> CHARGED X]}
+- {name: cmenergies, values: [200.0]}
+- {name: phrases, values: [ppg207, azimuthal anisotropy, transverse momentum, midrapidity]}
+data_file: ppg207tab1b.yaml
+---
+# This is Figure 1.
+name: "Figure 1a"
+location: Data From Fig. 1 of PRC 97 (2018) 064904
+description: 'Transverse momentum dependence of $v_2$ for identified pions and protons within $|\eta|$ < 0.35 in 0-5% central $p$+Au collisions.'
+keywords: # used for searching, possibly mutliple values for each keywords
+- {name: reactions, values: [$p$ Au --> CHARGED X]}
+- {name: cmenergies, values: [200.0]}
+- {name: phrases, values: [ppg207, azimuthal anisotropy, transverse momentum, midrapidity]}
+data_file: ppg207fig1a.yaml
+additional_resources:
+- {description: Thumbnail Image file, location: thumb_figure1.png}
+---
+# This is Figure 1.
+name: "Figure 1b"
+location: Data From Fig. 1 of PRC 97 (2018) 064904
+description: 'Transverse momentum dependence of $v_2$ for identified pions and protons within $|\eta|$ < 0.35 in 0-5% central $^3$He+Au collisions.'
+keywords: # used for searching, possibly mutliple values for each keywords
+- {name: reactions, values: [$^3$He Au --> CHARGED X]}
+- {name: cmenergies, values: [200.0]}
+- {name: phrases, values: [ppg207, azimuthal anisotropy, transverse momentum, midrapidity]}
+data_file: ppg207fig1b.yaml
+additional_resources:
+- {description: Thumbnail Image file, location: thumb_figure1.png}
+---
