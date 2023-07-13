@@ -1,5 +1,5 @@
 independent_variables:
-- header: {name: '$p_T$ (GeV/$c$)'}
+- header: {name: '$p_T$ Bins (GeV/$c$)'}
   values:
   - {low: 2.00, high: 2.50}
   - {low: 2.50, high: 3.00}
@@ -12,6 +12,20 @@ independent_variables:
   - {low: 8.00, high: 9.00}
   - {low: 9.00, high: 10.00}
 dependent_variables:
+- header: {name: '$p_T$ (GeV/$c$)'}
+  qualifiers:
+  - {name: 'Centrality', value: ''}
+  values:
+  - value: 2.25
+  - value: 2.75
+  - value: 3.25
+  - value: 3.75
+  - value: 4.50
+  - value: 5.50
+  - value: 6.50
+  - value: 7.50
+  - value: 8.50
+  - value: 9.50
 - header: {name: '1/[2${\pi}p_T$] $d^2N/dp_Tdy$ (GeV/$c$)'}
   qualifiers:
   - {name: 'Centrality', value: '0-92%'}
