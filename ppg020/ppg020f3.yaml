@@ -8,7 +8,7 @@ independent_variables:
   - {low: 2.7, high: 3.1}
   - {low: 3.1, high: 3.5}
   - {low: 3.5, high: 4.3}
-- header: {name: '$\langle p_T \rangle$ [GeV/$c^2$]'}
+- header: {name: '$\langle p_T \rangle$ [GeV/$c$]'}
   values:
   - {value: 1.312}
   - {value: 1.702}
@@ -22,6 +22,7 @@ dependent_variables:
 - header: {name: 'B$_2$ [GeV$^2$/$c^3$]'}
   qualifiers:
   - {name: 'Centrality', value: '0-20%'}
+  - {name: 'Particle', value: '$d$'}
   values:
   - value: 6.4e-4
     errors:
@@ -54,6 +55,7 @@ dependent_variables:
 - header: {name: 'B$_2$ [GeV$^2$/$c^3$]'}
   qualifiers:
   - {name: 'Centrality', value: '0-20%'}
+  - {name: 'Particle', value: '$\bar{d}$'}
   values:
   - value: 5.8e-4
     errors:
@@ -86,6 +88,7 @@ dependent_variables:
 - header: {name: 'B$_2$ [GeV$^2$/$c^3$]'}
   qualifiers:
   - {name: 'Centrality', value: '20-92%'}
+  - {name: 'Particle', value: '$d$'}
   values:
   - value: 0.00251
     errors:
@@ -118,6 +121,7 @@ dependent_variables:
 - header: {name: 'B$_2$ [GeV$^2$/$c^3$]'}
   qualifiers:
   - {name: 'Centrality', value: '20-92%'}
+  - {name: 'Particle', value: '$\bar{d}$'}
   values:
   - value: 0.00233
     errors:
@@ -150,6 +154,7 @@ dependent_variables:
 - header: {name: 'B$_2$ [GeV$^2$/$c^3$]'}
   qualifiers:
   - {name: 'Centrality', value: '0-92% (Min Bias)'}
+  - {name: 'Particle', value: '$d$'}
   values:
   - value: 0.00134
     errors:
@@ -182,6 +187,7 @@ dependent_variables:
 - header: {name: 'B$_2$ [GeV$^2$/$c^3$]'}
   qualifiers:
   - {name: 'Centrality', value: '0-92% (Min Bias)'}
+  - {name: 'Particle', value: '$\bar{d}$'}
   values:
   - value: 0.00121
     errors:
