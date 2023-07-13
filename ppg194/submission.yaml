@@ -1,0 +1,116 @@
+#PHENIX paper PPG194
+#
+# Lévy-stable two-pion Bose-Einstein correlations in $\sqrt{s_{NN}}$=200 GeV Au+Au collisions
+#
+#Phys.Rev.C 97 (2018) 064911
+#InspireHEP ID: 1624209
+#
+#Prepared by Josie Hakanson
+#Please contact Christine Nattrass if you have any questions about this submission
+#PPG liaison:
+#Reviewer:
+#
+comment: | # Information that applies to all data tables.
+  We present a detailed measurement of charged two-pion correlation functions in 0%-30% centrality $\sqrt{s_{NN}}$ = 200 GeV Au+Au collisions by the PHENIX experiment at the Relativistic Heavy Ion Collider. The data are well described by Bose-Einstein correlation functions stemming from Lévy-stable source distributions. Using a fine transverse momentum binning, we extract the correlation strength parameter $\lambda$, the Lévy index of stability $\alpha$ and the Lévy length scale parameter $R$ as a function of average transverse mass of the pair $m_{T}$. We find that the positively and the negatively charged pion pairs yield consistent results, and their correlation functions are represented, within uncertainties, by the same Lévy-stable source functions. The $\lambda$($m_{T}$) measurements indicate a decrease of the strength of the correlations at low $m_{T}$. The Lévy length scale parameter $R$($m_{T}$) decreases with increasing $m_{T}$, following a hydrodynamically predicted type of scaling behavior. The values of the Lévy index of stability $\alpha$ are found to be significantly lower than the Gaussian case of $\alpha$ = 2, but also significantly larger than the conjectured value that may characterize the critical point of a second-order quark-hadron phase transition.
+additional_resources:
+- {location: "https://phenix-intra.sdcc.bnl.gov/phenix/WWW/p/info/ppg/194/", description: "web page with data points"}
+- {location: "http://arxiv.org/abs/1709.05649", description: arXiv}
+- {location: "https://inspirehep.net/literature/1624209", description: InspireHEP}
+---
+name: "Figure 3a"
+
+location: Data From Fig. 3a of PRC 97 (2018) 064911
+description: 'Example fits of Bose-Einstein correlation functions of (a) $\pi^{-}\pi^{-}$ pair with $m_{T}$ between 0.331 and 0.349 GeV/$c^2$ and of (b) $\pi^{+}\pi^{+}$ pair with $m_T$ between 0.655 and 0.675 GeV/$c^2$, as a function $Q$ ≡ |$q_{LCMS}$|, defined in Eq. (26). Both fits show the measured correlation function and the complete fit function (described in VI A), while a Bose-Einstein fit function $C^{(0)}_{2} (Q)$ is also shown, with the Coulomb-corrected data, i.e. the raw data multiplied by $C^{(0)}_{2} (Q)/C_{2}(Q)$. In this analysis we measured 62 such correlation functions (for ++ and -- pairs, in 31 $m_T$ bins), and fitted all of them with the method described in VIA. The first visible point on both panels corresponds to $Q$ values below the accessible range (based on an evaluation of the two-track cuts), these were not taken into account in the fitting.'
+keywords: # used for searching, possibly mutliple values for each keywords
+- {name: reactions, values: [Au+Au$\implies$ $\pi^+$ $\pi^+$, Au+Au$\implies$ $\pi^-$ $\pi^-$]}
+- {name: cmenergies, values: [200.0]}
+- {name: phrases, values: [ppg194, two-pion correlation, Bose-Einstein correlation, Lévy-stable]}
+data_file: ppg194fig3a.yaml
+additional_resources:
+- {description: Figure 3a, location: figure3a.png}
+---
+name: "Figure 3b"
+
+location: Data From Fig. 3b of PRC 97 (2018) 064911
+description: 'Example fits of Bose-Einstein correlation functions of (a) $\pi^{-}\pi^{-}$ pair with $m_{T}$ between 0.331 and 0.349 GeV/$c^2$ and of (b) $\pi^{+}\pi^{+}$ pair with $m_T$ between 0.655 and 0.675 GeV/$c^2$, as a function $Q$ ≡ |$q_{LCMS}$|, defined in Eq. (26). Both fits show the measured correlation function and the complete fit function (described in VI A), while a Bose-Einstein fit function $C^{(0)}_{2} (Q)$ is also shown, with the Coulomb-corrected data, i.e. the raw data multiplied by $C^{(0)}_{2} (Q)/C_{2}(Q)$. In this analysis we measured 62 such correlation functions (for ++ and -- pairs, in 31 $m_T$ bins), and fitted all of them with the method described in VIA. The first visible point on both panels corresponds to $Q$ values below the accessible range (based on an evaluation of the two-track cuts), these were not taken into account in the fitting.'
+keywords: # used for searching, possibly mutliple values for each keywords
+- {name: reactions, values: [Au+Au$\implies$ $\pi^+$ $\pi^+$, Au+Au$\implies$ $\pi^-$ $\pi^-$]}
+- {name: cmenergies, values: [200.0]}
+- {name: phrases, values: [ppg194, two-pion correlation, Bose-Einstein correlation, Lévy-stable]}
+data_file: ppg194fig3b.yaml
+additional_resources:
+- {description: Figure 3b, location: figure3b.png}
+---
+name: "Figure 4"
+
+location: Data From Fig. 4 of PRC 97 (2018) 064911
+description: 'Correlation strength parameter $\lambda$ versus average $m_T$ of the pair, for 0%-30% centrality collisions. Statistical and systematic uncertainties are shown as bars and boxes.'
+keywords: # used for searching, possibly mutliple values for each keywords
+- {name: reactions, values: [Au+Au$\implies$ $\pi^+$ $\pi^+$, Au+Au$\implies$ $\pi^-$ $\pi^-$]}
+- {name: cmenergies, values: [200.0]}
+- {name: phrases, values: [ppg194, two-pion correlation, Bose-Einstein correlation, Lévy-stable]}
+data_file: ppg194fig4.yaml
+additional_resources:
+- {description: Figure 4, location: figure4.png}
+---
+name: "Figure 5"
+
+location: Data From Fig. 5 of PRC 97 (2018) 064911
+description: 'Lévy scale parameter $R$ versus average $m_T$ of the pair. The graphical representation of statistical and systematic uncertainties is the same as in Fig. 4.'
+keywords: # used for searching, possibly mutliple values for each keywords
+- {name: reactions, values: [Au+Au$\implies$ $\pi^+$ $\pi^+$, Au+Au$\implies$ $\pi^-$ $\pi^-$]}
+- {name: cmenergies, values: [200.0]}
+- {name: phrases, values: [ppg194, two-pion correlation, Bose-Einstein correlation, Lévy-stable]}
+data_file: ppg194fig5.yaml
+additional_resources:
+- {description: Figure 5, location: figure5.png}
+---
+name: "Figure 6"
+
+location: Data From Fig. 6 of PRC 97 (2018) 064911
+description: 'Lévy index parameter $\alpha$ versus average $m_T$ of the pair. Statistical and systematic uncertainties are indicated similarly to Fig. 4. The horizontal line, %\aplha$ = 1.207, represents the 0%-30% centrality average value of %\aplha$.'
+keywords: # used for searching, possibly mutliple values for each keywords
+- {name: reactions, values: [Au+Au$\implies$ $\pi^+$ $\pi^+$, Au+Au$\implies$ $\pi^-$ $\pi^-$]}
+- {name: cmenergies, values: [200.0]}
+- {name: phrases, values: [ppg194, two-pion correlation, Bose-Einstein correlation, Lévy-stable]}
+data_file: ppg194fig6.yaml
+additional_resources:
+- {description: Figure 6, location: figure6.png}
+---
+name: "Figure 8"
+
+location: Data From Fig. 8 of PRC 97 (2018) 064911
+description: 'Inverse square of the Lévy scale parameter 1/$R^2$ versus average $m_T$ of the pair. Statistical and systematic uncertainties shown as bars and boxes, respectively.'
+keywords: # used for searching, possibly mutliple values for each keywords
+- {name: reactions, values: [Au+Au$\implies$ $\pi^+$ $\pi^+$, Au+Au$\implies$ $\pi^-$ $\pi^-$]}
+- {name: cmenergies, values: [200.0]}
+- {name: phrases, values: [ppg194, two-pion correlation, Bose-Einstein correlation, Lévy-stable]}
+data_file: ppg194fig8.yaml
+additional_resources:
+- {description: Figure 8, location: figure8.png}
+---
+name: "Figure 10"
+
+location: Data From Fig. 10 of PRC 97 (2018) 064911
+description: 'New scale parameter $\hat{R}$ versus average $m_T$ of the pair, with a linear fit. Statistical and systematic uncertainties shown as bars and boxes, respectively.'
+keywords: # used for searching, possibly mutliple values for each keywords
+- {name: reactions, values: [Au+Au$\implies$ $\pi^+$ $\pi^+$, Au+Au$\implies$ $\pi^-$ $\pi^-$]}
+- {name: cmenergies, values: [200.0]}
+- {name: phrases, values: [ppg194, two-pion correlation, Bose-Einstein correlation, Lévy-stable]}
+data_file: ppg194fig10.yaml
+additional_resources:
+- {description: Figure 10, location: figure10.png}
+---
+name: "Figure 11"
+
+location: Data From Fig. 11 of PRC 97 (2018) 064911
+description: 'Normalized correlation strength parameter $\lambda/\lambda_{max}$ versus average $m_T$ of the pair. The data are compared with parameter scans from Refs. [58, 59] using different values of in-medium $\eta^{\prime}$ mass $m^{*}_{\eta^{\prime}}$ and slope parameter $B^{-1}_{\eta^{\prime}}$ . A best fit with Eq. (63) and the resulting $H$ and $\sigma$ parameters are also shown.'
+keywords: # used for searching, possibly mutliple values for each keywords
+- {name: reactions, values: [Au+Au$\implies$ $\pi^+$ $\pi^+$, Au+Au$\implies$ $\pi^-$ $\pi^-$]}
+- {name: cmenergies, values: [200.0]}
+- {name: phrases, values: [ppg194, two-pion correlation, Bose-Einstein correlation, Lévy-stable]}
+data_file: ppg194fig11.yaml
+additional_resources:
+- {description: Figure 11, location: figure11.png}
+---
+
