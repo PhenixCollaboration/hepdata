@@ -1,0 +1,90 @@
+independent_variables:
+- header: {name: '$p_T$ Bins (GeV/$c$)'}
+  values:
+  - {low: 2.0, high: 2.5}
+  - {low: 2.5, high: 3.0}
+  - {low: 3.0, high: 3.5}
+  - {low: 3.5, high: 4.0}
+  - {low: 4.0, high: 4.5}
+  - {low: 4.5, high: 5.0}
+  - {low: 5.0, high: 5.5}
+  - {low: 5.5, high: 6.0}
+  - {low: 6.0, high: 7.0}
+  - {low: 7.0, high: 8.0}
+  - {low: 8.0, high: 9.0}
+  - {low: 9.0, high: 10.0}
+  - {low: 10.0, high: 12.0}
+dependent_variables:
+- header: {name: '$p_T$ (GeV/$c$)'}
+  qualifiers:
+  - {name: '', value: ''}
+  values:
+  - {value: 2.25}
+  - {value: 2.75}
+  - {value: 3.25}
+  - {value: 3.75}
+  - {value: 4.25}
+  - {value: 4.75}
+  - {value: 5.25}
+  - {value: 5.75}
+  - {value: 6.50}
+  - {value: 7.50}
+  - {value: 8.50}
+  - {value: 9.50}
+  - {value: 11.00}
+- header: {name: '$E d^3 \sigma /dp^3$ (mb $GeV^{-2}c^{3}$)'}
+  qualifiers:
+  - {name: '', value: '$\eta$'}
+  values:
+  - value: 2.05976
+    errors:
+    - {symerror: 0.13, label: 'stat.'}
+    - {symerror: 3.4e-4, label: 'sys.'}
+  - value: 0.62496
+    errors:
+    - {symerror: 0.04, label: 'stat.'}
+    - {symerror: 4e-5, label: 'sys.'}
+  - value: 0.157453
+    errors:
+    - {symerror: 0.015, label: 'stat.'}
+    - {symerror: 8e-6, label: 'sys.'}
+  - value: 0.0671828
+    errors:
+    - {symerror: 0.0019, label: 'stat.'}
+    - {symerror: 3.3e-6, label: 'sys.'}
+  - value: 0.0257029
+    errors:
+    - {symerror: 8e-4, label: 'stat.'}
+    - {symerror: 1.3e-6, label: 'sys.'}
+  - value: 0.0105708
+    errors:
+    - {symerror: 4e-4, label: 'stat.'}
+    - {symerror: 5e-7, label: 'sys.'}
+  - value: 0.00438376
+    errors:
+    - {symerror: 2.0e-4, label: 'stat.'}
+    - {symerror: 2.2e-7, label: 'sys.'}
+  - value: 0.00230353
+    errors:
+    - {symerror: 1.2e-4, label: 'stat.'}
+    - {symerror: 1.2e-7, label: 'sys.'}
+  - value: 9.2025e-4
+    errors:
+    - {symerror: 5e-5, label: 'stat.'}
+    - {symerror: 5e-8, label: 'sys.'}
+  - value: 2.46894e-4
+    errors:
+    - {symerror: 3.0e-5, label: 'stat.'}
+    - {symerror: 1.4e-8, label: 'sys.'}
+  - value: 9.1700e-5
+    errors:
+    - {symerror: 1.4e-5, label: 'stat.'}
+    - {symerror: 5e-9, label: 'sys.'}
+  - value: 4.56000e-5
+    errors:
+    - {symerror: 7e-6, label: 'stat.'}
+    - {symerror: 2.7e-9, label: 'sys.'}
+  - value: 1.31000e-5
+    errors:
+    - {symerror: 2.2e-6, label: 'stat.'}
+    - {symerror: 8e-10, label: 'sys.'}

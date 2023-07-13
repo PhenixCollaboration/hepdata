@@ -1,22 +1,38 @@
 independent_variables:
-- header: {name: 'pT'}
+- header: {name: '$p_T$ Bins (GeV/$c$)'}
   values:
-  - {low: 2, high: 2.5}
-  - {low: 2.5, high: 3}
-  - {low: 3, high: 3.5}
-  - {low: 3.5, high: 4}
-  - {low: 4, high: 4.5}
-  - {low: 4.5, high: 5}
-  - {low: 5, high: 5.5}
-  - {low: 5.5, high: 6}
-  - {low: 6, high: 7}
-  - {low: 7, high: 8}
-  - {low: 8, high: 9}
-  - {low: 9, high: 10}
+  - {low: 2.0, high: 2.5}
+  - {low: 2.5, high: 3.0}
+  - {low: 3.0, high: 3.5}
+  - {low: 3.5, high: 4.0}
+  - {low: 4.0, high: 4.5}
+  - {low: 4.5, high: 5.0}
+  - {low: 5.0, high: 5.5}
+  - {low: 5.5, high: 6.0}
+  - {low: 6.0, high: 7.0}
+  - {low: 7.0, high: 8.0}
+  - {low: 8.0, high: 9.0}
+  - {low: 9.0, high: 10.0}
 dependent_variables:
-- header: {name: 'yield'}
+- header: {name: '$p_T$ (GeV/$c$)'}
   qualifiers:
-  - {name: 'pT', value: 'qualifiers'}
+  - {name: 'Centrality', value: ''}
+  values:
+  - value: 2.25
+  - value: 2.75
+  - value: 3.25
+  - value: 3.75
+  - value: 4.25
+  - value: 4.75
+  - value: 5.25
+  - value: 5.75
+  - value: 6.50
+  - value: 7.50
+  - value: 8.50
+  - value: 9.50
+- header: {name: '$1/{2\pi p_T N_{evt}}$ ${dN}/{d p_T dy}$ (1/GeV$^2$)'}
+  qualifiers:
+  - {name: 'Centrality', value: '60-88%'}
   values:
   - value: 4.1e-4
     errors:
