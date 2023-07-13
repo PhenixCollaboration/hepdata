@@ -1,0 +1,43 @@
+#PHENIX paper PPG215
+#
+#Nuclear dependence of the transverse single-spin asymmetry in the production of charged hadrons at forward rapidity in polarized $p$+$p$, $p$+Al, and $p$+Au collisions at $\sqrt{s_{NN}}$ = 200 GeV
+#
+#Phys.Rev.Lett 123 (2019) 122001
+#InspireHEP ID: 1725616
+#
+#Prepared by Nikolas Nelson
+#Please contact Christine Nattrass if you have any questions about this submission
+#PPG liaison:
+#Reviewer:
+#
+comment: | # Information that applies to all data tables.
+  We report on the nuclear dependence of transverse single-spin asymmetries (TSSAs) in the production of positively-charged hadrons in polarized $p^{\uparrow}$+$p$, $p^{\uparrow}$+Al and $p^{\uparrow}$+Au collisions at $\sqrt{s_{NN}}$ = 200 GeV. The measurements have been performed at forward rapidity (1.4 < $\eta$ < 2.4) over the range of transverse momentum (1.8 < $p_T$ < 7.0 GeV/$c$) and Feynman-$x$ (0.1 < $x_F$< 0.2). We observed a positive asymmetry $A_N$ for positively-charged hadrons in $p^{\uparrow}$+$p$ collisions, and a significantly reduced asymmetry in $p^{\uparrow}$+$A$ collisions. These results reveal a nuclear dependence of charged hadron $A_N$ in a regime where perturbative techniques are relevant. These results provide new opportunities to use $p^{\uparrow}$+$A$ collisions as a tool to investigate the rich phenomena behind TSSAs in hadronic collisions and to use TSSA as a new handle in studying small-system collisions.
+additional_resources:
+- {location: "https://phenix-intra.sdcc.bnl.gov/phenix/WWW/p/info/ppg/215/", description: "web page with data points"}
+- {location: "http://arxiv.org/abs/1903.07422", description: arXiv}
+- {location: "https://inspirehep.net/literature/1725616", description: InspireHEP}
+---
+# This is Figure 2.
+name: "Figure 2a"
+location: Data From Table 3 of PRL 123 (2019) 122001
+description: '$A_N$ as a function of $A^{1/3}$ for positively-charged hadrons at 1.4 < $\eta$ < 2.4, 0.1 < $x_F$ < 0.2, and 1.8 < $p_T$ < 7.0 GeV/$c$ in $p^{\uparrow}$+$p$, $p^{\uparrow}$+Al, and $p^{\uparrow}$+Au collisions.'
+keywords: # used for searching, possibly mutliple values for each keywords
+- {name: reactions, values: [$p^\uparrow$ $p$ --> CHARGED X, $p^\uparrow$ Al --> CHARGED X, $p^\uparrow$ Au --> CHARGED X]}
+- {name: cmenergies, values: [200.0]}
+- {name: phrases, values: [ppg215, forward rapidity, transverse single spin asymmetries, transverse momentum]}
+data_file: ppg215fig2a.yaml
+additional_resources:
+- {description: Thumbnail Image file, location: thumb_Adep_x1.png}
+---
+# This is Figure 2.
+name: "Figure 2b"
+location: Data From Table 4 of PRL 123 (2019) 122001
+description: '$A_N$ as a function of $N^{Avg.}_{coll}$ for positively-charged hadrons at 1.4 < $\eta$ < 2.4, 0.1 < $x_F$ < 0.2, and 1.8 < $p_T$ < 7.0 GeV/$c$ in $p^{\uparrow}$+$p$, $p^{\uparrow}$+Al, and $p^{\uparrow}$+Au collisions.'
+keywords: # used for searching, possibly mutliple values for each keywords
+- {name: reactions, values: [$p^\uparrow$ $p$ --> CHARGED X, $p^\uparrow$ Al --> CHARGED X, $p^\uparrow$ Au --> CHARGED X]}
+- {name: cmenergies, values: [200.0]}
+- {name: phrases, values: [ppg215, forward rapidity, transverse single spin asymmetries, transverse momentum]}
+data_file: ppg215fig2b.yaml
+additional_resources:
+- {description: Thumbnail Image file, location: thumb_Ncolldep_x1.png}
+---
