@@ -7,47 +7,44 @@ independent_variables:
   - {low: 2.5, high: 3}
   - {low: 3, high: 4}
 dependent_variables:
+- header: {name: '$\langle p_T \rangle$'}
+  values:
+  - {value: 1.22}
+  - {value: 1.70}
+  - {value: 2.20}
+  - {value: 2.70}
+  - {value: 3.32}
 - header: {name: '$A_{LL}$'}
   values:
   - value: -0.00110
     errors:
     - {symerror: 0.005, label: 'stat.'}
-    - {symerror: 1.4e-4, label: 'scale'}
   - value: -0.0103
     errors:
     - {symerror: 0.007, label: 'stat.'}
-    - {symerror: 0.0013, label: 'scale'}
   - value: 0.0073
     errors:
     - {symerror: 0.012, label: 'stat.'}
-    - {symerror: 9e-4, label: 'scale'}
   - value: -0.0058
     errors:
     - {symerror: 0.022, label: 'stat.'}
-    - {symerror: 8e-4, label: 'scale'}
   - value: -0.0058
     errors:
     - {symerror: 0.035, label: 'stat.'}
-    - {symerror: 8e-4, label: 'scale'}
 - header: {name: '$A_{TT}$'}
   values:
   - value: 4.0e-4
     errors:
     - {symerror: 0.007, label: 'stat.'}
-    - {symerror: 5e-5, label: 'scale'}
   - value: 0.030
     errors:
     - {symerror: 0.009, label: 'stat.'}
-    - {symerror: 0.004, label: 'scale'}
   - value: 0.0090
     errors:
     - {symerror: 0.016, label: 'stat.'}
-    - {symerror: 0.0012, label: 'scale'}
   - value: -0.0160
     errors:
     - {symerror: 0.030, label: 'stat.'}
-    - {symerror: 0.0021, label: 'scale'}
   - value: 0.0230
     errors:
     - {symerror: 0.05, label: 'stat.'}
-    - {symerror: 0.0030, label: 'scale'}
