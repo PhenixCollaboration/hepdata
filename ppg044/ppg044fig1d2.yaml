@@ -1,0 +1,138 @@
+independent_variables:
+- header: {name: '$p_T$ Bins (GeV/$c$)'}
+  values:
+  - {low: 1.0, high: 1.5}
+  - {low: 1.5, high: 2.0}
+  - {low: 2.0, high: 2.5}
+  - {low: 2.5, high: 3.0}
+  - {low: 3.0, high: 3.5}
+  - {low: 3.5, high: 4.0}
+  - {low: 4.0, high: 4.5}
+  - {low: 4.5, high: 5.0}
+  - {low: 5.0, high: 5.5}
+  - {low: 5.5, high: 6.0}
+  - {low: 6.0, high: 6.5}
+  - {low: 6.5, high: 7.0}
+  - {low: 7.0, high: 7.5}
+  - {low: 7.5, high: 8.0}
+  - {low: 8.0, high: 8.5}
+  - {low: 8.5, high: 9.0}
+  - {low: 9.0, high: 9.5}
+  - {low: 9.5, high: 10.0}
+  - {low: 10.0, high: 12.0}
+  - {low: 12.0, high: 14.0}
+  - {low: 14.0, high: 16.0}
+dependent_variables:
+- header: {name: '$p_T$ (GeV/$c$)'}
+  qualifiers:
+  - {name: '', value: ''}
+  values:
+  - {value: 1.25}
+  - {value: 1.75}
+  - {value: 2.25}
+  - {value: 2.75}
+  - {value: 3.25}
+  - {value: 3.75}
+  - {value: 4.25}
+  - {value: 4.75}
+  - {value: 5.25}
+  - {value: 5.75}
+  - {value: 6.25}
+  - {value: 6.75}
+  - {value: 7.25}
+  - {value: 7.75}
+  - {value: 8.25}
+  - {value: 8.75}
+  - {value: 9.25}
+  - {value: 9.75}
+  - {value: 11.00}
+  - {value: 13.00}
+  - {value: 15.00}
+- header: {name: '$E$ $d^3$ $\sigma/dp^3$ (mb GeV$^{-2}$ $c^3$)'}
+  qualifiers:
+  - {name: '', value: '$\pi^0$'}
+  values:
+  - value: 0.321
+    errors:
+    - {symerror: 0.004, label: 'stat.'}
+    - {symerror: 0.04, label: 'sys.'}
+  - value: 0.0531
+    errors:
+    - {symerror: 8e-4, label: 'stat.'}
+    - {symerror: 0.006, label: 'sys.'}
+  - value: 0.01141
+    errors:
+    - {symerror: 2.5e-4, label: 'stat.'}
+    - {symerror: 0.0013, label: 'sys.'}
+  - value: 0.00296
+    errors:
+    - {symerror: 9e-5, label: 'stat.'}
+    - {symerror: 3.5e-4, label: 'sys.'}
+  - value: 8.9e-4
+    errors:
+    - {symerror: 4e-5, label: 'stat.'}
+    - {symerror: 1.1e-4, label: 'sys.'}
+  - value: 3.147e-4
+    errors:
+    - {symerror: 3.1e-6, label: 'stat.'}
+    - {symerror: 4e-5, label: 'sys.'}
+  - value: 1.156e-4
+    errors:
+    - {symerror: 1.4e-6, label: 'stat.'}
+    - {symerror: 1.4e-5, label: 'sys.'}
+  - value: 4.71e-5
+    errors:
+    - {symerror: 7e-7, label: 'stat.'}
+    - {symerror: 6e-6, label: 'sys.'}
+  - value: 2.11e-5
+    errors:
+    - {symerror: 4e-7, label: 'stat.'}
+    - {symerror: 2.6e-6, label: 'sys.'}
+  - value: 1.030e-5
+    errors:
+    - {symerror: 2.4e-7, label: 'stat.'}
+    - {symerror: 1.3e-6, label: 'sys.'}
+  - value: 5.12e-6
+    errors:
+    - {symerror: 1.5e-7, label: 'stat.'}
+    - {symerror: 7e-7, label: 'sys.'}
+  - value: 2.75e-6
+    errors:
+    - {symerror: 1.0e-7, label: 'stat.'}
+    - {symerror: 3.5e-7, label: 'sys.'}
+  - value: 1.60e-6
+    errors:
+    - {symerror: 7e-8, label: 'stat.'}
+    - {symerror: 2.1e-7, label: 'sys.'}
+  - value: 8.4e-7
+    errors:
+    - {symerror: 6e-8, label: 'stat.'}
+    - {symerror: 1.1e-7, label: 'sys.'}
+  - value: 5.0e-7
+    errors:
+    - {symerror: 4e-8, label: 'stat.'}
+    - {symerror: 7e-8, label: 'sys.'}
+  - value: 3.06e-7
+    errors:
+    - {symerror: 3.2e-8, label: 'stat.'}
+    - {symerror: 4e-8, label: 'sys.'}
+  - value: 2.32e-7
+    errors:
+    - {symerror: 2.2e-8, label: 'stat.'}
+    - {symerror: 3.1e-8, label: 'sys.'}
+  - value: 1.35e-7
+    errors:
+    - {symerror: 1.6e-8, label: 'stat.'}
+    - {symerror: 1.8e-8, label: 'sys.'}
+  - value: 5.3e-8
+    errors:
+    - {symerror: 5e-9, label: 'stat.'}
+    - {symerror: 7e-9, label: 'sys.'}
+  - value: 1.46e-8
+    errors:
+    - {symerror: 2.3e-9, label: 'stat.'}
+    - {symerror: 2.1e-9, label: 'sys.'}
+  - value: 4.5e-9
+    errors:
+    - {symerror: 1.3e-9, label: 'stat.'}
+    - {symerror: 7e-10, label: 'sys.'}

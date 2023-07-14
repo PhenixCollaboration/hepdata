@@ -1,5 +1,5 @@
 independent_variables:
-- header: {name: '$p_T$ (GeV/$c$)'}
+- header: {name: '$p_T$ Bins (GeV/$c$)'}
   values:
   - {low: 2.50, high: 3.00}
   - {low: 3.00, high: 3.50}
@@ -11,6 +11,19 @@ independent_variables:
   - {low: 8.00, high: 9.00}
   - {low: 9.00, high: 10.00}
 dependent_variables:
+- header: {name: '$p_T$ (GeV/$c$)'}
+  qualifiers:
+  - {name: 'Centrality', value: ''}
+  values:
+  - value: 2.80
+  - value: 3.30
+  - value: 3.80
+  - value: 4.55
+  - value: 5.55
+  - value: 6.55
+  - value: 7.55
+  - value: 8.55
+  - value: 9.55
 - header: {name: '$R_{AA}$'}
   qualifiers:
   - {name: 'Centrality', value: '0-20%'}
@@ -51,43 +64,4 @@ dependent_variables:
     errors:
     - {symerror: 0.131, label: 'stat.'}
     - {symerror: 0.022, label: 'sys.'}
-- header: {name: '$R_{AA}$'}
-  qualifiers:
-  - {name: 'Centrality', value: '20-60%'}
-  values:
-  - value: 0.479
-    errors:
-    - {symerror: 0.202, label: 'stat.'}
-    - {symerror: 0.046, label: 'sys.'}
-  - value: 0.492
-    errors:
-    - {symerror: 0.117, label: 'stat.'}
-    - {symerror: 0.048, label: 'sys.'}
-  - value: 0.401
-    errors:
-    - {symerror: 0.095, label: 'stat.'}
-    - {symerror: 0.039, label: 'sys.'}
-  - value: 0.446
-    errors:
-    - {symerror: 0.116, label: 'stat.'}
-    - {symerror: 0.043, label: 'sys.'}
-  - value: 0.460
-    errors:
-    - {symerror: 0.106, label: 'stat.'}
-    - {symerror: 0.045, label: 'sys.'}
-  - value: 0.355
-    errors:
-    - {symerror: 0.143, label: 'stat.'}
-    - {symerror: 0.034, label: 'sys.'}
-  - value: 0.329
-    errors:
-    - {symerror: 0.095, label: 'stat.'}
-    - {symerror: 0.032, label: 'sys.'}
-  - value: 0.414
-    errors:
-    - {symerror: 0.214, label: 'stat.'}
-    - {symerror: 0.040, label: 'sys.'}
-  - value: 0.328
-    errors:
-    - {symerror: 0.193, label: 'stat.'}
-    - {symerror: 0.032, label: 'sys.'}
+

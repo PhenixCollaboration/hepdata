@@ -1,5 +1,5 @@
 independent_variables:
-- header: {name: 'Angle $\Delta\phi$ (degrees)'}
+- header: {name: 'Angle $\Delta\phi$ Bins (degrees)'}
   values:
   - {low: 0, high: 15}
   - {low: 15, high: 30}
@@ -8,6 +8,16 @@ independent_variables:
   - {low: 60, high: 75}
   - {low: 75, high: 90}
 dependent_variables:
+- header: {name: 'Angle $\Delta\phi$ (degrees)'}
+  qualifiers:
+  - {name: 'Centrality', value: ''}
+  values:
+  - value: 7.5
+  - value: 22.5
+  - value: 37.5
+  - value: 52.5
+  - value: 67.5
+  - value: 82.5
 - header: {name: '$R_{AA}$'}
   qualifiers:
   - {name: 'Centrality', value: '10-20%'}

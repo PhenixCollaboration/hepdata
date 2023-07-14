@@ -1,0 +1,96 @@
+independent_variables:
+- header: {name: '$p_T$ Bins (GeV/$c$)'}
+  values:
+  - {low: 2.0, high: 2.5}
+  - {low: 2.5, high: 3.0}
+  - {low: 3.0, high: 3.5}
+  - {low: 3.5, high: 4.0}
+  - {low: 4.0, high: 4.5}
+  - {low: 4.5, high: 5.0}
+  - {low: 5.0, high: 5.5}
+  - {low: 5.5, high: 6.0}
+  - {low: 6.0, high: 7.0}
+  - {low: 7.0, high: 8.0}
+  - {low: 8.0, high: 9.0}
+  - {low: 9.0, high: 10.0}
+dependent_variables:
+- header: {name: '$p_T$ (GeV/$c$)'}
+  qualifiers:
+  - {name: 'Centrality', value: ''}
+  values:
+  - value: 2.25
+  - value: 2.75
+  - value: 3.25
+  - value: 3.75
+  - value: 4.25
+  - value: 4.75
+  - value: 5.25
+  - value: 5.75
+  - value: 6.50
+  - value: 7.50
+  - value: 8.50
+  - value: 9.50
+- header: {name: '$1/{2\pi p_T N_{evt}}$ ${dN}/{d p_T dy}$ (1/GeV$^2$)'}
+  qualifiers:
+  - {name: 'Centrality', value: '60-88%'}
+  values:
+  - value: 4.1e-4
+    errors:
+    - {symerror: 5e-5, label: 'stat'}
+    - {symerror: 1.4e-4, label: 'Sys.A'}
+    - {symerror: 1.4e-4, label: 'Sys.B'}
+  - value: 1.27e-4
+    errors:
+    - {symerror: 1.8e-5, label: 'stat'}
+    - {symerror: 2.0e-5, label: 'Sys.A'}
+    - {symerror: 2.0e-5, label: 'Sys.B'}
+  - value: 3.5e-5
+    errors:
+    - {symerror: 7e-6, label: 'stat'}
+    - {symerror: 4e-6, label: 'Sys.A'}
+    - {symerror: 4e-6, label: 'Sys.B'}
+  - value: 1.10e-5
+    errors:
+    - {symerror: 8e-7, label: 'stat'}
+    - {symerror: 1.2e-6, label: 'Sys.A'}
+    - {symerror: 1.2e-6, label: 'Sys.B'}
+  - value: 4.54e-6
+    errors:
+    - {symerror: 3.4e-7, label: 'stat'}
+    - {symerror: 5e-7, label: 'Sys.A'}
+    - {symerror: 5e-7, label: 'Sys.B'}
+  - value: 1.88e-6
+    errors:
+    - {symerror: 1.7e-7, label: 'stat'}
+    - {symerror: 2.1e-7, label: 'Sys.A'}
+    - {symerror: 2.1e-7, label: 'Sys.B'}
+  - value: 6.3e-7
+    errors:
+    - {symerror: 1.0e-7, label: 'stat'}
+    - {symerror: 7e-8, label: 'Sys.A'}
+    - {symerror: 7e-8, label: 'Sys.B'}
+  - value: 4.7e-7
+    errors:
+    - {symerror: 6e-8, label: 'stat'}
+    - {symerror: 5e-8, label: 'Sys.A'}
+    - {symerror: 5e-8, label: 'Sys.B'}
+  - value: 2.27e-7
+    errors:
+    - {symerror: 3.3e-8, label: 'stat'}
+    - {symerror: 2.7e-8, label: 'Sys.A'}
+    - {symerror: 2.7e-8, label: 'Sys.B'}
+  - value: 4.8e-8
+    errors:
+    - {symerror: 1.0e-8, label: 'stat'}
+    - {symerror: 6e-9, label: 'Sys.A'}
+    - {symerror: 6e-9, label: 'Sys.B'}
+  - value: 1.18e-8
+    errors:
+    - {symerror: 6e-9, label: 'stat'}
+    - {symerror: 1.5e-9, label: 'Sys.A'}
+    - {symerror: 1.5e-9, label: 'Sys.B'}
+  - value: 6.3e-9
+    errors:
+    - {symerror: 4e-9, label: 'stat'}
+    - {symerror: 8e-10, label: 'Sys.A'}
+    - {symerror: 8e-10, label: 'Sys.B'}

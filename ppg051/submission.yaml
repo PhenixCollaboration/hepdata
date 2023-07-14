@@ -22,7 +22,7 @@ name: "Figure 1a"
 location: Data From Fig. 1 of PRL 96 (2006) 202301
 description: 'Invariant $\eta$ yields as a function of transverse momentum for 3 centralities and MB Au+Au at $\sqrt{s_{NN}}$ = 200 GeV.'
 keywords: # used for searching, possibly mutliple values for each keywords
-- {name: reactions, values: [Au Au --> CHARGED X]}
+- {name: reactions, values: [Au Au --> $\eta$ + X]}
 - {name: cmenergies, values: [200.0]}
 - {name: phrases, values: [ppg051, Transverse Momentum]}
 data_file: ppg051fig1a.yaml
@@ -36,7 +36,7 @@ name: "Figure 1b"
 location: Data From Fig. 1 of PRL 96 (2006) 202301
 description: 'Invariant $\eta$ yields as a function of transverse momentum for 3 centralities and MB Au+Au at $\sqrt{s_{NN}}$ = 200 GeV.'
 keywords: # used for searching, possibly mutliple values for each keywords
-- {name: reactions, values: [Au Au --> CHARGED X]}
+- {name: reactions, values: [Au Au --> $\eta$ + X]}
 - {name: cmenergies, values: [200.0]}
 - {name: phrases, values: [ppg051, Transverse Momentum]}
 data_file: ppg051fig1b.yaml
@@ -50,7 +50,7 @@ name: "Figure 2a"
 location: Data From Fig. 2 of PRL 96 (2006) 202301
 description: 'Nuclear modification factors for $\eta$ in Au+Au centralities.'
 keywords: # used for searching, possibly mutliple values for each keywords
-- {name: reactions, values: [Au Au --> CHARGED X]}
+- {name: reactions, values: [Au Au --> $\eta$ + X]}
 - {name: cmenergies, values: [200.0]}
 - {name: phrases, values: [ppg051, Transverse Momentum]}
 data_file: ppg051fig2a.yaml
@@ -64,7 +64,7 @@ name: "Figure 2b"
 location: Data From Fig. 2 of PRL 96 (2006) 202301
 description: 'Nuclear modification factors for $\eta$ in Au+Au centralities.'
 keywords: # used for searching, possibly mutliple values for each keywords
-- {name: reactions, values: [Au Au --> CHARGED X]}
+- {name: reactions, values: [Au Au --> $\eta$ + X]}
 - {name: cmenergies, values: [200.0]}
 - {name: phrases, values: [ppg051, Transverse Momentum]}
 data_file: ppg051fig2b.yaml
@@ -73,15 +73,43 @@ additional_resources:
 - {description: PNG Image file, location: eta_RAA_AuAu_200GeV_phenix.png}
 - {description: Thumbnail Image file, location: thumb_eta_RAA_AuAu_200GeV_phenix.png}
 ---
+# This is Figure 2.
+name: "Figure 2c"
+location: Data From Fig. 2 of PRL 96 (2006) 202301
+description: 'Nuclear modification factors for $\eta$ in Au+Au centralities.'
+keywords: # used for searching, possibly mutliple values for each keywords
+- {name: reactions, values: [Au Au --> $\eta$ + X]}
+- {name: cmenergies, values: [200.0]}
+- {name: phrases, values: [ppg051, Transverse Momentum]}
+data_file: ppg051fig2c.yaml
+additional_resources:
+- {description: Original EPS Image file, location: eta_RAA_AuAu_200GeV_phenix.eps}
+- {description: PNG Image file, location: eta_RAA_AuAu_200GeV_phenix.png}
+- {description: Thumbnail Image file, location: thumb_eta_RAA_AuAu_200GeV_phenix.png}
+---
 # This is Figure 3.
-name: "Figure 3"
+name: "Figure 3a"
 location: Data From Fig. 3 of PRL 96 (2006) 202301
 description: '$R_{AA} (p_T)$ measured in central Au+Au at $\sqrt{s_{NN}}$ = 200 GeV for $\eta, \pi^0$, and direct $\gamma$. Points with no error are the upper limit. Point-to-point uncorrelated uncertainties are called "sys-uncorr", point-to-point correlated uncertainties are called "sys-corr", and normalization uncertainties are called "sys-norm."'
 keywords: # used for searching, possibly mutliple values for each keywords
-- {name: reactions, values: [Au Au --> CHARGED X]}
+- {name: reactions, values: [Au Au --> Direct $\gamma$ + X, Au Au --> $\pi^0$ + X]}
 - {name: cmenergies, values: [200.0]}
 - {name: phrases, values: [ppg051, Transverse Momentum]}
-data_file: ppg051fig3.yaml
+data_file: ppg051fig3a.yaml
+additional_resources:
+- {description: Original EPS Image file, location: RAA_gamma_pi0_eta_AuAu_200GeV_phenix.eps}
+- {description: PNG Image file, location: RAA_gamma_pi0_eta_AuAu_200GeV_phenix.png}
+- {description: Thumbnail Image file, location: thumb_RAA_gamma_pi0_eta_AuAu_200GeV_phenix.png}
+---
+# This is Figure 3.
+name: "Figure 3b"
+location: Data From Fig. 3 of PRL 96 (2006) 202301
+description: '$R_{AA} (p_T)$ measured in central Au+Au at $\sqrt{s_{NN}}$ = 200 GeV for $\eta, \pi^0$, and direct $\gamma$. Points with no error are the upper limit. Point-to-point uncorrelated uncertainties are called "sys-uncorr", point-to-point correlated uncertainties are called "sys-corr", and normalization uncertainties are called "sys-norm."'
+keywords: # used for searching, possibly mutliple values for each keywords
+- {name: reactions, values: [Au Au --> $\eta$ + X]}
+- {name: cmenergies, values: [200.0]}
+- {name: phrases, values: [ppg051, Transverse Momentum]}
+data_file: ppg051fig3b.yaml
 additional_resources:
 - {description: Original EPS Image file, location: RAA_gamma_pi0_eta_AuAu_200GeV_phenix.eps}
 - {description: PNG Image file, location: RAA_gamma_pi0_eta_AuAu_200GeV_phenix.png}
@@ -92,7 +120,7 @@ name: "Figure 4a"
 location: Data From Fig. 4 of PRL 96 (2006) 202301
 description: '$\eta/\pi^0$ ratio in Au+Au compared to the ratio in p+p and d+Au at $\sqrt{s_{NN}}$ = 200 GeV.'
 keywords: # used for searching, possibly mutliple values for each keywords
-- {name: reactions, values: [Au Au --> CHARGED X]}
+- {name: reactions, values: [Au Au --> $\eta/\pi^0$]}
 - {name: cmenergies, values: [200.0]}
 - {name: phrases, values: [ppg051, Transverse Momentum]}
 data_file: ppg051fig4a.yaml
@@ -106,7 +134,7 @@ name: "Figure 4b"
 location: Data From Fig. 4 of PRL 96 (2006) 202301
 description: '$\eta/\pi^0$ ratio in Au+Au compared to the ratio in p+p and d+Au at $\sqrt{s_{NN}}$ = 200 GeV.'
 keywords: # used for searching, possibly mutliple values for each keywords
-- {name: reactions, values: [Au Au --> CHARGED X]}
+- {name: reactions, values: [Au Au --> $\eta/\pi^0$]}
 - {name: cmenergies, values: [200.0]}
 - {name: phrases, values: [ppg051, Transverse Momentum]}
 data_file: ppg051fig4b.yaml
@@ -120,38 +148,10 @@ name: "Figure 4c"
 location: Data From Fig. 4 of PRL 96 (2006) 202301
 description: '$\eta/\pi^0$ ratio in Au+Au compared to the ratio in p+p and d+Au at $\sqrt{s_{NN}}$ = 200 GeV.'
 keywords: # used for searching, possibly mutliple values for each keywords
-- {name: reactions, values: [Au Au --> CHARGED X]}
+- {name: reactions, values: [Au Au --> $\eta/\pi^0$]}
 - {name: cmenergies, values: [200.0]}
 - {name: phrases, values: [ppg051, Transverse Momentum]}
 data_file: ppg051fig4c.yaml
-additional_resources:
-- {description: Original EPS Image file, location: eta_pi0_ratio_AuAu_200GeV_phenix.eps}
-- {description: PNG Image file, location: eta_pi0_ratio_AuAu_200GeV_phenix.png}
-- {description: Thumbnail Image file, location: thumb_eta_pi0_ratio_AuAu_200GeV_phenix.png}
----
-# This is Figure 4.
-name: "Figure 4d"
-location: Data From Fig. 4 of PRL 96 (2006) 202301
-description: '$\eta/\pi^0$ ratio in Au+Au compared to the ratio in p+p and d+Au at $\sqrt{s_{NN}}$ = 200 GeV.'
-keywords: # used for searching, possibly mutliple values for each keywords
-- {name: reactions, values: [$d$ Au --> CHARGED X]}
-- {name: cmenergies, values: [200.0]}
-- {name: phrases, values: [ppg051, Transverse Momentum]}
-data_file: ppg051fig4d.yaml
-additional_resources:
-- {description: Original EPS Image file, location: eta_pi0_ratio_AuAu_200GeV_phenix.eps}
-- {description: PNG Image file, location: eta_pi0_ratio_AuAu_200GeV_phenix.png}
-- {description: Thumbnail Image file, location: thumb_eta_pi0_ratio_AuAu_200GeV_phenix.png}
----
-# This is Figure 4.
-name: "Figure 4e"
-location: Data From Fig. 4 of PRL 96 (2006) 202301
-description: '$\eta/\pi^0$ ratio in Au+Au compared to the ratio in p+p and d+Au at $\sqrt{s_{NN}}$ = 200 GeV.'
-keywords: # used for searching, possibly mutliple values for each keywords
-- {name: reactions, values: [$p$ $p$ --> CHARGED X]}
-- {name: cmenergies, values: [200.0]}
-- {name: phrases, values: [ppg051, Transverse Momentum]}
-data_file: ppg051fig4e.yaml
 additional_resources:
 - {description: Original EPS Image file, location: eta_pi0_ratio_AuAu_200GeV_phenix.eps}
 - {description: PNG Image file, location: eta_pi0_ratio_AuAu_200GeV_phenix.png}

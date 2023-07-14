@@ -1,17 +1,31 @@
 independent_variables:
-- header: {name: '$p_T$ (GeV/$c$)'}
+- header: {name: '$p_T$ Bins (GeV/$c$)'}
   values:
-  - {low: 2.10, high: 2.60}
-  - {low: 2.60, high: 3.10}
-  - {low: 3.10, high: 3.60}
-  - {low: 3.60, high: 4.10}
-  - {low: 4.10, high: 5.10}
-  - {low: 5.10, high: 6.10}
-  - {low: 6.10, high: 7.10}
-  - {low: 7.10, high: 8.10}
-  - {low: 8.10, high: 9.10}
-  - {low: 9.10, high: 10.10}
+  - {low: 2.00, high: 2.50}
+  - {low: 2.50, high: 3.00}
+  - {low: 3.00, high: 3.50}
+  - {low: 3.50, high: 4.00}
+  - {low: 4.00, high: 5.00}
+  - {low: 5.00, high: 6.00}
+  - {low: 6.00, high: 7.00}
+  - {low: 7.00, high: 8.00}
+  - {low: 8.00, high: 9.00}
+  - {low: 9.00, high: 10.00}
 dependent_variables:
+- header: {name: '$p_T$ (GeV/$c$)'}
+  qualifiers:
+  - {name: 'Centrality', value: ''}
+  values:
+  - value: 2.35
+  - value: 2.85
+  - value: 3.35
+  - value: 3.85
+  - value: 4.60
+  - value: 5.60
+  - value: 6.60
+  - value: 7.60
+  - value: 8.60
+  - value: 9.60
 - header: {name: '$\eta/\pi^0$'}
   qualifiers:
   - {name: 'Centrality', value: '0-20%'}
