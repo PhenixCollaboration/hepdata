@@ -1,0 +1,147 @@
+#PHENIX paper PPG143
+#
+#$J/\psi$ suppression at forward rapidity in Au+Au collisions at $\sqrt{s_{NN}}$ = 39 and 62.4 GeV
+#
+#Phys.Rev.Lett C 86 (2012) 064901
+#InspireHEP ID: 1127261
+#
+#Prepared by Nikolas Nelson
+#Please contact Christine Nattrass if you have any questions about this submission
+#PPG liaison:
+#Reviewer:
+#
+comment: | # Information that applies to all data tables.
+  We present measurements of the $J/\psi$ invariant yields in $\sqrt{s_{NN}}$ = 39 and 62.4 GeV Au+Au collisions at forward rapidity (1.2 < $|y|$ < 2.2). Invariant yields are presented as a function of both collision centrality and transverse momentum. Nuclear modifications are obtained for central relative to peripheral Au+Au collisions ($R_{CP}$) and for various centrality selections in Au+Au relative to scaled $p$+$p$ cross sections obtained from other measurements ($R_{AA}$). The observed suppression patterns at 39 and 62.4 GeV are quite similar to those previously measured at 200 GeV. This similar suppression presents a challenge to theoretical models that contain various competing mechanisms with different energy dependencies, some of which cause suppression and others enhancement.
+additional_resources:
+- {location: "https://phenix-intra.sdcc.bnl.gov/phenix/WWW/p/info/ppg/143/", description: "web page with data points"}
+- {location: "http://arxiv.org/abs/1208.2251", description: arXiv}
+- {location: "https://inspirehep.net/literature/1127261", description: InspireHEP}
+---
+# This is Table 2.
+name: "Table 2"
+location: Data From Table 2 of PRC 86 (2012) 064901
+description: 'Systematic Uncertainties'
+keywords: # used for searching, possibly mutliple values for each keywords
+- {name: reactions, values: [Au Au --> CHARGED X]}
+- {name: cmenergies, values: [62.4, 39]}
+- {name: phrases, values: [ppg143, transverse momentum, forward rapidity, invariant yields, nuclear modification, cross section]}
+data_file: ppg143tab2.yaml
+---
+# This is Table 4.
+name: "Table 4"
+location: Data From Table 4 of PRC 86 (2012) 064901
+description: 'Estimates used for the 39- and 62.4-GeV $J/\psi$ $p$+$p$ cross sections along with their uncertainties.'
+keywords: # used for searching, possibly mutliple values for each keywords
+- {name: reactions, values: [$p$ $p$ --> CHARGED X]}
+- {name: cmenergies, values: [62.4, 39]}
+- {name: phrases, values: [ppg143, transverse momentum, forward rapidity, invariant yields, nuclear modification, cross section]}
+data_file: ppg143tab4.yaml
+---
+# This is Figure 2.
+name: "Figure 2a"
+location: Data From Table 1 of PRC 86 (2012) 064901
+description: '$J/\psi$ invariant yields are shown for Au+Au collisions at 39 and 62.4 GeV as a function of the number of participating nucleons.'
+keywords: # used for searching, possibly mutliple values for each keywords
+- {name: reactions, values: [Au Au --> CHARGED X]}
+- {name: cmenergies, values: [62.4, 39]}
+- {name: phrases, values: [ppg143, transverse momentum, forward rapidity, invariant yields, nuclear modification, cross section]}
+data_file: ppg143fig2a.yaml
+additional_resources:
+- {description: Thumbnail Image file, location: thumb_inv_scaled.png}
+---
+# This is Figure 2.
+name: "Figure 2b"
+location: Data From Table 1 of PRC 86 (2012) 064901
+description: '$J/\psi$ invariant yields are shown for Au+Au collisions at 39 and 62.4 GeV as a function of the number of participating nucleons.'
+keywords: # used for searching, possibly mutliple values for each keywords
+- {name: reactions, values: [Au Au --> CHARGED X]}
+- {name: cmenergies, values: [62.4, 39]}
+- {name: phrases, values: [ppg143, transverse momentum, forward rapidity, invariant yields, nuclear modification, cross section]}
+data_file: ppg143fig2b.yaml
+additional_resources:
+- {description: Thumbnail Image file, location: thumb_inv_scaled.png}
+---
+# This is Figure 4.
+name: "Figure 4"
+location: Data From Table 3 of PRC 86 (2012) 064901
+description: '$J/\psi$ $R_{CP}$ for 0-20%, 20-40%, and 40-60% (central) relative to 60-86% (peripheral) Au+Au collisions at 62.4 GeV. Type A errors are point-to-point uncorrelated, Type B errors are point-to-point correlated, and Type C are global systematic from the uncertainty in the peripheral $<N_{coll}>$ value.'
+keywords: # used for searching, possibly mutliple values for each keywords
+- {name: reactions, values: [Au Au --> CHARGED X]}
+- {name: cmenergies, values: [62.4]}
+- {name: phrases, values: [ppg143, transverse momentum, forward rapidity, invariant yields, nuclear modification, cross section]}
+data_file: ppg143fig4.yaml
+additional_resources:
+- {description: Thumbnail Image file, location: thumb_rcp_200_62.png}
+---
+# This is Figure 5.
+name: "Figure 5"
+location: Data From Table 3 of PRC 86 (2012) 064901
+description: '$J/\psi$ $R_{CP}$ for 0-40% (central) relative to 40-86% (peripheral) Au+Au collisions at 39 GeV. Type A errors are point-to-point uncorrelated, Type B errors are point-to-point correlated, and Type C are global systematic from the uncertainty in the peripheral $<N_{coll}>$ value.'
+keywords: # used for searching, possibly mutliple values for each keywords
+- {name: reactions, values: [Au Au --> CHARGED X]}
+- {name: cmenergies, values: [39]}
+- {name: phrases, values: [ppg143, transverse momentum, forward rapidity, invariant yields, nuclear modification, cross section]}
+data_file: ppg143fig5.yaml
+additional_resources:
+- {description: Thumbnail Image file, location: thumb_rcp_200_39.png}
+---
+# This is Figure 6.
+name: "Figure 6a"
+location: Data From Table 5 of PRC 86 (2012) 064901
+description: '$J/\psi$ $R_{AA}$ at $\sqrt{s_{NN}}$ = 39 and 62.4 GeV. Type A errors are point-to-point uncorrelated, Type B errors are point-to-point correlated, and Type C are global systematic from the uncertainty in the peripheral $<N_{coll}>$ value.'
+keywords: # used for searching, possibly mutliple values for each keywords
+- {name: reactions, values: [Au Au --> CHARGED X]}
+- {name: cmenergies, values: [62.4, 39]}
+- {name: phrases, values: [ppg143, transverse momentum, forward rapidity, invariant yields, nuclear modification, cross section]}
+data_file: ppg143fig6a.yaml
+additional_resources:
+- {description: Thumbnail Image file, location: thumb_raa.png}
+---
+# This is Figure 6.
+name: "Figure 6b"
+location: Data From Table 5 of PRC 86 (2012) 064901
+description: '$J/\psi$ $R_{AA}$ at $\sqrt{s_{NN}}$ = 39 and 62.4 GeV.'
+keywords: # used for searching, possibly mutliple values for each keywords
+- {name: reactions, values: [Au Au --> CHARGED X]}
+- {name: cmenergies, values: [62.4, 39]}
+- {name: phrases, values: [ppg143, transverse momentum, forward rapidity, invariant yields, nuclear modification, cross section]}
+data_file: ppg143fig6b.yaml
+additional_resources:
+- {description: Thumbnail Image file, location: thumb_raa.png}
+---
+# This is Figure 11.
+name: "Figure 11a"
+location: Data From Table 6 of PRC 86 (2012) 064901
+description: '$J/\psi$ cross section as a function of rapidity in $p$+$p$ collisions at 62.4 GeV.'
+keywords: # used for searching, possibly mutliple values for each keywords
+- {name: reactions, values: [$p$ $p$ --> CHARGED X]}
+- {name: cmenergies, values: [62.4]}
+- {name: phrases, values: [ppg143, transverse momentum, forward rapidity, invariant yields, nuclear modification, cross section]}
+data_file: ppg143fig11a.yaml
+additional_resources:
+- {description: Thumbnail Image file, location: thumb_ramona_62.png}
+---
+# This is Figure 11.
+name: "Figure 11b"
+location: Data From Table 6 of PRC 86 (2012) 064901
+description: '$J/\psi$ cross section as a function of rapidity in $p$+$p$ collisions at 62.4 GeV.'
+keywords: # used for searching, possibly mutliple values for each keywords
+- {name: reactions, values: [$p$ $p$ --> CHARGED X]}
+- {name: cmenergies, values: [62.4]}
+- {name: phrases, values: [ppg143, transverse momentum, forward rapidity, invariant yields, nuclear modification, cross section]}
+data_file: ppg143fig11b.yaml
+additional_resources:
+- {description: Thumbnail Image file, location: thumb_ramona_62.png}
+---
+# This is Figure 11.
+name: "Figure 11c"
+location: Data From Table 6 of PRC 86 (2012) 064901
+description: '$J/\psi$ cross section as a function of rapidity in $p$+$p$ collisions at 62.4 GeV.'
+keywords: # used for searching, possibly mutliple values for each keywords
+- {name: reactions, values: [$p$ $p$ --> CHARGED X]}
+- {name: cmenergies, values: [62.4]}
+- {name: phrases, values: [ppg143, transverse momentum, forward rapidity, invariant yields, nuclear modification, cross section]}
+data_file: ppg143fig11c.yaml
+additional_resources:
+- {description: Thumbnail Image file, location: thumb_ramona_62.png}
+---

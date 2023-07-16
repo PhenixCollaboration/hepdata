@@ -1,0 +1,40 @@
+independent_variables:
+- header: {name: 'Centrality (%)'}
+  values:
+  - {low: 0, high: 20}
+  - {low: 20, high: 40}
+  - {low: 40, high: 60}
+  - {low: 60, high: 86}
+dependent_variables:
+- header: {name: '$<N_{part}>$'}
+  qualifiers:
+  - {name: '$\sqrt{s}$ (GeV)', value: '62.4'}
+  values:
+  - value: 274.8
+    errors:
+    - {symerror: 3.8, label: 'sys.'}
+  - value: 138.7
+    errors:
+    - {symerror: 4.7, label: 'sys.'}
+  - value: 59.7
+    errors:
+    - {symerror: 3.9, label: 'sys.'}
+  - value: 14.7
+    errors:
+    - {symerror: 1.2, label: 'sys.'}
+- header: {name: '$<N_{coll}>$'}
+  qualifiers:
+  - {name: '$\sqrt{s}$ (GeV)', value: '62.4'}
+  values:
+  - value: 689.9
+    errors:
+    - {symerror: 78.9, label: 'sys.'}
+  - value: 270.5
+    errors:
+    - {symerror: 27.5, label: 'sys.'}
+  - value: 85.7
+    errors:
+    - {symerror: 9.1, label: 'sys.'}
+  - value: 14.3
+    errors:
+    - {symerror: 1.7, label: 'sys.'}

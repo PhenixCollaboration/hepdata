@@ -1,0 +1,15 @@
+independent_variables:
+- header: {name: 'Centrality (%)'}
+  values:
+  - {low: 0, high: 40}
+dependent_variables:
+- header: {name: '$R_{CP}$'}
+  qualifiers:
+  - {name: '$\sqrt{s}$ (GeV)', value: '39'}
+  values:
+  - value: 0.554
+    errors:
+    - {symerror: 0.112, label: 'stat.'}
+    - {symerror: 0.028, label: 'Type A'}
+    - {symerror: 0.138, label: 'Type B'}
+    - {symerror: 0.047, label: 'Type C'}

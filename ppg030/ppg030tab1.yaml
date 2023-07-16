@@ -6,7 +6,7 @@ independent_variables:
   - {low: 40, high: 60}
   - {low: 60, high: 88}
 dependent_variables:
-- header: {name: '$<N_{coll}>$'}
+- header: {name: '$\langle N_{coll} \rangle$'}
   values:
   - value: 15.4
     errors:
@@ -20,7 +20,7 @@ dependent_variables:
   - value: 3.1
     errors:
     - {symerror: 0.3, label: 'stat.'}
-- header: {name: '$<N_{part}>$'}
+- header: {name: '$\langle N_{part} \rangle$'}
   values:
   - value: 15.6
     errors:
@@ -34,7 +34,7 @@ dependent_variables:
   - value: 4.2
     errors:
     - {symerror: 0.3, label: 'stat.'}
-- header: {name: '$<\nu = N_{coll}/N^d_{part}>$'}
+- header: {name: '$\langle \nu = N_{coll}/N^d_{part} \rangle$'}
   values:
   - value: 7.5
     errors:

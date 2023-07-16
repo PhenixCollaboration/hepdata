@@ -1,0 +1,100 @@
+independent_variables:
+- header: {name: '$x^{frag}_{Au}$'}
+  values:
+  - {value: 3.92E-04}
+  - {value: 4.84E-04}
+  - {value: 6.28E-04}
+dependent_variables:
+- header: {name: '$p_T$ (GeV/$c$)'}
+  qualifiers:
+  - {name: 'Associated $p_T$', value: ''}
+  - {name: '$\eta$', value: ''}
+  - {name: 'Centrality', value: ''}
+  values:
+  - value: 1.25
+  - value: 1.75
+  - value: 2.53
+- header: {name: '$J_{dA}$'}
+  qualifiers:
+  - {name: 'Associated $p_T$', value: '0.875'}
+  - {name: '$\eta$', value: '3.3'}
+  - {name: 'Centrality', value: '0-20%'}
+  values:
+  - value: 0.077
+    errors:
+    - {symerror: 0.017, label: 'stat.'}
+    - {asymerror: {plus: 0.024, minus: -0.097}, label: 'sys.'}
+    - {symerror: 8.32E-05, label: 'global'}
+  - value: 0.144
+    errors:
+    - {symerror: 0.034, label: 'stat.'}
+    - {asymerror: {plus: 0.051, minus: -0.129}, label: 'sys.'}
+    - {symerror: 1.56E-04, label: 'global'}
+  - value: 0.174
+    errors:
+    - {symerror: 0.037, label: 'stat.'}
+    - {asymerror: {plus: 0.069, minus: -0.137}, label: 'sys.'}
+    - {symerror: 1.88E-04, label: 'global'}
+- header: {name: '$J_{dA}$'}
+  qualifiers:
+  - {name: 'Associated $p_T$', value: '0.875'}
+  - {name: '$\eta$', value: '3.3'}
+  - {name: 'Centrality', value: '20-40%'}
+  values:
+  - value: 0.220
+    errors:
+    - {symerror: 0.031, label: 'stat.'}
+    - {asymerror: {plus: 0.069, minus: -0.192}, label: 'sys.'}
+    - {symerror: 2.31E-04, label: 'global'}
+  - value: 0.397
+    errors:
+    - {symerror: 0.072, label: 'stat.'}
+    - {asymerror: {plus: 0.140, minus: -0.282}, label: 'sys.'}
+    - {symerror: 4.17E-04, label: 'global'}
+  - value: 0.391
+    errors:
+    - {symerror: 0.070, label: 'stat.'}
+    - {asymerror: {plus: 0.153, minus: -0.272}, label: 'sys.'}
+    - {symerror: 4.11E-04, label: 'global'}
+- header: {name: '$J_{dA}$'}
+  qualifiers:
+  - {name: 'Associated $p_T$', value: '0.875'}
+  - {name: '$\eta$', value: '3.3'}
+  - {name: 'Centrality', value: '40-60%'}
+  values:
+  - value: 0.337
+    errors:
+    - {symerror: 0.046, label: 'stat.'}
+    - {asymerror: {plus: 0.086, minus: -0.200}, label: 'sys.'}
+    - {symerror: 3.71E-04, label: 'global'}
+  - value: 0.500
+    errors:
+    - {symerror: 0.097, label: 'stat.'}
+    - {asymerror: {plus: 0.156, minus: -0.292}, label: 'sys.'}
+    - {symerror: 5.50E-04, label: 'global'}
+  - value: 0.453
+    errors:
+    - {symerror: 0.090, label: 'stat.'}
+    - {asymerror: {plus: 0.160, minus: -0.291}, label: 'sys.'}
+    - {symerror: 4.98E-04, label: 'global'}
+- header: {name: '$J_{dA}$'}
+  qualifiers:
+  - {name: 'Associated $p_T$', value: '0.875'}
+  - {name: '$\eta$', value: '3.3'}
+  - {name: 'Centrality', value: '60-88%'}
+  values:
+  - value: 1.131
+    errors:
+    - {symerror: 0.108, label: 'stat.'}
+    - {asymerror: {plus: 0.267, minus: -0.416}, label: 'sys.'}
+    - {symerror: 1.39E-03, label: 'global'}
+  - value: 0.816
+    errors:
+    - {symerror: 0.143, label: 'stat.'}
+    - {asymerror: {plus: 0.228, minus: -0.308}, label: 'sys.'}
+    - {symerror: 1.00E-03, label: 'global'}
+  - value: 0.728
+    errors:
+    - {symerror: 0.135, label: 'stat.'}
+    - {asymerror: {plus: 0.239, minus: -0.335}, label: 'sys.'}
+    - {symerror: 8.95E-04, label: 'global'}

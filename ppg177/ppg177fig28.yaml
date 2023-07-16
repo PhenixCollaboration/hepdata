@@ -1,0 +1,173 @@
+independent_variables:
+- header: {name: '$m_{ee}$ (GeV/$c^2$)'}
+  values:
+  - {low: 0.02, high: 0.03}
+  - {low: 0.03, high: 0.04}
+  - {low: 0.04, high: 0.05}
+  - {low: 0.05, high: 0.06}
+  - {low: 0.06, high: 0.07}
+  - {low: 0.07, high: 0.08}
+  - {low: 0.08, high: 0.09}
+  - {low: 0.09, high: 0.10}
+  - {low: 0.10, high: 0.15}
+  - {low: 0.15, high: 0.25}
+  - {low: 0.25, high: 0.45}
+  - {low: 0.45, high: 0.55}
+  - {low: 0.55, high: 0.65}
+  - {low: 0.65, high: 0.75}
+  - {low: 0.75, high: 0.85}
+  - {low: 0.85, high: 0.95}
+  - {low: 0.95, high: 1.05}
+  - {low: 1.05, high: 1.25}
+  - {low: 1.25, high: 1.50}
+  - {low: 1.50, high: 1.75}
+  - {low: 1.75, high: 2.00}
+  - {low: 2.00, high: 2.25}
+  - {low: 2.25, high: 2.50}
+  - {low: 2.50, high: 2.75}
+  - {low: 2.75, high: 2.95}
+  - {low: 2.95, high: 3.00}
+  - {low: 3.00, high: 3.05}
+  - {low: 3.05, high: 3.15}
+  - {low: 3.15, high: 3.25}
+  - {low: 3.25, high: 3.35}
+  - {low: 3.35, high: 3.75}
+  - {low: 3.75, high: 4.50}
+  - {low: 4.50, high: 5.00}
+dependent_variables:
+- header: {name: '$dN$/$dm_{ee}$ in PHENIX Acceptance (GeV/$c^2$)$^{-1}$'}
+  qualifiers:
+  - {name: 'Cocktail Component', value: 'Data'}
+  values:
+  - value: 0.00478
+    errors:
+    - {symerror: 1.0e-4, label: 'stat.'}
+    - {symerror: 5e-4, label: 'sys.'}
+  - value: 0.01769
+    errors:
+    - {symerror: 1.9e-4, label: 'stat.'}
+    - {symerror: 0.0017, label: 'sys.'}
+  - value: 0.02320
+    errors:
+    - {symerror: 2.3e-4, label: 'stat.'}
+    - {symerror: 0.0023, label: 'sys.'}
+  - value: 0.02107
+    errors:
+    - {symerror: 2.4e-4, label: 'stat.'}
+    - {asymerror: {plus: 0.0020, minus: 0.0021}, label: 'sys.'}
+  - value: 0.01643
+    errors:
+    - {symerror: 2.7e-4, label: 'stat.'}
+    - {asymerror: {plus: 0.0016, minus: 0.0017}, label: 'sys.'}
+  - value: 0.01288
+    errors:
+    - {symerror: 2.8e-4, label: 'stat.'}
+    - {asymerror: {plus: 0.0013, minus: 0.0014}, label: 'sys.'}
+  - value: 0.00949
+    errors:
+    - {symerror: 3.1e-4, label: 'stat.'}
+    - {symerror: 9e-4, label: 'sys.'}
+  - value: 0.00653
+    errors:
+    - {symerror: 3.2e-4, label: 'stat.'}
+    - {symerror: 6e-4, label: 'sys.'}
+  - value: 0.00198
+    errors:
+    - {symerror: 1.3e-4, label: 'stat.'}
+    - {symerror: 2.0e-4, label: 'sys.'}
+  - value: 8.7e-4
+    errors:
+    - {symerror: 1.0e-4, label: 'stat.'}
+    - {symerror: 9e-5, label: 'sys.'}
+  - value: 0.345
+    errors:
+    - {symerror: 3.5e-4, label: 'stat.'}
+    - {asymerror: {plus: 9e-5, minus: 5e-5}, label: 'sys.'}
+  - value: 2.7e-4
+    errors:
+    - {symerror: 1.0e-4, label: 'stat.'}
+    - {symerror: 5e-5, label: 'sys.'}
+  - value: 1.1e-4
+    errors:
+    - {symerror: 7e-5, label: 'stat.'}
+    - {symerror: 5e-5, label: 'sys.'}
+  - value: 2.02e-4
+    errors:
+    - {symerror: 7e-5, label: 'stat.'}
+    - {symerror: 3.3e-5, label: 'sys.'}
+  - value: 2.73e-4
+    errors:
+    - {symerror: 1.3e-4, label: 'stat.'}
+    - {symerror: 3.4e-5, label: 'sys.'}
+  - value: 1.27e-4
+    errors:
+    - {symerror: 3.3e-5, label: 'stat.'}
+    - {symerror: 1.9e-5, label: 'sys.'}
+  - value: 1.24e-4
+    errors:
+    - {symerror: 6e-5, label: 'stat.'}
+    - {asymerror: {plus: 2.1e-5, minus: 2.4e-5}, label: 'sys.'}
+  - value: 3.4e-5
+    errors:
+    - {symerror: 1.8e-5, label: 'stat.'}
+    - {asymerror: {plus: 6e-6, minus: 9e-6}, label: 'sys.'}
+  - value: 3.9e-5
+    errors:
+    - {symerror: 1.0e-5, label: 'stat.'}
+    - {asymerror: {plus: 4e-6, minus: 5e-6}, label: 'sys.'}
+  - value: 1.02e-5
+    errors:
+    - {symerror: 6e-6, label: 'stat.'}
+    - {asymerror: {plus: 1.2e-6, minus: 1.6e-6}, label: 'sys.'}
+  - value: 9.2e-6
+    errors:
+    - {symerror: 4e-6, label: 'stat.'}
+    - {asymerror: {plus: 9e-7, minus: 1.0e-6}, label: 'sys.'}
+  - value: 5.2e-6
+    errors:
+    - {symerror: 2.4e-6, label: 'stat.'}
+    - {symerror: 5e-7, label: 'sys.'}
+  - value: 1.26e-6
+    errors:
+    - {symerror: 1.4e-6, label: 'stat.'}
+    - {asymerror: {plus: 1.3e-7, minus: 1.4e-7}, label: 'sys.'}
+  - value: 1.93e-6
+    errors:
+    - {symerror: 9e-7, label: 'stat.'}
+    - {symerror: 1.9e-7, label: 'sys.'}
+  - value: 4.0e-6
+    errors:
+    - {symerror: 8e-7, label: 'stat.'}
+    - {symerror: 4e-7, label: 'sys.'}
+  - value: 6.8e-6
+    errors:
+    - {symerror: 1.4e-6, label: 'stat.'}
+    - {symerror: 7e-7, label: 'sys.'}
+  - value: 9.0e-6
+    errors:
+    - {symerror: 1.3e-6, label: 'stat.'}
+    - {symerror: 9e-7, label: 'sys.'}
+  - value: 1.38e-5
+    errors:
+    - {symerror: 9e-7, label: 'stat.'}
+    - {symerror: 1.3e-6, label: 'sys.'}
+  - value: 5.8e-6
+    errors:
+    - {symerror: 7e-7, label: 'stat.'}
+    - {symerror: 6e-7, label: 'sys.'}
+  - value: 1.38e-6
+    errors:
+    - {symerror: 6e-7, label: 'stat.'}
+    - {symerror: 1.3e-7, label: 'sys.'}
+  - value: 3.60e-7
+    errors:
+    - {symerror: 1.9e-7, label: 'stat.'}
+    - {symerror: 3.5e-8, label: 'sys.'}
+  - value: 9.3e-8
+    errors:
+    - {symerror: 7e-8, label: 'stat.'}
+    - {symerror: 9e-9, label: 'sys.'}
+  - value: 9.2e-8
+    errors:
+    - {symerror: 4e-8, label: 'stat.'}
+    - {symerror: 9e-9, label: 'sys.'}

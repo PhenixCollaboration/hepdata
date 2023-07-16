@@ -217,54 +217,10 @@ additional_resources:
   - {location: Raaintehalf.png, description: Image file}
 data_file: ppg023fig14b.yaml
 ---
-name: "Figure 17a"
-description: '$x_T$-scaled spectra for $\pi^0$ for Au+Au collisions at $\sqrt{s_{NN}}$ = 130 GeV from the lead-scintillator.'
-keywords:
-  - {name: reactions, values: [AU AU --> CHARGED X]}
-  - {name: cmenergies, values: [200.0]}
-  - {name: phrases, values: [ppg023, p0, mid-rapidity]}
-additional_resources:
-  - {location: thumb_xT.png, description: Thumbnail Image file}
-  - {location: xT.png, description: Image file}
-data_file: ppg023fig17a.yaml
----
-name: "Figure 17b"
-description: '$x_T$-scaled spectra for $\pi^0$ for Au+Au collisions at $\sqrt{s_{NN}}$ = 200 GeV from the lead-scintillator.'
-keywords:
-  - {name: reactions, values: [AU AU --> CHARGED X]}
-  - {name: cmenergies, values: [200.0]}
-  - {name: phrases, values: [ppg023, p0, mid-rapidity]}
-additional_resources:
-  - {location: thumb_xT.png, description: Thumbnail Image file}
-  - {location: xT.png, description: Image file}
-data_file: ppg023fig17b.yaml
----
-name: "Figure 17c"
-description: '$x_T$-scaled spectra for $\pi^0$ for Au+Au collisions at $\sqrt{s_{NN}}$ = 200 GeV from the lead-scintillator.'
-keywords:
-  - {name: reactions, values: [AU AU --> CHARGED X]}
-  - {name: cmenergies, values: [200.0]}
-  - {name: phrases, values: [ppg023, p0, mid-rapidity]}
-additional_resources:
-  - {location: thumb_xTloghalf.png, description: Thumbnail Image file}
-  - {location: xTloghalf.png, description: Image file}
-data_file: ppg023fig17c.yaml
----
-name: "Figure 17d"
-description: '$x_T$-scaled spectra for $h^{\pm}$ for Au+Au collisions at $\sqrt{s_{NN}}$ = 130 GeV from the lead-scintillator.'
-keywords:
-  - {name: reactions, values: [AU AU --> CHARGED X]}
-  - {name: cmenergies, values: [200.0]}
-  - {name: phrases, values: [ppg023, p0, mid-rapidity]}
-additional_resources:
-  - {location: thumb_xTloghalf.png, description: Thumbnail Image file}
-  - {location: xTloghalf.png, description: Image file}
-data_file: ppg023fig17d.yaml
----
 name: "Invariant yield from p+p reference"
-description: 'Invariant yields from the p+p reference data. The normalization uncertainty is labeled norm, the uncertainty from the fit is labeled fit, and the uncertainty $\pi^0$ is from the $\pi^0$ ratio.'
+description: 'Invariant yields from the $p$+$p$ reference data. The normalization uncertainty is labeled norm, the uncertainty from the fit is labeled fit, and the uncertainty $\pi^0$ is from the $\pi^0$ ratio.'
 keywords:
-  - {name: reactions, values: [P P --> CHARGED X]}
+  - {name: reactions, values: [$p$ $p$ --> CHARGED X]}
   - {name: cmenergies, values: [200.0]}
   - {name: phrases, values: [ppg023, p0, mid-rapidity]}
 data_file: ppg023tab1.yaml

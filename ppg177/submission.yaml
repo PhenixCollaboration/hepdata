@@ -1,0 +1,43 @@
+#PHENIX paper PPG177
+#
+#Dielectron production in Au+Au collisions at $\sqrt{s_{NN}}$ = 200 GeV
+#
+#Phys.Rev.Lett C 93 (2016) 014904
+#InspireHEP ID: 1393530
+#
+#Prepared by Nikolas Nelson
+#Please contact Christine Nattrass if you have any questions about this submission
+#PPG liaison:
+#Reviewer:
+#
+comment: | # Information that applies to all data tables.
+  We present measurements of $e^+e^−$ production at midrapidity in Au+Au collisions at $\sqrt{s_{NN}}$ = 200 GeV. The invariant yield is studied within the PHENIX detector acceptance over a wide range of mass ($m_{ee}$ < 5 GeV/$c^2$) and pair transverse momentum ($p_T$ < 5 GeV/$c$), for minimum bias and for five centrality classes. The $e^+e^-$ yield is compared to the expectations from known sources. In the low-mass region ($m_{ee}$ = 0.30 - 0.76 GeV/$c^2$) there is an enhancement that increases with centrality and is distributed over the entire pair $p_T$ range measured. It is significantly smaller than previously reported by the PHENIX experiment and amounts to 2.3 $\pm$ 0.4(stat) $\pm$ 0.4(syst) $\pm$ 0.2$^{model}$ or to 1.7 $\pm$ 0.3(stat) $\pm$ 0.3(syst) $\pm$ 0.2$^{model}$ for minimum bias collisions when the open-heavy-flavor contribution is calculated with PYTHIA or MC@NLO, respectively. The inclusive mass and $p_T$ distributions as well as the centrality dependence are well reproduced by model calculations where the enhancement mainly originates from the melting of the $\rho$ meson resonance as the system approaches chiral symmetry restoration. In the intermediate-mass region ($m_{ee}$ = 1.2 - 2.8 GeV/$c^2$), the data hint at a significant contribution in addition to the yield from the semileptonic decays of heavy-flavor mesons.
+additional_resources:
+- {location: "https://phenix-intra.sdcc.bnl.gov/phenix/WWW/p/info/ppg/177/", description: "web page with data points"}
+- {location: "http://arxiv.org/abs/1509.04667", description: arXiv}
+- {location: "https://inspirehep.net/literature/1393530", description: InspireHEP}
+---
+# This is Figure 27.
+name: "Figure 27"
+location: Data From Fig. 27 of PRC 93 (2016) 014904
+description: 'Cocktail of hadronic sources for the 2010 run using the PYTHIA generator for the open heavy flavor contributions.'
+keywords: # used for searching, possibly mutliple values for each keywords
+- {name: reactions, values: [Au Au --> CHARGED X]}
+- {name: cmenergies, values: [200.0]}
+- {name: phrases, values: [ppg177, midrapidity, invariant yield, transverse momentum, semileptonic decays]}
+data_file: ppg177fig27.yaml
+additional_resources:
+- {description: Thumbnail Image file, location: thumb_comp_pythia_mcnlo958_cocktail.png}
+---
+# This is Figure 28.
+name: "Figure 28"
+location: Data From Fig. 28 of PRC 93 (2016) 014904
+description: 'Invariant mass spectrum of $e^+e^-$ pairs in MB Au+Au collisions within the PHENIX acceptance compared to the cocktail of expected decays.'
+keywords: # used for searching, possibly mutliple values for each keywords
+- {name: reactions, values: [Au Au --> CHARGED X]}
+- {name: cmenergies, values: [200.0]}
+- {name: phrases, values: [ppg177, midrapidity, invariant yield, transverse momentum, semileptonic decays]}
+data_file: ppg177fig28.yaml
+additional_resources:
+- {description: Thumbnail Image file, location: thumb_mass_mb_pythia.png}
+---
