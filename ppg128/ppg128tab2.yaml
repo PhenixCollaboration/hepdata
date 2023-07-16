@@ -1,0 +1,48 @@
+independent_variables:
+- header: {name: '$p_T$ (GeV/$c$)'}
+  values:
+  - {low: 0.25, high: 0.50}
+  - {low: 0.50, high: 0.75}
+  - {low: 0.75, high: 1.00}
+  - {low: 1.00, high: 1.25}
+  - {low: 1.25, high: 1.50}
+  - {low: 1.50, high: 1.75}
+  - {low: 1.75, high: 2.00}
+dependent_variables:
+- header: {name: '$Ed^3\sigma$/$d\sigma^3$ (mb/GeV$^2 c^3$)'}
+  values:
+  - value: 23.9
+    errors:
+    - {symerror: 2.6, label: 'stat.'}
+    - {symerror: 3.6, label: 'sys.'}
+    - {symerror: 0.097, label: 'global'}
+  - value: 5.09
+    errors:
+    - {symerror: 0.08, label: 'stat.'}
+    - {symerror: 0.57, label: 'sys.'}
+    - {symerror: 0.097, label: 'global'}
+  - value: 1.10
+    errors:
+    - {symerror: 0.02, label: 'stat.'}
+    - {symerror: 0.14, label: 'sys.'}
+    - {symerror: 0.097, label: 'global'}
+  - value: 3.04e-01
+    errors:
+    - {symerror: 0.005, label: 'stat.'}
+    - {symerror: 0.043, label: 'sys.'}
+    - {symerror: 0.097, label: 'global'}
+  - value: 9.20e-02
+    errors:
+    - {symerror: 0.002, label: 'stat.'}
+    - {symerror: 0.0143, label: 'sys.'}
+    - {symerror: 0.097, label: 'global'}
+  - value: 2.84e-02
+    errors:
+    - {symerror: 0.001, label: 'stat.'}
+    - {symerror: 0.0043, label: 'sys.'}
+    - {symerror: 0.097, label: 'global'}
+  - value: 1.28e-02
+    errors:
+    - {symerror: 0.002, label: 'stat.'}
+    - {symerror: 0.0022, label: 'sys.'}
+    - {symerror: 0.097, label: 'global'}
