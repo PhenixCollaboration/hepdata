@@ -1,0 +1,36 @@
+independent_variables:
+- header: {name: '$p_T$ (GeV/$c$)'}
+  values:
+  - {value: 0.397}
+  - {value: 0.519}
+  - {value: 0.729}
+  - {value: 1.049}
+  - {value: 1.450}
+  - {value: 2.039}
+dependent_variables:
+- header: {name: '[F] 30 < Centrality (%) < 60'}
+  values:
+  - value: 0.060
+    errors:
+    - {symerror: 0.009, label: 'stat.'}
+    - {symerror: 0.003, label: 'sys.'}
+  - value: 0.081
+    errors:
+    - {symerror: 0.005, label: 'stat.'}
+    - {symerror: 0.004, label: 'sys.'}
+  - value: 0.1005
+    errors:
+    - {symerror: 0.0022, label: 'stat.'}
+    - {symerror: 0.0050, label: 'sys.'}
+  - value: 0.129
+    errors:
+    - {symerror: 0.005, label: 'stat.'}
+    - {symerror: 0.006, label: 'sys.'}
+  - value: 0.156
+    errors:
+    - {symerror: 0.008, label: 'stat.'}
+    - {symerror: 0.008, label: 'sys.'}
+  - value: 0.214
+    errors:
+    - {symerror: 0.020, label: 'stat.'}
+    - {symerror: 0.01, label: 'sys.'}
