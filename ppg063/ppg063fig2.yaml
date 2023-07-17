@@ -10,6 +10,7 @@ independent_variables:
   - {low: 3.00, high: 3.50}
   - {low: 3.50, high: 4.00}
   - {low: 4.00, high: 5.00}
+  - {low: 5.00, high: 6.00}
   - {low: 6.00, high: 7.00}
   - {low: 7.00, high: 9.00}
 - header: {name: '$p_T$ (GeV/$c$)'}
@@ -23,6 +24,7 @@ independent_variables:
   - value: 3.21
   - value: 3.72
   - value: 4.38
+  - value: 5.40
   - value: 6.41
   - value: 7.79
 dependent_variables:
@@ -55,6 +57,9 @@ dependent_variables:
   - value: -1.20E-03
     errors:
     - {symerror: 5.60E-03, label: 'stat.'}
+  - value: 0.00
+    errors:
+    - {symerror: 1.10E-02, label: 'stat.'}
   - value: 2.00E-02
     errors:
     - {symerror: 2.00E-02, label: 'stat.'}
