@@ -1,0 +1,31 @@
+independent_variables:
+- header: {name: 'Centrality (%)'}
+  values:
+  - {low: 5, high: 15}
+  - {low: 15, high: 25}
+  - {low: 25, high: 35}
+  - {low: 35, high: 45}
+  - {low: 45, high: 55}
+dependent_variables:
+- header: {name: '[A] 1.0 < $p_T$ < 2.5 (GeV/$c$)'}
+  values:
+  - value: 0.072
+    errors:
+    - {symerror: 0.008, label: 'stat.'}
+    - {symerror: 0.004, label: 'sys.'}
+  - value: 0.114
+    errors:
+    - {symerror: 0.009, label: 'stat.'}
+    - {symerror: 0.006, label: 'sys.'}
+  - value: 0.129
+    errors:
+    - {symerror: 0.007, label: 'stat.'}
+    - {symerror: 0.006, label: 'sys.'}
+  - value: 0.150
+    errors:
+    - {symerror: 0.011, label: 'stat.'}
+    - {symerror: 0.008, label: 'sys.'}
+  - value: 0.156
+    errors:
+    - {symerror: 0.009, label: 'stat.'}
+    - {symerror: 0.008, label: 'sys.'}

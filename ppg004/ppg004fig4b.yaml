@@ -1,0 +1,62 @@
+independent_variables:
+- header: {name: 'Centrality (%)'}
+  values:
+  - {low: 5, high: 15}
+  - {low: 15, high: 25}
+  - {low: 25, high: 35}
+  - {low: 35, high: 45}
+  - {low: 45, high: 55}
+  - {low: 55, high: 65}
+dependent_variables:
+- header: {name: '[F] 0.4 < $p_T$ < 0.6 (GeV/$c$)'}
+  values:
+  - value: 0.17
+    errors:
+    - {symerror: 0.06, label: 'stat.'}
+    - {symerror: 0.02, label: 'sys.'}
+  - value: 0.188
+    errors:
+    - {symerror: 0.018, label: 'stat.'}
+    - {symerror: 0.019, label: 'sys.'}
+  - value: 0.208
+    errors:
+    - {symerror: 0.015, label: 'stat.'}
+    - {symerror: 0.021, label: 'sys.'}
+  - value: 0.198
+    errors:
+    - {symerror: 0.019, label: 'stat.'}
+    - {symerror: 0.020, label: 'sys.'}
+  - value: 0.204
+    errors:
+    - {symerror: 0.019, label: 'stat.'}
+    - {symerror: 0.020, label: 'sys.'}
+  - value: 0.22
+    errors:
+    - {symerror: 0.04, label: 'stat.'}
+    - {symerror: 0.02, label: 'sys.'}
+- header: {name: '[F] 1.0 < $p_T$ < 2.5 (GeV/$c$)'}
+  values:
+  - value: 0.60
+    errors:
+    - {symerror: 0.07, label: 'stat.'}
+    - {symerror: 0.06, label: 'sys.'}
+  - value: 0.54
+    errors:
+    - {symerror: 0.04, label: 'stat.'}
+    - {symerror: 0.054, label: 'sys.'}
+  - value: 0.468
+    errors:
+    - {symerror: 0.027, label: 'stat.'}
+    - {symerror: 0.047, label: 'sys.'}
+  - value: 0.463
+    errors:
+    - {symerror: 0.034, label: 'stat.'}
+    - {symerror: 0.046, label: 'sys.'}
+  - value: 0.431
+    errors:
+    - {symerror: 0.025, label: 'stat.'}
+    - {symerror: 0.043, label: 'sys.'}
+  - value: 0.430
+    errors:
+    - {symerror: 0.032, label: 'stat.'}
+    - {symerror: 0.043, label: 'sys.'}
