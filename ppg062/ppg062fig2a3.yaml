@@ -1,5 +1,5 @@
 independent_variables:
-- header: {name: '$p_T$ (GeV/$c$)'}
+- header: {name: '$p_T$ Bins (GeV/$c$)'}
   values:
   - {low: 0.60, high: 0.70}
   - {low: 0.70, high: 0.80}
@@ -12,8 +12,24 @@ independent_variables:
   - {low: 1.80, high: 2.00}
   - {low: 2.00, high: 2.40}
   - {low: 2.40, high: 3.00}
-  - {low: 3.00, high: 3.40}
+  - {low: 3.00, high: 3.60}
 dependent_variables:
+- header: {name: '$\langle p_T \rangle$ (GeV/$c$)'}
+  qualifiers:
+  - {name: 'Species', value: ''}
+  values:
+  - value: 0.650099
+  - value: 0.750013
+  - value: 0.849777
+  - value: 0.949517
+  - value: 1.092
+  - value: 1.28567
+  - value: 1.48866
+  - value: 1.69367
+  - value: 1.89335
+  - value: 2.2039
+  - value: 2.70391
+  - value: 3.20411
 - header: {name: '$v_2$'}
   qualifiers:
   - {name: 'Species', value: '$p$+$\bar{p}$'}

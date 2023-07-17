@@ -1,5 +1,5 @@
 independent_variables:
-- header: {name: '$KE_T$ (GeV)'}
+- header: {name: '$KE_T$ Bins (GeV)'}
   values:
   - {low: 0.15, high: 0.25}
   - {low: 0.25, high: 0.30}
@@ -12,8 +12,24 @@ independent_variables:
   - {low: 1.10, high: 1.30}
   - {low: 1.30, high: 1.60}
   - {low: 1.60, high: 2.20}
-  - {low: 2.20, high: 2.60}
+  - {low: 2.20, high: 2.80}
 dependent_variables:
+- header: {name: '$\langle KE_T \rangle$ (GeV/$c$)'}
+  qualifiers:
+  - {name: 'Species', value: ''}
+  values:
+  - value: 0.203211
+  - value: 0.262925
+  - value: 0.327617
+  - value: 0.39662
+  - value: 0.501457
+  - value: 0.653363
+  - value: 0.821405
+  - value: 0.997929
+  - value: 1.17481
+  - value: 1.45704
+  - value: 1.9238
+  - value: 2.40039
 - header: {name: '$v_2$'}
   qualifiers:
   - {name: 'Species', value: '$p$+$\bar{p}$'}

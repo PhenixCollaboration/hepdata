@@ -1,0 +1,105 @@
+independent_variables:
+- header: {name: '$k_T$ (GeV/$c$)'}
+  values:
+  - {low: 0.25, high: 0.35}
+  - {low: 0.35, high: 0.45}
+  - {low: 0.45, high: 0.55}
+  - {low: 0.55, high: 0.75}
+  - {low: 0.75, high: 1}
+dependent_variables:
+- header: {name: '$R^{2}_{s,3}/R^{2}_{s,0}$'}
+  qualifiers:
+  - {name: 'Centrality', value: '0-20%'}
+  values:
+  - value: 0.0000
+    errors:
+    - {symerror: 0.0020, label: 'stat.'}
+    - {symerror: 0.020, label: 'sys.'}
+  - value: 0.0050
+    errors:
+    - {symerror: 0.0020, label: 'stat.'}
+    - {symerror: 0.012, label: 'sys.'}
+  - value: -0.0080
+    errors:
+    - {symerror: 0.0030, label: 'stat.'}
+    - {symerror: 0.006, label: 'sys.'}
+  - value: 0.0010
+    errors:
+    - {symerror: 0.0030, label: 'stat.'}
+    - {symerror: 0.017, label: 'sys.'}
+  - value: 0.036
+    errors:
+    - {symerror: 0.004, label: 'stat.'}
+    - {symerror: 0.024, label: 'sys.'}
+- header: {name: '$R^{2}_{s,3}/R^{2}_{s,0}$'}
+  qualifiers:
+  - {name: 'Centrality', value: '20-60%'}
+  values:
+  - value: -0.0070
+    errors:
+    - {symerror: 0.0020, label: 'stat.'}
+    - {symerror: 0.010, label: 'sys.'}
+  - value: -0.0160
+    errors:
+    - {symerror: 0.0030, label: 'stat.'}
+    - {symerror: 0.012, label: 'sys.'}
+  - value: -0.0200
+    errors:
+    - {symerror: 0.0030, label: 'stat.'}
+    - {symerror: 0.023, label: 'sys.'}
+  - value: 0.0080
+    errors:
+    - {symerror: 0.0030, label: 'stat.'}
+    - {symerror: 0.04, label: 'sys.'}
+  - value: 0.011
+    errors:
+    - {symerror: 0.004, label: 'stat.'}
+    - {symerror: 0.018, label: 'sys.'}
+- header: {name: '$R^{2}_{o,3}/R^{2}_{o,0}$'}
+  qualifiers:
+  - {name: 'Centrality', value: '0-20%'}
+  values:
+  - value: -0.0020
+    errors:
+    - {symerror: 0.0030, label: 'stat.'}
+    - {symerror: 0.012, label: 'sys.'}
+  - value: -0.0210
+    errors:
+    - {symerror: 0.0030, label: 'stat.'}
+    - {symerror: 0.013, label: 'sys.'}
+  - value: -0.028
+    errors:
+    - {symerror: 0.004, label: 'stat.'}
+    - {symerror: 0.007, label: 'sys.'}
+  - value: -0.011
+    errors:
+    - {symerror: 0.004, label: 'stat.'}
+    - {symerror: 0.018, label: 'sys.'}
+  - value: -0.030
+    errors:
+    - {symerror: 0.006, label: 'stat.'}
+    - {symerror: 0.05, label: 'sys.'}
+- header: {name: '$R^{2}_{o,3}/R^{2}_{o,0}$'}
+  qualifiers:
+  - {name: 'Centrality', value: '20-60%'}
+  values:
+  - value: -0.0120
+    errors:
+    - {symerror: 0.0030, label: 'stat.'}
+    - {symerror: 0.022, label: 'sys.'}
+  - value: -0.0150
+    errors:
+    - {symerror: 0.0030, label: 'stat.'}
+    - {symerror: 0.017, label: 'sys.'}
+  - value: -0.0250
+    errors:
+    - {symerror: 0.0030, label: 'stat.'}
+    - {symerror: 0.017, label: 'sys.'}
+  - value: -0.038
+    errors:
+    - {symerror: 0.004, label: 'stat.'}
+    - {symerror: 0.023, label: 'sys.'}
+  - value: -0.045
+    errors:
+    - {symerror: 0.006, label: 'stat.'}
+    - {symerror: 0.04, label: 'sys.'}
