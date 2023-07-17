@@ -1,0 +1,86 @@
+independent_variables:
+- header: {name: '$\epsilon_2$'}
+  values:
+  - {value: '0.105'}
+  - {value: '0.200'}
+  - {value: '0.285'}
+  - {value: '0.428'}
+- header: {name: 'error'}
+  values:
+  - {value: '0.004'}
+  - {value: '0.009'}
+  - {value: '0.011'}
+  - {value: '0.020'}
+dependent_variables:
+- header: {name: '2$R^{2}_{s,2}/R^{2}_{s,0}$'}
+  values:
+  - value: 0.024
+    errors:
+    - {symerror: 0.006, label: 'stat.'}
+    - {symerror: 0.009, label: 'sys.'}
+  - value: 0.062
+    errors:
+    - {symerror: 0.005, label: 'stat.'}
+    - {symerror: 0.009, label: 'sys.'}
+  - value: 0.101
+    errors:
+    - {symerror: 0.006, label: 'stat.'}
+    - {symerror: 0.012, label: 'sys.'}
+  - value: 0.128
+    errors:
+    - {symerror: 0.005, label: 'stat.'}
+    - {symerror: 0.012, label: 'sys.'}
+- header: {name: '$2R^{2}_{os,2}/R^{2}_{s,0}$'}
+  values:
+  - value: 0.083
+    errors:
+    - {symerror: 0.005, label: 'stat.'}
+    - {symerror: 0.010, label: 'sys.'}
+  - value: 0.156
+    errors:
+    - {symerror: 0.005, label: 'stat.'}
+    - {symerror: 0.011, label: 'sys.'}
+  - value: 0.191
+    errors:
+    - {symerror: 0.005, label: 'stat.'}
+    - {symerror: 0.018, label: 'sys.'}
+  - value: 0.251
+    errors:
+    - {symerror: 0.004, label: 'stat.'}
+    - {symerror: 0.012, label: 'sys.'}
+- header: {name: '$-2R^{2}_{o,2}/R^{2}_{o,0}$'}
+  values:
+  - value: 0.095
+    errors:
+    - {symerror: 0.007, label: 'stat.'}
+    - {symerror: 0.027, label: 'sys.'}
+  - value: 0.123
+    errors:
+    - {symerror: 0.007, label: 'stat.'}
+    - {symerror: 0.021, label: 'sys.'}
+  - value: 0.178
+    errors:
+    - {symerror: 0.008, label: 'stat.'}
+    - {symerror: 0.005, label: 'sys.'}
+  - value: 0.199
+    errors:
+    - {symerror: 0.007, label: 'stat.'}
+    - {symerror: 0.016, label: 'sys.'}
+- header: {name: '$-2R^{2}_{o,2}/R^{2}_{s,0}$'}
+  values:
+  - value: 0.120
+    errors:
+    - {symerror: 0.008, label: 'stat.'}
+    - {symerror: 0.036, label: 'sys.'}
+  - value: 0.155
+    errors:
+    - {symerror: 0.008, label: 'stat.'}
+    - {symerror: 0.026, label: 'sys.'}
+  - value: 0.216
+    errors:
+    - {symerror: 0.009, label: 'stat.'}
+    - {symerror: 0.010, label: 'sys.'}
+  - value: 0.237
+    errors:
+    - {symerror: 0.008, label: 'stat.'}
+    - {symerror: 0.019, label: 'sys.'}
