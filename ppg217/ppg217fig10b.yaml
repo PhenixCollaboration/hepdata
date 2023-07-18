@@ -1,0 +1,33 @@
+independent_variables:
+- header: {name: '$x_E$'}
+  values:
+  - {value: 0.12}
+  - {value: 0.19}
+  - {value: 0.29}
+  - {value: 0.40}
+  - {value: 0.59}
+dependent_variables:
+- header: {name: 'Gaussian Width (GeV/$c$)'}
+  qualifiers:
+  - {name: '', value: '$\gamma$-h$^\pm$'}
+  values:
+  - value: 0.4
+    errors:
+    - {symerror: 0.01, label: 'stat.'}
+    - {asymerror: {plus: 0.01, minus: 0.04}, label: 'sys.'}
+  - value: 0.49
+    errors:
+    - {symerror: 0.01, label: 'stat.'}
+    - {asymerror: {plus: 0.02, minus: -0.03}, label: 'sys.'}
+  - value: 0.78
+    errors:
+    - {symerror: 0.04, label: 'stat.'}
+    - {asymerror: {plus: 0.01, minus: -0.08}, label: 'sys.'}
+  - value: 0.95
+    errors:
+    - {symerror: 0.08, label: 'stat.'}
+    - {asymerror: {plus: 0.10, minus: -0.01}, label: 'sys.'}
+  - value: 1.36
+    errors:
+    - {symerror: 0.14, label: 'stat.'}
+    - {asymerror: {plus: 0.05, minus: -0.38}, label: 'sys.'}
