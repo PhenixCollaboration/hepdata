@@ -1,14 +1,32 @@
 independent_variables:
-- header: {name: '$\nu$'}
+- header: {name: ' '}
   values:
-  - {low: 1.0, high: 1.4}
-  - {low: 2.7, high: 3.3}
-  - {low: 4.2, high: 5.0}
-  - {low: 6.0, high: 7.0}
+  - {value: 'i'}
+  - {value: 'ii'}
+  - {value: 'iii'}
+  - {value: 'iv'}
+
 dependent_variables:
+- header: {name: '$\nu-1$'}
+  qualifiers:
+  - {name: '', value: ''}
+  values:
+  - value: 1.2
+    errors:
+    - {symerror: 0.2, label: ''}
+  - value: 3.0
+    errors:
+    - {symerror: 0.3, label: ''}
+  - value: 4.6
+    errors:
+    - {symerror: 0.4, label: ''}
+  - value: 6.5
+    errors:
+    - {symerror: 0.5, label: ''}
+
 - header: {name: '$R_{dAu}$'}
   qualifiers:
-  - {name: '$p_{T}\ range$', value: '$2.8 < p_{T} < 6.0\ \mathrm{GeV}/c$'}
+  - {name: '', value: '$2.8 < p_{T} < 6.0\ \mathrm{GeV}/c$'}
   values:
   - value: 0.9090
     errors:
@@ -26,9 +44,10 @@ dependent_variables:
     errors:
     - {symerror: 0.0011, label: 'stat.'}
     - {symerror: 0.05, label: 'sys.'}
+
 - header: {name: '$R_{dAu}$'}
   qualifiers:
-  - {name: '$p_{T}\ range$', value: '$1.5 < p_{T} < 2.7\ \mathrm{GeV}/c$'}
+  - {name: '', value: '$1.5 < p_{T} < 2.7\ \mathrm{GeV}/c$'}
   values:
   - value: 1.001
     errors:
@@ -46,9 +65,10 @@ dependent_variables:
     errors:
     - {symerror: 0.005, label: 'stat.'}
     - {symerror: 0.07, label: 'sys.'}
+
 - header: {name: '$R_{dAu}$'}
   qualifiers:
-  - {name: '$p_{T}\ range$', value: '$0.6 < p_{T} < 1.0\ \mathrm{GeV}/c$'}
+  - {name: '', value: '$0.6 < p_{T} < 1.0\ \mathrm{GeV}/c$'}
   values:
   - value: 1.100
     errors:

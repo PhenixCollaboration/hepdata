@@ -1,0 +1,38 @@
+independent_variables:
+- header: {name: '$\Delta\phi$ (rad)'}
+  values:
+  - {value: 1.86e+00}
+  - {value: 2.79e+00}
+  - {value: 3.03e+00}
+  - {value: 3.26e+00}
+  - {value: 3.49e+00}
+  - {value: 3.72e+00}
+dependent_variables:
+- header: {name: '1/$N_{trig}$ $dN$/$d\Delta\phi$ (rad)$^{-1}$'}
+  qualifiers:
+  - {name: '', value: '12 < $p_T^{trig}$ < 15 (GeV/$c$) $\otimes$ 5 < $p_T^{assoc}$ < 10 (GeV/$c$) $\gamma$-h$^\pm$'}
+  values:
+  - value: 9.52e-03
+    errors:
+    - {symerror: 3.24e-03, label: 'stat.'}
+    - {symerror: 1.29e-03, label: 'sys.'}
+  - value: 1.12e-02
+    errors:
+    - {symerror: 4.31e-03, label: 'stat.'}
+    - {symerror: 1.51e-03, label: 'sys.'}
+  - value: 3.53e-02
+    errors:
+    - {symerror: 7.42e-03, label: 'stat.'}
+    - {symerror: 4.77e-03, label: 'sys.'}
+  - value: 3.27e-02
+    errors:
+    - {symerror: 7.29e-03, label: 'stat.'}
+    - {symerror: 4.41e-03, label: 'sys.'}
+  - value: 1.85e-02
+    errors:
+    - {symerror: 5.49e-03, label: 'stat.'}
+    - {symerror: 2.49e-03, label: 'sys.'}
+  - value: 4.02e-03
+    errors:
+    - {symerror: 2.80e-03, label: 'stat.'}
+    - {symerror: 5.43e-04, label: 'sys.'}

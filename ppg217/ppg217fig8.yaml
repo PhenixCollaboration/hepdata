@@ -1,0 +1,48 @@
+independent_variables:
+- header: {name: '$x_E$'}
+  values:
+  - {value: 0.12}
+  - {value: 0.19}
+  - {value: 0.34}
+  - {value: 0.66}
+dependent_variables:
+- header: {name: 'Gaussian Width (GeV/$c$)'}
+  qualifiers:
+  - {name: '', value: '$\pi^0$-h$^\pm$'}
+  values:
+  - value: 0.404
+    errors:
+    - {symerror: 0.005, label: 'stat.'}
+    - {asymerror: {plus: 0.011, minus: -0.027}, label: 'sys.'}
+  - value: 0.517
+    errors:
+    - {symerror: 0.007, label: 'stat.'}
+    - {asymerror: {plus: 0.005, minus: -0.020}, label: 'sys.'}
+  - value: 0.725
+    errors:
+    - {symerror: 0.008, label: 'stat.'}
+    - {asymerror: {plus: 0.031, minus: -0.011}, label: 'sys.'}
+  - value: 1.10
+    errors:
+    - {symerror: 0.02, label: 'stat.'}
+    - {asymerror: {plus: 0.02, minus: -0.08}, label: 'sys.'}
+- header: {name: 'Gaussian Width (GeV/$c$)'}
+  qualifiers:
+  - {name: '', value: '$\gamma$-h$^\pm$'}
+  values:
+  - value: 0.40
+    errors:
+    - {symerror: 0.01, label: 'stat.'}
+    - {asymerror: {plus: 0.03, minus: -0.08}, label: 'sys.'}
+  - value: 0.59
+    errors:
+    - {symerror: 0.03, label: 'stat.'}
+    - {asymerror: {plus: 0.02, minus: -0.02}, label: 'sys.'}
+  - value: 0.78
+    errors:
+    - {symerror: 0.04, label: 'stat.'}
+    - {asymerror: {plus: 0.02, minus: -0.03}, label: 'sys.'}
+  - value: 1.07
+    errors:
+    - {symerror: 0.10, label: 'stat.'}
+    - {asymerror: {plus: 0.08, minus: -0.16}, label: 'sys.'}
