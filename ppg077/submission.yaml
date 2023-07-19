@@ -17,9 +17,9 @@ additional_resources:
 - {location: "http://arxiv.org/abs/1005.1627", description: arXiv}
 - {location: "https://inspirehep.net/literature/854475", description: InspireHEP}
 ---
-# This is Table 8.
-name: "Table 8a"
-location: Data From Table 8 of PRC 84 (2010) 044905
+# This is Table 1&7.
+name: "Table 1 & 7 Part A"
+location: Data From Table 1 & 7 of PRC 84 (2010) 044905
 description: 'Charm cross section per $N$+$N$ collision in centrality bins in Au+Au and $p$+$p$. $T_{AA}$ is the nuclear overlap integral of the centrality.'
 keywords: # used for searching, possibly mutliple values for each keywords
 - {name: reactions, values: [Au Au --> CHARGED X, $p$ $p$ --> CHARGED X]}
@@ -27,9 +27,9 @@ keywords: # used for searching, possibly mutliple values for each keywords
 - {name: phrases, values: [ppg077, Transverse Momentum, mid-rapidity]}
 data_file: ppg077tab8a.yaml
 ---
-# This is Table 8.
-name: "Table 8b"
-location: Data From Table 8 of PRC 84 (2010) 044905
+# This is Table 1&7.
+name: "Table 1 & 7 Part B"
+location: Data From Table 1 & 7 of PRC 84 (2010) 044905
 description: 'Charm cross section per $N$+$N$ collision in centrality bins in Au+Au and $p$+$p$. $T_{AA}$ is the nuclear overlap integral of the centrality.'
 keywords: # used for searching, possibly mutliple values for each keywords
 - {name: reactions, values: [Au Au --> CHARGED X, $p$ $p$ --> CHARGED X]}
@@ -37,139 +37,81 @@ keywords: # used for searching, possibly mutliple values for each keywords
 - {name: phrases, values: [ppg077, Transverse Momentum, mid-rapidity]}
 data_file: ppg077tab8b.yaml
 ---
-# This is Table 17.
-name: "Table 17"
-location: Data From Table 17 of PRC 84 (2010) 044905
+# This is Table 15.
+name: "Table 15"
+location: Data From Table 15 of PRC 84 (2010) 044905
 description: 'Heavy-flavor $e^{\pm}$ $v_2$ from Au+Au collisions, for the centralities indicated.'
 keywords: # used for searching, possibly mutliple values for each keywords
 - {name: reactions, values: [Au Au --> CHARGED X]}
 - {name: cmenergies, values: [200.0]}
 - {name: phrases, values: [ppg077, Transverse Momentum, mid-rapidity]}
-data_file: ppg077tab17.yaml
----
-# This is Figure 32.
-name: "Figure 32a"
-location: Data From Tables 10 & 11 of PRC 84 (2010) 044905
-description: 'Differential invariant yield of electrons (($N_{e^+}$+$N_{e^-}$)/2) from heavy-flavor decays for different centrality classes.'
-keywords: # used for searching, possibly mutliple values for each keywords
-- {name: reactions, values: [Au Au --> CHARGED X, $p$ $p$ --> CHARGED X]}
-- {name: cmenergies, values: [200.0]}
-- {name: phrases, values: [ppg077, Transverse Momentum, mid-rapidity]}
-data_file: ppg077fig32a.yaml
-additional_resources:
-- {description: Original EPS Image file, location: ppg066_fig1_logo.eps}
-- {description: PNG Image file, location: ppg066_fig1_logo.png}
-- {description: Thumbnail Image file, location: thumb_ppg066_fig1_logo.png}
----
-# This is Figure 32.
-name: "Figure 32b"
-location: Data From Table 12 of PRC 84 (2010) 044905
-description: 'Differential invariant yield of electrons (($N_{e^+}$+$N_{e^-}$)/2) from heavy-flavor decays for different centrality classes.'
-keywords: # used for searching, possibly mutliple values for each keywords
-- {name: reactions, values: [Au Au --> CHARGED X, $p$ $p$ --> CHARGED X]}
-- {name: cmenergies, values: [200.0]}
-- {name: phrases, values: [ppg077, Transverse Momentum, mid-rapidity]}
-data_file: ppg077fig32b.yaml
-additional_resources:
-- {description: Original EPS Image file, location: ppg066_fig1_logo.eps}
-- {description: PNG Image file, location: ppg066_fig1_logo.png}
-- {description: Thumbnail Image file, location: thumb_ppg066_fig1_logo.png}
----
-# This is Figure 32.
-name: "Figure 32c"
-location: Data From Table 12 of PRC 84 (2010) 044905
-description: 'Differential invariant yield of electrons (($N_{e^+}$+$N_{e^-}$)/2) from heavy-flavor decays for different centrality classes.'
-keywords: # used for searching, possibly mutliple values for each keywords
-- {name: reactions, values: [Au Au --> CHARGED X, $p$ $p$ --> CHARGED X]}
-- {name: cmenergies, values: [200.0]}
-- {name: phrases, values: [ppg077, Transverse Momentum, mid-rapidity]}
-data_file: ppg077fig32c.yaml
-additional_resources:
-- {description: Original EPS Image file, location: ppg066_fig1_logo.eps}
-- {description: PNG Image file, location: ppg066_fig1_logo.png}
-- {description: Thumbnail Image file, location: thumb_ppg066_fig1_logo.png}
----
-# This is Figure 32.
-name: "Figure 32d"
-location: Data From Table 18 of PRC 84 (2010) 044905
-description: 'Differential invariant yield of electrons (($N_{e^+}$+$N_{e^-}$)/2) from heavy-flavor decays for different centrality classes.'
-keywords: # used for searching, possibly mutliple values for each keywords
-- {name: reactions, values: [Au Au --> CHARGED X, $p$ $p$ --> CHARGED X]}
-- {name: cmenergies, values: [200.0]}
-- {name: phrases, values: [ppg077, Transverse Momentum, mid-rapidity]}
-data_file: ppg077fig32d.yaml
-additional_resources:
-- {description: Original EPS Image file, location: ppg066_fig1_logo.eps}
-- {description: PNG Image file, location: ppg066_fig1_logo.png}
-- {description: Thumbnail Image file, location: thumb_ppg066_fig1_logo.png}
+data_file: ppg077tab15.yaml
 ---
 # This is Figure 33.
 name: "Figure 33a"
-location: Data From Tables 13 & 14 of PRC 84 (2010) 044905
-description: '$R_{AuAu}(p^e_T)$ for different centrality classes.'
+location: Data From Tables 8, 9, & 10 of PRC 84 (2010) 044905
+description: 'Differential invariant yield of electrons (($N_{e^+}$+$N_{e^-}$)/2) from heavy-flavor decays for different centrality classes.'
 keywords: # used for searching, possibly mutliple values for each keywords
 - {name: reactions, values: [Au Au --> CHARGED X, $p$ $p$ --> CHARGED X]}
 - {name: cmenergies, values: [200.0]}
 - {name: phrases, values: [ppg077, Transverse Momentum, mid-rapidity]}
 data_file: ppg077fig33a.yaml
 additional_resources:
-- {description: Original EPS Image file, location: RAA_C0010.eps}
-- {description: PNG Image file, location: RAA_C0010.png}
-- {description: Thumbnail Image file, location: thumb_RAA_C0010.png}
-- {description: Original EPS Image file, location: RAA_C1020.eps}
-- {description: PNG Image file, location: RAA_C1020.png}
-- {description: Thumbnail Image file, location: thumb_RAA_C1020.png}
-- {description: Original EPS Image file, location: RAA_C2040.eps}
-- {description: PNG Image file, location: RAA_C2040.png}
-- {description: Thumbnail Image file, location: thumb_RAA_C2040.png}
-- {description: Original EPS Image file, location: RAA_C4060.eps}
-- {description: PNG Image file, location: RAA_C4060.png}
-- {description: Thumbnail Image file, location: thumb_RAA_C4060.png}
-- {description: Original EPS Image file, location: RAA_C6092.eps}
-- {description: PNG Image file, location: RAA_C6092.png}
-- {description: Thumbnail Image file, location: thumb_RAA_C6092.png}
-- {description: Original EPS Image file, location: RAA_C0092.eps}
-- {description: PNG Image file, location: RAA_C0092.png}
-- {description: Thumbnail Image file, location: thumb_RAA_C0092.png}
+- {description: Original EPS Image file, location: ppg066_fig1_logo.eps}
+- {description: PNG Image file, location: ppg066_fig1_logo.png}
+- {description: Thumbnail Image file, location: thumb_ppg066_fig1_logo.png}
 ---
 # This is Figure 33.
 name: "Figure 33b"
-location: Data From Table 15 of PRC 84 (2010) 044905
-description: '$R_{AuAu}(p^e_T)$ for different centrality classes.'
+location: Data From Tables 8, 9, & 10 of PRC 84 (2010) 044905
+description: 'Differential invariant yield of electrons (($N_{e^+}$+$N_{e^-}$)/2) from heavy-flavor decays for different centrality classes.'
 keywords: # used for searching, possibly mutliple values for each keywords
 - {name: reactions, values: [Au Au --> CHARGED X, $p$ $p$ --> CHARGED X]}
 - {name: cmenergies, values: [200.0]}
 - {name: phrases, values: [ppg077, Transverse Momentum, mid-rapidity]}
 data_file: ppg077fig33b.yaml
 additional_resources:
-- {description: Original EPS Image file, location: RAA_C0010.eps}
-- {description: PNG Image file, location: RAA_C0010.png}
-- {description: Thumbnail Image file, location: thumb_RAA_C0010.png}
-- {description: Original EPS Image file, location: RAA_C1020.eps}
-- {description: PNG Image file, location: RAA_C1020.png}
-- {description: Thumbnail Image file, location: thumb_RAA_C1020.png}
-- {description: Original EPS Image file, location: RAA_C2040.eps}
-- {description: PNG Image file, location: RAA_C2040.png}
-- {description: Thumbnail Image file, location: thumb_RAA_C2040.png}
-- {description: Original EPS Image file, location: RAA_C4060.eps}
-- {description: PNG Image file, location: RAA_C4060.png}
-- {description: Thumbnail Image file, location: thumb_RAA_C4060.png}
-- {description: Original EPS Image file, location: RAA_C6092.eps}
-- {description: PNG Image file, location: RAA_C6092.png}
-- {description: Thumbnail Image file, location: thumb_RAA_C6092.png}
-- {description: Original EPS Image file, location: RAA_C0092.eps}
-- {description: PNG Image file, location: RAA_C0092.png}
-- {description: Thumbnail Image file, location: thumb_RAA_C0092.png}
+- {description: Original EPS Image file, location: ppg066_fig1_logo.eps}
+- {description: PNG Image file, location: ppg066_fig1_logo.png}
+- {description: Thumbnail Image file, location: thumb_ppg066_fig1_logo.png}
 ---
 # This is Figure 33.
 name: "Figure 33c"
-location: Data From Table 15 of PRC 84 (2010) 044905
-description: '$R_{AuAu}(p^e_T)$ for different centrality classes.'
+location: Data From Tables 8, 9, & 10 of PRC 84 (2010) 044905
+description: 'Differential invariant yield of electrons (($N_{e^+}$+$N_{e^-}$)/2) from heavy-flavor decays for different centrality classes.'
 keywords: # used for searching, possibly mutliple values for each keywords
 - {name: reactions, values: [Au Au --> CHARGED X, $p$ $p$ --> CHARGED X]}
 - {name: cmenergies, values: [200.0]}
 - {name: phrases, values: [ppg077, Transverse Momentum, mid-rapidity]}
 data_file: ppg077fig33c.yaml
+additional_resources:
+- {description: Original EPS Image file, location: ppg066_fig1_logo.eps}
+- {description: PNG Image file, location: ppg066_fig1_logo.png}
+- {description: Thumbnail Image file, location: thumb_ppg066_fig1_logo.png}
+---
+# This is Figure 33.
+name: "Figure 33d"
+location: Data From Table 16 of PRC 84 (2010) 044905
+description: 'Differential invariant yield of electrons (($N_{e^+}$+$N_{e^-}$)/2) from heavy-flavor decays for different centrality classes.'
+keywords: # used for searching, possibly mutliple values for each keywords
+- {name: reactions, values: [Au Au --> CHARGED X, $p$ $p$ --> CHARGED X]}
+- {name: cmenergies, values: [200.0]}
+- {name: phrases, values: [ppg077, Transverse Momentum, mid-rapidity]}
+data_file: ppg077fig33d.yaml
+additional_resources:
+- {description: Original EPS Image file, location: ppg066_fig1_logo.eps}
+- {description: PNG Image file, location: ppg066_fig1_logo.png}
+- {description: Thumbnail Image file, location: thumb_ppg066_fig1_logo.png}
+---
+# This is Figure 34.
+name: "Figure 34a"
+location: Data From Tables 11, 12, & 13 of PRC 84 (2010) 044905
+description: '$R_{AuAu}(p^e_T)$ for different centrality classes.'
+keywords: # used for searching, possibly mutliple values for each keywords
+- {name: reactions, values: [Au Au --> CHARGED X, $p$ $p$ --> CHARGED X]}
+- {name: cmenergies, values: [200.0]}
+- {name: phrases, values: [ppg077, Transverse Momentum, mid-rapidity]}
+data_file: ppg077fig34a.yaml
 additional_resources:
 - {description: Original EPS Image file, location: RAA_C0010.eps}
 - {description: PNG Image file, location: RAA_C0010.png}
@@ -191,14 +133,72 @@ additional_resources:
 - {description: Thumbnail Image file, location: thumb_RAA_C0092.png}
 ---
 # This is Figure 34.
-name: "Figure 34"
-location: Data From Table 16 of PRC 84 (2010) 044905
+name: "Figure 34b"
+location: Data From Tables 11, 12, & 13 of PRC 84 (2010) 044905
+description: '$R_{AuAu}(p^e_T)$ for different centrality classes.'
+keywords: # used for searching, possibly mutliple values for each keywords
+- {name: reactions, values: [Au Au --> CHARGED X, $p$ $p$ --> CHARGED X]}
+- {name: cmenergies, values: [200.0]}
+- {name: phrases, values: [ppg077, Transverse Momentum, mid-rapidity]}
+data_file: ppg077fig34b.yaml
+additional_resources:
+- {description: Original EPS Image file, location: RAA_C0010.eps}
+- {description: PNG Image file, location: RAA_C0010.png}
+- {description: Thumbnail Image file, location: thumb_RAA_C0010.png}
+- {description: Original EPS Image file, location: RAA_C1020.eps}
+- {description: PNG Image file, location: RAA_C1020.png}
+- {description: Thumbnail Image file, location: thumb_RAA_C1020.png}
+- {description: Original EPS Image file, location: RAA_C2040.eps}
+- {description: PNG Image file, location: RAA_C2040.png}
+- {description: Thumbnail Image file, location: thumb_RAA_C2040.png}
+- {description: Original EPS Image file, location: RAA_C4060.eps}
+- {description: PNG Image file, location: RAA_C4060.png}
+- {description: Thumbnail Image file, location: thumb_RAA_C4060.png}
+- {description: Original EPS Image file, location: RAA_C6092.eps}
+- {description: PNG Image file, location: RAA_C6092.png}
+- {description: Thumbnail Image file, location: thumb_RAA_C6092.png}
+- {description: Original EPS Image file, location: RAA_C0092.eps}
+- {description: PNG Image file, location: RAA_C0092.png}
+- {description: Thumbnail Image file, location: thumb_RAA_C0092.png}
+---
+# This is Figure 34.
+name: "Figure 34c"
+location: Data From Tables 11, 12, & 13 of PRC 84 (2010) 044905
+description: '$R_{AuAu}(p^e_T)$ for different centrality classes.'
+keywords: # used for searching, possibly mutliple values for each keywords
+- {name: reactions, values: [Au Au --> CHARGED X, $p$ $p$ --> CHARGED X]}
+- {name: cmenergies, values: [200.0]}
+- {name: phrases, values: [ppg077, Transverse Momentum, mid-rapidity]}
+data_file: ppg077fig34c.yaml
+additional_resources:
+- {description: Original EPS Image file, location: RAA_C0010.eps}
+- {description: PNG Image file, location: RAA_C0010.png}
+- {description: Thumbnail Image file, location: thumb_RAA_C0010.png}
+- {description: Original EPS Image file, location: RAA_C1020.eps}
+- {description: PNG Image file, location: RAA_C1020.png}
+- {description: Thumbnail Image file, location: thumb_RAA_C1020.png}
+- {description: Original EPS Image file, location: RAA_C2040.eps}
+- {description: PNG Image file, location: RAA_C2040.png}
+- {description: Thumbnail Image file, location: thumb_RAA_C2040.png}
+- {description: Original EPS Image file, location: RAA_C4060.eps}
+- {description: PNG Image file, location: RAA_C4060.png}
+- {description: Thumbnail Image file, location: thumb_RAA_C4060.png}
+- {description: Original EPS Image file, location: RAA_C6092.eps}
+- {description: PNG Image file, location: RAA_C6092.png}
+- {description: Thumbnail Image file, location: thumb_RAA_C6092.png}
+- {description: Original EPS Image file, location: RAA_C0092.eps}
+- {description: PNG Image file, location: RAA_C0092.png}
+- {description: Thumbnail Image file, location: thumb_RAA_C0092.png}
+---
+# This is Figure 35.
+name: "Figure 35"
+location: Data From Table 14 of PRC 84 (2010) 044905
 description: '$p^e_T$-integrated nuclear modification factors $R_{AuAu}$.'
 keywords: # used for searching, possibly mutliple values for each keywords
 - {name: reactions, values: [Au Au --> CHARGED X]}
 - {name: cmenergies, values: [200.0]}
 - {name: phrases, values: [ppg077, Transverse Momentum, mid-rapidity]}
-data_file: ppg077fig34.yaml
+data_file: ppg077fig35.yaml
 additional_resources:
 - {description: Original EPS Image file, location: Integrated_RAA03.eps}
 - {description: PNG Image file, location: Integrated_RAA03.png}
@@ -219,15 +219,15 @@ additional_resources:
 - {description: PNG Image file, location: Integrated_RAA40.png}
 - {description: Thumbnail Image file, location: thumb_Integrated_RAA40.png}
 ---
-# This is Figure 37.
-name: "Figure 37"
-location: Data From Table 17 of PRC 84 (2010) 044905
+# This is Figure 38.
+name: "Figure 38"
+location: Data From Table 15 of PRC 84 (2010) 044905
 description: 'Nonphotonic electron $v_2$ as a function of $p_T$ in Au+Au collisions at $\sqrt{s_{NN}}$ = 200 GeV.'
 keywords: # used for searching, possibly mutliple values for each keywords
 - {name: reactions, values: [Au Au --> CHARGED X]}
 - {name: cmenergies, values: [200.0]}
 - {name: phrases, values: [ppg077, Transverse Momentum, mid-rapidity]}
-data_file: ppg077fig37.yaml
+data_file: ppg077fig38.yaml
 additional_resources:
 - {description: Original EPS Image file, location: picv2_hqelectronv2.eps}
 - {description: PNG Image file, location: picv2_hqelectronv2.png}
