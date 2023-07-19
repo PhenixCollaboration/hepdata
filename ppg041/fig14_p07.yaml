@@ -1,5 +1,5 @@
 independent_variables:
-- header: {name: '$p_T\ [\mathrm{GeV}/c]$'}
+- header: {name: '$p_T$', units: '$\mathrm{GeV}/c$'}
   values:
   - {low: 0.6, high: 0.7}
   - {low: 0.7, high: 0.8}
@@ -38,141 +38,141 @@ independent_variables:
 dependent_variables:
 - header: {name: '$R_{dAu}$'}
   qualifiers:
-  - {name: 'Centrality Class', value: 'Centrality D (Central)'}
+  - {name: 'Centrality Class', value: 'Centrality C'}
   values:
-  - value: 0.993
+  - value: 0.789
     errors:
     - {symerror: 0.005, label: 'stat.'}
-    - {symerror: 0.032, label: 'sys.'}
-  - value: 0.979
+    - {symerror: 0.025, label: 'sys.'}
+  - value: 0.809
     errors:
-    - {symerror: 0.005, label: 'stat.'}
-    - {symerror: 0.031, label: 'sys.'}
-  - value: 1.001
+    - {symerror: 0.006, label: 'stat.'}
+    - {symerror: 0.026, label: 'sys.'}
+  - value: 0.842
     errors:
     - {symerror: 0.007, label: 'stat.'}
-    - {symerror: 0.032, label: 'sys.'}
-  - value: 1.001
+    - {symerror: 0.027, label: 'sys.'}
+  - value: 0.868
     errors:
     - {symerror: 0.008, label: 'stat.'}
-    - {symerror: 0.032, label: 'sys.'}
-  - value: 0.987
-    errors:
-    - {symerror: 0.009, label: 'stat.'}
-    - {symerror: 0.032, label: 'sys.'}
-  - value: 1.013
+    - {symerror: 0.028, label: 'sys.'}
+  - value: 0.891
     errors:
     - {symerror: 0.010, label: 'stat.'}
-    - {symerror: 0.033, label: 'sys.'}
-  - value: 1.019
+    - {symerror: 0.029, label: 'sys.'}
+  - value: 0.925
     errors:
     - {symerror: 0.012, label: 'stat.'}
-    - {symerror: 0.033, label: 'sys.'}
-  - value: 1.059
+    - {symerror: 0.030, label: 'sys.'}
+  - value: 0.981
     errors:
     - {symerror: 0.014, label: 'stat.'}
-    - {symerror: 0.034, label: 'sys.'}
-  - value: 1.026
+    - {symerror: 0.032, label: 'sys.'}
+  - value: 1.000
     errors:
     - {symerror: 0.016, label: 'stat.'}
-    - {symerror: 0.033, label: 'sys.'}
-  - value: 1.018
+    - {symerror: 0.032, label: 'sys.'}
+  - value: 0.973
     errors:
     - {symerror: 0.018, label: 'stat.'}
-    - {symerror: 0.033, label: 'sys.'}
-  - value: 1.092
+    - {symerror: 0.032, label: 'sys.'}
+  - value: 0.986
     errors:
-    - {symerror: 0.022, label: 'stat.'}
-    - {symerror: 0.035, label: 'sys.'}
-  - value: 1.064
+    - {symerror: 0.020, label: 'stat.'}
+    - {symerror: 0.032, label: 'sys.'}
+  - value: 1.052
     errors:
-    - {symerror: 0.024, label: 'stat.'}
+    - {symerror: 0.025, label: 'stat.'}
     - {symerror: 0.034, label: 'sys.'}
   - value: 1.088
     errors:
-    - {symerror: 0.028, label: 'stat.'}
+    - {symerror: 0.029, label: 'stat.'}
     - {symerror: 0.035, label: 'sys.'}
-  - value: 1.090
+  - value: 1.134
     errors:
-    - {symerror: 0.032, label: 'stat.'}
-    - {symerror: 0.035, label: 'sys.'}
-  - value: 1.078
-    errors:
-    - {symerror: 0.04, label: 'stat.'}
-    - {symerror: 0.035, label: 'sys.'}
-  - value: 1.046
-    errors:
-    - {symerror: 0.04, label: 'stat.'}
-    - {symerror: 0.034, label: 'sys.'}
-  - value: 1.16
-    errors:
-    - {symerror: 0.05, label: 'stat.'}
-    - {symerror: 0.04, label: 'sys.'}
-  - value: 1.13
-    errors:
-    - {symerror: 0.05, label: 'stat.'}
-    - {symerror: 0.04, label: 'sys.'}
-  - value: 1.14
-    errors:
-    - {symerror: 0.06, label: 'stat.'}
-    - {symerror: 0.04, label: 'sys.'}
-  - value: 1.14
-    errors:
-    - {symerror: 0.07, label: 'stat.'}
-    - {symerror: 0.04, label: 'sys.'}
-  - value: 1.23
-    errors:
-    - {symerror: 0.08, label: 'stat.'}
-    - {symerror: 0.04, label: 'sys.'}
-  - value: 1.14
-    errors:
-    - {symerror: 0.08, label: 'stat.'}
+    - {symerror: 0.034, label: 'stat.'}
     - {symerror: 0.04, label: 'sys.'}
   - value: 1.12
     errors:
+    - {symerror: 0.04, label: 'stat.'}
+    - {symerror: 0.04, label: 'sys.'}
+  - value: 1.079
+    errors:
+    - {symerror: 0.04, label: 'stat.'}
+    - {symerror: 0.035, label: 'sys.'}
+  - value: 1.12
+    errors:
+    - {symerror: 0.05, label: 'stat.'}
+    - {symerror: 0.04, label: 'sys.'}
+  - value: 1.22
+    errors:
+    - {symerror: 0.06, label: 'stat.'}
+    - {symerror: 0.04, label: 'sys.'}
+  - value: 1.13
+    errors:
+    - {symerror: 0.06, label: 'stat.'}
+    - {symerror: 0.04, label: 'sys.'}
+  - value: 1.17
+    errors:
+    - {symerror: 0.07, label: 'stat.'}
+    - {symerror: 0.04, label: 'sys.'}
+  - value: 1.21
+    errors:
+    - {symerror: 0.08, label: 'stat.'}
+    - {symerror: 0.04, label: 'sys.'}
+  - value: 1.15
+    errors:
     - {symerror: 0.09, label: 'stat.'}
     - {symerror: 0.04, label: 'sys.'}
-  - value: 1.27
+  - value: 1.19
+    errors:
+    - {symerror: 0.09, label: 'stat.'}
+    - {symerror: 0.04, label: 'sys.'}
+  - value: 1.25
     errors:
     - {symerror: 0.11, label: 'stat.'}
     - {symerror: 0.04, label: 'sys.'}
-  - value: 0.962
-    errors:
-    - {symerror: 0.07, label: 'stat.'}
-    - {symerror: 0.032, label: 'sys.'}
-  - value: 1.46
-    errors:
-    - {symerror: 0.12, label: 'stat.'}
-    - {symerror: 0.05, label: 'sys.'}
-  - value: 1.11
-    errors:
-    - {symerror: 0.12, label: 'stat.'}
-    - {symerror: 0.04, label: 'sys.'}
   - value: 1.33
     errors:
-    - {symerror: 0.17, label: 'stat.'}
-    - {symerror: 0.05, label: 'sys.'}
-  - value: 1.19
+    - {symerror: 0.13, label: 'stat.'}
+    - {symerror: 0.04, label: 'sys.'}
+  - value: 1.13
+    errors:
+    - {symerror: 0.09, label: 'stat.'}
+    - {symerror: 0.04, label: 'sys.'}
+  - value: 1.34
+    errors:
+    - {symerror: 0.13, label: 'stat.'}
+    - {symerror: 0.04, label: 'sys.'}
+  - value: 1.18
+    errors:
+    - {symerror: 0.14, label: 'stat.'}
+    - {symerror: 0.04, label: 'sys.'}
+  - value: 1.21
+    errors:
+    - {symerror: 0.20, label: 'stat.'}
+    - {symerror: 0.04, label: 'sys.'}
+  - value: 1.07
+    errors:
+    - {symerror: 0.18, label: 'stat.'}
+    - {symerror: 0.04, label: 'sys.'}
+  - value: 1.13
     errors:
     - {symerror: 0.18, label: 'stat.'}
     - {symerror: 0.04, label: 'sys.'}
   - value: 0.99
     errors:
-    - {symerror: 0.16, label: 'stat.'}
-    - {symerror: 0.04, label: 'sys.'}
-  - value: 1.00
+    - {symerror: 0.26, label: 'stat.'}
+    - {symerror: 0.06, label: 'sys.'}
+  - value: 1.28
     errors:
-    - {symerror: 0.22, label: 'stat.'}
-    - {symerror: 0.04, label: 'sys.'}
-  - value: 1.46
-    errors:
-    - {symerror: 0.4, label: 'stat.'}
+    - {symerror: 0.6, label: 'stat.'}
     - {symerror: 0.10, label: 'sys.'}
-  - value: 1.65
+  - value: 0.82
     errors:
-    - {symerror: 0.4, label: 'stat.'}
+    - {symerror: 0.25, label: 'stat.'}
     - {symerror: 0.07, label: 'sys.'}
-  - value: 0.62
+  - value: 0.90
     errors:
-    - {symerror: 0.33, label: 'stat.'}
-    - {symerror: 0.19, label: 'sys.'}
+    - {symerror: 0.6, label: 'stat.'}
+    - {symerror: 0.27, label: 'sys.'}
