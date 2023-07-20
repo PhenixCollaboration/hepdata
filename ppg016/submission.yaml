@@ -296,26 +296,12 @@ additional_resources:
 # This is Figure 23.
 name: "Figure 23b"
 location: Data From Fig. 23 of PRC 72 (2005) 014903
-description: '$N_{coll}$ scaled central to peripheral ratio $R_{CP}$ for $\pi^0$.'
-keywords: # used for searching, possibly mutliple values for each keywords
-- {name: reactions, values: [Au Au --> CHARGED X]}
-- {name: cmenergies, values: [200.0]}
-- {name: phrases, values: [ppg016, mid-rapidity]}
-data_file: ppg016fig23b.yaml 
-additional_resources:
-- {description: Original EPS Image file, location: Rcp.eps}
-- {description: PNG Image file, location: Rcp.png}
-- {description: Thumbnail Image file, location: thumb_Rcp.png}
----
-# This is Figure 23.
-name: "Figure 23c"
-location: Data From Fig. 23 of PRC 72 (2005) 014903
 description: '$N_{coll}$ scaled central to peripheral ratio $R_{CP}$ for ($p$ + $\bar{p}$)/2. The total systematic error is 19%, but 7% is uncorrelated the $\phi$ and $p$ $R_{CP}$.'
 keywords: # used for searching, possibly mutliple values for each keywords
 - {name: reactions, values: [Au Au --> CHARGED X]}
 - {name: cmenergies, values: [200.0]}
 - {name: phrases, values: [ppg016, mid-rapidity]}
-data_file: ppg016fig23c.yaml 
+data_file: ppg016fig23b.yaml 
 additional_resources:
 - {description: Original EPS Image file, location: Rcp.eps}
 - {description: PNG Image file, location: Rcp.png}
