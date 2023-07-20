@@ -1,0 +1,42 @@
+independent_variables:
+- header: {name: '$\sqrt{s_{NN}}$ (GeV)'}
+  values:
+  - value: 200
+  - value: 62.4
+  - value: 39
+  - value: 19.6
+dependent_variables:
+- header: {name: 'Centrality (%)'}
+  values:
+  - value: '0-5'
+  - value: '0-5'
+  - value: '0-10'
+  - value: '0-20'
+- header: {name: '$\langle N_{part} \rangle$'}
+  values:
+  - value: 17.8
+    errors:
+    - {symerror: 1.2, label: 'stat.'}
+  - value: 16.3
+    errors:
+    - {symerror: 1.0, label: 'stat.'}
+  - value: 15.9
+    errors:
+    - {symerror: 1.0, label: 'stat.'}
+  - value: 13.6
+    errors:
+    - {symerror: 1.0, label: 'stat.'}
+- header: {name: '$\langle \epsilon_{2} \rangle$'}
+  values:
+  - value: 0.54
+    errors:
+    - {symerror: 0.04, label: 'stat.'}
+  - value: 0.55
+    errors:
+    - {symerror: 0.05, label: 'stat.'}
+  - value: 0.56
+    errors:
+    - {symerror: 0.06, label: 'stat.'}
+  - value: 0.55
+    errors:
+    - {symerror: 0.05, label: 'stat.'}

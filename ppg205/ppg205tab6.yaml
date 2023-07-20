@@ -1,0 +1,48 @@
+independent_variables:
+- header: {name: '$\sqrt{s_{NN}}$ (GeV)'}
+  values:
+  - value: 200
+  - value: 62.4
+  - value: 39
+  - value: 19.6
+dependent_variables:
+- header: {name: 'Centrality (%)'}
+  values:
+  - value: '0-5%'
+  - value: '0-5%'
+  - value: '0-10%'
+  - value: '0-20%'
+- header: {name: 'Data'}
+  values:
+  - value: 20.3
+    errors:
+    - {symerror: 1.5, label: 'stat.'}
+  - value: 12.4
+    errors:
+    - {symerror: 2.4, label: 'stat.'}
+  - value: 9.3
+    errors:
+    - {symerror: 1.6, label: 'stat.'}
+  - value: 5.8
+    errors:
+    - {symerror: 1.1, label: 'stat.'}
+- header: {name: 'AMPT'}
+  values:
+  - value: 19.3
+  - value: 16.1
+  - value: 14.0
+  - value: 9.7
+- header: {name: '(super)SONIC'}
+  values:
+  - value: 20.2
+    errors:
+    - {symerror: 2, label: 'stat.'}
+  - value: 15.0
+    errors:
+    - {symerror: 2, label: 'stat.'}
+  - value: 11.6
+    errors:
+    - {symerror: 2, label: 'stat.'}
+  - value: 9.7
+    errors:
+    - {symerror: 2, label: 'stat.'}
