@@ -1,0 +1,13 @@
+independent_variables:
+- header: {name: '|y|'}
+  values:
+  - {low: 1.2, high: 2.2}
+dependent_variables:
+- header: {name: '$\frac{B_{\mu \mu}^{\Psi (2S)} {\sigma}_{\Psi (2S)}}{B_{\mu \mu}^{\Psi (1S)} {\sigma}_{\Psi (1S)}}$(%)'}
+  qualifiers:
+  - {name: 'reaction', value: '$p$ + $p$'}
+  values:
+  - value: 2.43
+    errors:
+    - {symerror: 0.18, label: 'stat'}
+    - {symerror: 0.29, label: 'sys'}

@@ -1,0 +1,29 @@
+independent_variables:
+- header: {name: 'y'}
+  values:
+  - {low: 1.2, high: 2.2}
+dependent_variables:
+- header: {name: '$\frac{B_{\mu \mu}^{\Psi (2S)} {\sigma}_{\Psi (2S)}}{B_{\mu \mu}^{\Psi (1S)} {\sigma}_{\Psi (1S)}}$(%)'}
+  qualifiers:
+  - {name: 'reaction', value: '$p$ + Al ($p$-going)'}
+  values:
+  - value: 2.73
+    errors:
+    - {symerror: 0.64, label: 'stat'}
+    - {symerror: 0.13, label: 'sys'}
+- header: {name: '$\frac{B_{\mu \mu}^{\Psi (2S)} {\sigma}_{\Psi (2S)}}{B_{\mu \mu}^{\Psi (1S)} {\sigma}_{\Psi (1S)}}$(%)'}
+  qualifiers:
+  - {name: 'reaction', value: '$p$ + Au ($p$-going)'}
+  values:
+  - value: 2.38
+    errors:
+    - {symerror: 0.37, label: 'stat'}
+    - {symerror: 0.30, label: 'sys'}
+- header: {name: '$\frac{B_{\mu \mu}^{\Psi (2S)} {\sigma}_{\Psi (2S)}}{B_{\mu \mu}^{\Psi (1S)} {\sigma}_{\Psi (1S)}}$(%)'}
+  qualifiers:
+  - {name: 'reaction', value: '${}^{3}$He + Au (${}^{3}$He going)'}
+  values:
+  - value: 2.24
+    errors:
+    - {symerror: 0.78, label: 'stat'}
+    - {symerror: 0.32, label: 'sys'}
