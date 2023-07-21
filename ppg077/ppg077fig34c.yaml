@@ -1,0 +1,133 @@
+independent_variables:
+- header: {name: '$p_T$ (Gev/$c$)'}
+  values:
+  - {low: 0.30, high: 0.40}
+  - {low: 0.40, high: 0.50}
+  - {low: 0.50, high: 0.60}
+  - {low: 0.60, high: 0.70}
+  - {low: 0.70, high: 0.80}
+  - {low: 0.80, high: 0.90}
+  - {low: 0.90, high: 1.00}
+  - {low: 1.00, high: 1.20}
+  - {low: 1.20, high: 1.40}
+  - {low: 1.40, high: 1.60}
+  - {low: 1.60, high: 1.80}
+  - {low: 1.80, high: 2.00}
+  - {low: 2.00, high: 2.20}
+  - {low: 2.20, high: 2.40}
+  - {low: 2.40, high: 2.60}
+  - {low: 2.60, high: 2.80}
+  - {low: 2.80, high: 3.00}
+  - {low: 3.00, high: 3.20}
+  - {low: 3.20, high: 3.40}
+  - {low: 3.40, high: 3.60}
+  - {low: 3.60, high: 3.80}
+  - {low: 3.80, high: 4.00}
+  - {low: 4.00, high: 4.50}
+  - {low: 4.50, high: 5.00}
+  - {low: 6.00, high: 7.00}
+dependent_variables:
+- header: {name: '${1}/{2\pi{{p_T}d{p_T}dy}}$${d^2 N}/{d{p_T}dy}$ (GeV/$c$)$^{-2}$'}
+  qualifiers:
+  - {name: 'Centrality', value: '60-92%'}
+  values:
+  - value: 1.11
+    errors:
+    - {asymerror: {plus: 5.69e-1, minus: -3.26e-1}, label: 'stat.'}
+    - {asymerror: {plus: 4.14e-1, minus: -3.76e-1}, label: 'sys.'}
+  - value: 8.62e-1
+    errors:
+    - {asymerror: {plus: 3.80e-1, minus: -2.56e-1}, label: 'stat.'}
+    - {asymerror: {plus: 3.25e-1, minus: -3.04e-1}, label: 'sys.'}
+  - value: 1.01
+    errors:
+    - {asymerror: {plus: 3.39e-1, minus: -2.51e-1}, label: 'stat.'}
+    - {asymerror: {plus: 2.78e-1, minus: -2.59e-1}, label: 'sys.'}
+  - value: 1.25
+    errors:
+    - {asymerror: {plus: 4.05e-1, minus: -3.00e-1}, label: 'stat.'}
+    - {asymerror: {plus: 2.95e-1, minus: -2.75e-1}, label: 'sys.'}
+  - value: 9.38e-1
+    errors:
+    - {asymerror: {plus: 2.64e-1, minus: -2.21e-1}, label: 'stat.'}
+    - {asymerror: {plus: 1.86e-1, minus: -1.77e-1}, label: 'sys.'}
+  - value: 8.77e-1
+    errors:
+    - {asymerror: {plus: 2.78e-1, minus: -2.40e-1}, label: 'stat.'}
+    - {asymerror: {plus: 1.74e-1, minus: -1.68e-1}, label: 'sys.'}
+  - value: 1.02
+    errors:
+    - {asymerror: {plus: 2.77e-1, minus: -2.39e-1}, label: 'stat.'}
+    - {asymerror: {plus: 1.49e-1, minus: -1.43e-1}, label: 'sys.'}
+  - value: 1.14
+    errors:
+    - {asymerror: {plus: 2.22e-1, minus: -1.97e-1}, label: 'stat.'}
+    - {asymerror: {plus: 1.44e-1, minus: -1.38e-1}, label: 'sys.'}
+  - value: 1.40
+    errors:
+    - {asymerror: {plus: 2.84e-1, minus: -2.05e-1}, label: 'stat.'}
+    - {asymerror: {plus: 1.85e-1, minus: -1.78e-1}, label: 'sys.'}
+  - value: 1.30
+    errors:
+    - {asymerror: {plus: 3.07e-1, minus: -2.12e-1}, label: 'stat.'}
+    - {asymerror: {plus: 1.67e-1, minus: -1.61e-1}, label: 'sys.'}
+  - value: 1.14
+    errors:
+    - {asymerror: {plus: 4.65e-2, minus: -4.65e-2}, label: 'stat.'}
+    - {asymerror: {plus: 2.24e-1, minus: -2.19e-1}, label: 'sys.'}
+  - value: 1.05
+    errors:
+    - {asymerror: {plus: 5.45e-2, minus: -5.45e-2}, label: 'stat.'}
+    - {asymerror: {plus: 2.05e-1, minus: -2.01e-1}, label: 'sys.'}
+  - value: 7.76e-1
+    errors:
+    - {asymerror: {plus: 6.15e-2, minus: -6.15e-2}, label: 'stat.'}
+    - {asymerror: {plus: 1.72e-1, minus: -1.69e-1}, label: 'sys.'}
+  - value: 8.13e-1
+    errors:
+    - {asymerror: {plus: 7.61e-2, minus: -7.54e-2}, label: 'stat.'}
+    - {asymerror: {plus: 1.70e-1, minus: -1.66e-1}, label: 'sys.'}
+  - value: 8.78e-1
+    errors:
+    - {asymerror: {plus: 9.29e-2, minus: -9.18e-2}, label: 'stat.'}
+    - {asymerror: {plus: 1.71e-1, minus: -1.68e-1}, label: 'sys.'}
+  - value: 7.45e-1
+    errors:
+    - {asymerror: {plus: 1.07e-1, minus: -1.05e-1}, label: 'stat.'}
+    - {asymerror: {plus: 1.78e-1, minus: -1.64e-1}, label: 'sys.'}
+  - value: 6.86e-1
+    errors:
+    - {asymerror: {plus: 1.25e-1, minus: -1.23e-1}, label: 'stat.'}
+    - {asymerror: {plus: 1.67e-1, minus: -1.54e-1}, label: 'sys.'}
+  - value: 8.73e-1
+    errors:
+    - {asymerror: {plus: 1.57e-1, minus: -1.54e-1}, label: 'stat.'}
+    - {asymerror: {plus: 1.86e-1, minus: -1.70e-1}, label: 'sys.'}
+  - value: 6.19e-1
+    errors:
+    - {asymerror: {plus: 1.74e-1, minus: -1.69e-1}, label: 'stat.'}
+    - {asymerror: {plus: 1.52e-1, minus: -1.41e-1}, label: 'sys.'}
+  - value: 7.31e-1
+    errors:
+    - {asymerror: {plus: 2.10e-1, minus: -2.03e-1}, label: 'stat.'}
+    - {asymerror: {plus: 1.63e-1, minus: -1.51e-1}, label: 'sys.'}
+  - value: 9.70e-1
+    errors:
+    - {asymerror: {plus: 2.62e-1, minus: -2.53e-1}, label: 'stat.'}
+    - {asymerror: {plus: 1.92e-1, minus: -1.75e-1}, label: 'sys.'}
+  - value: 7.02e-1
+    errors:
+    - {asymerror: {plus: 2.89e-1, minus: -2.76e-1}, label: 'stat.'}
+    - {asymerror: {plus: 1.54e-1, minus: -1.46e-1}, label: 'sys.'}
+  - value: 5.40e-1
+    errors:
+    - {asymerror: {plus: 2.17e-1, minus: -2.09e-1}, label: 'stat.'}
+    - {asymerror: {plus: 1.28e-1, minus: -1.27e-1}, label: 'sys.'}
+  - value: 3.82e-2
+    errors:
+    - {asymerror: {plus: 2.49e-1, minus: -2.33e-1}, label: 'stat.'}
+    - {asymerror: {plus: 7.09e-2, minus: -1.30e-1}, label: 'sys.'}
+  - value: 3.81e-1
+    errors:
+    - {asymerror: {plus: 9.20e-1, minus: -4.85e-1}, label: 'stat.'}
+    - {asymerror: {plus: 1.13e-1, minus: -3.32e-1}, label: 'sys.'}

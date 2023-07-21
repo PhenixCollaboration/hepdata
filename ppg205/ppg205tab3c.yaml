@@ -1,0 +1,47 @@
+independent_variables:
+- header: {name: 'Centrality (%)'}
+  values:
+  - {low: 0, high: 10}
+  - {low: 10, high: 20}
+  - {low: 20, high: 40}
+  - {low: 40, high: 60}
+  - {low: 60, high: 74}
+dependent_variables:
+- header: {name: '$R$($\psi^{BBCS}_2$)'}
+  qualifiers:
+  - {name: '$\sqrt{s_{NN}}$ (GeV)', value: '39'}
+  values:
+  - value: 0.0255
+    errors:
+    - {symerror: 0.0009, label: 'stat.'}
+  - value: 0.014
+    errors:
+    - {symerror: 0.001, label: 'stat.'}
+  - value: 0.010
+    errors:
+    - {symerror: 0.001, label: 'stat.'}
+  - value: 0.008
+    errors:
+    - {symerror: 0.002, label: 'stat.'}
+  - value: 0.009
+    errors:
+    - {symerror: 0.002, label: 'stat.'}
+- header: {name: '$R$($\psi^{FVTXS}_2$)'}
+  qualifiers:
+  - {name: '$\sqrt{s_{NN}}$ (GeV)', value: '39'}
+  values:
+  - value: 0.069
+    errors:
+    - {symerror: 0.002, label: 'stat.'}
+  - value: 0.055
+    errors:
+    - {symerror: 0.005, label: 'stat.'}
+  - value: 0.055
+    errors:
+    - {symerror: 0.008, label: 'stat.'}
+  - value: 0.037
+    errors:
+    - {symerror: 0.007, label: 'stat.'}
+  - value: 0.05
+    errors:
+    - {symerror: 0.01, label: 'stat.'}

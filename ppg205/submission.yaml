@@ -1,0 +1,109 @@
+#PHENIX paper PPG205
+#
+#Measurements of azimuthal anisotropy and charged-particle multiplicity in $d$+Au collisions at $\sqrt{s_{NN}}$ = 200, 62.4, 39, and 19.6 GeV
+#
+#Phys.Rev.Lett C 96 (2017) 064905
+#InspireHEP ID: 1618141
+#
+#Prepared by Nikolas Nelson
+#Please contact Christine Nattrass if you have any questions about this submission
+#PPG liaison:
+#Reviewer:
+#
+comment: | # Information that applies to all data tables.
+  We present measurements of the elliptic flow, $v_2$, as a function of transverse momentum ($p_T$), pseudorapidity ($\eta$), and centrality in $d$+Au collisions at $\sqrt{s_{NN}}$ = 200, 62.4, 39, and 19.6 GeV. The beam-energy scan of $d$+Au collisions provides a testing ground for the onset of flow signatures in small collision systems. We measure a nonzero $v_2$ signal at all four collision energies, which, at midrapidity and low $p_T$, is consistent with predictions from viscous hydrodynamic models. Comparisons with calculations from parton transport models (based on the AMPT Monte Carlo generator) show good agreement with the data at midrapidity to forward ($d$-going) rapidities and low $p_T$. At backward (Au-going) rapidities and $p_T$ > 1.5 GeV/$c$, the data diverges from AMPT calculations of $v_2$ relative to the initial geometry, indicating the possible dominance of nongeometry related correlations, referred to as nonflow. We also present measurements of the charged-particle multiplicity ($dN_{ch}/d\eta$) as a function of $\eta$ in central $d$+Au collisions at the same energies. We find that in $d$+Au collisions at $\sqrt{s_{NN}}$ = 200 GeV the $v_2$ scales with $dN_{ch}/d\eta$ over all $\eta$ in the PHENIX acceptance. At $\sqrt{s_{NN}}$ = 62.4, and 39 GeV, $v_2$ scales with $dN_{ch}/d\eta$ at midrapidity and forward rapidity, but falls off at backward rapidity. This departure from the $dN_{ch}/d\eta$ scaling may be a further indication of nonflow effects dominating at backward rapidity.
+additional_resources:
+- {location: "https://phenix-intra.sdcc.bnl.gov/phenix/WWW/p/info/ppg/205/", description: "web page with data points"}
+- {location: "http://arxiv.org/abs/1708.06983", description: arXiv}
+- {location: "https://inspirehep.net/literature/1618141", description: InspireHEP}
+---
+# This is Table 1.
+name: "Table 1"
+location: Data From Table 1 of PRC 96 (2017) 064905
+description: 'Summary of the data analyzed by PHENIX from the 2016 RHIC $d$+Au beam energy scan.'
+keywords: # used for searching, possibly mutliple values for each keywords
+- {name: reactions, values: [$d$ Au --> CHARGED X]}
+- {name: cmenergies, values: [200.0, 62.4, 39, 19.6]}
+- {name: phrases, values: [ppg205, azimuthal anisotropy, multiplicity, elliptic flow, transverse momentum]}
+data_file: ppg205tab1.yaml
+---
+# This is Table 2.
+name: "Table 2"
+location: Data From Table 2 of PRC 96 (2017) 064905
+description: 'Summary of the mean number of participants, $\langle N_{part} \rangle$, and eccentricity, $\langle \epsilon_2 \rangle$, for central $d$+Au collisions at $\sqrt{s_{NN}}$ = 200, 62.4, 39, and 19.6 GeV.'
+keywords: # used for searching, possibly mutliple values for each keywords
+- {name: reactions, values: [$d$ Au --> CHARGED X]}
+- {name: cmenergies, values: [200.0, 62.4, 39, 19.6]}
+- {name: phrases, values: [ppg205, azimuthal anisotropy, multiplicity, elliptic flow, transverse momentum]}
+data_file: ppg205tab2.yaml
+---
+# This is Table 3.
+name: "Table 3a"
+location: Data From Table 3 of PRC 96 (2017) 064905
+description: 'Resolution of $\psi_2$ measured in the BBCS and FVTXS at each energy and centrality.'
+keywords: # used for searching, possibly mutliple values for each keywords
+- {name: reactions, values: [$d$ Au --> CHARGED X]}
+- {name: cmenergies, values: [200.0]}
+- {name: phrases, values: [ppg205, azimuthal anisotropy, multiplicity, elliptic flow, transverse momentum]}
+data_file: ppg205tab3a.yaml
+---
+# This is Table 3.
+name: "Table 3b"
+location: Data From Table 3 of PRC 96 (2017) 064905
+description: 'Resolution of $\psi_2$ measured in the BBCS and FVTXS at each energy and centrality.'
+keywords: # used for searching, possibly mutliple values for each keywords
+- {name: reactions, values: [$d$ Au --> CHARGED X]}
+- {name: cmenergies, values: [62.4]}
+- {name: phrases, values: [ppg205, azimuthal anisotropy, multiplicity, elliptic flow, transverse momentum]}
+data_file: ppg205tab3b.yaml
+---
+# This is Table 3.
+name: "Table 3c"
+location: Data From Table 3 of PRC 96 (2017) 064905
+description: 'Resolution of $\psi_2$ measured in the BBCS and FVTXS at each energy and centrality.'
+keywords: # used for searching, possibly mutliple values for each keywords
+- {name: reactions, values: [$d$ Au --> CHARGED X]}
+- {name: cmenergies, values: [39]}
+- {name: phrases, values: [ppg205, azimuthal anisotropy, multiplicity, elliptic flow, transverse momentum]}
+data_file: ppg205tab3c.yaml
+---
+# This is Table 4.
+name: "Table 4"
+location: Data From Table 4 of PRC 96 (2017) 064905
+description: 'Systematic uncertainties on measurements of $v_2$ versus $p_T$.'
+keywords: # used for searching, possibly mutliple values for each keywords
+- {name: reactions, values: [$d$ Au --> CHARGED X]}
+- {name: cmenergies, values: [200.0, 62.4, 39, 19.6]}
+- {name: phrases, values: [ppg205, azimuthal anisotropy, multiplicity, elliptic flow, transverse momentum]}
+data_file: ppg205tab4.yaml
+---
+# This is Table 5.
+name: "Table 5"
+location: Data From Table 5 of PRC 96 (2017) 064905
+description: 'Systematic uncertainties on measurements of $v_2$ versus $\eta$.'
+keywords: # used for searching, possibly mutliple values for each keywords
+- {name: reactions, values: [$d$ Au --> CHARGED X]}
+- {name: cmenergies, values: [200.0, 62.4, 39]}
+- {name: phrases, values: [ppg205, azimuthal anisotropy, multiplicity, elliptic flow, transverse momentum]}
+data_file: ppg205tab5.yaml
+---
+# This is Table 6.
+name: "Table 6"
+location: Data From Table 6 of PRC 96 (2017) 064905
+description: 'The charged particle multiplicity ($dN_{ch}$/$d\eta$) at midrapidity for central $d$+Au collisions at $\sqrt{s_{NN}}$ = 200, 62.4, 39, and 19.6 GeV.'
+keywords: # used for searching, possibly mutliple values for each keywords
+- {name: reactions, values: [$d$ Au --> CHARGED X]}
+- {name: cmenergies, values: [200.0, 62.4, 39, 19.6]}
+- {name: phrases, values: [ppg205, azimuthal anisotropy, multiplicity, elliptic flow, transverse momentum]}
+data_file: ppg205tab6.yaml
+---
+# This is Table 7.
+name: "Table 7"
+location: Data From Table 7 of PRC 96 (2017) 064905
+description: 'Nondefault parameter values used when running AMPT.'
+keywords: # used for searching, possibly mutliple values for each keywords
+- {name: reactions, values: [$d$ Au --> CHARGED X]}
+- {name: cmenergies, values: [200.0, 62.4, 39, 19.6]}
+- {name: phrases, values: [ppg205, azimuthal anisotropy, multiplicity, elliptic flow, transverse momentum]}
+data_file: ppg205tab7.yaml
+---
