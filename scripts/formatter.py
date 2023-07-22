@@ -10,6 +10,10 @@ Author: Patrick John Steffanic
 A modified version that fixes issues handling asymmetric errors. Negative values are now allowed in errors. 0 errors are also permitted, but the program displays a message for users to double check their data. Prints the y value associated the 0 error with 4 significant figures. Modifications were made in lines 104-118 and 245-259.
 Version 3.2
 Author: Joesph Duane Beller
+
+YAMVF (Yet another modified version of formatter.py) that implements handling precision for multiple errors that are not added together in quadrature. This code will find each of the smallest errors per line j, and round all numbers in that line according to the precision of the smallest error.
+Version 3.3
+Author: Joesph Duane Beller
 """
 
 
@@ -151,21 +155,32 @@ def do_formatting(data, X_bins, N_errs):
             line.append(data[j,1]) #Append the right bin
         else:
             line.append(data[j,0]) #Append the central value
-
-        errors_fmtd = [np.array(list(map(ERR_Format, data[:, -i])))[:,0][j] for i in range(N_errs,0,-1)] #Get the errors
-        var = [np.array(list(map(ERR_Format, data[:, -i])))[:,1][j] for i in range(N_errs,0,-1)] 
-        dig = [np.array(list(map(ERR_Format, data[:, -i])))[:,2][j] for i in range(N_errs,0,-1)]
+            
         
-        min_index = np.argmin(list(map(float,errors_fmtd))) #find the index of the smallest error
+        #Modifications for Version 3.3 begin here:
+        # Find the smallest error for each line of j
+        min_error = min(map(float,([np.array(list(map(ERR_Format, data[:, -i])))[:,0][j] for i in range(N_errs,0,-1)])))
+        # Find the var and dig associated with the min_error
+        error_fmtd, var, dig = ERR_Format(min_error)
+        
+        # The code below was from Version 2.1 ==============================================================================
+        #errors_fmtd = [np.array(list(map(ERR_Format, data[:, -i])))[:,0][j] for i in range(N_errs,0,-1)] #Get the errors
+        #var = [np.array(list(map(ERR_Format, data[:, -i])))[:,1][j] for i in range(N_errs,0,-1)]
+        #dig = [np.array(list(map(ERR_Format, data[:, -i])))[:,2][j] for i in range(N_errs,0,-1)]
+        #min_index = np.argmin(list(map(float,errors_fmtd))) #find the index of the smallest error
+        # ==================================================================================================================
+        
         
         if(X_bins):
-            rounded_number=my_round(data[j,2],Decimal(var[min_index]),Decimal(dig[min_index])) 
+            rounded_number=my_round(data[j,2],Decimal(var),Decimal(dig))
         else:
-            rounded_number=my_round(data[j,1],Decimal(var[min_index]),Decimal(dig[min_index]))
+            rounded_number=my_round(data[j,1],Decimal(var),Decimal(dig))
         line.append(rounded_number)
 
         #Fills the output vectors with the appropriate errors
-        for err in errors_fmtd:
+        for i in range(N_errs,0,-1):
+            err = my_round(data[j,-i],Decimal(var),Decimal(dig))
+            #Modifications for Version 3.3 end here
             line.append(err)
         output_data.append(line)
     return output_data
