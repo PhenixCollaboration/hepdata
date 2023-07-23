@@ -1,0 +1,51 @@
+#PHENIX paper PPG179
+#
+#TITLE: Measurement of higher cumulants of net-charge multiplicity distributions in Au + Au collisions at $\sqrt{s_{NN}}$ = 7.7–200 GeV.
+#
+#PRC 93, (2016) 011901(R)
+#InspireHEP ID: 1378005
+#
+#Prepared by Hugh Jones
+#Please contact Christine Nattrass if you have any questions about this submission
+#PPG liaison:
+#Reviewer:
+#
+comment: | # Information that applies to all data tables.
+ We report the measurement of cumulants ($C_{n}$, $n$ = 1, . . . ,4) of the net-charge distributions measured within pseudorapidity (|$\eta$| < 0.35) in Au + Au collisions at $\sqrt{s_{NN}}$ = 7.7–200 GeV with the PHENIX experiment at the Relativistic Heavy Ion Collider. The ratios of cumulants (e.g., $C_1/C_2$, $C_3/C_1$) of the net-charge distributions, which can be related to volume independent susceptibility ratios, are studied as a function of centrality and energy. These quantities are important to understand the quantum-chromodynamics phase diagram and possible existence of a critical end point. The measured values are very well described by expectation from negative binomial distributions. We do not observe any nonmonotonic behavior in the ratios of the cumulants as a function of collision energy. The measured values of $C_1/C_2$ and $C_3/C_1$ can be directly compared to lattice quantum-chromodynamics calculations and thus allow extraction of both the chemical freeze-out temperature and the baryon chemical potential at each center-of-mass energy. The extracted baryon chemical potentials are in excellent agreement with a thermal-statistical analysis model.
+additional_resources:
+- {location: "https://phenix-intra.sdcc.bnl.gov/phenix/WWW/p/info/ppg/179/", description: "web page with data points"}
+- {location: "http://arxiv.org/abs/1506.07834", description: arXiv}
+- {location: "https://inspirehep.net/literature/1378005", description: InspireHEP}
+
+DONE
+---
+
+
+# This is Figure 2.
+name: "Figure 2"
+location: Data From Figure 2 of PRD 93, (2016) 011501(R) 
+description: The neutral pion production cross section at midrapidity in $p$ + $p$ collisions at $\sqrt{s}$ = 510 GeV as a function of $p_T$ and NLO pQCD calculations for theory scales $\mu = p_T/2$ (dotted line), $p_T$ (solid line) and 2$p_T$ (dashed line), with $\mu$ representing equal factorization, renormalization, and fragmentation scales.
+keywords: # used for searching, possibly mutliple values for each keywords
+- {name: reactions, values: [$p$ + $p$ --> CHARGED X]}
+- {name: cmenergies, values: [510]}
+- {name: phrases, values: [ppg179, net-charge multiplicity, pseudorapidity, ratios of cumulants, quantum-chromodynamics phase diagram, critical end point]}
+data_file: Fig2.yaml
+additional_resources:
+- {description: Thumbnail Image file, location: thumb_fig2.png}
+- {description: Thumbnail Image file, location: fig2.eps}
+---
+
+
+# This is Figure 3.
+name: "Figure 3"
+location: Data From Figure 3 of PRD 93, (2016) 011501(R)
+description: $A_{LL}$ vs $p_T$ for $\pi^0$ production at midrapidity in $p$ + $p$ collisions at $\sqrt{s}$ = 510 GeV.
+keywords: # used for searching, possibly mutliple values for each keywords
+- {name: reactions, values: [$p$ + $p$ --> CHARGED X]}
+- {name: cmenergies, values: [510]}
+- {name: phrases, values: [ppg186, cross section, double-helicity asymmetry, inclusive $\pi^0$]}
+data_file: Fig3.yaml
+additional_resources:
+- {description: Thumbnail Image file, location: thumb_fig3.png}
+- {description: Thumbnail Image file, location: fig3.eps}
+---
