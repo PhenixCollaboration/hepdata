@@ -1,0 +1,187 @@
+independent_variables:
+- header: {name: '$p^{pp}_T$ [GeV/$c$]'}
+  values:
+  - {value: 10}
+  - {value: 12}
+  - {value: 15}
+dependent_variables:
+- header: {name: '$\alpha$'}
+  qualifiers:
+  - {name: 'System', value: 'Au+Au'}
+  - {name: '$\sqrt{s_{NN}}$ [GeV]', value: '200'}
+  - {name: 'Year', value: '2007'}
+  - {name: 'Hadron', value: '$\pi^0$'}
+  - {name: '$\delta p_T/p_T$ =', value: '$\beta (N_{part}/N^0_{part})^{\alpha}$'} 
+  values:
+  - value: 0.632
+    errors:
+    - {asymerror: {plus: 0.04, minus: -0.035}, label: 'stat.'}
+  - value: 0.561
+    errors:
+    - {asymerror: {plus: 0.04, minus: -0.038}, label: 'stat.'}
+  - value: 0.80
+    errors:
+    - {asymerror: {plus: 0.15, minus: -0.14}, label: 'stat.'}
+- header: {name: '$\beta$'}
+  qualifiers:
+  - {name: 'System', value: 'Au+Au'}
+  - {name: '$\sqrt{s_{NN}}$ [GeV]', value: '200'}
+  - {name: 'Year', value: '2007'}
+  - {name: 'Hadron', value: '$\pi^0$'}
+  - {name: '$\delta p_T/p_T$ =', value: '$\beta (N_{part}/N^0_{part})^{\alpha}$'} 
+  values:
+  - value: 0.223
+    errors:
+    - {asymerror: {plus: 0.006, minus: -0.006}, label: 'stat.'}
+  - value: 0.219
+    errors:
+    - {asymerror: {plus: 0.007, minus: -0.007}, label: 'stat.'}
+  - value: 0.185
+    errors:
+    - {asymerror: {plus: 0.014, minus: -0.013}, label: 'stat.'}
+- header: {name: '$\chi^2/ndf$'}
+  qualifiers:
+  - {name: 'System', value: 'Au+Au'}
+  - {name: '$\sqrt{s_{NN}}$ [GeV]', value: '200'}
+  - {name: 'Year', value: '2007'}
+  - {name: 'Hadron', value: '$\pi^0$'}
+  - {name: '$\delta p_T/p_T$ =', value: '$\beta (N_{part}/N^0_{part})^{\alpha}$'} 
+  values:
+  - value: 0.662
+  - value: 0.350
+  - value: 0.936
+- header: {name: '$\alpha$'}
+  qualifiers:
+  - {name: 'System', value: 'Au+Au'}
+  - {name: '$\sqrt{s_{NN}}$ [GeV]', value: '200'}
+  - {name: 'Year', value: '2007'}
+  - {name: 'Hadron', value: '$\pi^0$'}
+  - {name: '$\delta p_T/p_T$ =', value: '$\beta (N_{qp}/N^0_{qp})^{\alpha}$'} 
+  values:
+  - value: 0.552
+    errors:
+    - {asymerror: {plus: 0.032, minus: -0.031}, label: 'stat.'}
+  - value: 0.490
+    errors:
+    - {asymerror: {plus: 0.035, minus: -0.034}, label: 'stat.'}
+  - value: 0.70
+    errors:
+    - {asymerror: {plus: 0.13, minus: -0.12}, label: 'stat.'}
+- header: {name: '$\beta$'}
+  qualifiers:
+  - {name: 'System', value: 'Au+Au'}
+  - {name: '$\sqrt{s_{NN}}$ [GeV]', value: '200'}
+  - {name: 'Year', value: '2007'}
+  - {name: 'Hadron', value: '$\pi^0$'}
+  - {name: '$\delta p_T/p_T$ =', value: '$\beta (N_{qp}/N^0_{qp})^{\alpha}$'}
+  values:
+  - value: 0.228
+    errors:
+    - {asymerror: {plus: 0.006, minus: -0.006}, label: 'stat.'}
+  - value: 0.222
+    errors:
+    - {asymerror: {plus: 0.007, minus: -0.007}, label: 'stat.'}
+  - value: 0.190
+    errors:
+    - {asymerror: {plus: 0.015, minus: -0.014}, label: 'stat.'}
+- header: {name: '$\chi^2/ndf$'}
+  qualifiers:
+  - {name: 'System', value: 'Au+Au'}
+  - {name: '$\sqrt{s_{NN}}$ [GeV]', value: '200'}
+  - {name: 'Year', value: '2007'}
+  - {name: 'Hadron', value: '$\pi^0$'}
+  - {name: '$\delta p_T/p_T$ =', value: '$\beta (N_{qp}/N^0_{qp})^{\alpha}$'}
+  values:
+  - value: 0.664
+  - value: 0.356
+  - value: 0.948
+- header: {name: '$\alpha$'}
+  qualifiers:
+  - {name: 'System', value: 'Au+Au'}
+  - {name: '$\sqrt{s_{NN}}$ [GeV]', value: '200'}
+  - {name: 'Year', value: '2007'}
+  - {name: 'Hadron', value: '$\pi^0$'}
+  - {name: '$\delta p_T/p_T$ =', value: '$\beta (dN_{ch}/d \eta/dN^0_{ch}/d \eta)^{\alpha}$'}
+  values:
+  - value: 0.528
+    errors:
+    - {asymerror: {plus: 0.030, minus: -0.029}, label: 'stat.'}
+  - value: 0.471
+    errors:
+    - {asymerror: {plus: 0.033, minus: -0.032}, label: 'stat.'}
+  - value: 0.66
+    errors:
+    - {asymerror: {plus: 0.12, minus: -0.12}, label: 'stat.'}
+- header: {name: '$\beta$'}
+  qualifiers:
+  - {name: 'System', value: 'Au+Au'}
+  - {name: '$\sqrt{s_{NN}}$ [GeV]', value: '200'}
+  - {name: 'Year', value: '2007'}
+  - {name: 'Hadron', value: '$\pi^0$'}
+  - {name: '$\delta p_T/p_T$ =', value: '$\beta (dN_{ch}/d \eta/dN^0_{ch}/d \eta)^{\alpha}$'}
+  values:
+  - value: 0.333
+    errors:
+    - {asymerror: {plus: 0.015, minus: -0.014}, label: 'stat.'}
+  - value: 0.313
+    errors:
+    - {asymerror: {plus: 0.017, minus: -0.015}, label: 'stat.'}
+  - value: 0.305
+    errors:
+    - {asymerror: {plus: 0.05, minus: -0.042}, label: 'stat.'}
+- header: {name: '$\chi^2/ndf$'}
+  qualifiers:
+  - {name: 'System', value: 'Au+Au'}
+  - {name: '$\sqrt{s_{NN}}$ [GeV]', value: '200'}
+  - {name: 'Year', value: '2007'}
+  - {name: 'Hadron', value: '$\pi^0$'}
+  - {name: '$\delta p_T/p_T$ =', value: '$\beta (dN_{ch}/d \eta/dN^0_{ch}/d \eta)^{\alpha}$'}
+  values:
+  - value: 0.744
+  - value: 0.318
+  - value: 0.938
+- header: {name: '$\alpha$'}
+  qualifiers:
+  - {name: 'System', value: 'Au+Au'}
+  - {name: '$\sqrt{s_{NN}}$ [GeV]', value: '200'}
+  - {name: 'Year', value: '2007'}
+  - {name: 'Hadron', value: '$\pi^0$'}
+  - {name: '$\delta p_T/p_T$ =', value: '$\beta (\epsilon \tau_0/\epsilon^0 \tau_0)^{\alpha}$'}
+  values:
+  - value: 1.020
+    errors:
+    - {asymerror: {plus: 0.06, minus: -0.058}, label: 'stat.'}
+  - value: 0.892
+    errors:
+    - {asymerror: {plus: 0.06, minus: -0.063}, label: 'stat.'}
+  - value: 1.30
+    errors:
+    - {asymerror: {plus: 0.26, minus: -0.24}, label: 'stat.'}
+- header: {name: '$\beta$'}
+  qualifiers:
+  - {name: 'System', value: 'Au+Au'}
+  - {name: '$\sqrt{s_{NN}}$ [GeV]', value: '200'}
+  - {name: 'Year', value: '2007'}
+  - {name: 'Hadron', value: '$\pi^0$'}
+  - {name: '$\delta p_T/p_T$ =', value: '$\beta (\epsilon \tau_0/\epsilon^0 \tau_0)^{\alpha}$'} 
+  values:
+  - value: 0.454
+    errors:
+    - {asymerror: {plus: 0.029, minus: -0.026}, label: 'stat.'}
+  - value: 0.405
+    errors:
+    - {asymerror: {plus: 0.029, minus: -0.027}, label: 'stat.'}
+  - value: 0.458
+    errors:
+    - {asymerror: {plus: 0.12, minus: -0.091}, label: 'stat.'}
+- header: {name: '$\chi^2/ndf$'}
+  qualifiers:
+  - {name: 'System', value: 'Au+Au'}
+  - {name: '$\sqrt{s_{NN}}$ [GeV]', value: '200'}
+  - {name: 'Year', value: '2007'}
+  - {name: 'Hadron', value: '$\pi^0$'}
+  - {name: '$\delta p_T/p_T$ =', value: '$\beta (\epsilon \tau_0/\epsilon^0 \tau_0)^{\alpha}$'} 
+  values:
+  - value: 0.410
+  - value: 0.486
+  - value: 0.872

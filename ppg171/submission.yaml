@@ -1,0 +1,208 @@
+#PHENIX paper PPG171
+#
+#Scaling properties of fractional momentum loss of high-$p_T$ hadrons in nucleus-nucleus collisions at $\sqrt{s_{NN}}$ from 62.4 GeV to 2.76 TeV
+#
+#Phys.Rev.C 93 (2016) 024911
+#InspireHEP ID: 1394434
+#
+#Prepared by Andrew McAninch
+#Please contact Christine Nattrass if you have any questions about this submission
+#PPG liaison:
+#Reviewer:
+#
+comment: | # Information that applies to all data tables.
+  'Measurements of the fractional momentum loss ($S_{loss}$ ≡ $\delta p_T/p_T$) of high-transverse-momentum identified hadrons in heavy ion collisions are presented. Using $\pi^0$ in Au+Au and Cu+Cu collisions at $\sqrt{s_{NN}}$ = 62.4 and 200 GeV measured by the PHENIX experiment at the Relativistic Heavy Ion Collider and and charged hadrons in Pb+Pb collisions measured by the ALICE experiment at the Large Hadron Collider, we studied the scaling properties of $S_{loss}$ as a function of a number of variables: the number of participants, $N_{part}$, the number of quark participants, $N_{qp}$, the charged particle density, $dN_{ch}/d \eta$, and the Bjorken energy density times the equilibration time, $\epsilon B_j \tau_0$. We find that the $p_T$ , where Sloss has its maximum, varies both with centrality and collision energy. Above the maximum, Sloss tends to follow a power-law function with all four scaling variables. The data at $\sqrt{s_{NN}}$ = 200 GeV and 2.76 TeV, for sufficiently high particle densities, have a common scaling of $S_{loss}$ with $dN_{ch}/d \eta$ and $\epsilon B_j \tau_0$, lending insight on the physics of parton energy loss.'
+additional_resources:
+- {location: "https://phenix-intra.sdcc.bnl.gov/phenix/WWW/p/info/ppg/171/", description: "web page with data points"}
+- {location: "http://arxiv.org/abs/1509.06735", description: arXiv}
+- {location: "https://inspirehep.net/literature/1394434", description: InspireHEP}
+---
+name: "Figure 2a"
+location: Data From Fig. 2 of PRC 93 (2016) 024911
+description: 'Global variables for Au+Au collisions at RHIC from PHENIX.'
+keywords: # used for searching, possibly mutliple values for each keywords
+- {name: reactions, values: [Au Au --> $\pi^0$]}
+- {name: cmenergies, values: [200.0]}
+- {name: phrases, values: [ppg171, fractional momentum loss, Bjorken energy density, parton energy loss]}
+data_file: fig2a.yaml
+additional_resources:
+- {description: Original EPS Image file, location: fig2.eps}
+- {description: PNG Image file, location: fig2.png}
+- {description: Thumbnail Image file, location: thumb_fig2.png}
+---
+name: "Figure 2b"
+location: Data From Fig. 2 of PRC 93 (2016) 024911
+description: 'Global variables for Au+Au collisions at RHIC from PHENIX.'
+keywords: # used for searching, possibly mutliple values for each keywords
+- {name: reactions, values: [Au Au --> $\pi^0$]}
+- {name: cmenergies, values: [62.4]}
+- {name: phrases, values: [ppg171, fractional momentum loss, Bjorken energy density, parton energy loss]}
+data_file: fig2b.yaml
+additional_resources:
+- {description: Original EPS Image file, location: fig2.eps}
+- {description: PNG Image file, location: fig2.png}
+- {description: Thumbnail Image file, location: thumb_fig2.png}
+---
+name: "Table 3a"
+location: Data From Table 3 of PRC 93 (2016) 024911
+description: 'Global variables for Cu+Cu collisions at RHIC from PHENIX.'
+keywords: # used for searching, possibly mutliple values for each keywords
+- {name: reactions, values: [Cu Cu --> $\pi^0$]}
+- {name: cmenergies, values: [200, 62.4]}
+- {name: phrases, values: [ppg171, fractional momentum loss, Bjorken energy density, parton energy loss]}
+data_file: supplementala.yaml
+---
+name: "Table 3b"
+location: Data From Table 3 of PRC 93 (2016) 024911
+description: 'Global variables for Pb+Pb collisions at the LHC from ALICE.'
+keywords: # used for searching, possibly mutliple values for each keywords
+- {name: reactions, values: [Pb Pb --> $\pi^0$]}
+- {name: cmenergies, values: [2760]}
+- {name: phrases, values: [ppg171, fractional momentum loss, Bjorken energy density, parton energy loss]}
+data_file: supplementalb.yaml
+---
+name: "Figure 3a"
+location: Data From Fig. 3 of PRC 93 (2016) 024911
+description: '$p^{pp}_T$ dependence of $S_{loss}$ for $\pi^0$ in
+200 GeV Au+Au collisions from 2007 data from the PHENIX experiment
+at RHIC for $p_T$ <10 GeV/$c$.'
+keywords: # used for searching, possibly mutliple values for each keywords
+- {name: reactions, values: [Au Au --> $\pi^0$]}
+- {name: cmenergies, values: [200]}
+- {name: phrases, values: [ppg171, fractional momentum loss, Bjorken energy density, parton energy loss]}
+data_file: fig3a.yaml
+additional_resources:
+- {description: Original EPS Image file, location: fig3.eps}
+- {description: PNG Image file, location: fig3.png}
+- {description: Thumbnail Image file, location: thumb_fig3.png}
+---
+name: "Figure 3b"
+location: Data From Fig. 3 of PRC 93 (2016) 024911
+description: '$p^{pp}_T$ dependence of $S_{loss}$ for $\pi^0$ in
+200 GeV Au+Au collisions from 2004 data from the PHENIX experiment
+at RHIC for $p_T$ <10 GeV/$c$.'
+keywords: # used for searching, possibly mutliple values for each keywords
+- {name: reactions, values: [Au Au --> $\pi^0$]}
+- {name: cmenergies, values: [200]}
+- {name: phrases, values: [ppg171, fractional momentum loss, Bjorken energy density, parton energy loss]}
+data_file: fig3b.yaml
+additional_resources:
+- {description: Original EPS Image file, location: fig3.eps}
+- {description: PNG Image file, location: fig3.png}
+- {description: Thumbnail Image file, location: thumb_fig3.png}
+---
+name: "Figure 4"
+location: Data From Fig. 4 of PRC 93 (2016) 024911
+description: '$p^{pp}_T$ dependence of $S_{loss}$ for $\pi^0$ in
+200 GeV Cu+Cu collisions using the spectra measured by
+PHENIX at RHIC in 2005.'
+keywords: # used for searching, possibly mutliple values for each keywords
+- {name: reactions, values: [Cu Cu --> $\pi^0$]}
+- {name: cmenergies, values: [200]}
+- {name: phrases, values: [ppg171, fractional momentum loss, Bjorken energy density, parton energy loss]}
+data_file: fig4.yaml
+additional_resources:
+- {description: Original EPS Image file, location: fig4.eps}
+- {description: PNG Image file, location: fig4.png}
+- {description: Thumbnail Image file, location: thumb_fig4.png}
+---
+name: "Figure 5"
+location: Data From Fig. 5 of PRC 93 (2016) 024911
+description: '$p^{pp}_T$ dependence of $S_{loss}$ for $\pi^0$ in
+62 GeV Au+Au collisions using the spectra measured by
+PHENIX in 2010.'
+keywords: # used for searching, possibly mutliple values for each keywords
+- {name: reactions, values: [Au Au --> $\pi^0$]}
+- {name: cmenergies, values: [62.4]}
+- {name: phrases, values: [ppg171, fractional momentum loss, Bjorken energy density, parton energy loss]}
+data_file: fig5.yaml
+additional_resources:
+- {description: Original EPS Image file, location: fig5.eps}
+- {description: PNG Image file, location: fig5.png}
+- {description: Thumbnail Image file, location: thumb_fig5.png}
+---
+name: "Figure 6"
+location: Data From Fig. 6 of PRC 93 (2016) 024911
+description: '$p^{pp}_T$ dependence of $S_{loss}$ for $\pi^0$ in
+62.4 GeV Cu+Cu collisions using the spectra measured by
+PHENIX in 2005.'
+keywords: # used for searching, possibly mutliple values for each keywords
+- {name: reactions, values: [Cu Cu --> $\pi^0$]}
+- {name: cmenergies, values: [62.4]}
+- {name: phrases, values: [ppg171, fractional momentum loss, Bjorken energy density, parton energy loss]}
+data_file: fig6.yaml
+additional_resources:
+- {description: Original EPS Image file, location: fig6.eps}
+- {description: PNG Image file, location: fig6.png}
+- {description: Thumbnail Image file, location: thumb_fig6.png}
+---
+name: "Figure 7"
+location: Data From Fig. 7 of PRC 93 (2016) 024911
+description: '$p^{pp}_T$ dependence of $S_{loss}$ for $\pi^0$ in
+2.76 TeV Pb+Pb collisions using the result from the ALICE experiment.'
+keywords: # used for searching, possibly mutliple values for each keywords
+- {name: reactions, values: [Pb Pb --> $h^\pm$]}
+- {name: cmenergies, values: [2760]}
+- {name: phrases, values: [ppg171, fractional momentum loss, Bjorken energy density, parton energy loss]}
+data_file: fig7.yaml
+additional_resources:
+- {description: Original EPS Image file, location: fig7.eps}
+- {description: PNG Image file, location: fig7.png}
+- {description: Thumbnail Image file, location: thumb_fig7.png}
+---
+name: "Figure 16a"
+location: Data From Fig. 16 of PRC 93 (2016) 024911
+description: 'Parameters from fitting the indicated power-law functions for $\delta p_T/p_T$ to the data as a function of $p^{pp}_T$
+for Au+Au collisions from 2004 data at $\sqrt{s^{NN}}$ = 200 GeV.'
+keywords: # used for searching, possibly mutliple values for each keywords
+- {name: reactions, values: [Au Au --> $\pi^0$]}
+- {name: cmenergies, values: [200]}
+- {name: phrases, values: [ppg171, fractional momentum loss, Bjorken energy density, parton energy loss]}
+data_file: fig16a.yaml
+additional_resources:
+- {description: Original EPS Image file, location: fig16.eps}
+- {description: PNG Image file, location: fig16.png}
+- {description: Thumbnail Image file, location: thumb_fig16.png}
+---
+name: "Figure 16b"
+location: Data From Fig. 16 of PRC 93 (2016) 024911
+description: 'Parameters from fitting the indicated power-law functions for $\delta p_T/p_T$ to the data as a function of $p^{pp}_T$
+for Au+Au collisions from 2007 data at $\sqrt{s^{NN}}$ = 200 GeV.'
+keywords: # used for searching, possibly mutliple values for each keywords
+- {name: reactions, values: [Au Au --> $\pi^0$]}
+- {name: cmenergies, values: [200]}
+- {name: phrases, values: [ppg171, fractional momentum loss, Bjorken energy density, parton energy loss]}
+data_file: fig16b.yaml
+additional_resources:
+- {description: Original EPS Image file, location: fig16.eps}
+- {description: PNG Image file, location: fig16.png}
+- {description: Thumbnail Image file, location: thumb_fig16.png}
+---
+name: "Figure 16c"
+location: Data From Fig. 16 of PRC 93 (2016) 024911
+description: 'Parameters from fitting the indicated power-law functions for $\delta p_T/p_T$ to the data as a function of $p^{pp}_T$
+for Cu+Cu collisions from 2005 data at $\sqrt{s^{NN}}$ = 200 GeV.'
+keywords: # used for searching, possibly mutliple values for each keywords
+- {name: reactions, values: [Cu Cu --> $\pi^0$]}
+- {name: cmenergies, values: [200]}
+- {name: phrases, values: [ppg171, fractional momentum loss, Bjorken energy density, parton energy loss]}
+data_file: fig16c.yaml
+additional_resources:
+- {description: Original EPS Image file, location: fig16.eps}
+- {description: PNG Image file, location: fig16.png}
+- {description: Thumbnail Image file, location: thumb_fig16.png}
+---
+name: "Figure 16d"
+location: Data From Fig. 16 of PRC 93 (2016) 024911
+description: 'Parameters from fitting the indicated power-law functions for $\delta p_T/p_T$ to the data as a function of $p^{pp}_T$
+for Pb+Pb collisions at $\sqrt{s^{NN}}$ = 2.76 TeV.'
+keywords: # used for searching, possibly mutliple values for each keywords
+- {name: reactions, values: [Pb Pb --> $h^\pm$]}
+- {name: cmenergies, values: [2760]}
+- {name: phrases, values: [ppg171, fractional momentum loss, Bjorken energy density, parton energy loss]}
+data_file: fig16d.yaml
+additional_resources:
+- {description: Original EPS Image file, location: fig16.eps}
+- {description: PNG Image file, location: fig16.png}
+- {description: Thumbnail Image file, location: thumb_fig16.png}
+---

@@ -1,0 +1,128 @@
+independent_variables:
+- header: {name: 'Centrality [%]'}
+  values:
+  - {low: 0, high: 5}
+  - {low: 0, high: 10}
+  - {low: 10, high: 20}
+  - {low: 20, high: 30}
+  - {low: 30, high: 40}
+  - {low: 40, high: 50}
+  - {low: 50, high: 60}
+  - {low: 60, high: 70}
+dependent_variables:
+- header: {name: '$N_{part}$'}
+  qualifiers:
+  - {name: 'Collision', value: 'Au+Au'}
+  - {name: '$\sqrt{s_{NN}}$', value: '200 GeV'}
+  values:
+  - value: 353
+    errors:
+    - {symerror: 10, label: 'sys.'}
+  - value: 327
+    errors:
+    - {symerror: 10, label: 'sys.'}
+  - value: 235
+    errors:
+    - {symerror: 8, label: 'sys.'}
+  - value: 166
+    errors:
+    - {symerror: 6, label: 'sys.'}
+  - value: 114
+    errors:
+    - {symerror: 5, label: 'sys.'}
+  - value: 75
+    errors:
+    - {symerror: 5, label: 'sys.'}
+  - value: 46
+    errors:
+    - {symerror: 4, label: 'sys.'}
+  - value: 26.1
+    errors:
+    - {symerror: 3.5, label: 'sys.'}
+- header: {name: '$N_{qp}$'}
+  qualifiers:
+  - {name: 'Collision', value: 'Au+Au'}
+  - {name: '$\sqrt{s_{NN}}$', value: '200 GeV'}
+  values:
+  - value: 957
+    errors:
+    - {symerror: 16, label: 'sys.'}
+  - value: 873
+    errors:
+    - {symerror: 16, label: 'sys.'}
+  - value: 597
+    errors:
+    - {symerror: 13, label: 'sys.'}
+  - value: 403
+    errors:
+    - {symerror: 11, label: 'sys.'}
+  - value: 263
+    errors:
+    - {symerror: 10, label: 'sys.'}
+  - value: 162
+    errors:
+    - {symerror: 6, label: 'sys.'}
+  - value: 92
+    errors:
+    - {symerror: 6, label: 'sys.'}
+  - value: 51
+    errors:
+    - {symerror: 7, label: 'sys.'}
+- header: {name: '$dN_{ch}/d \eta$'}
+  qualifiers:
+  - {name: 'Collision', value: 'Au+Au'}
+  - {name: '$\sqrt{s_{NN}}$', value: '200 GeV'}
+  values:
+  - value: 6.9e+2
+    errors:
+    - {symerror: 40, label: 'sys.'}
+  - value: 624
+    errors:
+    - {symerror: 32, label: 'sys.'}
+  - value: 415
+    errors:
+    - {symerror: 20, label: 'sys.'}
+  - value: 274
+    errors:
+    - {symerror: 15, label: 'sys.'}
+  - value: 177
+    errors:
+    - {symerror: 12, label: 'sys.'}
+  - value: 110
+    errors:
+    - {symerror: 9, label: 'sys.'}
+  - value: 62
+    errors:
+    - {symerror: 7, label: 'sys.'}
+  - value: 32
+    errors:
+    - {symerror: 5, label: 'sys.'}
+- header: {name: '$\epsilon B_j \tau_0$ [GeV/fm$^2$]'}
+  qualifiers:
+  - {name: 'Collision', value: 'Au+Au'}
+  - {name: '$\sqrt{s_{NN}}$', value: '200 GeV'}
+  values:
+  - value: 5.4
+    errors:
+    - {symerror: 0.6, label: 'sys.'}
+  - value: 5.2
+    errors:
+    - {symerror: 0.6, label: 'sys.'}
+  - value: 4.3
+    errors:
+    - {symerror: 0.5, label: 'sys.'}
+  - value: 3.5
+    errors:
+    - {symerror: 0.4, label: 'sys.'}
+  - value: 2.74
+    errors:
+    - {symerror: 0.34, label: 'sys.'}
+  - value: 2.06
+    errors:
+    - {symerror: 0.28, label: 'sys.'}
+  - value: 1.38
+    errors:
+    - {symerror: 0.23, label: 'sys.'}
+  - value: 0.83
+    errors:
+    - {symerror: 0.18, label: 'sys.'}
