@@ -15,27 +15,27 @@ dependent_variables:
   - value: 0.0230
     errors:
     - {symerror: 0.020, label: 'stat.'}
-    - {asymerror: {plus: 0.0041, minus: 0.0057}, label: 'syst.'}
+    - {asymerror: {plus: 0.0041, minus: -0.0057}, label: 'syst.'}
   - value: 0.0466
     errors:
     - {symerror: 0.020, label: 'stat.'}
-    - {asymerror: {plus: 0.057, minus: 0.036}, label: 'syst.'}
+    - {asymerror: {plus: 0.057, minus: -0.036}, label: 'syst.'}
   - value: 0.0632
     errors:
     - {symerror: 0.014, label: 'stat.'}
-    - {asymerror: {plus: 0.077, minus: 0.050}, label: 'syst.'}
+    - {asymerror: {plus: 0.077, minus: -0.050}, label: 'syst.'}
   - value: 0.0628
     errors:
     - {symerror: 0.0098, label: 'stat.'}
-    - {asymerror: {plus: 0.071, minus: 0.054}, label: 'syst.'}
+    - {asymerror: {plus: 0.071, minus: -0.054}, label: 'syst.'}
   - value: 0.0551
     errors:
     - {symerror: 0.011, label: 'stat.'}
-    - {asymerror: {plus: 0.062, minus: 0.049}, label: 'syst.'}
+    - {asymerror: {plus: 0.062, minus: -0.049}, label: 'syst.'}
   - value: 0.0561
     errors:
     - {symerror: 0.027, label: 'stat.'}
-    - {asymerror: {plus: 0.062, minus: 0.053}, label: 'syst.'}
+    - {asymerror: {plus: 0.062, minus: -0.053}, label: 'syst.'}
 - header: {name: 'Near Side'}
   qualifiers:
   - {name: 'Particle', value: 'Mesons'}
@@ -43,27 +43,27 @@ dependent_variables:
   - value: 0.0655
     errors:
     - {symerror: 0.015, label: 'stat.'}
-    - {asymerror: {plus: 0.076, minus: 0.055}, label: 'syst.'}
+    - {asymerror: {plus: 0.076, minus: -0.055}, label: 'syst.'}
   - value: 0.0728
     errors:
     - {symerror: 0.015, label: 'stat.'}
-    - {asymerror: {plus: 0.084, minus: 0.062}, label: 'syst.'}
+    - {asymerror: {plus: 0.084, minus: -0.062}, label: 'syst.'}
   - value: 0.0717
     errors:
     - {symerror: 0.0099, label: 'stat.'}
-    - {asymerror: {plus: 0.081, minus: 0.063}, label: 'syst.'}
+    - {asymerror: {plus: 0.081, minus: -0.063}, label: 'syst.'}
   - value: 0.0566
     errors:
     - {symerror: 0.0067, label: 'stat.'}
-    - {asymerror: {plus: 0.063, minus: 0.045}, label: 'syst.'}
+    - {asymerror: {plus: 0.063, minus: -0.045}, label: 'syst.'}
   - value: 0.0585
     errors:
     - {symerror: 0.0068, label: 'stat.'}
-    - {asymerror: {plus: 0.063, minus: 0.054}, label: 'syst.'}
+    - {asymerror: {plus: 0.063, minus: -0.054}, label: 'syst.'}
   - value: 0.0250
     errors:
     - {symerror: 0.011, label: 'stat.'}
-    - {asymerror: {plus: 0.029, minus: 0.023}, label: 'syst.'}
+    - {asymerror: {plus: 0.029, minus: -0.023}, label: 'syst.'}
 - header: {name: 'Away Side'}
   qualifiers:
   - {name: 'Particle', value: 'Baryons'}
@@ -71,27 +71,27 @@ dependent_variables:
   - value: 0.0215
     errors:
     - {symerror: 0.020, label: 'stat.'}
-    - {asymerror: {plus: 0.0039, minus: 0.041}, label: 'syst.'}
+    - {asymerror: {plus: 0.0039, minus: -0.041}, label: 'syst.'}
   - value: -0.00300
     errors:
     - {symerror: 0.020, label: 'stat.'}
-    - {asymerror: {plus: -0.010, minus: -0.0013}, label: 'syst.'}
+    - {asymerror: {plus: 0.010, minus: -0.0013}, label: 'syst.'}
   - value: 0.0357
     errors:
     - {symerror: 0.014, label: 'stat.'}
-    - {asymerror: {plus: 0.049, minus: 0.023}, label: 'syst.'}
+    - {asymerror: {plus: 0.049, minus: -0.023}, label: 'syst.'}
   - value: 0.0309
     errors:
     - {symerror: 0.0099, label: 'stat.'}
-    - {asymerror: {plus: 0.038, minus: 0.023}, label: 'syst.'}
+    - {asymerror: {plus: 0.038, minus: -0.023}, label: 'syst.'}
   - value: 0.0246
     errors:
     - {symerror: 0.011, label: 'stat.'}
-    - {asymerror: {plus: 0.031, minus: 0.020}, label: 'syst.'}
+    - {asymerror: {plus: 0.031, minus: -0.020}, label: 'syst.'}
   - value: 0.0488
     errors:
     - {symerror: 0.028, label: 'stat.'}
-    - {asymerror: {plus: 0.054, minus: 0.046}, label: 'syst.'}
+    - {asymerror: {plus: 0.054, minus: -0.046}, label: 'syst.'}
 - header: {name: 'Away Side'}
   qualifiers:
   - {name: 'Particle', value: 'Mesons'}
@@ -99,7 +99,7 @@ dependent_variables:
   - value: -0.0110
     errors:
     - {symerror: 0.016, label: 'stat.'}
-    - {asymerror: {plus: -0.010, minus: -0.0020}, label: 'syst.'}
+    - {asymerror: {plus: 0.010, minus: -0.0020}, label: 'syst.'}
   - value: 0.00320
     errors:
     - {symerror: 0.015, label: 'stat.'}
@@ -107,16 +107,16 @@ dependent_variables:
   - value: 0.0271
     errors:
     - {symerror: 0.010, label: 'stat.'}
-    - {asymerror: {plus: 0.035, minus: 0.019}, label: 'syst.'}
+    - {asymerror: {plus: 0.035, minus: -0.019}, label: 'syst.'}
   - value: 0.0286
     errors:
     - {symerror: 0.0068, label: 'stat.'}
-    - {asymerror: {plus: 0.035, minus: 0.022}, label: 'syst.'}
+    - {asymerror: {plus: 0.035, minus: -0.022}, label: 'syst.'}
   - value: 0.0317
     errors:
     - {symerror: 0.0068, label: 'stat.'}
-    - {asymerror: {plus: 0.036, minus: 0.028}, label: 'syst.'}
+    - {asymerror: {plus: 0.036, minus: -0.028}, label: 'syst.'}
   - value: 0.0179
     errors:
     - {symerror: 0.011, label: 'stat.'}
-    - {asymerror: {plus: 0.021, minus: 0.016}, label: 'syst.'}
+    - {asymerror: {plus: 0.021, minus: -0.016}, label: 'syst.'}
