@@ -1,0 +1,50 @@
+independent_variables:
+- header: {name: 'y'}
+  values:
+  - {low: -2.2, high: -1.2}
+dependent_variables:
+- header: {name: '$\langle S_T \rangle$ ($fm^2$)'}
+  qualifiers:
+  - {name: 'reaction', value: '$p$ + Al; 200 GeV'}
+  values:
+  - value: 0.82
+- header: {name: '$\langle S_T \rangle$ ($fm^2$)'}
+  qualifiers:
+  - {name: 'reaction', value: '$p$ + Au; 200 GeV'}
+  values:
+  - value: 1.01
+- header: {name: '$\langle S_T \rangle$ ($fm^2$)'}
+  qualifiers:
+  - {name: 'reaction', value: '${}^{3}$He + Au; 200 GeV'}
+  values:
+  - value: 2.35
+- header: {name: '$\frac{(dN/d\eta)AMPT}{\langle S_T \rangle}$($fm^{-2}$)'}
+  qualifiers:
+  - {name: 'reaction', value: '$p$ + Al; 200 GeV'}
+  values:
+  - value: 10.8
+- header: {name: '$\frac{(dN/d\eta)AMPT}{\langle S_T \rangle}$($fm^{-2}$)'}
+  qualifiers:
+  - {name: 'reaction', value: '$p$ + Au; 200 GeV'}
+  values:
+  - value: 15.1
+- header: {name: '$\frac{(dN/d\eta)AMPT}{\langle S_T \rangle}$($fm^{-2}$)'}
+  qualifiers:
+  - {name: 'reaction', value: '${}^{3}$He + Au; 200 GeV'}
+  values:
+  - value: 13.0
+- header: {name: '$(dN_{ch}/d\eta)AMPT$'}
+  qualifiers:
+  - {name: 'reaction', value: '$p$ + Al; 200 GeV'}
+  values:
+  - value: 5.9
+- header: {name: '$(dN_{ch}/d\eta)AMPT$'}
+  qualifiers:
+  - {name: 'reaction', value: '$p$ + Au; 200 GeV'}
+  values:
+  - value: 10.2
+- header: {name: '$(dN_{ch}/d\eta)AMPT$'}
+  qualifiers:
+  - {name: 'reaction', value: '${}^{3}$He + Au; 200 GeV'}
+  values:
+  - value: 20.3

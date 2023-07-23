@@ -1,0 +1,19 @@
+independent_variables:
+- header: {name: '|y|'}
+  values:
+  - {low: 1.2, high: 2.2}
+dependent_variables:
+- header: {name: '$N^{\Psi (1S)}_{meas}$'}
+  qualifiers:
+  - {name: 'reaction', value: $p$ + $p$'}
+  values:
+  - value: 17120
+    errors:
+    - {symerror: 392, label: 'stat'}
+- header: {name: '$N^{\Psi (2S)}_{meas}$'}
+  qualifiers:
+  - {name: 'reaction', value: $p$ + $p$'}
+  values:
+  - value: 519
+    errors:
+    - {symerror: 51, label: 'stat'}
