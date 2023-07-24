@@ -1,0 +1,32 @@
+independent_variables:
+- header: {name: '$x_E$'}
+  values:
+  - value: 0.17
+  - value: 0.24
+  - value: 0.33
+  - value: 0.45
+  - value: 0.55
+  - value: 0.64
+dependent_variables:
+- header: {name: '$dn$/$dx_E$'}
+  qualifiers:
+  - {name: '', value: '$p_{Tt}$ = 7.39 GeV/$c$'}
+  values:
+  - value: 1.8
+    errors:
+    - {symerror: 3.1e-01, label: 'stat.'}
+  - value: 9.0e-01
+    errors:
+    - {symerror: 1.5e-01, label: 'stat.'}
+  - value: 4.4e-01
+    errors:
+    - {symerror: 1.0e-01, label: 'stat.'}
+  - value: 2.8e-01
+    errors:
+    - {symerror: 8.1e-02, label: 'stat.'}
+  - value: 6.9e-02
+    errors:
+    - {symerror: 4.0e-02, label: 'stat.'}
+  - value: 4.5e-02
+    errors:
+    - {symerror: 3.2e-02, label: 'stat.'}

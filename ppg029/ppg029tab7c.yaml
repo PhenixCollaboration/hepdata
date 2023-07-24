@@ -1,32 +1,64 @@
 independent_variables:
 - header: {name: '$x_E$'}
   values:
-  - value: 0.17
-  - value: 0.24
-  - value: 0.33
-  - value: 0.45
-  - value: 0.55
-  - value: 0.64
+  - value: 0.22
+  - value: 0.
+  - value: 0.42
+  - value: 0.47
+  - value: 0.52
+  - value: 0.57
+  - value: 0.62
+  - value: 0.67
+  - value: 0.75
+  - value: 0.85
+  - value: 0.95
+  - value: 1.04
+  - value: 1.15
+  - value: 1.25
 dependent_variables:
 - header: {name: '$dn$/$dx_E$'}
   qualifiers:
-  - {name: '$x_E$', value: '$p_{Tt}$ = 7.39 GeV/$c$'}
+  - {name: '', value: '$p_{Tt}$ = 5.41 GeV/$c$'}
   values:
-  - value: 1.8e-02
+  - value: 2.3
     errors:
-    - {symerror: 3.1e-03, label: 'stat.'}
-  - value: 9.0e-03
+    - {symerror: 1.2e-01, label: 'stat.'}
+  - value: 1.4
     errors:
-    - {symerror: 1.5e-03, label: 'stat.'}
-  - value: 4.4e-03
+    - {symerror: 9.6e-02, label: 'stat.'}
+  - value: 9.4e-01
     errors:
-    - {symerror: 1.0e-03, label: 'stat.'}
-  - value: 2.8e-03
+    - {symerror: 7.7e-02, label: 'stat.'}
+  - value: 5.7e-01
     errors:
-    - {symerror: 8.1e-04, label: 'stat.'}
-  - value: 6.9e-04
+    - {symerror: 6.0e-02, label: 'stat.'}
+  - value: 4.1e-01
     errors:
-    - {symerror: 4.0e-04, label: 'stat.'}
-  - value: 4.5e-04
+    - {symerror: 5.0e-02, label: 'stat.'}
+  - value: 2.8e-01
     errors:
-    - {symerror: 3.2e-04, label: 'stat.'}
+    - {symerror: 4.2e-02, label: 'stat.'}
+  - value: 2.3e-01
+    errors:
+    - {symerror: 3.8e-02, label: 'stat.'}
+  - value: 1.9e-01
+    errors:
+    - {symerror: 3.4e-02, label: 'stat.'}
+  - value: 1.1e-01
+    errors:
+    - {symerror: 2.5e-02, label: 'stat.'}
+  - value: 1.1e-01
+    errors:
+    - {symerror: 2.5e-02, label: 'stat.'}
+  - value: 5.6e-02
+    errors:
+    - {symerror: 1.3e-02, label: 'stat.'}
+  - value: 2.9e-02
+    errors:
+    - {symerror: 9.2e-03, label: 'stat.'}
+  - value: 2.3e-02
+    errors:
+    - {symerror: 8.1e-03, label: 'stat.'}
+  - value: 8.3e-03
+    errors:
+    - {symerror: 4.8e-03, label: 'stat.'}
