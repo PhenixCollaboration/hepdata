@@ -1,0 +1,48 @@
+independent_variables:
+- header: {name: '$p^{pp}_T$ [GeV/$c$]'}
+  values:
+  - {value: 5}
+  - {value: 6}
+dependent_variables:
+- header: {name: '$\delta p_T/p^{pp}_T$'}
+  qualifiers:
+  - {name: 'System', value: 'Au+Au'}
+  - {name: '$\sqrt{s_{NN}}$ [GeV]', value: '62.4'}
+  - {name: 'Centrality [%]', value: '0-10'}
+  values:
+  - value: 0.115
+    errors:
+    - {asymerror: {plus: 0.010, minus: -0.0090}, label: 'stat.'}
+    - {asymerror: {plus: 0.018, minus: -0.015}, label: 'sys.'}
+  - value: 0.120
+    errors:
+    - {asymerror: {plus: 0.030, minus: -0.023}, label: 'stat.'}
+    - {asymerror: {plus: 0.019, minus: -0.016}, label: 'sys.'}
+- header: {name: '$\delta p_T/p^{pp}_T$'}
+  qualifiers:
+  - {name: 'System', value: 'Au+Au'}
+  - {name: '$\sqrt{s_{NN}}$ [GeV]', value: '62.4'}
+  - {name: 'Centrality [%]', value: '10-20'}
+  values:
+  - value: 0.083
+    errors:
+    - {asymerror: {plus: 0.012, minus: -0.010}, label: 'stat.'}
+    - {asymerror: {plus: 0.019, minus: -0.016}, label: 'sys.'}
+  - value: 0.112
+    errors:
+    - {asymerror: {plus: 0.019, minus: -0.016}, label: 'stat.'}
+    - {asymerror: {plus: 0.019, minus: -0.016}, label: 'sys.'}
+- header: {name: '$\delta p_T/p^{pp}_T$'}
+  qualifiers:
+  - {name: 'System', value: 'Au+Au'}
+  - {name: '$\sqrt{s_{NN}}$ [GeV]', value: '62.4'}
+  - {name: 'Centrality [%]', value: '20-40'}
+  values:
+  - value: 0.057
+    errors:
+    - {asymerror: {plus: 0.013, minus: -0.012}, label: 'stat.'}
+    - {asymerror: {plus: 0.020, minus: -0.016}, label: 'sys.'}
+  - value: 0.072
+    errors:
+    - {asymerror: {plus: 0.027, minus: -0.021}, label: 'stat.'}
+    - {asymerror: {plus: 0.020, minus: -0.017}, label: 'sys.'}

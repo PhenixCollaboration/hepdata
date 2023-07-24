@@ -1,0 +1,76 @@
+independent_variables:
+- header: {name: '$p^{pp}_T$ [GeV/$c$]'}
+  values:
+  - {value: 5}
+  - {value: 6}
+dependent_variables:
+- header: {name: '$\delta p_T/p^{pp}_T$'}
+  qualifiers:
+  - {name: 'System', value: 'Cu+Cu'}
+  - {name: '$\sqrt{s_{NN}}$ [GeV]', value: '62.4'}
+  - {name: 'Centrality [%]', value: '0-10'}
+  values:
+  - value: 0.041
+    errors:
+    - {asymerror: {plus: 0.012, minus: -0.010}, label: 'stat.'}
+    - {asymerror: {plus: 0.028, minus: -0.022}, label: 'sys.'}
+  - value: 0.057
+    errors:
+    - {asymerror: {plus: 0.034, minus: -0.025}, label: 'stat.'}
+    - {asymerror: {plus: 0.030, minus: -0.023}, label: 'sys.'}
+- header: {name: '$\delta p_T/p^{pp}_T$'}
+  qualifiers:
+  - {name: 'System', value: 'Cu+Cu'}
+  - {name: '$\sqrt{s_{NN}}$ [GeV]', value: '62.4'}
+  - {name: 'Centrality [%]', value: '10-20'}
+  values:
+  - value: 0.036
+    errors:
+    - {asymerror: {plus: 0.013, minus: -0.011}, label: 'stat.'}
+    - {asymerror: {plus: 0.027, minus: -0.021}, label: 'sys.'}
+  - value: 0.048
+    errors:
+    - {asymerror: {plus: 0.035, minus: -0.026}, label: 'stat.'}
+    - {asymerror: {plus: 0.030, minus: -0.023}, label: 'sys.'}
+- header: {name: '$\delta p_T/p^{pp}_T$'}
+  qualifiers:
+  - {name: 'System', value: 'Cu+Cu'}
+  - {name: '$\sqrt{s_{NN}}$ [GeV]', value: '62.4'}
+  - {name: 'Centrality [%]', value: '20-30'}
+  values:
+  - value: 0.016
+    errors:
+    - {asymerror: {plus: 0.015, minus: -0.013}, label: 'stat.'}
+    - {asymerror: {plus: 0.029, minus: -0.022}, label: 'sys.'}
+  - value: 0.024
+    errors:
+    - {asymerror: {plus: 0.031, minus: -0.024}, label: 'stat.'}
+    - {asymerror: {plus: 0.028, minus: -0.022}, label: 'sys.'}
+- header: {name: '$\delta p_T/p^{pp}_T$'}
+  qualifiers:
+  - {name: 'System', value: 'Cu+Cu'}
+  - {name: '$\sqrt{s_{NN}}$ [GeV]', value: '62.4'}
+  - {name: 'Centrality [%]', value: '30-40'}
+  values:
+  - value: 0.005
+    errors:
+    - {asymerror: {plus: 0.028, minus: -0.024}, label: 'stat.'}
+    - {asymerror: {plus: 0.06, minus: -0.044}, label: 'sys.'}
+  - value: -0.01
+    errors:
+    - {asymerror: {plus: 0.13, minus: -0.16}, label: 'stat.'}
+    - {asymerror: {plus: 0.14, minus: -0.18}, label: 'sys.'}
+- header: {name: '$\delta p_T/p^{pp}_T$'}
+  qualifiers:
+  - {name: 'System', value: 'Cu+Cu'}
+  - {name: '$\sqrt{s_{NN}}$ [GeV]', value: '62.4'}
+  - {name: 'Centrality [%]', value: '40-50'}
+  values:
+  - value: -0.019
+    errors:
+    - {asymerror: {plus: 0.018, minus: -0.021}, label: 'stat.'}
+    - {asymerror: {plus: 0.026, minus: -0.033}, label: 'sys.'}
+  - value: -0.034
+    errors:
+    - {asymerror: {plus: 0.035, minus: -0.050}, label: 'stat.'}
+    - {asymerror: {plus: 0.019, minus: -0.024}, label: 'sys.'}

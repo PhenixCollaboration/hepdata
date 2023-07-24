@@ -1,0 +1,47 @@
+independent_variables:
+- header: {name: 'y'}
+  values:
+  - {low: -2.2, high: -1.2}
+dependent_variables:
+- header: {name: '$N^{\Psi (1S)}_{meas}$'}
+  qualifiers:
+  - {name: 'reaction', value: '$p$ + Al (Al-going)'}
+  values:
+  - value: 1463
+    errors:
+    - {symerror: 109, label: 'stat'}
+- header: {name: '$N^{\Psi (2S)}_{meas}$'}
+  qualifiers:
+  - {name: 'reaction', value: '$p$ + Al (Al-going)'}
+  values:
+  - value: 125
+    errors:
+    - {symerror: 11, label: 'stat'}
+- header: {name: '$N^{\Psi (1S)}_{meas}$'}
+  qualifiers:
+  - {name: 'reaction', value: '$p$ + Au (Au-going)'}
+  values:
+  - value: 3561
+    errors:
+    - {symerror: 180, label: 'stat'}
+- header: {name: '$N^{\Psi (2S)}_{meas}$'}
+  qualifiers:
+  - {name: 'reaction', value: '$p$ + Au (Au-going)'}
+  values:
+  - value: 51
+    errors:
+    - {symerror: 18, label: 'stat'}
+- header: {name: '$N^{\Psi (1S)}_{meas}$'}
+  qualifiers:
+  - {name: 'reaction', value: '${}^{3}$He + Au (Au going)'}
+  values:
+  - value: 1772
+    errors:
+    - {symerror: 132, label: 'stat'}
+- header: {name: '$N^{\Psi (2S)}_{meas}$'}
+  qualifiers:
+  - {name: 'reaction', value: '${}^{3}$He + Au (Au going)'}
+  values:
+  - value: 35
+    errors:
+    - {symerror: 15, label: 'stat'}

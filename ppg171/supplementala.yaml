@@ -1,0 +1,169 @@
+independent_variables:
+- header: {name: 'Centrality [%]'}
+  values:
+  - {low: 0, high: 10}
+  - {low: 10, high: 20}
+  - {low: 20, high: 30}
+  - {low: 30, high: 40}
+  - {low: 40, high: 50}
+dependent_variables:
+- header: {name: '$N_{part}$'}
+  qualifiers:
+  - {name: 'Collision', value: 'Cu+Cu'}
+  - {name: '$\sqrt{s_{NN}}$', value: '200 GeV'}
+  values:
+  - value: 97
+    errors:
+    - {symerror: 4, label: 'sys.'}
+  - value: 74
+    errors:
+    - {symerror: 4, label: 'sys.'}
+  - value: 53.7
+    errors:
+    - {symerror: 2.7, label: 'sys.'}
+  - value: 40
+    errors:
+    - {symerror: 4, label: 'sys.'}
+  - value: 28.1
+    errors:
+    - {symerror: 3.3, label: 'sys.'}
+- header: {name: '$N_{qp}$'}
+  qualifiers:
+  - {name: 'Collision', value: 'Cu+Cu'}
+  - {name: '$\sqrt{s_{NN}}$', value: '200 GeV'}
+  values:
+  - value: 238
+    errors:
+    - {symerror: 12, label: 'sys.'}
+  - value: 175
+    errors:
+    - {symerror: 11, label: 'sys.'}
+  - value: 121
+    errors:
+    - {symerror: 9, label: 'sys.'}
+  - value: 87
+    errors:
+    - {symerror: 9, label: 'sys.'}
+  - value: 59
+    errors:
+    - {symerror: 8, label: 'sys.'}
+- header: {name: '$dN_{ch}/d \eta$'}
+  qualifiers:
+  - {name: 'Collision', value: 'Cu+Cu'}
+  - {name: '$\sqrt{s_{NN}}$', value: '200 GeV'}
+  values:
+  - value: 178
+    errors:
+    - {symerror: 14, label: 'sys.'}
+  - value: 123
+    errors:
+    - {symerror: 10, label: 'sys.'}
+  - value: 85
+    errors:
+    - {symerror: 7, label: 'sys.'}
+  - value: 58
+    errors:
+    - {symerror: 5, label: 'sys.'}
+  - value: 38.2
+    errors:
+    - {symerror: 3.0, label: 'sys.'}
+- header: {name: '$\epsilon B_j \tau_0$ [GeV/fm$^2$]'}
+  qualifiers:
+  - {name: 'Collision', value: 'Cu+Cu'}
+  - {name: '$\sqrt{s_{NN}}$', value: '200 GeV'}
+  values:
+  - value: 3.0
+    errors:
+    - {symerror: 0.4, label: 'sys.'}
+  - value: 2.43
+    errors:
+    - {symerror: 0.27, label: 'sys.'}
+  - value: 2.00
+    errors:
+    - {symerror: 0.25, label: 'sys.'}
+  - value: 1.58
+    errors:
+    - {symerror: 0.19, label: 'sys.'}
+  - value: 1.24
+    errors:
+    - {symerror: 0.17, label: 'sys.'}
+- header: {name: '$N_{part}$'}
+  qualifiers:
+  - {name: 'Collision', value: 'Cu+Cu'}
+  - {name: '$\sqrt{s_{NN}}$', value: '62.4 GeV'}
+  values:
+  - value: 95.9
+    errors:
+    - {symerror: 2.1, label: 'sys.'}
+  - value: 73.7
+    errors:
+    - {symerror: 2.6, label: 'sys.'}
+  - value: 55.2
+    errors:
+    - {symerror: 2.5, label: 'sys.'}
+  - value: 40.5
+    errors:
+    - {symerror: 2.4, label: 'sys.'}
+  - value: 28.2
+    errors:
+    - {symerror: 2.2, label: 'sys.'}
+- header: {name: '$N_{qp}$'}
+  qualifiers:
+  - {name: 'Collision', value: 'Cu+Cu'}
+  - {name: '$\sqrt{s_{NN}}$', value: '62.4 GeV'}
+  values:
+  - value: 222
+    errors:
+    - {symerror: 9, label: 'sys.'}
+  - value: 164
+    errors:
+    - {symerror: 8, label: 'sys.'}
+  - value: 118
+    errors:
+    - {symerror: 7, label: 'sys.'}
+  - value: 84
+    errors:
+    - {symerror: 7, label: 'sys.'}
+  - value: 56
+    errors:
+    - {symerror: 5, label: 'sys.'}
+- header: {name: '$dN_{ch}/d \eta$'}
+  qualifiers:
+  - {name: 'Collision', value: 'Cu+Cu'}
+  - {name: '$\sqrt{s_{NN}}$', value: '62.4 GeV'}
+  values:
+  - value: 122
+    errors:
+    - {symerror: 9, label: 'sys.'}
+  - value: 85
+    errors:
+    - {symerror: 7, label: 'sys.'}
+  - value: 58
+    errors:
+    - {symerror: 5, label: 'sys.'}
+  - value: 39.0
+    errors:
+    - {symerror: 3.0, label: 'sys.'}
+  - value: 25.5
+    errors:
+    - {symerror: 2.0, label: 'sys.'}
+- header: {name: '$\epsilon B_j \tau_0$ [GeV/fm$^2$]'}
+  qualifiers:
+  - {name: 'Collision', value: 'Cu+Cu'}
+  - {name: '$\sqrt{s_{NN}}$', value: '62.4 GeV'}
+  values:
+  - value: 1.98
+    errors:
+    - {symerror: 0.22, label: 'sys.'}
+  - value: 1.65
+    errors:
+    - {symerror: 0.19, label: 'sys.'}
+  - value: 1.35
+    errors:
+    - {symerror: 0.16, label: 'sys.'}
+  - value: 1.10
+    errors:
+    - {symerror: 0.13, label: 'sys.'}
+  - value: 0.89
+    errors:
+    - {symerror: 0.11, label: 'sys.'}
