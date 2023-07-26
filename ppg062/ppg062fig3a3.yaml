@@ -1,22 +1,5 @@
 independent_variables:
-- header: {name: '$p_T$/$n_q$ Bins (GeV/$c$)'}
-  values:
-  - {low: 0.20, high: 0.23}
-  - {low: 0.23, high: 0.27}
-  - {low: 0.27, high: 0.29}
-  - {low: 0.29, high: 0.34}
-  - {low: 0.34, high: 0.39}
-  - {low: 0.39, high: 0.46}
-  - {low: 0.46, high: 0.54}
-  - {low: 0.54, high: 0.59}
-  - {low: 0.59, high: 0.67}
-  - {low: 0.67, high: 0.80}
-  - {low: 0.80, high: 1.00}
-  - {low: 1.00, high: 1.20}
-dependent_variables:
 - header: {name: '$\langle p_T \rangle$/$n_q$ (GeV/$c$)'}
-  qualifiers:
-  - {name: 'Species', value: ''}
   values:
   - value: 0.2167
   - value: 0.250004
@@ -30,6 +13,7 @@ dependent_variables:
   - value: 0.734633
   - value: 0.901303
   - value: 1.06804
+dependent_variables:
 - header: {name: '$v_2$/$n_q$'}
   qualifiers:
   - {name: 'Species', value: '$p$+$\bar{p}$'}
