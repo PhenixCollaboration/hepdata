@@ -1,0 +1,79 @@
+#PHENIX paper PPG165
+#
+#TITLE: Search for dark photons from neutral meson decays in $p$ + $p$ and $d$ + Au collisions at $\sqrt{S_{NN}} = 200 GeV.
+#
+#PRC 91, (2015) 031901(R)
+#InspireHEP ID: 1313628
+#
+#Prepared by Hugh Jones
+#Please contact Christine Nattrass if you have any questions about this submission
+#PPG liaison:
+#Reviewer:
+#
+comment: | # Information that applies to all data tables.
+  The standard model (SM) of particle physics is spectacularly successful, yet the measured value of the muon anomalous magnetic moment ${(g-2)}_{\mu}$ deviates from SM calculations by 3.6$\sigma$. Several theoretical models attribute this to the existence of a "dark photon," an additional U(1) gauge boson, which is weakly coupled to ordinary photons. The PHENIX experiment at the Relativistic Heavy Ion Collider has searched for a dark photon, $U$, in $\pi^0$,$\eta \rightarrow \gamma e^+e^-$ decays and obtained upper limits of $O$(2*10-6) on $U$-$\gamma$ mixing at 90% C.L. for the mass range 30 < $m_U$ < 90 MeV/$c^2$. Combined with other experimental limits, the remaining region in the $U$-$\gamma$ mixing parameter space that can explain the ${(g-2)}_{\mu}$ deviation from its SM value is nearly completely excluded at the 90% confidence level, with only a small region of 29 < $m_U$ MeV/$c^2$ remaining.
+additional_resources:
+- {location: "https://phenix-intra.sdcc.bnl.gov/phenix/WWW/p/info/ppg/165/", description: "web page with data points"}
+- {location: "http://arxiv.org/abs/1409.0851", description: arXiv}
+- {location: "https://inspirehep.net/literature/1313628", description: InspireHEP}
+---
+# This is Figure 3a.
+name: "Figure 3a"
+location: Data From Figure 3(a) of PRC 91, (2015) 031901(R)
+description: The experimental sensitivity and observed limit on the number of dark photon candidates as a function of the assumed dark photon mass. 
+keywords: # used for searching, possibly mutliple values for each keywords
+- {name: reactions, values: [$p$ + $p$ --> CHARGED X]}
+- {name: cmenergies, values: [200]}
+- {name: phrases, values: [ppg165, mean anomalous magnetic moment, standard model, dark photon]}
+data_file: fig3a.yaml
+additional_resources:
+- {description: Thumbnail Image file, location: thumb_fig3.png}
+---
+# This is Figure 3b.
+name: "Figure 3b"
+location: Data From Figure 3(b) of PRC 91, (2015) 031901(R)
+description: The experimental sensitivity and observed limit on the number of dark photon candidates as a function of the assumed dark photon mass. 
+keywords: # used for searching, possibly mutliple values for each keywords
+- {name: reactions, values: [$d$ + Au --> CHARGED X]}
+- {name: cmenergies, values: [200]}
+- {name: phrases, values: [ppg165, mean anomalous magnetic moment, standard model, dark photon]}
+data_file: fig3b.yaml
+additional_resources:
+- {description: Thumbnail Image file, location: thumb_fig3.png}
+---
+# This is Figure 3c.
+name: "Figure 3c"
+location: Data From Figure 3(c) of PRC 91, (2015) 031901(R)
+description: The experimental sensitivity and observed limit on the number of dark photon candidates as a function of the assumed dark photon mass. 
+keywords: # used for searching, possibly mutliple values for each keywords
+- {name: reactions, values: [$p$ + $p$ --> CHARGED X]}
+- {name: cmenergies, values: [200]}
+- {name: phrases, values: [ppg165, mean anomalous magnetic moment, standard model, dark photon]}
+data_file: fig3c.yaml
+additional_resources:
+- {description: Thumbnail Image file, location: thumb_fig3.png}
+---
+# This is Figure 3d.
+name: "Figure 3d"
+location: Data From Figure 3(d) of PRC 91, (2015) 031901(R)
+description: The experimental sensitivity and observed limit on the number of dark photon candidates as a function of the assumed dark photon mass. 
+keywords: # used for searching, possibly mutliple values for each keywords
+- {name: reactions, values: [Combined --> CHARGED X]}
+- {name: cmenergies, values: [200]}
+- {name: phrases, values: [ppg165, mean anomalous magnetic moment, standard model, dark photon]}
+data_file: fig3d.yaml
+additional_resources:
+- {description: Thumbnail Image file, location: thumb_fig3.png}
+---
+# This is Figure 5.
+name: "Figure 5"
+location: Data From Figure 5 of PRC 91, (2015) 031901(R)
+description: Limits on the $U-\gamma$ mixing parameters from PHENIX at 90%, 85% and 80% confidence levels.
+keywords: # used for searching, possibly mutliple values for each keywords
+- {name: reactions, values: [$p$ + $p$, $d$ + Au --> CHARGED X]}
+- {name: cmenergies, values: [200]}
+- {name: phrases, values: [ppg165, mean anomalous magnetic moment, standard model, dark photon]}
+data_file: fig5.yaml
+additional_resources:
+- {description: Thumbnail Image file, location: thumb_fig5.png}
+---
