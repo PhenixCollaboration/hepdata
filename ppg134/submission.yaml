@@ -1,0 +1,83 @@
+#PHENIX paper PPG134
+#
+#TITLE: Cross sections and double-helicity asymmetries of midrapidity inclusive charged hadrons in $p$ + $p$ collisions at $\sqrt{s}$ = 62.4 GeV.
+#
+#PRD 86 (2012) 092006
+#InspireHEP ID: 1089402
+#
+#Prepared by Hugh Jones
+#Please contact Christine Nattrass if you have any questions about this submission
+#PPG liaison:
+#Reviewer:
+#
+comment: | # Information that applies to all data tables.
+  Unpolarized cross sections and double-helicity asymmetries of single-inclusive positive and negative charged hadrons at midrapidity from $p$ + $p$ collisions at $\sqrt{s}$ = 62.4 GeV GeV are presented. The PHENIX measurement of the cross sections for 1.0 < $p_T$ < 4.5 GeV/$c$ are consistent with perturbative QCD calculations at next-to-leading order in the strong-coupling constant, $\alpha_s$. Resummed pQCD calculations including terms with next-to-leading-log accuracy, yielding reduced theoretical uncertainties, also agree with the data. The double-helicity asymmetry, sensitive at leading order to the gluon polarization in a momentum-fraction range of 0.05 $\lesssim$ $x_{gluon}$ $\lesssim$ 0.2, is consistent with recent global parametrizations disfavoring large gluon polarization.
+additional_resources:
+- {location: "https://phenix-intra.sdcc.bnl.gov/phenix/WWW/p/info/ppg/134/", description: "web page with data points"}
+- {location: "http://arxiv.org/abs/1202.4020", description: arXiv}
+- {location: "https://inspirehep.net/literature/1089402", description: InspireHEP}
+- {description: Thumbnail Image file, location: thumb_Match_dphi_highptlog.png}
+- {description: Thumbnail Image file, location: Match_dphi_highptlog.eps}
+---
+# This is Table I.
+name: "Table I"
+location: Data From Table I of PRD 86 (2012) 092006
+description: Fit-function parameters for the efficiency curves for different hadron species.
+keywords: # used for searching, possibly mutliple values for each keywords
+- {name: reactions, values: [$p$ + $p$ --> CHARGED X]}
+- {name: cmenergies, values: [62.4]}
+- {name: phrases, values: [ppg134, midrapidity, inclusive, hadron]}
+data_file: TableI.yaml
+#additional_resources:
+---
+# This is Table II.
+name: "Table II"
+location: Data From Table II of PRD 86 (2012) 092006
+description: Fit-function parameters for relative fractions of different species in the hadron mix.
+keywords: # used for searching, possibly mutliple values for each keywords
+- {name: reactions, values: [$p$ + $p$ --> CHARGED X]}
+- {name: cmenergies, values: [62.4]}
+- {name: phrases, values: [ppg134, midrapidity, inclusive, hadron]}
+data_file: TableII.yaml
+#additional_resources:
+---
+# This is Table III.
+name: "Table III"
+location: Data From Table III of PRD 86 (2012) 092006
+description: Systematic uncertainties of cross-section measurements from various sources. 
+keywords: # used for searching, possibly mutliple values for each keywords
+- {name: reactions, values: [$p$ + $p$ --> CHARGED X]}
+- {name: cmenergies, values: [62.4]}
+- {name: phrases, values: [ppg134, midrapidity, inclusive, hadron]}
+data_file: TableIII.yaml
+#additional_resources:
+---
+# This is Table IV.
+name: "Table IV"
+location: Data From Table IV (fig. 4) of PRD 86 (2012) 092006
+description: Cross section of midrapidity charged-hadron production from $p$ + $p$ collisions at $\sqrt{s}$ = 62.4 GeV as a function of $p_T$ for positive and negative hadrons.
+keywords: # used for searching, possibly mutliple values for each keywords
+- {name: reactions, values: [$p$ + $p$ --> CHARGED X]}
+- {name: cmenergies, values: [62.4]}
+- {name: phrases, values: [ppg134, midrapidity, inclusive, hadron]}
+data_file: TableIV.yaml
+additional_resources:
+- {description: Thumbnail Image file, location: thumb_Cross_Section_pos_feedcor.png}
+- {description: Thumbnail Image file, location: thumb_Cross_Section_neg_feedcor.png}
+- {description: Thumbnail Image file, location: Cross_Section_pos_feedcor.eps}
+- {description: Thumbnail Image file, location: Cross_Section_neg_feedcor.eps}
+---
+# This is Table V.
+name: "Table V"
+location: Data From Table V (fig. 5) of PRD 86 (2012) 092006
+description: Double-helicity asymmetries and the statistical uncertainties as a function of $p_T$ for positive and negative inclusive charged hadrons from $p$ + $p$ collisions at $\sqrt{s}$ = 62.4 GeV. 
+keywords: # used for searching, possibly mutliple values for each keywords
+- {name: reactions, values: [$p$ + $p$ --> CHARGED X]}
+- {name: cmenergies, values: [62.4]}
+- {name: phrases, values: [ppg134, midrapidity, inclusive, hadron]}
+data_file: TableV.yaml
+additional_resources:
+- {description: Thumbnail Image file, location: thumb_Pos_A_LL_final_thpid.png}
+- {description: Thumbnail Image file, location: thumb_Neg_A_LL_final_thpid.png}
+- {description: Thumbnail Image file, location: Pos_A_LL_final_thpid.eps}
+- {description: Thumbnail Image file, location: Neg_A_LL_final_thpid.eps}
