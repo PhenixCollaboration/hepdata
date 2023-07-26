@@ -18,26 +18,6 @@ additional_resources:
   description: "webpage with data points"
 - location: "https://inspirehep.net/literature/584452"
   description: "InspireHEP"
-- location: "thumb_datamixn.png"
-  description: "Thumbnail Image File"
-- location: "thumb_etResiduals.png"
-  description: "Thumbnail Image File"
-- location: "thumb_ptMixed.png"
-  description: "Thumbnail Image File"
-- location: "thumb_ptResiduals.png"
-  description: "Thumbnail Image File"
-- location: "thumb_etMixed.png"
-  description: "Thumbnail Image File"
-- location: "datamixn.png"
-  description: "Image File"
-- location: "etResiduals.png"
-  description: "Image File"
-- location: "ptMixed.png"
-  description: "Image File"
-- location: "ptResiduals.png"
-  description: "Image File"
-- location: "etMixed.png"
-  description: "Image File"
   
 comment: | # Information that applies to all data tables.
   Event-by event fluctuations in Mean $p_T$ and mean $E_T$ in $\sqrt{s_{NN}}$ = 130GeV Au+Au Collisions
@@ -55,125 +35,19 @@ data_file: ppg005f1.yaml
 additional_resources:
 - location: "thumb_datamixn.png"
   description: "Thumbnail Image File"
-- location: "datamixn.png"
-  description: "Image File"
 ---
-# This is Figure 3a.
-name: "Figure 3a Data"
+# This is Figure 3.
+name: "Figure 3"
 location: Data from Fig. 3 of PRC 66 (024901) 2002
 description: The $M_{p_T}$ distributions for $0-5\%$ centrality class. The curves are the random baseline mixed event distributions.
 keywords: # used for searching, possibly multiple values for each keyword
 - {name: reactions, values: [AU + AU --> CHARGED X0]}
 - {name: cmenergies, values: [130.0]}
 - {name: phrases, values: [ppg005, mid-rapidity, transverse energy]}
-data_file: ppg005f3adata.yaml
+data_file: ppg005fig3.yaml
 additional_resources:
 - location: "thumb_etMixed.png"
   description: "Thumbnail Image File"
-- location: "etMixed.png"
-  description: "Image File"
----
-name: "Figure 3a Mixed"
-location: Data from Fig. 3 of PRC 66 (024901) 2002
-description: The $M_{p_T}$ distributions for $0-5\%$ centrality class. The curves are the random baseline mixed event distributions.
-keywords: # used for searching, possibly multiple values for each keyword
-- {name: reactions, values: [AU + AU --> CHARGED X0]}
-- {name: cmenergies, values: [130.0]}
-- {name: phrases, values: [ppg005, mid-rapidity, transverse energy]}
-data_file: ppg005f3amixed.yaml
-additional_resources:
-- location: "thumb_etMixed.png"
-  description: "Thumbnail Image File"
-- location: "etMixed.png"
-  description: "Image File"
----
-# This is Figure 3b.
-name: "Figure 3b Data"
-location: Data from Fig. 3 of PRC 66 (024901) 2002
-description: The $M_{p_T}$ distributions for $0-10\%$ centrality class. The curves are the random baseline mixed event distributions.
-keywords: # used for searching, possibly multiple values for each keyword
-- {name: reactions, values: [AU + AU --> CHARGED X0]}
-- {name: cmenergies, values: [130.0]}
-- {name: phrases, values: [ppg005, mid-rapidity, transverse energy]}
-data_file: ppg005f3bdata.yaml
-additional_resources:
-- location: "thumb_etMixed.png"
-  description: "Thumbnail Image File"
-- location: "etMixed.png"
-  description: "Image File"
----
-name: "Figure 3b Mixed"
-location: Data from Fig. 3 of PRC 66 (024901) 2002
-description: The $M_{p_T}$ distributions for $0-10\%$ centrality class. The curves are the random baseline mixed event distributions.
-keywords: # used for searching, possibly multiple values for each keyword
-- {name: reactions, values: [AU + AU --> CHARGED X0]}
-- {name: cmenergies, values: [130.0]}
-- {name: phrases, values: [ppg005, mid-rapidity, transverse energy]}
-data_file: ppg005f3bmixed.yaml
-additional_resources:
-- location: "thumb_etMixed.png"
-  description: "Thumbnail Image File"
-- location: "etMixed.png"
-  description: "Image File"
----
-# This is Figure 3c.
-name: "Figure 3c Data"
-location: Data from Fig. 3 of PRC 66 (024901) 2002
-description: The $M_{p_T}$ distributions for $10-20\%$ centrality class. The curves are the random baseline mixed event distributions.
-keywords: # used for searching, possibly multiple values for each keyword
-- {name: reactions, values: [AU + AU --> CHARGED X0]}
-- {name: cmenergies, values: [130.0]}
-- {name: phrases, values: [ppg005, mid-rapidity, transverse energy]}
-data_file: ppg005f3cdata.yaml
-additional_resources:
-- location: "thumb_etMixed.png"
-  description: "Thumbnail Image File"
-- location: "etMixed.png"
-  description: "Image File"
----
-name: "Figure 3c Mixed"
-location: Data from Fig. 3 of PRC 66 (024901) 2002
-description: The $M_{p_T}$ distributions for $10-20\%$ centrality class. The curves are the random baseline mixed event distributions.
-keywords: # used for searching, possibly multiple values for each keyword
-- {name: reactions, values: [AU + AU --> CHARGED X0]}
-- {name: cmenergies, values: [130.0]}
-- {name: phrases, values: [ppg005, mid-rapidity, transverse energy]}
-data_file: ppg005f3cmixed.yaml
-additional_resources:
-- location: "thumb_etMixed.png"
-  description: "Thumbnail Image File"
-- location: "etMixed.png"
-  description: "Image File"
----
-# This is Figure 3d.
-name: "Figure 3d Data"
-location: Data from Fig. 3 of PRC 66 (024901) 2002
-description: The $M_{p_T}$ distributions for $20-30\%$ centrality class. The curves are the random baseline mixed event distributions.
-keywords: # used for searching, possibly multiple values for each keyword
-- {name: reactions, values: [AU + AU --> CHARGED X0]}
-- {name: cmenergies, values: [130.0]}
-- {name: phrases, values: [ppg005, mid-rapidity, transverse energy]}
-data_file: ppg005f3ddata.yaml
-additional_resources:
-- location: "thumb_etMixed.png"
-  description: "Thumbnail Image File"
-- location: "etMixed.png"
-  description: "Image File"
----
-# This is Figure 3d.
-name: "Figure 3d Mixed"
-location: Data from Fig. 3 of PRC 66 (024901) 2002
-description: The $M_{p_T}$ distributions for $20-30\%$ centrality class. The curves are the random baseline mixed event distributions.
-keywords: # used for searching, possibly multiple values for each keyword
-- {name: reactions, values: [AU + AU --> CHARGED X0]}
-- {name: cmenergies, values: [130.0]}
-- {name: phrases, values: [ppg005, mid-rapidity, transverse energy]}
-data_file: ppg005f3dmixed.yaml
-additional_resources:
-- location: "thumb_ptMixed.png"
-  description: "Thumbnail Image File"
-- location: "ptMixed.png"
-  description: "Image File"
 ---
 # This is Figure 4.
 name: "Figure 4"
@@ -183,129 +57,23 @@ keywords: # used for searching, possibly multiple values for each keyword
 - {name: reactions, values: [AU + AU --> CHARGED X0]}
 - {name: cmenergies, values: [130.0]}
 - {name: phrases, values: [ppg005, mid-rapidity, transverse energy]}
-data_file: ppg005f4.yaml
+data_file: ppg005fig4.yaml
 additional_resources:
 - location: "thumb_ptResiduals.png"
   description: "Thumbnail Image File"
-- location: "ptResiduals.png"
-  description: "Image File"
 ---
-# This is Figure 5a.
-name: "Figure 5a Data"
+# This is Figure 5.
+name: "Figure 5"
 location: Data from Fig. 5 of PRC 66 (024901) 2002
 description: The $M_{e_T}$ distributions for $0-5\%$ centrality class. The curves are the random baseline mixed event distributions. The source of differences in the data and mixed event distributions are addressed in the text.
 keywords: # used for searching, possibly multiple values for each keyword
 - {name: reactions, values: [AU + AU --> CHARGED X0]}
 - {name: cmenergies, values: [130.0]}
 - {name: phrases, values: [ppg005, mid-rapidity, transverse energy]}
-data_file: ppg005f5adata.yaml
+data_file: ppg005fig5.yaml
 additional_resources:
 - location: "thumb_ptMixed.png"
   description: "Thumbnail Image File"
-- location: "ptMixed.png"
-  description: "Image File"
----
-name: "Figure 5a Mixed"
-location: Data from Fig. 5 of PRC 66 (024901) 2002
-description: The $M_{e_T}$ distributions for $0-5\%$ centrality class. The curves are the random baseline mixed event distributions. The source of differences in the data and mixed event distributions are addressed in the text.
-keywords: # used for searching, possibly multiple values for each keyword
-- {name: reactions, values: [AU + AU --> CHARGED X0]}
-- {name: cmenergies, values: [130.0]}
-- {name: phrases, values: [ppg005, mid-rapidity, transverse energy]}
-data_file: ppg005f5amixed.yaml
-additional_resources:
-- location: "thumb_ptMixed.png"
-  description: "Thumbnail Image File"
-- location: "ptMixed.png"
-  description: "Image File"
----
-# This is Figure 5b.
-name: "Figure 5b Data"
-location: Data from Fig. 5 of PRC 66 (024901) 2002
-description: The $M_{e_T}$ distributions for $0-10\%$ centrality class. The curves are the random baseline mixed event distributions. The source of differences in the data and mixed event distributions are addressed in the text.
-keywords: # used for searching, possibly multiple values for each keyword
-- {name: reactions, values: [AU + AU --> CHARGED X0]}
-- {name: cmenergies, values: [130.0]}
-- {name: phrases, values: [ppg005, mid-rapidity, transverse energy]}
-data_file: ppg005f5bdata.yaml
-additional_resources:
-- location: "thumb_ptMixed.png"
-  description: "Thumbnail Image File"
-- location: "ptMixed.png"
-  description: "Image File"
----
-name: "Figure 5b Mixed"
-location: Data from Fig. 5 of PRC 66 (024901) 2002
-description: The $M_{e_T}$ distributions for $0-10\%$ centrality class. The curves are the random baseline mixed event distributions. The source of differences in the data and mixed event distributions are addressed in the text.
-keywords: # used for searching, possibly multiple values for each keyword
-- {name: reactions, values: [AU + AU --> CHARGED X0]}
-- {name: cmenergies, values: [130.0]}
-- {name: phrases, values: [ppg005, mid-rapidity, transverse energy]}
-data_file: ppg005f5bmixed.yaml
-additional_resources:
-- location: "thumb_ptMixed.png"
-  description: "Thumbnail Image File"
-- location: "ptMixed.png"
-  description: "Image File"
----
-# This is Figure 5c.
-name: "Figure 5c Data"
-location: Data from Fig. 5 of PRC 66 (024901) 2002
-description: The $M_{e_T}$ distributions for $10-20\%$ centrality class. The curves are the random baseline mixed event distributions. The source of differences in the data and mixed event distributions are addressed in the text.
-keywords: # used for searching, possibly multiple values for each keyword
-- {name: reactions, values: [AU + AU --> CHARGED X0]}
-- {name: cmenergies, values: [130.0]}
-- {name: phrases, values: [ppg005, mid-rapidity, transverse energy]}
-data_file: ppg005f5cdata.yaml
-additional_resources:
-- location: "thumb_ptMixed.png"
-  description: "Thumbnail Image File"
-- location: "ptMixed.png"
-  description: "Image File"
----
-name: "Figure 5c Mixed"
-location: Data from Fig. 5 of PRC 66 (024901) 2002
-description: The $M_{e_T}$ distributions for $10-20\%$ centrality class. The curves are the random baseline mixed event distributions. The source of differences in the data and mixed event distributions are addressed in the text.
-keywords: # used for searching, possibly multiple values for each keyword
-- {name: reactions, values: [AU + AU --> CHARGED X0]}
-- {name: cmenergies, values: [130.0]}
-- {name: phrases, values: [ppg005, mid-rapidity, transverse energy]}
-data_file: ppg005f5cmixed.yaml
-additional_resources:
-- location: "thumb_ptMixed.png"
-  description: "Thumbnail Image File"
-- location: "ptMixed.png"
-  description: "Image File"
----
-# This is Figure 5d.
-name: "Figure 5d Data"
-location: Data from Fig. 5 of PRC 66 (024901) 2002
-description: The $M_{e_T}$ distributions for $20-30\%$ centrality class. The curves are the random baseline mixed event distributions. The source of differences in the data and mixed event distributions are addressed in the text.
-keywords: # used for searching, possibly multiple values for each keyword
-- {name: reactions, values: [AU + AU --> CHARGED X0]}
-- {name: cmenergies, values: [130.0]}
-- {name: phrases, values: [ppg005, mid-rapidity, transverse energy]}
-data_file: ppg005f5ddata.yaml
-additional_resources:
-- location: "thumb_ptMixed.png"
-  description: "Thumbnail Image File"
-- location: "ptMixed.png"
-  description: "Image File"
----
-# This is Figure 5d.
-name: "Figure 5d Mixed"
-location: Data from Fig. 5 of PRC 66 (024901) 2002
-description: The $M_{e_T}$ distributions for $20-30\%$ centrality class. The curves are the random baseline mixed event distributions. The source of differences in the data and mixed event distributions are addressed in the text.
-keywords: # used for searching, possibly multiple values for each keyword
-- {name: reactions, values: [AU + AU --> CHARGED X0]}
-- {name: cmenergies, values: [130.0]}
-- {name: phrases, values: [ppg005, mid-rapidity, transverse energy]}
-data_file: ppg005f5dmixed.yaml
-additional_resources:
-- location: "thumb_ptMixed.png"
-  description: "Thumbnail Image File"
-- location: "ptMixed.png"
-  description: "Image File"
 ---
 # This is Figure 6.
 name: "Figure 6"
@@ -315,9 +83,7 @@ keywords: # used for searching, possibly multiple values for each keyword
 - {name: reactions, values: [AU + AU --> CHARGED X0]}
 - {name: cmenergies, values: [130.0]}
 - {name: phrases, values: [ppg005, mid-rapidity, transverse energy]}
-data_file: ppg005f6.yaml
+data_file: ppg005fig6.yaml
 additional_resources:
 - location: "thumb_etResiduals.png"
   description: "Thumbnail Image File"
-- location: "etResiduals.png"
-  description: "Image File"
