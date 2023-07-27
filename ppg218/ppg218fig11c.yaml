@@ -1,0 +1,36 @@
+independent_variables:
+- header: {name: 'Centrality (%)'}
+  values:
+  - {low: 0, high: 5}
+  - {low: 5, high: 10}
+  - {low: 10, high: 20}
+  - {low: 20, high: 30}
+  - {low: 30, high: 40}
+  - {low: 40, high: 50}
+dependent_variables:
+- header: {name: '$\sigma_{v_{2}}$/$\langle v_{2}\rangle$ = RMS / MEAN'}
+  values:
+  - value: 5.23E-1
+    errors:
+    - {asymerror: {plus: 2.82E-3, minus: -1.00E-4}, label: 'stat.'}
+    - {asymerror: {plus: 2.1E-5, minus: -2.3E-5}, label: 'syst.'}
+  - value: 5.23E-1
+    errors:
+    - {asymerror: {plus: 7.19E-3, minus: -5.0E-5}, label: 'stat.'}
+    - {asymerror: {plus: 4.0E-5, minus: -0.0012}, label: 'syst.'}
+  - value: 4.04E-1
+    errors:
+    - {asymerror: {plus: 1.23E-2, minus: -0.006}, label: 'stat.'}
+    - {asymerror: {plus: 0.018, minus: -0.020}, label: 'syst.'}
+  - value: 3.30E-1
+    errors:
+    - {asymerror: {plus: 3.97E-3, minus: -0.000}, label: 'stat.'}
+    - {asymerror: {plus: 0.023, minus: -0.023}, label: 'syst.'}
+  - value: 3.24E-1
+    errors:
+    - {asymerror: {plus: 0.00, minus: -0.004}, label: 'stat.'}
+    - {asymerror: {plus: 0.013, minus: -0.013}, label: 'syst.'}
+  - value: 3.85E-1
+    errors:
+    - {asymerror: {plus: 3.60E-3, minus: -0.004}, label: 'stat.'}
+    - {asymerror: {plus: 0.019, minus: -0.031}, label: 'syst.'}

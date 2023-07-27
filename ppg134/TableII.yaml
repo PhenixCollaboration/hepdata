@@ -1,0 +1,87 @@
+independent_variables:
+- header: {name: 'Hadron'}
+  values:
+  - {value: '$\pi^+$'}
+  - {value: '$K^+$'}
+  - {value: '$p$'}
+  - {value: '$\pi^-$'}
+  - {value: '$K^-$'}
+  - {value: '$p^-$'}
+dependent_variables:
+- header: {name: 'A'}
+  values:
+  - value: 1.02
+    errors:
+    - {symerror: 0.56, label: 'dA'}
+  - value: -0.53
+    errors:
+    - {symerror: 0.56, label: 'dA'}
+  - value: -0.49
+    errors:
+    - {symerror: 1.12, label: 'dA'}
+  - value: 1.17
+    errors:
+    - {symerror: 0.56, label: 'dA'}
+  - value: -0.61
+    errors:
+    - {symerror: 0.56, label: 'dA'}
+  - value: -0.56
+    errors:
+    - {symerror: 1.17, label: 'dA'}
+- header: {name: 'B'}
+  values:
+  - value: -2.39
+    errors:
+    - {symerror: 0.41, label: 'dB'}
+  - value: -2.39
+    errors:
+    - {symerror: 0.41, label: 'dB'}
+  - value: -2.39
+    errors:
+    - {symerror: 0.41, label: 'dB'}
+  - value: -2.49
+    errors:
+    - {symerror: 0.41, label: 'dB'}
+  - value: -2.49
+    errors:
+    - {symerror: 0.41, label: 'dB'}
+  - value: -2.49
+    errors:
+    - {symerror: 0.41, label: 'dB'}
+
+- header: {name: 'C'}
+  values:
+  - value: 0.57
+    errors:
+    - {symerror: 0.26, label: 'dC'}
+  - value: 0.20
+    errors:
+    - {symerror: 0.23, label: 'dC'}
+  - value: 0.23
+    errors:
+    - {symerror: 0.49, label: 'dC'}
+  - value: 0.61
+    errors:
+    - {symerror: 0.26, label: 'dC'}
+  - value: 0.20
+    errors:
+    - {symerror: 0.23, label: 'dC'}
+  - value: 0.18
+    errors:
+    - {symerror: 0.49, label: 'dC'}
+- header: {name: 'D'}
+  values:
+  - value: 'NAN'
+  - value: 0.009
+    errors:
+    - {symerror: 0.001, label: 'dD'}
+  - value: -0.009
+    errors:
+    - {symerror: 0.001, label: 'dD'}
+  - value: 0.012
+    errors:
+    - {symerror: 0.001, label: 'dD'}
+  - value: 'NAN'
+  - value: -0.012
+    errors:
+    - {symerror: 0.001, label: 'dD'}
