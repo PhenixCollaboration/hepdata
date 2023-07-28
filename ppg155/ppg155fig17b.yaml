@@ -1,0 +1,26 @@
+independent_variables:
+- header: {name: '$N_{coll}$'}
+  values:
+  - {value: 689.9}
+  - {value: 270.5}
+  - {value: 85.71}
+dependent_variables:
+- header: {name: '$R_{AA}$'}
+  qualifiers:
+  - {name: 'GeV/$c$', value: '3 < $p_T$ < 5'}
+  values:
+  - value: 1.740
+    errors:
+    - {symerror: 78.89, label: '$N_{coll}$'}
+    - {symerror: 1.442, label: 'stat.'}
+    - {symerror: 0.533, label: 'syst.'}
+  - value: 2.001
+    errors:
+    - {symerror: 27.46, label: '$N_{coll}$'}
+    - {symerror: 1.879, label: 'stat.'}
+    - {symerror: 0.632, label: 'syst.'}
+  - value: 2.270
+    errors:
+    - {symerror: 9.064, label: '$N_{coll}$'}
+    - {symerror: 2.265, label: 'stat.'}
+    - {symerror: 0.714, label: 'syst.'}
