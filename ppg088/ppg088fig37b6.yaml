@@ -1,0 +1,43 @@
+independent_variables:
+- header: {name: '$p_T$ (GeV/$c$)'}
+  values:
+  - {low: 0.000, high: 0.300}
+  - {low: 0.300, high: 0.600}
+  - {low: 0.600, high: 1.000}
+  - {low: 1.000, high: 1.800}
+  - {low: 1.800, high: 2.600}
+  - {low: 2.600, high: 3.600}
+  - {low: 3.600, high: 5.000}
+dependent_variables:
+- header: {name: '1/($N_{part}$/2) 1/(2$\pi p_T$) $d^2$N/d$p_T$dy ($c$/GeV$)^2$'}
+  qualifiers:
+  - {name: '$p_T$ (GeV/$c$)', value: '810-990 MeV/$c^2$ x $10^{-3}$'}
+  values:
+  - value: 1.9E-8
+    errors:
+    - {symerror: 9.0E-9, label: 'stat.'}
+    - {symerror: 6.0E-9, label: 'syst.'}
+  - value: 7.1E-9
+    errors:
+    - {symerror: 2.7E-9, label: 'stat.'}
+    - {symerror: 3.4E-9, label: 'syst.'}
+  - value: 1.4E-9
+    errors:
+    - {symerror: 8.0E-10, label: 'stat.'}
+    - {symerror: 8.0E-10, label: 'syst.'}
+  - value: 1.3E-10
+    errors:
+    - {symerror: 1.1E-10, label: 'stat.'}
+    - {symerror: 6.0E-11, label: 'syst.'}
+  - value: 4.4E-12
+    errors:
+    - {symerror: 9.99e+9, label: 'stat.'}
+    - {symerror: 9.99e+9, label: 'syst.'}
+  - value: 4.2E-13
+    errors:
+    - {symerror: 9.99e+9, label: 'stat.'}
+    - {symerror: 9.99e+9, label: 'syst.'}
+  - value: 3.1E-14
+    errors:
+    - {symerror: 9.99e+9, label: 'stat.'}
+    - {symerror: 9.99e+9, label: 'syst.'}

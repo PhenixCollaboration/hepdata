@@ -1,0 +1,116 @@
+independent_variables:
+- header: {name: '$m_{T} - m_{0}$ (GeV/$c^{2}$)'}
+  values:
+  - {low: 0.00, high: 0.00}
+  - {low: 0.02, high: 0.03}
+  - {low: 0.06, high: 0.07}
+  - {low: 0.11, high: 0.13}
+  - {low: 0.18, high: 0.20}
+  - {low: 0.25, high: 0.27}
+  - {low: 0.33, high: 0.35}
+  - {low: 0.41, high: 0.43}
+  - {low: 0.50, high: 0.52}
+  - {low: 0.59, high: 0.61}
+  - {low: 0.68, high: 0.70}
+  - {low: 0.77, high: 0.79}
+  - {low: 0.87, high: 0.89}
+  - {low: 0.96, high: 0.98}
+  - {low: 0.97, high: 1.17}
+  - {low: 1.06, high: 1.26}
+  - {low: 1.16, high: 1.36}
+  - {low: 1.26, high: 1.46}
+  - {low: 1.35, high: 1.55}
+  - {low: 1.45, high: 1.65}
+  - {low: 1.55, high: 1.75}
+  - {low: 1.64, high: 1.84}
+  - {low: 1.74, high: 1.94}
+  - {low: 1.84, high: 2.04}
+  - {low: 1.94, high: 2.14}
+dependent_variables:
+- header: {name: '$\frac{1}{\frac{N_{part}}{2}}\frac{1}{2\pi m_{T}}\frac{d^{2}N}{dm_{T}dy}$ ($c^4$/GeV$^2$)'}
+  qualifiers:
+  - {name: '0.3<$m_{ee}$<0.75 GeV/$c^{2}$', value: 'hadronic yield ($\rho$ coll.broad)'}
+  values:
+  - value: 2.76E-4
+  - value: 8.05E-5
+  - value: 5.23E-5
+  - value: 3.11E-5
+  - value: 2.80E-5
+  - value: 1.48E-5
+  - value: 9.90E-6
+  - value: 7.62E-6
+  - value: 4.69E-6
+  - value: 2.65E-6
+  - value: 2.28E-6
+  - value: 1.18E-6
+  - value: 7.85E-7
+  - value: 6.61E-7
+  - value: 1.81E-7
+  - value: 1.63E-7
+  - value: 1.42E-7
+  - value: 1.48E-7
+  - value: 6.12E-8
+  - value: 4.15E-8
+  - value: 1.97E-8
+  - value: 1.45E-8
+  - value: 2.23E-8
+  - value: 8.50E-9
+  - value: 6.17E-9
+- header: {name: '$\frac{1}{\frac{N_{part}}{2}}\frac{1}{2\pi m_{T}}\frac{d^{2}N}{dm_{T}dy}$ ($c^4$/GeV$^2$)'}
+  qualifiers:
+  - {name: '0.3<$m_{ee}$<0.75 GeV/$c^{2}$', value: 'hadronic yield ($\rho$ coll.broad + drop)'}
+  values:
+  - value: 3.53E-4
+  - value: 2.12E-4
+  - value: 1.05E-4
+  - value: 5.99E-5
+  - value: 4.02E-5
+  - value: 2.52E-5
+  - value: 1.49E-5
+  - value: 8.59E-6
+  - value: 6.23E-6
+  - value: 3.60E-6
+  - value: 2.49E-6
+  - value: 1.53E-6
+  - value: 1.17E-6
+  - value: 5.96E-7
+  - value: 3.65E-7
+  - value: 2.12E-7
+  - value: 2.00E-7
+  - value: 1.37E-7
+  - value: 7.73E-8
+  - value: 7.75E-8
+  - value: 7.48E-8
+  - value: 1.45E-8
+  - value: 3.04E-8
+  - value: 5.82E-9
+  - value: 1.65E-8
+- header: {name: '$\frac{1}{\frac{N_{part}}{2}}\frac{1}{2\pi m_{T}}\frac{d^{2}N}{dm_{T}dy}$ ($c^4$/GeV$^2$)'}
+  qualifiers:
+  - {name: '0.3<$m_{ee}$<0.75 GeV/$c^{2}$', value: 'sum ($\rho$ coll.broad + drop)'}
+  values:
+  - value: 3.58E-4
+  - value: 2.15E-4
+  - value: 1.07E-4
+  - value: 6.12E-5
+  - value: 4.11E-5
+  - value: 2.57E-5
+  - value: 1.52E-5
+  - value: 8.73E-6
+  - value: 6.32E-6
+  - value: 3.64E-6
+  - value: 2.51E-6
+  - value: 1.54E-6
+  - value: 1.18E-6
+  - value: 6.01E-7
+  - value: 3.66E-7
+  - value: 2.14E-7
+  - value: 2.00E-7
+  - value: 1.37E-7
+  - value: 7.73E-8
+  - value: 7.75E-8
+  - value: 7.48E-8
+  - value: 1.45E-8
+  - value: 3.04E-8
+  - value: 5.82E-9
+  - value: 1.65E-8

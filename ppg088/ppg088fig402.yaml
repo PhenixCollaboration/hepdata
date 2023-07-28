@@ -1,0 +1,33 @@
+independent_variables:
+- header: {name: '$m_{0}$ (GeV/$c^{2}$)'}
+  values:
+  - {low: 0.01, high: 0.03}
+  - {low: 0.13, high: 0.15}
+  - {low: 0.24, high: 0.26}
+  - {low: 0.39, high: 0.41}
+  - {low: 0.58, high: 0.60}
+dependent_variables:
+- header: {name: 'local slope (GeV/$c^{2}$)'}
+  qualifiers:
+  - {name: 'Mean $m_{T}$', value: '1-3'}
+  values:
+  - value: 0.23
+    errors:
+    - {symerror: 0.00076, label: 'stat.'}
+    - {symerror: 0.000000101, label: 'syst.'}
+  - value: 0.22
+    errors:
+    - {symerror: 0.011, label: 'stat.'}
+    - {symerror: 0.00012, label: 'syst.'}
+  - value: 0.19
+    errors:
+    - {symerror: 0.024, label: 'stat.'}
+    - {symerror: 0.00031, label: 'syst.'}
+  - value: 0.28
+    errors:
+    - {symerror: 0.060, label: 'stat.'}
+    - {symerror: 0.0019, label: 'syst.'}
+  - value: 0.28
+    errors:
+    - {symerror: 0.12, label: 'stat.'}
+    - {symerror: 0.031, label: 'syst.'}

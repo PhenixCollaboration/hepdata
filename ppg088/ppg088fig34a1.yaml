@@ -1,0 +1,39 @@
+independent_variables:
+- header: {name: '$p_T$ (GeV/$c$)'}
+  values:
+  - {low: 0.921, high: 1.431}
+  - {low: 1.431, high: 1.938}
+  - {low: 1.938, high: 2.445}
+  - {low: 2.445, high: 3.018}
+  - {low: 3.018, high: 3.854}
+  - {low: 3.854, high: 4.886}
+dependent_variables:
+- header: {name: 'Ed^3N/dp^3(GeV^{-2}c^3) or Ed^3$\sigma$/dp^3(mb GeV^{-2}C^3)'}
+  qualifiers:
+  - {name: 'Collision Type', value: 'MB x $10^4$'}
+  - {name: 'Collision Species', value: 'AuAu'}
+  values:
+  - value: 0.141
+    errors:
+    - {symerror: 0.015, label: 'stat.'}
+    - {symerror: 0.030, label: 'syst.'}
+  - value: 0.0162
+    errors:
+    - {symerror: 0.0020, label: 'stat.'}
+    - {symerror: 0.0032, label: 'syst.'}
+  - value: 0.0023
+    errors:
+    - {symerror: 5.0E-4, label: 'stat.'}
+    - {symerror: 6.0E-4, label: 'syst.'}
+  - value: 5.3E-4
+    errors:
+    - {symerror: 1.4E-4, label: 'stat.'}
+    - {symerror: 1.5E-4, label: 'syst.'}
+  - value: 1.53E-4
+    errors:
+    - {symerror: 3.4E-5, label: 'stat.'}
+    - {symerror: 3.6E-5, label: 'syst.'}
+  - value: 2.0E-5
+    errors:
+    - {symerror: 8.0E-6, label: 'stat.'}
+    - {symerror: 4.0E-6, label: 'syst.'}

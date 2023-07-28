@@ -1,0 +1,57 @@
+independent_variables:
+- header: {name: '$N_{part}$'}
+  values:
+  - {low: 60, high: 92}
+  - {low: 40, high: 60}
+  - {low: 20, high: 40}
+  - {low: 10, high: 20}
+  - {low: 00, high: 10}
+dependent_variables:
+- header: {name: 'Yield/($N_{part}$/2) ($10^{-6}$)'}
+  qualifiers:
+  - {name: 'Collision Species', value: '$p$+$p$'}
+  values:
+  - value: 1.7
+    errors:
+    - {symerror: 0.4, label: 'stat.'}
+    - {symerror: 0.7, label: 'syst.'}
+  - value: 0.9
+    errors:
+    - {symerror: 0.5, label: 'stat.'}
+    - {symerror: 0.9, label: 'syst.'}
+  - value: 2.3
+    errors:
+    - {symerror: 0.6, label: 'stat.'}
+    - {symerror: 1.5, label: 'syst.'}
+  - value: 7.1
+    errors:
+    - {symerror: 1.1, label: 'stat.'}
+    - {symerror: 3.2, label: 'syst.'}
+  - value: 19.6
+    errors:
+    - {symerror: 1.4, label: 'stat.'}
+    - {symerror: 6, label: 'syst.'}
+- header: {name: 'Yield/($N_{part}$/2) ($10^{-6}$)'}
+  qualifiers:
+  - {name: '$N_{part}$', value: 'Au + Au'}
+  values:
+  - value: 2.793
+    errors:
+    - {symerror: 0.030, label: 'stat.'}
+    - {symerror: 0.6, label: 'syst.'}
+  - value: 3.511
+    errors:
+    - {symerror: 0.023, label: 'stat.'}
+    - {symerror: 0.6, label: 'syst.'}
+  - value: 3.858
+    errors:
+    - {symerror: 0.018, label: 'stat.'}
+    - {symerror: 0.6, label: 'syst.'}
+  - value: 3.657
+    errors:
+    - {symerror: 0.023, label: 'stat.'}
+    - {symerror: 0.6, label: 'syst.'}
+  - value: 3.371
+    errors:
+    - {symerror: 0.025, label: 'stat.'}
+    - {symerror: 0.5, label: 'syst.'}
