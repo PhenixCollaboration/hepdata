@@ -16,77 +16,95 @@ independent_variables:
   - {low: 12.00, high: 14.00}
   - {low: 14.00, high: 18.00}
 dependent_variables:
+- header: {name: '$p_T$ (GeV/$c$)'}
+  qualifiers:
+  - {name: 'particle', value: '$\pi^0$'}
+  values:
+  - value: 2.280
+  - value: 2.760
+  - value: 3.250
+  - value: 3.740
+  - value: 4.240
+  - value: 4.740
+  - value: 5.450
+  - value: 6.450
+  - value: 7.450
+  - value: 8.450
+  - value: 9.450
+  - value: 10.820
+  - value: 13.140
+  - value: 16.620
 - header: {name: '$A_{LL}$'}
   qualifiers:
   - {name: 'particle', value: '$\pi^0$'}
   values:
   - value: -6.00e-5
     errors:
-    - {symerror: 0.0012, label: 'sta.'}
-    - {symerror: -3.9e-6, label: 'Polarization scale corr. 6.5%'}
-    - {symerror: 4e-4, label: 'Corr. relative luminosity'}
+    - {symerror: 0.0012000, label: 'tot'}
+    - {symerror: -3.9e-6, label: 'Pol.'}
+    - {symerror: 3.600e-4, label: 'Corr.'}
   - value: -9.00e-4
     errors:
-    - {symerror: 9e-4, label: 'sta.'}
-    - {symerror: -5.9e-5, label: 'Polarization scale corr. 6.5%'}
-    - {symerror: 4e-4, label: 'Corr. relative luminosity'}
+    - {symerror: 8.60e-4, label: 'tot'}
+    - {symerror: -5.9e-5, label: 'Pol.'}
+    - {symerror: 3.60e-4, label: 'Corr.'}
   - value: 3.50e-4
     errors:
-    - {symerror: 8e-4, label: 'sta.'}
-    - {symerror: 2.3e-5, label: 'Polarization scale corr. 6.5%'}
-    - {symerror: 4e-4, label: 'Corr. relative luminosity'}
+    - {symerror: 7.60e-4, label: 'tot'}
+    - {symerror: 2.3e-5, label: 'Pol.'}
+    - {symerror: 3.60e-4, label: 'Corr.'}
   - value: -4.70e-4
     errors:
-    - {symerror: 8e-4, label: 'sta.'}
-    - {symerror: -3.1e-5, label: 'Polarization scale corr. 6.5%'}
-    - {symerror: 4e-4, label: 'Corr. relative luminosity'}
+    - {symerror: 7.60e-4, label: 'tot'}
+    - {symerror: -3.1e-5, label: 'Pol.'}
+    - {symerror: 3.60e-4, label: 'Corr.'}
   - value: 0.00110
     errors:
-    - {symerror: 8e-4, label: 'sta.'}
-    - {symerror: 7e-5, label: 'Polarization scale corr. 6.5%'}
-    - {symerror: 4e-4, label: 'Corr. relative luminosity'}
+    - {symerror: 8.2e-4, label: 'tot'}
+    - {symerror: 7e-5, label: 'Pol.'}
+    - {symerror: 3.6e-4, label: 'Corr.'}
   - value: 8.0e-4
     errors:
-    - {symerror: 9e-4, label: 'sta.'}
-    - {symerror: 5e-5, label: 'Polarization scale corr. 6.5%'}
-    - {symerror: 4e-4, label: 'Corr. relative luminosity'}
+    - {symerror: 9.3e-4, label: 'tot'}
+    - {symerror: 5e-5, label: 'Pol.'}
+    - {symerror: 3.6e-4, label: 'Corr.'}
   - value: 3.90e-4
     errors:
-    - {symerror: 8e-4, label: 'sta.'}
-    - {symerror: 2.5e-5, label: 'Polarization scale corr. 6.5%'}
-    - {symerror: 4e-4, label: 'Corr. relative luminosity'}
+    - {symerror: 8.30e-4, label: 'tot'}
+    - {symerror: 2.5e-5, label: 'Pol.'}
+    - {symerror: 3.60e-4, label: 'Corr.'}
   - value: 0.00158
     errors:
-    - {symerror: 0.0012, label: 'sta.'}
-    - {symerror: 1.0e-4, label: 'Polarization scale corr. 6.5%'}
-    - {symerror: 4e-4, label: 'Corr. relative luminosity'}
+    - {symerror: 0.00117, label: 'tot'}
+    - {symerror: 1.0e-4, label: 'Pol.'}
+    - {symerror: 3.6e-4, label: 'Corr.'}
   - value: 0.00130
     errors:
-    - {symerror: 0.0017, label: 'sta.'}
-    - {symerror: 8e-5, label: 'Polarization scale corr. 6.5%'}
-    - {symerror: 4e-4, label: 'Corr. relative luminosity'}
+    - {symerror: 0.00165, label: 'tot'}
+    - {symerror: 8e-5, label: 'Pol.'}
+    - {symerror: 3.6e-4, label: 'Corr.'}
   - value: 0.00303
     errors:
-    - {symerror: 0.0023, label: 'sta.'}
-    - {symerror: 2.0e-4, label: 'Polarization scale corr. 6.5%'}
-    - {symerror: 4e-4, label: 'Corr. relative luminosity'}
+    - {symerror: 0.00231, label: 'tot'}
+    - {symerror: 2.0e-4, label: 'Pol.'}
+    - {symerror: 3.6e-4, label: 'Corr.'}
   - value: 0.0064
     errors:
-    - {symerror: 0.0032, label: 'sta.'}
-    - {symerror: 4e-4, label: 'Polarization scale corr. 6.5%'}
-    - {symerror: 4e-4, label: 'Corr. relative luminosity'}
+    - {symerror: 0.0032, label: 'tot'}
+    - {symerror: 4e-4, label: 'Pol.'}
+    - {symerror: 4e-4, label: 'Corr.'}
   - value: 0.0078
     errors:
-    - {symerror: 0.0035, label: 'sta.'}
-    - {symerror: 5e-4, label: 'Polarization scale corr. 6.5%'}
-    - {symerror: 4e-4, label: 'Corr. relative luminosity'}
+    - {symerror: 0.0035, label: 'tot'}
+    - {symerror: 5e-4, label: 'Pol.'}
+    - {symerror: 4e-4, label: 'Corr.'}
   - value: 1.00e-4
     errors:
-    - {symerror: 0.006, label: 'sta.'}
-    - {symerror: 7e-6, label: 'Polarization scale corr. 6.5%'}
-    - {symerror: 4e-4, label: 'Corr. relative luminosity'}
+    - {symerror: 0.005500, label: 'tot'}
+    - {symerror: 7e-6, label: 'Pol.'}
+    - {symerror: 3.60e-4, label: 'Corr.'}
   - value: 0.0086
     errors:
-    - {symerror: 0.011, label: 'sta.'}
-    - {symerror: 6e-4, label: 'Polarization scale corr. 6.5%'}
-    - {symerror: 4e-4, label: 'Corr. relative luminosity'}
+    - {symerror: 0.0110, label: 'tot'}
+    - {symerror: 6e-4, label: 'Pol.'}
+    - {symerror: 4e-4, label: 'Corr.'}

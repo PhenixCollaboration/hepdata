@@ -1,26 +1,26 @@
 independent_variables:
 - header: {name: '$\Delta\phi$ (rad)'}
   values:
-  - {low: 0.00, high: 0.15}
-  - {low: 0.15, high: 0.35}
-  - {low: 0.35, high: 0.45}
-  - {low: 0.45, high: 0.65}
-  - {low: 0.65, high: 0.75}
-  - {low: 0.75, high: 0.95}
-  - {low: 0.95, high: 1.05}
-  - {low: 1.05, high: 1.25}
-  - {low: 1.25, high: 1.45}
-  - {low: 1.45, high: 1.55}
-  - {low: 1.55, high: 1.75}
-  - {low: 1.75, high: 1.85}
-  - {low: 1.85, high: 2.05}
-  - {low: 2.05, high: 2.15}
-  - {low: 2.15, high: 2.35}
-  - {low: 2.35, high: 2.55}
-  - {low: 2.55, high: 2.65}
-  - {low: 2.65, high: 2.85}
-  - {low: 2.85, high: 2.95}
-  - {low: 2.95, high: 3.15}
+  - {low: 0.000, high: 0.157}
+  - {low: 0.157, high: 0.314}
+  - {low: 0.314, high: 0.471}
+  - {low: 0.471, high: 0.628}
+  - {low: 0.628, high: 0.785}
+  - {low: 0.785, high: 0.942}
+  - {low: 0.942, high: 1.099}
+  - {low: 1.099, high: 1.256}
+  - {low: 1.256, high: 1.413}
+  - {low: 1.413, high: 1.570}
+  - {low: 1.570, high: 1.727}
+  - {low: 1.727, high: 1.884}
+  - {low: 1.884, high: 2.041}
+  - {low: 2.041, high: 2.198}
+  - {low: 2.198, high: 2.355}
+  - {low: 2.355, high: 2.512}
+  - {low: 2.512, high: 2.669}
+  - {low: 2.669, high: 2.826}
+  - {low: 2.826, high: 2.983}
+  - {low: 2.983, high: 3.140}
 dependent_variables:
 - header: {name: '$C(\Delta\phi)$'}
   values:
@@ -89,79 +89,80 @@ dependent_variables:
   - value: 2.63E-02
     errors:
     - {symerror: 4E-04, label: 'stat.'}
-    - {asymerror: {plus: 9E-04, minus: 9E-04}, label: 'sys.'}
+    - {symerror: 9E-04, label: 'sys.'}
   - value: 2.08E-02
     errors:
     - {symerror: 4E-04, label: 'stat.'}
-    - {asymerror: {plus: 8E-04, minus: 8E-04}, label: 'sys.'}
+    - {symerror: 8E-04, label: 'sys.'}
   - value: 1.72E-02
     errors:
     - {symerror: 4E-04, label: 'stat.'}
-    - {asymerror: {plus: 7E-04, minus: 7E-04}, label: 'sys.'}
+    - {symerror: 7E-04, label: 'sys.'}
   - value: 1.08E-02
     errors:
     - {symerror: 4E-04, label: 'stat.'}
-    - {asymerror: {plus: 6E-04, minus: 6E-04}, label: 'sys.'}
+    - {symerror: 6E-04, label: 'sys.'}
   - value: 5.20E-03
     errors:
     - {symerror: 5E-04, label: 'stat.'}
-    - {asymerror: {plus: 4E-04, minus: 4E-04}, label: 'sys.'}
+    - {symerror: 4E-04, label: 'sys.'}
   - value: 1.20E-03
     errors:
     - {symerror: 5E-04, label: 'stat.'}
-    - {asymerror: {plus: 2E-04, minus: 2E-04}, label: 'sys.'}
+    - {symerror: 2E-04, label: 'sys.'}
   - value: -6.00E-04
     errors:
     - {symerror: 6E-04, label: 'stat.'}
+    - {symerror: 0.0, label: 'sys.'}
   - value: -7.00E-04
     errors:
     - {symerror: 6E-04, label: 'stat.'}
-    - {asymerror: {plus: 1E-04, minus: 1E-04}, label: 'sys.'}
+    - {symerror: 1E-04, label: 'sys.'}
   - value: 2.90E-03
     errors:
     - {symerror: 7E-04, label: 'stat.'}
-    - {asymerror: {plus: 2E-04, minus: 2E-04}, label: 'sys.'}
+    - {symerror: 2E-04, label: 'sys.'}
   - value: 7.00E-03
     errors:
     - {symerror: 8E-04, label: 'stat.'}
-    - {asymerror: {plus: 3E-04, minus: 3E-04}, label: 'sys.'}
+    - {symerror: 3E-04, label: 'sys.'}
   - value: 6.80E-03
     errors:
     - {symerror: 8E-04, label: 'stat.'}
-    - {asymerror: {plus: 3E-04, minus: 3E-04}, label: 'sys.'}
+    - {symerror: 3E-04, label: 'sys.'}
   - value: 9.80E-03
     errors:
     - {symerror: 7E-04, label: 'stat.'}
-    - {asymerror: {plus: 7E-04, minus: 3E-04}, label: 'sys.'}
+    - {symerror: 3E-04, label: 'sys.'}
   - value: 1.19E-02
     errors:
     - {symerror: 6E-04, label: 'stat.'}
-    - {asymerror: {plus: 1E-04, minus: 2E-04}, label: 'sys.'}
+    - {asymerror: {plus: 1E-04, minus: -2E-04}, label: 'sys.'}
   - value: 1.04E-02
     errors:
     - {symerror: 6E-04, label: 'stat.'}
-    - {asymerror: {plus: 1000, minus: 1000}, label: 'sys.'}
+    - {symerror: 0.0, label: 'sys.'}
   - value: 1.00E-02
     errors:
     - {symerror: 5E-04, label: 'stat.'}
-    - {asymerror: {plus: 2E-04, minus: 2E-04}, label: 'sys.'}
+    - {symerror: 2E-04, label: 'sys.'}
   - value: 9.90E-03
     errors:
     - {symerror: 5E-04, label: 'stat.'}
-    - {asymerror: {plus: 4E-04, minus: 4E-04}, label: 'sys.'}
+    - {symerror: 4E-04, label: 'sys.'}
   - value: 8.00E-03
     errors:
     - {symerror: 4E-04, label: 'stat.'}
-    - {asymerror: {plus: 6E-04, minus: 6E-04}, label: 'sys.'}
+    - {symerror: 6E-04, label: 'sys.'}
   - value: 7.70E-03
     errors:
     - {symerror: 4E-04, label: 'stat.'}
-    - {asymerror: {plus: 7E-04, minus: 7E-04}, label: 'sys.'}
+    - {symerror: 7E-04, label: 'sys.'}
   - value: 6.90E-03
     errors:
     - {symerror: 4E-04, label: 'stat.'}
-    - {asymerror: {plus: 8E-04, minus: 9E-04}, label: 'sys.'}
+    - {asymerror: {plus: 8E-04, minus: -9E-04}, label: 'sys.'}
   - value: 6.10E-03
     errors:
     - {symerror: 4E-04, label: 'stat.'}
-    - {asymerror: {plus: 9E-04, minus: 9E-04}, label: 'sys.'}
+    - {symerror: 9E-04, label: 'sys.'}
