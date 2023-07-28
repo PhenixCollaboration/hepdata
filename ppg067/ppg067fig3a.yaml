@@ -4,20 +4,26 @@ independent_variables:
   - {value: 0}
 dependent_variables:
 - header: {name: 'rms (rad)'}
+  qualifiers:
+  - {name: 'Collision', value: '$d$+Au'}
   values:
   - value: 7.20E-01
     errors:
     - {symerror: 9E-02, label: 'stat.'}
     - {symerror: 6E-02, label: 'sys.'}
 - header: {name: 'kurtosis'}
+  qualifiers:
+  - {name: 'Collision', value: '$d$+Au'}
   values:
   - value: 2.63E+00
     errors:
     - {symerror: 4E-01, label: 'stat.'}
     - {symerror: 2E-01, label: 'sys.'}
 - header: {name: '$D$ (rad)'}
+  qualifiers:
+  - {name: 'Collision', value: '$d$+Au'}
   values:
   - value: 4.40E-01
     errors:
     - {symerror: 5E-02, label: 'stat.'}
-    - {asymerror: {plus: 2E-02, minus: 4E-01}, label: 'sys.'}
+    - {asymerror: {plus: 2E-02, minus: -4E-01}, label: 'sys.'}
