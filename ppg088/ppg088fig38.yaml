@@ -1,0 +1,68 @@
+independent_variables:
+- header: {name: '$m_{T} - m_{0}$ (GeV/$c^{2}$)'}
+  values:
+  - {low: 0.00, high: 0.02}
+  - {low: 0.08, high: 0.10}
+  - {low: 0.21, high: 0.23}
+  - {low: 0.37, high: 0.39}
+  - {low: 0.55, high: 0.57}
+  - {low: 0.73, high: 0.75}
+  - {low: 0.91, high: 0.93}
+  - {low: 1.01, high: 1.21}
+  - {low: 1.21, high: 1.41}
+  - {low: 1.50, high: 1.70}
+  - {low: 1.89, high: 2.09}
+  - {low: 2.53, high: 2.73}
+dependent_variables:
+- header: {name: '$\frac{1}{\frac{N_{part}}{2}}\frac{1}{2\pi m_{T}}\frac{d^{2}N}{\frac{dm_{T}}{dy}}(c^{4}/$GeV$^{2})$'}
+  qualifiers:
+  - {name: 'subtracted $p_{T}$ spectrum', value: '300 MeV/$c^2$ < $m_{ee}$ $\le$ 750 MeV/$c^2$'}
+  values:
+  - value: 8.95E-4
+    errors:
+    - {symerror: 4.2E-4, label: 'stat.'}
+    - {symerror: 2.7E-4, label: 'syst.'}
+  - value: 3.68E-4
+    errors:
+    - {symerror: 1.2E-4, label: 'stat.'}
+    - {symerror: 1.2E-4, label: 'syst.'}
+  - value: 1.26E-4
+    errors:
+    - {symerror: 0.24E-4, label: 'stat.'}
+    - {symerror: 0.52E-4, label: 'syst.'}
+  - value: 2.71E-5
+    errors:
+    - {symerror: 0.80E-5, label: 'stat.'}
+    - {symerror: 0.98E-5, label: 'syst.'}
+  - value: 4.88E-6
+    errors:
+    - {symerror: 3.2E-6, label: 'stat.'}
+    - {symerror: 2.6E-6, label: 'syst.'}
+  - value: 3.19E-6
+    errors:
+    - {symerror: 1.4E-6, label: 'stat.'}
+    - {symerror: 1.2E-6, label: 'syst.'}
+  - value: 1.74E-6
+    errors:
+    - {symerror: 0.72E-6, label: 'stat.'}
+    - {symerror: 0.59E-6, label: 'syst.'}
+  - value: 4.59E-7
+    errors:
+    - {symerror: 3.6E-7, label: 'stat.'}
+    - {symerror: 1.9E-7, label: 'syst.'}
+  - value: 3.13E-7
+    errors:
+    - {symerror: 1.8E-7, label: 'stat.'}
+    - {symerror: 1.1E-7, label: 'syst.'}
+  - value: 1.57E-7
+    errors:
+    - {symerror: 0.52E-7, label: 'stat.'}
+    - {symerror: 0.50E-7, label: 'syst.'}
+  - value: 1.88E-8
+    errors:
+    - {symerror: 1.8E-8, label: 'stat.'}
+    - {symerror: 0.92E-8, label: 'syst.'}
+  - value: -5.64E-10
+    errors:
+    - {symerror: 2.3E-9, label: 'stat.'}
+    - {symerror: 8.1E-10, label: 'syst.'}

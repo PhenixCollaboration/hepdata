@@ -1,0 +1,45 @@
+independent_variables:
+- header: {name: '$m_{ee}$ (GeV/$c^{2}$)'}
+  values:
+  - {low: 0.08, high: 0.16}
+  - {low: 0.16, high: 0.24}
+  - {low: 0.24, high: 0.32}
+  - {low: 0.32, high: 0.40}
+  - {low: 0.40, high: 0.48}
+  - {low: 0.48, high: 0.56}
+  - {low: 0.56, high: 0.64}
+  - {low: 0.64, high: 0.72}
+  - {low: 0.72, high: 0.80}
+  - {low: 0.80, high: 0.88}
+  - {low: 0.88, high: 0.96}
+dependent_variables:
+- header: {name: 'had w/ $\rho$ broadening'}
+  qualifiers:
+  - {name: 'min. bias Au+Au$\sqrt{s_{NN}}$ = 200GeV', value: '1.5<$p_{T}$<2.0 GeV/$c$'}
+  values:
+  - value: 0
+  - value: 1.50E-6
+  - value: 2.72E-6
+  - value: 6.21E-6
+  - value: 1.63E-6
+  - value: 1.90E-7
+  - value: 2.82E-8
+  - value: 8.35E-9
+  - value: 1.96E-8
+  - value: 7.54E-9
+  - value: 2.10E-9
+- header: {name: 'had/ $\rho$ broad+dropping)'}
+  qualifiers:
+  - {name: 'min. bias Au+Au$\sqrt{s_{NN}}$ = 200GeV', value: '1.5<$p_{T}$<2.0 GeV/$c$'}
+  values:
+  - value: 1.94E-9
+  - value: 2.03E-7
+  - value: 4.98E-6
+  - value: 3.89E-6
+  - value: 1.47E-6
+  - value: 1.39E-7
+  - value: 2.99E-8
+  - value: 2.76E-9
+  - value: 3.00E-9
+  - value: 1.64E-9
+  - value: 7.22E-10
