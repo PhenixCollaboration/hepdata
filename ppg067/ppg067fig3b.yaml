@@ -12,83 +12,87 @@ dependent_variables:
   qualifiers:
   - {name: 'Collision', value: 'Au+Au'}
   values:
-  - value: 5.81E-01
-    errors:
-    - {symerror: 2E-02, label: 'stat.'}
-    - {asymerror: {plus: 9E-03, minus: -3E-02}, label: 'sys.'}
-  - value: 9.61E-01
-    errors:
-    - {symerror: 2E-02, label: 'stat.'}
-    - {asymerror: {plus: 9E-02, minus: -5E-02}, label: 'sys.'}
-  - value: 1.04E+00
-    errors:
-    - {symerror: 7E-03, label: 'stat.'}
-    - {asymerror: {plus: 5E-02, minus: -9E-02}, label: 'sys.'}
-  - value: 9.69E-01
-    errors:
-    - {symerror: 7E-03, label: 'stat.'}
-    - {asymerror: {plus: 7E-02, minus: -1E-01}, label: 'sys.'}
-  - value: 1.02E+00
-    errors:
-    - {symerror: 1E-02, label: 'stat.'}
-    - {asymerror: {plus: 6E-02, minus: -5E-02}, label: 'sys.'}
   - value: 1.02E+00
     errors:
     - {symerror: 2E-02, label: 'stat.'}
     - {symerror: 4E-02, label: 'sys.'}
+  - value: 1.02E+00
+    errors:
+    - {symerror: 1E-02, label: 'stat.'}
+    - {asymerror: {plus: 6E-02, minus: -5E-02}, label: 'sys.'}
+  - value: 9.69E-01
+    errors:
+    - {symerror: 7E-03, label: 'stat.'}
+    - {asymerror: {plus: 7E-02, minus: -1E-01}, label: 'sys.'}
+  - value: 1.04E+00
+    errors:
+    - {symerror: 7E-03, label: 'stat.'}
+    - {asymerror: {plus: 5E-02, minus: -9E-02}, label: 'sys.'}
+  - value: 9.61E-01
+    errors:
+    - {symerror: 2E-02, label: 'stat.'}
+    - {asymerror: {plus: 9E-02, minus: -5E-02}, label: 'sys.'}
+  - value: 5.81E-01
+    errors:
+    - {symerror: 2E-02, label: 'stat.'}
+    - {asymerror: {plus: 9E-03, minus: -3E-02}, label: 'sys.'}
 - header: {name: 'kurtosis'}
   qualifiers:
   - {name: 'Collision', value: 'Au+Au'}
   values:
-  - value: 2.38E+00
-    errors:
-    - {symerror: 1E-01, label: 'stat.'}
-    - {symerror: 3E-02, label: 'sys.'}
-  - value: 2.04E+00
-    errors:
-    - {symerror: 5E-02, label: 'stat.'}
-    - {asymerror: {plus: 4E-02, minus: -2E-01}, label: 'sys.'}
-  - value: 1.75E+00
-    errors:
-    - {symerror: 2E-02, label: 'stat.'}
-    - {symerror: 1E-01, label: 'sys.'}
-  - value: 1.79E+00
-    errors:
-    - {symerror: 3E-02, label: 'stat.'}
-    - {asymerror: {plus: 5E-02, minus: -8E-02}, label: 'sys.'}
-  - value: 1.68E+00
-    errors:
-    - {symerror: 3E-02, label: 'stat.'}
-    - {symerror: 6E-02, label: 'sys.'}
   - value: 1.63E+00
     errors:
     - {symerror: 5E-02, label: 'stat.'}
     - {asymerror: {plus: 1E-02, minus: -2E-02}, label: 'sys.'}
+  - value: 1.68E+00
+    errors:
+    - {symerror: 3E-02, label: 'stat.'}
+    - {symerror: 6E-02, label: 'sys.'}
+  - value: 1.79E+00
+    errors:
+    - {symerror: 3E-02, label: 'stat.'}
+    - {asymerror: {plus: 5E-02, minus: -8E-02}, label: 'sys.'}
+  - value: 1.75E+00
+    errors:
+    - {symerror: 2E-02, label: 'stat.'}
+    - {symerror: 1E-01, label: 'sys.'}
+  - value: 2.04E+00
+    errors:
+    - {symerror: 5E-02, label: 'stat.'}
+    - {asymerror: {plus: 4E-02, minus: -2E-01}, label: 'sys.'}
+  - value: 2.38E+00
+    errors:
+    - {symerror: 1E-01, label: 'stat.'}
+    - {symerror: 3E-02, label: 'sys.'}
 - header: {name: '$D$ (rad)'}
   qualifiers:
   - {name: 'Collision', value: 'Au+Au'}
   values:
-  - value: 4.00E-01
+  - value: 1.12E+00
     errors:
-    - {asymerror: {plus: 4E-02, minus: -2E-01}, label: 'stat.'}
-    - {symerror: 4E-01, label: 'sys.'}
-  - value: 8.10E-01
+    - {symerror: 4E-02, label: 'stat.'}
+    - {symerror: 8E-02, label: 'sys.'}
+  - value: 1.11E+00
     errors:
-    - {symerror: 1E-02, label: 'stat.'}
-    - {symerror: 1E-01, label: 'sys.'}
-  - value: 9.00E-01
-    errors:
-    - {symerror: 2E-02, label: 'stat.'}
+    - {symerror: 4E-02, label: 'stat.'}
     - {symerror: 9E-02, label: 'sys.'}
   - value: 9.80E-01
     errors:
     - {symerror: 2E-02, label: 'stat.'}
     - {symerror: 7E-02, label: 'sys.'}
-  - value: 1.11E+00
+  - value: 9.00E-01
     errors:
-    - {symerror: 4E-02, label: 'stat.'}
+    - {symerror: 2E-02, label: 'stat.'}
     - {symerror: 9E-02, label: 'sys.'}
-  - value: 1.12E+00
+  - value: 8.10E-01
     errors:
-    - {symerror: 4E-02, label: 'stat.'}
-    - {symerror: 8E-02, label: 'sys.'}
+    - {symerror: 1E-02, label: 'stat.'}
+    - {symerror: 1E-01, label: 'sys.'}
+  - value: 4.00E-01
+    errors:
+    - {asymerror: {plus: 4E-02, minus: -2E-01}, label: 'stat.'}
+    - {asymerror: {plus: 0, minus: -4E-01}, label: 'sys.'}
+
+
+
+

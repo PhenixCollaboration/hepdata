@@ -1,0 +1,1329 @@
+#PHENIX paper PPG088
+#
+#Detailed measurement of the e+e- pair continuum in p+p and Au+Au collisions at $\sqrt{s_{NN}}$=200 GeV and implications for direct photon production
+#
+#Phys.Rev.C 81 (2009) 034911
+#InspireHEP ID: 838580
+#
+#Prepared by Josie Hakanson and Shannon Harris
+#Please contact Christine Nattrass if you have any questions about this submission
+#PPG liaison:
+#Reviewer:
+#
+comment: | # Information that applies to all data tables.
+  PHENIX has measured the $e^{+}e^{-}$ pair continuum in $\sqrt{s_{NN}}$=200 GeV Au+Au and $p+p$ collisions over a wide range of mass and transverse momenta. The $e^{+}e^{-}$ yield is compared to the expectations from hadronic sources, based on PHENIX measurements. In the intermediate mass region, between the masses of the phi and the $J/\psi$ meson, the yield is consistent with expectations from correlated $c\bar c$ production, though other mechanisms are not ruled out. In the low mass region (below the $\phi$) the $p+p$ inclusive mass spectrum is well described by known contributions from light meson decays. In contrast, the Au+Au minimum bias inclusive mass spectrum in this region shows an enhancement by a factor of $4.7\pm 0.4^{stat}\pm 1.5^{syst}\pm 0.9^{model}$ At low mass ($m_{ee}$<0.3 GeV/$c^{2}$) and high $p_{T}$ (1<$p_{T}$<5 GeV/$c$) an enhanced $e^{+}e^{-}$ pair yield is observed that is consistent with production of virtual direct photons. This excess is used to infer the yield of real direct photons. In central Au+Au collisions, the excess of the direct photon yield over the $p+p$ is exponential in $p_{T}$, with inverse slope $T = 221\pm 19^{stat}\pm 19^{syst}$ MeV. Hydrodynamical models with initial temperatures ranging from $T_{init} \cong$300--600 MeV at times of 0.6--0.15 fm/$c$ after the collision are in qualitative agreement with the direct photon data in Au+Au. For low $p_{T}$<1 GeV/$c$ the low mass region shows a further significant enhancement that increases with centrality and has an inverse slope of $T\cong$100 MeV. Theoretical models under predict the low mass, low $p_{T}$ enhancement. Error values of 9.99E+9 represent upper limit errors.
+additional_resources:
+- {location: "https://phenix-intra.sdcc.bnl.gov/phenix/WWW/p/info/ppg/088/", description: "web page with data points"}
+- {location: "http://arxiv.org/abs/0912.0244", description: arXiv}
+- {location: "https://inspirehep.net/literature/838580", description: InspireHEP}
+---
+# This is Figure 25.
+name: "Figure 25"
+location: Data From Fig. 25 of PRL 81 (2009) 034911
+description: '(Color online) Inclusive mass spectrum of $e^+e^-$ pairs in the PHENIX acceptance in $p$+$p$ collisions compared to the expectations from the decays of light hadrons and correlated decays of charm, bottom, and Drell-Yan. The contribution from hadron decays is independently normalized based on meson measurements in PHENIX. The bottom panel shows the ratio of data to the cocktail of known sources. The systematic uncertainties of the data are shown as boxes, while the uncertainty on the cocktail is shown as band around 1.'
+keywords: # used for searching, possibly mutliple values for each keywords
+- {name: reactions, values: [$d$ + Au $\implies$ CHARGED X, Au + Au$\implies$ CHARGED X, $p + p$$\implies$ CHARGED X]}
+- {name: cmenergies, values: [200.0]}
+- {name: phrases, values: [ppg088, light hadron decay, charm, bottom, Drell-Yan]}
+data_file: ppg088fig25.yaml
+additional_resources:
+- {description: Thumbnail Image file, location: thumb_fig25.png}
+---
+# This is Figure 26a.
+name: "Figure 26a"
+location: Data From Fig. 26 of PRL 81 (2009) 034911
+description: '(Color online) Inclusive mass spectrum of $e^+e^-$ pairs in the PHENIX acceptance in minimum-bias Au+Au compared to expectations from the decays of light hadrons and correlated decays of charm, bottom, and Drell-Yan. The charm contribution expected if the dynamic correlation of $c$ and $\bar{c}$ is removed is shown separately. Statistical (bars) and systematic (boxes) uncertainties are shown separately. The contribution from hadron decays is independently normalized based on meson measurements in PHENIX. The bottom panel shows the ratio of data to the cocktail of known sources. The systematic uncertainties of the data are shown as boxes, while the uncertainty on the cocktail is shown as band around 1.'
+keywords: # used for searching, possibly mutliple values for each keywords
+- {name: reactions, values: [$d$ + Au $\implies$ CHARGED X, Au + Au$\implies$ CHARGED X, $p + p$$\implies$ CHARGED X]}
+- {name: cmenergies, values: [200.0]}
+- {name: phrases, values: [ppg088, light hadron decay, charm, bottom, Drell-Yan]}
+data_file: ppg088fig26a.yaml
+additional_resources:
+- {description: Thumbnail Image file, location: thumb_fig26.png}
+---
+# This is Figure 26b.
+name: "Figure 26b"
+location: Data From Fig. 26 of PRL 81 (2009) 034911
+description: '(Color online) Inclusive mass spectrum of $e^+e^-$ pairs in the PHENIX acceptance in minimum-bias Au+Au compared to expectations from the decays of light hadrons and correlated decays of charm, bottom, and Drell-Yan. The charm contribution expected if the dynamic correlation of $c$ and $\bar{c}$ is removed is shown separately. Statistical (bars) and systematic (boxes) uncertainties are shown separately. The contribution from hadron decays is independently normalized based on meson measurements in PHENIX. The bottom panel shows the ratio of data to the cocktail of known sources. The systematic uncertainties of the data are shown as boxes, while the uncertainty on the cocktail is shown as band around 1.'
+keywords: # used for searching, possibly mutliple values for each keywords
+- {name: reactions, values: [$d$ + Au $\implies$ CHARGED X, Au + Au$\implies$ CHARGED X, $p + p$$\implies$ CHARGED X]}
+- {name: cmenergies, values: [200.0]}
+- {name: phrases, values: [ppg088, light hadron decay, charm, bottom, Drell-Yan]}
+data_file: ppg088fig26b.yaml
+additional_resources:
+- {description: Thumbnail Image file, location: thumb_fig26.png}
+---
+# This is Figure 27a.
+name: "Figure 27a"
+location: Data From Fig. 27 of PRL 81 (2009) 034911
+description: '(Color online) Invariant mass spectrum of $e^+e^-$ pairs inclusive in $p_T$ compared to expectations from the model of hadron decays for $p$+$p$ and for different Au+Au centrality classes. The charmed meson decay contribution based on PYTHIA [55] is included in the sum of sources (solid black line). The dotted line shows the contribution from charm calculated assuming an isotropic angular distribution. Statistical (bars) and systematic (boxes) uncertainties are shown separately. The systematic uncertainty on the expected hadronic sources is not shown: it ranges from ~10% in the $\pi^o$ region to ~30% in the region of the vector mesons. The uncertainty on the charm cross section, which dominates the IMR, is ~30% in both $p$+$p$ and in Au+Au collisions.'
+keywords: # used for searching, possibly mutliple values for each keywords
+- {name: reactions, values: [$d$ + Au $\implies$ CHARGED X, Au + Au$\implies$ CHARGED X, $p + p$$\implies$ CHARGED X, $d$ + Au $\implies$ CHARGED X, Au + Au$\implies$ CHARGED X, $p + p$$\implies$ CHARGED X]}
+- {name: cmenergies, values: [200.0]}
+- {name: phrases, values: [ppg088, charmed meson decay, isotropic angular distribution, $\pi^0$, vector mesons, IMR, charm cross section]}
+data_file: ppg088fig27a.yaml
+additional_resources:
+- {description: Thumbnail Image file, location: thumb_fig27.png}
+---
+# This is Figure 27.
+name: "Figure 27b"
+location: Data From Fig. 27 of PRL 81 (2009) 034911
+description: '(Color online) Invariant mass spectrum of $e^+e^-$ pairs inclusive in $p_T$ compared to expectations from the model of hadron decays for $p$+$p$ and for different Au+Au centrality classes. The charmed meson decay contribution based on PYTHIA [55] is included in the sum of sources (solid black line). The dotted line shows the contribution from charm calculated assuming an isotropic angular distribution. Statistical (bars) and systematic (boxes) uncertainties are shown separately. The systematic uncertainty on the expected hadronic sources is not shown: it ranges from ~10% in the $\pi^o$ region to ~30% in the region of the vector mesons. The uncertainty on the charm cross section, which dominates the IMR, is ~30% in both $p$+$p$ and in Au+Au collisions.'
+keywords: # used for searching, possibly mutliple values for each keywords
+- {name: reactions, values: [$d$ + Au $\implies$ CHARGED X, Au + Au$\implies$ CHARGED X, $p + p$$\implies$ CHARGED X, $d$ + Au $\implies$ CHARGED X, Au + Au$\implies$ CHARGED X, $p + p$$\implies$ CHARGED X]}
+- {name: cmenergies, values: [200.0]}
+- {name: phrases, values: [ppg088, charmed meson decay, isotropic angular distribution, $\pi^0$, vector mesons, IMR, charm cross section]}
+data_file: ppg088fig27b.yaml
+additional_resources:
+- {description: Thumbnail Image file, location: thumb_fig27.png}
+---
+# This is Figure 27c.
+name: "Figure 27c"
+location: Data From Fig. 27 of PRL 81 (2009) 034911
+description: '(Color online) Invariant mass spectrum of $e^+e^-$ pairs inclusive in $p_T$ compared to expectations from the model of hadron decays for $p$+$p$ and for different Au+Au centrality classes. The charmed meson decay contribution based on PYTHIA [55] is included in the sum of sources (solid black line). The dotted line shows the contribution from charm calculated assuming an isotropic angular distribution. Statistical (bars) and systematic (boxes) uncertainties are shown separately. The systematic uncertainty on the expected hadronic sources is not shown: it ranges from ~10% in the $\pi^o$ region to ~30% in the region of the vector mesons. The uncertainty on the charm cross section, which dominates the IMR, is ~30% in both $p$+$p$ and in Au+Au collisions.'
+keywords: # used for searching, possibly mutliple values for each keywords
+- {name: reactions, values: [$d$ + Au $\implies$ CHARGED X, Au + Au$\implies$ CHARGED X, $p + p$$\implies$ CHARGED X, $d$ + Au $\implies$ CHARGED X, Au + Au$\implies$ CHARGED X, $p + p$$\implies$ CHARGED X]}
+- {name: cmenergies, values: [200.0]}
+- {name: phrases, values: [ppg088, charmed meson decay, isotropic angular distribution, $\pi^0$, vector mesons, IMR, charm cross section]}
+data_file: ppg088fig27c.yaml
+additional_resources:
+- {description: Thumbnail Image file, location: thumb_fig27.png}
+---
+# This is Figure 27d.
+name: "Figure 27d"
+location: Data From Fig. 27 of PRL 81 (2009) 034911
+description: '(Color online) Invariant mass spectrum of $e^+e^-$ pairs inclusive in $p_T$ compared to expectations from the model of hadron decays for $p$+$p$ and for different Au+Au centrality classes. The charmed meson decay contribution based on PYTHIA [55] is included in the sum of sources (solid black line). The dotted line shows the contribution from charm calculated assuming an isotropic angular distribution. Statistical (bars) and systematic (boxes) uncertainties are shown separately. The systematic uncertainty on the expected hadronic sources is not shown: it ranges from ~10% in the $\pi^o$ region to ~30% in the region of the vector mesons. The uncertainty on the charm cross section, which dominates the IMR, is ~30% in both $p$+$p$ and in Au+Au collisions.'
+keywords: # used for searching, possibly mutliple values for each keywords
+- {name: reactions, values: [$d$ + Au $\implies$ CHARGED X, Au + Au$\implies$ CHARGED X, $p + p$$\implies$ CHARGED X, $d$ + Au $\implies$ CHARGED X, Au + Au$\implies$ CHARGED X, $p + p$$\implies$ CHARGED X]}
+- {name: cmenergies, values: [200.0]}
+- {name: phrases, values: [ppg088, charmed meson decay, isotropic angular distribution, $\pi^0$, vector mesons, IMR, charm cross section]}
+data_file: ppg088fig27d.yaml
+additional_resources:
+- {description: Thumbnail Image file, location: thumb_fig27.png}
+---
+# This is Figure 27e.
+name: "Figure 27e"
+location: Data From Fig. 27 of PRL 81 (2009) 034911
+description: '(Color online) Invariant mass spectrum of $e^+e^-$ pairs inclusive in $p_T$ compared to expectations from the model of hadron decays for $p$+$p$ and for different Au+Au centrality classes. The charmed meson decay contribution based on PYTHIA [55] is included in the sum of sources (solid black line). The dotted line shows the contribution from charm calculated assuming an isotropic angular distribution. Statistical (bars) and systematic (boxes) uncertainties are shown separately. The systematic uncertainty on the expected hadronic sources is not shown: it ranges from ~10% in the $\pi^o$ region to ~30% in the region of the vector mesons. The uncertainty on the charm cross section, which dominates the IMR, is ~30% in both $p$+$p$ and in Au+Au collisions.'
+keywords: # used for searching, possibly mutliple values for each keywords
+- {name: reactions, values: [$d$ + Au $\implies$ CHARGED X, Au + Au$\implies$ CHARGED X, $p + p$$\implies$ CHARGED X, $d$ + Au $\implies$ CHARGED X, Au + Au$\implies$ CHARGED X, $p + p$$\implies$ CHARGED X]}
+- {name: cmenergies, values: [200.0]}
+- {name: phrases, values: [ppg088, charmed meson decay, isotropic angular distribution, $\pi^0$, vector mesons, IMR, charm cross section]}
+data_file: ppg088fig27e.yaml
+additional_resources:
+- {description: Thumbnail Image file, location: thumb_fig27.png}
+---
+# This is Figure 27f.
+name: "Figure 27f"
+location: Data From Fig. 27 of PRL 81 (2009) 034911
+description: '(Color online) Invariant mass spectrum of $e^+e^-$ pairs inclusive in $p_T$ compared to expectations from the model of hadron decays for $p$+$p$ and for different Au+Au centrality classes. The charmed meson decay contribution based on PYTHIA [55] is included in the sum of sources (solid black line). The dotted line shows the contribution from charm calculated assuming an isotropic angular distribution. Statistical (bars) and systematic (boxes) uncertainties are shown separately. The systematic uncertainty on the expected hadronic sources is not shown: it ranges from ~10% in the $\pi^o$ region to ~30% in the region of the vector mesons. The uncertainty on the charm cross section, which dominates the IMR, is ~30% in both $p$+$p$ and in Au+Au collisions.'
+keywords: # used for searching, possibly mutliple values for each keywords
+- {name: reactions, values: [$d$ + Au $\implies$ CHARGED X, Au + Au$\implies$ CHARGED X, $p + p$$\implies$ CHARGED X, $d$ + Au $\implies$ CHARGED X, Au + Au$\implies$ CHARGED X, $p + p$$\implies$ CHARGED X]}
+- {name: cmenergies, values: [200.0]}
+- {name: phrases, values: [ppg088, charmed meson decay, isotropic angular distribution, $\pi^0$, vector mesons, IMR, charm cross section]}
+data_file: ppg088fig27f.yaml
+additional_resources:
+- {description: Thumbnail Image file, location: thumb_fig27.png}
+---
+# This is Figure 27g.
+name: "Figure 27g"
+location: Data From Fig. 27 of PRL 81 (2009) 034911
+description: '(Color online) Invariant mass spectrum of $e^+e^-$ pairs inclusive in $p_T$ compared to expectations from the model of hadron decays for $p$+$p$ and for different Au+Au centrality classes. The charmed meson decay contribution based on PYTHIA [55] is included in the sum of sources (solid black line). The dotted line shows the contribution from charm calculated assuming an isotropic angular distribution. Statistical (bars) and systematic (boxes) uncertainties are shown separately. The systematic uncertainty on the expected hadronic sources is not shown: it ranges from ~10% in the $\pi^o$ region to ~30% in the region of the vector mesons. The uncertainty on the charm cross section, which dominates the IMR, is ~30% in both $p$+$p$ and in Au+Au collisions.'
+keywords: # used for searching, possibly mutliple values for each keywords
+- {name: reactions, values: [$d$ + Au $\implies$ CHARGED X, Au + Au$\implies$ CHARGED X, $p + p$$\implies$ CHARGED X, $d$ + Au $\implies$ CHARGED X, Au + Au$\implies$ CHARGED X, $p + p$$\implies$ CHARGED X]}
+- {name: cmenergies, values: [200.0]}
+- {name: phrases, values: [ppg088, charmed meson decay, isotropic angular distribution, $\pi^0$, vector mesons, IMR, charm cross section]}
+data_file: ppg088fig27g.yaml
+additional_resources:
+- {description: Thumbnail Image file, location: thumb_fig27.png}
+---
+# This is Figure 27h.
+name: "Figure 27h"
+location: Data From Fig. 27 of PRL 81 (2009) 034911
+description: '(Color online) Invariant mass spectrum of $e^+e^-$ pairs inclusive in $p_T$ compared to expectations from the model of hadron decays for $p$+$p$ and for different Au+Au centrality classes. The charmed meson decay contribution based on PYTHIA [55] is included in the sum of sources (solid black line). The dotted line shows the contribution from charm calculated assuming an isotropic angular distribution. Statistical (bars) and systematic (boxes) uncertainties are shown separately. The systematic uncertainty on the expected hadronic sources is not shown: it ranges from ~10% in the $\pi^o$ region to ~30% in the region of the vector mesons. The uncertainty on the charm cross section, which dominates the IMR, is ~30% in both $p$+$p$ and in Au+Au collisions.'
+keywords: # used for searching, possibly mutliple values for each keywords
+- {name: reactions, values: [$d$ + Au $\implies$ CHARGED X, Au + Au$\implies$ CHARGED X, $p + p$$\implies$ CHARGED X, $d$ + Au $\implies$ CHARGED X, Au + Au$\implies$ CHARGED X, $p + p$$\implies$ CHARGED X]}
+- {name: cmenergies, values: [200.0]}
+- {name: phrases, values: [ppg088, charmed meson decay, isotropic angular distribution, $\pi^0$, vector mesons, IMR, charm cross section]}
+data_file: ppg088fig27h.yaml
+additional_resources:
+- {description: Thumbnail Image file, location: thumb_fig27.png}
+---
+# This is Figure 28a.
+name: "Figure 28a"
+location: Data From Fig. 28 of PRL 81 (2009) 034911
+description: '(Color online) Dielectron yield per binary collision in the mass range 1.2 to 2.8 GeV/$c^2$ as a function of $N_{part}$. Statistical and systematic uncertainties are shown separately. Also shown are two bands corresponding to different estimates of the contribution from charmed meson decays. The width of the bands reflects the uncertainty of the charm cross section only.'
+keywords: # used for searching, possibly mutliple values for each keywords
+- {name: reactions, values: [$d$ + Au $\implies$ CHARGED X, Au + Au$\implies$ CHARGED X, $p + p$$\implies$ CHARGED X, $d$ + Au $\implies$ CHARGED X, Au + Au$\implies$ CHARGED X, $p + p$$\implies$ CHARGED X]}
+- {name: cmenergies, values: [200.0]}
+- {name: phrases, values: [ppg088, charmed meson decay, charm cross section]}
+data_file: ppg088fig28a.yaml
+additional_resources:
+- {description: Thumbnail Image file, location: thumb_fig28.png}
+---
+# This is Figure 28b.
+name: "Figure 28b"
+location: Data From Fig. 28 of PRL 81 (2009) 034911
+description: '(Color online) Dielectron yield per binary collision in the mass range 1.2 to 2.8 GeV/$c^2$ as a function of $N_{part}$. Statistical and systematic uncertainties are shown separately. Also shown are two bands corresponding to different estimates of the contribution from charmed meson decays. The width of the bands reflects the uncertainty of the charm cross section only.'
+keywords: # used for searching, possibly mutliple values for each keywords
+- {name: reactions, values: [$d$ + Au $\implies$ CHARGED X, Au + Au$\implies$ CHARGED X, $p + p$$\implies$ CHARGED X, $d$ + Au $\implies$ CHARGED X, Au + Au$\implies$ CHARGED X, $p + p$$\implies$ CHARGED X]}
+- {name: cmenergies, values: [200.0]}
+- {name: phrases, values: [ppg088, charmed meson decay, charm cross section]}
+data_file: ppg088fig28b.yaml
+additional_resources:
+- {description: Thumbnail Image file, location: thumb_fig28.png}
+---
+# This is Figure 29a.
+name: "Figure 29a"
+location: Data From Fig. 29 of PRL 81 (2009) 034911
+description: '(Color online) Dielectron yield per participating nucleon pair ($N_{part}/2$) as function of $N_{part}$ for two different mass ranges (a: $0.15<m_{ee}<0.75$ GeV/$c^2$, b: $0<m_{ee}<0.1$ GeV/$c^2$) compared to the expected yield from the hadron decay model. The two lines give the systematic uncertainty of the yield from cocktail and charmed hadron decays. For the data statistical and systematic uncertainties are shown separately.'
+keywords: # used for searching, possibly mutliple values for each keywords
+- {name: reactions, values: [$d$ + Au $\implies$ CHARGED X, Au + Au$\implies$ CHARGED X, $p + p$$\implies$ CHARGED X, $d$ + Au $\implies$ CHARGED X, Au + Au$\implies$ CHARGED X, $p + p$$\implies$ CHARGED X]}
+- {name: cmenergies, values: [200.0]}
+- {name: phrases, values: [ppg088, hadron decay model, charmed hadron decays]}
+data_file: ppg088fig29a.yaml
+additional_resources:
+- {description: Thumbnail Image file, location: thumb_fig29.png}
+---
+# This is Figure 29b.
+name: "Figure 29b"
+location: Data From Fig. 29 of PRL 81 (2009) 034911
+description: '(Color online) Dielectron yield per participating nucleon pair ($N_{part}/2$) as function of $N_{part}$ for two different mass ranges (a: $0.15<m_{ee}<0.75$ GeV/$c^2$, b: $0<m_{ee}<0.1$ GeV/$c^2$) compared to the expected yield from the hadron decay model. The two lines give the systematic uncertainty of the yield from cocktail and charmed hadron decays. For the data statistical and systematic uncertainties are shown separately.'
+keywords: # used for searching, possibly mutliple values for each keywords
+- {name: reactions, values: [$d$ + Au $\implies$ CHARGED X, Au + Au$\implies$ CHARGED X, $p + p$$\implies$ CHARGED X, $d$ + Au $\implies$ CHARGED X, Au + Au$\implies$ CHARGED X, $p + p$$\implies$ CHARGED X]}
+- {name: cmenergies, values: [200.0]}
+- {name: phrases, values: [ppg088, hadron decay model, charmed hadron decays]}
+data_file: ppg088fig29b.yaml
+additional_resources:
+- {description: Thumbnail Image file, location: thumb_fig29.png}
+---
+# This is Figure 30a pt.1.
+name: "Figure 30a pt.1"
+location: Data From Fig. 30a of PRL 81 (2009) 034911
+description: '(Color online) $e^+e^-$ pair invariant mass distributions in $p$+$p$ (left) and minimum bias Au+Au collisions (right). The $p_T$ ranges are shown in the legend. The solid curves represent the cocktail of hadronic sources (see Sec. IV) and include contribution from charm calculated by PYTHIA using the cross section from Ref. [48] scaled by $N_{coll}$.'
+keywords: # used for searching, possibly mutliple values for each keywords
+- {name: reactions, values: [$d$ + Au $\implies$ CHARGED X, Au + Au$\implies$ CHARGED X, $p + p$$\implies$ CHARGED X]}
+- {name: cmenergies, values: [200.0]}
+- {name: phrases, values: [ppg088, invariant mass distributions, hadronic sources, charm contributions]}
+data_file: ppg088fig30a1.yaml
+additional_resources:
+- {description: Thumbnail Image file, location: thumb_fig30a.png}
+---
+# This is Figure 30a pt.2.
+name: "Figure 30a pt.2"
+location: Data From Fig. 30a of PRL 81 (2009) 034911
+description: '(Color online) $e^+e^-$ pair invariant mass distributions in $p$+$p$ (left) and minimum bias Au+Au collisions (right). The $p_T$ ranges are shown in the legend. The solid curves represent the cocktail of hadronic sources (see Sec. IV) and include contribution from charm calculated by PYTHIA using the cross section from Ref. [48] scaled by $N_{coll}$.'
+keywords: # used for searching, possibly mutliple values for each keywords
+- {name: reactions, values: [$d$ + Au $\implies$ CHARGED X, Au + Au$\implies$ CHARGED X, $p + p$$\implies$ CHARGED X]}
+- {name: cmenergies, values: [200.0]}
+- {name: phrases, values: [ppg088, invariant mass distributions, hadronic sources, charm contributions]}
+data_file: ppg088fig30a2.yaml
+additional_resources:
+- {description: Thumbnail Image file, location: thumb_fig30a.png}
+---
+# This is Figure 30a pt.3.
+name: "Figure 30a pt.3"
+location: Data From Fig. 30a of PRL 81 (2009) 034911
+description: '(Color online) $e^+e^-$ pair invariant mass distributions in $p$+$p$ (left) and minimum bias Au+Au collisions (right). The $p_T$ ranges are shown in the legend. The solid curves represent the cocktail of hadronic sources (see Sec. IV) and include contribution from charm calculated by PYTHIA using the cross section from Ref. [48] scaled by $N_{coll}$.'
+keywords: # used for searching, possibly mutliple values for each keywords
+- {name: reactions, values: [$d$ + Au $\implies$ CHARGED X, Au + Au$\implies$ CHARGED X, $p + p$$\implies$ CHARGED X]}
+- {name: cmenergies, values: [200.0]}
+- {name: phrases, values: [ppg088, invariant mass distributions, hadronic sources, charm contributions]}
+data_file: ppg088fig30a3.yaml
+additional_resources:
+- {description: Thumbnail Image file, location: thumb_fig30a.png}
+---
+# This is Figure 30a pt.4.
+name: "Figure 30a pt.4"
+location: Data From Fig. 30a of PRL 81 (2009) 034911
+description: '(Color online) $e^+e^-$ pair invariant mass distributions in $p$+$p$ (left) and minimum bias Au+Au collisions (right). The $p_T$ ranges are shown in the legend. The solid curves represent the cocktail of hadronic sources (see Sec. IV) and include contribution from charm calculated by PYTHIA using the cross section from Ref. [48] scaled by $N_{coll}$.'
+keywords: # used for searching, possibly mutliple values for each keywords
+- {name: reactions, values: [$d$ + Au $\implies$ CHARGED X, Au + Au$\implies$ CHARGED X, $p + p$$\implies$ CHARGED X]}
+- {name: cmenergies, values: [200.0]}
+- {name: phrases, values: [ppg088, invariant mass distributions, hadronic sources, charm contributions]}
+data_file: ppg088fig30a4.yaml
+additional_resources:
+- {description: Thumbnail Image file, location: thumb_fig30a.png}
+---
+# This is Figure 30a pt.5.
+name: "Figure 30a pt.5"
+location: Data From Fig. 30a of PRL 81 (2009) 034911
+description: '(Color online) $e^+e^-$ pair invariant mass distributions in $p$+$p$ (left) and minimum bias Au+Au collisions (right). The $p_T$ ranges are shown in the legend. The solid curves represent the cocktail of hadronic sources (see Sec. IV) and include contribution from charm calculated by PYTHIA using the cross section from Ref. [48] scaled by $N_{coll}$.'
+keywords: # used for searching, possibly mutliple values for each keywords
+- {name: reactions, values: [$d$ + Au $\implies$ CHARGED X, Au + Au$\implies$ CHARGED X, $p + p$$\implies$ CHARGED X]}
+- {name: cmenergies, values: [200.0]}
+- {name: phrases, values: [ppg088, invariant mass distributions, hadronic sources, charm contributions]}
+data_file: ppg088fig30a5.yaml
+additional_resources:
+- {description: Thumbnail Image file, location: thumb_fig30a.png}
+---
+# This is Figure 30a pt.6.
+name: "Figure 30a pt.6"
+location: Data From Fig. 30a of PRL 81 (2009) 034911
+description: '(Color online) $e^+e^-$ pair invariant mass distributions in $p$+$p$ (left) and minimum bias Au+Au collisions (right). The $p_T$ ranges are shown in the legend. The solid curves represent the cocktail of hadronic sources (see Sec. IV) and include contribution from charm calculated by PYTHIA using the cross section from Ref. [48] scaled by $N_{coll}$.'
+keywords: # used for searching, possibly mutliple values for each keywords
+- {name: reactions, values: [$d$ + Au $\implies$ CHARGED X, Au + Au$\implies$ CHARGED X, $p + p$$\implies$ CHARGED X]}
+- {name: cmenergies, values: [200.0]}
+- {name: phrases, values: [ppg088, invariant mass distributions, hadronic sources, charm contributions]}
+data_file: ppg088fig30a6.yaml
+additional_resources:
+- {description: Thumbnail Image file, location: thumb_fig30a.png}
+---
+# This is Figure 30a pt.7.
+name: "Figure 30a pt.7"
+location: Data From Fig. 30a of PRL 81 (2009) 034911
+description: '(Color online) $e^+e^-$ pair invariant mass distributions in $p$+$p$ (left) and minimum bias Au+Au collisions (right). The $p_T$ ranges are shown in the legend. The solid curves represent the cocktail of hadronic sources (see Sec. IV) and include contribution from charm calculated by PYTHIA using the cross section from Ref. [48] scaled by $N_{coll}$.'
+keywords: # used for searching, possibly mutliple values for each keywords
+- {name: reactions, values: [$d$ + Au $\implies$ CHARGED X, Au + Au$\implies$ CHARGED X, $p + p$$\implies$ CHARGED X]}
+- {name: cmenergies, values: [200.0]}
+- {name: phrases, values: [ppg088, invariant mass distributions, hadronic sources, charm contributions]}
+data_file: ppg088fig30a7.yaml
+additional_resources:
+- {description: Thumbnail Image file, location: thumb_fig30a.png}
+---
+# This is Figure 30a pt.8.
+name: "Figure 30a pt.8"
+location: Data From Fig. 30a of PRL 81 (2009) 034911
+description: '(Color online) $e^+e^-$ pair invariant mass distributions in $p$+$p$ (left) and minimum bias Au+Au collisions (right). The $p_T$ ranges are shown in the legend. The solid curves represent the cocktail of hadronic sources (see Sec. IV) and include contribution from charm calculated by PYTHIA using the cross section from Ref. [48] scaled by $N_{coll}$.'
+keywords: # used for searching, possibly mutliple values for each keywords
+- {name: reactions, values: [$d$ + Au $\implies$ CHARGED X, Au + Au$\implies$ CHARGED X, $p + p$$\implies$ CHARGED X]}
+- {name: cmenergies, values: [200.0]}
+- {name: phrases, values: [ppg088, invariant mass distributions, hadronic sources, charm contributions]}
+data_file: ppg088fig30a8.yaml
+additional_resources:
+- {description: Thumbnail Image file, location: thumb_fig30a.png}
+---
+# This is Figure 30a pt.9.
+name: "Figure 30a pt.9"
+location: Data From Fig. 30a of PRL 81 (2009) 034911
+description: '(Color online) $e^+e^-$ pair invariant mass distributions in $p$+$p$ (left) and minimum bias Au+Au collisions (right). The $p_T$ ranges are shown in the legend. The solid curves represent the cocktail of hadronic sources (see Sec. IV) and include contribution from charm calculated by PYTHIA using the cross section from Ref. [48] scaled by $N_{coll}$.'
+keywords: # used for searching, possibly mutliple values for each keywords
+- {name: reactions, values: [$d$ + Au $\implies$ CHARGED X, Au + Au$\implies$ CHARGED X, $p + p$$\implies$ CHARGED X]}
+- {name: cmenergies, values: [200.0]}
+- {name: phrases, values: [ppg088, invariant mass distributions, hadronic sources, charm contributions]}
+data_file: ppg088fig30a9.yaml
+additional_resources:
+- {description: Thumbnail Image file, location: thumb_fig30a.png}
+---
+# This is Figure 30a pt.10.
+name: "Figure 30a pt.10"
+location: Data From Fig. 30a of PRL 81 (2009) 034911
+description: '(Color online) $e^+e^-$ pair invariant mass distributions in $p$+$p$ (left) and minimum bias Au+Au collisions (right). The $p_T$ ranges are shown in the legend. The solid curves represent the cocktail of hadronic sources (see Sec. IV) and include contribution from charm calculated by PYTHIA using the cross section from Ref. [48] scaled by $N_{coll}$.'
+keywords: # used for searching, possibly mutliple values for each keywords
+- {name: reactions, values: [$d$ + Au $\implies$ CHARGED X, Au + Au$\implies$ CHARGED X, $p + p$$\implies$ CHARGED X]}
+- {name: cmenergies, values: [200.0]}
+- {name: phrases, values: [ppg088, invariant mass distributions, hadronic sources, charm contributions]}
+data_file: ppg088fig30a10.yaml
+additional_resources:
+- {description: Thumbnail Image file, location: thumb_fig30a.png}
+---
+# This is Figure 30b pt.1.
+name: "Figure 30b pt.1"
+location: Data From Fig. 30b of PRL 81 (2009) 034911
+description: '(Color online) $e^+e^-$ pair invariant mass distributions in $p$+$p$ (left) and minimum bias Au+Au collisions (right). The $p_T$ ranges are shown in the legend. The solid curves represent the cocktail of hadronic sources (see Sec. IV) and include contribution from charm calculated by PYTHIA using the cross section from Ref. [48] scaled by $N_{coll}$.'
+keywords: # used for searching, possibly mutliple values for each keywords
+- {name: reactions, values: [$d$ + Au $\implies$ CHARGED X, Au + Au$\implies$ CHARGED X, $p + p$$\implies$ CHARGED X]}
+- {name: cmenergies, values: [200.0]}
+- {name: phrases, values: [ppg088, invariant mass distributions, hadronic sources, charm contributions]}
+data_file: ppg088fig30b1.yaml
+additional_resources:
+- {description: Thumbnail Image file, location: thumb_fig30b.png}
+---
+# This is Figure 30b pt.2.
+name: "Figure 30b pt.2"
+location: Data From Fig. 30b of PRL 81 (2009) 034911
+description: '(Color online) $e^+e^-$ pair invariant mass distributions in $p$+$p$ (left) and minimum bias Au+Au collisions (right). The $p_T$ ranges are shown in the legend. The solid curves represent the cocktail of hadronic sources (see Sec. IV) and include contribution from charm calculated by PYTHIA using the cross section from Ref. [48] scaled by $N_{coll}$.'
+keywords: # used for searching, possibly mutliple values for each keywords
+- {name: reactions, values: [$d$ + Au $\implies$ CHARGED X, Au + Au$\implies$ CHARGED X, $p + p$$\implies$ CHARGED X]}
+- {name: cmenergies, values: [200.0]}
+- {name: phrases, values: [ppg088, invariant mass distributions, hadronic sources, charm contributions]}
+data_file: ppg088fig30b2.yaml
+additional_resources:
+- {description: Thumbnail Image file, location: thumb_fig30b.png}
+---
+# This is Figure 30b pt.3.
+name: "Figure 30b pt.3"
+location: Data From Fig. 30b of PRL 81 (2009) 034911
+description: '(Color online) $e^+e^-$ pair invariant mass distributions in $p$+$p$ (left) and minimum bias Au+Au collisions (right). The $p_T$ ranges are shown in the legend. The solid curves represent the cocktail of hadronic sources (see Sec. IV) and include contribution from charm calculated by PYTHIA using the cross section from Ref. [48] scaled by $N_{coll}$.'
+keywords: # used for searching, possibly mutliple values for each keywords
+- {name: reactions, values: [$d$ + Au $\implies$ CHARGED X, Au + Au$\implies$ CHARGED X, $p + p$$\implies$ CHARGED X]}
+- {name: cmenergies, values: [200.0]}
+- {name: phrases, values: [ppg088, invariant mass distributions, hadronic sources, charm contributions]}
+data_file: ppg088fig30b3.yaml
+additional_resources:
+- {description: Thumbnail Image file, location: thumb_fig30b.png}
+---
+# This is Figure 30b pt.4.
+name: "Figure 30b pt.4"
+location: Data From Fig. 30b of PRL 81 (2009) 034911
+description: '(Color online) $e^+e^-$ pair invariant mass distributions in $p$+$p$ (left) and minimum bias Au+Au collisions (right). The $p_T$ ranges are shown in the legend. The solid curves represent the cocktail of hadronic sources (see Sec. IV) and include contribution from charm calculated by PYTHIA using the cross section from Ref. [48] scaled by $N_{coll}$.'
+keywords: # used for searching, possibly mutliple values for each keywords
+- {name: reactions, values: [$d$ + Au $\implies$ CHARGED X, Au + Au$\implies$ CHARGED X, $p + p$$\implies$ CHARGED X]}
+- {name: cmenergies, values: [200.0]}
+- {name: phrases, values: [ppg088, invariant mass distributions, hadronic sources, charm contributions]}
+data_file: ppg088fig30b4.yaml
+additional_resources:
+- {description: Thumbnail Image file, location: thumb_fig30b.png}
+---
+# This is Figure 30b pt.5.
+name: "Figure 30b pt.5"
+location: Data From Fig. 30b of PRL 81 (2009) 034911
+description: '(Color online) $e^+e^-$ pair invariant mass distributions in $p$+$p$ (left) and minimum bias Au+Au collisions (right). The $p_T$ ranges are shown in the legend. The solid curves represent the cocktail of hadronic sources (see Sec. IV) and include contribution from charm calculated by PYTHIA using the cross section from Ref. [48] scaled by $N_{coll}$.'
+keywords: # used for searching, possibly mutliple values for each keywords
+- {name: reactions, values: [$d$ + Au $\implies$ CHARGED X, Au + Au$\implies$ CHARGED X, $p + p$$\implies$ CHARGED X]}
+- {name: cmenergies, values: [200.0]}
+- {name: phrases, values: [ppg088, invariant mass distributions, hadronic sources, charm contributions]}
+data_file: ppg088fig30b5.yaml
+additional_resources:
+- {description: Thumbnail Image file, location: thumb_fig30b.png}
+---
+# This is Figure 30b pt.6.
+name: "Figure 30b pt.6"
+location: Data From Fig. 30b of PRL 81 (2009) 034911
+description: '(Color online) $e^+e^-$ pair invariant mass distributions in $p$+$p$ (left) and minimum bias Au+Au collisions (right). The $p_T$ ranges are shown in the legend. The solid curves represent the cocktail of hadronic sources (see Sec. IV) and include contribution from charm calculated by PYTHIA using the cross section from Ref. [48] scaled by $N_{coll}$.'
+keywords: # used for searching, possibly mutliple values for each keywords
+- {name: reactions, values: [$d$ + Au $\implies$ CHARGED X, Au + Au$\implies$ CHARGED X, $p + p$$\implies$ CHARGED X]}
+- {name: cmenergies, values: [200.0]}
+- {name: phrases, values: [ppg088, invariant mass distributions, hadronic sources, charm contributions]}
+data_file: ppg088fig30b6.yaml
+additional_resources:
+- {description: Thumbnail Image file, location: thumb_fig30b.png}
+---
+# This is Figure 30b pt.7.
+name: "Figure 30b pt.7"
+location: Data From Fig. 30b of PRL 81 (2009) 034911
+description: '(Color online) $e^+e^-$ pair invariant mass distributions in $p$+$p$ (left) and minimum bias Au+Au collisions (right). The $p_T$ ranges are shown in the legend. The solid curves represent the cocktail of hadronic sources (see Sec. IV) and include contribution from charm calculated by PYTHIA using the cross section from Ref. [48] scaled by $N_{coll}$.'
+keywords: # used for searching, possibly mutliple values for each keywords
+- {name: reactions, values: [$d$ + Au $\implies$ CHARGED X, Au + Au$\implies$ CHARGED X, $p + p$$\implies$ CHARGED X]}
+- {name: cmenergies, values: [200.0]}
+- {name: phrases, values: [ppg088, invariant mass distributions, hadronic sources, charm contributions]}
+data_file: ppg088fig30b7.yaml
+additional_resources:
+- {description: Thumbnail Image file, location: thumb_fig30b.png}
+---
+# This is Figure 30b pt.8.
+name: "Figure 30b pt.8"
+location: Data From Fig. 30b of PRL 81 (2009) 034911
+description: '(Color online) $e^+e^-$ pair invariant mass distributions in $p$+$p$ (left) and minimum bias Au+Au collisions (right). The $p_T$ ranges are shown in the legend. The solid curves represent the cocktail of hadronic sources (see Sec. IV) and include contribution from charm calculated by PYTHIA using the cross section from Ref. [48] scaled by $N_{coll}$.'
+keywords: # used for searching, possibly mutliple values for each keywords
+- {name: reactions, values: [$d$ + Au $\implies$ CHARGED X, Au + Au$\implies$ CHARGED X, $p + p$$\implies$ CHARGED X]}
+- {name: cmenergies, values: [200.0]}
+- {name: phrases, values: [ppg088, invariant mass distributions, hadronic sources, charm contributions]}
+data_file: ppg088fig30b8.yaml
+additional_resources:
+- {description: Thumbnail Image file, location: thumb_fig30b.png}
+---
+# This is Figure 30b pt.9.
+name: "Figure 30b pt.9"
+location: Data From Fig. 30b of PRL 81 (2009) 034911
+description: '(Color online) $e^+e^-$ pair invariant mass distributions in $p$+$p$ (left) and minimum bias Au+Au collisions (right). The $p_T$ ranges are shown in the legend. The solid curves represent the cocktail of hadronic sources (see Sec. IV) and include contribution from charm calculated by PYTHIA using the cross section from Ref. [48] scaled by $N_{coll}$.'
+keywords: # used for searching, possibly mutliple values for each keywords
+- {name: reactions, values: [$d$ + Au $\implies$ CHARGED X, Au + Au$\implies$ CHARGED X, $p + p$$\implies$ CHARGED X]}
+- {name: cmenergies, values: [200.0]}
+- {name: phrases, values: [ppg088, invariant mass distributions, hadronic sources, charm contributions]}
+data_file: ppg088fig30b9.yaml
+additional_resources:
+- {description: Thumbnail Image file, location: thumb_fig30b.png}
+---
+# This is Figure 30b pt.10.
+name: "Figure 30b pt.10"
+location: Data From Fig. 30b of PRL 81 (2009) 034911
+description: '(Color online) $e^+e^-$ pair invariant mass distributions in $p$+$p$ (left) and minimum bias Au+Au collisions (right). The $p_T$ ranges are shown in the legend. The solid curves represent the cocktail of hadronic sources (see Sec. IV) and include contribution from charm calculated by PYTHIA using the cross section from Ref. [48] scaled by $N_{coll}$.'
+keywords: # used for searching, possibly mutliple values for each keywords
+- {name: reactions, values: [$d$ + Au $\implies$ CHARGED X, Au + Au$\implies$ CHARGED X, $p + p$$\implies$ CHARGED X]}
+- {name: cmenergies, values: [200.0]}
+- {name: phrases, values: [ppg088, invariant mass distributions, hadronic sources, charm contributions]}
+data_file: ppg088fig30b10.yaml
+additional_resources:
+- {description: Thumbnail Image file, location: thumb_fig30b.png}
+---
+# This is Figure 31a.
+name: "Figure 31a"
+location: Data From Fig. 31 of PRL 81 (2009) 034911
+description: '(Color online) Electron paid mass distribution for Au+Au (Min.Bias) for $1.0<p_T<1.5$ GeV/$c$. The two component fit is explained in the text. The fit range is $0.12<m_{ee}<0.3$ GeV/$c^2$. The dashed (black) curve at greater $m_{ee}$ shows $f(m_{ee})$ outside of the fit range.'
+keywords: # used for searching, possibly mutliple values for each keywords
+- {name: reactions, values: [$d$ + Au $\implies$ CHARGED X, Au + Au$\implies$ CHARGED X, $p + p$$\implies$ CHARGED X]}
+- {name: cmenergies, values: [200.0]}
+- {name: phrases, values: [ppg088, electron paid mass distribution, two component fit]}
+data_file: ppg088fig31a.yaml
+additional_resources:
+- {description: Thumbnail Image file, location: thumb_fig31.png}
+---
+# This is Figure 31b.
+name: "Figure 31b"
+location: Data From Fig. 31 of PRL 81 (2009) 034911
+description: '(Color online) Electron paid mass distribution for Au+Au (Min.Bias) for $1.0<p_T<1.5$ GeV/$c$. The two component fit is explained in the text. The fit range is $0.12<m_{ee}<0.3$ GeV/$c^2$. The dashed (black) curve at greater $m_{ee}$ shows $f(m_{ee})$ outside of the fit range.'
+keywords: # used for searching, possibly mutliple values for each keywords
+- {name: reactions, values: [$d$ + Au $\implies$ CHARGED X, Au + Au$\implies$ CHARGED X, $p + p$$\implies$ CHARGED X]}
+- {name: cmenergies, values: [200.0]}
+- {name: phrases, values: [ppg088, electron paid mass distribution, two component fit]}
+data_file: ppg088fig31b.yaml
+additional_resources:
+- {description: Thumbnail Image file, location: thumb_fig31.png}
+---
+# This is Figure 31c.
+name: "Figure 31c"
+location: Data From Fig. 31 of PRL 81 (2009) 034911
+description: '(Color online) Electron paid mass distribution for Au+Au (Min.Bias) for $1.0<p_T<1.5$ GeV/$c$. The two component fit is explained in the text. The fit range is $0.12<m_{ee}<0.3$ GeV/$c^2$. The dashed (black) curve at greater $m_{ee}$ shows $f(m_{ee})$ outside of the fit range.'
+keywords: # used for searching, possibly mutliple values for each keywords
+- {name: reactions, values: [$d$ + Au $\implies$ CHARGED X, Au + Au$\implies$ CHARGED X, $p + p$$\implies$ CHARGED X]}
+- {name: cmenergies, values: [200.0]}
+- {name: phrases, values: [ppg088, electron paid mass distribution, two component fit]}
+data_file: ppg088fig31c.yaml
+additional_resources:
+- {description: Thumbnail Image file, location: thumb_fig31.png}
+---
+# This is Figure 31d.
+name: "Figure 31d"
+location: Data From Fig. 31 of PRL 81 (2009) 034911
+description: '(Color online) Electron paid mass distribution for Au+Au (Min.Bias) for $1.0<p_T<1.5$ GeV/$c$. The two component fit is explained in the text. The fit range is $0.12<m_{ee}<0.3$ GeV/$c^2$. The dashed (black) curve at greater $m_{ee}$ shows $f(m_{ee})$ outside of the fit range.'
+keywords: # used for searching, possibly mutliple values for each keywords
+- {name: reactions, values: [$d$ + Au $\implies$ CHARGED X, Au + Au$\implies$ CHARGED X, $p + p$$\implies$ CHARGED X]}
+- {name: cmenergies, values: [200.0]}
+- {name: phrases, values: [ppg088, electron paid mass distribution, two component fit]}
+data_file: ppg088fig31d.yaml
+additional_resources:
+- {description: Thumbnail Image file, location: thumb_fig31.png}
+---
+# This is Figure 32.
+name: "Figure 32"
+location: Data From Fig. 32 of PRL 81 (2009) 034911
+description: '(Color online) Ratio R=(data-cocktail)/$f_{dir}(m_{ee})$ of electron pairs for different $p_T$ bins in Min.Bias Au+Au collisions. The $p_T$ range of each panel is indicated in the figure.'
+keywords: # used for searching, possibly mutliple values for each keywords
+- {name: reactions, values: [$d$ + Au $\implies$ CHARGED X, Au + Au$\implies$ CHARGED X, $p + p$$\implies$ CHARGED X]}
+- {name: cmenergies, values: [200.0]}
+- {name: phrases, values: [ppg088, electron pair ratio]}
+data_file: ppg088fig32.yaml
+additional_resources:
+- {description: Thumbnail Image file, location: thumb_fig32.png}
+---
+# This is Figure 33a.
+name: "Figure 33a"
+location: Data From Fig. 33 of PRL 81 (2009) 034911
+description: '(Color online) The fraction of the direct photon component as a function of $p_T$. The error bars and the error band represent statistical and systematic uncertainties, respectively. The curves are from a NLO pQCD calculation (see text).'
+keywords: # used for searching, possibly mutliple values for each keywords
+- {name: reactions, values: [$d$ + Au $\implies$ CHARGED X, Au + Au$\implies$ CHARGED X, $p + p$$\implies$ CHARGED X]}
+- {name: cmenergies, values: [200.0]}
+- {name: phrases, values: [ppg088, photon component, NLO pQCD]}
+data_file: ppg088fig33a.yaml
+additional_resources:
+- {description: Thumbnail Image file, location: thumb_fig33.png}
+---
+# This is Figure 33b.
+name: "Figure 33b"
+location: Data From Fig. 33 of PRL 81 (2009) 034911
+description: '(Color online) The fraction of the direct photon component as a function of $p_T$. The error bars and the error band represent statistical and systematic uncertainties, respectively. The curves are from a NLO pQCD calculation (see text).'
+keywords: # used for searching, possibly mutliple values for each keywords
+- {name: reactions, values: [$d$ + Au $\implies$ CHARGED X, Au + Au$\implies$ CHARGED X, $p + p$$\implies$ CHARGED X]}
+- {name: cmenergies, values: [200.0]}
+- {name: phrases, values: [ppg088, photon component, NLO pQCD]}
+data_file: ppg088fig33b.yaml
+additional_resources:
+- {description: Thumbnail Image file, location: thumb_fig33.png}
+---
+# This is Figure 34a.
+name: "Figure 34a"
+location: Data From Fig. 34 of PRL 81 (2009) 034911
+description: '(Color online) Invariant cross section ($p$+$p$) and invariant yield (Au+Au) of direct photons as a function of $p_T$. The filled points are from this analysis and open points are from [81,82]. The three curves on the $p$+$p$ data represent NLO pQCD calculations, and the dashed curves show a modified power-law fit to the $p$+$p$ data, scaled by $T_{AA}$. The dashed (black) curves are exponential plus the $T_{AA}$ scaled $p$+$p$ fit.'
+keywords: # used for searching, possibly mutliple values for each keywords
+- {name: reactions, values: [$d$ + Au $\implies$ CHARGED X, Au + Au$\implies$ CHARGED X, $p + p$$\implies$ CHARGED X]}
+- {name: cmenergies, values: [200.0]}
+- {name: phrases, values: [ppg088, invariant cross section, invariant yield, direct photons, NLO pQCD]}
+data_file: ppg088fig34a.yaml
+additional_resources:
+- {description: Thumbnail Image file, location: thumb_fig34.png}
+---
+# This is Figure 34b.
+name: "Figure 34b"
+location: Data From Fig. 34 of PRL 81 (2009) 034911
+description: '(Color online) Invariant cross section ($p$+$p$) and invariant yield (Au+Au) of direct photons as a function of $p_T$. The filled points are from this analysis and open points are from [81,82]. The three curves on the $p$+$p$ data represent NLO pQCD calculations, and the dashed curves show a modified power-law fit to the $p$+$p$ data, scaled by $T_{AA}$. The dashed (black) curves are exponential plus the $T_{AA}$ scaled $p$+$p$ fit.'
+keywords: # used for searching, possibly mutliple values for each keywords
+- {name: reactions, values: [$d$ + Au $\implies$ CHARGED X, Au + Au$\implies$ CHARGED X, $p + p$$\implies$ CHARGED X]}
+- {name: cmenergies, values: [200.0]}
+- {name: phrases, values: [ppg088, invariant cross section, invariant yield, direct photons, NLO pQCD]}
+data_file: ppg088fig34b.yaml
+additional_resources:
+- {description: Thumbnail Image file, location: thumb_fig34.png}
+---
+# This is Figure 34c.
+name: "Figure 34c"
+location: Data From Fig. 34 of PRL 81 (2009) 034911
+description: '(Color online) Invariant cross section ($p$+$p$) and invariant yield (Au+Au) of direct photons as a function of $p_T$. The filled points are from this analysis and open points are from [81,82]. The three curves on the $p$+$p$ data represent NLO pQCD calculations, and the dashed curves show a modified power-law fit to the $p$+$p$ data, scaled by $T_{AA}$. The dashed (black) curves are exponential plus the $T_{AA}$ scaled $p$+$p$ fit.'
+keywords: # used for searching, possibly mutliple values for each keywords
+- {name: reactions, values: [$d$ + Au $\implies$ CHARGED X, Au + Au$\implies$ CHARGED X, $p + p$$\implies$ CHARGED X]}
+- {name: cmenergies, values: [200.0]}
+- {name: phrases, values: [ppg088, invariant cross section, invariant yield, direct photons, NLO pQCD]}
+data_file: ppg088fig34c.yaml
+additional_resources:
+- {description: Thumbnail Image file, location: thumb_fig34.png}
+---
+# This is Figure 34d.
+name: "Figure 34d"
+location: Data From Fig. 34 of PRL 81 (2009) 034911
+description: '(Color online) Invariant cross section ($p$+$p$) and invariant yield (Au+Au) of direct photons as a function of $p_T$. The filled points are from this analysis and open points are from [81,82]. The three curves on the $p$+$p$ data represent NLO pQCD calculations, and the dashed curves show a modified power-law fit to the $p$+$p$ data, scaled by $T_{AA}$. The dashed (black) curves are exponential plus the $T_{AA}$ scaled $p$+$p$ fit.'
+keywords: # used for searching, possibly mutliple values for each keywords
+- {name: reactions, values: [$d$ + Au $\implies$ CHARGED X, Au + Au$\implies$ CHARGED X, $p + p$$\implies$ CHARGED X]}
+- {name: cmenergies, values: [200.0]}
+- {name: phrases, values: [ppg088, invariant cross section, invariant yield, direct photons, NLO pQCD]}
+data_file: ppg088fig34d.yaml
+additional_resources:
+- {description: Thumbnail Image file, location: thumb_fig34.png}
+---
+# This is Figure 35a pt.1.
+name: "Figure 35a"
+location: Data From Fig. 35 of PRL 81 (2009) 034911
+description: '(Color online) The $e^+e^-$ pair invariant mass distributions in minimum bias Au+Au collisions for the low-$p_T$ range. The solid curves represent the cocktail of hadronic sources (see Sec. IV) and include contribution from charm calculated by PYTHIA using the cross section from Ref. [48] scaled by $N_{coll}$.'
+keywords: # used for searching, possibly mutliple values for each keywords
+- {name: reactions, values: [$d$ + Au $\implies$ CHARGED X, Au + Au$\implies$ CHARGED X, $p + p$$\implies$ CHARGED X]}
+- {name: cmenergies, values: [200.0]}
+- {name: phrases, values: [ppg088, invariant mass distributions, charm contributions, hadronic contributions]}
+data_file: ppg088fig35a.yaml
+additional_resources:
+- {description: Thumbnail Image file, location: thumb_fig35.png}
+---
+# This is Figure 35b.
+name: "Figure 35b"
+location: Data From Fig. 35 of PRL 81 (2009) 034911
+description: '(Color online) The $e^+e^-$ pair invariant mass distributions in minimum bias Au+Au collisions for the low-$p_T$ range. The solid curves represent the cocktail of hadronic sources (see Sec. IV) and include contribution from charm calculated by PYTHIA using the cross section from Ref. [48] scaled by $N_{coll}$.'
+keywords: # used for searching, possibly mutliple values for each keywords
+- {name: reactions, values: [$d$ + Au $\implies$ CHARGED X, Au + Au$\implies$ CHARGED X, $p + p$$\implies$ CHARGED X]}
+- {name: cmenergies, values: [200.0]}
+- {name: phrases, values: [ppg088, invariant mass distributions, charm contributions, hadronic contributions]}
+data_file: ppg088fig35b.yaml
+additional_resources:
+- {description: Thumbnail Image file, location: thumb_fig35.png}
+---
+# This is Figure 35c.
+name: "Figure 35c"
+location: Data From Fig. 35 of PRL 81 (2009) 034911
+description: '(Color online) The $e^+e^-$ pair invariant mass distributions in minimum bias Au+Au collisions for the low-$p_T$ range. The solid curves represent the cocktail of hadronic sources (see Sec. IV) and include contribution from charm calculated by PYTHIA using the cross section from Ref. [48] scaled by $N_{coll}$.'
+keywords: # used for searching, possibly mutliple values for each keywords
+- {name: reactions, values: [$d$ + Au $\implies$ CHARGED X, Au + Au$\implies$ CHARGED X, $p + p$$\implies$ CHARGED X]}
+- {name: cmenergies, values: [200.0]}
+- {name: phrases, values: [ppg088, invariant mass distributions, charm contributions, hadronic contributions]}
+data_file: ppg088fig35c.yaml
+additional_resources:
+- {description: Thumbnail Image file, location: thumb_fig35.png}
+---
+# This is Figure 35d.
+name: "Figure 35d"
+location: Data From Fig. 35 of PRL 81 (2009) 034911
+description: '(Color online) The $e^+e^-$ pair invariant mass distributions in minimum bias Au+Au collisions for the low-$p_T$ range. The solid curves represent the cocktail of hadronic sources (see Sec. IV) and include contribution from charm calculated by PYTHIA using the cross section from Ref. [48] scaled by $N_{coll}$.'
+keywords: # used for searching, possibly mutliple values for each keywords
+- {name: reactions, values: [$d$ + Au $\implies$ CHARGED X, Au + Au$\implies$ CHARGED X, $p + p$$\implies$ CHARGED X]}
+- {name: cmenergies, values: [200.0]}
+- {name: phrases, values: [ppg088, invariant mass distributions, charm contributions, hadronic contributions]}
+data_file: ppg088fig35d.yaml
+additional_resources:
+- {description: Thumbnail Image file, location: thumb_fig35.png}
+---
+# This is Figure 36a.
+name: "Figure 36a"
+location: Data From Fig. 36 of PRL 81 (2009) 034911
+description: '(Color online) The $e^+e^-$ pair invariant mass distributions in minimum bias Au+Au collisions for the low-$p_T$ range. The solid curves represent the cocktail of hadronic sources (see Sec. IV) and include contribution from charm calculated by PYTHIA using the cross section from Ref. [48] scaled by $N_{coll}$.'
+keywords: # used for searching, possibly mutliple values for each keywords
+- {name: reactions, values: [$d$ + Au $\implies$ CHARGED X, Au + Au$\implies$ CHARGED X, $p + p$$\implies$ CHARGED X]}
+- {name: cmenergies, values: [200.0]}
+- {name: phrases, values: [ppg088, invariant mass distributions, charm contributions, hadronic contributions]}
+data_file: ppg088fig36a.yaml
+additional_resources:
+- {description: Thumbnail Image file, location: thumb_fig36.png}
+---
+# This is Figure 36b.
+name: "Figure 36b"
+location: Data From Fig. 36 of PRL 81 (2009) 034911
+description: '(Color online) The $e^+e^-$ pair invariant mass distributions in minimum bias Au+Au collisions for the low-$p_T$ range. The solid curves represent the cocktail of hadronic sources (see Sec. IV) and include contribution from charm calculated by PYTHIA using the cross section from Ref. [48] scaled by $N_{coll}$.'
+keywords: # used for searching, possibly mutliple values for each keywords
+- {name: reactions, values: [$d$ + Au $\implies$ CHARGED X, Au + Au$\implies$ CHARGED X, $p + p$$\implies$ CHARGED X]}
+- {name: cmenergies, values: [200.0]}
+- {name: phrases, values: [ppg088, invariant mass distributions, charm contributions, hadronic contributions]}
+data_file: ppg088fig36b.yaml
+additional_resources:
+- {description: Thumbnail Image file, location: thumb_fig36.png}
+---
+# This is Figure 36c.
+name: "Figure 36c"
+location: Data From Fig. 36 of PRL 81 (2009) 034911
+description: '(Color online) The $e^+e^-$ pair invariant mass distributions in minimum bias Au+Au collisions for the low-$p_T$ range. The solid curves represent the cocktail of hadronic sources (see Sec. IV) and include contribution from charm calculated by PYTHIA using the cross section from Ref. [48] scaled by $N_{coll}$.'
+keywords: # used for searching, possibly mutliple values for each keywords
+- {name: reactions, values: [$d$ + Au $\implies$ CHARGED X, Au + Au$\implies$ CHARGED X, $p + p$$\implies$ CHARGED X]}
+- {name: cmenergies, values: [200.0]}
+- {name: phrases, values: [ppg088, invariant mass distributions, charm contributions, hadronic contributions]}
+data_file: ppg088fig36c.yaml
+additional_resources:
+- {description: Thumbnail Image file, location: thumb_fig36.png}
+---
+# This is Figure 37a pt.1.
+name: "Figure 37a pt.1"
+location: Data From Fig. 37 of PRL 81 (2009) 034911
+description: '(Color online) $p_T$ spectra of $e^+e^-$ pairs in $p$+$p$ (left) and Au+Au (right) collisions for different mass bins, which are fully acceptance corrected. Au+Au spectra are divided by $N_{part}/2$. The solid curves show the expectations from the sum of the hadronic decay cocktail and the contribution from charmed mesons. The dashed curves show the sum of the cocktail and charmed meson contributions plus the contribution from direct photons calculated by converting the photon yield from Fig. 34 to the $e^+e^-$ pair yield using Eqs. (31) and (B14).'
+keywords: # used for searching, possibly mutliple values for each keywords
+- {name: reactions, values: [$d$ + Au $\implies$ CHARGED X, Au + Au$\implies$ CHARGED X, $p + p$$\implies$ CHARGED X]}
+- {name: cmenergies, values: [200.0]}
+- {name: phrases, values: [ppg088, spectra, hadronic decay, charm contributions, charmed mesons, direct photons, photon yield]}
+data_file: ppg088fig37a1.yaml
+additional_resources:
+- {description: Thumbnail Image file, location: thumb_fig37.png}
+---
+# This is Figure 37a pt.2.
+name: "Figure 37a pt.2"
+location: Data From Fig. 37 of PRL 81 (2009) 034911
+description: '(Color online) $p_T$ spectra of $e^+e^-$ pairs in $p$+$p$ (left) and Au+Au (right) collisions for different mass bins, which are fully acceptance corrected. Au+Au spectra are divided by $N_{part}/2$. The solid curves show the expectations from the sum of the hadronic decay cocktail and the contribution from charmed mesons. The dashed curves show the sum of the cocktail and charmed meson contributions plus the contribution from direct photons calculated by converting the photon yield from Fig. 34 to the $e^+e^-$ pair yield using Eqs. (31) and (B14).'
+keywords: # used for searching, possibly mutliple values for each keywords
+- {name: reactions, values: [$d$ + Au $\implies$ CHARGED X, Au + Au$\implies$ CHARGED X, $p + p$$\implies$ CHARGED X]}
+- {name: cmenergies, values: [200.0]}
+- {name: phrases, values: [ppg088, spectra, hadronic decay, charm contributions, charmed mesons, direct photons, photon yield]}
+data_file: ppg088fig37a2.yaml
+additional_resources:
+- {description: Thumbnail Image file, location: thumb_fig37.png}
+---
+# This is Figure 37a pt.3.
+name: "Figure 37a pt.3"
+location: Data From Fig. 37 of PRL 81 (2009) 034911
+description: '(Color online) $p_T$ spectra of $e^+e^-$ pairs in $p$+$p$ (left) and Au+Au (right) collisions for different mass bins, which are fully acceptance corrected. Au+Au spectra are divided by $N_{part}/2$. The solid curves show the expectations from the sum of the hadronic decay cocktail and the contribution from charmed mesons. The dashed curves show the sum of the cocktail and charmed meson contributions plus the contribution from direct photons calculated by converting the photon yield from Fig. 34 to the $e^+e^-$ pair yield using Eqs. (31) and (B14).'
+keywords: # used for searching, possibly mutliple values for each keywords
+- {name: reactions, values: [$d$ + Au $\implies$ CHARGED X, Au + Au$\implies$ CHARGED X, $p + p$$\implies$ CHARGED X]}
+- {name: cmenergies, values: [200.0]}
+- {name: phrases, values: [ppg088, spectra, hadronic decay, charm contributions, charmed mesons, direct photons, photon yield]}
+data_file: ppg088fig37a3.yaml
+additional_resources:
+- {description: Thumbnail Image file, location: thumb_fig37.png}
+---
+# This is Figure 37a pt.4.
+name: "Figure 37a pt.4"
+location: Data From Fig. 37 of PRL 81 (2009) 034911
+description: '(Color online) $p_T$ spectra of $e^+e^-$ pairs in $p$+$p$ (left) and Au+Au (right) collisions for different mass bins, which are fully acceptance corrected. Au+Au spectra are divided by $N_{part}/2$. The solid curves show the expectations from the sum of the hadronic decay cocktail and the contribution from charmed mesons. The dashed curves show the sum of the cocktail and charmed meson contributions plus the contribution from direct photons calculated by converting the photon yield from Fig. 34 to the $e^+e^-$ pair yield using Eqs. (31) and (B14).'
+keywords: # used for searching, possibly mutliple values for each keywords
+- {name: reactions, values: [$d$ + Au $\implies$ CHARGED X, Au + Au$\implies$ CHARGED X, $p + p$$\implies$ CHARGED X]}
+- {name: cmenergies, values: [200.0]}
+- {name: phrases, values: [ppg088, spectra, hadronic decay, charm contributions, charmed mesons, direct photons, photon yield]}
+data_file: ppg088fig37a4.yaml
+additional_resources:
+- {description: Thumbnail Image file, location: thumb_fig37.png}
+---
+# This is Figure 37a pt.5.
+name: "Figure 37a pt.5"
+location: Data From Fig. 37 of PRL 81 (2009) 034911
+description: '(Color online) $p_T$ spectra of $e^+e^-$ pairs in $p$+$p$ (left) and Au+Au (right) collisions for different mass bins, which are fully acceptance corrected. Au+Au spectra are divided by $N_{part}/2$. The solid curves show the expectations from the sum of the hadronic decay cocktail and the contribution from charmed mesons. The dashed curves show the sum of the cocktail and charmed meson contributions plus the contribution from direct photons calculated by converting the photon yield from Fig. 34 to the $e^+e^-$ pair yield using Eqs. (31) and (B14).'
+keywords: # used for searching, possibly mutliple values for each keywords
+- {name: reactions, values: [$d$ + Au $\implies$ CHARGED X, Au + Au$\implies$ CHARGED X, $p + p$$\implies$ CHARGED X]}
+- {name: cmenergies, values: [200.0]}
+- {name: phrases, values: [ppg088, spectra, hadronic decay, charm contributions, charmed mesons, direct photons, photon yield]}
+data_file: ppg088fig37a5.yaml
+additional_resources:
+- {description: Thumbnail Image file, location: thumb_fig37.png}
+---
+# This is Figure 37a pt.6.
+name: "Figure 37a pt.6"
+location: Data From Fig. 37 of PRL 81 (2009) 034911
+description: '(Color online) $p_T$ spectra of $e^+e^-$ pairs in $p$+$p$ (left) and Au+Au (right) collisions for different mass bins, which are fully acceptance corrected. Au+Au spectra are divided by $N_{part}/2$. The solid curves show the expectations from the sum of the hadronic decay cocktail and the contribution from charmed mesons. The dashed curves show the sum of the cocktail and charmed meson contributions plus the contribution from direct photons calculated by converting the photon yield from Fig. 34 to the $e^+e^-$ pair yield using Eqs. (31) and (B14).'
+keywords: # used for searching, possibly mutliple values for each keywords
+- {name: reactions, values: [$d$ + Au $\implies$ CHARGED X, Au + Au$\implies$ CHARGED X, $p + p$$\implies$ CHARGED X]}
+- {name: cmenergies, values: [200.0]}
+- {name: phrases, values: [ppg088, spectra, hadronic decay, charm contributions, charmed mesons, direct photons, photon yield]}
+data_file: ppg088fig37a6.yaml
+additional_resources:
+- {description: Thumbnail Image file, location: thumb_fig37.png}
+---
+# This is Figure 37b pt.1.
+name: "Figure 37b pt.1"
+location: Data From Fig. 37 of PRL 81 (2009) 034911
+description: '(Color online) $p_T$ spectra of $e^+e^-$ pairs in $p$+$p$ (left) and Au+Au (right) collisions for different mass bins, which are fully acceptance corrected. Au+Au spectra are divided by $N_{part}/2$. The solid curves show the expectations from the sum of the hadronic decay cocktail and the contribution from charmed mesons. The dashed curves show the sum of the cocktail and charmed meson contributions plus the contribution from direct photons calculated by converting the photon yield from Fig. 34 to the $e^+e^-$ pair yield using Eqs. (31) and (B14).'
+keywords: # used for searching, possibly mutliple values for each keywords
+- {name: reactions, values: [$d$ + Au $\implies$ CHARGED X, Au + Au$\implies$ CHARGED X, $p + p$$\implies$ CHARGED X]}
+- {name: cmenergies, values: [200.0]}
+- {name: phrases, values: [ppg088, spectra, hadronic decay, charm contributions, charmed mesons, direct photons, photon yield]}
+data_file: ppg088fig37b1.yaml
+additional_resources:
+- {description: Thumbnail Image file, location: thumb_fig37.png}
+---
+# This is Figure 37b pt.2.
+name: "Figure 37b pt.2"
+location: Data From Fig. 37 of PRL 81 (2009) 034911
+description: '(Color online) $p_T$ spectra of $e^+e^-$ pairs in $p$+$p$ (left) and Au+Au (right) collisions for different mass bins, which are fully acceptance corrected. Au+Au spectra are divided by $N_{part}/2$. The solid curves show the expectations from the sum of the hadronic decay cocktail and the contribution from charmed mesons. The dashed curves show the sum of the cocktail and charmed meson contributions plus the contribution from direct photons calculated by converting the photon yield from Fig. 34 to the $e^+e^-$ pair yield using Eqs. (31) and (B14).'
+keywords: # used for searching, possibly mutliple values for each keywords
+- {name: reactions, values: [$d$ + Au $\implies$ CHARGED X, Au + Au$\implies$ CHARGED X, $p + p$$\implies$ CHARGED X]}
+- {name: cmenergies, values: [200.0]}
+- {name: phrases, values: [ppg088, spectra, hadronic decay, charm contributions, charmed mesons, direct photons, photon yield]}
+data_file: ppg088fig37b2.yaml
+additional_resources:
+- {description: Thumbnail Image file, location: thumb_fig37.png}
+---
+# This is Figure 37b pt.3.
+name: "Figure 37b pt.3"
+location: Data From Fig. 37 of PRL 81 (2009) 034911
+description: '(Color online) $p_T$ spectra of $e^+e^-$ pairs in $p$+$p$ (left) and Au+Au (right) collisions for different mass bins, which are fully acceptance corrected. Au+Au spectra are divided by $N_{part}/2$. The solid curves show the expectations from the sum of the hadronic decay cocktail and the contribution from charmed mesons. The dashed curves show the sum of the cocktail and charmed meson contributions plus the contribution from direct photons calculated by converting the photon yield from Fig. 34 to the $e^+e^-$ pair yield using Eqs. (31) and (B14).'
+keywords: # used for searching, possibly mutliple values for each keywords
+- {name: reactions, values: [$d$ + Au $\implies$ CHARGED X, Au + Au$\implies$ CHARGED X, $p + p$$\implies$ CHARGED X]}
+- {name: cmenergies, values: [200.0]}
+- {name: phrases, values: [ppg088, spectra, hadronic decay, charm contributions, charmed mesons, direct photons, photon yield]}
+data_file: ppg088fig37b3.yaml
+additional_resources:
+- {description: Thumbnail Image file, location: thumb_fig37.png}
+---
+# This is Figure 37b pt.4.
+name: "Figure 37b pt.4"
+location: Data From Fig. 37 of PRL 81 (2009) 034911
+description: '(Color online) $p_T$ spectra of $e^+e^-$ pairs in $p$+$p$ (left) and Au+Au (right) collisions for different mass bins, which are fully acceptance corrected. Au+Au spectra are divided by $N_{part}/2$. The solid curves show the expectations from the sum of the hadronic decay cocktail and the contribution from charmed mesons. The dashed curves show the sum of the cocktail and charmed meson contributions plus the contribution from direct photons calculated by converting the photon yield from Fig. 34 to the $e^+e^-$ pair yield using Eqs. (31) and (B14).'
+keywords: # used for searching, possibly mutliple values for each keywords
+- {name: reactions, values: [$d$ + Au $\implies$ CHARGED X, Au + Au$\implies$ CHARGED X, $p + p$$\implies$ CHARGED X]}
+- {name: cmenergies, values: [200.0]}
+- {name: phrases, values: [ppg088, spectra, hadronic decay, charm contributions, charmed mesons, direct photons, photon yield]}
+data_file: ppg088fig37b4.yaml
+additional_resources:
+- {description: Thumbnail Image file, location: thumb_fig37.png}
+---
+# This is Figure 37b pt.5.
+name: "Figure 37b pt.5"
+location: Data From Fig. 37 of PRL 81 (2009) 034911
+description: '(Color online) $p_T$ spectra of $e^+e^-$ pairs in $p$+$p$ (left) and Au+Au (right) collisions for different mass bins, which are fully acceptance corrected. Au+Au spectra are divided by $N_{part}/2$. The solid curves show the expectations from the sum of the hadronic decay cocktail and the contribution from charmed mesons. The dashed curves show the sum of the cocktail and charmed meson contributions plus the contribution from direct photons calculated by converting the photon yield from Fig. 34 to the $e^+e^-$ pair yield using Eqs. (31) and (B14).'
+keywords: # used for searching, possibly mutliple values for each keywords
+- {name: reactions, values: [$d$ + Au $\implies$ CHARGED X, Au + Au$\implies$ CHARGED X, $p + p$$\implies$ CHARGED X]}
+- {name: cmenergies, values: [200.0]}
+- {name: phrases, values: [ppg088, spectra, hadronic decay, charm contributions, charmed mesons, direct photons, photon yield]}
+data_file: ppg088fig37b5.yaml
+additional_resources:
+- {description: Thumbnail Image file, location: thumb_fig37.png}
+---
+# This is Figure 37b pt.6.
+name: "Figure 37b pt.6"
+location: Data From Fig. 37 of PRL 81 (2009) 034911
+description: '(Color online) $p_T$ spectra of $e^+e^-$ pairs in $p$+$p$ (left) and Au+Au (right) collisions for different mass bins, which are fully acceptance corrected. Au+Au spectra are divided by $N_{part}/2$. The solid curves show the expectations from the sum of the hadronic decay cocktail and the contribution from charmed mesons. The dashed curves show the sum of the cocktail and charmed meson contributions plus the contribution from direct photons calculated by converting the photon yield from Fig. 34 to the $e^+e^-$ pair yield using Eqs. (31) and (B14).'
+keywords: # used for searching, possibly mutliple values for each keywords
+- {name: reactions, values: [$d$ + Au $\implies$ CHARGED X, Au + Au$\implies$ CHARGED X, $p + p$$\implies$ CHARGED X]}
+- {name: cmenergies, values: [200.0]}
+- {name: phrases, values: [ppg088, spectra, hadronic decay, charm contributions, charmed mesons, direct photons, photon yield]}
+data_file: ppg088fig37b6.yaml
+additional_resources:
+- {description: Thumbnail Image file, location: thumb_fig37.png}
+---
+# This is Figure 37b pt.7.
+name: "Figure 37b pt.7"
+location: Data From Fig. 37 of PRL 81 (2009) 034911
+description: '(Color online) $p_T$ spectra of $e^+e^-$ pairs in $p$+$p$ (left) and Au+Au (right) collisions for different mass bins, which are fully acceptance corrected. Au+Au spectra are divided by $N_{part}/2$. The solid curves show the expectations from the sum of the hadronic decay cocktail and the contribution from charmed mesons. The dashed curves show the sum of the cocktail and charmed meson contributions plus the contribution from direct photons calculated by converting the photon yield from Fig. 34 to the $e^+e^-$ pair yield using Eqs. (31) and (B14).'
+keywords: # used for searching, possibly mutliple values for each keywords
+- {name: reactions, values: [$d$ + Au $\implies$ CHARGED X, Au + Au$\implies$ CHARGED X, $p + p$$\implies$ CHARGED X]}
+- {name: cmenergies, values: [200.0]}
+- {name: phrases, values: [ppg088, spectra, hadronic decay, charm contributions, charmed mesons, direct photons, photon yield]}
+data_file: ppg088fig37b7.yaml
+additional_resources:
+- {description: Thumbnail Image file, location: thumb_fig37.png}
+---
+# This is Figure 37b pt.8.
+name: "Figure 37b pt.8"
+location: Data From Fig. 37 of PRL 81 (2009) 034911
+description: '(Color online) $p_T$ spectra of $e^+e^-$ pairs in $p$+$p$ (left) and Au+Au (right) collisions for different mass bins, which are fully acceptance corrected. Au+Au spectra are divided by $N_{part}/2$. The solid curves show the expectations from the sum of the hadronic decay cocktail and the contribution from charmed mesons. The dashed curves show the sum of the cocktail and charmed meson contributions plus the contribution from direct photons calculated by converting the photon yield from Fig. 34 to the $e^+e^-$ pair yield using Eqs. (31) and (B14).'
+keywords: # used for searching, possibly mutliple values for each keywords
+- {name: reactions, values: [$d$ + Au $\implies$ CHARGED X, Au + Au$\implies$ CHARGED X, $p + p$$\implies$ CHARGED X]}
+- {name: cmenergies, values: [200.0]}
+- {name: phrases, values: [ppg088, spectra, hadronic decay, charm contributions, charmed mesons, direct photons, photon yield]}
+data_file: ppg088fig37b8.yaml
+additional_resources:
+- {description: Thumbnail Image file, location: thumb_fig37.png}
+---
+# This is Figure 37b pt.9.
+name: "Figure 37b pt.9"
+location: Data From Fig. 37 of PRL 81 (2009) 034911
+description: '(Color online) $p_T$ spectra of $e^+e^-$ pairs in $p$+$p$ (left) and Au+Au (right) collisions for different mass bins, which are fully acceptance corrected. Au+Au spectra are divided by $N_{part}/2$. The solid curves show the expectations from the sum of the hadronic decay cocktail and the contribution from charmed mesons. The dashed curves show the sum of the cocktail and charmed meson contributions plus the contribution from direct photons calculated by converting the photon yield from Fig. 34 to the $e^+e^-$ pair yield using Eqs. (31) and (B14).'
+keywords: # used for searching, possibly mutliple values for each keywords
+- {name: reactions, values: [$d$ + Au $\implies$ CHARGED X, Au + Au$\implies$ CHARGED X, $p + p$$\implies$ CHARGED X]}
+- {name: cmenergies, values: [200.0]}
+- {name: phrases, values: [ppg088, spectra, hadronic decay, charm contributions, charmed mesons, direct photons, photon yield]}
+data_file: ppg088fig37b9.yaml
+additional_resources:
+- {description: Thumbnail Image file, location: thumb_fig37.png}
+---
+# This is Figure 37b pt.10.
+name: "Figure 37b pt.10"
+location: Data From Fig. 37 of PRL 81 (2009) 034911
+description: '(Color online) $p_T$ spectra of $e^+e^-$ pairs in $p$+$p$ (left) and Au+Au (right) collisions for different mass bins, which are fully acceptance corrected. Au+Au spectra are divided by $N_{part}/2$. The solid curves show the expectations from the sum of the hadronic decay cocktail and the contribution from charmed mesons. The dashed curves show the sum of the cocktail and charmed meson contributions plus the contribution from direct photons calculated by converting the photon yield from Fig. 34 to the $e^+e^-$ pair yield using Eqs. (31) and (B14).'
+keywords: # used for searching, possibly mutliple values for each keywords
+- {name: reactions, values: [$d$ + Au $\implies$ CHARGED X, Au + Au$\implies$ CHARGED X, $p + p$$\implies$ CHARGED X]}
+- {name: cmenergies, values: [200.0]}
+- {name: phrases, values: [ppg088, spectra, hadronic decay, charm contributions, charmed mesons, direct photons, photon yield]}
+data_file: ppg088fig37b10.yaml
+additional_resources:
+- {description: Thumbnail Image file, location: thumb_fig37.png}
+---
+name: "Figure 38"
+
+location: Data From Fig. 38 of PRC 81 (2009) 034911
+description: 'The $m_{T} - m_{0}$ spectrum for the mass range 0.3 < $m_{ee}$ < 0.75 GeV/$c^{2}$ after subtracting contributions from cocktail and charm. The spectrum is fully acceptance corrected. The systematic error band includes the difference in charm yields in this mass range. The spectrum is fit to the sum of two exponential functions which are also shown separately as the dashed and dotted lines. The solid line is the sum.'
+keywords: # used for searching, possibly mutliple values for each keywords
+- {name: reactions, values: [$d$ + Au $\implies$ CHARGED X, Au + Au$\implies$ CHARGED X, $p + p$$\implies$ CHARGED X]}
+- {name: cmenergies, values: [200.0]}
+- {name: phrases, values: [ppg088, $e^+e^-$ pair continuum, $J/\psi$ meson, direct photon production]}
+data_file: ppg088fig38.yaml
+additional_resources:
+- {description: Thumbnail Image file, location: thumb_fig38.png}
+---
+name: "Figure 40a"
+
+location: Data From Fig. 40 of PRC 81 (2009) 034911
+description: 'Local inverse slope of the $m_{T}$ spectra of electron pairs, after subtracting the cocktail and the charm contribution, for different mass bins. The local slope is calculated in different mass ranges, 0 < $m_{T} - m_{0}$ < 0.6 GeV/$c^{2}$ and 0.6 < $m_{T} - m_{0}$ < 2.5 GeV/$c^{2}$. The solid and dashed lines show the local slope of the cocktail for the corresponding mass ranges.'
+keywords: # used for searching, possibly mutliple values for each keywords
+- {name: reactions, values: [$d$ + Au $\implies$ CHARGED X, Au + Au$\implies$ CHARGED X, $p + p$$\implies$ CHARGED X]}
+- {name: cmenergies, values: [200.0]}
+- {name: phrases, values: [ppg088, $e^+e^-$ pair continuum, $J/\psi$ meson, direct photon production]}
+data_file: ppg088fig40a.yaml
+additional_resources:
+- {description: Thumbnail Image file, location: thumb_fig40.png}
+---
+name: "Figure 40b"
+
+location: Data From Fig. 40 of PRC 81 (2009) 034911
+description: 'Local inverse slope of the $m_{T}$ spectra of electron pairs, after subtracting the cocktail and the charm contribution, for different mass bins. The local slope is calculated in different mass ranges, 0 < $m_{T} - m_{0}$ < 0.6 GeV/$c^{2}$ and 0.6 < $m_{T} - m_{0}$ < 2.5 GeV/$c^{2}$. The solid and dashed lines show the local slope of the cocktail for the corresponding mass ranges.'
+keywords: # used for searching, possibly mutliple values for each keywords
+- {name: reactions, values: [$d$ + Au $\implies$ CHARGED X, Au + Au$\implies$ CHARGED X, $p + p$$\implies$ CHARGED X]}
+- {name: cmenergies, values: [200.0]}
+- {name: phrases, values: [ppg088, $e^+e^-$ pair continuum, $J/\psi$ meson, direct photon production]}
+data_file: ppg088fig40b.yaml
+additional_resources:
+- {description: Thumbnail Image file, location: thumb_fig40.png}
+---
+name: "Figure 41a"
+
+location: Data From Fig. 41a of PRC 81 (2009) 034911
+description: 'Invariant mass spectrum of $e^{+}e^{-}$ pairs in MB Au+Au compared to predictions from Ralf Rapp. Invariant mass spectra of $e^{+}e^{-}$ pairs in Min. Bias Au + Au collisions in the IMR. (top left) The data are compared to the sum of cocktail+charm. The data are also compared to the sum of cocktail+charm and partonic contributions from different models. The calculations are from (center) Rapp and van Hees [15, 18, 83] and (right) Dusling and Zahed [19, 84, 85]. The partonic yields (PY) have been added to the two scenarios for charmed mesons decays, i.e. (i) $PYTHIA$ and (ii) random $c\bar{c}$ correlation.'
+keywords: # used for searching, possibly mutliple values for each keywords
+- {name: reactions, values: [$d$ + Au $\implies$ CHARGED X, Au + Au$\implies$ CHARGED X, $p + p$$\implies$ CHARGED X]}
+- {name: cmenergies, values: [200.0]}
+- {name: phrases, values: [ppg088, $e^+e^-$ pair continuum, $J/\psi$ meson, direct photon production]}
+data_file: ppg088fig41a.yaml
+additional_resources:
+- {description: Thumbnail Image file, location: thumb_fig41a.png}
+---
+name: "Figure 41b"
+
+location: Data From Fig. 41b of PRC 81 (2009) 034911
+description: 'Invariant mass spectrum of $e^{+}e^{-}$ pairs in MB Au+Au compared to predictions from Kevin Dusling. Invariant mass spectra of $e^{+}e^{-}$ pairs in Min. Bias Au + Au collisions in the IMR. (top left) The data are compared to the sum of cocktail+charm. The data are also compared to the sum of cocktail+charm and partonic contributions from different models. The calculations are from (center) Rapp and van Hees [15, 18, 83] and (right) Dusling and Zahed [19, 84, 85]. The partonic yields (PY) have been added to the two scenarios for charmed mesons decays, i.e. (i) $PYTHIA$ and (ii) random $c\bar{c}$ correlation.'
+keywords: # used for searching, possibly mutliple values for each keywords
+- {name: reactions, values: [$d$ + Au $\implies$ CHARGED X, Au + Au$\implies$ CHARGED X, $p + p$$\implies$ CHARGED X]}
+- {name: cmenergies, values: [200.0]}
+- {name: phrases, values: [ppg088, $e^+e^-$ pair continuum, $J/\psi$ meson, direct photon production]}
+data_file: ppg088fig41b.yaml
+additional_resources:
+- {description: Thumbnail Image file, location: thumb_fig41b.png}
+---
+name: "Figure 41c"
+
+location: Data From Fig. 41c of PRC 81 (2009) 034911
+description: 'Invariant mass spectrum of $e^{+}e^{-}$ pairs in MB Au+Au compared to predictions from Elena Bratkovskaya. Invariant mass spectra of $e^{+}e^{-}$ pairs in Min. Bias Au + Au collisions in the IMR. (top left) The data are compared to the sum of cocktail+charm. The data are also compared to the sum of cocktail+charm and partonic contributions from different models. The calculations are from (center) Rapp and van Hees [15, 18, 83] and (right) Dusling and Zahed [19, 84, 85]. The partonic yields (PY) have been added to the two scenarios for charmed mesons decays, i.e. (i) $PYTHIA$ and (ii) random $c\bar{c}$ correlation.'
+keywords: # used for searching, possibly mutliple values for each keywords
+- {name: reactions, values: [$d$ + Au $\implies$ CHARGED X, Au + Au$\implies$ CHARGED X, $p + p$$\implies$ CHARGED X]}
+- {name: cmenergies, values: [200.0]}
+- {name: phrases, values: [ppg088, $e^+e^-$ pair continuum, $J/\psi$ meson, direct photon production]}
+data_file: ppg088fig41c.yaml
+additional_resources:
+- {description: Thumbnail Image file, location: thumb_fig41c.png}
+---
+name: "Figure 42a pt.1"
+
+location: Data From Fig. 41c of PRC 81 (2009) 034911
+description: 'invariant mass spectrum of e+e- pairs in MB Au+Au compared to predictions from Ralf Rapp.'
+keywords: # used for searching, possibly mutliple values for each keywords
+- {name: reactions, values: [$d$ + Au $\implies$ CHARGED X, Au + Au$\implies$ CHARGED X, $p + p$$\implies$ CHARGED X]}
+- {name: cmenergies, values: [200.0]}
+- {name: phrases, values: [ppg088, $e^+e^-$ pair continuum, $J/\psi$ meson, direct photon production]}
+data_file: ppg088fig42a1.yaml
+additional_resources:
+- {description: Thumbnail Image file, location: thumb_fig42a.png}
+---
+name: "Figure 42a pt.2"
+
+location: Data From Fig. 41c of PRC 81 (2009) 034911
+description: 'invariant mass spectrum of e+e- pairs in MB Au+Au compared to predictions from Ralf Rapp.'
+keywords: # used for searching, possibly mutliple values for each keywords
+- {name: reactions, values: [$d$ + Au $\implies$ CHARGED X, Au + Au$\implies$ CHARGED X, $p + p$$\implies$ CHARGED X]}
+- {name: cmenergies, values: [200.0]}
+- {name: phrases, values: [ppg088, $e^+e^-$ pair continuum, $J/\psi$ meson, direct photon production]}
+data_file: ppg088fig42a2.yaml
+additional_resources:
+- {description: Thumbnail Image file, location: thumb_fig42a.png}
+---
+name: "Figure 42b pt.1"
+
+location: Data From Fig. 42b of PRC 81 (2009) 034911
+description: 'Invariant mass spectrum of $e^{+}e^{-}$ pairs in MB Au+Au for different $p_{T}$ ranges compared to predictions from Kevin Dusling. Invariant mass spectra of $e^{+}e^{-}$ pairs in Au + Au collisions in the LMR. The data are compared to the sum of cocktail+charm (top left). The data are also compared to the sum of cocktail+charm and hadronic+partonic contributions from different models. The calculations are from The calculations are from (top right) Rapp and van Hees [15, 18, 83], (bottom right) Dusling and Zahed [19, 84, 85], and Cassing and Bratkovskaya [20, 27, 86, 87].'
+keywords: # used for searching, possibly mutliple values for each keywords
+- {name: reactions, values: [$d$ + Au $\implies$ CHARGED X, Au + Au$\implies$ CHARGED X, $p + p$$\implies$ CHARGED X]}
+- {name: cmenergies, values: [200.0]}
+- {name: phrases, values: [ppg088, $e^+e^-$ pair continuum, $J/\psi$ meson, direct photon production]}
+data_file: ppg088fig42b1.yaml
+additional_resources:
+- {description: Thumbnail Image file, location: thumb_fig42b.png}
+---
+name: "Figure 42b pt.2"
+
+location: Data From Fig. 42b of PRC 81 (2009) 034911
+description: 'Invariant mass spectrum of $e^{+}e^{-}$ pairs in MB Au+Au for different $p_{T}$ ranges compared to predictions from Kevin Dusling. Invariant mass spectra of $e^{+}e^{-}$ pairs in Au + Au collisions in the LMR. The data are compared to the sum of cocktail+charm (top left). The data are also compared to the sum of cocktail+charm and hadronic+partonic contributions from different models. The calculations are from The calculations are from (top right) Rapp and van Hees [15, 18, 83], (bottom right) Dusling and Zahed [19, 84, 85], and Cassing and Bratkovskaya [20, 27, 86, 87].'
+keywords: # used for searching, possibly mutliple values for each keywords
+- {name: reactions, values: [$d$ + Au $\implies$ CHARGED X, Au + Au$\implies$ CHARGED X, $p + p$$\implies$ CHARGED X]}
+- {name: cmenergies, values: [200.0]}
+- {name: phrases, values: [ppg088, $e^+e^-$ pair continuum, $J/\psi$ meson, direct photon production]}
+data_file: ppg088fig42b2.yaml
+additional_resources:
+- {description: Thumbnail Image file, location: thumb_fig42b.png}
+---
+name: "Figure 42c pt.1"
+
+location: Data From Fig. 42c of PRC 81 (2009) 034911
+description: 'Invariant mass spectrum of $e^{+}e^{-}$ pairs in MB Au+Au for different $p_{T}$ ranges compared to predictions from Elena Bratkovskaya. Invariant mass spectra of $e^{+}e^{-}$ pairs in Au + Au collisions in the LMR. The data are compared to the sum of cocktail+charm (top left). The data are also compared to the sum of cocktail+charm and hadronic+partonic contributions from different models. The calculations are from The calculations are from (top right) Rapp and van Hees [15, 18, 83], (bottom right) Dusling and Zahed [19, 84, 85], and Cassing and Bratkovskaya [20, 27, 86, 87].'
+keywords: # used for searching, possibly mutliple values for each keywords
+- {name: reactions, values: [$d$ + Au $\implies$ CHARGED X, Au + Au$\implies$ CHARGED X, $p + p$$\implies$ CHARGED X]}
+- {name: cmenergies, values: [200.0]}
+- {name: phrases, values: [ppg088, $e^+e^-$ pair continuum, $J/\psi$ meson, direct photon production]}
+data_file: ppg088fig42c1.yaml
+additional_resources:
+- {description: Thumbnail Image file, location: thumb_fig42c.png}
+---
+name: "Figure 42c pt.2"
+
+location: Data From Fig. 42c of PRC 81 (2009) 034911
+description: 'Invariant mass spectrum of $e^{+}e^{-}$ pairs in MB Au+Au for different $p_{T}$ ranges compared to predictions from Elena Bratkovskaya. Invariant mass spectra of $e^{+}e^{-}$ pairs in Au + Au collisions in the LMR. The data are compared to the sum of cocktail+charm (top left). The data are also compared to the sum of cocktail+charm and hadronic+partonic contributions from different models. The calculations are from The calculations are from (top right) Rapp and van Hees [15, 18, 83], (bottom right) Dusling and Zahed [19, 84, 85], and Cassing and Bratkovskaya [20, 27, 86, 87].'
+keywords: # used for searching, possibly mutliple values for each keywords
+- {name: reactions, values: [$d$ + Au $\implies$ CHARGED X, Au + Au$\implies$ CHARGED X, $p + p$$\implies$ CHARGED X]}
+- {name: cmenergies, values: [200.0]}
+- {name: phrases, values: [ppg088, $e^+e^-$ pair continuum, $J/\psi$ meson, direct photon production]}
+data_file: ppg088fig42c2.yaml
+additional_resources:
+- {description: Thumbnail Image file, location: thumb_fig42c.png}
+---
+# This is Figure 43
+name: "Figure 43a"
+
+location: Data From Fig. 43 of PRC 81 (2009) 034911
+description: 'Invariant mass spectrum of $e^{+}e^{-}$ pairs in MB Au+Au for different $p_{T}$ ranges compared to predictions from Ralf Rapp (0<$p_{T}$<0.5 GeV/$c$). Invariant mass spectra of $e^{+}e^{-}$ pairs in Min. Bias Au + Au collisions for different $p_{T}$ windows compared to the expectations from the calculations of Rapp and van Hees [15, 18, 83], separately showing the partonic and the hadronic yields and the different scenarios for the $\rho$ spectral function, namely “Hadron Many Body Theory” (HMBT) and “Dropping Mass” (DM). The calculations have been added to the cocktail of hadronic decays (where the contribution of the freeze-out $\rho$ meson is subtracted) and charmed meson decays products.'
+keywords: # used for searching, possibly mutliple values for each keywords
+- {name: reactions, values: [$d$ + Au $\implies$ CHARGED X, Au + Au$\implies$ CHARGED X, $p + p$$\implies$ CHARGED X]}
+- {name: cmenergies, values: [200.0]}
+- {name: phrases, values: [ppg088, $e^+e^-$ pair continuum, $J/\psi$ meson, direct photon production]}
+data_file: ppg088fig43a.yaml
+additional_resources:
+- {description: Thumbnail Image file, location: thumb_fig43.png}
+---
+# This is Figure 43
+name: "Figure 43b"
+
+location: Data From Fig. 43 of PRC 81 (2009) 034911
+description: 'Invariant mass spectrum of $e^{+}e^{-}$ pairs in MB Au+Au for different $p_{T}$ ranges compared to predictions from Ralf Rapp (0<$p_{T}$<0.5 GeV/$c$). Invariant mass spectra of $e^{+}e^{-}$ pairs in Min. Bias Au + Au collisions for different $p_{T}$ windows compared to the expectations from the calculations of Rapp and van Hees [15, 18, 83], separately showing the partonic and the hadronic yields and the different scenarios for the $\rho$ spectral function, namely “Hadron Many Body Theory” (HMBT) and “Dropping Mass” (DM). The calculations have been added to the cocktail of hadronic decays (where the contribution of the freeze-out $\rho$ meson is subtracted) and charmed meson decays products.'
+keywords: # used for searching, possibly mutliple values for each keywords
+- {name: reactions, values: [$d$ + Au $\implies$ CHARGED X, Au + Au$\implies$ CHARGED X, $p + p$$\implies$ CHARGED X]}
+- {name: cmenergies, values: [200.0]}
+- {name: phrases, values: [ppg088, $e^+e^-$ pair continuum, $J/\psi$ meson, direct photon production]}
+data_file: ppg088fig43b.yaml
+additional_resources:
+- {description: Thumbnail Image file, location: thumb_fig43.png}
+---
+# This is Figure 43
+name: "Figure 43c"
+
+location: Data From Fig. 43 of PRC 81 (2009) 034911
+description: 'Invariant mass spectrum of $e^{+}e^{-}$ pairs in MB Au+Au for different $p_{T}$ ranges compared to predictions from Ralf Rapp (0<$p_{T}$<0.5 GeV/$c$). Invariant mass spectra of $e^{+}e^{-}$ pairs in Min. Bias Au + Au collisions for different $p_{T}$ windows compared to the expectations from the calculations of Rapp and van Hees [15, 18, 83], separately showing the partonic and the hadronic yields and the different scenarios for the $\rho$ spectral function, namely “Hadron Many Body Theory” (HMBT) and “Dropping Mass” (DM). The calculations have been added to the cocktail of hadronic decays (where the contribution of the freeze-out $\rho$ meson is subtracted) and charmed meson decays products.'
+keywords: # used for searching, possibly mutliple values for each keywords
+- {name: reactions, values: [$d$ + Au $\implies$ CHARGED X, Au + Au$\implies$ CHARGED X, $p + p$$\implies$ CHARGED X]}
+- {name: cmenergies, values: [200.0]}
+- {name: phrases, values: [ppg088, $e^+e^-$ pair continuum, $J/\psi$ meson, direct photon production]}
+data_file: ppg088fig43c.yaml
+additional_resources:
+- {description: Thumbnail Image file, location: thumb_fig43.png}
+---
+# This is Figure 43
+name: "Figure 43d"
+
+location: Data From Fig. 43 of PRC 81 (2009) 034911
+description: 'Invariant mass spectrum of $e^{+}e^{-}$ pairs in MB Au+Au for different $p_{T}$ ranges compared to predictions from Ralf Rapp (0<$p_{T}$<0.5 GeV/$c$). Invariant mass spectra of $e^{+}e^{-}$ pairs in Min. Bias Au + Au collisions for different $p_{T}$ windows compared to the expectations from the calculations of Rapp and van Hees [15, 18, 83], separately showing the partonic and the hadronic yields and the different scenarios for the $\rho$ spectral function, namely “Hadron Many Body Theory” (HMBT) and “Dropping Mass” (DM). The calculations have been added to the cocktail of hadronic decays (where the contribution of the freeze-out $\rho$ meson is subtracted) and charmed meson decays products.'
+keywords: # used for searching, possibly mutliple values for each keywords
+- {name: reactions, values: [$d$ + Au $\implies$ CHARGED X, Au + Au$\implies$ CHARGED X, $p + p$$\implies$ CHARGED X]}
+- {name: cmenergies, values: [200.0]}
+- {name: phrases, values: [ppg088, $e^+e^-$ pair continuum, $J/\psi$ meson, direct photon production]}
+data_file: ppg088fig43d.yaml
+additional_resources:
+- {description: Thumbnail Image file, location: thumb_fig43.png}
+---
+# This is Figure 44
+name: "Figure 44a pt.1"
+
+location: Data From Fig. 44 of PRC 81 (2009) 034911
+description: 'Invariant mass spectrum of $e^{+}e^{-}$ pairs in MB Au+Au for different $p_{T}$ ranges compared to predictions from Kevin Dusling (0<$p_{T}$<0.5 GeV/$c$). Invariant mass spectra of $e^{+}e^{-}$ pairs in Min. Bias Au + Au collisions for different $p_{T}$ windows compared to the expectations from the calculations of Dusling and Zahed [19, 84, 85], separately showing the partonic and the hadronic yields. The calculations have been added to the cocktail of hadronic decays (where the contribution of the freeze-out $\rho$ meson is subtracted) and charmed meson decays products.'
+keywords: # used for searching, possibly mutliple values for each keywords
+- {name: reactions, values: [$d$ + Au $\implies$ CHARGED X, Au + Au$\implies$ CHARGED X, $p + p$$\implies$ CHARGED X]}
+- {name: cmenergies, values: [200.0]}
+- {name: phrases, values: [ppg088, $e^+e^-$ pair continuum, $J/\psi$ meson, direct photon production]}
+data_file: ppg088fig44a1.yaml
+additional_resources:
+- {description: Thumbnail Image file, location: thumb_fig44.png}
+---
+# This is Figure 44
+name: "Figure 44a pt.2"
+
+location: Data From Fig. 44 of PRC 81 (2009) 034911
+description: 'Invariant mass spectrum of $e^{+}e^{-}$ pairs in MB Au+Au for different $p_{T}$ ranges compared to predictions from Kevin Dusling (0<$p_{T}$<0.5 GeV/$c$). Invariant mass spectra of $e^{+}e^{-}$ pairs in Min. Bias Au + Au collisions for different $p_{T}$ windows compared to the expectations from the calculations of Dusling and Zahed [19, 84, 85], separately showing the partonic and the hadronic yields. The calculations have been added to the cocktail of hadronic decays (where the contribution of the freeze-out $\rho$ meson is subtracted) and charmed meson decays products.'
+keywords: # used for searching, possibly mutliple values for each keywords
+- {name: reactions, values: [$d$ + Au $\implies$ CHARGED X, Au + Au$\implies$ CHARGED X, $p + p$$\implies$ CHARGED X]}
+- {name: cmenergies, values: [200.0]}
+- {name: phrases, values: [ppg088, $e^+e^-$ pair continuum, $J/\psi$ meson, direct photon production]}
+data_file: ppg088fig44a2.yaml
+additional_resources:
+- {description: Thumbnail Image file, location: thumb_fig44.png}
+---
+# This is Figure 44
+name: "Figure 44b pt.1"
+
+location: Data From Fig. 44 of PRC 81 (2009) 034911
+description: 'Invariant mass spectrum of $e^{+}e^{-}$ pairs in MB Au+Au for different $p_{T}$ ranges compared to predictions from Kevin Dusling (0.5<$p_{T}$<1.0 GeV/$c$). Invariant mass spectra of $e^{+}e^{−}$ pairs in Min. Bias Au + Au collisions for different $p_{T}$ windows compared to the expectations from the calculations of Dusling and Zahed [19, 84, 85], separately showing the partonic and the hadronic yields. The calculations have been added to the cocktail of hadronic decays (where the contribution of the freeze-out $\rho$ meson is subtracted) and charmed meson decays products.'
+keywords: # used for searching, possibly mutliple values for each keywords
+- {name: reactions, values: [$d$ + Au $\implies$ CHARGED X, Au + Au$\implies$ CHARGED X, $p + p$$\implies$ CHARGED X]}
+- {name: cmenergies, values: [200.0]}
+- {name: phrases, values: [ppg088, $e^+e^-$ pair continuum, $J/\psi$ meson, direct photon production]}
+data_file: ppg088fig44b1.yaml
+additional_resources:
+- {description: Thumbnail Image file, location: thumb_fig44.png}
+- {description: Thumbnail Image file, location: thumb_fig44.png}
+---
+# This is Figure 44
+name: "Figure 44b pt.2"
+
+location: Data From Fig. 44 of PRC 81 (2009) 034911
+description: 'Invariant mass spectrum of $e^{+}e^{-}$ pairs in MB Au+Au for different $p_{T}$ ranges compared to predictions from Kevin Dusling (0.5<$p_{T}$<1.0 GeV/$c$). Invariant mass spectra of $e^{+}e^{−}$ pairs in Min. Bias Au + Au collisions for different $p_{T}$ windows compared to the expectations from the calculations of Dusling and Zahed [19, 84, 85], separately showing the partonic and the hadronic yields. The calculations have been added to the cocktail of hadronic decays (where the contribution of the freeze-out $\rho$ meson is subtracted) and charmed meson decays products.'
+keywords: # used for searching, possibly mutliple values for each keywords
+- {name: reactions, values: [$d$ + Au $\implies$ CHARGED X, Au + Au$\implies$ CHARGED X, $p + p$$\implies$ CHARGED X]}
+- {name: cmenergies, values: [200.0]}
+- {name: phrases, values: [ppg088, $e^+e^-$ pair continuum, $J/\psi$ meson, direct photon production]}
+data_file: ppg088fig44b2.yaml
+additional_resources:
+- {description: Thumbnail Image file, location: thumb_fig44.png}
+---
+# This is Figure 44
+name: "Figure 44c pt.1"
+
+location: Data From Fig. 44 of PRC 81 (2009) 034911
+description: 'Invariant mass spectrum of $e^{+}e^{-}$ pairs in MB Au+Au for different $p_{T}$ ranges compared to predictions from Kevin Dusling 1.0<$p_{T}$<1.5 GeV/$c$. Invariant mass spectra of $e^{+}e^{−}$ pairs in Min. Bias Au + Au collisions for different $p_{T}$ windows compared to the expectations from the calculations of Dusling and Zahed [19, 84, 85], separately showing the partonic and the hadronic yields. The calculations have been added to the cocktail of hadronic decays (where the contribution of the freeze-out $\rho$ meson is subtracted) and charmed meson decays products.'
+keywords: # used for searching, possibly mutliple values for each keywords
+- {name: reactions, values: [$d$ + Au $\implies$ CHARGED X, Au + Au$\implies$ CHARGED X, $p + p$$\implies$ CHARGED X]}
+- {name: cmenergies, values: [200.0]}
+- {name: phrases, values: [ppg088, $e^+e^-$ pair continuum, $J/\psi$ meson, direct photon production]}
+data_file: ppg088fig44c1.yaml
+additional_resources:
+- {description: Thumbnail Image file, location: thumb_fig44.png}
+---
+# This is Figure 44
+name: "Figure 44c pt.2"
+
+location: Data From Fig. 44 of PRC 81 (2009) 034911
+description: 'Invariant mass spectrum of $e^{+}e^{-}$ pairs in MB Au+Au for different $p_{T}$ ranges compared to predictions from Kevin Dusling 1.0<$p_{T}$<1.5 GeV/$c$. Invariant mass spectra of $e^{+}e^{−}$ pairs in Min. Bias Au + Au collisions for different $p_{T}$ windows compared to the expectations from the calculations of Dusling and Zahed [19, 84, 85], separately showing the partonic and the hadronic yields. The calculations have been added to the cocktail of hadronic decays (where the contribution of the freeze-out $\rho$ meson is subtracted) and charmed meson decays products.'
+keywords: # used for searching, possibly mutliple values for each keywords
+- {name: reactions, values: [$d$ + Au $\implies$ CHARGED X, Au + Au$\implies$ CHARGED X, $p + p$$\implies$ CHARGED X]}
+- {name: cmenergies, values: [200.0]}
+- {name: phrases, values: [ppg088, $e^+e^-$ pair continuum, $J/\psi$ meson, direct photon production]}
+data_file: ppg088fig44c2.yaml
+additional_resources:
+- {description: Thumbnail Image file, location: thumb_fig44.png}
+---
+# This is Figure 44
+name: "Figure 44d pt.1"
+
+location: Data From Fig. 44 of PRC 81 (2009) 034911
+description: 'Invariant mass spectrum of $e^{+}e^{-}$ pairs in MB Au+Au for different $p_{T}$ ranges compared to predictions from Kevin Dusling (1.5<$p_{T}$<2.0 GeV/$c$). Invariant mass spectra of $e^{+}e^{−}$ pairs in Min. Bias Au + Au collisions for different $p_{T}$ windows compared to the expectations from the calculations of Dusling and Zahed [19, 84, 85], separately showing the partonic and the hadronic yields. The calculations have been added to the cocktail of hadronic decays (where the contribution of the freeze-out $\rho$ meson is subtracted) and charmed meson decays products.'
+keywords: # used for searching, possibly mutliple values for each keywords
+- {name: reactions, values: [$d$ + Au $\implies$ CHARGED X, Au + Au$\implies$ CHARGED X, $p + p$$\implies$ CHARGED X]}
+- {name: cmenergies, values: [200.0]}
+- {name: phrases, values: [ppg088, $e^+e^-$ pair continuum, $J/\psi$ meson, direct photon production]}
+data_file: ppg088fig44d1.yaml
+additional_resources:
+- {description: Thumbnail Image file, location: thumb_fig44.png}
+---
+# This is Figure 44
+name: "Figure 44d pt.2"
+
+location: Data From Fig. 44 of PRC 81 (2009) 034911
+description: 'Invariant mass spectrum of $e^{+}e^{-}$ pairs in MB Au+Au for different $p_{T}$ ranges compared to predictions from Kevin Dusling (1.5<$p_{T}$<2.0 GeV/$c$). Invariant mass spectra of $e^{+}e^{−}$ pairs in Min. Bias Au + Au collisions for different $p_{T}$ windows compared to the expectations from the calculations of Dusling and Zahed [19, 84, 85], separately showing the partonic and the hadronic yields. The calculations have been added to the cocktail of hadronic decays (where the contribution of the freeze-out $\rho$ meson is subtracted) and charmed meson decays products.'
+keywords: # used for searching, possibly mutliple values for each keywords
+- {name: reactions, values: [$d$ + Au $\implies$ CHARGED X, Au + Au$\implies$ CHARGED X, $p + p$$\implies$ CHARGED X]}
+- {name: cmenergies, values: [200.0]}
+- {name: phrases, values: [ppg088, $e^+e^-$ pair continuum, $J/\psi$ meson, direct photon production]}
+data_file: ppg088fig44d2.yaml
+additional_resources:
+- {description: Thumbnail Image file, location: thumb_fig44.png}
+---
+# This is Figure 45
+name: "Figure 45a pt.1"
+
+location: Data From Fig. 45 of PRC 81 (2009) 034911
+description: 'Invariant mass spectrum of $e^{+}e^{-}$ pairs in MB Au+Au for different $p_{T}$ ranges compared to predictions from Elena Bratkovskaya (0<$p_{T}$<0.5 GeV/$c$). Invariant mass spectra of $e^{+}e^{−}$ pairs in Min. Bias Au + Au collisions for different $p_{T}$ windows collisions compared to the expectations from the calculations of Cassing and Bratkovskaya [20, 27, 86, 87], separately showing the partonic and the hadronic yields calculated with different implementations of the $\rho$ spectral function, namely according to collisional broadening, with or without a dropping mass scenario. The calculations which include the dropping mass scenario have been added to the cocktail of hadronic decays (which is calculated by the HSD model itself) and charmed meson decays products.'
+keywords: # used for searching, possibly mutliple values for each keywords
+- {name: reactions, values: [$d$ + Au $\implies$ CHARGED X, Au + Au$\implies$ CHARGED X, $p + p$$\implies$ CHARGED X]}
+- {name: cmenergies, values: [200.0]}
+- {name: phrases, values: [ppg088, $e^+e^-$ pair continuum, $J/\psi$ meson, direct photon production]}
+data_file: ppg088fig45a1.yaml
+additional_resources:
+- {description: Thumbnail Image file, location: thumb_fig45.png}
+---
+# This is Figure 45
+name: "Figure 45a pt.2"
+
+location: Data From Fig. 45 of PRC 81 (2009) 034911
+description: 'Invariant mass spectrum of $e^{+}e^{-}$ pairs in MB Au+Au for different $p_{T}$ ranges compared to predictions from Elena Bratkovskaya (0<$p_{T}$<0.5 GeV/$c$). Invariant mass spectra of $e^{+}e^{−}$ pairs in Min. Bias Au + Au collisions for different $p_{T}$ windows collisions compared to the expectations from the calculations of Cassing and Bratkovskaya [20, 27, 86, 87], separately showing the partonic and the hadronic yields calculated with different implementations of the $\rho$ spectral function, namely according to collisional broadening, with or without a dropping mass scenario. The calculations which include the dropping mass scenario have been added to the cocktail of hadronic decays (which is calculated by the HSD model itself) and charmed meson decays products.'
+keywords: # used for searching, possibly mutliple values for each keywords
+- {name: reactions, values: [$d$ + Au $\implies$ CHARGED X, Au + Au$\implies$ CHARGED X, $p + p$$\implies$ CHARGED X]}
+- {name: cmenergies, values: [200.0]}
+- {name: phrases, values: [ppg088, $e^+e^-$ pair continuum, $J/\psi$ meson, direct photon production]}
+data_file: ppg088fig45a2.yaml
+additional_resources:
+- {description: Thumbnail Image file, location: thumb_fig45.png}
+---
+# This is Figure 45
+name: "Figure 45a pt.3"
+
+location: Data From Fig. 45 of PRC 81 (2009) 034911
+description: 'Invariant mass spectrum of $e^{+}e^{-}$ pairs in MB Au+Au for different $p_{T}$ ranges compared to predictions from Elena Bratkovskaya (0<$p_{T}$<0.5 GeV/$c$). Invariant mass spectra of $e^{+}e^{−}$ pairs in Min. Bias Au + Au collisions for different $p_{T}$ windows collisions compared to the expectations from the calculations of Cassing and Bratkovskaya [20, 27, 86, 87], separately showing the partonic and the hadronic yields calculated with different implementations of the $\rho$ spectral function, namely according to collisional broadening, with or without a dropping mass scenario. The calculations which include the dropping mass scenario have been added to the cocktail of hadronic decays (which is calculated by the HSD model itself) and charmed meson decays products.'
+keywords: # used for searching, possibly mutliple values for each keywords
+- {name: reactions, values: [$d$ + Au $\implies$ CHARGED X, Au + Au$\implies$ CHARGED X, $p + p$$\implies$ CHARGED X]}
+- {name: cmenergies, values: [200.0]}
+- {name: phrases, values: [ppg088, $e^+e^-$ pair continuum, $J/\psi$ meson, direct photon production]}
+data_file: ppg088fig45a3.yaml
+additional_resources:
+- {description: Thumbnail Image file, location: thumb_fig45.png}
+---
+# This is Figure 45
+name: "Figure 45b pt.1"
+
+location: Data From Fig. 45 of PRC 81 (2009) 034911
+description: 'Invariant mass spectrum of $e^{+}e^{-}$ pairs in MB Au+Au for different $p_{T}$ ranges compared to predictions from Elena Bratkovskaya (0.5<$p_{T}$<1.0 GeV/$c$). Invariant mass spectra of $e^{+}e^{−}$ pairs in Min. Bias Au + Au collisions for different $p_{T}$ windows collisions compared to the expectations from the calculations of Cassing and Bratkovskaya [20, 27, 86, 87], separately showing the partonic and the hadronic yields calculated with different implementations of the $\rho$ spectral function, namely according to collisional broadening, with or without a dropping mass scenario. The calculations which include the dropping mass scenario have been added to the cocktail of hadronic decays (which is calculated by the HSD model itself) and charmed meson decays products.'
+keywords: # used for searching, possibly mutliple values for each keywords
+- {name: reactions, values: [$d$ + Au $\implies$ CHARGED X, Au + Au$\implies$ CHARGED X, $p + p$$\implies$ CHARGED X]}
+- {name: cmenergies, values: [200.0]}
+- {name: phrases, values: [ppg088, $e^+e^-$ pair continuum, $J/\psi$ meson, direct photon production]}
+data_file: ppg088fig45b1.yaml
+additional_resources:
+- {description: Thumbnail Image file, location: thumb_fig45.png}
+---
+# This is Figure 45
+name: "Figure 45b pt.2"
+
+location: Data From Fig. 45 of PRC 81 (2009) 034911
+description: 'Invariant mass spectrum of $e^{+}e^{-}$ pairs in MB Au+Au for different $p_{T}$ ranges compared to predictions from Elena Bratkovskaya (0.5<$p_{T}$<1.0 GeV/$c$). Invariant mass spectra of $e^{+}e^{−}$ pairs in Min. Bias Au + Au collisions for different $p_{T}$ windows collisions compared to the expectations from the calculations of Cassing and Bratkovskaya [20, 27, 86, 87], separately showing the partonic and the hadronic yields calculated with different implementations of the $\rho$ spectral function, namely according to collisional broadening, with or without a dropping mass scenario. The calculations which include the dropping mass scenario have been added to the cocktail of hadronic decays (which is calculated by the HSD model itself) and charmed meson decays products.'
+keywords: # used for searching, possibly mutliple values for each keywords
+- {name: reactions, values: [$d$ + Au $\implies$ CHARGED X, Au + Au$\implies$ CHARGED X, $p + p$$\implies$ CHARGED X]}
+- {name: cmenergies, values: [200.0]}
+- {name: phrases, values: [ppg088, $e^+e^-$ pair continuum, $J/\psi$ meson, direct photon production]}
+data_file: ppg088fig45b2.yaml
+additional_resources:
+- {description: Thumbnail Image file, location: thumb_fig45.png}
+---
+# This is Figure 45
+name: "Figure 45b pt.3"
+
+location: Data From Fig. 45 of PRC 81 (2009) 034911
+description: 'Invariant mass spectrum of $e^{+}e^{-}$ pairs in MB Au+Au for different $p_{T}$ ranges compared to predictions from Elena Bratkovskaya (0.5<$p_{T}$<1.0 GeV/$c$). Invariant mass spectra of $e^{+}e^{−}$ pairs in Min. Bias Au + Au collisions for different $p_{T}$ windows collisions compared to the expectations from the calculations of Cassing and Bratkovskaya [20, 27, 86, 87], separately showing the partonic and the hadronic yields calculated with different implementations of the $\rho$ spectral function, namely according to collisional broadening, with or without a dropping mass scenario. The calculations which include the dropping mass scenario have been added to the cocktail of hadronic decays (which is calculated by the HSD model itself) and charmed meson decays products.'
+keywords: # used for searching, possibly mutliple values for each keywords
+- {name: reactions, values: [$d$ + Au $\implies$ CHARGED X, Au + Au$\implies$ CHARGED X, $p + p$$\implies$ CHARGED X]}
+- {name: cmenergies, values: [200.0]}
+- {name: phrases, values: [ppg088, $e^+e^-$ pair continuum, $J/\psi$ meson, direct photon production]}
+data_file: ppg088fig45b3.yaml
+additional_resources:
+- {description: Thumbnail Image file, location: thumb_fig45.png}
+---
+# This is Figure 45
+name: "Figure 45c pt.1"
+
+location: Data From Fig. 45 of PRC 81 (2009) 034911
+description: 'Invariant mass spectrum of $e^{+}e^{-}$ pairs in MB Au+Au for different $p_{T}$ ranges compared to predictions from Elena Bratkovskaya (1.0<$p_{T}$<1.5 GeV/$c$). Invariant mass spectra of $e^{+}e^{−}$ pairs in Min. Bias Au + Au collisions for different $p_{T}$ windows collisions compared to the expectations from the calculations of Cassing and Bratkovskaya [20, 27, 86, 87], separately showing the partonic and the hadronic yields calculated with different implementations of the $\rho$ spectral function, namely according to collisional broadening, with or without a dropping mass scenario. The calculations which include the dropping mass scenario have been added to the cocktail of hadronic decays (which is calculated by the HSD model itself) and charmed meson decays products.'
+keywords: # used for searching, possibly mutliple values for each keywords
+- {name: reactions, values: [$d$ + Au $\implies$ CHARGED X, Au + Au$\implies$ CHARGED X, $p + p$$\implies$ CHARGED X]}
+- {name: cmenergies, values: [200.0]}
+- {name: phrases, values: [ppg088, $e^+e^-$ pair continuum, $J/\psi$ meson, direct photon production]}
+data_file: ppg088fig45c1.yaml
+additional_resources:
+- {description: Thumbnail Image file, location: thumb_fig45.png}
+---
+# This is Figure 45
+name: "Figure 45c pt.2"
+
+location: Data From Fig. 45 of PRC 81 (2009) 034911
+description: 'Invariant mass spectrum of $e^{+}e^{-}$ pairs in MB Au+Au for different $p_{T}$ ranges compared to predictions from Elena Bratkovskaya (1.0<$p_{T}$<1.5 GeV/$c$). Invariant mass spectra of $e^{+}e^{−}$ pairs in Min. Bias Au + Au collisions for different $p_{T}$ windows collisions compared to the expectations from the calculations of Cassing and Bratkovskaya [20, 27, 86, 87], separately showing the partonic and the hadronic yields calculated with different implementations of the $\rho$ spectral function, namely according to collisional broadening, with or without a dropping mass scenario. The calculations which include the dropping mass scenario have been added to the cocktail of hadronic decays (which is calculated by the HSD model itself) and charmed meson decays products.'
+keywords: # used for searching, possibly mutliple values for each keywords
+- {name: reactions, values: [$d$ + Au $\implies$ CHARGED X, Au + Au$\implies$ CHARGED X, $p + p$$\implies$ CHARGED X]}
+- {name: cmenergies, values: [200.0]}
+- {name: phrases, values: [ppg088, $e^+e^-$ pair continuum, $J/\psi$ meson, direct photon production]}
+data_file: ppg088fig45c2.yaml
+additional_resources:
+- {description: Thumbnail Image file, location: thumb_fig45.png}
+---
+# This is Figure 45
+name: "Figure 45d pt.1"
+
+location: Data From Fig. 45 of PRC 81 (2009) 034911
+description: 'Invariant mass spectrum of $e^{+}e^{-}$ pairs in MB Au+Au for different $p_{T}$ ranges compared to predictions from Elena Bratkovskaya (1.5<$p_{T}$<2.0 GeV/$c$). Invariant mass spectra of $e^{+}e^{−}$ pairs in Min. Bias Au + Au collisions for different $p_{T}$ windows collisions compared to the expectations from the calculations of Cassing and Bratkovskaya [20, 27, 86, 87], separately showing the partonic and the hadronic yields calculated with different implementations of the $\rho$ spectral function, namely according to collisional broadening, with or without a dropping mass scenario. The calculations which include the dropping mass scenario have been added to the cocktail of hadronic decays (which is calculated by the HSD model itself) and charmed meson decays products.'
+keywords: # used for searching, possibly mutliple values for each keywords
+- {name: reactions, values: [$d$ + Au $\implies$ CHARGED X, Au + Au$\implies$ CHARGED X, $p + p$$\implies$ CHARGED X]}
+- {name: cmenergies, values: [200.0]}
+- {name: phrases, values: [ppg088, $e^+e^-$ pair continuum, $J/\psi$ meson, direct photon production]}
+data_file: ppg088fig45d1.yaml
+additional_resources:
+- {description: Thumbnail Image file, location: thumb_fig45.png}
+---
+# This is Figure 45
+name: "Figure 45d pt.2"
+
+location: Data From Fig. 45 of PRC 81 (2009) 034911
+description: 'Invariant mass spectrum of $e^{+}e^{-}$ pairs in MB Au+Au for different $p_{T}$ ranges compared to predictions from Elena Bratkovskaya (1.5<$p_{T}$<2.0 GeV/$c$). Invariant mass spectra of $e^{+}e^{−}$ pairs in Min. Bias Au + Au collisions for different $p_{T}$ windows collisions compared to the expectations from the calculations of Cassing and Bratkovskaya [20, 27, 86, 87], separately showing the partonic and the hadronic yields calculated with different implementations of the $\rho$ spectral function, namely according to collisional broadening, with or without a dropping mass scenario. The calculations which include the dropping mass scenario have been added to the cocktail of hadronic decays (which is calculated by the HSD model itself) and charmed meson decays products.'
+keywords: # used for searching, possibly mutliple values for each keywords
+- {name: reactions, values: [$d$ + Au $\implies$ CHARGED X, Au + Au$\implies$ CHARGED X, $p + p$$\implies$ CHARGED X]}
+- {name: cmenergies, values: [200.0]}
+- {name: phrases, values: [ppg088, $e^+e^-$ pair continuum, $J/\psi$ meson, direct photon production]}
+data_file: ppg088fig45d2.yaml
+additional_resources:
+- {description: Thumbnail Image file, location: thumb_fig45.png}
+---
+# This is Figure 46a
+name: "Figure 46a"
+
+location: Data From Fig. 46a of PRC 81 (2009) 034911
+description: 'Subtracted $p_{T}$ spectrum in 300-750 compared to calculations from Ralf Rapp. $p_{T}$ spectra of $e^{+}e^{−}$ pairs for 0.3 < $m_{ee}$ < 0.75 GeV/$c^{2}$ in Min. Bias Au + Au collisions compared to the expectations from the calculations of respectively R. Rapp and van Hees [15, 18, 83], Dusling and Zahed [19, 84, 85], Cassing and Bratkovskaya [20, 27, 86, 87]. The spectra are fully acceptance corrected. The curves show separately partonic and hadronic yields. For the curves of Rapp and van Hees [15, 18, 83] the two scenarios: Hadron Many Body Theory (HMBT) and Dropping Mass (DM) are shown. The sum is calculated with HMBT. The calculations are compared to the data from which the contributions of the cocktail of hadronic decays and charmed meson decays have been subtracted.'
+keywords: # used for searching, possibly mutliple values for each keywords
+- {name: reactions, values: [$d$ + Au $\implies$ CHARGED X, Au + Au$\implies$ CHARGED X, $p + p$$\implies$ CHARGED X]}
+- {name: cmenergies, values: [200.0]}
+- {name: phrases, values: [ppg088, $e^+e^-$ pair continuum, $J/\psi$ meson, direct photon production]}
+data_file: ppg088fig46a.yaml
+additional_resources:
+- {description: Thumbnail Image file, location: thumb_fig46a.png}
+---
+# This is Figure 44
+name: "Figure 46b"
+
+location: Data From Fig. 46b of PRC 81 (2009) 034911
+description: 'Subtracted $p_{T}$ spectrum in 300-750 compared to calculations from Kevin Dusling. $p_{T}$ spectra of $e^{+}e^{−}$ pairs for 0.3 < $m_{ee}$ < 0.75 GeV/$c^{2}$ in Min. Bias Au + Au collisions compared to the expectations from the calculations of respectively R. Rapp and van Hees [15, 18, 83], Dusling and Zahed [19, 84, 85], Cassing and Bratkovskaya [20, 27, 86, 87]. The spectra are fully acceptance corrected. The curves show separately partonic and hadronic yields. For the curves of Rapp and van Hees [15, 18, 83] the two scenarios: Hadron Many Body Theory (HMBT) and Dropping Mass (DM) are shown. The sum is calculated with HMBT. The calculations are compared to the data from which the contributions of the cocktail of hadronic decays and charmed meson decays have been subtracted.'
+keywords: # used for searching, possibly mutliple values for each keywords
+- {name: reactions, values: [$d$ + Au $\implies$ CHARGED X, Au + Au$\implies$ CHARGED X, $p + p$$\implies$ CHARGED X]}
+- {name: cmenergies, values: [200.0]}
+- {name: phrases, values: [ppg088, $e^+e^-$ pair continuum, $J/\psi$ meson, direct photon production]}
+data_file: ppg088fig46b.yaml
+additional_resources:
+- {description: Thumbnail Image file, location: thumb_fig46b.png}
+---
+# This is Figure 46c
+name: "Figure 46c pt.1"
+
+location: Data From Fig. 46c of PRC 81 (2009) 034911
+description: 'Subtracted $p_{T}$ spectrum in 300-750 compared to calculations from Elena Bratkovskaya. $p_{T}$ spectra of $e^{+}e^{−}$ pairs for 0.3 < $m_{ee}$ < 0.75 GeV/$c^{2}$ in Min. Bias Au + Au collisions compared to the expectations from the calculations of respectively R. Rapp and van Hees [15, 18, 83], Dusling and Zahed [19, 84, 85], Cassing and Bratkovskaya [20, 27, 86, 87]. The spectra are fully acceptance corrected. The curves show separately partonic and hadronic yields. For the curves of Rapp and van Hees [15, 18, 83] the two scenarios: Hadron Many Body Theory (HMBT) and Dropping Mass (DM) are shown. The sum is calculated with HMBT. The calculations are compared to the data from which the contributions of the cocktail of hadronic decays and charmed meson decays have been subtracted.'
+keywords: # used for searching, possibly mutliple values for each keywords
+- {name: reactions, values: [$d$ + Au $\implies$ CHARGED X, Au + Au$\implies$ CHARGED X, $p + p$$\implies$ CHARGED X]}
+- {name: cmenergies, values: [200.0]}
+- {name: phrases, values: [ppg088, $e^+e^-$ pair continuum, $J/\psi$ meson, direct photon production]}
+data_file: ppg088fig46c1.yaml
+additional_resources:
+- {description: Thumbnail Image file, location: thumb_fig46c.png}
+---
+# This is Figure 46c
+name: "Figure 46c pt.2"
+
+location: Data From Fig. 46c of PRC 81 (2009) 034911
+description: 'Subtracted $p_{T}$ spectrum in 300-750 compared to calculations from Elena Bratkovskaya. $p_{T}$ spectra of $e^{+}e^{−}$ pairs for 0.3 < $m_{ee}$ < 0.75 GeV/$c^{2}$ in Min. Bias Au + Au collisions compared to the expectations from the calculations of respectively R. Rapp and van Hees [15, 18, 83], Dusling and Zahed [19, 84, 85], Cassing and Bratkovskaya [20, 27, 86, 87]. The spectra are fully acceptance corrected. The curves show separately partonic and hadronic yields. For the curves of Rapp and van Hees [15, 18, 83] the two scenarios: Hadron Many Body Theory (HMBT) and Dropping Mass (DM) are shown. The sum is calculated with HMBT. The calculations are compared to the data from which the contributions of the cocktail of hadronic decays and charmed meson decays have been subtracted.'
+keywords: # used for searching, possibly mutliple values for each keywords
+- {name: reactions, values: [$d$ + Au $\implies$ CHARGED X, Au + Au$\implies$ CHARGED X, $p + p$$\implies$ CHARGED X]}
+- {name: cmenergies, values: [200.0]}
+- {name: phrases, values: [ppg088, $e^+e^-$ pair continuum, $J/\psi$ meson, direct photon production]}
+data_file: ppg088fig46c2.yaml
+additional_resources:
+- {description: Thumbnail Image file, location: thumb_fig46c.png}

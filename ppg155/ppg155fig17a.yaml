@@ -1,0 +1,30 @@
+independent_variables:
+- header: {name: ' Centrality, $N_{coll}$'}
+  values:
+  - {value: 689.9}
+  - {value: 270.5}
+  - {value: 85.71}
+dependent_variables:
+- header: {name: '$R_{AA}$'}
+  qualifiers:
+  - {name: 'Cetrality', value: '1 < $p_T$ < 3 (GeV/$c$)'}
+  values:
+  - value: 1.946
+    errors:
+    - {symerror: 0.267, label: 'stat.'}
+    - {symerror: 0.745, label: 'syst.'}
+  - value: 1.950
+    errors:
+    - {symerror: 0.333, label: 'stat.'}
+    - {symerror: 0.755, label: 'syst.'}
+  - value: 1.316
+    errors:
+    - {symerror: 0.49, label: 'stat.'}
+    - {symerror: 0.636, label: 'syst.'}
+- header: {name: '$N_{coll}$'}
+  qualifiers:
+  - {name: 'Cetrality', value: '1 < $p_T$ < 3 (GeV/$c$)'}
+  values:
+  - value: 78.89
+  - value: 27.46
+  - value: 9.064
