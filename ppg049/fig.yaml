@@ -9,13 +9,13 @@ dependent_variables:
   values:
   - value: 5.61e-7
     errors:
-    - {symerror: 2.63e-7, label: 'stat.'}
-    - {symerror: 2.5e-7, label: 'sys.'}
+    - {asymerror: {plus: 2.36e-7, minus: -2.81e-7}, label: 'stat.'}
+    - {asymerror: {plus: 3.03e-7, minus: -2.97e-7}, label: 'sys.'}
   - value: 2.68e-7
     errors:
-    - {symerror: 1.78e-7, label: 'stat.'}
-    - {symerror: 1.25e-7, label: 'sys.'}
+    - {asymerror: {plus: 1.50e-7, minus: -2.01e-7}, label: 'stat.'}
+    - {asymerror: {plus: 1.50e-7, minus: -1.47e-7}, label: 'sys.'}
   - value: 2.37e-7
     errors:
-    - {symerror: 1.24e-7, label: 'stat.'}
-    - {symerror: 7.12e-8, label: 'sys.'}
+    - {asymerror: {plus: 9.95e-8, minus: -1.40e-7}, label: 'stat.'}
+    - {asymerror: {plus: 9.01e-8, minus: -8.77e-8}, label: 'sys.'}
