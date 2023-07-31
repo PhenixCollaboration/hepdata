@@ -17,40 +17,40 @@ additional_resources:
 - {location: "http://arxiv.org/abs/1105.4126", description: arXiv}
 - {location: "https://inspirehep.net/literature/900818", description: InspireHEP}
 ---
-# This is Figure 1a-c.
-name: "Figure 1a"
+# This is Figure 1.
+name: "Figure 1"
 location: Data From Figure 1a-c of PRL84 (2012) 122302
 description: '$v_2$ in minimum bias collisions, using two different reaction plane detectors: (solid black circles) BBC and (solid red squares) RXN for (a) $\pi^0$, (b) inclusive photon, and (c) direct photon.'
 keywords: # used for searching, possibly mutliple values for each keywords
 - {name: reactions, values: [Au Au --> CHARGED X]}
 - {name: cmenergies, values: [200.0]}
 - {name: phrases, values: [ppg126, direct photon, inclusive photon, pi photon, midrapidity, parton energy loss]}
-data_file: ppg126Fig1a.yaml
+data_file: Fig1.yaml
 additional_resources:
-- {description: PNG Image file, location: thumb_fig1a.png}
-- {description: PNG Image file, location: thumb_fig1f.png}
+- {description: PNG Image file, location: thumb_fig1abc.png}
+- {description: PNG Image file, location: thumb_fig1de.png}
 ---
 # This is Figure 2a.
 name: "Figure 2a"
-location: Data From Figure 1 of PRL84 (2012) 122302
-description: Centrality dependence of $v_2$ (a, c, e) for (solid-black circles) $\pi^0$, (solid-red squares) inclusive photons, and (b, d, f) (solid-black circles) direct photons measured with the BBC detector for (a),(b) minimum-bias (c),(d) 0%-20% centrality, and (e),(f) 20%-40% centrality.
-keywords: # used for searching, possibly mutliple values for each keywords
-- {name: reactions, values: [Au Au --> CHARGED X]}
-- {name: cmenergies, values: [200.0]}
-- {name: phrases, values: [ppg126, direct photon, inclusive photon, pi photon, midrapidity, parton energy loss]}
-data_file: ppg126_data_photon.yaml
-additional_resources:
-- {description: Thumbnail Image file, location: thumb_fig2.png}
----
-# This is Figure 2.
-name: "Figure 2"
 location: Data From Figure 2 of PRL84 (2012) 122302
 description: Centrality dependence of $v_2$ (a, c, e) for (solid-black circles) $\pi^0$, (solid-red squares) inclusive photons, and (b, d, f) (solid-black circles) direct photons measured with the BBC detector for (a),(b) minimum-bias (c),(d) 0%-20% centrality, and (e),(f) 20%-40% centrality.
 keywords: # used for searching, possibly mutliple values for each keywords
 - {name: reactions, values: [Au Au --> CHARGED X]}
 - {name: cmenergies, values: [200.0]}
 - {name: phrases, values: [ppg126, direct photon, inclusive photon, pi photon, midrapidity, parton energy loss]}
-data_file: ppg126data_cent_v2.yaml
+data_file: Fig2a.yaml
+additional_resources:
+- {description: Thumbnail Image file, location: thumb_fig2.png}
+---
+# This is Figure 2b.
+name: "Figure 2b"
+location: Data From Figure 2 of PRL84 (2012) 122302
+description: Centrality dependence of $v_2$ (a, c, e) for (solid-black circles) $\pi^0$, (solid-red squares) inclusive photons, and (b, d, f) (solid-black circles) direct photons measured with the BBC detector for (a),(b) minimum-bias (c),(d) 0%-20% centrality, and (e),(f) 20%-40% centrality.
+keywords: # used for searching, possibly mutliple values for each keywords
+- {name: reactions, values: [Au Au --> CHARGED X]}
+- {name: cmenergies, values: [200.0]}
+- {name: phrases, values: [ppg126, direct photon, inclusive photon, pi photon, midrapidity, parton energy loss]}
+data_file: Fig2b.yaml
 additional_resources:
 - {description: Thumbnail Image file, location: thumb_fig2.png}
 ---
@@ -62,7 +62,7 @@ keywords: # used for searching, possibly mutliple values for each keywords
 - {name: reactions, values: [Au Au --> CHARGED X]}
 - {name: cmenergies, values: [200.0]}
 - {name: phrases, values: [ppg126, direct photon, inclusive photon, pi photon, midrapidity, parton energy loss]}
-data_file: ppg126Fig3.yaml
+data_file: Fig3.yaml
 additional_resources:
 - {description: PNG Image file, location: thumb_fig3.png}
 ---
