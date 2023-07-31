@@ -1,0 +1,114 @@
+independent_variables:
+- header: {name: '$p_T$ Bins (GeV/$c$)'}
+  values:
+  - {low: 0.2, high: 0.3}
+  - {low: 0.3, high: 0.4}
+  - {low: 0.4, high: 0.5}
+  - {low: 0.5, high: 0.6}
+  - {low: 0.6, high: 0.7}
+  - {low: 0.7, high: 0.8}
+  - {low: 0.8, high: 0.9}
+  - {low: 0.9, high: 1.0}
+  - {low: 1.0, high: 1.2}
+  - {low: 1.2, high: 1.4}
+  - {low: 1.4, high: 1.6}
+  - {low: 1.6, high: 1.8}
+  - {low: 1.8, high: 2.0}
+  - {low: 2.0, high: 2.4}
+  - {low: 2.4, high: 3.0}
+  - {low: 3.0, high: 3.9}
+  - {low: 3.9, high: 4.9}
+dependent_variables:
+- header: {name: '$p_T$ (GeV/$c$)'}
+  qualifiers:
+  - {name: 'Centrality (%)', value: ''}
+  values:
+  - value: 0.247
+  - value: 0.348
+  - value: 0.448
+  - value: 0.548
+  - value: 0.648
+  - value: 0.748
+  - value: 0.848
+  - value: 0.948
+  - value: 1.092
+  - value: 1.292
+  - value: 1.492
+  - value: 1.692
+  - value: 1.892
+  - value: 2.200
+  - value: 2.703
+  - value: 3.343
+  - value: 4.381
+- header: {name: '$v_2${ZDC-SMD}'}
+  qualifiers:
+  - {name: 'Centrality (%)', value: '50-60%'}
+  values:
+  - value: 0.02529
+    errors:
+    - {symerror: 0.00114, label: 'stat.'}
+    - {symerror: 0.01849, label: 'sys.'}
+  - value: 0.04384
+    errors:
+    - {symerror: 0.00120, label: 'stat.'}
+    - {symerror: 0.00391, label: 'sys.'}
+  - value: 0.05986
+    errors:
+    - {symerror: 0.00132, label: 'stat.'}
+    - {symerror: 0.00282, label: 'sys.'}
+  - value: 0.07273
+    errors:
+    - {symerror: 0.00148, label: 'stat.'}
+    - {symerror: 0.00181, label: 'sys.'}
+  - value: 0.08647
+    errors:
+    - {symerror: 0.00166, label: 'stat.'}
+    - {symerror: 0.00145, label: 'sys.'}
+  - value: 0.09633
+    errors:
+    - {symerror: 0.00188, label: 'stat.'}
+    - {symerror: 0.00132, label: 'sys.'}
+  - value: 0.11196
+    errors:
+    - {symerror: 0.00214, label: 'stat.'}
+    - {symerror: 0.00183, label: 'sys.'}
+  - value: 0.12413
+    errors:
+    - {symerror: 0.00244, label: 'stat.'}
+    - {symerror: 0.00106, label: 'sys.'}
+  - value: 0.13707
+    errors:
+    - {symerror: 0.00212, label: 'stat.'}
+    - {symerror: 0.00117, label: 'sys.'}
+  - value: 0.14709
+    errors:
+    - {symerror: 0.00274, label: 'stat.'}
+    - {symerror: 0.00140, label: 'sys.'}
+  - value: 0.16469
+    errors:
+    - {symerror: 0.00370, label: 'stat.'}
+    - {symerror: 0.00184, label: 'sys.'}
+  - value: 0.18411
+    errors:
+    - {symerror: 0.00516, label: 'stat.'}
+    - {symerror: 0.00199, label: 'sys.'}
+  - value: 0.18679
+    errors:
+    - {symerror: 0.00701, label: 'stat.'}
+    - {symerror: 0.00288, label: 'sys.'}
+  - value: 0.19518
+    errors:
+    - {symerror: 0.00684, label: 'stat.'}
+    - {symerror: 0.00297, label: 'sys.'}
+  - value: 0.21100
+    errors:
+    - {symerror: 0.01265, label: 'stat.'}
+    - {symerror: 0.00345, label: 'sys.'}
+  - value: 0.16274
+    errors:
+    - {symerror: 0.01878, label: 'stat.'}
+    - {symerror: 0.00360, label: 'sys.'}
+  - value: 0.14306
+    errors:
+    - {symerror: 0.04745, label: 'stat.'}
+    - {symerror: 0.01940, label: 'sys.'}

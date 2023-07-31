@@ -1,0 +1,366 @@
+independent_variables:
+- header: {name: '$p_T$ Bins (GeV/$c$)'}
+  values:
+  - {low: 0.2, high: 0.3}
+  - {low: 0.3, high: 0.4}
+  - {low: 0.4, high: 0.5}
+  - {low: 0.5, high: 0.6}
+  - {low: 0.6, high: 0.7}
+  - {low: 0.7, high: 0.8}
+  - {low: 0.8, high: 0.9}
+  - {low: 0.9, high: 1.0}
+  - {low: 1.0, high: 1.2}
+  - {low: 1.2, high: 1.4}
+  - {low: 1.4, high: 1.6}
+  - {low: 1.6, high: 1.8}
+  - {low: 1.8, high: 2.0}
+  - {low: 2.0, high: 2.4}
+  - {low: 2.4, high: 3.0}
+  - {low: 3.0, high: 3.9}
+  - {low: 3.9, high: 4.9}
+  - {low: 4.9, high: 5.9}
+  - {low: 5.9, high: 7.5}
+dependent_variables:
+- header: {name: '$p_T$ (GeV/$c$)'}
+  qualifiers:
+  - {name: 'Subevent', value: ''}
+  values:
+  - value: 0.247
+  - value: 0.348
+  - value: 0.448
+  - value: 0.548
+  - value: 0.648
+  - value: 0.748
+  - value: 0.848
+  - value: 0.948
+  - value: 1.092
+  - value: 1.292
+  - value: 1.492
+  - value: 1.692
+  - value: 1.892
+  - value: 2.200
+  - value: 2.703
+  - value: 3.343
+  - value: 4.381
+  - value: 5.410
+  - value: 6.852
+- header: {name: '$v_2${BBC}'}
+  qualifiers:
+  - {name: 'Subevent', value: 'S-N'}
+  values:
+  - value: 0.02569
+    errors:
+    - {symerror: 0.00009, label: 'stat.'}
+    - {symerror: 0.01890, label: 'sys.'}
+  - value: 0.04271
+    errors:
+    - {symerror: 0.00009, label: 'stat.'}
+    - {symerror: 0.00368, label: 'sys.'}
+  - value: 0.05587
+    errors:
+    - {symerror: 0.00010, label: 'stat.'}
+    - {symerror: 0.00256, label: 'sys.'}
+  - value: 0.06846
+    errors:
+    - {symerror: 0.00011, label: 'stat.'}
+    - {symerror: 0.00223, label: 'sys.'}
+  - value: 0.08009
+    errors:
+    - {symerror: 0.00013, label: 'stat.'}
+    - {symerror: 0.00191, label: 'sys.'}
+  - value: 0.09123
+    errors:
+    - {symerror: 0.00014, label: 'stat.'}
+    - {symerror: 0.00176, label: 'sys.'}
+  - value: 0.10124
+    errors:
+    - {symerror: 0.00016, label: 'stat.'}
+    - {symerror: 0.00188, label: 'sys.'}
+  - value: 0.11159
+    errors:
+    - {symerror: 0.00018, label: 'stat.'}
+    - {symerror: 0.00153, label: 'sys.'}
+  - value: 0.12439
+    errors:
+    - {symerror: 0.00016, label: 'stat.'}
+    - {symerror: 0.00150, label: 'sys.'}
+  - value: 0.14170
+    errors:
+    - {symerror: 0.00020, label: 'stat.'}
+    - {symerror: 0.00142, label: 'sys.'}
+  - value: 0.15770
+    errors:
+    - {symerror: 0.00027, label: 'stat.'}
+    - {symerror: 0.00178, label: 'sys.'}
+  - value: 0.17244
+    errors:
+    - {symerror: 0.00037, label: 'stat.'}
+    - {symerror: 0.00168, label: 'sys.'}
+  - value: 0.18481
+    errors:
+    - {symerror: 0.00050, label: 'stat.'}
+    - {symerror: 0.00173, label: 'sys.'}
+  - value: 0.19684
+    errors:
+    - {symerror: 0.00049, label: 'stat.'}
+    - {symerror: 0.00163, label: 'sys.'}
+  - value: 0.20803
+    errors:
+    - {symerror: 0.00092, label: 'stat.'}
+    - {symerror: 0.00144, label: 'sys.'}
+  - value: 0.20569
+    errors:
+    - {symerror: 0.00141, label: 'stat.'}
+    - {symerror: 0.00206, label: 'sys.'}
+  - value: 0.17942
+    errors:
+    - {symerror: 0.00371, label: 'stat.'}
+    - {symerror: 0.00372, label: 'sys.'}
+  - value: 0.14862
+    errors:
+    - {symerror: 0.00877, label: 'stat.'}
+    - {symerror: 0.00663, label: 'sys.'}
+  - value: 0.16262
+    errors:
+    - {symerror: 0.01770, label: 'stat.'}
+    - {symerror: 0.02020, label: 'sys.'}
+- header: {name: '$v_2${ZDC-SMD}'}
+  qualifiers:
+  - {name: 'Subevent', value: 'S-N'}
+  values:
+  - value: 0.02532
+    errors:
+    - {symerror: 0.00025, label: 'stat.'}
+    - {symerror: 0.01862, label: 'sys.'}
+  - value: 0.04002
+    errors:
+    - {symerror: 0.00029, label: 'stat.'}
+    - {symerror: 0.00345, label: 'sys.'}
+  - value: 0.05165
+    errors:
+    - {symerror: 0.00032, label: 'stat.'}
+    - {symerror: 0.00238, label: 'sys.'}
+  - value: 0.06296
+    errors:
+    - {symerror: 0.00036, label: 'stat.'}
+    - {symerror: 0.00206, label: 'sys.'}
+  - value: 0.07433
+    errors:
+    - {symerror: 0.00041, label: 'stat.'}
+    - {symerror: 0.00180, label: 'sys.'}
+  - value: 0.08377
+    errors:
+    - {symerror: 0.00046, label: 'stat.'}
+    - {symerror: 0.00167, label: 'sys.'}
+  - value: 0.09429
+    errors:
+    - {symerror: 0.00052, label: 'stat.'}
+    - {symerror: 0.00183, label: 'sys.'}
+  - value: 0.10365
+    errors:
+    - {symerror: 0.00059, label: 'stat.'}
+    - {symerror: 0.00155, label: 'sys.'}
+  - value: 0.11617
+    errors:
+    - {symerror: 0.00053, label: 'stat.'}
+    - {symerror: 0.00162, label: 'sys.'}
+  - value: 0.13006
+    errors:
+    - {symerror: 0.00066, label: 'stat.'}
+    - {symerror: 0.00165, label: 'sys.'}
+  - value: 0.14367
+    errors:
+    - {symerror: 0.00086, label: 'stat.'}
+    - {symerror: 0.00203, label: 'sys.'}
+  - value: 0.15763
+    errors:
+    - {symerror: 0.00115, label: 'stat.'}
+    - {symerror: 0.00213, label: 'sys.'}
+  - value: 0.17281
+    errors:
+    - {symerror: 0.00151, label: 'stat.'}
+    - {symerror: 0.00240, label: 'sys.'}
+  - value: 0.18031
+    errors:
+    - {symerror: 0.00149, label: 'stat.'}
+    - {symerror: 0.00244, label: 'sys.'}
+  - value: 0.18983
+    errors:
+    - {symerror: 0.00263, label: 'stat.'}
+    - {symerror: 0.00251, label: 'sys.'}
+  - value: 0.18147
+    errors:
+    - {symerror: 0.00393, label: 'stat.'}
+    - {symerror: 0.00266, label: 'sys.'}
+  - value: 0.16102
+    errors:
+    - {symerror: 0.01018, label: 'stat.'}
+    - {symerror: 0.00367, label: 'sys.'}
+  - value: 0.14043
+    errors:
+    - {symerror: 0.02402, label: 'stat.'}
+    - {symerror: 0.00637, label: 'sys.'}
+  - value: 0.12310
+    errors:
+    - {symerror: 0.04849, label: 'stat.'}
+    - {symerror: 0.01532, label: 'sys.'}
+- header: {name: '$v_2${BBC}'}
+  qualifiers:
+  - {name: 'Subevent', value: 'ZDC-BBC-CNT'}
+  values:
+  - value: 0.02486
+    errors:
+    - {symerror: 0.00009, label: 'stat.'}
+    - {symerror: 0.01829, label: 'sys.'}
+  - value: 0.04133
+    errors:
+    - {symerror: 0.00010, label: 'stat.'}
+    - {symerror: 0.00356, label: 'sys.'}
+  - value: 0.05407
+    errors:
+    - {symerror: 0.00012, label: 'stat.'}
+    - {symerror: 0.00248, label: 'sys.'}
+  - value: 0.06625
+    errors:
+    - {symerror: 0.00013, label: 'stat.'}
+    - {symerror: 0.00216, label: 'sys.'}
+  - value: 0.07751
+    errors:
+    - {symerror: 0.00015, label: 'stat.'}
+    - {symerror: 0.00185, label: 'sys.'}
+  - value: 0.08828
+    errors:
+    - {symerror: 0.00017, label: 'stat.'}
+    - {symerror: 0.00170, label: 'sys.'}
+  - value: 0.09798
+    errors:
+    - {symerror: 0.00019, label: 'stat.'}
+    - {symerror: 0.00182, label: 'sys.'}
+  - value: 0.10799
+    errors:
+    - {symerror: 0.00021, label: 'stat.'}
+    - {symerror: 0.00148, label: 'sys.'}
+  - value: 0.12038
+    errors:
+    - {symerror: 0.00020, label: 'stat.'}
+    - {symerror: 0.00145, label: 'sys.'}
+  - value: 0.13713
+    errors:
+    - {symerror: 0.00025, label: 'stat.'}
+    - {symerror: 0.00137, label: 'sys.'}
+  - value: 0.15261
+    errors:
+    - {symerror: 0.00031, label: 'stat.'}
+    - {symerror: 0.00172, label: 'sys.'}
+  - value: 0.16688
+    errors:
+    - {symerror: 0.00040, label: 'stat.'}
+    - {symerror: 0.00162, label: 'sys.'}
+  - value: 0.17885
+    errors:
+    - {symerror: 0.00052, label: 'stat.'}
+    - {symerror: 0.00167, label: 'sys.'}
+  - value: 0.19049
+    errors:
+    - {symerror: 0.00052, label: 'stat.'}
+    - {symerror: 0.00156, label: 'sys.'}
+  - value: 0.20132
+    errors:
+    - {symerror: 0.00092, label: 'stat.'}
+    - {symerror: 0.00138, label: 'sys.'}
+  - value: 0.19905
+    errors:
+    - {symerror: 0.00138, label: 'stat.'}
+    - {symerror: 0.00199, label: 'sys.'}
+  - value: 0.17363
+    errors:
+    - {symerror: 0.00360, label: 'stat.'}
+    - {symerror: 0.00359, label: 'sys.'}
+  - value: 0.14382
+    errors:
+    - {symerror: 0.00849, label: 'stat.'}
+    - {symerror: 0.00641, label: 'sys.'}
+  - value: 0.15738
+    errors:
+    - {symerror: 0.01713, label: 'stat.'}
+    - {symerror: 0.01955, label: 'sys.'}
+- header: {name: '$v_2${ZDC-SMD}'}
+  qualifiers:
+  - {name: 'Subevent', value: 'ZDC-BBC-CNT'}
+  values:
+  - value: 0.02661
+    errors:
+    - {symerror: 0.00035, label: 'stat.'}
+    - {symerror: 0.01957, label: 'sys.'}
+  - value: 0.04188
+    errors:
+    - {symerror: 0.00037, label: 'stat.'}
+    - {symerror: 0.00361, label: 'sys.'}
+  - value: 0.05395
+    errors:
+    - {symerror: 0.00041, label: 'stat.'}
+    - {symerror: 0.00248, label: 'sys.'}
+  - value: 0.06567
+    errors:
+    - {symerror: 0.00046, label: 'stat.'}
+    - {symerror: 0.00214, label: 'sys.'}
+  - value: 0.07746
+    errors:
+    - {symerror: 0.00051, label: 'stat.'}
+    - {symerror: 0.00185, label: 'sys.'}
+  - value: 0.08730
+    errors:
+    - {symerror: 0.00057, label: 'stat.'}
+    - {symerror: 0.00169, label: 'sys.'}
+  - value: 0.09827
+    errors:
+    - {symerror: 0.00065, label: 'stat.'}
+    - {symerror: 0.00183, label: 'sys.'}
+  - value: 0.10808
+    errors:
+    - {symerror: 0.00074, label: 'stat.'}
+    - {symerror: 0.00149, label: 'sys.'}
+  - value: 0.12065
+    errors:
+    - {symerror: 0.00063, label: 'stat.'}
+    - {symerror: 0.00147, label: 'sys.'}
+  - value: 0.13535
+    errors:
+    - {symerror: 0.00081, label: 'stat.'}
+    - {symerror: 0.00138, label: 'sys.'}
+  - value: 0.14994
+    errors:
+    - {symerror: 0.00109, label: 'stat.'}
+    - {symerror: 0.00171, label: 'sys.'}
+  - value: 0.16504
+    errors:
+    - {symerror: 0.00150, label: 'stat.'}
+    - {symerror: 0.00164, label: 'sys.'}
+  - value: 0.18136
+    errors:
+    - {symerror: 0.00203, label: 'stat.'}
+    - {symerror: 0.00175, label: 'sys.'}
+  - value: 0.18912
+    errors:
+    - {symerror: 0.00200, label: 'stat.'}
+    - {symerror: 0.00162, label: 'sys.'}
+  - value: 0.19998
+    errors:
+    - {symerror: 0.00375, label: 'stat.'}
+    - {symerror: 0.00147, label: 'sys.'}
+  - value: 0.19147
+    errors:
+    - {symerror: 0.00576, label: 'stat.'}
+    - {symerror: 0.00197, label: 'sys.'}
+  - value: 0.17005
+    errors:
+    - {symerror: 0.01517, label: 'stat.'}
+    - {symerror: 0.00354, label: 'sys.'}
+  - value: 0.14833
+    errors:
+    - {symerror: 0.03585, label: 'stat.'}
+    - {symerror: 0.00662, label: 'sys.'}
+  - value: 0.13003
+    errors:
+    - {symerror: 0.07240, label: 'stat.'}
+    - {symerror: 0.01615, label: 'sys.'}

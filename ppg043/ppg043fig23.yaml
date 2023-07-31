@@ -1,0 +1,126 @@
+independent_variables:
+- header: {name: '$p_T$ Bins (GeV/$c$)'}
+  values:
+  - {low: 0.2, high: 0.3}
+  - {low: 0.3, high: 0.4}
+  - {low: 0.4, high: 0.5}
+  - {low: 0.5, high: 0.6}
+  - {low: 0.6, high: 0.7}
+  - {low: 0.7, high: 0.8}
+  - {low: 0.8, high: 0.9}
+  - {low: 0.9, high: 1.0}
+  - {low: 1.0, high: 1.2}
+  - {low: 1.2, high: 1.4}
+  - {low: 1.4, high: 1.6}
+  - {low: 1.6, high: 1.8}
+  - {low: 1.8, high: 2.0}
+  - {low: 2.0, high: 2.4}
+  - {low: 2.4, high: 3.0}
+  - {low: 3.0, high: 3.9}
+  - {low: 3.9, high: 4.9}
+  - {low: 4.9, high: 5.9}
+  - {low: 5.9, high: 7.5}
+dependent_variables:
+- header: {name: '$p_T$ (GeV/$c$)'}
+  qualifiers:
+  - {name: 'Centrality (%)', value: ''}
+  values:
+  - value: 0.251
+  - value: 0.349
+  - value: 0.448
+  - value: 0.548
+  - value: 0.648
+  - value: 0.748
+  - value: 0.848
+  - value: 0.948
+  - value: 1.091
+  - value: 1.290
+  - value: 1.489
+  - value: 1.689
+  - value: 1.890
+  - value: 2.198
+  - value: 2.700
+  - value: 3.348
+  - value: 4.373
+  - value: 5.452
+  - value: 6.734
+- header: {name: '$v_2${2}'}
+  qualifiers:
+  - {name: 'Centrality (%)', value: '20-60%'}
+  values:
+  - value: 0.00778
+    errors:
+    - {symerror: 0.00011, label: 'stat.'}
+    - {symerror: 0.00103, label: 'sys.'}
+  - value: 0.03793
+    errors:
+    - {symerror: 0.00016, label: 'stat.'}
+    - {symerror: 0.00500, label: 'sys.'}
+  - value: 0.05476
+    errors:
+    - {symerror: 0.00020, label: 'stat.'}
+    - {symerror: 0.00722, label: 'sys.'}
+  - value: 0.06374
+    errors:
+    - {symerror: 0.00023, label: 'stat.'}
+    - {symerror: 0.00841, label: 'sys.'}
+  - value: 0.07303
+    errors:
+    - {symerror: 0.00026, label: 'stat.'}
+    - {symerror: 0.00963, label: 'sys.'}
+  - value: 0.08283
+    errors:
+    - {symerror: 0.00030, label: 'stat.'}
+    - {symerror: 0.01093, label: 'sys.'}
+  - value: 0.09301
+    errors:
+    - {symerror: 0.00034, label: 'stat.'}
+    - {symerror: 0.01227, label: 'sys.'}
+  - value: 0.10247
+    errors:
+    - {symerror: 0.00039, label: 'stat.'}
+    - {symerror: 0.01352, label: 'sys.'}
+  - value: 0.11444
+    errors:
+    - {symerror: 0.00034, label: 'stat.'}
+    - {symerror: 0.01510, label: 'sys.'}
+  - value: 0.13201
+    errors:
+    - {symerror: 0.00044, label: 'stat.'}
+    - {symerror: 0.01741, label: 'sys.'}
+  - value: 0.14884
+    errors:
+    - {symerror: 0.00058, label: 'stat.'}
+    - {symerror: 0.01963, label: 'sys.'}
+  - value: 0.16226
+    errors:
+    - {symerror: 0.00080, label: 'stat.'}
+    - {symerror: 0.02140, label: 'sys.'}
+  - value: 0.17456
+    errors:
+    - {symerror: 0.00108, label: 'stat.'}
+    - {symerror: 0.02303, label: 'sys.'}
+  - value: 0.19027
+    errors:
+    - {symerror: 0.00106, label: 'stat.'}
+    - {symerror: 0.02510, label: 'sys.'}
+  - value: 0.20415
+    errors:
+    - {symerror: 0.00201, label: 'stat.'}
+    - {symerror: 0.02693, label: 'sys.'}
+  - value: 0.21363
+    errors:
+    - {symerror: 0.00304, label: 'stat.'}
+    - {symerror: 0.02818, label: 'sys.'}
+  - value: 0.19568
+    errors:
+    - {symerror: 0.00653, label: 'stat.'}
+    - {symerror: 0.02581, label: 'sys.'}
+  - value: 0.23823
+    errors:
+    - {symerror: 0.01494, label: 'stat.'}
+    - {symerror: 0.03142, label: 'sys.'}
+  - value: 0.18915
+    errors:
+    - {symerror: 0.02297, label: 'stat.'}
+    - {symerror: 0.02495, label: 'sys.'}
