@@ -2,7 +2,7 @@ independent_variables:
 - header: {name: '$p_{T}$ [GeV/$c$]'}
   values:
   - {low: 0.00, high: 0.50}
-  - {low: 1.50, high: 1.00}
+  - {low: 0.50, high: 1.00}
   - {low: 1.00, high: 1.50}
   - {low: 1.50, high: 2.00}
   - {low: 2.00, high: 2.50}
@@ -19,60 +19,60 @@ dependent_variables:
   - value: 12.00
     errors:
     - {symerror: 3.40, label: 'stat.'}
-    - {asymerror: {plus: 1.90, minus: 1.60}, label: 'sys. B'}
+    - {asymerror: {plus: 1.90, minus: -1.60}, label: 'sys. B'}
     - {symerror: 1.40, label: 'sys. C'}
   - value: 13.10
     errors:
     - {symerror: 2.00, label: 'stat.'}
-    - {asymerror: {plus: 1.80, minus: 1.40}, label: 'sys. B'}
+    - {asymerror: {plus: 1.80, minus: -1.40}, label: 'sys. B'}
     - {symerror: 1.60, label: 'sys. C'}
   - value: 7.48
     errors:
     - {symerror: 1.30, label: 'stat.'}
-    - {asymerror: {plus: 1.42, minus: 1.14}, label: 'sys. B'}
+    - {asymerror: {plus: 1.42, minus: -1.14}, label: 'sys. B'}
     - {symerror: 0.90, label: 'sys. C'}
   - value: 6.22
     errors:
     - {symerror: 0.93, label: 'stat.'}
-    - {asymerror: {plus: 1.00, minus: 0.81}, label: 'sys. B'}
+    - {asymerror: {plus: 1.00, minus: -0.81}, label: 'sys. B'}
     - {symerror: 0.75, label: 'sys. C'}
   - value: 2.48
     errors:
     - {symerror: 0.55, label: 'stat.'}
-    - {asymerror: {plus: 0.59, minus: 0.46}, label: 'sys. B'}
+    - {asymerror: {plus: 0.59, minus: -0.46}, label: 'sys. B'}
     - {symerror: 0.30, label: 'sys. C'}
   - value: 1.22
     errors:
     - {symerror: 0.39, label: 'stat.'}
-    - {asymerror: {plus: 0.37, minus: 0.29}, label: 'sys. B'}
+    - {asymerror: {plus: 0.37, minus: -0.29}, label: 'sys. B'}
     - {symerror: 0.15, label: 'sys. C'}
   - value: 0.41
     errors:
     - {symerror: 0.24, label: 'stat.'}
-    - {asymerror: {plus: 0.21, minus: 0.16}, label: 'sys. B'}
+    - {asymerror: {plus: 0.21, minus: -0.16}, label: 'sys. B'}
     - {symerror: 0.05, label: 'sys. C'}
   - value: 0.69
     errors:
     - {symerror: 0.20, label: 'stat.'}
-    - {asymerror: {plus: 0.12, minus: 0.10}, label: 'sys. B'}
+    - {asymerror: {plus: 0.12, minus: -0.10}, label: 'sys. B'}
     - {symerror: 0.08, label: 'sys. C'}
   - value: 0.63
     errors:
     - {symerror: 0.16, label: 'stat.'}
-    - {asymerror: {plus: 0.08, minus: 0.07}, label: 'sys. B'}
+    - {asymerror: {plus: 0.08, minus: -0.07}, label: 'sys. B'}
     - {symerror: 0.08, label: 'sys. C'}
   - value: 0.09
     errors:
     - {symerror: 0.09, label: 'stat.'}
-    - {asymerror: {plus: 0.03, minus: 0.03}, label: 'sys. B'}
+    - {asymerror: {plus: 0.03, minus: -0.03}, label: 'sys. B'}
     - {symerror: 0.01, label: 'sys. C'}
   - value: 0.09
     errors:
     - {symerror: 0.07, label: 'stat.'}
-    - {asymerror: {plus: 0.02, minus: 0.02}, label: 'sys. B'}
+    - {asymerror: {plus: 0.02, minus: -0.02}, label: 'sys. B'}
     - {symerror: 0.01, label: 'sys. C'}
   - value: 0.13
     errors:
     - {symerror: 0.07, label: 'stat.'}
-    - {asymerror: {plus: 0.02, minus: 0.02}, label: 'sys. B'}
+    - {asymerror: {plus: 0.02, minus: -0.02}, label: 'sys. B'}
     - {symerror: 0.02, label: 'sys. C'}
