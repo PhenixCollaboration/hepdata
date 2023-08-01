@@ -1,0 +1,28 @@
+independent_variables:
+- header: {name: '$p_T$ (GeV/$c$)'}
+  values:
+  - {low: 5.0, high: 6.0}
+  - {low: 6.0, high: 7.0}
+  - {low: 7.0, high: 8.0}
+  - {low: 8.0, high: 10.0}
+  - {low: 10.0, high: 12.0}
+dependent_variables:
+- header: {name: '$dN$/$N_{trig} dx_E$'}
+  qualifiers:
+  - {name: '$x_E$ Range', value: '0.36 < $x_E$ < 0.42'}
+  values:
+  - value: 0.74
+    errors:
+    - {symerror: 0.08, label: 'stat.'}
+  - value: 0.76
+    errors:
+    - {symerror: 0.07, label: 'stat.'}
+  - value: 0.74
+    errors:
+    - {symerror: 0.09, label: 'stat.'}
+  - value: 0.65
+    errors:
+    - {symerror: 0.10, label: 'stat.'}
+  - value: 0.51
+    errors:
+    - {symerror: 0.17, label: 'stat.'}

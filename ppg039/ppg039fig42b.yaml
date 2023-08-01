@@ -1,0 +1,94 @@
+independent_variables:
+- header: {name: '$p_{T,assoc}$ Bins (GeV/$c$)'}
+  values:
+  - {low: 1.0, high: 1.5}
+  - {low: 1.5, high: 2.0}
+  - {low: 2.0, high: 3.0}
+  - {low: 3.0, high: 4.0}
+  - {low: 4.0, high: 5.0}
+dependent_variables:
+- header: {name: '$p_{T,assoc}$ (GeV/$c$)'}
+  qualifiers:
+  - {name: '', value: ''}
+  values:
+  - value: 1.21
+  - value: 1.71
+  - value: 2.37
+  - value: 3.39
+  - value: 4.41
+- header: {name: 'Ratio of Associated Yield'}
+  qualifiers:
+  - {name: '', value: 'Near Side Red'}
+  values:
+  - value: 0.978
+    errors:
+    - {symerror: 0.093, label: 'stat.'}
+  - value: 0.871
+    errors:
+    - {symerror: 0.068, label: 'stat.'}
+  - value: 0.731
+    errors:
+    - {symerror: 0.045, label: 'stat.'}
+  - value: 0.773
+    errors:
+    - {symerror: 0.060, label: 'stat.'}
+  - value: 0.798
+    errors:
+    - {symerror: 0.094, label: 'stat.'}
+- header: {name: 'Ratio of Associated Yield'}
+  qualifiers:
+  - {name: '', value: 'Near Side Blue'}
+  values:
+  - value: 0.949
+    errors:
+    - {symerror: 0.083, label: 'stat.'}
+  - value: 1.271
+    errors:
+    - {symerror: 0.096, label: 'stat.'}
+  - value: 0.848
+    errors:
+    - {symerror: 0.053, label: 'stat.'}
+  - value: 0.600
+    errors:
+    - {symerror: 0.057, label: 'stat.'}
+  - value: 0.684
+    errors:
+    - {symerror: 0.088, label: 'stat.'}
+- header: {name: 'Ratio of Associated Yield'}
+  qualifiers:
+  - {name: '', value: 'Far Side Red'}
+  values:
+  - value: 1.260
+    errors:
+    - {symerror: 0.152, label: 'stat.'}
+  - value: 1.007
+    errors:
+    - {symerror: 0.120, label: 'stat.'}
+  - value: 0.982
+    errors:
+    - {symerror: 0.096, label: 'stat.'}
+  - value: 1.182
+    errors:
+    - {symerror: 0.166, label: 'stat.'}
+  - value: 0.579
+    errors:
+    - {symerror: 0.131, label: 'stat.'}
+- header: {name: 'Ratio of Associated Yield'}
+  qualifiers:
+  - {name: '', value: 'Far Side Blue'}
+  values:
+  - value: 1.001
+    errors:
+    - {symerror: 0.133, label: 'stat.'}
+  - value: 1.203
+    errors:
+    - {symerror: 0.142, label: 'stat.'}
+  - value: 1.195
+    errors:
+    - {symerror: 0.123, label: 'stat.'}
+  - value: 1.107
+    errors:
+    - {symerror: 0.155, label: 'stat.'}
+  - value: 1.142
+    errors:
+    - {symerror: 0.226, label: 'stat.'}

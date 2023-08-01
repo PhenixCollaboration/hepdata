@@ -1,0 +1,120 @@
+independent_variables:
+- header: {name: '$p_T$ (GeV/$c$)'}
+  values:
+  - {low: 5.0, high: 6.0}
+  - {low: 6.0, high: 7.0}
+  - {low: 7.0, high: 8.0}
+  - {low: 8.0, high: 10.0}
+  - {low: 10.0, high: 12.0}
+  - {low: 12.0, high: 16.0}
+dependent_variables:
+- header: {name: '$dN$/$N_{trig} dx_E$'}
+  qualifiers:
+  - {name: '$x_E$ Range', value: '0.06 < $x_E$ < 0.12'}
+  values:
+  - value: 8.26
+    errors:
+    - {symerror: 0.67, label: 'stat.'}
+  - value: 10.63
+    errors:
+    - {symerror: 0.45, label: 'stat.'}
+  - value: 10.10
+    errors:
+    - {symerror: 0.56, label: 'stat.'}
+  - value: 11.76
+    errors:
+    - {symerror: 0.66, label: 'stat.'}
+  - value: 9.87
+    errors:
+    - {symerror: 1.21, label: 'stat.'}
+  - value: 9.59
+    errors:
+    - {symerror: 1.54, label: 'stat.'}
+- header: {name: '$dN$/$N_{trig} dx_E$'}
+  qualifiers:
+  - {name: '$x_E$ Range', value: '0.12 < $x_E$ < 0.18'}
+  values:
+  - value: 5.42
+    errors:
+    - {symerror: 0.28, label: 'stat.'}
+  - value: 5.21
+    errors:
+    - {symerror: 0.28, label: 'stat.'}
+  - value: 5.15
+    errors:
+    - {symerror: 0.36, label: 'stat.'}
+  - value: 5.33
+    errors:
+    - {symerror: 0.40, label: 'stat.'}
+  - value: 5.74
+    errors:
+    - {symerror: 0.74, label: 'stat.'}
+  - value: 6.08
+    errors:
+    - {symerror: 0.98, label: 'stat.'}
+- header: {name: '$dN$/$N_{trig} dx_E$'}
+  qualifiers:
+  - {name: '$x_E$ Range', value: '0.18 < $x_E$ < 0.24'}
+  values:
+  - value: 3.35
+    errors:
+    - {symerror: 0.21, label: 'stat.'}
+  - value: 3.07
+    errors:
+    - {symerror: 0.19, label: 'stat.'}
+  - value: 2.71
+    errors:
+    - {symerror: 0.23, label: 'stat.'}
+  - value: 3.43
+    errors:
+    - {symerror: 0.27, label: 'stat.'}
+  - value: 2.16
+    errors:
+    - {symerror: 0.43, label: 'stat.'}
+  - value: 1.80
+    errors:
+    - {symerror: 0.50, label: 'stat.'}
+- header: {name: '$dN$/$N_{trig} dx_E$'}
+  qualifiers:
+  - {name: '$x_E$ Range', value: '0.24 < $x_E$ < 0.30'}
+  values:
+  - value: 1.96
+    errors:
+    - {symerror: 0.14, label: 'stat.'}
+  - value: 1.85
+    errors:
+    - {symerror: 0.13, label: 'stat.'}
+  - value: 1.68
+    errors:
+    - {symerror: 0.16, label: 'stat.'}
+  - value: 2.04
+    errors:
+    - {symerror: 0.19, label: 'stat.'}
+  - value: 1.84
+    errors:
+    - {symerror: 0.35, label: 'stat.'}
+  - value: 2.02
+    errors:
+    - {symerror: 0.50, label: 'stat.'}
+- header: {name: '$dN$/$N_{trig} dx_E$'}
+  qualifiers:
+  - {name: '$x_E$ Range', value: '0.30 < $x_E$ < 0.36'}
+  values:
+  - value: 1.25
+    errors:
+    - {symerror: 0.10, label: 'stat.'}
+  - value: 1.06
+    errors:
+    - {symerror: 0.09, label: 'stat.'}
+  - value: 1.02
+    errors:
+    - {symerror: 0.11, label: 'stat.'}
+  - value: 1.08
+    errors:
+    - {symerror: 0.13, label: 'stat.'}
+  - value: 0.84
+    errors:
+    - {symerror: 0.23, label: 'stat.'}
+  - value: 1.12
+    errors:
+    - {symerror: 0.65, label: 'stat.'}

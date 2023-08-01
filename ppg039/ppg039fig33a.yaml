@@ -1,0 +1,75 @@
+independent_variables:
+- header: {name: '$p_{T,assoc}$ (GeV/$c$)'}
+  values:
+  - {low: 0.4, high: 0.6}
+  - {low: 0.6, high: 0.8}
+  - {low: 0.8, high: 1.0}
+  - {low: 1.0, high: 1.5}
+  - {low: 1.5, high: 2.0}
+  - {low: 2.0, high: 2.5}
+  - {low: 2.5, high: 3.0}
+  - {low: 3.0, high: 4.0}
+  - {low: 4.0, high: 5.0}
+dependent_variables:
+- header: {name: '$\sqrt{<j^2_{Ty}>}$ (GeV/$c$)'}
+  qualifiers:
+  - {name: 'Collision', value: '$d$+Au'}
+  values:
+  - value: 0.199
+    errors:
+    - {symerror: 0.027, label: 'stat.'}
+  - value: 0.250
+    errors:
+    - {symerror: 0.025, label: 'stat.'}
+  - value: 0.279
+    errors:
+    - {symerror: 0.024, label: 'stat.'}
+  - value: 0.319
+    errors:
+    - {symerror: 0.038, label: 'stat.'}
+  - value: 0.349
+    errors:
+    - {symerror: 0.029, label: 'stat.'}
+  - value: 0.401
+    errors:
+    - {symerror: 0.031, label: 'stat.'}
+  - value: 0.410
+    errors:
+    - {symerror: 0.028, label: 'stat.'}
+  - value: 0.408
+    errors:
+    - {symerror: 0.038, label: 'stat.'}
+  - value: 0.468
+    errors:
+    - {symerror: 0.040, label: 'stat.'}
+- header: {name: '$\sqrt{<j^2_{Ty}>}$ (GeV/$c$)'}
+  qualifiers:
+  - {name: 'Collision', value: '$p$+$p$'}
+  values:
+  - value: 0.189
+    errors:
+    - {symerror: 0.027, label: 'stat.'}
+  - value: 0.244
+    errors:
+    - {symerror: 0.027, label: 'stat.'}
+  - value: 0.254
+    errors:
+    - {symerror: 0.024, label: 'stat.'}
+  - value: 0.331
+    errors:
+    - {symerror: 0.040, label: 'stat.'}
+  - value: 0.374
+    errors:
+    - {symerror: 0.034, label: 'stat.'}
+  - value: 0.395
+    errors:
+    - {symerror: 0.036, label: 'stat.'}
+  - value: 0.478
+    errors:
+    - {symerror: 0.039, label: 'stat.'}
+  - value: 0.448
+    errors:
+    - {symerror: 0.046, label: 'stat.'}
+  - value: 0.413
+    errors:
+    - {symerror: 0.044, label: 'stat.'}

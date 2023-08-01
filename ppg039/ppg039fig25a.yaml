@@ -1,0 +1,37 @@
+independent_variables:
+- header: {name: '$p_{T,assoc}$ Bins (GeV/$c$)'}
+  values:
+  - {low: 1.0, high: 1.5}
+  - {low: 1.5, high: 2.0}
+  - {low: 2.0, high: 3.0}
+  - {low: 3.0, high: 4.0}
+  - {low: 4.0, high: 5.0}
+dependent_variables:
+- header: {name: '$p_{T,assoc}$ (GeV/$c$)'}
+  qualifiers:
+  - {name: '', value: ''}
+  values:
+  - value: 1.21
+  - value: 1.71
+  - value: 2.37
+  - value: 3.39
+  - value: 4.41
+- header: {name: '$<{sin}^2 \phi_{jj}>$'}
+  qualifiers:
+  - {name: '', value: '$\pi^0$-$h^{\pm}$'}
+  values:
+  - value: 0.141
+    errors:
+    - {symerror: 0.017, label: 'stat.'}
+  - value: 0.104
+    errors:
+    - {symerror: 0.013, label: 'stat.'}
+  - value: 0.097
+    errors:
+    - {symerror: 0.009, label: 'stat.'}
+  - value: 0.067
+    errors:
+    - {symerror: 0.011, label: 'stat.'}
+  - value: 0.076
+    errors:
+    - {symerror: 0.014, label: 'stat.'}

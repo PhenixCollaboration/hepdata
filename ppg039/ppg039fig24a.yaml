@@ -1,0 +1,32 @@
+independent_variables:
+- header: {name: '$p_{T,assoc}$ Bins (GeV/$c$)'}
+  values:
+  - {low: 1.0, high: 1.5}
+  - {low: 1.5, high: 2.0}
+  - {low: 2.0, high: 3.0}
+  - {low: 3.0, high: 4.0}
+dependent_variables:
+- header: {name: '$p_{T,assoc}$ (GeV/$c$)'}
+  qualifiers:
+  - {name: '', value: ''}
+  values:
+  - value: 1.200
+  - value: 1.700
+  - value: 2.340
+  - value: 3.360
+- header: {name: '$\sqrt{<j^2_{Ty}>}$ (GeV/$c$)'}
+  qualifiers:
+  - {name: '', value: '$h^{\pm}$-$h^{\pm}$ fixed-$p_T$'}
+  values:
+  - value: 0.429
+    errors:
+    - {symerror: 0.020, label: 'stat.'}
+  - value: 0.475
+    errors:
+    - {symerror: 0.025, label: 'stat.'}
+  - value: 0.475
+    errors:
+    - {symerror: 0.023, label: 'stat.'}
+  - value: 0.511
+    errors:
+    - {symerror: 0.050, label: 'stat.'}

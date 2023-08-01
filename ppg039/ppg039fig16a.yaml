@@ -1,0 +1,57 @@
+independent_variables:
+- header: {name: '$p_{T,assoc}$ Bins (GeV/$c$)'}
+  values:
+  - {low: 0.4, high: 0.6}
+  - {low: 0.6, high: 0.8}
+  - {low: 0.8, high: 1.0}
+  - {low: 1.0, high: 1.5}
+  - {low: 1.5, high: 2.0}
+  - {low: 2.0, high: 2.5}
+  - {low: 2.5, high: 3.0}
+  - {low: 3.0, high: 4.0}
+  - {low: 4.0, high: 5.0}
+dependent_variables:
+- header: {name: '$p_{T,assoc}$ (GeV/$c$)'}
+  qualifiers:
+  - {name: '', value: ''}
+  values:
+  - value: 0.500
+  - value: 0.696
+  - value: 0.899
+  - value: 1.235
+  - value: 1.751
+  - value: 2.239
+  - value: 2.729
+  - value: 3.435
+  - value: 4.422
+- header: {name: '$\sigma$ (rad)'}
+  qualifiers:
+  - {name: '', value: '$\pi^{\pm}$-$h^{\pm}$'}
+  values:
+  - value: 0.440
+    errors:
+    - {symerror: 0.044, label: 'stat.'}
+  - value: 0.391
+    errors:
+    - {symerror: 0.026, label: 'stat.'}
+  - value: 0.331
+    errors:
+    - {symerror: 0.023, label: 'stat.'}
+  - value: 0.271
+    errors:
+    - {symerror: 0.010, label: 'stat.'}
+  - value: 0.210
+    errors:
+    - {symerror: 0.008, label: 'stat.'}
+  - value: 0.193
+    errors:
+    - {symerror: 0.009, label: 'stat.'}
+  - value: 0.165
+    errors:
+    - {symerror: 0.007, label: 'stat.'}
+  - value: 0.135
+    errors:
+    - {symerror: 0.006, label: 'stat.'}
+  - value: 0.128
+    errors:
+    - {symerror: 0.008, label: 'stat.'}
