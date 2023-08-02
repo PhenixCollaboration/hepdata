@@ -1,0 +1,59 @@
+independent_variables:
+- header: {name: '$X_E$'}
+  values:
+  - {low: 0.05, high: 0.10}
+  - {low: 0.10, high: 0.20}
+  - {low: 0.20, high: 0.25}
+  - {low: 0.25, high: 0.30}
+  - {low: 0.30, high: 0.35}
+  - {low: 0.35, high: 0.40}
+  - {low: 0.40, high: 0.50}
+dependent_variables:
+- header: {name: '$\beta$ (GeV/$c^{-1}$)'}
+  qualifiers:
+  - {name: 'Collision', value: '$p$+$p$'}
+  values:
+  - value: 0.194
+    errors:
+    - {symerror: 0.119, label: 'stat.'}
+  - value: -0.004
+    errors:
+    - {symerror: 0.026, label: 'stat.'}
+  - value: -0.031
+    errors:
+    - {symerror: 0.022, label: 'stat.'}
+  - value: 0.030
+    errors:
+    - {symerror: 0.069, label: 'stat.'}
+  - value: -0.091
+  - value: -0.077
+    errors:
+    - {symerror: 0.017, label: 'stat.'}
+  - value: -0.063
+    errors:
+    - {symerror: 0.033, label: 'stat.'}
+- header: {name: '$\beta$ (GeV/$c^{-1}$)'}
+  qualifiers:
+  - {name: 'Collision', value: '$d$+Au'}
+  values:
+  - value: 0.034
+    errors:
+    - {symerror: 0.025, label: 'stat.'}
+  - value: -0.006
+    errors:
+    - {symerror: 0.016, label: 'stat.'}
+  - value: -0.014
+    errors:
+    - {symerror: 0.017, label: 'stat.'}
+  - value: 0.016
+    errors:
+    - {symerror: 0.034, label: 'stat.'}
+  - value: -0.023
+    errors:
+    - {symerror: 0.023, label: 'stat.'}
+  - value: 0.004
+    errors:
+    - {symerror: 0.050, label: 'stat.'}
+  - value: -0.059
+    errors:
+    - {symerror: 0.024, label: 'stat.'}

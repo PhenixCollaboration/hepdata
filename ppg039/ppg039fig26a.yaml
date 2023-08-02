@@ -1,0 +1,27 @@
+independent_variables:
+- header: {name: '$p_{T,trig}$ Bins (GeV/$c$)'}
+  values:
+  - {low: 5.0, high: 6.0}
+  - {low: 6.0, high: 7.0}
+  - {low: 7.0, high: 8.0}
+dependent_variables:
+- header: {name: '$p_{T,trig}$ (GeV/$c$)'}
+  qualifiers:
+  - {name: '', value: ''}
+  values:
+  - value: 5.40
+  - value: 6.39
+  - value: 7.63
+- header: {name: '$<{sin}^2 \phi_{jj}>$'}
+  qualifiers:
+  - {name: '', value: '$\pi^0$-$h^{\pm}$'}
+  values:
+  - value: 0.096
+    errors:
+    - {symerror: 0.009, label: 'stat.'}
+  - value: 0.103
+    errors:
+    - {symerror: 0.014, label: 'stat.'}
+  - value: 0.032
+    errors:
+    - {symerror: 0.011, label: 'stat.'}

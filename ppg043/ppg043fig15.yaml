@@ -1,0 +1,98 @@
+independent_variables:
+- header: {name: 'Centrality (%)'}
+  values:
+  - {low: 0, high: 10}
+  - {low: 10, high: 20}
+  - {low: 20, high: 30}
+  - {low: 30, high: 40}
+  - {low: 40, high: 50}
+  - {low: 50, high: 60}
+dependent_variables:
+- header: {name: 'Resolution'}
+  qualifiers:
+  - {name: 'Event-Plane', value: 'BBC S-N'}
+  values:
+  - value: 0.2637
+    errors:
+    - {symerror: 0.0003, label: 'stat.'}
+  - value: 0.3809
+    errors:
+    - {symerror: 0.0002, label: 'stat.'}
+  - value: 0.3990
+    errors:
+    - {symerror: 0.0002, label: 'stat.'}
+  - value: 0.3634
+    errors:
+    - {symerror: 0.0002, label: 'stat.'}
+  - value: 0.2943
+    errors:
+    - {symerror: 0.0003, label: 'stat.'}
+  - value: 0.2106
+    errors:
+    - {symerror: 0.0004, label: 'stat.'}
+- header: {name: 'Resolution'}
+  qualifiers:
+  - {name: 'Event-Plane', value: 'BBC ZDC-BBC-CNT'}
+  values:
+  - value: 0.272
+    errors:
+    - {symerror: 0.003, label: 'stat.'}
+  - value: 0.394
+    errors:
+    - {symerror: 0.001, label: 'stat.'}
+  - value: 0.4106
+    errors:
+    - {symerror: 0.0008, label: 'stat.'}
+  - value: 0.3759
+    errors:
+    - {symerror: 0.0007, label: 'stat.'}
+  - value: 0.3067
+    errors:
+    - {symerror: 0.0007, label: 'stat.'}
+  - value: 0.2240
+    errors:
+    - {symerror: 0.0009, label: 'stat.'}
+- header: {name: 'Resolution'}
+  qualifiers:
+  - {name: 'Event-Plane', value: 'ZDC-SMD S-N'}
+  values:
+  - value: 0.02
+    errors:
+    - {symerror: 0.01, label: 'stat.'}
+  - value: 0.059
+    errors:
+    - {symerror: 0.003, label: 'stat.'}
+  - value: 0.087
+    errors:
+    - {symerror: 0.002, label: 'stat.'}
+  - value: 0.100
+    errors:
+    - {symerror: 0.002, label: 'stat.'}
+  - value: 0.102
+    errors:
+    - {symerror: 0.002, label: 'stat.'}
+  - value: 0.100
+    errors:
+    - {symerror: 0.002, label: 'stat.'}
+- header: {name: 'Resolution'}
+  qualifiers:
+  - {name: 'Event-Plane', value: 'ZDC-SMD ZDC-BBC-CNT'}
+  values:
+  - value: 0.0223
+    errors:
+    - {symerror: 0.0003, label: 'stat.'}
+  - value: 0.0574
+    errors:
+    - {symerror: 0.0002, label: 'stat.'}
+  - value: 0.0818
+    errors:
+    - {symerror: 0.0002, label: 'stat.'}
+  - value: 0.0928
+    errors:
+    - {symerror: 0.0002, label: 'stat.'}
+  - value: 0.0920
+    errors:
+    - {symerror: 0.0002, label: 'stat.'}
+  - value: 0.0798
+    errors:
+    - {symerror: 0.0003, label: 'stat.'}

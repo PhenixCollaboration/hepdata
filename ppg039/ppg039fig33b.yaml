@@ -1,0 +1,47 @@
+independent_variables:
+- header: {name: '$p_{T,trig}$ (GeV/$c$)'}
+  values:
+  - {low: 1.0, high: 1.5}
+  - {low: 1.5, high: 2.0}
+  - {low: 2.0, high: 3.0}
+  - {low: 3.0, high: 4.0}
+  - {low: 4.0, high: 5.0}
+dependent_variables:
+- header: {name: '$<{sin}^2 \phi_{jj}>$'}
+  qualifiers:
+  - {name: 'Collision', value: '$d$+Au'}
+  values:
+  - value: 0.330
+    errors:
+    - {symerror: 0.013, label: 'stat.'}
+  - value: 0.368
+    errors:
+    - {symerror: 0.013, label: 'stat.'}
+  - value: 0.419
+    errors:
+    - {symerror: 0.011, label: 'stat.'}
+  - value: 0.514
+    errors:
+    - {symerror: 0.018, label: 'stat.'}
+  - value: 0.454
+    errors:
+    - {symerror: 0.024, label: 'stat.'}
+- header: {name: '$<{sin}^2 \phi_{jj}>$'}
+  qualifiers:
+  - {name: 'Collision', value: '$p$+$p$'}
+  values:
+  - value: 0.346
+    errors:
+    - {symerror: 0.019, label: 'stat.'}
+  - value: 0.375
+    errors:
+    - {symerror: 0.019, label: 'stat.'}
+  - value: 0.445
+    errors:
+    - {symerror: 0.020, label: 'stat.'}
+  - value: 0.485
+    errors:
+    - {symerror: 0.021, label: 'stat.'}
+  - value: 0.451
+    errors:
+    - {symerror: 0.033, label: 'stat.'}
