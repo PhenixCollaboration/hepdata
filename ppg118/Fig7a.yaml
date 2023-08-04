@@ -1,5 +1,5 @@
 independent_variables:
-- header: {name: '$p_T$ (GeV/$c$)'}
+- header: {name: '$p_T$ ($\mathrm{GeV}$/$c$)'}
   values:
   - {low: 0.00, high: 0.25}
   - {low: 0.25, high: 0.50}
@@ -11,8 +11,20 @@ independent_variables:
   - {low: 2.00, high: 3.00}
   - {low: 3.00, high: 4.00}
 dependent_variables:
+- header: {name: '$p_T$ ($\mathrm{GeV}$/$c$) ($\mathrm{actual}$ $\mathrm{values}$)'}
+  values: 
+  - value: 0.125
+  - value: 0.325
+  - value: 0.625
+  - value: 0.875
+  - value: 1.125
+  - value: 1.375
+  - value: 1.75
+  - value: 2.5
+  - value: 3.5
 - header: {name: 'Ratio'}
   qualifiers:
+  - {name: 'Collision', value: '$p$+$p$'}
   - {name: 'Decay Channel', value: '${e}^{+}{e}^{-}$'}
   values:
   - value: 0.027

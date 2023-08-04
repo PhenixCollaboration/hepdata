@@ -1,5 +1,5 @@
 independent_variables:
-- header: {name: '$p_T$ (GeV/$c$)'}
+- header: {name: '$p_T$ ($\mathrm{GeV}$/$c$)'}
   values:
   - {low: 2.5, high: 3.5}
   - {low: 3.5, high: 4.5}
@@ -12,9 +12,22 @@ independent_variables:
   - {low: 10.5, high: 11.5}
   - {low: 11.5, high: 13.5}
 dependent_variables:
+- header: {name: '$p_T$ ($\mathrm{GeV}$/$c$) ($\mathrm{actual}$ $\mathrm{values}$)'}
+  values: 
+  - value: 3
+  - value: 4
+  - value: 5
+  - value: 6
+  - value: 7
+  - value: 8
+  - value: 9
+  - value: 10
+  - value: 11
+  - value: 12.5
 - header: {name: '$1/{N_{evt}}$ ${1}/{2} \pi {p}_{T} $ $ {{d}^{2}N}/{dy d{p}_{T}} {(GeV/c)}^{-2}$'}
   qualifiers:
   - {name: 'Collision', value: '$d$ + Au'}
+  - {name: 'Decay Channel', value: '$\omega$ $\rightarrow$ $\pi^+ \pi^- \pi^0$'}
   - {name: 'Centrality', value: 'Min. bias'}
   values:
   - value: 2.70e-4
@@ -60,6 +73,7 @@ dependent_variables:
 - header: {name: '$1/{N_{evt}}$ ${1}/{2} \pi {p}_{T} $ $ {{d}^{2}N}/{dy d{p}_{T}} {(GeV/c)}^{-2}$'}
   qualifiers:
   - {name: 'Collision', value: '$d$ + Au'}
+  - {name: 'Decay Channel', value: '$\omega$ $\rightarrow$ $\pi^+ \pi^- \pi^0$'}
   - {name: 'Centrality', value: '0-20%'}
   values:
   - value: 6.0e-4
@@ -105,6 +119,7 @@ dependent_variables:
 - header: {name: '$1/{N_{evt}}$ ${1}/{2} \pi {p}_{T} $ $ {{d}^{2}N}/{dy d{p}_{T}} {(GeV/c)}^{-2}$'}
   qualifiers:
   - {name: 'Collision', value: '$d$ + Au'}
+  - {name: 'Decay Channel', value: '$\omega$ $\rightarrow$ $\pi^+ \pi^- \pi^0$'}
   - {name: 'Centrality', value: '20-40%'}
   values:
   - value: 3.9e-4
@@ -150,6 +165,7 @@ dependent_variables:
 - header: {name: '$1/{N_{evt}}$ ${1}/{2} \pi {p}_{T} $ $ {{d}^{2}N}/{dy d{p}_{T}} {(GeV/c)}^{-2}$'}
   qualifiers:
   - {name: 'Collision', value: '$d$ + Au'}
+  - {name: 'Decay Channel', value: '$\omega$ $\rightarrow$ $\pi^+ \pi^- \pi^0$'}
   - {name: 'Centrality', value: '40-60%'}
   values:
   - value: 2.30e-4
@@ -195,6 +211,7 @@ dependent_variables:
 - header: {name: '$1/{N_{evt}}$ ${1}/{2} \pi {p}_{T} $ $ {{d}^{2}N}/{dy d{p}_{T}} {(GeV/c)}^{-2}$'}
   qualifiers:
   - {name: 'Collision', value: '$d$ + Au'}
+  - {name: 'Decay Channel', value: '$\omega$ $\rightarrow$ $\pi^+ \pi^- \pi^0$'}
   - {name: 'Centrality', value: '60-88%'}
   values:
   - value: 1.11e-4

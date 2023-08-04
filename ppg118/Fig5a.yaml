@@ -1,5 +1,5 @@
 independent_variables:
-- header: {name: '$p_T$ (GeV/$c$)'}
+- header: {name: '$p_T$ ($\mathrm{GeV}$/$c$)'}
   values:
   - {low: 0.25, high: 0.50}
   - {low: 0.50, high: 0.75}
@@ -11,12 +11,26 @@ independent_variables:
   - {low: 2.00, high: 2.50}
   - {low: 2.50, high: 3.00}
   - {low: 3.00, high: 4.00}
-  - {low: 5.00, high: 7.00}
+  - {low: 4.00, high: 8.00}
 dependent_variables:
+- header: {name: '$p_T$ ($\mathrm{GeV}$/$c$) ($\mathrm{bin}$ $\mathrm{center}$)'}
+  values: 
+  - value: 0.375
+  - value: 0.625
+  - value: 0.875
+  - value: 1.125
+  - value: 1.375
+  - value: 1.625
+  - value: 1.875
+  - value: 2.25
+  - value: 2.75
+  - value: 3.5
+  - value: 6
 - header: {name: '$1/{N_{evt}}$ ${1}/{2} \pi {p}_{T} $ $ {{d}^{2}N}/{dy d{p}_{T}} {(GeV/c)}^{-2}$'}
   qualifiers:
   - {name: 'Collision', value: '$d$ + Au'}
-  - {name: 'Centrality', value: 'Min. bias'}
+  - {name: 'Decay Channel', value: '$\omega$ $\rightarrow$ $e^+e^-$'} 
+  - {name: 'Centrality', value: 'Min. bias'} 
   values:
   - value: 2.59e-01
     errors:
@@ -65,6 +79,7 @@ dependent_variables:
 - header: {name: '$1/{N_{evt}}$ ${1}/{2} \pi {p}_{T} $ $ {{d}^{2}N}/{dy d{p}_{T}} {(GeV/c)}^{-2}$'}
   qualifiers:
   - {name: 'Collision', value: '$d$ + Au'}
+  - {name: 'Decay Channel', value: '$\omega$ $\rightarrow$ $e^+e^-$'}
   - {name: 'Centrality', value: '0-20%'}
   values:
   - value: 6.16e-01
@@ -114,6 +129,7 @@ dependent_variables:
 - header: {name: '$1/{N_{evt}}$ ${1}/{2} \pi {p}_{T} $ $ {{d}^{2}N}/{dy d{p}_{T}} {(GeV/c)}^{-2}$'}
   qualifiers:
   - {name: 'Collision', value: '$d$ + Au'}
+  - {name: 'Decay Channel', value: '$\omega$ $\rightarrow$ $e^+e^-$'}
   - {name: 'Centrality', value: '20-40%'}
   values:
   - value: 4.20e-01
@@ -163,6 +179,7 @@ dependent_variables:
 - header: {name: '$1/{N_{evt}}$ ${1}/{2} \pi {p}_{T} $ $ {{d}^{2}N}/{dy d{p}_{T}} {(GeV/c)}^{-2}$'}
   qualifiers:
   - {name: 'Collision', value: '$d$ + Au'}
+  - {name: 'Decay Channel', value: '$\omega$ $\rightarrow$ $e^+e^-$'}
   - {name: 'Centrality', value: '40-60%'}
   values:
   - value: 1.84e-01

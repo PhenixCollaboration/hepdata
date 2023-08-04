@@ -1,5 +1,5 @@
 independent_variables:
-- header: {name: '$p_T$ (GeV/$c$)'}
+- header: {name: '$p_T$ ($\mathrm{GeV}$/$c$)'}
   values:
   - {low: 5, high: 6}
   - {low: 6, high: 7}
@@ -7,9 +7,17 @@ independent_variables:
   - {low: 8, high: 10}
   - {low: 10, high: 12}
 dependent_variables:
+- header: {name: '$p_T$ ($\mathrm{GeV}$/$c$) ($\mathrm{actual}$ $\mathrm{values}$)'}
+  values: 
+  - value: 5.5
+  - value: 6.5
+  - value: 7.5
+  - value: 9.0
+  - value: 11.0
 - header: {name: '$1/{N_{evt}}$ ${1}/{2} \pi {p}_{T} $ $ {{d}^{2}N}/{dy d{p}_{T}} {(GeV/c)}^{-2}$'}
   qualifiers:
   - {name: 'Collision', value: 'Au + Au'}
+  - {name: 'Decay Channel', value: '$\omega$ $\rightarrow$ $\pi^0 \gamma$'}
   - {name: 'Centrality', value: 'Min. bias'}
   values:
   - value: 2.4e-5
@@ -35,6 +43,7 @@ dependent_variables:
 - header: {name: '$1/{N_{evt}}$ ${1}/{2} \pi {p}_{T} $ $ {{d}^{2}N}/{dy d{p}_{T}} {(GeV/c)}^{-2}$'}
   qualifiers:
   - {name: 'Collision', value: 'Au + Au'}
+  - {name: 'Decay Channel', value: '$\omega$ $\rightarrow$ $\pi^0 \gamma$'}
   - {name: 'Centrality', value: '20-40%'}
   values:
   - value: 4.6e-5
