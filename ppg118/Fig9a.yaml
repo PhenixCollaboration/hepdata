@@ -1,5 +1,5 @@
 independent_variables:
-- header: {name: '$p_T$ (GeV/$c$)'}
+- header: {name: '$p_T$ ($\mathrm{GeV}$/$c$)'}
   values:
   - {low: 0.25, high: 0.50}
   - {low: 0.50, high: 0.75}
@@ -10,8 +10,19 @@ independent_variables:
   - {low: 2.00, high: 3.00}
   - {low: 3.00, high: 4.00}
 dependent_variables:
+- header: {name: '$p_T$ ($\mathrm{GeV}$/$c$) ($\mathrm{actual}$ $\mathrm{values}$)'}
+  values: 
+  - value: 0.375
+  - value: 0.625
+  - value: 0.875
+  - value: 1.125
+  - value: 1.375
+  - value: 1.75
+  - value: 2.5
+  - value: 3.5
 - header: {name: '$R_{dAu}$'}
   qualifiers:
+  - {name: 'Collision', value: '$d$ + Au'}
   - {name: 'Decay Channel', value: '$\omega \rightarrow e^+e^-$'}
   - {name: 'Centrality', value: 'Min. bias'}
   values:
@@ -49,6 +60,7 @@ dependent_variables:
     - {symerror: 0.31, label: 'sys.'}
 - header: {name: '$R_{dAu}$'}
   qualifiers:
+  - {name: 'Collision', value: '$d$ + Au'}
   - {name: 'Decay Channel', value: '$\omega \rightarrow e^+e^-$'}
   - {name: 'Centrality', value: '0-20%'}
   values:
@@ -86,6 +98,7 @@ dependent_variables:
     - {symerror: 0.30, label: 'sys.'}
 - header: {name: '$R_{dAu}$'}
   qualifiers:
+  - {name: 'Collision', value: '$d$ + Au'}
   - {name: 'Decay Channel', value: '$\omega \rightarrow e^+e^-$'}
   - {name: 'Centrality', value: '20-40%'}
   values:
@@ -123,6 +136,7 @@ dependent_variables:
     - {symerror: 0.39, label: 'sys.'}
 - header: {name: '$R_{dAu}$'}
   qualifiers:
+  - {name: 'Collision', value: '$d$ + Au'}
   - {name: 'Decay Channel', value: '$\omega \rightarrow e^+e^-$'}
   - {name: 'Centrality', value: '40-60%'}
   values:
