@@ -1,10 +1,10 @@
 independent_variables:
 - header: {name: '$p_T$ (GeV/$c$)'}
   values:
-  - {low: 0.60, high: 0.80}
+  - {low: 0.50, high: 0.80}
   - {low: 0.80, high: 1.80}
   - {low: 1.80, high: 2.80}
-  - {low: 2.80, high: 4.00}
+  - {low: 2.80, high: 4.50}
 dependent_variables:
 - header: {name: 'A_LL'}
   qualifiers:
@@ -34,25 +34,25 @@ dependent_variables:
   - value: 0.016
   - value: 0.012
   - value: 0.011
-  - header: {name: 'A_LL'}
+- header: {name: 'A_LL'}
   qualifiers:
   - {name: 'particle', value: '$h^-$'}
   values:
   - value: -0.0065
     errors:
-    - {symerror: 0.0022, label: 'stat.'}
+    - {symerror: 0.0024, label: 'stat.'}
     - {symerror: 0.0009, label: 'sys.'}
   - value: -0.0096
     errors:
-    - {symerror: 0.0048, label: 'stat.'}
+    - {symerror: 0.0052, label: 'stat.'}
     - {symerror: 0.0013, label: 'sys.'}
   - value: 0.0208
     errors:
-    - {symerror: 0.0204, label: 'stat.'}
+    - {symerror: 0.0236, label: 'stat.'}
     - {symerror: 0.0029, label: 'sys.'}
   - value: -0.0761
     errors:
-    - {symerror: 0.0517, label: 'stat.'}
+    - {symerror: 0.0578, label: 'stat.'}
     - {symerror: 0.0106, label: 'sys.'}
 - header: {name: 'feed-down fraction'}
   qualifiers:
@@ -62,5 +62,3 @@ dependent_variables:
   - value: 0.025
   - value: 0.021
   - value: 0.018
- 
- 
