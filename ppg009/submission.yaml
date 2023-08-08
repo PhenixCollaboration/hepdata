@@ -17,7 +17,37 @@ additional_resources:
 - {location: "https://arxiv.org/abs/nucl-ex/0307010", description: arXiv}
 - {location: "https://inspirehep.net/literature/623413", description: InspireHEP}
 ---
-# This is Figure 2.
+# This is Table 6.
+name: "Table 6"
+location: Data From Table 6 of PRC 69 (024904) 2004
+description: 'The minimum $\chi^2$ and the parameters $T_{fo}$ and $\beta_T^{max}$ for each of the five centrality selections. The best fit parameters are determined by averaging all parameter pairs within the 1$\sigma$ contour. The errors correspond to the standard deviation of the parameter pairs within the 1$\sigma$ $\chi^2$ contour.'
+keywords: # used for searching, possibly mutliple values for each keywords
+- {name: reactions, values: [Au Au --> CHARGED X]}
+- {name: cmenergies, values: [130.0]}
+- {name: phrases, values: [ppg009]}
+data_file: ppg009tab6.yaml
+---
+# This is Table 7.
+name: "Table 7"
+location: Data From Table 7 of PRC 69 (024904) 2004
+description: 'Fit parameters for each particle species using equations 19 and 20.'
+keywords: # used for searching, possibly mutliple values for each keywords
+- {name: reactions, values: [Au Au --> CHARGED X]}
+- {name: cmenergies, values: [130.0]}
+- {name: phrases, values: [ppg009]}
+data_file: ppg009tab7.yaml
+---
+# This is Table 8.
+name: "Table 8"
+location: Data From Table 8 of PRC 69 (024904) 2004
+description: 'Values of the parameters $n_{pp}$ and $x$ from fitting equation 21 to the observed dN/dy per $N_{part}$.'
+keywords: # used for searching, possibly mutliple values for each keywords
+- {name: reactions, values: [Au Au --> CHARGED X]}
+- {name: cmenergies, values: [130.0]}
+- {name: phrases, values: [ppg009]}
+data_file: ppg009tab8.yaml
+---
+# This is Figure 2. Maybe Figure
 name: "Figure 2"
 location: Data From Table 2 of PRC 69 (024904) 2004
 description: 'The dN/dy at midrapidity for hadrons produced at midrapidity in each centrality class. The systematic errors are 13%, 15% and 14% for pions, kaons, and protons, respectively. The $N_{part}$ and $N_{coll}$ in each centrality selection are shown with systematic errors based on a 92 ± 4% coverage.'
@@ -31,7 +61,7 @@ additional_resources:
 - {description: PNG Image file, location: piKpCent.png}
 - {description: Thumbnail Image file, location: thumb_piKpCent.png}
 ---
-# This is Figure 3.
+# This is Figure 3. Idk
 name: "Figure 3"
 location: Data From Table 3 of PRC 69 (024904) 2004
 description: ' The $⟨p_T⟩$ in MeV/$c$ for hadrons produced at midrapidity in each centrality class. The systematic uncertainties are 7%, 10%, and 8% for pions, kaons, and protons, respectively.'
@@ -45,7 +75,7 @@ additional_resources:
 - {description: PNG Image file, location: meanpt.png}
 - {description: Thumbnail Image file, location: thumb_meanpt.png}
 ---
-# This is Figure 4.
+# This is Figure 4. maybe figure
 name: "Figure 4"
 location: Data From Table 4 of PRC 69 (024904) 2004
 description: 'The resulting inverse slopes in MeV after fitting an $m_T$ exponential to the spectra in the range $m_T$ − $m_0$ < 1 GeV in each event centrality classes.'
@@ -58,46 +88,6 @@ additional_resources:
 - {description: Original EPS Image file, location: exponFits.eps}
 - {description: PNG Image file, location: exponFits.png}
 - {description: Thumbnail Image file, location: thumb_exponFits.png}
----
-# This is Figure 6.
-name: "Figure 6"
-location: Data From Table 6 of PRC 69 (024904) 2004
-description: 'The minimum $\chi^2$ and the parameters $T_{fo}$ and $\beta_T^{max}$ for each of the five centrality selections. The best fit parameters are determined by averaging all parameter pairs within the 1$\sigma$ contour. The errors correspond to the standard deviation of the parameter pairs within the 1$\sigma$ $\chi^2$ contour.'
-keywords: # used for searching, possibly mutliple values for each keywords
-- {name: reactions, values: [Au Au --> CHARGED X]}
-- {name: cmenergies, values: [130.0]}
-- {name: phrases, values: [ppg009]}
-data_file: ppg009fig6.yaml
-additional_resources:
-- {description: Original EPS Image file, location: contoursCentral.eps}
-- {description: PNG Image file, location: contoursCentral.png}
-- {description: Thumbnail Image file, location: thumb_contoursCentral.png}
-- {description: Original EPS Image file, location: contoursPeripheral.eps}
-- {description: PNG Image file, location: contoursPeripheral.png}
-- {description: Thumbnail Image file, location: thumb_contoursPeripheral.png}
-- {description: Original EPS Image file, location: fitpar_Npart.eps}
-- {description: PNG Image file, location: fitpar_Npart.png}
-- {description: Thumbnail Image file, location: thumb_fitpar_Npart.png}
----
-# This is Figure 7.
-name: "Figure 7"
-location: Data From Table 7 of PRC 69 (024904) 2004
-description: 'Fit parameters for each particle species using equations 19 and 20.'
-keywords: # used for searching, possibly mutliple values for each keywords
-- {name: reactions, values: [Au Au --> CHARGED X]}
-- {name: cmenergies, values: [130.0]}
-- {name: phrases, values: [ppg009]}
-data_file: ppg009fig7.yaml
----
-# This is Figure 8.
-name: "Figure 8"
-location: Data From Table 8 of PRC 69 (024904) 2004
-description: 'Values of the parameters $n_{pp}$ and $x$ from fitting equation 21 to the observed dN/dy per $N_{part}$.'
-keywords: # used for searching, possibly mutliple values for each keywords
-- {name: reactions, values: [Au Au --> CHARGED X]}
-- {name: cmenergies, values: [130.0]}
-- {name: phrases, values: [ppg009]}
-data_file: ppg009fig8.yaml
 ---
 # This is Figure 9a.
 name: "Figure 9a"
