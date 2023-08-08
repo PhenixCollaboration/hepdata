@@ -132,7 +132,7 @@ additional_resources:
 # This is Figure 7.
 name: "Figure 7a"
 location: Data From Fig. 7 of PRC 92 (2015) 034913
-description: '$v_2$ for inclusive charged hadrons in Au+Au at $\sqrt{s_{NN}}$ = 200 GeV.'
+description: '$v_2$ for inclusive charged hadrons in Au+Au at $\sqrt{s_{NN}}$ = 62.4 GeV.'
 keywords: # used for searching, possibly mutliple values for each keywords
 - {name: reactions, values: [Au Au --> CHARGED X]}
 - {name: cmenergies, values: [62.4]}
@@ -163,7 +163,7 @@ location: Data From Fig. 8 of PRC 92 (2015) 034913
 description: '$v_2$ for inclusive charged hadrons in Au+Au at $\sqrt{s_{NN}}$ = 62.4 GeV compared with 200 GeV.'
 keywords: # used for searching, possibly mutliple values for each keywords
 - {name: reactions, values: [Cu Cu --> CHARGED X]}
-- {name: cmenergies, values: [200.0]}
+- {name: cmenergies, values: [200.0, 62.4]}
 - {name: phrases, values: [ppg124, azimuthal anisotropy]}
 data_file: ppg124fig8a.yaml
 additional_resources:
@@ -177,7 +177,7 @@ location: Data From Fig. 8 of PRC 92 (2015) 034913
 description: '$v_2$ for inclusive charged hadrons in Au+Au at $\sqrt{s_{NN}}$ = 62.4 GeV compared with 200 GeV.'
 keywords: # used for searching, possibly mutliple values for each keywords
 - {name: reactions, values: [Cu Cu --> CHARGED X]}
-- {name: cmenergies, values: [200.0]}
+- {name: cmenergies, values: [200.0, 62.4]}
 - {name: phrases, values: [ppg124, azimuthal anisotropy]}
 data_file: ppg124fig8b.yaml
 additional_resources:
@@ -191,7 +191,7 @@ location: Data From Fig. 8 of PRC 92 (2015) 034913
 description: '$v_2$ for inclusive charged hadrons in Au+Au at $\sqrt{s_{NN}}$ = 62.4 GeV compared with 200 GeV.'
 keywords: # used for searching, possibly mutliple values for each keywords
 - {name: reactions, values: [Cu Cu --> CHARGED X]}
-- {name: cmenergies, values: [62.4]}
+- {name: cmenergies, values: [200.0, 62.4]}
 - {name: phrases, values: [ppg124, azimuthal anisotropy]}
 data_file: ppg124fig8c.yaml
 additional_resources:
@@ -256,56 +256,112 @@ additional_resources:
 - {description: Thumbnail Image file, location: thumb_Fig10.png}
 ---
 # This is Figure 11.
-name: "Figure 11a"
+name: "Figure 11a-1"
 location: Data From Fig. 11 of PRC 92 (2015) 034913
-description: 'The comparison of integrated $v_2$ as a function of centrality, and the comparison of the normalized $v_2$/$\epsilon$ vs. centrality.'
+description: 'The comparison of integrated $v_2$ as a function of centrality.'
 keywords: # used for searching, possibly mutliple values for each keywords
 - {name: reactions, values: [Au Au --> CHARGED X]}
 - {name: cmenergies, values: [200.0]}
 - {name: phrases, values: [ppg124, azimuthal anisotropy]}
-data_file: ppg124fig11a.yaml
+data_file: ppg124fig11a1.yaml
 additional_resources:
 - {description: Original EPS Image file, location: v2_vs_npart_participant_file4_final_attached.eps}
 - {description: PNG Image file, location: v2_vs_npart_participant_file4_final_attached.png}
 - {description: Thumbnail Image file, location: thumb_v2_vs_npart_participant_file4_final_attached.png}
 ---
 # This is Figure 11.
-name: "Figure 11b"
+name: "Figure 11a-2"
 location: Data From Fig. 11 of PRC 92 (2015) 034913
-description: 'The comparison of integrated $v_2$ as a function of centrality, and the comparison of the normalized $v_2$/$\epsilon$ vs. centrality.'
+description: 'The comparison of the normalized $v_2$/$\epsilon$ vs. centrality.'
+keywords: # used for searching, possibly mutliple values for each keywords
+- {name: reactions, values: [Au Au --> CHARGED X]}
+- {name: cmenergies, values: [200.0]}
+- {name: phrases, values: [ppg124, azimuthal anisotropy]}
+data_file: ppg124fig11a2.yaml
+additional_resources:
+- {description: Original EPS Image file, location: v2_vs_npart_participant_file4_final_attached.eps}
+- {description: PNG Image file, location: v2_vs_npart_participant_file4_final_attached.png}
+- {description: Thumbnail Image file, location: thumb_v2_vs_npart_participant_file4_final_attached.png}
+---
+# This is Figure 11.
+name: "Figure 11b-1"
+location: Data From Fig. 11 of PRC 92 (2015) 034913
+description: 'The comparison of integrated $v_2$ as a function of centrality.'
 keywords: # used for searching, possibly mutliple values for each keywords
 - {name: reactions, values: [Au Au --> CHARGED X]}
 - {name: cmenergies, values: [62.4]}
 - {name: phrases, values: [ppg124, azimuthal anisotropy]}
-data_file: ppg124fig11b.yaml
+data_file: ppg124fig11b1.yaml
 additional_resources:
 - {description: Original EPS Image file, location: v2_vs_npart_participant_file4_final_attached.eps}
 - {description: PNG Image file, location: v2_vs_npart_participant_file4_final_attached.png}
 - {description: Thumbnail Image file, location: thumb_v2_vs_npart_participant_file4_final_attached.png}
 ---
 # This is Figure 11.
-name: "Figure 11c"
+name: "Figure 11b-2"
 location: Data From Fig. 11 of PRC 92 (2015) 034913
-description: 'The comparison of integrated $v_2$ as a function of centrality, and the comparison of the normalized $v_2$/$\epsilon$ vs. centrality.'
+description: 'The comparison of the normalized $v_2$/$\epsilon$ vs. centrality.'
+keywords: # used for searching, possibly mutliple values for each keywords
+- {name: reactions, values: [Au Au --> CHARGED X]}
+- {name: cmenergies, values: [62.4]}
+- {name: phrases, values: [ppg124, azimuthal anisotropy]}
+data_file: ppg124fig11b2.yaml
+additional_resources:
+- {description: Original EPS Image file, location: v2_vs_npart_participant_file4_final_attached.eps}
+- {description: PNG Image file, location: v2_vs_npart_participant_file4_final_attached.png}
+- {description: Thumbnail Image file, location: thumb_v2_vs_npart_participant_file4_final_attached.png}
+---
+# This is Figure 11.
+name: "Figure 11c-1"
+location: Data From Fig. 11 of PRC 92 (2015) 034913
+description: 'The comparison of integrated $v_2$ as a function of centrality.'
 keywords: # used for searching, possibly mutliple values for each keywords
 - {name: reactions, values: [Cu Cu --> CHARGED X]}
 - {name: cmenergies, values: [200.0]}
 - {name: phrases, values: [ppg124, azimuthal anisotropy]}
-data_file: ppg124fig11c.yaml
+data_file: ppg124fig11c1.yaml
 additional_resources:
 - {description: Original EPS Image file, location: v2_vs_npart_participant_file4_final_attached.eps}
 - {description: PNG Image file, location: v2_vs_npart_participant_file4_final_attached.png}
 - {description: Thumbnail Image file, location: thumb_v2_vs_npart_participant_file4_final_attached.png}
 ---
 # This is Figure 11.
-name: "Figure 11d"
+name: "Figure 11c-2"
 location: Data From Fig. 11 of PRC 92 (2015) 034913
-description: 'The comparison of integrated $v_2$ as a function of centrality, and the comparison of the normalized $v_2$/$\epsilon$ vs. centrality.'
+description: 'The comparison of the normalized $v_2$/$\epsilon$ vs. centrality.'
+keywords: # used for searching, possibly mutliple values for each keywords
+- {name: reactions, values: [Cu Cu --> CHARGED X]}
+- {name: cmenergies, values: [200.0]}
+- {name: phrases, values: [ppg124, azimuthal anisotropy]}
+data_file: ppg124fig11c2.yaml
+additional_resources:
+- {description: Original EPS Image file, location: v2_vs_npart_participant_file4_final_attached.eps}
+- {description: PNG Image file, location: v2_vs_npart_participant_file4_final_attached.png}
+- {description: Thumbnail Image file, location: thumb_v2_vs_npart_participant_file4_final_attached.png}
+---
+# This is Figure 11.
+name: "Figure 11d-1"
+location: Data From Fig. 11 of PRC 92 (2015) 034913
+description: 'The comparison of integrated $v_2$ as a function of centrality.'
 keywords: # used for searching, possibly mutliple values for each keywords
 - {name: reactions, values: [Cu Cu --> CHARGED X]}
 - {name: cmenergies, values: [62.4]}
 - {name: phrases, values: [ppg124, azimuthal anisotropy]}
-data_file: ppg124fig11d.yaml
+data_file: ppg124fig11d1.yaml
+additional_resources:
+- {description: Original EPS Image file, location: v2_vs_npart_participant_file4_final_attached.eps}
+- {description: PNG Image file, location: v2_vs_npart_participant_file4_final_attached.png}
+- {description: Thumbnail Image file, location: thumb_v2_vs_npart_participant_file4_final_attached.png}
+---
+# This is Figure 11.
+name: "Figure 11d-2"
+location: Data From Fig. 11 of PRC 92 (2015) 034913
+description: 'The comparison of the normalized $v_2$/$\epsilon$ vs. centrality.'
+keywords: # used for searching, possibly mutliple values for each keywords
+- {name: reactions, values: [Cu Cu --> CHARGED X]}
+- {name: cmenergies, values: [62.4]}
+- {name: phrases, values: [ppg124, azimuthal anisotropy]}
+data_file: ppg124fig11d2.yaml
 additional_resources:
 - {description: Original EPS Image file, location: v2_vs_npart_participant_file4_final_attached.eps}
 - {description: PNG Image file, location: v2_vs_npart_participant_file4_final_attached.png}
@@ -1000,7 +1056,7 @@ additional_resources:
 # This is Figure 22.
 name: "Figure 22"
 location: Data From Fig. 22 of PRC 92 (2015) 034913
-description: '$v_2$ vs. $p_T$ and $v_2$/($\epsilon * N^{1/3}_{part} * n_q$) vs. ${KE}_T$/$n_q$ for $\pi$/$K$/$p$ in Au+Au at 200 GeV, in Au+Au at 62.4 GeV, and in Cu+Cu at 200 GeV.'
+description: '$v_2$ vs. $p_T$ and $v_2$/($\epsilon * N^{1/3}_{part} * n_q$) vs. ${KE}_T$/$n_q$ for $\pi$/$K$/$p$ in Au+Au at 200 GeV, in Au+Au at 62.4 GeV, and in Cu+Cu at 200 GeV. The values of $v_2$ and $p_T$ in Au+Au at 200 GeV, in Au+Au at 62.4 GeV, and in Cu+Cu at 200 GeV are the same for as figure 14, and the values of $v_2$, $n_q$, and $KE_T$ in Au+Au at 200 GeV, in Au+Au at 62.4 GeV, and in Cu+Cu at 200 GeV are the same for as figure 18.'
 keywords: # used for searching, possibly mutliple values for each keywords
 - {name: reactions, values: [Cu Cu --> CHARGED X, Au Au --> CHARGED X]}
 - {name: cmenergies, values: [200.0, 62.4]}
