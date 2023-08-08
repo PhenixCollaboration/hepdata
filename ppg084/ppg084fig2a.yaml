@@ -1,5 +1,5 @@
 independent_variables:
-- header: {name: '$p_T$ (GeV/$c$)'}
+- header: {name: '$p_T$ Bins (GeV/$c$)'}
   values:
   - {low: 1.00, high: 1.50}
   - {low: 1.50, high: 2.00}
@@ -8,6 +8,14 @@ independent_variables:
   - {low: 3.00, high: 3.50}
   - {low: 3.50, high: 4.00}
 dependent_variables:
+- header: {name: '$p_T$ (GeV/$c$)'}
+  values:
+  - value: 1.25
+  - value: 1.75
+  - value: 2.25
+  - value: 2.75
+  - value: 3.25
+  - value: 3.75
 - header: {name: '$R_{AA}$'}
   values:
   - value: 6.549E-01
