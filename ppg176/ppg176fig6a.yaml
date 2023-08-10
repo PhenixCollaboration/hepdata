@@ -13,6 +13,21 @@ independent_variables:
   - {low: 2.5, high: 3.5}
   - {low: 3.5, high: 5.0}
 dependent_variables:
+- header: {name: '$\langle p_T \rangle$ (GeV/$c$)'}
+  qualifiers:
+  - {name: 'Centrality', value: ''}
+  values:
+  - value: 0.50
+  - value: 0.70
+  - value: 0.90
+  - value: 1.10
+  - value: 1.30
+  - value: 1.50
+  - value: 1.70
+  - value: 1.90
+  - value: 2.25
+  - value: 3.00
+  - value: 4.25
 - header: {name: '$v_2$'}
   qualifiers:
   - {name: 'Centrality', value: '0-20%'}
