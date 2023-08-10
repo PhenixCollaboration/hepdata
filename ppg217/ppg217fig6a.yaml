@@ -1,0 +1,33 @@
+independent_variables:
+- header: {name: '$p^{trig}_T$ (GeV/$c$)'}
+  values:
+  - value: 4.44
+  - value: 5.69
+  - value: 7.71
+  - value: 10.1
+  - value: 13.1
+dependent_variables:
+- header: {name: 'Gaussian Width (GeV/$c$)'}
+  qualifiers:
+  - {name: 'Trigger Type', value: '$\pi^0$'}
+  values:
+  - value: 0.429
+    errors:
+    - {symerror: 0.001, label: 'stat.'}
+    - {asymerror: {plus: 0.016, minus: -0.014}, label: 'sys.'}
+  - value: 0.449
+    errors:
+    - {symerror: 0.001, label: 'stat.'}
+    - {asymerror: {plus: 0.024, minus: -0.026}, label: 'sys.'}
+  - value: 0.534
+    errors:
+    - {symerror: 0.002, label: 'stat.'}
+    - {asymerror: {plus: 0.022, minus: -0.031}, label: 'sys.'}
+  - value: 0.545
+    errors:
+    - {symerror: 0.004, label: 'stat.'}
+    - {asymerror: {plus: 0.024, minus: -0.018}, label: 'sys.'}
+  - value: 0.534
+    errors:
+    - {symerror: 0.012, label: 'stat.'}
+    - {asymerror: {plus: 0.021, minus: -0.031}, label: 'sys.'}

@@ -1,0 +1,28 @@
+independent_variables:
+- header: {name: '$p^{trig}_T$ (GeV/$c$)'}
+  values:
+  - value: 5.65
+  - value: 7.71
+  - value: 10.1
+  - value: 13.2
+dependent_variables:
+- header: {name: 'Gaussian Width (GeV/$c$)'}
+  qualifiers:
+  - {name: 'Trigger Type', value: 'Direct Photon'}
+  values:
+  - value: 0.46
+    errors:
+    - {symerror: 0.01, label: 'stat.'}
+    - {symerror: 0.02, label: 'sys.'}
+  - value: 0.53
+    errors:
+    - {symerror: 0.02, label: 'stat.'}
+    - {asymerror: {plus: 0.01, minus: -0.04}, label: 'sys.'}
+  - value: 0.60
+    errors:
+    - {symerror: 0.04, label: 'stat.'}
+    - {asymerror: {plus: 0.01, minus: -0.06}, label: 'sys.'}
+  - value: 0.73
+    errors:
+    - {symerror: 0.15, label: 'stat.'}
+    - {asymerror: {plus: 0.09, minus: -0.22}, label: 'sys.'}
