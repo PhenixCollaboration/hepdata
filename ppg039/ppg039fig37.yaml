@@ -1,5 +1,5 @@
 independent_variables:
-- header: {name: '$X_E$'}
+- header: {name: '$x_E$'}
   values:
   - {low: 0.120, high: 0.160}
   - {low: 0.160, high: 0.200}
@@ -18,7 +18,7 @@ independent_variables:
   - {low: 0.680, high: 0.720}
   - {low: 0.720, high: 0.760}
 dependent_variables:
-- header: {name: '$dN$/$N_{trig} dx_E$'}
+- header: {name: '$1/N_{trig}$ $dN/dx_E$'}
   qualifiers:
   - {name: '', value: 'Near Side $d$+Au'}
   values:
@@ -70,7 +70,7 @@ dependent_variables:
   - value: 0.053
     errors:
     - {symerror: 0.008, label: 'stat.'}
-- header: {name: '$dN$/$N_{trig} dx_E$'}
+- header: {name: '$1/N_{trig}$ $dN/dx_E$'}
   qualifiers:
   - {name: '', value: 'Far Side $d$+Au'}
   values:

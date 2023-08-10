@@ -1,0 +1,51 @@
+independent_variables:
+- header: {name: 'Centrality (%)'}
+  values:
+  - {low: 0, high: 20}
+  - {low: 20, high: 40}
+  - {low: 40, high: 80}
+dependent_variables:
+- header: {name: '$\sigma_{near}$ (rad)'}
+  values:
+  - value: 0.199
+    errors:
+    - {symerror: 0.009, label: 'stat.'}
+  - value: 0.195
+    errors:
+    - {symerror: 0.009, label: 'stat.'}
+  - value: 0.190
+    errors:
+    - {symerror: 0.008, label: 'stat.'}
+- header: {name: '$\sigma_{far}$ (rad)'}
+  values:
+  - value: 0.387
+    errors:
+    - {symerror: 0.024, label: 'stat.'}
+  - value: 0.401
+    errors:
+    - {symerror: 0.031, label: 'stat.'}
+  - value: 0.376
+    errors:
+    - {symerror: 0.024, label: 'stat.'}
+- header: {name: '$dN/dp^{near}_T$ (rad)'}
+  values:
+  - value: 0.082
+    errors:
+    - {symerror: 0.004, label: 'stat.'}
+  - value: 0.095
+    errors:
+    - {symerror: 0.005, label: 'stat.'}
+  - value: 0.097
+    errors:
+    - {symerror: 0.004, label: 'stat.'}
+- header: {name: '$dN/dp^{far}_T$ (rad)'}
+  values:
+  - value: 0.116
+    errors:
+    - {symerror: 0.008, label: 'stat.'}
+  - value: 0.141
+    errors:
+    - {symerror: 0.011, label: 'stat.'}
+  - value: 0.144
+    errors:
+    - {symerror: 0.009, label: 'stat.'}

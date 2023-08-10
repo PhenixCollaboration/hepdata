@@ -6,9 +6,8 @@ independent_variables:
   - {low: 7.0, high: 8.0}
   - {low: 8.0, high: 10.0}
   - {low: 10.0, high: 12.0}
-  - {low: 12.0, high: 16.0}
 dependent_variables:
-- header: {name: '$dN$/$N_{trig} dx_E$'}
+- header: {name: '$1/N_{trig}$ $dN/dx_E$'}
   qualifiers:
   - {name: '$x_E$ Range', value: '0.06 < $x_E$ < 0.12'}
   values:
@@ -27,10 +26,7 @@ dependent_variables:
   - value: 8.98
     errors:
     - {symerror: 1.54, label: 'stat.'}
-  - value: 8.73
-    errors:
-    - {symerror: 2.61, label: 'stat.'}
-- header: {name: '$dN$/$N_{trig} dx_E$'}
+- header: {name: '$1/N_{trig}$ $dN/dx_E$'}
   qualifiers:
   - {name: '$x_E$ Range', value: '0.12 < $x_E$ < 0.18'}
   values:
@@ -49,10 +45,7 @@ dependent_variables:
   - value: 3.89
     errors:
     - {symerror: 1.03, label: 'stat.'}
-  - value: 5.89
-    errors:
-    - {symerror: 1.72, label: 'stat.'}
-- header: {name: '$dN$/$N_{trig} dx_E$'}
+- header: {name: '$1/N_{trig}$ $dN/dx_E$'}
   qualifiers:
   - {name: '$x_E$ Range', value: '0.18 < $x_E$ < 0.24'}
   values:
@@ -71,8 +64,7 @@ dependent_variables:
   - value: 3.02
     errors:
     - {symerror: 0.89, label: 'stat.'}
-  - value: -0.01
-- header: {name: '$dN$/$N_{trig} dx_E$'}
+- header: {name: '$1/N_{trig}$ $dN/dx_E$'}
   qualifiers:
   - {name: '$x_E$ Range', value: '0.24 < $x_E$ < 0.30'}
   values:
@@ -91,10 +83,7 @@ dependent_variables:
   - value: 2.56
     errors:
     - {symerror: 0.79, label: 'stat.'}
-  - value: 2.76
-    errors:
-    - {symerror: 1.30, label: 'stat.'}
-- header: {name: '$dN$/$N_{trig} dx_E$'}
+- header: {name: '$1/N_{trig}$ $dN/dx_E$'}
   qualifiers:
   - {name: '$x_E$ Range', value: '0.30 < $x_E$ < 0.36'}
   values:
@@ -113,6 +102,3 @@ dependent_variables:
   - value: 1.03
     errors:
     - {symerror: 0.74, label: 'stat.'}
-  - value: 0.89
-    errors:
-    - {symerror: 0.56, label: 'stat.'}
