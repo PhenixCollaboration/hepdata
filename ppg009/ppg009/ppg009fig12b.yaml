@@ -1,0 +1,32 @@
+independent_variables:
+- header: {name: '$p_T$ (GeV/$c$)'}
+  values:
+  - {low: 0.545, high: 0.695}
+  - {low: 0.695, high: 0.895}
+  - {low: 0.895, high: 1.180}
+  - {low: 1.180, high: 1.580}
+  - {low: 1.580, high: 1.980}
+  - {low: 1.980, high: 2.380}
+dependent_variables:
+- header: {name: '$p$'}
+  qualifiers:
+  - {name: '$p_T$ (GeV/$c$)', value: '60-92%'}
+  values:
+  - value: 0.260
+    errors:
+    - {symerror: 0.060, label: 'stat.'}
+  - value: 0.140
+    errors:
+    - {symerror: 0.020, label: 'stat.'}
+  - value: 0.100
+    errors:
+    - {symerror: 0.020, label: 'stat.'}
+  - value: 0.031
+    errors:
+    - {symerror: 0.005, label: 'stat.'}
+  - value: 0.005
+    errors:
+    - {symerror: 0.002, label: 'stat.'}
+  - value: 0.003
+    errors:
+    - {symerror: 0.001, label: 'stat.'}
