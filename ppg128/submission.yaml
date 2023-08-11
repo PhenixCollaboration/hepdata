@@ -102,9 +102,9 @@ data_file: ppg128tab1.yaml
 # This is Table 2.
 name: "Table 2"
 location: Data From PRL 107 (2011) 172301
-description: 'PHENIX $\pi^0$ invariant cross-section for range 3.0 < $\eta$ < 3.8.'
+description: 'PHENIX $\pi^0$ invariant cross-section for $p$+$p$ collisions for range 3.0 < $\eta$ < 3.8.'
 keywords: # used for searching, possibly mutliple values for each keywords
-- {name: reactions, values: [$d$ Au --> CHARGED X, $p$ $p$ --> CHARGED X]}
+- {name: reactions, values: [$p$ $p$ --> CHARGED X]}
 - {name: cmenergies, values: [200.0]}
 - {name: phrases, values: [ppg128, forward rapidity, pseudorapidity]}
 data_file: ppg128tab2.yaml
