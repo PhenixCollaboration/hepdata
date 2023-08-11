@@ -16,7 +16,7 @@ dependent_variables:
   - value: 2.371
   - value: 3.394
   - value: 4.414
-- header: {name: '$\sigma$ (rad)'}
+- header: {name: '$\sigma_{near}$ (rad)'}
   qualifiers:
   - {name: '', value: '$\pi^{0}$-$h^{\pm}$'}
   values:
@@ -35,3 +35,22 @@ dependent_variables:
   - value: 0.127
     errors:
     - {symerror: 0.009, label: 'stat.'}
+- header: {name: '$\sigma_{far}$ (rad)'}
+  qualifiers:
+  - {name: '', value: '$\pi^{0}$-$h^{\pm}$'}
+  values:
+  - value: 0.494
+    errors:
+    - {symerror: 0.022, label: 'stat.'}
+  - value: 0.410
+    errors:
+    - {symerror: 0.019, label: 'stat.'}
+  - value: 0.380
+    errors:
+    - {symerror: 0.015, label: 'stat.'}
+  - value: 0.322
+    errors:
+    - {symerror: 0.020, label: 'stat.'}
+  - value: 0.315
+    errors:
+    - {symerror: 0.026, label: 'stat.'}

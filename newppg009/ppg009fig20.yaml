@@ -1,0 +1,26 @@
+independent_variables:
+- header: {name: '$\beta^{max}_{T}$'}
+  values:
+  - value: 0.70
+  - value: 0.69
+  - value: 0.65
+  - value: 0.58
+  - value: 0.24
+dependent_variables:
+- header: {name: '$T_{fo}$(MeV)'}
+  values:
+  - value: 121
+    errors:
+    - {symerror: 4, label: 'stat.'}
+  - value: 125
+    errors:
+    - {symerror: 2, label: 'stat.'}
+  - value: 134
+    errors:
+    - {symerror: 2, label: 'stat.'}
+  - value: 140
+    errors:
+    - {symerror: 4, label: 'stat.'}
+  - value: 161
+    errors:
+    - {asymerror: {plus: 19, minus: 12}, label: 'stat.'}

@@ -1,0 +1,50 @@
+independent_variables:
+- header: {name: '$p_{T, assoc}$ (GeV/$c$)'}
+  values:
+  - {low: 0.5, high: 0.75}
+  - {low: 0.75, high: 1}
+  - {low: 1, high: 1.5}
+  - {low: 1.5, high: 2}
+  - {low: 2, high: 2.5}
+dependent_variables:
+- header: {name: '$\langle p_{T, assoc} \rangle$ (GeV/$c$)'}
+  values:
+  - value: 0.592
+  - value: 0.831
+  - value: 1.19
+  - value: 1.702
+  - value: 2.205
+- header: {name: '$dN/dp^{near}_T$ (rad)'}
+  values:
+  - value: 0.33
+    errors:
+    - {symerror: 0.09, label: 'stat.'}
+  - value: 0.31
+    errors:
+    - {symerror: 0.05, label: 'stat.'}
+  - value: 0.174
+    errors:
+    - {symerror: 0.018, label: 'stat.'}
+  - value: 0.081
+    errors:
+    - {symerror: 0.009, label: 'stat.'}
+  - value: 0.042
+    errors:
+    - {symerror: 0.006, label: 'stat.'}
+- header: {name: '$dN/dp^{far}_T$ (rad)'}
+  values:
+  - value: 0.38
+    errors:
+    - {symerror: 0.18, label: 'stat.'}
+  - value: 0.34
+    errors:
+    - {symerror: 0.08, label: 'stat.'}
+  - value: 0.158
+    errors:
+    - {symerror: 0.024, label: 'stat.'}
+  - value: 0.066
+    errors:
+    - {symerror: 0.014, label: 'stat.'}
+  - value: 0.028
+    errors:
+    - {symerror: 0.009, label: 'stat.'}

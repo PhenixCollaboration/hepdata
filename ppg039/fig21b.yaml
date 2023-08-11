@@ -1,0 +1,74 @@
+independent_variables:
+- header: {name: '$p^{trig}_T$ (GeV/$c$)'}
+  values:
+  - {low: 1, high: 1.5}
+  - {low: 1.5, high: 2}
+  - {low: 2, high: 2.5}
+  - {low: 2.5, high: 3}
+  - {low: 3, high: 3.5}
+  - {low: 3.5, high: 4}
+  - {low: 4, high: 4.5}
+  - {low: 4.5, high: 5}
+dependent_variables:
+- header: {name: '$\langle p_{T, assoc} \rangle$ (GeV/$c$)'}
+  values:
+  - value: 1.21
+  - value: 1.71
+  - value: 2.21
+  - value: 2.72
+  - value: 3.22
+  - value: 3.73
+  - value: 4.23
+  - value: 4.72
+- header: {name: '$dN/dp^{near}_T$ (rad)'}
+  values:
+  - value: 0.545
+    errors:
+    - {symerror: 0.035, label: 'stat.'}
+  - value: 0.289
+    errors:
+    - {symerror: 0.014, label: 'stat.'}
+  - value: 0.236
+    errors:
+    - {symerror: 0.009, label: 'stat.'}
+  - value: 0.102
+    errors:
+    - {symerror: 0.006, label: 'stat.'}
+  - value: 0.072
+    errors:
+    - {symerror: 0.005, label: 'stat.'}
+  - value: 0.045
+    errors:
+    - {symerror: 0.004, label: 'stat.'}
+  - value: 0.0308
+    errors:
+    - {symerror: 0.0029, label: 'stat.'}
+  - value: 0.0152
+    errors:
+    - {symerror: 0.0017, label: 'stat.'}
+- header: {name: '$dN/dp^{far}_T$ (rad)'}
+  values:
+  - value: 0.72
+    errors:
+    - {symerror: 0.08, label: 'stat.'}
+  - value: 0.389
+    errors:
+    - {symerror: 0.030, label: 'stat.'}
+  - value: 0.203
+    errors:
+    - {symerror: 0.018, label: 'stat.'}
+  - value: 0.155
+    errors:
+    - {symerror: 0.012, label: 'stat.'}
+  - value: 0.090
+    errors:
+    - {symerror: 0.012, label: 'stat.'}
+  - value: 0.056
+    errors:
+    - {symerror: 0.007, label: 'stat.'}
+  - value: 0.048
+    errors:
+    - {symerror: 0.006, label: 'stat.'}
+  - value: 0.050
+    errors:
+    - {symerror: 0.006, label: 'stat.'}
