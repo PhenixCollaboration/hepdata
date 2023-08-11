@@ -1,0 +1,123 @@
+independent_variables:
+- header: {name: 'Centrality (%)'}
+  values:
+  - {low: 0, high: 5}
+  - {low: 5, high: 15}
+  - {low: 15, high: 30}
+  - {low: 30, high: 60}
+  - {low: 60, high: 92}
+dependent_variables:
+- header: {name: '$\pi^{+}$'}
+  qualifiers:
+  - {name: '$p_T$', value: '0.5 < $p_T$ < 1.05 GeV/$c$'}
+  values:
+  - value: 216.8
+    errors:
+    - {symerror: 5.7, label: 'stat.'}
+  - value: 214.3
+    errors:
+    - {symerror: 4.6, label: 'stat.'}
+  - value: 217.4
+    errors:
+    - {symerror: 4.7, label: 'stat.'}
+  - value: 214.4
+    errors:
+    - {symerror: 5.2, label: 'stat.'}
+  - value: 176.9
+    errors:
+    - {symerror: 9.5, label: 'stat.'}
+- header: {name: '$\pi^{-}$'}
+  qualifiers:
+  - {name: '$p_T$', value: '0.5 < $p_T$ < 1.05 GeV/$c$'}
+  values:
+  - value: 215.8
+    errors:
+    - {symerror: 6.5, label: 'stat.'}
+  - value: 221.2
+    errors:
+    - {symerror: 5.6, label: 'stat.'}
+  - value: 225.3
+    errors:
+    - {symerror: 5.8, label: 'stat.'}
+  - value: 212.8
+    errors:
+    - {symerror: 5.7, label: 'stat.'}
+  - value: 215.8
+    errors:
+    - {symerror: 16.8, label: 'stat.'}
+- header: {name: '$K^+$'}
+  qualifiers:
+  - {name: '$p_T$', value: '0.45 < $p_T$ < 1.35 GeV/$c$'}
+  values:
+  - value: 233.2
+    errors:
+    - {symerror: 10.8, label: 'stat.'}
+  - value: 243.6
+    errors:
+    - {symerror: 9.8, label: 'stat.'}
+  - value: 242.4
+    errors:
+    - {symerror: 9.2, label: 'stat.'}
+  - value: 228.7
+    errors:
+    - {symerror: 10.2, label: 'stat.'}
+  - value: 182.3
+    errors:
+    - {symerror: 19.0, label: 'stat.'}
+- header: {name: '$K^-$'}
+  qualifiers:
+  - {name: '$p_T$', value: '0.45 < $p_T$ < 1.35 GeV/$c$'}
+  values:
+  - value: 241.1
+    errors:
+    - {symerror: 15.8, label: 'stat.'}
+  - value: 244.5
+    errors:
+    - {symerror: 10.2, label: 'stat.'}
+  - value: 250.0
+    errors:
+    - {symerror: 12.3, label: 'stat.'}
+  - value: 224.2
+    errors:
+    - {symerror: 11.1, label: 'stat.'}
+  - value: 196.4
+    errors:
+    - {symerror: 22.3, label: 'stat.'}
+- header: {name: '$p$'}
+  qualifiers:
+  - {name: '$p_T$', value: '0.55 < $p_T$ < 1.85 GeV/$c$'}
+  values:
+  - value: 310.8
+    errors:
+    - {symerror: 14.8, label: 'stat.'}
+  - value: 311.0
+    errors:
+    - {symerror: 12.3, label: 'stat.'}
+  - value: 293.8
+    errors:
+    - {symerror: 11.4, label: 'stat.'}
+  - value: 265.3
+    errors:
+    - {symerror: 10.9, label: 'stat.'}
+  - value: 200.9
+    errors:
+    - {symerror: 14.8, label: 'stat.'}
+- header: {name: '$\bar{p}$'}
+  qualifiers:
+  - {name: '$p_T$', value: '0.55 < $p_T$ < 1.85 GeV/$c$'}
+  values:
+  - value: 344.2
+    errors:
+    - {symerror: 25.3, label: 'stat.'}
+  - value: 344.0
+    errors:
+    - {symerror: 20.9, label: 'stat.'}
+  - value: 307.6
+    errors:
+    - {symerror: 17.1, label: 'stat.'}
+  - value: 275.1
+    errors:
+    - {symerror: 14.0, label: 'stat.'}
+  - value: 217.0
+    errors:
+    - {symerror: 28.3, label: 'stat.'}

@@ -1,0 +1,50 @@
+independent_variables:
+- header: {name: 'Particle'}
+  values:
+  - {value: $\pi^+$}
+  - {value: $\pi^-$}
+  - {value: $K^+$}
+  - {value: $K^-$}
+  - {value: $p$}
+  - {value: '$\bar{p}$'}
+dependent_variables:
+- header: {name: '$\alpha_{part}$'}
+  values:
+  - value: 1.06
+    errors:
+    - {symerror: 0.01, label: 'stat.'}
+  - value: 1.08
+    errors:
+    - {symerror: 0.01, label: 'stat.'}
+  - value: 1.18
+    errors:
+    - {symerror: 0.02, label: 'stat.'}
+  - value: 1.20
+    errors:
+    - {symerror: 0.03, label: 'stat.'}
+  - value: 1.16
+    errors:
+    - {symerror: 0.02, label: 'stat.'}
+  - value: 1.14
+    errors:
+    - {symerror: 0.03, label: 'stat.'}
+- header: {name: '$\alpha_{coll}$'}
+  values:
+  - value: 0.79
+    errors:
+    - {symerror: 0.01, label: 'stat.'}
+  - value: 0.80
+    errors:
+    - {symerror: 0.01, label: 'stat.'}
+  - value: 0.88
+    errors:
+    - {symerror: 0.02, label: 'stat.'}
+  - value: 0.89
+    errors:
+    - {symerror: 0.02, label: 'stat.'}
+  - value: 0.86
+    errors:
+    - {symerror: 0.02, label: 'stat.'}
+  - value: 0.84
+    errors:
+    - {symerror: 0.02, label: 'stat.'}
