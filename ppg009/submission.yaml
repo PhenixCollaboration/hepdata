@@ -17,285 +17,129 @@ additional_resources:
 - {location: "https://arxiv.org/abs/nucl-ex/0307010", description: arXiv}
 - {location: "https://inspirehep.net/literature/623413", description: InspireHEP}
 ---
-# This is Table 6.
+# This is Table 1
+name: "Table 1"
+location: Data From Table 1 of PRC 69 (024904) 2004
+description: 'The sources of systematic uncertainties in $\langle p_T \rangle$ and $dN$/$dy$.'
+keywords: # used for searching, possibly mutliple values for each keywords
+- {name: reactions, values: [Au Au --> CHARGED X]}
+- {name: cmenergies, values: [130.0]}
+- {name: phrases, values: [ppg009]}
+data_file: ppg009tab1.yaml
+---
+# This is Table 2
+name: "Table 2"
+location: Data From Table 2 of PRC 69 (024904) 2004
+description: 'The $dN$/$dy$ at midrapidity for hadrons produced at midrapidity in each centrality class.'
+keywords: # used for searching, possibly mutliple values for each keywords
+- {name: reactions, values: [Au Au --> CHARGED X]}
+- {name: cmenergies, values: [130.0]}
+- {name: phrases, values: [ppg009]}
+data_file: ppg009tab2.yaml
+---
+# This is Table 4
+name: "Table 4"
+location: Data From Table 4 of PRC 69 (024904) 2004
+description: 'The resulting inverse slopes in MeV after fitting an $m_T$ exponential to the spectra in the range $m_T$-$m_0$ < 1 GeV in each event centrality classes.'
+keywords: # used for searching, possibly mutliple values for each keywords
+- {name: reactions, values: [Au Au --> CHARGED X]}
+- {name: cmenergies, values: [130.0]}
+- {name: phrases, values: [ppg009]}
+data_file: ppg009tab4.yaml
+---
+# This is Table 6
 name: "Table 6"
 location: Data From Table 6 of PRC 69 (024904) 2004
-description: 'The minimum $\chi^2$ and the parameters $T_{fo}$ and $\beta_T^{max}$ for each of the five centrality selections. The best fit parameters are determined by averaging all parameter pairs within the 1$\sigma$ contour. The errors correspond to the standard deviation of the parameter pairs within the 1$\sigma$ $\chi^2$ contour.'
+description: 'The minimum $\chi^2$ for five centrality selections.'
 keywords: # used for searching, possibly mutliple values for each keywords
 - {name: reactions, values: [Au Au --> CHARGED X]}
 - {name: cmenergies, values: [130.0]}
 - {name: phrases, values: [ppg009]}
 data_file: ppg009tab6.yaml
 ---
-# This is Table 7.
+# This is Table 7
 name: "Table 7"
 location: Data From Table 7 of PRC 69 (024904) 2004
-description: 'Fit parameters for each particle species using equations 19 and 20.'
+description: 'Fit parameters for each particle species using Equations [19] and [20].'
 keywords: # used for searching, possibly mutliple values for each keywords
 - {name: reactions, values: [Au Au --> CHARGED X]}
 - {name: cmenergies, values: [130.0]}
 - {name: phrases, values: [ppg009]}
 data_file: ppg009tab7.yaml
 ---
-# This is Table 8.
+# This is Table 8
 name: "Table 8"
 location: Data From Table 8 of PRC 69 (024904) 2004
-description: 'Values of the parameters $n_{pp}$ and $x$ from fitting equation 21 to the observed dN/dy per $N_{part}$.'
+description: 'Values of the parameters $n_{pp}$ and $x$ from fitting Equation [21] to the observed $dN$/$dy$.'
 keywords: # used for searching, possibly mutliple values for each keywords
 - {name: reactions, values: [Au Au --> CHARGED X]}
 - {name: cmenergies, values: [130.0]}
 - {name: phrases, values: [ppg009]}
 data_file: ppg009tab8.yaml
 ---
-# This is Figure 2. Maybe Figure
-name: "Figure 2"
-location: Data From Table 2 of PRC 69 (024904) 2004
-description: 'The dN/dy at midrapidity for hadrons produced at midrapidity in each centrality class. The systematic errors are 13%, 15% and 14% for pions, kaons, and protons, respectively. The $N_{part}$ and $N_{coll}$ in each centrality selection are shown with systematic errors based on a 92 ± 4% coverage.'
+# This is Figure 9
+name: "Figure 9"
+location: Data From Table 9 & 13 of PRC 69 (024904) 2004
+description: 'The spectra of positive and negative in minimum-bias collisions from Au+Au collisions at $\sqrt{s_{NN}}$ = 130 GeV.'
 keywords: # used for searching, possibly mutliple values for each keywords
 - {name: reactions, values: [Au Au --> CHARGED X]}
 - {name: cmenergies, values: [130.0]}
 - {name: phrases, values: [ppg009]}
-data_file: ppg009fig2.yaml
+data_file: ppg009fig9.yaml
 additional_resources:
-- {description: Original EPS Image file, location: piKpCent.eps}
-- {description: PNG Image file, location: piKpCent.png}
+- {description: Thumbnail Image file, location: thumb_minBiasPt.png}
+---
+# This is Figure 10
+name: "Figure 10"
+location: Data From Table 10, 11, 12, 14, 15, & 16 of PRC 69 (024904) 2004
+description: ''
+keywords: # used for searching, possibly mutliple values for each keywords
+- {name: reactions, values: [Au Au --> CHARGED X]}
+- {name: cmenergies, values: [130.0]}
+- {name: phrases, values: [ppg009]}
+data_file: ppg009fig10.yaml
+additional_resources:
 - {description: Thumbnail Image file, location: thumb_piKpCent.png}
 ---
-# This is Figure 3. Idk
-name: "Figure 3"
+# This is Figure 13
+name: "Figure 13"
 location: Data From Table 3 of PRC 69 (024904) 2004
-description: ' The $⟨p_T⟩$ in MeV/$c$ for hadrons produced at midrapidity in each centrality class. The systematic uncertainties are 7%, 10%, and 8% for pions, kaons, and protons, respectively.'
+description: 'The integrated mean $p_T$ for pions, kaons, and (anti)protons produced in the five different classes of event centrality.'
 keywords: # used for searching, possibly mutliple values for each keywords
 - {name: reactions, values: [Au Au --> CHARGED X]}
 - {name: cmenergies, values: [130.0]}
 - {name: phrases, values: [ppg009]}
-data_file: ppg009fig3.yaml
+data_file: ppg009fig13.yaml
 additional_resources:
-- {description: Original EPS Image file, location: meanpt.eps}
-- {description: PNG Image file, location: meanpt.png}
 - {description: Thumbnail Image file, location: thumb_meanpt.png}
 ---
-# This is Figure 4. maybe figure
-name: "Figure 4"
-location: Data From Table 4 of PRC 69 (024904) 2004
-description: 'The resulting inverse slopes in MeV after fitting an $m_T$ exponential to the spectra in the range $m_T$ − $m_0$ < 1 GeV in each event centrality classes.'
+# This is Figure 20
+name: "Figure 20"
+location: Data From Table 6 of PRC 69 (024904) 2004
+description: 'The $\chi^2$ contours in the parameter space $T_{fo}$ and $\beta^{max}_T$ that result after simulataneously fitting hadrons in different centralities.'
 keywords: # used for searching, possibly mutliple values for each keywords
 - {name: reactions, values: [Au Au --> CHARGED X]}
 - {name: cmenergies, values: [130.0]}
 - {name: phrases, values: [ppg009]}
-data_file: ppg009fig4.yaml
+data_file: ppg009fig20.yaml
 additional_resources:
-- {description: Original EPS Image file, location: exponFits.eps}
-- {description: PNG Image file, location: exponFits.png}
-- {description: Thumbnail Image file, location: thumb_exponFits.png}
+- {description: Thumbnail Image file, location: thumb_meanpt.png}
+- {description: Thumbnail Image file, location: thumb_contoursPeripheral.png}
 ---
-# This is Figure 9a.
-name: "Figure 9a"
-location: Data From Table 9 of PRC 69 (024904) 2004
-description: 'Invariant yield for $\pi^±$ measured in minimum bias events at midrapidity and normalized to one rapidity unit.'
+# This is Figure 23
+name: "Figure 23"
+location: Data From Table 6 of PRC 69 (024904) 2004
+description: 'The expansion parameters $T_{fo}$ and $\beta^{max}_T$ as a function of the number of participants.'
 keywords: # used for searching, possibly mutliple values for each keywords
 - {name: reactions, values: [Au Au --> CHARGED X]}
 - {name: cmenergies, values: [130.0]}
 - {name: phrases, values: [ppg009]}
-data_file: ppg009fig9a.yaml
+data_file: ppg009fig23.yaml
+additional_resources:
+- {description: Thumbnail Image file, location: thumb_fitpar_Npart.png}
 ---
-# This is Figure 9b.
-name: "Figure 9b"
-location: Data From Table 9 of PRC 69 (024904) 2004
-description: 'Invariant yield for $K^±$ measured in minimum bias events at midrapidity and normalized to one rapidity unit.'
-keywords: # used for searching, possibly mutliple values for each keywords
-- {name: reactions, values: [Au Au --> CHARGED X]}
-- {name: cmenergies, values: [130.0]}
-- {name: phrases, values: [ppg009]}
-data_file: ppg009fig9b.yaml
----
-# This is Figure 9c.
-name: "Figure 9c"
-location: Data From Table 9 of PRC 69 (024904) 2004
-description: 'Invariant yield for (Anti)proton measured in minimum bias events at midrapidity and normalized to one rapidity unit.'
-keywords: # used for searching, possibly mutliple values for each keywords
-- {name: reactions, values: [Au Au --> CHARGED X]}
-- {name: cmenergies, values: [130.0]}
-- {name: phrases, values: [ppg009]}
-data_file: ppg009fig9c.yaml
----
-# This is Figure 10a.
-name: "Figure 10a-1"
-location: Data From Table 10 of PRC 69 (024904) 2004
-description: '$\pi^{+}$ invariant yields in each event centrality and $p_T$ bin measured at midrapidity, normalized to one rapidity unit.'
-keywords: # used for searching, possibly mutliple values for each keywords
-- {name: reactions, values: [Au Au --> CHARGED X]}
-- {name: cmenergies, values: [130.0]}
-- {name: phrases, values: [ppg009]}
-data_file: ppg009fig10a.yaml
----
-# This is Figure 10a2.
-name: "Figure 10a-2"
-location: Data From Table 10 of PRC 69 (024904) 2004
-description: '$\pi^{-}$ invariant yields in each event centrality and $p_T$ bin measured at midrapidity, normalized to one rapidity unit.'
-keywords: # used for searching, possibly mutliple values for each keywords
-- {name: reactions, values: [Au Au --> CHARGED X]}
-- {name: cmenergies, values: [130.0]}
-- {name: phrases, values: [ppg009]}
-data_file: ppg009fig10a2.yaml
----
-# This is Figure 10b.
-name: "Figure 10b-1"
-location: Data From Table 10 of PRC 69 (024904) 2004
-description: '$\pi^{+}$ invariant yields in each event centrality and $p_T$ bin measured at midrapidity, normalized to one rapidity unit.'
-keywords: # used for searching, possibly mutliple values for each keywords
-- {name: reactions, values: [Au Au --> CHARGED X]}
-- {name: cmenergies, values: [130.0]}
-- {name: phrases, values: [ppg009]}
-data_file: ppg009fig10b.yaml
----
-# This is Figure 10b2.
-name: "Figure 10b-2"
-location: Data From Table 10 of PRC 69 (024904) 2004
-description: '$\pi^{-}$ invariant yields in each event centrality and $p_T$ bin measured at midrapidity, normalized to one rapidity unit.'
-keywords: # used for searching, possibly mutliple values for each keywords
-- {name: reactions, values: [Au Au --> CHARGED X]}
-- {name: cmenergies, values: [130.0]}
-- {name: phrases, values: [ppg009]}
-data_file: ppg009fig10b2.yaml
----
-# This is Figure 11a.
-name: "Figure 11a-1"
-location: Data From Table 11 of PRC 69 (024904) 2004
-description: '$k^+$ invariant yields in each event centrality and $p_T$ bin, measured at midrapidity and normalized to one rapidity unit.'
-keywords: # used for searching, possibly mutliple values for each keywords
-- {name: reactions, values: [Au Au --> CHARGED X]}
-- {name: cmenergies, values: [130.0]}
-- {name: phrases, values: [ppg009]}
-data_file: ppg009fig11a.yaml
----
-# This is Figure 11a2.
-name: "Figure 11a-2"
-location: Data From Table 11 of PRC 69 (024904) 2004
-description: '$k^-$ invariant yields in each event centrality and $p_T$ bin, measured at midrapidity and normalized to one rapidity unit.'
-keywords: # used for searching, possibly mutliple values for each keywords
-- {name: reactions, values: [Au Au --> CHARGED X]}
-- {name: cmenergies, values: [130.0]}
-- {name: phrases, values: [ppg009]}
-data_file: ppg009fig11a2.yaml
----
-# This is Figure 11b.
-name: "Figure 11b"
-location: Data From Table 11 of PRC 69 (024904) 2004
-description: 'Kaon invariant yields in each event centrality and $p_T$ bin, measured at midrapidity and normalized to one rapidity unit.'
-keywords: # used for searching, possibly mutliple values for each keywords
-- {name: reactions, values: [Au Au --> CHARGED X]}
-- {name: cmenergies, values: [130.0]}
-- {name: phrases, values: [ppg009]}
-data_file: ppg009fig11b.yaml
----
-# This is Figure 12a.
-name: "Figure 12a"
-location: Data From Table 12 of PRC 69 (024904) 2004
-description: '(Anti)proton invariant yields in each event centrality and $p_T$ bin, measured at midrapidity and normalized to one rapidity unit.'
-keywords: # used for searching, possibly mutliple values for each keywords
-- {name: reactions, values: [Au Au --> CHARGED X]}
-- {name: cmenergies, values: [130.0]}
-- {name: phrases, values: [ppg009]}
-data_file: ppg009fig12a.yaml
----
-# This is Figure 12b.
-name: "Figure 12b-1"
-location: Data From Table 12 of PRC 69 (024904) 2004
-description: '$p$ invariant yields in each event centrality and $p_T$ bin, measured at midrapidity and normalized to one rapidity unit.'
-keywords: # used for searching, possibly mutliple values for each keywords
-- {name: reactions, values: [Au Au --> CHARGED X]}
-- {name: cmenergies, values: [130.0]}
-- {name: phrases, values: [ppg009]}
-data_file: ppg009fig12b.yaml
----
-# This is Figure 12b2.
-name: "Figure 12b-2"
-location: Data From Table 12 of PRC 69 (024904) 2004
-description: '$\bar{p}$ invariant yields in each event centrality and $p_T$ bin, measured at midrapidity and normalized to one rapidity unit.'
-keywords: # used for searching, possibly mutliple values for each keywords
-- {name: reactions, values: [Au Au --> CHARGED X]}
-- {name: cmenergies, values: [130.0]}
-- {name: phrases, values: [ppg009]}
-data_file: ppg009fig12b2.yaml
----
-# This is Figure 13a.
-name: "Figure 13a"
-location: Data From Table 13 of PRC 69 (024904) 2004
-description: 'Minimum bias invariant yields for all particles in equal $p_T$ bins.'
-keywords: # used for searching, possibly mutliple values for each keywords
-- {name: reactions, values: [Au Au --> CHARGED X]}
-- {name: cmenergies, values: [130.0]}
-- {name: phrases, values: [ppg009]}
-data_file: ppg009fig13a.yaml
----
-# This is Figure 13b.
-name: "Figure 13b"
-location: Data From Table 13 of PRC 69 (024904) 2004
-description: 'Minimum bias invariant yields for all particles in equal $p_T$ bins.'
-keywords: # used for searching, possibly mutliple values for each keywords
-- {name: reactions, values: [Au Au --> CHARGED X]}
-- {name: cmenergies, values: [130.0]}
-- {name: phrases, values: [ppg009]}
-data_file: ppg009fig13b.yaml
----
-# This is Figure 13c.
-name: "Figure 13c"
-location: Data From Table 13 of PRC 69 (024904) 2004
-description: 'Minimum bias invariant yields for all particles in equal $p_T$ bins.'
-keywords: # used for searching, possibly mutliple values for each keywords
-- {name: reactions, values: [Au Au --> CHARGED X]}
-- {name: cmenergies, values: [130.0]}
-- {name: phrases, values: [ppg009]}
-data_file: ppg009fig13c.yaml
----
-# This is Figure 14a.
-name: "Figure 14a"
-location: Data From Table 14 of PRC 69 (024904) 2004
-description: 'Pion invariant yields in each event centrality normalized to one rapidity unit at midrapidity.'
-keywords: # used for searching, possibly mutliple values for each keywords
-- {name: reactions, values: [Au Au --> CHARGED X]}
-- {name: cmenergies, values: [130.0]}
-- {name: phrases, values: [ppg009]}
-data_file: ppg009fig14a.yaml
----
-# This is Figure 14b.
-name: "Figure 14b"
-location: Data From Table 14 of PRC 69 (024904) 2004
-description: 'Pion invariant yields in each event centrality normalized to one rapidity unit at midrapidity.'
-keywords: # used for searching, possibly mutliple values for each keywords
-- {name: reactions, values: [Au Au --> CHARGED X]}
-- {name: cmenergies, values: [130.0]}
-- {name: phrases, values: [ppg009]}
-data_file: ppg009fig14b.yaml
----
-# This is Figure 15.
-name: "Figure 15"
-location: Data From Table 15 of PRC 69 (024904) 2004
-description: 'Kaon invariant yields in each event centrality normalized to one rapidity unit at midrapidity.'
-keywords: # used for searching, possibly mutliple values for each keywords
-- {name: reactions, values: [Au Au --> CHARGED X]}
-- {name: cmenergies, values: [130.0]}
-- {name: phrases, values: [ppg009]}
-data_file: ppg009fig15.yaml
----
-# This is Figure 16a.
-name: "Figure 16a"
-location: Data From Table 16 of PRC 69 (024904) 2004
-description: '(Anti)proton invariant yields in each event centrality normalized to one rapidity unit at midrapidity.'
-keywords: # used for searching, possibly mutliple values for each keywords
-- {name: reactions, values: [Au Au --> CHARGED X]}
-- {name: cmenergies, values: [130.0]}
-- {name: phrases, values: [ppg009]}
-data_file: ppg009fig16a.yaml
----
-# This is Figure 16b.
-name: "Figure 16b"
-location: Data From Table 16 of PRC 69 (024904) 2004
-description: '(Anti)proton invariant yields in each event centrality normalized to one rapidity unit at midrapidity.'
-keywords: # used for searching, possibly mutliple values for each keywords
-- {name: reactions, values: [Au Au --> CHARGED X]}
-- {name: cmenergies, values: [130.0]}
-- {name: phrases, values: [ppg009]}
-data_file: ppg009fig16b.yaml
----
+
+
+
+
+

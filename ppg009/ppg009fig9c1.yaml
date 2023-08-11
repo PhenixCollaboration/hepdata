@@ -1,26 +1,26 @@
 independent_variables:
 - header: {name: '$p_T$ (GeV/$c$)'}
   values:
-  - {low: 0.55, high: 0.65}
-  - {low: 0.65, high: 0.75}
-  - {low: 0.75, high: 0.85}
-  - {low: 0.85, high: 0.95}
-  - {low: 0.95, high: 1.05}
-  - {low: 1.05, high: 1.15}
-  - {low: 1.15, high: 1.25}
-  - {low: 1.25, high: 1.35}
-  - {low: 1.35, high: 1.45}
-  - {low: 1.45, high: 1.55}
-  - {low: 1.55, high: 1.65}
+  - {low: 0.50, high: 0.60}
+  - {low: 0.60, high: 0.70}
+  - {low: 0.70, high: 0.80}
+  - {low: 0.80, high: 0.90}
+  - {low: 0.90, high: 1.00}
+  - {low: 1.00, high: 1.10}
+  - {low: 1.10, high: 1.20}
+  - {low: 1.20, high: 1.30}
+  - {low: 1.30, high: 1.40}
+  - {low: 1.40, high: 1.50}
+  - {low: 1.50, high: 1.60}
 dependent_variables:
 - header: {name: '$p$'}
   values:
-  - value: 2.30
+  - value: 2.3
     errors:
-    - {symerror: 0.10, label: 'stat.'}
-  - value: 1.80
+    - {symerror: 0.1, label: 'stat.'}
+  - value: 1.8
     errors:
-    - {symerror: 0.10, label: 'stat.'}
+    - {symerror: 0.1, label: 'stat.'}
   - value: 1.38
     errors:
     - {symerror: 0.08, label: 'stat.'}
@@ -50,9 +50,9 @@ dependent_variables:
     - {symerror: 0.02, label: 'stat.'}
 - header: {name: '$\bar{p}$'}
   values:
-  - value: 1.20
+  - value: 1.2
     errors:
-    - {symerror: 0.10, label: 'stat.'}
+    - {symerror: 0.1, label: 'stat.'}
   - value: 1.17
     errors:
     - {symerror: 0.09, label: 'stat.'}
