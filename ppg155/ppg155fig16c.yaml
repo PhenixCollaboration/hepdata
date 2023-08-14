@@ -1,0 +1,88 @@
+independent_variables:
+- header: {name: '$p_T$(GeV/$c$)'}
+  values:
+  - {low: 1.00, high: 1.20}
+  - {low: 1.20, high: 1.40}
+  - {low: 1.40, high: 1.60}
+  - {low: 1.60, high: 1.80}
+  - {low: 1.80, high: 2.00}
+  - {low: 2.00, high: 2.20}
+  - {low: 2.20, high: 2.40}
+  - {low: 2.40, high: 2.60}
+  - {low: 2.60, high: 2.80}
+  - {low: 2.80, high: 3.00}
+  - {low: 3.00, high: 3.20}
+  - {low: 3.30, high: 3.50}
+  - {low: 3.70, high: 3.90}
+  - {low: 4.10, high: 4.30}
+  - {low: 4.50, high: 4.70}
+  - {low: 4.90, high: 5.10}
+dependent_variables:
+- header: {name: '$R_{AA}$'}
+  qualifiers:
+  - {name: 'Centrality', value: '40-60%'}
+  values:
+  - value: 0.411
+    errors:
+    - {symerror: 0.074, label: 'stat.'}
+    - {symerror: 0.633, label: 'syst.'}
+  - value: 0.762
+    errors:
+    - {symerror: 0.095, label: 'stat.'}
+    - {symerror: 0.675, label: 'syst.'}
+  - value: 1.078
+    errors:
+    - {symerror: 0.127, label: 'stat.'}
+    - {symerror: 0.696, label: 'syst.'}
+  - value: 1.041
+    errors:
+    - {symerror: 0.165, label: 'stat.'}
+    - {symerror: 0.657, label: 'syst.'}
+  - value: 1.108
+    errors:
+    - {symerror: 0.217, label: 'stat.'}
+    - {symerror: 0.652, label: 'syst.'}
+  - value: 1.557
+    errors:
+    - {symerror: 0.292, label: 'stat.'}
+    - {symerror: 0.688, label: 'syst.'}
+  - value: 1.679
+    errors:
+    - {symerror: 0.379, label: 'stat.'}
+    - {symerror: 0.651, label: 'syst.'}
+  - value: 1.011
+    errors:
+    - {symerror: 0.455, label: 'stat.'}
+    - {symerror: 0.520, label: 'syst.'}
+  - value: 2.102
+    errors:
+    - {symerror: 0.620, label: 'stat.'}
+    - {symerror: 0.691, label: 'syst.'}
+  - value: 1.249
+    errors:
+    - {symerror: 0.675, label: 'stat.'}
+    - {symerror: 0.600, label: 'syst.'}
+  - value: 2.852
+    errors:
+    - {symerror: 1.111, label: 'stat.'}
+    - {symerror: 0.781, label: 'syst.'}
+  - value: 2.047
+    errors:
+    - {symerror: 0.931, label: 'stat.'}
+    - {symerror: 0.614, label: 'syst.'}
+  - value: 4.424
+    errors:
+    - {symerror: 1.655, label: 'stat.'}
+    - {symerror: 0.992, label: 'syst.'}
+  - value: 2.143
+    errors:
+    - {symerror: 1.943, label: 'stat.'}
+    - {symerror: 1.349, label: 'syst.'}
+  - value: 0.100
+    errors:
+    - {symerror: 2.001, label: 'stat.'}
+    - {symerror: 1.500, label: 'syst.'}
+  - value: 2.445
+    errors:
+    - {symerror: 3.340, label: 'stat.'}
+    - {symerror: 0.845, label: 'syst.'}

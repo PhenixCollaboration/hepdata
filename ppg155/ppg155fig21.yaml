@@ -1,0 +1,94 @@
+independent_variables:
+- header: {name: '$p_{T}$'}
+  values:
+  - {low: 1.00, high: 1.30}
+  - {low: 1.30, high: 1.60}
+  - {low: 1.60, high: 1.90}
+  - {low: 1.90, high: 2.20}
+  - {low: 2.20, high: 2.50}
+  - {low: 2.50, high: 4.00}
+dependent_variables:
+- header: {name: '$v_{2}$'}
+  qualifiers:
+  - {name: 'centrality', value: '0-20%'}
+  values:
+  - value: 0.047
+    errors:
+    - {symerror: 0.022, label: 'stat.'}
+    - {asymerror: {plus: 0.024, minus: 0.037}, label: 'sys.'}
+  - value: 0.059
+    errors:
+    - {symerror: 0.031, label: 'stat.'}
+    - {asymerror: {plus: 0.018, minus: 0.021}, label: 'sys.'}
+  - value: 0.023
+    errors:
+    - {symerror: 0.049, label: 'stat.'}
+    - {asymerror: {plus: 0.018, minus: 0.028}, label: 'sys.'}
+  - value: 0.010
+    errors:
+    - {symerror: 0.071, label: 'stat.'}
+    - {asymerror: {plus: 0.016, minus: 0.026}, label: 'sys.'}
+  - value: 0.014
+    errors:
+    - {symerror: 0.108, label: 'stat.'}
+    - {asymerror: {plus: 0.014, minus: 0.020}, label: 'sys.'}
+  - value: 0.110
+    errors:
+    - {symerror: 0.103, label: 'stat.'}
+    - {asymerror: {plus: 0.011, minus: 0.011}, label: 'sys.'}
+- header: {name: '$v_{2}$'}
+  qualifiers:
+  - {name: 'centrality', value: '20-40%'}
+  values:
+  - value: 0.024
+    errors:
+    - {symerror: 0.029, label: 'stat.'}
+    - {asymerror: {plus: 0.057, minus: 0.142}, label: 'sys.'}
+  - value: 0.056
+    errors:
+    - {symerror: 0.037, label: 'stat.'}
+    - {asymerror: {plus: 0.039, minus: 0.068}, label: 'sys.'}
+  - value: 0.078
+    errors:
+    - {symerror: 0.054, label: 'stat.'}
+    - {asymerror: {plus: 0.032, minus: 0.047}, label: 'sys.'}
+  - value: 0.067
+    errors:
+    - {symerror: 0.077, label: 'stat.'}
+    - {asymerror: {plus: 0.027, minus: 0.040}, label: 'sys.'}
+  - value: 0.340
+    errors:
+    - {symerror: 0.112, label: 'stat.'}
+    - {asymerror: {plus: 0.052, minus: 0.038}, label: 'sys.'}
+  - value: 0.205
+    errors:
+    - {symerror: 0.110, label: 'stat.'}
+    - {asymerror: {plus: 0.020, minus: 0.019}, label: 'sys.'}
+- header: {name: '$v_{2}$'}
+  qualifiers:
+  - {name: 'centrality', value: '40-60%'}
+  values:
+  - value: 0.085
+    errors:
+    - {symerror: 0.168, label: 'stat.'}
+    - {asymerror: {plus: 0.389, minus: 0.385}, label: 'sys.'}
+  - value: 0.156
+    errors:
+    - {symerror: 0.145, label: 'stat.'}
+    - {asymerror: {plus: 0.066, minus: 0.114}, label: 'sys.'}
+  - value: 0.091
+    errors:
+    - {symerror: 0.186, label: 'stat.'}
+    - {asymerror: {plus: 0.052, minus: 0.120}, label: 'sys.'}
+  - value: -0.200
+    errors:
+    - {symerror: 0.251, label: 'stat.'}
+    - {asymerror: {plus: 0.114, minus: 0.100}, label: 'sys.'}
+  - value: 0.121
+    errors:
+    - {symerror: 0.335, label: 'stat.'}
+    - {asymerror: {plus: 0.031, minus: 0.048}, label: 'sys.'}
+  - value: 0.059
+    errors:
+    - {symerror: 0.270, label: 'stat.'}
+    - {asymerror: {plus: 0.027, minus: 0.053}, label: 'sys.'}
