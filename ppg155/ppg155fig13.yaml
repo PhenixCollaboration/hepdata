@@ -3,9 +3,9 @@ independent_variables:
   values:
   - value: $p_0$
   - value: $p_1$
-  - value: $p_1$
+  - value: $p_2$
 dependent_variables:
-- header: {name: '$R_{AA}$'}
+- header: {name: '$E\frac{d^3\sigma}{d^3p}$ [cm$^2$ GeV$^{-2}$c$^3$]'}
   qualifiers:
   - {name: 'Fit Parameters', value: '$p$ + $p$'}
   values:
@@ -17,4 +17,4 @@ dependent_variables:
     - {symerror: 1.428}
   - value: 1.015
     errors:
-    - {symerror: 3.870}
+    - {symerror: 3.87027E-1, label: 'stat.'}

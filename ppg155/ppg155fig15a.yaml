@@ -1,14 +1,26 @@
 independent_variables:
-- header: {name: '$N_{coll}$'}
+- header: {name: 'Centrality (%)'}
   values:
-  - {value: 689.9}
-  - {value: 270.5}
-  - {value: 85.7}
-  - {value: 1.0}
+  - {low: 0, high: 20}
+  - {low: 20, high: 40}
+  - {low: 40, high: 60}
 dependent_variables:
+- header: {name: '$N_{coll}$'}
+  qualifiers:
+  - {name: '$p_T$ range [GeV]', value: ''}
+  values:
+  - value: 689.9
+    errors:
+    - {symerror: 78.89}
+  - value: 270.5
+    errors:
+    - {symerror: 27.46}
+  - value: 85.71
+    errors:
+    - {symerror: 9.064}
 - header: {name: '$(\frac{1}{N_{coll}})\frac{Ed^{3}N}{d^{3}p}$ [GeV$^{-2}c^{3}$]'}
   qualifiers:
-  - {name: 'Centrality [GeV]', value: '1.5 < $p_{T}$ < 2.5'}
+  - {name: '$p_T$ range [GeV]', value: '1.5 < $p_{T}$ < 2.5'}
   values:
   - value: 1.06E-7
     errors:
@@ -22,13 +34,9 @@ dependent_variables:
     errors:
     - {symerror: 0.55E-8, label: 'stat.'}
     - {symerror: 2.05E-8, label: 'syst.'}
-  - value: 5.60E-8
-    errors:
-    - {symerror: 0.43E-8, label: 'stat.'}
-    - {symerror: 0.00, label: 'syst.'}
 - header: {name: '$(\frac{1}{N_{coll}})\frac{Ed^{3}N}{d^{3}p}$ [GeV$^{-2}c^{3}$]'}
   qualifiers:
-  - {name: 'Centrality [GeV]', value: '2.5 < $p_{T}$ < 3.5'}
+  - {name: '$p_T$ range [GeV]', value: '2.5 < $p_{T}$ < 3.5'}
   values:
   - value: 4.69E-9
     errors:
@@ -42,13 +50,9 @@ dependent_variables:
     errors:
     - {symerror: 0.78E-9, label: 'stat.'}
     - {symerror: 0.57E-9, label: 'syst.'}
-  - value: 2.24E-9
-    errors:
-    - {symerror: 0.47E-9, label: 'stat.'}
-    - {symerror: 0.00, label: 'syst.'}
 - header: {name: '$(\frac{1}{N_{coll}})\frac{Ed^{3}N}{d^{3}p}$ [GeV$^{-2}c^{3}$]'}
   qualifiers:
-  - {name: 'Centrality [GeV]', value: '3.5 < $p_{T}$ < 5.0'}
+  - {name: '$p_T$ range [GeV]', value: '3.5 < $p_{T}$ < 5.0'}
   values:
   - value: 3.77E-10
     errors:
@@ -62,7 +66,3 @@ dependent_variables:
     errors:
     - {symerror: 1.99E-10, label: 'stat.'}
     - {symerror: 0.53E-10, label: 'syst.'}
-  - value: 1.45E-10
-    errors:
-    - {symerror: 1.17E-10, label: 'stat.'}
-    - {symerror: 0.00, label: 'syst.'}

@@ -25,7 +25,7 @@ keywords: # used for searching, possibly mutliple values for each keywords
 - {name: reactions, values: [Au + Au$\implies$ CHARGED X, $p + p$$\implies$ CHARGED X]}
 - {name: cmenergies, values: [200.0]}
 - {name: phrases, values: [ppg155, semileptonic decays, heavy-flavor hadrons, heavy-flavor decays, heavy-quarks, Cronin effects, final-state flow]}
-data_file: ppg155fig6.yaml
+data_file: ppg155fig61.yaml
 additional_resources:
 - {description: Figure 6, location: Figure6.png}
 ---
@@ -56,7 +56,7 @@ additional_resources:
 name: "Figure 13"
 
 location: Data From Fig. 13 of PRC 4 (2015) 044907
-description: 'Candidate (inclusive), photonic, and heavy-flavor electron $v_{2}$ in Au+Au collisions at $\sqrt{s_{NN}}$ = 62.4 GeV for 20%-40% centrality. Fit parameters to p+p data in Fig 13.'
+description: 'Invariant cross section of heavy-flavor electrons in $p$$+$$p$ collisions at $\sqrt{s_{_{NN}}}$ = 62.4 GeV. Candidate (inclusive), photonic, and heavy-flavor electron $v_{2}$ in Au+Au collisions at $\sqrt{s_{NN}}$ = 62.4 GeV for 20%-40% centrality. Fit parameters to p+p data in Fig 13.'
 keywords: # used for searching, possibly mutliple values for each keywords
 - {name: reactions, values: [Au + Au$\implies$ CHARGED X, $p + p$$\implies$ CHARGED X]}
 - {name: cmenergies, values: [200.0]}
@@ -68,7 +68,7 @@ additional_resources:
 name: "Figure 15a"
 
 location: Data From Fig. 15 of PRC 4 (2015) 044907
-description: 'Candidate (inclusive), photonic, and heavy-flavor electron $v_{2}$ in Au+Au collisions at $\sqrt{s_{NN}}$ = 62.4 GeV for 20%-40% centrality.'
+description: 'Integrated invariant yield per binary collision vs $N_{coll}$ for heavy-flavor electrons in Au$+$Au collisions at  $\sqrt{s_{_{NN}}}$ = 62.4 GeV for the indicated $p_{T}^{e}$ ranges. The data point at $N_{coll}$ =1 is for $p$$+$$p$ collisions.'
 keywords: # used for searching, possibly mutliple values for each keywords
 - {name: reactions, values: [Au + Au$\implies$ CHARGED X, $p + p$$\implies$ CHARGED X]}
 - {name: cmenergies, values: [200.0]}
@@ -82,7 +82,7 @@ additional_resources:
 name: "Figure 15b"
 
 location: Data From Fig. 15 of PRC 4 (2015) 044907
-description: 'Candidate (inclusive), photonic, and heavy-flavor electron $v_{2}$ in $p+p$ collisions at $\sqrt{s_{NN}}$ = 62.4 GeV for 20%-40% centrality.'
+description: 'Integrated invariant yield per binary collision vs $N_{coll}$ for heavy-flavor electrons in Au$+$Au collisions at  $\sqrt{s_{_{NN}}}$ = 62.4 GeV for the indicated $p_{T}^{e}$ ranges. The data point at $N_{coll}$ =1 is for $p$$+$$p$ collisions.'
 keywords: # used for searching, possibly mutliple values for each keywords
 - {name: reactions, values: [Au + Au$\implies$ CHARGED X, $p + p$$\implies$ CHARGED X]}
 - {name: cmenergies, values: [200.0]}
@@ -93,9 +93,9 @@ additional_resources:
 - {description: Figure 15b, location: Figure15b.png}
 - {description: Figure 15c, location: Figure15c.png}
 ---
-name: "Figure 16a"
+name: "Figures 16a, 19"
 
-location: Data From Fig. 16a of PRC 4 (2015) 044907
+location: Data From Figs. 16a and 19 of PRC 4 (2015) 044907
 description: 'The $R_{AA}$ for electrons from heavy-flavor decays in Au+Au collisions at $\sqrt{s_{NN}}$ = 62.4 GeV for the indicated centralities. The error bars (boxes) represent the statistical (systematic) uncertainties. The global uncertainty due to the uncertainty in Ncoll for each centrality is given by the box on the right side of each plot.'
 keywords: # used for searching, possibly mutliple values for each keywords
 - {name: reactions, values: [Au + Au$\implies$ CHARGED X, $p + p$$\implies$ CHARGED X]}
@@ -104,6 +104,7 @@ keywords: # used for searching, possibly mutliple values for each keywords
 data_file: ppg155fig16a.yaml
 additional_resources:
 - {description: Figure 16a, location: Figure16a.png}
+- {description: Figure 19, location: Figure19.png}
 ---
 name: "Figure 16b"
 
@@ -129,9 +130,9 @@ data_file: ppg155fig16c.yaml
 additional_resources:
 - {description: Figure 16c, location: Figure16c.png}
 ---
-name: "Figure 16d"
+name: "Figures 16d, 18"
 
-location: Data From Fig. 16d of PRC 4 (2015) 044907
+location: Data From Figs. 16d and 18 of PRC 4 (2015) 044907
 description: 'The $R_{AA}$ for electrons from heavy-flavor decays in Au+Au collisions at $\sqrt{s_{NN}}$ = 62.4 GeV for the indicated centralities. The error bars (boxes) represent the statistical (systematic) uncertainties. The global uncertainty due to the uncertainty in Ncoll for each centrality is given by the box on the right side of each plot.'
 keywords: # used for searching, possibly mutliple values for each keywords
 - {name: reactions, values: [Au + Au$\implies$ CHARGED X, $p + p$$\implies$ CHARGED X]}
@@ -140,6 +141,7 @@ keywords: # used for searching, possibly mutliple values for each keywords
 data_file: ppg155fig16d.yaml
 additional_resources:
 - {description: Figure 16d, location: Figure16d.png}
+- {description: Figure 18, location: Figure18.png}
 ---
 name: "Figure 17a"
 
@@ -165,47 +167,10 @@ data_file: ppg155fig17b.yaml
 additional_resources:
 - {description: Figure 17b, location: Figure17.png}
 ---
-name: "Figure 18"
-
-location: Data From Fig. 18 of PRC 4 (2015) 044907
-description: 'The $R_{AA}$ values from heavy-flavor decay for electrons and $\pi^0$ [19] in Au+Au collisions at 62.4 GeV. The error bars (boxes) show the statistical (systematic) uncertainties.'
-keywords: # used for searching, possibly mutliple values for each keywords
-- {name: reactions, values: [Au + Au$\implies$ CHARGED X, $p + p$$\implies$ CHARGED X]}
-- {name: cmenergies, values: [200.0]}
-- {name: phrases, values: [ppg155, semileptonic decays, heavy-flavor hadrons, heavy-flavor decays, heavy-quarks, Cronin effects, final-state flow]}
-data_file: ppg155fig18.yaml
-additional_resources:
-- {description: Figure 18, location: Figure18.png}
----
-name: "Figure 19"
-
-location: Data From Fig. 19 of PRC 4 (2015) 044907
-description: 'The nuclear modification factor $R_{AA}$ for electrons from heavy-flavor decays in 0%-20% central Au+Au collisions at $\sqrt{s_{NN}}$ = 62.4 GeV compared to predictions (dark-blue band) from Vitev et al. [13, 45].'
-keywords: # used for searching, possibly mutliple values for each keywords
-- {name: reactions, values: [Au + Au$\implies$ CHARGED X, $p + p$$\implies$ CHARGED X]}
-- {name: cmenergies, values: [200.0]}
-- {name: phrases, values: [ppg155, semileptonic decays, heavy-flavor hadrons, heavy-flavor decays, heavy-quarks, Cronin effects, final-state flow]}
-data_file: ppg155fig19.yaml
-additional_resources:
-- {description: Figure 19, location: Figure19.png}
----
-name: "Figures 18 & 19"
-
-location: Data From Fig. 18 & 19 of PRC 4 (2015) 044907
-description: '$R_{AA}$ values from figures 18 and 19.'
-keywords: # used for searching, possibly mutliple values for each keywords
-- {name: reactions, values: [Au + Au$\implies$ CHARGED X, $p + p$$\implies$ CHARGED X]}
-- {name: cmenergies, values: [200.0]}
-- {name: phrases, values: [ppg155, semileptonic decays, heavy-flavor hadrons, heavy-flavor decays, heavy-quarks, Cronin effects, final-state flow]}
-data_file: ppg155fig1819.yaml
-additional_resources:
-- {description: Figure 18, location: Figure18.png}
-- {description: Figure 19, location: Figure19.png}
----
 name: "Figure 20"
 
 location: Data From Fig. 20 of PRC 4 (2015) 044907
-description: 'The $R_{AA}$ values from heavy-flavor decay for electrons and $\pi^0$ [19] in Au+Au collisions at 62.4 GeV. The error bars (boxes) show the statistical (systematic) uncertainties.'
+description: 'Heavy-flavor electron RCP between centrality 0\%–20\% and 40\%–60\% in Au$+$Au collisions at $\sqrt{s_{_{NN}}}$ = 62.4 GeV. The error bars (boxes) show the statistical (systematic) uncertainties.'
 keywords: # used for searching, possibly mutliple values for each keywords
 - {name: reactions, values: [Au + Au$\implies$ CHARGED X, $p + p$$\implies$ CHARGED X]}
 - {name: cmenergies, values: [200.0]}

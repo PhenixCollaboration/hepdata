@@ -1,0 +1,230 @@
+independent_variables:
+- header: {name: '$p_T$ (Ge/$c$)'}
+  values:
+  - {low: 0.40, high: 0.50}
+  - {low: 0.50, high: 0.60}
+  - {low: 0.60, high: 0.80}
+  - {low: 0.80, high: 1.00}
+  - {low: 1.00, high: 1.40}
+  - {low: 1.40, high: 1.80}
+dependent_variables:
+- header: {name: '$K^+$'}
+  qualifiers:
+  - {name: 'Centrality (%)', value: '0-5'}
+  values:
+  - value: 21.00
+    errors:
+    - {symerror: 3.00, label: 'stat.'}
+  - value: 15.00
+    errors:
+    - {symerror: 2.00, label: 'stat.'}
+  - value: 8.00
+    errors:
+    - {symerror: 0.70, label: 'stat.'}
+  - value: 4.50
+    errors:
+    - {symerror: 0.40, label: 'stat.'}
+  - value: 1.40
+    errors:
+    - {symerror: 0.10, label: 'stat.'}
+  - value: 0.36
+    errors:
+    - {symerror: 0.05, label: 'stat.'}
+- header: {name: '$K^-$'}
+  qualifiers:
+  - {name: 'Centrality (%)', value: '0-5'}
+  values:
+  - value: 21.00
+    errors:
+    - {symerror: 3.00, label: 'stat.'}
+  - value: 13.00
+    errors:
+    - {symerror: 2.00, label: 'stat.'}
+  - value: 7.00
+    errors:
+    - {symerror: 0.80, label: 'stat.'}
+  - value: 3.30
+    errors:
+    - {symerror: 0.40, label: 'stat.'}
+  - value: 1.30
+    errors:
+    - {symerror: 0.10, label: 'stat.'}
+  - value: 0.29
+    errors:
+    - {symerror: 0.05, label: 'stat.'}
+- header: {name: '$K^+$'}
+  qualifiers:
+  - {name: 'Centrality (%)', value: '5-15'}
+  values:
+  - value: 16.00
+    errors:
+    - {symerror: 2.00, label: 'stat.'}
+  - value: 11.00
+    errors:
+    - {symerror: 1.00, label: 'stat.'}
+  - value: 6.60
+    errors:
+    - {symerror: 0.50, label: 'stat.'}
+  - value: 3.10
+    errors:
+    - {symerror: 0.20, label: 'stat.'}
+  - value: 1.10
+    errors:
+    - {symerror: 0.08, label: 'stat.'}
+  - value: 0.29
+    errors:
+    - {symerror: 0.03, label: 'stat.'}
+- header: {name: '$K^-$'}
+  qualifiers:
+  - {name: 'Centrality (%)', value: '5-15'}
+  values:
+  - value: 13.00
+    errors:
+    - {symerror: 2.00, label: 'stat.'}
+  - value: 8.00
+    errors:
+    - {symerror: 1.00, label: 'stat.'}
+  - value: 6.50
+    errors:
+    - {symerror: 0.60, label: 'stat.'}
+  - value: 3.30
+    errors:
+    - {symerror: 0.30, label: 'stat.'}
+  - value: 0.97
+    errors:
+    - {symerror: 0.08, label: 'stat.'}
+  - value: 0.27
+    errors:
+    - {symerror: 0.03, label: 'stat.'}
+- header: {name: '$K^+$'}
+  qualifiers:
+  - {name: 'Centrality (%)', value: '15-30'}
+  values:
+  - value: 10.00
+    errors:
+    - {symerror: 1.00, label: 'stat.'}
+  - value: 6.60
+    errors:
+    - {symerror: 0.70, label: 'stat.'}
+  - value: 4.30
+    errors:
+    - {symerror: 0.30, label: 'stat.'}
+  - value: 1.90
+    errors:
+    - {symerror: 0.10, label: 'stat.'}
+  - value: 0.68
+    errors:
+    - {symerror: 0.05, label: 'stat.'}
+  - value: 0.17
+    errors:
+    - {symerror: 0.02, label: 'stat.'}
+- header: {name: '$K^-$'}
+  qualifiers:
+  - {name: 'Centrality (%)', value: '15-30'}
+  values:
+  - value: 7.00
+    errors:
+    - {symerror: 1.00, label: 'stat.'}
+  - value: 4.80
+    errors:
+    - {symerror: 0.60, label: 'stat.'}
+  - value: 3.10
+    errors:
+    - {symerror: 0.30, label: 'stat.'}
+  - value: 1.60
+    errors:
+    - {symerror: 0.20, label: 'stat.'}
+  - value: 0.50
+    errors:
+    - {symerror: 0.05, label: 'stat.'}
+  - value: 0.20
+    errors:
+    - {symerror: 0.02, label: 'stat.'}
+- header: {name: '$K^+$'}
+  qualifiers:
+  - {name: 'Centrality (%)', value: '30-60'}
+  values:
+  - value: 4.300
+    errors:
+    - {symerror: 0.500, label: 'stat.'}
+  - value: 2.400
+    errors:
+    - {symerror: 0.300, label: 'stat.'}
+  - value: 1.500
+    errors:
+    - {symerror: 0.100, label: 'stat.'}
+  - value: 0.620
+    errors:
+    - {symerror: 0.060, label: 'stat.'}
+  - value: 0.220
+    errors:
+    - {symerror: 0.020, label: 'stat.'}
+  - value: 0.062
+    errors:
+    - {symerror: 0.007, label: 'stat.'}
+- header: {name: '$K^-$'}
+  qualifiers:
+  - {name: 'Centrality (%)', value: '30-60'}
+  values:
+  - value: 2.500
+    errors:
+    - {symerror: 0.400, label: 'stat.'}
+  - value: 2.300
+    errors:
+    - {symerror: 0.300, label: 'stat.'}
+  - value: 1.100
+    errors:
+    - {symerror: 0.100, label: 'stat.'}
+  - value: 0.500
+    errors:
+    - {symerror: 0.060, label: 'stat.'}
+  - value: 0.170
+    errors:
+    - {symerror: 0.020, label: 'stat.'}
+  - value: 0.058
+    errors:
+    - {symerror: 0.008, label: 'stat.'}
+- header: {name: '$K^+$'}
+  qualifiers:
+  - {name: 'Centrality (%)', value: '60-92'}
+  values:
+  - value: 0.500
+    errors:
+    - {symerror: 0.100, label: 'stat.'}
+  - value: 0.200
+    errors:
+    - {symerror: 0.070, label: 'stat.'}
+  - value: 0.180
+    errors:
+    - {symerror: 0.030, label: 'stat.'}
+  - value: 0.060
+    errors:
+    - {symerror: 0.020, label: 'stat.'}
+  - value: 0.012
+    errors:
+    - {symerror: 0.004, label: 'stat.'}
+  - value: 0.008
+    errors:
+    - {symerror: 0.002, label: 'stat.'}
+- header: {name: '$K^-$'}
+  qualifiers:
+  - {name: 'Centrality (%)', value: '60-92'}
+  values:
+  - value: 0.400
+    errors:
+    - {symerror: 0.100, label: 'stat.'}
+  - value: 0.300
+    errors:
+    - {symerror: 0.100, label: 'stat.'}
+  - value: 0.140
+    errors:
+    - {symerror: 0.030, label: 'stat.'}
+  - value: 0.090
+    errors:
+    - {symerror: 0.020, label: 'stat.'}
+  - value: 0.015
+    errors:
+    - {symerror: 0.005, label: 'stat.'}
+  - value: 0.004
+    errors:
+    - {symerror: 0.002, label: 'stat.'}

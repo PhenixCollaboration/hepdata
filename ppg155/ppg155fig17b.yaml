@@ -1,13 +1,22 @@
 independent_variables:
-- header: {name: 'Centrality, $N_{coll}$'}
+- header: {name: 'Centrality (%)'}
   values:
-  - {value: 689.9}
-  - {value: 270.5}
-  - {value: 85.71}
+  - {low: 0, high: 20}
+  - {low: 20, high: 40}
+  - {low: 40, high: 60}
 dependent_variables:
-- header: {name: '$R_{AA}$'}
-  qualifiers:
-  - {name: 'Centrality', value: '3 < $p_T$ < 5 (GeV/$c$)'}
+- header: {name: '$N_{coll}$'}
+  values:
+  - value: 689.9
+    errors:
+    - {symerror: 78.89}
+  - value: 270.5
+    errors:
+    - {symerror: 27.46}
+  - value: 85.71
+    errors:
+    - {symerror: 9.064}
+- header: {name: '$<R_{AA}>_{3 < p_T < 5 (\textnormal{GeV}/c)}$'}
   values:
   - value: 1.740
     errors:
@@ -21,10 +30,3 @@ dependent_variables:
     errors:
     - {symerror: 2.265, label: 'stat.'}
     - {symerror: 0.714, label: 'syst.'}
-- header: {name: '$N_{coll}$'}
-  qualifiers:
-  - {name: 'Centrality', value: '3 < $p_T$ < 5 (GeV/$c$)'}
-  values:
-  - value: 78.89
-  - value: 27.46
-  - value: 9.064

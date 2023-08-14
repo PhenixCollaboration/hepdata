@@ -1,0 +1,47 @@
+independent_variables:
+- header: {name: '$p_T$ (GeV/$c$)'}
+  values:
+  - {low: 0.40, high: 0.50}
+  - {low: 0.50, high: 0.60}
+  - {low: 0.60, high: 0.80}
+  - {low: 0.80, high: 1.00}
+  - {low: 1.00, high: 1.40}
+dependent_variables:
+- header: {name: '$k^+$'}
+  qualifiers:
+  - {name: 'Centrality (%)', value: '60-92'}
+  values:
+  - value: 0.500
+    errors:
+    - {symerror: 0.100, label: 'stat.'}
+  - value: 0.200
+    errors:
+    - {symerror: 0.070, label: 'stat.'}
+  - value: 0.180
+    errors:
+    - {symerror: 0.030, label: 'stat.'}
+  - value: 0.070
+    errors:
+    - {symerror: 0.020, label: 'stat.'}
+  - value: 0.012
+    errors:
+    - {symerror: 0.004, label: 'stat.'}
+- header: {name: '$k^-$'}
+  qualifiers:
+  - {name: 'Centrality (%)', value: '60-92'}
+  values:
+  - value: 0.400
+    errors:
+    - {symerror: 0.100, label: 'stat.'}
+  - value: 0.300
+    errors:
+    - {symerror: 0.100, label: 'stat.'}
+  - value: 0.140
+    errors:
+    - {symerror: 0.030, label: 'stat.'}
+  - value: 0.090
+    errors:
+    - {symerror: 0.020, label: 'stat.'}
+  - value: 0.015
+    errors:
+    - {symerror: 0.005, label: 'stat.'}

@@ -1,218 +1,88 @@
 independent_variables:
 - header: {name: '$p_T$(GeV/$c$)'}
   values:
-  - {low: 1.00, high: 1.10}
-  - {low: 1.10, high: 1.20}
-  - {low: 1.20, high: 1.30}
-  - {low: 1.30, high: 1.40}
-  - {low: 1.40, high: 1.50}
-  - {low: 1.50, high: 1.60}
-  - {low: 1.60, high: 1.70}
-  - {low: 1.70, high: 1.80}
-  - {low: 1.80, high: 1.90}
-  - {low: 1.90, high: 2.00}
-  - {low: 2.00, high: 2.10}
-  - {low: 2.10, high: 2.20}
-  - {low: 2.20, high: 2.30}
-  - {low: 2.30, high: 2.40}
-  - {low: 2.40, high: 2.50}
-  - {low: 2.50, high: 2.60}
-  - {low: 2.60, high: 2.70}
-  - {low: 2.70, high: 2.80}
-  - {low: 2.80, high: 2.90}
-  - {low: 2.90, high: 3.00}
-  - {low: 3.00, high: 3.10}
-  - {low: 3.10, high: 3.20}
-  - {low: 3.20, high: 3.30}
-  - {low: 3.30, high: 3.40}
-  - {low: 3.40, high: 3.50}
-  - {low: 3.50, high: 3.60}
-  - {low: 3.60, high: 3.70}
-  - {low: 3.70, high: 3.80}
-  - {low: 3.80, high: 3.90}
-  - {low: 3.90, high: 4.00}
-  - {low: 4.00, high: 4.10}
-  - {low: 4.10, high: 4.20}
-  - {low: 4.20, high: 4.30}
-  - {low: 4.30, high: 4.40}
-  - {low: 4.40, high: 4.50}
-  - {low: 4.50, high: 4.60}
-  - {low: 4.60, high: 4.70}
-  - {low: 4.70, high: 4.80}
-  - {low: 4.80, high: 4.90}
-  - {low: 4.90, high: 5.00}
-  - {low: 5.00, high: 5.10}
-  - {low: 5.10, high: 5.20}
+  - {low: 1.00, high: 1.20}
+  - {low: 1.20, high: 1.40}
+  - {low: 1.40, high: 1.60}
+  - {low: 1.60, high: 1.80}
+  - {low: 1.80, high: 2.00}
+  - {low: 2.00, high: 2.20}
+  - {low: 2.20, high: 2.40}
+  - {low: 2.40, high: 2.60}
+  - {low: 2.60, high: 2.80}
+  - {low: 2.80, high: 3.00}
+  - {low: 3.00, high: 3.20}
+  - {low: 3.30, high: 3.50}
+  - {low: 3.70, high: 3.90}
+  - {low: 4.10, high: 4.30}
+  - {low: 4.50, high: 4.70}
+  - {low: 4.90, high: 5.10}
 dependent_variables:
 - header: {name: '$R_{AA}$'}
   qualifiers:
   - {name: 'Centrality', value: '0-20%'}
   values:
-  - value: 1.591
+  - value: 1.626
     errors:
-    - {symerror: 0.075, label: 'stat.'}
-    - {symerror: 0.903, label: 'syst.'}
-  - value: 1.954
+    - {symerror: 0.056, label: 'stat.'}
+    - {symerror: 0.846, label: 'syst.'}
+  - value: 1.638
     errors:
-    - {symerror: 0.083, label: 'stat.'}
-    - {symerror: 0.950, label: 'syst.'}
-  - value: 1.825
+    - {symerror: 0.063, label: 'stat.'}
+    - {symerror: 0.773, label: 'syst.'}
+  - value: 1.755
     errors:
-    - {symerror: 0.087, label: 'stat.'}
-    - {symerror: 0.859, label: 'syst.'}
-  - value: 1.703
+    - {symerror: 0.077, label: 'stat.'}
+    - {symerror: 0.775, label: 'syst.'}
+  - value: 1.771
     errors:
-    - {symerror: 0.091, label: 'stat.'}
-    - {symerror: 0.809, label: 'syst.'}
-  - value: 1.794
+    - {symerror: 0.096, label: 'stat.'}
+    - {symerror: 0.722, label: 'syst.'}
+  - value: 1.898
     errors:
-    - {symerror: 0.102, label: 'stat.'}
-    - {symerror: 0.835, label: 'syst.'}
-  - value: 1.930
+    - {symerror: 0.124, label: 'stat.'}
+    - {symerror: 0.705, label: 'syst.'}
+  - value: 1.625
     errors:
-    - {symerror: 0.115, label: 'stat.'}
-    - {symerror: 0.811, label: 'syst.'}
-  - value: 1.863
+    - {symerror: 0.155, label: 'stat.'}
+    - {symerror: 0.618, label: 'syst.'}
+  - value: 1.889
     errors:
-    - {symerror: 0.128, label: 'stat.'}
-    - {symerror: 0.765, label: 'syst.'}
-  - value: 1.837
+    - {symerror: 0.200, label: 'stat.'}
+    - {symerror: 0.631, label: 'syst.'}
+  - value: 1.663
     errors:
-    - {symerror: 0.143, label: 'stat.'}
-    - {symerror: 0.747, label: 'syst.'}
-  - value: 2.004
+    - {symerror: 0.240, label: 'stat.'}
+    - {symerror: 0.541, label: 'syst.'}
+  - value: 2.033
     errors:
-    - {symerror: 0.164, label: 'stat.'}
-    - {symerror: 0.757, label: 'syst.'}
-  - value: 1.910
+    - {symerror: 0.313, label: 'stat.'}
+    - {symerror: 0.574, label: 'syst.'}
+  - value: 2.227
     errors:
-    - {symerror: 0.185, label: 'stat.'}
-    - {symerror: 0.701, label: 'syst.'}
-  - value: 1.913
-    errors:
-    - {symerror: 0.209, label: 'stat.'}
-    - {symerror: 0.692, label: 'syst.'}
-  - value: 1.432
-    errors:
-    - {symerror: 0.228, label: 'stat.'}
-    - {symerror: 0.582, label: 'syst.'}
-  - value: 1.839
-    errors:
-    - {symerror: 0.271, label: 'stat.'}
-    - {symerror: 0.643, label: 'syst.'}
-  - value: 2.048
-    errors:
-    - {symerror: 0.293, label: 'stat.'}
-    - {symerror: 0.658, label: 'syst.'}
-  - value: 1.785
-    errors:
-    - {symerror: 0.325, label: 'stat.'}
-    - {symerror: 0.591, label: 'syst.'}
-  - value: 1.636
-    errors:
-    - {symerror: 0.354, label: 'stat.'}
-    - {symerror: 0.525, label: 'syst.'}
+    - {symerror: 0.409, label: 'stat.'}
+    - {symerror: 0.581, label: 'syst.'}
   - value: 2.436
     errors:
-    - {symerror: 0.425, label: 'stat.'}
-    - {symerror: 0.651, label: 'syst.'}
-  - value: 1.748
+    - {symerror: 0.511, label: 'stat.'}
+    - {symerror: 0.616, label: 'syst.'}
+  - value: 1.458
     errors:
-    - {symerror: 0.461, label: 'stat.'}
-    - {symerror: 0.532, label: 'syst.'}
-  - value: 2.759
+    - {symerror: 0.443, label: 'stat.'}
+    - {symerror: 0.364, label: 'syst.'}
+  - value: 2.372
     errors:
-    - {symerror: 0.592, label: 'stat.'}
-    - {symerror: 0.680, label: 'syst.'}
-  - value: 1.824
+    - {symerror: 0.724, label: 'stat.'}
+    - {symerror: 0.645, label: 'syst.'}
+  - value: 2.361
     errors:
-    - {symerror: 0.566, label: 'stat.'}
-    - {symerror: 0.518, label: 'syst.'}
-  - value: 3.042
+    - {symerror: 0.968, label: 'stat.'}
+    - {symerror: 0.690, label: 'syst.'}
+  - value: 1.259
     errors:
-    - {symerror: 0.712, label: 'stat.'}
-    - {symerror: 0.719, label: 'syst.'}
-  - value: 1.971
+    - {symerror: 0.983, label: 'stat.'}
+    - {symerror: 0.419, label: 'syst.'}
+  - value: 0.955
     errors:
-    - {symerror: 0.732, label: 'stat.'}
-    - {symerror: 0.552, label: 'syst.'}
-  - value: 2.673
-    errors:
-    - {symerror: 0.784, label: 'stat.'}
-    - {symerror: 0.664, label: 'syst.'}
-  - value: 1.987
-    errors:
-    - {symerror: 0.949, label: 'stat.'}
-    - {symerror: 0.532, label: 'syst.'}
-  - value: 1.671
-    errors:
-    - {symerror: 0.934, label: 'stat.'}
-    - {symerror: 0.483, label: 'syst.'}
-  - value: -0.360
-    errors:
-    - {symerror: 0.865, label: 'stat.'}
-    - {symerror: -0.177, label: 'syst.'}
-  - value: 3.147
-    errors:
-    - {symerror: 1.255, label: 'stat.'}
-    - {symerror: 0.796, label: 'syst.'}
-  - value: 1.109
-    errors:
-    - {symerror: 1.142, label: 'stat.'}
-    - {symerror: 0.379, label: 'syst.'}
-  - value: 3.779
-    errors:
-    - {symerror: 1.801, label: 'stat.'}
-    - {symerror: 0.970, label: 'syst.'}
-  - value: 1.687
-    errors:
-    - {symerror: 1.505, label: 'stat.'}
-    - {symerror: 0.513, label: 'syst.'}
-  - value: 2.569
-    errors:
-    - {symerror: 1.560, label: 'stat.'}
-    - {symerror: 0.728, label: 'syst.'}
-  - value: 3.123
-    errors:
-    - {symerror: 1.660, label: 'stat.'}
-    - {symerror: 0.899, label: 'syst.'}
-  - value: -1.15
-    errors:
-    - {symerror: 1.601, label: 'stat.'}
-    - {symerror: -0.289, label: 'syst.'}
-  - value: 5.140
-    errors:
-    - {symerror: 2.690, label: 'stat.'}
-    - {symerror: 1.505, label: 'syst.'}
-  - value: 3.830
-    errors:
-    - {symerror: 2.339, label: 'stat.'}
-    - {symerror: 1.177, label: 'syst.'}
-  - value: 0.638
-    errors:
-    - {symerror: 1.376, label: 'stat.'}
-    - {symerror: 0.277, label: 'syst.'}
-  - value: -0.472
-    errors:
-    - {symerror: 2.092, label: 'stat.'}
-    - {symerror: -0.173, label: 'syst.'}
-  - value: 1.172
-    errors:
-    - {symerror: 1.929, label: 'stat.'}
-    - {symerror: 0.446, label: 'syst.'}
-  - value: -0.746
-    errors:
-    - {symerror: 0.031, label: 'stat.'}
-    - {symerror: -0.248, label: 'syst.'}
-  - value: 2.401
-    errors:
-    - {symerror: 4.297, label: 'stat.'}
-    - {symerror: 0.878, label: 'syst.'}
-  - value: -0.666
-    errors:
-    - {symerror: 0.032, label: 'stat.'}
-    - {symerror: -0.237, label: 'syst.'}
-  - value: 2.931
-    errors:
-    - {symerror: 3.636, label: 'stat.'}
-    - {symerror: 1.120, label: 'syst.'}
+    - {symerror: 1.407, label: 'stat.'}
+    - {symerror: 0.367, label: 'syst.'}

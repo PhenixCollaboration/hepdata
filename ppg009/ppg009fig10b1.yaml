@@ -1,0 +1,150 @@
+independent_variables:
+- header: {name: '$p_T$ (GeV/$c$)'}
+  values:
+  - {low: 0.40, high: 0.50}
+  - {low: 0.50, high: 0.60}
+  - {low: 0.60, high: 0.70}
+  - {low: 0.70, high: 0.80}
+  - {low: 0.80, high: 0.90}
+  - {low: 0.90, high: 1.00}
+  - {low: 1.00, high: 1.10}
+  - {low: 1.10, high: 1.20}
+  - {low: 1.20, high: 1.30}
+  - {low: 1.30, high: 1.40}
+dependent_variables:
+- header: {name: '$k^+$'}
+  qualifiers:
+  - {name: '$p_T$ (GeV/$c$)', value: '0-5%'}
+  values:
+  - value: 21.00
+    errors:
+    - {symerror: 3.00, label: 'stat.'}
+  - value: 15.00
+    errors:
+    - {symerror: 2.00, label: 'stat.'}
+  - value: 9.00
+    errors:
+    - {symerror: 1.00, label: 'stat.'}
+  - value: 5.30
+    errors:
+    - {symerror: 0.70, label: 'stat.'}
+  - value: 5.70
+    errors:
+    - {symerror: 0.70, label: 'stat.'}
+  - value: 3.00
+    errors:
+    - {symerror: 0.40, label: 'stat.'}
+  - value: 2.30
+    errors:
+    - {symerror: 0.30, label: 'stat.'}
+  - value: 1.60
+    errors:
+    - {symerror: 0.30, label: 'stat.'}
+  - value: 1.10
+    errors:
+    - {symerror: 0.20, label: 'stat.'}
+  - value: 0.60
+    errors:
+    - {symerror: 0.10, label: 'stat.'}
+- header: {name: '$k^+$'}
+  qualifiers:
+  - {name: '$p_T$ (GeV/$c$)', value: '5-15%'}
+  values:
+  - value: 16.00
+    errors:
+    - {symerror: 2.00, label: 'stat.'}
+  - value: 11.00
+    errors:
+    - {symerror: 1.00, label: 'stat.'}
+  - value: 7.50
+    errors:
+    - {symerror: 0.70, label: 'stat.'}
+  - value: 4.60
+    errors:
+    - {symerror: 0.50, label: 'stat.'}
+  - value: 3.60
+    errors:
+    - {symerror: 0.40, label: 'stat.'}
+  - value: 2.30
+    errors:
+    - {symerror: 0.20, label: 'stat.'}
+  - value: 1.50
+    errors:
+    - {symerror: 0.20, label: 'stat.'}
+  - value: 1.30
+    errors:
+    - {symerror: 0.20, label: 'stat.'}
+  - value: 1.00
+    errors:
+    - {symerror: 0.10, label: 'stat.'}
+  - value: 0.60
+    errors:
+    - {symerror: 0.10, label: 'stat.'}
+- header: {name: '$k^+$'}
+  qualifiers:
+  - {name: '$p_T$ (GeV/$c$)', value: '15-30%'}
+  values:
+  - value: 10.10
+    errors:
+    - {symerror: 1.00, label: 'stat.'}
+  - value: 6.60
+    errors:
+    - {symerror: 0.70, label: 'stat.'}
+  - value: 4.70
+    errors:
+    - {symerror: 0.40, label: 'stat.'}
+  - value: 3.10
+    errors:
+    - {symerror: 0.30, label: 'stat.'}
+  - value: 2.10
+    errors:
+    - {symerror: 0.20, label: 'stat.'}
+  - value: 1.50
+    errors:
+    - {symerror: 0.20, label: 'stat.'}
+  - value: 1.20
+    errors:
+    - {symerror: 0.10, label: 'stat.'}
+  - value: 0.62
+    errors:
+    - {symerror: 0.09, label: 'stat.'}
+  - value: 0.66
+    errors:
+    - {symerror: 0.09, label: 'stat.'}
+  - value: 0.35
+    errors:
+    - {symerror: 0.05, label: 'stat.'}
+- header: {name: '$k^+$'}
+  qualifiers:
+  - {name: '$p_T$ (GeV/$c$)', value: '30-60%'}
+  values:
+  - value: 4.30
+    errors:
+    - {symerror: 0.50, label: 'stat.'}
+  - value: 2.40
+    errors:
+    - {symerror: 0.30, label: 'stat.'}
+  - value: 1.90
+    errors:
+    - {symerror: 0.20, label: 'stat.'}
+  - value: 0.90
+    errors:
+    - {symerror: 0.10, label: 'stat.'}
+  - value: 0.67
+    errors:
+    - {symerror: 0.08, label: 'stat.'}
+  - value: 0.51
+    errors:
+    - {symerror: 0.07, label: 'stat.'}
+  - value: 0.37
+    errors:
+    - {symerror: 0.05, label: 'stat.'}
+  - value: 0.29
+    errors:
+    - {symerror: 0.04, label: 'stat.'}
+  - value: 0.15
+    errors:
+    - {symerror: 0.03, label: 'stat.'}
+  - value: 0.12
+    errors:
+    - {symerror: 0.02, label: 'stat.'}

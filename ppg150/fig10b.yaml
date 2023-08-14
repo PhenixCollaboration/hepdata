@@ -12,10 +12,20 @@ dependent_variables:
   - {name: '$p_T$', value: '1 < $p_T$ < 3 (GeV/$c$)'}
   values:
   - value: 98.2
+    errors:
+    - {symerror: 2.4, label: 'sys.'}
   - value: 85.9
+    errors:
+    - {symerror: 2.3, label: 'sys.'}
   - value: 45.2
+    errors:
+    - {symerror: 1.7, label: 'sys.'}
   - value: 21.2
+    errors:
+    - {symerror: 1.4, label: 'sys.'}
   - value: 6.4
+    errors:
+    - {symerror: 0.4, label: 'sys.'}
 - header: {name: '$R_{CuCu}$'}
   qualifiers:
   - {name: '$p_T$', value: '1 < $p_T$ < 3 (GeV/$c$)'}
