@@ -1,5 +1,5 @@
 independent_variables:
-- header: {name: '$\phi$ - $\psi$'}
+- header: {name: '$\phi$ - $\Psi_2$ [rad]'}
   values:
   - {value: 0}
   - {value: $\pi/4$}
@@ -66,7 +66,7 @@ dependent_variables:
     errors:
     - {symerror: 0.7, label: 'stat.'}
     - {symerror: 1.1, label: 'sys.'}
-- header: {name: '$R_os^2$ [fm$^2$]'}
+- header: {name: '$R_{os}^2$ [fm$^2$]'}
   qualifiers:
   - {name: 'Centrality [%]', value: '0-20'}
   values:
@@ -146,7 +146,7 @@ dependent_variables:
     errors:
     - {symerror: 0.4, label: 'stat.'}
     - {symerror: 0.8, label: 'sys.'}
-- header: {name: '$R_os^2$ [fm$^2$]'}
+- header: {name: '$R_{os}^2$ [fm$^2$]'}
   qualifiers:
   - {name: 'Centrality [%]', value: '20-60'}
   values:
