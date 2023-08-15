@@ -1,0 +1,47 @@
+independent_variables:
+- header: {name: '$p^{trig}_T$ (GeV/$c$)'}
+  values:
+  - {low: 4, high: 5}
+  - {low: 5, high: 6}
+  - {low: 6, high: 7}
+  - {low: 7, high: 8}
+  - {low: 8, high: 9}
+  - {low: 9, high: 12}
+  - {low: 12, high: 15}
+dependent_variables:
+- header: {name: '$\langle p^{trig}_T \rangle$ (GeV/$c$)'}
+  qualifiers:
+  - {name: 'Trigger Type', value: '$\pi^0$'}
+  values:
+  - value: 4.49
+  - value: 5.46
+  - value: 6.45
+  - value: 7.44
+  - value: 8.44
+  - value: 10.1
+  - value: 13.1
+- header: {name: 'Gaussian Width (GeV/$c$)'}
+  qualifiers:
+  - {name: 'Trigger Type', value: '$\pi^0$'}
+  values:
+  - value: 0.5180
+    errors:
+    - {asymerror: {plus: 0.0120, minus: -0.0050}, label: 'stat.'}
+  - value: 0.5140
+    errors:
+    - {asymerror: {plus: 0.0110, minus: -0.0070}, label: 'stat.'}
+  - value: 0.5070
+    errors:
+    - {asymerror: {plus: 0.0130, minus: -0.0070}, label: 'stat.'}
+  - value: 0.5020
+    errors:
+    - {asymerror: {plus: 0.0130, minus: -0.0070}, label: 'stat.'}
+  - value: 0.4930
+    errors:
+    - {asymerror: {plus: 0.0170, minus: -0.0070}, label: 'stat.'}
+  - value: 0.4870
+    errors:
+    - {asymerror: {plus: 0.0190, minus: -0.0090}, label: 'stat.'}
+  - value: 0.4730
+    errors:
+    - {asymerror: {plus: 0.0280, minus: -0.0090}, label: 'stat.'}
