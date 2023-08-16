@@ -13,7 +13,11 @@ independent_variables:
   - {low: 3.00, high: 4.00}
   - {low: 4.00, high: 8.00}
 dependent_variables:
-- header: {name: '$p_T$ ($\mathrm{GeV}$/$c$) ($\mathrm{bin}$ $\mathrm{center}$)'}
+- header: {name: '$p_T$ ($\mathrm{GeV}$/$c$) ($\mathrm{actual}$ $\mathrm{values}$)'}
+  qualifiers:
+  - {name: 'Collision', value: ' '}
+  - {name: 'Decay Channel', value: ' '} 
+  - {name: 'Centrality', value: ' '} 
   values: 
   - value: 0.375
   - value: 0.625
