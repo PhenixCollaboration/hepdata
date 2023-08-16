@@ -125,7 +125,7 @@ def ERR_Format(err):
         rounding=int((10**(3-digits))*Decimal(err))
 
     else:
-        rounding=int(err[:3])
+        rounding=int(float(err))
 
     #Here we check the first 3 digits and decide
     if (rounding <355):
