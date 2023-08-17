@@ -24,7 +24,7 @@ description: 'Parameters of the Tsallis fit with Eq. 8 in the paper with all par
 keywords: # used for searching, possibly mutliple values for each keywords
 - {name: reactions, values: [$p$ $p$ --> CHARGED X]}
 - {name: cmenergies, values: [200.0]}
-- {name: phrases, values: [ppg099, transverse momentum, Tsallis fit]}
+- {name: phrases, values: [ppg099, transverse momentum, Tsallis fit, cross-section]}
 data_file: ppg099tab3.yaml
 ---
 # This is Table 4.
@@ -34,7 +34,7 @@ description: 'Parameters of the power law fit with Eq. 3 in the paper. Units of 
 keywords: # used for searching, possibly mutliple values for each keywords
 - {name: reactions, values: [$p$ $p$ --> CHARGED X]}
 - {name: cmenergies, values: [200.0]}
-- {name: phrases, values: [ppg099, transverse momentum, power law]}
+- {name: phrases, values: [ppg099, transverse momentum, power law, cross-section]}
 data_file: ppg099tab4.yaml
 ---
 # This is Table 5.
@@ -44,7 +44,7 @@ description: 'Constant and linear fits to the power law and Tsallis fit paramete
 keywords: # used for searching, possibly mutliple values for each keywords
 - {name: reactions, values: [$p$ $p$ --> CHARGED X]}
 - {name: cmenergies, values: [200.0]}
-- {name: phrases, values: [ppg099, transverse momentum, Tsallis fit]}
+- {name: phrases, values: [ppg099, transverse momentum, Tsallis fit, cross-section]}
 data_file: ppg099tab5.yaml
 ---
 # This is Table 6.
@@ -54,7 +54,7 @@ description: 'Parameters of the Tsallis fit with parameter $n$ constrained to a 
 keywords: # used for searching, possibly mutliple values for each keywords
 - {name: reactions, values: [$p$ $p$ --> CHARGED X]}
 - {name: cmenergies, values: [200.0]}
-- {name: phrases, values: [ppg099, transverse momentum, Tsallis fit]}
+- {name: phrases, values: [ppg099, transverse momentum, Tsallis fit, cross-section]}
 data_file: ppg099tab6.yaml
 ---
 # This is Table 7.
@@ -64,7 +64,7 @@ description: 'Constant and linear fits to the Tsallis parameter $T$ of mesons wi
 keywords: # used for searching, possibly mutliple values for each keywords
 - {name: reactions, values: [$p$ $p$ --> CHARGED X]}
 - {name: cmenergies, values: [200.0]}
-- {name: phrases, values: [ppg099, transverse momentum, Tsallis fit]}
+- {name: phrases, values: [ppg099, transverse momentum, Tsallis fit, cross-section]}
 data_file: ppg099tab7.yaml
 ---
 # This is Table 8.
@@ -74,7 +74,7 @@ description: 'Parameters of the Tsallis fit with Eq. 8 in the paper with paramet
 keywords: # used for searching, possibly mutliple values for each keywords
 - {name: reactions, values: [$p$ $p$ --> CHARGED X]}
 - {name: cmenergies, values: [200.0]}
-- {name: phrases, values: [ppg099, transverse momentum, Tsallis fit]}
+- {name: phrases, values: [ppg099, transverse momentum, Tsallis fit, cross-section]}
 data_file: ppg099tab8.yaml
 ---
 # This is Table 9.
@@ -84,7 +84,7 @@ description: 'Cross sections in mb and $<p_T>$ in GeV/$c$ of different particles
 keywords: # used for searching, possibly mutliple values for each keywords
 - {name: reactions, values: [$p$ $p$ --> CHARGED X]}
 - {name: cmenergies, values: [200.0]}
-- {name: phrases, values: [ppg099, transverse momentum, Tsallis fit]}
+- {name: phrases, values: [ppg099, transverse momentum, Tsallis fit, cross-section]}
 data_file: ppg099tab9a.yaml
 ---
 # This is Table 9.
@@ -94,7 +94,7 @@ description: 'Cross sections in mb and $<p_T>$ in GeV/$c$ of different particles
 keywords: # used for searching, possibly mutliple values for each keywords
 - {name: reactions, values: [$p$ $p$ --> CHARGED X]}
 - {name: cmenergies, values: [200.0]}
-- {name: phrases, values: [ppg099, transverse momentum, Tsallis fit]}
+- {name: phrases, values: [ppg099, transverse momentum, Tsallis fit, cross-section]}
 data_file: ppg099tab9b.yaml
 ---
 # This is Figure 12.
@@ -102,9 +102,9 @@ name: "Figure 12a"
 location: Data From Fig. 12 of PRD 83 (2011) 052004
 description: 'The invariant differential cross section ${d^2 \sigma}$/${2\pi p_T dy p_T}$ of $\omega$ meson production measured in the indicated decay channel. Type A uncertainties are $p_T$ independent. Type C & B systematic uncertainties are residual with Type B having an unknown $p_T$ dependence. For each $y$-coordinate in each $p_T$ bin was varied by the same amount according to the uncertainty Type C.'
 keywords: # used for searching, possibly mutliple values for each keywords
-- {name: reactions, values: [$p$ $p$ --> $e^+e^-$]}
+- {name: reactions, values: [$p$ $p$ --> $\omega(e^+e^-)$ + X]}
 - {name: cmenergies, values: [200.0]}
-- {name: phrases, values: [ppg099, transverse momentum]}
+- {name: phrases, values: [ppg099, transverse momentum, cross-section]}
 data_file: ppg099fig12a.yaml
 additional_resources:
 - {description: PNG Image file, location: fig12_all_spectra.png}
@@ -117,7 +117,7 @@ description: 'The invariant differential cross section ${d^2 \sigma}$/${2\pi p_T
 keywords: # used for searching, possibly mutliple values for each keywords
 - {name: reactions, values: [$p$ $p$ --> $\pi^0\pi^+\pi^-$]}
 - {name: cmenergies, values: [200.0]}
-- {name: phrases, values: [ppg099, transverse momentum]}
+- {name: phrases, values: [ppg099, transverse momentum, cross-section]}
 data_file: ppg099fig12b.yaml
 additional_resources:
 - {description: PNG Image file, location: fig12_all_spectra.png}
@@ -130,7 +130,7 @@ description: 'The invariant differential cross section ${d^2 \sigma}$/${2\pi p_T
 keywords: # used for searching, possibly mutliple values for each keywords
 - {name: reactions, values: [$p$ $p$ --> $\pi^0\gamma$]}
 - {name: cmenergies, values: [200.0]}
-- {name: phrases, values: [ppg099, transverse momentum]}
+- {name: phrases, values: [ppg099, transverse momentum, cross-section]}
 data_file: ppg099fig12c.yaml
 additional_resources:
 - {description: PNG Image file, location: fig12_all_spectra.png}
@@ -143,7 +143,7 @@ description: 'The invariant differential cross section ${d^2 \sigma}$/${2\pi p_T
 keywords: # used for searching, possibly mutliple values for each keywords
 - {name: reactions, values: [$p$ $p$ --> $\pi^0\pi^0$]}
 - {name: cmenergies, values: [200.0]}
-- {name: phrases, values: [ppg099, transverse momentum]}
+- {name: phrases, values: [ppg099, transverse momentum, cross-section]}
 data_file: ppg099fig13a.yaml
 additional_resources:
 - {description: PNG Image file, location: fig13_fits.png}
@@ -156,7 +156,7 @@ description: 'The invariant differential cross section ${d^2 \sigma}$/${2\pi p_T
 keywords: # used for searching, possibly mutliple values for each keywords
 - {name: reactions, values: [$p$ $p$ --> $\eta\pi^+\pi^-$]}
 - {name: cmenergies, values: [200.0]}
-- {name: phrases, values: [ppg099, transverse momentum]}
+- {name: phrases, values: [ppg099, transverse momentum, cross-section]}
 data_file: ppg099fig13b.yaml
 additional_resources:
 - {description: PNG Image file, location: fig13_fits.png}
@@ -169,7 +169,7 @@ description: 'The invariant differential cross section ${d^2 \sigma}$/${2\pi p_T
 keywords: # used for searching, possibly mutliple values for each keywords
 - {name: reactions, values: [$p$ $p$ --> $\eta\pi^+\pi^-$]}
 - {name: cmenergies, values: [200.0]}
-- {name: phrases, values: [ppg099, transverse momentum]}
+- {name: phrases, values: [ppg099, transverse momentum, cross-section]}
 data_file: ppg099fig13c.yaml
 additional_resources:
 - {description: PNG Image file, location: fig13_fits.png}
@@ -182,7 +182,7 @@ description: 'The invariant differential cross section ${d^2 \sigma}$/${2\pi p_T
 keywords: # used for searching, possibly mutliple values for each keywords
 - {name: reactions, values: [$p$ $p$ --> $K^+K^-$]}
 - {name: cmenergies, values: [200.0]}
-- {name: phrases, values: [ppg099, transverse momentum]}
+- {name: phrases, values: [ppg099, transverse momentum, cross-section]}
 data_file: ppg099fig13d.yaml
 additional_resources:
 - {description: PNG Image file, location: fig13_fits.png}
