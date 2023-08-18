@@ -1,5 +1,5 @@
 independent_variables:
-- header: {name: '$p_T$ (GeV/$c$)'}
+- header: {name: '$p_T$ Bins (GeV/$c$)'}
   values:
   - {low: 2.00, high: 3.00}
   - {low: 3.00, high: 4.00}
@@ -7,27 +7,38 @@ independent_variables:
   - {low: 5.00, high: 6.00}
   - {low: 6.00, high: 7.00}
 dependent_variables:
+- header: {name: '$p_T$ (GeV/$c$)'}
+  qualifiers:
+  - {name: 'Decay Channel', value: ''}
+  - {name: 'Collision', value: ''}
+  values:
+  - value: 2.50
+  - value: 3.50
+  - value: 4.50
+  - value: 5.50
+  - value: 6.50
 - header: {name: 'Ratio $\omega/\pi^0$'}
   qualifiers:
-  - {name: 'Decay Channel', value: '$3\gamma$'}
+  - {name: 'Decay Channel', value: '$\omega \longrightarrow \pi^0 \gamma$'}
+  - {name: 'Collision', value: '$p$+$p$'}
   values:
-  - value: 8.70E-01
+  - value: 0.87
     errors:
-    - {symerror: 2E-01, label: 'stat.'}
-    - {symerror: 4E-01, label: 'sys.'}
-  - value: 8.30E-01
+    - {symerror: 0.16, label: 'stat.'}
+    - {symerror: 0.36, label: 'sys.'}
+  - value: 0.83
     errors:
-    - {symerror: 1E-01, label: 'stat.'}
-    - {symerror: 3E-01, label: 'sys.'}
-  - value: 6.40E-01
+    - {symerror: 0.14, label: 'stat.'}
+    - {symerror: 0.26, label: 'sys.'}
+  - value: 0.64
     errors:
-    - {symerror: 1E-01, label: 'stat.'}
-    - {symerror: 2E-01, label: 'sys.'}
-  - value: 7.60E-01
+    - {symerror: 0.13, label: 'stat.'}
+    - {symerror: 0.17, label: 'sys.'}
+  - value: 0.76
     errors:
-    - {symerror: 2E-01, label: 'stat.'}
-    - {symerror: 2E-01, label: 'sys.'}
-  - value: 1.05E+00
+    - {symerror: 0.24, label: 'stat.'}
+    - {symerror: 0.21, label: 'sys.'}
+  - value: 1.05
     errors:
-    - {symerror: 3E-01, label: 'stat.'}
-    - {symerror: 3E-01, label: 'sys.'}
+    - {symerror: 0.30, label: 'stat.'}
+    - {symerror: 0.33, label: 'sys.'}
