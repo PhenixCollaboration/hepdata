@@ -1,0 +1,336 @@
+independent_variables:
+- header: {name: 'm$_{\mu^\pm \mu^\pm}$ [GeV/$c^2$]'}
+  values:
+  - {low: 0.2, high: 0.4}
+  - {low: 0.4, high: 0.6}
+  - {low: 0.6, high: 0.8}
+  - {low: 0.8, high: 1}
+  - {low: 1, high: 1.2}
+  - {low: 1.2, high: 1.4}
+  - {low: 1.4, high: 1.6}
+  - {low: 1.6, high: 1.8}
+  - {low: 1.8, high: 2}
+  - {low: 2, high: 2.2}
+  - {low: 2.2, high: 2.4}
+  - {low: 2.4, high: 2.6}
+  - {low: 2.6, high: 2.8}
+  - {low: 2.8, high: 3}
+  - {low: 3, high: 3.2}
+  - {low: 3.2, high: 3.4}
+  - {low: 3.4, high: 3.6}
+  - {low: 3.6, high: 3.8}
+  - {low: 3.8, high: 4}
+  - {low: 4, high: 4.5}
+  - {low: 4.5, high: 5}
+  - {low: 5, high: 6}
+  - {low: 6, high: 8}
+  - {low: 8, high: 10}
+dependent_variables:
+- header: {name: '$dN/dm$ [$c^2$/GeV]'}
+  qualifiers:
+  - {name: 'muon arm', value: 'south'}
+  - {name: '$p_T$', value: '1-2 GeV/$c$'}
+  values:
+  - value: 60
+    errors:
+    - {symerror: 17, label: 'stat.'}
+  - value: 4.1e+2
+    errors:
+    - {symerror: 5e+1, label: 'stat.'}
+  - value: 7.6e+2
+    errors:
+    - {symerror: 6e+1, label: 'stat.'}
+  - value: 16e+3
+    errors:
+    - {symerror: 7e+1, label: 'stat.'}
+  - value: 1.21e+3
+    errors:
+    - {symerror: 8e+1, label: 'stat.'}
+  - value: 1.43e+3
+    errors:
+    - {symerror: 8e+1, label: 'stat.'}
+  - value: 1.72e+3
+    errors:
+    - {symerror: 9e+1, label: 'stat.'}
+  - value: 1.77e+3
+    errors:
+    - {symerror: 9e+1, label: 'stat.'}
+  - value: 1.99e+3
+    errors:
+    - {symerror: 1e+2, label: 'stat.'}
+  - value: 1.76e+3
+    errors:
+    - {symerror: 9e+1, label: 'stat.'}
+  - value: 1.54e+3
+    errors:
+    - {symerror: 9e+1, label: 'stat.'}
+  - value: 1.22e+3
+    errors:
+    - {symerror: 8e+1, label: 'stat.'}
+  - value: 1.20e+3
+    errors:
+    - {symerror: 8e+1, label: 'stat.'}
+  - value: 9e+2
+    errors:
+    - {symerror: 7e+1, label: 'stat.'}
+  - value: 6e+2
+    errors:
+    - {symerror: 5e+1, label: 'stat.'}
+  - value: 5.3e+2
+    errors:
+    - {symerror: 5e+1, label: 'stat.'}
+  - value: 3.1e+2
+    errors:
+    - {symerror: 4e+1, label: 'stat.'}
+  - value: 210
+    errors:
+    - {symerror: 32, label: 'stat.'}
+  - value: 180
+    errors:
+    - {symerror: 30, label: 'stat.'}
+  - value: 110
+    errors:
+    - {symerror: 15, label: 'stat.'}
+  - value: 56
+    errors:
+    - {symerror: 11, label: 'stat.'}
+  - value: 15
+    errors:
+    - {symerror: 4, label: 'stat.'}
+  - value: 5.0
+    errors:
+    - {symerror: 1.6, label: 'stat.'}
+  - value: 1.0
+    errors:
+    - {symerror: 0.7, label: 'stat.'}
+- header: {name: 'data/cocktail'}
+  qualifiers:
+  - {name: 'muon arm', value: 'south'}
+  - {name: '$p_T$', value: '1-2 GeV/$c$'}
+  values:
+  - value: 0.72
+    errors:
+    - {symerror: 0.21, label: 'stat.'}
+  - value: 0.91
+    errors:
+    - {symerror: 0.10, label: 'stat.'}
+  - value: 0.80
+    errors:
+    - {symerror: 0.06, label: 'stat.'}
+  - value: 0.91
+    errors:
+    - {symerror: 0.06, label: 'stat.'}
+  - value: 0.99
+    errors:
+    - {symerror: 0.06, label: 'stat.'}
+  - value: 1.02
+    errors:
+    - {symerror: 0.06, label: 'stat.'}
+  - value: 1.06
+    errors:
+    - {symerror: 0.06, label: 'stat.'}
+  - value: 1.03
+    errors:
+    - {symerror: 0.05, label: 'stat.'}
+  - value: 1.17
+    errors:
+    - {symerror: 0.06, label: 'stat.'}
+  - value: 1.09
+    errors:
+    - {symerror: 0.06, label: 'stat.'}
+  - value: 1.05
+    errors:
+    - {symerror: 0.06, label: 'stat.'}
+  - value: 0.97
+    errors:
+    - {symerror: 0.06, label: 'stat.'}
+  - value: 1.16
+    errors:
+    - {symerror: 0.08, label: 'stat.'}
+  - value: 1.11
+    errors:
+    - {symerror: 0.08, label: 'stat.'}
+  - value: 0.99
+    errors:
+    - {symerror: 0.09, label: 'stat.'}
+  - value: 1.18
+    errors:
+    - {symerror: 0.11, label: 'stat.'}
+  - value: 0.96
+    errors:
+    - {symerror: 0.12, label: 'stat.'}
+  - value: 0.88
+    errors:
+    - {symerror: 0.14, label: 'stat.'}
+  - value: 1.02
+    errors:
+    - {symerror: 0.17, label: 'stat.'}
+  - value: 1.00
+    errors:
+    - {symerror: 0.13, label: 'stat.'}
+  - value: 0.97
+    errors:
+    - {symerror: 0.18, label: 'stat.'}
+  - value: 0.64
+    errors:
+    - {symerror: 0.16, label: 'stat.'}
+  - value: 1.2
+    errors:
+    - {symerror: 0.4, label: 'stat.'}
+  - value: 2.6
+    errors:
+    - {symerror: 1.9, label: 'stat.'}
+- header: {name: '$dN/dm$ [$c^2$/GeV]'}
+  qualifiers:
+  - {name: 'muon arm', value: 'north'}
+  - {name: '$p_T$', value: '1-2 GeV/$c$'}
+  values:
+  - value: 30
+    errors:
+    - {symerror: 12, label: 'stat.'}
+  - value: 140
+    errors:
+    - {symerror: 26, label: 'stat.'}
+  - value: 4e+2
+    errors:
+    - {symerror: 4e+1, label: 'stat.'}
+  - value: 5.1e+2
+    errors:
+    - {symerror: 5e+1, label: 'stat.'}
+  - value: 6.9e+2
+    errors:
+    - {symerror: 6e+1, label: 'stat.'}
+  - value: 8e+2
+    errors:
+    - {symerror: 6e+1, label: 'stat.'}
+  - value: 9.9e+2
+    errors:
+    - {symerror: 7e+1, label: 'stat.'}
+  - value: 18e+3
+    errors:
+    - {symerror: 7e+1, label: 'stat.'}
+  - value: 1.11e+3
+    errors:
+    - {symerror: 7e+1, label: 'stat.'}
+  - value: 9.7e+2
+    errors:
+    - {symerror: 7e+1, label: 'stat.'}
+  - value: 1.14e+3
+    errors:
+    - {symerror: 8e+1, label: 'stat.'}
+  - value: 7.7e+2
+    errors:
+    - {symerror: 6e+1, label: 'stat.'}
+  - value: 5.8e+2
+    errors:
+    - {symerror: 5e+1, label: 'stat.'}
+  - value: 5.8e+2
+    errors:
+    - {symerror: 5e+1, label: 'stat.'}
+  - value: 4e+2
+    errors:
+    - {symerror: 4e+1, label: 'stat.'}
+  - value: 3.2e+2
+    errors:
+    - {symerror: 4e+1, label: 'stat.'}
+  - value: 150
+    errors:
+    - {symerror: 27, label: 'stat.'}
+  - value: 185
+    errors:
+    - {symerror: 30, label: 'stat.'}
+  - value: 100
+    errors:
+    - {symerror: 22, label: 'stat.'}
+  - value: 72
+    errors:
+    - {symerror: 12, label: 'stat.'}
+  - value: 38
+    errors:
+    - {symerror: 9, label: 'stat.'}
+  - value: 11.0
+    errors:
+    - {symerror: 3.3, label: 'stat.'}
+  - value: 1.5
+    errors:
+    - {symerror: 0.9, label: 'stat.'}
+  - value: 0.5
+    errors:
+    - {symerror: 0.5, label: 'stat.'}
+- header: {name: 'data/cocktail'}
+  qualifiers:
+  - {name: 'muon arm', value: 'north'}
+  - {name: '$p_T$', value: '1-2 GeV/$c$'}
+  values:
+  - value: 0.9
+    errors:
+    - {symerror: 0.4, label: 'stat.'}
+  - value: 0.69
+    errors:
+    - {symerror: 0.13, label: 'stat.'}
+  - value: 0.87
+    errors:
+    - {symerror: 0.10, label: 'stat.'}
+  - value: 0.86
+    errors:
+    - {symerror: 0.09, label: 'stat.'}
+  - value: 1.10
+    errors:
+    - {symerror: 0.09, label: 'stat.'}
+  - value: 1.09
+    errors:
+    - {symerror: 0.09, label: 'stat.'}
+  - value: 1.10
+    errors:
+    - {symerror: 0.08, label: 'stat.'}
+  - value: 1.08
+    errors:
+    - {symerror: 0.07, label: 'stat.'}
+  - value: 1.10
+    errors:
+    - {symerror: 0.07, label: 'stat.'}
+  - value: 0.99
+    errors:
+    - {symerror: 0.07, label: 'stat.'}
+  - value: 1.30
+    errors:
+    - {symerror: 0.09, label: 'stat.'}
+  - value: 1.02
+    errors:
+    - {symerror: 0.08, label: 'stat.'}
+  - value: 0.93
+    errors:
+    - {symerror: 0.09, label: 'stat.'}
+  - value: 1.15
+    errors:
+    - {symerror: 0.11, label: 'stat.'}
+  - value: 1.03
+    errors:
+    - {symerror: 0.11, label: 'stat.'}
+  - value: 1.10
+    errors:
+    - {symerror: 0.14, label: 'stat.'}
+  - value: 0.71
+    errors:
+    - {symerror: 0.13, label: 'stat.'}
+  - value: 1.12
+    errors:
+    - {symerror: 0.18, label: 'stat.'}
+  - value: 0.88
+    errors:
+    - {symerror: 0.20, label: 'stat.'}
+  - value: 1.00
+    errors:
+    - {symerror: 0.17, label: 'stat.'}
+  - value: 1.06
+    errors:
+    - {symerror: 0.24, label: 'stat.'}
+  - value: 0.78
+    errors:
+    - {symerror: 0.23, label: 'stat.'}
+  - value: 0.57
+    errors:
+    - {symerror: 0.33, label: 'stat.'}
+  - value: 1.9
+    errors:
+    - {symerror: 1.9, label: 'stat.'}
