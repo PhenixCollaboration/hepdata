@@ -1,5 +1,5 @@
 independent_variables:
-- header: {name: '$p^{\gamma}_T$ (GeV$c$)'}
+- header: {name: '$p^{\gamma}_T$ Range (GeV$c$)'}
   values:
   - {low: 3.00, high: 3.50}
   - {low: 3.50, high: 4.00}
@@ -19,6 +19,26 @@ independent_variables:
   - {low: 12.00, high: 14.00}
   - {low: 14.00, high: 16.00}
 dependent_variables:
+- header: {name: '$p^{\gamma}_T$ (GeV$c$)'}
+  qualifiers:
+  - {name: '', value: ''}
+  values:
+  - value: 3.25
+  - value: 3.75
+  - value: 4.25
+  - value: 5.25
+  - value: 5.75
+  - value: 6.25
+  - value: 6.75
+  - value: 7.25
+  - value: 7.75
+  - value: 8.25
+  - value: 8.75
+  - value: 9.25
+  - value: 9.75
+  - value: 11.00
+  - value: 13.00
+  - value: 15.00
 - header: {name: '$Ed^3$$\sigma/{dp^3}$ (pb GeV$^-2$c$^-3$)'}
   values:
   - value: 2.22E-05

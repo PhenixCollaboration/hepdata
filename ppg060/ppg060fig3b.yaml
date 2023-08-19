@@ -1,5 +1,5 @@
 independent_variables:
-- header: {name: '$p^{\gamma}_T$ (GeV$c$)'}
+- header: {name: '$p^{\gamma}_T$ Range (GeV$c$)'}
   values:
   - {low: 3.00, high: 4.00}
   - {low: 4.00, high: 5.00}
@@ -11,6 +11,19 @@ independent_variables:
   - {low: 10.00, high: 12.00}
   - {low: 12.00, high: 15.00}
 dependent_variables:
+- header: {name: '$p^{\gamma}_T$ (GeV$c$)'}
+  qualifiers:
+  - {name: '', value: ''}
+  values:
+  - value: 3.34
+  - value: 4.38
+  - value: 5.40
+  - value: 6.41
+  - value: 7.42
+  - value: 8.43
+  - value: 9.78
+  - value: 11.81
+  - value: 14.41
 - header: {name: 'Isolated/All Ratio'}
   qualifiers:
   - {name: 'Species', value: '$\pi^0$ Decay Photons'}
