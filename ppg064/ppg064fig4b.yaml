@@ -1,5 +1,5 @@
 independent_variables:
-- header: {name: '$p_T$ (GeV/$c$)'}
+- header: {name: '$p_T$ Bins (GeV/$c$)'}
   values:
   - {low: 3.00, high: 4.00}
   - {low: 4.00, high: 5.00}
@@ -8,9 +8,23 @@ independent_variables:
   - {low: 7.00, high: 8.00}
   - {low: 8.00, high: 10.00}
 dependent_variables:
-- header: {name: 'm (GeV/$c^2$)'}
+- header: {name: '$p_T$ (GeV/$c$)'}
   qualifiers:
-  - {name: 'Decay Channel', value: '$3\pi$'}
+  - {name: 'Decay Channel', value: ''}
+  - {name: 'Collision', value: ''}
+  - {name: 'Centrality', value: ''}
+  values:
+  - value: 3.50
+  - value: 4.50
+  - value: 5.50
+  - value: 6.50
+  - value: 7.50
+  - value: 9.00
+- header: {name: 'm (MeV/$c^2$)'}
+  qualifiers:
+  - {name: 'Decay Channel', value: '$\omega \longrightarrow \pi^0 \pi^+ \pi^-$'}
+  - {name: 'Collision', value: '$d$+Au'}
+  - {name: 'Centrality', value: 'Minimum Bias'}
   values:
   - value: 782
     errors:

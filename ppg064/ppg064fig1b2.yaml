@@ -1,5 +1,5 @@
 independent_variables:
-- header: {name: '$p_T$ (GeV/$c$)'}
+- header: {name: '$p_T$ Bins (GeV/$c$)'}
   values:
   - {low: 3.00, high: 4.00}
   - {low: 4.00, high: 5.00}
@@ -8,31 +8,45 @@ independent_variables:
   - {low: 7.00, high: 8.00}
   - {low: 8.00, high: 10.00}
 dependent_variables:
+- header: {name: '$p_T$ (GeV/$c$)'}
+  qualifiers:
+  - {name: 'Decay Channel', value: ''}
+  - {name: 'Collision', value: ''}
+  - {name: 'Centrality', value: ''}
+  values:
+  - value: 3.50
+  - value: 4.50
+  - value: 5.50
+  - value: 6.50
+  - value: 7.50
+  - value: 9.00
 - header: {name: '$1/(2\pi p_T) d^2\sigma/(dydp_T)$ (mb(GeV/$c$)$^-2$)'}
   qualifiers:
-  - {name: 'Decay Channel', value: '$3\pi$'}
+  - {name: 'Decay Channel', value: '$\omega \longrightarrow \pi^0 \pi^+ \pi^-$'}
+  - {name: 'Collision', value: '$d$+Au'}
+  - {name: 'Centrality', value: 'Minimum Bias'}
   values:
-  - value: 2.30E-01
+  - value: 0.23
     errors:
-    - {symerror: 1E-01, label: 'stat.'}
-    - {symerror: 5E-02, label: 'sys.'}
-  - value: 4.80E-02
+    - {symerror: 0.098, label: 'stat.'}
+    - {symerror: 0.052, label: 'sys.'}
+  - value: 0.048
     errors:
-    - {symerror: 1E-02, label: 'stat.'}
-    - {symerror: 9E-03, label: 'sys.'}
-  - value: 6.40E-03
+    - {symerror: 0.01, label: 'stat.'}
+    - {symerror: 0.0089, label: 'sys.'}
+  - value: 0.0064
     errors:
-    - {symerror: 2E-03, label: 'stat.'}
-    - {symerror: 1E-03, label: 'sys.'}
-  - value: 1.20E-03
+    - {symerror: 0.0015, label: 'stat.'}
+    - {symerror: 0.0012, label: 'sys.'}
+  - value: 0.0012
     errors:
-    - {symerror: 3E-04, label: 'stat.'}
-    - {symerror: 2E-04, label: 'sys.'}
-  - value: 4.30E-04
+    - {symerror: 3.2e-4, label: 'stat.'}
+    - {symerror: 2.1e-4, label: 'sys.'}
+  - value: 4.3e-4
     errors:
-    - {symerror: 1E-04, label: 'stat.'}
-    - {symerror: 8E-05, label: 'sys.'}
-  - value: 1.00E-04
+    - {symerror: 1.1e-4, label: 'stat.'}
+    - {symerror: 7.7e-5, label: 'sys.'}
+  - value: 0.0001
     errors:
-    - {symerror: 3E-05, label: 'stat.'}
-    - {symerror: 2E-05, label: 'sys.'}
+    - {symerror: 3e-5, label: 'stat.'}
+    - {symerror: 2.2e-5, label: 'sys.'}
