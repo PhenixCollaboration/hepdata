@@ -15,8 +15,12 @@ independent_variables:
   - {low: 2.50, high: 2.68}
   - {low: 2.68, high: 2.82}
   - {low: 2.82, high: 3.00}
-  - {low: 3.00, high: 3.12}
+  - {low: 3.00, high: 3.1416}
+dependent_variables:
 - header: {name: '$\Delta\phi$'}
+  qualifiers:
+  - {name: 'Centrality', value: ''}
+  - {name: 'Particle Type', value: ''}
   values:
   - value: 0.0785
   - value: 0.2356
@@ -33,7 +37,6 @@ independent_variables:
   - value: 2.7489
   - value: 2.9060
   - value: 3.0631
-dependent_variables:
 - header: {name: '$1/{N_{trig}}$ ${dN}/{\Delta\phi}$'}
   qualifiers:
   - {name: 'Centrality', value: '0-5%'}
