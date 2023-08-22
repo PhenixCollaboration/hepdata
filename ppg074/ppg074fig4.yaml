@@ -56,7 +56,7 @@ dependent_variables:
   - value: 6.09E-01
     errors:
     - {symerror: 5.31E-03, label: 'stat.'}
-    - {symerror: 1.21E-02, label: 'sys.'}
+    - {asymerror: {plus: 0, minus: -1.21E-02}, label: 'sys.'}
 - header: {name: '$<p_T^{\prime}>$ (GeV/$c$)'}
   qualifiers:
   - {name: 'Trigger Selection', value: '2.0 < $p_T^A$ < 3.0 GeV/$c$'}
@@ -89,11 +89,11 @@ dependent_variables:
   - value: 5.03E-01
     errors:
     - {symerror: 1.66E-02, label: 'stat.'}
-    - {symerror: 1.28E-02, label: 'sys.'}
+    - {asymerror: {plus: 0, minus: -1.28E-02}, label: 'sys.'}
   - value: 4.87E-01
     errors:
     - {symerror: 2.24E-02, label: 'stat.'}
-    - {symerror: 1.42E-02, label: 'sys.'}
+    - {asymerror: {plus: 0, minus: -1.42E-02}, label: 'sys.'}
   - value: 4.92E-01
     errors:
     - {symerror: 2.46E-02, label: 'stat.'}
@@ -101,7 +101,7 @@ dependent_variables:
   - value: 5.43E-01
     errors:
     - {symerror: 1.42E-02, label: 'stat.'}
-    - {symerror: 2.27E-02, label: 'sys.'}
+    - {asymerror: {plus: 0, minus: -2.27E-02}, label: 'sys.'}
 - header: {name: '$<p_T^{\prime}>$ (GeV/$c$)'}
   qualifiers:
   - {name: 'Trigger Selection', value: '2.0 < $p_T^A$ < 3.0 GeV/$c$'}
@@ -191,7 +191,7 @@ dependent_variables:
   - value: 7.15E-01
     errors:
     - {symerror: 1.18E-02, label: 'stat.'}
-    - {symerror: 2.02E-03, label: 'sys.'}
+    - {asymerror: {plus: 0, minus: -2.02E-03}, label: 'sys.'}
 - header: {name: '$<p_T^{\prime}>$ (GeV/$c$)'}
   qualifiers:
   - {name: 'Trigger Selection', value: '3.0 < $p_T^A$ < 4.0 GeV/$c$'}
