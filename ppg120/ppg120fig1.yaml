@@ -1,5 +1,5 @@
 independent_variables:
-- header: {name: '$p_T$'}
+- header: {name: '$p_T$ (GeV/$c$)'}
   values:
   - {low: 12, high: 14}
   - {low: 14, high: 16}
@@ -70,21 +70,21 @@ dependent_variables:
   - {name: 'Particle', value: 'Positron'}
   - {name: ' ', value: 'Inclusive'}
   values:
-  - value: 9.9e+2
+  - value: 992
     errors:
     - {asymerror: {plus: 170, minus: -170}, label: 'sys'}
-  - value: 3.8e+2
+  - value: 378
     errors:
-    - {asymerror: {plus: 50, minus: -50}, label: 'sys'}
+    - {asymerror: {plus: 52, minus: -52}, label: 'sys'}
   - value: 168
     errors:
     - {asymerror: {plus: 21, minus: -21}, label: 'sys'}
-  - value: 74
+  - value: 74.1
     errors:
-    - {asymerror: {plus: 9, minus: -9}, label: 'sys'}
-  - value: 39
+    - {asymerror: {plus: 9.2, minus: -9.2}, label: 'sys'}
+  - value: 39.0
     errors:
-    - {asymerror: {plus: 5, minus: -6}, label: 'sys'}
+    - {asymerror: {plus: 5.5, minus: -5.5}, label: 'sys'}
   - value: 21.3
     errors:
     - {asymerror: {plus: 3.3, minus: -3.3}, label: 'sys'}
@@ -123,7 +123,7 @@ dependent_variables:
     - {asymerror: {plus: 0.12, minus: -0.12}, label: 'sys'}
   - value: 0.17
     errors:
-    - {asymerror: {plus: 0.10, minus: -0.09}, label: 'sys'}
+    - {asymerror: {plus: 0.09, minus: -0.09}, label: 'sys'}
   - value: 0.13
     errors:
     - {asymerror: {plus: 0.08, minus: -0.08}, label: 'sys'}
@@ -135,28 +135,28 @@ dependent_variables:
     - {asymerror: {plus: 0.05, minus: -0.05}, label: 'sys'}
   - value: 0.07
     errors:
-    - {asymerror: {plus: 0.05, minus: -0.04}, label: 'sys'}
+    - {asymerror: {plus: 0.04, minus: -0.04}, label: 'sys'}
   - value: 0.05
     errors:
     - {asymerror: {plus: 0.04, minus: -0.04}, label: 'sys'}
   - value: 0.043
     errors:
-    - {asymerror: {plus: 0.030, minus: -0.033}, label: 'sys'}
+    - {asymerror: {plus: 0.033, minus: -0.033}, label: 'sys'}
   - value: 0.035
     errors:
-    - {asymerror: {plus: 0.030, minus: -0.028}, label: 'sys'}
+    - {asymerror: {plus: 0.028, minus: -0.028}, label: 'sys'}
   - value: 0.029
     errors:
-    - {asymerror: {plus: 0.020, minus: -0.025}, label: 'sys'}
+    - {asymerror: {plus: 0.025, minus: -0.025}, label: 'sys'}
   - value: 0.024
     errors:
-    - {asymerror: {plus: 0.020, minus: -0.021}, label: 'sys'}
+    - {asymerror: {plus: 0.021, minus: -0.021}, label: 'sys'}
   - value: 0.020
     errors:
-    - {asymerror: {plus: 0.020, minus: -0.018}, label: 'sys'}
+    - {asymerror: {plus: 0.018, minus: -0.018}, label: 'sys'}
   - value: 0.017
     errors:
-    - {asymerror: {plus: 0.020, minus: -0.016}, label: 'sys'}
+    - {asymerror: {plus: 0.016, minus: -0.016}, label: 'sys'}
 - header: {name: 'Counts per bin'}
   qualifiers:
   - {name: 'Particle', value: 'Positron'}
@@ -196,18 +196,18 @@ dependent_variables:
   - {name: 'Particle', value: 'Positron'}
   - {name: ' ', value: 'Isolation cut'}
   values:
-  - value: 2.2e+2
+  - value: 222
     errors:
-    - {asymerror: {plus: 40, minus: -40}, label: 'sys'}
-  - value: 84
+    - {asymerror: {plus: 38, minus: -38}, label: 'sys'}
+  - value: 84.4
     errors:
-    - {asymerror: {plus: 12, minus: -12}, label: 'sys'}
-  - value: 38
+    - {asymerror: {plus: 11.6, minus: -11.6}, label: 'sys'}
+  - value: 37.6
     errors:
-    - {asymerror: {plus: 5, minus: -5}, label: 'sys'}
+    - {asymerror: {plus: 4.8, minus: -4.8}, label: 'sys'}
   - value: 16.6
     errors:
-    - {asymerror: {plus: 2.0, minus: -2.1}, label: 'sys'}
+    - {asymerror: {plus: 2.1, minus: -2.1}, label: 'sys'}
   - value: 8.7
     errors:
     - {asymerror: {plus: 1.2, minus: -1.2}, label: 'sys'}
@@ -217,9 +217,9 @@ dependent_variables:
   - value: 2.6
     errors:
     - {asymerror: {plus: 0.5, minus: -0.5}, label: 'sys'}
-  - value: 1.53
+  - value: 1.5
     errors:
-    - {asymerror: {plus: 0.30, minus: -0.29}, label: 'sys'}
+    - {asymerror: {plus: 0.3, minus: -0.3}, label: 'sys'}
   - value: 0.97
     errors:
     - {asymerror: {plus: 0.20, minus: -0.20}, label: 'sys'}
@@ -243,40 +243,46 @@ dependent_variables:
     - {asymerror: {plus: 0.04, minus: -0.04}, label: 'sys'}
   - value: 0.069
     errors:
-    - {asymerror: {plus: 0.030, minus: -0.030}, label: 'sys'}
+    - {asymerror: {plus: 0.032, minus: -0.032}, label: 'sys'}
   - value: 0.052
     errors:
-    - {asymerror: {plus: 0.030, minus: -0.030}, label: 'sys'}
+    - {asymerror: {plus: 0.026, minus: -0.026}, label: 'sys'}
   - value: 0.039
     errors:
-    - {asymerror: {plus: 0.020, minus: -0.020}, label: 'sys'}
+    - {asymerror: {plus: 0.021, minus: -0.021}, label: 'sys'}
   - value: 0.030
     errors:
-    - {asymerror: {plus: 0.020, minus: -0.020}, label: 'sys'}
+    - {asymerror: {plus: 0.017, minus: -0.017}, label: 'sys'}
   - value: 0.024
     errors:
-    - {asymerror: {plus: 0.010, minus: -0.010}, label: 'sys'}
+    - {asymerror: {plus: 0.014, minus: -0.014}, label: 'sys'}
   - value: 0.019
     errors:
-    - {asymerror: {plus: 0.010, minus: -0.010}, label: 'sys'}
+    - {asymerror: {plus: 0.012, minus: -0.012}, label: 'sys'}
   - value: 0.015
     errors:
     - {asymerror: {plus: 0.010, minus: -0.010}, label: 'sys'}
   - value: 0.012
     errors:
-    - {asymerror: {plus: 0.010, minus: -0.010}, label: 'sys'}
+    - {asymerror: {plus: 0.009, minus: -0.009}, label: 'sys'}
   - value: 0.010
     errors:
-    - {asymerror: {plus: 0.010, minus: -0.010}, label: 'sys'}
+    - {asymerror: {plus: 0.007, minus: -0.007}, label: 'sys'}
   - value: 0.008
     errors:
-    - {asymerror: {plus: 0.010, minus: -0.010}, label: 'sys'}
+    - {asymerror: {plus: 0.006, minus: -0.006}, label: 'sys'}
   - value: 0.006
     errors:
-    - {asymerror: {plus: 0.010, minus: -0.010}, label: 'sys'}
-  - value: 0E+3
-  - value: 0E+3
-  - value: 0E+3
+    - {asymerror: {plus: 0.005, minus: -0.005}, label: 'sys'}
+  - value: 0.005
+    errors:
+    - {asymerror: {plus: 0.005, minus: -0.005}, label: 'sys'}
+  - value: 0.004
+    errors:
+    - {asymerror: {plus: 0.004, minus: -0.004}, label: 'sys'}
+  - value: 0.004
+    errors:
+    - {asymerror: {plus: 0.003, minus: -0.003}, label: 'sys'}
 - header: {name: 'Counts per bin'}
   qualifiers:
   - {name: 'Particle', value: 'Electron'}
@@ -316,9 +322,9 @@ dependent_variables:
   - {name: 'Particle', value: 'Electron'}
   - {name: ' ', value: 'Inclusive'}
   values:
-  - value: 7.1e+2
+  - value: 708
     errors:
-    - {asymerror: {plus: 60, minus: -60}, label: 'sys'}
+    - {asymerror: {plus: 58, minus: -58}, label: 'sys'}
   - value: 272
     errors:
     - {asymerror: {plus: 13, minus: -13}, label: 'sys'}
@@ -349,9 +355,9 @@ dependent_variables:
   - value: 1.4
     errors:
     - {asymerror: {plus: 0.5, minus: -0.5}, label: 'sys'}
-  - value: 0.9
+  - value: 0.92
     errors:
-    - {asymerror: {plus: 0.4, minus: -0.4}, label: 'sys'}
+    - {asymerror: {plus: 0.36, minus: -0.36}, label: 'sys'}
   - value: 0.66
     errors:
     - {asymerror: {plus: 0.28, minus: -0.28}, label: 'sys'}
@@ -373,36 +379,36 @@ dependent_variables:
   - value: 0.10
     errors:
     - {asymerror: {plus: 0.07, minus: -0.07}, label: 'sys'}
-  - value: 0.08
+  - value: 0.079
     errors:
-    - {asymerror: {plus: 0.06, minus: -0.06}, label: 'sys'}
-  - value: 0.06
+    - {asymerror: {plus: 0.063, minus: -0.063}, label: 'sys'}
+  - value: 0.062
     errors:
-    - {asymerror: {plus: 0.05, minus: -0.05}, label: 'sys'}
-  - value: 0.05
+    - {asymerror: {plus: 0.053, minus: -0.053}, label: 'sys'}
+  - value: 0.048
     errors:
-    - {asymerror: {plus: 0.04, minus: -0.04}, label: 'sys'}
-  - value: 0.04
+    - {asymerror: {plus: 0.044, minus: -0.044}, label: 'sys'}
+  - value: 0.039
     errors:
-    - {asymerror: {plus: 0.04, minus: -0.04}, label: 'sys'}
+    - {asymerror: {plus: 0.039, minus: -0.039}, label: 'sys'}
   - value: 0.031
     errors:
-    - {asymerror: {plus: 0.030, minus: -0.033}, label: 'sys'}
+    - {asymerror: {plus: 0.033, minus: -0.033}, label: 'sys'}
   - value: 0.025
     errors:
-    - {asymerror: {plus: 0.030, minus: -0.029}, label: 'sys'}
+    - {asymerror: {plus: 0.029, minus: -0.029}, label: 'sys'}
   - value: 0.020
     errors:
-    - {asymerror: {plus: 0.030, minus: -0.025}, label: 'sys'}
+    - {asymerror: {plus: 0.025, minus: -0.025}, label: 'sys'}
   - value: 0.016
     errors:
-    - {asymerror: {plus: 0.020, minus: -0.022}, label: 'sys'}
+    - {asymerror: {plus: 0.022, minus: -0.022}, label: 'sys'}
   - value: 0.013
     errors:
-    - {asymerror: {plus: 0.020, minus: -0.019}, label: 'sys'}
+    - {asymerror: {plus: 0.019, minus: -0.019}, label: 'sys'}
   - value: 0.011
     errors:
-    - {asymerror: {plus: 0.020, minus: -0.017}, label: 'sys'}
+    - {asymerror: {plus: 0.017, minus: -0.017}, label: 'sys'}
 - header: {name: 'Counts per bin'}
   qualifiers:
   - {name: 'Particle', value: 'Electron'}
@@ -463,9 +469,9 @@ dependent_variables:
   - value: 2.3
     errors:
     - {asymerror: {plus: 0.4, minus: -0.4}, label: 'sys'}
-  - value: 1.35
+  - value: 1.4
     errors:
-    - {asymerror: {plus: 0.31, minus: -0.31}, label: 'sys'}
+    - {asymerror: {plus: 0.3, minus: -0.3}, label: 'sys'}
   - value: 0.85
     errors:
     - {asymerror: {plus: 0.23, minus: -0.23}, label: 'sys'}
@@ -484,48 +490,48 @@ dependent_variables:
   - value: 0.12
     errors:
     - {asymerror: {plus: 0.05, minus: -0.05}, label: 'sys'}
-  - value: 0.08
+  - value: 0.085
     errors:
-    - {asymerror: {plus: 0.04, minus: -0.04}, label: 'sys'}
+    - {asymerror: {plus: 0.042, minus: -0.042}, label: 'sys'}
   - value: 0.063
     errors:
-    - {asymerror: {plus: 0.04, minus: -0.035}, label: 'sys'}
+    - {asymerror: {plus: 0.035, minus: -0.035}, label: 'sys'}
   - value: 0.047
     errors:
-    - {asymerror: {plus: 0.030, minus: -0.029}, label: 'sys'}
+    - {asymerror: {plus: 0.029, minus: -0.029}, label: 'sys'}
   - value: 0.035
     errors:
-    - {asymerror: {plus: 0.020, minus: -0.023}, label: 'sys'}
+    - {asymerror: {plus: 0.023, minus: -0.023}, label: 'sys'}
   - value: 0.026
     errors:
-    - {asymerror: {plus: 0.020, minus: -0.019}, label: 'sys'}
+    - {asymerror: {plus: 0.019, minus: -0.019}, label: 'sys'}
   - value: 0.020
     errors:
-    - {asymerror: {plus: 0.020, minus: -0.016}, label: 'sys'}
+    - {asymerror: {plus: 0.016, minus: -0.016}, label: 'sys'}
   - value: 0.016
     errors:
-    - {asymerror: {plus: 0.010, minus: -0.014}, label: 'sys'}
+    - {asymerror: {plus: 0.014, minus: -0.014}, label: 'sys'}
   - value: 0.012
     errors:
-    - {asymerror: {plus: 0.010, minus: -0.011}, label: 'sys'}
+    - {asymerror: {plus: 0.011, minus: -0.011}, label: 'sys'}
   - value: 0.010
     errors:
     - {asymerror: {plus: 0.010, minus: -0.010}, label: 'sys'}
-  - value: 0.008
+  - value: 0.0079
     errors:
-    - {asymerror: {plus: 0.010, minus: -0.009}, label: 'sys'}
-  - value: 0.006
+    - {asymerror: {plus: 0.008, minus: -0.008}, label: 'sys'}
+  - value: 0.0064
     errors:
-    - {asymerror: {plus: 0.010, minus: -0.007}, label: 'sys'}
-  - value: 0.005
+    - {asymerror: {plus: 0.007, minus: -0.007}, label: 'sys'}
+  - value: 0.0052
     errors:
-    - {asymerror: {plus: 0.010, minus: -0.006}, label: 'sys'}
-  - value: 0.004
+    - {asymerror: {plus: 0.006, minus: -0.006}, label: 'sys'}
+  - value: 0.0042
     errors:
-    - {asymerror: {plus: 0.010, minus: -0.006}, label: 'sys'}
-  - value: 0.003
+    - {asymerror: {plus: 0.006, minus: -0.006}, label: 'sys'}
+  - value: 0.0035
     errors:
-    - {asymerror: {plus: 0.0, minus: -0.005}, label: 'sys'}
-  - value: 0.003
+    - {asymerror: {plus: 0.005, minus: -0.005}, label: 'sys'}
+  - value: 0.0029
     errors:
-    - {asymerror: {plus: 0.0, minus: -0.004}, label: 'sys'}
+    - {asymerror: {plus: 0.004, minus: -0.004}, label: 'sys'}
