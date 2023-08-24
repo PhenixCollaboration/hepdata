@@ -1,5 +1,5 @@
 independent_variables:
-- header: {name: '$N_{ch}$/$<N_{ch}>$'}
+- header: {name: '$N_{ch}$'}
   values:
   - {value: 3}
   - {value: 4}
@@ -75,31 +75,31 @@ independent_variables:
   - {value: 74}
   - {value: 75}
 dependent_variables:
-- header: {name: '1/$N_{events}$ $dN_{ch}$/($d$($N_{ch}$/$<N_{ch}>$))'}
+- header: {name: '$dN$/$dN_{ch}$'}
   qualifiers:
   - {name: 'Centrality', value: '20-25%'}
   values:
   - value: 6
     errors:
-    - {symerror: 2.4, label: 'stat.'}
+    - {symerror: 2, label: 'stat.'}
   - value: 8
     errors:
-    - {symerror: 2.8, label: 'stat.'}
+    - {symerror: 3, label: 'stat.'}
   - value: 10
     errors:
-    - {symerror: 3.2, label: 'stat.'}
+    - {symerror: 3, label: 'stat.'}
   - value: 16
     errors:
-    - {symerror: 2004, label: 'stat.'}
+    - {symerror: 4, label: 'stat.'}
   - value: 22
     errors:
-    - {symerror: 2005, label: 'stat.'}
+    - {symerror: 5, label: 'stat.'}
   - value: 24
     errors:
-    - {symerror: 2005, label: 'stat.'}
+    - {symerror: 5, label: 'stat.'}
   - value: 30
     errors:
-    - {symerror: 2005, label: 'stat.'}
+    - {symerror: 5, label: 'stat.'}
   - value: 47
     errors:
     - {symerror: 7, label: 'stat.'}
@@ -214,7 +214,7 @@ dependent_variables:
   - value: 6.30E+03
     errors:
     - {symerror: 80, label: 'stat.'}
-  - value: 5.90E+04
+  - value: 5.09E+03
     errors:
     - {symerror: 70, label: 'stat.'}
   - value: 3.80E+03

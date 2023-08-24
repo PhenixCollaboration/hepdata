@@ -15,70 +15,90 @@ independent_variables:
   - {low: 2.50, high: 2.68}
   - {low: 2.68, high: 2.82}
   - {low: 2.82, high: 3.00}
-  - {low: 3.00, high: 3.12}
+  - {low: 3.00, high: 3.1416}
 dependent_variables:
+- header: {name: '$\Delta\phi$'}
+  qualifiers:
+  - {name: 'Centrality', value: ''}
+  - {name: 'Particle Type', value: ''}
+  values:
+  - value: 0.0785
+  - value: 0.2356
+  - value: 0.3927
+  - value: 0.5498
+  - value: 0.7069
+  - value: 0.8639
+  - value: 1.0210
+  - value: 1.1781
+  - value: 2.1206
+  - value: 2.2777
+  - value: 2.4347
+  - value: 2.5918
+  - value: 2.7489
+  - value: 2.9060
+  - value: 3.0631
 - header: {name: '$1/{N_{trig}}$ ${dN}/{\Delta\phi}$'}
   qualifiers:
   - {name: 'Centrality', value: '0-5%'}
   - {name: 'Particle Type', value: 'meson triggers, meson partners'}
   values:
-  - value: 1.339E+00
+  - value: 1.339
     errors:
     - {symerror: 1.178E-02, label: 'stat.'}
     - {symerror: 8.033E-02, label: 'sys.'}
-  - value: 1.333E+00
+  - value: 1.333
     errors:
     - {symerror: 1.204E-02, label: 'stat.'}
     - {symerror: 7.998E-02, label: 'sys.'}
-  - value: 1.297E+00
+  - value: 1.297
     errors:
     - {symerror: 1.239E-02, label: 'stat.'}
     - {symerror: 7.785E-02, label: 'sys.'}
-  - value: 1.255E+00
+  - value: 1.255
     errors:
     - {symerror: 1.241E-02, label: 'stat.'}
     - {symerror: 7.530E-02, label: 'sys.'}
-  - value: 1.233E+00
+  - value: 1.233
     errors:
     - {symerror: 1.279E-02, label: 'stat.'}
     - {symerror: 7.397E-02, label: 'sys.'}
-  - value: 1.266E+00
+  - value: 1.266
     errors:
     - {symerror: 1.446E-02, label: 'stat.'}
     - {symerror: 7.594E-02, label: 'sys.'}
-  - value: 1.226E+00
+  - value: 1.226
     errors:
     - {symerror: 1.744E-02, label: 'stat.'}
     - {symerror: 7.354E-02, label: 'sys.'}
-  - value: 1.241E+00
+  - value: 1.241
     errors:
     - {symerror: 2.499E-02, label: 'stat.'}
     - {symerror: 7.448E-02, label: 'sys.'}
-  - value: 1.265E+00
+  - value: 1.265
     errors:
     - {symerror: 2.209E-02, label: 'stat.'}
     - {symerror: 7.593E-02, label: 'sys.'}
-  - value: 1.249E+00
+  - value: 1.249
     errors:
     - {symerror: 1.417E-02, label: 'stat.'}
     - {symerror: 7.492E-02, label: 'sys.'}
-  - value: 1.239E+00
+  - value: 1.239
     errors:
     - {symerror: 1.077E-02, label: 'stat.'}
     - {symerror: 7.431E-02, label: 'sys.'}
-  - value: 1.244E+00
+  - value: 1.244
     errors:
     - {symerror: 9.104E-03, label: 'stat.'}
     - {symerror: 7.463E-02, label: 'sys.'}
-  - value: 1.246E+00
+  - value: 1.246
     errors:
     - {symerror: 8.695E-03, label: 'stat.'}
     - {symerror: 7.478E-02, label: 'sys.'}
-  - value: 1.254E+00
+  - value: 1.254
     errors:
     - {symerror: 8.905E-03, label: 'stat.'}
     - {symerror: 7.523E-02, label: 'sys.'}
-  - value: 1.221E+00
+  - value: 1.221
     errors:
     - {symerror: 9.063E-03, label: 'stat.'}
     - {symerror: 7.326E-02, label: 'sys.'}
@@ -87,63 +107,63 @@ dependent_variables:
   - {name: 'Centrality', value: '5-10%'}
   - {name: 'Particle Type', value: 'meson triggers, meson partners'}
   values:
-  - value: 1.193E+00
+  - value: 1.193
     errors:
     - {symerror: 1.121E-02, label: 'stat.'}
     - {symerror: 7.156E-02, label: 'sys.'}
-  - value: 1.157E+00
+  - value: 1.157
     errors:
     - {symerror: 1.131E-02, label: 'stat.'}
     - {symerror: 6.944E-02, label: 'sys.'}
-  - value: 1.128E+00
+  - value: 1.128
     errors:
     - {symerror: 1.165E-02, label: 'stat.'}
     - {symerror: 6.767E-02, label: 'sys.'}
-  - value: 1.077E+00
+  - value: 1.077
     errors:
     - {symerror: 1.158E-02, label: 'stat.'}
     - {symerror: 6.460E-02, label: 'sys.'}
-  - value: 1.063E+00
+  - value: 1.063
     errors:
     - {symerror: 1.196E-02, label: 'stat.'}
     - {symerror: 6.378E-02, label: 'sys.'}
-  - value: 1.083E+00
+  - value: 1.083
     errors:
     - {symerror: 1.347E-02, label: 'stat.'}
     - {symerror: 6.498E-02, label: 'sys.'}
-  - value: 1.062E+00
+  - value: 1.062
     errors:
     - {symerror: 1.633E-02, label: 'stat.'}
     - {symerror: 6.371E-02, label: 'sys.'}
-  - value: 1.016E+00
+  - value: 1.016
     errors:
     - {symerror: 2.268E-02, label: 'stat.'}
     - {symerror: 6.098E-02, label: 'sys.'}
-  - value: 1.075E+00
+  - value: 1.075
     errors:
     - {symerror: 2.058E-02, label: 'stat.'}
     - {symerror: 6.452E-02, label: 'sys.'}
-  - value: 1.053E+00
+  - value: 1.053
     errors:
     - {symerror: 1.314E-02, label: 'stat.'}
     - {symerror: 6.318E-02, label: 'sys.'}
-  - value: 1.078E+00
+  - value: 1.078
     errors:
     - {symerror: 1.014E-02, label: 'stat.'}
     - {symerror: 6.466E-02, label: 'sys.'}
-  - value: 1.057E+00
+  - value: 1.057
     errors:
     - {symerror: 8.473E-03, label: 'stat.'}
     - {symerror: 6.345E-02, label: 'sys.'}
-  - value: 1.090E+00
+  - value: 1.090
     errors:
     - {symerror: 8.208E-03, label: 'stat.'}
     - {symerror: 6.539E-02, label: 'sys.'}
-  - value: 1.080E+00
+  - value: 1.080
     errors:
     - {symerror: 8.355E-03, label: 'stat.'}
     - {symerror: 6.478E-02, label: 'sys.'}
-  - value: 1.082E+00
+  - value: 1.082
     errors:
     - {symerror: 8.631E-03, label: 'stat.'}
     - {symerror: 6.492E-02, label: 'sys.'}
@@ -412,63 +432,63 @@ dependent_variables:
   - {name: 'Centrality', value: '0-5%'}
   - {name: 'Particle Type', value: 'baryon triggers, meson partners'}
   values:
-  - value: 1.316E+00
+  - value: 1.316
     errors:
     - {symerror: 1.513E-02, label: 'stat.'}
     - {symerror: 7.895E-02, label: 'sys.'}
-  - value: 1.299E+00
+  - value: 1.299
     errors:
     - {symerror: 1.544E-02, label: 'stat.'}
     - {symerror: 7.792E-02, label: 'sys.'}
-  - value: 1.266E+00
+  - value: 1.266
     errors:
     - {symerror: 1.590E-02, label: 'stat.'}
     - {symerror: 7.593E-02, label: 'sys.'}
-  - value: 1.239E+00
+  - value: 1.239
     errors:
     - {symerror: 1.597E-02, label: 'stat.'}
     - {symerror: 7.436E-02, label: 'sys.'}
-  - value: 1.220E+00
+  - value: 1.220
     errors:
     - {symerror: 1.640E-02, label: 'stat.'}
     - {symerror: 7.319E-02, label: 'sys.'}
-  - value: 1.227E+00
+  - value: 1.227
     errors:
     - {symerror: 1.830E-02, label: 'stat.'}
     - {symerror: 7.362E-02, label: 'sys.'}
-  - value: 1.258E+00
+  - value: 1.258
     errors:
     - {symerror: 2.262E-02, label: 'stat.'}
     - {symerror: 7.548E-02, label: 'sys.'}
-  - value: 1.199E+00
+  - value: 1.199
     errors:
     - {symerror: 3.135E-02, label: 'stat.'}
     - {symerror: 7.195E-02, label: 'sys.'}
-  - value: 1.203E+00
+  - value: 1.203
     errors:
     - {symerror: 2.830E-02, label: 'stat.'}
     - {symerror: 7.217E-02, label: 'sys.'}
-  - value: 1.241E+00
+  - value: 1.241
     errors:
     - {symerror: 1.836E-02, label: 'stat.'}
     - {symerror: 7.445E-02, label: 'sys.'}
-  - value: 1.242E+00
+  - value: 1.242
     errors:
     - {symerror: 1.390E-02, label: 'stat.'}
     - {symerror: 7.454E-02, label: 'sys.'}
-  - value: 1.231E+00
+  - value: 1.231
     errors:
     - {symerror: 1.168E-02, label: 'stat.'}
     - {symerror: 7.386E-02, label: 'sys.'}
-  - value: 1.242E+00
+  - value: 1.242
     errors:
     - {symerror: 1.120E-02, label: 'stat.'}
     - {symerror: 7.452E-02, label: 'sys.'}
-  - value: 1.231E+00
+  - value: 1.231
     errors:
     - {symerror: 1.140E-02, label: 'stat.'}
     - {symerror: 7.383E-02, label: 'sys.'}
-  - value: 1.219E+00
+  - value: 1.219
     errors:
     - {symerror: 1.167E-02, label: 'stat.'}
     - {symerror: 7.315E-02, label: 'sys.'}
@@ -477,31 +497,31 @@ dependent_variables:
   - {name: 'Centrality', value: '5-10%'}
   - {name: 'Particle Type', value: 'baryon triggers, meson partners'}
   values:
-  - value: 1.139E+00
+  - value: 1.139
     errors:
     - {symerror: 1.444E-02, label: 'stat.'}
     - {symerror: 6.835E-02, label: 'sys.'}
-  - value: 1.149E+00
+  - value: 1.149
     errors:
     - {symerror: 1.489E-02, label: 'stat.'}
     - {symerror: 6.892E-02, label: 'sys.'}
-  - value: 1.096E+00
+  - value: 1.096
     errors:
     - {symerror: 1.516E-02, label: 'stat.'}
     - {symerror: 6.577E-02, label: 'sys.'}
-  - value: 1.090E+00
+  - value: 1.090
     errors:
     - {symerror: 1.536E-02, label: 'stat.'}
     - {symerror: 6.541E-02, label: 'sys.'}
-  - value: 1.112E+00
+  - value: 1.112
     errors:
     - {symerror: 1.605E-02, label: 'stat.'}
     - {symerror: 6.670E-02, label: 'sys.'}
-  - value: 1.068E+00
+  - value: 1.068
     errors:
     - {symerror: 1.747E-02, label: 'stat.'}
     - {symerror: 6.409E-02, label: 'sys.'}
-  - value: 1.038E+00
+  - value: 1.038
     errors:
     - {symerror: 2.100E-02, label: 'stat.'}
     - {symerror: 6.225E-02, label: 'sys.'}
@@ -509,31 +529,31 @@ dependent_variables:
     errors:
     - {symerror: 2.868E-02, label: 'stat.'}
     - {symerror: 5.790E-02, label: 'sys.'}
-  - value: 1.095E+00
+  - value: 1.095
     errors:
     - {symerror: 2.775E-02, label: 'stat.'}
     - {symerror: 6.569E-02, label: 'sys.'}
-  - value: 1.076E+00
+  - value: 1.076
     errors:
     - {symerror: 1.753E-02, label: 'stat.'}
     - {symerror: 6.458E-02, label: 'sys.'}
-  - value: 1.096E+00
+  - value: 1.096
     errors:
     - {symerror: 1.340E-02, label: 'stat.'}
     - {symerror: 6.575E-02, label: 'sys.'}
-  - value: 1.088E+00
+  - value: 1.088
     errors:
     - {symerror: 1.127E-02, label: 'stat.'}
     - {symerror: 6.528E-02, label: 'sys.'}
-  - value: 1.092E+00
+  - value: 1.092
     errors:
     - {symerror: 1.079E-02, label: 'stat.'}
     - {symerror: 6.554E-02, label: 'sys.'}
-  - value: 1.063E+00
+  - value: 1.063
     errors:
     - {symerror: 1.090E-02, label: 'stat.'}
     - {symerror: 6.379E-02, label: 'sys.'}
-  - value: 1.087E+00
+  - value: 1.087
     errors:
     - {symerror: 1.134E-02, label: 'stat.'}
     - {symerror: 6.524E-02, label: 'sys.'}

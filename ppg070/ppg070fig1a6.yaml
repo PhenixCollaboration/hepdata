@@ -1,5 +1,5 @@
 independent_variables:
-- header: {name: '$N_{ch}$/$<N_{ch}>$'}
+- header: {name: '$N_{ch}$'}
   values:
   - {value: 1}
   - {value: 2}
@@ -72,28 +72,28 @@ independent_variables:
   - {value: 72}
   - {value: 76}
 dependent_variables:
-- header: {name: '1/$N_{events}$ $dN_{ch}$/($d$($N_{ch}$/$<N_{ch}>$))'}
+- header: {name: '$dN$/$dN_{ch}$'}
   qualifiers:
   - {name: 'Centrality', value: '25-30%'}
   values:
   - value: 10
     errors:
-    - {symerror: 3.2, label: 'stat.'}
+    - {symerror: 3, label: 'stat.'}
   - value: 7
     errors:
-    - {symerror: 2.6, label: 'stat.'}
+    - {symerror: 3, label: 'stat.'}
   - value: 11
     errors:
-    - {symerror: 3.3, label: 'stat.'}
+    - {symerror: 3, label: 'stat.'}
   - value: 12
     errors:
-    - {symerror: 3.5, label: 'stat.'}
+    - {symerror: 4, label: 'stat.'}
   - value: 22
     errors:
-    - {symerror: 2005, label: 'stat.'}
+    - {symerror: 5, label: 'stat.'}
   - value: 25
     errors:
-    - {symerror: 2005, label: 'stat.'}
+    - {symerror: 5, label: 'stat.'}
   - value: 43
     errors:
     - {symerror: 7, label: 'stat.'}
@@ -115,7 +115,7 @@ dependent_variables:
   - value: 1.84E+03
     errors:
     - {symerror: 40, label: 'stat.'}
-  - value: 3.00E+04
+  - value: 3.00E+03
     errors:
     - {symerror: 50, label: 'stat.'}
   - value: 4.56E+03
@@ -133,7 +133,7 @@ dependent_variables:
   - value: 1.64E+04
     errors:
     - {symerror: 130, label: 'stat.'}
-  - value: 2.71E+06
+  - value: 2.07E+04
     errors:
     - {symerror: 140, label: 'stat.'}
   - value: 2.48E+04
@@ -151,13 +151,13 @@ dependent_variables:
   - value: 3.88E+04
     errors:
     - {symerror: 200, label: 'stat.'}
-  - value: 4.33E+06
+  - value: 4.03E+04
     errors:
     - {symerror: 200, label: 'stat.'}
-  - value: 4.89E+06
+  - value: 4.09E+04
     errors:
     - {symerror: 200, label: 'stat.'}
-  - value: 4.71E+06
+  - value: 4.07E+04
     errors:
     - {symerror: 200, label: 'stat.'}
   - value: 3.94E+04
@@ -178,7 +178,7 @@ dependent_variables:
   - value: 2.42E+04
     errors:
     - {symerror: 160, label: 'stat.'}
-  - value: 2.58E+06
+  - value: 2.06E+04
     errors:
     - {symerror: 140, label: 'stat.'}
   - value: 1.75E+04
