@@ -1,0 +1,332 @@
+independent_variables:
+- header: {name: '$p_T^a$ (GeV/$c$)'}
+  values:
+  - {low: 0.5, high: 1}
+  - {low: 1, high: 2}
+  - {low: 2, high: 3}
+  - {low: 3, high: 5}
+  - {low: 5, high: 7}
+dependent_variables:
+- header: {name: '$|p_T^a|$ (GeV/$c$)'}
+  qualifiers:
+  - {name: 'collision', value: '$p+p$'}
+  - {name: '$\pi^0$ $p_T$ (GeV/$c$)', value: ''}
+  - {name: '$|\Delta \phi - \pi|$', value: ''}
+  values:
+  - value: 0.7942
+  - value: 1.46
+  - value: 2.485
+  - value: 3.805
+  - value: 5.856
+- header: {name: '$p+p$ yield'}
+  qualifiers:
+  - {name: 'collision', value: '$p+p$'}
+  - {name: '$\pi^0$ $p_T$ (GeV/$c$)', value: '4-5'}
+  - {name: '$|\Delta \phi - \pi|$', value: '< $\pi /3$'}
+  values:
+  - value: 0.2477
+    errors:
+    - {symerror: 0.0029, label: 'stat.'}
+    - {asymerror: {plus: 0.0096, minus: 0.0096}, label: 'sys.'}
+  - value: 0.1184
+    errors:
+    - {symerror: 9e-4, label: 'stat.'}
+    - {asymerror: {plus: 0.0041, minus: 0.0041}, label: 'sys.'}
+  - value: 0.0376
+    errors:
+    - {symerror: 4e-4, label: 'stat.'}
+    - {asymerror: {plus: 0.0014, minus: 0.0014}, label: 'sys.'}
+  - value: 0.00936
+    errors:
+    - {symerror: 1.4e-4, label: 'stat.'}
+    - {asymerror: {plus: 4.1e-4, minus: 3.5e-4}, label: 'sys.'}
+  - value: 0.00158
+    errors:
+    - {symerror: 6e-5, label: 'stat.'}
+    - {asymerror: {plus: 1.1e-4, minus: 8e-5}, label: 'sys.'}
+- header: {name: '$p+p$ yield'}
+  qualifiers:
+  - {name: 'collision', value: '$p+p$'}
+  - {name: '$\pi^0$ $p_T$ (GeV/$c$)', value: '4-5'}
+  - {name: '$|\Delta \phi - \pi|$', value: '< $\pi /2$'}
+  values:
+  - value: 0.336
+    errors:
+    - {symerror: 0.004, label: 'stat.'}
+    - {asymerror: {plus: 0.013, minus: 0.013}, label: 'sys.'}
+  - value: 0.1157
+    errors:
+    - {symerror: 0.0012, label: 'stat.'}
+    - {asymerror: {plus: 0.0043, minus: 0.0043}, label: 'sys.'}
+  - value: 0.0297
+    errors:
+    - {symerror: 5e-4, label: 'stat.'}
+    - {asymerror: {plus: 0.0013, minus: 0.0013}, label: 'sys.'}
+  - value: 0.00722
+    errors:
+    - {symerror: 1.4e-4, label: 'stat.'}
+    - {asymerror: {plus: 3.7e-4, minus: 3.2e-4}, label: 'sys.'}
+  - value: 0.00123
+    errors:
+    - {symerror: 6e-5, label: 'stat.'}
+    - {asymerror: {plus: 1.1e-4, minus: 8e-5}, label: 'sys.'}
+- header: {name: '$p+p$ yield'}
+  qualifiers:
+  - {name: 'collision', value: '$p+p$'}
+  - {name: '$\pi^0$ $p_T$ (GeV/$c$)', value: '4-5'}
+  - {name: '$|\Delta \phi - \pi|$', value: '< $\pi /6$'}
+  values:
+  - value: 0.2281
+    errors:
+    - {symerror: 0.0023, label: 'stat.'}
+    - {asymerror: {plus: 0.0078, minus: 0.0078}, label: 'sys.'}
+  - value: 0.0878
+    errors:
+    - {symerror: 8e-4, label: 'stat.'}
+    - {asymerror: {plus: 0.0029, minus: 0.0029}, label: 'sys.'}
+  - value: 0.02452
+    errors:
+    - {symerror: 3.5e-4, label: 'stat.'}
+    - {asymerror: {plus: 8.6e-4, minus: 8.6e-4}, label: 'sys.'}
+  - value: 0.00622
+    errors:
+    - {symerror: 1.2e-4, label: 'stat.'}
+    - {asymerror: {plus: 2.6e-4, minus: 2.2e-4}, label: 'sys.'}
+  - value: 0.00115
+    errors:
+    - {symerror: 5e-5, label: 'stat.'}
+    - {asymerror: {plus: 7e-5, minus: 5e-5}, label: 'sys.'}
+- header: {name: '$p+p$ yield'}
+  qualifiers:
+  - {name: 'collision', value: '$p+p$'}
+  - {name: '$\pi^0$ $p_T$ (GeV/$c$)', value: '5-7'}
+  - {name: '$|\Delta \phi - \pi|$', value: '< $\pi /3$'}
+  values:
+  - value: 0.311
+    errors:
+    - {symerror: 0.005, label: 'stat.'}
+    - {asymerror: {plus: 0.011, minus: 0.011}, label: 'sys.'}
+  - value: 0.1638
+    errors:
+    - {symerror: 0.0015, label: 'stat.'}
+    - {asymerror: {plus: 0.0051, minus: 0.0051}, label: 'sys.'}
+  - value: 0.0580
+    errors:
+    - {symerror: 8e-4, label: 'stat.'}
+    - {asymerror: {plus: 0.0019, minus: 0.0019}, label: 'sys.'}
+  - value: 0.01635
+    errors:
+    - {symerror: 3.2e-4, label: 'stat.'}
+    - {asymerror: {plus: 6.7e-4, minus: 5.5e-4}, label: 'sys.'}
+  - value: 0.00360
+    errors:
+    - {symerror: 1.9e-4, label: 'stat.'}
+    - {asymerror: {plus: 2.4e-4, minus: 1.6e-4}, label: 'sys.'}
+- header: {name: '$p+p$ yield'}
+  qualifiers:
+  - {name: 'collision', value: '$p+p$'}
+  - {name: '$\pi^0$ $p_T$ (GeV/$c$)', value: '5-7'}
+  - {name: '$|\Delta \phi - \pi|$', value: '< $\pi /2$'}
+  values:
+  - value: 0.424
+    errors:
+    - {symerror: 0.006, label: 'stat.'}
+    - {asymerror: {plus: 0.015, minus: 0.015}, label: 'sys.'}
+  - value: 0.1620
+    errors:
+    - {symerror: 0.0019, label: 'stat.'}
+    - {asymerror: {plus: 0.0055, minus: 0.0055}, label: 'sys.'}
+  - value: 0.0495
+    errors:
+    - {symerror: 9e-4, label: 'stat.'}
+    - {asymerror: {plus: 0.0019, minus: 0.0019}, label: 'sys.'}
+  - value: 0.01290
+    errors:
+    - {symerror: 3.0e-4, label: 'stat.'}
+    - {asymerror: {plus: 6.3e-4, minus: 5.3e-4}, label: 'sys.'}
+  - value: 0.00279
+    errors:
+    - {symerror: 1.5e-4, label: 'stat.'}
+    - {asymerror: {plus: 2.3e-4, minus: 1.7e-4}, label: 'sys.'}
+- header: {name: '$p+p$ yield'}
+  qualifiers:
+  - {name: 'collision', value: '$p+p$'}
+  - {name: '$\pi^0$ $p_T$ (GeV/$c$)', value: '5-7'}
+  - {name: '$|\Delta \phi - \pi|$', value: '< $\pi /6$'}
+  values:
+  - value: 0.299
+    errors:
+    - {symerror: 0.004, label: 'stat.'}
+    - {asymerror: {plus: 0.009, minus: 0.009}, label: 'sys.'}
+  - value: 0.1295
+    errors:
+    - {symerror: 0.0013, label: 'stat.'}
+    - {asymerror: {plus: 0.0037, minus: 0.0037}, label: 'sys.'}
+  - value: 0.0421
+    errors:
+    - {symerror: 7e-4, label: 'stat.'}
+    - {asymerror: {plus: 0.0013, minus: 0.0013}, label: 'sys.'}
+  - value: 0.01193
+    errors:
+    - {symerror: 2.7e-4, label: 'stat.'}
+    - {asymerror: {plus: 4.6e-4, minus: 3.7e-4}, label: 'sys.'}
+  - value: 0.00248
+    errors:
+    - {symerror: 1.4e-4, label: 'stat.'}
+    - {asymerror: {plus: 1.6e-4, minus: 1.0e-4}, label: 'sys.'}
+- header: {name: '$p+p$ yield'}
+  qualifiers:
+  - {name: 'collision', value: '$p+p$'}
+  - {name: '$\pi^0$ $p_T$ (GeV/$c$)', value: '7-9'}
+  - {name: '$|\Delta \phi - \pi|$', value: '< $\pi /3$'}
+  values:
+  - value: 0.415
+    errors:
+    - {symerror: 0.013, label: 'stat.'}
+    - {asymerror: {plus: 0.021, minus: 0.021}, label: 'sys.'}
+  - value: 0.233
+    errors:
+    - {symerror: 0.005, label: 'stat.'}
+    - {asymerror: {plus: 0.009, minus: 0.009}, label: 'sys.'}
+  - value: 0.0847
+    errors:
+    - {symerror: 0.0026, label: 'stat.'}
+    - {asymerror: {plus: 0.0038, minus: 0.0038}, label: 'sys.'}
+  - value: 0.0279
+    errors:
+    - {symerror: 0.0013, label: 'stat.'}
+    - {asymerror: {plus: 0.0015, minus: 0.0013}, label: 'sys.'}
+  - value: 0.0071
+    errors:
+    - {symerror: 9e-4, label: 'stat.'}
+    - {asymerror: {plus: 7e-4, minus: 5e-4}, label: 'sys.'}
+- header: {name: '$p+p$ yield'}
+  qualifiers:
+  - {name: 'collision', value: '$p+p$'}
+  - {name: '$\pi^0$ $p_T$ (GeV/$c$)', value: '7-9'}
+  - {name: '$|\Delta \phi - \pi|$', value: '< $\pi /2$'}
+  values:
+  - value: 0.535
+    errors:
+    - {symerror: 0.017, label: 'stat.'}
+    - {asymerror: {plus: 0.028, minus: 0.028}, label: 'sys.'}
+  - value: 0.229
+    errors:
+    - {symerror: 0.006, label: 'stat.'}
+    - {asymerror: {plus: 0.011, minus: 0.011}, label: 'sys.'}
+  - value: 0.0876
+    errors:
+    - {symerror: 0.0031, label: 'stat.'}
+    - {asymerror: {plus: 0.0046, minus: 0.0046}, label: 'sys.'}
+  - value: 0.0267
+    errors:
+    - {symerror: 0.0013, label: 'stat.'}
+    - {asymerror: {plus: 0.0017, minus: 0.0015}, label: 'sys.'}
+  - value: 0.0072
+    errors:
+    - {symerror: 9e-4, label: 'stat.'}
+    - {asymerror: {plus: 9e-4, minus: 7e-4}, label: 'sys.'}
+- header: {name: '$p+p$ yield'}
+  qualifiers:
+  - {name: 'collision', value: '$p+p$'}
+  - {name: '$\pi^0$ $p_T$ (GeV/$c$)', value: '7-9'}
+  - {name: '$|\Delta \phi - \pi|$', value: '< $\pi /6$'}
+  values:
+  - value: 0.416
+    errors:
+    - {symerror: 0.011, label: 'stat.'}
+    - {asymerror: {plus: 0.016, minus: 0.016}, label: 'sys.'}
+  - value: 0.192
+    errors:
+    - {symerror: 0.004, label: 'stat.'}
+    - {asymerror: {plus: 0.007, minus: 0.007}, label: 'sys.'}
+  - value: 0.0790
+    errors:
+    - {symerror: 0.0027, label: 'stat.'}
+    - {asymerror: {plus: 0.0029, minus: 0.0029}, label: 'sys.'}
+  - value: 0.0251
+    errors:
+    - {symerror: 0.0012, label: 'stat.'}
+    - {asymerror: {plus: 0.0011, minus: 0.0010}, label: 'sys.'}
+  - value: 0.0067
+    errors:
+    - {symerror: 9e-4, label: 'stat.'}
+    - {asymerror: {plus: 5e-4, minus: 4e-4}, label: 'sys.'}
+- header: {name: '$p+p$ yield'}
+  qualifiers:
+  - {name: 'collision', value: '$p+p$'}
+  - {name: '$\pi^0$ $p_T$ (GeV/$c$)', value: '9-12'}
+  - {name: '$|\Delta \phi - \pi|$', value: '< $\pi /3$'}
+  values:
+  - value: 0.512
+    errors:
+    - {symerror: 0.026, label: 'stat.'}
+    - {asymerror: {plus: 0.035, minus: 0.035}, label: 'sys.'}
+  - value: 0.274
+    errors:
+    - {symerror: 0.010, label: 'stat.'}
+    - {asymerror: {plus: 0.015, minus: 0.015}, label: 'sys.'}
+  - value: 0.134
+    errors:
+    - {symerror: 0.008, label: 'stat.'}
+    - {asymerror: {plus: 0.007, minus: 0.007}, label: 'sys.'}
+  - value: 0.0425
+    errors:
+    - {symerror: 0.0036, label: 'stat.'}
+    - {asymerror: {plus: 0.0028, minus: 0.0025}, label: 'sys.'}
+  - value: 0.0145
+    errors:
+    - {symerror: 0.0037, label: 'stat.'}
+    - {asymerror: {plus: 0.0020, minus: 0.0017}, label: 'sys.'}
+- header: {name: '$p+p$ yield'}
+  qualifiers:
+  - {name: 'collision', value: '$p+p$'}
+  - {name: '$\pi^0$ $p_T$ (GeV/$c$)', value: '9-12'}
+  - {name: '$|\Delta \phi - \pi|$', value: '< $\pi /2$'}
+  values:
+  - value: 0.671
+    errors:
+    - {symerror: 0.033, label: 'stat.'}
+    - {asymerror: {plus: 0.047, minus: 0.047}, label: 'sys.'}
+  - value: 0.321
+    errors:
+    - {symerror: 0.013, label: 'stat.'}
+    - {asymerror: {plus: 0.019, minus: 0.019}, label: 'sys.'}
+  - value: 0.109
+    errors:
+    - {symerror: 0.007, label: 'stat.'}
+    - {asymerror: {plus: 0.008, minus: 0.008}, label: 'sys.'}
+  - value: 0.0409
+    errors:
+    - {symerror: 0.0032, label: 'stat.'}
+    - {asymerror: {plus: 0.0033, minus: 0.0030}, label: 'sys.'}
+  - value: 0.0140
+    errors:
+    - {symerror: 0.0038, label: 'stat.'}
+    - {asymerror: {plus: 0.0025, minus: 0.0022}, label: 'sys.'}
+- header: {name: '$p+p$ yield'}
+  qualifiers:
+  - {name: 'collision', value: '$p+p$'}
+  - {name: '$\pi^0$ $p_T$ (GeV/$c$)', value: '9-12'}
+  - {name: '$|\Delta \phi - \pi|$', value: '< $\pi /6$'}
+  values:
+  - value: 0.502
+    errors:
+    - {symerror: 0.022, label: 'stat.'}
+    - {asymerror: {plus: 0.025, minus: 0.025}, label: 'sys.'}
+  - value: 0.270
+    errors:
+    - {symerror: 0.010, label: 'stat.'}
+    - {asymerror: {plus: 0.011, minus: 0.011}, label: 'sys.'}
+  - value: 0.108
+    errors:
+    - {symerror: 0.006, label: 'stat.'}
+    - {asymerror: {plus: 0.005, minus: 0.005}, label: 'sys.'}
+  - value: 0.0386
+    errors:
+    - {symerror: 0.0032, label: 'stat.'}
+    - {asymerror: {plus: 0.0020, minus: 0.0018}, label: 'sys.'}
+  - value: 0.0130
+    errors:
+    - {symerror: 0.0036, label: 'stat.'}
+    - {asymerror: {plus: 0.0014, minus: 0.0011}, label: 'sys.'}
