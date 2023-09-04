@@ -1,0 +1,41 @@
+independent_variables:
+- header: {name: '$\phi_{\mu ,1}-\phi_{\mu ,2}$ [rad]'}
+  values:
+  - {low: 0, high: 0.2618}
+  - {low: 0.2618, high: 0.5236}
+  - {low: 0.5236, high: 0.7854}
+  - {low: 0.7854, high: 1.0472}
+  - {low: 1.0472, high: 1.309}
+  - {low: 1.309, high: 1.5708}
+  - {low: 1.5708, high: 1.8326}
+  - {low: 1.8326, high: 2.0944}
+dependent_variables:
+- header: {name: 'dN/d$\delta \phi$ [arbitrary units]'}
+  qualifiers:
+  - {name: 'muon arm', value: 'north'} 
+  - {name: '$m_{\mu \mu}$ [GeV/$c^2$]', value: '3.5 < $m_{\mu \mu}$ < 10'}
+  values:
+  - value: 1.2e-10
+    errors:
+    - {symerror: 7e-11, label: 'stat.'}
+  - value: 1.2e-10
+    errors:
+    - {symerror: 7e-11, label: 'stat.'}
+  - value: 4.1e-10
+    errors:
+    - {symerror: 1.3e-10, label: 'stat.'}
+  - value: 1.13e-9
+    errors:
+    - {symerror: 2.1e-10, label: 'stat.'}
+  - value: 2.15e-9
+    errors:
+    - {symerror: 2.9e-10, label: 'stat.'}
+  - value: 2.88e-9
+    errors:
+    - {symerror: 3.4e-10, label: 'stat.'}
+  - value: 3.3e-9
+    errors:
+    - {symerror: 4e-10, label: 'stat.'}
+  - value: 4.3e-9
+    errors:
+    - {symerror: 4e-10, label: 'stat.'}

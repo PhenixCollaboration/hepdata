@@ -1,0 +1,57 @@
+independent_variables:
+- header: {name: '$p_T$ [Gev/$c$]'}
+  values:
+  - {low: 0, high: 0.5}
+  - {low: 0.5, high: 1}
+  - {low: 1, high: 1.5}
+  - {low: 1.5, high: 2}
+  - {low: 2, high: 2.5}
+  - {low: 2.5, high: 3}
+  - {low: 3, high: 3.5}
+  - {low: 3.5, high: 4}
+  - {low: 4, high: 4.5}
+  - {low: 4.5, high: 5}
+  - {low: 5, high: 5.5}
+  - {low: 5.5, high: 6}
+dependent_variables:
+- header: {name: 'dN/d$p_T$ [arbitrary units]'}
+  qualifiers:
+  - {name: 'muon arm', value: 'north'} 
+  - {name: '$m_{\mu \mu}$ [GeV/$c^2$]', value: '4.8 < $m_{\mu \mu}$ < 8.2'}
+  values:
+  - value: 5.2e-11
+    errors:
+    - {symerror: 1.2e-11, label: 'stat.'}
+  - value: 1.87e-10
+    errors:
+    - {symerror: 2.3e-11, label: 'stat.'}
+  - value: 1.62e-10
+    errors:
+    - {symerror: 2.1e-11, label: 'stat.'}
+  - value: 2.12e-10
+    errors:
+    - {symerror: 2.4e-11, label: 'stat.'}
+  - value: 1.38e-10
+    errors:
+    - {symerror: 1.9e-11, label: 'stat.'}
+  - value: 9.1e-11
+    errors:
+    - {symerror: 1.6e-11, label: 'stat.'}
+  - value: 4.7e-11
+    errors:
+    - {symerror: 1.1e-11, label: 'stat.'}
+  - value: 5.5e-11
+    errors:
+    - {symerror: 1.2e-11, label: 'stat.'}
+  - value: 4.1e-11
+    errors:
+    - {symerror: 1.1e-11, label: 'stat.'}
+  - value: 8e-12
+    errors:
+    - {symerror: 5e-12, label: 'stat.'}
+  - value: 8e-12
+    errors:
+    - {symerror: 5e-12, label: 'stat.'}
+  - value: 6e-12
+    errors:
+    - {symerror: 4e-12, label: 'stat.'}
