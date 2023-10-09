@@ -1,7 +1,6 @@
 independent_variables:
 - header: {name: 'Centrality(%)'}
   values:
-  - {low: 5, high: 6}
   - {low: 6, high: 7}
   - {low: 7, high: 8}
   - {low: 8, high: 9}
@@ -64,10 +63,6 @@ independent_variables:
 dependent_variables:
 - header: {name: '$v_2${4}'}
   values:
-  - value: 0.00501
-    errors:
-    - {symerror: 0.034, label: 'stat.'}
-    - {symerror: 3.0E-4, label: 'syst.'}
   - value: 0.0174
     errors:
     - {symerror: 9.0E-4, label: 'stat.'}
