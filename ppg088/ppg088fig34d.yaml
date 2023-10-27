@@ -1,0 +1,38 @@
+independent_variables:
+- header: {name: '$p_T$ (GeV/$c$)'}
+  values:
+  - {low: 0.90, high: 1.40}
+  - {low: 1.40, high: 1.90}
+  - {low: 1.90, high: 2.50}
+  - {low: 2.50, high: 2.90}
+  - {low: 2.90, high: 3.80}
+  - {low: 3.80, high: 4.90}
+dependent_variables:
+- header: {name: '$\frac{Ed^3}{dp^3}$(GeV$^{-2}c^3$) or $\frac{Ed^3\sigma}{dp^3}$(mb GeV$^{-2}c^3$)'}
+  qualifiers:
+  - {name: 'Collision Species', value: '$p+p$'}
+  values:
+  - value: -2.0E-4
+    errors:
+    - {symerror: 8.0E-4, label: 'stat.'}
+    - {symerror: 0.0025, label: 'syst.'}
+  - value: 6.7E-4
+    errors:
+    - {symerror: 1.6E-4, label: 'stat.'}
+    - {symerror: 3.4E-4, label: 'syst.'}
+  - value: 1.6E-4
+    errors:
+    - {symerror: 5.0E-5, label: 'stat.'}
+    - {symerror: 7.0E-5, label: 'syst.'}
+  - value: 4.7E-5
+    errors:
+    - {symerror: 1.9E-5, label: 'stat.'}
+    - {symerror: 2.0E-5, label: 'syst.'}
+  - value: 8.0E-6
+    errors:
+    - {symerror: 5.0E-6, label: 'stat.'}
+    - {symerror: 4.0E-6, label: 'syst.'}
+  - value: 1.2E-6
+    errors:
+    - {symerror: 1.6E-6, label: 'stat.'}
+    - {symerror: 8.0E-7, label: 'syst.'}

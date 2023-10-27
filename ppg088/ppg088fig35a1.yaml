@@ -1,0 +1,138 @@
+independent_variables:
+- header: {name: '$m_{ee}$ (GeV/$c^2$)'}
+  values:
+  - {low: 0.000, high: 0.005}
+  - {low: 0.005, high: 0.010}
+  - {low: 0.010, high: 0.015}
+  - {low: 0.015, high: 0.020}
+  - {low: 0.020, high: 0.025}
+  - {low: 0.025, high: 0.030}
+  - {low: 0.030, high: 0.035}
+  - {low: 0.035, high: 0.040}
+  - {low: 0.040, high: 0.045}
+  - {low: 0.045, high: 0.050}
+  - {low: 0.050, high: 0.060}
+  - {low: 0.060, high: 0.070}
+  - {low: 0.070, high: 0.080}
+  - {low: 0.080, high: 0.090}
+  - {low: 0.090, high: 0.100}
+  - {low: 0.100, high: 0.140}
+  - {low: 0.140, high: 0.180}
+  - {low: 0.180, high: 0.274}
+  - {low: 0.274, high: 0.405}
+  - {low: 0.555, high: 0.710}
+  - {low: 0.710, high: 0.755}
+  - {low: 0.755, high: 0.805}
+  - {low: 0.995, high: 1.055}
+  - {low: 1.195, high: 1.355}
+  - {low: 1.655, high: 1.795}
+  - {low: 2.400, high: 2.550}
+dependent_variables:
+- header: {name: 'dN/d$m_{ee}$ ($c^2$/GeV) IN PHENIX ACCEPTANCE'}
+  qualifiers:
+  - {name: '$p_T$ $\times 10$', value: '$0.4 < p_T < 0.6$ GeV/$c$'}
+  values:
+  - value: 0.504
+    errors:
+    - {symerror: 0.005, label: 'stat.'}
+    - {symerror: 0.090, label: 'syst.'}
+  - value: 0.476
+    errors:
+    - {symerror: 0.005, label: 'stat.'}
+    - {symerror: 0.085, label: 'syst.'}
+  - value: 0.234
+    errors:
+    - {symerror: 0.004, label: 'stat.'}
+    - {symerror: 0.042, label: 'syst.'}
+  - value: 0.157
+    errors:
+    - {symerror: 0.004, label: 'stat.'}
+    - {symerror: 0.028, label: 'syst.'}
+  - value: 0.126
+    errors:
+    - {symerror: 0.004, label: 'stat.'}
+    - {symerror: 0.022, label: 'syst.'}
+  - value: 0.086
+    errors:
+    - {symerror: 0.004, label: 'stat.'}
+    - {symerror: 0.015, label: 'syst.'}
+  - value: 0.082
+    errors:
+    - {symerror: 0.004, label: 'stat.'}
+    - {symerror: 0.015, label: 'syst.'}
+  - value: 0.067
+    errors:
+    - {symerror: 0.004, label: 'stat.'}
+    - {symerror: 0.012, label: 'syst.'}
+  - value: 0.056
+    errors:
+    - {symerror: 0.004, label: 'stat.'}
+    - {symerror: 0.010, label: 'syst.'}
+  - value: 0.049
+    errors:
+    - {symerror: 0.004, label: 'stat.'}
+    - {symerror: 0.009, label: 'syst.'}
+  - value: 0.0320
+    errors:
+    - {symerror: 0.0024, label: 'stat.'}
+    - {symerror: 0.0057, label: 'syst.'}
+  - value: 0.0197
+    errors:
+    - {symerror: 0.0028, label: 'stat.'}
+    - {symerror: 0.0035, label: 'syst.'}
+  - value: 0.0189
+    errors:
+    - {symerror: 0.0036, label: 'stat.'}
+    - {symerror: 0.0034, label: 'syst.'}
+  - value: 0.0115
+    errors:
+    - {symerror: 0.0035, label: 'stat.'}
+    - {symerror: 0.0021, label: 'syst.'}
+  - value: 0.0067
+    errors:
+    - {symerror: 0.0031, label: 'stat.'}
+    - {symerror: 0.0012, label: 'syst.'}
+  - value: 0.0039
+    errors:
+    - {symerror: 0.0011, label: 'stat.'}
+    - {symerror: 8.0E-4, label: 'syst.'}
+  - value: 0.0029
+    errors:
+    - {symerror: 0.0011, label: 'stat.'}
+    - {symerror: 6.0E-4, label: 'syst.'}
+  - value: 0.0032
+    errors:
+    - {symerror: 8.0E-4, label: 'stat.'}
+    - {symerror: 8.0E-4, label: 'syst.'}
+  - value: 0.0053
+    errors:
+    - {symerror: 7.0E-4, label: 'stat.'}
+    - {symerror: 0.0015, label: 'syst.'}
+  - value: 0.0014
+    errors:
+    - {symerror: 5.0E-4, label: 'stat.'}
+    - {symerror: 8.0E-4, label: 'syst.'}
+  - value: 7.5E-4
+    errors:
+    - {symerror: 4.9E-4, label: 'stat.'}
+    - {symerror: 3.2E-4, label: 'syst.'}
+  - value: 0.00108
+    errors:
+    - {symerror: 4.7E-4, label: 'stat.'}
+    - {symerror: 3.0E-4, label: 'syst.'}
+  - value: 3.7E-4
+    errors:
+    - {symerror: 2.1E-4, label: 'stat.'}
+    - {symerror: 9.0E-5, label: 'syst.'}
+  - value: 1.21E-4
+    errors:
+    - {symerror: 6.6E-5, label: 'stat.'}
+    - {symerror: 2.5E-5, label: 'syst.'}
+  - value: 4.4E-5
+    errors:
+    - {symerror: 2.3E-5, label: 'stat.'}
+    - {symerror: 6.0E-6, label: 'syst.'}
+  - value: 4.9E-6
+    errors:
+    - {symerror: 3.5E-6, label: 'stat.'}
+    - {symerror: 7.0E-7, label: 'syst.'}

@@ -1,0 +1,48 @@
+independent_variables:
+- header: {name: '$m_{ee}$ (GeV/$c$)'}
+  values:
+  - {low: 0.060, high: 0.090}
+  - {low: 0.090, high: 0.120}
+  - {low: 0.120, high: 0.190}
+  - {low: 0.190, high: 0.245}
+  - {low: 0.245, high: 0.340}
+  - {low: 0.340, high: 0.395}
+  - {low: 0.395, high: 0.515}
+  - {low: 0.515, high: 0.595}
+  - {low: 0.595, high: 0.715}
+  - {low: 0.715, high: 0.750}
+dependent_variables:
+- header: {name: 'R=(data-cocktail)/$f_{dir}(m_{ee})$'}
+  qualifiers:
+  - {name: '$p_T$', value: '$0.6<p_T<0.8$ GeV/$c$'}
+  values:
+  - value: 0.09
+    errors:
+    - {symerror: 0.10, label: 'stat.'}
+  - value: 0.18
+    errors:
+    - {symerror: 0.07, label: 'stat.'}
+  - value: 0.44
+    errors:
+    - {symerror: 0.10, label: 'stat.'}
+  - value: 0.15
+    errors:
+    - {symerror: 0.09, label: 'stat.'}
+  - value: 0.41
+    errors:
+    - {symerror: 0.10, label: 'stat.'}
+  - value: 0.17
+    errors:
+    - {symerror: 0.12, label: 'stat.'}
+  - value: 0.14
+    errors:
+    - {symerror: 0.12, label: 'stat.'}
+  - value: 0.15
+    errors:
+    - {symerror: 0.09, label: 'stat.'}
+  - value: 0.03
+    errors:
+    - {symerror: 0.08, label: 'stat.'}
+  - value: 0.11
+    errors:
+    - {symerror: 0.10, label: 'stat.'}

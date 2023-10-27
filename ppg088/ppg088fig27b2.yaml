@@ -1,0 +1,24 @@
+independent_variables:
+- header: {name: '$m_{ee}$ (GeV/$c^2$)'}
+  values:
+  - {low: 0.755, high: 0.805}
+  - {low: 2.015, high: 2.485}
+  - {low: 2.485, high: 2.915}
+  - {low: 3.165, high: 3.185}
+  - {low: 3.185, high: 3.265}
+  - {low: 3.265, high: 3.285}
+  - {low: 3.285, high: 3.565}
+  - {low: 3.835, high: 4.515}
+dependent_variables:
+- header: {name: 'dN/d$m_{ee}$ ($c^2$/GeV) with upper limit uncertainties'}
+  qualifiers:
+  - {name: 'Centrality', value: '10-20%'}
+  values:
+  - value: 0.0305
+  - value: 4.0E-4
+  - value: 2.0E-4
+  - value: 3.0E-4
+  - value: 2.0E-4
+  - value: 3.0E-4
+  - value: 1.0E-4
+  - value: 1.3E-5

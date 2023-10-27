@@ -1,0 +1,47 @@
+independent_variables:
+- header: {name: 'Centrality (%)'}
+  values:
+  - {low: 60, high: 92}
+  - {low: 40, high: 60}
+  - {low: 20, high: 40}
+  - {low: 10, high: 20}
+  - {low: 00, high: 10}
+dependent_variables:
+- header: {name: '$N_{part}$'}
+  values:
+  - value: 14.50
+    errors:
+    - {symerror: 2.5, label: 'syst.'}
+  - value: 59.95
+    errors:
+    - {symerror: 3.6, label: 'syst.'}
+  - value: 140.4
+    errors:
+    - {symerror: 4.9, label: 'syst.'}
+  - value: 234.6
+    errors:
+    - {symerror: 4.7, label: 'syst.'}
+  - value: 325.2
+    errors:
+    - {symerror: 3.3, label: 'syst.'}
+- header: {name: 'Yield/$N_{part}$'}
+  values:
+  - value: 9.9
+    errors:
+    - {symerror: 2.5, label: 'stat.'}
+    - {symerror: 5, label: 'syst.'}
+  - value: 7.8
+    errors:
+    - {symerror: 2.0, label: 'stat.'}
+    - {symerror: 4, label: 'syst.'}
+  - value: 4.9
+    errors:
+    - {symerror: 1.8, label: 'stat.'}
+    - {symerror: 3.4, label: 'syst.'}
+  - value: 7.2
+    errors:
+    - {symerror: 2.4, label: 'stat.'}
+    - {symerror: 4, label: 'syst.'}
+  - value: 10
+    errors:
+    - {symerror: 10.3}

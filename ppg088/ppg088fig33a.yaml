@@ -1,0 +1,38 @@
+independent_variables:
+- header: {name: '$p_T$ (GeV/$c$)'}
+  values:
+  - {low: 1.00, high: 1.40}
+  - {low: 1.40, high: 2.00}
+  - {low: 2.00, high: 2.40}
+  - {low: 2.40, high: 3.00}
+  - {low: 3.00, high: 3.70}
+  - {low: 3.70, high: 5.00}
+dependent_variables:
+- header: {name: 'r=direct $\gamma$/inclusive $\gamma$'}
+  qualifiers:
+  - {name: 'collision species', value: '$p$+$p$'}
+  values:
+  - value: -0.001
+    errors:
+    - {symerror: 0.004, label: 'stat.'}
+    - {symerror: 0.012, label: 'syst.'}
+  - value: 0.026
+    errors:
+    - {symerror: 0.006, label: 'stat.'}
+    - {symerror: 0.012, label: 'syst.'}
+  - value: 0.034
+    errors:
+    - {symerror: 0.010, label: 'stat.'}
+    - {symerror: 0.013, label: 'syst.'}
+  - value: 0.039
+    errors:
+    - {symerror: 0.016, label: 'stat.'}
+    - {symerror: 0.015, label: 'syst.'}
+  - value: 0.031
+    errors:
+    - {symerror: 0.020, label: 'stat.'}
+    - {symerror: 0.015, label: 'syst.'}
+  - value: 0.035
+    errors:
+    - {symerror: 0.04, label: 'stat.'}
+    - {symerror: 0.021, label: 'syst.'}

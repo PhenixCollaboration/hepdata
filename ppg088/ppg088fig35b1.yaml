@@ -1,0 +1,138 @@
+independent_variables:
+- header: {name: '$m_{ee}$ (GeV/$c^2$)'}
+  values:
+  - {low: 0.000, high: 0.005}
+  - {low: 0.005, high: 0.010}
+  - {low: 0.010, high: 0.015}
+  - {low: 0.015, high: 0.020}
+  - {low: 0.020, high: 0.025}
+  - {low: 0.025, high: 0.030}
+  - {low: 0.030, high: 0.035}
+  - {low: 0.035, high: 0.040}
+  - {low: 0.040, high: 0.045}
+  - {low: 0.045, high: 0.050}
+  - {low: 0.050, high: 0.060}
+  - {low: 0.060, high: 0.070}
+  - {low: 0.070, high: 0.080}
+  - {low: 0.080, high: 0.100}
+  - {low: 0.100, high: 0.186}
+  - {low: 0.186, high: 0.255}
+  - {low: 0.255, high: 0.330}
+  - {low: 0.330, high: 0.411}
+  - {low: 0.411, high: 0.505}
+  - {low: 0.505, high: 0.605}
+  - {low: 0.605, high: 0.694}
+  - {low: 0.694, high: 0.756}
+  - {low: 0.756, high: 0.840}
+  - {low: 0.963, high: 1.225}
+  - {low: 1.950, high: 2.100}
+  - {low: 2.250, high: 2.400}
+dependent_variables:
+- header: {name: 'dN/d$m_{ee}$ ($c^2$/GeV) IN PHENIX ACCEPTANCE'}
+  qualifiers:
+  - {name: '$p_T$', value: '$0.6 < p_T < 0.8$ GeV/$c$'}
+  values:
+  - value: 0.00639
+    errors:
+    - {symerror: 1.3E-4, label: 'stat.'}
+    - {symerror: 0.00113, label: 'syst.'}
+  - value: 0.00815
+    errors:
+    - {symerror: 1.5E-4, label: 'stat.'}
+    - {symerror: 0.00145, label: 'syst.'}
+  - value: 0.00435
+    errors:
+    - {symerror: 1.2E-4, label: 'stat.'}
+    - {symerror: 7.7E-4, label: 'syst.'}
+  - value: 0.00257
+    errors:
+    - {symerror: 9.0E-5, label: 'stat.'}
+    - {symerror: 4.6E-4, label: 'syst.'}
+  - value: 0.00218
+    errors:
+    - {symerror: 1.0E-4, label: 'stat.'}
+    - {symerror: 3.9E-4, label: 'syst.'}
+  - value: 0.00148
+    errors:
+    - {symerror: 9.0E-5, label: 'stat.'}
+    - {symerror: 2.6E-4, label: 'syst.'}
+  - value: 0.00150
+    errors:
+    - {symerror: 9.0E-5, label: 'stat.'}
+    - {symerror: 2.7E-4, label: 'syst.'}
+  - value: 0.00111
+    errors:
+    - {symerror: 9.0E-5, label: 'stat.'}
+    - {symerror: 2.0E-4, label: 'syst.'}
+  - value: 0.00101
+    errors:
+    - {symerror: 9.0E-5, label: 'stat.'}
+    - {symerror: 1.8E-4, label: 'syst.'}
+  - value: 9.1E-4
+    errors:
+    - {symerror: 9.0E-5, label: 'stat.'}
+    - {symerror: 1.6E-4, label: 'syst.'}
+  - value: 6.5E-4
+    errors:
+    - {symerror: 7.0E-5, label: 'stat.'}
+    - {symerror: 1.2E-4, label: 'syst.'}
+  - value: 5.1E-4
+    errors:
+    - {symerror: 7.0E-5, label: 'stat.'}
+    - {symerror: 9.0E-5, label: 'syst.'}
+  - value: 5.8E-4
+    errors:
+    - {symerror: 7.0E-5, label: 'stat.'}
+    - {symerror: 1.0E-4, label: 'syst.'}
+  - value: 2.3E-4
+    errors:
+    - {symerror: 4.0E-5, label: 'stat.'}
+    - {symerror: 4.0E-5, label: 'syst.'}
+  - value: 2.7E-4
+    errors:
+    - {symerror: 5.0E-5, label: 'stat.'}
+    - {symerror: 5.0E-5, label: 'syst.'}
+  - value: 1.28E-4
+    errors:
+    - {symerror: 5.1E-5, label: 'stat.'}
+    - {symerror: 3.5E-5, label: 'syst.'}
+  - value: 3.1E-4
+    errors:
+    - {symerror: 6.0E-5, label: 'stat.'}
+    - {symerror: 7.0E-5, label: 'syst.'}
+  - value: 1.4E-4
+    errors:
+    - {symerror: 7.0E-5, label: 'stat.'}
+    - {symerror: 5.0E-5, label: 'syst.'}
+  - value: 1.2E-4
+    errors:
+    - {symerror: 6.0E-5, label: 'stat.'}
+    - {symerror: 6.0E-5, label: 'syst.'}
+  - value: 1.1E-4
+    errors:
+    - {symerror: 5.0E-5, label: 'stat.'}
+    - {symerror: 6.0E-5, label: 'syst.'}
+  - value: 4.0E-5
+    errors:
+    - {symerror: 3.8E-5, label: 'stat.'}
+    - {symerror: 2.5E-5, label: 'syst.'}
+  - value: 7.6E-5
+    errors:
+    - {symerror: 4.2E-5, label: 'stat.'}
+    - {symerror: 2.6E-5, label: 'syst.'}
+  - value: 5.8E-5
+    errors:
+    - {symerror: 4.2E-5, label: 'stat.'}
+    - {symerror: 2.1E-5, label: 'syst.'}
+  - value: 4.3E-5
+    errors:
+    - {symerror: 1.8E-5, label: 'stat.'}
+    - {symerror: 9.0E-6, label: 'syst.'}
+  - value: 2.07E-6
+    errors:
+    - {symerror: 1.12E-6, label: 'stat.'}
+    - {symerror: 2.8E-7, label: 'syst.'}
+  - value: 7.5E-7
+    errors:
+    - {symerror: 6.3E-7, label: 'stat.'}
+    - {symerror: 1.0E-7, label: 'syst.'}
