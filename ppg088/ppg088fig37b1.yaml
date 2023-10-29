@@ -1,10 +1,6 @@
 independent_variables:
 - header: {name: '$p_T$ (GeV/$c$)'}
   values:
-  - {low: 0.000, high: 0.100}
-  - {low: 0.100, high: 0.200}
-  - {low: 0.200, high: 0.300}
-  - {low: 0.300, high: 0.400}
   - {low: 0.400, high: 0.500}
   - {low: 0.500, high: 0.600}
   - {low: 0.600, high: 0.700}
@@ -56,22 +52,6 @@ dependent_variables:
   qualifiers:
   - {name: '$p_T$ (GeV/$c$)', value: '$m_{ee}$ < 100 MeV/$c^2$ $\times 10$'}
   values:
-  - value: 9.99E+9
-    errors:
-    - {symerror: 9.99E+9, label: 'stat.'}
-    - {symerror: 9.99E+9, label: 'syst.'}
-  - value: 9.99E+9
-    errors:
-    - {symerror: 9.99E+9, label: 'stat.'}
-    - {symerror: 9.99E+9, label: 'syst.'}
-  - value: 9.99E+9
-    errors:
-    - {symerror: 9.99E+9, label: 'stat.'}
-    - {symerror: 9.99E+9, label: 'syst.'}
-  - value: 9.99E+9
-    errors:
-    - {symerror: 9.99E+9, label: 'stat.'}
-    - {symerror: 9.99E+9, label: 'syst.'}
   - value: 0.0516
     errors:
     - {symerror: 9.0E-4, label: 'stat.'}

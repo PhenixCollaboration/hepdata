@@ -10,12 +10,12 @@ independent_variables:
   - {low: 0.030, high: 0.035}
   - {low: 0.035, high: 0.040}
   - {low: 0.040, high: 0.045}
-  - {low: 0.045, high: 0.051}
-  - {low: 0.051, high: 0.060}
+  - {low: 0.045, high: 0.050}
+  - {low: 0.050, high: 0.060}
   - {low: 0.060, high: 0.070}
-  - {low: 0.070, high: 0.090}
-  - {low: 0.090, high: 0.130}
-  - {low: 0.130, high: 0.186}
+  - {low: 0.070, high: 0.080}
+  - {low: 0.080, high: 0.100}
+  - {low: 0.100, high: 0.186}
   - {low: 0.186, high: 0.255}
   - {low: 0.255, high: 0.330}
   - {low: 0.330, high: 0.411}
@@ -24,15 +24,9 @@ independent_variables:
   - {low: 0.605, high: 0.694}
   - {low: 0.694, high: 0.756}
   - {low: 0.756, high: 0.840}
-  - {low: 0.840, high: 0.963}
   - {low: 0.963, high: 1.225}
-  - {low: 1.225, high: 1.575}
-  - {low: 1.575, high: 1.800}
-  - {low: 1.800, high: 1.950}
   - {low: 1.950, high: 2.100}
-  - {low: 2.100, high: 2.250}
   - {low: 2.250, high: 2.400}
-  - {low: 2.400, high: 2.550}
 dependent_variables:
 - header: {name: 'dN/d$m_{ee}$ ($c^2$/GeV) IN PHENIX ACCEPTANCE'}
   qualifiers:
@@ -132,37 +126,13 @@ dependent_variables:
     - {symerror: 2.1E-5, label: 'syst.'}
   - value: 4.3E-5
     errors:
-    - {symerror: 9.99E+9, label: 'stat.'}
-    - {symerror: 9.99E+9, label: 'syst.'}
-  - value: 4.3E-5
-    errors:
     - {symerror: 1.8E-5, label: 'stat.'}
     - {symerror: 9.0E-6, label: 'syst.'}
-  - value: 1.0E-5
-    errors:
-    - {symerror: 9.99E+9, label: 'stat.'}
-    - {symerror: 9.99E+9, label: 'syst.'}
-  - value: 5.8E-6
-    errors:
-    - {symerror: 9.99E+9, label: 'stat.'}
-    - {symerror: 9.99E+9, label: 'syst.'}
-  - value: 3.7E-6
-    errors:
-    - {symerror: 9.99E+9, label: 'stat.'}
-    - {symerror: 9.99E+9, label: 'syst.'}
   - value: 2.07E-6
     errors:
     - {symerror: 1.12E-6, label: 'stat.'}
     - {symerror: 2.8E-7, label: 'syst.'}
-  - value: 1.7E-6
-    errors:
-    - {symerror: 9.99E+9, label: 'stat.'}
-    - {symerror: 9.99E+9, label: 'syst.'}
   - value: 7.5E-7
     errors:
     - {symerror: 6.3E-7, label: 'stat.'}
     - {symerror: 1.0E-7, label: 'syst.'}
-  - value: 9.0E-7
-    errors:
-    - {symerror: 9.99E+9, label: 'stat.'}
-    - {symerror: 9.99E+9, label: 'syst.'}

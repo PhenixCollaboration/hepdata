@@ -7,14 +7,24 @@ independent_variables:
   - {low: 10, high: 20}
   - {low: 00, high: 10}
 dependent_variables:
-- header: {name: '$N_{part}/N_{Coll}$'}
+- header: {name: '$N_{part}$'}
   values:
-  - value: 325.2
-  - value: 234.6
-  - value: 140.4
-  - value: 59.95
   - value: 14.50
-- header: {name: 'Yield/N ($10^{-6}$)'}
+    errors:
+    - {symerror: 2.5, label: 'syst.'}
+  - value: 59.95
+    errors:
+    - {symerror: 3.6, label: 'syst.'}
+  - value: 140.4
+    errors:
+    - {symerror: 4.9, label: 'syst.'}
+  - value: 234.6
+    errors:
+    - {symerror: 4.7, label: 'syst.'}
+  - value: 325.2
+    errors:
+    - {symerror: 3.3, label: 'syst.'}
+- header: {name: 'Yield/$N_{part}$'}
   values:
   - value: 3.325
     errors:

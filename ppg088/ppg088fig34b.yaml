@@ -1,14 +1,14 @@
 independent_variables:
 - header: {name: '$p_T$ (GeV/$c$)'}
   values:
-  - {low: 0.920, high: 1.430}
-  - {low: 1.430, high: 1.938}
-  - {low: 1.938, high: 2.444}
-  - {low: 2.444, high: 3.017}
-  - {low: 3.017, high: 3.852}
-  - {low: 3.852, high: 4.885}
+  - {low: 0.90, high: 1.40}
+  - {low: 1.40, high: 1.90}
+  - {low: 1.90, high: 2.50}
+  - {low: 2.50, high: 2.90}
+  - {low: 2.90, high: 3.80}
+  - {low: 3.80, high: 4.90}
 dependent_variables:
-- header: {name: 'Ed^3N/dp^3(GeV^{-2}c^3) or Ed^3$\sigma$/dp^3(mb GeV^{-2}C^3)'}
+- header: {name: '$\frac{Ed^{3}N}{dp^3}$(GeV$^{-2}c^3$) or $\frac{Ed^3\sigma}{dp^3}$(mb GeV$^{-2}c^3$)'}
   qualifiers:
   - {name: 'Centrality', value: '00-20% x $10^2$'}
   - {name: 'Collision Species', value: 'AuAu'}

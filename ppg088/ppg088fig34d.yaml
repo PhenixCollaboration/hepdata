@@ -1,14 +1,14 @@
 independent_variables:
 - header: {name: '$p_T$ (GeV/$c$)'}
   values:
-  - {low: 0.931, high: 1.438}
-  - {low: 1.438, high: 1.945}
-  - {low: 1.945, high: 2.451}
-  - {low: 2.451, high: 3.026}
-  - {low: 3.026, high: 3.862}
-  - {low: 3.862, high: 4.888}
+  - {low: 0.90, high: 1.40}
+  - {low: 1.40, high: 1.90}
+  - {low: 1.90, high: 2.50}
+  - {low: 2.50, high: 2.90}
+  - {low: 2.90, high: 3.80}
+  - {low: 3.80, high: 4.90}
 dependent_variables:
-- header: {name: 'Ed^3N/dp^3(GeV^{-2}c^3) or Ed^3$\sigma$/dp^3(mb GeV^{-2}C^3)'}
+- header: {name: '$\frac{Ed^3}{dp^3}$(GeV$^{-2}c^3$) or $\frac{Ed^3\sigma}{dp^3}$(mb GeV$^{-2}c^3$)'}
   qualifiers:
   - {name: 'Collision Species', value: '$p+p$'}
   values:

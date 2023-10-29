@@ -1,0 +1,18 @@
+independent_variables:
+- header: {name: '$m_{ee}$ (GeV/$c^2$)'}
+  values:
+  - {low: 0.840, high: 0.963}
+
+  - {low: 1.200, high: 1.425}
+  - {low: 1.425, high: 1.800}
+
+  - {low: 2.100, high: 2.325}
+dependent_variables:
+- header: {name: 'dN/d$m_{ee}$ ($c^2$/GeV) IN PHENIX ACCEPTANCE with upper limit uncertainties'}
+  qualifiers:
+  - {name: '$p_T$ $\times 10^{-1}$', value: '$0.8 < p_T < 1.0$ GeV/$c$'}
+  values:
+  - value: 2.7E-6
+  - value: 1.2E-6
+  - value: 5.7E-7
+  - value: 1.6E-7

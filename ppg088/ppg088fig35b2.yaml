@@ -1,0 +1,38 @@
+independent_variables:
+- header: {name: '$m_{ee}$ (GeV/$c^2$)'}
+  values:
+  - {low: 0.840, high: 0.963}
+  - {low: 1.225, high: 1.575}
+  - {low: 1.575, high: 1.800}
+  - {low: 1.800, high: 1.950}
+  - {low: 2.100, high: 2.250}
+  - {low: 2.400, high: 2.550}
+dependent_variables:
+- header: {name: 'dN/d$m_{ee}$ ($c^2$/GeV) IN PHENIX ACCEPTANCE with upper limit uncertainties'}
+  qualifiers:
+  - {name: '$p_T$', value: '$0.6 < p_T < 0.8$ GeV/$c$'}
+  values:
+  - value: 4.3E-5
+    errors:
+    - {symerror: 9.99E+9, label: 'stat.'}
+    - {symerror: 9.99E+9, label: 'syst.'}
+  - value: 1.0E-5
+    errors:
+    - {symerror: 9.99E+9, label: 'stat.'}
+    - {symerror: 9.99E+9, label: 'syst.'}
+  - value: 5.8E-6
+    errors:
+    - {symerror: 9.99E+9, label: 'stat.'}
+    - {symerror: 9.99E+9, label: 'syst.'}
+  - value: 3.7E-6
+    errors:
+    - {symerror: 9.99E+9, label: 'stat.'}
+    - {symerror: 9.99E+9, label: 'syst.'}
+  - value: 1.7E-6
+    errors:
+    - {symerror: 9.99E+9, label: 'stat.'}
+    - {symerror: 9.99E+9, label: 'syst.'}
+  - value: 9.0E-7
+    errors:
+    - {symerror: 9.99E+9, label: 'stat.'}
+    - {symerror: 9.99E+9, label: 'syst.'}

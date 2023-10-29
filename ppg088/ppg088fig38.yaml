@@ -2,19 +2,19 @@ independent_variables:
 - header: {name: '$m_{T} - m_{0}$ (GeV/$c^{2}$)'}
   values:
   - {low: 0.00, high: 0.02}
-  - {low: 0.08, high: 0.10}
-  - {low: 0.21, high: 0.23}
-  - {low: 0.37, high: 0.39}
-  - {low: 0.55, high: 0.57}
-  - {low: 0.73, high: 0.75}
-  - {low: 0.91, high: 0.93}
-  - {low: 1.01, high: 1.21}
-  - {low: 1.21, high: 1.41}
-  - {low: 1.50, high: 1.70}
-  - {low: 1.89, high: 2.09}
-  - {low: 2.53, high: 2.73}
+  - {low: 0.08, high: 0.20}
+  - {low: 0.20, high: 0.25}
+  - {low: 0.25, high: 0.50}
+  - {low: 0.50, high: 0.60}
+  - {low: 0.60, high: 0.90}
+  - {low: 0.90, high: 0.95}
+  - {low: 0.95, high: 1.25}
+  - {low: 1.25, high: 1.35}
+  - {low: 1.35, high: 1.85}
+  - {low: 1.85, high: 2.15}
+  - {low: 2.15, high: 3.15}
 dependent_variables:
-- header: {name: '$\frac{1}{\frac{N_{part}}{2}}\frac{1}{2\pi m_{T}}\frac{d^{2}N}{\frac{dm_{T}}{dy}}(c^{4}/$GeV$^{2})$'}
+- header: {name: '$\frac{1}{\frac{N_{part}}{2}}\frac{1}{2\pi m_{T}}\frac{d^{2}N}{dm_T dy}(c^{4}/$GeV$^{2})$'}
   qualifiers:
   - {name: 'subtracted $p_{T}$ spectrum', value: '300 MeV/$c^2$ < $m_{ee}$ $\le$ 750 MeV/$c^2$'}
   values:

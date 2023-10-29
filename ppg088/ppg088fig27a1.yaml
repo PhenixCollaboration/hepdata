@@ -21,36 +21,27 @@ independent_variables:
   - {low: 0.090, high: 0.100}
   - {low: 0.100, high: 0.110}
   - {low: 0.110, high: 0.120}
-  - {low: 0.120, high: 0.133}
-  - {low: 0.133, high: 0.151}
-  - {low: 0.151, high: 0.175}
-  - {low: 0.175, high: 0.206}
-  - {low: 0.206, high: 0.253}
-  - {low: 0.253, high: 0.325}
-  - {low: 0.325, high: 0.430}
-  - {low: 0.430, high: 0.533}
-  - {low: 0.533, high: 0.600}
+  - {low: 0.120, high: 0.130}
+  - {low: 0.130, high: 0.150}
+  - {low: 0.150, high: 0.175}
+  - {low: 0.175, high: 0.200}
+  - {low: 0.200, high: 0.250}
+  - {low: 0.250, high: 0.310}
+  - {low: 0.310, high: 0.430}
+  - {low: 0.430, high: 0.550}
+  - {low: 0.550, high: 0.600}
   - {low: 0.600, high: 0.650}
-  - {low: 0.650, high: 0.703}
-  - {low: 0.703, high: 0.755}
-  - {low: 0.755, high: 0.840}
-  - {low: 0.840, high: 0.963}
-  - {low: 0.963, high: 1.150}
-  - {low: 1.150, high: 1.513}
-  - {low: 1.513, high: 2.000}
-  - {low: 2.000, high: 2.475}
-  - {low: 2.475, high: 2.813}
-  - {low: 2.813, high: 2.950}
+  - {low: 0.650, high: 0.700}
+  - {low: 0.700, high: 0.760}
+  - {low: 0.760, high: 0.800}
+  - {low: 0.800, high: 1.000}
+  - {low: 1.000, high: 1.050}
   - {low: 2.950, high: 3.000}
   - {low: 3.000, high: 3.050}
   - {low: 3.050, high: 3.100}
   - {low: 3.100, high: 3.150}
   - {low: 3.150, high: 3.200}
   - {low: 3.200, high: 3.250}
-  - {low: 3.250, high: 3.350}
-  - {low: 3.350, high: 3.563}
-  - {low: 3.563, high: 3.938}
-  - {low: 3.938, high: 4.413}
 dependent_variables:
 - header: {name: 'dN/d$m_{ee}$ ($c^2$/GeV)'}
   qualifiers:
@@ -196,26 +187,7 @@ dependent_variables:
     errors:
     - {symerror: 0.16, label: 'stat.'}
     - {symerror: 0.06, label: 'syst.'}
-  - value: 0.0820
-    errors:
-    - {symerror: 9.99E+9, label: 'stat.'}
-    - {symerror: 9.99E+9, label: 'syst.'}
-  - value: 0.0210
-    errors:
-    - {symerror: 9.99E+9, label: 'stat.'}
-    - {symerror: 9.99E+9, label: 'syst.'}
-  - value: 0.0120
-    errors:
-    - {symerror: 9.99E+9, label: 'stat.'}
-    - {symerror: 9.99E+9, label: 'syst.'}
-  - value: 0.0050
-    errors:
-    - {symerror: 9.99E+9, label: 'stat.'}
-    - {symerror: 9.99E+9, label: 'syst.'}
-  - value: 0.0100
-    errors:
-    - {symerror: 9.99E+9, label: 'stat.'}
-    - {symerror: 9.99E+9, label: 'syst.'}
+
   - value: 0.0082
     errors:
     - {symerror: 0.005, label: 'stat.'}
@@ -240,19 +212,3 @@ dependent_variables:
     errors:
     - {symerror: 0.0033, label: 'stat.'}
     - {symerror: 8.0E-4, label: 'syst.'}
-  - value: 0.0043
-    errors:
-    - {symerror: 9.99E+9, label: 'stat.'}
-    - {symerror: 9.99E+9, label: 'syst.'}
-  - value: 0.0014
-    errors:
-    - {symerror: 9.99E+9, label: 'stat.'}
-    - {symerror: 9.99E+9, label: 'syst.'}
-  - value: 0.0017
-    errors:
-    - {symerror: 9.99E+9, label: 'stat.'}
-    - {symerror: 9.99E+9, label: 'syst.'}
-  - value: 4.0E-4
-    errors:
-    - {symerror: 9.99E+9, label: 'stat.'}
-    - {symerror: 9.99E+9, label: 'syst.'}
