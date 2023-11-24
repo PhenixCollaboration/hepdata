@@ -1,0 +1,366 @@
+independent_variables:
+- header: {name: '$p_T$ (GeV/$c$)'}
+  values:
+  - {low: 0.2, high: 0.3}
+  - {low: 0.3, high: 0.4}
+  - {low: 0.4, high: 0.5}
+  - {low: 0.5, high: 0.6}
+  - {low: 0.6, high: 0.8}
+  - {low: 0.8, high: 1}
+  - {low: 1, high: 1.4}
+  - {low: 1.4, high: 1.8}
+  - {low: 1.8, high: 2.2}
+  - {low: 2.2, high: 2.7}
+dependent_variables:
+- header: {name: '$\pi^{+}$'}
+  qualifiers:
+  - {name: 'Centrality (%)', value: '0-5'}
+  values:
+  - value: 355
+    errors:
+    - {symerror: 9, label: 'stat.'}
+    - {symerror: 46, label: 'sys.'}
+  - value: 188
+    errors:
+    - {symerror: 5, label: 'stat.'}
+    - {symerror: 24, label: 'sys.'}
+  - value: 95.0
+    errors:
+    - {symerror: 3.0, label: 'stat.'}
+    - {symerror: 12.4, label: 'sys.'}
+  - value: 56.0
+    errors:
+    - {symerror: 2.0, label: 'stat.'}
+    - {symerror: 7.3, label: 'sys.'}
+  - value: 26.3
+    errors:
+    - {symerror: 0.8, label: 'stat.'}
+    - {symerror: 3.4, label: 'sys.'}
+  - value: 11.0
+    errors:
+    - {symerror: 0.4, label: 'stat.'}
+    - {symerror: 1.4, label: 'sys.'}
+  - value: 3.10
+    errors:
+    - {symerror: 0.10, label: 'stat.'}
+    - {symerror: 0.40, label: 'sys.'}
+  - value: 0.62
+    errors:
+    - {symerror: 0.05, label: 'stat.'}
+    - {symerror: 0.08, label: 'sys.'}
+  - value: 0.170
+    errors:
+    - {symerror: 0.020, label: 'stat.'}
+    - {symerror: 0.022, label: 'sys.'}
+  - value: 0.0050
+    errors:
+    - {symerror: 0.0030, label: 'stat.'}
+    - {symerror: 7e-4, label: 'sys.'}
+- header: {name: '$\pi^{-}$'}
+  qualifiers:
+  - {name: 'Centrality (%)', value: '0-5'}
+  values:
+  - value: 371
+    errors:
+    - {symerror: 10, label: 'stat.'}
+    - {symerror: 48, label: 'sys.'}
+  - value: 169
+    errors:
+    - {symerror: 5, label: 'stat.'}
+    - {symerror: 22, label: 'sys.'}
+  - value: 86.0
+    errors:
+    - {symerror: 3.0, label: 'stat.'}
+    - {symerror: 11.2, label: 'sys.'}
+  - value: 51.0
+    errors:
+    - {symerror: 2.0, label: 'stat.'}
+    - {symerror: 6.6, label: 'sys.'}
+  - value: 24.7
+    errors:
+    - {symerror: 0.9, label: 'stat.'}
+    - {symerror: 3.2, label: 'sys.'}
+  - value: 10.0
+    errors:
+    - {symerror: 0.5, label: 'stat.'}
+    - {symerror: 1.3, label: 'sys.'}
+  - value: 3.40
+    errors:
+    - {symerror: 0.20, label: 'stat.'}
+    - {symerror: 0.44, label: 'sys.'}
+  - value: 0.63
+    errors:
+    - {symerror: 0.06, label: 'stat.'}
+    - {symerror: 0.08, label: 'sys.'}
+  - value: 0.200
+    errors:
+    - {symerror: 0.030, label: 'stat.'}
+    - {symerror: 0.026, label: 'sys.'}
+  - value: 0.0110
+    errors:
+    - {symerror: 0.0050, label: 'stat.'}
+    - {symerror: 0.0014, label: 'sys.'}
+- header: {name: '$\pi^{+}$'}
+  qualifiers:
+  - {name: 'Centrality (%)', value: '5-15'}
+  values:
+  - value: 282
+    errors:
+    - {symerror: 6, label: 'stat.'}
+    - {symerror: 37, label: 'sys.'}
+  - value: 146.0
+    errors:
+    - {symerror: 3.0, label: 'stat.'}
+    - {symerror: 19.0, label: 'sys.'}
+  - value: 74.0
+    errors:
+    - {symerror: 2.0, label: 'stat.'}
+    - {symerror: 9.6, label: 'sys.'}
+  - value: 41.0
+    errors:
+    - {symerror: 1.0, label: 'stat.'}
+    - {symerror: 5.3, label: 'sys.'}
+  - value: 20.2
+    errors:
+    - {symerror: 0.5, label: 'stat.'}
+    - {symerror: 2.6, label: 'sys.'}
+  - value: 7.90
+    errors:
+    - {symerror: 0.20, label: 'stat.'}
+    - {symerror: 1.03, label: 'sys.'}
+  - value: 2.37
+    errors:
+    - {symerror: 0.09, label: 'stat.'}
+    - {symerror: 0.31, label: 'sys.'}
+  - value: 0.540
+    errors:
+    - {symerror: 0.030, label: 'stat.'}
+    - {symerror: 0.070, label: 'sys.'}
+  - value: 0.140
+    errors:
+    - {symerror: 0.010, label: 'stat.'}
+    - {symerror: 0.018, label: 'sys.'}
+  - value: 0.0090
+    errors:
+    - {symerror: 0.0030, label: 'stat.'}
+    - {symerror: 0.0012, label: 'sys.'}
+- header: {name: '$\pi^{-}$'}
+  qualifiers:
+  - {name: 'Centrality (%)', value: '5-15'}
+  values:
+  - value: 275
+    errors:
+    - {symerror: 7, label: 'stat.'}
+    - {symerror: 36, label: 'sys.'}
+  - value: 128.0
+    errors:
+    - {symerror: 3.0, label: 'stat.'}
+    - {symerror: 16.6, label: 'sys.'}
+  - value: 63.0
+    errors:
+    - {symerror: 2.0, label: 'stat.'}
+    - {symerror: 8.2, label: 'sys.'}
+  - value: 38.0
+    errors:
+    - {symerror: 1.0, label: 'stat.'}
+    - {symerror: 4.9, label: 'sys.'}
+  - value: 18.6
+    errors:
+    - {symerror: 0.6, label: 'stat.'}
+    - {symerror: 2.4, label: 'sys.'}
+  - value: 7.90
+    errors:
+    - {symerror: 0.30, label: 'stat.'}
+    - {symerror: 1.03, label: 'sys.'}
+  - value: 2.70
+    errors:
+    - {symerror: 0.10, label: 'stat.'}
+    - {symerror: 0.35, label: 'sys.'}
+  - value: 0.58
+    errors:
+    - {symerror: 0.04, label: 'stat.'}
+    - {symerror: 0.08, label: 'sys.'}
+  - value: 0.140
+    errors:
+    - {symerror: 0.020, label: 'stat.'}
+    - {symerror: 0.018, label: 'sys.'}
+  - value: 0.110
+    errors:
+    - {symerror: 0.004, label: 'stat.'}
+    - {symerror: 0.014, label: 'sys.'}
+- header: {name: '$\pi^{+}$'}
+  qualifiers:
+  - {name: 'Centrality (%)', value: '15-30'}
+  values:
+  - value: 186
+    errors:
+    - {symerror: 4, label: 'stat.'}
+    - {symerror: 24, label: 'sys.'}
+  - value: 93.0
+    errors:
+    - {symerror: 2.0, label: 'stat.'}
+    - {symerror: 12.1, label: 'sys.'}
+  - value: 48.0
+    errors:
+    - {symerror: 1.0, label: 'stat.'}
+    - {symerror: 6.2, label: 'sys.'}
+  - value: 26.0
+    errors:
+    - {symerror: 0.7, label: 'stat.'}
+    - {symerror: 3.4, label: 'sys.'}
+  - value: 12.30
+    errors:
+    - {symerror: 0.30, label: 'stat.'}
+    - {symerror: 1.60, label: 'sys.'}
+  - value: 5.10
+    errors:
+    - {symerror: 0.20, label: 'stat.'}
+    - {symerror: 0.66, label: 'sys.'}
+  - value: 1.50
+    errors:
+    - {symerror: 0.05, label: 'stat.'}
+    - {symerror: 0.20, label: 'sys.'}
+  - value: 0.340
+    errors:
+    - {symerror: 0.020, label: 'stat.'}
+    - {symerror: 0.044, label: 'sys.'}
+  - value: 0.083
+    errors:
+    - {symerror: 0.009, label: 'stat.'}
+    - {symerror: 0.011, label: 'sys.'}
+  - value: 0.0060
+    errors:
+    - {symerror: 0.0020, label: 'stat.'}
+    - {symerror: 8e-4, label: 'sys.'}
+- header: {name: '$\pi^{-}$'}
+  qualifiers:
+  - {name: 'Centrality (%)', value: '15-30'}
+  values:
+  - value: 180
+    errors:
+    - {symerror: 4, label: 'stat.'}
+    - {symerror: 23, label: 'sys.'}
+  - value: 82.0
+    errors:
+    - {symerror: 2.0, label: 'stat.'}
+    - {symerror: 10.7, label: 'sys.'}
+  - value: 40.0
+    errors:
+    - {symerror: 1.0, label: 'stat.'}
+    - {symerror: 5.2, label: 'sys.'}
+  - value: 24.5
+    errors:
+    - {symerror: 0.8, label: 'stat.'}
+    - {symerror: 3.2, label: 'sys.'}
+  - value: 11.8
+    errors:
+    - {symerror: 0.4, label: 'stat.'}
+    - {symerror: 1.5, label: 'sys.'}
+  - value: 5.00
+    errors:
+    - {symerror: 0.20, label: 'stat.'}
+    - {symerror: 0.65, label: 'sys.'}
+  - value: 1.67
+    errors:
+    - {symerror: 0.07, label: 'stat.'}
+    - {symerror: 0.22, label: 'sys.'}
+  - value: 0.320
+    errors:
+    - {symerror: 0.020, label: 'stat.'}
+    - {symerror: 0.042, label: 'sys.'}
+  - value: 0.090
+    errors:
+    - {symerror: 0.010, label: 'stat.'}
+    - {symerror: 0.012, label: 'sys.'}
+  - value: 0.0050
+    errors:
+    - {symerror: 0.0020, label: 'stat.'}
+    - {symerror: 7e-4, label: 'sys.'}
+- header: {name: '$\pi^{+}$'}
+  qualifiers:
+  - {name: 'Centrality (%)', value: '30-60'}
+  values:
+  - value: 81.0
+    errors:
+    - {symerror: 2.0, label: 'stat.'}
+    - {symerror: 10.5, label: 'sys.'}
+  - value: 36.6
+    errors:
+    - {symerror: 0.8, label: 'stat.'}
+    - {symerror: 4.8, label: 'sys.'}
+  - value: 17.5
+    errors:
+    - {symerror: 0.5, label: 'stat.'}
+    - {symerror: 2.3, label: 'sys.'}
+  - value: 10.10
+    errors:
+    - {symerror: 0.30, label: 'stat.'}
+    - {symerror: 1.31, label: 'sys.'}
+  - value: 4.40
+    errors:
+    - {symerror: 0.10, label: 'stat.'}
+    - {symerror: 0.57, label: 'sys.'}
+  - value: 1.79
+    errors:
+    - {symerror: 0.06, label: 'stat.'}
+    - {symerror: 0.23, label: 'sys.'}
+  - value: 0.580
+    errors:
+    - {symerror: 0.020, label: 'stat.'}
+    - {symerror: 0.075, label: 'sys.'}
+  - value: 0.142
+    errors:
+    - {symerror: 0.009, label: 'stat.'}
+    - {symerror: 0.018, label: 'sys.'}
+  - value: 0.0270
+    errors:
+    - {symerror: 0.0030, label: 'stat.'}
+    - {symerror: 0.0035, label: 'sys.'}
+  - value: 0.00170
+    errors:
+    - {symerror: 6.0e-4, label: 'stat.'}
+    - {symerror: 2.2e-4, label: 'sys.'}
+- header: {name: '$\pi^{-}$'}
+  qualifiers:
+  - {name: 'Centrality (%)', value: '30-60'}
+  values:
+  - value: 74.0
+    errors:
+    - {symerror: 2.0, label: 'stat.'}
+    - {symerror: 9.6, label: 'sys.'}
+  - value: 34.3
+    errors:
+    - {symerror: 0.9, label: 'stat.'}
+    - {symerror: 4.5, label: 'sys.'}
+  - value: 15.7
+    errors:
+    - {symerror: 0.5, label: 'stat.'}
+    - {symerror: 2.0, label: 'sys.'}
+  - value: 9.60
+    errors:
+    - {symerror: 0.30, label: 'stat.'}
+    - {symerror: 1.25, label: 'sys.'}
+  - value: 4.50
+    errors:
+    - {symerror: 0.10, label: 'stat.'}
+    - {symerror: 0.59, label: 'sys.'}
+  - value: 1.76
+    errors:
+    - {symerror: 0.07, label: 'stat.'}
+    - {symerror: 0.23, label: 'sys.'}
+  - value: 0.640
+    errors:
+    - {symerror: 0.030, label: 'stat.'}
+    - {symerror: 0.083, label: 'sys.'}
+  - value: 0.129
+    errors:
+    - {symerror: 0.009, label: 'stat.'}
+    - {symerror: 0.017, label: 'sys.'}
+  - value: 0.035
+    errors:
+    - {symerror: 0.004, label: 'stat.'}
+    - {symerror: 0.005, label: 'sys.'}
+  - value: 0.00250
+    errors:
+    - {symerror: 9.0e-4, label: 'stat.'}
+    - {symerror: 3.3e-4, label: 'sys.'}

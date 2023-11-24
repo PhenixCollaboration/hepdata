@@ -1,0 +1,62 @@
+independent_variables:
+- header: {name: '$p_T$ (GeV/$c$)'}
+  values:
+  - {low: 0.4, high: 0.5}
+  - {low: 0.5, high: 0.6}
+  - {low: 0.6, high: 0.8}
+  - {low: 0.8, high: 1}
+  - {low: 1, high: 1.4}
+  - {low: 1.4, high: 1.8}
+dependent_variables:
+- header: {name: '$K^{+}$'}
+  values:
+  - value: 6.1
+    errors:
+    - {symerror: 0.4, label: 'stat.'}
+    - {symerror: 0.9, label: 'sys.'}
+  - value: 4.00
+    errors:
+    - {symerror: 0.30, label: 'stat.'}
+    - {symerror: 0.60, label: 'sys.'}
+  - value: 2.18
+    errors:
+    - {symerror: 0.09, label: 'stat.'}
+    - {symerror: 0.33, label: 'sys.'}
+  - value: 1.07
+    errors:
+    - {symerror: 0.05, label: 'stat.'}
+    - {symerror: 0.16, label: 'sys.'}
+  - value: 0.380
+    errors:
+    - {symerror: 0.020, label: 'stat.'}
+    - {symerror: 0.057, label: 'sys.'}
+  - value: 0.104
+    errors:
+    - {symerror: 0.006, label: 'stat.'}
+    - {symerror: 0.016, label: 'sys.'}
+- header: {name: '$K^{-}$'}
+  values:
+  - value: 4.6
+    errors:
+    - {symerror: 0.4, label: 'stat.'}
+    - {symerror: 0.7, label: 'sys.'}
+  - value: 3.20
+    errors:
+    - {symerror: 0.20, label: 'stat.'}
+    - {symerror: 0.48, label: 'sys.'}
+  - value: 1.90
+    errors:
+    - {symerror: 0.10, label: 'stat.'}
+    - {symerror: 0.29, label: 'sys.'}
+  - value: 0.91
+    errors:
+    - {symerror: 0.05, label: 'stat.'}
+    - {symerror: 0.14, label: 'sys.'}
+  - value: 0.320
+    errors:
+    - {symerror: 0.020, label: 'stat.'}
+    - {symerror: 0.048, label: 'sys.'}
+  - value: 0.093
+    errors:
+    - {symerror: 0.006, label: 'stat.'}
+    - {symerror: 0.014, label: 'sys.'}
