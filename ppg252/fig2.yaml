@@ -1,0 +1,264 @@
+independent_variables:
+- header: {name: '$z_g$'}
+  values:
+  - {low: 0.1, high: 0.15}
+  - {low: 0.15, high: 2}
+  - {low: 2, high: 2.5}
+  - {low: 2.5, high: 3}
+  - {low: 3, high: 3.5}
+  - {low: 3.5, high: 4}
+  - {low: 4, high: 4.5}
+  - {low: 4.5, high: 5}
+dependent_variables:
+- header: {name: '$1/N_{jet}$ $dN/dz_g$'}
+  qualifiers:
+  - {name: 'jet $p_T$', value: '9.0 - 10.0'}
+  values:
+  - value: 3.11
+    errors:
+    - {symerror: 0.04, label: 'stat.'}
+    - {asymerror: {plus: 0.13, minus: -0.23}, label: 'sys.'}
+  - value: 2.78
+    errors:
+    - {symerror: 0.04, label: 'stat.'}
+    - {asymerror: {plus: 0.10, minus: -0.26}, label: 'sys.'}
+  - value: 2.64
+    errors:
+    - {symerror: 0.03, label: 'stat.'}
+    - {asymerror: {plus: 0.21, minus: -0.12}, label: 'sys.'}
+  - value: 2.53
+    errors:
+    - {symerror: 0.03, label: 'stat.'}
+    - {asymerror: {plus: 0.04, minus: -0.13}, label: 'sys.'}
+  - value: 2.277
+    errors:
+    - {symerror: 0.032, label: 'stat.'}
+    - {asymerror: {plus: 0.107, minus: -0.062}, label: 'sys.'}
+  - value: 2.303
+    errors:
+    - {symerror: 0.027, label: 'stat.'}
+    - {asymerror: {plus: 0.196, minus: -0.085}, label: 'sys.'}
+  - value: 2.15
+    errors:
+    - {symerror: 0.03, label: 'stat.'}
+    - {asymerror: {plus: 0.15, minus: -0.13}, label: 'sys.'}
+  - value: 2.207
+    errors:
+    - {symerror: 0.034, label: 'stat.'}
+    - {asymerror: {plus: 0.229, minus: -0.046}, label: 'sys.'}
+- header: {name: '$1/N_{jet}$ $dN/dz_g$'}
+  qualifiers:
+  - {name: 'jet $p_T$', value: '10.0 - 12.0'}
+  values:
+  - value: 3.30
+    errors:
+    - {symerror: 0.05, label: 'stat.'}
+    - {asymerror: {plus: 0.11, minus: -0.23}, label: 'sys.'}
+  - value: 2.99
+    errors:
+    - {symerror: 0.04, label: 'stat.'}
+    - {asymerror: {plus: 0.09, minus: -0.19}, label: 'sys.'}
+  - value: 2.68
+    errors:
+    - {symerror: 0.03, label: 'stat.'}
+    - {asymerror: {plus: 0.08, minus: -0.14}, label: 'sys.'}
+  - value: 2.54
+    errors:
+    - {symerror: 0.02, label: 'stat.'}
+    - {asymerror: {plus: 0.06, minus: -0.18}, label: 'sys.'}
+  - value: 2.23
+    errors:
+    - {symerror: 0.03, label: 'stat.'}
+    - {asymerror: {plus: 0.13, minus: -0.12}, label: 'sys.'}
+  - value: 2.119
+    errors:
+    - {symerror: 0.030, label: 'stat.'}
+    - {asymerror: {plus: 0.193, minus: -0.057}, label: 'sys.'}
+  - value: 2.059
+    errors:
+    - {symerror: 0.028, label: 'stat.'}
+    - {asymerror: {plus: 0.233, minus: -0.060}, label: 'sys.'}
+  - value: 2.057
+    errors:
+    - {symerror: 0.040, label: 'stat.'}
+    - {asymerror: {plus: 0.205, minus: -0.082}, label: 'sys.'}
+- header: {name: '$1/N_{jet}$ $dN/dz_g$'}
+  qualifiers:
+  - {name: 'jet $p_T$', value: '12.0 - 14.5'}
+  values:
+  - value: 3.58
+    errors:
+    - {symerror: 0.05, label: 'stat.'}
+    - {asymerror: {plus: 0.16, minus: -0.21}, label: 'sys.'}
+  - value: 3.04
+    errors:
+    - {symerror: 0.05, label: 'stat.'}
+    - {asymerror: {plus: 0.09, minus: -0.11}, label: 'sys.'}
+  - value: 2.627
+    errors:
+    - {symerror: 0.035, label: 'stat.'}
+    - {asymerror: {plus: 0.064, minus: -0.096}, label: 'sys.'}
+  - value: 2.46
+    errors:
+    - {symerror: 0.04, label: 'stat.'}
+    - {asymerror: {plus: 0.06, minus: -0.15}, label: 'sys.'}
+  - value: 2.244
+    errors:
+    - {symerror: 0.045, label: 'stat.'}
+    - {asymerror: {plus: 0.077, minus: -0.082}, label: 'sys.'}
+  - value: 2.066
+    errors:
+    - {symerror: 0.037, label: 'stat.'}
+    - {asymerror: {plus: 0.082, minus: -0.055}, label: 'sys.'}
+  - value: 1.992
+    errors:
+    - {symerror: 0.041, label: 'stat.'}
+    - {asymerror: {plus: 0.133, minus: -0.059}, label: 'sys.'}
+  - value: 1.982
+    errors:
+    - {symerror: 0.052, label: 'stat.'}
+    - {asymerror: {plus: 0.196, minus: -0.094}, label: 'sys.'}
+- header: {name: '$1/N_{jet}$ $dN/dz_g$'}
+  qualifiers:
+  - {name: 'jet $p_T$', value: '14.5 - 17.5'}
+  values:
+  - value: 3.96
+    errors:
+    - {symerror: 0.08, label: 'stat.'}
+    - {asymerror: {plus: 0.16, minus: -0.19}, label: 'sys.'}
+  - value: 3.23
+    errors:
+    - {symerror: 0.07, label: 'stat.'}
+    - {asymerror: {plus: 0.07, minus: -0.10}, label: 'sys.'}
+  - value: 2.807
+    errors:
+    - {symerror: 0.060, label: 'stat.'}
+    - {asymerror: {plus: 0.037, minus: -0.078}, label: 'sys.'}
+  - value: 2.42
+    errors:
+    - {symerror: 0.06, label: 'stat.'}
+    - {asymerror: {plus: 0.07, minus: -0.12}, label: 'sys.'}
+  - value: 2.11
+    errors:
+    - {symerror: 0.06, label: 'stat.'}
+    - {asymerror: {plus: 0.08, minus: -0.11}, label: 'sys.'}
+  - value: 1.932
+    errors:
+    - {symerror: 0.045, label: 'stat.'}
+    - {asymerror: {plus: 0.072, minus: -0.040}, label: 'sys.'}
+  - value: 1.790
+    errors:
+    - {symerror: 0.052, label: 'stat.'}
+    - {asymerror: {plus: 0.091, minus: -0.070}, label: 'sys.'}
+  - value: 1.673
+    errors:
+    - {symerror: 0.057, label: 'stat.'}
+    - {asymerror: {plus: 0.162, minus: -0.099}, label: 'sys.'}
+- header: {name: '$1/N_{jet}$ $dN/dz_g$'}
+  qualifiers:
+  - {name: 'jet $p_T$', value: '17.5 - 20.5'}
+  values:
+  - value: 4.30
+    errors:
+    - {symerror: 0.13, label: 'stat.'}
+    - {asymerror: {plus: 0.18, minus: -0.24}, label: 'sys.'}
+  - value: 3.39
+    errors:
+    - {symerror: 0.10, label: 'stat.'}
+    - {asymerror: {plus: 0.08, minus: -0.17}, label: 'sys.'}
+  - value: 2.80
+    errors:
+    - {symerror: 0.08, label: 'stat.'}
+    - {asymerror: {plus: 0.06, minus: -0.12}, label: 'sys.'}
+  - value: 2.331
+    errors:
+    - {symerror: 0.070, label: 'stat.'}
+    - {asymerror: {plus: 0.108, minus: -0.087}, label: 'sys.'}
+  - value: 2.10
+    errors:
+    - {symerror: 0.08, label: 'stat.'}
+    - {asymerror: {plus: 0.14, minus: -0.17}, label: 'sys.'}
+  - value: 1.870
+    errors:
+    - {symerror: 0.081, label: 'stat.'}
+    - {asymerror: {plus: 0.125, minus: -0.045}, label: 'sys.'}
+  - value: 1.67
+    errors:
+    - {symerror: 0.08, label: 'stat.'}
+    - {asymerror: {plus: 0.13, minus: -0.11}, label: 'sys.'}
+  - value: 1.49
+    errors:
+    - {symerror: 0.08, label: 'stat.'}
+    - {asymerror: {plus: 0.23, minus: -0.14}, label: 'sys.'}
+- header: {name: '$1/N_{jet}$ $dN/dz_g$'}
+  qualifiers:
+  - {name: 'jet $p_T$', value: '20.5 - 24.5'}
+  values:
+  - value: 4.53
+    errors:
+    - {symerror: 0.21, label: 'stat.'}
+    - {asymerror: {plus: 0.21, minus: -0.20}, label: 'sys.'}
+  - value: 3.60
+    errors:
+    - {symerror: 0.17, label: 'stat.'}
+    - {asymerror: {plus: 0.16, minus: -0.32}, label: 'sys.'}
+  - value: 2.78
+    errors:
+    - {symerror: 0.13, label: 'stat.'}
+    - {asymerror: {plus: 0.11, minus: -0.14}, label: 'sys.'}
+  - value: 2.176
+    errors:
+    - {symerror: 0.099, label: 'stat.'}
+    - {asymerror: {plus: 0.125, minus: -0.090}, label: 'sys.'}
+  - value: 2.02
+    errors:
+    - {symerror: 0.12, label: 'stat.'}
+    - {asymerror: {plus: 0.12, minus: -0.13}, label: 'sys.'}
+  - value: 1.71
+    errors:
+    - {symerror: 0.12, label: 'stat.'}
+    - {asymerror: {plus: 0.27, minus: -0.21}, label: 'sys.'}
+  - value: 1.57
+    errors:
+    - {symerror: 0.11, label: 'stat.'}
+    - {asymerror: {plus: 0.27, minus: -0.18}, label: 'sys.'}
+  - value: 1.44
+    errors:
+    - {symerror: 0.10, label: 'stat.'}
+    - {asymerror: {plus: 0.16, minus: -0.15}, label: 'sys.'}
+- header: {name: '$1/N_{jet}$ $dN/dz_g$'}
+  qualifiers:
+  - {name: 'jet $p_T$', value: '24.5 - 29.0'}
+  values:
+  - value: 4.65
+    errors:
+    - {symerror: 0.27, label: 'stat.'}
+    - {asymerror: {plus: 0.15, minus: -0.41}, label: 'sys.'}
+  - value: 3.65
+    errors:
+    - {symerror: 0.23, label: 'stat.'}
+    - {asymerror: {plus: 0.19, minus: -0.30}, label: 'sys.'}
+  - value: 2.94
+    errors:
+    - {symerror: 0.26, label: 'stat.'}
+    - {asymerror: {plus: 0.24, minus: -0.44}, label: 'sys.'}
+  - value: 2.27
+    errors:
+    - {symerror: 0.19, label: 'stat.'}
+    - {asymerror: {plus: 0.10, minus: -0.24}, label: 'sys.'}
+  - value: 1.71
+    errors:
+    - {symerror: 0.11, label: 'stat.'}
+    - {asymerror: {plus: 0.27, minus: -0.10}, label: 'sys.'}
+  - value: 1.72
+    errors:
+    - {symerror: 0.16, label: 'stat.'}
+    - {asymerror: {plus: 0.35, minus: 0.08}, label: 'sys.'}
+  - value: 1.36
+    errors:
+    - {symerror: 0.12, label: 'stat.'}
+    - {asymerror: {plus: 0.41, minus: -0.18}, label: 'sys.'}
+  - value: 1.28
+    errors:
+    - {symerror: 0.13, label: 'stat.'}
+    - {asymerror: {plus: 0.40, minus: -0.34}, label: 'sys.'}
