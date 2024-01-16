@@ -1,0 +1,93 @@
+independent_variables:
+- header: {name: '$p_T$ (GeV/$c$)'}
+  values:
+  - {low: 0.2, high: 0.3}
+  - {low: 0.3, high: 0.4}
+  - {low: 0.4, high: 0.5}
+  - {low: 0.5, high: 0.6}
+  - {low: 0.6, high: 0.8}
+  - {low: 0.8, high: 1}
+  - {low: 1, high: 1.4}
+  - {low: 1.4, high: 1.8}
+  - {low: 1.8, high: 2.2}
+dependent_variables:
+- header: {name: '$\pi^{+}$'}
+  qualifiers:
+  - {name: 'Centrality (%)', value: '60-92'}
+  values:
+  - value: 13.2
+    errors:
+    - {symerror: 0.5, label: 'stat.'}
+    - {symerror: 1.7, label: 'sys.'}
+  - value: 5.30
+    errors:
+    - {symerror: 0.20, label: 'stat.'}
+    - {symerror: 0.69, label: 'sys.'}
+  - value: 2.70
+    errors:
+    - {symerror: 0.10, label: 'stat.'}
+    - {symerror: 0.35, label: 'sys.'}
+  - value: 1.32
+    errors:
+    - {symerror: 0.09, label: 'stat.'}
+    - {symerror: 0.17, label: 'sys.'}
+  - value: 0.62
+    errors:
+    - {symerror: 0.04, label: 'stat.'}
+    - {symerror: 0.08, label: 'sys.'}
+  - value: 0.190
+    errors:
+    - {symerror: 0.020, label: 'stat.'}
+    - {symerror: 0.025, label: 'sys.'}
+  - value: 0.064
+    errors:
+    - {symerror: 0.006, label: 'stat.'}
+    - {symerror: 0.008, label: 'sys.'}
+  - value: 0.0150
+    errors:
+    - {symerror: 0.0030, label: 'stat.'}
+    - {symerror: 0.0020, label: 'sys.'}
+  - value: 0.0050
+    errors:
+    - {symerror: 0.0010, label: 'stat.'}
+    - {symerror: 7e-4, label: 'sys.'}
+- header: {name: '$\pi^{-}$'}
+  qualifiers:
+  - {name: 'Centrality (%)', value: '60-92'}
+  values:
+  - value: 12.1
+    errors:
+    - {symerror: 0.5, label: 'stat.'}
+    - {symerror: 1.6, label: 'sys.'}
+  - value: 5.00
+    errors:
+    - {symerror: 0.20, label: 'stat.'}
+    - {symerror: 0.65, label: 'sys.'}
+  - value: 2.10
+    errors:
+    - {symerror: 0.10, label: 'stat.'}
+    - {symerror: 0.27, label: 'sys.'}
+  - value: 1.18
+    errors:
+    - {symerror: 0.09, label: 'stat.'}
+    - {symerror: 0.15, label: 'sys.'}
+  - value: 0.57
+    errors:
+    - {symerror: 0.04, label: 'stat.'}
+    - {symerror: 0.07, label: 'sys.'}
+  - value: 0.240
+    errors:
+    - {symerror: 0.020, label: 'stat.'}
+    - {symerror: 0.031, label: 'sys.'}
+  - value: 0.061
+    errors:
+    - {symerror: 0.007, label: 'stat.'}
+    - {symerror: 0.008, label: 'sys.'}
+  - value: 0.0140
+    errors:
+    - {symerror: 0.0030, label: 'stat.'}
+    - {symerror: 0.0018, label: 'sys.'}
+  - value: 0.0040
+    errors:
+    - {symerror: 0.0010, label: 'stat.'}
+    - {symerror: 5e-4, label: 'sys.'}

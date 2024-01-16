@@ -12,7 +12,7 @@
 #Reviewer:
 #
 comment: | # Information that applies to all data tables.
-  We present measurements of $J/\psi$ yields in $d$+Au collisions at $\sqrt{s_{NN}}$ = 200 GeV recorded by the PHENIX experiment and compare with yields in $p$ + $p$ collisions at the same energy per nucleon-nucleon collision. The measurements cover a large kinematic range in $J/\psi$ rapidity (−2.2 < $y$ < 2.4) with high statistical precision and are compared with two theoretical models: one with nuclear shadowing combined with final state breakup and one with coherent gluon saturation effects. In order to remove model dependent systematic uncertainties we also compare the data to a simple geometric model. We find that calculations where the nuclear modification is linear or exponential in the density weighted longitudinal thickness are difficult to reconcile with the forward rapidity data.
+  We present measurements of $J/\psi$ yields in $d$$+$Au collisions at $\sqrt{s_{_{NN}}}=200$ GeV recorded by the PHENIX experiment and compare them with yields in $p$$+$$p$ collisions at the same energy per nucleon-nucleon collision. The measurements cover a large kinematic range in $J/\psi$ rapidity ($-2.2<y<2.4$) with high statistical precision and are compared with two theoretical models: one with nuclear shadowing combined with final state breakup and one with coherent gluon saturation effects. In order to remove model dependent systematic uncertainties we also compare the data to a simple geometric model. The forward rapidity data are inconsistent with nuclear modifications that are linear or exponential in the density weighted longitudinal thickness, such as those from the final state breakup of the bound state.
 additional_resources:
 - {location: "https://phenix-intra.sdcc.bnl.gov/phenix/WWW/p/info/ppg/109/", description: "web page with data points"}
 - {location: "https://arxiv.org/abs/1010.1246", description: arXiv}
@@ -20,7 +20,7 @@ additional_resources:
 ---
 # This is Figure 1.
 name: "Figure 1a"
-location: Data From Fig. 1 of PRL 107 (2011) 142301
+location: Data From Fig. 1-a of PRL 107 (2011) 142301
 description: '$J/\psi$ $B_{ll}$ $dN/dy$ in $p+p$
 collisions as a function of rapidity.
 (All uncertainties are absolute. The sys. A uncertainty includes
@@ -38,7 +38,7 @@ additional_resources:
 - {description: Thumbnail Image file, location: thumb_fig1.png}
 ---
 name: "Figure 1b"
-location: Data From Fig. 1 of PRL 107 (2011) 142301
+location: Data From Fig. 1-a of PRL 107 (2011) 142301
 description: '$J/\psi$ $B_{ll}$ $dN/dy$ in $d$+Au
 collisions as a function of rapidity. The $d$+Au yields are divided by the average number of nucleon-nucleon collisions
 $\langle N_{coll}$(0-100%)$\rangle$ = 7.6. 
@@ -57,30 +57,64 @@ additional_resources:
 - {description: Thumbnail Image file, location: thumb_fig1.png}
 ---
 name: "Figure 1c"
-location: Data From Fig. 1 of PRL 107 (2011) 142301
-description: '$d$+Au vs centrality vs $y$. (All uncertainties are absolute. The sys. A uncertainty includes
+location: Data From Fig. 1-a of PRL 107 (2011) 142301
+description: 'Mid rapidity $d$+Au —> $e^+e^-$ $J/\psi$ invariant yields at $\sqrt{s}$=200 GeV. 
+(All uncertainties are absolute. The sys. A uncertainty includes
 both the statistical uncertainty and the point-to-point uncorrelated
 systematic, sys. B represents uncertainties that are correlated from point to point, 
 and sys. C represents uncertainties in the overall normalization.)'
 keywords: # used for searching, possibly mutliple values for each keywords
-- {name: reactions, values: [$d$ Au —> $J/\psi$, $J/\psi$ —> $\mu^+\mu^-$]}
+- {name: reactions, values: [$d$ Au —> $e^+e^-$]}
 - {name: cmenergies, values: [200.0]}
-- {name: phrases, values: [ppg109, nuclear modification, cold nuclear matter, forward rapidity]}
+- {name: phrases, values: [ppg109, nuclear modification, cold nuclear matter, mid rapidity]}
 data_file: fig1c.yaml
 additional_resources:
 - {description: Original EPS Image file, location: fig1.eps}
 - {description: PNG Image file, location: fig1.png}
 - {description: Thumbnail Image file, location: thumb_fig1.png}
 ---
-name: "Figure 2a"
-location: Data From Fig. 2 of PRL 107 (2011) 142301
+name: "Figure 1d"
+location: Data From Fig. 1-b of PRL 107 (2011) 142301
 description: 'Forward-rapidity $J/\psi$ —> $\mu^+\mu^-$ $d$+Au Nuclear Dependence at $\sqrt{s}$ = 200 GeV.
-(sys. A, B systematics are relative, i.e. they multiply the $R_{CP}$ value.
+(sys. A, B systematics are relative, i.e. they multiply the $R_{dAu}$ value.
+The sysA uncertainty includes statistical uncertainties as well as point-to-point
+uncorrelated systematics, sys. B represents uncertainties that are correlated from point to point, 
+and sys. C represents uncertainties in the overall normalization.)'
+keywords: # used for searching, possibly mutliple values for each keywords
+- {name: reactions, values: [$d$ Au —> $J/\psi$, $J/\psi$ —> $\mu^+\mu^-$]}
+- {name: cmenergies, values: [200.0]}
+- {name: phrases, values: [ppg109, nuclear modification, cold nuclear matter, forward rapidity]}
+data_file: fig1d.yaml
+additional_resources:
+- {description: Original EPS Image file, location: fig1.eps}
+- {description: PNG Image file, location: fig1.png}
+- {description: Thumbnail Image file, location: thumb_fig1.png}
+---
+name: "Figure 1e"
+location: Data From Fig. 1-b of PRL 107 (2011) 142301
+description: 'Mid rapidity $d$+Au —> $e^+e^-$ $J/\psi$ $R_{dAu}$ at $\sqrt{s}$=200 GeV. 
+(Sys. A, B systematics are absolute, i.e. they add/subtract directly from $R_{dAu}$.
 The sys. A uncertainty includes statistical uncertainties as well as point-to-point
 uncorrelated systematics, sys. B represents uncertainties that are correlated from point to point, 
 and sys. C represents uncertainties in the overall normalization.)'
 keywords: # used for searching, possibly mutliple values for each keywords
-- {name: reactions, values: [$d$ Au —> $J/\psi$, $J/\psi$ —> $\mu^+\mu^-$ ]}
+- {name: reactions, values: [$d$ Au —> $e^+e^-$]}
+- {name: cmenergies, values: [200.0]}
+- {name: phrases, values: [ppg109, nuclear modification, cold nuclear matter, mid rapidity]}
+data_file: fig1e.yaml
+additional_resources:
+- {description: Original EPS Image file, location: fig1.eps}
+- {description: PNG Image file, location: fig1.png}
+- {description: Thumbnail Image file, location: thumb_fig1.png}
+---
+name: "Figure 2a"
+location: Data From Fig. 2-a,b of PRL 107 (2011) 142301
+description: '$d$+Au vs centrality vs $y$. (All uncertainties are absolute. The sys. A uncertainty includes
+both the statistical uncertainty and the point-to-point uncorrelated
+systematic, sys. B represents uncertainties that are correlated from point to point, 
+and sys. C represents uncertainties in the overall normalization.)'
+keywords: # used for searching, possibly mutliple values for each keywords
+- {name: reactions, values: [$d$ Au —> $J/\psi$, $J/\psi$ —> $\mu^+\mu^-$]}
 - {name: cmenergies, values: [200.0]}
 - {name: phrases, values: [ppg109, nuclear modification, cold nuclear matter, forward rapidity]}
 data_file: fig2a.yaml
@@ -90,7 +124,7 @@ additional_resources:
 - {description: Thumbnail Image file, location: thumb_fig2.png}
 ---
 name: "Figure 2b"
-location: Data From Fig. 2 of PRL 107 (2011) 142301
+location: Data From Fig. 2-a,b of PRL 107 (2011) 142301
 description: 'Forward-rapidity $J/\psi$ —> $\mu^+\mu^-$ $d$+Au Nuclear Dependence at $\sqrt{s}$ = 200 GeV.
 (sys. A, B systematics are relative, i.e. they multiply the $R_{dAu}$ value.
 The sysA uncertainty includes statistical uncertainties as well as point-to-point
@@ -107,50 +141,41 @@ additional_resources:
 - {description: Thumbnail Image file, location: thumb_fig2.png}
 ---
 name: "Figure 2c"
-location: Data From Fig. 2 of PRL 107 (2011) 142301
-description: 'Forward-rapidity $J/\psi$ —> $\mu^+\mu^-$ $d$+Au Nuclear Dependence at $\sqrt{s}$ = 200 GeV.
-(sys. A, B systematics are relative, i.e. they multiply the $R_{dAu}$ value.
-The sysA uncertainty includes statistical uncertainties as well as point-to-point
+location: Data From Fig. 2-a,b of PRL 107 (2011) 142301
+description: 'Mid rapidity $d$+Au —> $e^+e^-$ $J/\psi$ $R_{dAu}$ at $\sqrt{s}$=200 GeV. 
+(Sys. A, B systematics are absolute, i.e. they add/subtract directly from $R_{dAu}$.
+The sys. A uncertainty includes statistical uncertainties as well as point-to-point
 uncorrelated systematics, sys. B represents uncertainties that are correlated from point to point, 
 and sys. C represents uncertainties in the overall normalization.)'
 keywords: # used for searching, possibly mutliple values for each keywords
-- {name: reactions, values: [$d$ Au —> $J/\psi$, $J/\psi$ —> $\mu^+\mu^-$]}
+- {name: reactions, values: [$d$ Au —> $e^+e^-$]}
 - {name: cmenergies, values: [200.0]}
-- {name: phrases, values: [ppg109, nuclear modification, cold nuclear matter, forward rapidity]}
+- {name: phrases, values: [ppg109, nuclear modification, cold nuclear matter, mid rapidity]}
 data_file: fig2c.yaml
 additional_resources:
 - {description: Original EPS Image file, location: fig2.eps}
 - {description: PNG Image file, location: fig2.png}
 - {description: Thumbnail Image file, location: thumb_fig2.png}
 ---
-name: "Table 1a"
-location: Data From Table 1 of PRL 107 (2011) 142301
-description: 'Mid rapidity $d$+Au —> $e^+e^-$ $J/\psi$ $R_{dAu}$ at $\sqrt{s}$=200 GeV. 
-(Sys. A, B systematics are absolute, i.e. they add/subtract directly from $R_{dAu}$.
+name: "Figure 2d"
+location: Data From Fig. 2-c of PRL 107 (2011) 142301
+description: 'Forward-rapidity $J/\psi$ —> $\mu^+\mu^-$ $d$+Au Nuclear Dependence at $\sqrt{s}$ = 200 GeV.
+(sys. A, B systematics are relative, i.e. they multiply the $R_{CP}$ value.
 The sys. A uncertainty includes statistical uncertainties as well as point-to-point
 uncorrelated systematics, sys. B represents uncertainties that are correlated from point to point, 
 and sys. C represents uncertainties in the overall normalization.)'
 keywords: # used for searching, possibly mutliple values for each keywords
-- {name: reactions, values: [$d$ Au —> $e^+e^-$]}
+- {name: reactions, values: [$d$ Au —> $J/\psi$, $J/\psi$ —> $\mu^+\mu^-$ ]}
 - {name: cmenergies, values: [200.0]}
-- {name: phrases, values: [ppg109, nuclear modification, cold nuclear matter, mid rapidity]}
-data_file: table1a.yaml
+- {name: phrases, values: [ppg109, nuclear modification, cold nuclear matter, forward rapidity]}
+data_file: fig2d.yaml
+additional_resources:
+- {description: Original EPS Image file, location: fig2.eps}
+- {description: PNG Image file, location: fig2.png}
+- {description: Thumbnail Image file, location: thumb_fig2.png}
 ---
-name: "Table 1b"
-location: Data From Table 1 of PRL 107 (2011) 142301
-description: 'Mid rapidity $d$+Au —> $e^+e^-$ $J/\psi$ $R_{dAu}$ at $\sqrt{s}$=200 GeV. 
-(Sys. A, B systematics are absolute, i.e. they add/subtract directly from $R_{dAu}$.
-The sys. A uncertainty includes statistical uncertainties as well as point-to-point
-uncorrelated systematics, sys. B represents uncertainties that are correlated from point to point, 
-and sys. C represents uncertainties in the overall normalization.)'
-keywords: # used for searching, possibly mutliple values for each keywords
-- {name: reactions, values: [$d$ Au —> $e^+e^-$]}
-- {name: cmenergies, values: [200.0]}
-- {name: phrases, values: [ppg109, nuclear modification, cold nuclear matter, mid rapidity]}
-data_file: table1b.yaml
----
-name: "Table 1c"
-location: Data From Table 1 of PRL 107 (2011) 142301
+name: "Figure 2e"
+location: Data From Fig. 2-c of PRL 107 (2011) 142301
 description: 'Mid rapidity $d$+Au —> $e^+e^-$ $J/\psi$ $R_{CP}$ at $\sqrt{s}$=200 GeV. 
 (Sys. A, B systematics are absolute, i.e. they add/subtract directly from $R_{CP}$.
 The sys. A uncertainty includes statistical uncertainties as well as point-to-point
@@ -160,18 +185,9 @@ keywords: # used for searching, possibly mutliple values for each keywords
 - {name: reactions, values: [$d$ Au —> $e^+e^-$]}
 - {name: cmenergies, values: [200.0]}
 - {name: phrases, values: [ppg109, nuclear modification, cold nuclear matter, mid rapidity]}
-data_file: table1c.yaml
----
-name: "Table 2"
-location: Data From Table 2 of PRL 107 (2011) 142301
-description: 'Mid rapidity $d$+Au —> $e^+e^-$ $J/\psi$ invariant yields at $\sqrt{s}$=200 GeV. 
-(All uncertainties are absolute. The sys. A uncertainty includes
-both the statistical uncertainty and the point-to-point uncorrelated
-systematic, sys. B represents uncertainties that are correlated from point to point, 
-and sys. C represents uncertainties in the overall normalization.)'
-keywords: # used for searching, possibly mutliple values for each keywords
-- {name: reactions, values: [$d$ Au —> $e^+e^-$]}
-- {name: cmenergies, values: [200.0]}
-- {name: phrases, values: [ppg109, nuclear modification, cold nuclear matter, mid rapidity]}
-data_file: table2.yaml
+data_file: fig2e.yaml
+additional_resources:
+- {description: Original EPS Image file, location: fig2.eps}
+- {description: PNG Image file, location: fig2.png}
+- {description: Thumbnail Image file, location: thumb_fig2.png}
 ---

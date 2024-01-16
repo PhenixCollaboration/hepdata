@@ -1,62 +1,83 @@
 independent_variables:
 - header: {name: 'Rapidity Range ($y$)'}
   values:
-  - {low: -2.20, high: -1.95}
-  - {low: -1.95, high: -1.70}
-  - {low: -1.70, high: -1.45}
-  - {low: -1.45, high: -1.20}
-  - {low: 1.20, high: 1.45}
-  - {low: 1.45, high: 1.70}
-  - {low: 1.70, high: 1.95}
-  - {low: 1.95, high: 2.20}
-  - {low: 2.20, high: 2.45}
+  - {low: -0.5, high: -0.1}
+  - {low: -0.1, high: 0.1}
+  - {low: 0.1, high: 0.5}
 dependent_variables:
 - header: {name: '$R_{dAu}$'}
   qualifiers:
-  - {name: 'Centrality (%)', value: 'Minimum Bias'}
+  - {name: 'Centrality (%)', value: '0-20'}
   values:
-  - value: 0.770
+  - value: 0.73
     errors:
-    - {symerror: 0.034, label: 'sys. A'}
-    - {symerror: 0.078, label: 'sys. B'}
-    - {symerror: 0.078, label: 'sys. C'}
-  - value: 0.880
+    - {symerror: 0.04, label: 'sys. A'}
+    - {symerror: 0.09, label: 'sys. B'}
+    - {symerror: 0.06, label: 'sys. C'}
+  - value: 0.73
     errors:
-    - {symerror: 0.020, label: 'sys. A'}
-    - {symerror: 0.078, label: 'sys. B'}
-    - {symerror: 0.078, label: 'sys. C'}
-  - value: 0.910
+    - {symerror: 0.04, label: 'sys. A'}
+    - {symerror: 0.09, label: 'sys. B'}
+    - {symerror: 0.06, label: 'sys. C'}
+  - value: 0.74
     errors:
-    - {symerror: 0.018, label: 'sys. A'}
-    - {symerror: 0.078, label: 'sys. B'}
-    - {symerror: 0.078, label: 'sys. C'}
-  - value: 0.920
+    - {symerror: 0.04, label: 'sys. A'}
+    - {symerror: 0.10, label: 'sys. B'}
+    - {symerror: 0.06, label: 'sys. C'}
+- header: {name: '$R_{dAu}$'}
+  qualifiers:
+  - {name: 'Centrality (%)', value: '20-40'}
+  values:
+  - value: 0.80
     errors:
-    - {symerror: 0.030, label: 'sys. A'}
-    - {symerror: 0.078, label: 'sys. B'}
-    - {symerror: 0.078, label: 'sys. C'}
-  - value: 0.710
+    - {symerror: 0.05, label: 'sys. A'}
+    - {symerror: 0.10, label: 'sys. B'}
+    - {symerror: 0.06, label: 'sys. C'}
+  - value: 0.83
     errors:
-    - {symerror: 0.032, label: 'sys. A'}
-    - {symerror: 0.083, label: 'sys. B'}
-    - {symerror: 0.078, label: 'sys. C'}
-  - value: 0.660
+    - {symerror: 0.05, label: 'sys. A'}
+    - {symerror: 0.11, label: 'sys. B'}
+    - {symerror: 0.07, label: 'sys. C'}
+  - value: 0.87
     errors:
-    - {symerror: 0.019, label: 'sys. A'}
-    - {symerror: 0.083, label: 'sys. B'}
-    - {symerror: 0.078, label: 'sys. C'}
-  - value: 0.660
+    - {symerror: 0.06, label: 'sys. A'}
+    - {symerror: 0.11, label: 'sys. B'}
+    - {symerror: 0.07, label: 'sys. C'}
+- header: {name: '$R_{dAu}$'}
+  qualifiers:
+  - {name: 'Centrality (%)', value: '40-60'}
+  values:
+  - value: 0.83
     errors:
-    - {symerror: 0.020, label: 'sys. A'}
-    - {symerror: 0.083, label: 'sys. B'}
-    - {symerror: 0.078, label: 'sys. C'}
-  - value: 0.690
+    - {symerror: 0.06, label: 'sys. A'}
+    - {symerror: 0.11, label: 'sys. B'}
+    - {symerror: 0.07, label: 'sys. C'}
+  - value: 0.79
     errors:
-    - {symerror: 0.026, label: 'sys. A'}
-    - {symerror: 0.083, label: 'sys. B'}
-    - {symerror: 0.078, label: 'sys. C'}
-  - value: 0.56
+    - {symerror: 0.05, label: 'sys. A'}
+    - {symerror: 0.10, label: 'sys. B'}
+    - {symerror: 0.07, label: 'sys. C'}
+  - value: 0.80
+    errors:
+    - {symerror: 0.06, label: 'sys. A'}
+    - {symerror: 0.10, label: 'sys. B'}
+    - {symerror: 0.07, label: 'sys. C'}
+- header: {name: '$R_{dAu}$'}
+  qualifiers:
+  - {name: 'Centrality (%)', value: '60-88'}
+  values:
+  - value: 0.88
     errors:
     - {symerror: 0.07, label: 'sys. A'}
-    - {symerror: 0.08, label: 'sys. B'}
-    - {symerror: 0.08, label: 'sys. C'}
+    - {symerror: 0.11, label: 'sys. B'}
+    - {symerror: 0.09, label: 'sys. C'}
+  - value: 0.83
+    errors:
+    - {symerror: 0.06, label: 'sys. A'}
+    - {symerror: 0.11, label: 'sys. B'}
+    - {symerror: 0.09, label: 'sys. C'}
+  - value: 0.84
+    errors:
+    - {symerror: 0.07, label: 'sys. A'}
+    - {symerror: 0.11, label: 'sys. B'}
+    - {symerror: 0.09, label: 'sys. C'}
