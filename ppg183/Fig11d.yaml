@@ -5,55 +5,70 @@ independent_variables:
   - {low: 0.40, high: 0.50}
   - {low: 0.50, high: 0.70}
   - {low: 0.70, high: 0.90}
-  - {low: 0.90, high: 1.10}
-  - {low: 1.10, high: 1.60}
-  - {low: 1.60, high: 1.90}
-  - {low: 1.90, high: 2.70}
-  - {low: 2.70, high: 4.00}
-  - {low: 4.00, high: 4.80}
+  - {low: 0.90, high: 1.20}
+  - {low: 1.20, high: 1.60}
+  - {low: 1.60, high: 2.00}
+  - {low: 2.00, high: 3.00}
+  - {low: 3.00, high: 4.00}
+  - {low: 4.00, high: 5.00}
 dependent_variables:
+- header: {name: '$\langle p_T \rangle$ (GeV/$c$)'}
+  qualifiers:
+  - {name: 'Centrality',value: ' '}
+  - {name: 'particle',value: 'Au + Au'}
+  values:
+  - value: 0.3504
+  - value: 0.4491
+  - value: 0.5938
+  - value: 0.7924
+  - value: 1.033
+  - value: 1.368
+  - value: 1.768
+  - value: 2.318
+  - value: 3.341
+  - value: 4.41899
 - header: {name: '$v_2$ (Fourier Coefficient)'}
   qualifiers:
-  - {name: 'Centrality', value: '40-50%'}
+  - {name: 'Centrality', value: '20-30%'}
   - {name: 'particle', value: 'Au + Au'}
   values:
-  - value: 0.1148
+  - value: 0.13510
+    errors:
+    - {symerror: 3.4e-4, label: 'sta.'}
+    - {symerror: 0.004, label: 'sys.'}
+  - value: 0.17875
+    errors:
+    - {symerror: 3.4e-4, label: 'sta.'}
+    - {symerror: 0.006, label: 'sys.'}
+  - value: 0.23456
+    errors:
+    - {symerror: 2.7e-4, label: 'sta.'}
+    - {symerror: 0.008, label: 'sys.'}
+  - value: 0.30279
+    errors:
+    - {symerror: 3.3e-4, label: 'sta.'}
+    - {symerror: 0.010, label: 'sys.'}
+  - value: 0.3759
+    errors:
+    - {symerror: 4e-4, label: 'sta.'}
+    - {symerror: 0.012, label: 'sys.'}
+  - value: 0.4659
+    errors:
+    - {symerror: 5e-4, label: 'sta.'}
+    - {symerror: 0.015, label: 'sys.'}
+  - value: 0.5580
     errors:
     - {symerror: 7e-4, label: 'sta.'}
-    - {symerror: 0.0033, label: 'sys.'}
-  - value: 0.1505
-    errors:
-    - {symerror: 7e-4, label: 'sta.'}
-    - {symerror: 0.005, label: 'sys.'}
-  - value: 0.1995
-    errors:
-    - {symerror: 6e-4, label: 'sta.'}
-    - {symerror: 0.007, label: 'sys.'}
-  - value: 0.2585
-    errors:
-    - {symerror: 7e-4, label: 'sta.'}
-    - {symerror: 0.009, label: 'sys.'}
-  - value: 0.3221
-    errors:
-    - {symerror: 8e-4, label: 'sta.'}
-    - {symerror: 0.011, label: 'sys.'}
-  - value: 0.3925
+    - {symerror: 0.018, label: 'sys.'}
+  - value: 0.6435
     errors:
     - {symerror: 0.0010, label: 'sta.'}
-    - {symerror: 0.013, label: 'sys.'}
-  - value: 0.4629
-    errors:
-    - {symerror: 0.0016, label: 'sta.'}
-    - {symerror: 0.016, label: 'sys.'}
-  - value: 0.5099
-    errors:
-    - {symerror: 0.0022, label: 'sta.'}
-    - {symerror: 0.018, label: 'sys.'}
-  - value: 0.542
-    errors:
-    - {symerror: 0.006, label: 'sta.'}
     - {symerror: 0.021, label: 'sys.'}
-  - value: 0.435
+  - value: 0.6662
     errors:
-    - {symerror: 0.009, label: 'sta.'}
-    - {symerror: 0.023, label: 'sys.'}
+    - {symerror: 0.0030, label: 'sta.'}
+    - {symerror: 0.024, label: 'sys.'}
+  - value: 0.591
+    errors:
+    - {symerror: 0.005, label: 'sta.'}
+    - {symerror: 0.033, label: 'sys.'}

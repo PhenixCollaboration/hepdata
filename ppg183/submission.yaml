@@ -5,7 +5,7 @@
 #PRC 94, (2016) 054910 
 #InspireHEP ID: 1394897
 #
-#Prepared by Hugh Jones
+#Prepared by Hugh Jones and Andrew McAninch
 #Please contact Christine Nattrass if you have any questions about this submission
 #PPG liaison:
 #Reviewer:
@@ -175,9 +175,9 @@ additional_resources:
 # This is Figure 11a.
 name: "Figure 11a"
 location: Data From Figure 11 of PRC 94, (2016) 054910
-description: Scaled second-order Fourier coefficients $v_2(p_T)/ε_2$ for charged hadrons measured at midrapidity in Cu + Au, Au + Au, and Cu + Cu collisions at $\sqrt{S_{NN}}$ = 200 GeV.
+description: Scaled second-order Fourier coefficients $v_2(p_T)/\epsilon_2$ for charged hadrons measured at midrapidity in Cu + Cu collisions at $\sqrt{S_{NN}}$ = 200 GeV.
 keywords: # used for searching, possibly mutliple values for each keywords
-- {name: reactions, values: [Cu + Au; Au + Au; Cu + Cu --> CHARGED X]}
+- {name: reactions, values: [Cu + Cu --> CHARGED X]}
 - {name: cmenergies, values: [200]}
 - {name: phrases, values: [ppg183, anisotropic flow Fourier, midrapidity, hadrons]}
 data_file: Fig11a.yaml
@@ -187,9 +187,9 @@ additional_resources:
 # This is Figure 11b.
 name: "Figure 11b"
 location: Data From Figure 11 of PRC 94, (2016) 054910
-description: Scaled second-order Fourier coefficients $v_2(p_T)/ε_2$ for charged hadrons measured at midrapidity in Cu + Au, Au + Au, and Cu + Cu collisions at $\sqrt{S_{NN}}$ = 200 GeV.
+description: Scaled second-order Fourier coefficients $v_2(p_T)/\epsilon_2$ for charged hadrons measured at midrapidity in Au + Au collisions at $\sqrt{S_{NN}}$ = 200 GeV.
 keywords: # used for searching, possibly mutliple values for each keywords
-- {name: reactions, values: [Cu + Au; Au + Au; Cu + Cu --> CHARGED X]}
+- {name: reactions, values: [Au + Au --> CHARGED X]}
 - {name: cmenergies, values: [200]}
 - {name: phrases, values: [ppg183, anisotropic flow Fourier, midrapidity, hadrons]}
 data_file: Fig11b.yaml
@@ -199,9 +199,9 @@ additional_resources:
 # This is Figure 11c.
 name: "Figure 11c"
 location: Data From Figure 11 of PRC 94, (2016) 054910
-description: Scaled second-order Fourier coefficients $v_2(p_T)/ε_2$ for charged hadrons measured at midrapidity in Cu + Au, Au + Au, and Cu + Cu collisions at $\sqrt{S_{NN}}$ = 200 GeV.
+description: Scaled second-order Fourier coefficients $v_2(p_T)/\epsilon_2$ for charged hadrons measured at midrapidity in Au + Au collisions at $\sqrt{S_{NN}}$ = 200 GeV.
 keywords: # used for searching, possibly mutliple values for each keywords
-- {name: reactions, values: [Cu + Au; Au + Au; Cu + Cu --> CHARGED X]}
+- {name: reactions, values: [Au + Au --> CHARGED X]}
 - {name: cmenergies, values: [200]}
 - {name: phrases, values: [ppg183, anisotropic flow Fourier, midrapidity, hadrons]}
 data_file: Fig11c.yaml
@@ -211,9 +211,9 @@ additional_resources:
 # This is Figure 11d.
 name: "Figure 11d"
 location: Data From Figure 11 of PRC 94, (2016) 054910
-description: Scaled second-order Fourier coefficients $v_2(p_T)/ε_2$ for charged hadrons measured at midrapidity in Cu + Au, Au + Au, and Cu + Cu collisions at $\sqrt{S_{NN}}$ = 200 GeV.
+description: Scaled second-order Fourier coefficients $v_2(p_T)/\epsilon_2$ for charged hadrons measured at midrapidity in Au + Au collisions at $\sqrt{S_{NN}}$ = 200 GeV.
 keywords: # used for searching, possibly mutliple values for each keywords
-- {name: reactions, values: [Cu + Au; Au + Au; Cu + Cu --> CHARGED X]}
+- {name: reactions, values: [Au + Au --> CHARGED X]}
 - {name: cmenergies, values: [200]}
 - {name: phrases, values: [ppg183, anisotropic flow Fourier, midrapidity, hadrons]}
 data_file: Fig11d.yaml
@@ -223,9 +223,9 @@ additional_resources:
 # This is Figure 11e.
 name: "Figure 11e"
 location: Data From Figure 11 of PRC 94, (2016) 054910
-description: Scaled second-order Fourier coefficients $v_2(p_T)/ε_2$ for charged hadrons measured at midrapidity in Cu + Au, Au + Au, and Cu + Cu collisions at $\sqrt{S_{NN}}$ = 200 GeV.
+description: Scaled second-order Fourier coefficients $v_2(p_T)/\epsilon_2$ for charged hadrons measured at midrapidity in Au + Au collisions at $\sqrt{S_{NN}}$ = 200 GeV.
 keywords: # used for searching, possibly mutliple values for each keywords
-- {name: reactions, values: [Cu + Au; Au + Au; Cu + Cu --> CHARGED X]}
+- {name: reactions, values: [Au + Au --> CHARGED X]}
 - {name: cmenergies, values: [200]}
 - {name: phrases, values: [ppg183, anisotropic flow Fourier, midrapidity, hadrons]}
 data_file: Fig11e.yaml
@@ -235,21 +235,45 @@ additional_resources:
 # This is Figure 11f.
 name: "Figure 11f"
 location: Data From Figure 11 of PRC 94, (2016) 054910
-description: Scaled second-order Fourier coefficients $v_2(p_T)/ε_2$ for charged hadrons measured at midrapidity in Cu + Au, Au + Au, and Cu + Cu collisions at $\sqrt{S_{NN}}$ = 200 GeV.
+description: Scaled second-order Fourier coefficients $v_2(p_T)/\epsilon_2$ for charged hadrons measured at midrapidity in Au + Au collisions at $\sqrt{S_{NN}}$ = 200 GeV.
 keywords: # used for searching, possibly mutliple values for each keywords
-- {name: reactions, values: [Cu + Au; Au + Au; Cu + Cu --> CHARGED X]}
+- {name: reactions, values: [Au + Au --> CHARGED X]}
 - {name: cmenergies, values: [200]}
 - {name: phrases, values: [ppg183, anisotropic flow Fourier, midrapidity, hadrons]}
 data_file: Fig11f.yaml
 additional_resources:
 - {description: Thumbnail Image file, location: thumb_fig11.png}
 ---
+# This is Figure 11g.
+name: "Figure 11g"
+location: Data From Figure 11 of PRC 94, (2016) 054910
+description: Scaled second-order Fourier coefficients $v_2(p_T)/\epsilon_2$ for charged hadrons measured at midrapidity in Au + Au collisions at $\sqrt{S_{NN}}$ = 200 GeV.
+keywords: # used for searching, possibly mutliple values for each keywords
+- {name: reactions, values: [Au + Au --> CHARGED X]}
+- {name: cmenergies, values: [200]}
+- {name: phrases, values: [ppg183, anisotropic flow Fourier, midrapidity, hadrons]}
+data_file: Fig11g.yaml
+additional_resources:
+- {description: Thumbnail Image file, location: thumb_fig11.png}
+---
+# This is Figure 11h.
+name: "Figure 11h"
+location: Data From Figure 11 of PRC 94, (2016) 054910
+description: Scaled second-order Fourier coefficients $v_2(p_T)/\epsilon_2$ for charged hadrons measured at midrapidity in Cu + Au collisions at $\sqrt{S_{NN}}$ = 200 GeV.
+keywords: # used for searching, possibly mutliple values for each keywords
+- {name: reactions, values: [Cu + Au --> CHARGED X]}
+- {name: cmenergies, values: [200]}
+- {name: phrases, values: [ppg183, anisotropic flow Fourier, midrapidity, hadrons]}
+data_file: Fig11h.yaml
+additional_resources:
+- {description: Thumbnail Image file, location: thumb_fig11.png}
+---
 # This is Figure 12a.
 name: "Figure 12a"
 location: Data From Figure 12 of PRC 94, (2016) 054910
-description: Scaled second-order Fourier coefficients $v_2(p_T)/(ε_2 N^{1/3}_{part})$ for charged hadrons measured at midrapidity in Cu + Au, Au + Au, and Cu + Cu collisions at $\sqrt{S_{NN}}$ = 200 GeV.
+description: Scaled second-order Fourier coefficients $v_2(p_T)/(\epsilon_2 N^{1/3}_{part})$ for charged hadrons measured at midrapidity in Cu + Cu collisions at $\sqrt{S_{NN}}$ = 200 GeV.
 keywords: # used for searching, possibly mutliple values for each keywords
-- {name: reactions, values: [Cu + Au; Au + Au; Cu + Cu --> CHARGED X]}
+- {name: reactions, values: [Cu + Cu --> CHARGED X]}
 - {name: cmenergies, values: [200]}
 - {name: phrases, values: [ppg183, anisotropic flow Fourier, midrapidity, hadrons]}
 data_file: Fig12a.yaml
@@ -259,9 +283,9 @@ additional_resources:
 # This is Figure 12b.
 name: "Figure 12b"
 location: Data From Figure 12 of PRC 94, (2016) 054910
-description: Scaled second-order Fourier coefficients $v_2(p_T)/(ε_2 N^{1/3}_{part})$ for charged hadrons measured at midrapidity in Cu + Au, Au + Au, and Cu + Cu collisions at $\sqrt{S_{NN}}$ = 200 GeV.
+description: Scaled second-order Fourier coefficients $v_2(p_T)/(\epsilon_2 N^{1/3}_{part})$ for charged hadrons measured at midrapidity in Au + Au collisions at $\sqrt{S_{NN}}$ = 200 GeV.
 keywords: # used for searching, possibly mutliple values for each keywords
-- {name: reactions, values: [Cu + Au; Au + Au; Cu + Cu --> CHARGED X]}
+- {name: reactions, values: [Au + Au --> CHARGED X]}
 - {name: cmenergies, values: [200]}
 - {name: phrases, values: [ppg183, anisotropic flow Fourier, midrapidity, hadrons]}
 data_file: Fig12b.yaml
@@ -271,9 +295,9 @@ additional_resources:
 # This is Figure 12c.
 name: "Figure 12c"
 location: Data From Figure 12 of PRC 94, (2016) 054910
-description: Scaled second-order Fourier coefficients $v_2(p_T)/(ε_2 N^{1/3}_{part})$ for charged hadrons measured at midrapidity in Cu + Au, Au + Au, and Cu + Cu collisions at $\sqrt{S_{NN}}$ = 200 GeV.
+description: Scaled second-order Fourier coefficients $v_2(p_T)/(\epsilon_2 N^{1/3}_{part})$ for charged hadrons measured at midrapidity in Au + Au collisions at $\sqrt{S_{NN}}$ = 200 GeV.
 keywords: # used for searching, possibly mutliple values for each keywords
-- {name: reactions, values: [Cu + Au; Au + Au; Cu + Cu --> CHARGED X]}
+- {name: reactions, values: [Au + Au --> CHARGED X]}
 - {name: cmenergies, values: [200]}
 - {name: phrases, values: [ppg183, anisotropic flow Fourier, midrapidity, hadrons]}
 data_file: Fig12c.yaml
@@ -283,9 +307,9 @@ additional_resources:
 # This is Figure 12d.
 name: "Figure 12d"
 location: Data From Figure 12 of PRC 94, (2016) 054910
-description: Scaled second-order Fourier coefficients $v_2(p_T)/(ε_2 N^{1/3}_{part})$ for charged hadrons measured at midrapidity in Cu + Au, Au + Au, and Cu + Cu collisions at $\sqrt{S_{NN}}$ = 200 GeV.
+description: Scaled second-order Fourier coefficients $v_2(p_T)/(\epsilon_2 N^{1/3}_{part})$ for charged hadrons measured at midrapidity in Au + Au collisions at $\sqrt{S_{NN}}$ = 200 GeV.
 keywords: # used for searching, possibly mutliple values for each keywords
-- {name: reactions, values: [Cu + Au; Au + Au; Cu + Cu --> CHARGED X]}
+- {name: reactions, values: [Au + Au --> CHARGED X]}
 - {name: cmenergies, values: [200]}
 - {name: phrases, values: [ppg183, anisotropic flow Fourier, midrapidity, hadrons]}
 data_file: Fig12d.yaml
@@ -295,9 +319,9 @@ additional_resources:
 # This is Figure 12e.
 name: "Figure 12e"
 location: Data From Figure 12 of PRC 94, (2016) 054910
-description: Scaled second-order Fourier coefficients $v_2(p_T)/(ε_2 N^{1/3}_{part})$ for charged hadrons measured at midrapidity in Cu + Au, Au + Au, and Cu + Cu collisions at $\sqrt{S_{NN}}$ = 200 GeV.
+description: Scaled second-order Fourier coefficients $v_2(p_T)/(\epsilon_2 N^{1/3}_{part})$ for charged hadrons measured at midrapidity in Au + Au collisions at $\sqrt{S_{NN}}$ = 200 GeV.
 keywords: # used for searching, possibly mutliple values for each keywords
-- {name: reactions, values: [Cu + Au; Au + Au; Cu + Cu --> CHARGED X]}
+- {name: reactions, values: [Au + Au --> CHARGED X]}
 - {name: cmenergies, values: [200]}
 - {name: phrases, values: [ppg183, anisotropic flow Fourier, midrapidity, hadrons]}
 data_file: Fig12e.yaml
@@ -307,9 +331,9 @@ additional_resources:
 # This is Figure 12f.
 name: "Figure 12f"
 location: Data From Figure 12 of PRC 94, (2016) 054910
-description: Scaled second-order Fourier coefficients $v_2(p_T)/(ε_2 N^{1/3}_{part})$ for charged hadrons measured at midrapidity in Cu + Au, Au + Au, and Cu + Cu collisions at $\sqrt{S_{NN}}$ = 200 GeV.
+description: Scaled second-order Fourier coefficients $v_2(p_T)/(\epsilon_2 N^{1/3}_{part})$ for charged hadrons measured at midrapidity in Au + Au collisions at $\sqrt{S_{NN}}$ = 200 GeV.
 keywords: # used for searching, possibly mutliple values for each keywords
-- {name: reactions, values: [Cu + Au; Au + Au; Cu + Cu --> CHARGED X]}
+- {name: reactions, values: [Au + Au --> CHARGED X]}
 - {name: cmenergies, values: [200]}
 - {name: phrases, values: [ppg183, anisotropic flow Fourier, midrapidity, hadrons]}
 data_file: Fig12f.yaml
@@ -319,9 +343,9 @@ additional_resources:
 # This is Figure 12g.
 name: "Figure 12g"
 location: Data From Figure 12 of PRC 94, (2016) 054910
-description: Scaled second-order Fourier coefficients $v_2(p_T)/(ε_2 N^{1/3}_{part})$ for charged hadrons measured at midrapidity in Cu + Au, Au + Au, and Cu + Cu collisions at $\sqrt{S_{NN}}$ = 200 GeV.
+description: Scaled second-order Fourier coefficients $v_2(p_T)/(\epsilon_2 N^{1/3}_{part})$ for charged hadrons measured at midrapidity in Au + Au collisions at $\sqrt{S_{NN}}$ = 200 GeV.
 keywords: # used for searching, possibly mutliple values for each keywords
-- {name: reactions, values: [Cu + Au; Au + Au; Cu + Cu --> CHARGED X]}
+- {name: reactions, values: [Au + Au --> CHARGED X]}
 - {name: cmenergies, values: [200]}
 - {name: phrases, values: [ppg183, anisotropic flow Fourier, midrapidity, hadrons]}
 data_file: Fig12g.yaml
@@ -331,9 +355,9 @@ additional_resources:
 # This is Figure 12h.
 name: "Figure 12h"
 location: Data From Figure 12 of PRC 94, (2016) 054910
-description: Scaled second-order Fourier coefficients $v_2(p_T)/(ε_2 N^{1/3}_{part})$ for charged hadrons measured at midrapidity in Cu + Au, Au + Au, and Cu + Cu collisions at $\sqrt{S_{NN}}$ = 200 GeV.
+description: Scaled second-order Fourier coefficients $v_2(p_T)/(\epsilon_2 N^{1/3}_{part})$ for charged hadrons measured at midrapidity in Cu + Au collisions at $\sqrt{S_{NN}}$ = 200 GeV.
 keywords: # used for searching, possibly mutliple values for each keywords
-- {name: reactions, values: [Cu + Au; Au + Au; Cu + Cu --> CHARGED X]}
+- {name: reactions, values: [Cu + Au --> CHARGED X]}
 - {name: cmenergies, values: [200]}
 - {name: phrases, values: [ppg183, anisotropic flow Fourier, midrapidity, hadrons]}
 data_file: Fig12h.yaml
@@ -343,9 +367,9 @@ additional_resources:
 # This is Figure 14a.
 name: "Figure 14a"
 location: Data From Figure 14 of PRC 94, (2016) 054910
-description: Scaled third-order Fourier coefficients $v_3(p_T)/ε_3$ for charged hadrons measured at midrapidity in Cu + Au and Au + Au collisions at $\sqrt{S_{NN}}$ = 200 GeV.
+description: Scaled third-order Fourier coefficients $v_3(p_T)/\epsilon_3$ for charged hadrons measured at midrapidity in Au + Au collisions at $\sqrt{S_{NN}}$ = 200 GeV.
 keywords: # used for searching, possibly mutliple values for each keywords
-- {name: reactions, values: [Au + Au and Cu + Au --> CHARGED X]}
+- {name: reactions, values: [Au + Au --> CHARGED X]}
 - {name: cmenergies, values: [200]}
 - {name: phrases, values: [ppg183, anisotropic flow Fourier, midrapidity, hadrons]}
 data_file: Fig14a.yaml
@@ -355,9 +379,9 @@ additional_resources:
 # This is Figure 14b.
 name: "Figure 14b"
 location: Data From Figure 14 of PRC 94, (2016) 054910
-description: Scaled third-order Fourier coefficients $v_3(p_T)/ε_3$ for charged hadrons measured at midrapidity in Cu + Au and Au + Au collisions at $\sqrt{S_{NN}}$ = 200 GeV.
+description: Scaled third-order Fourier coefficients $v_3(p_T)/\epsilon_3$ for charged hadrons measured at midrapidity in Au + Au collisions at $\sqrt{S_{NN}}$ = 200 GeV.
 keywords: # used for searching, possibly mutliple values for each keywords
-- {name: reactions, values: [Au + Au and Cu + Au --> CHARGED X]}
+- {name: reactions, values: [Au + Au --> CHARGED X]}
 - {name: cmenergies, values: [200]}
 - {name: phrases, values: [ppg183, anisotropic flow Fourier, midrapidity, hadrons]}
 data_file: Fig14b.yaml
@@ -367,9 +391,9 @@ additional_resources:
 # This is Figure 14c.
 name: "Figure 14c"
 location: Data From Figure 14 of PRC 94, (2016) 054910
-description: Scaled third-order Fourier coefficients $v_3(p_T)/ε_3$ for charged hadrons measured at midrapidity in Cu + Au and Au + Au collisions at $\sqrt{S_{NN}}$ = 200 GeV.
+description: Scaled third-order Fourier coefficients $v_3(p_T)/\epsilon_3$ for charged hadrons measured at midrapidity in Cu + Au collisions at $\sqrt{S_{NN}}$ = 200 GeV.
 keywords: # used for searching, possibly mutliple values for each keywords
-- {name: reactions, values: [Au + Au and Cu + Au --> CHARGED X]}
+- {name: reactions, values: [Cu + Au --> CHARGED X]}
 - {name: cmenergies, values: [200]}
 - {name: phrases, values: [ppg183, anisotropic flow Fourier, midrapidity, hadrons]}
 data_file: Fig14c.yaml
@@ -379,9 +403,9 @@ additional_resources:
 # This is Figure 15a.
 name: "Figure 15a"
 location: Data From Figure 4 of PRC 94, (2016) 054910 
-description: Scaled third-order Fourier coefficients $\frac{v_3}{($_3 N_{part}^{1/3})}$ for charged hadrons measured at midrapidity in Cu + Au and Au + Au collisions at $\sqrt{S_{NN}} = 200 GeV.
+description: Scaled third-order Fourier coefficients $\frac{v_3}{($_3 N_{part}^{1/3})}$ for charged hadrons measured at midrapidity in Au + Au collisions at $\sqrt{S_{NN}}$ = 200 GeV.
 keywords: # used for searching, possibly mutliple values for each keywords
-- {name: reactions, values: [Cu + Au --> CHARGED X]}
+- {name: reactions, values: [Au + Au --> CHARGED X]}
 - {name: cmenergies, values: [200]}
 - {name: phrases, values: [ppg183, anisotropic flow Fourier, midrapidity, hadrons]}
 data_file: Fig15a.yaml
@@ -391,12 +415,24 @@ additional_resources:
 # This is Figure 15b.
 name: "Figure 15b"
 location: Data From Figure 15 of PRC 94, (2016) 054910 
-description: Scaled third-order Fourier coefficients $\frac{v_3}{(e_3 N_{part}^{1/3})}$ for charged hadrons measured at midrapidity in Cu + Au and Au + Au collisions at $\sqrt{S_{NN}} = 200 GeV.
+description: Scaled third-order Fourier coefficients $\frac{v_3}{(e_3 N_{part}^{1/3})}$ for charged hadrons measured at midrapidity in Au + Au collisions at $\sqrt{S_{NN}}$ = 200 GeV.
 keywords: # used for searching, possibly mutliple values for each keywords
 - {name: reactions, values: [Au + Au --> CHARGED X]}
 - {name: cmenergies, values: [200]}
 - {name: phrases, values: [ppg183, anisotropic flow Fourier, midrapidity, hadrons]}
 data_file: Fig15b.yaml
+additional_resources:
+- {description: Thumbnail Image file, location: thumb_fig15.png}
+---
+# This is Figure 15c.
+name: "Figure 15c"
+location: Data From Figure 15 of PRC 94, (2016) 054910 
+description: Scaled third-order Fourier coefficients $\frac{v_3}{(e_3 N_{part}^{1/3})}$ for charged hadrons measured at midrapidity in Cu + Au collisions at $\sqrt{S_{NN}}$ = 200 GeV.
+keywords: # used for searching, possibly mutliple values for each keywords
+- {name: reactions, values: [Cu + Au --> CHARGED X]}
+- {name: cmenergies, values: [200]}
+- {name: phrases, values: [ppg183, anisotropic flow Fourier, midrapidity, hadrons]}
+data_file: Fig15c.yaml
 additional_resources:
 - {description: Thumbnail Image file, location: thumb_fig15.png}
 ---

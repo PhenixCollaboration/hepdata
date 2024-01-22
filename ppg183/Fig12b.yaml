@@ -5,13 +5,28 @@ independent_variables:
   - {low: 0.40, high: 0.50}
   - {low: 0.50, high: 0.70}
   - {low: 0.70, high: 0.90}
-  - {low: 0.90, high: 1.10}
-  - {low: 1.10, high: 1.60}
+  - {low: 0.90, high: 1.20}
+  - {low: 1.20, high: 1.60}
   - {low: 1.60, high: 2.00}
-  - {low: 2.00, high: 2.60}
-  - {low: 2.60, high: 4.00}
-  - {low: 4.00, high: 4.80}
+  - {low: 2.00, high: 3.00}
+  - {low: 3.00, high: 4.00}
+  - {low: 4.00, high: 5.00}
 dependent_variables:
+- header: {name: '$\langle p_T \rangle$ (GeV/$c$)'}
+  qualifiers:
+  - {name: 'Centrality',value: ' '}
+  - {name: 'particle',value: 'Au + Au'}
+  values:
+  - value: 0.3504
+  - value: 0.4491
+  - value: 0.5938
+  - value: 0.7924
+  - value: 1.033
+  - value: 1.368
+  - value: 1.768
+  - value: 2.318
+  - value: 3.341
+  - value: 4.41452
 - header: {name: '$\frac{v_2}{(e_2 N_{part}^{1/3})}$'}
   qualifiers:
   - {name: 'Centrality', value: '0-10%'}
