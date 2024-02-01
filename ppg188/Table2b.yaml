@@ -1,0 +1,27 @@
+independent_variables:
+- header: {name: '$y$'}
+  values:
+  - {low: -4.46, high: -2.03}
+  - {low: 2.03, high: 3.53}
+dependent_variables:
+- header: {name: '$(dN_{ch}/d\eta)_{AMPT}$'}
+  qualifiers:
+  - {name: 'Collision system', value: '$p$ + Pb'}
+  - {name: '$\sqrt{s_{NN}}$', value: '5.02 TeV'}
+  values:
+  - value: 19.9
+  - value: 15.0
+- header: {name: '$\langle S_T \rangle$ ($fm^2$)'}
+  qualifiers:
+  - {name: 'Collision system', value: '$p$ + Pb'}
+  - {name: '$\sqrt{s_{NN}}$', value: '5.02 TeV'}
+  values:
+  - value: 1.3
+  - value: 1.3
+- header: {name: '$\frac{(dN/d\eta)_{AMPT}}{\langle S_T \rangle}$($fm^{-2}$)'}
+  qualifiers:
+  - {name: 'Collision system', value: '$p$ + Pb'}
+  - {name: '$\sqrt{s_{NN}}$', value: '5.02 TeV'}
+  values:
+  - value: 23.0
+  - value: 17.3

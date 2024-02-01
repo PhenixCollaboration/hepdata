@@ -1,0 +1,80 @@
+independent_variables:
+- header: {name: '$y$'}
+  values:
+  - {low: -2.2, high: -1.2}
+dependent_variables:
+- header: {name: '$N^{\Psi (1S)}_{meas}$'}
+  qualifiers:
+  - {name: 'Collision system', value: '$p$ + Al'}
+  - {name: 'Direction', value: 'Al-going'}
+  values:
+  - value: 1463
+    errors:
+    - {symerror: 109, label: 'stat.'}
+- header: {name: '$N^{\Psi (2S)}_{meas}$'}
+  qualifiers:
+  - {name: 'Collision system', value: '$p$ + Al'}
+  - {name: 'Direction', value: 'Al-going'}
+  values:
+  - value: 125
+    errors:
+    - {symerror: 11, label: 'stat.'}
+- header: {name: '$\frac{B_{\mu \mu}^{\Psi (2S)} {\sigma}_{\Psi (2S)}}{B_{\mu \mu}^{\Psi (1S)} {\sigma}_{\Psi (1S)}}$(%)'}
+  qualifiers:
+  - {name: 'Collision system', value: '$p$ + Al'}
+  - {name: 'Direction', value: 'Al-going'}
+  values:
+  - value: 1.37
+    errors:
+    - {symerror: 0.61, label: 'stat.'}
+    - {symerror: 0.16, label: 'sys.'}
+- header: {name: '$N^{\Psi (1S)}_{meas}$'}
+  qualifiers:
+  - {name: 'Collision system', value: '$p$ + Au'}
+  - {name: 'Direction', value: 'Au-going'}
+  values:
+  - value: 3561
+    errors:
+    - {symerror: 180, label: 'stat.'}
+- header: {name: '$N^{\Psi (2S)}_{meas}$'}
+  qualifiers:
+  - {name: 'Collision system', value: '$p$ + Au'}
+  - {name: 'Direction', value: 'Au-going'}
+  values:
+  - value: 51
+    errors:
+    - {symerror: 18, label: 'stat.'}
+- header: {name: '$\frac{B_{\mu \mu}^{\Psi (2S)} {\sigma}_{\Psi (2S)}}{B_{\mu \mu}^{\Psi (1S)} {\sigma}_{\Psi (1S)}}$(%)'}
+  qualifiers:
+  - {name: 'Collision system', value: '$p$ + Au'}
+  - {name: 'Direction', value: 'Au-going'}
+  values:
+  - value: 1.16
+    errors:
+    - {symerror: 0.42, label: 'stat.'}
+    - {symerror: 0.17, label: 'sys.'}
+- header: {name: '$N^{\Psi (1S)}_{meas}$'}
+  qualifiers:
+  - {name: 'Collision system', value: '${}^{3}$He + Au'}
+  - {name: 'Direction', value: 'Au-going'}
+  values:
+  - value: 1772
+    errors:
+    - {symerror: 132, label: 'stat.'}
+- header: {name: '$N^{\Psi (2S)}_{meas}$'}
+  qualifiers:
+  - {name: 'Collision system', value: '${}^{3}$He + Au'}
+  - {name: 'Direction', value: 'Au-going'}
+  values:
+  - value: 35
+    errors:
+    - {symerror: 15, label: 'stat.'}
+- header: {name: '$\frac{B_{\mu \mu}^{\Psi (2S)} {\sigma}_{\Psi (2S)}}{B_{\mu \mu}^{\Psi (1S)} {\sigma}_{\Psi (1S)}}$(%)'}
+  qualifiers:
+  - {name: 'Collision system', value: '${}^{3}$He + Au'}
+  - {name: 'Direction', value: 'Au-going'}
+  values:
+  - value: 1.59
+    errors:
+    - {symerror: 0.67, label: 'stat.'}
+    - {symerror: 0.60, label: 'sys.'}
