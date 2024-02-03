@@ -1,0 +1,197 @@
+#PHENIX paper PPG206
+#
+# Measurements of multiparticle correlations in $d$+Au collisions at 200, 62.4, 39, and 19.6 GeV and $p$+Au collisions at 200 GeV and implications for collective behavior
+#
+#Phys.Rev.L 120 (2018) 062302
+#InspireHEP ID: 1610655
+#
+#Prepared by Josie Hakanson
+#Please contact Christine Nattrass if you have any questions about this submission
+#PPG liaison:
+#Reviewer:
+#
+comment: | # Information that applies to all data tables.
+  Recently, multiparticle-correlation measurements of relativistic $p/d/^3$He+Au, $p$+Pb, and even $p+p$ collisions have shown surprising collective signatures. Here we present beam-energy-scan measurements of 2-, 4-, and 6-particle angular correlations in $d$+Au collisions at $\sqrt{s_{NN}}$ = 200, 62.4, 39, and 19.6 GeV. We also present measurements of 2- and 4-particle angular correlations in $p$+Au collisions at $\sqrt{s_{NN}}$ = 200 GeV. We find the 4-particle cumulant to be real-valued for d+Au collisions at all four energies. We also find that the 4-particle cumulant in $p$+Au has the opposite sign as that in $d$+Au. Further we find that the 6-particle cumulant agrees with the 4-particle cumulant in $d$+Au collisions at 200 GeV, indicating that nonflow effects are subdominant. These observations provide strong evidence that the correlations originate from the initial geometric configuration which is then translated into the momentum distribution for all particles, commonly referred to as collectivity.
+additional_resources:
+- {location: "http://arxiv.org/abs/1707.06108", description: arXiv}
+- {location: "https://inspirehep.net/literature/1610655", description: InspireHEP}
+---
+name: "Figure 1a & b"
+
+location: Data From Fig. 1a & b of PRL 120 (2018) 062302
+description: 'Components $\langle\langle$4$\rangle\rangle$ and 2$\langle\langle$2$\rangle\rangle^{2}$ and cumulant $c_2${4} = $\langle\langle$4$\rangle\rangle$ - 2$\langle\langle$2$\rangle\rangle^{2}$ as a function of $N^{FVTX}_{tracks}$. (a) and (b) show the components and cumulant, respectively, in $p$+Au collisions at $\sqrt{s_{NN}}$ = 200 GeV. (c) and (d) show the components and cumulant, respectively, in $d$+Au collisions at $\sqrt{s_{NN}}$ = 200 GeV. (b) and (d) also show the cumulant as measured in AMPT for $p$+Au and $d$+Au, respectively, indicated by the green line. The shaded green band indicates the statistical uncertainty on the AMPT values.'
+keywords: # used for searching, possibly mutliple values for each keywords
+- {name: reactions, values: [$d$+Au$\implies$ CHARGED X, $p$+Au\implies$ CHARGED X]}
+- {name: cmenergies, values: [200.0]}
+- {name: phrases, values: [ppg206, multiparticle-correlation measurements, beam-energy-scan, collectivity]}
+data_file: ppg206fig1ab.yaml
+additional_resources:
+- {description: Figure 1a & b, location: Figure1ab.png}
+---
+name: "Figure 1c & d"
+
+location: Data From Fig. 1c & d of PRL 120 (2018) 062302
+description: 'Components $\langle\langle$4$\rangle\rangle$ and 2$\langle\langle$2$\rangle\rangle^{2}$ and cumulant $c_2${4} = $\langle\langle$4$\rangle\rangle$ - 2$\langle\langle$2$\rangle\rangle^{2}$ as a function of $N^{FVTX}_{tracks}$. (a) and (b) show the components and cumulant, respectively, in $p$+Au collisions at $\sqrt{s_{NN}}$ = 200 GeV. (c) and (d) show the components and cumulant, respectively, in $d$+Au collisions at $\sqrt{s_{NN}}$ = 200 GeV. (b) and (d) also show the cumulant as measured in AMPT for $p$+Au and $d$+Au, respectively, indicated by the green line. The shaded green band indicates the statistical uncertainty on the AMPT values.'
+keywords: # used for searching, possibly mutliple values for each keywords
+- {name: reactions, values: [$d$+Au$\implies$ CHARGED X, $p$+Au\implies$ CHARGED X]}
+- {name: cmenergies, values: [200.0]}
+- {name: phrases, values: [ppg206, multiparticle-correlation measurements, beam-energy-scan, collectivity]}
+data_file: ppg206fig1cd.yaml
+additional_resources:
+- {description: Figure 1c & d, location: Figure1cd.png}
+---
+name: "Figure 2a pt.1"
+
+location: Data From Fig. 2a of PRL 120 (2018) 062302
+description: '$v_2${2}, $v_2${2, |$\Delta\eta$| > 2}, and $v_2${4} as a function of $N^{FVTX}_{tracks}$ in $d$+Au collisions with $\sqrt{s_{NN}}$= (a) 200 GeV, (b) 62.4 GeV, (c) 39 GeV, and (d) 19.6 GeV; also shown in (a) is $v_2${6} for $\sqrt{s_{NN}}$= 200 GeV. The arrowheads on the statistical uncertainties indicate cases where the standard 1$\sigma$ uncertainty on the $c_2${4} crosses zero. For 19.6 GeV, the combined confidence interval for $v_2${4} to be real is 79%.'
+keywords: # used for searching, possibly mutliple values for each keywords
+- {name: reactions, values: [$d$+Au$\implies$ CHARGED X, $p$+Au\implies$ CHARGED X]}
+- {name: cmenergies, values: [200.0]}
+- {name: phrases, values: [ppg206, multiparticle-correlation measurements, beam-energy-scan, collectivity]}
+data_file: ppg206fig2a1.yaml
+additional_resources:
+- {description: Figure 2a, location: Figure2.png}
+---
+name: "Figure 2a pt.2"
+
+location: Data From Fig. 2a of PRL 120 (2018) 062302
+description: '$v_2${2}, $v_2${2, |$\Delta\eta$| > 2}, and $v_2${4} as a function of $N^{FVTX}_{tracks}$ in $d$+Au collisions with $\sqrt{s_{NN}}$= (a) 200 GeV, (b) 62.4 GeV, (c) 39 GeV, and (d) 19.6 GeV; also shown in (a) is $v_2${6} for $\sqrt{s_{NN}}$= 200 GeV. The arrowheads on the statistical uncertainties indicate cases where the standard 1$\sigma$ uncertainty on the $c_2${4} crosses zero. For 19.6 GeV, the combined confidence interval for $v_2${4} to be real is 79%.'
+keywords: # used for searching, possibly mutliple values for each keywords
+- {name: reactions, values: [$d$+Au$\implies$ CHARGED X, $p$+Au\implies$ CHARGED X]}
+- {name: cmenergies, values: [200.0]}
+- {name: phrases, values: [ppg206, multiparticle-correlation measurements, beam-energy-scan, collectivity]}
+data_file: ppg206fig2a2.yaml
+additional_resources:
+- {description: Figure 2a, location: Figure2.png}
+---
+name: "Figure 2a pt.3"
+
+location: Data From Fig. 2a of PRL 120 (2018) 062302
+description: '$v_2${2}, $v_2${2, |$\Delta\eta$| > 2}, and $v_2${4} as a function of $N^{FVTX}_{tracks}$ in $d$+Au collisions with $\sqrt{s_{NN}}$= (a) 200 GeV, (b) 62.4 GeV, (c) 39 GeV, and (d) 19.6 GeV; also shown in (a) is $v_2${6} for $\sqrt{s_{NN}}$= 200 GeV. The arrowheads on the statistical uncertainties indicate cases where the standard 1$\sigma$ uncertainty on the $c_2${4} crosses zero. For 19.6 GeV, the combined confidence interval for $v_2${4} to be real is 79%.'
+keywords: # used for searching, possibly mutliple values for each keywords
+- {name: reactions, values: [$d$+Au$\implies$ CHARGED X, $p$+Au\implies$ CHARGED X]}
+- {name: cmenergies, values: [200.0]}
+- {name: phrases, values: [ppg206, multiparticle-correlation measurements, beam-energy-scan, collectivity]}
+data_file: ppg206fig2a3.yaml
+additional_resources:
+- {description: Figure 2a, location: Figure2.png}
+---
+name: "Figure 2b pt.1"
+
+location: Data From Fig. 2b of PRL 120 (2018) 062302
+description: '$v_2${2}, $v_2${2, |$\Delta\eta$| > 2}, and $v_2${4} as a function of $N^{FVTX}_{tracks}$ in $d$+Au collisions with $\sqrt{s_{NN}}$= (a) 200 GeV, (b) 62.4 GeV, (c) 39 GeV, and (d) 19.6 GeV; also shown in (a) is $v_2${6} for $\sqrt{s_{NN}}$= 200 GeV. The arrowheads on the statistical uncertainties indicate cases where the standard 1$\sigma$ uncertainty on the $c_2${4} crosses zero. For 19.6 GeV, the combined confidence interval for $v_2${4} to be real is 79%.'
+keywords: # used for searching, possibly mutliple values for each keywords
+- {name: reactions, values: [$d$+Au$\implies$ CHARGED X, $p$+Au\implies$ CHARGED X]}
+- {name: cmenergies, values: [200.0]}
+- {name: phrases, values: [ppg206, multiparticle-correlation measurements, beam-energy-scan, collectivity]}
+data_file: ppg206fig2b1.yaml
+additional_resources:
+- {description: Figure 2b, location: Figure2.png}
+---
+name: "Figure 2b pt.2"
+
+location: Data From Fig. 2b of PRL 120 (2018) 062302
+description: '$v_2${2}, $v_2${2, |$\Delta\eta$| > 2}, and $v_2${4} as a function of $N^{FVTX}_{tracks}$ in $d$+Au collisions with $\sqrt{s_{NN}}$= (a) 200 GeV, (b) 62.4 GeV, (c) 39 GeV, and (d) 19.6 GeV; also shown in (a) is $v_2${6} for $\sqrt{s_{NN}}$= 200 GeV. The arrowheads on the statistical uncertainties indicate cases where the standard 1$\sigma$ uncertainty on the $c_2${4} crosses zero. For 19.6 GeV, the combined confidence interval for $v_2${4} to be real is 79%.'
+keywords: # used for searching, possibly mutliple values for each keywords
+- {name: reactions, values: [$d$+Au$\implies$ CHARGED X, $p$+Au\implies$ CHARGED X]}
+- {name: cmenergies, values: [200.0]}
+- {name: phrases, values: [ppg206, multiparticle-correlation measurements, beam-energy-scan, collectivity]}
+data_file: ppg206fig2b2.yaml
+additional_resources:
+- {description: Figure 2b, location: Figure2.png}
+---
+name: "Figure 2b pt.3"
+
+location: Data From Fig. 2b of PRL 120 (2018) 062302
+description: '$v_2${2}, $v_2${2, |$\Delta\eta$| > 2}, and $v_2${4} as a function of $N^{FVTX}_{tracks}$ in $d$+Au collisions with $\sqrt{s_{NN}}$= (a) 200 GeV, (b) 62.4 GeV, (c) 39 GeV, and (d) 19.6 GeV; also shown in (a) is $v_2${6} for $\sqrt{s_{NN}}$= 200 GeV. The arrowheads on the statistical uncertainties indicate cases where the standard 1$\sigma$ uncertainty on the $c_2${4} crosses zero. For 19.6 GeV, the combined confidence interval for $v_2${4} to be real is 79%.'
+keywords: # used for searching, possibly mutliple values for each keywords
+- {name: reactions, values: [$d$+Au$\implies$ CHARGED X, $p$+Au\implies$ CHARGED X]}
+- {name: cmenergies, values: [200.0]}
+- {name: phrases, values: [ppg206, multiparticle-correlation measurements, beam-energy-scan, collectivity]}
+data_file: ppg206fig2b3.yaml
+additional_resources:
+- {description: Figure 2b, location: Figure2.png}
+---
+name: "Figure 2c pt.1"
+
+location: Data From Fig. 2c of PRL 120 (2018) 062302
+description: '$v_2${2}, $v_2${2, |$\Delta\eta$| > 2}, and $v_2${4} as a function of $N^{FVTX}_{tracks}$ in $d$+Au collisions with $\sqrt{s_{NN}}$= (a) 200 GeV, (b) 62.4 GeV, (c) 39 GeV, and (d) 19.6 GeV; also shown in (a) is $v_2${6} for $\sqrt{s_{NN}}$= 200 GeV. The arrowheads on the statistical uncertainties indicate cases where the standard 1$\sigma$ uncertainty on the $c_2${4} crosses zero. For 19.6 GeV, the combined confidence interval for $v_2${4} to be real is 79%.'
+keywords: # used for searching, possibly mutliple values for each keywords
+- {name: reactions, values: [$d$+Au$\implies$ CHARGED X, $p$+Au\implies$ CHARGED X]}
+- {name: cmenergies, values: [200.0]}
+- {name: phrases, values: [ppg206, multiparticle-correlation measurements, beam-energy-scan, collectivity]}
+data_file: ppg206fig2c1.yaml
+additional_resources:
+- {description: Figure 2c, location: Figure2.png}
+---
+name: "Figure 2c pt.2"
+
+location: Data From Fig. 2c of PRL 120 (2018) 062302
+description: '$v_2${2}, $v_2${2, |$\Delta\eta$| > 2}, and $v_2${4} as a function of $N^{FVTX}_{tracks}$ in $d$+Au collisions with $\sqrt{s_{NN}}$= (a) 200 GeV, (b) 62.4 GeV, (c) 39 GeV, and (d) 19.6 GeV; also shown in (a) is $v_2${6} for $\sqrt{s_{NN}}$= 200 GeV. The arrowheads on the statistical uncertainties indicate cases where the standard 1$\sigma$ uncertainty on the $c_2${4} crosses zero. For 19.6 GeV, the combined confidence interval for $v_2${4} to be real is 79%.'
+keywords: # used for searching, possibly mutliple values for each keywords
+- {name: reactions, values: [$d$+Au$\implies$ CHARGED X, $p$+Au\implies$ CHARGED X]}
+- {name: cmenergies, values: [200.0]}
+- {name: phrases, values: [ppg206, multiparticle-correlation measurements, beam-energy-scan, collectivity]}
+data_file: ppg206fig2c2.yaml
+additional_resources:
+- {description: Figure 2c, location: Figure2.png}
+---
+name: "Figure 2c pt.3"
+
+location: Data From Fig. 2c of PRL 120 (2018) 062302
+description: '$v_2${2}, $v_2${2, |$\Delta\eta$| > 2}, and $v_2${4} as a function of $N^{FVTX}_{tracks}$ in $d$+Au collisions with $\sqrt{s_{NN}}$= (a) 200 GeV, (b) 62.4 GeV, (c) 39 GeV, and (d) 19.6 GeV; also shown in (a) is $v_2${6} for $\sqrt{s_{NN}}$= 200 GeV. The arrowheads on the statistical uncertainties indicate cases where the standard 1$\sigma$ uncertainty on the $c_2${4} crosses zero. For 19.6 GeV, the combined confidence interval for $v_2${4} to be real is 79%.'
+keywords: # used for searching, possibly mutliple values for each keywords
+- {name: reactions, values: [$d$+Au$\implies$ CHARGED X, $p$+Au\implies$ CHARGED X]}
+- {name: cmenergies, values: [200.0]}
+- {name: phrases, values: [ppg206, multiparticle-correlation measurements, beam-energy-scan, collectivity]}
+data_file: ppg206fig2c3.yaml
+additional_resources:
+- {description: Figure 2c, location: Figure2.png}
+---
+name: "Figure 2d pt.1"
+
+location: Data From Fig. 2d of PRL 120 (2018) 062302
+description: '$v_2${2}, $v_2${2, |$\Delta\eta$| > 2}, and $v_2${4} as a function of $N^{FVTX}_{tracks}$ in $d$+Au collisions with $\sqrt{s_{NN}}$= (a) 200 GeV, (b) 62.4 GeV, (c) 39 GeV, and (d) 19.6 GeV; also shown in (a) is $v_2${6} for $\sqrt{s_{NN}}$= 200 GeV. The arrowheads on the statistical uncertainties indicate cases where the standard 1$\sigma$ uncertainty on the $c_2${4} crosses zero. For 19.6 GeV, the combined confidence interval for $v_2${4} to be real is 79%.'
+keywords: # used for searching, possibly mutliple values for each keywords
+- {name: reactions, values: [$d$+Au$\implies$ CHARGED X, $p$+Au\implies$ CHARGED X]}
+- {name: cmenergies, values: [200.0]}
+- {name: phrases, values: [ppg206, multiparticle-correlation measurements, beam-energy-scan, collectivity]}
+data_file: ppg206fig2d1.yaml
+additional_resources:
+- {description: Figure 2d, location: Figure2.png}
+---
+name: "Figure 2d pt.2"
+
+location: Data From Fig. 2d of PRL 120 (2018) 062302
+description: '$v_2${2}, $v_2${2, |$\Delta\eta$| > 2}, and $v_2${4} as a function of $N^{FVTX}_{tracks}$ in $d$+Au collisions with $\sqrt{s_{NN}}$= (a) 200 GeV, (b) 62.4 GeV, (c) 39 GeV, and (d) 19.6 GeV; also shown in (a) is $v_2${6} for $\sqrt{s_{NN}}$= 200 GeV. The arrowheads on the statistical uncertainties indicate cases where the standard 1$\sigma$ uncertainty on the $c_2${4} crosses zero. For 19.6 GeV, the combined confidence interval for $v_2${4} to be real is 79%.'
+keywords: # used for searching, possibly mutliple values for each keywords
+- {name: reactions, values: [$d$+Au$\implies$ CHARGED X, $p$+Au\implies$ CHARGED X]}
+- {name: cmenergies, values: [200.0]}
+- {name: phrases, values: [ppg206, multiparticle-correlation measurements, beam-energy-scan, collectivity]}
+data_file: ppg206fig2d2n.yaml
+additional_resources:
+- {description: Figure 2d, location: Figure2.png}
+---
+name: "Figure 2d pt.3"
+
+location: Data From Fig. 2d of PRL 120 (2018) 062302
+description: '$v_2${2}, $v_2${2, |$\Delta\eta$| > 2}, and $v_2${4} as a function of $N^{FVTX}_{tracks}$ in $d$+Au collisions with $\sqrt{s_{NN}}$= (a) 200 GeV, (b) 62.4 GeV, (c) 39 GeV, and (d) 19.6 GeV; also shown in (a) is $v_2${6} for $\sqrt{s_{NN}}$= 200 GeV. The arrowheads on the statistical uncertainties indicate cases where the standard 1$\sigma$ uncertainty on the $c_2${4} crosses zero. For 19.6 GeV, the combined confidence interval for $v_2${4} to be real is 79%.'
+keywords: # used for searching, possibly mutliple values for each keywords
+- {name: reactions, values: [$d$+Au$\implies$ CHARGED X, $p$+Au\implies$ CHARGED X]}
+- {name: cmenergies, values: [200.0]}
+- {name: phrases, values: [ppg206, multiparticle-correlation measurements, beam-energy-scan, collectivity]}
+data_file: ppg206fig2d3.yaml
+additional_resources:
+- {description: Figure 2d, location: Figure2.png}
+---
+name: "Figure 3"
+
+location: Data From Fig. 3 of PRL 120 (2018) 062302
+description: '$v_2${2} and $v_2${4} as a function of $\sqrt{s_{NN}}$ in $d$+Au collisions. AMPT calculations are shown for comparison. For 19.6 GeV the confidence interval for $v_2${4} to be real is 79%.'
+keywords: # used for searching, possibly mutliple values for each keywords
+- {name: reactions, values: [$d$+Au$\implies$ CHARGED X, $p$+Au\implies$ CHARGED X]}
+- {name: cmenergies, values: [200.0]}
+- {name: phrases, values: [ppg206, multiparticle-correlation measurements, beam-energy-scan, collectivity]}
+data_file: ppg206fig3.yaml
+additional_resources:
+- {description: Figure 3, location: Figure3.png}

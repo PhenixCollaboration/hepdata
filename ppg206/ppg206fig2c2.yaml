@@ -1,0 +1,28 @@
+independent_variables:
+- header: {name: '$N^{FVTX}_{tracks}$'}
+  values:
+  - {low: 9.5, high: 14.5}
+  - {low: 14.5, high: 19.5}
+  - {low: 19.5, high: 24.5}
+  - {low: 24.5, high: 29.5}
+dependent_variables:
+- header: {name: '$v_2${4}'}
+  qualifiers:
+  - {name: '$\sqrt{s_{NN}}$', value: '39 GeV'}
+  values:
+  - value: 6.31E-2
+    errors:
+    - {symerror: 6.69E-3, label: 'stat.'}
+    - {symerror: 9.03E-3, label: 'syst.'}
+  - value: 6.40E-2
+    errors:
+    - {symerror: 5.29E-3, label: 'stat.'}
+    - {symerror: 9.16E-3, label: 'syst.'}
+  - value: 6.51E-2
+    errors:
+    - {symerror: 7.23E-3, label: 'stat.'}
+    - {symerror: 9.32E-3, label: 'syst.'}
+  - value: 6.98E-2
+    errors:
+    - {symerror: 1.18E-2, label: 'stat.'}
+    - {symerror: 9.99E-3, label: 'syst.'}
