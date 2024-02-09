@@ -1,0 +1,59 @@
+independent_variables:
+- header: {name: ' '}
+  values:
+  - {value: 'Double ratio'}
+dependent_variables:
+- header: {name: ' '}
+  qualifiers:
+  - {name: 'Collision System', value: '$p$+Au'}
+  - {name: 'Rapidity', value: 'fwd'}
+  values:
+  - value: 0.97
+    errors:
+    - {symerror: 0.15, label: 'stat.'}
+    - {symerror: 0.12, label: 'sys.'}
+- header: {name: ' '}
+  qualifiers:
+  - {name: 'Collision System', value: '$p$+Au'}
+  - {name: 'Rapidity', value: 'bwd'}
+  values:
+  - value: 0.48
+    errors:
+    - {symerror: 0.17, label: 'stat.'}
+    - {symerror: 0.07, label: 'sys.'}
+- header: {name: ' '}
+  qualifiers:
+  - {name: 'Collision System', value: '$p$+Al'}
+  - {name: 'Rapidity', value: 'fwd'}
+  values:
+  - value: 1.12
+    errors:
+    - {symerror: 0.26, label: 'stat.'}
+    - {symerror: 0.05, label: 'sys.'}
+- header: {name: ' '}
+  qualifiers:
+  - {name: 'Collision System', value: '$p$+Al'}
+  - {name: 'Rapidity', value: 'bwd'}
+  values:
+  - value: 0.56
+    errors:
+    - {symerror: 0.25, label: 'stat.'}
+    - {symerror: 0.06, label: 'sys.'}
+- header: {name: ' '}
+  qualifiers:
+  - {name: 'Collision System', value: '$^3$He+Au'}
+  - {name: 'Rapidity', value: 'fwd'}
+  values:
+  - value: 0.92
+    errors:
+    - {symerror: 0.32, label: 'stat.'}
+    - {symerror: 0.13, label: 'sys.'}
+- header: {name: ' '}
+  qualifiers:
+  - {name: 'Collision System', value: '$^3$He+Au'}
+  - {name: 'Rapidity', value: 'bwd'}
+  values:
+  - value: 0.65
+    errors:
+    - {symerror: 0.27, label: 'stat.'}
+    - {symerror: 0.25, label: 'sys.'}
