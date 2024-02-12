@@ -159,10 +159,10 @@ additional_resources:
 # This is Figure 8.
 name: "Figure 8a"
 location: Data From Fig. 8 of PRC 92 (2015) 034913
-description: '$v_2$ for inclusive charged hadrons in Au+Au at $\sqrt{s_{NN}}$ = 62.4 GeV compared with 200 GeV.'
+description: '$v_2$ for inclusive charged hadrons in Cu+Cu at $\sqrt{s_{NN}}$ = 62.4 GeV compared with 200 GeV.'
 keywords: # used for searching, possibly mutliple values for each keywords
 - {name: reactions, values: [Cu Cu --> CHARGED X]}
-- {name: cmenergies, values: [200.0, 62.4]}
+- {name: cmenergies, values: [200.0]}
 - {name: phrases, values: [ppg124, azimuthal anisotropy]}
 data_file: ppg124fig8a.yaml
 additional_resources:
@@ -173,10 +173,10 @@ additional_resources:
 # This is Figure 8.
 name: "Figure 8b"
 location: Data From Fig. 8 of PRC 92 (2015) 034913
-description: '$v_2$ for inclusive charged hadrons in Au+Au at $\sqrt{s_{NN}}$ = 62.4 GeV compared with 200 GeV.'
+description: '$v_2$ for inclusive charged hadrons in Cu+Cu at $\sqrt{s_{NN}}$ = 62.4 GeV compared with 200 GeV.'
 keywords: # used for searching, possibly mutliple values for each keywords
 - {name: reactions, values: [Cu Cu --> CHARGED X]}
-- {name: cmenergies, values: [200.0, 62.4]}
+- {name: cmenergies, values: [200.0]}
 - {name: phrases, values: [ppg124, azimuthal anisotropy]}
 data_file: ppg124fig8b.yaml
 additional_resources:
@@ -187,10 +187,10 @@ additional_resources:
 # This is Figure 8.
 name: "Figure 8c"
 location: Data From Fig. 8 of PRC 92 (2015) 034913
-description: '$v_2$ for inclusive charged hadrons in Au+Au at $\sqrt{s_{NN}}$ = 62.4 GeV compared with 200 GeV.'
+description: '$v_2$ for inclusive charged hadrons in Cu+Cu at $\sqrt{s_{NN}}$ = 62.4 GeV compared with 200 GeV.'
 keywords: # used for searching, possibly mutliple values for each keywords
 - {name: reactions, values: [Cu Cu --> CHARGED X]}
-- {name: cmenergies, values: [200.0, 62.4]}
+- {name: cmenergies, values: [62.4]}
 - {name: phrases, values: [ppg124, azimuthal anisotropy]}
 data_file: ppg124fig8c.yaml
 additional_resources:
@@ -201,7 +201,7 @@ additional_resources:
 # This is Figure 9.
 name: "Figure 9a"
 location: Data From Fig. 9 of PRC 92 (2015) 034913
-description: 'Comparison of integrated $v_2$ at $\sqrt{s_{NN}}$ = 62.4 and 200 GeV.'
+description: 'Comparison of integrated $v_2$ at $\sqrt{s_{NN}}$ = 62.4 and 200 GeV. Au+Au reaction.'
 keywords: # used for searching, possibly mutliple values for each keywords
 - {name: reactions, values: [Au Au --> CHARGED X]}
 - {name: cmenergies, values: [62.4]}
@@ -215,7 +215,7 @@ additional_resources:
 # This is Figure 9.
 name: "Figure 9b"
 location: Data From Fig. 9 of PRC 92 (2015) 034913
-description: 'Comparison of integrated $v_2$ at $\sqrt{s_{NN}}$ = 62.4 and 200 GeV.'
+description: 'Comparison of integrated $v_2$ at $\sqrt{s_{NN}}$ = 62.4 and 200 GeV. Au+Au reaction.'
 keywords: # used for searching, possibly mutliple values for each keywords
 - {name: reactions, values: [Au Au --> CHARGED X]}
 - {name: cmenergies, values: [200.0]}
@@ -229,7 +229,7 @@ additional_resources:
 # This is Figure 10.
 name: "Figure 10a"
 location: Data From Fig. 10 of PRC 92 (2015) 034913
-description: 'Comparison of integrated $v_2$ at $\sqrt{s_{NN}}$ = 62.4 and 200 GeV.'
+description: 'Comparison of integrated $v_2$ at $\sqrt{s_{NN}}$ = 62.4 and 200 GeV. Cu+Cu reaction.'
 keywords: # used for searching, possibly mutliple values for each keywords
 - {name: reactions, values: [Cu Cu --> CHARGED X]}
 - {name: cmenergies, values: [62.4]}
@@ -243,7 +243,7 @@ additional_resources:
 # This is Figure 10.
 name: "Figure 10b"
 location: Data From Fig. 10 of PRC 92 (2015) 034913
-description: 'Comparison of integrated $v_2$ at $\sqrt{s_{NN}}$ = 62.4 and 200 GeV.'
+description: 'Comparison of integrated $v_2$ at $\sqrt{s_{NN}}$ = 62.4 and 200 GeV. Cu+Cu reaction.'
 keywords: # used for searching, possibly mutliple values for each keywords
 - {name: reactions, values: [Cu Cu --> CHARGED X]}
 - {name: cmenergies, values: [200.0]}
@@ -553,7 +553,7 @@ name: "Figure 15a-1"
 location: Data From Fig. 15 of PRC 92 (2015) 034913
 description: 'Comparison of $v_2$ between $\sqrt{s_{NN}}$ = 62.4 GeV and 200 GeV for $\pi$/$K$/$p$ emitted from central Au+Au collisions.'
 keywords: # used for searching, possibly mutliple values for each keywords
-- {name: reactions, values: [Cu Cu --> CHARGED X, Au Au --> CHARGED X]}
+- {name: reactions, values: [Au Au --> CHARGED X]}
 - {name: cmenergies, values: [200.0]}
 - {name: phrases, values: [ppg124, azimuthal anisotropy]}
 data_file: ppg124fig15a1.yaml
@@ -567,7 +567,7 @@ name: "Figure 15a-2"
 location: Data From Fig. 15 of PRC 92 (2015) 034913
 description: 'Comparison of $v_2$ between $\sqrt{s_{NN}}$ = 62.4 GeV and 200 GeV for $\pi$/$K$/$p$ emitted from central Au+Au collisions.'
 keywords: # used for searching, possibly mutliple values for each keywords
-- {name: reactions, values: [Cu Cu --> CHARGED X, Au Au --> CHARGED X]}
+- {name: reactions, values: [Au Au --> CHARGED X]}
 - {name: cmenergies, values: [200.0]}
 - {name: phrases, values: [ppg124, azimuthal anisotropy]}
 data_file: ppg124fig15a2.yaml
@@ -581,7 +581,7 @@ name: "Figure 15a-3"
 location: Data From Fig. 15 of PRC 92 (2015) 034913
 description: 'Comparison of $v_2$ between $\sqrt{s_{NN}}$ = 62.4 GeV and 200 GeV for $\pi$/$K$/$p$ emitted from central Au+Au collisions.'
 keywords: # used for searching, possibly mutliple values for each keywords
-- {name: reactions, values: [Cu Cu --> CHARGED X, Au Au --> CHARGED X]}
+- {name: reactions, values: [Au Au --> CHARGED X]}
 - {name: cmenergies, values: [200.0]}
 - {name: phrases, values: [ppg124, azimuthal anisotropy]}
 data_file: ppg124fig15a3.yaml
@@ -595,7 +595,7 @@ name: "Figure 15a-4"
 location: Data From Fig. 15 of PRC 92 (2015) 034913
 description: 'Comparison of $v_2$ between $\sqrt{s_{NN}}$ = 62.4 GeV and 200 GeV for $\pi$/$K$/$p$ emitted from central Au+Au collisions.'
 keywords: # used for searching, possibly mutliple values for each keywords
-- {name: reactions, values: [Cu Cu --> CHARGED X, Au Au --> CHARGED X]}
+- {name: reactions, values: [Au Au --> CHARGED X]}
 - {name: cmenergies, values: [200.0]}
 - {name: phrases, values: [ppg124, azimuthal anisotropy]}
 data_file: ppg124fig15a4.yaml
@@ -609,7 +609,7 @@ name: "Figure 15b-1"
 location: Data From Fig. 15 of PRC 92 (2015) 034913
 description: 'Comparison of $v_2$ between $\sqrt{s_{NN}}$ = 62.4 GeV and 200 GeV for $\pi$/$K$/$p$ emitted from central Au+Au collisions.'
 keywords: # used for searching, possibly mutliple values for each keywords
-- {name: reactions, values: [Cu Cu --> CHARGED X, Au Au --> CHARGED X]}
+- {name: reactions, values: [Au Au --> CHARGED X]}
 - {name: cmenergies, values: [62.4]}
 - {name: phrases, values: [ppg124, azimuthal anisotropy]}
 data_file: ppg124fig15b1.yaml
@@ -623,7 +623,7 @@ name: "Figure 15b-2"
 location: Data From Fig. 15 of PRC 92 (2015) 034913
 description: 'Comparison of $v_2$ between $\sqrt{s_{NN}}$ = 62.4 GeV and 200 GeV for $\pi$/$K$/$p$ emitted from central Au+Au collisions.'
 keywords: # used for searching, possibly mutliple values for each keywords
-- {name: reactions, values: [Cu Cu --> CHARGED X, Au Au --> CHARGED X]}
+- {name: reactions, values: [Au Au --> CHARGED X]}
 - {name: cmenergies, values: [62.4]}
 - {name: phrases, values: [ppg124, azimuthal anisotropy]}
 data_file: ppg124fig15b2.yaml
@@ -637,7 +637,7 @@ name: "Figure 15b-3"
 location: Data From Fig. 15 of PRC 92 (2015) 034913
 description: 'Comparison of $v_2$ between $\sqrt{s_{NN}}$ = 62.4 GeV and 200 GeV for $\pi$/$K$/$p$ emitted from central Au+Au collisions.'
 keywords: # used for searching, possibly mutliple values for each keywords
-- {name: reactions, values: [Cu Cu --> CHARGED X, Au Au --> CHARGED X]}
+- {name: reactions, values: [Au Au --> CHARGED X]}
 - {name: cmenergies, values: [62.4]}
 - {name: phrases, values: [ppg124, azimuthal anisotropy]}
 data_file: ppg124fig15b3.yaml
