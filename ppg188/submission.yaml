@@ -27,7 +27,7 @@ keywords: # used for searching, possibly mutliple values for each keywords
 data_file: Table1a.yaml
 additional_resources:
 - {description: Thumbnail Image file, location: thumb_Fig4.png}
-- {description: Thumbnail Image file, location: Fig4.eps}
+- {description: Original EPS Image file, location: Fig4.eps}
 ---
 name: "Table 1-b"
 location: Data From Table I and Figure 4 of PRC 95 (2017) 034904 
@@ -39,7 +39,7 @@ keywords: # used for searching, possibly mutliple values for each keywords
 data_file: Table1b.yaml
 additional_resources:
 - {description: Thumbnail Image file, location: thumb_Fig4.png}
-- {description: Thumbnail Image file, location: Fig4.eps}
+- {description: Original EPS Image file, location: Fig4.eps}
 ---
 name: "Table 1-c"
 location: Data From Table I and Figure 4 of PRC 95 (2017) 034904 
@@ -51,9 +51,33 @@ keywords: # used for searching, possibly mutliple values for each keywords
 data_file: Table1c.yaml
 additional_resources:
 - {description: Thumbnail Image file, location: thumb_Fig4.png}
-- {description: Thumbnail Image file, location: Fig4.eps}
+- {description: Original EPS Image file, location: Fig4.eps}
 ---
-name: "Table 2-a"
+name: "Figure 3"
+location: Data From Figure 3 of PRC 95 (2017) 034904
+description: The ratio of $\psi(2S)$ to  $J/\psi(1S)$ cross sections, as measured in the  dimuon decay channel in pp collisions at 200 GeV over the rapidity interval $1.2<|y|<2.2$, as a function of transverse momentum $p_{T}$.
+keywords: # used for searching, possibly mutliple values for each keywords
+- {name: reactions, values: [$p$ + $p$ --> CHARGED X]}
+- {name: cmenergies, values: [200]}
+- {name: phrases, values: [ppg188, $\Psi$(2S) meson, $\Psi$(1S) meson, forward rapidity, backward rapidity, color screening, deconfined quark-gluon plasma]}
+data_file: Figure3.yaml
+additional_resources:
+- {description: Thumbnail Image file, location: thumb_Fig3.png}
+- {description: Original EPS Image file, location: Fig3.eps}
+---
+name: "Figure 4"
+location: Data From Figure 4 of PRC 95 (2017) 034904
+description: The double ratios $[\sigma_{\psi(2S)}/\sigma_{\psi(1S)}]_{pA}/[\sigma_{\psi(2S)}/\sigma_{\psi(1S)}]_{pp}$. The global systematic uncertainty is $\pm 14\%$.
+keywords: # used for searching, possibly mutliple values for each keywords
+- {name: reactions, values: [$p$ + Al --> CHARGED X, $p$ + Au --> CHARGED X, 3He + Au --> CHARGED X]}
+- {name: cmenergies, values: [200]}
+- {name: phrases, values: [ppg188, $\Psi$(2S) meson, $\Psi$(1S) meson, forward rapidity, backward rapidity, color screening, deconfined quark-gluon plasma]}
+data_file: Figure4.yaml
+additional_resources:
+- {description: Thumbnail Image file, location: thumb_Fig4.png}
+- {description: Original EPS Image file, location: Fig4.eps}
+---
+name: "Figure 5-a"
 location: Data From Table II and Figure 5 of PRC 95 (2017) 034904
 description: The charged-particle multiplicity $dN_{ch}/d\eta$ determined from AMPT simulations and the nuclear overlap $S_T$ from Glauber simulations for the data shown in Fig. 5. Here we assume $dN/d\eta$ = $\frac{3}{2}dN_{ch}/d\eta$.
 keywords: # used for searching, possibly mutliple values for each keywords
@@ -63,9 +87,9 @@ keywords: # used for searching, possibly mutliple values for each keywords
 data_file: Table2a.yaml
 additional_resources:
 - {description: Thumbnail Image file, location: thumb_Fig5.png}
-- {description: Thumbnail Image file, location: Fig5.eps}
+- {description: Original EPS Image file, location: Fig5.eps}
 ---
-name: "Table 2-b"
+name: "Figure 5-b"
 location: Data From Table II and Figure 5 of PRC 95 (2017) 034904
 description: The charged-particle multiplicity $dN_{ch}/d\eta$ determined from AMPT simulations and the nuclear overlap $S_T$ from Glauber simulations for the data shown in Fig. 5. Here we assume $dN/d\eta$ = $\frac{3}{2}dN_{ch}/d\eta$.
 keywords: # used for searching, possibly mutliple values for each keywords
@@ -75,9 +99,9 @@ keywords: # used for searching, possibly mutliple values for each keywords
 data_file: Table2b.yaml
 additional_resources:
 - {description: Thumbnail Image file, location: thumb_Fig5.png}
-- {description: Thumbnail Image file, location: Fig5.eps}
+- {description: Original EPS Image file, location: Fig5.eps}
 ---
-name: "Table 2-c"
+name: "Figure 5-c"
 location: Data From Table II and Figure 5 of PRC 95 (2017) 034904
 description: The charged-particle multiplicity $dN_{ch}/d\eta$ determined from AMPT simulations and the nuclear overlap $S_T$ from Glauber simulations for the data shown in Fig. 5. Here we assume $dN/d\eta$ = $\frac{3}{2}dN_{ch}/d\eta$.
 keywords: # used for searching, possibly mutliple values for each keywords
@@ -87,5 +111,14 @@ keywords: # used for searching, possibly mutliple values for each keywords
 data_file: Table2c.yaml
 additional_resources:
 - {description: Thumbnail Image file, location: thumb_Fig5.png}
-- {description: Thumbnail Image file, location: Fig5.eps}
+- {description: Original EPS Image file, location: Fig5.eps}
+---
+name: "Supplemental"
+location: Data From Table 1 of PRC 95 (2017) 034904
+description: Data table for $\sigma_{\psi(2S)}/\sigma_{\psi(1S)}$ ratios, measured in the dimuon decay channel. Here "fwd" refers to the forward rapidity interval $1.2<y<2.2$, "bwd" refers to the backward rapidity interval $-2.2<y<-1.2$, and "comb" refers to the rapidity interval $1.2<|y|<2.2$.
+keywords: # used for searching, possibly mutliple values for each keywords
+- {name: reactions, values: [$p$ +$p$ --> CHARGED X, $p$ + Al --> CHARGED X, $p$ + Au --> CHARGED X, 3He + Au --> CHARGED X]}
+- {name: cmenergies, values: [200]}
+- {name: phrases, values: [ppg188, $\Psi$(2S) meson, $\Psi$(1S) meson, forward rapidity, backward rapidity, color screening, deconfined quark-gluon plasma]}
+data_file: supplemental.yaml
 ---

@@ -1,138 +1,114 @@
 independent_variables:
 - header: {name: '$\sqrt{s_{NN}}$ (GeV)'}
   values:
-  - {value: 7}
-  - {value: 19}
+  - {value: 7.7}
+  - {value: 19.6}
   - {value: 27}
   - {value: 39}
-  - {value: 62}
+  - {value: 62.4}
   - {value: 200}
 dependent_variables:
 - header: {name: '$\mu / \sigma^2$'}
   values:
   - value: 0.2778
     errors:
-    - {symerror: 0.0889, label: 'stat. + sys.'}
     - {symerror: 0.0019, label: 'stat.'}
     - {symerror: 0.0889, label: 'sys.'}
   - value: 0.1644
     errors:
-    - {symerror: 0.0345, label: 'stat. + sys.'}
     - {symerror: 6e-4, label: 'stat.'}
     - {symerror: 0.0345, label: 'sys.'}
   - value: 0.12338
     errors:
-    - {symerror: 0.01480, label: 'stat. + sys.'}
     - {symerror: 2.9e-4, label: 'stat.'}
     - {symerror: 0.01480, label: 'sys.'}
   - value: 0.07496
     errors:
-    - {symerror: 0.00749, label: 'stat. + sys.'}
     - {symerror: 1.6e-4, label: 'stat.'}
     - {symerror: 0.00749, label: 'sys.'}
   - value: 0.04849
     errors:
-    - {symerror: 0.00485, label: 'stat. + sys.'}
     - {symerror: 5e-5, label: 'stat.'}
     - {symerror: 0.00485, label: 'sys.'}
   - value: 0.017044
     errors:
-    - {symerror: 0.004600, label: 'stat. + sys.'}
     - {symerror: 2.1e-5, label: 'stat.'}
     - {symerror: 0.004600, label: 'sys.'}
 - header: {name: '$S \sigma$'}
   values:
   - value: 0.377
     errors:
-    - {symerror: 0.102, label: 'stat. + sys.'}
     - {symerror: 0.029, label: 'stat.'}
     - {symerror: 0.098, label: 'sys.'}
   - value: 0.235
     errors:
-    - {symerror: 0.038, label: 'stat. + sys.'}
     - {symerror: 0.014, label: 'stat.'}
     - {symerror: 0.035, label: 'sys.'}
   - value: 0.143
     errors:
-    - {symerror: 0.032, label: 'stat. + sys.'}
     - {symerror: 0.008, label: 'stat.'}
     - {symerror: 0.031, label: 'sys.'}
   - value: 0.112
     errors:
-    - {symerror: 0.017, label: 'stat. + sys.'}
     - {symerror: 0.005, label: 'stat.'}
     - {symerror: 0.017, label: 'sys.'}
   - value: 0.0580
     errors:
-    - {symerror: 0.0096, label: 'stat. + sys.'}
     - {symerror: 0.0024, label: 'stat.'}
     - {symerror: 0.0093, label: 'sys.'}
   - value: 0.0205
     errors:
-    - {symerror: 0.0073, label: 'stat. + sys.'}
     - {symerror: 0.0022, label: 'stat.'}
     - {symerror: 0.0070, label: 'sys.'}
 - header: {name: '$\kappa \sigma^2$'}
   values:
   - value: 1.58
     errors:
-    - {symerror: 0.26, label: 'stat. + sys.'}
     - {symerror: 0.17, label: 'stat.'}
     - {symerror: 0.21, label: 'sys.'}
   - value: 1.61
     errors:
-    - {symerror: 0.28, label: 'stat. + sys.'}
     - {symerror: 0.11, label: 'stat.'}
     - {symerror: 0.26, label: 'sys.'}
   - value: 1.57
     errors:
-    - {symerror: 0.30, label: 'stat. + sys.'}
     - {symerror: 0.06, label: 'stat.'}
     - {symerror: 0.30, label: 'sys.'}
   - value: 1.26
     errors:
-    - {symerror: 0.21, label: 'stat. + sys.'}
     - {symerror: 0.04, label: 'stat.'}
     - {symerror: 0.20, label: 'sys.'}
   - value: 1.217
     errors:
-    - {symerror: 0.220, label: 'stat. + sys.'}
     - {symerror: 0.019, label: 'stat.'}
     - {symerror: 0.219, label: 'sys.'}
   - value: 1.291
     errors:
-    - {symerror: 0.285, label: 'stat. + sys.'}
     - {symerror: 0.027, label: 'stat.'}
     - {symerror: 0.284, label: 'sys.'}
-- header: {name: '$S \sigma^3 / $\mu$'}
+- header: {name: '$S \sigma^3 / \mu$'}
   values:
   - value: 1.36
     errors:
-    - {symerror: 0.43, label: 'stat. + sys.'}
     - {symerror: 0.11, label: 'stat.'}
     - {symerror: 0.42, label: 'sys.'}
   - value: 1.43
     errors:
-    - {symerror: 0.38, label: 'stat. + sys.'}
     - {symerror: 0.09, label: 'stat.'}
     - {symerror: 0.37, label: 'sys.'}
   - value: 1.16
     errors:
-    - {symerror: 0.33, label: 'stat. + sys.'}
     - {symerror: 0.07, label: 'stat.'}
     - {symerror: 0.32, label: 'sys.'}
   - value: 1.49
     errors:
-    - {symerror: 0.29, label: 'stat. + sys.'}
     - {symerror: 0.07, label: 'stat.'}
     - {symerror: 0.28, label: 'sys.'}
   - value: 1.20
     errors:
-    - {symerror: 0.21, label: 'stat. + sys.'}
     - {symerror: 0.05, label: 'stat.'}
     - {symerror: 0.20, label: 'sys.'}
   - value: 1.21
     errors:
-    - {symerror: 0.41, label: 'stat. + sys.'}
     - {symerror: 0.13, label: 'stat.'}
     - {symerror: 0.39, label: 'sys.'}
