@@ -1,5 +1,5 @@
 independent_variables:
-- header: {name: '$pT$'}
+- header: {name: '$p_{T}(GeV/c)$'}
   values:
   - {low: 12.2, high: 14.5}
   - {low: 14.5, high: 17.3}
@@ -11,10 +11,10 @@ independent_variables:
 dependent_variables:
 - header: {name: '$R_{dAu}$'}
   values:
-  - value: 1.17439
+  - value: 1.17
     errors:
-    - {symerror: 0.0518982, label: 'stat. err.'}
-    - {asymerror: {plus: 0.1869, minus: 0.1869}, label: 'sys. err.'}
+    - {symerror: 0.05, label: 'stat. err.'}
+    - {asymerror: {plus: 0.19, minus: 0.19}, label: 'sys. err.'}
   - value: 1.07
     errors:
     - {symerror: 0.06, label: 'stat. err.'}

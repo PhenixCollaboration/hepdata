@@ -1,5 +1,5 @@
 independent_variables:
-- header: {name: '$pT$'}
+- header: {name: '$p_{T}(GeV/c)$'}
   values:
   - {low: 12.2, high: 14.5}
   - {low: 14.5, high: 17.3}
@@ -9,16 +9,15 @@ independent_variables:
   - {low: 29.4, high: 35.1}
   - {low: 35.1, high: 41.9}
 dependent_variables:
-- header: {name: '$cross-sec.$'}
+- header: {name: 'd$^{2}\sigma/$d$p$ d$\eta$ ($mb/GeV$)'}
   qualifiers:
   - {name: 'Collision', value: '$p+p$'}
   - {name: 'Centrality', value: ''}
-  - {name: 'c-s multiple', value: ''}
   values:
-  - value: 7.78079e-05
+  - value: 7.78e-5
     errors:
-    - {symerror: 3.20523e-06, label: 'stat. err.'}
-    - {asymerror: {plus: 2.29797e-05, minus: 2.26953e-05}, label: 'sys. err.'}
+    - {symerror: 3.2e-6, label: 'stat. err.'}
+    - {asymerror: {plus: 2.30e-5, minus: 2.27e-5}, label: 'sys. err.'}
   - value: 2.46e-5
     errors:
     - {symerror: 1.3e-6, label: 'stat. err.'}
@@ -43,16 +42,15 @@ dependent_variables:
     errors:
     - {symerror: 2.1e-8, label: 'stat. err.'}
     - {asymerror: {plus: 2.1e-8, minus: 2.1e-8}, label: 'sys. err.'}
-- header: {name: '$cross-sec.$'}
+- header: {name: 'd$^{2}N/$d$p$ d$\eta/T$ ($mb/GeV$)'}
   qualifiers:
   - {name: 'Collision', value: 'd+Au'}
   - {name: 'Centrality', value: '$60-88\%$'}
-  - {name: 'c-s multiple', value: '$10$'}
   values:
-  - value: 8.01302e-05
+  - value: 8.01e-5
     errors:
-    - {symerror: 2.05203e-06, label: 'stat. err.'}
-    - {asymerror: {plus: 1.50403e-05, minus: 1.44829e-05}, label: 'sys. err.'}
+    - {symerror: 2.1e-6, label: 'stat. err.'}
+    - {asymerror: {plus: 1.50e-5, minus: 1.45e-5}, label: 'sys. err.'}
   - value: 2.24e-5
     errors:
     - {symerror: 8e-7, label: 'stat. err.'}
@@ -77,16 +75,15 @@ dependent_variables:
     errors:
     - {symerror: 1.2e-8, label: 'stat. err.'}
     - {asymerror: {plus: 2.1e-8, minus: 2.1e-8}, label: 'sys. err.'}
-- header: {name: '$cross-sec.$'}
+- header: {name: 'd$^{2}N/$d$p$ d$\eta/T$ ($mb/GeV$)'}
   qualifiers:
   - {name: 'Collision', value: 'd+Au'}
-  - {name: 'Centrality', value: '$40-600\%$'}
-  - {name: 'c-s multiple', value: '$100$'}
+  - {name: 'Centrality', value: '$40-60\%$'}
   values:
-  - value: 9.92958e-05
+  - value: 9.93e-5
     errors:
-    - {symerror: 2.30426e-06, label: 'stat. err.'}
-    - {asymerror: {plus: 2.12615e-05, minus: 2.06613e-05}, label: 'sys. err.'}
+    - {symerror: 2.3e-6, label: 'stat. err.'}
+    - {asymerror: {plus: 2.13e-5, minus: 2.07e-5}, label: 'sys. err.'}
   - value: 2.80e-5
     errors:
     - {symerror: 8e-7, label: 'stat. err.'}
@@ -111,16 +108,15 @@ dependent_variables:
     errors:
     - {symerror: 4e-9, label: 'stat. err.'}
     - {asymerror: {plus: 5e-9, minus: 5e-9}, label: 'sys. err.'}
-- header: {name: '$cross-sec.$'}
+- header: {name: 'd$^{2}N/$d$p$ d$\eta/T$ ($mb/GeV$)'}
   qualifiers:
   - {name: 'Collision', value: 'd+Au'}
   - {name: 'Centrality', value: '$20-40\%$'}
-  - {name: 'c-s multiple', value: '$1000$'}
   values:
-  - value: 0.000102338
+  - value: 1.02e-4
     errors:
-    - {symerror: 3.73207e-06, label: 'stat. err.'}
-    - {asymerror: {plus: 2.41017e-05, minus: 2.35613e-05}, label: 'sys. err.'}
+    - {symerror: 4e-6, label: 'stat. err.'}
+    - {asymerror: {plus: 2.4e-5, minus: 2.4e-5}, label: 'sys. err.'}
   - value: 3.17e-5
     errors:
     - {symerror: 1.5e-6, label: 'stat. err.'}
@@ -145,16 +141,15 @@ dependent_variables:
     errors:
     - {symerror: 1.6e-8, label: 'stat. err.'}
     - {asymerror: {plus: 2.0e-8, minus: 2.0e-8}, label: 'sys. err.'}
-- header: {name: '$cross-sec.$'}
+- header: {name: 'd$^{2}N/$d$p$ d$\eta/T$ ($mb/GeV$)'}
   qualifiers:
   - {name: 'Collision', value: 'd+Au'}
   - {name: 'Centrality', value: '$0-20\%$'}
-  - {name: 'c-s multiple', value: '$10000$'}
   values:
-  - value: 0.000105069
+  - value: 1.05e-4
     errors:
-    - {symerror: 3.74152e-06, label: 'stat. err.'}
-    - {asymerror: {plus: 2.61222e-05, minus: 2.56359e-05}, label: 'sys. err.'}
+    - {symerror: 4e-6, label: 'stat. err.'}
+    - {asymerror: {plus: 2.6e-5, minus: 2.6e-5}, label: 'sys. err.'}
   - value: 3.12e-5
     errors:
     - {symerror: 1.4e-6, label: 'stat. err.'}

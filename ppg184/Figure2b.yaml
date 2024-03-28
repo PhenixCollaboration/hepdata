@@ -1,5 +1,5 @@
 independent_variables:
-- header: {name: '$pT$'}
+- header: {name: '$p_{T}(GeV/c)$'}
   values:
   - {low: 12.2, high: 14.5}
   - {low: 14.5, high: 17.3}
@@ -13,10 +13,10 @@ dependent_variables:
   qualifiers:
   - {name: 'Centrality', value: '$0-20\%$'}
   values:
-  - value: 0.969085
+  - value: 0.97
     errors:
-    - {symerror: 0.0470058, label: 'stat. err.'}
-    - {asymerror: {plus: 0.22306, minus: 0.22306}, label: 'sys. err.'}
+    - {symerror: 0.05, label: 'stat. err.'}
+    - {asymerror: {plus: 0.22, minus: 0.22}, label: 'sys. err.'}
   - value: 0.86
     errors:
     - {symerror: 0.05, label: 'stat. err.'}
@@ -45,10 +45,10 @@ dependent_variables:
   qualifiers:
   - {name: 'Centrality', value: '$20-40\%$'}
   values:
-  - value: 1.27617
+  - value: 1.28
     errors:
-    - {symerror: 0.0603382, label: 'stat. err.'}
-    - {asymerror: {plus: 0.253854, minus: 0.253854}, label: 'sys. err.'}
+    - {symerror: 0.06, label: 'stat. err.'}
+    - {asymerror: {plus: 0.25, minus: 0.25}, label: 'sys. err.'}
   - value: 1.14
     errors:
     - {symerror: 0.07, label: 'stat. err.'}
@@ -77,10 +77,10 @@ dependent_variables:
   qualifiers:
   - {name: 'Centrality', value: '$40-60\%$'}
   values:
-  - value: 1.35998
+  - value: 1.36
     errors:
-    - {symerror: 0.0748222, label: 'stat. err.'}
-    - {asymerror: {plus: 0.150573, minus: 0.150573}, label: 'sys. err.'}
+    - {symerror: 0.07, label: 'stat. err.'}
+    - {asymerror: {plus: 0.15, minus: 0.15}, label: 'sys. err.'}
   - value: 1.33
     errors:
     - {symerror: 0.09, label: 'stat. err.'}
@@ -109,10 +109,10 @@ dependent_variables:
   qualifiers:
   - {name: 'Centrality', value: '$60-88\%$'}
   values:
-  - value: 1.39223
+  - value: 1.39
     errors:
-    - {symerror: 0.0758098, label: 'stat. err.'}
-    - {asymerror: {plus: 0.19587, minus: 0.19587}, label: 'sys. err.'}
+    - {symerror: 0.08, label: 'stat. err.'}
+    - {asymerror: {plus: 0.20, minus: 0.20}, label: 'sys. err.'}
   - value: 1.31
     errors:
     - {symerror: 0.09, label: 'stat. err.'}
