@@ -1,0 +1,107 @@
+independent_variables:
+- header: {name: '$pT$'}
+  values:
+  - {low: 12.2, high: 14.5}
+  - {low: 14.5, high: 17.3}
+  - {low: 17.3, high: 20.7}
+  - {low: 20.7, high: 24.7}
+  - {low: 24.7, high: 29.4}
+  - {low: 29.4, high: 35.1}
+  - {low: 35.1, high: 41.9}
+dependent_variables:
+- header: {name: '$R_{CP}$'}
+  qualifiers:
+  - {name: 'Centrality', value: '$0-20\%$ / $60-88\%$'}
+  values:
+  - value: 0.696068
+    errors:
+    - {symerror: 0.030531, label: 'stat. err.'}
+    - {asymerror: {plus: 0.13923, minus: 0.13923}, label: 'sys. err.'}
+  - value: 0.66
+    errors:
+    - {symerror: 0.04, label: 'stat. err.'}
+    - {asymerror: {plus: 0.11, minus: 0.11}, label: 'sys. err.'}
+  - value: 0.63
+    errors:
+    - {symerror: 0.05, label: 'stat. err.'}
+    - {asymerror: {plus: 0.14, minus: 0.14}, label: 'sys. err.'}
+  - value: 0.58
+    errors:
+    - {symerror: 0.06, label: 'stat. err.'}
+    - {asymerror: {plus: 0.23, minus: 0.23}, label: 'sys. err.'}
+  - value: 0.55
+    errors:
+    - {symerror: 0.11, label: 'stat. err.'}
+    - {asymerror: {plus: 0.28, minus: 0.28}, label: 'sys. err.'}
+  - value: 0.68
+    errors:
+    - {symerror: 0.24, label: 'stat. err.'}
+    - {asymerror: {plus: 0.31, minus: 0.31}, label: 'sys. err.'}
+  - value: 1.1
+    errors:
+    - {symerror: 0.5, label: 'stat. err.'}
+    - {asymerror: {plus: 0.6, minus: 0.6}, label: 'sys. err.'}
+- header: {name: '$R_{CP}$'}
+  qualifiers:
+  - {name: 'Centrality', value: '$20-40\%$ / $60-88\%$'}
+  values:
+  - value: 0.92
+    errors:
+    - {symerror: 0.04, label: 'stat. err.'}
+    - {asymerror: {plus: 0.10, minus: 0.10}, label: 'sys. err.'}
+  - value: 0.87
+    errors:
+    - {symerror: 0.05, label: 'stat. err.'}
+    - {asymerror: {plus: 0.11, minus: 0.11}, label: 'sys. err.'}
+  - value: 0.82
+    errors:
+    - {symerror: 0.06, label: 'stat. err.'}
+    - {asymerror: {plus: 0.15, minus: 0.15}, label: 'sys. err.'}
+  - value: 0.71
+    errors:
+    - {symerror: 0.07, label: 'stat. err.'}
+    - {asymerror: {plus: 0.20, minus: 0.20}, label: 'sys. err.'}
+  - value: 0.60
+    errors:
+    - {symerror: 0.13, label: 'stat. err.'}
+    - {asymerror: {plus: 0.24, minus: 0.24}, label: 'sys. err.'}
+  - value: 0.51
+    errors:
+    - {symerror: 0.19, label: 'stat. err.'}
+    - {asymerror: {plus: 0.28, minus: 0.28}, label: 'sys. err.'}
+  - value: 0.46
+    errors:
+    - {symerror: 0.22, label: 'stat. err.'}
+    - {asymerror: {plus: 0.36, minus: 0.36}, label: 'sys. err.'}
+- header: {name: '$R_{CP}$'}
+  qualifiers:
+  - {name: 'Centrality', value: '$40-60\%$ / $60-88\%$'}
+  values:
+  - value: 0.98
+    errors:
+    - {symerror: 0.05, label: 'stat. err.'}
+    - {asymerror: {plus: 0.12, minus: 0.12}, label: 'sys. err.'}
+  - value: 1.02
+    errors:
+    - {symerror: 0.07, label: 'stat. err.'}
+    - {asymerror: {plus: 0.05, minus: 0.05}, label: 'sys. err.'}
+  - value: 1.01
+    errors:
+    - {symerror: 0.09, label: 'stat. err.'}
+    - {asymerror: {plus: 0.13, minus: 0.13}, label: 'sys. err.'}
+  - value: 0.89
+    errors:
+    - {symerror: 0.11, label: 'stat. err.'}
+    - {asymerror: {plus: 0.27, minus: 0.27}, label: 'sys. err.'}
+  - value: 0.76
+    errors:
+    - {symerror: 0.17, label: 'stat. err.'}
+    - {asymerror: {plus: 0.37, minus: 0.37}, label: 'sys. err.'}
+  - value: 0.86
+    errors:
+    - {symerror: 0.34, label: 'stat. err.'}
+    - {asymerror: {plus: 0.48, minus: 0.48}, label: 'sys. err.'}
+  - value: 1.2
+    errors:
+    - {symerror: 0.7, label: 'stat. err.'}
+    - {asymerror: {plus: 1.0, minus: 1.0}, label: 'sys. err.'}

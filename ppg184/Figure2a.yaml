@@ -1,0 +1,41 @@
+independent_variables:
+- header: {name: '$pT$'}
+  values:
+  - {low: 12.2, high: 14.5}
+  - {low: 14.5, high: 17.3}
+  - {low: 17.3, high: 20.7}
+  - {low: 20.7, high: 24.7}
+  - {low: 24.7, high: 29.4}
+  - {low: 29.4, high: 35.1}
+  - {low: 35.1, high: 41.9}
+dependent_variables:
+- header: {name: '$R_{dAu}$'}
+  values:
+  - value: 1.17439
+    errors:
+    - {symerror: 0.0518982, label: 'stat. err.'}
+    - {asymerror: {plus: 0.1869, minus: 0.1869}, label: 'sys. err.'}
+  - value: 1.07
+    errors:
+    - {symerror: 0.06, label: 'stat. err.'}
+    - {asymerror: {plus: 0.14, minus: 0.14}, label: 'sys. err.'}
+  - value: 0.92
+    errors:
+    - {symerror: 0.08, label: 'stat. err.'}
+    - {asymerror: {plus: 0.19, minus: 0.19}, label: 'sys. err.'}
+  - value: 0.79
+    errors:
+    - {symerror: 0.09, label: 'stat. err.'}
+    - {asymerror: {plus: 0.22, minus: 0.22}, label: 'sys. err.'}
+  - value: 0.79
+    errors:
+    - {symerror: 0.13, label: 'stat. err.'}
+    - {asymerror: {plus: 0.29, minus: 0.29}, label: 'sys. err.'}
+  - value: 0.80
+    errors:
+    - {symerror: 0.23, label: 'stat. err.'}
+    - {asymerror: {plus: 0.15, minus: 0.15}, label: 'sys. err.'}
+  - value: 0.7
+    errors:
+    - {symerror: 0.4, label: 'stat. err.'}
+    - {asymerror: {plus: 0.5, minus: 0.5}, label: 'sys. err.'}

@@ -1,0 +1,181 @@
+independent_variables:
+- header: {name: '$pT$'}
+  values:
+  - {low: 12.2, high: 14.5}
+  - {low: 14.5, high: 17.3}
+  - {low: 17.3, high: 20.7}
+  - {low: 20.7, high: 24.7}
+  - {low: 24.7, high: 29.4}
+  - {low: 29.4, high: 35.1}
+  - {low: 35.1, high: 41.9}
+dependent_variables:
+- header: {name: '$cross-sec.$'}
+  qualifiers:
+  - {name: 'Collision', value: '$p+p$'}
+  - {name: 'Centrality', value: ''}
+  - {name: 'c-s multiple', value: ''}
+  values:
+  - value: 7.78079e-05
+    errors:
+    - {symerror: 3.20523e-06, label: 'stat. err.'}
+    - {asymerror: {plus: 2.29797e-05, minus: 2.26953e-05}, label: 'sys. err.'}
+  - value: 2.46e-5
+    errors:
+    - {symerror: 1.3e-6, label: 'stat. err.'}
+    - {asymerror: {plus: 7.0e-6, minus: 6.9e-6}, label: 'sys. err.'}
+  - value: 8.8e-6
+    errors:
+    - {symerror: 7e-7, label: 'stat. err.'}
+    - {asymerror: {plus: 3.0e-6, minus: 3.0e-6}, label: 'sys. err.'}
+  - value: 2.95e-6
+    errors:
+    - {symerror: 3.0e-7, label: 'stat. err.'}
+    - {asymerror: {plus: 1.21e-6, minus: 1.21e-6}, label: 'sys. err.'}
+  - value: 8.0e-7
+    errors:
+    - {symerror: 1.2e-7, label: 'stat. err.'}
+    - {asymerror: {plus: 3.8e-7, minus: 3.8e-7}, label: 'sys. err.'}
+  - value: 1.9e-7
+    errors:
+    - {symerror: 5e-8, label: 'stat. err.'}
+    - {asymerror: {plus: 8e-8, minus: 8e-8}, label: 'sys. err.'}
+  - value: 4.1e-8
+    errors:
+    - {symerror: 2.1e-8, label: 'stat. err.'}
+    - {asymerror: {plus: 2.1e-8, minus: 2.1e-8}, label: 'sys. err.'}
+- header: {name: '$cross-sec.$'}
+  qualifiers:
+  - {name: 'Collision', value: 'd+Au'}
+  - {name: 'Centrality', value: '$60-88\%$'}
+  - {name: 'c-s multiple', value: '$10$'}
+  values:
+  - value: 8.01302e-05
+    errors:
+    - {symerror: 2.05203e-06, label: 'stat. err.'}
+    - {asymerror: {plus: 1.50403e-05, minus: 1.44829e-05}, label: 'sys. err.'}
+  - value: 2.24e-5
+    errors:
+    - {symerror: 8e-7, label: 'stat. err.'}
+    - {asymerror: {plus: 4.2e-6, minus: 4.2e-6}, label: 'sys. err.'}
+  - value: 6.90e-6
+    errors:
+    - {symerror: 3.5e-7, label: 'stat. err.'}
+    - {asymerror: {plus: 1.30e-6, minus: 1.29e-6}, label: 'sys. err.'}
+  - value: 2.01e-6
+    errors:
+    - {symerror: 1.4e-7, label: 'stat. err.'}
+    - {asymerror: {plus: 4.0e-7, minus: 4.0e-7}, label: 'sys. err.'}
+  - value: 5.7e-7
+    errors:
+    - {symerror: 6e-8, label: 'stat. err.'}
+    - {asymerror: {plus: 1.3e-7, minus: 1.3e-7}, label: 'sys. err.'}
+  - value: 1.61e-7
+    errors:
+    - {symerror: 3.0e-8, label: 'stat. err.'}
+    - {asymerror: {plus: 6.3e-8, minus: 6.3e-8}, label: 'sys. err.'}
+  - value: 3.7e-8
+    errors:
+    - {symerror: 1.2e-8, label: 'stat. err.'}
+    - {asymerror: {plus: 2.1e-8, minus: 2.1e-8}, label: 'sys. err.'}
+- header: {name: '$cross-sec.$'}
+  qualifiers:
+  - {name: 'Collision', value: 'd+Au'}
+  - {name: 'Centrality', value: '$40-600\%$'}
+  - {name: 'c-s multiple', value: '$100$'}
+  values:
+  - value: 9.92958e-05
+    errors:
+    - {symerror: 2.30426e-06, label: 'stat. err.'}
+    - {asymerror: {plus: 2.12615e-05, minus: 2.06613e-05}, label: 'sys. err.'}
+  - value: 2.80e-5
+    errors:
+    - {symerror: 8e-7, label: 'stat. err.'}
+    - {asymerror: {plus: 6.8e-6, minus: 6.8e-6}, label: 'sys. err.'}
+  - value: 8.40e-6
+    errors:
+    - {symerror: 3.2e-7, label: 'stat. err.'}
+    - {asymerror: {plus: 2.20e-6, minus: 2.19e-6}, label: 'sys. err.'}
+  - value: 2.32e-6
+    errors:
+    - {symerror: 1.3e-7, label: 'stat. err.'}
+    - {asymerror: {plus: 6.9e-7, minus: 6.9e-7}, label: 'sys. err.'}
+  - value: 5.8e-7
+    errors:
+    - {symerror: 7e-8, label: 'stat. err.'}
+    - {asymerror: {plus: 1.7e-7, minus: 1.7e-7}, label: 'sys. err.'}
+  - value: 1.13e-7
+    errors:
+    - {symerror: 2.5e-8, label: 'stat. err.'}
+    - {asymerror: {plus: 3.4e-8, minus: 3.4e-8}, label: 'sys. err.'}
+  - value: 1.5e-8
+    errors:
+    - {symerror: 4e-9, label: 'stat. err.'}
+    - {asymerror: {plus: 5e-9, minus: 5e-9}, label: 'sys. err.'}
+- header: {name: '$cross-sec.$'}
+  qualifiers:
+  - {name: 'Collision', value: 'd+Au'}
+  - {name: 'Centrality', value: '$20-40\%$'}
+  - {name: 'c-s multiple', value: '$1000$'}
+  values:
+  - value: 0.000102338
+    errors:
+    - {symerror: 3.73207e-06, label: 'stat. err.'}
+    - {asymerror: {plus: 2.41017e-05, minus: 2.35613e-05}, label: 'sys. err.'}
+  - value: 3.17e-5
+    errors:
+    - {symerror: 1.5e-6, label: 'stat. err.'}
+    - {asymerror: {plus: 8.6e-6, minus: 8.6e-6}, label: 'sys. err.'}
+  - value: 1.00e-5
+    errors:
+    - {symerror: 6e-7, label: 'stat. err.'}
+    - {asymerror: {plus: 2.9e-6, minus: 2.9e-6}, label: 'sys. err.'}
+  - value: 2.80e-6
+    errors:
+    - {symerror: 2.6e-7, label: 'stat. err.'}
+    - {asymerror: {plus: 8.5e-7, minus: 8.5e-7}, label: 'sys. err.'}
+  - value: 7.2e-7
+    errors:
+    - {symerror: 1.0e-7, label: 'stat. err.'}
+    - {asymerror: {plus: 2.0e-7, minus: 2.0e-7}, label: 'sys. err.'}
+  - value: 1.8e-7
+    errors:
+    - {symerror: 5e-8, label: 'stat. err.'}
+    - {asymerror: {plus: 6e-8, minus: 6e-8}, label: 'sys. err.'}
+  - value: 3.7e-8
+    errors:
+    - {symerror: 1.6e-8, label: 'stat. err.'}
+    - {asymerror: {plus: 2.0e-8, minus: 2.0e-8}, label: 'sys. err.'}
+- header: {name: '$cross-sec.$'}
+  qualifiers:
+  - {name: 'Collision', value: 'd+Au'}
+  - {name: 'Centrality', value: '$0-20\%$'}
+  - {name: 'c-s multiple', value: '$10000$'}
+  values:
+  - value: 0.000105069
+    errors:
+    - {symerror: 3.74152e-06, label: 'stat. err.'}
+    - {asymerror: {plus: 2.61222e-05, minus: 2.56359e-05}, label: 'sys. err.'}
+  - value: 3.12e-5
+    errors:
+    - {symerror: 1.4e-6, label: 'stat. err.'}
+    - {asymerror: {plus: 8.8e-6, minus: 8.8e-6}, label: 'sys. err.'}
+  - value: 9.9e-6
+    errors:
+    - {symerror: 6e-7, label: 'stat. err.'}
+    - {asymerror: {plus: 3.3e-6, minus: 3.3e-6}, label: 'sys. err.'}
+  - value: 3.16e-6
+    errors:
+    - {symerror: 2.7e-7, label: 'stat. err.'}
+    - {asymerror: {plus: 1.35e-6, minus: 1.35e-6}, label: 'sys. err.'}
+  - value: 9.5e-7
+    errors:
+    - {symerror: 1.7e-7, label: 'stat. err.'}
+    - {asymerror: {plus: 4.9e-7, minus: 4.9e-7}, label: 'sys. err.'}
+  - value: 2.2e-7
+    errors:
+    - {symerror: 7e-8, label: 'stat. err.'}
+    - {asymerror: {plus: 1.2e-7, minus: 1.2e-7}, label: 'sys. err.'}
+  - value: 3.1e-8
+    errors:
+    - {symerror: 1.2e-8, label: 'stat. err.'}
+    - {asymerror: {plus: 1.7e-8, minus: 1.7e-8}, label: 'sys. err.'}

@@ -1,0 +1,139 @@
+independent_variables:
+- header: {name: '$pT$'}
+  values:
+  - {low: 12.2, high: 14.5}
+  - {low: 14.5, high: 17.3}
+  - {low: 17.3, high: 20.7}
+  - {low: 20.7, high: 24.7}
+  - {low: 24.7, high: 29.4}
+  - {low: 29.4, high: 35.1}
+  - {low: 35.1, high: 41.9}
+dependent_variables:
+- header: {name: '$R_{dAu}$'}
+  qualifiers:
+  - {name: 'Centrality', value: '$0-20\%$'}
+  values:
+  - value: 0.969085
+    errors:
+    - {symerror: 0.0470058, label: 'stat. err.'}
+    - {asymerror: {plus: 0.22306, minus: 0.22306}, label: 'sys. err.'}
+  - value: 0.86
+    errors:
+    - {symerror: 0.05, label: 'stat. err.'}
+    - {asymerror: {plus: 0.17, minus: 0.17}, label: 'sys. err.'}
+  - value: 0.74
+    errors:
+    - {symerror: 0.07, label: 'stat. err.'}
+    - {asymerror: {plus: 0.20, minus: 0.20}, label: 'sys. err.'}
+  - value: 0.64
+    errors:
+    - {symerror: 0.08, label: 'stat. err.'}
+    - {asymerror: {plus: 0.26, minus: 0.26}, label: 'sys. err.'}
+  - value: 0.66
+    errors:
+    - {symerror: 0.12, label: 'stat. err.'}
+    - {asymerror: {plus: 0.31, minus: 0.31}, label: 'sys. err.'}
+  - value: 0.78
+    errors:
+    - {symerror: 0.25, label: 'stat. err.'}
+    - {asymerror: {plus: 0.13, minus: 0.13}, label: 'sys. err.'}
+  - value: 0.8
+    errors:
+    - {symerror: 0.5, label: 'stat. err.'}
+    - {asymerror: {plus: 0.7, minus: 0.7}, label: 'sys. err.'}
+- header: {name: '$R_{dAu}$'}
+  qualifiers:
+  - {name: 'Centrality', value: '$20-40\%$'}
+  values:
+  - value: 1.27617
+    errors:
+    - {symerror: 0.0603382, label: 'stat. err.'}
+    - {asymerror: {plus: 0.253854, minus: 0.253854}, label: 'sys. err.'}
+  - value: 1.14
+    errors:
+    - {symerror: 0.07, label: 'stat. err.'}
+    - {asymerror: {plus: 0.14, minus: 0.14}, label: 'sys. err.'}
+  - value: 0.96
+    errors:
+    - {symerror: 0.09, label: 'stat. err.'}
+    - {asymerror: {plus: 0.19, minus: 0.19}, label: 'sys. err.'}
+  - value: 0.79
+    errors:
+    - {symerror: 0.09, label: 'stat. err.'}
+    - {asymerror: {plus: 0.21, minus: 0.21}, label: 'sys. err.'}
+  - value: 0.72
+    errors:
+    - {symerror: 0.14, label: 'stat. err.'}
+    - {asymerror: {plus: 0.26, minus: 0.26}, label: 'sys. err.'}
+  - value: 0.58
+    errors:
+    - {symerror: 0.20, label: 'stat. err.'}
+    - {asymerror: {plus: 0.23, minus: 0.23}, label: 'sys. err.'}
+  - value: 0.36
+    errors:
+    - {symerror: 0.21, label: 'stat. err.'}
+    - {asymerror: {plus: 0.33, minus: 0.33}, label: 'sys. err.'}
+- header: {name: '$R_{dAu}$'}
+  qualifiers:
+  - {name: 'Centrality', value: '$40-60\%$'}
+  values:
+  - value: 1.35998
+    errors:
+    - {symerror: 0.0748222, label: 'stat. err.'}
+    - {asymerror: {plus: 0.150573, minus: 0.150573}, label: 'sys. err.'}
+  - value: 1.33
+    errors:
+    - {symerror: 0.09, label: 'stat. err.'}
+    - {asymerror: {plus: 0.12, minus: 0.12}, label: 'sys. err.'}
+  - value: 1.18
+    errors:
+    - {symerror: 0.12, label: 'stat. err.'}
+    - {asymerror: {plus: 0.23, minus: 0.23}, label: 'sys. err.'}
+  - value: 0.98
+    errors:
+    - {symerror: 0.14, label: 'stat. err.'}
+    - {asymerror: {plus: 0.31, minus: 0.31}, label: 'sys. err.'}
+  - value: 0.93
+    errors:
+    - {symerror: 0.19, label: 'stat. err.'}
+    - {asymerror: {plus: 0.45, minus: 0.45}, label: 'sys. err.'}
+  - value: 0.98
+    errors:
+    - {symerror: 0.36, label: 'stat. err.'}
+    - {asymerror: {plus: 0.30, minus: 0.30}, label: 'sys. err.'}
+  - value: 0.93
+    errors:
+    - {symerror: 0.63, label: 'stat. err.'}
+    - {asymerror: {plus: 0.31, minus: 0.31}, label: 'sys. err.'}
+- header: {name: '$R_{dAu}$'}
+  qualifiers:
+  - {name: 'Centrality', value: '$60-88\%$'}
+  values:
+  - value: 1.39223
+    errors:
+    - {symerror: 0.0758098, label: 'stat. err.'}
+    - {asymerror: {plus: 0.19587, minus: 0.19587}, label: 'sys. err.'}
+  - value: 1.31
+    errors:
+    - {symerror: 0.09, label: 'stat. err.'}
+    - {asymerror: {plus: 0.12, minus: 0.12}, label: 'sys. err.'}
+  - value: 1.17
+    errors:
+    - {symerror: 0.12, label: 'stat. err.'}
+    - {asymerror: {plus: 0.11, minus: 0.11}, label: 'sys. err.'}
+  - value: 1.10
+    errors:
+    - {symerror: 0.15, label: 'stat. err.'}
+    - {asymerror: {plus: 0.15, minus: 0.15}, label: 'sys. err.'}
+  - value: 1.21
+    errors:
+    - {symerror: 0.28, label: 'stat. err.'}
+    - {asymerror: {plus: 0.38, minus: 0.38}, label: 'sys. err.'}
+  - value: 1.1
+    errors:
+    - {symerror: 0.5, label: 'stat. err.'}
+    - {asymerror: {plus: 0.5, minus: 0.5}, label: 'sys. err.'}
+  - value: 0.8
+    errors:
+    - {symerror: 0.5, label: 'stat. err.'}
+    - {asymerror: {plus: 0.8, minus: 0.8}, label: 'sys. err.'}
