@@ -1,94 +1,129 @@
 independent_variables:
-- header: {name: '$p_{T,assoc}$ Bins (GeV/$c$)'}
-  values:
-  - {low: 1.0, high: 1.5}
-  - {low: 1.5, high: 2.0}
-  - {low: 2.0, high: 3.0}
-  - {low: 3.0, high: 4.0}
-  - {low: 4.0, high: 5.0}
-dependent_variables:
 - header: {name: '$p_{T,assoc}$ (GeV/$c$)'}
-  qualifiers:
-  - {name: '', value: ''}
   values:
-  - value: 1.21
-  - value: 1.71
-  - value: 2.37
-  - value: 3.39
-  - value: 4.41
+  - {low: 1, high: 1.5}
+  - {low: 1.5, high: 2}
+  - {low: 2, high: 3}
+  - {low: 3, high: 4}
+  - {low: 4, high: 5}
+dependent_variables:
 - header: {name: 'Ratio of Associated Yield'}
   qualifiers:
-  - {name: '', value: 'Near Side Red'}
+  - {name: '', value: '$\pi^{0}$-$h^{\pm}$'}
+  - {name: '$p_{T,assoc}$ (GeV/$c$)', value: 'Near Side 0-20%'}
   values:
-  - value: 0.978
+  - value: 0.98
     errors:
-    - {symerror: 0.093, label: 'stat.'}
-  - value: 0.871
+    - {symerror: 0.09, label: 'stat.'}
+  - value: 0.87
     errors:
-    - {symerror: 0.068, label: 'stat.'}
-  - value: 0.731
+    - {symerror: 0.07, label: 'stat.'}
+  - value: 0.73
     errors:
-    - {symerror: 0.045, label: 'stat.'}
-  - value: 0.773
+    - {symerror: 0.05, label: 'stat.'}
+  - value: 0.77
     errors:
-    - {symerror: 0.060, label: 'stat.'}
-  - value: 0.798
+    - {symerror: 0.06, label: 'stat.'}
+  - value: 0.80
     errors:
-    - {symerror: 0.094, label: 'stat.'}
+    - {symerror: 0.09, label: 'stat.'}
 - header: {name: 'Ratio of Associated Yield'}
   qualifiers:
-  - {name: '', value: 'Near Side Blue'}
+  - {name: '', value: '$\pi^{0}$-$h^{\pm}$'}
+  - {name: '$p_{T,assoc}$ (GeV/$c$)', value: 'Near Side 20-40%'}
   values:
-  - value: 0.949
+  - value: 0.95
     errors:
-    - {symerror: 0.083, label: 'stat.'}
-  - value: 1.271
+    - {symerror: 0.08, label: 'stat.'}
+  - value: 1.27
     errors:
-    - {symerror: 0.096, label: 'stat.'}
-  - value: 0.848
+    - {symerror: 0.10, label: 'stat.'}
+  - value: 0.85
     errors:
-    - {symerror: 0.053, label: 'stat.'}
-  - value: 0.600
+    - {symerror: 0.05, label: 'stat.'}
+  - value: 0.60
     errors:
-    - {symerror: 0.057, label: 'stat.'}
-  - value: 0.684
+    - {symerror: 0.06, label: 'stat.'}
+  - value: 0.68
     errors:
-    - {symerror: 0.088, label: 'stat.'}
+    - {symerror: 0.09, label: 'stat.'}
 - header: {name: 'Ratio of Associated Yield'}
   qualifiers:
-  - {name: '', value: 'Far Side Red'}
+  - {name: '', value: '$\pi^{0}$-$h^{\pm}$'}
+  - {name: '$p_{T,assoc}$ (GeV/$c$)', value: 'Near Side 40-88%'}
   values:
-  - value: 1.260
+  - value: 0.93
     errors:
-    - {symerror: 0.152, label: 'stat.'}
-  - value: 1.007
+    - {symerror: 0.08, label: 'stat.'}
+  - value: 1.10
     errors:
-    - {symerror: 0.120, label: 'stat.'}
-  - value: 0.982
+    - {symerror: 0.08, label: 'stat.'}
+  - value: 0.87
     errors:
-    - {symerror: 0.096, label: 'stat.'}
-  - value: 1.182
+    - {symerror: 0.05, label: 'stat.'}
+  - value: 0.72
     errors:
-    - {symerror: 0.166, label: 'stat.'}
-  - value: 0.579
+    - {symerror: 0.06, label: 'stat.'}
+  - value: 1.02
     errors:
-    - {symerror: 0.131, label: 'stat.'}
+    - {symerror: 0.12, label: 'stat.'}
 - header: {name: 'Ratio of Associated Yield'}
   qualifiers:
-  - {name: '', value: 'Far Side Blue'}
+  - {name: '', value: '$\pi^{0}$-$h^{\pm}$'}
+  - {name: '$p_{T,assoc}$ (GeV/$c$)', value: 'Far Side 0-20%'}
   values:
-  - value: 1.001
+  - value: 1.26
     errors:
-    - {symerror: 0.133, label: 'stat.'}
-  - value: 1.203
+    - {symerror: 0.15, label: 'stat.'}
+  - value: 1.01
     errors:
-    - {symerror: 0.142, label: 'stat.'}
-  - value: 1.195
+    - {symerror: 0.12, label: 'stat.'}
+  - value: 0.98
     errors:
-    - {symerror: 0.123, label: 'stat.'}
-  - value: 1.107
+    - {symerror: 0.10, label: 'stat.'}
+  - value: 1.18
     errors:
-    - {symerror: 0.155, label: 'stat.'}
-  - value: 1.142
+    - {symerror: 0.17, label: 'stat.'}
+  - value: 0.58
     errors:
-    - {symerror: 0.226, label: 'stat.'}
+    - {symerror: 0.13, label: 'stat.'}
+- header: {name: 'Ratio of Associated Yield'}
+  qualifiers:
+  - {name: '', value: '$\pi^{0}$-$h^{\pm}$'}
+  - {name: '$p_{T,assoc}$ (GeV/$c$)', value: 'Far Side 20-40%'}
+  values:
+  - value: 1.00
+    errors:
+    - {symerror: 0.13, label: 'stat.'}
+  - value: 1.20
+    errors:
+    - {symerror: 0.14, label: 'stat.'}
+  - value: 1.20
+    errors:
+    - {symerror: 0.12, label: 'stat.'}
+  - value: 1.11
+    errors:
+    - {symerror: 0.16, label: 'stat.'}
+  - value: 1.14
+    errors:
+    - {symerror: 0.23, label: 'stat.'}
+- header: {name: 'Ratio of Associated Yield'}
+  qualifiers:
+  - {name: '', value: '$\pi^{0}$-$h^{\pm}$'}
+  - {name: '$p_{T,assoc}$ (GeV/$c$)', value: 'Far Side 40-88%'}
+  values:
+  - value: 1.13
+    errors:
+    - {symerror: 0.13, label: 'stat.'}
+  - value: 0.95
+    errors:
+    - {symerror: 0.11, label: 'stat.'}
+  - value: 1.22
+    errors:
+    - {symerror: 0.12, label: 'stat.'}
+  - value: 1.38
+    errors:
+    - {symerror: 0.18, label: 'stat.'}
+  - value: 1.54
+    errors:
+    - {symerror: 0.24, label: 'stat.'}

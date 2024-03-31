@@ -1,11 +1,11 @@
 independent_variables:
 - header: {name: '$p_{T,trig}$ (GeV/$c$)'}
   values:
-  - value: 1.21
-  - value: 1.71
-  - value: 2.37
-  - value: 3.39
-  - value: 4.41
+  - {low: 1.0, high: 1.5}
+  - {low: 1.5, high: 2.0}
+  - {low: 2.0, high: 3.0}
+  - {low: 3.0, high: 4.0}
+  - {low: 4.0, high: 5.0}
 dependent_variables:
 - header: {name: '$\sqrt{<j^2_{Ty}>}$ (GeV/$c$)'}
   qualifiers:

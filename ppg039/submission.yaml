@@ -5,7 +5,7 @@
 #Phys.Rev.C 73 (2006) 054903
 #InspireHEP ID: 694429
 #
-#Prepared by Nikolas Nelson
+#Prepared by Nikolas Nelson and Andrew McAninch
 #Please contact Christine Nattrass if you have any questions about this submission
 #PPG liaison:
 #Reviewer:
@@ -13,6 +13,7 @@
 comment: | # Information that applies to all data tables.
     Dihadron correlations at high transverse momentum in $d$+Au collisions at $\sqrt{s_{NN}}$ = 200 GeV at midrapidity are measured by the PHENIX experiment at the Relativistic Heavy Ion Collider (RHIC). From these correlations we extract several structural characteristics of jets; the root-mean-squared (RMS) transverse momentum of fragmenting hadrons with respect to the jet $\sqrt{<j_T^2>}$, the mean sine-squared angle between the scattered partons $<sin^2(\phi_{jj})>$, and the number of particles produced within the dijet that are associated with a high-$p_T$ particle ($dN/dx_E$ distributions). We observe that the fragmentation characteristics of jets in $d$+Au collisions are very similar to those in $p$+$p$ collisions and that there is also little dependence on the centrality of the $d$+Au collision. This is consistent with the nuclear medium having little influence on the fragmentation process. Furthermore, there is no statistically significant increase in the value of $<sin^2(\phi_{jj})>$ from $p$+$p$ to $d$+Au collisions. This constrains the amount of multiple scattering that partons undergo in the cold nuclear medium before and after a hard-collision.
 additional_resources:
+- {location: "https://phenix-intra.sdcc.bnl.gov/WWW/p/info/ppg/039/", description: "web page with data points"}
 - {location: "http://arxiv.org/abs/nucl-ex/0510021", description: arXiv}
 - {location: "https://inspirehep.net/literature/694429", description: InspireHEP}
 ---
@@ -21,7 +22,7 @@ name: "Figure 5"
 location: Data From Fig. 5 of PRL C 73 (2006) 054903
 description: 'Measured $\gamma\gamma$ invariant mass distribution for 6 < $p_T$ < 7 GeV/$c$ in central $d$+Au collisions.'
 keywords: # used for searching, possibly mutliple values for each keywords
-- {name: reactions, values: [Au Au --> CHARGED X]}
+- {name: reactions, values: [d Au --> CHARGED X, p p --> CHARGED X]}
 - {name: cmenergies, values: [200.0]}
 - {name: phrases, values: [ppg039, transverse momentum, midrapidity]}
 data_file: ppg039fig5.yaml
@@ -34,7 +35,7 @@ name: "Figure 10"
 location: Data From Fig. 10 of PRL C 73 (2006) 054903
 description: 'The comparison of near-side yield, near-side width, far-side yield, and far-side width as a function of $p_T$ of charged hadrons. These are obtained for $\pi^{\pm}$ - $h^{\pm}$ correlation from PYTHIA, with a trigger pion of 6 - 10 GeV/$c$.'
 keywords: # used for searching, possibly mutliple values for each keywords
-- {name: reactions, values: [Au Au --> CHARGED X]}
+- {name: reactions, values: [d Au --> CHARGED X, p p --> CHARGED X]}
 - {name: cmenergies, values: [200.0]}
 - {name: phrases, values: [ppg039, transverse momentum, midrapidity]}
 data_file: ppg039fig10.yaml
@@ -42,25 +43,12 @@ additional_resources:
 - {description: PNG Image file, location: simacccompare1.png}
 - {description: Thumbnail Image file, location: thumb_simacccompare1.png}
 ---
-# This is Figure 11.
-name: "Figure 11"
-location: Data From Fig. 11 of PRL C 73 (2006) 054903
-description: 'The ratio of the jet width or corrected yield obtained from the event mixing method to those without the acceptance filter.'
-keywords: # used for searching, possibly mutliple values for each keywords
-- {name: reactions, values: [Au Au --> CHARGED X]}
-- {name: cmenergies, values: [200.0]}
-- {name: phrases, values: [ppg039, transverse momentum, midrapidity]}
-data_file: ppg039fig11.yaml
-additional_resources:
-- {description: PNG Image file, location: simacccompare2.png}
-- {description: Thumbnail Image file, location: thumb_simacccompare2.png}
----
 # This is Figure 13.
 name: "Figure 13"
 location: Data From Fig. 13 of PRL C 73 (2006) 054903
 description: 'Fully corrected assorted charged pion-hadron conditional pair distributions for $d$+Au collisions centrality 0-80% and $p$+$p$ collisions. The trigger $\pi^{\pm}$s are within 5 < $p_{T,trig}$ < 10 GeV/$c$ and are correlated with hadrons with $p_{T,assoc}$ 0.4-1.0 GeV/$c$, 1.0-2.0 GeV/$c$, 2.0-3.0 GeV/$c$, and 3.0-5.0 GeV/$c$.'
 keywords: # used for searching, possibly mutliple values for each keywords
-- {name: reactions, values: [Au Au --> CHARGED X]}
+- {name: reactions, values: [d Au --> CHARGED X, p p --> CHARGED X]}
 - {name: cmenergies, values: [200.0]}
 - {name: phrases, values: [ppg039, transverse momentum, midrapidity]}
 data_file: ppg039fig13.yaml
@@ -73,7 +61,7 @@ name: "Figure 14"
 location: Data From Fig. 14 of PRL C 73 (2006) 054903
 description: 'Fully corrected assorted $\pi^{0}$-hadron conditional pair distributions for $d$+Au collisions centrality 0-88% and $p$+$p$ collisions. The trigger $\pi^0$s are within 5 < $p_{T,trig}$ < 10 GeV/$c$ and are correlated with hadrons with $p_{T,assoc}$ of 1.5-2 GeV/$c$, 2-3GeV/$c$, 3-4 GeV/$c$, and 4-5 GeV/$c$.'
 keywords: # used for searching, possibly mutliple values for each keywords
-- {name: reactions, values: [Au Au --> CHARGED X]}
+- {name: reactions, values: [d Au --> CHARGED X, p p --> CHARGED X]}
 - {name: cmenergies, values: [200.0]}
 - {name: phrases, values: [ppg039, transverse momentum, midrapidity]}
 data_file: ppg039fig14.yaml
@@ -86,10 +74,10 @@ name: "Figure 15"
 location: Data From Fig. 15 of PRL C 73 (2006) 054903
 description: 'Near- and far-side widths as a function of $p_{T, assoc}$ for charged hadron azimuthal correlations from minimumbias $d$+Au collisions.'
 keywords: # used for searching, possibly mutliple values for each keywords
-- {name: reactions, values: [Au Au --> CHARGED X]}
+- {name: reactions, values: [d Au --> CHARGED X, p p --> CHARGED X]}
 - {name: cmenergies, values: [200.0]}
 - {name: phrases, values: [ppg039, transverse momentum, midrapidity]}
-data_file: ppg039fig15.yaml
+data_file: fig15.yaml
 additional_resources:
 - {description: PNG Image file, location: fig15.png}
 - {description: Thumbnail Image file, location: thumb_fig15.png}
@@ -99,7 +87,7 @@ name: "Figure 16a"
 location: Data From Fig. 16 of PRL C 73 (2006) 054903
 description: 'Near-side width, far-side width as a function of $p_{T,assoc}$ for a charged pion and neutral pion triggers from the $p_{T,trig}$ range of 5-10 GeV/$c$ in minimum bias $d$+Au collisions.'
 keywords: # used for searching, possibly mutliple values for each keywords
-- {name: reactions, values: [Au Au --> CHARGED X]}
+- {name: reactions, values: [d Au --> CHARGED X, p p --> CHARGED X]}
 - {name: cmenergies, values: [200.0]}
 - {name: phrases, values: [ppg039, transverse momentum, midrapidity]}
 data_file: ppg039fig16a.yaml
@@ -112,7 +100,7 @@ name: "Figure 16b"
 location: Data From Fig. 16 of PRL C 73 (2006) 054903
 description: 'Near-side width, far-side width as a function of $p_{T,assoc}$ for a charged pion and neutral pion triggers from the $p_{T,trig}$ range of 5-10 GeV/$c$ in minimum bias $d$+Au collisions.'
 keywords: # used for searching, possibly mutliple values for each keywords
-- {name: reactions, values: [Au Au --> CHARGED X]}
+- {name: reactions, values: [d Au --> CHARGED X, p p --> CHARGED X]}
 - {name: cmenergies, values: [200.0]}
 - {name: phrases, values: [ppg039, transverse momentum, midrapidity]}
 data_file: ppg039fig16b.yaml
@@ -125,10 +113,10 @@ name: "Figure 20a"
 location: Data From Fig. 20 of PRL C 73 (2006) 054903
 description: 'Near- and far-side conditional yields as a function of $p_{T, assoc}$ for charged hadron triggers (2.5−4 GeV/$c$) and associated charged hadrons from $d$+Au collisions.'
 keywords: # used for searching, possibly mutliple values for each keywords
-- {name: reactions, values: [Au Au --> CHARGED X]}
+- {name: reactions, values: [d Au --> CHARGED X, p p --> CHARGED X]}
 - {name: cmenergies, values: [200.0]}
 - {name: phrases, values: [ppg039, transverse momentum, midrapidity]}
-data_file: ppg039fig20a.yaml
+data_file: fig20a.yaml
 additional_resources:
 - {description: PNG Image file, location: fig20.png}
 - {description: Thumbnail Image file, location: thumb_fig20.png}
@@ -138,10 +126,10 @@ name: "Figure 20b"
 location: Data From Fig. 20 of PRL C 73 (2006) 054903
 description: 'Near- and far-side conditional yields as a function of $p_{T, assoc}$ for charged hadron triggers (4−6 GeV/$c$) and associated charged hadrons from $d$+Au collisions.'
 keywords: # used for searching, possibly mutliple values for each keywords
-- {name: reactions, values: [Au Au --> CHARGED X]}
+- {name: reactions, values: [d Au --> CHARGED X, p p --> CHARGED X]}
 - {name: cmenergies, values: [200.0]}
 - {name: phrases, values: [ppg039, transverse momentum, midrapidity]}
-data_file: ppg039fig20b.yaml
+data_file: fig20b.yaml
 additional_resources:
 - {description: PNG Image file, location: fig20.png}
 - {description: Thumbnail Image file, location: thumb_fig20.png}
@@ -151,10 +139,10 @@ name: "Figure 21a"
 location: Data From Fig. 21 of PRL C 73 (2006) 054903
 description: 'Near- and far-side conditional yields as a function of $p_{T, assoc}$ for charged pion triggers (5−10 GeV/$c$) and associated charged hadrons from minimum-bias $d$+Au collisions.'
 keywords: # used for searching, possibly mutliple values for each keywords
-- {name: reactions, values: [Au Au --> CHARGED X]}
+- {name: reactions, values: [d Au --> CHARGED X, p p --> CHARGED X]}
 - {name: cmenergies, values: [200.0]}
 - {name: phrases, values: [ppg039, transverse momentum, midrapidity]}
-data_file: ppg039fig21a.yaml
+data_file: fig21a.yaml
 additional_resources:
 - {description: PNG Image file, location: fig21.png}
 - {description: Thumbnail Image file, location: thumb_fig21.png}
@@ -164,10 +152,10 @@ name: "Figure 21b"
 location: Data From Fig. 21 of PRL C 73 (2006) 054903
 description: 'Near- and far-side conditional yields as a function of $p_{T, assoc}$ for neutral pion triggers (5−10 GeV/$c$) and associated charged hadrons from minimum-bias $d$+Au collisions.'
 keywords: # used for searching, possibly mutliple values for each keywords
-- {name: reactions, values: [Au Au --> CHARGED X]}
+- {name: reactions, values: [d Au --> CHARGED X, p p --> CHARGED X]}
 - {name: cmenergies, values: [200.0]}
 - {name: phrases, values: [ppg039, transverse momentum, midrapidity]}
-data_file: ppg039fig21b.yaml
+data_file: fig21b.yaml
 additional_resources:
 - {description: PNG Image file, location: fig21.png}
 - {description: Thumbnail Image file, location: thumb_fig21.png}
@@ -177,10 +165,10 @@ name: "Figure 22"
 location: Data From Fig. 22 of PRL C 73 (2006) 054903
 description: 'Near- and far-side widths and conditional yields as a function of $N_{coll}$ for charged hadron triggers (2.5−4 GeV/$c$) and associated charged hadrons (1–2.5 GeV/$c$) from $d$+Au collisions.'
 keywords: # used for searching, possibly mutliple values for each keywords
-- {name: reactions, values: [Au Au --> CHARGED X]}
+- {name: reactions, values: [d Au --> CHARGED X, p p --> CHARGED X]}
 - {name: cmenergies, values: [200.0]}
 - {name: phrases, values: [ppg039, transverse momentum, midrapidity]}
-data_file: ppg039fig22.yaml
+data_file: fig22.yaml
 additional_resources:
 - {description: PNG Image file, location: fig22.png}
 - {description: Thumbnail Image file, location: thumb_fig22.png}
@@ -190,10 +178,10 @@ name: "Figure 23"
 location: Data From Fig. 23 of PRL C 73 (2006) 054903
 description: 'Near- and far-side widths and conditional yields as a function of centrality for neutral pion triggers (5−10 GeV/$c$) and associated charged hadrons (2–3 GeV/$c$) from $d$+Au collisions.'
 keywords: # used for searching, possibly mutliple values for each keywords
-- {name: reactions, values: [Au Au --> CHARGED X]}
+- {name: reactions, values: [d Au --> CHARGED X, p p --> CHARGED X]}
 - {name: cmenergies, values: [200.0]}
 - {name: phrases, values: [ppg039, transverse momentum, midrapidity]}
-data_file: ppg039fig23.yaml
+data_file: fig23.yaml
 additional_resources:
 - {description: PNG Image file, location: fig23.png}
 - {description: Thumbnail Image file, location: thumb_fig23.png}
@@ -203,7 +191,7 @@ name: "Figure 24a"
 location: Data From Fig. 24 of PRL C 73 (2006) 054903
 description: 'The extracted $\sqrt{<j^2_T>}$ for minimum-bias $d$+Au collisions from all four dihadron correlations. The trigger $p_T$ ranges are 3 - 5 GeV/$c$, 5 - 10 GeV/$c$ and 5 - 10 GeV/$c$ for $h^{\pm}$ - $h^{\pm}$, $\pi^0$ - $h^{\pm}$ and $\pi^{\pm}$ - $h^{\pm}$ assorted-$p_T$ correlations.'
 keywords: # used for searching, possibly mutliple values for each keywords
-- {name: reactions, values: [Au Au --> CHARGED X]}
+- {name: reactions, values: [d Au --> CHARGED X, p p --> CHARGED X]}
 - {name: cmenergies, values: [200.0]}
 - {name: phrases, values: [ppg039, transverse momentum, midrapidity]}
 data_file: ppg039fig24a.yaml
@@ -216,7 +204,7 @@ name: "Figure 24b"
 location: Data From Fig. 24 of PRL C 73 (2006) 054903
 description: 'The extracted $\sqrt{<j^2_T>}$ for minimum-bias $d$+Au collisions from all four dihadron correlations. The trigger $p_T$ ranges are 3 - 5 GeV/$c$, 5 - 10 GeV/$c$ and 5 - 10 GeV/$c$ for $h^{\pm}$ - $h^{\pm}$, $\pi^0$ - $h^{\pm}$ and $\pi^{\pm}$ - $h^{\pm}$ assorted-$p_T$ correlations.'
 keywords: # used for searching, possibly mutliple values for each keywords
-- {name: reactions, values: [Au Au --> CHARGED X]}
+- {name: reactions, values: [d Au --> CHARGED X, p p --> CHARGED X]}
 - {name: cmenergies, values: [200.0]}
 - {name: phrases, values: [ppg039, transverse momentum, midrapidity]}
 data_file: ppg039fig24b.yaml
@@ -229,7 +217,7 @@ name: "Figure 24c"
 location: Data From Fig. 24 of PRL C 73 (2006) 054903
 description: 'The extracted $\sqrt{<j^2_T>}$ for minimum-bias $d$+Au collisions from all four dihadron correlations. The trigger $p_T$ ranges are 3 - 5 GeV/$c$, 5 - 10 GeV/$c$ and 5 - 10 GeV/$c$ for $h^{\pm}$ - $h^{\pm}$, $\pi^0$ - $h^{\pm}$ and $\pi^{\pm}$ - $h^{\pm}$ assorted-$p_T$ correlations.'
 keywords: # used for searching, possibly mutliple values for each keywords
-- {name: reactions, values: [Au Au --> CHARGED X]}
+- {name: reactions, values: [d Au --> CHARGED X, p p --> CHARGED X]}
 - {name: cmenergies, values: [200.0]}
 - {name: phrases, values: [ppg039, transverse momentum, midrapidity]}
 data_file: ppg039fig24c.yaml
@@ -242,7 +230,7 @@ name: "Figure 24d"
 location: Data From Fig. 24 of PRL C 73 (2006) 054903
 description: 'The extracted $\sqrt{<j^2_T>}$ for minimum-bias $d$+Au collisions from all four dihadron correlations. The trigger $p_T$ ranges are 3 - 5 GeV/$c$, 5 - 10 GeV/$c$ and 5 - 10 GeV/$c$ for $h^{\pm}$ - $h^{\pm}$, $\pi^0$ - $h^{\pm}$ and $\pi^{\pm}$ - $h^{\pm}$ assorted-$p_T$ correlations.'
 keywords: # used for searching, possibly mutliple values for each keywords
-- {name: reactions, values: [Au Au --> CHARGED X]}
+- {name: reactions, values: [d Au --> CHARGED X, p p --> CHARGED X]}
 - {name: cmenergies, values: [200.0]}
 - {name: phrases, values: [ppg039, transverse momentum, midrapidity]}
 data_file: ppg039fig24d.yaml
@@ -255,7 +243,7 @@ name: "Figure 25a"
 location: Data From Fig. 25 of PRL C 73 (2006) 054903
 description: '$<sin^2(\phi_{jj})>$ for minimum bias $d$+Au collisions as function of associated particle $p_T$ for $\pi^{\pm}$ - $h^{\pm}$ and $\pi^0$ - $h^{\pm}$ correlations where the trigger particles have a $p_T$ between 5 - 10 GeV/$c$.'
 keywords: # used for searching, possibly mutliple values for each keywords
-- {name: reactions, values: [Au Au --> CHARGED X]}
+- {name: reactions, values: [d Au --> CHARGED X, p p --> CHARGED X]}
 - {name: cmenergies, values: [200.0]}
 - {name: phrases, values: [ppg039, transverse momentum, midrapidity]}
 data_file: ppg039fig25a.yaml
@@ -268,7 +256,7 @@ name: "Figure 25b"
 location: Data From Fig. 25 of PRL C 73 (2006) 054903
 description: '$<sin^2(\phi_{jj})>$ for minimum bias $d$+Au collisions as function of associated particle $p_T$ for $\pi^{\pm}$ - $h^{\pm}$ and $\pi^0$ - $h^{\pm}$ correlations where the trigger particles have a $p_T$ between 5 - 10 GeV/$c$.'
 keywords: # used for searching, possibly mutliple values for each keywords
-- {name: reactions, values: [Au Au --> CHARGED X]}
+- {name: reactions, values: [d Au --> CHARGED X, p p --> CHARGED X]}
 - {name: cmenergies, values: [200.0]}
 - {name: phrases, values: [ppg039, transverse momentum, midrapidity]}
 data_file: ppg039fig25b.yaml
@@ -281,7 +269,7 @@ name: "Figure 26a"
 location: Data From Fig. 26 of PRL C 73 (2006) 054903
 description: '$<sin^2(\phi_{jj})>$ for minimum bias $d$+Au collisions as function of trigger particle $p_T$ for $\pi^{\pm}$ - $h^{\pm}$ and $\pi^0$ - $h^{\pm}$ correlations.'
 keywords: # used for searching, possibly mutliple values for each keywords
-- {name: reactions, values: [Au Au --> CHARGED X]}
+- {name: reactions, values: [d Au --> CHARGED X, p p --> CHARGED X]}
 - {name: cmenergies, values: [200.0]}
 - {name: phrases, values: [ppg039, transverse momentum, midrapidity]}
 data_file: ppg039fig26a.yaml
@@ -294,7 +282,7 @@ name: "Figure 26b"
 location: Data From Fig. 26 of PRL C 73 (2006) 054903
 description: '$<sin^2(\phi_{jj})>$ for minimum bias $d$+Au collisions as function of trigger particle $p_T$ for $\pi^{\pm}$ - $h^{\pm}$ and $\pi^0$ - $h^{\pm}$ correlations.'
 keywords: # used for searching, possibly mutliple values for each keywords
-- {name: reactions, values: [Au Au --> CHARGED X]}
+- {name: reactions, values: [d Au --> CHARGED X, p p --> CHARGED X]}
 - {name: cmenergies, values: [200.0]}
 - {name: phrases, values: [ppg039, transverse momentum, midrapidity]}
 data_file: ppg039fig26b.yaml
@@ -307,7 +295,7 @@ name: "Figure 27"
 location: Data From Fig. 27 of PRL C 73 (2006) 054903
 description: 'Near-side and far-side $p_{out}$ distributions for minimum bias $d$+Au collisions obtained from $\pi^{\pm}$ - $h^{\pm}$ correlation. The trigger is 5 < $p_{T,trig}$ < 10 GeV/$c$, the associated particle is 0.5 < $p_{T,assoc}$ < 5.0 GeV/$c$.'
 keywords: # used for searching, possibly mutliple values for each keywords
-- {name: reactions, values: [Au Au --> CHARGED X]}
+- {name: reactions, values: [d Au --> CHARGED X, p p --> CHARGED X]}
 - {name: cmenergies, values: [200.0]}
 - {name: phrases, values: [ppg039, transverse momentum, midrapidity]}
 data_file: ppg039fig27.yaml
@@ -316,14 +304,27 @@ additional_resources:
 - {description: Thumbnail Image file, location: thumb_Pout_dAminbias.png}
 ---
 # This is Figure 28.
-name: "Figure 28"
+name: "Figure 28a"
 location: Data From Fig. 28 of PRL C 73 (2006) 054903
 description: 'Conditional yield as a function of $x_E$ for near-side and far-side for $\pi^{\pm}$ - $h^{\pm}$ and $\pi^0$ - $h^{\pm}$ from minimum-bias $d$+Au collisions.'
 keywords: # used for searching, possibly mutliple values for each keywords
-- {name: reactions, values: [Au Au --> CHARGED X]}
+- {name: reactions, values: [d Au --> CHARGED X, p p --> CHARGED X]}
 - {name: cmenergies, values: [200.0]}
 - {name: phrases, values: [ppg039, transverse momentum, midrapidity]}
-data_file: ppg039fig28.yaml
+data_file: ppg039fig28a.yaml
+additional_resources:
+- {description: PNG Image file, location: combine_yieldxe.png}
+- {description: Thumbnail Image file, location: thumb_combine_yieldxe.png}
+---
+# This is Figure 28.
+name: "Figure 28b"
+location: Data From Fig. 28 of PRL C 73 (2006) 054903
+description: 'Conditional yield as a function of $x_E$ for near-side and far-side for $\pi^{\pm}$ - $h^{\pm}$ and $\pi^0$ - $h^{\pm}$ from minimum-bias $d$+Au collisions.'
+keywords: # used for searching, possibly mutliple values for each keywords
+- {name: reactions, values: [d Au --> CHARGED X, p p --> CHARGED X]}
+- {name: cmenergies, values: [200.0]}
+- {name: phrases, values: [ppg039, transverse momentum, midrapidity]}
+data_file: ppg039fig28b.yaml
 additional_resources:
 - {description: PNG Image file, location: combine_yieldxe.png}
 - {description: Thumbnail Image file, location: thumb_combine_yieldxe.png}
@@ -333,7 +334,7 @@ name: "Figure 29"
 location: Data From Fig. 29 of PRL C 73 (2006) 054903
 description: 'Conditional yield as a function of $x_E$ for near-side and far-side correlations for $\pi^{\pm}$ - $h^{\pm}$ correlations from minimum-bias $d$+Au collisions. The trigger pions are 5 < $p_{T,trig}$ < 6 GeV/$c$.'
 keywords: # used for searching, possibly mutliple values for each keywords
-- {name: reactions, values: [Au Au --> CHARGED X]}
+- {name: reactions, values: [d Au --> CHARGED X, p p --> CHARGED X]}
 - {name: cmenergies, values: [200.0]}
 - {name: phrases, values: [ppg039, transverse momentum, midrapidity]}
 data_file: ppg039fig29.yaml
@@ -346,7 +347,7 @@ name: "Figure 30"
 location: Data From Fig. 30 of PRL C 73 (2006) 054903
 description: 'Conditional yield as a function of $x_E$ for near-side and far-side correlation for $\pi^{\pm}$ - $h^{\pm}$ correlation for several different trigger $p_T$s for minimum-bias $d$+Au collisions.'
 keywords: # used for searching, possibly mutliple values for each keywords
-- {name: reactions, values: [Au Au --> CHARGED X]}
+- {name: reactions, values: [d Au --> CHARGED X, p p --> CHARGED X]}
 - {name: cmenergies, values: [200.0]}
 - {name: phrases, values: [ppg039, transverse momentum, midrapidity]}
 data_file: ppg039fig30.yaml
@@ -359,7 +360,7 @@ name: "Figure 32a"
 location: Data From Fig. 32 of PRL C 73 (2006) 054903
 description: 'Far-side conditional yield as a function of $p_{T,trig}$ for different ranges of $x_E$ for $\pi^{\pm}$ - $h^{\pm}$ correlation for minimum-bias $d$+Au collisions.'
 keywords: # used for searching, possibly mutliple values for each keywords
-- {name: reactions, values: [Au Au --> CHARGED X]}
+- {name: reactions, values: [d Au --> CHARGED X, p p --> CHARGED X]}
 - {name: cmenergies, values: [200.0]}
 - {name: phrases, values: [ppg039, transverse momentum, midrapidity]}
 data_file: ppg039fig32a.yaml
@@ -372,7 +373,7 @@ name: "Figure 32b"
 location: Data From Fig. 32 of PRL C 73 (2006) 054903
 description: 'Far-side conditional yield as a function of $p_{T,trig}$ for different ranges of $x_E$ for $\pi^{\pm}$ - $h^{\pm}$ correlation for minimum-bias $d$+Au collisions.'
 keywords: # used for searching, possibly mutliple values for each keywords
-- {name: reactions, values: [Au Au --> CHARGED X]}
+- {name: reactions, values: [d Au --> CHARGED X, p p --> CHARGED X]}
 - {name: cmenergies, values: [200.0]}
 - {name: phrases, values: [ppg039, transverse momentum, midrapidity]}
 data_file: ppg039fig32b.yaml
@@ -385,7 +386,7 @@ name: "Figure 32c"
 location: Data From Fig. 32 of PRL C 73 (2006) 054903
 description: 'Far-side conditional yield as a function of $p_{T,trig}$ for different ranges of $x_E$ for $\pi^{\pm}$ - $h^{\pm}$ correlation for minimum-bias $d$+Au collisions.'
 keywords: # used for searching, possibly mutliple values for each keywords
-- {name: reactions, values: [Au Au --> CHARGED X]}
+- {name: reactions, values: [d Au --> CHARGED X, p p --> CHARGED X]}
 - {name: cmenergies, values: [200.0]}
 - {name: phrases, values: [ppg039, transverse momentum, midrapidity]}
 data_file: ppg039fig32c.yaml
@@ -398,7 +399,7 @@ name: "Figure 32d"
 location: Data From Fig. 32 of PRL C 73 (2006) 054903
 description: 'Far-side conditional yield as a function of $p_{T,trig}$ for different ranges of $x_E$ for $\pi^{\pm}$ - $h^{\pm}$ correlation for minimum-bias $d$+Au collisions.'
 keywords: # used for searching, possibly mutliple values for each keywords
-- {name: reactions, values: [Au Au --> CHARGED X]}
+- {name: reactions, values: [d Au --> CHARGED X, p p --> CHARGED X]}
 - {name: cmenergies, values: [200.0]}
 - {name: phrases, values: [ppg039, transverse momentum, midrapidity]}
 data_file: ppg039fig32d.yaml
@@ -411,7 +412,7 @@ name: "Figure 33a"
 location: Data From Fig. 33 of PRL C 73 (2006) 054903
 description: 'The comparison of the $\sqrt{<j^2_T>}$ values between $d$+Au and $p$+$p$ for the $\pi^{\pm}$ - $h^{\pm}$ correlations and $\pi^0$ - $h^{\pm}$ correlations. The trigger pion range is 5 - 10 GeV/$c$.'
 keywords: # used for searching, possibly mutliple values for each keywords
-- {name: reactions, values: [Au Au --> CHARGED X]}
+- {name: reactions, values: [d Au --> CHARGED X, p p --> CHARGED X]}
 - {name: cmenergies, values: [200.0]}
 - {name: phrases, values: [ppg039, transverse momentum, midrapidity]}
 data_file: ppg039fig33a.yaml
@@ -424,7 +425,7 @@ name: "Figure 33b"
 location: Data From Fig. 33 of PRL C 73 (2006) 054903
 description: 'The comparison of the $\sqrt{<j^2_T>}$ values between $d$+Au and $p$+$p$ for the $\pi^{\pm}$ - $h^{\pm}$ correlations and $\pi^0$ - $h^{\pm}$ correlations. The trigger pion range is 5 - 10 GeV/$c$.'
 keywords: # used for searching, possibly mutliple values for each keywords
-- {name: reactions, values: [Au Au --> CHARGED X]}
+- {name: reactions, values: [d Au --> CHARGED X, p p --> CHARGED X]}
 - {name: cmenergies, values: [200.0]}
 - {name: phrases, values: [ppg039, transverse momentum, midrapidity]}
 data_file: ppg039fig33b.yaml
@@ -437,7 +438,7 @@ name: "Figure 35a"
 location: Data From Fig. 35 of PRL C 73 (2006) 054903
 description: 'Quadrature difference between minimum-bias $d$+Au and $p$+$p$ $<sin^2(\phi_{jj})>$ values.'
 keywords: # used for searching, possibly mutliple values for each keywords
-- {name: reactions, values: [Au Au --> CHARGED X]}
+- {name: reactions, values: [d Au --> CHARGED X, p p --> CHARGED X]}
 - {name: cmenergies, values: [200.0]}
 - {name: phrases, values: [ppg039, transverse momentum, midrapidity]}
 data_file: ppg039fig35a.yaml
@@ -450,7 +451,7 @@ name: "Figure 35b"
 location: Data From Fig. 35 of PRL C 73 (2006) 054903
 description: 'Quadrature difference between minimum-bias $d$+Au and $p$+$p$ $<sin^2(\phi_{jj})>$ values.'
 keywords: # used for searching, possibly mutliple values for each keywords
-- {name: reactions, values: [Au Au --> CHARGED X]}
+- {name: reactions, values: [d Au --> CHARGED X, p p --> CHARGED X]}
 - {name: cmenergies, values: [200.0]}
 - {name: phrases, values: [ppg039, transverse momentum, midrapidity]}
 data_file: ppg039fig35b.yaml
@@ -463,7 +464,7 @@ name: "Figure 36"
 location: Data From Fig. 36 of PRL C 73 (2006) 054903
 description: 'The comparison of the $p_{out}$ distribution at the near-side and far-side between central $d$+Au collisions and $p$+$p$ collisions. Results are obtained for $\pi^{\pm}$ - $h^{\pm}$ correlations with the associated hadron range 0.5 < $p_{T,assoc}$ < 5 GeV/$c$ and trigger pion range of 5 < $p_{T,trig}$ < 10 GeV/$c$.'
 keywords: # used for searching, possibly mutliple values for each keywords
-- {name: reactions, values: [Au Au --> CHARGED X]}
+- {name: reactions, values: [d Au --> CHARGED X, p p --> CHARGED X]}
 - {name: cmenergies, values: [200.0]}
 - {name: phrases, values: [ppg039, transverse momentum, midrapidity]}
 data_file: ppg039fig36.yaml
@@ -476,7 +477,7 @@ name: "Figure 37"
 location: Data From Fig. 37 of PRL C 73 (2006) 054903
 description: 'The comparison of the $x_E$ distribution from $\pi^{\pm}$ - $h^{\pm}$ correlation at the near-side and far-side between minimum bias $d$+Au collisions and $p$+$p$ collisions. The trigger $\pi^{\pm}$ are from 5 - 10 GeV/$c$.'
 keywords: # used for searching, possibly mutliple values for each keywords
-- {name: reactions, values: [Au Au --> CHARGED X]}
+- {name: reactions, values: [d Au --> CHARGED X, p p --> CHARGED X]}
 - {name: cmenergies, values: [200.0]}
 - {name: phrases, values: [ppg039, transverse momentum, midrapidity]}
 data_file: ppg039fig37.yaml
@@ -489,7 +490,7 @@ name: "Figure 38a"
 location: Data From Fig. 38 of PRL C 73 (2006) 054903
 description: 'Far-side conditional yield as a function of $p_{T,trig}$ for different ranges of $x_E$ from $p$+$p$ collisions, triggers are $\pi^{\pm}$ from 5 - 10 GeV/$c$.'
 keywords: # used for searching, possibly mutliple values for each keywords
-- {name: reactions, values: [Au Au --> CHARGED X]}
+- {name: reactions, values: [d Au --> CHARGED X, p p --> CHARGED X]}
 - {name: cmenergies, values: [200.0]}
 - {name: phrases, values: [ppg039, transverse momentum, midrapidity]}
 data_file: ppg039fig38a.yaml
@@ -502,7 +503,7 @@ name: "Figure 38b"
 location: Data From Fig. 38 of PRL C 73 (2006) 054903
 description: 'Far-side conditional yield as a function of $p_{T,trig}$ for different ranges of $x_E$ from $p$+$p$ collisions, triggers are $\pi^{\pm}$ from 5 - 10 GeV/$c$.'
 keywords: # used for searching, possibly mutliple values for each keywords
-- {name: reactions, values: [Au Au --> CHARGED X]}
+- {name: reactions, values: [d Au --> CHARGED X, p p --> CHARGED X]}
 - {name: cmenergies, values: [200.0]}
 - {name: phrases, values: [ppg039, transverse momentum, midrapidity]}
 data_file: ppg039fig38b.yaml
@@ -515,7 +516,7 @@ name: "Figure 38c"
 location: Data From Fig. 38 of PRL C 73 (2006) 054903
 description: 'Far-side conditional yield as a function of $p_{T,trig}$ for different ranges of $x_E$ from $p$+$p$ collisions, triggers are $\pi^{\pm}$ from 5 - 10 GeV/$c$.'
 keywords: # used for searching, possibly mutliple values for each keywords
-- {name: reactions, values: [Au Au --> CHARGED X]}
+- {name: reactions, values: [d Au --> CHARGED X, p p --> CHARGED X]}
 - {name: cmenergies, values: [200.0]}
 - {name: phrases, values: [ppg039, transverse momentum, midrapidity]}
 data_file: ppg039fig38c.yaml
@@ -528,7 +529,7 @@ name: "Figure 39"
 location: Data From Fig. 39 of PRL C 73 (2006) 054903
 description: 'The fitted fractional change in $dN/d_{x_E}$ per unit $p_{T,trig}$ of the far-side conditional yield for different ranges of $x_E$.'
 keywords: # used for searching, possibly mutliple values for each keywords
-- {name: reactions, values: [Au Au --> CHARGED X]}
+- {name: reactions, values: [d Au --> CHARGED X, p p --> CHARGED X]}
 - {name: cmenergies, values: [200.0]}
 - {name: phrases, values: [ppg039, transverse momentum, midrapidity]}
 data_file: ppg039fig39.yaml
@@ -537,24 +538,37 @@ additional_resources:
 - {description: Thumbnail Image file, location: thumb_violation.png}
 ---
 # This is Figure 41.
-name: "Figure 41"
+name: "Figure 41a"
 location: Data From Fig. 41 of PRL C 73 (2006) 054903
 description: 'Centrality dependent near and far $CY(p_T)$ for $\pi^{\pm}$ - $h^{\pm}$ correlations and $\pi^0$ - $h^{\pm}$ correlations.'
 keywords: # used for searching, possibly mutliple values for each keywords
-- {name: reactions, values: [Au Au --> CHARGED X]}
+- {name: reactions, values: [d Au --> CHARGED X, p p --> CHARGED X]}
 - {name: cmenergies, values: [200.0]}
 - {name: phrases, values: [ppg039, transverse momentum, midrapidity]}
-data_file: ppg039fig41.yaml
+data_file: ppg039fig41a.yaml
 additional_resources:
 - {description: PNG Image file, location: Pt_cent.png}
 - {description: Thumbnail Image file, location: thumb_Pt_cent.png}
+---
+# This is Figure 41.
+name: "Figure 41b"
+location: Data From Fig. 41 of PRL C 73 (2006) 054903
+description: 'Centrality dependent near and far $CY(p_T)$ for $\pi^{\pm}$ - $h^{\pm}$ correlations and $\pi^0$ - $h^{\pm}$ correlations.'
+keywords: # used for searching, possibly mutliple values for each keywords
+- {name: reactions, values: [d Au --> CHARGED X, p p --> CHARGED X]}
+- {name: cmenergies, values: [200.0]}
+- {name: phrases, values: [ppg039, transverse momentum, midrapidity]}
+data_file: ppg039fig41b.yaml
+additional_resources:
+- {description: PNG Image file, location: fig41b.png}
+- {description: Thumbnail Image file, location: thumb_fig41b.png}
 ---
 # This is Figure 42.
 name: "Figure 42a"
 location: Data From Fig. 42 of PRL C 73 (2006) 054903
 description: 'Centrality dependence to the ratio of near and far $CY(p_T)$ for $d$+Au to $p$+$p$.'
 keywords: # used for searching, possibly mutliple values for each keywords
-- {name: reactions, values: [Au Au --> CHARGED X]}
+- {name: reactions, values: [d Au --> CHARGED X, p p --> CHARGED X]}
 - {name: cmenergies, values: [200.0]}
 - {name: phrases, values: [ppg039, transverse momentum, midrapidity]}
 data_file: ppg039fig42a.yaml
@@ -567,7 +581,7 @@ name: "Figure 42b"
 location: Data From Fig. 42 of PRL C 73 (2006) 054903
 description: 'Centrality dependence to the ratio of near and far $CY(p_T)$ for $d$+Au to $p$+$p$.'
 keywords: # used for searching, possibly mutliple values for each keywords
-- {name: reactions, values: [Au Au --> CHARGED X]}
+- {name: reactions, values: [d Au --> CHARGED X, p p --> CHARGED X]}
 - {name: cmenergies, values: [200.0]}
 - {name: phrases, values: [ppg039, transverse momentum, midrapidity]}
 data_file: ppg039fig42b.yaml
@@ -580,7 +594,7 @@ name: "Table XI"
 location: Data From Table XI of PRL C 73 (2006) 054903
 description: 'Near- and far-side widths as a function of $p_{T, trig}$ for charged pion triggers and associated charged hadrons (2–4.5 Gev/$c$) from minimum-bias $d$+Au collisions.'
 keywords: # used for searching, possibly mutliple values for each keywords
-- {name: reactions, values: [Au Au --> CHARGED X]}
+- {name: reactions, values: [d Au --> CHARGED X, p p --> CHARGED X]}
 - {name: cmenergies, values: [200.0]}
 - {name: phrases, values: [ppg039, transverse momentum, midrapidity]}
 data_file: table11.yaml
@@ -590,7 +604,7 @@ name: "Table XII"
 location: Data From Table XI of PRL C 73 (2006) 054903
 description: 'Near- and far-side widths as a function of $p_{T, trig}$ for neutral pion triggers and associated charged hadrons (2–4.5 Gev/$c$) from minimum-bias $d$+Au collisions.'
 keywords: # used for searching, possibly mutliple values for each keywords
-- {name: reactions, values: [Au Au --> CHARGED X]}
+- {name: reactions, values: [d Au --> CHARGED X, p p --> CHARGED X]}
 - {name: cmenergies, values: [200.0]}
 - {name: phrases, values: [ppg039, transverse momentum, midrapidity]}
 data_file: table12.yaml

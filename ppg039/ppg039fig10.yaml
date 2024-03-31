@@ -14,6 +14,7 @@ dependent_variables:
 - header: {name: '$1/N_{trig} dN/dp_T (GeV/c)^{-1}$'}
   qualifiers:
   - {name: '', value: 'Near Side Yield'}
+  - {name: '', value: 'Data'}
   values:
   - value: 1.49
     errors:
@@ -42,9 +43,10 @@ dependent_variables:
   - value: 0.0530
     errors:
     - {symerror: 0.0010, label: 'stat.'}
-- header: {name: '$1/N_{trig} dN/dp_T (GeV/c)^-1$'}
+- header: {name: '$1/N_{trig} dN/dp_T (GeV/c)^{-1}$'}
   qualifiers:
   - {name: '', value: 'Near Side Yield'}
+  - {name: '', value: 'PYTHIA'}
   values:
   - value: 1.47
     errors:
@@ -73,9 +75,10 @@ dependent_variables:
   - value: 0.0530
     errors:
     - {symerror: 0.0010, label: 'stat.'}
-- header: {name: '$1/N_{trig} dN/dp_T (GeV/c)^-1$'}
+- header: {name: '$1/N_{trig} dN/dp_T (GeV/c)^{-1}$'}
   qualifiers:
   - {name: '', value: 'Far Side Yield'}
+  - {name: '', value: 'Data'}
   values:
   - value: 2.37
     errors:
@@ -104,9 +107,10 @@ dependent_variables:
   - value: 0.0770
     errors:
     - {symerror: 0.0010, label: 'stat.'}
-- header: {name: '$1/N_{trig} dN/dp_T (GeV/c)^-1$'}
+- header: {name: '$1/N_{trig} dN/dp_T (GeV/c)^{-1}$'}
   qualifiers:
   - {name: '', value: 'Far Side Yield'}
+  - {name: '', value: 'PYTHIA'}
   values:
   - value: 2.33
     errors:
@@ -138,6 +142,7 @@ dependent_variables:
 - header: {name: '$\sigma$ (rad)'}
   qualifiers:
   - {name: '', value: 'Near Side Jet Width'}
+  - {name: '', value: 'Data'}
   values:
   - value: 0.463
     errors:
@@ -169,6 +174,7 @@ dependent_variables:
 - header: {name: '$\sigma$ (rad)'}
   qualifiers:
   - {name: '', value: 'Near Side Jet Width'}
+  - {name: '', value: 'PYTHIA'}
   values:
   - value: 0.458
     errors:
@@ -200,6 +206,7 @@ dependent_variables:
 - header: {name: '$\sigma$ (rad)'}
   qualifiers:
   - {name: '', value: 'Far Side Jet Width'}
+  - {name: '', value: 'Data'}
   values:
   - value: 0.605
     errors:
@@ -231,6 +238,7 @@ dependent_variables:
 - header: {name: '$\sigma$ (rad)'}
   qualifiers:
   - {name: '', value: 'Far Side Jet Width'}
+  - {name: '', value: 'PYTHIA'}
   values:
   - value: 0.583
     errors:
