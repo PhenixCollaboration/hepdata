@@ -1,15 +1,15 @@
 independent_variables:
 - header: {name: '$p_{T}(GeV/c)$'}
   values:
-  - {low: 12.2, high: 14.5}
-  - {low: 14.5, high: 17.3}
-  - {low: 17.3, high: 20.7}
-  - {low: 20.7, high: 24.7}
-  - {low: 24.7, high: 29.4}
-  - {low: 29.4, high: 35.1}
-  - {low: 35.1, high: 41.9}
+  - {value: 13.0117}
+  - {value: 15.6983}
+  - {value: 18.7439}
+  - {value: 22.0807}
+  - {value: 26.2583}
+  - {value: 31.192}
+  - {value: 37.4717}
 dependent_variables:
-- header: {name: 'd$^{2}\sigma/$d$p$ d$\eta$ ($mb/GeV$)'}
+- header: {name: 'd$^{2}\sigma/$d$p$ d$\eta$, d$^{2}N/$d$p$ d$\eta/T$ (mb/GeV)'}
   qualifiers:
   - {name: 'Collision', value: '$p+p$'}
   - {name: 'Centrality', value: ''}
@@ -42,7 +42,7 @@ dependent_variables:
     errors:
     - {symerror: 2.1e-8, label: 'stat. err.'}
     - {asymerror: {plus: 2.1e-8, minus: 2.1e-8}, label: 'sys. err.'}
-- header: {name: 'd$^{2}N/$d$p$ d$\eta/T$ ($mb/GeV$)'}
+- header: {name: 'd$^{2}\sigma/$d$p$ d$\eta$, d$^{2}N/$d$p$ d$\eta/T$ (mb/GeV)'}
   qualifiers:
   - {name: 'Collision', value: 'd+Au'}
   - {name: 'Centrality', value: '$60-88\%$'}
@@ -75,7 +75,7 @@ dependent_variables:
     errors:
     - {symerror: 1.2e-8, label: 'stat. err.'}
     - {asymerror: {plus: 2.1e-8, minus: 2.1e-8}, label: 'sys. err.'}
-- header: {name: 'd$^{2}N/$d$p$ d$\eta/T$ ($mb/GeV$)'}
+- header: {name: 'd$^{2}\sigma/$d$p$ d$\eta$, d$^{2}N/$d$p$ d$\eta/T$ (mb/GeV)'}
   qualifiers:
   - {name: 'Collision', value: 'd+Au'}
   - {name: 'Centrality', value: '$40-60\%$'}
@@ -108,7 +108,7 @@ dependent_variables:
     errors:
     - {symerror: 4e-9, label: 'stat. err.'}
     - {asymerror: {plus: 5e-9, minus: 5e-9}, label: 'sys. err.'}
-- header: {name: 'd$^{2}N/$d$p$ d$\eta/T$ ($mb/GeV$)'}
+- header: {name: 'd$^{2}\sigma/$d$p$ d$\eta$, d$^{2}N/$d$p$ d$\eta/T$ (mb/GeV)'}
   qualifiers:
   - {name: 'Collision', value: 'd+Au'}
   - {name: 'Centrality', value: '$20-40\%$'}
@@ -141,7 +141,7 @@ dependent_variables:
     errors:
     - {symerror: 1.6e-8, label: 'stat. err.'}
     - {asymerror: {plus: 2.0e-8, minus: 2.0e-8}, label: 'sys. err.'}
-- header: {name: 'd$^{2}N/$d$p$ d$\eta/T$ ($mb/GeV$)'}
+- header: {name: 'd$^{2}\sigma/$d$p$ d$\eta$, d$^{2}N/$d$p$ d$\eta/T$ (mb/GeV)'}
   qualifiers:
   - {name: 'Collision', value: 'd+Au'}
   - {name: 'Centrality', value: '$0-20\%$'}
