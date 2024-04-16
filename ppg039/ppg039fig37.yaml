@@ -17,22 +17,6 @@ independent_variables:
   - {low: 0.64, high: 0.68}
   - {low: 0.68, high: 0.72}
   - {low: 0.72, high: 0.76}
-  - {low: 0.12, high: 0.16}
-  - {low: 0.16, high: 0.2}
-  - {low: 0.2, high: 0.24}
-  - {low: 0.24, high: 0.28}
-  - {low: 0.28, high: 0.32}
-  - {low: 0.32, high: 0.36}
-  - {low: 0.36, high: 0.4}
-  - {low: 0.4, high: 0.44}
-  - {low: 0.44, high: 0.48}
-  - {low: 0.48, high: 0.52}
-  - {low: 0.52, high: 0.56}
-  - {low: 0.56, high: 0.6}
-  - {low: 0.6, high: 0.64}
-  - {low: 0.64, high: 0.68}
-  - {low: 0.68, high: 0.72}
-  - {low: 0.72, high: 0.76}
 dependent_variables:
 - header: {name: '$1/N_{trig}$ $dN/dx_E$'}
   qualifiers:
@@ -86,6 +70,10 @@ dependent_variables:
   - value: 0.053
     errors:
     - {symerror: 0.008, label: 'stat.'}
+- header: {name: '$1/N_{trig}$ $dN/dx_E$'}
+  qualifiers:
+  - {name: '', value: 'Near Side $p$+$p$'}
+  values:
   - value: 3.59
     errors:
     - {symerror: 0.21, label: 'stat.'}
@@ -186,6 +174,10 @@ dependent_variables:
   - value: 0.043
     errors:
     - {symerror: 0.011, label: 'stat.'}
+- header: {name: '$1/N_{trig}$ $dN/dx_E$'}
+  qualifiers:
+  - {name: '', value: 'Far Side $p$+$p$'}
+  values:
   - value: 5.31
     errors:
     - {symerror: 0.31, label: 'stat.'}
