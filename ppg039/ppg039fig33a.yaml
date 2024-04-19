@@ -1,15 +1,15 @@
 independent_variables:
 - header: {name: '$p_{T,assoc}$ (GeV/$c$)'}
   values:
-  - value: 0.50
-  - value: 0.70
-  - value: 0.90
-  - value: 1.23
-  - value: 1.75
-  - value: 2.24
-  - value: 2.73
-  - value: 3.44
-  - value: 4.42
+  - {low: 0.4, high: 0.6}
+  - {low: 0.6, high: 0.8}
+  - {low: 0.8, high: 1.0}
+  - {low: 1.0, high: 1.5}
+  - {low: 1.5, high: 2.0}
+  - {low: 2.0, high: 2.5}
+  - {low: 2.5, high: 3.0}
+  - {low: 3.0, high: 4.0}
+  - {low: 4.0, high: 5.0}
 dependent_variables:
 - header: {name: '$\sqrt{<j^2_{Ty}>}$ (GeV/$c$)'}
   qualifiers:
@@ -24,9 +24,9 @@ dependent_variables:
   - value: 0.279
     errors:
     - {symerror: 0.024, label: 'stat.'}
-  - value: 0.319
+  - value: 0.32
     errors:
-    - {symerror: 0.038, label: 'stat.'}
+    - {symerror: 0.04, label: 'stat.'}
   - value: 0.349
     errors:
     - {symerror: 0.029, label: 'stat.'}
@@ -36,12 +36,12 @@ dependent_variables:
   - value: 0.410
     errors:
     - {symerror: 0.028, label: 'stat.'}
-  - value: 0.408
+  - value: 0.41
     errors:
-    - {symerror: 0.038, label: 'stat.'}
-  - value: 0.468
+    - {symerror: 0.04, label: 'stat.'}
+  - value: 0.47
     errors:
-    - {symerror: 0.040, label: 'stat.'}
+    - {symerror: 0.04, label: 'stat.'}
 - header: {name: '$\sqrt{<j^2_{Ty}>}$ (GeV/$c$)'}
   qualifiers:
   - {name: 'Collision', value: '$p$+$p$'}
@@ -55,21 +55,21 @@ dependent_variables:
   - value: 0.254
     errors:
     - {symerror: 0.024, label: 'stat.'}
-  - value: 0.331
+  - value: 0.33
     errors:
-    - {symerror: 0.040, label: 'stat.'}
+    - {symerror: 0.04, label: 'stat.'}
   - value: 0.374
     errors:
     - {symerror: 0.034, label: 'stat.'}
-  - value: 0.395
+  - value: 0.4
     errors:
-    - {symerror: 0.036, label: 'stat.'}
-  - value: 0.478
+    - {symerror: 0.04, label: 'stat.'}
+  - value: 0.48
     errors:
-    - {symerror: 0.039, label: 'stat.'}
-  - value: 0.448
+    - {symerror: 0.04, label: 'stat.'}
+  - value: 0.45
     errors:
-    - {symerror: 0.046, label: 'stat.'}
-  - value: 0.413
+    - {symerror: 0.05, label: 'stat.'}
+  - value: 0.41
     errors:
-    - {symerror: 0.044, label: 'stat.'}
+    - {symerror: 0.04, label: 'stat.'}

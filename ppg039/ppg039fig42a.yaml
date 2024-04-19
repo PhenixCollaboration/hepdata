@@ -1,465 +1,471 @@
 independent_variables:
 - header: {name: '$p_{T,assoc}$ (GeV/$c$)'}
   values:
-  - {low: 0.400, high: 0.600}
-  - {low: 0.600, high: 0.800}
-  - {low: 0.800, high: 1.000}
-  - {low: 1.000, high: 1.200}
-  - {low: 1.200, high: 1.400}
-  - {low: 1.400, high: 1.600}
-  - {low: 1.600, high: 1.800}
-  - {low: 1.800, high: 2.000}
-  - {low: 2.000, high: 2.200}
-  - {low: 2.200, high: 2.400}
-  - {low: 2.400, high: 2.600}
-  - {low: 2.600, high: 2.800}
-  - {low: 2.800, high: 3.000}
-  - {low: 3.000, high: 3.200}
-  - {low: 3.200, high: 3.400}
-  - {low: 3.400, high: 3.600}
-  - {low: 3.600, high: 3.800}
-  - {low: 3.800, high: 4.000}
-  - {low: 4.000, high: 4.200}
-  - {low: 4.200, high: 4.400}
-  - {low: 4.400, high: 4.600}
-  - {low: 4.600, high: 4.800}
-  - {low: 4.800, high: 5.000}
+  - {low: 0.4, high: 0.6}
+  - {low: 0.6, high: 0.8}
+  - {low: 0.8, high: 1}
+  - {low: 1, high: 1.2}
+  - {low: 1.2, high: 1.4}
+  - {low: 1.4, high: 1.6}
+  - {low: 1.6, high: 1.8}
+  - {low: 1.8, high: 2}
+  - {low: 2, high: 2.2}
+  - {low: 2.2, high: 2.4}
+  - {low: 2.4, high: 2.6}
+  - {low: 2.6, high: 2.8}
+  - {low: 2.8, high: 3}
+  - {low: 3, high: 3.2}
+  - {low: 3.2, high: 3.4}
+  - {low: 3.4, high: 3.6}
+  - {low: 3.6, high: 3.8}
+  - {low: 3.8, high: 4}
+  - {low: 4, high: 4.2}
+  - {low: 4.2, high: 4.4}
+  - {low: 4.4, high: 4.6}
+  - {low: 4.6, high: 4.8}
+  - {low: 4.8, high: 5}
 dependent_variables:
 - header: {name: 'Ratio of Associated Yield'}
   qualifiers:
+  - {name: '', value: '$\pi^{\pm}$-$h^{\pm}$'}
   - {name: '', value: 'Near Side 0-20%'}
   values:
-  - value: 1.374
+  - value: 1.37
     errors:
-    - {symerror: 0.152, label: 'stat.'}
-  - value: 1.183
+    - {symerror: 0.15, label: 'stat.'}
+  - value: 1.18
     errors:
-    - {symerror: 0.110, label: 'stat.'}
-  - value: 1.516
+    - {symerror: 0.11, label: 'stat.'}
+  - value: 1.52
     errors:
-    - {symerror: 0.128, label: 'stat.'}
-  - value: 1.056
+    - {symerror: 0.13, label: 'stat.'}
+  - value: 1.06
     errors:
-    - {symerror: 0.115, label: 'stat.'}
-  - value: 0.940
+    - {symerror: 0.12, label: 'stat.'}
+  - value: 0.94
     errors:
-    - {symerror: 0.101, label: 'stat.'}
-  - value: 1.045
+    - {symerror: 0.10, label: 'stat.'}
+  - value: 1.05
     errors:
-    - {symerror: 0.118, label: 'stat.'}
-  - value: 1.001
+    - {symerror: 0.12, label: 'stat.'}
+  - value: 1.00
     errors:
-    - {symerror: 0.109, label: 'stat.'}
-  - value: 1.008
+    - {symerror: 0.11, label: 'stat.'}
+  - value: 1.01
     errors:
-    - {symerror: 0.116, label: 'stat.'}
-  - value: 0.949
+    - {symerror: 0.12, label: 'stat.'}
+  - value: 0.95
     errors:
-    - {symerror: 0.129, label: 'stat.'}
-  - value: 0.911
+    - {symerror: 0.13, label: 'stat.'}
+  - value: 0.91
     errors:
-    - {symerror: 0.129, label: 'stat.'}
-  - value: 0.925
+    - {symerror: 0.13, label: 'stat.'}
+  - value: 0.93
     errors:
-    - {symerror: 0.139, label: 'stat.'}
-  - value: 0.810
+    - {symerror: 0.14, label: 'stat.'}
+  - value: 0.81
     errors:
-    - {symerror: 0.130, label: 'stat.'}
-  - value: 0.837
+    - {symerror: 0.13, label: 'stat.'}
+  - value: 0.84
     errors:
-    - {symerror: 0.140, label: 'stat.'}
-  - value: 1.096
+    - {symerror: 0.14, label: 'stat.'}
+  - value: 1.10
     errors:
-    - {symerror: 0.197, label: 'stat.'}
-  - value: 1.019
+    - {symerror: 0.20, label: 'stat.'}
+  - value: 1.02
     errors:
-    - {symerror: 0.199, label: 'stat.'}
-  - value: 0.925
+    - {symerror: 0.20, label: 'stat.'}
+  - value: 0.93
     errors:
-    - {symerror: 0.172, label: 'stat.'}
-  - value: 0.968
+    - {symerror: 0.17, label: 'stat.'}
+  - value: 0.97
     errors:
-    - {symerror: 0.225, label: 'stat.'}
-  - value: 0.809
+    - {symerror: 0.23, label: 'stat.'}
+  - value: 0.81
     errors:
-    - {symerror: 0.176, label: 'stat.'}
-  - value: 0.790
+    - {symerror: 0.18, label: 'stat.'}
+  - value: 0.79
     errors:
-    - {symerror: 0.192, label: 'stat.'}
-  - value: 0.986
+    - {symerror: 0.19, label: 'stat.'}
+  - value: 0.99
     errors:
-    - {symerror: 0.250, label: 'stat.'}
-  - value: 1.028
+    - {symerror: 0.25, label: 'stat.'}
+  - value: 1.03
     errors:
-    - {symerror: 0.269, label: 'stat.'}
-  - value: 0.831
+    - {symerror: 0.27, label: 'stat.'}
+  - value: 0.83
     errors:
-    - {symerror: 0.255, label: 'stat.'}
-  - value: 0.862
+    - {symerror: 0.26, label: 'stat.'}
+  - value: 0.86
     errors:
-    - {symerror: 0.335, label: 'stat.'}
+    - {symerror: 0.34, label: 'stat.'}
 - header: {name: 'Ratio of Associated Yield'}
   qualifiers:
+  - {name: '', value: '$\pi^{\pm}$-$h^{\pm}$'}
   - {name: '', value: 'Near Side 20-40%'}
   values:
-  - value: 1.329
+  - value: 1.33
     errors:
-    - {symerror: 0.151, label: 'stat.'}
-  - value: 1.343
+    - {symerror: 0.15, label: 'stat.'}
+  - value: 1.34
     errors:
-    - {symerror: 0.125, label: 'stat.'}
-  - value: 1.030
+    - {symerror: 0.13, label: 'stat.'}
+  - value: 1.03
     errors:
-    - {symerror: 0.107, label: 'stat.'}
-  - value: 1.363
+    - {symerror: 0.11, label: 'stat.'}
+  - value: 1.36
     errors:
-    - {symerror: 0.139, label: 'stat.'}
-  - value: 1.269
+    - {symerror: 0.14, label: 'stat.'}
+  - value: 1.27
     errors:
-    - {symerror: 0.126, label: 'stat.'}
-  - value: 1.028
+    - {symerror: 0.13, label: 'stat.'}
+  - value: 1.03
     errors:
-    - {symerror: 0.124, label: 'stat.'}
-  - value: 0.890
+    - {symerror: 0.12, label: 'stat.'}
+  - value: 0.89
     errors:
-    - {symerror: 0.109, label: 'stat.'}
-  - value: 1.116
+    - {symerror: 0.11, label: 'stat.'}
+  - value: 1.12
     errors:
-    - {symerror: 0.130, label: 'stat.'}
-  - value: 1.023
+    - {symerror: 0.13, label: 'stat.'}
+  - value: 1.02
     errors:
-    - {symerror: 0.144, label: 'stat.'}
-  - value: 0.989
+    - {symerror: 0.14, label: 'stat.'}
+  - value: 0.99
     errors:
-    - {symerror: 0.147, label: 'stat.'}
-  - value: 1.336
+    - {symerror: 0.15, label: 'stat.'}
+  - value: 1.34
     errors:
-    - {symerror: 0.191, label: 'stat.'}
-  - value: 0.897
+    - {symerror: 0.19, label: 'stat.'}
+  - value: 0.90
     errors:
-    - {symerror: 0.147, label: 'stat.'}
-  - value: 0.894
+    - {symerror: 0.15, label: 'stat.'}
+  - value: 0.89
     errors:
-    - {symerror: 0.157, label: 'stat.'}
-  - value: 0.927
+    - {symerror: 0.16, label: 'stat.'}
+  - value: 0.93
     errors:
-    - {symerror: 0.193, label: 'stat.'}
-  - value: 0.875
+    - {symerror: 0.19, label: 'stat.'}
+  - value: 0.88
     errors:
-    - {symerror: 0.194, label: 'stat.'}
-  - value: 0.978
+    - {symerror: 0.19, label: 'stat.'}
+  - value: 0.98
     errors:
-    - {symerror: 0.202, label: 'stat.'}
-  - value: 1.126
+    - {symerror: 0.20, label: 'stat.'}
+  - value: 1.13
     errors:
-    - {symerror: 0.277, label: 'stat.'}
-  - value: 0.962
+    - {symerror: 0.28, label: 'stat.'}
+  - value: 0.96
     errors:
-    - {symerror: 0.218, label: 'stat.'}
-  - value: 0.725
+    - {symerror: 0.22, label: 'stat.'}
+  - value: 0.73
     errors:
-    - {symerror: 0.202, label: 'stat.'}
-  - value: 0.839
+    - {symerror: 0.20, label: 'stat.'}
+  - value: 0.84
     errors:
-    - {symerror: 0.240, label: 'stat.'}
-  - value: 0.881
+    - {symerror: 0.24, label: 'stat.'}
+  - value: 0.88
     errors:
-    - {symerror: 0.259, label: 'stat.'}
-  - value: 0.633
+    - {symerror: 0.26, label: 'stat.'}
+  - value: 0.63
     errors:
-    - {symerror: 0.230, label: 'stat.'}
-  - value: 1.073
+    - {symerror: 0.23, label: 'stat.'}
+  - value: 1.1
     errors:
-    - {symerror: 0.420, label: 'stat.'}
+    - {symerror: 0.4, label: 'stat.'}
 - header: {name: 'Ratio of Associated Yield'}
   qualifiers:
+  - {name: '', value: '$\pi^{\pm}$-$h^{\pm}$'}
   - {name: '', value: 'Near Side 40-88%'}
   values:
-  - value: 1.358
+  - value: 1.36
     errors:
-    - {symerror: 0.138, label: 'stat.'}
-  - value: 1.304
+    - {symerror: 0.14, label: 'stat.'}
+  - value: 1.30
     errors:
-    - {symerror: 0.110, label: 'stat.'}
-  - value: 1.270
+    - {symerror: 0.11, label: 'stat.'}
+  - value: 1.27
     errors:
-    - {symerror: 0.106, label: 'stat.'}
-  - value: 1.074
+    - {symerror: 0.11, label: 'stat.'}
+  - value: 1.07
     errors:
-    - {symerror: 0.109, label: 'stat.'}
-  - value: 0.992
+    - {symerror: 0.11, label: 'stat.'}
+  - value: 0.99
     errors:
-    - {symerror: 0.099, label: 'stat.'}
-  - value: 1.016
+    - {symerror: 0.10, label: 'stat.'}
+  - value: 1.02
     errors:
-    - {symerror: 0.113, label: 'stat.'}
-  - value: 1.004
+    - {symerror: 0.11, label: 'stat.'}
+  - value: 1.00
     errors:
-    - {symerror: 0.108, label: 'stat.'}
-  - value: 0.924
+    - {symerror: 0.11, label: 'stat.'}
+  - value: 0.92
     errors:
-    - {symerror: 0.111, label: 'stat.'}
-  - value: 1.031
+    - {symerror: 0.11, label: 'stat.'}
+  - value: 1.03
     errors:
-    - {symerror: 0.133, label: 'stat.'}
-  - value: 0.929
+    - {symerror: 0.13, label: 'stat.'}
+  - value: 0.93
     errors:
-    - {symerror: 0.129, label: 'stat.'}
-  - value: 1.092
+    - {symerror: 0.13, label: 'stat.'}
+  - value: 1.09
     errors:
-    - {symerror: 0.157, label: 'stat.'}
-  - value: 1.096
+    - {symerror: 0.16, label: 'stat.'}
+  - value: 1.10
     errors:
-    - {symerror: 0.160, label: 'stat.'}
-  - value: 1.089
+    - {symerror: 0.16, label: 'stat.'}
+  - value: 1.09
     errors:
-    - {symerror: 0.169, label: 'stat.'}
-  - value: 1.221
+    - {symerror: 0.17, label: 'stat.'}
+  - value: 1.22
     errors:
-    - {symerror: 0.219, label: 'stat.'}
-  - value: 1.113
+    - {symerror: 0.22, label: 'stat.'}
+  - value: 1.11
     errors:
-    - {symerror: 0.219, label: 'stat.'}
-  - value: 0.863
+    - {symerror: 0.22, label: 'stat.'}
+  - value: 0.86
     errors:
-    - {symerror: 0.172, label: 'stat.'}
-  - value: 1.584
+    - {symerror: 0.17, label: 'stat.'}
+  - value: 1.58
     errors:
-    - {symerror: 0.344, label: 'stat.'}
-  - value: 1.012
+    - {symerror: 0.34, label: 'stat.'}
+  - value: 1.01
     errors:
-    - {symerror: 0.220, label: 'stat.'}
-  - value: 0.803
+    - {symerror: 0.22, label: 'stat.'}
+  - value: 0.80
     errors:
-    - {symerror: 0.196, label: 'stat.'}
-  - value: 0.815
+    - {symerror: 0.20, label: 'stat.'}
+  - value: 0.82
     errors:
-    - {symerror: 0.219, label: 'stat.'}
-  - value: 0.762
+    - {symerror: 0.22, label: 'stat.'}
+  - value: 0.76
     errors:
-    - {symerror: 0.219, label: 'stat.'}
-  - value: 1.484
+    - {symerror: 0.22, label: 'stat.'}
+  - value: 1.5
     errors:
-    - {symerror: 0.412, label: 'stat.'}
-  - value: 0.857
+    - {symerror: 0.4, label: 'stat.'}
+  - value: 0.86
     errors:
-    - {symerror: 0.338, label: 'stat.'}
+    - {symerror: 0.34, label: 'stat.'}
 - header: {name: 'Ratio of Associated Yield'}
   qualifiers:
+  - {name: '', value: '$\pi^{\pm}$-$h^{\pm}$'}
   - {name: '', value: 'Far Side 0-20%'}
   values:
-  - value: 0.971
+  - value: 0.97
     errors:
-    - {symerror: 0.126, label: 'stat.'}
-  - value: 1.255
+    - {symerror: 0.13, label: 'stat.'}
+  - value: 1.26
     errors:
-    - {symerror: 0.163, label: 'stat.'}
-  - value: 1.370
+    - {symerror: 0.16, label: 'stat.'}
+  - value: 1.37
     errors:
-    - {symerror: 0.178, label: 'stat.'}
-  - value: 1.199
+    - {symerror: 0.18, label: 'stat.'}
+  - value: 1.20
     errors:
-    - {symerror: 0.177, label: 'stat.'}
-  - value: 1.623
+    - {symerror: 0.18, label: 'stat.'}
+  - value: 1.62
     errors:
-    - {symerror: 0.329, label: 'stat.'}
-  - value: 1.002
+    - {symerror: 0.33, label: 'stat.'}
+  - value: 1.00
     errors:
-    - {symerror: 0.152, label: 'stat.'}
-  - value: 1.017
+    - {symerror: 0.15, label: 'stat.'}
+  - value: 1.02
     errors:
-    - {symerror: 0.166, label: 'stat.'}
-  - value: 1.163
+    - {symerror: 0.17, label: 'stat.'}
+  - value: 1.16
     errors:
-    - {symerror: 0.196, label: 'stat.'}
-  - value: 0.840
+    - {symerror: 0.20, label: 'stat.'}
+  - value: 0.84
     errors:
-    - {symerror: 0.189, label: 'stat.'}
-  - value: 1.110
+    - {symerror: 0.19, label: 'stat.'}
+  - value: 1.11
     errors:
-    - {symerror: 0.242, label: 'stat.'}
-  - value: 1.013
+    - {symerror: 0.24, label: 'stat.'}
+  - value: 1.01
     errors:
-    - {symerror: 0.231, label: 'stat.'}
-  - value: 0.867
+    - {symerror: 0.23, label: 'stat.'}
+  - value: 0.87
     errors:
-    - {symerror: 0.174, label: 'stat.'}
-  - value: 0.963
+    - {symerror: 0.17, label: 'stat.'}
+  - value: 0.96
     errors:
-    - {symerror: 0.228, label: 'stat.'}
-  - value: 0.870
+    - {symerror: 0.23, label: 'stat.'}
+  - value: 0.87
     errors:
-    - {symerror: 0.223, label: 'stat.'}
-  - value: 0.664
+    - {symerror: 0.22, label: 'stat.'}
+  - value: 0.66
     errors:
-    - {symerror: 0.186, label: 'stat.'}
-  - value: 0.500
+    - {symerror: 0.19, label: 'stat.'}
+  - value: 0.50
     errors:
-    - {symerror: 0.173, label: 'stat.'}
-  - value: 1.145
+    - {symerror: 0.17, label: 'stat.'}
+  - value: 1.15
     errors:
-    - {symerror: 0.301, label: 'stat.'}
-  - value: 0.890
+    - {symerror: 0.30, label: 'stat.'}
+  - value: 0.89
     errors:
-    - {symerror: 0.269, label: 'stat.'}
-  - value: 0.769
+    - {symerror: 0.27, label: 'stat.'}
+  - value: 0.77
     errors:
-    - {symerror: 0.314, label: 'stat.'}
-  - value: 1.296
+    - {symerror: 0.31, label: 'stat.'}
+  - value: 1.3
     errors:
-    - {symerror: 0.578, label: 'stat.'}
-  - value: 0.474
+    - {symerror: 0.6, label: 'stat.'}
+  - value: 0.47
     errors:
-    - {symerror: 0.185, label: 'stat.'}
-  - value: 1.022
+    - {symerror: 0.19, label: 'stat.'}
+  - value: 1.0
     errors:
-    - {symerror: 0.487, label: 'stat.'}
-  - value: 0.343
+    - {symerror: 0.5, label: 'stat.'}
+  - value: 0.34
     errors:
-    - {symerror: 0.152, label: 'stat.'}
+    - {symerror: 0.15, label: 'stat.'}
 - header: {name: 'Ratio of Associated Yield'}
   qualifiers:
+  - {name: '', value: '$\pi^{\pm}$-$h^{\pm}$'}
   - {name: '', value: 'Far Side 20-40%'}
   values:
-  - value: 1.027
+  - value: 1.03
     errors:
-    - {symerror: 0.146, label: 'stat.'}
-  - value: 1.234
+    - {symerror: 0.15, label: 'stat.'}
+  - value: 1.23
     errors:
-    - {symerror: 0.165, label: 'stat.'}
-  - value: 1.299
+    - {symerror: 0.17, label: 'stat.'}
+  - value: 1.30
     errors:
-    - {symerror: 0.193, label: 'stat.'}
-  - value: 1.099
+    - {symerror: 0.19, label: 'stat.'}
+  - value: 1.10
     errors:
-    - {symerror: 0.176, label: 'stat.'}
-  - value: 1.296
+    - {symerror: 0.18, label: 'stat.'}
+  - value: 1.30
     errors:
-    - {symerror: 0.185, label: 'stat.'}
-  - value: 0.908
+    - {symerror: 0.19, label: 'stat.'}
+  - value: 0.91
     errors:
-    - {symerror: 0.152, label: 'stat.'}
-  - value: 0.968
+    - {symerror: 0.15, label: 'stat.'}
+  - value: 0.97
     errors:
-    - {symerror: 0.169, label: 'stat.'}
-  - value: 1.139
+    - {symerror: 0.17, label: 'stat.'}
+  - value: 1.14
     errors:
-    - {symerror: 0.202, label: 'stat.'}
-  - value: 1.057
+    - {symerror: 0.20, label: 'stat.'}
+  - value: 1.06
     errors:
-    - {symerror: 0.215, label: 'stat.'}
-  - value: 1.169
+    - {symerror: 0.22, label: 'stat.'}
+  - value: 1.17
     errors:
-    - {symerror: 0.248, label: 'stat.'}
-  - value: 0.913
+    - {symerror: 0.25, label: 'stat.'}
+  - value: 0.91
     errors:
-    - {symerror: 0.214, label: 'stat.'}
-  - value: 0.636
+    - {symerror: 0.21, label: 'stat.'}
+  - value: 0.64
     errors:
-    - {symerror: 0.166, label: 'stat.'}
-  - value: 0.888
+    - {symerror: 0.17, label: 'stat.'}
+  - value: 0.89
     errors:
-    - {symerror: 0.216, label: 'stat.'}
-  - value: 0.637
+    - {symerror: 0.22, label: 'stat.'}
+  - value: 0.64
     errors:
-    - {symerror: 0.201, label: 'stat.'}
-  - value: 0.587
+    - {symerror: 0.20, label: 'stat.'}
+  - value: 0.59
     errors:
-    - {symerror: 0.201, label: 'stat.'}
-  - value: 0.758
+    - {symerror: 0.20, label: 'stat.'}
+  - value: 0.76
     errors:
-    - {symerror: 0.236, label: 'stat.'}
-  - value: 0.907
+    - {symerror: 0.24, label: 'stat.'}
+  - value: 0.91
     errors:
-    - {symerror: 0.273, label: 'stat.'}
-  - value: 0.873
+    - {symerror: 0.27, label: 'stat.'}
+  - value: 0.87
     errors:
-    - {symerror: 0.305, label: 'stat.'}
-  - value: 0.579
+    - {symerror: 0.31, label: 'stat.'}
+  - value: 0.6
     errors:
-    - {symerror: 0.358, label: 'stat.'}
-  - value: 1.468
+    - {symerror: 0.4, label: 'stat.'}
+  - value: 1.5
     errors:
-    - {symerror: 0.643, label: 'stat.'}
-  - value: 0.523
+    - {symerror: 0.6, label: 'stat.'}
+  - value: 0.52
     errors:
-    - {symerror: 0.207, label: 'stat.'}
-  - value: 1.350
+    - {symerror: 0.21, label: 'stat.'}
+  - value: 1.4
     errors:
-    - {symerror: 0.641, label: 'stat.'}
-  - value: 0.226
+    - {symerror: 0.6, label: 'stat.'}
+  - value: 0.23
     errors:
-    - {symerror: 0.140, label: 'stat.'}
+    - {symerror: 0.14, label: 'stat.'}
 - header: {name: 'Ratio of Associated Yield'}
   qualifiers:
+  - {name: '', value: '$\pi^{\pm}$-$h^{\pm}$'}
   - {name: '', value: 'Far Side 40-88%'}
   values:
-  - value: 1.052
+  - value: 1.05
     errors:
-    - {symerror: 0.123, label: 'stat.'}
-  - value: 1.081
+    - {symerror: 0.12, label: 'stat.'}
+  - value: 1.08
     errors:
-    - {symerror: 0.094, label: 'stat.'}
-  - value: 0.943
+    - {symerror: 0.09, label: 'stat.'}
+  - value: 0.94
     errors:
-    - {symerror: 0.097, label: 'stat.'}
-  - value: 1.018
+    - {symerror: 0.10, label: 'stat.'}
+  - value: 1.02
     errors:
-    - {symerror: 0.154, label: 'stat.'}
-  - value: 1.139
+    - {symerror: 0.15, label: 'stat.'}
+  - value: 1.14
     errors:
-    - {symerror: 0.157, label: 'stat.'}
-  - value: 0.624
+    - {symerror: 0.16, label: 'stat.'}
+  - value: 0.62
     errors:
-    - {symerror: 0.111, label: 'stat.'}
-  - value: 0.739
+    - {symerror: 0.11, label: 'stat.'}
+  - value: 0.74
     errors:
-    - {symerror: 0.135, label: 'stat.'}
-  - value: 1.068
+    - {symerror: 0.14, label: 'stat.'}
+  - value: 1.07
     errors:
-    - {symerror: 0.187, label: 'stat.'}
-  - value: 1.183
+    - {symerror: 0.19, label: 'stat.'}
+  - value: 1.18
     errors:
-    - {symerror: 0.218, label: 'stat.'}
-  - value: 1.263
+    - {symerror: 0.22, label: 'stat.'}
+  - value: 1.26
     errors:
-    - {symerror: 0.253, label: 'stat.'}
-  - value: 1.143
+    - {symerror: 0.25, label: 'stat.'}
+  - value: 1.14
     errors:
-    - {symerror: 0.234, label: 'stat.'}
-  - value: 0.801
+    - {symerror: 0.23, label: 'stat.'}
+  - value: 0.80
     errors:
-    - {symerror: 0.166, label: 'stat.'}
-  - value: 1.019
+    - {symerror: 0.17, label: 'stat.'}
+  - value: 1.02
     errors:
-    - {symerror: 0.210, label: 'stat.'}
-  - value: 0.784
+    - {symerror: 0.21, label: 'stat.'}
+  - value: 0.78
     errors:
-    - {symerror: 0.202, label: 'stat.'}
-  - value: 1.085
+    - {symerror: 0.20, label: 'stat.'}
+  - value: 1.09
     errors:
-    - {symerror: 0.255, label: 'stat.'}
-  - value: 1.232
+    - {symerror: 0.26, label: 'stat.'}
+  - value: 1.23
     errors:
-    - {symerror: 0.312, label: 'stat.'}
-  - value: 1.032
+    - {symerror: 0.31, label: 'stat.'}
+  - value: 1.03
     errors:
-    - {symerror: 0.297, label: 'stat.'}
-  - value: 1.302
+    - {symerror: 0.30, label: 'stat.'}
+  - value: 1.3
     errors:
-    - {symerror: 0.409, label: 'stat.'}
-  - value: 1.000
+    - {symerror: 0.4, label: 'stat.'}
+  - value: 1.0
     errors:
-    - {symerror: 0.368, label: 'stat.'}
-  - value: 1.697
+    - {symerror: 0.4, label: 'stat.'}
+  - value: 1.7
     errors:
-    - {symerror: 0.704, label: 'stat.'}
-  - value: 0.682
+    - {symerror: 0.7, label: 'stat.'}
+  - value: 0.68
     errors:
-    - {symerror: 0.221, label: 'stat.'}
-  - value: 1.829
+    - {symerror: 0.22, label: 'stat.'}
+  - value: 1.8
     errors:
-    - {symerror: 0.808, label: 'stat.'}
-  - value: 0.535
+    - {symerror: 0.8, label: 'stat.'}
+  - value: 0.54
     errors:
-    - {symerror: 0.206, label: 'stat.'}
+    - {symerror: 0.21, label: 'stat.'}

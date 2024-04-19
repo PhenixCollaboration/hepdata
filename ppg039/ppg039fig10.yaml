@@ -1,135 +1,139 @@
 independent_variables:
 - header: {name: '$p_{T,assoc}$ (GeV/$c$)'}
   values:
-  - {low: 0.500, high: 0.700}
-  - {low: 0.700, high: 0.900}
-  - {low: 0.900, high: 1.250}
-  - {low: 1.250, high: 1.750}
-  - {low: 1.750, high: 2.250}
-  - {low: 2.250, high: 2.750}
-  - {low: 2.750, high: 3.500}
-  - {low: 3.500, high: 4.500}
-  - {low: 4.500, high: 5.000}
+  - {low: 0.5, high: 0.7}
+  - {low: 0.7, high: 0.9}
+  - {low: 0.9, high: 1.25}
+  - {low: 1.25, high: 1.75}
+  - {low: 1.75, high: 2.25}
+  - {low: 2.25, high: 2.75}
+  - {low: 2.75, high: 3.5}
+  - {low: 3.5, high: 4.5}
+  - {low: 4.5, high: 5}
 dependent_variables:
-- header: {name: '$1/N_{trig} dN/dp_T (GeV/c)^{-1}$'}
+- header: {name: '$1/N_{trig}$ $dN/dp_T$(GeV/$c$)$^{-1}$'}
   qualifiers:
-  - {name: '', value: 'Near Side Yield'}
+  - {name: '', value: 'Near Side Yield'} 
+  - {name: '', value: 'Data'}
   values:
   - value: 1.49
     errors:
-    - {symerror: 0.040, label: 'stat.'}
-  - value: 1.49
+    - {symerror: 0.04, label: 'stat.'}
+  - value: 1.492
     errors:
     - {symerror: 0.021, label: 'stat.'}
-  - value: 1.26
+  - value: 1.257
     errors:
     - {symerror: 0.012, label: 'stat.'}
   - value: 0.840
     errors:
-    - {symerror: 0.0040, label: 'stat.'}
-  - value: 0.469
+    - {symerror: 0.004, label: 'stat.'}
+  - value: 0.4690
     errors:
     - {symerror: 0.0030, label: 'stat.'}
-  - value: 0.279
+  - value: 0.2790
     errors:
     - {symerror: 0.0020, label: 'stat.'}
-  - value: 0.178
+  - value: 0.1780
     errors:
     - {symerror: 0.0020, label: 'stat.'}
-  - value: 0.103
+  - value: 0.1030
     errors:
     - {symerror: 0.0010, label: 'stat.'}
   - value: 0.0530
     errors:
     - {symerror: 0.0010, label: 'stat.'}
-- header: {name: '$1/N_{trig} dN/dp_T (GeV/c)^-1$'}
+- header: {name: '$1/N_{trig}$ $dN/dp_T$(GeV/$c$)$^{-1}$'}
   qualifiers:
-  - {name: '', value: 'Near Side Yield'}
+  - {name: '', value: 'Near Side Yield'} 
+  - {name: '', value: 'PYTHIA'}
   values:
   - value: 1.47
     errors:
-    - {symerror: 0.075, label: 'stat.'}
+    - {symerror: 0.08, label: 'stat.'}
   - value: 1.67
     errors:
-    - {symerror: 0.043, label: 'stat.'}
-  - value: 1.40
+    - {symerror: 0.04, label: 'stat.'}
+  - value: 1.400
     errors:
     - {symerror: 0.024, label: 'stat.'}
   - value: 0.918
     errors:
-    - {symerror: 0.0080, label: 'stat.'}
+    - {symerror: 0.008, label: 'stat.'}
   - value: 0.482
     errors:
-    - {symerror: 0.0050, label: 'stat.'}
-  - value: 0.294
+    - {symerror: 0.005, label: 'stat.'}
+  - value: 0.2940
     errors:
     - {symerror: 0.0030, label: 'stat.'}
-  - value: 0.183
+  - value: 0.1830
     errors:
     - {symerror: 0.0020, label: 'stat.'}
-  - value: 0.104
+  - value: 0.1040
     errors:
     - {symerror: 0.0010, label: 'stat.'}
   - value: 0.0530
     errors:
     - {symerror: 0.0010, label: 'stat.'}
-- header: {name: '$1/N_{trig} dN/dp_T (GeV/c)^-1$'}
+- header: {name: '$1/N_{trig}$ $dN/dp_T$(GeV/$c$)$^{-1}$'}
   qualifiers:
-  - {name: '', value: 'Far Side Yield'}
+  - {name: '', value: 'Far Side Yield'} 
+  - {name: '', value: 'Data'}
   values:
-  - value: 2.37
+  - value: 2.367
     errors:
     - {symerror: 0.031, label: 'stat.'}
-  - value: 2.19
+  - value: 2.194
     errors:
     - {symerror: 0.018, label: 'stat.'}
-  - value: 1.70
+  - value: 1.695
     errors:
     - {symerror: 0.011, label: 'stat.'}
-  - value: 1.08
+  - value: 1.081
     errors:
-    - {symerror: 0.0050, label: 'stat.'}
-  - value: 0.591
+    - {symerror: 0.005, label: 'stat.'}
+  - value: 0.5910
     errors:
     - {symerror: 0.0030, label: 'stat.'}
-  - value: 0.361
+  - value: 0.3610
     errors:
     - {symerror: 0.0020, label: 'stat.'}
-  - value: 0.241
+  - value: 0.2410
     errors:
     - {symerror: 0.0020, label: 'stat.'}
-  - value: 0.143
+  - value: 0.1430
     errors:
     - {symerror: 0.0010, label: 'stat.'}
   - value: 0.0770
     errors:
     - {symerror: 0.0010, label: 'stat.'}
-- header: {name: '$1/N_{trig} dN/dp_T (GeV/c)^-1$'}
+- header: {name: '$1/N_{trig}$ $dN/dp_T$(GeV/$c$)$^{-1}$'}
   qualifiers:
-  - {name: '', value: 'Far Side Yield'}
+  - {name: '', value: 'Far Side Yield'} 
+  - {name: '', value: 'PYTHIA'}
   values:
   - value: 2.33
     errors:
-    - {symerror: 0.096, label: 'stat.'}
+    - {symerror: 0.10, label: 'stat.'}
   - value: 2.27
     errors:
-    - {symerror: 0.057, label: 'stat.'}
-  - value: 1.79
+    - {symerror: 0.06, label: 'stat.'}
+  - value: 1.787
     errors:
     - {symerror: 0.035, label: 'stat.'}
-  - value: 1.13
+  - value: 1.132
     errors:
     - {symerror: 0.013, label: 'stat.'}
   - value: 0.633
     errors:
-    - {symerror: 0.0080, label: 'stat.'}
+    - {symerror: 0.008, label: 'stat.'}
   - value: 0.386
     errors:
-    - {symerror: 0.0060, label: 'stat.'}
+    - {symerror: 0.006, label: 'stat.'}
   - value: 0.261
     errors:
-    - {symerror: 0.0050, label: 'stat.'}
-  - value: 0.150
+    - {symerror: 0.005, label: 'stat.'}
+  - value: 0.1500
     errors:
     - {symerror: 0.0020, label: 'stat.'}
   - value: 0.0820
@@ -137,100 +141,104 @@ dependent_variables:
     - {symerror: 0.0020, label: 'stat.'}
 - header: {name: '$\sigma$ (rad)'}
   qualifiers:
-  - {name: '', value: 'Near Side Jet Width'}
+  - {name: '', value: 'Near Side Jet Width'} 
+  - {name: '', value: 'Data'}
   values:
   - value: 0.463
     errors:
     - {symerror: 0.010, label: 'stat.'}
   - value: 0.408
     errors:
-    - {symerror: 0.0050, label: 'stat.'}
-  - value: 0.347
+    - {symerror: 0.005, label: 'stat.'}
+  - value: 0.3470
     errors:
     - {symerror: 0.0030, label: 'stat.'}
-  - value: 0.280
+  - value: 0.2800
     errors:
     - {symerror: 0.0010, label: 'stat.'}
-  - value: 0.216
+  - value: 0.2160
     errors:
     - {symerror: 0.0010, label: 'stat.'}
-  - value: 0.176
+  - value: 0.1760
     errors:
     - {symerror: 0.0010, label: 'stat.'}
-  - value: 0.149
+  - value: 0.1490
     errors:
     - {symerror: 0.0010, label: 'stat.'}
-  - value: 0.122
+  - value: 0.1220
     errors:
     - {symerror: 0.0010, label: 'stat.'}
-  - value: 0.100
+  - value: 0.1000
     errors:
     - {symerror: 0.0010, label: 'stat.'}
 - header: {name: '$\sigma$ (rad)'}
   qualifiers:
-  - {name: '', value: 'Near Side Jet Width'}
+  - {name: '', value: 'Near Side Jet Width'} 
+  - {name: '', value: 'PYTHIA'}
   values:
   - value: 0.458
     errors:
     - {symerror: 0.017, label: 'stat.'}
   - value: 0.415
     errors:
-    - {symerror: 0.0090, label: 'stat.'}
+    - {symerror: 0.009, label: 'stat.'}
   - value: 0.356
     errors:
-    - {symerror: 0.0060, label: 'stat.'}
-  - value: 0.293
+    - {symerror: 0.006, label: 'stat.'}
+  - value: 0.2930
     errors:
     - {symerror: 0.0030, label: 'stat.'}
-  - value: 0.213
+  - value: 0.2130
     errors:
     - {symerror: 0.0020, label: 'stat.'}
-  - value: 0.179
+  - value: 0.1790
     errors:
     - {symerror: 0.0020, label: 'stat.'}
-  - value: 0.152
+  - value: 0.1520
     errors:
     - {symerror: 0.0020, label: 'stat.'}
-  - value: 0.123
+  - value: 0.1230
     errors:
     - {symerror: 0.0010, label: 'stat.'}
-  - value: 0.105
+  - value: 0.1050
     errors:
     - {symerror: 0.0010, label: 'stat.'}
 - header: {name: '$\sigma$ (rad)'}
   qualifiers:
-  - {name: '', value: 'Far Side Jet Width'}
+  - {name: '', value: 'Far Side Jet Width'} 
+  - {name: '', value: 'Data'}
   values:
   - value: 0.605
     errors:
-    - {symerror: 0.0060, label: 'stat.'}
+    - {symerror: 0.006, label: 'stat.'}
   - value: 0.546
     errors:
-    - {symerror: 0.0040, label: 'stat.'}
-  - value: 0.488
+    - {symerror: 0.004, label: 'stat.'}
+  - value: 0.4880
     errors:
     - {symerror: 0.0030, label: 'stat.'}
-  - value: 0.430
+  - value: 0.4300
     errors:
     - {symerror: 0.0020, label: 'stat.'}
-  - value: 0.367
+  - value: 0.3670
     errors:
     - {symerror: 0.0020, label: 'stat.'}
-  - value: 0.336
+  - value: 0.3360
     errors:
     - {symerror: 0.0020, label: 'stat.'}
-  - value: 0.319
+  - value: 0.3190
     errors:
     - {symerror: 0.0020, label: 'stat.'}
-  - value: 0.291
+  - value: 0.2910
     errors:
     - {symerror: 0.0020, label: 'stat.'}
-  - value: 0.269
+  - value: 0.2690
     errors:
     - {symerror: 0.0030, label: 'stat.'}
 - header: {name: '$\sigma$ (rad)'}
   qualifiers:
-  - {name: '', value: 'Far Side Jet Width'}
+  - {name: '', value: 'Far Side Jet Width'} 
+  - {name: '', value: 'PYTHIA'}
   values:
   - value: 0.583
     errors:
@@ -240,22 +248,22 @@ dependent_variables:
     - {symerror: 0.011, label: 'stat.'}
   - value: 0.480
     errors:
-    - {symerror: 0.0090, label: 'stat.'}
+    - {symerror: 0.009, label: 'stat.'}
   - value: 0.415
     errors:
-    - {symerror: 0.0050, label: 'stat.'}
+    - {symerror: 0.005, label: 'stat.'}
   - value: 0.358
     errors:
-    - {symerror: 0.0050, label: 'stat.'}
+    - {symerror: 0.005, label: 'stat.'}
   - value: 0.326
     errors:
-    - {symerror: 0.0050, label: 'stat.'}
+    - {symerror: 0.005, label: 'stat.'}
   - value: 0.315
     errors:
-    - {symerror: 0.0060, label: 'stat.'}
+    - {symerror: 0.006, label: 'stat.'}
   - value: 0.277
     errors:
-    - {symerror: 0.0050, label: 'stat.'}
+    - {symerror: 0.005, label: 'stat.'}
   - value: 0.265
     errors:
-    - {symerror: 0.0060, label: 'stat.'}
+    - {symerror: 0.006, label: 'stat.'}

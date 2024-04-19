@@ -1,91 +1,91 @@
 independent_variables:
 - header: {name: '$P_{out}$ (GeV/$c$)'}
   values:
-  - {low: 0.000, high: 0.100}
-  - {low: 0.100, high: 0.200}
-  - {low: 0.200, high: 0.300}
-  - {low: 0.300, high: 0.400}
-  - {low: 0.400, high: 0.500}
-  - {low: 0.500, high: 0.600}
-  - {low: 0.600, high: 0.700}
-  - {low: 0.700, high: 0.800}
-  - {low: 0.800, high: 0.900}
-  - {low: 0.900, high: 1.000}
-  - {low: 1.000, high: 1.100}
-  - {low: 1.100, high: 1.200}
-  - {low: 1.200, high: 1.300}
-  - {low: 1.300, high: 1.400}
-  - {low: 1.400, high: 1.500}
-  - {low: 1.500, high: 1.600}
-  - {low: 1.600, high: 1.700}
-  - {low: 1.700, high: 1.800}
-  - {low: 1.800, high: 1.900}
-  - {low: 1.900, high: 2.000}
-  - {low: 2.000, high: 2.100}
-  - {low: 2.100, high: 2.200}
-  - {low: 2.200, high: 2.300}
-  - {low: 2.300, high: 2.400}
-  - {low: 2.400, high: 2.500}
-  - {low: 2.500, high: 2.600}
-  - {low: 2.600, high: 2.700}
-  - {low: 2.700, high: 2.800}
-  - {low: 2.800, high: 2.900}
-  - {low: 2.900, high: 3.000}
-  - {low: 3.000, high: 3.100}
-  - {low: 3.100, high: 3.200}
-  - {low: 3.200, high: 3.300}
-  - {low: 3.300, high: 3.400}
-  - {low: 3.400, high: 3.500}
-  - {low: 3.500, high: 3.600}
-  - {low: 3.600, high: 3.700}
-  - {low: 3.700, high: 3.800}
-  - {low: 3.800, high: 3.900}
-  - {low: 3.900, high: 4.000}
-  - {low: 4.000, high: 4.100}
-  - {low: 4.100, high: 4.200}
-  - {low: 4.200, high: 4.300}
-  - {low: 4.300, high: 4.400}
-  - {low: 4.400, high: 4.500}
-  - {low: 4.500, high: 4.600}
-  - {low: 4.600, high: 4.700}
-  - {low: 4.700, high: 4.800}
-  - {low: 4.800, high: 4.900}
-  - {low: 4.900, high: 5.000}
+  - {low: 0, high: 0.1}
+  - {low: 0.1, high: 0.2}
+  - {low: 0.2, high: 0.3}
+  - {low: 0.3, high: 0.4}
+  - {low: 0.4, high: 0.5}
+  - {low: 0.5, high: 0.6}
+  - {low: 0.6, high: 0.7}
+  - {low: 0.7, high: 0.8}
+  - {low: 0.8, high: 0.9}
+  - {low: 0.9, high: 1}
+  - {low: 1, high: 1.1}
+  - {low: 1.1, high: 1.2}
+  - {low: 1.2, high: 1.3}
+  - {low: 1.3, high: 1.4}
+  - {low: 1.4, high: 1.5}
+  - {low: 1.5, high: 1.6}
+  - {low: 1.6, high: 1.7}
+  - {low: 1.7, high: 1.8}
+  - {low: 1.8, high: 1.9}
+  - {low: 1.9, high: 2}
+  - {low: 2, high: 2.1}
+  - {low: 2.1, high: 2.2}
+  - {low: 2.2, high: 2.3}
+  - {low: 2.3, high: 2.4}
+  - {low: 2.4, high: 2.5}
+  - {low: 2.5, high: 2.6}
+  - {low: 2.6, high: 2.7}
+  - {low: 2.7, high: 2.8}
+  - {low: 2.8, high: 2.9}
+  - {low: 2.9, high: 3}
+  - {low: 3, high: 3.1}
+  - {low: 3.1, high: 3.2}
+  - {low: 3.2, high: 3.3}
+  - {low: 3.3, high: 3.4}
+  - {low: 3.4, high: 3.5}
+  - {low: 3.5, high: 3.6}
+  - {low: 3.6, high: 3.7}
+  - {low: 3.7, high: 3.8}
+  - {low: 3.8, high: 3.9}
+  - {low: 3.9, high: 4}
+  - {low: 4, high: 4.1}
+  - {low: 4.1, high: 4.2}
+  - {low: 4.2, high: 4.3}
+  - {low: 4.3, high: 4.4}
+  - {low: 4.4, high: 4.5}
+  - {low: 4.5, high: 4.6}
+  - {low: 4.6, high: 4.7}
+  - {low: 4.7, high: 4.8}
+  - {low: 4.8, high: 4.9}
+  - {low: 4.9, high: 5}
 dependent_variables:
 - header: {name: '$1/N_{trig}$ $dN/dp_{out}$ (GeV/$c$)$^{-1}$'}
   qualifiers:
   - {name: '', value: 'Near Side $d$+Au'}
   values:
-  - value: 2.807
+  - value: 2.81
     errors:
-    - {symerror: 0.114, label: 'stat.'}
-  - value: 2.541
+    - {symerror: 0.11, label: 'stat.'}
+  - value: 2.54
     errors:
-    - {symerror: 0.117, label: 'stat.'}
-  - value: 2.222
+    - {symerror: 0.12, label: 'stat.'}
+  - value: 2.22
     errors:
-    - {symerror: 0.128, label: 'stat.'}
-  - value: 1.309
+    - {symerror: 0.13, label: 'stat.'}
+  - value: 1.31
     errors:
-    - {symerror: 0.139, label: 'stat.'}
-  - value: 0.801
+    - {symerror: 0.14, label: 'stat.'}
+  - value: 0.80
     errors:
-    - {symerror: 0.107, label: 'stat.'}
-  - value: 0.451
+    - {symerror: 0.11, label: 'stat.'}
+  - value: 0.45
     errors:
-    - {symerror: 0.079, label: 'stat.'}
-  - value: 0.219
+    - {symerror: 0.08, label: 'stat.'}
+  - value: 0.22
     errors:
-    - {symerror: 0.062, label: 'stat.'}
-  - value: 0.153
+    - {symerror: 0.06, label: 'stat.'}
+  - value: 0.15
     errors:
-    - {symerror: 0.053, label: 'stat.'}
-  - value: 0.150
+    - {symerror: 0.05, label: 'stat.'}
+  - value: 0.15
     errors:
-    - {symerror: 0.048, label: 'stat.'}
-  - value: 0.060
+    - {symerror: 0.05, label: 'stat.'}
+  - value: 0.06
     errors:
-    - {symerror: 0.038, label: 'stat.'}
+    - {symerror: 0.04, label: 'stat.'}
   - value: 0.043
     errors:
     - {symerror: 0.032, label: 'stat.'}
@@ -131,20 +131,20 @@ dependent_variables:
   - value: 0.008
     errors:
     - {symerror: 0.005, label: 'stat.'}
-  - value: 0.004
+  - value: 0.0040
     errors:
-    - {symerror: 0.003, label: 'stat.'}
-  - value: 0.004
+    - {symerror: 0.0030, label: 'stat.'}
+  - value: 0.0040
     errors:
-    - {symerror: 0.003, label: 'stat.'}
+    - {symerror: 0.0030, label: 'stat.'}
   - value: 0.006
     errors:
     - {symerror: 0.004, label: 'stat.'}
   - value: 0
   - value: 0
-  - value: 0.005
+  - value: 0.0050
     errors:
-    - {symerror: 0.003, label: 'stat.'}
+    - {symerror: 0.0030, label: 'stat.'}
   - value: 0
   - value: 0
   - value: 0
@@ -168,30 +168,30 @@ dependent_variables:
   qualifiers:
   - {name: '', value: 'Near Side $p$+$p$'}
   values:
-  - value: 2.445
+  - value: 2.45
     errors:
-    - {symerror: 0.083, label: 'stat.'}
-  - value: 2.227
+    - {symerror: 0.08, label: 'stat.'}
+  - value: 2.23
     errors:
-    - {symerror: 0.083, label: 'stat.'}
-  - value: 1.781
+    - {symerror: 0.08, label: 'stat.'}
+  - value: 1.78
     errors:
-    - {symerror: 0.084, label: 'stat.'}
-  - value: 1.029
+    - {symerror: 0.08, label: 'stat.'}
+  - value: 1.03
     errors:
-    - {symerror: 0.084, label: 'stat.'}
-  - value: 0.657
+    - {symerror: 0.08, label: 'stat.'}
+  - value: 0.66
     errors:
-    - {symerror: 0.066, label: 'stat.'}
-  - value: 0.468
+    - {symerror: 0.07, label: 'stat.'}
+  - value: 0.47
     errors:
-    - {symerror: 0.053, label: 'stat.'}
-  - value: 0.342
+    - {symerror: 0.05, label: 'stat.'}
+  - value: 0.34
     errors:
-    - {symerror: 0.042, label: 'stat.'}
-  - value: 0.241
+    - {symerror: 0.04, label: 'stat.'}
+  - value: 0.24
     errors:
-    - {symerror: 0.036, label: 'stat.'}
+    - {symerror: 0.04, label: 'stat.'}
   - value: 0.115
     errors:
     - {symerror: 0.029, label: 'stat.'}
@@ -222,9 +222,9 @@ dependent_variables:
   - value: 0.008
     errors:
     - {symerror: 0.004, label: 'stat.'}
-  - value: 0.004
+  - value: 0.0040
     errors:
-    - {symerror: 0.003, label: 'stat.'}
+    - {symerror: 0.0030, label: 'stat.'}
   - value: 0.010
     errors:
     - {symerror: 0.006, label: 'stat.'}
@@ -236,27 +236,27 @@ dependent_variables:
     errors:
     - {symerror: 0.004, label: 'stat.'}
   - value: 0
-  - value: 0.003
+  - value: 0.0030
     errors:
-    - {symerror: 0.003, label: 'stat.'}
+    - {symerror: 0.0030, label: 'stat.'}
   - value: 0
-  - value: 0.002
+  - value: 0.0020
     errors:
-    - {symerror: 0.002, label: 'stat.'}
+    - {symerror: 0.0020, label: 'stat.'}
   - value: 0.003
     errors:
     - {symerror: 0.004, label: 'stat.'}
   - value: 0
   - value: 0
-  - value: 0.003
+  - value: 0.0030
     errors:
-    - {symerror: 0.003, label: 'stat.'}
+    - {symerror: 0.0030, label: 'stat.'}
   - value: 0
   - value: 0
   - value: 0
-  - value: 0.001
+  - value: 0.0010
     errors:
-    - {symerror: 0.002, label: 'stat.'}
+    - {symerror: 0.0020, label: 'stat.'}
   - value: 0
   - value: 0
   - value: 0
@@ -276,66 +276,66 @@ dependent_variables:
   qualifiers:
   - {name: '', value: 'Far Side $d$+Au'}
   values:
-  - value: 2.938
+  - value: 2.94
     errors:
-    - {symerror: 0.136, label: 'stat.'}
-  - value: 2.769
+    - {symerror: 0.14, label: 'stat.'}
+  - value: 2.77
     errors:
-    - {symerror: 0.140, label: 'stat.'}
-  - value: 2.740
+    - {symerror: 0.14, label: 'stat.'}
+  - value: 2.74
     errors:
-    - {symerror: 0.150, label: 'stat.'}
-  - value: 2.396
+    - {symerror: 0.15, label: 'stat.'}
+  - value: 2.40
     errors:
-    - {symerror: 0.181, label: 'stat.'}
-  - value: 1.243
+    - {symerror: 0.18, label: 'stat.'}
+  - value: 1.24
     errors:
-    - {symerror: 0.262, label: 'stat.'}
-  - value: 1.633
+    - {symerror: 0.26, label: 'stat.'}
+  - value: 1.63
     errors:
-    - {symerror: 0.232, label: 'stat.'}
-  - value: 0.921
+    - {symerror: 0.23, label: 'stat.'}
+  - value: 0.92
     errors:
-    - {symerror: 0.280, label: 'stat.'}
-  - value: 1.287
+    - {symerror: 0.28, label: 'stat.'}
+  - value: 1.29
     errors:
-    - {symerror: 0.272, label: 'stat.'}
-  - value: 0.725
+    - {symerror: 0.27, label: 'stat.'}
+  - value: 0.73
     errors:
-    - {symerror: 0.186, label: 'stat.'}
-  - value: 0.454
+    - {symerror: 0.19, label: 'stat.'}
+  - value: 0.45
     errors:
-    - {symerror: 0.224, label: 'stat.'}
-  - value: 0.113
+    - {symerror: 0.22, label: 'stat.'}
+  - value: 0.11
     errors:
-    - {symerror: 0.107, label: 'stat.'}
-  - value: 0.145
+    - {symerror: 0.11, label: 'stat.'}
+  - value: 0.15
     errors:
-    - {symerror: 0.094, label: 'stat.'}
-  - value: 0.051
+    - {symerror: 0.09, label: 'stat.'}
+  - value: 0.05
     errors:
-    - {symerror: 0.084, label: 'stat.'}
-  - value: 0.386
+    - {symerror: 0.08, label: 'stat.'}
+  - value: 0.39
     errors:
-    - {symerror: 0.302, label: 'stat.'}
-  - value: 0.153
+    - {symerror: 0.30, label: 'stat.'}
+  - value: 0.15
     errors:
-    - {symerror: 0.070, label: 'stat.'}
-  - value: 0.157
+    - {symerror: 0.07, label: 'stat.'}
+  - value: 0.16
     errors:
-    - {symerror: 0.064, label: 'stat.'}
-  - value: 0.045
+    - {symerror: 0.06, label: 'stat.'}
+  - value: 0.05
     errors:
-    - {symerror: 0.054, label: 'stat.'}
-  - value: 0.022
+    - {symerror: 0.05, label: 'stat.'}
+  - value: 0.02
     errors:
-    - {symerror: 0.046, label: 'stat.'}
-  - value: -0.001
+    - {symerror: 0.05, label: 'stat.'}
+  - value: 0.00
     errors:
-    - {symerror: 0.039, label: 'stat.'}
-  - value: 0.032
+    - {symerror: 0.04, label: 'stat.'}
+  - value: 0.03
     errors:
-    - {symerror: 0.039, label: 'stat.'}
+    - {symerror: 0.04, label: 'stat.'}
   - value: 0.005
     errors:
     - {symerror: 0.031, label: 'stat.'}
@@ -408,60 +408,60 @@ dependent_variables:
   qualifiers:
   - {name: '', value: 'Far Side $p$+$p$'}
   values:
-  - value: 2.798
+  - value: 2.80
     errors:
-    - {symerror: 0.106, label: 'stat.'}
-  - value: 2.760
+    - {symerror: 0.11, label: 'stat.'}
+  - value: 2.76
     errors:
-    - {symerror: 0.108, label: 'stat.'}
-  - value: 2.308
+    - {symerror: 0.11, label: 'stat.'}
+  - value: 2.31
     errors:
-    - {symerror: 0.109, label: 'stat.'}
-  - value: 2.031
+    - {symerror: 0.11, label: 'stat.'}
+  - value: 2.03
     errors:
-    - {symerror: 0.123, label: 'stat.'}
-  - value: 1.690
+    - {symerror: 0.12, label: 'stat.'}
+  - value: 1.69
     errors:
-    - {symerror: 0.325, label: 'stat.'}
-  - value: 1.396
+    - {symerror: 0.33, label: 'stat.'}
+  - value: 1.40
     errors:
-    - {symerror: 0.209, label: 'stat.'}
-  - value: 0.838
+    - {symerror: 0.21, label: 'stat.'}
+  - value: 0.84
     errors:
-    - {symerror: 0.104, label: 'stat.'}
-  - value: 0.604
+    - {symerror: 0.10, label: 'stat.'}
+  - value: 0.60
     errors:
-    - {symerror: 0.090, label: 'stat.'}
-  - value: 0.400
+    - {symerror: 0.09, label: 'stat.'}
+  - value: 0.40
     errors:
-    - {symerror: 0.079, label: 'stat.'}
-  - value: 0.268
+    - {symerror: 0.08, label: 'stat.'}
+  - value: 0.27
     errors:
-    - {symerror: 0.072, label: 'stat.'}
-  - value: 0.256
+    - {symerror: 0.07, label: 'stat.'}
+  - value: 0.26
     errors:
-    - {symerror: 0.074, label: 'stat.'}
-  - value: 0.176
+    - {symerror: 0.07, label: 'stat.'}
+  - value: 0.18
     errors:
-    - {symerror: 0.061, label: 'stat.'}
-  - value: 0.183
+    - {symerror: 0.06, label: 'stat.'}
+  - value: 0.18
     errors:
-    - {symerror: 0.054, label: 'stat.'}
-  - value: 0.152
+    - {symerror: 0.05, label: 'stat.'}
+  - value: 0.15
     errors:
-    - {symerror: 0.049, label: 'stat.'}
-  - value: 0.098
+    - {symerror: 0.05, label: 'stat.'}
+  - value: 0.10
     errors:
-    - {symerror: 0.038, label: 'stat.'}
+    - {symerror: 0.04, label: 'stat.'}
   - value: 0.028
     errors:
     - {symerror: 0.026, label: 'stat.'}
-  - value: 0.093
+  - value: 0.09
     errors:
-    - {symerror: 0.042, label: 'stat.'}
-  - value: 0.069
+    - {symerror: 0.04, label: 'stat.'}
+  - value: 0.07
     errors:
-    - {symerror: 0.036, label: 'stat.'}
+    - {symerror: 0.04, label: 'stat.'}
   - value: 0.065
     errors:
     - {symerror: 0.030, label: 'stat.'}

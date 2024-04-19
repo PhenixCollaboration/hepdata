@@ -1,5 +1,5 @@
 independent_variables:
-- header: {name: '$p_{T,assoc}$ Bins (GeV/$c$)'}
+- header: {name: '$p_{T,assoc}$ (GeV/$c$)'}
   values:
   - {low: 0.4, high: 0.6}
   - {low: 0.6, high: 0.8}
@@ -11,7 +11,7 @@ independent_variables:
   - {low: 3.0, high: 4.0}
   - {low: 4.0, high: 5.0}
 dependent_variables:
-- header: {name: '$p_{T,assoc}$ (GeV/$c$)'}
+- header: {name: '$\langle p_{T,assoc}\rangle$ (GeV/$c$)'}
   qualifiers:
   - {name: '', value: ''}
   values:
@@ -37,9 +37,9 @@ dependent_variables:
   - value: 0.279
     errors:
     - {symerror: 0.024, label: 'stat.'}
-  - value: 0.319
+  - value: 0.32
     errors:
-    - {symerror: 0.038, label: 'stat.'}
+    - {symerror: 0.04, label: 'stat.'}
   - value: 0.349
     errors:
     - {symerror: 0.029, label: 'stat.'}
@@ -49,9 +49,9 @@ dependent_variables:
   - value: 0.410
     errors:
     - {symerror: 0.028, label: 'stat.'}
-  - value: 0.408
+  - value: 0.41
     errors:
-    - {symerror: 0.038, label: 'stat.'}
-  - value: 0.468
+    - {symerror: 0.04, label: 'stat.'}
+  - value: 0.47
     errors:
-    - {symerror: 0.040, label: 'stat.'}
+    - {symerror: 0.04, label: 'stat.'}

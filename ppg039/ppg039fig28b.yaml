@@ -1,0 +1,63 @@
+independent_variables:
+- header: {name: '$x_E$'}
+  values:
+  - {low: 0.13, high: 0.19}
+  - {low: 0.21, high: 0.26}
+  - {low: 0.26, high: 0.35}
+  - {low: 0.34, high: 0.43}
+  - {low: 0.42, high: 0.5}
+  - {low: 0.47, high: 0.56}
+  - {low: 0.54, high: 0.68}
+dependent_variables:
+- header: {name: '$1/N_{trig}$ $dN/dx_E$'}
+  qualifiers:
+  - {name: '', value: '$\pi^{0}$-$h^{\pm}$'}
+  - {name: '', value: 'Near Side'}
+  values:
+  - value: 3.642
+    errors:
+    - {symerror: 0.235, label: 'stat.'}
+  - value: 1.93
+    errors:
+    - {symerror: 0.09, label: 'stat.'}
+  - value: 0.91
+    errors:
+    - {symerror: 0.06, label: 'stat.'}
+  - value: 0.68
+    errors:
+    - {symerror: 0.04, label: 'stat.'}
+  - value: 0.484
+    errors:
+    - {symerror: 0.033, label: 'stat.'}
+  - value: 0.299
+    errors:
+    - {symerror: 0.026, label: 'stat.'}
+  - value: 0.206
+    errors:
+    - {symerror: 0.019, label: 'stat.'}
+- header: {name: '$1/N_{trig}$ $dN/dx_E$'}
+  qualifiers:
+  - {name: '', value: '$\pi^{0}$-$h^{\pm}$'}
+  - {name: '', value: 'Far Side'}
+  values:
+  - value: 4.8
+    errors:
+    - {symerror: 0.5, label: 'stat.'}
+  - value: 2.60
+    errors:
+    - {symerror: 0.20, label: 'stat.'}
+  - value: 1.36
+    errors:
+    - {symerror: 0.12, label: 'stat.'}
+  - value: 1.03
+    errors:
+    - {symerror: 0.08, label: 'stat.'}
+  - value: 0.60
+    errors:
+    - {symerror: 0.08, label: 'stat.'}
+  - value: 0.37
+    errors:
+    - {symerror: 0.05, label: 'stat.'}
+  - value: 0.32
+    errors:
+    - {symerror: 0.04, label: 'stat.'}
