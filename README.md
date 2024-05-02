@@ -12,6 +12,10 @@ Please these pages for details:
 * https://phenixcollaboration.github.io/web/results/hepdata_policy.html
 * https://phenixcollaboration.github.io/web/results/hepdata_instructions.html
 
+
+## General remarks
+We use branches and pull request mechanism to maintain this repository.
+
 ## The "YAML Maker"
 Many of these HEPData files were made by the UTK group using YAML_Maker: https://github.com/tkrobatsch/YAML_Maker
 
