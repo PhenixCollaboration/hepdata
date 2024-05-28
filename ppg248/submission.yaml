@@ -1,0 +1,87 @@
+comment: |
+  PHENIX presents a simultaneous measurement of the production of direct $\gamma$ and $\pi^0$ in d+Au collisions at $\sqrt{s_{NN}} = 200$ GeV over a $p_T$ range of 7.5 to 18 GeV/c for different event samples selected by event activity, i.e. charged-particle multiplicity detected at forward rapidity. Direct-photon yields are used to empirically estimate the contribution of hard-scattering processes in the different event samples. Using this estimate, the average nuclear-modification factor $R^{\gamma^{dir}}_{dAu,EXP}$ is 0.925$\pm$0.023(stat)$\pm$0.15(scale), consistent with unity for minimum-bias (MB) d+Au events. For event classes with moderate event activity, $R^{\gamma^{dir}}_{dAu,EXP}$ is consistent with the MB value within 5% uncertainty. These results confirm that the previously observed enhancement of high-$p_T$ $\pi^0$ production found in small system collisions with low event activity is a result of a bias in interpreting event activity within the Glauber framework. In contrast, for the top 5% of events with the highest event activity, $R^{\gamma^{dir}}_{dAu,EXP}$ is suppressed by 20% relative to the MB value with a significance of 4.5$\sigma$, which may be due to final-state effects.
+additional_resources:
+    - {location: "https://phenix-intra.sdcc.bnl.gov/phenix/WWW/p/info/ppg/248/", description: "web page with data points "}
+---
+additional_resources:
+    - {location: thumb_fig1.png, description: Thumbnail Image file }
+    - {location: fig1.png, description: Image file }
+name: "Figure1a"
+description: ' The $p_{T}$ distribution at high $p_{T}$ of neutral pions (panel (a)) for different d+Au event activity classes compared to those from p+p collisions (Phys. Rev. C 105, 064902).  '
+keywords:
+    - {name: reactions, values: [ D AU --> PI0 X] }
+    - {name: cmenergies, values: [200] }
+    - {name: phrases, values: [ppg248, neutral $\pi^0$, direct photons ]}
+data_file: fig1a.yaml
+---
+additional_resources:
+    - {location: thumb_fig1.png, description: Thumbnail Image file }
+    - {location: fig1.png, description: Image file }
+name: "Figure1b"
+description: ' The $p_{T}$ distribution at high $p_{T}$ of direct photons (panel (b)) for different d+Au event activity classes compared to those from p+p collisions (Phys. Rev. D 86, 072008).  '
+keywords:
+    - {name: reactions, values: [D AU --> GAMMA X ]}
+    - {name: cmenergies, values: [200] }
+    - {name: phrases, values: [ppg248, neutral $\pi^0$, direct photons ]}
+data_file: fig1b.yaml
+---
+additional_resources:
+    - {location: thumb_fig1.png, description: Thumbnail Image file }
+    - {location: fig1.png, description: Image file }
+name: "Figure1c"
+description: ' Panel (c) shows the ratio $\gamma^{dir}/\pi^{0}$. For better visibility the points are slightly shifted in $p_{T}$ . '
+keywords:
+    - {name: reactions, values: [D AU --> GAMMA X ]}
+    - {name: reactions, values: [ D AU --> PI0 X] }
+    - {name: cmenergies, values: [200] }
+    - {name: phrases, values: [ppg248, neutral $\pi^0$, direct photons ]}
+data_file: fig1c.yaml
+---
+additional_resources:
+    - {location: thumb_fig2.png, description: Thumbnail Image file }
+    - {location: fig2.png, description: Image file }
+name: "Figure2abc"
+description: ' Values of $N^{EXP}_{coll}$ versus $p_{T}$ as defined in Eq. 2 for three d+Au event classes, (a) $0\%–100\%$, (b) $0\%–5\%$ and (c) $60\%–88\%$. Also shown are fits to the data (solid lines) and the corresponding value $N^{GL}_{coll}$ (dashed lines). '
+keywords:
+    - {name: reactions, values: [ D AU --> GAMMA X ]}
+    - {name: reactions, values: [ D AU --> PI0 X] }
+    - {name: cmenergies, values: [200] }
+    - {name: phrases, values: [ppg248, neutral $\pi^0$, direct photons ]}
+data_file: fig2abc.yaml
+---
+additional_resources:
+    - {location: thumb_fig2.png, description: Thumbnail Image file }
+    - {location: fig2.png, description: Image file }
+name: "Figure2def"
+description: ' Panels (d) to (f) show the nuclear modification factors $R^{\pi^{0}}_{dAu,EXP}$, calculated with Eq. 3, for the same event selections as in (a) to (c) together with fits to the data, (d) $0\%–100\%$, (e) $0\%–5\%$ and (f) $60\%–88\%$. '
+keywords:
+    - {name: reactions, values: [D AU --> GAMMA X ]}
+    - {name: reactions, values: [ D AU --> PI0 X] }
+    - {name: cmenergies, values: [200] }
+    - {name: phrases, values: [ppg248, neutral $\pi^0$, direct photons ]}
+data_file: fig2def.yaml
+---
+additional_resources:
+    - {location: thumb_fig3.png, description: Thumbnail Image file }
+    - {location: fig3.png, description: Image file }
+name: "Figure3"
+description: ' Average $R^{\pi^{0}}_{dAu,EXP}$ as a function of $N^{EXP}_{coll}$. Horizontal and vertical bars are the statistical uncertainties. The $R^{\pi^{0}}_{dAu,EXP}$ for $0\%–100\%$ d+Au collisions is represented by a blue line, with the statistical uncertainty given as band. The scale uncertainty of 16.5% is shown as vertical band around the $0\%–100\%$ $R^{\pi^{0}}_{dAu,EXP}$ value. This uncertainty is common to all data points. '
+keywords:
+    - {name: reactions, values: [D AU --> GAMMA X ]}
+    - {name: reactions, values: [ D AU --> PI0 X] }
+    - {name: cmenergies, values: [200] }
+    - {name: phrases, values: [ppg248, neutral $\pi^0$, direct photons ]}
+data_file: fig3.yaml
+---
+additional_resources:
+    - {location: thumb_fig3.png, description: Thumbnail Image file }
+    - {location: fig3.png, description: Image file }
+name: "Figure3_1"
+description: ' Average $R^{\pi^{0}}_{dAu,EXP}$ as a function of $N^{EXP}_{coll}$. Horizontal and vertical bars are the statistical uncertainties. The $R^{\pi^{0}}_{dAu,EXP}$ for $0\%–100\%$ d+Au collisions is represented by a blue line, with the statistical uncertainty given as band. The scale uncertainty of 16.5% is shown as vertical band around the $0\%–100\%$ $R^{\pi^{0}}_{dAu,EXP}$ value. This uncertainty is common to all data points. '
+keywords:
+    - {name: reactions, values: [D AU --> GAMMA X ]}
+    - {name: reactions, values: [ D AU --> PI0 X] }
+    - {name: cmenergies, values: [200] }
+    - {name: phrases, values: [ppg248, neutral $\pi^0$, direct photons ]}
+data_file: fig3_1.yaml
+---

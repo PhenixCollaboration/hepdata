@@ -1,0 +1,75 @@
+independent_variables:
+- header: {name: 'Centrality'}
+  values:
+  - {low: 0, high: 100}
+  - {low: 0, high: 5}
+  - {low: 5, high: 10}
+  - {low: 10, high: 20}
+  - {low: 20, high: 40}
+  - {low: 40, high: 60}
+  - {low: 60, high: 88}
+dependent_variables:
+- header: {name: '$N^{EXP}_{coll}$'}
+  qualifiers:
+  - {name: 'Centrality', value: 'd+Au 200GeV'}
+  values:
+  - value: 7.65
+    errors:
+    - {symerror: 0.19, label: 'stat.'}
+    - {symerror: 1.2, label: 'sys.'}
+  - value: 17.25
+    errors:
+    - {symerror: 0.73, label: 'stat.'}
+    - {symerror: 2.8, label: 'sys.'}
+  - value: 15.04
+    errors:
+    - {symerror: 0.7, label: 'stat.'}
+    - {symerror: 2.5, label: 'sys.'}
+  - value: 12.89
+    errors:
+    - {symerror: 0.51, label: 'stat.'}
+    - {symerror: 2.1, label: 'sys.'}
+  - value: 10.41
+    errors:
+    - {symerror: 0.36, label: 'stat.'}
+    - {symerror: 1.7, label: 'sys.'}
+  - value: 7.13
+    errors:
+    - {symerror: 0.29, label: 'stat.'}
+    - {symerror: 1.2, label: 'sys.'}
+  - value: 3.69
+    errors:
+    - {symerror: 0.17, label: 'stat.'}
+    - {symerror: 0.6, label: 'sys.'}
+- header: {name: '$R^{\pi^{0}}_{dAu,EXP}$'}
+  qualifiers:
+  - {name: 'Centrality', value: 'd+Au 200GeV'}
+  values:
+  - value: 0.925
+    errors:
+    - {symerror: 0.023, label: 'stat.'}
+    - {symerror: 0.153, label: 'sys.'}
+  - value: 0.747
+    errors:
+    - {symerror: 0.034, label: 'stat.'}
+    - {symerror: 0., label: 'sys.'}
+  - value: 0.812
+    errors:
+    - {symerror: 0.04, label: 'stat.'}
+    - {symerror: 0., label: 'sys.'}
+  - value: 0.891
+    errors:
+    - {symerror: 0.037, label: 'stat.'}
+    - {symerror: 0., label: 'sys.'}
+  - value: 0.919
+    errors:
+    - {symerror: 0.033, label: 'stat.'}
+    - {symerror: 0., label: 'sys.'}
+  - value: 0.954
+    errors:
+    - {symerror: 0.04, label: 'stat.'}
+    - {symerror: 0., label: 'sys.'}
+  - value: 0.941
+    errors:
+    - {symerror: 0.046, label: 'stat.'}
+    - {symerror: 0., label: 'sys.'}
