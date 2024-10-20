@@ -1,0 +1,653 @@
+#PHENIX paper PPG232
+#
+# Centrality dependence of Lévy-stable two-pion Bose-Einstein correlations in $\sqrt{s_{NN}}$=200 GeV Au+Au collisions
+#
+#Phys.Rev.C X (2024) XXXX
+#InspireHEP ID: 2806798
+#
+#Prepared by Sandor Lokos
+#PPG liaison and chair: Sandor Lokos <sandor.lokos@cern.ch>
+#Reviewer: Yuri Mitrankov <mitrankovy@gmail.com>
+#
+comment: | # Information that applies to all data tables.
+  The PHENIX experiment measured the centrality dependence of two-pion Bose-Einstein correlation functions in $\sqrt{s_{NN}}$=200~GeV Au+Au collisions at the Relativistic Heavy Ion Collider at Brookhaven National Laboratory. The data are well represented by Lévy-stable source distributions. The extracted source parameters are the correlation-strength parameter $\lambda$, the Lévy index of stability $\alpha$, and the Lévy-scale parameter $R$ as a function of transverse mass $m_T$​ and centrality. The $\lambda(m_T)$ parameter is constant at larger values of $m_T$​, but decreases as $m_T$​ decreases. The Lévy scale parameter $R(m_T​)$ decreases with $m_T$​ and exhibits proportionality to the length scale of the nuclear overlap region. The Lévy exponent $\alpha(m_T)$ is independent of $m_T$ within uncertainties in each investigated centrality bin, but shows a clear centrality dependence. At all centralities, the Lévy exponent $\alpha$ is significantly different from that of Gaussian ($\alpha=2$) or Cauchy ($\alpha=1$) source distributions. Comparisons to the predictions of Monte-Carlo simulations of resonance-decay chains show that in all but the most peripheral centrality class (50\%-60\%), the obtained results are inconsistent with the measurements, unless a significant reduction of the in-medium mass of the $\eta'$ meson is included. In each centrality class, the best value of the in-medium $\eta'$ mass is compared to the mass of the $\eta$ meson, as well as to several theoretical predictions that consider restoration of $U_A​(1)$ symmetry in hot hadronic matter.
+additional_resources:
+- {location: "https://arxiv.org/abs/2407.08586", description: arXiv}
+- {location: "https://inspirehep.net/literature/2806798", description: InspireHEP}
+
+---
+name: 'Figure 1a'
+
+location: Data From Fig. 1 of PRC X (2024) XXX
+description: 'The transverse-mass dependence of the correlation-strength parameter $\lambda$ in 0-10% centrality bin obtained from Lévy fits with Eq. (9).'
+keywords: # used for searching, possibly mutliple values for each keywords
+- {name: reactions, values: [Au+Au$\implies$ $\pi^-$ $\pi^-$ + $\pi^+$ $\pi^+$]}
+- {name: cmenergies, values: [200.0]}
+- {name: phrases, values: [ppg232, two-pion correlation, Bose-Einstein correlation, Lévy-stable]}
+data_file: lambda_0_10.yaml
+additional_resources:
+- {description: Figure 1 as 2 column, 3 row, location: figure1_vertical.png}
+- {description: Figure 1 as 3 column, 2 row, location: figure1_horizontal.png}
+---
+name: "Figure 1b"
+
+location: Data From Fig. 1 of PRC X (2024) XXX
+description: 'The transverse-mass dependence of the correlation-strength parameter $\lambda$ in 10-20% centrality bin obtained from Lévy fits with Eq. (9).'
+keywords: # used for searching, possibly mutliple values for each keywords
+- {name: reactions, values: [Au+Au$\implies$ $\pi^-$ $\pi^-$ + $\pi^+$ $\pi^+$]}
+- {name: cmenergies, values: [200.0]}
+- {name: phrases, values: [ppg232, two-pion correlation, Bose-Einstein correlation, Lévy-stable]}
+data_file: lambda_10_20.yaml
+additional_resources:
+- {description: Figure 1 as 2 column, 3 row, location: figure1_vertical.png}
+- {description: Figure 1 as 3 column, 2 row, location: figure1_horizontal.png}
+---
+name: "Figure 1c"
+
+location: Data From Fig. 1 of PRC X (2024) XXX
+description: 'The transverse-mass dependence of the correlation-strength parameter $\lambda$ in 20-30% centrality bin obtained from Lévy fits with Eq. (9).'
+keywords: # used for searching, possibly mutliple values for each keywords
+- {name: reactions, values: [Au+Au$\implies$ $\pi^-$ $\pi^-$ + $\pi^+$ $\pi^+$]}
+- {name: cmenergies, values: [200.0]}
+- {name: phrases, values: [ppg232, two-pion correlation, Bose-Einstein correlation, Lévy-stable]}
+data_file: lambda_20_30.yaml
+additional_resources:
+- {description: Figure 1 as 2 column, 3 row, location: figure1_vertical.png}
+- {description: Figure 1 as 3 column, 2 row, location: figure1_horizontal.png}
+---
+name: "Figure 1d"
+
+location: Data From Fig. 1 of PRC X (2024) XXX
+description: 'The transverse-mass dependence of the correlation-strength parameter $\lambda$ in 30-40% centrality bin obtained from Lévy fits with Eq. (9).'
+keywords: # used for searching, possibly mutliple values for each keywords
+- {name: reactions, values: [Au+Au$\implies$ $\pi^-$ $\pi^-$ + $\pi^+$ $\pi^+$]}
+- {name: cmenergies, values: [200.0]}
+- {name: phrases, values: [ppg232, two-pion correlation, Bose-Einstein correlation, Lévy-stable]}
+data_file: lambda_30_40.yaml
+additional_resources:
+- {description: Figure 1 as 2 column, 3 row, location: figure1_vertical.png}
+- {description: Figure 1 as 3 column, 2 row, location: figure1_horizontal.png}
+---
+name: "Figure 1e"
+
+location: Data From Fig. 1 of PRC X (2024) XXX
+description: 'The transverse-mass dependence of the correlation-strength parameter $\lambda$ in 40-50% centrality bin obtained from Lévy fits with Eq. (9).'
+keywords: # used for searching, possibly mutliple values for each keywords
+- {name: reactions, values: [Au+Au$\implies$ $\pi^-$ $\pi^-$ + $\pi^+$ $\pi^+$]}
+- {name: cmenergies, values: [200.0]}
+- {name: phrases, values: [ppg232, two-pion correlation, Bose-Einstein correlation, Lévy-stable]}
+data_file: lambda_40_50.yaml
+additional_resources:
+- {description: Figure 1 as 2 column, 3 row, location: figure1_vertical.png}
+- {description: Figure 1 as 3 column, 2 row, location: figure1_horizontal.png}
+---
+name: "Figure 1f"
+
+location: Data From Fig. 1 of PRC X (2024) XXX
+description: 'The transverse-mass dependence of the correlation-strength parameter $\lambda$ in 50-60% centrality bin obtained from Lévy fits with Eq. (9).'
+keywords: # used for searching, possibly mutliple values for each keywords
+- {name: reactions, values: [Au+Au$\implies$ $\pi^-$ $\pi^-$ + $\pi^+$ $\pi^+$]}
+- {name: cmenergies, values: [200.0]}
+- {name: phrases, values: [ppg232, two-pion correlation, Bose-Einstein correlation, Lévy-stable]}
+data_file: lambda_50_60.yaml
+additional_resources:
+- {description: Figure 1 as 2 column, 3 row, location: figure1_vertical.png}
+- {description: Figure 1 as 3 column, 2 row, location: figure1_horizontal.png}
+---
+name: 'Figure 2a'
+
+location: Data From Fig. 2 (a) of PRC X (2024) XXX
+description: 'The transverse-mass dependence of the Lévy-scale parameter $R$ in 0-10% centrality bin obtained from Lévy fits with Eq. (9).'
+keywords: # used for searching, possibly mutliple values for each keywords
+- {name: reactions, values: [Au+Au$\implies$ $\pi^-$ $\pi^-$ + $\pi^+$ $\pi^+$]}
+- {name: cmenergies, values: [200.0]}
+- {name: phrases, values: [ppg232, two-pion correlation, Bose-Einstein correlation, Lévy-stable]}
+data_file: R_0_10.yaml
+additional_resources:
+- {description: Figure 1 as 2 column, 3 row, location: figure2_vertical.png}
+- {description: Figure 1 as 3 column, 2 row, location: figure2_horizontal.png}
+---
+name: "Figure 2b"
+
+location: Data From Fig. 2 (b) of PRC X (2024) XXX
+description: 'The transverse-mass dependence of the Lévy-scale parameter $R$ in 10-20% centrality bin obtained from Lévy fits with Eq. (9).'
+keywords: # used for searching, possibly mutliple values for each keywords
+- {name: reactions, values: [Au+Au$\implies$ $\pi^-$ $\pi^-$ + $\pi^+$ $\pi^+$]}
+- {name: cmenergies, values: [200.0]}
+- {name: phrases, values: [ppg232, two-pion correlation, Bose-Einstein correlation, Lévy-stable]}
+data_file: R_10_20.yaml
+additional_resources:
+- {description: Figure 1 as 2 column, 3 row, location: figure2_vertical.png}
+- {description: Figure 1 as 3 column, 2 row, location: figure2_horizontal.png}
+---
+name: "Figure 2c"
+
+location: Data From Fig. 2 (c) of PRC X (2024) XXX
+description: 'The transverse-mass dependence of the Lévy-scale parameter $R$ in 20-30% centrality bin obtained from Lévy fits with Eq. (9).'
+keywords: # used for searching, possibly mutliple values for each keywords
+- {name: reactions, values: [Au+Au$\implies$ $\pi^-$ $\pi^-$ + $\pi^+$ $\pi^+$]}
+- {name: cmenergies, values: [200.0]}
+- {name: phrases, values: [ppg232, two-pion correlation, Bose-Einstein correlation, Lévy-stable]}
+data_file: R_20_30.yaml
+additional_resources:
+- {description: Figure 1 as 2 column, 3 row, location: figure2_vertical.png}
+- {description: Figure 1 as 3 column, 2 row, location: figure2_horizontal.png}
+---
+name: "Figure 2d"
+
+location: Data From Fig. 2 (d) of PRC X (2024) XXX
+description: 'The transverse-mass dependence of the Lévy-scale parameter $R$ in 30-40% centrality bin obtained from Lévy fits with Eq. (9).'
+keywords: # used for searching, possibly mutliple values for each keywords
+- {name: reactions, values: [Au+Au$\implies$ $\pi^-$ $\pi^-$ + $\pi^+$ $\pi^+$]}
+- {name: cmenergies, values: [200.0]}
+- {name: phrases, values: [ppg232, two-pion correlation, Bose-Einstein correlation, Lévy-stable]}
+data_file: R_30_40.yaml
+additional_resources:
+- {description: Figure 1 as 2 column, 3 row, location: figure2_vertical.png}
+- {description: Figure 1 as 3 column, 2 row, location: figure2_horizontal.png}
+---
+name: "Figure 2e"
+
+location: Data From Fig. 2 (e) of PRC X (2024) XXX
+description: 'The transverse-mass dependence of the Lévy-scale parameter $R$ in 40-50% centrality bin obtained from Lévy fits with Eq. (9).'
+keywords: # used for searching, possibly mutliple values for each keywords
+- {name: reactions, values: [Au+Au$\implies$ $\pi^-$ $\pi^-$ + $\pi^+$ $\pi^+$]}
+- {name: cmenergies, values: [200.0]}
+- {name: phrases, values: [ppg232, two-pion correlation, Bose-Einstein correlation, Lévy-stable]}
+data_file: R_40_50.yaml
+additional_resources:
+- {description: Figure 1 as 2 column, 3 row, location: figure2_vertical.png}
+- {description: Figure 1 as 3 column, 2 row, location: figure2_horizontal.png}
+---
+name: "Figure 2f"
+
+location: Data From Fig. 2 (f) of PRC X (2024) XXX
+description: 'The transverse-mass dependence of the Lévy-scale parameter $R$ in 50-60% centrality bin obtained from Lévy fits with Eq. (9).'
+keywords: # used for searching, possibly mutliple values for each keywords
+- {name: reactions, values: [Au+Au$\implies$ $\pi^-$ $\pi^-$ + $\pi^+$ $\pi^+$]}
+- {name: cmenergies, values: [200.0]}
+- {name: phrases, values: [ppg232, two-pion correlation, Bose-Einstein correlation, Lévy-stable]}
+data_file: R_50_60.yaml
+additional_resources:
+- {description: Figure 1 as 2 column, 3 row, location: figure2_vertical.png}
+- {description: Figure 1 as 3 column, 2 row, location: figure2_horizontal.png}
+---
+name: 'Figure 3a'
+
+location: Data From Fig. 3 (a) of PRC X (2024) XXX
+description: 'The transverse-mass dependence of the Lévy-index of stability parameter $\alpha$ in 0-10% centrality bin obtained from Lévy fits with Eq. (9).'
+keywords: # used for searching, possibly mutliple values for each keywords
+- {name: reactions, values: [Au+Au$\implies$ $\pi^-$ $\pi^-$ + $\pi^+$ $\pi^+$]}
+- {name: cmenergies, values: [200.0]}
+- {name: phrases, values: [ppg232, two-pion correlation, Bose-Einstein correlation, Lévy-stable]}
+data_file: alpha_0_10.yaml
+additional_resources:
+- {description: Figure 1 as 2 column, 3 row, location: figure3_vertical.png}
+- {description: Figure 1 as 3 column, 2 row, location: figure3_horizontal.png}
+---
+name: "Figure 3b"
+
+location: Data From Fig. 3 (b) of PRC X (2024) XXX
+description: 'The transverse-mass dependence of the Lévy-index of stability parameter $\alpha$ in 10-20% centrality bin obtained from Lévy fits with Eq. (9).'
+keywords: # used for searching, possibly mutliple values for each keywords
+- {name: reactions, values: [Au+Au$\implies$ $\pi^-$ $\pi^-$ + $\pi^+$ $\pi^+$]}
+- {name: cmenergies, values: [200.0]}
+- {name: phrases, values: [ppg232, two-pion correlation, Bose-Einstein correlation, Lévy-stable]}
+data_file: alpha_10_20.yaml
+additional_resources:
+- {description: Figure 1 as 2 column, 3 row, location: figure3_vertical.png}
+- {description: Figure 1 as 3 column, 2 row, location: figure3_horizontal.png}
+---
+name: "Figure 3c"
+
+location: Data From Fig. 3 (c) of PRC X (2024) XXX
+description: 'The transverse-mass dependence of the Lévy-index of stability parameter $\alpha$ in 20-30% centrality bin obtained from Lévy fits with Eq. (9).'
+keywords: # used for searching, possibly mutliple values for each keywords
+- {name: reactions, values: [Au+Au$\implies$ $\pi^-$ $\pi^-$ + $\pi^+$ $\pi^+$]}
+- {name: cmenergies, values: [200.0]}
+- {name: phrases, values: [ppg232, two-pion correlation, Bose-Einstein correlation, Lévy-stable]}
+data_file: alpha_20_30.yaml
+additional_resources:
+- {description: Figure 1 as 2 column, 3 row, location: figure3_vertical.png}
+- {description: Figure 1 as 3 column, 2 row, location: figure3_horizontal.png}
+---
+name: "Figure 3d"
+
+location: Data From Fig. 3 (d) of PRC X (2024) XXX
+description: 'The transverse-mass dependence of the Lévy-index of stability parameter $\alpha$ in 30-40% centrality bin obtained from Lévy fits with Eq. (9).'
+keywords: # used for searching, possibly mutliple values for each keywords
+- {name: reactions, values: [Au+Au$\implies$ $\pi^-$ $\pi^-$ + $\pi^+$ $\pi^+$]}
+- {name: cmenergies, values: [200.0]}
+- {name: phrases, values: [ppg232, two-pion correlation, Bose-Einstein correlation, Lévy-stable]}
+data_file: alpha_30_40.yaml
+additional_resources:
+- {description: Figure 1 as 2 column, 3 row, location: figure3_vertical.png}
+- {description: Figure 1 as 3 column, 2 row, location: figure3_horizontal.png}
+---
+name: "Figure 3e"
+
+location: Data From Fig. 3 (e) of PRC X (2024) XXX
+description: 'The transverse-mass dependence of the Lévy-index of stability parameter $\alpha$ in 40-50% centrality bin obtained from Lévy fits with Eq. (9).'
+keywords: # used for searching, possibly mutliple values for each keywords
+- {name: reactions, values: [Au+Au$\implies$ $\pi^-$ $\pi^-$ + $\pi^+$ $\pi^+$]}
+- {name: cmenergies, values: [200.0]}
+- {name: phrases, values: [ppg232, two-pion correlation, Bose-Einstein correlation, Lévy-stable]}
+data_file: alpha_40_50.yaml
+additional_resources:
+- {description: Figure 1 as 2 column, 3 row, location: figure3_vertical.png}
+- {description: Figure 1 as 3 column, 2 row, location: figure3_horizontal.png}
+---
+name: "Figure 3f"
+
+location: Data From Fig. 3 (f) of PRC X (2024) XXX
+description: 'The transverse-mass dependence of the Lévy-index of stability parameter $\alpha$ in 50-60% centrality bin obtained from Lévy fits with Eq. (9).'
+keywords: # used for searching, possibly mutliple values for each keywords
+- {name: reactions, values: [Au+Au$\implies$ $\pi^-$ $\pi^-$ + $\pi^+$ $\pi^+$]}
+- {name: cmenergies, values: [200.0]}
+- {name: phrases, values: [ppg232, two-pion correlation, Bose-Einstein correlation, Lévy-stable]}
+data_file: alpha_50_60.yaml
+additional_resources:
+- {description: Figure 1 as 2 column, 3 row, location: figure3_vertical.png}
+- {description: Figure 1 as 3 column, 2 row, location: figure3_horizontal.png}
+---
+name: 'Figure 4a'
+
+location: Data From Fig. 4 (a) of PRC X (2024) XXX
+description: 'The transverse-mass dependence of the normalized correlation-strength parameter $\lambda/\lambda_{\rm max}$ for 0-10% centrality intervals. For each centrality bin the data are fitted with the Gaussian function of Eq. (15). This parameterization can describe the data and is discussed in detail in Section VI B. The fit parameters with the statistic and systematic uncertainties are shown in Fig. 7.'
+keywords: # used for searching, possibly mutliple values for each keywords
+- {name: reactions, values: [Au+Au$\implies$ $\pi^-$ $\pi^-$ + $\pi^+$ $\pi^+$]}
+- {name: cmenergies, values: [200.0]}
+- {name: phrases, values: [ppg232, two-pion correlation, Bose-Einstein correlation, Lévy-stable]}
+data_file: lambdamax_0_10.yaml
+additional_resources:
+- {description: Figure 1 as 2 column, 3 row, location: figure4_vertical.png}
+- {description: Figure 1 as 3 column, 2 row, location: figure4_horizontal.png}
+---
+name: 'Figure 4b'
+
+location: Data From Fig. 4 (b) of PRC X (2024) XXX
+description: 'The transverse-mass dependence of the normalized correlation-strength parameter $\lambda/\lambda_{\rm max}$ for 10-20% centrality intervals. For each centrality bin the data are fitted with the Gaussian function of Eq. (15). This parameterization can describe the data and is discussed in detail in Section VI B. The fit parameters with the statistic and systematic uncertainties are shown in Fig. 7.'
+keywords: # used for searching, possibly mutliple values for each keywords
+- {name: reactions, values: [Au+Au$\implies$ $\pi^-$ $\pi^-$ + $\pi^+$ $\pi^+$]}
+- {name: cmenergies, values: [200.0]}
+- {name: phrases, values: [ppg232, two-pion correlation, Bose-Einstein correlation, Lévy-stable]}
+data_file: lambdamax_10_20.yaml
+additional_resources:
+- {description: Figure 1 as 2 column, 3 row, location: figure4_vertical.png}
+- {description: Figure 1 as 3 column, 2 row, location: figure4_horizontal.png}
+---
+name: 'Figure 4c'
+
+location: Data From Fig. 4 (c) of PRC X (2024) XXX
+description: 'The transverse-mass dependence of the normalized correlation-strength parameter $\lambda/\lambda_{\rm max}$ for 20-30% centrality intervals. For each centrality bin the data are fitted with the Gaussian function of Eq. (15). This parameterization can describe the data and is discussed in detail in Section VI B. The fit parameters with the statistic and systematic uncertainties are shown in Fig. 7.'
+keywords: # used for searching, possibly mutliple values for each keywords
+- {name: reactions, values: [Au+Au$\implies$ $\pi^-$ $\pi^-$ + $\pi^+$ $\pi^+$]}
+- {name: cmenergies, values: [200.0]}
+- {name: phrases, values: [ppg232, two-pion correlation, Bose-Einstein correlation, Lévy-stable]}
+data_file: lambdamax_20_30.yaml
+additional_resources:
+- {description: Figure 1 as 2 column, 3 row, location: figure4_vertical.png}
+- {description: Figure 1 as 3 column, 2 row, location: figure4_horizontal.png}
+---
+name: 'Figure 4d'
+
+location: Data From Fig. 4 (d) of PRC X (2024) XXX
+description: 'The transverse-mass dependence of the normalized correlation-strength parameter $\lambda/\lambda_{\rm max}$ for 30-40% centrality intervals. For each centrality bin the data are fitted with the Gaussian function of Eq. (15). This parameterization can describe the data and is discussed in detail in Section VI B. The fit parameters with the statistic and systematic uncertainties are shown in Fig. 7.'
+keywords: # used for searching, possibly mutliple values for each keywords
+- {name: reactions, values: [Au+Au$\implies$ $\pi^-$ $\pi^-$ + $\pi^+$ $\pi^+$]}
+- {name: cmenergies, values: [200.0]}
+- {name: phrases, values: [ppg232, two-pion correlation, Bose-Einstein correlation, Lévy-stable]}
+data_file: lambdamax_30_40.yaml
+additional_resources:
+- {description: Figure 1 as 2 column, 3 row, location: figure4_vertical.png}
+- {description: Figure 1 as 3 column, 2 row, location: figure4_horizontal.png}
+---
+name: 'Figure 4e'
+
+location: Data From Fig. 4 (e) of PRC X (2024) XXX
+description: 'The transverse-mass dependence of the normalized correlation-strength parameter $\lambda/\lambda_{\rm max}$ for 40-50% centrality interval. For each centrality bin the data are fitted with the Gaussian function of Eq. (15). This parameterization can describe the data and is discussed in detail in Section VI B. The fit parameters with the statistic and systematic uncertainties are shown in Fig. 7.'
+keywords: # used for searching, possibly mutliple values for each keywords
+- {name: reactions, values: [Au+Au$\implies$ $\pi^-$ $\pi^-$ + $\pi^+$ $\pi^+$]}
+- {name: cmenergies, values: [200.0]}
+- {name: phrases, values: [ppg232, two-pion correlation, Bose-Einstein correlation, Lévy-stable]}
+data_file: lambdamax_40_50.yaml
+additional_resources:
+- {description: Figure 1 as 2 column, 3 row, location: figure4_vertical.png}
+- {description: Figure 1 as 3 column, 2 row, location: figure4_horizontal.png}
+---
+name: 'Figure 4f'
+
+location: Data From Fig. 4 (f) of PRC X (2024) XXX
+description: 'The transverse-mass dependence of the normalized correlation-strength parameter $\lambda/\lambda_{\rm max}$ for 50-60% centrality interval. For each centrality bin the data are fitted with the Gaussian function of Eq. (15). This parameterization can describe the data and is discussed in detail in Section VI B. The fit parameters with the statistic and systematic uncertainties are shown in Fig. 7.'
+keywords: # used for searching, possibly mutliple values for each keywords
+- {name: reactions, values: [Au+Au$\implies$ $\pi^-$ $\pi^-$ + $\pi^+$ $\pi^+$]}
+- {name: cmenergies, values: [200.0]}
+- {name: phrases, values: [ppg232, two-pion correlation, Bose-Einstein correlation, Lévy-stable]}
+data_file: lambdamax_50_60.yaml
+additional_resources:
+- {description: Figure 1 as 2 column, 3 row, location: figure4_vertical.png}
+- {description: Figure 1 as 3 column, 2 row, location: figure4_horizontal.png}
+---
+name: 'Figure 5a'
+
+location: Data From Fig. 5 (a) of PRC X (2024) XXX
+description: 'The transverse-mass dependence of the inverse square of the Lévy-scale parameter $R$, shown in 0-10% centrality bin. The values and uncertainties of the A and B linear fit parameters with the statistic and systematic uncertainties are shown in Fig. 8.'
+keywords: # used for searching, possibly mutliple values for each keywords
+- {name: reactions, values: [Au+Au$\implies$ $\pi^-$ $\pi^-$ + $\pi^+$ $\pi^+$]}
+- {name: cmenergies, values: [200.0]}
+- {name: phrases, values: [ppg232, two-pion correlation, Bose-Einstein correlation, Lévy-stable]}
+data_file: 1overR2_0_10.yaml
+additional_resources:
+- {description: Figure 1 as 2 column, 3 row, location: figure5_vertical.png}
+- {description: Figure 1 as 3 column, 2 row, location: figure5_horizontal.png}
+---
+name: 'Figure 5b'
+
+location: Data From Fig. 5 (b) of PRC X (2024) XXX
+description: 'The transverse-mass dependence of the inverse square of the Lévy-scale parameter $R$, shown in 10-20% centrality bin. The values and uncertainties of the A and B linear fit parameters with the statistic and systematic uncertainties are shown in Fig. 8.'
+keywords: # used for searching, possibly mutliple values for each keywords
+- {name: reactions, values: [Au+Au$\implies$ $\pi^-$ $\pi^-$ + $\pi^+$ $\pi^+$]}
+- {name: cmenergies, values: [200.0]}
+- {name: phrases, values: [ppg232, two-pion correlation, Bose-Einstein correlation, Lévy-stable]}
+data_file: 1overR2_10_20.yaml
+additional_resources:
+- {description: Figure 1 as 2 column, 3 row, location: figure5_vertical.png}
+- {description: Figure 1 as 3 column, 2 row, location: figure5_horizontal.png}
+---
+name: 'Figure 5c'
+
+location: Data From Fig. 5 (c) of PRC X (2024) XXX
+description: 'The transverse-mass dependence of the inverse square of the Lévy-scale parameter $R$, shown in 20-30% centrality bin. The values and uncertainties of the A and B linear fit parameters with the statistic and systematic uncertainties are shown in Fig. 8.'
+keywords: # used for searching, possibly mutliple values for each keywords
+- {name: reactions, values: [Au+Au$\implies$ $\pi^-$ $\pi^-$ + $\pi^+$ $\pi^+$]}
+- {name: cmenergies, values: [200.0]}
+- {name: phrases, values: [ppg232, two-pion correlation, Bose-Einstein correlation, Lévy-stable]}
+data_file: 1overR2_20_30.yaml
+additional_resources:
+- {description: Figure 1 as 2 column, 3 row, location: figure5_vertical.png}
+- {description: Figure 1 as 3 column, 2 row, location: figure5_horizontal.png}
+---
+name: 'Figure 5d'
+
+location: Data From Fig. 5 (d) of PRC X (2024) XXX
+description: 'The transverse-mass dependence of the inverse square of the Lévy-scale parameter $R$, shown in 30-40% centrality bin. The values and uncertainties of the A and B linear fit parameters with the statistic and systematic uncertainties are shown in Fig. 8.'
+keywords: # used for searching, possibly mutliple values for each keywords
+- {name: reactions, values: [Au+Au$\implies$ $\pi^-$ $\pi^-$ + $\pi^+$ $\pi^+$]}
+- {name: cmenergies, values: [200.0]}
+- {name: phrases, values: [ppg232, two-pion correlation, Bose-Einstein correlation, Lévy-stable]}
+data_file: 1overR2_30_40.yaml
+additional_resources:
+- {description: Figure 1 as 2 column, 3 row, location: figure5_vertical.png}
+- {description: Figure 1 as 3 column, 2 row, location: figure5_horizontal.png}
+---
+name: 'Figure 5e'
+
+location: Data From Fig. 5 (e) of PRC X (2024) XXX
+description: 'The transverse-mass dependence of the inverse square of the Lévy-scale parameter $R$, shown in 40-50% centrality bin. The values and uncertainties of the A and B linear fit parameters with the statistic and systematic uncertainties are shown in Fig. 8.'
+keywords: # used for searching, possibly mutliple values for each keywords
+- {name: reactions, values: [Au+Au$\implies$ $\pi^-$ $\pi^-$ + $\pi^+$ $\pi^+$]}
+- {name: cmenergies, values: [200.0]}
+- {name: phrases, values: [ppg232, two-pion correlation, Bose-Einstein correlation, Lévy-stable]}
+data_file: 1overR2_40_50.yaml
+additional_resources:
+- {description: Figure 1 as 2 column, 3 row, location: figure5_vertical.png}
+- {description: Figure 1 as 3 column, 2 row, location: figure5_horizontal.png}
+---
+name: 'Figure 5f'
+
+location: Data From Fig. 5 (f) of PRC X (2024) XXX
+description: 'The transverse-mass dependence of the inverse square of the Lévy-scale parameter $R$, shown in 50-60% centrality bin. The values and uncertainties of the A and B linear fit parameters with the statistic and systematic uncertainties are shown in Fig. 8.'
+keywords: # used for searching, possibly mutliple values for each keywords
+- {name: reactions, values: [Au+Au$\implies$ $\pi^-$ $\pi^-$ + $\pi^+$ $\pi^+$]}
+- {name: cmenergies, values: [200.0]}
+- {name: phrases, values: [ppg232, two-pion correlation, Bose-Einstein correlation, Lévy-stable]}
+data_file: 1overR2_50_60.yaml
+additional_resources:
+- {description: Figure 1 as 2 column, 3 row, location: figure5_vertical.png}
+- {description: Figure 1 as 3 column, 2 row, location: figure5_horizontal.png}
+---
+name: 'Figure 6a'
+
+location: Data From Fig. 6 (a) of PRC X (2024) XXX
+description: 'The transverse-mass dependence of the $\widehat{R}$ parameter, shown in 0-10% centrality bin. The values and uncertainties of the linear fit parameters $\widehat{A}$ and $\widehat{B}$ with the statistic and systematic uncertainties are shown in Fig. 9'
+keywords: # used for searching, possibly mutliple values for each keywords
+- {name: reactions, values: [Au+Au$\implies$ $\pi^-$ $\pi^-$ + $\pi^+$ $\pi^+$]}
+- {name: cmenergies, values: [200.0]}
+- {name: phrases, values: [ppg232, two-pion correlation, Bose-Einstein correlation, Lévy-stable]}
+data_file: Rhat_0_10.yaml
+additional_resources:
+- {description: Figure 1 as 2 column, 3 row, location: figure6_vertical.png}
+- {description: Figure 1 as 3 column, 2 row, location: figure6_horizontal.png}
+---
+name: 'Figure 6b'
+
+location: Data From Fig. 6 (b) of PRC X (2024) XXX
+description: 'The transverse-mass dependence of the $\widehat{R}$ parameter, shown in 10-20% centrality bin. The values and uncertainties of the linear fit parameters $\widehat{A}$ and $\widehat{B}$ with the statistic and systematic uncertainties are shown in Fig. 9'
+keywords: # used for searching, possibly mutliple values for each keywords
+- {name: reactions, values: [Au+Au$\implies$ $\pi^-$ $\pi^-$ + $\pi^+$ $\pi^+$]}
+- {name: cmenergies, values: [200.0]}
+- {name: phrases, values: [ppg232, two-pion correlation, Bose-Einstein correlation, Lévy-stable]}
+data_file: Rhat_10_20.yaml
+additional_resources:
+- {description: Figure 1 as 2 column, 3 row, location: figure6_vertical.png}
+- {description: Figure 1 as 3 column, 2 row, location: figure6_horizontal.png}
+---
+name: 'Figure 6c'
+
+location: Data From Fig. 6 (c) of PRC X (2024) XXX
+description: 'The transverse-mass dependence of the $\widehat{R}$ parameter, shown in 20-30% centrality bin. The values and uncertainties of the linear fit parameters $\widehat{A}$ and $\widehat{B}$ with the statistic and systematic uncertainties are shown in Fig. 9'
+keywords: # used for searching, possibly mutliple values for each keywords
+- {name: reactions, values: [Au+Au$\implies$ $\pi^-$ $\pi^-$ + $\pi^+$ $\pi^+$]}
+- {name: cmenergies, values: [200.0]}
+- {name: phrases, values: [ppg232, two-pion correlation, Bose-Einstein correlation, Lévy-stable]}
+data_file: Rhat_20_30.yaml
+additional_resources:
+- {description: Figure 1 as 2 column, 3 row, location: figure6_vertical.png}
+- {description: Figure 1 as 3 column, 2 row, location: figure6_horizontal.png}
+---
+name: 'Figure 6d'
+
+location: Data From Fig. 6 (d) of PRC X (2024) XXX
+description: 'The transverse-mass dependence of the $\widehat{R}$ parameter, shown in 30-40% centrality bin. The values and uncertainties of the linear fit parameters $\widehat{A}$ and $\widehat{B}$ with the statistic and systematic uncertainties are shown in Fig. 9'
+keywords: # used for searching, possibly mutliple values for each keywords
+- {name: reactions, values: [Au+Au$\implies$ $\pi^-$ $\pi^-$ + $\pi^+$ $\pi^+$]}
+- {name: cmenergies, values: [200.0]}
+- {name: phrases, values: [ppg232, two-pion correlation, Bose-Einstein correlation, Lévy-stable]}
+data_file: Rhat_30_40.yaml
+additional_resources:
+- {description: Figure 1 as 2 column, 3 row, location: figure6_vertical.png}
+- {description: Figure 1 as 3 column, 2 row, location: figure6_horizontal.png}
+---
+name: 'Figure 6e'
+
+location: Data From Fig. 6 (e) of PRC X (2024) XXX
+description: 'The transverse-mass dependence of the $\widehat{R}$ parameter, shown in 40-50% centrality bin. The values and uncertainties of the linear fit parameters $\widehat{A}$ and $\widehat{B}$ with the statistic and systematic uncertainties are shown in Fig. 9'
+keywords: # used for searching, possibly mutliple values for each keywords
+- {name: reactions, values: [Au+Au$\implies$ $\pi^-$ $\pi^-$ + $\pi^+$ $\pi^+$]}
+- {name: cmenergies, values: [200.0]}
+- {name: phrases, values: [ppg232, two-pion correlation, Bose-Einstein correlation, Lévy-stable]}
+data_file: Rhat_40_50.yaml
+additional_resources:
+- {description: Figure 1 as 2 column, 3 row, location: figure6_vertical.png}
+- {description: Figure 1 as 3 column, 2 row, location: figure6_horizontal.png}
+---
+name: 'Figure 6f'
+
+location: Data From Fig. 6 (f) of PRC X (2024) XXX
+description: 'The transverse-mass dependence of the $\widehat{R}$ parameter, shown in 50-60% centrality bin. The values and uncertainties of the linear fit parameters $\widehat{A}$ and $\widehat{B}$ with the statistic and systematic uncertainties are shown in Fig. 9'
+keywords: # used for searching, possibly mutliple values for each keywords
+- {name: reactions, values: [Au+Au$\implies$ $\pi^-$ $\pi^-$ + $\pi^+$ $\pi^+$]}
+- {name: cmenergies, values: [200.0]}
+- {name: phrases, values: [ppg232, two-pion correlation, Bose-Einstein correlation, Lévy-stable]}
+data_file: Rhat_50_60.yaml
+additional_resources:
+- {description: Figure 1 as 2 column, 3 row, location: figure6_vertical.png}
+- {description: Figure 1 as 3 column, 2 row, location: figure6_horizontal.png}
+---
+name: 'Figure 7a'
+
+location: Data From Fig. 7 (a) of PRC X (2024) XXX
+description: 'The $H$ parameter that characterize the magnitude of the $\lambda/\lambda_{max}(m_T)$ and is defined in Eq. (15)., shown as functions of $N_{part}$.'
+keywords: # used for searching, possibly mutliple values for each keywords
+- {name: reactions, values: [Au+Au$\implies$ $\pi^-$ $\pi^-$ + $\pi^+$ $\pi^+$]}
+- {name: cmenergies, values: [200.0]}
+- {name: phrases, values: [ppg232, two-pion correlation, Bose-Einstein correlation, Lévy-stable]}
+data_file: H_npart.yaml
+additional_resources:
+- {description: Figure 7a, location: figure7a.png}
+---
+name: 'Figure 7b'
+
+location: Data From Fig. 7 (b) of PRC X (2024) XXX
+description: 'The $\sigma$ parameter that characterize the width of the $\lambda/\lambda_{max}(m_T)$ and is defined in Eq. (15)., shown as functions of $N_{part}$.'
+keywords: # used for searching, possibly mutliple values for each keywords
+- {name: reactions, values: [Au+Au$\implies$ $\pi^-$ $\pi^-$ + $\pi^+$ $\pi^+$]}
+- {name: cmenergies, values: [200.0]}
+- {name: phrases, values: [ppg232, two-pion correlation, Bose-Einstein correlation, Lévy-stable]}
+data_file: sigma_npart.yaml
+additional_resources:
+- {description: Figure 7b, location: figure7b.png}
+---
+name: 'Figure 8a'
+
+location: Data From Fig. 8 (a) of PRC X (2024) XXX
+description: 'The parameter $A$ of the affine linear fit to the inverse square of the Lévy-scale parameter that are defined in Eq.(12) as function of $N_{part}$'
+keywords: # used for searching, possibly mutliple values for each keywords
+- {name: reactions, values: [Au+Au$\implies$ $\pi^-$ $\pi^-$ + $\pi^+$ $\pi^+$]}
+- {name: cmenergies, values: [200.0]}
+- {name: phrases, values: [ppg232, two-pion correlation, Bose-Einstein correlation, Lévy-stable]}
+data_file: A_npart.yaml
+additional_resources:
+- {description: Figure 8a, location: figure8a.png}
+---
+name: 'Figure 8b'
+
+location: Data From Fig. 8 (b) of PRC X (2024) XXX
+description: 'The parameter $B$ of the affine linear fit to the inverse square of the Lévy-scale parameter that are defined in Eq.(12) as function of $N_{part}$'
+keywords: # used for searching, possibly mutliple values for each keywords
+- {name: reactions, values: [Au+Au$\implies$ $\pi^-$ $\pi^-$ + $\pi^+$ $\pi^+$]}
+- {name: cmenergies, values: [200.0]}
+- {name: phrases, values: [ppg232, two-pion correlation, Bose-Einstein correlation, Lévy-stable]}
+data_file: B_npart.yaml
+additional_resources:
+- {description: Figure 8b, location: figure8b.png}
+---
+name: 'Figure 9a'
+
+location: Data From Fig. 9 (a) of PRC X (2024) XXX
+description: 'The parameter $\widehat{A}$ of the affine linear fit to the inverse of the $\widehat{R}$ parameter that are defined in Eq.(14) as function of $N_{part}$.'
+keywords: # used for searching, possibly mutliple values for each keywords
+- {name: reactions, values: [Au+Au$\implies$ $\pi^-$ $\pi^-$ + $\pi^+$ $\pi^+$]}
+- {name: cmenergies, values: [200.0]}
+- {name: phrases, values: [ppg232, two-pion correlation, Bose-Einstein correlation, Lévy-stable]}
+data_file: Ahat_npart.yaml
+additional_resources:
+- {description: Figure 9a, location: figure9a.png}
+---
+name: 'Figure 9b'
+
+location: Data From Fig. 9 (b) of PRC X (2024) XXX
+description: 'The parameter $\widehat{B}$ of the affine linear fit to the inverse of the $\widehat{R}$ parameter that are defined in Eq.(14) as function of $N_{part}$.'
+keywords: # used for searching, possibly mutliple values for each keywords
+- {name: reactions, values: [Au+Au$\implies$ $\pi^-$ $\pi^-$ + $\pi^+$ $\pi^+$]}
+- {name: cmenergies, values: [200.0]}
+- {name: phrases, values: [ppg232, two-pion correlation, Bose-Einstein correlation, Lévy-stable]}
+data_file: Bhat_npart.yaml
+additional_resources:
+- {description: Figure 9b, location: figure9b.png}
+---
+name: 'Figure 10a'
+
+location: Data From Fig. 10 (a) of PRC X (2024) XXX
+description: 'The centrality dependence of $\alpha_0$, the $m_T$-averaged value of $\alpha$ as a function of $N_{part}$.'
+keywords: # used for searching, possibly mutliple values for each keywords
+- {name: reactions, values: [Au+Au$\implies$ $\pi^-$ $\pi^-$ + $\pi^+$ $\pi^+$]}
+- {name: cmenergies, values: [200.0]}
+- {name: phrases, values: [ppg232, two-pion correlation, Bose-Einstein correlation, Lévy-stable]}
+data_file: alpha_npart.yaml
+additional_resources:
+- {description: Figure 10a, location: figure10a.png}
+---
+name: 'Figure 10b1'
+
+location: Data From Fig. 10 (b) of PRC X (2024) XXX
+description: 'The Lévy scale parameter $R$ as a function of $N^{1/3}_{part}$ at $m_T=0.326$ GeV.'
+keywords: # used for searching, possibly mutliple values for each keywords
+- {name: reactions, values: [Au+Au$\implies$ $\pi^-$ $\pi^-$ + $\pi^+$ $\pi^+$]}
+- {name: cmenergies, values: [200.0]}
+- {name: phrases, values: [ppg232, two-pion correlation, Bose-Einstein correlation, Lévy-stable]}
+data_file: Rmt_npart_mT0.326.yaml
+additional_resources:
+- {description: Figure 10b, location: figure10b.png}
+---
+name: 'Figure 10b2'
+
+location: Data From Fig. 10 (b) of PRC X (2024) XXX
+description: 'The Lévy scale parameter $R$ as a function of $N^{1/3}_{part}$ at $m_T=0.438$ GeV.'
+keywords: # used for searching, possibly mutliple values for each keywords
+- {name: reactions, values: [Au+Au$\implies$ $\pi^-$ $\pi^-$ + $\pi^+$ $\pi^+$]}
+- {name: cmenergies, values: [200.0]}
+- {name: phrases, values: [ppg232, two-pion correlation, Bose-Einstein correlation, Lévy-stable]}
+data_file: Rmt_npart_mT0.438.yaml
+additional_resources:
+- {description: Figure 10b, location: figure10b.png}
+---
+name: 'Figure 10b3'
+
+location: Data From Fig. 10 (b) of PRC X (2024) XXX
+description: 'The Lévy scale parameter $R$ as a function of $N^{1/3}_{part}$ at $m_T=0.553$ GeV.'
+keywords: # used for searching, possibly mutliple values for each keywords
+- {name: reactions, values: [Au+Au$\implies$ $\pi^-$ $\pi^-$ + $\pi^+$ $\pi^+$]}
+- {name: cmenergies, values: [200.0]}
+- {name: phrases, values: [ppg232, two-pion correlation, Bose-Einstein correlation, Lévy-stable]}
+data_file: Rmt_npart_mT0.553.yaml
+additional_resources:
+- {description: Figure 10b, location: figure10b.png}
+---
+name: 'Figure 10b4'
+
+location: Data From Fig. 10 (b) of PRC X (2024) XXX
+description: 'The Lévy scale parameter $R$ as a function of $N^{1/3}_{part}$ at $m_T=0.670$ GeV.'
+keywords: # used for searching, possibly mutliple values for each keywords
+- {name: reactions, values: [Au+Au$\implies$ $\pi^-$ $\pi^-$ + $\pi^+$ $\pi^+$]}
+- {name: cmenergies, values: [200.0]}
+- {name: phrases, values: [ppg232, two-pion correlation, Bose-Einstein correlation, Lévy-stable]}
+data_file: Rmt_npart_mT0.670.yaml
+additional_resources:
+- {description: Figure 10b, location: figure10b.png}
+---
+name: 'Figure 10b5'
+
+location: Data From Fig. 10 (b) of PRC X (2024) XXX
+description: 'The Lévy scale parameter $R$ as a function of $N^{1/3}_{part}$ at $m_T=0.787$ GeV.'
+keywords: # used for searching, possibly mutliple values for each keywords
+- {name: reactions, values: [Au+Au$\implies$ $\pi^-$ $\pi^-$ + $\pi^+$ $\pi^+$]}
+- {name: cmenergies, values: [200.0]}
+- {name: phrases, values: [ppg232, two-pion correlation, Bose-Einstein correlation, Lévy-stable]}
+data_file: Rmt_npart_mT0.787.yaml
+additional_resources:
+- {description: Figure 10b, location: figure10b.png}
+---
+name: 'Figure 12'
+
+location: Data From Fig. 12 of PRC X (2024) XXX
+description: 'The best values of $B^{-1}_{\eta\prime}$ spectrum of the $\eta\prime$ condensate in the six centrality classes.'
+keywords: # used for searching, possibly mutliple values for each keywords
+- {name: reactions, values: [Au+Au$\implies$ $\pi^-$ $\pi^-$ + $\pi^+$ $\pi^+$]}
+- {name: cmenergies, values: [200.0]}
+- {name: phrases, values: [ppg232, two-pion correlation, Bose-Einstein correlation, Lévy-stable]}
+data_file: Binv.yaml
+additional_resources:
+- {description: Figure 12, location: figure12.png}
+---
+name: 'Figure 13'
+
+location: Data From Fig. 13 of PRC X (2024) XXX
+description: 'The centrality dependence of the best values of the in-medium mass of the $m^{*}_{\eta\prime}$.'
+keywords: # used for searching, possibly mutliple values for each keywords
+- {name: reactions, values: [Au+Au$\implies$ $\pi^-$ $\pi^-$ + $\pi^+$ $\pi^+$]}
+- {name: cmenergies, values: [200.0]}
+- {name: phrases, values: [ppg232, two-pion correlation, Bose-Einstein correlation, Lévy-stable]}
+data_file: meta.yaml
+additional_resources:
+- {description: Figure 13, location: figure13.png}

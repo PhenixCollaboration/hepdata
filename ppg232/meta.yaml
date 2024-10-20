@@ -1,0 +1,38 @@
+independent_variables:
+- header: {name: N_part, units: "" }
+  values:
+  - value: 325.200
+  - value: 234.600
+  - value: 166.600
+  - value: 114.200
+  - value: 74.400
+  - value: 45.500
+dependent_variables:
+- header: {name: '$m^{*}_{\eta\prime}$', units: 'MEV'}
+  qualifiers:
+  - {name: 'pair', value: '$\pi^{-}\pi^{-}+\pi^{+}\pi^{+}$'}
+  values:
+  - value: 590
+    errors: 
+    - {asymerror: {plus: 5, minus: -25}, label: 'stat.'}
+    - {asymerror: {plus: 61, minus: -137}, label: 'syst.'}
+  - value: 590
+    errors: 
+    - {asymerror: {plus: 15, minus: -35}, label: 'stat.'}
+    - {asymerror: {plus: 79, minus: -95}, label: 'syst.'}
+  - value: 590
+    errors: 
+    - {asymerror: {plus: 15, minus: -35}, label: 'stat.'}
+    - {asymerror: {plus: 154, minus: -119}, label: 'syst.'}
+  - value: 580
+    errors: 
+    - {asymerror: {plus: 15, minus: -75}, label: 'stat.'}
+    - {asymerror: {plus: 357, minus: -121}, label: 'syst.'}
+  - value: 510
+    errors: 
+    - {asymerror: {plus: 65, minus: -25}, label: 'stat.'}
+    - {asymerror: {plus: 196, minus: -47}, label: 'syst.'}
+  - value: 720
+    errors: 
+    - {asymerror: {plus: 45, minus: -135}, label: 'stat.'}
+    - {asymerror: {plus: 508, minus: -398}, label: 'syst.'}

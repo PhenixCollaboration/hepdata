@@ -1,0 +1,38 @@
+independent_variables:
+- header: {name: N_part, units: "" }
+  values:
+  - value: 325.200
+  - value: 234.600
+  - value: 166.600
+  - value: 114.200
+  - value: 74.400
+  - value: 45.500
+dependent_variables:
+- header: {name: '$B^{-1}$', units: 'MEV'}
+  qualifiers:
+  - {name: 'pair', value: '$\pi^{-}\pi^{-}+\pi^{+}\pi^{+}$'}
+  values:
+  - value: 330
+    errors: 
+    - {asymerror: {plus: 110, minus: -50}, label: 'stat.'}
+    - {asymerror: {plus: 165, minus: -274}, label: 'syst.'}
+  - value: 90
+    errors: 
+    - {asymerror: {plus: 50, minus: -70}, label: 'stat.'}
+    - {asymerror: {plus: 237, minus: -127}, label: 'syst.'}
+  - value: 50
+    errors: 
+    - {asymerror: {plus: 30, minus: -30}, label: 'stat.'}
+    - {asymerror: {plus: 121, minus: -191}, label: 'syst.'}
+  - value: 170
+    errors: 
+    - {asymerror: {plus: 150, minus: -150}, label: 'stat.'}
+    - {asymerror: {plus: 197, minus: -307}, label: 'syst.'}
+  - value: 50
+    errors: 
+    - {asymerror: {plus: 50, minus: -10}, label: 'stat.'}
+    - {asymerror: {plus: 277, minus: -28}, label: 'syst.'}
+  - value: 50
+    errors: 
+    - {asymerror: {plus: 50, minus: -30}, label: 'stat.'}
+    - {asymerror: {plus: 489, minus: -45}, label: 'syst.'}
