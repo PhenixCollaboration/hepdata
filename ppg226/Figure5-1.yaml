@@ -1,0 +1,43 @@
+#//////////////////////////////////////////--------- pp pos pt backward xF<0 ---------
+independent_variables:
+- header: {name: '$p_T$'}
+  values:
+  - {low: 1.5, high: 2.5}
+  - {low: 2.5, high: 3.5}
+  - {low: 3.5, high: 7.0}
+dependent_variables:
+- header: {name: '$A_{N}$ pp pos backward ($h^{+}$, $x_{F}<0$)'}
+  values:
+  - value: 0.00316
+    errors:
+    - {symerror: 0.00244, label: 'stat.'}
+    - {symerror: 0.00100, label: 'syst.'}
+    - {asymerror: {plus: 0.00010, minus: -0.00009}, label: 'scaling uncertainty due to polarization'}
+  - value: -0.00849
+    errors:
+    - {symerror: 0.00508, label: 'stat.'}
+    - {symerror: 0.00434, label: 'syst.'}
+    - {asymerror: {plus: 0.00026, minus: -0.00025}, label: 'scaling uncertainty due to polarization'}
+  - value: 0.01168
+    errors:
+    - {symerror: 0.00957, label: 'stat.'}
+    - {symerror: 0.00473, label: 'syst.'}
+    - {asymerror: {plus: 0.00036, minus: -0.00034}, label: 'scaling uncertainty due to polarization'}
+#//////////////////////////////////////////--------- pp neg pt backward xF<0 ---------
+- header: {name: '$A_{N}$ pp neg backward ($h^{-}$, $x_{F}<0$)'}
+  values:
+  - value: 0.00799
+    errors:
+    - {symerror: 0.00374, label: 'stat.'}
+    - {symerror: 0.00541, label: 'syst.'}
+    - {asymerror: {plus: 0.00025, minus: -0.00023}, label: 'scaling uncertainty due to polarization'}
+  - value: -0.00987
+    errors:
+    - {symerror: 0.00763, label: 'stat.'}
+    - {symerror: 0.00622, label: 'syst.'}
+    - {asymerror: {plus: 0.00031, minus: -0.00029}, label: 'scaling uncertainty due to polarization'}
+  - value: 0.01822
+    errors:
+    - {symerror: 0.01393, label: 'stat.'}
+    - {symerror: 0.00779, label: 'syst.'}
+    - {asymerror: {plus: 0.00056, minus: -0.00053}, label: 'scaling uncertainty due to polarization'}
