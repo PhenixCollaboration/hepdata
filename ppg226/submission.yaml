@@ -1,0 +1,158 @@
+---
+# HEPData submission package for PPG226
+#
+# InspireHEP ID: 
+# PPG rpresentative/uploader: Jeongsu Bok jsbok@nmsu.edu
+# IRC representative/reviewer: Ralf Seidl rseidl@riken.jp
+#
+additional_resources:
+- {description: arXiv link, location: 'https://arxiv.org/abs/2303.07191'}
+
+comment: "BNL-RHIC.  Reported here are transverse single-spin asymmetries ($A_N$) in the production of charged hadrons as a function of transverse momentum ($p_T$) and Feynman-x ($x_F$) in polarized $p^{\\uparrow}+p$, $p^{\\uparrow}+$Al, and $p^{\\uparrow}+$Au collisions at $\\sqrt{s_{NN}}=200$ GeV. The measurements have been performed at forward and backward rapidity ($1.4<|\\eta| < 2.4$) over the range of $1.5 < p_T < 7.0 \\mathrm{\\ GeV}/c$ and $0.04 < |x_F| < 0.2$. A nonzero asymmetry is observed for positively charged hadrons at forward rapidity ($x_F > 0$) in $p^{\\uparrow}+p$ collisions, whereas the $p^{\\uparrow}+$Al and $p^{\\uparrow}+$Au results show smaller asymmetries. This finding provides new opportunities to investigate the origin of transverse single-spin asymmetries and a tool to study nuclear effects in $p+A$ collisions.\n"
+
+---
+data_file: Figure5-1.yaml
+description: |
+  $A_N$ of charged hadrons ($h^{\\pm}$) from $p^{\uparrow}+p$ collisions as a function of $p_T$ in the backward ($x_F<0$) region.
+keywords:
+- name: reactions
+  values: [P P --> CHARGED X]
+- name: observables
+  values: [ASYM]
+- name: cmenergies
+  values: [200.0]
+location: Data from Figure 5 (a)
+name: Figure 5-1
+additional_resources:
+- {description: Thumbnail Image file, location: thumb_Fig5.png}
+
+---
+data_file: Figure5-2.yaml
+description: |
+  $A_N$ of charged hadrons ($h^{\\pm}$) from $p^{\uparrow}+p$ collisions as a function of $p_T$ in the forward ($x_F>0$) region.
+keywords:
+- name: reactions
+  values: [P P --> CHARGED X]
+- name: observables
+  values: [ASYM]
+- name: cmenergies
+  values: [200.0]
+location: Data from Figure 5 (b)
+name: Figure 5-2
+additional_resources:
+- {description: Thumbnail Image file, location: thumb_Fig5.png}
+
+---
+data_file: Figure6.yaml
+description: |
+  $A_N$ of charged hadrons ($h^{\pm}$) from $p^{\uparrow}+p$ collisions as a function of $x_F$.
+keywords:
+- name: reactions
+  values: [P P --> CHARGED X]
+- name: observables
+  values: [ASYM]
+- name: cmenergies
+  values: [200.0]
+location: Data from Figure 6
+name: Figure 6
+additional_resources:
+- {description: Thumbnail Image file, location: thumb_Fig6.png}
+
+---
+data_file: Figure7-1.yaml
+description: |
+  $A_N$ of negatively charged hadrons ($h^-$) from $p^{\uparrow}$+Al and $p^{\uparrow}$+Au collisions as a function of $p_T$ in the backward ($x_F<0$) region.
+keywords:
+- name: reactions
+  values: [P A --> H- X]
+- name: observables
+  values: [ASYM]
+- name: cmenergies
+  values: [200.0]
+location: Data from Figure 7 (a)
+name: Figure 7-1
+additional_resources:
+- {description: Thumbnail Image file, location: thumb_Fig7.png}
+
+---
+data_file: Figure7-2.yaml
+description: |
+  $A_N$ of negatively charged hadrons ($h^-$) from $p^{\uparrow}$+Al and $p^{\uparrow}$+Au collisions as a function of $p_T$ in the forward ($x_F>0$) region.
+keywords:
+- name: reactions
+  values: [P A --> H- X]
+- name: observables
+  values: [ASYM]
+- name: cmenergies
+  values: [200.0]
+location: Data from Figure 7 (b)
+name: Figure 7-2
+additional_resources:
+- {description: Thumbnail Image file, location: thumb_Fig7.png}
+
+---
+data_file: Figure8-1.yaml
+description: |
+  $A_N$ of positively charged hadrons ($h^+$) from $p^{\uparrow}$+Al and $p^{\uparrow}$+Au collisions as a function of $p_T$ in the forward ($x_F>0$) regions.
+keywords:
+- name: reactions
+  values: [P A --> H+ X]
+- name: observables
+  values: [ASYM]
+- name: cmenergies
+  values: [200.0]
+location: Data from Figure 8 (a)
+name: Figure 8-1
+additional_resources:
+- {description: Thumbnail Image file, location: thumb_Fig8.png}
+
+---
+data_file: Figure8-2.yaml
+description: |
+  $A_N$ of positively charged hadrons ($h^+$) from $p^{\uparrow}$+Al and $p^{\uparrow}$+Au collisions as a function of $p_T$ in the forward ($x_F>0$) regions.
+keywords:
+- name: reactions
+  values: [P A --> H+ X]
+- name: observables
+  values: [ASYM]
+- name: cmenergies
+  values: [200.0]
+location: Data from Figure 8 (b)
+name: Figure 8-2
+additional_resources:
+- {description: Thumbnail Image file, location: thumb_Fig8.png}
+
+---
+data_file: Figure9-1.yaml
+description: |
+  $A_N$ of negatively charged hadrons ($h^{-}$) from $p^{\uparrow}$+Al and $p^{\uparrow}$+Au collisions as a function of $x_F$.
+keywords:
+- name: reactions
+  values: [P A --> H- X]
+- name: observables
+  values: [ASYM]
+- name: cmenergies
+  values: [200.0]
+location: Data from Figure 9 (a)
+name: Figure 9-1
+additional_resources:
+- {description: Thumbnail Image file, location: thumb_Fig9.png}
+
+---
+data_file: Figure9-2.yaml
+description: |
+  $A_N$ of positively charged hadrons ($h^{+}$) from $p^{\uparrow}$+Al and $p^{\uparrow}$+Au collisions as a function of $x_F$.
+keywords:
+- name: reactions
+  values: [P A --> H+ X]
+- name: observables
+  values: [ASYM]
+- name: cmenergies
+  values: [200.0]
+location: Data from Figure 9 (b)
+name: Figure 9-2
+additional_resources:
+- {description: Thumbnail Image file, location: thumb_Fig9.png}
+
+---
+
