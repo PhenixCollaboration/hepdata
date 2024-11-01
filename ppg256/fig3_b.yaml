@@ -1,0 +1,43 @@
+independent_variables:
+- header: {name: '$N_{ch}/\langle N_{ch} \rangle$'}
+  values:
+  - {high: 0.4734, low:  0.4734, value:  0.4734}
+  - {high: 0.7818, low:  0.7818, value:  0.7818}
+  - {high: 1.126, low:  1.126, value:  1.126}
+  - {high: 1.504, low:  1.504, value:  1.504}
+  - {high: 1.929, low:  1.929, value:  1.929}
+  - {high: 2.531, low:  2.531, value:  2.531}
+  - {high: 4.189, low:  4.189, value:  4.189}
+dependent_variables:
+- header: {name: '$(N_{\psi(2S)}/N_{J/\psi})/\langle N_{\psi(2S)}/N_{J/\psi} \rangle$'}
+  qualifiers:
+  - {name: '$N_{ch}/\langle N_{ch} \rangle$', value: 'Opposite arms'}
+  values:
+  - value: 1.0861
+    errors:
+    - {symerror: 0.118599, label: 'stat.'}
+    - {symerror: 0.0183645, label: 'sys.'}
+  - value: 0.995332
+    errors: 
+    - {symerror: 0.130684, label: 'stat.'}
+    - {symerror: 0.0230416, label: 'sys.'}
+  - value: 0.84021
+    errors: 
+    - {symerror: 0.124536, label: 'stat.'}
+    - {symerror: 0.0162044, label: 'sys.'}
+  - value: 0.945563
+    errors: 
+    - {symerror: 0.130869, label: 'stat.'}
+    - {symerror: 0.0117881, label: 'sys.'}
+  - value: 1.2478
+    errors: 
+    - {symerror: 0.143181, label: 'stat.'}
+    - {symerror: 0.00516057, label: 'sys.'}
+  - value: 1.06658
+    errors: 
+    - {symerror: 0.150484, label: 'stat.'}
+    - {symerror: 0.00516057, label: 'sys.'}
+  - value: 1.2775
+    errors: 
+    - {symerror: 0.165457, label: 'stat.'}
+    - {symerror: 0.0180459, label: 'sys.'}

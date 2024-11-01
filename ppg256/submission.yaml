@@ -1,0 +1,72 @@
+# PHENIX paper PPG256
+#
+# Multiplicity dependent J/ψ and ψ(2S) production at forward and backward rapidity in p+p collisions at √s = 200 GeV
+#
+# e-Print: 2409.03728 [hep-ex] (2024)
+# InspireHEP ID: 2825244
+#
+# Please contact Zhaozhong Shi (zhaozhongshi@berkeley.edu) if you have any questions about this submission
+# PPG liaison: Zhaozhong Shi
+# Reviewer:  Rachid Nouicer and Krista Smith
+#
+
+comment: |
+  BNL-RHIC. The $J/#psi$ and $#psi(2S)$ charmonium states, composed of $c\bar{c}$ quark pairs and known since the 1970s, are widely believed to serve as ideal probes to test quantum chromodynamics (QCD) in high-energy hadronic interactions. However, a complete understanding of the charmonium production mechanism has not yet been achieved. Recent measurements of $J/#psi$ production as a function of event charged particle multiplicity at both LHC and RHIC energies show enhanced $J/#psi$ production yields with increasing multiplicity. One potential explanation for this type of dependence is Multi-Parton Interactions (MPI). We carry out the first measurements of self-normalized $J/#psi$ yields and the $#psi(2S)$ to $J/#psi$ ratio at both forward and backward rapidities as a function of self-normalized charged particle multiplicity in $pp$ collisions at $\sqrt{s}$ = 200 GeV. In addition, detailed PYTHIA studies tuned to RHIC energies have been performed to investigate the MPI impacts. We find that the PHENIX data are consistent with recent LHC measurements and can only be described by PYTHIA calculations that include MPI effects. The forward and backward $#psi(2S)$/$J/#psi$ ratio, which serves as a unique and powerful approach to study final state effects on charmonium production, is found to be less dependent on the charged particle multiplicity. 
+additional_resources:
+  - {location: "https://www.phenix.bnl.gov/phenix/WWW/info/data/ppg243_data.html", description: "web page with data points"}
+  - {description: arXiv link, location: 'https://arxiv.org/abs/2409.03728'}   
+---
+additional_resources:
+  - {location: Fig1.png, description: 'Self-normalized $J/\psi$ yields as a function of self-normalized $N_{ch}$ for the same arms before subtraction'}
+name: "Figure 1 (a)"
+description: 'Self-normalized $J/\psi$ yields as a function of self-normalized $N_{ch}$ for the same arm before subtraction'
+keywords:
+  - {name: reactions, values: [P P --> J/PSI (MU+ MU-)]}
+  - {name: cmenergies, values: [200.0]}
+data_file: fig1_same_arms_unsub.yaml
+---
+additional_resources:
+  - {location: Fig1.png, description: 'Self-normalized $J/\psi$ yields as a function of self-normalized $N_{ch}$ for the same arms after subtraction'}
+name: "Figure 1 (b)"
+description: 'Self-normalized $J/\psi$ yields as a function of self-normalized $N_{ch}$ for the same arm after subtraction'
+keywords:
+  - {name: reactions, values: [P P --> J/PSI (MU+ MU-)]}
+  - {name: cmenergies, values: [200.0]}
+data_file: fig1_same_arms_sub.yaml
+---
+additional_resources:
+  - {location: Fig1.png, description: 'Self-normalized $J/\psi$ yields as a function of self-normalized $N_{ch}$ for opposite arms'}
+name: "Figure 1 (c)"
+description: 'Self-normalized $J/\psi$ yields as a function of self-normalized $N_{ch}$ for opposite arms'
+keywords:
+  - {name: reactions, values: [P P --> J/PSI (MU+ MU-)]}
+  - {name: cmenergies, values: [200.0]}
+data_file: fig1_oppo_arms.yaml
+---
+additional_resources:
+  - {location: Fig2.png, description: 'Self-Normalized $J/\psi$ yields in the same arms before and after dimuon subtraction and the comparison with PYTHIA 8 simulations'}
+name: "Figure 2"
+description: 'Self-Normalized $J/\psi$ yields in the same arms before and after dimuon subtraction and the comparison with PYTHIA 8 simulations'
+keywords:
+  - {name: reactions, values: [P P --> J/PSI (MU+ MU-)]}
+  - {name: cmenergies, values: [200.0]}
+data_file: fig2.yaml
+---
+additional_resources:
+  - {location: Fig3.png, description: 'Self-normalized $\psi(2S)$ to $J/\psi$ yields ratio as a function of Self-normalized $N_{ch}$ in the same arms'}
+name: "Figure 3  (a)"
+description: 'Self-normalized $\psi(2S)$ to $J/\psi$ yields ratio as a function of Self-normalized $N_{ch}$ in the same arms'
+keywords:
+  - {name: reactions, values: [P P --> J/PSI (MU+ MU-)]}
+  - {name: cmenergies, values: [200.0]}
+data_file: fig3_a.yaml
+---
+additional_resources:
+  - {location: Fig3.png, description: 'Self-normalized $\psi(2S)$ to $J/\psi$ yields ratio as a function of Self-normalized $N_{ch}$ opposite arms'}
+name: "Figure 3 (b)"
+description: 'Self-normalized $\psi(2S)$ to $J/\psi$ yields ratio as a function of Self-normalized $N_{ch}$ in opposite arms'
+keywords:
+  - {name: reactions, values: [P P --> J/PSI (MU+ MU-)]}
+  - {name: cmenergies, values: [200.0]}
+data_file: fig3_b.yaml
+---
