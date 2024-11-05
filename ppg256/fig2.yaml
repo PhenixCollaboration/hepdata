@@ -1,0 +1,84 @@
+independent_variables:
+- header: {name: '$N_{ch}/\langle N_{ch} \rangle$'}
+  values:
+  - {high: 0.583974, low:  0,  value:  0.291987}
+  - {high: 1.16795, low:  0.583974,  value:  0.875961}
+  - {high: 1.75192, low:  1.16795,  value:  1.45993}
+  - {high: 2.3359, low:  1.75192,  value:  2.04391}
+  - {high: 2.91987, low:  2.3359,  value:  2.62788}
+  - {high: 3.50384, low:  2.91987,  value:  3.21186}
+  - {high: 4.67179, low:  3.50384,  value:  4.08782}
+  - {high: 5.83974, low:  4.67179,  value:  5.25576}
+dependent_variables:
+- header: {name: '$N_{J/\psi}/\langle N_{J/\psi} \rangle$'}
+  qualifiers:
+  - {name: '$N_{ch}/\langle N_{ch} \rangle$', value: 'Same arms without muon subtraction'}
+  values:
+  - value: 0.374106
+    errors:
+    - {symerror: 0.0146584, label: 'stat.'}
+    - {symerror: 0.0267782, label: 'sys.'}
+  - value: 0.447426
+    errors: 
+    - {symerror: 0.0169041, label: 'stat.'}
+    - {symerror: 0.0289925, label: 'sys.'}
+  - value: 0.996746
+    errors: 
+    - {symerror: 0.028139, label: 'stat.'}
+    - {symerror: 0.0612014, label: 'sys.'}
+  - value: 1.89748
+    errors: 
+    - {symerror: 0.0495574, label: 'stat.'}
+    - {symerror: 0.119548, label: 'sys.'}
+  - value: 3.00342
+    errors: 
+    - {symerror: 0.0822337, label: 'stat.'}
+    - {symerror: 0.210768, label: 'sys.'}
+  - value: 4.40877
+    errors: 
+    - {symerror: 0.134829, label: 'stat.'}
+    - {symerror: 0.35461, label: 'sys.'}
+  - value: 5.8212
+    errors: 
+    - {symerror: 0.181067, label: 'stat.'}
+    - {symerror: 0.58916, label: 'sys.'}
+  - value: 8.27527
+    errors: 
+    - {symerror: 0.478018, label: 'stat.'}
+    - {symerror: 0.998324, label: 'sys.'}
+- header: {name: '$N_{J/\psi}/\langle N_{J/\psi} \rangle$'}
+  qualifiers:
+  - {name: '$N_{ch}/\langle N_{ch} \rangle$', value: 'Same arms with muon subtraction'}    
+  values:
+  - value: 0.76952
+    errors:
+    - {symerror: 0.0188682, label: 'stat.'}
+    - {symerror: 0.0547837, label: 'sys.'}
+  - value: 0.929956
+    errors: 
+    - {symerror: 0.0226739, label: 'stat.'}
+    - {symerror: 0.060026, label: 'sys.'}
+  - value: 1.20254
+    errors: 
+    - {symerror: 0.0319046, label: 'stat.'}
+    - {symerror: 0.0738849, label: 'sys.'}
+  - value: 1.53434
+    errors: 
+    - {symerror: 0.0461378, label: 'stat.'}
+    - {symerror: 0.0966526, label: 'sys.'}
+  - value: 1.83052
+    errors: 
+    - {symerror: 0.0694148, label: 'stat.'}
+    - {symerror: 0.128799, label: 'sys.'}
+  - value: 2.29738
+    errors: 
+    - {symerror: 0.104822, label: 'stat.'}
+    - {symerror: 0.185098, label: 'sys.'}
+  - value: 2.29881
+    errors: 
+    - {symerror: 0.121374, label: 'stat.'}
+    - {symerror: 0.233225, label: 'sys.'}
+  - value: 2.33363
+    errors: 
+    - {symerror: 0.276166, label: 'stat.'}
+    - {symerror: 0.290105, label: 'sys.'}
