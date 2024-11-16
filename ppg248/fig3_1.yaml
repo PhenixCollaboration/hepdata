@@ -20,27 +20,27 @@ dependent_variables:
   - value: 17.25
     errors:
     - {symerror: 0.73, label: 'stat.'}
-    - {symerror: 2.8, label: 'sys.'}
+    - {symerror: 0., label: 'sys.'}
   - value: 15.04
     errors:
     - {symerror: 0.7, label: 'stat.'}
-    - {symerror: 2.5, label: 'sys.'}
+    - {symerror: 0., label: 'sys.'}
   - value: 12.89
     errors:
     - {symerror: 0.51, label: 'stat.'}
-    - {symerror: 2.1, label: 'sys.'}
+    - {symerror: 0., label: 'sys.'}
   - value: 10.41
     errors:
     - {symerror: 0.36, label: 'stat.'}
-    - {symerror: 1.7, label: 'sys.'}
+    - {symerror: 0., label: 'sys.'}
   - value: 7.13
     errors:
     - {symerror: 0.29, label: 'stat.'}
-    - {symerror: 1.2, label: 'sys.'}
+    - {symerror: 0., label: 'sys.'}
   - value: 3.69
     errors:
     - {symerror: 0.17, label: 'stat.'}
-    - {symerror: 0.6, label: 'sys.'}
+    - {symerror: 0., label: 'sys.'}
 - header: {name: '$R^{\pi^{0}}_{dAu,EXP}$'}
   qualifiers:
   - {name: 'Centrality', value: 'd+Au 200GeV'}
@@ -72,4 +72,36 @@ dependent_variables:
   - value: 0.941
     errors:
     - {symerror: 0.046, label: 'stat.'}
+    - {symerror: 0., label: 'sys.'}
+- header: {name: '$N^{EXP}_{coll}/N^{GL}_{coll}$'}
+  qualifiers:
+  - {name: 'Centrality', value: 'd+Au 200GeV'}
+  values:
+  - value: 1.005
+    errors:
+    - {symerror: 0.0251, label: 'stat.'}
+    - {symerror: 0.166, label: 'sys.'}
+  - value: 0.956
+    errors:
+    - {symerror: 0.0416, label: 'stat.'}
+    - {symerror: 0., label: 'sys.'}
+  - value: 0.986
+    errors:
+    - {symerror: 0.0468, label: 'stat.'}
+    - {symerror: 0., label: 'sys.'}
+  - value: 0.965
+    errors:
+    - {symerror: 0.0391, label: 'stat.'}
+    - {symerror: 0., label: 'sys.'}
+  - value: 1.019
+    errors:
+    - {symerror: 0.0357, label: 'stat.'}
+    - {symerror: 0., label: 'sys.'}
+  - value: 1.069
+    errors:
+    - {symerror: 0.0444, label: 'stat.'}
+    - {symerror: 0., label: 'sys.'}
+  - value: 1.141
+    errors:
+    - {symerror: 0.0547, label: 'stat.'}
     - {symerror: 0., label: 'sys.'}
