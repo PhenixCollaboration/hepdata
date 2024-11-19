@@ -1,0 +1,43 @@
+independent_variables:
+- header: {name: '$N^{EXP}_{coll}$'}
+  values:
+  - {value: 7.65}
+  - {value: 17.31}
+  - {value: 15.28}
+  - {value: 12.93}
+  - {value: 10.39}
+  - {value: 7.06}
+  - {value: 3.65}
+dependent_variables:
+- header: {name: '$N^{EXP}_{coll}/N^{GL}_{coll}$'}
+  qualifiers:
+  - {name: '$N^{EXP}_{coll}$', value: 'd+Au 200GeV'}
+  values:
+  - value: 1.005
+    errors:
+    - {symerror: 0.0251, label: 'stat.'}
+    - {symerror: 0.166, label: 'sys.'}
+  - value: 0.956
+    errors:
+    - {symerror: 0.0416, label: 'stat.'}
+    - {symerror: 0., label: 'sys.'}
+  - value: 0.986
+    errors:
+    - {symerror: 0.0468, label: 'stat.'}
+    - {symerror: 0., label: 'sys.'}
+  - value: 0.965
+    errors:
+    - {symerror: 0.0391, label: 'stat.'}
+    - {symerror: 0., label: 'sys.'}
+  - value: 1.019
+    errors:
+    - {symerror: 0.0357, label: 'stat.'}
+    - {symerror: 0., label: 'sys.'}
+  - value: 1.069
+    errors:
+    - {symerror: 0.0444, label: 'stat.'}
+    - {symerror: 0., label: 'sys.'}
+  - value: 1.141
+    errors:
+    - {symerror: 0.0547, label: 'stat.'}
+    - {symerror: 0., label: 'sys.'}
