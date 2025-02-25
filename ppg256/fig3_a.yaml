@@ -1,0 +1,48 @@
+independent_variables:
+- header: {name: '$N_{ch}/\langle N_{ch} \rangle$'}
+  values:
+  - {high: 0.6923, low:  0.6923,  value:  0.6923}
+  - {high: 1.243, low:  1.243,  value:  1.243}
+  - {high: 1.584, low:  1.584,  value:  1.584}
+  - {high: 1.921, low:  1.921,  value:  1.921}
+  - {high: 2.321, low:  2.321,  value:  2.321}
+  - {high: 2.724, low:  2.724,  value:  2.724}
+  - {high: 3.368, low:  3.368,  value:  3.368}
+  - {high: 5.167, low:  5.167,  value:  5.167}   
+dependent_variables:
+- header: {name: '$(N_{\psi(2S)}/N_{J/\psi})/\langle N_{\psi(2S)}/N_{J/\psi} \rangle$'}
+  qualifiers:
+  - {name: '$N_{ch}/\langle N_{ch} \rangle$', value: 'Same arms without muon subtraction'}
+  values:
+  - value: 1.05726
+    errors:
+    - {symerror: 0.121924, label: 'stat.'}
+    - {symerror: 0.0171981, label: 'sys.'}
+  - value: 0.9888
+    errors: 
+    - {symerror: 0.102384, label: 'stat.'}
+    - {symerror: 0.0118699, label: 'sys.'}
+  - value: 0.907028
+    errors: 
+    - {symerror: 0.125526, label: 'stat.'}
+    - {symerror: 0.00998441, label: 'sys.'}
+  - value: 0.712314
+    errors: 
+    - {symerror: 0.108866, label: 'stat.'}
+    - {symerror: 0.0199645, label: 'sys.'}
+  - value: 0.978934
+    errors: 
+    - {symerror: 0.125504, label: 'stat.'}
+    - {symerror: 0.0200246, label: 'sys.'}
+  - value: 0.943511
+    errors: 
+    - {symerror: 0.140874, label: 'stat.'}
+    - {symerror: 0.0134006, label: 'sys.'}
+  - value: 1.37923
+    errors: 
+    - {symerror: 0.143876, label: 'stat.'}
+    - {symerror: 0.0169567, label: 'sys.'}
+  - value: 1.03082
+    errors: 
+    - {symerror: 0.15044, label: 'stat.'}
+    - {symerror: 0.0213266, label: 'sys.'}      

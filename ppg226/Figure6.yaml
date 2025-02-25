@@ -1,0 +1,120 @@
+#//////////////////////////////////////////--------- pp pos xf ---------
+independent_variables:
+- header: {name: '$x_F$'}
+  values:
+  - {low: -0.20, high: -0.13}
+  - {low: -0.13, high: -0.10}
+  - {low: -0.10, high: -0.07}
+  - {low: -0.07, high: -0.05}
+  - {low: -0.05, high: -0.04}
+  - {low: 0.04, high: 0.05}
+  - {low: 0.05, high: 0.07}
+  - {low: 0.07, high: 0.10}
+  - {low: 0.10, high: 0.13}
+  - {low: 0.13, high: 0.20}
+dependent_variables:
+- header: {name: '$A_{N}$ pp pos($h^{+}$)'}
+  values:
+  - value: -0.00417
+    errors:
+    - {symerror: 0.00744, label: 'stat.'}
+    - {symerror: 0.00154, label: 'syst.'}
+    - {asymerror: {plus: 0.00013, minus: -0.00012}, label: 'scaling uncertainty due to polarization'}
+  - value: -0.00079
+    errors:
+    - {symerror: 0.00508, label: 'stat.'}
+    - {symerror: 0.00034, label: 'syst.'}
+    - {asymerror: {plus: 0.00002, minus: -0.00002}, label: 'scaling uncertainty due to polarization'}
+  - value: 0.00282
+    errors:
+    - {symerror: 0.00256, label: 'stat.'}
+    - {symerror: 0.00060, label: 'syst.'}
+    - {asymerror: {plus: 0.00009, minus: -0.00008}, label: 'scaling uncertainty due to polarization'}
+  - value: 0.00276
+    errors:
+    - {symerror: 0.00226, label: 'stat.'}
+    - {symerror: 0.00072, label: 'syst.'}
+    - {asymerror: {plus: 0.00009, minus: -0.00008}, label: 'scaling uncertainty due to polarization'}
+  - value: -0.00111
+    errors:
+    - {symerror: 0.00435, label: 'stat.'}
+    - {symerror: 0.00129, label: 'syst.'}
+    - {asymerror: {plus: 0.00003, minus: -0.00003}, label: 'scaling uncertainty due to polarization'}
+  - value: 0.00046
+    errors:
+    - {symerror: 0.00436, label: 'stat.'}
+    - {symerror: 0.00181, label: 'syst.'}
+    - {asymerror: {plus: 0.00001, minus: -0.00001}, label: 'scaling uncertainty due to polarization'}
+  - value: 0.00471
+    errors:
+    - {symerror: 0.00225, label: 'stat.'}
+    - {symerror: 0.00063, label: 'syst.'}
+    - {asymerror: {plus: 0.00015, minus: -0.00014}, label: 'scaling uncertainty due to polarization'}
+  - value: 0.00713
+    errors:
+    - {symerror: 0.00253, label: 'stat.'}
+    - {symerror: 0.00178, label: 'syst.'}
+    - {asymerror: {plus: 0.00022, minus: -0.00021}, label: 'scaling uncertainty due to polarization'}
+  - value: 0.02487
+    errors:
+    - {symerror: 0.00503, label: 'stat.'}
+    - {symerror: 0.00068, label: 'syst.'}
+    - {asymerror: {plus: 0.00077, minus: -0.00072}, label: 'scaling uncertainty due to polarization'}
+  - value: 0.04454
+    errors:
+    - {symerror: 0.00734, label: 'stat.'}
+    - {symerror: 0.00250, label: 'syst.'}
+    - {asymerror: {plus: 0.00138, minus: -0.00130}, label: 'scaling uncertainty due to polarization'}
+#//////////////////////////////////////////--------- pp neg xf ---------
+- header: {name: '$A_{N}$ pp neg($h^{-}$)'}
+  values:
+  - value: 0.00969
+    errors:
+    - {symerror: 0.01082, label: 'stat.'}
+    - {symerror: 0.00374, label: 'syst.'}
+    - {asymerror: {plus: 0.00030, minus: -0.00028}, label: 'scaling uncertainty due to polarization'}
+  - value: 0.00225
+    errors:
+    - {symerror: 0.00750, label: 'stat.'}
+    - {symerror: 0.00111, label: 'syst.'}
+    - {asymerror: {plus: 0.00007, minus: -0.00007}, label: 'scaling uncertainty due to polarization'}
+  - value: 0.00146
+    errors:
+    - {symerror: 0.00383, label: 'stat.'}
+    - {symerror: 0.00037, label: 'syst.'}
+    - {asymerror: {plus: 0.00005, minus: -0.00004}, label: 'scaling uncertainty due to polarization'}
+  - value: -0.00159
+    errors:
+    - {symerror: 0.00331, label: 'stat.'}
+    - {symerror: 0.00089, label: 'syst.'}
+    - {asymerror: {plus: 0.00005, minus: -0.00005}, label: 'scaling uncertainty due to polarization'}
+  - value: 0.00282
+    errors:
+    - {symerror: 0.00629, label: 'stat.'}
+    - {symerror: 0.00179, label: 'syst.'}
+    - {asymerror: {plus: 0.00009, minus: -0.00008}, label: 'scaling uncertainty due to polarization'}
+  - value: -0.00155
+    errors:
+    - {symerror: 0.00632, label: 'stat.'}
+    - {symerror: 0.00106, label: 'syst.'}
+    - {asymerror: {plus: 0.00005, minus: -0.00005}, label: 'scaling uncertainty due to polarization'}
+  - value: -0.00379
+    errors:
+    - {symerror: 0.00331, label: 'stat.'}
+    - {symerror: 0.00081, label: 'syst.'}
+    - {asymerror: {plus: 0.00012, minus: -0.00011}, label: 'scaling uncertainty due to polarization'}
+  - value: -0.01534
+    errors:
+    - {symerror: 0.00380, label: 'stat.'}
+    - {symerror: 0.00400, label: 'syst.'}
+    - {asymerror: {plus: 0.00047, minus: -0.00045}, label: 'scaling uncertainty due to polarization'}
+  - value: -0.00896
+    errors:
+    - {symerror: 0.00742, label: 'stat.'}
+    - {symerror: 0.00153, label: 'syst.'}
+    - {asymerror: {plus: 0.00028, minus: -0.00026}, label: 'scaling uncertainty due to polarization'}
+  - value: -0.00753
+    errors:
+    - {symerror: 0.01068, label: 'stat.'}
+    - {symerror: 0.00182, label: 'syst.'}
+    - {asymerror: {plus: 0.00023, minus: -0.00022}, label: 'scaling uncertainty due to polarization'}

@@ -15,49 +15,43 @@ comment: | # Information that applies to all data tables.
 additional_resources:
 - {location: "http://arxiv.org/abs/1509.04657", description: arXiv}
 - {location: "https://inspirehep.net/literature/1393528", description: InspireHEP}
+- {location: erratum_newfig1.pdf, description: Erratum Figure 1}
+- {location: erratum_newfig2.pdf, description: Erratum Figure 2}
+- {location: erratum_newfig3.pdf, description: Erratum Figure 3}
+- {location: erratum_newfig4.pdf, description: Erratum Figure 4}
 ---
 # This is Figure 1.
 name: "Figure 1"
-location: Data From Fig. 1 of PRL 116 (2016) 122301
-description: 'Measured anti-$k_T$, $R$ = 0.3 jet yields in $d$+Au collisions, and the measured and calculated jet cross section in $p$+$p$ collisions, with data series offset by multiplicative factors.'
+location: Data From Fig. 1 of PRL 116 (2016) 122301, erratum
+description: 'Measured anti-$k_T$, $R$ = 0.3 jet yields in $d$+Au collisions, and the measured and calculated jet cross section in $p$+$p$ collisions.'
 keywords: # used for searching, possibly mutliple values for each keywords
 - {name: reactions, values: [$d$ Au --> CHARGED X, $p$ $p$ --> CHARGED X]}
 - {name: cmenergies, values: [200.0]}
-- {name: phrases, values: [ppg184, jet production, pseudorapidity, transverse momentum]}
+- {name: phrases, values: [jet, pseudorapidity, transverse momentum]}
 data_file: Figure1.yaml
 additional_resources:
-- {description: Thumbnail Image file, location: thumb_Fig1.png}
+- {description: Thumbnail Image file, location: thumb_erratum_newfig1.png}
 ---
-name: "Figure 2a"
-location: Data From Fig. 1 of PRL 116 (2016) 122301
-description: '$R_{dAu}$ for 0-100% as a function of $p_T$.'
+name: "Figure 2 & 3"
+location: Data From Fig. 2 & 3 of PRL 116 (2016) 122301, erratum
+description: '$R_{dAu}$ as a function of $p_T$.'
 keywords: # used for searching, possibly mutliple values for each keywords
 - {name: reactions, values: [$d$ Au --> CHARGED X, $p$ $p$ --> CHARGED X]}
 - {name: cmenergies, values: [200.0]}
-- {name: phrases, values: [ppg184, jet production, pseudorapidity, transverse momentum]}
+- {name: phrases, values: [jet, pseudorapidity, transverse momentum]}
 data_file: Figure2a.yaml
 additional_resources:
-- {description: Thumbnail Image file, location: thumb_Fig2.png}
+- {description: Thumbnail Image file, location: thumb_erratum_newfig2.png}
+- {description: Thumbnail Image file, location: thumb_erratum_newfig3.png}
 ---
-name: "Figure 2b"
-location: Data From Fig. 1 of PRL 116 (2016) 122301
-description: '$R_{dAu}$ for centrality-selected collisions as a function of $p_T$.'
-keywords: # used for searching, possibly mutliple values for each keywords
-- {name: reactions, values: [$d$ Au --> CHARGED X]}
-- {name: cmenergies, values: [200.0]}
-- {name: phrases, values: [ppg184, jet production, pseudorapidity, transverse momentum]}
-data_file: Figure2b.yaml
-additional_resources:
-- {description: Thumbnail Image file, location: thumb_Fig2.png}
----
-name: "Figure 2c"
-location: Data From Fig. 1 of PRL 116 (2016) 122301
+name: "Figure 4"
+location: Data From Fig. 4 of PRL 116 (2016) 122301, erratum
 description: '$R_{CP}$ as a function of $p_T$.'
 keywords: # used for searching, possibly mutliple values for each keywords
 - {name: reactions, values: [$d$ Au --> CHARGED X]}
 - {name: cmenergies, values: [200.0]}
-- {name: phrases, values: [ppg184, jet production, pseudorapidity, transverse momentum]}
+- {name: phrases, values: [jet, pseudorapidity, transverse momentum]}
 data_file: Figure2c.yaml
 additional_resources:
-- {description: Thumbnail Image file, location: thumb_Fig2.png}
+- {description: Thumbnail Image file, location: thumb_erratum_newfig4.png}
 ---
