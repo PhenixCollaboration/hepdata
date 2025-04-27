@@ -1,0 +1,43 @@
+independent_variables:
+- header: {name: '$\xi$'}
+  values:
+  - {low: 0.5, high: 1}
+  - {low: 1, high: 1.5}
+  - {low: 1.5, high: 2}
+  - {low: 2, high: 2.5}
+  - {low: 2.5, high: 3}
+  - {low: 3, high: 3.5}
+  - {low: 3.5, high: 3.75}
+dependent_variables:
+- header: {name: '$\frac{1}{N_{jet}} dN_{ch}/d\xi$'}
+  qualifiers:
+  - {name: '$p_{T}^{jet}$', value: '$9<p_T<10$'}
+  values:
+  - value: 0.766
+    errors:
+    - {symerror: 0.009, label: 'stat'}
+    - {asymerror: {plus: 0.071, minus: 0.070}, label: 'sys'}
+  - value: 0.933
+    errors:
+    - {symerror: 0.008, label: 'stat'}
+    - {asymerror: {plus: 0.081, minus: 0.230}, label: 'sys'}
+  - value: 0.777
+    errors:
+    - {symerror: 0.010, label: 'stat'}
+    - {asymerror: {plus: 0.085, minus: 0.257}, label: 'sys'}
+  - value: 0.535
+    errors:
+    - {symerror: 0.007, label: 'stat'}
+    - {asymerror: {plus: 0.071, minus: 0.141}, label: 'sys'}
+  - value: 0.350
+    errors:
+    - {symerror: 0.007, label: 'stat'}
+    - {asymerror: {plus: 0.050, minus: 0.187}, label: 'sys'}
+  - value: 0.139
+    errors:
+    - {symerror: 0.006, label: 'stat'}
+    - {asymerror: {plus: 0.047, minus: 0.209}, label: 'sys'}
+  - value: 0.1182
+    errors:
+    - {symerror: 0.0033, label: 'stat'}
+    - {asymerror: {plus: 0.0064, minus: 0.1488}, label: 'sys'}

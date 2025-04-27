@@ -2,67 +2,114 @@
 #
 #Measurement of jet cross-section and substructure in $p$+$p$ collisions at $\sqrt{s}$ = 200 GeV with the PHENIX experiment at RHIC.
 #
-#Phys.Rev.Lett 00 (year) 00000 (n/a)
+#Phys.Rev.D 2025
 #InspireHEP ID: 2820229
 #
-#Prepared by Andrew McAninch
+#Prepared by Andrew McAninch, Christine Nattrass
 #Please contact Christine Nattrass if you have any questions about this submission
 #PPG liaison: Christine Nattrass
-#Reviewer:
+#Reviewer: Anthony Hodges
 #
 comment: | # Information that applies to all data tables.
   The jet cross section and jet-substructure observables in $p$$+$$p$ collisions at $\sqrt{s}=200$ GeV were measured by the PHENIX Collaboration at the Relativistic Heavy Ion Collider (RHIC). Jets are reconstructed from charged-particle tracks and electromagnetic-calorimeter clusters using the anti-$k_{t}$ algorithm with a jet radius $R=0.3$ for jets with transverse momentum within $8.0<p_T<40.0$ GeV/$c$ and pseudorapidity $|\eta|<0.15$.  Measurements include the jet cross section, as well as distributions of SoftDrop-groomed momentum fraction ($z_g$), charged-particle transverse momentum with respect to jet axis ($j_T$), and radial distributions of charged particles within jets ($r$).  Also measured was the distribution of $\xi=-ln(z)$, where $z$ is the fraction of the jet momentum carried by the charged particle. The measurements are compared to theoretical next-to and next-to-next-to-leading-order calculations, {\sc pythia} event generator, and to other existing experimental results. Indicated from these measurements is a lower particle multiplicity in jets at RHIC energies when compared to models.  Also noted are implications for future jet measurements with sPHENIX at RHIC as well as at the future Election-Ion Collider.
-#additional_resources:
-#- {location: "na", description: arXiv}
-#- {location: "na", description: InspireHEP}
+additional_resources:
+- {location: "https://arxiv.org/pdf/2408.11144", description: "arXiv entry"}
+- {location: "https://inspirehep.net/literature/2820229", description: InspireHEP 2820229}
 ---
 # This is Figure 1.
-name: "Figure 1"
-location: Data From Fig. 1 of PRL .... (n/a)
-description: 'Jet differential cross-section vs. $p_T$.'
+name: "Figure 4"
+location: Data From Fig. 4
+description: 'The jet differential cross section as a function of jet $p_T$. Statistical uncertainties are typically smaller than the data points  while systematic uncertainties are shown with boxes. An overall 
+normalization systematic of 7% is not included in the point-by-point systematic uncertainties.'
 keywords: # used for searching, possibly mutliple values for each keywords
 - {name: reactions, values: [$p$ $p$ --> CHARGED X]}
 - {name: cmenergies, values: [200.0]}
-- {name: phrases, values: [ppg252, anti-$k_t$ algorithm, substructure, cross-section]}
-data_file: fig1.yaml
+data_file: cs.yaml
+additional_resources:
+- {description: Thumbnail Image file, location: thumb_crosssection.png}
+- {description: Image file, location: crosssection.pdf}
 ---
 # This is Figure 2.
-name: "Figure 2"
-location: Data From Fig. 2 of PRL .... (n/a)
-description: '$z_g$ distributions for different $p_T$ bins.'
+name: "Figure 5"
+location: Data From Fig. 5
+description: 'Distribution of the SoftDrop groomed momentum fraction $z_g$ for different jet $p_T$ bins. Standard SoftDrop parameters were used ($z_{cut}<0.1$ and $\beta=0$).'
 keywords: # used for searching, possibly mutliple values for each keywords
 - {name: reactions, values: [$p$ $p$ --> CHARGED X]}
 - {name: cmenergies, values: [200.0]}
-- {name: phrases, values: [ppg252, anti-$k_t$ algorithm, substructure, $z_g$]}
-data_file: fig2.yaml
+data_file: zg.yaml
+additional_resources:
+- {description: Thumbnail Image file, location: thumb_zg.png}
+- {description: Image file, location: zg.pdf}
 ---
 # This is Figure 3.
-name: "Figure 3a"
-location: Data From Fig. 3 of PRL .... (n/a)
-description: '$\eta$ distributions for different $p_T$ bins.'
+name: "Figure 6 Part 1"
+location: Data From Fig. 6
+description: '$\xi$ distributions for different jet $p_T$ bins.'
 keywords: # used for searching, possibly mutliple values for each keywords
 - {name: reactions, values: [$p$ $p$ --> CHARGED X]}
 - {name: cmenergies, values: [200.0]}
-- {name: phrases, values: [ppg252, anti-$k_t$ algorithm, substructure, $\eta$ = $-ln(z)$]}
-data_file: fig3a.yaml
+data_file: xi.1.yaml
+additional_resources:
+- {description: Thumbnail Image file, location: thumb_xi.png}
+- {description: Image file, location: xi.pdf}
 ---
 # This is Figure 3.
-name: "Figure 3b"
-location: Data From Fig. 3 of PRL .... (n/a)
-description: '$\eta$ distributions for different $p_T$ bins.'
+name: "Figure 6 Part 2"
+location: Data From Fig. 6
+description: '$\xi$ distributions for different jet $p_T$ bins.'
 keywords: # used for searching, possibly mutliple values for each keywords
 - {name: reactions, values: [$p$ $p$ --> CHARGED X]}
 - {name: cmenergies, values: [200.0]}
-- {name: phrases, values: [ppg252, anti-$k_t$ algorithm, substructure, $\eta$ = $-ln(z)$]}
-data_file: fig3b.yaml
+data_file: xi.yaml
+additional_resources:
+- {description: Thumbnail Image file, location: thumb_xi.png}
+- {description: Image file, location: xi.pdf}
+---
+# This is Figure 3.
+name: "Figure 6 Part 3"
+location: Data From Fig. 6
+description: '$\xi$ distributions for different jet $p_T$ bins.'
+keywords: # used for searching, possibly mutliple values for each keywords
+- {name: reactions, values: [$p$ $p$ --> CHARGED X]}
+- {name: cmenergies, values: [200.0]}
+data_file: xi.3.yaml
+additional_resources:
+- {description: Thumbnail Image file, location: thumb_xi.png}
+- {description: Image file, location: xi.pdf}
+---
+# This is Figure 3.
+name: "Figure 7 Part 1"
+location: Data From Fig. 7
+description: 'The $j_T/p_{T}^{\rm jet}$ distributions for different jet $p_T$ bins.'
+keywords: # used for searching, possibly mutliple values for each keywords
+- {name: reactions, values: [$p$ $p$ --> CHARGED X]}
+- {name: cmenergies, values: [200.0]}
+data_file: jt.yaml
+additional_resources:
+- {description: Thumbnail Image file, location: thumb_jt.png}
+- {description: Image file, location: jt.pdf}
+---
+# This is Figure 3.
+name: "Figure 7 Part 2"
+location: Data From Fig. 7
+description: 'The $j_T/p_{T}^{\rm jet}$ distributions for different jet $p_T$ bins.'
+keywords: # used for searching, possibly mutliple values for each keywords
+- {name: reactions, values: [$p$ $p$ --> CHARGED X]}
+- {name: cmenergies, values: [200.0]}
+data_file: jt2.yaml
+additional_resources:
+- {description: Thumbnail Image file, location: thumb_jt.png}
+- {description: Image file, location: jt.pdf}
 ---
 # This is Figure 5.
-name: "Figure 5"
-location: Data From Fig. 5 of PRL .... (n/a)
-description: '$R$ distributions for different $p_T$ bins.'
+name: "Figure 8"
+location: Data From Fig. 8
+description: '$r$ distributions for different jet $p_T$ bins.'
 keywords: # used for searching, possibly mutliple values for each keywords
 - {name: reactions, values: [$p$ $p$ --> CHARGED X]}
 - {name: cmenergies, values: [200.0]}
-- {name: phrases, values: [ppg252, anti-$k_t$ algorithm, substructure, radial distribution]}
-data_file: fig5.yaml
+data_file: dr.yaml
+additional_resources:
+- {description: Thumbnail Image file, location: thumb_dr.png}
+- {description: Image file, location: dr.pdf}
 ---
