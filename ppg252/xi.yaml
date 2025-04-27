@@ -1,0 +1,58 @@
+independent_variables:
+- header: {name: '$\xi$'}
+  values:
+  - {low: 0.5, high: 1}
+  - {low: 1, high: 1.5}
+  - {low: 1.5, high: 2}
+  - {low: 2, high: 2.5}
+  - {low: 2.5, high: 3}
+  - {low: 3, high: 3.5}
+  - {low: 3.5, high: 3.75}
+  - {low: 3.75, high: 4}
+  - {low: 4, high: 4.25}
+  - {low: 4.25, high: 4.5}
+dependent_variables:
+- header: {name: '$\frac{1}{N_{jet}} dN_{ch}/d\xi$'}
+  qualifiers:
+  - {name: '$p_{T}^{jet}$', value: '$10<p_T<12$'}
+  values:
+  - value: 0.739
+    errors:
+    - {symerror: 0.011, label: 'stat'}
+    - {asymerror: {plus: 0.062, minus: 0.089}, label: 'sys'}
+  - value: 0.939
+    errors:
+    - {symerror: 0.009, label: 'stat'}
+    - {asymerror: {plus: 0.064, minus: 0.225}, label: 'sys'}
+  - value: 0.901
+    errors:
+    - {symerror: 0.011, label: 'stat'}
+    - {asymerror: {plus: 0.084, minus: 0.144}, label: 'sys'}
+  - value: 0.617
+    errors:
+    - {symerror: 0.009, label: 'stat'}
+    - {asymerror: {plus: 0.054, minus: 0.144}, label: 'sys'}
+  - value: 0.393
+    errors:
+    - {symerror: 0.008, label: 'stat'}
+    - {asymerror: {plus: 0.052, minus: 0.116}, label: 'sys'}
+  - value: 0.238
+    errors:
+    - {symerror: 0.012, label: 'stat'}
+    - {asymerror: {plus: 0.085, minus: 0.078}, label: 'sys'}
+  - value: 0.167
+    errors:
+    - {symerror: 0.006, label: 'stat'}
+    - {asymerror: {plus: 0.013, minus: 0.061}, label: 'sys'}
+  - value: 0.0627
+    errors:
+    - {symerror: 0.0025, label: 'stat'}
+    - {asymerror: {plus: 0.0140, minus: 0.1436}, label: 'sys'}
+  - value: 0.0579
+    errors:
+    - {symerror: 0.0018, label: 'stat'}
+    - {asymerror: {plus: 0.0262, minus: 0.0743}, label: 'sys'}
+  - value: 0.05240
+    errors:
+    - {symerror: 0.00100, label: 'stat'}
+    - {asymerror: {plus: 0.01664, minus: 2.3e-4}, label: 'sys'}
