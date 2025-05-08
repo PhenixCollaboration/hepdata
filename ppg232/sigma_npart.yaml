@@ -1,0 +1,38 @@
+independent_variables:
+- header: {name: $Npart$, units: "" }
+  values:
+  - value: 325.200
+  - value: 234.600
+  - value: 166.600
+  - value: 114.200
+  - value: 74.400
+  - value: 45.500
+dependent_variables:
+- header: {name: '$\sigma$', units: 'GEV'}
+  qualifiers:
+  - {name: 'pair', value: '$\pi^{-}\pi^{-}+\pi^{+}\pi^{+}$'}
+  values:
+  - value: 0.242
+    errors: 
+    - {asymerror: {plus: 0.029, minus: -0.029}, label: 'stat.'}
+    - {asymerror: {plus: 0.069, minus: -0.109}, label: 'syst.'}
+  - value: 0.189
+    errors: 
+    - {asymerror: {plus: 0.015, minus: -0.015}, label: 'stat.'}
+    - {asymerror: {plus: 0.082, minus: -0.089}, label: 'syst.'}
+  - value: 0.216
+    errors: 
+    - {asymerror: {plus: 0.017, minus: -0.017}, label: 'stat.'}
+    - {asymerror: {plus: 0.087, minus: -0.041}, label: 'syst.'}
+  - value: 0.251
+    errors: 
+    - {asymerror: {plus: 0.017, minus: -0.017}, label: 'stat.'}
+    - {asymerror: {plus: 0.046, minus: -0.047}, label: 'syst.'}
+  - value: 0.222
+    errors: 
+    - {asymerror: {plus: 0.018, minus: -0.018}, label: 'stat.'}
+    - {asymerror: {plus: 0.100, minus: -0.063}, label: 'syst.'}
+  - value: 0.162
+    errors: 
+    - {asymerror: {plus: 0.017, minus: -0.017}, label: 'stat.'}
+    - {asymerror: {plus: 0.075, minus: -0.058}, label: 'syst.'}
