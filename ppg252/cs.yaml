@@ -1,0 +1,68 @@
+independent_variables:
+- header: {name: '$p_T$'}
+  values:
+  - {low: 8, high: 9}
+  - {low: 9, high: 10}
+  - {low: 10, high: 12}
+  - {low: 12, high: 14.5}
+  - {low: 14.5, high: 17.5}
+  - {low: 17.5, high: 20.5}
+  - {low: 20.5, high: 24.5}
+  - {low: 24.5, high: 29}
+  - {low: 29, high: 34}
+  - {low: 34, high: 42}
+dependent_variables:
+- header: {name: '$\frac{d^{2}\sigma}{dp_{T} d\eta}$ [mb/(GeV/c)]'}
+  qualifiers:
+  - {name: '$p_T$', value: 'EMPTY'}
+  values:
+  - value: 5.870e-4
+    errors:
+    - {symerror: 3.5e-6, label: 'stat'}
+    - {asymerror: {plus: 2.325e-4, minus: 1.901e-4}, label: 'sys'}
+    - {symerror: 4.11e-5, label: 'sys(scale)'}
+  - value: 2.998e-4
+    errors:
+    - {symerror: 2.2e-6, label: 'stat'}
+    - {asymerror: {plus: 1.084e-4, minus: 9.64e-5}, label: 'sys'}
+    - {symerror: 2.10e-5, label: 'sys(scale)'}
+  - value: 1.334e-4
+    errors:
+    - {symerror: 1.2e-6, label: 'stat'}
+    - {asymerror: {plus: 4.81e-5, minus: 4.44e-5}, label: 'sys'}
+    - {symerror: 9.3e-6, label: 'sys(scale)'}
+  - value: 4.08e-5
+    errors:
+    - {symerror: 5e-7, label: 'stat'}
+    - {asymerror: {plus: 1.45e-5, minus: 1.42e-5}, label: 'sys'}
+    - {symerror: 2.9e-6, label: 'sys(scale)'}
+  - value: 1.246e-5
+    errors:
+    - {symerror: 1.9e-7, label: 'stat'}
+    - {asymerror: {plus: 4.19e-6, minus: 4.29e-6}, label: 'sys'}
+    - {symerror: 8.7e-7, label: 'sys(scale)'}
+  - value: 4.28e-6
+    errors:
+    - {symerror: 1.0e-7, label: 'stat'}
+    - {asymerror: {plus: 1.21e-6, minus: 1.31e-6}, label: 'sys'}
+    - {symerror: 3.0e-7, label: 'sys(scale)'}
+  - value: 1.40e-6
+    errors:
+    - {symerror: 4e-8, label: 'stat'}
+    - {asymerror: {plus: 3.9e-7, minus: 4.7e-7}, label: 'sys'}
+    - {symerror: 1.0e-7, label: 'sys(scale)'}
+  - value: 4.11e-7
+    errors:
+    - {symerror: 2.2e-8, label: 'stat'}
+    - {asymerror: {plus: 9.4e-8, minus: 1.16e-7}, label: 'sys'}
+    - {symerror: 2.9e-8, label: 'sys(scale)'}
+  - value: 1.02e-7
+    errors:
+    - {symerror: 9e-9, label: 'stat'}
+    - {asymerror: {plus: 1.2e-8, minus: 1.6e-8}, label: 'sys'}
+    - {symerror: 7e-9, label: 'sys(scale)'}
+  - value: 2.50e-8
+    errors:
+    - {symerror: 4.5e-9, label: 'stat'}
+    - {asymerror: {plus: 1.1e-9, minus: 2.6e-9}, label: 'sys'}
+    - {symerror: 1.7e-9, label: 'sys(scale)'}

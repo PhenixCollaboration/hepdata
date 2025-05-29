@@ -1,0 +1,171 @@
+independent_variables:
+- header: {name: '$j_{T}$'}
+  values:
+  - {low: 0, high: 0.0125}
+  - {low: 0.0125, high: 0.025}
+  - {low: 0.025, high: 0.0375}
+  - {low: 0.0375, high: 0.05}
+  - {low: 0.05, high: 0.0625}
+  - {low: 0.0625, high: 0.075}
+  - {low: 0.075, high: 0.0875}
+dependent_variables:
+- header: {name: '$\frac{1}{N_{jet}} (p_{T}^{jet}/j_{T}) dN_{ch}/d(j_T}/p_{T}^{jet})'}
+  qualifiers:
+  - {name: '$p_{T}^{jet}$', value: '$9<p_T<10$'}
+  values:
+  - value: 5.95e+3
+    errors:
+    - {symerror: 7e+1, label: 'stat'}
+    - {asymerror: {plus: 7e+2, minus: 2.96e+3}, label: 'sys'}
+  - value: 2623
+    errors:
+    - {symerror: 23, label: 'stat'}
+    - {asymerror: {plus: 244, minus: 641}, label: 'sys'}
+  - value: 1298
+    errors:
+    - {symerror: 12, label: 'stat'}
+    - {asymerror: {plus: 87, minus: 178}, label: 'sys'}
+  - value: 520
+    errors:
+    - {symerror: 7, label: 'stat'}
+    - {asymerror: {plus: 30, minus: 70}, label: 'sys'}
+  - value: 164
+    errors:
+    - {symerror: 4, label: 'stat'}
+    - {asymerror: {plus: 11, minus: 29}, label: 'sys'}
+  - value: 39.0
+    errors:
+    - {symerror: 1.7, label: 'stat'}
+    - {asymerror: {plus: 9.6, minus: 6.1}, label: 'sys'}
+  - value: 0.43
+    errors:
+    - {symerror: 0.08, label: 'stat'}
+    - {asymerror: {plus: 0.47, minus: 0.27}, label: 'sys'}
+- header: {name: '$\frac{1}{N_{jet}} (p_{T}^{jet}/j_{T}) dN_{ch}/d(j_T}/p_{T}^{jet})'}
+  qualifiers:
+  - {name: '$p_{T}^{jet}$', value: '$10<p_T<12$'}
+  values:
+  - value: 6.88e+3
+    errors:
+    - {symerror: 7e+1, label: 'stat'}
+    - {asymerror: {plus: 8.1e+2, minus: 2.97e+3}, label: 'sys'}
+  - value: 3036
+    errors:
+    - {symerror: 32, label: 'stat'}
+    - {asymerror: {plus: 249, minus: 526}, label: 'sys'}
+  - value: 1347
+    errors:
+    - {symerror: 15, label: 'stat'}
+    - {asymerror: {plus: 112, minus: 145}, label: 'sys'}
+  - value: 472
+    errors:
+    - {symerror: 9, label: 'stat'}
+    - {asymerror: {plus: 30, minus: 72}, label: 'sys'}
+  - value: 142
+    errors:
+    - {symerror: 4, label: 'stat'}
+    - {asymerror: {plus: 11, minus: 32}, label: 'sys'}
+  - value: 26.7
+    errors:
+    - {symerror: 1.8, label: 'stat'}
+    - {asymerror: {plus: 5.2, minus: 9.9}, label: 'sys'}
+  - value: 0.256
+    errors:
+    - {symerror: 0.015, label: 'stat'}
+    - {asymerror: {plus: 0.040, minus: 0.443}, label: 'sys'}
+- header: {name: '$\frac{1}{N_{jet}} (p_{T}^{jet}/j_{T}) dN_{ch}/d(j_T}/p_{T}^{jet})'}
+  qualifiers:
+  - {name: '$p_{T}^{jet}$', value: '$12<p_T<14.5$'}
+  values:
+  - value: 8.73e+3
+    errors:
+    - {symerror: 1.3e+2, label: 'stat'}
+    - {asymerror: {plus: 9.6e+2, minus: 3.11e+3}, label: 'sys'}
+  - value: 3.63e+3
+    errors:
+    - {symerror: 4e+1, label: 'stat'}
+    - {asymerror: {plus: 4e+2, minus: 4.3e+2}, label: 'sys'}
+  - value: 1327
+    errors:
+    - {symerror: 18, label: 'stat'}
+    - {asymerror: {plus: 134, minus: 139}, label: 'sys'}
+  - value: 398
+    errors:
+    - {symerror: 9, label: 'stat'}
+    - {asymerror: {plus: 38, minus: 66}, label: 'sys'}
+  - value: 99
+    errors:
+    - {symerror: 5, label: 'stat'}
+    - {asymerror: {plus: 11, minus: 22}, label: 'sys'}
+  - value: 6.2
+    errors:
+    - {symerror: 0.6, label: 'stat'}
+    - {asymerror: {plus: 3.4, minus: 9.5}, label: 'sys'}
+  - value: 0.091
+    errors:
+    - {symerror: 0.026, label: 'stat'}
+    - {asymerror: {plus: 0.070, minus: 0.171}, label: 'sys'}
+- header: {name: '$\frac{1}{N_{jet}} (p_{T}^{jet}/j_{T}) dN_{ch}/d(j_T}/p_{T}^{jet})'}
+  qualifiers:
+  - {name: '$p_{T}^{jet}$', value: '$14.5<p_T<17.5$'}
+  values:
+  - value: 1.123e+4
+    errors:
+    - {symerror: 1.7e+2, label: 'stat'}
+    - {asymerror: {plus: 1.21e+3, minus: 3.21e+3}, label: 'sys'}
+  - value: 4.27e+3
+    errors:
+    - {symerror: 7e+1, label: 'stat'}
+    - {asymerror: {plus: 6.3e+2, minus: 2e+2}, label: 'sys'}
+  - value: 1247
+    errors:
+    - {symerror: 35, label: 'stat'}
+    - {asymerror: {plus: 175, minus: 119}, label: 'sys'}
+  - value: 300
+    errors:
+    - {symerror: 12, label: 'stat'}
+    - {asymerror: {plus: 29, minus: 74}, label: 'sys'}
+  - value: 72
+    errors:
+    - {symerror: 6, label: 'stat'}
+    - {asymerror: {plus: 9, minus: 22}, label: 'sys'}
+  - value: 8.0
+    errors:
+    - {symerror: 2.4, label: 'stat'}
+    - {asymerror: {plus: 2.7, minus: 6.2}, label: 'sys'}
+  - value: 4.6e-4
+    errors:
+    - {symerror: 1.8e-4, label: 'stat'}
+    - {asymerror: {plus: 0.01193, minus: 0.21071}, label: 'sys'}
+- header: {name: '$\frac{1}{N_{jet}} (p_{T}^{jet}/j_{T}) dN_{ch}/d(j_T}/p_{T}^{jet})'}
+  qualifiers:
+  - {name: '$p_{T}^{jet}$', value: '$17.5<p_T<20.5$'}
+  values:
+  - value: 1.397e+4
+    errors:
+    - {symerror: 3.2e+2, label: 'stat'}
+    - {asymerror: {plus: 1.87e+3, minus: 3.20e+3}, label: 'sys'}
+  - value: 4.57e+3
+    errors:
+    - {symerror: 1.1e+2, label: 'stat'}
+    - {asymerror: {plus: 6.8e+2, minus: 1.6e+2}, label: 'sys'}
+  - value: 1.06e+3
+    errors:
+    - {symerror: 5e+1, label: 'stat'}
+    - {asymerror: {plus: 1.3e+2, minus: 1.4e+2}, label: 'sys'}
+  - value: 243
+    errors:
+    - {symerror: 16, label: 'stat'}
+    - {asymerror: {plus: 41, minus: 67}, label: 'sys'}
+  - value: 55
+    errors:
+    - {symerror: 9, label: 'stat'}
+    - {asymerror: {plus: 12, minus: 20}, label: 'sys'}
+  - value: 2.7
+    errors:
+    - {symerror: 1.0, label: 'stat'}
+    - {asymerror: {plus: 1.8, minus: 2.9}, label: 'sys'}
+  - value: 1.0e-4
+    errors:
+    - {symerror: 1.5e-4, label: 'stat'}
+    - {asymerror: {plus: 1.7e-4, minus: 0.08086}, label: 'sys'}
