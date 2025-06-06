@@ -1,0 +1,368 @@
+#PHENIX paper PPG250
+#
+#Jet modification via π0-hadron correlations in Au+Au collisions at sqrt(sNN)=200 GeV
+#
+#Phys.Rev.C 110 (2024) 4, 044901
+#InspireHEP ID: 2797343
+#
+#Prepared by Christine Nattrass, Cheuk-Ping Wong
+#Please contact Cheuk-Ping Wong
+#PPG liaison: Cheuk-Ping Wong
+#Reviewer: Anthony Hodges
+#
+comment: | # Information that applies to all data tables.
+  BNL-RHIC.  High-momentum two-particle correlations are a useful tool for studying jet-quenching effects in the quark-gluon plasma. Angular correlations between neutral-pion triggers and charged hadrons with transverse momenta in the range 4--12~GeV/$c$ and 0.5--7~GeV/$c$, respectively, have been measured by the PHENIX experiment in 2014 for Au$+$Au collisions at $\sqrt{s_{_{NN}}}=200$~GeV. Suppression is observed in the yield of high-momentum jet fragments opposite the trigger particle, which indicates jet suppression stemming from in-medium partonic energy loss, while enhancement is observed for low-momentum particles. The ratio and differences between the yield in Au$+$Au collisions and $p$$+$$p$ collisions, $I_{AA}$ and $\Delta_{AA}$, as a function of the trigger-hadron azimuthal separation, $\Delta\phi$, are measured for the first time at the Relativistic Heavy Ion Collider. These results better quantify how the yield of low-$p_T$ associated hadrons is enhanced at wide angle, which is crucial for studying energy loss as well as medium-response effects.
+additional_resources:
+- {location: "https://arxiv.org/pdf/2406.08301", description: arXiv}
+- {location: "https://inspirehep.net/literature/2797343", description: InspireHEP}
+---
+name: "Figure 3"
+location: Data From Fig. 3 of Phys.Rev.C 110 (2024) 4, 044901
+description: 'Per-trigger jet-pair yield as a function of $\Delta\phi$ for selected $\pi^0$ trigger and charged-hadron-associated $p_T$ combinations (${{p_{T,\pi^0}} \otimes p_{T,h}}$) in Au$+$Au collisions.  Systematic uncertainties for background subtraction and global scale uncertainties are given.'
+keywords: # used for searching, possibly mutliple values for each keywords
+- {name: reactions, values: [AU AU --> MULT(CHARGED) X]}
+- {name: cmenergies, values: [200.0]}
+- {name: phrases, values: [correlations]}
+data_file: fig3formatted.yaml
+additional_resources:
+- {description: Thumbnail Image file, location: thumb_paperPi0hJetFunc.png}
+- {description: Image file, location: paperPi0hJetFunc.pdf}
+---
+name: "Figure 4"
+location: Data From Fig. 4 of Phys.Rev.C 110 (2024) 4, 044901
+description: 'Integrated away-side $I_{AA}$ as a function of $p_T^h$.  Systematic uncertainties for background subtraction and global scale uncertainties are given.'
+keywords: # used for searching, possibly mutliple values for each keywords
+- {name: reactions, values: [AU AU --> MULT(CHARGED) X]}
+- {name: cmenergies, values: [200.0]}
+- {name: phrases, values: [correlations]}
+data_file: fig4formatted.yaml
+additional_resources:
+- {description: Thumbnail Image file, location: thumb_IAA_pT.png}
+- {description: Image file, location: IAA_pT.pdf}
+---
+name: "Figure 5a Part 1"
+location: Data From Fig. 5 of Phys.Rev.C 110 (2024) 4, 044901
+description: 'Differential away-side  a function of Deltaphi 0%-20% collisions.  Systematic uncertainties for background subtraction and global scale uncertainties are given.'
+keywords: # used for searching, possibly mutliple values for each keywords
+- {name: reactions, values: [AU AU --> MULT(CHARGED) X]}
+- {name: cmenergies, values: [200.0]}
+- {name: phrases, values: [correlations]}
+data_file: figure5a0.5.yaml
+additional_resources:
+- {description: Thumbnail Image file, location: thumb_IAA_deltaPhiC0.png}
+- {description: Image file, location: IAA_deltaPhiC0.pdf}
+---
+name: "Figure 5a Part 2"
+location: Data From Fig. 5 of Phys.Rev.C 110 (2024) 4, 044901
+description: 'Differential away-side  a function of Deltaphi 0%-20% collisions.  Systematic uncertainties for background subtraction and global scale uncertainties are given.'
+keywords: # used for searching, possibly mutliple values for each keywords
+- {name: reactions, values: [AU AU --> MULT(CHARGED) X]}
+- {name: cmenergies, values: [200.0]}
+- {name: phrases, values: [correlations]}
+data_file: figure5a1.yaml
+additional_resources:
+- {description: Thumbnail Image file, location: thumb_IAA_deltaPhiC0.png}
+- {description: Image file, location: IAA_deltaPhiC0.pdf}
+---
+name: "Figure 5a Part 3"
+location: Data From Fig. 5 of Phys.Rev.C 110 (2024) 4, 044901
+description: 'Differential away-side  a function of Deltaphi 0%-20% collisions.  Systematic uncertainties for background subtraction and global scale uncertainties are given.'
+keywords: # used for searching, possibly mutliple values for each keywords
+- {name: reactions, values: [AU AU --> MULT(CHARGED) X]}
+- {name: cmenergies, values: [200.0]}
+- {name: phrases, values: [correlations]}
+data_file: figure5a3.yaml
+additional_resources:
+- {description: Thumbnail Image file, location: thumb_IAA_deltaPhiC0.png}
+- {description: Image file, location: IAA_deltaPhiC0.pdf}
+---
+name: "Figure 5b Part 1"
+location: Data From Fig. 5 of Phys.Rev.C 110 (2024) 4, 044901
+description: 'Differential away-side  a function of Deltaphi 0%-20% collisions.  Systematic uncertainties for background subtraction and global scale uncertainties are given.'
+keywords: # used for searching, possibly mutliple values for each keywords
+- {name: reactions, values: [AU AU --> MULT(CHARGED) X]}
+- {name: cmenergies, values: [200.0]}
+- {name: phrases, values: [correlations]}
+data_file: figure5b0.5.yaml
+additional_resources:
+- {description: Thumbnail Image file, location: thumb_IAA_deltaPhiC0.png}
+- {description: Image file, location: IAA_deltaPhiC0.pdf}
+---
+name: "Figure 5b Part 2"
+location: Data From Fig. 5 of Phys.Rev.C 110 (2024) 4, 044901
+description: 'Differential away-side  a function of Deltaphi 0%-20% collisions.  Systematic uncertainties for background subtraction and global scale uncertainties are given.'
+keywords: # used for searching, possibly mutliple values for each keywords
+- {name: reactions, values: [AU AU --> MULT(CHARGED) X]}
+- {name: cmenergies, values: [200.0]}
+- {name: phrases, values: [correlations]}
+data_file: figure5b1.yaml
+additional_resources:
+- {description: Thumbnail Image file, location: thumb_IAA_deltaPhiC0.png}
+- {description: Image file, location: IAA_deltaPhiC0.pdf}
+---
+name: "Figure 5b Part 3"
+location: Data From Fig. 5 of Phys.Rev.C 110 (2024) 4, 044901
+description: 'Differential away-side  a function of Deltaphi 0%-20% collisions.  Systematic uncertainties for background subtraction and global scale uncertainties are given.'
+keywords: # used for searching, possibly mutliple values for each keywords
+- {name: reactions, values: [AU AU --> MULT(CHARGED) X]}
+- {name: cmenergies, values: [200.0]}
+- {name: phrases, values: [correlations]}
+data_file: figure5b3.yaml
+additional_resources:
+- {description: Thumbnail Image file, location: thumb_IAA_deltaPhiC0.png}
+- {description: Image file, location: IAA_deltaPhiC0.pdf}
+---
+name: "Figure 5c Part 1"
+location: Data From Fig. 5 of Phys.Rev.C 110 (2024) 4, 044901
+description: 'Differential away-side  a function of Deltaphi 0%-20% collisions.  Systematic uncertainties for background subtraction and global scale uncertainties are given.'
+keywords: # used for searching, possibly mutliple values for each keywords
+- {name: reactions, values: [AU AU --> MULT(CHARGED) X]}
+- {name: cmenergies, values: [200.0]}
+- {name: phrases, values: [correlations]}
+data_file: figure5c0.5.yaml
+additional_resources:
+- {description: Thumbnail Image file, location: thumb_IAA_deltaPhiC0.png}
+- {description: Image file, location: IAA_deltaPhiC0.pdf}
+---
+name: "Figure 5c Part 2"
+location: Data From Fig. 5 of Phys.Rev.C 110 (2024) 4, 044901
+description: 'Differential away-side  a function of Deltaphi 0%-20% collisions.  Systematic uncertainties for background subtraction and global scale uncertainties are given.'
+keywords: # used for searching, possibly mutliple values for each keywords
+- {name: reactions, values: [AU AU --> MULT(CHARGED) X]}
+- {name: cmenergies, values: [200.0]}
+- {name: phrases, values: [correlations]}
+data_file: figure5c1.yaml
+additional_resources:
+- {description: Thumbnail Image file, location: thumb_IAA_deltaPhiC0.png}
+- {description: Image file, location: IAA_deltaPhiC0.pdf}
+---
+name: "Figure 5c Part 3"
+location: Data From Fig. 5 of Phys.Rev.C 110 (2024) 4, 044901
+description: 'Differential away-side  a function of Deltaphi 0%-20% collisions.  Systematic uncertainties for background subtraction and global scale uncertainties are given.'
+keywords: # used for searching, possibly mutliple values for each keywords
+- {name: reactions, values: [AU AU --> MULT(CHARGED) X]}
+- {name: cmenergies, values: [200.0]}
+- {name: phrases, values: [correlations]}
+data_file: figure5c3.yaml
+additional_resources:
+- {description: Thumbnail Image file, location: thumb_IAA_deltaPhiC0.png}
+- {description: Image file, location: IAA_deltaPhiC0.pdf}
+---
+name: "Figure 5d Part 1"
+location: Data From Fig. 5 of Phys.Rev.C 110 (2024) 4, 044901
+description: 'Differential away-side  a function of Deltaphi 0%-20% collisions.  Systematic uncertainties for background subtraction and global scale uncertainties are given.'
+keywords: # used for searching, possibly mutliple values for each keywords
+- {name: reactions, values: [AU AU --> MULT(CHARGED) X]}
+- {name: cmenergies, values: [200.0]}
+- {name: phrases, values: [correlations]}
+data_file: figure5d0.5.yaml
+additional_resources:
+- {description: Thumbnail Image file, location: thumb_IAA_deltaPhiC0.png}
+- {description: Image file, location: IAA_deltaPhiC0.pdf}
+---
+name: "Figure 5d Part 2"
+location: Data From Fig. 5 of Phys.Rev.C 110 (2024) 4, 044901
+description: 'Differential away-side  a function of Deltaphi 0%-20% collisions.  Systematic uncertainties for background subtraction and global scale uncertainties are given.'
+keywords: # used for searching, possibly mutliple values for each keywords
+- {name: reactions, values: [AU AU --> MULT(CHARGED) X]}
+- {name: cmenergies, values: [200.0]}
+- {name: phrases, values: [correlations]}
+data_file: figure5d1.yaml
+additional_resources:
+- {description: Thumbnail Image file, location: thumb_IAA_deltaPhiC0.png}
+- {description: Image file, location: IAA_deltaPhiC0.pdf}
+---
+name: "Figure 5d Part 3"
+location: Data From Fig. 5 of Phys.Rev.C 110 (2024) 4, 044901
+description: 'Differential away-side  a function of Deltaphi 0%-20% collisions.  Systematic uncertainties for background subtraction and global scale uncertainties are given.'
+keywords: # used for searching, possibly mutliple values for each keywords
+- {name: reactions, values: [AU AU --> MULT(CHARGED) X]}
+- {name: cmenergies, values: [200.0]}
+- {name: phrases, values: [correlations]}
+data_file: figure5d3.yaml
+additional_resources:
+- {description: Thumbnail Image file, location: thumb_IAA_deltaPhiC0.png}
+- {description: Image file, location: IAA_deltaPhiC0.pdf}
+---
+name: "Figure 5e Part 1"
+location: Data From Fig. 5 of Phys.Rev.C 110 (2024) 4, 044901
+description: 'Differential away-side  a function of Deltaphi 20%-40% collisions.  Systematic uncertainties for background subtraction and global scale uncertainties are given.'
+keywords: # used for searching, possibly mutliple values for each keywords
+- {name: reactions, values: [AU AU --> MULT(CHARGED) X]}
+- {name: cmenergies, values: [200.0]}
+- {name: phrases, values: [correlations]}
+data_file: figure5e0.5.yaml
+additional_resources:
+- {description: Thumbnail Image file, location: thumb_IAA_deltaPhiC1.png}
+- {description: Image file, location: IAA_deltaPhiC1.pdf}
+---
+name: "Figure 5e Part 2"
+location: Data From Fig. 5 of Phys.Rev.C 110 (2024) 4, 044901
+description: 'Differential away-side  a function of Deltaphi 20%-40% collisions.  Systematic uncertainties for background subtraction and global scale uncertainties are given.'
+keywords: # used for searching, possibly mutliple values for each keywords
+- {name: reactions, values: [AU AU --> MULT(CHARGED) X]}
+- {name: cmenergies, values: [200.0]}
+- {name: phrases, values: [correlations]}
+data_file: figure5e1.yaml
+additional_resources:
+- {description: Thumbnail Image file, location: thumb_IAA_deltaPhiC1.png}
+- {description: Image file, location: IAA_deltaPhiC1.pdf}
+---
+name: "Figure 5e Part 3"
+location: Data From Fig. 5 of Phys.Rev.C 110 (2024) 4, 044901
+description: 'Differential away-side  a function of Deltaphi 20%-40% collisions.  Systematic uncertainties for background subtraction and global scale uncertainties are given.'
+keywords: # used for searching, possibly mutliple values for each keywords
+- {name: reactions, values: [AU AU --> MULT(CHARGED) X]}
+- {name: cmenergies, values: [200.0]}
+- {name: phrases, values: [correlations]}
+data_file: figure5e3.yaml
+additional_resources:
+- {description: Thumbnail Image file, location: thumb_IAA_deltaPhiC1.png}
+- {description: Image file, location: IAA_deltaPhiC1.pdf}
+---
+name: "Figure 5f Part 1"
+location: Data From Fig. 5 of Phys.Rev.C 110 (2024) 4, 044901
+description: 'Differential away-side  a function of Deltaphi 20%-40% collisions.  Systematic uncertainties for background subtraction and global scale uncertainties are given.'
+keywords: # used for searching, possibly mutliple values for each keywords
+- {name: reactions, values: [AU AU --> MULT(CHARGED) X]}
+- {name: cmenergies, values: [200.0]}
+- {name: phrases, values: [correlations]}
+data_file: figure5f0.5.yaml
+additional_resources:
+- {description: Thumbnail Image file, location: thumb_IAA_deltaPhiC1.png}
+- {description: Image file, location: IAA_deltaPhiC1.pdf}
+---
+name: "Figure 5f Part 2"
+location: Data From Fig. 5 of Phys.Rev.C 110 (2024) 4, 044901
+description: 'Differential away-side  a function of Deltaphi 20%-40% collisions.  Systematic uncertainties for background subtraction and global scale uncertainties are given.'
+keywords: # used for searching, possibly mutliple values for each keywords
+- {name: reactions, values: [AU AU --> MULT(CHARGED) X]}
+- {name: cmenergies, values: [200.0]}
+- {name: phrases, values: [correlations]}
+data_file: figure5f1.yaml
+additional_resources:
+- {description: Thumbnail Image file, location: thumb_IAA_deltaPhiC1.png}
+- {description: Image file, location: IAA_deltaPhiC1.pdf}
+---
+name: "Figure 5f Part 3"
+location: Data From Fig. 5 of Phys.Rev.C 110 (2024) 4, 044901
+description: 'Differential away-side  a function of Deltaphi 20%-40% collisions.  Systematic uncertainties for background subtraction and global scale uncertainties are given.'
+keywords: # used for searching, possibly mutliple values for each keywords
+- {name: reactions, values: [AU AU --> MULT(CHARGED) X]}
+- {name: cmenergies, values: [200.0]}
+- {name: phrases, values: [correlations]}
+data_file: figure5f3.yaml
+additional_resources:
+- {description: Thumbnail Image file, location: thumb_IAA_deltaPhiC1.png}
+- {description: Image file, location: IAA_deltaPhiC1.pdf}
+---
+name: "Figure 5g Part 1"
+location: Data From Fig. 5 of Phys.Rev.C 110 (2024) 4, 044901
+description: 'Differential away-side  a function of Deltaphi 20%-40% collisions.  Systematic uncertainties for background subtraction and global scale uncertainties are given.'
+keywords: # used for searching, possibly mutliple values for each keywords
+- {name: reactions, values: [AU AU --> MULT(CHARGED) X]}
+- {name: cmenergies, values: [200.0]}
+- {name: phrases, values: [correlations]}
+data_file: figure5g0.5.yaml
+additional_resources:
+- {description: Thumbnail Image file, location: thumb_IAA_deltaPhiC1.png}
+- {description: Image file, location: IAA_deltaPhiC1.pdf}
+---
+name: "Figure 5g Part 2"
+location: Data From Fig. 5 of Phys.Rev.C 110 (2024) 4, 044901
+description: 'Differential away-side  a function of Deltaphi 20%-40% collisions.  Systematic uncertainties for background subtraction and global scale uncertainties are given.'
+keywords: # used for searching, possibly mutliple values for each keywords
+- {name: reactions, values: [AU AU --> MULT(CHARGED) X]}
+- {name: cmenergies, values: [200.0]}
+- {name: phrases, values: [correlations]}
+data_file: figure5g1.yaml
+additional_resources:
+- {description: Thumbnail Image file, location: thumb_IAA_deltaPhiC1.png}
+- {description: Image file, location: IAA_deltaPhiC1.pdf}
+---
+name: "Figure 5g Part 3"
+location: Data From Fig. 5 of Phys.Rev.C 110 (2024) 4, 044901
+description: 'Differential away-side  a function of Deltaphi 20%-40% collisions.  Systematic uncertainties for background subtraction and global scale uncertainties are given.'
+keywords: # used for searching, possibly mutliple values for each keywords
+- {name: reactions, values: [AU AU --> MULT(CHARGED) X]}
+- {name: cmenergies, values: [200.0]}
+- {name: phrases, values: [correlations]}
+data_file: figure5g3.yaml
+additional_resources:
+- {description: Thumbnail Image file, location: thumb_IAA_deltaPhiC1.png}
+- {description: Image file, location: IAA_deltaPhiC1.pdf}
+---
+name: "Figure 5h Part 1"
+location: Data From Fig. 5 of Phys.Rev.C 110 (2024) 4, 044901
+description: 'Differential away-side  a function of Deltaphi 20%-40% collisions.  Systematic uncertainties for background subtraction and global scale uncertainties are given.'
+keywords: # used for searching, possibly mutliple values for each keywords
+- {name: reactions, values: [AU AU --> MULT(CHARGED) X]}
+- {name: cmenergies, values: [200.0]}
+- {name: phrases, values: [correlations]}
+data_file: figure5h0.5.yaml
+additional_resources:
+- {description: Thumbnail Image file, location: thumb_IAA_deltaPhiC1.png}
+- {description: Image file, location: IAA_deltaPhiC1.pdf}
+---
+name: "Figure 5h Part 2"
+location: Data From Fig. 5 of Phys.Rev.C 110 (2024) 4, 044901
+description: 'Differential away-side  a function of Deltaphi 20%-40% collisions.  Systematic uncertainties for background subtraction and global scale uncertainties are given.'
+keywords: # used for searching, possibly mutliple values for each keywords
+- {name: reactions, values: [AU AU --> MULT(CHARGED) X]}
+- {name: cmenergies, values: [200.0]}
+- {name: phrases, values: [correlations]}
+data_file: figure5h1.yaml
+additional_resources:
+- {description: Thumbnail Image file, location: thumb_IAA_deltaPhiC1.png}
+- {description: Image file, location: IAA_deltaPhiC1.pdf}
+---
+name: "Figure 5h Part 3"
+location: Data From Fig. 5 of Phys.Rev.C 110 (2024) 4, 044901
+description: 'Differential away-side  a function of Deltaphi 20%-40% collisions.  Systematic uncertainties for background subtraction and global scale uncertainties are given.'
+keywords: # used for searching, possibly mutliple values for each keywords
+- {name: reactions, values: [AU AU --> MULT(CHARGED) X]}
+- {name: cmenergies, values: [200.0]}
+- {name: phrases, values: [correlations]}
+data_file: figure5h3.yaml
+additional_resources:
+- {description: Thumbnail Image file, location: thumb_IAA_deltaPhiC1.png}
+- {description: Image file, location: IAA_deltaPhiC1.pdf}
+---
+name: "Figure 6"
+location: Data From Fig. 6 of Phys.Rev.C 110 (2024) 4, 044901
+description: 'Differential away-side $\Delta_{AA}$ for ${\pi/2<\Delta\phi<\pi}$'
+keywords: # used for searching, possibly mutliple values for each keywords
+- {name: reactions, values: [AU AU --> MULT(CHARGED) X]}
+- {name: cmenergies, values: [200.0]}
+- {name: phrases, values: [correlations]}
+data_file: figure6.yaml
+additional_resources:
+- {description: Thumbnail Image file, location: thumb_DAA_cent.png}
+- {description: Image file, location: DAA_cent.pdf}
+- {description: Thumbnail Image file, location: thumb_DAA_deltaPhiC0trig0_3bins.png}
+- {description: Image file, location: DAA_deltaPhiC0trig0_3bins.pdf}
+---
+name: "Figure 7"
+location: Data From Fig. 7 of Phys.Rev.C 110 (2024) 4, 044901
+description: 'Differential away-side $\Delta_{AA}$ for ${\pi/2<\Delta\phi<\pi}$'
+keywords: # used for searching, possibly mutliple values for each keywords
+- {name: reactions, values: [AU AU --> MULT(CHARGED) X]}
+- {name: cmenergies, values: [200.0]}
+- {name: phrases, values: [correlations]}
+data_file: figure7.yaml
+additional_resources:
+- {description: Thumbnail Image file, location: thumb_DAA_deltaPhiC0AllBins.png}
+- {description: Image file, location: DAA_deltaPhiC0AllBins.pdf}
+---
+name: "Figure 8"
+location: Data From Fig. 8 of Phys.Rev.C 110 (2024) 4, 044901
+description: 'Differential away-side $\Delta_{AA}$ for ${\pi/2<\Delta\phi<\pi}$'
+keywords: # used for searching, possibly mutliple values for each keywords
+- {name: reactions, values: [AU AU --> MULT(CHARGED) X]}
+- {name: cmenergies, values: [200.0]}
+- {name: phrases, values: [correlations]}
+data_file: figure8.yaml
+additional_resources:
+- {description: Thumbnail Image file, location: thumb_DAA_deltaPhiC1AllBins.png}
+- {description: Image file, location: DAA_deltaPhiC1AllBins.pdf}
+---

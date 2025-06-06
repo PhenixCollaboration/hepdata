@@ -1,0 +1,42 @@
+independent_variables:
+- header: {name: '$\Delta\phi$'}
+  values:
+  - {value: 2.09}
+  - {value: 2.30}
+  - {value: 2.51}
+  - {value: 2.72}
+  - {value: 2.93}
+  - {value: 3.14}
+dependent_variables:
+- header: {name: '$I_{AA}$'}
+  qualifiers:
+  - {name: 'centrality', value: '20--40%'}
+  - {name: '$p_{T}^{trig,min}$', value: '4.0'}
+  - {name: '$p_{T}^{trig,max}$', value: '5.0'}
+  - {name: '$p_{T}^{assoc,min}$', value: '3.0'}
+  - {name: '$p_{T}^{assoc,max}$', value: '5.0'}
+  values:
+  - value: 1.37
+    errors:
+    - {symerror: 0.86, label: 'stat'}
+    - {asymerror: {plus: 0.11, minus: 0.12}, label: 'sys'}
+  - value: 0.75
+    errors:
+    - {symerror: 0.39, label: 'stat'}
+    - {asymerror: {plus: 0.05, minus: 0.06}, label: 'sys'}
+  - value: 0.83
+    errors:
+    - {symerror: 0.22, label: 'stat'}
+    - {asymerror: {plus: 0.04, minus: 0.04}, label: 'sys'}
+  - value: 0.389
+    errors:
+    - {symerror: 0.094, label: 'stat'}
+    - {asymerror: {plus: 0.015, minus: 0.014}, label: 'sys'}
+  - value: 0.308
+    errors:
+    - {symerror: 0.055, label: 'stat'}
+    - {asymerror: {plus: 0.011, minus: 0.010}, label: 'sys'}
+  - value: 0.352
+    errors:
+    - {symerror: 0.044, label: 'stat'}
+    - {asymerror: {plus: 0.012, minus: 0.010}, label: 'sys'}
