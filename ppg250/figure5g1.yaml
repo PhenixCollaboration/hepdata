@@ -1,0 +1,37 @@
+independent_variables:
+- header: {name: '$\Delta\phi$'}
+  values:
+  - {value: 2.30}
+  - {value: 2.51}
+  - {value: 2.72}
+  - {value: 2.93}
+  - {value: 3.14}
+dependent_variables:
+- header: {name: '$I_{AA}$'}
+  qualifiers:
+  - {name: 'centrality', value: '20--40%'}
+  - {name: '$p_{T}^{trig,min}$', value: '7.0'}
+  - {name: '$p_{T}^{trig,max}$', value: '9.0'}
+  - {name: '$p_{T}^{assoc,min}$', value: '1.0'}
+  - {name: '$p_{T}^{assoc,max}$', value: '2.0'}
+  values:
+  - value: 2.25
+    errors:
+    - {symerror: 0.80, label: 'stat'}
+    - {asymerror: {plus: 0.17, minus: 0.18}, label: 'sys'}
+  - value: 1.11
+    errors:
+    - {symerror: 0.35, label: 'stat'}
+    - {asymerror: {plus: 0.08, minus: 0.08}, label: 'sys'}
+  - value: 1.05
+    errors:
+    - {symerror: 0.19, label: 'stat'}
+    - {asymerror: {plus: 0.06, minus: 0.05}, label: 'sys'}
+  - value: 1.00
+    errors:
+    - {symerror: 0.12, label: 'stat'}
+    - {asymerror: {plus: 0.05, minus: 0.04}, label: 'sys'}
+  - value: 0.70
+    errors:
+    - {symerror: 0.11, label: 'stat'}
+    - {asymerror: {plus: 0.04, minus: 0.04}, label: 'sys'}
