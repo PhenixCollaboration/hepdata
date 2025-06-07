@@ -1,0 +1,93 @@
+# PHENIX paper PPG255
+#
+# Measurement of elliptic flow of J/psi in 200 GeV Au+Au collisions at forward rapidity
+#
+# e-Print:  2409.12756 [nucl-ex] (2024)
+# InspireHEP ID: 2830407
+#
+# Please contact Luis Bichon III (luis.bichon@vanderbilt.edu) if you have any questions about this submission
+# PPG liaison: Luis Bichon III
+
+comment: |
+  BNL-RHIC.  We report the first measurement of the azimuthal anisotropy of J$/\psi$ at forward rapidity ($1.2<|\eta|<2.2$) in Au$+$Au collisions at $\sqrt{s_{_{NN}}}=200$ GeV at the Relativistic Heavy Ion Collider. The data were collected by the PHENIX experiment in 2014 and 2016 with integrated luminosity of 14.5~nb$^{-1}$. The second Fourier coefficient ($v_2$) of the azimuthal distribution of $J/\psi$ is determined as a function of the transverse momentum ($p_T$) using the event-plane method. The measurements were performed for several selections of collision centrality: 0\%--50\%, 10\%--60\%, and 10\%--40\%. We find that in all cases the values of $v_2(p_T)$, which quantify the elliptic flow of J$/\psi$, are consistent with zero. The results are consistent with measurements at midrapidity, indicating no significant elliptic flow of the J$/\psi$ within the quark-gluon-plasma medium at collision energies of $\sqrt{s_{_{NN}}}=200$ GeV.
+additional_resources:
+- {location: "https://arxiv.org/abs/2409.12756", description: arXiv}
+- {location: "https://inspirehep.net/literature/2830407", description: InspireHEP}
+---
+
+
+#### FIGURE 3 ####
+data_file: fig3.yaml
+description: JPSI v2 in Au+Au collisions as a function of pT (GeV/c) for 10%--60% centrality with pT binned by [0, 1], [1, 2], [2, 3], and [3, 5] GeV/c.
+keywords:
+- {name: reactions, values: [AU AU --> JPSI  X]}
+- name: observables
+  values: [v2]
+- name: cmenergies
+  values: [200.0]
+- name: phrases
+  values: [flow]
+location: Data from Figure 3 of ''Measurement of elliptic flow of J$/\psi$ in $\sqrt{s_{_{NN}}}=200$ GeV Au$+$Au collisions at forward rapidity''
+name: Figure 4
+additional_resources:
+- {description: Thumbnail Image file, location: thumb_fig4.png}
+- {description: Image file, location: fig4.png}
+
+---
+
+#### FIGURE 4 ####
+data_file: fig4.yaml
+description: JPSI v2 in Au+Au collisions as a function of pT (GeV/c) for 10%--60% centrality with pT binned by [0, 0.5], [0.5, 1], [1, 5], and [0, 5] GeV/c.
+keywords:
+- {name: reactions, values: [AU AU --> JPSI  X]}
+- name: observables
+  values: [v2]
+- name: cmenergies
+  values: [200.0]
+- name: phrases
+  values: [J/psi, flow]
+location: Data from Figure 4 of ''Measurement of elliptic flow of J$/\psi$ in $\sqrt{s_{_{NN}}}=200$ GeV Au$+$Au collisions at forward rapidity''
+name: Figure 5
+additional_resources:
+- {description: Thumbnail Image file, location: thumb_fig5.png}
+- {description: Image file, location: fig5.png}
+
+---
+
+#### FIGURE 6 ####
+data_file: fig6.yaml
+description: JPSI v2 in Au+Au collisions as a function of pT (GeV/c) for 10%--40% centrality with pT binned by [0, 2], [2, 5], and [5, 10] GeV/c.
+keywords:
+- {name: reactions, values: [AU AU --> JPSI  X]}
+- name: observables
+  values: [v2]
+- name: cmenergies
+  values: [200.0]
+- name: phrases
+  values: [J/psi, flow]
+location: Data from Figure 6 of ''Measurement of elliptic flow of J$/\psi$ in $\sqrt{s_{_{NN}}}=200$ GeV Au$+$Au collisions at forward rapidity''
+name: Figure 7
+additional_resources:
+- {description: Thumbnail Image file, location: thumb_fig7.png}
+- {description: Image file, location: fig7.png}
+
+---
+
+#### FIGURE 7 ####
+data_file: fig7.yaml
+description: JPSI v2 in Au+Au collisions as a function of pT (GeV/c) for 10%--40% centrality with pT binned by [0, 2], [2, 5], and [5, 10] GeV/c.
+keywords:
+- {name: reactions, values: [AU AU --> JPSI  X]}
+- name: observables
+  values: [v2]
+- name: cmenergies
+  values: [200.0]
+- name: phrases
+  values: [J/psi, flow]
+location: Data from Figure 7 of ''Measurement of elliptic flow of J$/\psi$ in $\sqrt{s_{_{NN}}}=200$ GeV Au$+$Au collisions at forward rapidity''
+name: Figure 8
+additional_resources:
+- {description: Thumbnail Image file, location: thumb_fig8.png}
+- {description: Image file, location: fig8.png}
+
+---
