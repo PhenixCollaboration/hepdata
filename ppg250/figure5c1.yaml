@@ -1,19 +1,19 @@
 independent_variables:
 - header: {name: '$\Delta\phi$'}
   values:
-  - {value: 2.09}
-  - {value: 2.51}
-  - {value: 2.72}
-  - {value: 2.93}
-  - {value: 3.14}
+  - {low: 1.985, high: 2.195}
+  - {low: 2.405, high: 2.615}
+  - {low: 2.615, high: 2.825}
+  - {low: 2.825, high: 3.035}
+  - {low: 3.035, high: 3.245}
 dependent_variables:
 - header: {name: '$I_{AA}$'}
   qualifiers:
   - {name: 'centrality', value: '0--20%'}
-  - {name: '$p_{T}^{trig,min}$', value: '7.0'}
-  - {name: '$p_{T}^{trig,max}$', value: '9.0'}
-  - {name: '$p_{T}^{assoc,min}$', value: '1.0'}
-  - {name: '$p_{T}^{assoc,max}$', value: '2.0'}
+  - {name: '$p_{T}^{trig,min}$', value: '7.0', units: GeV/c}
+  - {name: '$p_{T}^{trig,max}$', value: '9.0', units: GeV/c}
+  - {name: '$p_{T}^{assoc,min}$', value: '1.0', units: GeV/c}
+  - {name: '$p_{T}^{assoc,max}$', value: '2.0', units: GeV/c}
   values:
   - value: 2.87
     errors:

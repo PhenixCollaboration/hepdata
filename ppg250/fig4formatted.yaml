@@ -1,17 +1,17 @@
 independent_variables:
-- header: {name: '$\Delta\phi$'}
+- header: {name: '$p_{T,A}$', units: GeV/c}
   values:
-  - {value: 0.70}
-  - {value: 1.32}
-  - {value: 2.32}
-  - {value: 3.53}
-  - {value: 5.80}
+  - {low: 0.5, high: 1.0}
+  - {low: 1.0, high: 2.0}
+  - {low: 2.0, high: 3.0}
+  - {low: 3.0, high: 5.0}
+  - {low: 5.0, high: 7.0}
 dependent_variables:
-- header: {name: '$C(\Delta\phi)$'}
+- header: {name: '$I_{AA}$'}
   qualifiers:
   - {name: 'centrality', value: '0-20%'}
-  - {name: '$p_{T}^{trig,min}$', value: '4.0'}
-  - {name: '$p_{T}^{trig,max}$', value: '5.0'}
+  - {name: '$p_{T}^{trig,min}$', value: '4.0', units: GeV/c}
+  - {name: '$p_{T}^{trig,max}$', value: '5.0', units: GeV/c}
   values:
   - value: 2.0963
     errors:
@@ -38,11 +38,11 @@ dependent_variables:
     - {symerror: 0.214, label: 'stat'}
     - {asymerror: {plus: 0.214, minus: 0.085}, label: 'sys'}
     - {symerror: 0.087, label: 'scale'}
-- header: {name: '$C(\Delta\phi)$'}
+- header: {name: '$I_{AA}$'}
   qualifiers:
   - {name: 'centrality', value: '20-40%'}
-  - {name: '$p_{T}^{trig,min}$', value: '4.0'}
-  - {name: '$p_{T}^{trig,max}$', value: '5.0'}
+  - {name: '$p_{T}^{trig,min}$', value: '4.0', units: GeV/c}
+  - {name: '$p_{T}^{trig,max}$', value: '5.0', units: GeV/c}
   values:
   - value: 1.6536
     errors:
@@ -69,11 +69,11 @@ dependent_variables:
     - {symerror: 0.164, label: 'stat'}
     - {asymerror: {plus: 0.164, minus: 0.093}, label: 'sys'}
     - {symerror: 0.094, label: 'scale'}
-- header: {name: '$C(\Delta\phi)$'}
+- header: {name: '$I_{AA}$'}
   qualifiers:
   - {name: 'centrality', value: '0-20%'}
-  - {name: '$p_{T}^{trig,min}$', value: '5.0'}
-  - {name: '$p_{T}^{trig,max}$', value: '7.0'}
+  - {name: '$p_{T}^{trig,min}$', value: '5.0', units: GeV/c}
+  - {name: '$p_{T}^{trig,max}$', value: '7.0', units: GeV/c}
   values:
   - value: 1.2796
     errors:
@@ -100,11 +100,11 @@ dependent_variables:
     - {symerror: 0.131, label: 'stat'}
     - {asymerror: {plus: 0.131, minus: 0.036}, label: 'sys'}
     - {symerror: 0.041, label: 'scale'}
-- header: {name: '$C(\Delta\phi)$'}
+- header: {name: '$I_{AA}$'}
   qualifiers:
   - {name: 'centrality', value: '20-40%'}
-  - {name: '$p_{T}^{trig,min}$', value: '5.0'}
-  - {name: '$p_{T}^{trig,max}$', value: '7.0'}
+  - {name: '$p_{T}^{trig,min}$', value: '5.0', units: GeV/c}
+  - {name: '$p_{T}^{trig,max}$', value: '7.0', units: GeV/c}
   values:
   - value: 1.5430
     errors:
@@ -131,11 +131,11 @@ dependent_variables:
     - {symerror: 0.119, label: 'stat'}
     - {asymerror: {plus: 0.119, minus: 0.044}, label: 'sys'}
     - {symerror: 0.053, label: 'scale'}
-- header: {name: '$C(\Delta\phi)$'}
+- header: {name: '$I_{AA}$'}
   qualifiers:
   - {name: 'centrality', value: '0-20%'}
-  - {name: '$p_{T}^{trig,min}$', value: '7.0'}
-  - {name: '$p_{T}^{trig,max}$', value: '9.0'}
+  - {name: '$p_{T}^{trig,min}$', value: '7.0', units: GeV/c}
+  - {name: '$p_{T}^{trig,max}$', value: '9.0', units: GeV/c}
   values:
   - value: 2.5073
     errors:
@@ -162,11 +162,11 @@ dependent_variables:
     - {symerror: 0.146, label: 'stat'}
     - {asymerror: {plus: 0.146, minus: 0.039}, label: 'sys'}
     - {symerror: 0.039, label: 'scale'}
-- header: {name: '$C(\Delta\phi)$'}
+- header: {name: '$I_{AA}$'}
   qualifiers:
   - {name: 'centrality', value: '20-40%'}
-  - {name: '$p_{T}^{trig,min}$', value: '7.0'}
-  - {name: '$p_{T}^{trig,max}$', value: '9.0'}
+  - {name: '$p_{T}^{trig,min}$', value: '7.0', units: GeV/c}
+  - {name: '$p_{T}^{trig,max}$', value: '9.0', units: GeV/c}
   values:
   - value: 1.4993
     errors:
@@ -193,11 +193,11 @@ dependent_variables:
     - {symerror: 0.163, label: 'stat'}
     - {asymerror: {plus: 0.163, minus: 0.077}, label: 'sys'}
     - {symerror: 0.077, label: 'scale'}
-- header: {name: '$C(\Delta\phi)$'}
+- header: {name: '$I_{AA}$'}
   qualifiers:
   - {name: 'centrality', value: '0-20%'}
-  - {name: '$p_{T}^{trig,min}$', value: '9.0'}
-  - {name: '$p_{T}^{trig,max}$', value: '12.0'}
+  - {name: '$p_{T}^{trig,min}$', value: '9.0', units: GeV/c}
+  - {name: '$p_{T}^{trig,max}$', value: '12.0', units: GeV/c}
   values:
   - value: 2.0040
     errors:
@@ -224,11 +224,11 @@ dependent_variables:
     - {symerror: 0.218, label: 'stat'}
     - {asymerror: {plus: 0.218, minus: 0.106}, label: 'sys'}
     - {symerror: 0.086, label: 'scale'}
-- header: {name: '$C(\Delta\phi)$'}
+- header: {name: '$I_{AA}$'}
   qualifiers:
   - {name: 'centrality', value: '20-40%'}
-  - {name: '$p_{T}^{trig,min}$', value: '9.0'}
-  - {name: '$p_{T}^{trig,max}$', value: '12.0'}
+  - {name: '$p_{T}^{trig,min}$', value: '9.0', units: GeV/c}
+  - {name: '$p_{T}^{trig,max}$', value: '12.0', units: GeV/c}
   values:
   - value: 2.9602
     errors:
