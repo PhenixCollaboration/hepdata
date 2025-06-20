@@ -9,10 +9,10 @@ dependent_variables:
 - header: {name: '$I_{AA}$'}
   qualifiers:
   - {name: 'centrality', value: '20--40%'}
-  - {name: '$p_{T}^{trig,min}$', value: '9.0'}
-  - {name: '$p_{T}^{trig,max}$', value: '12.0'}
-  - {name: '$p_{T}^{assoc,min}$', value: '1.0'}
-  - {name: '$p_{T}^{assoc,max}$', value: '2.0'}
+  - {name: '$p_{T}^{trig,min}$', value: '9.0', units: GeV/c}
+  - {name: '$p_{T}^{trig,max}$', value: '12.0', units: GeV/c}
+  - {name: '$p_{T}^{assoc,min}$', value: '1.0', units: GeV/c}
+  - {name: '$p_{T}^{assoc,max}$', value: '2.0', units: GeV/c}
   values:
   - value: 2.72
     errors:
