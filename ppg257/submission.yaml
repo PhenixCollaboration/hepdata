@@ -1,0 +1,62 @@
+---
+comment: BNL-RHIC.  We present the first measurements of the forward and midrapidity
+ $\eta$ meson cross sections from $p+p$ collisions at $\sqrt{s} = 500$ GeV and $510$ GeV, 
+ respectively. We also report the midrapidity $\eta/\pi^0$ ratio at 510 GeV. The forward 
+ cross section is measured differentially in $\eta$ meson transverse momentum ($p_T$) from 
+ 1.0 to 6.5 GeV/c for pseudorapidity $3.0 < |\eta| < 3.8$. The midrapidity cross section 
+ is measured from 3.5 to 44 GeV/c for pseudorapidity $|\eta| < 0.35$. Both cross sections 
+ serve as critical inputs to an updated global analysis of the $\eta$ meson fragmentation functions
+
+#record_ids:
+#- {id: 0, type: inspire}
+#- {id: 0, type: red}
+
+---
+data_file: Table1.yaml
+description: |
+  The invariant differential cross section of $\eta$ mesons at forward rapidity in pp collisions at center-of-mass energy 500 GeV.
+keywords:
+- name: reactions
+  values: [P P --> ETA X]
+- name: observables
+  values: [E*D3SIG/DP**3]
+- name: phrases
+  values: []
+- name: cmenergies
+  values: [500.0]
+location: Data from Table 1
+name: Table 1
+
+---
+data_file: Table2.yaml
+description: |
+  The invariant differential cross section of $\eta$ mesons at central rapidity in pp collisions at center-of-mass energy 510 GeV.
+keywords:
+- name: reactions
+  values: [P P --> ETA X]
+- name: observables
+  values: [E*D3SIG/DP**3]
+- name: phrases
+  values: []
+- name: cmenergies
+  values: [510.0]
+location: Data from Table 2
+name: Table 2
+
+---
+data_file: Table3.yaml
+description: |
+  The ratio of $\eta$ to $\pi^0$ cross sections at central rapidity in pp collisions at center-of-mass energy 510 GeV.
+keywords:
+- name: reactions
+  values: [P P --> PI0 X, P P --> ETA X]
+- name: observables
+  values: [SIG/SIG]
+- name: phrases
+  values: []
+- name: cmenergies
+  values: [510.0]
+location: Data from Table 3
+name: Table 3
+
+
