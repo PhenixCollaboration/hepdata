@@ -1,0 +1,59 @@
+independent_variables:
+  - header: { name: "$p_T$ (GeV/$c$)" }
+    values:
+      - { low: 1.00, high: 1.25 }
+      - { low: 1.25, high: 1.50 }
+      - { low: 1.50, high: 1.75 }
+      - { low: 1.75, high: 2.00 }
+      - { low: 2.00, high: 2.50 }
+      - { low: 2.50, high: 3.00 }
+      - { low: 3.00, high: 4.00 }
+dependent_variables:
+- header: {name: "Hadron/Muon Ratio"}
+  qualifiers:
+    - {name: "Fraction", value: "Hadron/(Hadron + Muon)"}
+    - {name: "Figure", value: "a"}
+  values:
+    - {value: 0.54, errors: [{label: stat, symerror: 0.04}]}
+    - {value: 0.75, errors: [{label: stat, symerror: 0.04}]}
+    - {value: 0.83, errors: [{label: stat, symerror: 0.04}]}
+    - {value: 0.84, errors: [{label: stat, symerror: 0.03}]}
+    - {value: 0.88, errors: [{label: stat, symerror: 0.03}]}
+    - {value: 0.89, errors: [{label: stat, symerror: 0.04}]}
+    - {value: 0.90, errors: [{label: stat, symerror: 0.05}]}
+- header: {name: "Hadron/Muon Ratio"}
+  qualifiers:
+    - {name: "Fraction", value: "Muon/(Hadron + Muon)"}
+    - {name: "Figure", value: "a"}
+  values:
+    - {value: 0.46, errors: [{label: stat, symerror: 0.03}]}
+    - {value: 0.25, errors: [{label: stat, symerror: 0.02}]}
+    - {value: 0.17, errors: [{label: stat, symerror: 0.01}]}
+    - {value: 0.16, errors: [{label: stat, symerror: 0.01}]}
+    - {value: 0.12, errors: [{label: stat, symerror: 0.01}]}
+    - {value: 0.11, errors: [{label: stat, symerror: 0.01}]}
+    - {value: 0.10, errors: [{label: stat, symerror: 0.01}]}
+- header: {name: "Hadron/Muon Ratio"}
+  qualifiers:
+    - {name: "Fraction", value: "Hadron/(Hadron + Muon)"}
+    - {name: "Figure", value: "b"}
+  values:
+    - {value: 0.03, errors: [{label: stat, symerror: 0.01}]}
+    - {value: 0.07, errors: [{label: stat, symerror: 0.01}]}
+    - {value: 0.12, errors: [{label: stat, symerror: 0.01}]}
+    - {value: 0.15, errors: [{label: stat, symerror: 0.01}]}
+    - {value: 0.19, errors: [{label: stat, symerror: 0.01}]}
+    - {value: 0.27, errors: [{label: stat, symerror: 0.01}]}
+    - {value: 0.39, errors: [{label: stat, symerror: 0.02}]}
+- header: {name: "Hadron/Muon Ratio"}
+  qualifiers:
+    - {name: "Fraction", value: "Muon/(Hadron + Muon)"}
+    - {name: "Figure", value: "b"}
+  values:
+    - {value: 0.97, errors: [{label: stat, symerror: 0.01}]}
+    - {value: 0.93, errors: [{label: stat, symerror: 0.01}]}
+    - {value: 0.88, errors: [{label: stat, symerror: 0.01}]}
+    - {value: 0.85, errors: [{label: stat, symerror: 0.01}]}
+    - {value: 0.81, errors: [{label: stat, symerror: 0.01}]}
+    - {value: 0.73, errors: [{label: stat, symerror: 0.01}]}
+    - {value: 0.61, errors: [{label: stat, symerror: 0.03}]}

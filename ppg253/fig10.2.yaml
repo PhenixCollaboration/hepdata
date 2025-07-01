@@ -1,0 +1,20 @@
+independent_variables:
+  - header: { name: "$p_T$ (GeV/$c$)" }
+    values:
+      - { low: 1.00, high: 1.25 }
+      - { low: 1.25, high: 1.50 }
+      - { low: 1.50, high: 1.75 }
+      - { low: 1.75, high: 2.00 }
+      - { low: 2.00, high: 2.50 }
+      - { low: 2.50, high: 3.00 }
+      - { low: 3.00, high: 4.00 }
+dependent_variables:
+- header: {name: "$v_2$"}
+  values:
+    - { value: 0.081, errors: [ { symerror: 0.005, label: "stat." }, { symerror: 0.006, label: "sys." } ] }
+    - { value: 0.106, errors: [ { symerror: 0.004, label: "stat." }, { symerror: 0.007, label: "sys." } ] }
+    - { value: 0.114, errors: [ { symerror: 0.005, label: "stat." }, { symerror: 0.007, label: "sys." } ] }
+    - { value: 0.128, errors: [ { symerror: 0.005, label: "stat." }, { symerror: 0.010, label: "sys." } ] }
+    - { value: 0.147, errors: [ { symerror: 0.006, label: "stat." }, { symerror: 0.009, label: "sys." } ] }
+    - { value: 0.154, errors: [ { symerror: 0.014, label: "stat." }, { symerror: 0.009, label: "sys." } ] }
+    - { value: 0.113, errors: [ { symerror: 0.024, label: "stat." }, { symerror: 0.027, label: "sys." } ] }

@@ -1,0 +1,20 @@
+independent_variables:
+  - header: { name: "$p_T$ (GeV/$c$)" }
+    values:
+      - { low: 1.00, high: 1.25 }
+      - { low: 1.25, high: 1.50 }
+      - { low: 1.50, high: 1.75 }
+      - { low: 1.75, high: 2.00 }
+      - { low: 2.00, high: 2.50 }
+      - { low: 2.50, high: 3.00 }
+      - { low: 3.00, high: 4.00 }
+dependent_variables:
+- header: {name: "Counts"}
+  values:
+    - { value: 4.21e9,  errors: [ { symerror: 6.49e4, label: "stat." } ] }
+    - { value: 3.70e9,  errors: [ { symerror: 6.08e4, label: "stat." } ] }
+    - { value: 1.34e9,  errors: [ { symerror: 3.66e4, label: "stat." } ] }
+    - { value: 5.78e8,  errors: [ { symerror: 2.40e4, label: "stat." } ] }
+    - { value: 1.77e8,  errors: [ { symerror: 1.33e4, label: "stat." } ] }
+    - { value: 4.44e7,  errors: [ { symerror: 6.66e3, label: "stat." } ] }
+    - { value: 1.05e7,  errors: [ { symerror: 3.24e3, label: "stat." } ] }

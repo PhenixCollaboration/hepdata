@@ -1,0 +1,31 @@
+independent_variables:
+  - header: { name: "$p_T$ (GeV/$c$)" }
+    values:
+      - { low: 0.2, high: 0.3 }
+      - { low: 0.3, high: 0.4 }
+      - { low: 0.4, high: 0.5 }
+      - { low: 0.5, high: 0.6 }
+      - { low: 0.6, high: 0.8 }
+      - { low: 0.8, high: 1.0 }
+      - { low: 1.0, high: 1.2 }
+      - { low: 1.2, high: 1.6 }
+      - { low: 1.6, high: 2.0 }
+      - { low: 2.0, high: 2.5 }
+      - { low: 2.5, high: 3.0 }
+      - { low: 3.0, high: 4.0 }
+    
+dependent_variables:
+- header: {name: "$v_2$"}
+  values:
+    - { value: 0.020, errors: [ { symerror: 6.8e-5, label: "stat." }, { symerror: 7.5e-4, label: "sys." } ] }
+    - { value: 0.033, errors: [ { symerror: 6.4e-5, label: "stat." }, { symerror: 1.3e-3, label: "sys." } ] }
+    - { value: 0.043, errors: [ { symerror: 6.5e-5, label: "stat." }, { symerror: 1.7e-3, label: "sys." } ] }
+    - { value: 0.051, errors: [ { symerror: 7.0e-5, label: "stat." }, { symerror: 2.0e-3, label: "sys." } ] }
+    - { value: 0.066, errors: [ { symerror: 5.8e-5, label: "stat." }, { symerror: 2.5e-3, label: "sys." } ] }
+    - { value: 0.082, errors: [ { symerror: 7.3e-5, label: "stat." }, { symerror: 3.1e-3, label: "sys." } ] }
+    - { value: 0.095, errors: [ { symerror: 9.2e-5, label: "stat." }, { symerror: 3.7e-3, label: "sys." } ] }
+    - { value: 0.113, errors: [ { symerror: 9.1e-5, label: "stat." }, { symerror: 4.3e-3, label: "sys." } ] }
+    - { value: 0.136, errors: [ { symerror: 1.5e-4, label: "stat." }, { symerror: 5.2e-3, label: "sys." } ] }
+    - { value: 0.154, errors: [ { symerror: 2.2e-4, label: "stat." }, { symerror: 5.9e-3, label: "sys." } ] }
+    - { value: 0.165, errors: [ { symerror: 4.0e-4, label: "stat." }, { symerror: 6.4e-3, label: "sys." } ] }
+    - { value: 0.163, errors: [ { symerror: 6.0e-4, label: "stat." }, { symerror: 1.0e-2, label: "sys." } ] }
