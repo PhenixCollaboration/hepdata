@@ -1,0 +1,162 @@
+#PHENIX paper PPG253
+#
+#
+#
+#Prepared by Eleanna Soto
+#PPG liaison:
+#Reviewer:
+#
+comment: | # Information that applies to all data tables.
+ We present the first forward-rapidity measurements of elliptic anisotropy of open-heavy-flavor muons at the Relativistic Heavy Ion Collider. The measurements are based on data samples of Au$+$Au collisions at $\sqrt{s_{_{NN}}}=200$ GeV collected by the PHENIX experiment in 2014 and 2016 with integrated luminosity of 14.5~nb$^{-1}$. The measurements are performed in the pseudorapidity range $1.2<|\eta|<2$ and cover transverse momenta $1<p_T<4$~GeV/$c$. The elliptic flow of charged hadrons as a function of transverse momentum is also measured in the same kinematic range. We observe significant elliptic flow for both charged hadrons and heavy-flavor muons. The results show clear mass ordering of elliptic flow of light- and heavy-flavor particles. The magnitude of the measured $v_2$ is comparable to that in the midrapidity region. This indicates that there is no strong longitudinal dependence in the quark-gluon-plasma evolution between midrapidity and the rapidity range of this measurement at $\sqrt{s_{_{NN}}}=200$~GeV.
+---
+# This is Figure 1.
+name: "Figure 7"
+location: Data From Table 1 
+description: 'Lastgap $v_2$'
+keywords: # used for searching, possibly multiple values for each keyword
+- name: reactions
+  values: [AU AU --> MULT(CHARGED) X]
+- name: observables
+  values: [DN/DETARAP]
+- name: cmenergies
+  values: [200]
+data_file: fig7.yaml
+additional_resources:
+- {description: Thumbnail Image file, location: thumb_fig7.png}
+---
+# This is Figure 1.
+name: "Figure 8"
+location: Data From Table 1 
+description: 'Hadron-Muon Ratio at $1.2 < |\eta| < 2.0$'
+keywords: # used for searching, possibly multiple values for each keyword
+- name: reactions
+  values: [AU AU --> MULT(CHARGED) X]
+- name: observables
+  values: [DN/DETARAP]
+- name: cmenergies
+  values: [200]
+data_file: fig8.yaml
+additional_resources:
+- {description: Thumbnail Image file, location: thumb_fig8a.png}
+- {description: Thumbnail Image file, location: thumb_fig8b.png}
+---
+# This is Figure 1.
+name: "Figure 9a"
+location: Data From Table 1 
+description: 'HF Fraction at $1.2 < |\eta| < 2.0$ Top Tuned Slim'
+keywords: # used for searching, possibly multiple values for each keyword
+- name: reactions
+  values: [AU AU --> MULT(CHARGED) X]
+- name: observables
+  values: [DN/DETARAP]
+- name: cmenergies
+  values: [200]
+data_file: fig9.1.yaml
+additional_resources:
+- {description: Thumbnail Image file, location: thumb_fig9.png}
+---
+# This is Figure 2.
+name: "Figure 9b"
+location: Data From Table 1 
+description: 'HF Fraction at $1.2 < |\eta| < 2.0$ Top Muon Rich Data'
+keywords: # used for searching, possibly multiple values for each keyword
+- name: reactions
+  values: [AU AU --> MULT(CHARGED) X]
+- name: observables
+  values: [DN/DETARAP]
+- name: cmenergies
+  values: [200]
+data_file: fig9.2.yaml
+additional_resources:
+- {description: Thumbnail Image file, location: thumb_fig9.png}
+---
+# This is Figure 2.
+name: "Figure 9c"
+location: Data From Table 1
+description: 'HF Fraction at $1.2 < |\eta| < 2.0$ Bottom Ratio'
+keywords: # used for searching, possibly multiple values for each keyword
+- name: reactions
+  values: [AU AU --> MULT(CHARGED) X]
+- name: observables
+  values: [DN/DETARAP]
+- name: cmenergies
+  values: [200]
+data_file: fig9.3.yaml
+additional_resources:
+- {description: Thumbnail Image file, location: thumb_fig9.png}
+---
+# This is Figure 2.
+name: "Figure 10a"
+location: Data From Table 1
+description: 'Charged Hadron $v_2$; $|\eta| < 0.35$'
+keywords: # used for searching, possibly multiple values for each keyword
+- name: reactions
+  values: [AU AU --> MULT(CHARGED) X]
+- name: observables
+  values: [DN/DETARAP]
+- name: cmenergies
+  values: [200]
+data_file: fig10.1.yaml
+additional_resources:
+- {description: Thumbnail Image file, location: thumb_fig10.png}
+---
+---
+# This is Figure 2.
+name: "Figure 10b"
+location: Data From Table 1
+description: 'Charged Hadron $v_2$; $1.2 < |\eta| < 2.0$'
+keywords: # used for searching, possibly multiple values for each keyword
+- name: reactions
+  values: [AU AU --> MULT(CHARGED) X]
+- name: observables
+  values: [DN/DETARAP]
+- name: cmenergies
+  values: [200]
+data_file: fig10.2.yaml
+additional_resources:
+- {description: Thumbnail Image file, location: thumb_fig10.png}
+---
+# This is Figure 2.
+name: "Figure 11a"
+location: Data From Table 1
+description: 'Charged Hadron; $1.2 < |\eta| < 2.0$'
+keywords: # used for searching, possibly multiple values for each keyword
+- name: reactions
+  values: [AU AU --> MULT(CHARGED) X]
+- name: observables
+  values: [DN/DETARAP]
+- name: cmenergies
+  values: [200]
+data_file: fig11.1.yaml
+additional_resources:
+- {description: Thumbnail Image file, location: thumb_fig11.png}
+---
+# This is Figure 2.
+name: "Figure 11b"
+location: Data From Table 1
+description: 'HF -> $\mu$; $1.2 < |\eta| < 2.0$'
+keywords: # used for searching, possibly multiple values for each keyword
+- name: reactions
+  values: [AU AU --> MULT(CHARGED) X]
+- name: observables
+  values: [DN/DETARAP]
+- name: cmenergies
+  values: [200]
+data_file: fig11.2.yaml
+additional_resources:
+- {description: Thumbnail Image file, location: thumb_fig11.png}
+---
+# This is Figure 2.
+name: "Figure 11c"
+location: Data From Table 1
+description: ' HF -> $e$; $|\eta| < 0.35$'
+keywords: # used for searching, possibly multiple values for each keyword
+- name: reactions
+  values: [AU AU --> MULT(CHARGED) X]
+- name: observables
+  values: [DN/DETARAP]
+- name: cmenergies
+  values: [200]
+data_file: fig11.3.yaml
+additional_resources:
+- {description: Thumbnail Image file, location: thumb_fig11.png}

@@ -1,0 +1,34 @@
+
+independent_variables:
+  - header: { name: "$p_T$ (GeV/$c$)" }
+    values:
+      - { low: 1.00, high: 1.25 }
+      - { low: 1.25, high: 1.50 }
+      - { low: 1.50, high: 1.75 }
+      - { low: 1.75, high: 2.00 }
+      - { low: 2.00, high: 2.50 }
+      - { low: 2.50, high: 3.00 }
+      - { low: 3.00, high: 4.00 }
+dependent_variables:
+- header: {name: "$v_2$"}
+  qualifiers:
+    - {name: "Sample", value: "Hadron Rich"}
+  values:
+    - {value: 0.091, errors: [{label: stat, symerror: 0.004}, {label: sys, symerror: 0.005}]}
+    - {value: 0.107, errors: [{label: stat, symerror: 0.005}, {label: sys, symerror: 0.005}]}
+    - {value: 0.116, errors: [{label: stat, symerror: 0.005}, {label: sys, symerror: 0.006}]}
+    - {value: 0.127, errors: [{label: stat, symerror: 0.006}, {label: sys, symerror: 0.008}]}
+    - {value: 0.144, errors: [{label: stat, symerror: 0.008}, {label: sys, symerror: 0.011}]}
+    - {value: 0.148, errors: [{label: stat, symerror: 0.012}, {label: sys, symerror: 0.011}]}
+    - {value: 0.110, errors: [{label: stat, symerror: 0.023}, {label: sys, symerror: 0.029}]}
+- header: {name: "$v_2$"}
+  qualifiers:
+    - {name: "Sample", value: "Muon Rich"}
+  values:
+    - {value: 0.100, errors: [{label: stat, symerror: 0.002}, {label: sys, symerror: 0.005}]}
+    - {value: 0.111, errors: [{label: stat, symerror: 0.002}, {label: sys, symerror: 0.005}]}
+    - {value: 0.118, errors: [{label: stat, symerror: 0.002}, {label: sys, symerror: 0.006}]}
+    - {value: 0.120, errors: [{label: stat, symerror: 0.004}, {label: sys, symerror: 0.006}]}
+    - {value: 0.122, errors: [{label: stat, symerror: 0.003}, {label: sys, symerror: 0.006}]}
+    - {value: 0.115, errors: [{label: stat, symerror: 0.004}, {label: sys, symerror: 0.005}]}
+    - {value: 0.095, errors: [{label: stat, symerror: 0.008}, {label: sys, symerror: 0.023}]}
