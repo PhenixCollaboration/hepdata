@@ -11,7 +11,7 @@ comment: | # Information that applies to all data tables.
 ---
 # This is Figure 1.
 name: "Figure 7"
-location: Data From Table 1 
+location: Data from Figure 7
 description: 'Lastgap $v_2$'
 keywords: # used for searching, possibly multiple values for each keyword
 - name: reactions
@@ -26,7 +26,7 @@ additional_resources:
 ---
 # This is Figure 1.
 name: "Figure 8"
-location: Data From Table 1 
+location: Data from Figure 8
 description: 'Hadron-Muon Ratio at $1.2 < |\eta| < 2.0$'
 keywords: # used for searching, possibly multiple values for each keyword
 - name: reactions
@@ -42,7 +42,7 @@ additional_resources:
 ---
 # This is Figure 1.
 name: "Figure 9a"
-location: Data From Table 1 
+location: Data from Figure 9
 description: 'HF Fraction at $1.2 < |\eta| < 2.0$ Top Tuned Slim'
 keywords: # used for searching, possibly multiple values for each keyword
 - name: reactions
@@ -51,13 +51,13 @@ keywords: # used for searching, possibly multiple values for each keyword
   values: [DN/DETARAP]
 - name: cmenergies
   values: [200]
-data_file: fig9.1.yaml
+data_file: Figure9Sim.yaml
 additional_resources:
 - {description: Thumbnail Image file, location: thumb_fig9.png}
 ---
 # This is Figure 2.
 name: "Figure 9b"
-location: Data From Table 1 
+location: Data from Figure 9
 description: 'HF Fraction at $1.2 < |\eta| < 2.0$ Top Muon Rich Data'
 keywords: # used for searching, possibly multiple values for each keyword
 - name: reactions
@@ -66,13 +66,13 @@ keywords: # used for searching, possibly multiple values for each keyword
   values: [DN/DETARAP]
 - name: cmenergies
   values: [200]
-data_file: fig9.2.yaml
+data_file: Figure9Top.yaml
 additional_resources:
 - {description: Thumbnail Image file, location: thumb_fig9.png}
 ---
 # This is Figure 2.
 name: "Figure 9c"
-location: Data From Table 1
+location: Data from Figure 9
 description: 'HF Fraction at $1.2 < |\eta| < 2.0$ Bottom Ratio'
 keywords: # used for searching, possibly multiple values for each keyword
 - name: reactions
@@ -81,29 +81,13 @@ keywords: # used for searching, possibly multiple values for each keyword
   values: [DN/DETARAP]
 - name: cmenergies
   values: [200]
-data_file: fig9.3.yaml
+data_file: Figure9Bottom.yaml
 additional_resources:
 - {description: Thumbnail Image file, location: thumb_fig9.png}
 ---
 # This is Figure 2.
 name: "Figure 10a"
-location: Data From Table 1
-description: 'Charged Hadron $v_2$; $|\eta| < 0.35$'
-keywords: # used for searching, possibly multiple values for each keyword
-- name: reactions
-  values: [AU AU --> MULT(CHARGED) X]
-- name: observables
-  values: [DN/DETARAP]
-- name: cmenergies
-  values: [200]
-data_file: fig10.1.yaml
-additional_resources:
-- {description: Thumbnail Image file, location: thumb_fig10.png}
----
----
-# This is Figure 2.
-name: "Figure 10b"
-location: Data From Table 1
+location: Data from Figure 10
 description: 'Charged Hadron $v_2$; $1.2 < |\eta| < 2.0$'
 keywords: # used for searching, possibly multiple values for each keyword
 - name: reactions
@@ -118,7 +102,7 @@ additional_resources:
 ---
 # This is Figure 2.
 name: "Figure 11a"
-location: Data From Table 1
+location: Data from Figure 11
 description: 'Charged Hadron; $1.2 < |\eta| < 2.0$'
 keywords: # used for searching, possibly multiple values for each keyword
 - name: reactions
@@ -133,7 +117,7 @@ additional_resources:
 ---
 # This is Figure 2.
 name: "Figure 11b"
-location: Data From Table 1
+location: Data from Figure 11
 description: 'HF -> $\mu$; $1.2 < |\eta| < 2.0$'
 keywords: # used for searching, possibly multiple values for each keyword
 - name: reactions
@@ -148,7 +132,7 @@ additional_resources:
 ---
 # This is Figure 2.
 name: "Figure 11c"
-location: Data From Table 1
+location: Data from Figure 11
 description: ' HF -> $e$; $|\eta| < 0.35$'
 keywords: # used for searching, possibly multiple values for each keyword
 - name: reactions

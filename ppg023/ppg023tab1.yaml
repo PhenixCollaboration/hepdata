@@ -1,210 +1,210 @@
 independent_variables:
 - header: {name: '$p_{T}[GeV/c]$'}
   values:
-  - {low: 0.50, high: 0.60}
-  - {low: 0.60, high: 0.70}
-  - {low: 0.70, high: 0.80}
-  - {low: 0.80, high: 0.90}
-  - {low: 0.90, high: 1.00}
-  - {low: 1.00, high: 1.10}
-  - {low: 1.10, high: 1.20}
-  - {low: 1.20, high: 1.30}
-  - {low: 1.30, high: 1.40}
-  - {low: 1.40, high: 1.50}
-  - {low: 1.50, high: 1.60}
-  - {low: 1.60, high: 1.70}
-  - {low: 1.70, high: 1.80}
-  - {low: 1.80, high: 1.90}
-  - {low: 1.90, high: 2.00}
-  - {low: 2.00, high: 2.20}
-  - {low: 2.20, high: 2.40}
-  - {low: 2.40, high: 2.60}
-  - {low: 2.60, high: 2.80}
-  - {low: 2.80, high: 3.00}
-  - {low: 3.00, high: 3.25}
-  - {low: 3.25, high: 3.50}
-  - {low: 3.50, high: 3.75}
-  - {low: 3.75, high: 4.00}
-  - {low: 4.00, high: 4.40}
-  - {low: 4.40, high: 4.80}
-  - {low: 4.80, high: 5.20}
-  - {low: 5.20, high: 5.60}
-  - {low: 5.60, high: 6.00}
-  - {low: 6.00, high: 6.50}
-  - {low: 6.50, high: 7.00}
-  - {low: 7.00, high: 8.00}
-  - {low: 8.00, high: 9.00}
-  - {low: 9.00, high: 10.00}
+  - {low: 0.5, high: 0.6}
+  - {low: 0.6, high: 0.7}
+  - {low: 0.7, high: 0.8}
+  - {low: 0.8, high: 0.9}
+  - {low: 0.9, high: 1}
+  - {low: 1, high: 1.1}
+  - {low: 1.1, high: 1.2}
+  - {low: 1.2, high: 1.3}
+  - {low: 1.3, high: 1.4}
+  - {low: 1.4, high: 1.5}
+  - {low: 1.5, high: 1.6}
+  - {low: 1.6, high: 1.7}
+  - {low: 1.7, high: 1.8}
+  - {low: 1.8, high: 1.9}
+  - {low: 1.9, high: 2}
+  - {low: 2, high: 2.2}
+  - {low: 2.2, high: 2.4}
+  - {low: 2.4, high: 2.6}
+  - {low: 2.6, high: 2.8}
+  - {low: 2.8, high: 3}
+  - {low: 3, high: 3.25}
+  - {low: 3.25, high: 3.5}
+  - {low: 3.5, high: 3.75}
+  - {low: 3.75, high: 4}
+  - {low: 4, high: 4.4}
+  - {low: 4.4, high: 4.8}
+  - {low: 4.8, high: 5.2}
+  - {low: 5.2, high: 5.6}
+  - {low: 5.6, high: 6}
+  - {low: 6, high: 6.5}
+  - {low: 6.5, high: 7}
+  - {low: 7, high: 8}
+  - {low: 8, high: 9}
+  - {low: 9, high: 10}
 dependent_variables:
 - header: {name: '$1/(2\pi p_TN_{evt})d^2N/dp_Td\eta$'}
   values:
-  - value: 0.28
+  - value: 0.284
     errors:
-    - {symerror: 0.03, label: 'norm'}
-    - {asymerror: {plus: 0.01, minus: 0.03}, label: 'fit'}
-    - {asymerror: {plus: 0.04, minus: 0.02}, label: '$\pi^0$'}
-  - value: 0.17
+    - {symerror: 0.030, label: 'norm'}
+    - {asymerror: {plus: 0.010, minus: 0.026}, label: 'fit'}
+    - {asymerror: {plus: 0.043, minus: 0.017}, label: '$\pi^0$'}
+  - value: 0.171
     errors:
-    - {symerror: 0.02, label: 'norm'}
-    - {asymerror: {plus: 0.01, minus: 0.02}, label: 'fit'}
-    - {asymerror: {plus: 0.03, minus: 0.01}, label: '$\pi^0$'}
-  - value: 0.11
+    - {symerror: 0.018, label: 'norm'}
+    - {asymerror: {plus: 0.006, minus: 0.016}, label: 'fit'}
+    - {asymerror: {plus: 0.026, minus: 0.010}, label: '$\pi^0$'}
+  - value: 0.105
     errors:
-    - {symerror: 0.01, label: 'norm'}
-    - {asymerror: {plus: 0.004, minus: 0.01}, label: 'fit'}
-    - {asymerror: {plus: 0.02, minus: 0.01}, label: '$\pi^0$'}
-  - value: 0.07
+    - {symerror: 0.011, label: 'norm'}
+    - {asymerror: {plus: 0.004, minus: 0.010}, label: 'fit'}
+    - {asymerror: {plus: 0.016, minus: 0.006}, label: '$\pi^0$'}
+  - value: 0.0662
     errors:
-    - {symerror: 0.01, label: 'norm'}
-    - {asymerror: {plus: 0.003, minus: 0.01}, label: 'fit'}
-    - {asymerror: {plus: 0.01, minus: 0.004}, label: '$\pi^0$'}
-  - value: 0.04
+    - {symerror: 0.0069, label: 'norm'}
+    - {asymerror: {plus: 0.0026, minus: 0.0060}, label: 'fit'}
+    - {asymerror: {plus: 0.0099, minus: 0.0039}, label: '$\pi^0$'}
+  - value: 0.0425
     errors:
-    - {symerror: 0.004, label: 'norm'}
-    - {asymerror: {plus: 0.002, minus: 0.004}, label: 'fit'}
-    - {asymerror: {plus: 0.01, minus: 0.003}, label: '$\pi^0$'}
-  - value: 0.03
+    - {symerror: 0.0044, label: 'norm'}
+    - {asymerror: {plus: 0.0017, minus: 0.0038}, label: 'fit'}
+    - {asymerror: {plus: 0.0062, minus: 0.0025}, label: '$\pi^0$'}
+  - value: 0.0277
     errors:
-    - {symerror: 0.003, label: 'norm'}
-    - {asymerror: {plus: 0.001, minus: 0.002}, label: 'fit'}
-    - {asymerror: {plus: 0.004, minus: 0.002}, label: '$\pi^0$'}
-  - value: 0.02
+    - {symerror: 0.0029, label: 'norm'}
+    - {asymerror: {plus: 0.0012, minus: 0.0024}, label: 'fit'}
+    - {asymerror: {plus: 0.0040, minus: 0.0016}, label: '$\pi^0$'}
+  - value: 0.0183
     errors:
-    - {symerror: 0.002, label: 'norm'}
-    - {asymerror: {plus: 0.001, minus: 0.002}, label: 'fit'}
-    - {asymerror: {plus: 0.003, minus: 0.001}, label: '$\pi^0$'}
-  - value: 0.01
+    - {symerror: 0.0019, label: 'norm'}
+    - {asymerror: {plus: 8e-4, minus: 0.0016}, label: 'fit'}
+    - {asymerror: {plus: 0.0025, minus: 0.0011}, label: '$\pi^0$'}
+  - value: 0.0123
     errors:
-    - {symerror: 0.001, label: 'norm'}
-    - {asymerror: {plus: 0.001, minus: 0.001}, label: 'fit'}
-    - {asymerror: {plus: 0.002, minus: 0.001}, label: '$\pi^0$'}
-  - value: 0.01
+    - {symerror: 0.0013, label: 'norm'}
+    - {asymerror: {plus: 5e-4, minus: 0.0011}, label: 'fit'}
+    - {asymerror: {plus: 0.0016, minus: 7e-4}, label: '$\pi^0$'}
+  - value: 0.0083
     errors:
-    - {symerror: 0.001, label: 'norm'}
-    - {asymerror: {plus: 0.0004, minus: 0.001}, label: 'fit'}
-    - {asymerror: {plus: 0.001, minus: 0.0005}, label: '$\pi^0$'}
-  - value: 0.01
+    - {symerror: 9e-4, label: 'norm'}
+    - {asymerror: {plus: 4e-4, minus: 7e-4}, label: 'fit'}
+    - {asymerror: {plus: 0.0011, minus: 5e-4}, label: '$\pi^0$'}
+  - value: 0.00574
     errors:
-    - {symerror: 0.001, label: 'norm'}
-    - {asymerror: {plus: 0.0003, minus: 0.0005}, label: 'fit'}
-    - {asymerror: {plus: 0.001, minus: 0.0003}, label: '$\pi^0$'}
-  - value: 0.004
+    - {symerror: 6.0e-4, label: 'norm'}
+    - {asymerror: {plus: 2.6e-4, minus: 4.8e-4}, label: 'fit'}
+    - {asymerror: {plus: 6.9e-4, minus: 3.4e-4}, label: '$\pi^0$'}
+  - value: 0.00399
     errors:
-    - {symerror: 0.0004, label: 'norm'}
-    - {asymerror: {plus: 0.0002, minus: 0.0003}, label: 'fit'}
-    - {asymerror: {plus: 0.0004, minus: 0.0002}, label: '$\pi^0$'}
-  - value: 0.003
+    - {symerror: 4.1e-4, label: 'norm'}
+    - {asymerror: {plus: 1.9e-4, minus: 3.3e-4}, label: 'fit'}
+    - {asymerror: {plus: 4.5e-4, minus: 2.4e-4}, label: '$\pi^0$'}
+  - value: 0.00280
     errors:
-    - {symerror: 0.0003, label: 'norm'}
-    - {asymerror: {plus: 0.0001, minus: 0.0002}, label: 'fit'}
-    - {asymerror: {plus: 0.0003, minus: 0.0002}, label: '$\pi^0$'}
-  - value: 0.002
+    - {symerror: 2.9e-4, label: 'norm'}
+    - {asymerror: {plus: 1.3e-4, minus: 2.3e-4}, label: 'fit'}
+    - {asymerror: {plus: 2.9e-4, minus: 1.7e-4}, label: '$\pi^0$'}
+  - value: 0.00199
     errors:
-    - {symerror: 0.0002, label: 'norm'}
-    - {asymerror: {plus: 0.0001, minus: 0.0002}, label: 'fit'}
-    - {asymerror: {plus: 0.0002, minus: 0.0001}, label: '$\pi^0$'}
-  - value: 0.001
+    - {symerror: 2.1e-4, label: 'norm'}
+    - {asymerror: {plus: 1.0e-4, minus: 1.6e-4}, label: 'fit'}
+    - {asymerror: {plus: 1.9e-4, minus: 1.2e-4}, label: '$\pi^0$'}
+  - value: 0.00143
     errors:
-    - {symerror: 0.0001, label: 'norm'}
-    - {asymerror: {plus: 0.0001, minus: 0.0001}, label: 'fit'}
-    - {asymerror: {plus: 0.0001, minus: 0.0001}, label: '$\pi^0$'}
-  - value: 0.001
+    - {symerror: 1.5e-4, label: 'norm'}
+    - {asymerror: {plus: 7e-5, minus: 1.1e-4}, label: 'fit'}
+    - {asymerror: {plus: 1.3e-4, minus: 8e-5}, label: '$\pi^0$'}
+  - value: 0.00104
     errors:
-    - {symerror: 0.0001, label: 'norm'}
-    - {asymerror: {plus: 0.0001, minus: 0.0001}, label: 'fit'}
-    - {asymerror: {plus: 0.0001, minus: 0.0001}, label: '$\pi^0$'}
-  - value: 0.001
+    - {symerror: 1.1e-4, label: 'norm'}
+    - {asymerror: {plus: 5e-5, minus: 8e-5}, label: 'fit'}
+    - {asymerror: {plus: 8e-5, minus: 6e-5}, label: '$\pi^0$'}
+  - value: 6.52e-4
     errors:
-    - {symerror: 0.0001, label: 'norm'}
-    - {asymerror: {plus: 0.00003, minus: 0.00005}, label: 'fit'}
-    - {asymerror: {plus: 0.00005, minus: 0.00004}, label: '$\pi^0$'}
-  - value: 0.0004
+    - {symerror: 6.8e-5, label: 'norm'}
+    - {asymerror: {plus: 3.3e-5, minus: 5.0e-5}, label: 'fit'}
+    - {asymerror: {plus: 4.8e-5, minus: 3.8e-5}, label: '$\pi^0$'}
+  - value: 3.64e-4
     errors:
-    - {symerror: 0.00004, label: 'norm'}
-    - {asymerror: {plus: 0.00002, minus: 0.00003}, label: 'fit'}
-    - {asymerror: {plus: 0.00002, minus: 0.00002}, label: '$\pi^0$'}
-  - value: 0.0002
+    - {symerror: 3.8e-5, label: 'norm'}
+    - {asymerror: {plus: 1.9e-5, minus: 2.7e-5}, label: 'fit'}
+    - {asymerror: {plus: 2.3e-5, minus: 2.1e-5}, label: '$\pi^0$'}
+  - value: 2.09e-4
     errors:
-    - {symerror: 0.00002, label: 'norm'}
-    - {asymerror: {plus: 0.00001, minus: 0.00002}, label: 'fit'}
-    - {asymerror: {plus: 0.00001, minus: 0.00001}, label: '$\pi^0$'}
-  - value: 0.0001
+    - {symerror: 2.2e-5, label: 'norm'}
+    - {asymerror: {plus: 1.2e-5, minus: 1.5e-5}, label: 'fit'}
+    - {asymerror: {plus: 1.2e-5, minus: 1.2e-5}, label: '$\pi^0$'}
+  - value: 1.24e-4
     errors:
-    - {symerror: 0.00001, label: 'norm'}
-    - {asymerror: {plus: 0.00001, minus: 0.00001}, label: 'fit'}
-    - {asymerror: {plus: 0.00001, minus: 0.00001}, label: '$\pi^0$'}
-  - value: 0.0001
+    - {symerror: 1.3e-5, label: 'norm'}
+    - {asymerror: {plus: 7e-6, minus: 9e-6}, label: 'fit'}
+    - {asymerror: {plus: 7e-6, minus: 7e-6}, label: '$\pi^0$'}
+  - value: 7.5e-5
     errors:
-    - {symerror: 0.00001, label: 'norm'}
-    - {asymerror: {plus: 0.000004, minus: 0.00001}, label: 'fit'}
-    - {asymerror: {plus: 0.000004, minus: 0.000004}, label: '$\pi^0$'}
-  - value: 0.00004
+    - {symerror: 8e-6, label: 'norm'}
+    - {asymerror: {plus: 4e-6, minus: 5e-6}, label: 'fit'}
+    - {asymerror: {plus: 4e-6, minus: 4e-6}, label: '$\pi^0$'}
+  - value: 4.44e-5
     errors:
-    - {symerror: 0.000005, label: 'norm'}
-    - {asymerror: {plus: 0.000003, minus: 0.000003}, label: 'fit'}
-    - {asymerror: {plus: 0.000003, minus: 0.000003}, label: '$\pi^0$'}
-  - value: 0.00003
+    - {symerror: 4.6e-6, label: 'norm'}
+    - {asymerror: {plus: 2.7e-6, minus: 2.9e-6}, label: 'fit'}
+    - {asymerror: {plus: 2.6e-6, minus: 2.6e-6}, label: '$\pi^0$'}
+  - value: 2.54e-5
     errors:
-    - {symerror: 0.000003, label: 'norm'}
-    - {asymerror: {plus: 0.000002, minus: 0.000002}, label: 'fit'}
-    - {asymerror: {plus: 0.000001, minus: 0.000001}, label: '$\pi^0$'}
-  - value: 0.00001
+    - {symerror: 2.6e-6, label: 'norm'}
+    - {asymerror: {plus: 1.6e-6, minus: 1.6e-6}, label: 'fit'}
+    - {asymerror: {plus: 1.5e-6, minus: 1.5e-6}, label: '$\pi^0$'}
+  - value: 1.49e-5
     errors:
-    - {symerror: 0.000002, label: 'norm'}
-    - {asymerror: {plus: 0.000001, minus: 0.000001}, label: 'fit'}
-    - {asymerror: {plus: 0.000001, minus: 0.000001}, label: '$\pi^0$'}
-  - value: 0.00001
+    - {symerror: 1.6e-6, label: 'norm'}
+    - {asymerror: {plus: 1.0e-6, minus: 9e-7}, label: 'fit'}
+    - {asymerror: {plus: 9e-7, minus: 9e-7}, label: '$\pi^0$'}
+  - value: 9.0e-6
     errors:
-    - {symerror: 0.000001, label: 'norm'}
-    - {asymerror: {plus: 0.000001, minus: 0.000001}, label: 'fit'}
-    - {asymerror: {plus: 0.000001, minus: 0.000001}, label: '$\pi^0$'}
-  - value: 0.000005
+    - {symerror: 9e-7, label: 'norm'}
+    - {asymerror: {plus: 6e-7, minus: 6e-7}, label: 'fit'}
+    - {asymerror: {plus: 5e-7, minus: 5e-7}, label: '$\pi^0$'}
+  - value: 4.87e-6
     errors:
-    - {symerror: 0.000001, label: 'norm'}
-    - {asymerror: {plus: 0.0000003, minus: 0.0000003}, label: 'fit'}
-    - {asymerror: {plus: 0.0000003, minus: 0.0000003}, label: '$\pi^0$'}
-  - value: 0.000002
+    - {symerror: 5.1e-7, label: 'norm'}
+    - {asymerror: {plus: 3.5e-7, minus: 3.1e-7}, label: 'fit'}
+    - {asymerror: {plus: 2.9e-7, minus: 2.9e-7}, label: '$\pi^0$'}
+  - value: 2.39e-6
     errors:
-    - {symerror: 0.0000002, label: 'norm'}
-    - {asymerror: {plus: 0.0000002, minus: 0.0000002}, label: 'fit'}
-    - {asymerror: {plus: 0.0000001, minus: 0.0000001}, label: '$\pi^0$'}
-  - value: 0.000001
+    - {symerror: 2.5e-7, label: 'norm'}
+    - {asymerror: {plus: 1.8e-7, minus: 1.6e-7}, label: 'fit'}
+    - {asymerror: {plus: 1.4e-7, minus: 1.4e-7}, label: '$\pi^0$'}
+  - value: 1.23e-6
     errors:
-    - {symerror: 0.0000001, label: 'norm'}
-    - {asymerror: {plus: 0.0000001, minus: 0.0000001}, label: 'fit'}
-    - {asymerror: {plus: 0.0000001, minus: 0.0000001}, label: '$\pi^0$'}
-  - value: 0.000001
+    - {symerror: 1.3e-7, label: 'norm'}
+    - {asymerror: {plus: 1.0e-7, minus: 9e-8}, label: 'fit'}
+    - {asymerror: {plus: 7e-8, minus: 7e-8}, label: '$\pi^0$'}
+  - value: 6.6e-7
     errors:
-    - {symerror: 0.0000001, label: 'norm'}
-    - {asymerror: {plus: 0.0000001, minus: 0.0000001}, label: 'fit'}
-    - {asymerror: {plus: 0.00000004, minus: 0.00000004}, label: '$\pi^0$'}
-  - value: 0.0000004
+    - {symerror: 7e-8, label: 'norm'}
+    - {asymerror: {plus: 6e-8, minus: 5e-8}, label: 'fit'}
+    - {asymerror: {plus: 4e-8, minus: 4e-8}, label: '$\pi^0$'}
+  - value: 3.67e-7
     errors:
-    - {symerror: 0.00000004, label: 'norm'}
-    - {asymerror: {plus: 0.00000003, minus: 0.00000003}, label: 'fit'}
-    - {asymerror: {plus: 0.00000002, minus: 0.00000002}, label: '$\pi^0$'}
-  - value: 0.0000002
+    - {symerror: 3.8e-8, label: 'norm'}
+    - {asymerror: {plus: 3.5e-8, minus: 3.1e-8}, label: 'fit'}
+    - {asymerror: {plus: 2.2e-8, minus: 2.2e-8}, label: '$\pi^0$'}
+  - value: 1.98e-7
     errors:
-    - {symerror: 0.00000002, label: 'norm'}
-    - {asymerror: {plus: 0.00000002, minus: 0.00000002}, label: 'fit'}
-    - {asymerror: {plus: 0.00000001, minus: 0.00000001}, label: '$\pi^0$'}
-  - value: 0.0000001
+    - {symerror: 2.1e-8, label: 'norm'}
+    - {asymerror: {plus: 2.0e-8, minus: 1.9e-8}, label: 'fit'}
+    - {asymerror: {plus: 1.2e-8, minus: 1.2e-8}, label: '$\pi^0$'}
+  - value: 1.03e-7
     errors:
-    - {symerror: 0.00000001, label: 'norm'}
-    - {asymerror: {plus: 0.00000001, minus: 0.00000001}, label: 'fit'}
-    - {asymerror: {plus: 0.00000001, minus: 0.00000001}, label: '$\pi^0$'}
-  - value: 0.00000004
+    - {symerror: 1.1e-8, label: 'norm'}
+    - {asymerror: {plus: 1.2e-8, minus: 1.2e-8}, label: 'fit'}
+    - {asymerror: {plus: 6e-9, minus: 6e-9}, label: '$\pi^0$'}
+  - value: 4.21e-8
     errors:
-    - {symerror: 0.000000004, label: 'norm'}
-    - {asymerror: {plus: 0.00000001, minus: 0.00000001}, label: 'fit'}
-    - {asymerror: {plus: 0.000000002, minus: 0.000000002}, label: '$\pi^0$'}
-  - value: 0.00000001
+    - {symerror: 4.4e-9, label: 'norm'}
+    - {asymerror: {plus: 5.4e-9, minus: 6.0e-9}, label: 'fit'}
+    - {asymerror: {plus: 2.5e-9, minus: 2.5e-9}, label: '$\pi^0$'}
+  - value: 1.42e-8
     errors:
-    - {symerror: 0.000000001, label: 'norm'}
-    - {asymerror: {plus: 0.000000002, minus: 0.000000003}, label: 'fit'}
-    - {asymerror: {plus: 0.000000001, minus: 0.000000001}, label: '$\pi^0$'}
-  - value: 0.00000001
+    - {symerror: 1.5e-9, label: 'norm'}
+    - {asymerror: {plus: 2.2e-9, minus: 2.8e-9}, label: 'fit'}
+    - {asymerror: {plus: 8e-10, minus: 8e-10}, label: '$\pi^0$'}
+  - value: 5.35e-9
     errors:
-    - {symerror: 0.000000001, label: 'norm'}
-    - {asymerror: {plus: 0.000000001, minus: 0.000000001}, label: 'fit'}
-    - {asymerror: {plus: 0.0000000003, minus: 0.0000000003}, label: '$\pi^0$'}
+    - {symerror: 5.6e-10, label: 'norm'}
+    - {asymerror: {plus: 1.03e-9, minus: 1.38e-9}, label: 'fit'}
+    - {asymerror: {plus: 3.2e-10, minus: 3.2e-10}, label: '$\pi^0$'}
