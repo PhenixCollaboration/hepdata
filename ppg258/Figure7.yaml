@@ -1,0 +1,39 @@
+independent_variables:
+- header: {name: '$p_T$ [GeV/$c$]'}
+  values:
+  - {low: 2.5, high: 3.0}
+  - {low: 3.0, high: 3.5}
+  - {low: 3.5, high: 5.0}
+dependent_variables:
+- header: {name: '$\frac{B_{\mu\mu}}{2\pi p_T} \frac{d^2N}{dydp_T} [GeV/c]^{-2}$'}
+  qualifiers:
+  - {name: 'particle', value: '$\omega+\rho$'}
+  values:
+  - value: 4.3e-7
+    errors:
+    - {symerror: 1.2e-7, label: 'uncorr'}
+    - {symerror: 6e-8, label: 'corr'}
+  - value: 1.52e-7
+    errors:
+    - {symerror: 3.6e-8, label: 'uncorr'}
+    - {symerror: 2.2e-8, label: 'corr'}
+  - value: 1.75e-8
+    errors:
+    - {symerror: 4.3e-9, label: 'uncorr'}
+    - {symerror: 2.6e-9, label: 'corr'}
+- header: {name: '$\frac{B_{\mu\mu}}{2\pi p_T} \frac{d^2\sigma}{dydp_T} [b/GeV/c]^2$'}
+  qualifiers:
+  - {name: 'particle', value: '$\phi$'}
+  values:
+  - value: 5.8e-7
+    errors:
+    - {symerror: 1.2e-7, label: 'uncorr'}
+    - {symerror: 9e-8, label: 'corr'}
+  - value: 1.76e-7
+    errors:
+    - {symerror: 3.5e-8, label: 'uncorr'}
+    - {symerror: 2.6e-8, label: 'corr'}
+  - value: 1.31e-8
+    errors:
+    - {symerror: 2.8e-9, label: 'uncorr'}
+    - {symerror: 1.9e-9, label: 'corr'}

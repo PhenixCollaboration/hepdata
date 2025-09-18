@@ -1,0 +1,22 @@
+independent_variables:
+- header: {name: '$p_T$ [GeV/$c$]'}
+  values:
+  - {low: 2.5, high: 3.0}
+  - {low: 3.0, high: 3.5}
+  - {low: 3.5, high: 5.0}
+dependent_variables:
+- header: {name: '$\frac{B_{\mu\mu}}{2\pi p_T} \frac{d^2\sigma}{dydp_T} [b/(GeV/c)^2]$'}
+  values:
+  values:
+  - value: 1.67e-10
+    errors:
+    - {symerror: 1.1e-11, label: 'uncorr'}
+    - {symerror: 1.7e-11, label: 'corr'}
+  - value: 5.5e-11
+    errors:
+    - {symerror: 4e-12, label: 'uncorr'}
+    - {symerror: 5e-12, label: 'corr'}
+  - value: 8.8e-12
+    errors:
+    - {symerror: 6e-13, label: 'uncorr'}
+    - {symerror: 9e-13, label: 'corr'}
