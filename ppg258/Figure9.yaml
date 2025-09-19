@@ -1,0 +1,39 @@
+independent_variables:
+- header: {name: '$p_T$ [GeV/$c$]'}
+  values:
+  - {low: 2.5, high: 3.0}
+  - {low: 3.0, high: 3.5}
+  - {low: 3.5, high: 5.0}
+dependent_variables:
+- header: {name: '$R_{AA}$'}
+  qualifiers:
+  - {name: 'particle', value: '$\omega+\rho$'}
+  values:
+  - value: 0.43
+    errors:
+    - {symerror: 0.12, label: 'stat'}
+    - {symerror: 0.07, label: 'sys'}
+  - value: 0.45
+    errors:
+    - {symerror: 0.11, label: 'stat'}
+    - {symerror: 0.07, label: 'sys'}
+  - value: 0.33
+    errors:
+    - {symerror: 0.09, label: 'stat'}
+    - {symerror: 0.05, label: 'sys'}
+- header: {name: '$R_{AA}$'}
+  qualifiers:
+  - {name: 'particle', value: '$\phi$'}
+  values:
+  - value: 1.20
+    errors:
+    - {symerror: 0.26, label: 'stat'}
+    - {symerror: 0.19, label: 'sys'}
+  - value: 1.08
+    errors:
+    - {symerror: 0.24, label: 'stat'}
+    - {symerror: 0.17, label: 'sys'}
+  - value: 0.45
+    errors:
+    - {symerror: 0.11, label: 'stat'}
+    - {symerror: 0.07, label: 'sys'}

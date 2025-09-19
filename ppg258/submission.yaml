@@ -1,0 +1,121 @@
+#PHENIX paper PPG258
+#
+#Low-mass vector-meson production at forward rapidity in p+p and Au+Au collisions at sNN=200~GeV
+#
+#
+#InspireHEP ID: 2942761
+#
+#Prepared by Christine Nattrass
+#Please contact Murad Sarsour
+#PPG liaison:  Murad Sarsour
+#
+---
+comment: BNL-RHIC.  The PHENIX experiment at the Relativistic Heavy Ion Collider has measured low-mass vector-meson ($\omega+\rho$ and $\phi$) production through the dimuon decay channel at forward rapidity $(1.2 < |\mbox{y}| < 2.2)$ in $p$$+$$p$ and Au$+$Au collisions at $\sqrt{s_{_{NN}}}=200$~GeV. The low-mass vector-meson yield and nuclear modification factor were measured as a function of the average number of participating nucleons, $\langle N_{\rm part}\rangle$, and the transverse momentum $p_T$. These results were compared with those obtained via the kaon decay channel in a similar $p_T$ range at midrapidity. The nuclear modification factors in both rapidity regions are consistent within the uncertainties. A comparison of the $\omega+\rho$ and $J/\psi$ mesons reveals that the light and heavy flavors are consistently suppressed across both $p_T$ and $\langle N_{\rm part}\rangle$. In contrast,  the $\phi$ meson displays a nuclear modification factor consistent with unity, suggesting strangeness enhancement in the medium formed.
+additional_resources:
+- {location: "https://arxiv.org/abs/2507.04463", description: arXiv}
+- {location: "https://inspirehep.net/literature/2942761", description: InspireHEP}
+- {description: Image file, location: Figure3.pdf}
+- {description: Image file, location: Figure4.pdf}
+- {description: Image file, location: Figure5.pdf}
+- {description: Image file, location: Figure6.pdf}
+- {description: Image file, location: Figure7.pdf}
+- {description: Image file, location: Figure8.pdf}
+- {description: Image file, location: Figure9.pdf}
+- {description: Image file, location: Figure10.pdf}
+- {description: Image file, location: Figure11.pdf}
+- {description: Image file, location: Figure12.pdf}
+#record_ids:
+#- {id: 0, type: inspire}
+#- {id: 0, type: red}
+
+---
+data_file: Figure5.yaml
+description: |
+  The differential cross sections of $\omega+\rho$ mesons as a function of $p_T$ in $p+p$ collisions.  The systematic uncertainties of type-A (uncorrelated) are combined with statistical uncertainties in quadrature and are labeled as stat. Type-B (correlated) systematic uncertainties are listed as sys.
+keywords:
+- name: reactions
+  values: [P P --> X]
+- name: cmenergies
+  values: [200.0]
+location: Data from Figure 5
+name: Figure 5
+additional_resources:
+- {description: Thumbnail Image file, location: thumb_Figure5.png}
+- {description: Image file, location: Figure5.pdf}
+---
+
+data_file: Figure6.yaml
+description: |
+  The differential cross sections of $\phi$ meson as a function of $p_T$ in $p+p$ collisions.  The systematic uncertainties of type-A (uncorrelated) are combined with statistical uncertainties in quadrature and are labeled as stat. Type-B (correlated) systematic uncertainties are listed as sys.
+keywords:
+- name: reactions
+  values: [P P --> X]
+- name: cmenergies
+  values: [200.0]
+location: Data from Figure 6
+name: Figure 6
+additional_resources:
+- {description: Thumbnail Image file, location: thumb_Figure6.png}
+- {description: Image file, location: Figure6.pdf}
+---
+data_file: Figure7.yaml
+description: |
+  The invariant yields of $\phi$ and $\omega+\rho$ mesons as a function of $p_T$ in Au+Au collisions.  The systematic uncertainties of type-A (uncorrelated) are combined with statistical uncertainties in quadrature and are labeled as stat. Type-B (correlated) systematic uncertainties are listed as sys.
+keywords:
+- name: reactions
+  values: [P P --> X]
+- name: cmenergies
+  values: [200.0]
+location: Data from Figure 7
+name: Figure 7
+additional_resources:
+- {description: Thumbnail Image file, location: thumb_Figure7.png}
+- {description: Image file, location: Figure7.pdf}
+---
+data_file: Figure8.yaml
+description: |
+  The invariant yields of $\phi$ and $\omega+\rho$ mesons as a function of $\langle N_{\rm part}\rangle$ in Au+Au collisions.  The systematic uncertainties of type-A (uncorrelated) are combined with statistical uncertainties in quadrature and are labeled as stat. Type-B (correlated) systematic uncertainties are listed as sys.
+keywords:
+- name: reactions
+  values: [P P --> X]
+- name: cmenergies
+  values: [200.0]
+location: Data from Figure 8
+name: Figure 8
+additional_resources:
+- {description: Thumbnail Image file, location: thumb_Figure8.png}
+- {description: Image file, location: Figure8.pdf}
+---
+
+data_file: Figure9.yaml
+description: |
+  $R_{AA}$ of $\phi$ meson as a function of $p_T$ for in Au+Au collisions at $\sqrt{s_{_{NN}}}=200$~GeV, compared with Cu+Au collisions at $1.2<|y|<2.2$~\cite{PhysRevC.93.024904}.  The systematic uncertainties of type-A (uncorrelated) are combined with statistical uncertainties in quadrature and are labeled as stat. Type-B (correlated) systematic uncertainties are listed as sys.
+keywords:
+- name: reactions
+  values: [P P --> X]
+- name: cmenergies
+  values: [200.0]
+location: Data from Figure 9 & 11
+name: Figure 9 & 11
+additional_resources:
+- {description: Thumbnail Image file, location: thumb_Figure9.png}
+- {description: Image file, location: Figure9.pdf}
+- {description: Thumbnail Image file, location: thumb_Figure11.png}
+- {description: Image file, location: Figure11.pdf}
+---
+data_file: Figure10.yaml
+description: |
+  $R_{AA}$ of $\phi$ meson as a function of $\langle N_{\rm part}\rangle$ for $1.2<|y|<2.2$ in Au+Au collisions at $\sqrt{s_{_{NN}}}=200$~GeV.  The systematic uncertainties of type-A (uncorrelated) are combined with statistical uncertainties in quadrature and are labeled as stat. Type-B (correlated) systematic uncertainties are listed as sys.
+keywords:
+- name: reactions
+  values: [P P --> X]
+- name: cmenergies
+  values: [200.0]
+location: Data from Figure 10 & 12
+name: Figure 10 & 12
+additional_resources:
+- {description: Thumbnail Image file, location: thumb_Figure10.png}
+- {description: Image file, location: Figure10.pdf}
+- {description: Thumbnail Image file, location: thumb_Figure12.png}
+- {description: Image file, location: Figure12.pdf}
+---

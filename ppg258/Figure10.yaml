@@ -1,0 +1,44 @@
+independent_variables:
+- header: {name: 'centrality (%)'}
+  values:
+  - {low: 0.0, high: 20.0}
+  - {low: 20.0, high: 60.0}
+  - {low: 60.0, high: 92.2}
+- header: {name: '$N_{part}$'}
+  values:
+  - value: 280.5
+  - value: 101.6
+  - value: 14.4
+dependent_variables:
+- header: {name: '$R_{AA}$'}
+  qualifiers:
+  - {name: 'particle', value: '$\omega+\rho$'}
+  values:
+  - value: 0.33
+    errors:
+    - {symerror: 0.21, label: 'stat'}
+    - {symerror: 0.05, label: 'sys'}
+  - value: 0.62
+    errors:
+    - {symerror: 0.10, label: 'stat'}
+    - {symerror: 0.10, label: 'sys'}
+  - value: 1.11
+    errors:
+    - {symerror: 0.20, label: 'stat'}
+    - {symerror: 0.18, label: 'sys'}
+- header: {name: '$R_{AA}$'}
+  qualifiers:
+  - {name: 'particle', value: '$\phi$'}
+  values:
+  - value: 0.95
+    errors:
+    - {symerror: 0.35, label: 'stat'}
+    - {symerror: 0.15, label: 'sys'}
+  - value: 1.39
+    errors:
+    - {symerror: 0.20, label: 'stat'}
+    - {symerror: 0.22, label: 'sys'}
+  - value: 1.11
+    errors:
+    - {symerror: 0.26, label: 'stat'}
+    - {symerror: 0.18, label: 'sys'}
