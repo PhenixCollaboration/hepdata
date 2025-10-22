@@ -8,104 +8,104 @@ dependent_variables:
   values:
   - errors:
     - {label: stat, symerror: 0.0279}
-    - {label: 'sys (uncorrelated)', symerror: 0.0703}
+    - {label: 'sys (uncorr)', symerror: 0.0703}
     value: 0.3851
   - errors:
     - {label: stat, symerror: 0.0504}
-    - {label: 'sys (uncorrelated)', symerror: 0.0405}
+    - {label: 'sys (uncorr)', symerror: 0.0405}
     value: 0.5068
   - errors:
     - {label: stat, symerror: 0.0209}
-    - {label: 'sys (uncorrelated)', symerror: 0.0385}
+    - {label: 'sys (uncorr)', symerror: 0.0385}
     value: 0.4816
   - errors:
     - {label: stat, symerror: 0.00440}
-    - {label: 'sys (uncorrelated)', symerror: 0.0400}
+    - {label: 'sys (uncorr)', symerror: 0.0400}
     value: 0.4967
   - errors:
     - {label: stat, symerror: 0.00599}
-    - {label: 'sys (uncorrelated)', symerror: 0.0432}
+    - {label: 'sys (uncorr)', symerror: 0.0432}
     value: 0.5167
   - errors:
     - {label: stat, symerror: 0.00652}
-    - {label: 'sys (uncorrelated)', symerror: 0.0427}
+    - {label: 'sys (uncorr)', symerror: 0.0427}
     value: 0.5395
   - errors:
     - {label: stat, symerror: 0.00787}
-    - {label: 'sys (uncorrelated)', symerror: 0.0445}
+    - {label: 'sys (uncorr)', symerror: 0.0445}
     value: 0.5407
   - errors:
     - {label: stat, symerror: 0.00912}
-    - {label: 'sys (uncorrelated)', symerror: 0.0363}
+    - {label: 'sys (uncorr)', symerror: 0.0363}
     value: 0.5431
   - errors:
     - {label: stat, symerror: 0.0109}
-    - {label: 'sys (uncorrelated)', symerror: 0.0384}
+    - {label: 'sys (uncorr)', symerror: 0.0384}
     value: 0.5755
   - errors:
     - {label: stat, symerror: 0.0126}
-    - {label: 'sys (uncorrelated)', symerror: 0.0350}
+    - {label: 'sys (uncorr)', symerror: 0.0350}
     value: 0.5276
   - errors:
     - {label: stat, symerror: 0.0141}
-    - {label: 'sys (uncorrelated)', symerror: 0.0364}
+    - {label: 'sys (uncorr)', symerror: 0.0364}
     value: 0.5651
   - errors:
     - {label: stat, symerror: 0.00960}
-    - {label: 'sys (uncorrelated)', symerror: 0.0312}
+    - {label: 'sys (uncorr)', symerror: 0.0312}
     value: 0.5465
   - errors:
     - {label: stat, symerror: 0.0159}
-    - {label: 'sys (uncorrelated)', symerror: 0.0415}
+    - {label: 'sys (uncorr)', symerror: 0.0415}
     value: 0.5694
   - errors:
     - {label: stat, symerror: 0.0149}
-    - {label: 'sys (uncorrelated)', symerror: 0.0474}
+    - {label: 'sys (uncorr)', symerror: 0.0474}
     value: 0.5693
   - errors:
     - {label: stat, symerror: 0.0192}
-    - {label: 'sys (uncorrelated)', symerror: 0.0499}
+    - {label: 'sys (uncorr)', symerror: 0.0499}
     value: 0.4956
   - errors:
     - {label: stat, symerror: 0.0306}
-    - {label: 'sys (uncorrelated)', symerror: 0.0574}
+    - {label: 'sys (uncorr)', symerror: 0.0574}
     value: 0.5278
   - errors:
     - {label: stat, symerror: 0.0405}
-    - {label: 'sys (uncorrelated)', symerror: 0.0730}
+    - {label: 'sys (uncorr)', symerror: 0.0730}
     value: 0.5774
   - errors:
     - {label: stat, symerror: 0.0584}
-    - {label: 'sys (uncorrelated)', symerror: 0.116}
+    - {label: 'sys (uncorr)', symerror: 0.116}
     value: 0.6538
   - errors:
     - {label: stat, symerror: 0.0645}
-    - {label: 'sys (uncorrelated)', symerror: 0.0790}
+    - {label: 'sys (uncorr)', symerror: 0.0790}
     value: 0.4856
   - errors:
     - {label: stat, symerror: 0.129}
-    - {label: 'sys (uncorrelated)', symerror: 0.225}
+    - {label: 'sys (uncorr)', symerror: 0.225}
     value: 0.6776
 independent_variables:
 - header: {name: PT, units: GEV}
   values:
-  - {value: 3.89}
-  - {value: 4.91}
-  - {value: 5.73}
-  - {value: 6.23}
-  - {value: 6.73}
-  - {value: 7.23}
-  - {value: 7.74}
-  - {value: 8.24}
-  - {value: 8.74}
-  - {value: 9.24}
-  - {value: 9.74}
-  - {value: 10.82}
-  - {value: 12.85}
-  - {value: 14.88}
-  - {value: 16.88}
-  - {value: 18.89}
-  - {value: 20.91}
-  - {value: 22.92}
-  - {value: 24.92}
-  - {value: 27.74}
+  - {low: 3.5, high: 4.5, value: 3.89}
+  - {low: 4.5, high: 5.5, value: 4.91}
+  - {low: 5.5, high: 6.0, value: 5.73}
+  - {low: 6.0, high: 6.5, value: 6.23}
+  - {low: 6.5, high: 7.0, value: 6.73}
+  - {low: 7.0, high: 7.5, value: 7.23}
+  - {low: 7.5, high: 8.0, value: 7.74}
+  - {low: 8.0, high: 8.5, value: 8.24}
+  - {low: 8.5, high: 9.0, value: 8.74}
+  - {low: 9.0, high: 9.5, value: 9.24}
+  - {low: 9.5, high: 10.0, value: 9.74}
+  - {low: 10.0, high: 12.0, value: 10.82}
+  - {low: 12.0, high: 14.0, value: 12.85}
+  - {low: 14.0, high: 16.0, value: 14.88}
+  - {low: 16.0, high: 18.0, value: 16.88}
+  - {low: 18.0, high: 20.0, value: 18.89}
+  - {low: 20.0, high: 22.0, value: 20.91}
+  - {low: 22.0, high: 24.0, value: 22.92}
+  - {low: 24.0, high: 26.0, value: 24.92}
+  - {low: 26.0, high: 30.0, value: 27.74}
