@@ -1,0 +1,69 @@
+#PHENIX paper PPG254
+##
+##Azimuthal anisotropy of direct photons in Au+Au collisions at √sN N = 200 GeV at  $\sqrt{s_{NN}} = 200$ GeV
+##
+##Physical Review, C 00 (year) 00000 (n/a)
+##InspireHEP ID: 2907944
+##
+##Prepared by Zhandong Sun
+##PPG liaison:
+##Reviewer: Gabor David
+##
+comment: |
+    The PHENIX experiment at the Relativistic Heavy Ion Collider measured the second Fourier component $v_{2}$ of the direct-photon azimuthal anisotropy at midrapidity in Au+Au collisions at $\sqrt{s_{NN}} = 200$ GeV. The results are presented in 10% wide bins of collision centrality and cover the transverse-momentum range of 1 < $p_T$ < 20 GeV/c, and are in quantitative agreement with findings published earlier, but provide better granularity and higher $p_T$ reach. Above a pT of 8–10 GeV/c, where hard scattering dominates the direct-photon production, $v_{2}$ is consistent with zero. Below that in each centrality bin $v_{2}$ as a function of $p_T$ is comparable to the $\pi^0$ anisotropy albeit with a tendency of being somewhat smaller. The results are compared to recent theory calculations that include, in addition to thermal radiation from the quark-gluon plasma and hadron gas, sources of photons from pre-equilibrium, strong magnetic fields, or radiative hadronization. While the newer theoretical calculations describe the data better than previous models, none of them alone can fully explain the results, particularly in the region of pT = 4–8 GeV/c.
+additional_resources:
+    - {
+          location: "https://phenix-intra.sdcc.bnl.gov/phenix/WWW/p/info/ppg/254/",
+          description: "web page with data points ",
+      }
+    - { location: "https://arxiv.org/pdf/2504.02955", description: arXiv }
+    - {
+          location: "https://inspirehep.net/literature/2907944",
+          description: InspireHEP,
+      }
+---
+additional_resources:
+    - { location: thumb_fig6.png, description: Thumbnail Image file }
+    - { location: fig6.png, description: Image file }
+name: "Figure6"
+description: " Comparison of the measured anisotropy of inclusive photon production $v^{inc}_{2}$ and the modeled anisotropy for photons from hadron decay  $v^{dec}_{2}$. Panels (a) through (f) represent 10% centrality selections from central to semiperipheral collisions. Statistical uncertainties on $v^{inc}_{2}$ are shown as error bars, while systematic uncertainties are shown as shaded bars. For $v^{dec}_{2}$ a band covering the possible systematic variations is given. "
+keywords:
+    - { name: reactions, values: [AU AU --> GAMMA X] }
+    - { name: cmenergies, values: [200] }
+    - { name: phrases, values: [ppg254, photons, anisotropy, v2] }
+data_file: fig6.yaml
+---
+additional_resources:
+    - { location: thumb_fig7.png, description: Thumbnail Image file }
+    - { location: fig7.png, description: Image file }
+name: "Figure7"
+description: " Anisotropy of direct-photon production $v^{dir}_{2}$ . Panels (a) through (f) represent 10% centrality selections from central to semiperipheral collisions. Statistical uncertainties on $v^{dir}_{2}$ are shown as error bars, while systematic uncertainties are shown as shaded bars. "
+keywords:
+    - { name: reactions, values: [AU AU --> GAMMA X] }
+    - { name: cmenergies, values: [200] }
+    - { name: phrases, values: [ppg254, photons, anisotropy, v2] }
+data_file: fig7.yaml
+---
+additional_resources:
+    - { location: thumb_fig8.png, description: Thumbnail Image file }
+    - { location: fig8.png, description: Image file }
+name: "Figure8"
+description: " Average azimuthal anisotropy for two different $p_{T}$ ranges as a function of centrality, here represented by the number of binary nucleon-nucleon collisions $N_{coll}$. Panel (a) shows the range from 2 to 3 GeV/c where the anisotropy is maximal. Panel (b) shows the high $p_{T}$ range from 10 to 20 GeV/c, where the photon is dominated by prompt production through hard scattering processes. For each point statistical errors are represented by lines, while systematic uncertainties are shown as shaded band. "
+keywords:
+    - { name: reactions, values: [AU AU --> GAMMA X] }
+    - { name: cmenergies, values: [200] }
+    - { name: phrases, values: [ppg254, photons, anisotropy, v2] }
+data_file: fig8.yaml
+---
+additional_resources:
+    - { location: thumb_fig9.png, description: Thumbnail Image file }
+    - { location: fig9.png, description: Image file }
+name: "Figure9"
+description: " Azimuthal anisotropy for 0%–20% (a) and 20%–40% (b). Again statistical errors are represented by lines, while systematic uncertainties are shown as shaded band. Some data points were moved slightly in $p_{T}$ for clarity. The data is compared to previous measurements as well as to different theoretical models including pre-equilibrium contributions in the multimessenger model, modifications to such a scenario by the magnetic field present in the reaction volume, or radiative contributions at hadronization. "
+keywords:
+    - { name: reactions, values: [AU AU --> GAMMA X] }
+    - { name: cmenergies, values: [200] }
+    - { name: phrases, values: [ppg254, photons, anisotropy, v2] }
+data_file: fig9.yaml
+---
+
