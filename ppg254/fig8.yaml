@@ -1,0 +1,66 @@
+independent_variables:
+- header: {name: '$N_{coll}$'}
+  values:
+  - {value: 951.00}
+  - {value: 590.10}
+  - {value: 357.20}
+  - {value: 207.50}
+  - {value: 111.10}
+  - {value: 54.10}
+dependent_variables:
+- header: {name: 'average $v_{2}^{dir}$'}
+  qualifiers:
+  - {name: '$N_{coll}$', value: '2GeV<$p_{T}$<3GeV'}
+  values:
+  - value: 0.055094
+    errors:
+    - {symerror: 0.000612, label: 'stat.'}
+    - {asymerror: {plus: 0.025268, minus: 0.022303}, label: 'sys.'}
+  - value: 0.123373
+    errors:
+    - {symerror: 0.000664, label: 'stat.'}
+    - {asymerror: {plus: 0.030075, minus: 0.030464}, label: 'sys.'}
+  - value: 0.147979
+    errors:
+    - {symerror: 0.000834, label: 'stat.'}
+    - {asymerror: {plus: 0.051499, minus: 0.049127}, label: 'sys.'}
+  - value: 0.160237
+    errors:
+    - {symerror: 0.001056, label: 'stat.'}
+    - {asymerror: {plus: 0.052258, minus: 0.051836}, label: 'sys.'}
+  - value: 0.150399
+    errors:
+    - {symerror: 0.00154, label: 'stat.'}
+    - {asymerror: {plus: 0.044061, minus: 0.038207}, label: 'sys.'}
+  - value: 0.114932
+    errors:
+    - {symerror: 0.003077, label: 'stat.'}
+    - {asymerror: {plus: 0.078003, minus: 0.073051}, label: 'sys.'}
+- header: {name: 'average $v_{2}^{dir}$'}
+  qualifiers:
+  - {name: '$N_{coll}$', value: '10GeV<$p_{T}$<20GeV'}
+  values:
+  - value: 0.022264
+    errors:
+    - {symerror: 0.01937, label: 'stat.'}
+    - {asymerror: {plus: 0.019517, minus: 0.01817}, label: 'sys.'}
+  - value: 0.006382
+    errors:
+    - {symerror: 0.017803, label: 'stat.'}
+    - {asymerror: {plus: 0.0196, minus: 0.019423}, label: 'sys.'}
+  - value: 0.029364
+    errors:
+    - {symerror: 0.022401, label: 'stat.'}
+    - {asymerror: {plus: 0.032334, minus: 0.028715}, label: 'sys.'}
+  - value: -0.017183
+    errors:
+    - {symerror: 0.032722, label: 'stat.'}
+    - {asymerror: {plus: 0.049508, minus: 0.039894}, label: 'sys.'}
+  - value: 0.037226
+    errors:
+    - {symerror: 0.05001, label: 'stat.'}
+    - {asymerror: {plus: 0.058904, minus: 0.050825}, label: 'sys.'}
+  - value: 0.049576
+    errors:
+    - {symerror: 0.089775, label: 'stat.'}
+    - {asymerror: {plus: 0.068811, minus: 0.06356}, label: 'sys.'}
