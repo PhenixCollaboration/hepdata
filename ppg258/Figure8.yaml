@@ -4,13 +4,13 @@ independent_variables:
   - {low: 0.0, high: 20.0}
   - {low: 20.0, high: 60.0}
   - {low: 60.0, high: 92.2}
-- header: {name: '$N_{part}$'}
+- header: {name: '$<N_{part}>$'}
   values:
   - value: 280.5
   - value: 101.6
   - value: 14.4
 dependent_variables:
-- header: {name: '$\frac{B_{\mu\mu}}{2\pi p_T} \frac{d^2N}{dydp_T}$'}
+- header: {name: '$B_{\mu\mu} \frac{dN}{dy}$'}
   qualifiers:
   - {name: 'particle', value: '$\omega+\rho$'}
   values:
@@ -26,7 +26,7 @@ dependent_variables:
     errors:
     - {symerror: 1.2e-7, label: 'stat'}
     - {symerror: 1.1e-7, label: 'sys'}
-- header: {name: '$\frac{B_{\mu\mu}}{2\pi p_T} \frac{d^2N}{dydp_T} $'}
+- header: {name: '$B_{\mu\mu} \frac{dN}{dy}$'}
   qualifiers:
   - {name: 'particle', value: '$\phi$'}
   values:
