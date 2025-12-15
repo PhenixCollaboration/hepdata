@@ -1,15 +1,19 @@
----
-comment: BNL-RHIC.  We present the first measurements of the forward and midrapidity
- $\eta$ meson cross sections from $p+p$ collisions at $\sqrt{s} = 500$ GeV and $510$ GeV, 
- respectively. We also report the midrapidity $\eta/\pi^0$ ratio at 510 GeV. The forward 
- cross section is measured differentially in $\eta$ meson transverse momentum ($p_T$) from 
- 1.0 to 6.5 GeV/c for pseudorapidity $3.0 < |\eta| < 3.8$. The midrapidity cross section 
- is measured from 3.5 to 44 GeV/c for pseudorapidity $|\eta| < 0.35$. Both cross sections 
- serve as critical inputs to an updated global analysis of the $\eta$ meson fragmentation functions
+# PHENIX paper PPG257
+#
+# Cross sections of $\eta$ mesons in $p+p$ collisions at forward rapidity at $\sqrt{s}$ = 500 GeV and central rapidity at $\sqrt{s}$ = 510 GeV
+#
+# e-Print:  2507.04896 [hep-ex] (2025)
+# InspireHEP ID: 2943245
+#
+# Please contact Devon Loomis (dloom@umich.edu) if you have any questions about this submission
+# PPG liaison: Devon Loomis
 
-#record_ids:
-#- {id: 0, type: inspire}
-#- {id: 0, type: red}
+---
+comment: |
+  We present the first measurements of the forward and midrapidity $\eta$ meson cross sections from $p+p$ collisions at $\sqrt{s} = 500$ GeV and $510$ GeV, respectively. We also report the midrapidity $\eta/\pi^0$ ratio at 510 GeV. The forward cross section is measured differentially in $\eta$ meson transverse momentum ($p_T$) from 1.0 to 6.5 GeV/c for pseudorapidity $3.0 < |\eta| < 3.8$. The midrapidity cross section is measured from 3.5 to 44 GeV/c for pseudorapidity $|\eta| < 0.35$. Both cross sections serve as critical inputs to an updated global analysis of the $\eta$ meson fragmentation functions
+additional_resources:
+  - {location: "https://phenix-intra.sdcc.bnl.gov/phenix/WWW/p/info/ppg/257/", description: "official PHENIX webpage for analysis"}
+  - {description: arXiv link, location: 'https://arxiv.org/abs/2507.04896'}
 
 ---
 data_file: Table1.yaml
@@ -24,8 +28,12 @@ keywords:
   values: []
 - name: cmenergies
   values: [500.0]
-location: Data from Table 1
-name: Table 1
+location: Data from Table 1, Figure 4
+name: Meas. 1:Forward cross section vs. $p_T^{\eta}$
+additional_resources:
+- description: Figure image
+  location: Table1.png
+  type: image/png
 
 ---
 data_file: Table2.yaml
@@ -40,8 +48,12 @@ keywords:
   values: []
 - name: cmenergies
   values: [510.0]
-location: Data from Table 2
-name: Table 2
+location: Data from Table 2, Figure 7
+name: Meas. 2:Midrapidity cross section vs. $p_T^{\eta}$
+additional_resources:
+- description: Figure image
+  location: Table2.png
+  type: image/png
 
 ---
 data_file: Table3.yaml
@@ -56,7 +68,38 @@ keywords:
   values: []
 - name: cmenergies
   values: [510.0]
-location: Data from Table 3
-name: Table 3
+location: Data from Table 3, Figure 8
+name: Meas. 3:Midrapidity $\eta/\pi^0$ ratio vs. $p_T$
+additional_resources:
+- description: Figure image
+  location: Table3.png
+  type: image/png
 
+---
+data_file: Table4.yaml
+description: |
+  Correlation matrix for the correlated systematic uncertainties of the forward rapidity $\eta$ meson cross section.
+keywords:
+- name: observables
+  values: [E*D3SIG/DP**3]
+- name: phrases
+  values: [Correlation matrix, Systematic uncertainties]
+- name: cmenergies
+  values: [500.0]
+location: Correlation matrix for Table 1
+name: Sys. corr 1:Forward cross section vs. $p_T^{\eta}$
+
+---
+data_file: Table5.yaml
+description: |
+  Correlation matrix for the correlated systematic uncertainties of the central rapidity $\eta$ meson cross section.                                    
+keywords:
+- name: observables
+  values: [E*D3SIG/DP**3]
+- name: phrases
+  values: [Correlation matrix, Systematic uncertainties]
+- name: cmenergies
+  values: [510.0]
+location: Correlation matrix for Table 2
+name: Sys. corr 2:Midrapidity cross section vs. $p_T^{\eta}$
 
