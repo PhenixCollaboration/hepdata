@@ -1,0 +1,188 @@
+independent_variables:
+- header: {name: '$\Delta\varphi$'}
+  values:
+  - {low: 0, high: 0.2618}
+  - {low: 0.2618, high: 0.5236}
+  - {low: 0.5236, high: 0.7854}
+  - {low: 0.7854, high: 1.0472}
+  - {low: 1.0472, high: 1.309}
+  - {low: 1.309, high: 1.5708}
+dependent_variables:
+- header: {name: '$R_{AB}$'}
+  qualifiers:
+  - {name: 'Collision system', value: 'U + U'}
+  - {name: '$\Delta\varphi$', value: '$R_{AB}$, $6.0 < p_{T} < 8.0$, $0-20\%$'}
+  values:
+  - value: 0.210808
+    errors:
+    - {symerror: 0.00537882, label: 'stat.'}
+    - {symerror: 0.00113841, label: 'sys.'}
+  - value: 0.204697
+    errors:
+    - {symerror: 0.00393757, label: 'stat.'}
+    - {symerror: 0.00083337, label: 'sys.'}
+  - value: 0.194111
+    errors:
+    - {symerror: 0.00144125, label: 'stat.'}
+    - {symerror: 0.000305035, label: 'sys.'}
+  - value: 0.181889
+    errors:
+    - {symerror: 0.00144125, label: 'stat.'}
+    - {symerror: 0.000305035, label: 'sys.'}
+  - value: 0.171303
+    errors:
+    - {symerror: 0.00393757, label: 'stat.'}
+    - {symerror: 0.00083337, label: 'sys.'}
+  - value: 0.165192
+    errors:
+    - {symerror: 0.00537882, label: 'stat.'}
+    - {symerror: 0.00113841, label: 'sys.'}
+
+- header: {name: '$R_{AB}$'}
+  qualifiers:
+  - {name: 'Collision system', value: 'U + U'}
+  - {name: '$\Delta\varphi$', value: '$R_{AB}$, $6.0 < p_{T} < 8.0$, $20-40\%$'}
+  values:
+  - value: 0.373550
+    errors:
+    - {symerror: 0.0103013, label: 'stat.'}
+    - {symerror: 0.00527499, label: 'sys.'}
+  - value: 0.359737
+    errors:
+    - {symerror: 0.00754104, label: 'stat.'}
+    - {symerror: 0.00386156, label: 'sys.'}
+  - value: 0.335813
+    errors:
+    - {symerror: 0.00276021, label: 'stat.'}
+    - {symerror: 0.00141343, label: 'sys.'}
+  - value: 0.308187
+    errors:
+    - {symerror: 0.00276021, label: 'stat.'}
+    - {symerror: 0.00141343, label: 'sys.'}
+  - value: 0.284263
+    errors:
+    - {symerror: 0.00754104, label: 'stat.'}
+    - {symerror: 0.00386156, label: 'sys.'}
+  - value: 0.270450
+    errors:
+    - {symerror: 0.0103013, label: 'stat.'}
+    - {symerror: 0.00527499, label: 'sys.'}
+
+- header: {name: '$R_{AB}$'}
+  qualifiers:
+  - {name: 'Collision system', value: 'U + U'}
+  - {name: '$\Delta\varphi$', value: '$R_{AB}$, $6.0 < p_{T} < 8.0$, $40-60\%$'}
+  values:
+  - value: 0.579982
+    errors:
+    - {symerror: 0.0334617, label: 'stat.'}
+    - {symerror: 0.0170302, label: 'sys.'}
+  - value: 0.554800
+    errors:
+    - {symerror: 0.0244956, label: 'stat.'}
+    - {symerror: 0.0124670, label: 'sys.'}
+  - value: 0.511182
+    errors:
+    - {symerror: 0.00896603, label: 'stat.'}
+    - {symerror: 0.00456323, label: 'sys.'}
+  - value: 0.460818
+    errors:
+    - {symerror: 0.00896603, label: 'stat.'}
+    - {symerror: 0.00456323, label: 'sys.'}
+  - value: 0.417200
+    errors:
+    - {symerror: 0.0244956, label: 'stat.'}
+    - {symerror: 0.0124670, label: 'sys.'}
+  - value: 0.392018
+    errors:
+    - {symerror: 0.0334617, label: 'stat.'}
+    - {symerror: 0.0170302, label: 'sys.'}
+- header: {name: '$S_{loss}$'}
+  qualifiers:
+  - {name: 'Collision system', value: 'U + U'}
+  - {name: '$\Delta\varphi$', value: '$S_{loss}$, $6.0 < p_{T} < 8.0$, $0-20\%$'}
+  values:
+  - value: 0.225249
+    errors:
+    - {symerror: 0.00324064, label: 'stat.'}
+    - {symerror: 0.00175987, label: 'sys.'}
+  - value: 0.228977
+    errors:
+    - {symerror: 0.00243139, label: 'stat.'}
+    - {symerror: 0.00172208, label: 'sys.'}
+  - value: 0.235659
+    errors:
+    - {symerror: 0.000930348, label: 'stat.'}
+    - {symerror: 0.00169516, label: 'sys.'}
+  - value: 0.243765
+    errors:
+    - {symerror: 0.000982337, label: 'stat.'}
+    - {symerror: 0.00174436, label: 'sys.'}
+  - value: 0.251162
+    errors:
+    - {symerror: 0.00282176, label: 'stat.'}
+    - {symerror: 0.00187307, label: 'sys.'}
+  - value: 0.255609
+    errors:
+    - {symerror: 0.00397347, label: 'stat.'}
+    - {symerror: 0.00198777, label: 'sys.'}
+
+- header: {name: '$S_{loss}$'}
+  qualifiers:
+  - {name: 'Collision system', value: 'U + U'}
+  - {name: '$\Delta\varphi$', value: '$S_{loss}$, $6.0 < p_{T} < 8.0$, $20-40\%$'}
+  values:
+  - value: 0.149071
+    errors:
+    - {symerror: 0.00384685, label: 'stat.'}
+    - {symerror: 0.00226894, label: 'sys.'}
+  - value: 0.154311
+    errors:
+    - {symerror: 0.00290621, label: 'stat.'}
+    - {symerror: 0.00188799, label: 'sys.'}
+  - value: 0.163798
+    errors:
+    - {symerror: 0.00112675, label: 'stat.'}
+    - {symerror: 0.00135507, label: 'sys.'}
+  - value: 0.175484
+    errors:
+    - {symerror: 0.00121059, label: 'stat.'}
+    - {symerror: 0.00144392, label: 'sys.'}
+  - value: 0.186334
+    errors:
+    - {symerror: 0.00353856, label: 'stat.'}
+    - {symerror: 0.00227480, label: 'sys.'}
+  - value: 0.192952
+    errors:
+    - {symerror: 0.00503933, label: 'stat.'}
+    - {symerror: 0.00294449, label: 'sys.'}
+
+- header: {name: '$S_{loss}$'}
+  qualifiers:
+  - {name: 'Collision system', value: 'U + U'}
+  - {name: '$\Delta\varphi$', value: '$S_{loss}$, $6.0 < p_{T} < 8.0$, $40-60\%$'}
+  values:
+  - value: 0.0854331
+    errors:
+    - {symerror: 0.00865006, label: 'stat.'}
+    - {symerror: 0.00445302, label: 'sys.'}
+  - value: 0.0920643
+    errors:
+    - {symerror: 0.00657171, label: 'stat.'}
+    - {symerror: 0.00342101, label: 'sys.'}
+  - value: 0.104170
+    errors:
+    - {symerror: 0.00257585, label: 'stat.'}
+    - {symerror: 0.00153984, label: 'sys.'}
+  - value: 0.119274
+    errors:
+    - {symerror: 0.00280920, label: 'stat.'}
+    - {symerror: 0.00169847, label: 'sys.'}
+  - value: 0.133514
+    errors:
+    - {symerror: 0.00834019, label: 'stat.'}
+    - {symerror: 0.00436503, label: 'sys.'}
+  - value: 0.142313
+    errors:
+    - {symerror: 0.0120016, label: 'stat.'}
+    - {symerror: 0.00620280, label: 'sys.'}
