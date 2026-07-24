@@ -1,0 +1,59 @@
+independent_variables:
+- header: {name: '$p_T$ (GeV/$c$)'}
+  values:
+  - {low: 1.126, high: 1.126}
+  - {low: 1.657, high: 1.657}
+  - {low: 2.166, high: 2.166}
+  - {low: 2.671, high: 2.671}
+  - {low: 3.177, high: 3.177}
+  - {low: 3.684, high: 3.684}
+  - {low: 4.190, high: 4.190}
+  - {low: 4.696, high: 4.696}
+  - {low: 5.323, high: 5.323}
+  - {low: 6.498, high: 6.498}
+dependent_variables:  
+- header: {name: 'The $v_2/\varepsilon_{2}$ values of $\pi^0$ mesons'}
+  qualifiers:
+  - {name: 'Collision system', value: 'U + U'}
+  - {name: 'Centrality', value: '40-50%'}
+  values:
+  - value: 0.3722
+    errors:
+    - {symerror: 0.0221, label: 'stat.'}
+    - {symerror: 0.0278, label: 'sys.'}
+  - value: 0.4340
+    errors:
+    - {symerror: 0.0222, label: 'stat.'}
+    - {symerror: 0.0320, label: 'sys.'}
+  - value: 0.4547
+    errors:
+    - {symerror: 0.0235, label: 'stat.'}
+    - {symerror: 0.0334, label: 'sys.'}
+  - value: 0.4658
+    errors:
+    - {symerror: 0.0253, label: 'stat.'}
+    - {symerror: 0.0344, label: 'sys.'}
+  - value: 0.4475
+    errors:
+    - {symerror: 0.0273, label: 'stat.'}
+    - {symerror: 0.0335, label: 'sys.'}
+  - value: 0.4371
+    errors:
+    - {symerror: 0.0328, label: 'stat.'}
+    - {symerror: 0.0335, label: 'sys.'}
+  - value: 0.3705
+    errors:
+    - {symerror: 0.0380, label: 'stat.'}
+    - {symerror: 0.0293, label: 'sys.'}
+  - value: 0.3853
+    errors:
+    - {symerror: 0.0500, label: 'stat.'}
+    - {symerror: 0.0318, label: 'sys.'}
+  - value: 0.2887
+    errors:
+    - {symerror: 0.0565, label: 'stat.'}
+    - {symerror: 0.0254, label: 'sys.'}
+  - value: 0.2146
+    errors:
+    - {symerror: 0.0882, label: 'stat.'}
+    - {symerror: 0.0222, label: 'sys.'}
