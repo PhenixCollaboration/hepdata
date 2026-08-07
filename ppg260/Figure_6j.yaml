@@ -1,49 +1,57 @@
 independent_variables:
-- header: {name: '$p_T$ (GeV/$c$)'}
-  values:
-  - {low: 1.126, high: 1.126}
-  - {low: 1.657, high: 1.657}
-  - {low: 2.166, high: 2.166}
-  - {low: 2.671, high: 2.671}
-  - {low: 3.177, high: 3.177}
-  - {low: 3.684, high: 3.684}
-  - {low: 4.289, high: 4.289}
-  - {low: 5.323, high: 5.323}
-dependent_variables:  
-- header: {name: 'The $v_2/(\varepsilon_{2}N_{part}^{1/3})$ values of $\pi^0$ mesons'}
-  qualifiers:
-  - {name: 'Collision system', value: 'U + U'}
-  - {name: 'Centrality', value: '50-60%'}
-  values:
-  - value: 0.08182
-    errors:
-    - {symerror: 0.00633, label: 'stat.'}
-    - {symerror: 0.00756, label: 'sys.'}
-  - value: 0.09658
-    errors:
-    - {symerror: 0.00547, label: 'stat.'}
-    - {symerror: 0.00847, label: 'sys.'}
-  - value: 0.10147
-    errors:
-    - {symerror: 0.00610, label: 'stat.'}
-    - {symerror: 0.00867, label: 'sys.'}
-  - value: 0.10321
-    errors:
-    - {symerror: 0.00720, label: 'stat.'}
-    - {symerror: 0.00871, label: 'sys.'}
-  - value: 0.09920
-    errors:
-    - {symerror: 0.00890, label: 'stat.'}
-    - {symerror: 0.00833, label: 'sys.'}
-  - value: 0.08595
-    errors:
-    - {symerror: 0.01144, label: 'stat.'}
-    - {symerror: 0.00723, label: 'sys.'}
-  - value: 0.08038
-    errors:
-    - {symerror: 0.01244, label: 'stat.'}
-    - {symerror: 0.00698, label: 'sys.'}
-  - value: 0.05290
-    errors:
-    - {symerror: 0.02696, label: 'stat.'}
-    - {symerror: 0.00547, label: 'sys.'}
+  - header: {name: '$p_T$ (GeV/$c$)'}
+    values:
+      - low: 1.0
+        high: 1.5
+      - low: 1.5
+        high: 2.0
+      - low: 2.0
+        high: 2.5
+      - low: 2.5
+        high: 3.0
+      - low: 3.0
+        high: 3.5
+      - low: 3.5
+        high: 4.0
+      - low: 4.0
+        high: 5.0
+      - low: 5.0
+        high: 6.0
+dependent_variables:
+  - header: {name: 'The $v_2/(\varepsilon_{2}N_{part}^{1/3})$ values of $\pi^0$ mesons'}
+    qualifiers:
+      - {name: 'Collision system', value: 'U + U'}
+      - {name: 'Centrality', value: '50-60%'}
+    values:
+      - value: 0.082
+        errors:
+          - {symerror: 0.006, label: 'stat.'}
+          - {symerror: 0.008, label: 'sys.'}
+      - value: 0.097
+        errors:
+          - {symerror: 0.005, label: 'stat.'}
+          - {symerror: 0.008, label: 'sys.'}
+      - value: 0.101
+        errors:
+          - {symerror: 0.006, label: 'stat.'}
+          - {symerror: 0.009, label: 'sys.'}
+      - value: 0.103
+        errors:
+          - {symerror: 0.007, label: 'stat.'}
+          - {symerror: 0.009, label: 'sys.'}
+      - value: 0.099
+        errors:
+          - {symerror: 0.009, label: 'stat.'}
+          - {symerror: 0.008, label: 'sys.'}
+      - value: 0.086
+        errors:
+          - {symerror: 0.011, label: 'stat.'}
+          - {symerror: 0.007, label: 'sys.'}
+      - value: 0.08
+        errors:
+          - {symerror: 0.012, label: 'stat.'}
+          - {symerror: 0.007, label: 'sys.'}
+      - value: 0.053
+        errors:
+          - {symerror: 0.027, label: 'stat.'}
+          - {symerror: 0.005, label: 'sys.'}

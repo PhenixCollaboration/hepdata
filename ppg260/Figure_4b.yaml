@@ -1,114 +1,125 @@
 independent_variables:
-- header: {name: '$p_T$ (GeV/$c$)'}
-  values:
-  - {low: 1.12, high: 1.12}
-  - {low: 1.65, high: 1.65}
-  - {low: 2.17, high: 2.17}
-  - {low: 2.67, high: 2.67}
-  - {low: 3.18, high: 3.18}
-  - {low: 3.68, high: 3.68}
-  - {low: 4.19, high: 4.19}
-  - {low: 4.70, high: 4.70}
-  - {low: 5.33, high: 5.33}
-  - {low: 6.35, high: 6.35}
-  - {low: 7.37, high: 7.37}
+  - header: {name: '$p_T$ (GeV/$c$)'}
+    values:
+      - low: 1.0
+        high: 1.5
+      - low: 1.5
+        high: 2.0
+      - low: 2.0
+        high: 2.5
+      - low: 2.5
+        high: 3.0
+      - low: 3.0
+        high: 3.5
+      - low: 3.5
+        high: 4.0
+      - low: 4.0
+        high: 4.5
+      - low: 4.5
+        high: 5.0
+      - low: 5.0
+        high: 6.0
+      - low: 6.0
+        high: 7.0
+      - low: 7.0
+        high: 8.0
 dependent_variables:
-- header: {name: 'The $v_2$ values of $\pi^0$ mesons'}
-  qualifiers:
-  - {name: 'Collision system', value: 'Cu + Au'}
-  - {name: 'Centrality', value: '40-50%'}
-  values:
-  - value: 0.1397
-    errors:
-    - {symerror: 0.0012, label: 'stat.'}
-    - {symerror: 0.0067, label: 'sys.'}
-  - value: 0.1618
-    errors:
-    - {symerror: 0.0011, label: 'stat.'}
-    - {symerror: 0.0077, label: 'sys.'}
-  - value: 0.1716
-    errors:
-    - {symerror: 0.0014, label: 'stat.'}
-    - {symerror: 0.0082, label: 'sys.'}
-  - value: 0.1729
-    errors:
-    - {symerror: 0.0020, label: 'stat.'}
-    - {symerror: 0.0084, label: 'sys.'}
-  - value: 0.1612
-    errors:
-    - {symerror: 0.0030, label: 'stat.'}
-    - {symerror: 0.0081, label: 'sys.'}
-  - value: 0.1624
-    errors:
-    - {symerror: 0.0044, label: 'stat.'}
-    - {symerror: 0.0089, label: 'sys.'}
-  - value: 0.1641
-    errors:
-    - {symerror: 0.0065, label: 'stat.'}
-    - {symerror: 0.0101, label: 'sys.'}
-  - value: 0.1609
-    errors:
-    - {symerror: 0.0093, label: 'stat.'}
-    - {symerror: 0.0116, label: 'sys.'}
-  - value: 0.1240
-    errors:
-    - {symerror: 0.0207, label: 'stat.'}
-    - {symerror: 0.0123, label: 'sys.'}
-  - value: 0.1454
-    errors:
-    - {symerror: 0.0348, label: 'stat.'}
-    - {symerror: 0.0204, label: 'sys.'}
-  - value: 0.1587
-    errors:
-    - {symerror: 0.0581, label: 'stat.'}
-    - {symerror: 0.0310, label: 'sys.'}
+  - header: {name: 'The $v_2$ values of $\pi^0$ mesons'}
+    qualifiers:
+      - {name: 'Collision system', value: 'Cu + Au'}
+      - {name: 'Centrality', value: '40-50%'}
+    values:
+      - value: 0.1397
+        errors:
+          - {symerror: 0.0012, label: 'stat.'}
+          - {symerror: 0.0067, label: 'sys.'}
+      - value: 0.1618
+        errors:
+          - {symerror: 0.0011, label: 'stat.'}
+          - {symerror: 0.0077, label: 'sys.'}
+      - value: 0.1716
+        errors:
+          - {symerror: 0.0014, label: 'stat.'}
+          - {symerror: 0.0082, label: 'sys.'}
+      - value: 0.1729
+        errors:
+          - {symerror: 0.002, label: 'stat.'}
+          - {symerror: 0.0084, label: 'sys.'}
+      - value: 0.1612
+        errors:
+          - {symerror: 0.003, label: 'stat.'}
+          - {symerror: 0.0081, label: 'sys.'}
+      - value: 0.162
+        errors:
+          - {symerror: 0.004, label: 'stat.'}
+          - {symerror: 0.009, label: 'sys.'}
+      - value: 0.164
+        errors:
+          - {symerror: 0.007, label: 'stat.'}
+          - {symerror: 0.01, label: 'sys.'}
+      - value: 0.161
+        errors:
+          - {symerror: 0.009, label: 'stat.'}
+          - {symerror: 0.012, label: 'sys.'}
+      - value: 0.124
+        errors:
+          - {symerror: 0.021, label: 'stat.'}
+          - {symerror: 0.012, label: 'sys.'}
+      - value: 0.145
+        errors:
+          - {symerror: 0.035, label: 'stat.'}
+          - {symerror: 0.02, label: 'sys.'}
+      - value: 0.159
+        errors:
+          - {symerror: 0.058, label: 'stat.'}
+          - {symerror: 0.031, label: 'sys.'}
 
-- header: {name: 'The $v_2$ values of $\pi^0$ mesons'}
-  qualifiers:
-  - {name: 'Collision system', value: 'Cu + Au'}
-  - {name: 'Centrality', value: '50-60%'}
-  values:
-  - value: 0.1411
-    errors:
-    - {symerror: 0.0016, label: 'stat.'}
-    - {symerror: 0.0087, label: 'sys.'}
-  - value: 0.1647
-    errors:
-    - {symerror: 0.0015, label: 'stat.'}
-    - {symerror: 0.0085, label: 'sys.'}
-  - value: 0.1710
-    errors:
-    - {symerror: 0.0021, label: 'stat.'}
-    - {symerror: 0.0082, label: 'sys.'}
-  - value: 0.1746
-    errors:
-    - {symerror: 0.0030, label: 'stat.'}
-    - {symerror: 0.0082, label: 'sys.'}
-  - value: 0.1744
-    errors:
-    - {symerror: 0.0046, label: 'stat.'}
-    - {symerror: 0.0085, label: 'sys.'}
-  - value: 0.1749
-    errors:
-    - {symerror: 0.0069, label: 'stat.'}
-    - {symerror: 0.0096, label: 'sys.'}
-  - value: 0.1715
-    errors:
-    - {symerror: 0.0140, label: 'stat.'}
-    - {symerror: 0.0117, label: 'sys.'}
-  - value: 0.1800
-    errors:
-    - {symerror: 0.0269, label: 'stat.'}
-    - {symerror: 0.0162, label: 'sys.'}
-  - value: 0.1637
-    errors:
-    - {symerror: 0.0326, label: 'stat.'}
-    - {symerror: 0.0233, label: 'sys.'}
-  - value: 0.0972
-    errors:
-    - {symerror: 0.0613, label: 'stat.'}
-    - {symerror: 0.0228, label: 'sys.'}
-  - value: 0.1184
-    errors:
-    - {symerror: 0.1110, label: 'stat.'}
-    - {symerror: 0.0424, label: 'sys.'}
+  - header: {name: 'The $v_2$ values of $\pi^0$ mesons'}
+    qualifiers:
+      - {name: 'Collision system', value: 'Cu + Au'}
+      - {name: 'Centrality', value: '50-60%'}
+    values:
+      - value: 0.1411
+        errors:
+          - {symerror: 0.0016, label: 'stat.'}
+          - {symerror: 0.0087, label: 'sys.'}
+      - value: 0.1647
+        errors:
+          - {symerror: 0.0015, label: 'stat.'}
+          - {symerror: 0.0085, label: 'sys.'}
+      - value: 0.171
+        errors:
+          - {symerror: 0.0021, label: 'stat.'}
+          - {symerror: 0.0082, label: 'sys.'}
+      - value: 0.1746
+        errors:
+          - {symerror: 0.003, label: 'stat.'}
+          - {symerror: 0.0082, label: 'sys.'}
+      - value: 0.174
+        errors:
+          - {symerror: 0.005, label: 'stat.'}
+          - {symerror: 0.009, label: 'sys.'}
+      - value: 0.175
+        errors:
+          - {symerror: 0.007, label: 'stat.'}
+          - {symerror: 0.01, label: 'sys.'}
+      - value: 0.172
+        errors:
+          - {symerror: 0.014, label: 'stat.'}
+          - {symerror: 0.012, label: 'sys.'}
+      - value: 0.18
+        errors:
+          - {symerror: 0.027, label: 'stat.'}
+          - {symerror: 0.016, label: 'sys.'}
+      - value: 0.164
+        errors:
+          - {symerror: 0.033, label: 'stat.'}
+          - {symerror: 0.023, label: 'sys.'}
+      - value: 0.097
+        errors:
+          - {symerror: 0.061, label: 'stat.'}
+          - {symerror: 0.023, label: 'sys.'}
+      - value: 0.12
+        errors:
+          - {symerror: 0.11, label: 'stat.'}
+          - {symerror: 0.04, label: 'sys.'}

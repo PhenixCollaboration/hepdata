@@ -1,248 +1,248 @@
 independent_variables:
-- header: {name: '$\Delta\varphi$'}
-  values:
-  - {low: 0, high: 0.2618}
-  - {low: 0.2618, high: 0.5236}
-  - {low: 0.5236, high: 0.7854}
-  - {low: 0.7854, high: 1.0472}
-  - {low: 1.0472, high: 1.309}
-  - {low: 1.309, high: 1.5708}
+  - header: {name: '$\Delta\varphi$'}
+    values:
+      - {low: 0, high: 0.2618}
+      - {low: 0.2618, high: 0.5236}
+      - {low: 0.5236, high: 0.7854}
+      - {low: 0.7854, high: 1.0472}
+      - {low: 1.0472, high: 1.309}
+      - {low: 1.309, high: 1.5708}
 dependent_variables:
-- header: {name: '$R_{AB}$'}
-  qualifiers:
-  - {name: 'Collision system', value: 'Cu + Au'}
-  - {name: '$\Delta\varphi$', value: '$R_{AB}$, $6.0 < p_{T} < 7.0$, $0-10\%$'}
-  values:
-  - value: 0.390434
-    errors:
-    - {symerror: 0.0149684, label: 'stat.'}
-    - {symerror: 0.00662983, label: 'sys.'}
-  - value: 0.380618
-    errors:
-    - {symerror: 0.0109576, label: 'stat.'}
-    - {symerror: 0.00485337, label: 'sys.'}
-  - value: 0.363615
-    errors:
-    - {symerror: 0.00401076, label: 'stat.'}
-    - {symerror: 0.00177646, label: 'sys.'}
-  - value: 0.343983
-    errors:
-    - {symerror: 0.00401076, label: 'stat.'}
-    - {symerror: 0.00177646, label: 'sys.'}
-  - value: 0.326980
-    errors:
-    - {symerror: 0.0109576, label: 'stat.'}
-    - {symerror: 0.00485337, label: 'sys.'}
-  - value: 0.317164
-    errors:
-    - {symerror: 0.0149684, label: 'stat.'}
-    - {symerror: 0.00662983, label: 'sys.'}
+  - header: {name: '$R_{AB}$'}
+    qualifiers:
+      - {name: 'Collision system', value: 'Cu + Au'}
+      - {name: '$\Delta\varphi$', value: '$R_{AB}$, $6.0 < p_{T} < 7.0$, $0-10\%$'}
+    values:
+      - value: 0.39
+        errors:
+          - {symerror: 0.015, label: 'stat.'}
+          - {symerror: 0.007, label: 'sys.'}
+      - value: 0.381
+        errors:
+          - {symerror: 0.011, label: 'stat.'}
+          - {symerror: 0.005, label: 'sys.'}
+      - value: 0.3636
+        errors:
+          - {symerror: 0.004, label: 'stat.'}
+          - {symerror: 0.0018, label: 'sys.'}
+      - value: 0.344
+        errors:
+          - {symerror: 0.004, label: 'stat.'}
+          - {symerror: 0.0018, label: 'sys.'}
+      - value: 0.327
+        errors:
+          - {symerror: 0.011, label: 'stat.'}
+          - {symerror: 0.005, label: 'sys.'}
+      - value: 0.317
+        errors:
+          - {symerror: 0.015, label: 'stat.'}
+          - {symerror: 0.007, label: 'sys.'}
 
-- header: {name: '$R_{AB}$'}
-  qualifiers:
-  - {name: 'Collision system', value: 'Cu + Au'}
-  - {name: '$\Delta\varphi$', value: '$R_{AB}$, $6.0 < p_{T} < 7.0$, $10-20\%$'}
-  values:
-  - value: 0.483935
-    errors:
-    - {symerror: 0.0158789, label: 'stat.'}
-    - {symerror: 0.0108265, label: 'sys.'}
-  - value: 0.465498
-    errors:
-    - {symerror: 0.0116241, label: 'stat.'}
-    - {symerror: 0.00792556, label: 'sys.'}
-  - value: 0.433564
-    errors:
-    - {symerror: 0.00425473, label: 'stat.'}
-    - {symerror: 0.00290095, label: 'sys.'}
-  - value: 0.396690
-    errors:
-    - {symerror: 0.00425473, label: 'stat.'}
-    - {symerror: 0.00290095, label: 'sys.'}
-  - value: 0.364756
-    errors:
-    - {symerror: 0.0116241, label: 'stat.'}
-    - {symerror: 0.00792556, label: 'sys.'}
-  - value: 0.346319
-    errors:
-    - {symerror: 0.0158789, label: 'stat.'}
-    - {symerror: 0.0108265, label: 'sys.'}
+  - header: {name: '$R_{AB}$'}
+    qualifiers:
+      - {name: 'Collision system', value: 'Cu + Au'}
+      - {name: '$\Delta\varphi$', value: '$R_{AB}$, $6.0 < p_{T} < 7.0$, $10-20\%$'}
+    values:
+      - value: 0.484
+        errors:
+          - {symerror: 0.016, label: 'stat.'}
+          - {symerror: 0.011, label: 'sys.'}
+      - value: 0.465
+        errors:
+          - {symerror: 0.012, label: 'stat.'}
+          - {symerror: 0.008, label: 'sys.'}
+      - value: 0.4336
+        errors:
+          - {symerror: 0.0043, label: 'stat.'}
+          - {symerror: 0.0029, label: 'sys.'}
+      - value: 0.3967
+        errors:
+          - {symerror: 0.0043, label: 'stat.'}
+          - {symerror: 0.0029, label: 'sys.'}
+      - value: 0.365
+        errors:
+          - {symerror: 0.012, label: 'stat.'}
+          - {symerror: 0.008, label: 'sys.'}
+      - value: 0.346
+        errors:
+          - {symerror: 0.016, label: 'stat.'}
+          - {symerror: 0.011, label: 'sys.'}
 
-- header: {name: '$R_{AB}$'}
-  qualifiers:
-  - {name: 'Collision system', value: 'Cu + Au'}
-  - {name: '$\Delta\varphi$', value: '$R_{AB}$, $6.0 < p_{T} < 7.0$, $20-40\%$'}
-  values:
-  - value: 0.661107
-    errors:
-    - {symerror: 0.0171781, label: 'stat.'}
-    - {symerror: 0.0121829, label: 'sys.'}
-  - value: 0.636798
-    errors:
-    - {symerror: 0.0125752, label: 'stat.'}
-    - {symerror: 0.00891849, label: 'sys.'}
-  - value: 0.594692
-    errors:
-    - {symerror: 0.00460286, label: 'stat.'}
-    - {symerror: 0.00326439, label: 'sys.'}
-  - value: 0.546074
-    errors:
-    - {symerror: 0.00460286, label: 'stat.'}
-    - {symerror: 0.00326439, label: 'sys.'}
-  - value: 0.503968
-    errors:
-    - {symerror: 0.0125752, label: 'stat.'}
-    - {symerror: 0.00891849, label: 'sys.'}
-  - value: 0.479659
-    errors:
-    - {symerror: 0.0171781, label: 'stat.'}
-    - {symerror: 0.0121829, label: 'sys.'}
+  - header: {name: '$R_{AB}$'}
+    qualifiers:
+      - {name: 'Collision system', value: 'Cu + Au'}
+      - {name: '$\Delta\varphi$', value: '$R_{AB}$, $6.0 < p_{T} < 7.0$, $20-40\%$'}
+    values:
+      - value: 0.661
+        errors:
+          - {symerror: 0.017, label: 'stat.'}
+          - {symerror: 0.012, label: 'sys.'}
+      - value: 0.637
+        errors:
+          - {symerror: 0.013, label: 'stat.'}
+          - {symerror: 0.009, label: 'sys.'}
+      - value: 0.5947
+        errors:
+          - {symerror: 0.0046, label: 'stat.'}
+          - {symerror: 0.0033, label: 'sys.'}
+      - value: 0.5461
+        errors:
+          - {symerror: 0.0046, label: 'stat.'}
+          - {symerror: 0.0033, label: 'sys.'}
+      - value: 0.504
+        errors:
+          - {symerror: 0.013, label: 'stat.'}
+          - {symerror: 0.009, label: 'sys.'}
+      - value: 0.48
+        errors:
+          - {symerror: 0.017, label: 'stat.'}
+          - {symerror: 0.012, label: 'sys.'}
 
-- header: {name: '$R_{AB}$'}
-  qualifiers:
-  - {name: 'Collision system', value: 'Cu + Au'}
-  - {name: '$\Delta\varphi$', value: '$R_{AB}$, $6.0 < p_{T} < 7.0$, $40-60\%$'}
-  values:
-  - value: 1.050880
-    errors:
-    - {symerror: 0.0524520, label: 'stat.'}
-    - {symerror: 0.0348516, label: 'sys.'}
-  - value: 0.995664
-    errors:
-    - {symerror: 0.0383975, label: 'stat.'}
-    - {symerror: 0.0255132, label: 'sys.'}
-  - value: 0.900033
-    errors:
-    - {symerror: 0.0140545, label: 'stat.'}
-    - {symerror: 0.00933847, label: 'sys.'}
-  - value: 0.789607
-    errors:
-    - {symerror: 0.0140545, label: 'stat.'}
-    - {symerror: 0.00933847, label: 'sys.'}
-  - value: 0.693976
-    errors:
-    - {symerror: 0.0383975, label: 'stat.'}
-    - {symerror: 0.0255132, label: 'sys.'}
-  - value: 0.638763
-    errors:
-    - {symerror: 0.0524520, label: 'stat.'}
-    - {symerror: 0.0348516, label: 'sys.'}
-- header: {name: '$S_{loss}$'}
-  qualifiers:
-  - {name: 'Collision system', value: 'Cu + Au'}
-  - {name: '$\Delta\varphi$', value: '$S_{loss}$, $6.0 < p_{T} < 7.0$, $0-10\%$'}
-  values:
-  - value: 0.142882
-    errors:
-    - {symerror: 0.00538688, label: 'stat.'}
-    - {symerror: 0.00262034, label: 'sys.'}
-  - value: 0.146453
-    errors:
-    - {symerror: 0.00402833, label: 'stat.'}
-    - {symerror: 0.00210022, label: 'sys.'}
-  - value: 0.152823
-    errors:
-    - {symerror: 0.00153190, label: 'stat.'}
-    - {symerror: 0.00133666, label: 'sys.'}
-  - value: 0.160497
-    errors:
-    - {symerror: 0.00160466, label: 'stat.'}
-    - {symerror: 0.00139798, label: 'sys.'}
-  - value: 0.167444
-    errors:
-    - {symerror: 0.00457380, label: 'stat.'}
-    - {symerror: 0.00238075, label: 'sys.'}
-  - value: 0.171594
-    errors:
-    - {symerror: 0.00640920, label: 'stat.'}
-    - {symerror: 0.00311330, label: 'sys.'}
+  - header: {name: '$R_{AB}$'}
+    qualifiers:
+      - {name: 'Collision system', value: 'Cu + Au'}
+      - {name: '$\Delta\varphi$', value: '$R_{AB}$, $6.0 < p_{T} < 7.0$, $40-60\%$'}
+    values:
+      - value: 1.051
+        errors:
+          - {symerror: 0.052, label: 'stat.'}
+          - {symerror: 0.035, label: 'sys.'}
+      - value: 0.996
+        errors:
+          - {symerror: 0.038, label: 'stat.'}
+          - {symerror: 0.026, label: 'sys.'}
+      - value: 0.9
+        errors:
+          - {symerror: 0.014, label: 'stat.'}
+          - {symerror: 0.009, label: 'sys.'}
+      - value: 0.79
+        errors:
+          - {symerror: 0.014, label: 'stat.'}
+          - {symerror: 0.009, label: 'sys.'}
+      - value: 0.694
+        errors:
+          - {symerror: 0.038, label: 'stat.'}
+          - {symerror: 0.026, label: 'sys.'}
+      - value: 0.639
+        errors:
+          - {symerror: 0.052, label: 'stat.'}
+          - {symerror: 0.035, label: 'sys.'}
+  - header: {name: '$S_{loss}$'}
+    qualifiers:
+      - {name: 'Collision system', value: 'Cu + Au'}
+      - {name: '$\Delta\varphi$', value: '$S_{loss}$, $6.0 < p_{T} < 7.0$, $0-10\%$'}
+    values:
+      - value: 0.1429
+        errors:
+          - {symerror: 0.0054, label: 'stat.'}
+          - {symerror: 0.0026, label: 'sys.'}
+      - value: 0.1465
+        errors:
+          - {symerror: 0.004, label: 'stat.'}
+          - {symerror: 0.0021, label: 'sys.'}
+      - value: 0.1528
+        errors:
+          - {symerror: 0.0015, label: 'stat.'}
+          - {symerror: 0.0013, label: 'sys.'}
+      - value: 0.1605
+        errors:
+          - {symerror: 0.0016, label: 'stat.'}
+          - {symerror: 0.0014, label: 'sys.'}
+      - value: 0.1674
+        errors:
+          - {symerror: 0.0046, label: 'stat.'}
+          - {symerror: 0.0024, label: 'sys.'}
+      - value: 0.1716
+        errors:
+          - {symerror: 0.0064, label: 'stat.'}
+          - {symerror: 0.0031, label: 'sys.'}
 
-- header: {name: '$S_{loss}$'}
-  qualifiers:
-  - {name: 'Collision system', value: 'Cu + Au'}
-  - {name: '$\Delta\varphi$', value: '$S_{loss}$, $6.0 < p_{T} < 7.0$, $10-20\%$'}
-  values:
-  - value: 0.112178
-    errors:
-    - {symerror: 0.00477561, label: 'stat.'}
-    - {symerror: 0.00336926, label: 'sys.'}
-  - value: 0.117814
-    errors:
-    - {symerror: 0.00361138, label: 'stat.'}
-    - {symerror: 0.00262384, label: 'sys.'}
-  - value: 0.128032
-    errors:
-    - {symerror: 0.00140278, label: 'stat.'}
-    - {symerror: 0.00136880, label: 'sys.'}
-  - value: 0.140646
-    errors:
-    - {symerror: 0.00151100, label: 'stat.'}
-    - {symerror: 0.00148367, label: 'sys.'}
-  - value: 0.152388
-    errors:
-    - {symerror: 0.00442819, label: 'stat.'}
-    - {symerror: 0.00323035, label: 'sys.'}
-  - value: 0.159565
-    errors:
-    - {symerror: 0.00631711, label: 'stat.'}
-    - {symerror: 0.00447050, label: 'sys.'}
+  - header: {name: '$S_{loss}$'}
+    qualifiers:
+      - {name: 'Collision system', value: 'Cu + Au'}
+      - {name: '$\Delta\varphi$', value: '$S_{loss}$, $6.0 < p_{T} < 7.0$, $10-20\%$'}
+    values:
+      - value: 0.1122
+        errors:
+          - {symerror: 0.0048, label: 'stat.'}
+          - {symerror: 0.0034, label: 'sys.'}
+      - value: 0.1178
+        errors:
+          - {symerror: 0.0036, label: 'stat.'}
+          - {symerror: 0.0026, label: 'sys.'}
+      - value: 0.128
+        errors:
+          - {symerror: 0.0014, label: 'stat.'}
+          - {symerror: 0.0014, label: 'sys.'}
+      - value: 0.1406
+        errors:
+          - {symerror: 0.0015, label: 'stat.'}
+          - {symerror: 0.0015, label: 'sys.'}
+      - value: 0.1524
+        errors:
+          - {symerror: 0.0044, label: 'stat.'}
+          - {symerror: 0.0032, label: 'sys.'}
+      - value: 0.16
+        errors:
+          - {symerror: 0.006, label: 'stat.'}
+          - {symerror: 0.004, label: 'sys.'}
 
-- header: {name: '$S_{loss}$'}
-  qualifiers:
-  - {name: 'Collision system', value: 'Cu + Au'}
-  - {name: '$\Delta\varphi$', value: '$S_{loss}$, $6.0 < p_{T} < 7.0$, $20-30\%$'}
-  values:
-  - value: 0.0655924
-    errors:
-    - {symerror: 0.00398025, label: 'stat.'}
-    - {symerror: 0.00287026, label: 'sys.'}
-  - value: 0.0713136
-    errors:
-    - {symerror: 0.00300645, label: 'stat.'}
-    - {symerror: 0.00220533, label: 'sys.'}
-  - value: 0.0816700
-    errors:
-    - {symerror: 0.00116521, label: 'stat.'}
-    - {symerror: 0.00104603, label: 'sys.'}
-  - value: 0.0944208
-    errors:
-    - {symerror: 0.00125133, label: 'stat.'}
-    - {symerror: 0.00115307, label: 'sys.'}
-  - value: 0.106255
-    errors:
-    - {symerror: 0.00365592, label: 'stat.'}
-    - {symerror: 0.00272028, label: 'sys.'}
-  - value: 0.113469
-    errors:
-    - {symerror: 0.00520483, label: 'stat.'}
-    - {symerror: 0.00379365, label: 'sys.'}
+  - header: {name: '$S_{loss}$'}
+    qualifiers:
+      - {name: 'Collision system', value: 'Cu + Au'}
+      - {name: '$\Delta\varphi$', value: '$S_{loss}$, $6.0 < p_{T} < 7.0$, $20-30\%$'}
+    values:
+      - value: 0.0656
+        errors:
+          - {symerror: 0.004, label: 'stat.'}
+          - {symerror: 0.0029, label: 'sys.'}
+      - value: 0.0713
+        errors:
+          - {symerror: 0.003, label: 'stat.'}
+          - {symerror: 0.0022, label: 'sys.'}
+      - value: 0.0817
+        errors:
+          - {symerror: 0.0012, label: 'stat.'}
+          - {symerror: 0.001, label: 'sys.'}
+      - value: 0.0944
+        errors:
+          - {symerror: 0.0013, label: 'stat.'}
+          - {symerror: 0.0012, label: 'sys.'}
+      - value: 0.1063
+        errors:
+          - {symerror: 0.0037, label: 'stat.'}
+          - {symerror: 0.0027, label: 'sys.'}
+      - value: 0.113
+        errors:
+          - {symerror: 0.005, label: 'stat.'}
+          - {symerror: 0.004, label: 'sys.'}
 
-- header: {name: '$S_{loss}$'}
-  qualifiers:
-  - {name: 'Collision system', value: 'Cu + Au'}
-  - {name: '$\Delta\varphi$', value: '$S_{loss}$, $6.0 < p_{T} < 7.0$, $30-40\%$'}
-  values:
-  - value: -0.00816837
-    errors:
-    - {symerror: 0.00824924, label: 'stat.'}
-    - {symerror: 0.00548160, label: 'sys.'}
-  - value: 0.000712127
-    errors:
-    - {symerror: 0.00631759, label: 'stat.'}
-    - {symerror: 0.00419772, label: 'sys.'}
-  - value: 0.0171181
-    errors:
-    - {symerror: 0.00251610, label: 'stat.'}
-    - {symerror: 0.00167760, label: 'sys.'}
-  - value: 0.0379843
-    errors:
-    - {symerror: 0.00280709, label: 'stat.'}
-    - {symerror: 0.00188999, label: 'sys.'}
-  - value: 0.0581301
-    errors:
-    - {symerror: 0.00854319, label: 'stat.'}
-    - {symerror: 0.00569530, label: 'sys.'}
-  - value: 0.0708442
-    errors:
-    - {symerror: 0.01250780, label: 'stat.'}
-    - {symerror: 0.00832960, label: 'sys.'}
+  - header: {name: '$S_{loss}$'}
+    qualifiers:
+      - {name: 'Collision system', value: 'Cu + Au'}
+      - {name: '$\Delta\varphi$', value: '$S_{loss}$, $6.0 < p_{T} < 7.0$, $30-40\%$'}
+    values:
+      - value: -0.008
+        errors:
+          - {symerror: 0.008, label: 'stat.'}
+          - {symerror: 0.005, label: 'sys.'}
+      - value: 0.001
+        errors:
+          - {symerror: 0.006, label: 'stat.'}
+          - {symerror: 0.004, label: 'sys.'}
+      - value: 0.0171
+        errors:
+          - {symerror: 0.0025, label: 'stat.'}
+          - {symerror: 0.0017, label: 'sys.'}
+      - value: 0.038
+        errors:
+          - {symerror: 0.0028, label: 'stat.'}
+          - {symerror: 0.0019, label: 'sys.'}
+      - value: 0.058
+        errors:
+          - {symerror: 0.009, label: 'stat.'}
+          - {symerror: 0.006, label: 'sys.'}
+      - value: 0.071
+        errors:
+          - {symerror: 0.013, label: 'stat.'}
+          - {symerror: 0.008, label: 'sys.'}
